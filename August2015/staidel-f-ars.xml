@@ -1,0 +1,1077 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="staidel-f-ars">
+            <titleStmt>
+                <title>Ars magica, versio electronica</title>
+                <author key="staidel01">
+                    <name xml:lang="dt">Staidel, Johann Franz</name>
+                    <date precision="low">floruit 1750</date>
+                </author>
+                <respStmt>
+                    <resp>Hanc versionem electronicam curavit</resp>
+                    <name>Irina Tautschnig</name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <edition>transcribed from the printed text</edition>
+            </editionStmt>
+
+            <extent>46 paginae</extent>
+
+            <publicationStmt>
+                <p>Croatica et Tyrolensia: Tyrolis Latina <date>August 2015</date>
+        </p>
+            </publicationStmt>
+
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Staidel, Johann Franz</author>
+                        <title>Ars Magica adserta a Fratre Francisco Staidelio, Ord. Min. Conventualium
+                            Theologo atque Examinatore Prosynodali</title>
+                        <imprint>
+                            <pubPlace>Trient</pubPlace>
+                            <date>1750</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <creation>
+                <date when="1750">1750</date>
+            </creation>
+            <textClass>
+                <keywords scheme="time">
+                    <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens (1773)</term>
+                </keywords>
+                <keywords scheme="genre">
+                    <term>Theologie</term>
+                    <term>Traktat</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change>corrected teiHeader and body<date>2015-09-09</date>
+                <name>Johanna Luggin</name>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+
+            <div>
+                <head>Ars Magica adserta a Fratre <persName>Francisco Staidelio</persName>, Ord. Min. Conventualium
+                    Theologo atque Examinatore Prosynodali.</head>
+            </div>
+
+            <div>
+                <head>§. I.</head>
+                <p>Vix casus nostrae diaeceseos reservatos, quorum est primus de magicis artibus,
+                    pro ingenii mei tenuitate fueram interpretatus, me quidam clanculum mordere
+                    caeperunt, quod auras verberaverim. Si quidem omnem de mundo magiam Christi
+                    cruore sublatam dictitabant, freti Sacris Literis ac veterum Patrum testimoniis,
+                    tum doctorum virorum hac de re judicia ac varia <pb n="2"/>rationum momenta
+                    objectantes me pene in dubitationem adduxere, quae omnia ad severiorem trutinam
+                    revocanda duxi, ut, quid sentiendum esset, liquido constaret. Itaque, quod
+                    Tullius sapienter l. 1. de Officiis monet, adhibui tempus et diligentiam ad rem
+                    considerandam, in eaque sententia acquiescendum tandem decrevi, quae in omnium
+                    fere animis insedit atque inveteravit, ut hic quoque illud Vincentii Lirinensis
+                    locum habere videatur: <quote>Retenta antiquitas, explosa novitas.</quote> Quod
+                    quidem antequam planum facere ingredior, quae sit Magi notio, quae ejus effecta,
+                    quam brevissime aperiam, secutus S. Bonaventurae doctrinam, quam in Romano
+                    quondam Collego didiceram. Magus, ut in praesentia sumitur, ille est, qui mira
+                    facit ope daemonis, ea vero ad tria capita commodissime refert S. Bonaventura in
+                    explanatione primi praecepti decalogi, nempe ad transmutationem naturarum, ut
+                    fecere Magi Pharaonis vertentes virgas in serpentes; ad ludificationem sensuum,
+                    ut faciunt incantatores et histriones; ad investigationem futurorum. Haec S.
+                    Bonaventura. Itaque non nulla Magorum opera ex primo capite vera fortasse sunt,
+                    ut plerosque de virgis in serpentes versis opinari video; sed plurima alia sunt
+                    ementita, quae oculos spectantium fallant. Verum tametsi omnia forent ludicra,
+                    et ad fallendos oculos composita quaevis naturarum transmutatio, uti quibusdam
+                    placet, Magia adhuc foret; quandoquidem haec sensuum ludificatio humana arte
+                    fieri nequit, aut si potest, ejusmodi artem ignoramus. Audi, si placet, quae
+                    Benedictus XIV. de Canonizatione Sanctorum l. 4. p. 1. c. 3. docte disseruit.
+                    Quaecumque ergo daemones insolita et admiranda in rebus corporeis operantur,
+                    triplici <pb n="3"/>modo operantur, juxta Doctrinam Divi Thomae 1. part. quaest.
+                    114. art. 4. In corpore et in responsione ad primum, vel per illusionem sensuum
+                    tam interiorum quam exteriorum, quibus obiiciunt, immittunt species et
+                    phantasmata earum rerum, quae nusquam sunt vel non sunt praesentes vel per
+                    summam atque imperceptam celeritatem, sublato aliquo corpore et alio in ejus
+                    locum substituto, ut subito generandum videatur, aut applicando activa passivis,
+                    ut vel generetur aliquid novum et insolitum vel aliquid solitum quidem et
+                    vulgare, sed novo et inusitato atque hominibus incognito generationis modo. Per
+                    illusionem sensuum tam interiorum quam exteriorum facta sunt ea, de quibus in
+                    Can. <quote>Nec mirum</quote> 26. quaest. 5. <quote>fertur in Gentilium Libris,
+                        quod quaedam Maga famosissima Circe Socios Ulyssis mutaverat in Bestias.
+                        Legitur et de Sacrificio, quod Arcades Deo suo Lycaeo immolabant, ex quo
+                        quicumque sumerent, in bestiarum formas convertebantur. Sed haec omnia
+                        magicis praestigiis potius fingebantur, quam verum veritate
+                        complerentur.</quote> Ad hanc eamdem classem referri posse videntur ea, quae
+                    de Strigibus narrantur ad conventicula a Daemone deportatis, juxta alium Textum
+                    in Can. <quote>Episcopi</quote> 26 quaestion. 5., ubi haec habentur:
+                        <quote>Illud etiam non est omittendum, quod quaedam sceleratae Mulieres
+                        retro post Sathanam conversae daemonum illusionibus et phantasmatibus
+                        seductae credunt et profitentur se nocturnis horis cum Diana Dea Paganorum
+                        vel cum Haerodiade et innumera multitudine Mulierum equitare supra quasdam
+                        bestias et multarum Terrarum spatia intempestae noctis silentio pertransire,
+                        ejusdem jussionibus velut Dominae obedire et certis noctibus ad ejus
+                        servitium <pb n="4"/>evocari etc. Quapropter Sacerdotes Populo praedicare
+                        debent, ut noverint haec omnino falsa esse et non a Divino, sed a maligno
+                        spiritu talia phantasmata mentibus Fidelium irrogari.</quote> Quamvis non
+                    desint Catholici scriptores, qui hasce deportationes aliquando vere factas
+                    fuisse et fieri daemonum potestate putant, Paulus Gillandus, del Rio, Laurentius
+                    Anianus, Alphonsus a Castro et Frassenus. Hactenus Sanctissimus ac doctissimus
+                    Pontifex. Itaque hic canon, quo tantopere adversarios gloriari accepimus, non eo
+                    spectat, ut ars magica negetur vel daemonem ligatum esse ostendatur, quominus
+                    praeter sollicitationem ad malum vel corporum obsessionem post Christum nil
+                    amplius possit, sed ut constet quaedam Sagarum Magorumque opera, ut nocturnas
+                    deportationes, nihil in se habere praeter inanem speciem sensuumque
+                    ludificationem, quae tamen ludificatio ope daemonis habeatur. Nec tantum in eo
+                    canone factum aliquod explicante est momenti, ut aliter opinari Theologis nefas
+                    sit, quemadmodum ex Catholicis Scriptoribus, quod Benedictus XIV. laudat,
+                    manifeste apparet.</p>
+                <p>Fere similia apud S. Bonaventuram 2. d. 8. p. 2. q. 3. legere potes, quo
+                    intelligas artem magicam posse consistere, etsi tota posita esset in sensuum
+                    nostrorum deceptione. Nam ejusmodi deceptio est mirabilis et ope daemonum facta.
+                    Ergo ex tradita Magi definitione erit vera magia. Praeterea Seraphicus Doctor
+                    hanc sensuum illusionem Daemonicam probat ex illo Exodi c. 7., ubi de Magis
+                    Pharaonis sermo est: <quote>Fecerunt Magi perincantationes et arcana quaedam
+                        similiter.</quote>Intellige igitur hanc ludificationem non solo daemono, sed
+                    simul cum homine Mago aliquando fieri.</p>
+                <pb n="5"/>
+                <p>Quod tertio loco ait S. Bonaventura de investigatione futurorum, non ita
+                    intelligendum est, ut Magus ope daemonis res futuras ex libero hominum arbitrio
+                    pendentes certo scire valeat, cum hoc solius Dei sit, <quote>Idoneum</quote>
+                    enim <quote>testimonium divinitatis</quote> ex Tertulliani Apologetico c. 20.
+                        <quote>veritas divinationis</quote>, sed quia daemones ob ingenii
+                    perspicaciam, longam experientiam et alienam doctrinam, quae futura sunt, quoquo
+                    modo interdum praesentiunt, uti explicat idem S. Doctor 2. d. 7. q. 3. His in
+                    antecessum observatis ad probationes accedamus.</p>
+            </div>
+
+            <div>
+                <head>§. II. Argumentum ex Divinis Literis.</head>
+                <p>Magos in Aegypto quondam extitisse ex c. 7. Exodi: <quote>vocavit autem Pharao
+                        sapientes et magificos et fecerunt etiam ipsi per incantationes Aegyptiacas
+                        etc.</quote>, Magos quondam etiam extituros Matth. 24.: <quote>surgent
+                        pseudochristi et pseudoprophetae et dabunt signa magna et prodigia</quote>,
+                    nos equidem Sacrae Literae dubitare non sinunt; temere igitur Magiam post
+                    Christi mortem superesse inficiantur, novatores quosdam in dispari tamen causa
+                    fere secuti. Cum enim e Sacramentorum albo expunxissent Sacrum Chrysma ac
+                    vehementer Apostolicis Literis urgeantur, illuc se se recipere coguntur, ut
+                    fateantur quondam per impositionem manuum ab Apostolis datum Spiritum Sanctum,
+                    nunc vero nobis minime impertiri. Sed utrique eadem ratione facile revincuntur.
+                    Siquidem nec <pb n="6"/>Novatores unquam probare possunt singulare fuisse
+                    apostolorum privilegium, ut passim impositis manibus tribuerent Spiritum
+                    Sanctum, nec Magorum inficiatores demonstrare, veterum duntaxat fuisse proprium,
+                    ut praestigias passim facerent, quemadmodum ex refutatione objectorum liquido
+                    apparebit. Quod si id exempli non arridet, accipe aliud ex energumenis
+                    desumptum. Quidam de energumenis ea tantum credunt, quae in Sacris Literis
+                    continentur, reliquos energumenos inficias eunt. Qui, amabo, hos revinces, si
+                    Magos solum in Sacris Literis memoratos tute fateare? Quin et de ejusmodi
+                    quibusdam, uti Simone Mago et Elyma, aut dubitas aut negas. Quid quod laudatus
+                    Matthaei textus haud modo ad novissima Antichristi tempora, sed ad ea maxime,
+                    quae Christi mortem sunt consecuta, ab Sacris Interpretibus probabiliter
+                    refertur. Eo enim loci disserit Christus de excidio Hierosolymitano, quo sane
+                    tempore pauloque post insignes sycophantas extitisse, qui se Christos ac
+                    Prophetas falso venditarent, ex historicis monumentis constat. Igitur multis
+                    annis a morte Christi viguit magia. Quid enim illi erant nisi Antichristi
+                    prodromi ac daemonis emissarii? Igitur si Antichristus ope daemonis mira
+                    patrabit, pronum est credere eadem ope illos mira patrasse, ut in errorem
+                    coniicerent vulgus.</p>
+                <p>Huc accedit, quod Lucas in actis c. 8. de Simone prodidit; hic enim Magus revera
+                    fuit artesque magicas in animarum perniciem exercuit: <quote>Vir autem quidam
+                        nomine Simon, qui ante fuerat in Civitate Magus...multo tempore magiis suis
+                        dementasset eos.</quote> Praecipit autem Augustinus in l. de Doctrina
+                    Christiana, ut Scripturae verba in sensu <pb n="7"/>obvio vulgatoque
+                    interpretemur; nisi quicquam aut absurdum aut rectae fidei adversum emergat: nil
+                    porro absurdi nilque contra fidem consequitur, si Simonem magicis revera artibus
+                    infamem interpretere. Quod si id mihi non das, nec tibi dabo Aegyptiacos
+                    incantatores revera Magos fuisse, cum uterque textus eodem interpretationis
+                    genere contorqueri poterit. Simoni adjugendus Elymas, de quo act. c. 13. Hic
+                    suis praestigiis anno Aerae Christianae quadragesimo tertio Sergium Paulum
+                    Proconsulem dementare studens Apostolis Paulo et Barnabae resistebat,
+                        <quote>quemadmodum Jannes et Mambres restiterunt Moysi.</quote> 2. ad Tim.
+                    6. Duorum Magorum nomina, qui Petro Pauloque adversabantur, nempe Simonem et
+                    Elymam, habes, ut totidem Magorum nomina olim Mosi adversantium, nempe Jannem ac
+                    Mambrem, habemus, quo intelligas nullo fere discrimine magiam in novo testamento
+                    perinde ac vetere grassari. Verum hic duo objectant, ut evincant, nil
+                    prodigiosum a Simone factum; alterum est Lucae hac de re silentium, alterum est
+                    Simonis admiratio conspectis Philippi prodigiis. Sed utrumque exigui est
+                    momenti. An non satis Lucas est locutus, dum Simonem appellavit Magum et magiis
+                    imbutum? Si adversariis argumentum ex Lucae silentio licet depromere, fas quoque
+                    mihi erit eodem argumentandi genere sic uti: Si morte Christi penitus deleta est
+                    magia, data semel atque iterum praeclara occasione, id silentio Lucas non
+                    praeteriisset. Praeteriit, de Simone et Elyma profatus. Ergo deleta non est.
+                    Admirationem quoque in magis Aegyptiacis Exodi c. 8. habemus dicentibus:
+                        <quote>Digitus Dei est hic.</quote> Nam et Philippus et Moses vera prodigia
+                    patrabant, <pb n="8"/>quae nulla creata vi fieri poterant; adeoque magi in
+                    admirationem adduci poterant. Sed sermo de Simone mago redibit eiusque portentum
+                    Romae peractum adseremus.</p>
+            </div>
+
+            <div>
+                <head>§. III. Expenduntur testimonia S. Scripturae in speciem nobis adversa.</head>
+                <p>Jam si placet, nostra cum iis conferamus, quae ex S. Literis contra opponuntur,
+                    ac justus rerum aestimator dijudicet, utra opinio sacro textui magis sit
+                    consentanea.</p>
+                <p>Apocal. c. 20. daemon ab Angelo magna catena vincitur per <quote>annos
+                        mille</quote>, abysso concluditur, <quote>ut non seducat amplius gentes,
+                        donec consumentur mille anni, et post haec oportet illum solvi modico
+                        tempore.</quote> Hinc ita disputat Adversarius: triplex erat in nos potestas
+                    daemonis ante Christum, ad scelera provocandi, nostra corpora permeandi,
+                    praestigiis nos ludificandi: priores duae daemoni non sunt ademptae. Postremam
+                    igitur ademptam esse oportet. Siccine Apocalypsin interpretaris? Atqui de nulla
+                    harumce trium potestatum Joannes ibi verba facit. Tota quoque, ut dicitur, via
+                    erras, ratus mox post Christi mortem diabolo catenas fuisse injectas. Etenim
+                    sapientiores interpretes hunc locum de potestate daemonis intelligendum
+                    existimant non statim post Christi funus, sed post tertium Ecclesiae saeculum
+                    repressa; ne diris ut antea persecutionibus universam Ecclesiam Christianumque
+                    nomen exagitare deinceps queat, quocirca <pb n="9"/>haec est sententia:
+                        <quote>reddita Ecclesiae pace, quae tempore Constantini Magni contigit,
+                        daemon vinctus infraenatusque est; sed mundo ad finem vergente solutus
+                        vinculis novam persecutionem molietur.</quote> Quid haec, quaeso, cum Magia?
+                    Sed age textus de magia etiam intelligatur; quid porro? Quemadmodum vis
+                    persequendi Ecclesiam non ita coericta est, ut penitus extincta videatur; nam
+                    adhuc eam persequi pergit, sed non tam dire atque universim: ita Magorum vis
+                    coercita erit, sed non penitus extincta. Praeterea, ut adversarius eum textum ad
+                    potestatem daemonis repressam nobis illudendi praestigiis pro suo lubitu
+                    detorquet, ita ab iis, qui energumenos explodunt, ad potestatem daemonis
+                    repressam humana corpora obsidendi detorqueri poterit. Hos igitur qua ratione
+                    refelles? Tum in Augustino me legisse memini diabolum esse canem vinctum, qui
+                    latrare quidem potest, sed non mordere. Igitur textus Joannis potius de
+                    potestate sollicitandi ad malum a Christo repressa videtur intelligendus quam de
+                    magica. Verum haec omnia ad sensum accomodatium, quo Concionatores delectantur,
+                    pertinere arbitror. Sensus, quem primo dedi, est genuinus ac germanus, ex quo
+                    Theologus tum ad confirmandum, tum ad refellendum invicta argumenta
+                    mutuatur.</p>
+                <p>Haud majoris est ponderis locus Apostoli ad Colos. c. 2. <quote>exspolians
+                        principatus et potestates traduxit confidenter, palam triumphans illos in
+                        semetipso.</quote> Enimvero si tota daemonis potestas in alliciendo ad
+                    scelera, in subeundo humana corpora, in mira faciendo per Magos versebatur ac
+                    postrema solum dejectus est, perexiguus profecto erit Christi triumphus de
+                    stygio hoste, quem adeo magnificis splendidisque verbis Apostolus extollit. <pb n="10"/>Estius textum sic enarrat: daemones imperio exutos, quod habebant in
+                    homines (juxta quod Christus paulo ante possionem praedixerat: <quote>nunc
+                        Princeps hujus mundi eiicietur foras</quote> Joa. 14.), palam ostentavit
+                    omnibusque spectandos exhibuit in triumpho, quem de iis egit, victoria per
+                    semetipsum suisque viribus ac sanguine parta, veluti fortior ille Evangelicus,
+                    qui fortem armatum superveniens vicit atque exspoliavit, Lucae c. 11. hactenus
+                    interpres celeberrimus. In quo autem situm fuerit diabolicum in nos imperium
+                    colligi potest ex Paulo Haeb. c. 2., ubi ait: <quote>ut per mortem destrueret
+                        eum, qui habebat mortis imperium, et liberaret eos, qui timore mortis per
+                        totam vitam obnoxii erant servituti.</quote> Daemon igitur mortis
+                    temporariae imperio potiebatur per peccatum invectae, ut per eam nos in aeternam
+                    mortem pertraheret: Christo autem sua morte daemonem mortis imperio spoliavit,
+                    non quidem, ut eam non patiamur, sed ut in ea non maneamus nec eam uti antea
+                    pertimescamus, spe freti aeternae vitae.</p>
+                <p>S. Thomas per ea spolia diabolo detracta et velut in pompa triumphi per Christum
+                    producta intelligit Sanctos Patres ab inferis liberatos aut Mundum ex inanium
+                    Numinum cultu tamquam servitute exemptum. Qui de magia Paulum interpretetur,
+                    neminem reperi.</p>
+                <p>Textus tandem 1. Cor. 15.:<quote>cum tradiderit regnum Deo et Patri, cum
+                        evacuaverit omnem Principatum et potestatem et virtutem</quote>, contra
+                    Adversarium manifeste facit: tum solum sublata erit magia, cum evacuatus fuerit
+                    omnis Principatus: atqui hoc solum continget in futura omnium hominum
+                    resurrectione, de qua ibidem est sermo: <pb n="11"/>ergo solum tunc magia
+                    tolletur. Proferamus integrum textum: <quote>Sicut in Adam omnes moriuntur, ita
+                        in Christo omnes vivificabuntur, unusquisque autem in suo ordine, primitiae
+                        Christus, deinde ii, qui sunt Christi, qui in adventum ejus crediderunt.
+                        Deinde finis, cum tradiderit regnum Dei et Patri etc.</quote>
+        </p>
+                <p>Caeterum minime Adversariis assentior potestatem illiciendi nos ad malum daemoni
+                    non fuisse sublatam. Quae dicturus sum, crassa ac pingui minerva intelligi nolo.
+                    Audi igitur Magistrum sententiarum ex Augustino aliisque Patribus loquentem 3.
+                    d. 19: <quote>Licet nos tentet pos Christi mortem, quibus modis antea tentabat,
+                        non tamen vincere potest, sicut antea vincebat.</quote> Nam Petrus, qui ante
+                    Christi mortem voce ancillae territus negavit, post mortem ante Reges et
+                    Praesides ductus non cessit. Quare? Quia fortior, id est Christus veniens in
+                    domum fortis, id est in corda nostra, ubi diabolus habitabat, alligavit fortem,
+                    id est a seductione compescuit fidelium, ut tentationem, quae ei adhuc
+                    permittitur, non sequatur seductio. Haec Magister. Tum probabiliter dici potest
+                    daemoni vim obsidendi energumenos esse post Christum ereptam; primum quia non
+                    tanta est energumenorum copia ut olim. Dein nobis potestatem ordinariam dedit,
+                    qua eos liberemus. Vide Pinamontium in libello, cui titulus: <quote>Exorcista
+                        rite edoctus</quote>.</p>
+                <p>Quid demum ex act. c. 19., ubi dicitur: <quote>Qui fuerant curiosi sectati,
+                        contulerunt libros et combusserunt coram omnibus</quote>, Adversarius
+                    conficere possit, equidem non video. Hic apertus est sensus: qui magicam artem
+                    sectati fuerant, ea abdicata nefarios quoque libros flammis tradidere. Quid
+                    contra me? Pone quosdam e Magis Aegyptiacis, cum <pb n="12"/>vera Mosis miracula
+                    vidissent, coelesti beneficio fuisse ad veram religionem traductos, subindeque
+                    magicos libros, si quos habebant, exussisse; an hinc colligi posset illos revera
+                    non fuisse magos aut tum omnem e mundo magiam evanuisse? At inquis, causa, cur
+                    magiae nuntium remiserint, est, quod magicae artes post Christi necem effectu
+                    carerent, ego vero longe aliam fuisse opinor, Sacro Textui innixus. Narrat ibi
+                    S. Lucas quosdam ex Judaeis Exorcistis invocato Jesu nomine tentasse daemonem ab
+                    obsessis corporibus pellere, quae res Exorcistas prope ad perniciem devocavit.
+                        <quote>Nam insiliens in eos homo, in quo erat daemonium pessimum, et
+                        dominatus amborum invaluit contra eos, ita ut nudi et vulnerati effugerent
+                        de domo illa: hoc autem notum factum est omnibus Judaeis atque Gentilibus,
+                        qui habitabant Ephesi, et cecidit timor super omnes illos et magnificabatur
+                        nomen Domini Jesu; multique credentium veniebant confitentes et annuntiantes
+                        actus suos, multi autem ex eis, qui fuerant curiosa sectati, contulerunt
+                        libros etc.</quote> Igitur alia causa ratioque Magos impulit, ut libros suos
+                    concremarent.</p>
+            </div>
+
+            <div>
+                <head>§. IV. Argumentum secundum ex Patribus.</head>
+                <p>Ventum est ad Patrum testimonia, queis se Adversarius confirmare sententiam ait,
+                    quam propugnandam susceperat. Sed ex Vincentio Lirinensi l. 1. c. 28.:
+                        <quote>Antiqua Sanctorum Patrum consensio non in omnibus Divinae Legis
+                        quaestiunculis, <pb n="13"/>sed solum certe praecipue in fidei regula magno
+                        nobis studio et investiganda est et tenenda.</quote> Haec vero, quae a nobis
+                    agitatur, quaestio fidei non est, quod quidem in transcursu monuisse
+                    sufficiat.</p>
+                <p>Permulti Patres a me stant, nemo contra me: ergo mea sententia erit Patrum
+                    sententia. De secundo n. 7. agemus. Si compendiaria via uti velim, primum erit
+                    probatu perfacile. Nam index annalium Baronii cujuslibet saeculi consulatur, in
+                    eoque magorum ac praestigiarum mentionem fieri perspiciemus. Neque vero haec
+                    tantum narrat et non probat vir doctissimus, sed idoneis et Patrum et
+                    historicorum testimoniis ita communit, ut Pagii aliorumque censuram nusquam
+                    subierint. Nec in mentem viris emunctae naris venit lectorem monere ea, quae de
+                    magis passim feruntur, mera esse sycophantarum commenta. Praeterea edicta
+                    Christianorum Principum annalibus inseruit, quibus Magos eorumque artes severe
+                    coercuerunt; nec unquam animadvertit eas paenas esse tantum decretas in magos ob
+                    impios illorum conatus, quamquam omnes post Christum sunt irriti ac inutiles,
+                    uti Adversario videtur. Nam contortae ejusmodi interpretationes et a verbis
+                    penitus alienae mentem tanti viri subire nequierunt. Verum haec, tametsi
+                    gravissima, missa sunto. Ad Simonem praestigiatorem convertamur, quidque de deo
+                    Veteres Patres senserint, paucis aperiamus.</p>
+                <p>Arnobius, qui tempore Diocletiani floruit, scribens contra gentes l. 2. volatum
+                    lapsumque Simonis magi in terram orante Sancto Petro diserte adserit. An rem
+                    palam Romae gestam fidenter adsereret, si certa fama non constitisset, <pb n="14"/>an non se Gentilibus irridendum propinaret? Cyrillus
+                    Hiersolymitanus, qui tempore Constantis claruit, Cathechesibus 6., Eusebius
+                    Caesariensis l. 2. hist. c. 12., Epiphanius haeresi 21., Augustinus l. de
+                    haeresibus, Severus Sulpicius l. 2. hist., Theodoretus, Isidorus Pelusiota l. 1.
+                    ep. 13. aliique innumeri, tum Graeci tum Latini, apud Baron. 68. n. 17. id ipsum
+                    testantur adeo, ut de re, quae omnibus in confesso est, nefas sit dubitare; cum
+                    licet in quibusdam minimis invicem discrepent, in re tamen gesta omnes
+                    consentiunt. Unde minime audiendus, qui omnes hosce Autores pseudoclementis
+                    autoritae deceptos pronunciat, imo ut ait Baronius, quod videri posset
+                    apocryphum, jam prope authenticum redditur. Sed liberaliter adversario donemus
+                    tot tantosque viros fuisse deceptos, saltem hinc apparet illis nunquam persuasum
+                    a morte Christi mox magiam finem habuisse; quocunque igitur se vertat
+                    Adversarius, in angustias cogitur.</p>
+                <p>Lepidum porro est, quod historia fidem clevare studet ex iis, quae Hieronymus de
+                    Viris illustribus c. 1. scribit: <quote>Simon Petrus ad expugnandum Simonem
+                        magum Romam pergit.</quote> An non hoc testimonio jugulatur? At inquit:
+                    ecquis in animum sibi inducat Petrum iisse Romam non ad fundandam Ecclesiam
+                    primamque Cathedram, <quote>sed ad expugnandum Simonem Magum</quote>? Justa
+                    igitur suspicio est haec tria verba margini perperam adjecta in textum quondam
+                    irrepsisse. Atqui Eusebius laudatus id ipsum antea scriptum reliquerat. Siccine
+                    levicula conjectura fidem Codicum infirmat? Haec inter se connexa puto, Simonem
+                    expugnare haereticorum coriphaeum, qui suis praestigiis Romanos decipiebat ac
+                    fundamenta Ecclesiae jacere.</p>
+                <pb n="15"/>
+                <p>Quid denique ad fidem hujusce historiae labefactandam erui queat ex celebri illa
+                    inscriptione: <quote>Sanco Sancto Semoni Deo Fidio</quote>, quam a S. Justino
+                    perperam in Simonem Magum detortam dictitat, equidem non intelligo. Nam si
+                    Justinus hac in re falsus est, estne propterea consequens in historia volatus
+                    lapsusque alios fuisse deceptos? Si haec argumentandi ratio longe petita valet,
+                    omnium historiarum fides laborabit. Sed veritatem dictis Sancti Justini constare
+                    Maurini Editores tertia parte praefationis solide probarunt, ut operae pretium
+                    videatur, quae attulerunt argumenta, huc adferre. Illos itaque audiamus.
+                    Controversiae non levi materiam dederunt, quae a Justino in Apologia de statue
+                    Simoni mago erecta dicuntur. Sic enim l. 1. n. 26.: <quote>Daemones immiserunt
+                        Simonem quemdam Samaritanum e vico Gittum dicto, qui sub Claudio Caesare,
+                        cum magica miracula, daemonum in eo operantium arte, in regia vestra urbe
+                        Roma edidisset, Deus existimatus est et a vobis tamquam Deus statua
+                        honoratus, quae statua erecta est in Insula Tiberina inter duos pontes,
+                        habens hanc Romanam inscriptionem: Simoni Deo Sancto.</quote> Et num. 56.:
+                        <quote>Daemones immiserunt Simonem et Menandrum Samaritanos, qui magicis
+                        miraculis editis multos deceperunt atque etiamnum deceptos tenent. Nam cum
+                        apud vos in regia urbe Roma, ut jam dixi, imperante Claudio Caesare, Simon
+                        versaretur; et sacrum Senatum et Populum Romanum ita admiratione perculsit,
+                        ut Deus existimaretur et statua velut alii, qui a vobis coluntur, Dii
+                        donaretur. Quapropter oramus, ut et sacrum Senatum et Populum Romanum una
+                        vobiscum hujus nostri supplicis <pb n="16"/>libelli cognitores adsciscatis,
+                        ut, si quis ejus doctrina implicatus sit, veritate cognita errorem possit
+                        effugere: et statuam, si ita vobis placet, deiicite.</quote>
+        </p>
+                <p>Narrata a Justino historia semper in pretio et honore extiterat eique pondus
+                    addiderant Tertulliani, Eusebii, Cyrilli Hierosolymitani, Augustini et
+                    Theodoreti, a quibus idem asseveratur, testimonia, donec fidem et auctoritatem
+                    apud eruditos non paucos detraheret inventa sub Gregorio XIII. quaedam statua.
+                        <quote>Ante annos puto quinque</quote>, inquit ad annum 44. Baronius,
+                        <quote>Gregorio XIII. Pontifice, in eadem Insula Tiberina e ruderibus lapsis
+                        est effossus, tali inscriptione notatus:</quote>
+        </p>
+                <quote>
+          <lg>
+                        <l>Semoni Sango Deo Fidio Sacrum</l>
+                        <l>Sex. Pompejus S. P. E. Col. Mussianus</l>
+                        <l>Quinquennalis Decur. Bidentalis</l>
+                        <l>Donum Dedit.</l>
+                    </lg>
+        </quote>
+                <p>
+          <quote>Praesefert lapis ipse basim, super quam statua locata esset, sed exiguam;
+                        nec enim, cum valde angusta sit, capax esse videtur alicujus simulacri
+                        humanae staturae similis.</quote> Nominum quaedam est similitudo inter hanc
+                    inscriptionem et eam, quae a Justino refertur: congruit etiam locus, reperta
+                    enim statua Semonis Sangi Dei in Insula Tiberina, in qua Simonem Deum Sanctum
+                    narrat Justinus fuisse consecratum. Inde nata pluribus eruditis non suspicio
+                    solum, sed etiam firma persuasio deceptum fuisse Justinum ignoratione
+                    latinitatis et ab eo Simonem Deum Sanctum ex Semone Sango Deo fabricatum fuisse.
+                    Sed <pb n="17"/>parte ex alia reclamant alii non ignobiles Critici, imprimis
+                    Tillemontius, quorum rationibus difficile est non assentiri.</p>
+                <p>Unico prorsus argumento nituntur, qui Justinum oscitantem errasse volunt, nempe
+                    nominum similitudine. Levissimi enim momenti est, quod obiicit Valesius (not. in
+                    Euseb. lib. 2.), non solere Romanos divinitatem hominibus vivis tribuere aut
+                    Deos appellare Sanctos. Ut omittam exempla non deesse hominum ante mortem Diis
+                    adscriptorum, ut Nerullini apud Athenagoram num. 26., satis est meminisse tunc
+                    imperasse Claudium, cujus sub imperio nihil tam absurdum fuit, quod non
+                    impetrari et perfici potuerit. Consecraverant Simonem Samaritae eorumque
+                    suffragio Romam Deus advenerat, nec mirum est, si ibi eosdem honores consequutus
+                    est, quo, ut ait Tacitus, cuncta undique atrocia aut pudenda confluunt
+                    celebranturque. Sanctorum <corr>appellationem</corr> Diis tributam fuisse
+                    observat Tillemontius in pluribus apud Gruterum inscriptionibus. Nihil est ergo,
+                    quod Justinum premere possit praeter inscriptionis ab eo memoratae cum ea, quae
+                    multis post saeculis reperta est, similitudinem. At utraque in multis diversa.
+                    Potuit quidem Simonis nomen cum Semone confundi: at neque Semon Sangus Deus
+                    Fidius pro Simone Deo Sancto ab homine legendi perito sumi potuit, nec ab homine
+                    sano Sex. Pompejus S. P. E. Col. Mussianus etc. pro Imperatore et Senatu nec
+                    imago Dei Sangi pro imagine Simonis ab eo, qui hanc postremam in Samaria
+                    viderat.</p>
+                <p>Praeterea observandum est nec temere nec inconsiderate Justinum postulasse ab
+                    Imperatore, ut hanc Simonis Magi statuam tolleret. Haec enim petenti <pb n="18"/>magnum periculum imminebat a Samaritanis, ac ipse in Dialogo num. 120., ut
+                    probet nihil aliud sibi curae esse, nisi ut verum dicat, etiamsi e vestigio
+                    discerpi oporteat, exemplum animi non timidi a se editum profert, cum Caesarem
+                    deposito ad acta scripto compellans dixit Samaritanos errore decipi, ut qui
+                    Simoni gentis suae mago fidem habeant, quem Deum supra omnem principatum et
+                    potestatem et virtutem esse dicunt. Si id Justinus non aggressus, nisi
+                    considerato et perspecto periculo, quod ei a Samaritanis metuendum erat, vix
+                    dubium, quin certa illi et explorata res fuerit. Quin etiam Imperatorem rogat,
+                    ut Senatum et populum hujus rei cognitores adsciscat et statuam deiiciant.
+                    Videntur ipsi Samaritani statuam novisse et magni fecisse. In hoc enim metuendus
+                    fuit eorum furor, quod illos statuae dejectio latere non potuisset, si
+                    impetrasset Justinus, ut deiiceretur. At difficile fuit, ut, quae Justinus de
+                    Simone obiter scribebat, ea ad illorum cognitionem pervenirent. Etiamsi errasset
+                    hac in re Justinus, saltem erratum agnoscere debuit vel sua sponte, dum per
+                    urbem incedens plures alias Semonis Sangi statuas reperit (plures enim Romae
+                    extitisse constat), vel monitus ab amicis vel ab inimicis castigatus. Prima
+                    illius apologia famam et celebritatem habuit. Quomodo ergo tam insigne erratum
+                    tamque ad feriendos oculos idoneum ita latuit, ut in Dialogo et Apologia secunda
+                    fidens et tutus confirmet, quod in prima dixerat? Cum eruditis viris pro
+                    Christiana Religione pugnare solitus erat. Cur ergo acceptas ab eo plagas nemo
+                    ultus est ac ne ille quidem Crescens, quem a se convictum declarat. Apolog. 2.
+                    numero 3. Quomodo <pb n="19"/>erratum non subodorati tot venerandi Scriptores,
+                    qui idem ac Justinus scripsere? Quin etiam, ut notat Tillemontius, ea S.
+                    Augustinus et Theodoretus de hac statua dixere, quorum illis autor non fuit
+                    Justinus. Primus enim Simoni et Helenae erectam, alter aeream fuisse testatur,
+                    quorum neutrum dixerat Justinus. Igitur, quae Lucas in actis, quae Arnobius de
+                    volatu, quae Justinus de Divinis Simonis magi honoribus scripsere, firma
+                    consistunt.</p>
+            </div>
+
+            <div>
+                <head>§. V. Argumentum tertium ex actis Martyrum.</head>
+                <p>Miror Adversarium ita magiae interitum cum Christi funere conjunxisse, ut eo e
+                    vivis erepto illico exoleverit. Unde, quae passim de Simone mago paulo post
+                    mortem Christi vivente narrantur, in suspicionem falsitatis vocavit. Via me
+                    judice expeditior extitisset, si eam sensim labascere asseruisset, uti
+                    idolatriae usuvenisse novimus. Sed quaecumque via ratioque ineatur, nusquam
+                    evanuisse Ecclesiastica monumenta fidem faciunt. Doctissimus Ruinartus in actis
+                    sinceris martyrum refert Sanctos Lucianum et Marcianum exeunte tertio saeculo
+                    magicis artibus deditos fuisse, captos vero puellae forma dedisse operam, ut
+                    praestigiis seducerent. Sed cum dis operam perdidissent, ex daemone
+                    sciscitantur, cur sui conatus in irritum caderent; responsum est facillimum
+                    fuisse alienos a Christo daemonis ope in errorem coniicere, Christianis autem
+                    noceri non <pb n="20"/>posse: <quote>Et daemones eis responderunt: quascumque
+                        animas non cognoscentes Deum voluistis subvertere invocantes nos, facillimum
+                        nobis fuit vobis praestare.</quote> Subdit vero Ruinartus: porro occurrunt
+                    passim apud veteres exempla eorum, qui ejusmodi magicis artibus daemones
+                    evocabant. Celebre est id, quod a Sozomeno, Theodoreto, Eusebio, S. Gregorio
+                    Nazianzeno Oratio. 3. de Juliano Apostata refertur. Cum enim ejusmodi
+                    incantationibus operam daret, spectris, quae ad magorum voces apparuerant,
+                    deterritus, quasi in magno discrimine esset, pro Christianorum consuetudine,
+                    quam didicerat, seipsum signo Crucis consignavit, cujus virtute spectra
+                    evenuerunt. Haec ille.</p>
+                <p>Idem S. Cypriano quondam Mago contigisse refert, qui Justinam Virginem suis
+                    veneficiis corrumpere frustra studuit. Quarto saeculo ex Baronio ad annum 382.
+                    numero 22. in Occidente et Oriente maleficorum hominum artes plurimum invaluere,
+                    ut non modo editi tum a Conciliis Canones indicant, verum etiam Severus
+                    Sulpicius in vita S. Martini c. 25. et Sozomenus l. 8. c. 6. literis prodidere,
+                    unde oborta suspicio est Antichristi adventum instare.</p>
+                <pb n="21"/>
+            </div>
+
+            <div>
+                <head>§. VI. Argumenta ex Ecclesiae institutis ducta.</head>
+                <p>Quae Patrum Ecclesiaeque hac de re sit sententia, majorum instituta demonstrant.
+                    Itaque ex pervetusto aquae lustralis usu argumentari sic lubet. Ecclesia a
+                    primis jam saeculis aquam lustralem adhibuit ad praestigia dissipanda, idque
+                    prospero successu: persuasum igitur semper fuit Ecclesiae Magos adhuc extare.
+                    Audiamus Baronium ad annum 132. numero 4.: aquae benedictae usus semper et
+                    ubique viguit in Ecclesia Catholica tam apud Orientales quam etiam Occidentales
+                    divino utique in miraculorum virtute suffragio comprobatus et tantum abest, ut
+                    (quod novatores oblatrant) species sit quaedam incantationis ac magiae, ut
+                    potius ad eas dissolvendas aliasque diaboli artes avertendas ea solita sit
+                    adhiberi. Ad haec namque (quod S. Epiphanius scribit) ea usus est Joannes Comes
+                    tempore Constantini, et quod optavit, feliciter est consecutus. Aquae haud
+                    communis, sed quoquo modo sanctificatae itidem aspersione S. Hilarion eodem fere
+                    tempore Gentilis aurigae magias (ut de eo S. Hieronymus scribit) penitus
+                    dissipavit: Sed et S. Marcellus Episcopus Apameae omnem Diaboli conatum, ne
+                    Jovis Apameni famosum delubrum combureretur obtinentis, aquae signo crucis
+                    benedictae usu penitus superavit. Scribit rem gestam fusius Theodoretus.
+                    Macarium itidem aquae <pb n="22"/>benedictae virtute magicam imposturam et
+                    Daemonum praestigias effugasse Palladius fide certa memoriae commendavit. S.
+                    Germanus Episcopus Antisiodori concitatos diaboli opera tumentes maris fluctus
+                    aquae in nomine Sanctissimae Trinitatis sanctificatae aspersione compescuit. Sed
+                    quid in his immoror? Sexcenta propemodum de his adducenda essent exempla, petita
+                    ex diversis Sanctorum actis feliciter scriptis, quibus magicas incantationes
+                    aliasque pravorum <corr>Daemonum</corr> molitiones aquae benedictae aspersione
+                    constat esse fugatas. Haec Baronius, quibus addi potest illud Aug. serm. 19. de
+                    Sanctis: <quote>Hoc signum maleficia destruit et omnia daemonum machinamenta ad
+                        nihilum redigit.</quote> Idem tradit S. Athanasius, ut numero seqente
+                    videbitur. Clotarius Francorum Rex Sanctum Medardum morti proximum adit
+                    benedictionem petiturus: <quote>Quia non diffidebat se contra diabolicas
+                        infestationes ejus benedictione muniri.</quote> Ut Fortunatus Pictaviensis
+                    scribit: <quote>diabolicae autem infestationes</quote> Strigum Magorumque
+                    maleficia continent. Eodem Crucis signo fugavit Justina Virgo daemones a
+                    Cypriano tunc Mago, postea Martyre immissos, ut Virginis animum ad impuri
+                    amatoris amorem inflecterent. De quo Gregorius Nazianzenus Oratione in S.
+                    Cyprianum eodem signo daemones per Magicas artes in Antonium immissi, ut
+                    praestigiis de cella exturbarent, fugantur ex Cassiano. Collat. 8. c. 18. Si
+                    haec Adversarius ignoravit, saltem ignorare haud debuit Ecclesiae ritum, quo
+                    aquae benedictionem impertit, qui sane multiplicem daemonis vim nobis nocendi
+                    non sola corporum permeatione, sed veneficiis indigitat. Extat praeterea in fine
+                    Ritualis Romani solemnis benedictio aquae in pervigilio Epiphaniae in quibusdam
+                    Ecclesiis <pb n="23"/>fieri solita, eumque ritum adprobavit Benedictus XIII.
+                    concessis, ut ibidem dicitur, perpetuo centum Indulgentiae diebus iis, qui huic
+                    ritui pie interfuerint. Inter caetera autem habetur haec adjuratio:
+                        <quote>Adjuro te...Expellas omnem umbram...omnes machinationes diaboli sive
+                        spirituum immundorum sive ex invocatione magicae artis etc.</quote> Ecclesia
+                    autem <quote>veras et non perfunctorias orationes habet</quote>, ut loquitur
+                    Augustinus, qui passim ex Ecclesiae orationibus invictum petit adversus
+                    Pelagianos argumentum ad necessitatem divinorum auxiliorum adstruendam. Sic
+                    disputo. Haec Augustini ratiocinatio est firma: <quote>Si fides ex Deo non
+                        esset, frustra Ecclesia eam a Deo posceret: non frustra poscit. Ergo fides
+                        ex Deo est.</quote> Firma quoque haec erit: Si nulla existeret magia,
+                    frustra Ecclesia a Deo peteret, ne ex <quote>invocazione magicae artis</quote>
+                    nobis mala creentur: non frustra petit. Ergo magia existit.</p>
+                <p>Neque Adversarius vim argumenti effugit, quod ejusmodi benedictionis ritus
+                    particulare additamentum sit Rituali Romani. Nam Rituali Romano jussu Pauli V.
+                    edito insertum est et a Benedicto XIII. adprobatum. Illius quoque meminit
+                    Benedictus XIV. <quote>
+            <foreign xml:lang="italian">nell’annotazioni sopra le
+                            Feste di Nostro Signore</foreign>
+          </quote> p. 1. p. 40., dein illa
+                    adjuratio extat in libro Sacramentorum Gregorii Magni. Vide Gretserum t. 1. l.
+                    4. c. 46. Itaque Pontificia ejusmodi veterum orationum approbatio satis
+                    Adversarium edocere deberet res in illis contentas non esse falsas nec verae
+                    Religioni ac pietati noxias, atqui ait: <quote>circulus aureus est vetitus, in
+                        quo insunt magnae ejurationes daemonum etc. ad evertenda Maleficia
+                        etc.</quote> Scio libellum esse prohibitum, sed causam ignoro. An haec solum
+                    in eo continentur? Praeterea an non merito interdicendus, <pb n="24"/>quod multa
+                    tum composita, tum inserta privata authoritate? Quot, quaeso, libelli in indicem
+                    librorum prohibitorum sunt relati, qui alias preces sine ulla ejurandi formula
+                    complectuntur; an ergo omnes preces interdicendae? Extant alii libelli, in
+                    quibus reperies hasce ejurandi formulas, nec tamen in indicem librorum sunt
+                    relati, et quod gravius est, in ipsomet Romano Rituali p. 119., ubi modus
+                    exorcizandi praescribitur, haec habemus: <quote>jubeatque daemonem dicere, an
+                        detineantur in illo corpore ob aliquam operam magicam aut malefica
+                        signa.</quote> Quae si conjunxeris cum iis, quae ex eodem Rituali retulimus,
+                    etsi dogma fidei non faciunt, nam haec quaestio fidei non est, ut dictum supra,
+                    sententiam tamen certam faciunt: Ex Plinio se argumentum petere invictum putant,
+                    et nos ex Ritualis Romani sententia argumentum firmius non desumemus? Sed me
+                    piget in hisce reculis diutius immorari. Ad orationes omnium Christianorum
+                    pergamus.</p>
+                <p>Usus est perantiquus ex documento Apostoli 1. ad Tim. 4.: <quote>Sanctificatur
+                        enim (cibus) per verbum Dei et orationem ortus benedicendi publice sali,
+                        aquae aliisque rebus et privatim mensae ante cibi sumptionem</quote>; id
+                    enim agere solemus, ait Estius in eum locum, ne daemon nobis per cibum ac potum
+                    corpori animove nocere queat. Cum enim per peccatum hominis diabolo potestas in
+                    reliquam creaturam usibus hominum servientem sit permissa, ut ibidem multis
+                    scripturae Patrumque testimoniis ostendit, nobis per cibum daemon nocere posset;
+                    verum adversus hoc malum in promptu est remedium, nempe sacrae benedictionis,
+                    quo cibus sanctificatur, dum a potestate diaboli subtrahitur, ne per illum aut
+                    corpori noceat aut <pb n="25"/>ad commessationes et ebrietates incitet. V. plura
+                    apud eundem. Igitur post saluberrimam Christi mortem non ita daemon est
+                    litigatus, ut corpori humano inferre detrimentum non valeat, si saluberrima
+                    Christi remedia aliquando praetermittamus, quam quidem nocendi potestatem gratis
+                    adversarius restringeret ad solam vim obsidendi corpus humanum. Hinc pie
+                    prudenterque faciunt parentes, qui cibis benedicere solent, quos filiolis
+                    praebent, ne forte per sagas inficiantur. <quote>Nunquam enim parvi pendam
+                        antiquam Christianae Religionis simplicitatem</quote>, ut Vincen. Lirin. c.
+                    17. Origeni ingenio suo nimium indulgenti exprobravit. Audiatur Nicolaus I. ad
+                    Consulta Bulgarorum, qui ex eo sciscitati fuerant, an liceat mensae adhibere
+                    signaculum crucis, si desit Sacerdos aut Diaconus: <quote>Omnibus datum est, ut
+                        et omnia nostra hoc signo debeamus ab insidiis munire diaboli et ab ejus
+                        omnibus impugnationibus in Christi nomine triumphare.</quote> Dicat quis,
+                    etsi per se daemon nobis obesse potest, per alios tamen, nempe sagas Magosve,
+                    haud potest.</p>
+                <p>Gratis profecto id asseveras et a tuo sistemate videris deflectere; nam si post
+                    Christum sola potestas daemoni relicta permeandi corpora, nec per se nec per
+                    alios veneficia nobis moliri posset. In Apocalypsi non homo, sed daemon ligatus
+                    dicitur. Ergo quod non potest cum homine facere, nec se solo facere poterit.
+                    Quapropter ut nos per se aliquando et per improbos aliquando homines ad
+                    peccandum impellit, ita aliquando per se, aliquando per nefarios homines nobis
+                    incommoda importat.</p>
+                <p>Confirmatur argumentum ex veteri usus sacrae Cerae in Agni formam effigiatae.
+                    Audiamus, quid de hisce Ceris, quae ex cereo acceptae Paschali aliisque <pb n="26"/>puris admixtae et sacro Chrysmate delibutae ac benedictione
+                    sanctificatae sunt, doctissimus Baronius ad annum 58. n. 76. scripserit. Cum
+                    suis infantibus Gentiles bullas ad avertendas fascinationes, ut docet Varro, re
+                    turpicula consignatas vel aliter superstitionibus auctas collo appenderent; ad
+                    eas abolendas placuit superstitione in religionem mutata ex ejusmodi sacris
+                    Ceris bullas confici, quas recens baptizati suspensas ferrent ad collum.</p>
+                <p>Sed praestat quoque audire, quid Sixtus V. in suis Literis Apostolicis in forma
+                    Brevis scriptis anno 1686. Paschali Ciconiae Duci Venetiarum scripserit, ad quem
+                    de more sacras cereas formas ab se benedictas mittebat: <quote>Qui illas pie et
+                        devote cum fide habuerint et detulerint, eorum crimina deleantur, maculae
+                        peccatorum abstergantur, veniae impetrentur, gratiae conferantur, praeterea
+                        ut fragor grandinum, procella turbinum, impetus tempestatum, ventorum rabies
+                        et infesta tonitrua temperentur: fugiant et contremiscant maligni spiritus,
+                        nulla hic adversitas dominetur, nulla aeris corruptio, nullus morbus
+                        caducus, nulla maris tempestas, nullum incendium, nullave iniquitas noceat
+                        etc.</quote> Igitur et daemones fugantur, et ne ulla aut daemonum aut
+                    maleficorum iniquitas nobis officiat, impeditur. Hic veneficia non obscure
+                    indigitari cernis. Eas valere inter coetera <quote>ad expellandas incursiones
+                        daemonum</quote> scribit in epistula ad Gregorium XIV. Augustinus Valerius
+                    Cardinalis et Episcopus Veronensis. Huc accedit communis hominum sensus ejusmodi
+                    bullas aut cruces aut sacras icones gestantium; quisque enim se per eas a
+                    daemonum, sagarum Magorumque veneficiis fore tutum; ex communi autem Fidelium
+                    sensu ac <pb n="27"/>persuasione haud leve argumentum Theologi sumere
+                    consueverunt. Nam ut ait Petavius disserens de immaculato Beatae Mariae Virginis
+                    conceptu, in omnium Fidelium linguis Spiritus Sanctus residet; residebit igitur
+                    etiam in omnium Fidelium mentibus.</p>
+                <p>Hic praetermittere neutiquam possum, quin aliquid attexam de usu jam pridem in
+                    Germaniam invecto, ubi ineunte aestate Sanctissimum Domini Nostri Jesu Christi
+                    Corpus diebus Dominicis circumgestari solet, quatuor Evangeliorum initia
+                    cantantur subjecta hac precatiuncula: <quote>Per hos sermones sancti Evangelii
+                        Domini Nostri Jesu Christi indulgeat nobis Dominus universa delicta nostra
+                        ac defendat, custodiat et protegat omnes vineas et agros atque fructus
+                        nostros, ab omnibus infestationibus daemonum, incantatorum maleficiis et
+                        laesionibus tempestatum. Per eundem Christum Dominum nostrum. R.
+                        Amen.</quote> Audis, quisquis magicam artem explodis: <quote>Incantatorum
+                        maleficiis</quote>? Hanc porro consuetudinem Lutherus criminabatur. Sed
+                    doctissimus Gretserus t. 1. l. 2. de S. Cruce c. 29. egregie in haec verba est
+                    tutatus: <quote>Pie ac religiose illi agunt Catholici, in quorum Ecclesiis per
+                        aestatem principium Evangelii S. Joannis contra aereas potestates vel
+                        legitur vel concinitur, ut virtute Verbi Incarnati daemones depulsi aerem
+                        excitatis in perniciem hominum tempestatibus nec concirent nec inficiant. Si
+                        enim teste Luthero verba illa: Et Verbum caro factum est, propulsandi
+                        daemonis adeo mirifica virtute valent, utique et ex aereis regionibus, in
+                        quibus interdum maxime grassatur, illum depellere poterunt. Itaque causae
+                        nihil erat, cur consuetudinem hanc Lutherus arroderet etc.</quote> Haec
+                    Gretserus ad illustrandos vindicandosque patrios ritus perquam opportuna, qui c.
+                    24. etiam docet crucem <pb n="28"/>aedium januis insculptam praepotens esse
+                    signum ad arcendum omne veneficiorum genus: qua quidem in re Christicolae
+                    superstitionem Ethnicae gentis in religionem verterunt, quae januas contra
+                    veneficia piaculis superstitiosis muniebat, quemadmodum de bullis gentilium
+                    Baronio observatum.</p>
+                <p>Confirmatur tandem ex usu pulsandi aeris campani, ut dirae tempestates arceantur.
+                    Afferamus in medium, quae de eo Patres Conc. Colonien. anno 1536. scripserint:
+                        <quote>Ut per illarum sonitum Fideles invitentur ad preces...ut daemones
+                        tinnitu campanarum Christianos ad preces concitantium terreantur, quin
+                        potius precibus ipsi territi abscedant illisque summotis fruges, mentes et
+                        corpora Credentium serventur etc. et aereae <corr>potestates</corr>
+                        prosternantur.</quote> Desistite, quaeso, Aeditui ac vespilones, immani
+                    sonitu aures obtundere, daemon enim compede nunc est devinctus, qui ad malum
+                    quidem sollicitare aut corpus pervadere potest, sed nec adversas tempestates
+                    concire nec fulmina immittere nec fruges devastare potest, si Adversario habenda
+                    fides. Legito doctissimas Institutiones et libros de Canonizatione Sanctorum
+                    Benedicti XIV., cujus autoritate abuteris. Pleraque enim, quae hactenus attuli,
+                    illinc deprompsimus, ut tandem intelligas, quam sollicita fuerit semper Ecclesia
+                    praestigia propulsare, contra ac tu falso dictitas. Hinc satis, ut opinor,
+                    constabit, quae Patrum Ecclesiaeque fuerit constans de Praestigiatoribus
+                    maleficisque sententia; quaeque pietati magis sit consentanea, utrum illa, quae
+                    dum magiam subvertit pleraque Religionis Christianae instituta sacrosque ritus
+                    oblique convellit, aut mea, quae magiam quidem adstruit, sed tamquam perniciosam
+                    nefariamque abominatur, quaeque ad eam <pb n="29"/>dissipandam Ecclesia Divino
+                    afflatu praescripsit, bono in lumine collocavit. Coeterum idem bene merendi de
+                    Ecclesia studium jactare etiam solent, qui energumenos negant, uti videre est
+                    apud Calmetum in dissertatione de energumenorum veritate, aliter huic malo a
+                    Principibus et Episcopis obviam itum est, nempe propositis gravissimis poenis
+                    sibique reservatis ejusmodi criminibus, quos omnes erroris arguere est sapere
+                    plus, quam oportet sapere.</p>
+                <p>Postremo loco parile argumentum sic urgeri potest. Extant arreptitii; cur non
+                    sagae et Magi? Si daemon, quamquam catena obstrictus, expoliatus, victus, foras
+                    pulsus, nihilo secius nunc perinde ut antea corpora nostra invadit, torquet,
+                    mirabilia, quae in energumenis conspicimus, puta peregrinis fari linguis, cordis
+                    consilia pandere, interdum facit, cur non minora moliri potest per sagas
+                    Magosque, v. g. virgas in serpentes comutare, fulgura excitare, corpora humana
+                    vexare? Omnia igitur haec tria neganda sunt aut omnia inter se conserta
+                    admittenda sunt: Non audes energumenos inficiari; reliqua igitur etiam fateare,
+                    ne, dum alios ferire cupis, aliorum ictibus pectus tuum pateat.</p>
+                <p>Premo nervose argumentum. Mirabilius est, quod daemon hominem aliquando
+                    sanctissimis moribus praeditum et sigillo Jesu Christi obsignatum pervadat, in
+                    suamque ita potestatem redigat, ut pessime illum habebat, ad blasphemias adigat,
+                    desperationem ingerat ac mentem pene de sede dimoveat; et tamen haec in
+                    energumenis agit. Quanto magis minora in hominibus seu per homines
+                    perditissimos, nempe sagas et Magos, efficere poterit? Hic locus a minori ad
+                    majus a Dialecticis vocatur. <quote>Si, quod minus videtur inesse, inest, quod
+                        magis videtur inesse, inerit.</quote>
+        </p>
+                <pb n="30"/>
+            </div>
+
+            <div>
+                <head>§. VII. In quo Patres explicantur in speciem nobis adversi.</head>
+                <p>Quod numero quarto me facturum receperam, ut neminem e Patribus contra me stare
+                    ostenderem, id modo diligenter accurateque praestandum. Nam si quid est, mea
+                    quidem sententia, quod quemque movere possit, Patrum sunt testimonia, quae in
+                    medium producuntur. Verum duplici cautione adhibita percommode explinari queunt.
+                    Nam volunt, ac recte quidem, per Christum daemonis vires vehementer esse
+                    imminutas ac labefactas, ne universo, uti olim, orbi imponere valeat. Si quid
+                    vero in nos aut per se aut per impios homines adhuc tentat, signo crucis facile
+                    frustrari possumus, ut reliqua Ecclesiae Instituta praeteream.</p>
+                <p>Age illorum textus recitemus. S. Ignatius Martyr epistula ad Epheseos ait:
+                        <quote>Hinc omnis Magia in nihilum redacta, omne vinculum malitiae
+                        dissolutum, ignorantia abolita et antiquum eversum regnum.</quote> Peto ab
+                    Adversario, quando haec S. Martyr contigisse affirmet? Ubi stella in Christi
+                    ortu illuxit. Ergo si omnes magicae artes per Christum eversae jacent, non post
+                    Christi mortem, ut ille autumat, sed in Christi exortu finem habuere, quod
+                    nemini in mentem venit. Audi, quae precedunt: <quote>Stella in coelo fulsit
+                        super omnes, quae ante ipsum erant. Et Lux ejus inextimabilis et nova <pb n="31"/>atque peregrina apparuit videntibus eam. Et facta est
+                        perturbatio, unde fuisset illa novitas, quae apparuerat. Hinc omnis magia
+                        etc.</quote> Iterum ab Adversario rogo, an S. Martyr de solius magiae
+                    dissolutione verba faciat? Atqui etiam loquitur de eversione regni diabolici,
+                    quod solis magicis artibus non constat, de extirpatione iniquitatis ac
+                    ignorantiae. Igitur omnia eodem pacto erunt explicanda. Ignorantia est abolita,
+                    sed non penitus; eversum diabolicum regnum, at non penitus. Magia est abolita
+                    post Christum, sed tamen pristini erroris, quo olim orbis fere universus
+                    laborabat, vestigia etiamnum extant. Quod si ab Adversario id consequi nequeo,
+                    summo cum eo jure vicissim agam contendamque non modo nullam magiam esse
+                    reliquam, sed nullos quoque energumenos extare, cum regnum diabolicum sit
+                    eversum.</p>
+                <p>Quo Patres ac Scripturae hac de re loquentes rite intelligantur, memoria
+                    repetendum duplicem Christi adventum secerni oportere. In priori daemones sibi
+                    subjecit, at non plene; in posteriori autem plenissime eos subiiciet. De priori
+                    locutus est Apostolus ad Colos. c. 2.: <quote>Exspoliant principatus
+                        etc.</quote> et Haeb. c. 2.: <quote>Ut per mortem destrueret eum, qui
+                        habebat mortis imperium, id est diabolum.</quote> De posteriori idem
+                    Apostolus 1. Cor. 15. disseruit: <quote>Cum tradiderit regnum Deo et Patri, cum
+                        evacuaverit omnem principatum et potestatem etc.</quote> Si in priori daemon
+                    penitus fuisset exspoliatus et destructus, quomodo in posteriori Christi adventu
+                    evacuari posset? Luculentius Apostolus Hebr. c. 2. v. 8. hoc discrimen aperit:
+                        <quote>Omnia subjectisti sub pedibus ejus (nempe Christi)...nunc autem
+                        necdum videmus omnia subjecta ei</quote>, in <pb n="32"/>quem textus Estius:
+                        <quote>nunc quidem res ipsa testatur nondum omnia parere Christi imperio.
+                        Nam et daemones regnum Christi oppugnant et homines mali bonos affligunt ac
+                        persequuntur.</quote>
+        </p>
+                <p>Hanc igitur regulam si teneamus, promptum erit omnia Scripturae Patrumque loca in
+                    speciem discrepantia conciliare. Praeterea idolatria bestiae nomine designata
+                    post decennem Diocletiani persecutionem in Apocalypsi interfecta est, et tamen
+                    alicubi etiamnum vigere historiae testantur. Non igitur in sensu quodam
+                    metaphisico et ad strictos apices haec intelligenda sunt, sed in sensu mitiori
+                    et, ut ajunt Dialecti, accomodo.</p>
+                <p>Haud aliter intelligendus Origenes contra Celsum de Magis, qui stella duce
+                    Christum venerant adoratum, verba faciens docet magiam habuisse successum, usque
+                    dum alia fortior ac divina vis non appareret, Christo autem nato dissoluto
+                    Magorum praestigia. Igitur non in Christi funere, sed exortu evanuisset magia.
+                    Praeterea mihi integrum Origenis textum consideranti haudquaquam de dissolutione
+                    magiae in universum videtur locutus, sed quo pacto Magi cultores Christi magicas
+                    artes abjecerint rerum veritate perspecta. Eo enim spectat Origenis sententia.
+                    Magi, qui Christum adorarunt, vanis antea erroribus per daemonem imbuti, visa
+                    fulgentiori stella, errores facile animo excussere daemonisque fraudem
+                    perspexere. Verum cum tanta fidei lux, quanta perbeatis illis Magis, non
+                    affulgeat omnibus, quid, quaeso, vetat, quin alii aliquando per daemonem
+                    ludificentur? An quia ii diabolicam magiam repudiarunt coelesti quadam luce quum
+                    externa tum interna collustrati, par est nos credere illam <pb n="33"/>ab
+                    omnibus repudiari? Equidem per Christum ejusque Evangelium sensim et ubique
+                    patefieri coepit vanitas Numinum ac praestigiorum, qua totus Mundus erat
+                    occoecatus, sed non omnes propterea veritati oculos aperuere. <quote>Quod
+                        si,</quote> ait Paulus 2. Cor. 4., <quote>etiam opertum est Evangelium
+                        nostrum, in iis, qui pereunt, est opertum: in quibus Deus hujus saeculi
+                        excoecavit mentes infidelium, ut non fulgeat illis illuminatio
+                        Evangelii.</quote> Origines lib. 4. contra Celsum et alibi Magos extare
+                    tradit apud Gentiles, qui Deum Abraham et Deum Isaac et Deum Jacob suis in
+                    praestigiis et sacris profanis invocabant. Vide Gretserum t. 1. 4. c. 47.</p>
+                <p>Porro Adversarius probaturus Simonem Magum Deorum numero Romanis non fuisse, dum
+                    ait: <quote>Magni hac in re ponderis testimonium Originis esse debet, quod Simon
+                        Magus per magicam artem quosdam ludificaverit; sed post modum famam mox
+                        amisit. Unde Origines censet vix triginta sectatores in universo orbe
+                        habuisse; tantum abest, ut Divinis honoribus fuerit ob prodigia
+                        cumulatus.</quote> Adversarius sic disserens permiscet turpiter tempora. Nam
+                    Origines ait suo tempore, tertio nempe saeculo, triginta Simoni asseclas ad
+                    summum extitisse. <quote>Nunc vero ex omnibus, quae ubique terrarum sunt, ne ad
+                        triginta quidem inveneris, qui illum sectentur; et fortisan plures dixi,
+                        quam hi numero sint.</quote> Porro ex Augustino sectae haereticorum
+                    improborumque hominum etsi principio valde numerosae instar torrentis turgidi,
+                    qui brevi exarescit, fere evanescere atque in nihilum abire solent.</p>
+                <p>Athanasius eodem fere modo explicandus, quo Ignatius. Sic enim loquitur: quando
+                    idolorum caeremonias incaeperunt abiicere, nisi ex quo verum <pb n="34"/>&gt;Verbum
+                    Dei inter homines apparuit? Quando apud Graecos et ubique gentium oracula
+                    cessaverunt et in nihilo redacta sunt, nisi quum usque ad terram sese
+                    manifestavit Dominus... Quando daemonum fraus et malitia comtempta fuit, nisi
+                    quum Verbum...in terris apparuit? Quando ars magica et scholae praestigiarum
+                    incaeperunt sordescere, nisi quum Divina apparitio Verbis hominibus exhibita
+                    fuit? Olim universus orbis cultu idolorum seducebatur... Nunc vero per universum
+                    Orbem idolorum superstitionem destituunt et ad Christum confugiunt. Olim
+                    daemonia inani specie ludibriisque rerum intricabant homines insessis alibi
+                    fluminibus, lapidibus aut lignis atque ista praestigiis fatuos in stuporem
+                    agebant. Nunc vero spectra hujusmodi et ludibria imaginum cessaverunt; solo enim
+                    Crucis singno utens homo dolos illorum a se propellit: Haec Athanasius. Par ex
+                    S. Doctore Idolatriae magiaeque est exitus: atqui idolatria nec statim a morte
+                    Christi in universum habuit finem nec modo ita finem habet, ut alicubi non sit.
+                    Ergo nec magia statim evanuit a morte Christi nec modo ubique desiit. Nec omnia
+                    penitus daemonum oracula cessasse patet ex gravissimis autoribus, qui testantur
+                    idolum Apollinis in Daphne responsa dedisse nec antea obmutuisse, quam illuc
+                    corpus S. Babylae Episcopi atque Martyris inferretur. Vide Baronium ad annum
+                    351. et S. Joannem Chrysostomum contra Gentiles. Dein ex Athanasio crucis signo
+                    daemonum praestigia nunc dissolvuntur; eo autem minime dissolverentur, nisi
+                    extarent. Audi Bellarminum de imag. Sanct. l. 2. c. 30. haereticis respondentem:
+                        <quote>tantum abest a magia signum crucis, ut potius eo <pb n="35"/>signo
+                        omnis magia solvatur</quote>, ut ait rectissime S. Athanasius l. de Incanat.
+                    Domini: <quote>signo crucis</quote>, inquit, <quote>omnia magica compescuntur,
+                        veneficia <corr>inefficacia</corr> fiunt.</quote> Et infra: <quote>veniat,
+                        qui istorum dictorum experimentum capere velit, et in ipsis praestigiis
+                        daemonum et imposturis vaticiniorum et in miraculis magiae utatur signo
+                        crucis ab ipsis deriso nomenque Christi invocet, et videbit, quomodo ejus
+                        rei metu daemones fugiant, vaticinia conquiescant, magiae et veneficia
+                        jaceant.</quote> Hactenus Athanasius apud Bellarminum. Tum Athanasius haec
+                    omnia refert ad Verbi nativitatem, non ad mortem, nec ait artes magicas fuisse
+                    abolitas, sed sordescere caepisse; antea enim in pretio et gloria passim erant;
+                    post Christum despicatui fere omnibus sunt. Porro rite concludit contra Gentiles
+                    Christum non esse Magum, cum magiam pessumdederit; nam magna ex parte illa
+                    evanuit, quae universum orbem infecerat; siqua vero extant rudera, nil damni
+                    nobis metuendum, scutum signi crucis in promptu habentibus, quo illa
+                    dissipentur.</p>
+                <p>Tandem magiae in pseudo-Synodo apud Tyrum habita insimulatus, falsum crimen ut
+                    refutaret, magiam per Christum abolitam esse non respondit.</p>
+                <p>Nec secus explanandus Hieronymus in Isajam sic scribens: <quote>ita ut
+                        divinationes et universa fraus idolatriae, quae deceptum possidebat orbem,
+                        se fractam esse sentiret. In tantum ut Magi de Oriente etc. intelligentes
+                        natum filium Dei, qui omnem artis eorum destruxerat potestatem, venerunt
+                        Bethleem etc.</quote> Vides magiam cum Idolatria necti illiusque interitum a
+                    S. Doctore ad Christi exortum referri: sed habeo luculenta S. Doctoris
+                    testimonia, quibus <pb n="36"/>eum a me stare commonstrem. In vita S. Hilarionis
+                    p. 23. refert <quote>adolescentem puellae cujusdam amore captum, cum blanditiis
+                        nil proficeret, perrexisse Memphim, ut magicis artibus rediret armatus ad
+                        virginem. Igitur post annum doctus ab Aesculapii vatibus...venit praesumptum
+                        animo stuprum gestiens et subter limen domus puellae portenta quaedam
+                        verborum et portentosas figuras sculptas in aeris Cyprii lamina defodit.
+                        Illico insanire Virgo et amictu capitis abjecto rotare crinem, stridere
+                        dentibus, inclamare nomen adolescentis. Magnitudo quippe amoris se in
+                        furorem verterat. Perducta ergo a parentibus ad monasterium, seni
+                        (Hilarioni) traditur, ululante statim et confitente daemone etc.</quote>
+                    Refert quoque malificium in Circensibus dissolutum: <quote>Hic itaque aemulo suo
+                        habente maleficum, qui daemoniacis quibusdam imprecationibus et hujus
+                        impediret equos et illius concitaret ad cursum, venit ad B. Hilarionem
+                        etc.</quote> Quid ad haec responderi queat, haud video, an fidem ejusmodi
+                    historiis abrogant? Atqui Gelasius in Consilio 70. Episcoporum eas approbavit in
+                    haec verba: <quote>Item vitas Patrum Antonii, Pauli, Hilarionis et omnium
+                        Eremitarum, quas tamen vir Beatissimus scripsit Hieronymus, cum omni honore
+                        suscipimus.</quote> Vide Canum l. 11. c. 6. Praeterea, ut Heribertus
+                    Ros-Weydus in suo de vitis Patrum volumine prolegomen. XV. animadvertit, magna
+                    inter caeteros est Hieronymi auctoritas, non modo, quod religione spectatus,
+                    pietate illustris, doctrina conspicuus fuit, sed eo vel maxime, quod horum
+                    Patrum loca religiosa peregrinatione obivit. Unde verisimile admodum est Sanctum
+                    Doctorem nec fallere nec falli potuisse. Ad haec factum Hilarionis ab Hieronymo
+                    proditum <pb n="37"/>non est singulare et insolitum. Nam S. Basilius juvenem,
+                    qui puellam ope daemonis ad amorem incenderat, in servitutem assertum a daemone
+                    liberavit, chirographo restituto, ut legere est apud Ros-weydum l. 1. in vita S.
+                    Basilii. Et ut aliquid de recentioribus attingamus, Tursellinus accuratus juxta
+                    ac politus scriptor l. 3. Historiae Lauretanae c. 33. refert adolescentem impuro
+                    cujusdam mulieris amore flagrantem eo vesaniae devenisse, ut magicis cantionibus
+                    daemonem rogarit, ut se voti compotem faceret, traditoque chirographo
+                    Christianam religionem renunciarit. Porro quod tantopere in votis habuerat, ut
+                    obtinuit, mox sceleris paenitere caepit atque sacram aedem Beatae Virginis
+                    Lauretae invisens, recepta tandem nefaria syngrapha in vitam Salutis remeavit.
+                    Igitur, cur Hieronymo fides detrahenda, plane non video. Sed age: Fuerit falsus
+                    S. Hieronymus artis Criticae alioquin callentissimus, causa nihilominus cadis.
+                    Nam inde saltem conficitur eum non credidisse Christi adventu omnem omnino
+                    magiam fuisse mundo eliminatam. Itaque dum Adversariis Hieronymum eripio, omnes
+                    simul Patres eripio, qui iisdem pene verbis de Magia loquuntur.</p>
+                <p>Neque aliter intelligendus Theophilus apud Hieronymum scribens: <quote>Christus
+                        Magorum praestigias suo delevit adventu</quote>; paulo enim post subdit:
+                        <quote>cum autem idolatria Christi Majestate deleta sit, indicat et parentem
+                        suam artem magicam secum pariter dissolutam.</quote> Igitur idem de magiae
+                    interitu ferendum judicium, quod de idolatriae occasu. Haec non ita interiit, ut
+                    nullae reliquiae extent. Ergo nec magia ita evanuit, ut pristini usque ad
+                        <corr>praesens</corr> tempus vestigia erroris non remanserint, <pb n="38"/>ut Hieronymus de Memphi loquitur loco nobis objecto. Neque tandem Ambrosius
+                    aliter intelligendus: <quote>Magus ergo intelligit suas cessare artes.</quote>
+                    Nam l. 4. Hexameri c. 8. ita scribit: <quote>Ferale licet carmen immurmuret,
+                        hebetatur in Christi nomine. Sic et Elymam Magum <corr>Paulus</corr> non
+                        solum magicae artis infirmitate, sed etiam oculorum amissione caecavit. Sic
+                        et Petrus Simonem alta coeli magico volatu petentem dissoluta carminum
+                        potestate dejecit et stravit.</quote> Pulchre igitur Sanctus Doctor artes
+                    magicas cessare docet, non quia superstites non sunt, sed quia Christi nomine
+                    pie sancteque invocato facile frustrantur ac dissipantur, ut in Elyma ac Simone
+                    Magis perspicere licet, quorum praestigia solo Christi nomine dissoluta sunt.
+                    Caeterum vide, lector, volatum Simonis ac lapsum fabulae loco Ambrosium non
+                    habuisse.</p>
+                <p>In novissimum locum conjeci Tertullianum, quod aliter explicandus sit. L. de
+                    Idolatria c. 9. ait: <quote>Scientia ista (magiae) usque ad Evangelium fuit
+                        concessa, ut Christo edito nemo exinde nativitatem alicujus de coelo
+                            <corr>interpretetur</corr>... Sic et alia species, quae miraculis
+                        operatur, etiam adversus Moysem aemulata, patientiam Dei traxit ad
+                        Evangelium usque.</quote> Non enim Tertulliano propositum est in eo libro
+                    demonstrare magiam esse mundo pulsam: sed licitam non esse. En argumentum libri
+                    ex Pamelio, post librum de spectaculis editum, cupiens Tertullianus reliquas
+                    idolatriae species in universum tollere; hunc sibi conscribendum putavit, ne
+                    diutius Christiani ignorantia crassa laborent, existimantes in solo Idolorum
+                    cultu <quote>idolatriam consistere</quote>. Idque liquido apparet ex verbis
+                    ejusdem objectis: <pb n="39"/>
+          <quote>Usque ad Evangelium fuit concessa.</quote>
+                    In quae verba Scholiastes ne putet lector concessam divinis legibus, sed tantum
+                    humanis, quia ante Christum non punita, imo per omnes nationes vaguta insolenter
+                    et in pretio et in gloria habita... Sed et explicandus Tertullianus, cum ait
+                    concessam usque ad Evangelium, scilicet concessam ut plurimum, nec inscitiae
+                    damnetur. Nam ex Valer. Maximo anno 614. urbe condita urbs et Italia
+                    interdicitur Mathematicis. Sed audiatur Tertulliani locus. Post ea verba
+                        <quote>ad Evangelium usque</quote> sic pergit: <quote>Nam exinde et Simon
+                        Magus jam fidelis, quoniam aliquid adhuc de circulatoria secta cogitaret, ut
+                        scilicet inter miracula professionis suae etiam Spiritum Sanctum per manuum
+                        impositionem enundinaret, maledictus ab Apostolis de fide ejectus est, et
+                        alter Magus, qui cum Sergio Paulo, quoniam iisdem adversatur Apostolis,
+                        luminum amissione multatus est, post Evangelium nusquam invenias aut
+                        Sophistas aut Caldaeos aut incantatores aut conjectores aut Magos nisi plane
+                        punitos.</quote> Et adhuc audebit Adversarius Tertullianum in suas partes
+                    rapere? An non disserte post Evangelium magiam admisit Tertullianus? An non
+                    poena, qua Magi multantur, <corr>magiam</corr> extare probat?</p>
+                <p>Ferre autem nequeo Benedictum XIV. ab Adversariis in sui patrocinium adferri,
+                    propterea quod in aureis, quos edidit, libris de daemonum portentis in veteri
+                    testameno relatis fuse disserens, ne verbum faciat de fascinationibus magiisve
+                    post Christi mortem fatis l. 4. par. 1. c. 3. de Canonizatione Sanctorum.
+                    Argumentum ex silentio petis, quod infirmum esse passim Critici monent. Sed tuo
+                    gladio te jugulo: Atqui <pb n="40"/>neque ibidem neque usquam alibi Sanctissimus
+                    Pontifex adseruit magiam finem habuisse Christo in crucem acto, idque suo
+                    argumento, quod accurate prolixeque tractabat, fuisset opportunum. Igitur negat
+                    magiam finem habuisse. Dein cum Patribus et Theologis quaedam portenta a daemone
+                    adhuc patrari concedit, quantumque a veris miraculis distent, erudite edisserit;
+                    igitur eo judice daemonum vis non in sola corporum permeatione aut illecebris ad
+                    malum sita est, ut putatis, sed in portentorum etiam effectione, quae Magis est
+                    propria. Tum ab ea communi opinatione non abhorret, quae daemones incubos
+                    succubosque admittit. Verum ut bene multa omittamus, satis erat vel solam iconem
+                    Divi Petri precibus Simonem Magum praecipitem dantis contueri tomo quarto
+                    praefixam, ut qua opinione de magia sapientissimus Pontifex esset imbutus,
+                    confestim intelligeres.</p>
+                <pb n="41"/>
+            </div>
+
+            <div>
+                <head>§. VIII. In quo exploduntur Adversarii conjecturae.</head>
+                <p>Argumenta philosophica quisque arte cogitandi institutus nullo negotio
+                    solvet.</p>
+                <p>Primum enim si quicquam probant, non modo nunc, sed nunquam magiam extitisse
+                    probant, quod ille non audet dicere, V. G. quod dedeceat Divinam Sapientiam
+                    muliercularum et flagitiosorum hominum libidini corpora opesque permittere. Nam
+                    si Divinam sapientiam dedecet, non solum post Christum, sed nunquam factum est;
+                    quia ex S. Anselmo quodlibet minimum absurdum in Deo sequitur impossibile. Si
+                    Divina consilia humana prudentia metiri velis, quid magis a Divina sapientia
+                    alienum videtur, quam hominem sic daemone sinere vexari, <quote>ut in monumentis
+                        domicilium haberet, et neque catenis jam quisquam poterat eum ligare;
+                        quoniam saepe compedibus et catenis vinctus dirupisset catenas et compedes
+                        comminuisset; et nemo poterat eum domare et semper die ac nocte in
+                        monumentis et in montibus erat clamans et concidens se lapidibus</quote>, ut
+                    Marci c. 5. habemus? Caeterum cave ne putes daemones aut Magos posse pro suo
+                    lubitu vim in nostram perniciem exitiumque exerere. Tantum enim possunt, quantum
+                    Deus sinit, ad puniendos aut malos vel ad probandos bonos, quod Deum minime
+                    dedecet, quia ex Augustino <quote>melius <pb n="42"/>judicavit de malis
+                        benefacere, quam mala nulla esse permittere.</quote> Dicat quis, Deus nos
+                    honesta petentes saepe non exaudit. An nefariis daemonum votis annuet? Igitur
+                    non sivit Jobum a daemone exagitari aut Christum in templi fastigium sustolli.
+                    Deus bonos interdum non exaudit, ut quid melius eis det, improbos exaudit, ut in
+                    errorem mittantur occulto judicio, tamen justo, ut contigit Acabo. Dein
+                    argumentum probat nunquam fuisse aut fore Magos. Inquiunt esse incredibile
+                    daemones omnium superbissimos se sponte Magorum imperio subiicere. Atqui hac
+                    ficta demissione Divinos honores aucupantur. Dein Matth. c. 8. daemones
+                    quantumlibet superbia elati, dum a Christo jubentur ex obsessis corporibus
+                    migrare, rogant, ut sibi liceat ingredi in porcos: <quote>Mitte nos in gregem
+                        porcorum</quote>, quo nil vilius ac turpius. Tandem hinc sequetur nullam
+                    unquam extitisse aut extituram magiam.</p>
+                <p>Secundo argumenta adversariorum laborant vitio imperfectae enumerationis, uti est
+                    illud Pyrronistarum: <quote>multa sunt in rebus humanis incerta ac dubia; oculus
+                        aliquando fallitur etc.</quote> Ergo omnia sunt incerta nullaque extat rerum
+                    scientia. Eandem crabem illi recoquunt: saepe effectus mere phisicos nostris
+                    viribus superiores censemus; tum saepissime circulatores nobis fucum faciunt;
+                    multa quoque falsa comperta sunt, quae tamen vera praedicabantur. Ecquid hinc
+                    conficere vultis? An contra dialectica praecepta inde consecutionem generalem
+                    eruitis? Sed paria obtrudunt, qui daemoniacos inficiantur, dum horum effectus ad
+                    vim atrae bilis aut phantasiae ludibria aut uteri faeminei vitium referre
+                    conantur. <pb n="43"/>Demum argumentum retorquetur de Aegyptiacis Magis. Pari
+                    enim jure dicere potes illorum effectus mere phisicos fuisse ac manuum
+                    dexteriate Pharaoni illusisse. Itaque lubentissime fateor eorum, quae de Magis
+                    sicut et de energumenis vulgo feruntur, quam plurima esse ficta et falsa, nam
+                    plerique homines nimium sunt creduli ac superstitiosi, negari tamen omnia non
+                    posse, ea, quae hactenus attulimus, luculenter ostendunt. Hinc Plinio, cujus
+                    autoritate maxime Adversarii nituntur, haud gravate concesserim plurima Magorum
+                    esse inania, falsa, incredibilia, at omnia esse ejusmodi minime assentior. Imo
+                    Plinius l. 30. c. 2., ubi magiam omnem de medio sustulisse videtur, partem
+                    magiae diserte adserit: <quote>Sed in his veneficas artes pollere ait non
+                        magicas?</quote> Tum de Nerone loquens: <quote>Utinam inferos potius et
+                        quoscunque de suspicionibus suis Deos consuluisset, quam lupanaribus atque
+                        prostitutis mandasset inquisitiones eas.</quote> Vides magicas effectus ab
+                    eo non negari; sed non ab hominibus perditis, at <quote>a Diis inferis</quote>
+                    (qui sane erant daemones) petendos censet, quod tandem in idem recidit. Neque
+                    magni est momenti, quod Nero, cui tot praesidia praesto erant ad discendum, nil
+                    in hac arte profecerit. Primum enim nostrum non est inquirere, cur unum Deus
+                    ludificari permittat, alium non permittat. Divinitus permissum diabolo, ut
+                    omnium calamitatum genere Jobum afficiat, ut in alios id moliatur, non est
+                    permissum. Divinitus daemoni permissum, ut aliquando corpus hominis probi
+                    subeat, ut viri autem improbi obsideat, non est permissum. Dein Nero rerum
+                    futurarum, uti ex Plinio coniici fas est, scientiam venabatur; haec <pb n="44"/>autem neque Magis neque daemonibus concessa est. Unde spe sua frustratus
+                    magicas artes despicatui ac ludibrio habere caepit. Demum quae stygia arte
+                    fiunt, plerumque simulata sunt ex Apostolo 2. Thes. 2., ubi ait venturum
+                    antichristum <quote>in omni virtute, signis et prodigiis mendacibus in omni
+                        seductione iniquitatis</quote>. Itaque Nero compertis Magorum offuciis
+                    illorum artes explosit, maxime cum recens esset memoria Simonis Magi in terram
+                    dejecti. Verum non inde consequens propterea est eos revera Magos non fuisse.
+                    Nam etiam antichristus fucum facere molietur ope daemonis et tamen revera Magus
+                    erit. Quocirca hallucinantur Adversarii probantes nullam modo magiam extare,
+                    quia veteres eam definiere esse fallaciam. Siquidem magiam generatim sumptam
+                    definiere, dum fallaciam appellarunt. Ergo si propterea magia modo nihil omnino
+                    est, nihil quoque omnino fuit etiam in veteri testamento nilque omnino erit in
+                    fine mundi, juxta illud Logicae effatum: <quote>dictum de omni</quote>. Tum
+                    citatur Arnobius l. 1.: <quote>magicarum artium ludi</quote>. Et tamen Arnobius
+                    memorat volatum et casum Simonis Magi, qui si contigit, ad veram magiam
+                    spectabat. Demum etsi fallendi tantum ars sit, existit tamen. Nam et ars
+                    sophistica ars fallendi est et tamen existit.</p>
+                <p>Testimonium Horatii objectum, qui negat habendam fidem magiae, valde infirmum
+                    est; quippe longe antea vita decessit, quam Christus in cruce obierit,
+                        <corr>adeoque</corr> ante Christi necem evanuisset magia. Dein quis nostrum
+                    negaverit irridenda <quote>somnia, terrores magicos, miracula, Sagas, nocturnos
+                        Lemures portentaque Thessala</quote>? Nonne <pb n="45"/>antichristi
+                    praestigiae etiam erunt a piis viris irridendae? Et tamen dabit prodigia
+                    magna.</p>
+                <p>Neque tandem refert Imperatores nusquam in bello magicis artibus esse abusos.
+                    Primum hoc est incertum nec quisquam id facile probabit, dein argumentum probat
+                    neque ante adventum Christi magiam fuisse grassatam. Tum Magorum daemonumque vis
+                    limitibus est definita, unde nec mundum subvertere ejusve ordinem inturbare
+                    possunt; quin illorum conatibus saepe obstant boni Angeli. Caeterum cur Romae
+                    atque alibi, antequam sortes lusoriae extrahantur, Praesul urnae adhibitis etiam
+                    Sacris reliquiis benedicere solet, nisi quia magicae artes timentur?</p>
+                <p>Taedet me refellere, quod ex testificatione aliquot Sacrae Fidei Quaesitorum
+                    obiici solet, qui longo rerum usu deprehenderunt omnia esse anilia figmenta.
+                    Siquidem reditur ad vitiosam argumentationem superius dissolutam: <quote>Multa
+                        falsa comperta sunt. Ergo omnia sunt falsa.</quote> Si ipsis non contigit
+                    vera maleficia invenire, an ergo nemini? Liceat mihi ejusmodi viris unum
+                    Bellarminum obiicere, ingenio, doctrina, pietate longe celeberrimum ac testem
+                    oculatum. Cum Lovanii de ejusmodi maleficiis e cathedra dissereret, hocce factum
+                    narravit: <quote>Concionator quidam Praedicatorum, quod me puerum vidisse
+                        memini, in monte Politiano in quadragesima, cum vellet concionari, loqui non
+                        potuit. Accidit id secundo et tertio. Videns id non esse rem naturalem, in
+                        concione tantum sibi vocem praecludi, votum vovit Sanctae Agneti, quae erat
+                        loci Patrona; invenitque signa in suggestu, capillos inter se ligatos et
+                        simila. Comburit illa et vox ei restituitur. Concionem postea
+                        habuit.</quote> Haec Bellarminus apud Natalem <pb n="46"/>Alexandrum t. 4.
+                    Theologiae dogmaticae et Moralis l. 4. c. 3. art. 14. regula 24. Sed ne forte
+                    causentur unius testimonium fidem certam non facere, addam, quod Franciscus
+                    Zammarinus Lateranensis Ecclesiae Canonicus in Thesauro Sacerdotali Romae edito
+                    scripsit: <quote>Illa ossa et pennae insertae una in alia et multa et quasi
+                        infinita talia, quae in lectis inveniuntur a daemone deportata, sicut clare
+                        fuit deprehensum, sunt extrahenda.</quote> Audis: <quote>sicut clare fuit
+                        deprehensum</quote>? Sexcenta alia adferri possent, nisi mihi vetera sectari
+                    finemque facere propositum esset. Porro quae scripsi, solo veritatis amore me
+                    scripsisse profiteor judicioque Ecclesiae submissa volo.</p>
+            </div>
+
+            <div>
+                <p>
+          <placeName>Tridenti</placeName> <date>MDCCL</date>.</p>
+                <p>Ex Typographia Monauniana, Superiorum Permissu.</p>
+            </div>
+
+        </body>
+    </text>
+</TEI>

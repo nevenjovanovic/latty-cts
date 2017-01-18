@@ -1,0 +1,376 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="flasch-s-professio">
+            <titleStmt>
+                <title>Professio catholica, versio electronica</title>
+                <author key="flasch01">
+                    <name xml:lang="dt">Flasch, Sebastian</name>
+                    <date precision="low">1600</date>
+                </author>
+                <respStmt>
+                    <resp>Hanc versionem electronicam curavit</resp>
+                    <name>Irina Tautschnig</name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <edition>Transcribed from the printed text</edition>
+            </editionStmt>
+
+            <extent>16 paginae</extent>
+
+            <publicationStmt>
+                <p>Croatica et Tyrolensia: Tyrolis Latina <date>April 2015</date>
+        </p>
+            </publicationStmt>
+
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Flasch, Sebastian</author>
+                        <title>Professio catholica M. Sebastiani Flaschii Mansfeldensis non vulgaris
+                            eruditionis et authoritatis viri, ubi Lutheranam haeresin, in qua et
+                            natus et a pueris institutus fuerat, libere abiurat</title>
+                        <imprint>
+                            <pubPlace>Brixen</pubPlace>
+                            <date>1578</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>TLMF, FB 3975</bibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <creation>
+                <date when="1576" precision="medium">1576</date>
+            </creation>
+            <textClass>
+                <keywords scheme="time">
+                    <term>Das 16. Jh. bis zum Tod Erzherzog Ferdinands II. von Tirol (1595)</term>
+                </keywords>
+                <keywords scheme="genre">
+                    <term>Theologie</term>
+                    <term>Prosaschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change>corrected teiHeader and body<date>2015-08-20</date>
+                <name>Johanna Luggin</name>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <head>Professio Catholica M. Sebastiani Flaschii Mansfeldensis, non vulgaris
+                    eruditionis et authoritatis viri, ubi Lutheranam Haeresin, in qua et natus et a
+                    pueris institutus fuerat, libere abiurat simulque abiurationis suae causas
+                    viginti duas adducens fucatam illius sectae naturam et dolos, quibus miseros
+                    deludit mortales, breviter et accurate depingit.<placeName>Brixinae</placeName>,
+                    Donatus Fetius excudebat. <date>M.D.LXXVIII.</date>
+        </head>
+            </div>
+            <pb xml:id="A1v"/>
+
+            <div>
+                <head>Reverendissimo et Illustrissimo D. D. Joanni Thomae Episcopo Brixinensi et
+                    Sacri Imperii Principi amplissimo. Domino suo clementi. M. Sebastianus Flasch
+                    Mansfeldensis Humillimus servus.</head>
+                <lg>
+                    <l>Accipe catholici Princeps assertor honoris,</l>
+                    <l> Rhetorum splendens gentis in orbe iubar.</l>
+                    <l>Laernaeam sic variis cernes serpentibus Hydram,</l>
+                    <l> Quam prius Haereticum me coluisse pudet.</l>
+                    <l>Nunc hostis tandem Haereseos, pietatis avitae</l>
+                    <l> Defensor, veneror relligione patres.</l>
+                </lg>
+            </div>
+
+            <div>
+                <head>Ad Lectorem.</head>
+                <lg>
+                    <l>Ut pateat multis, vana commenta Lutheri</l>
+                    <l> Quam variis scateant, lector amice, dolis,</l>
+                    <l>Donatus multa praestans Chalcographus arte</l>
+                    <l> Pluribus exemplis haec tibi scripta dedit. </l>
+                </lg>
+            </div>
+            <pb xml:id="A2r"/>
+
+            <div>
+                <head>Rationes M. Sebastiani Flaschii Mansfeldensis, cur relicto Lutheranismo ad
+                    Catholicam Romanam Ecclesiam se receperit.</head>
+                <p>Si qui sunt, qui causam scire volunt, quare ego M. Sebastianus Flasch
+                    Mansfeldensis pertaesus Lutheranismi, in quo natus et educatus sum, et quem
+                    publice et privatim tum in scholis, tum in templis propagare et confirmare
+                    studui, nunc demum senex et affecta propemodum aetate ad Ecclesiae Catholicae
+                    gremium me contulerim, hi non gravatim legere dignentur sequentes rationes, quas
+                    obiter et raptim collegi, nullam aliam ob causam, quam ut me apud quosdam
+                    malevolos sinistra suspicione ambitionis, cupiditatis vel alicuius emolumenti
+                    corporalis liberarem. Quibus rationibus utinam acquiescerent et ad conversionem
+                    invitarentur illi quoque, qui mecum sub eodem iugo captivitatis Babylonicae
+                    multis iam annis miseram servitutem servierunt.</p>
+                <p>Prima. Quod satis superque et quidem non sine admiratione deprehenderim, ex mutua
+                    utriusque collatione partis, lectione privata et Catholicorum publicis
+                    concionibus, catholicos longe aliter sentire et docere, quam a Lutheranis
+                    arguuntur, quodque doctrinam Ecclesiae Catholicae apertis mendatiis deformare et
+                    in odium ac contemptum <pb xml:id="A2v"/>adducere de industria et quidem contra
+                    conscientiam studeant et laborent. Sic enim habet Augustana Confessio Catholicos
+                    docere non concedendum esse, quod gratis propter Christum remissio peccatorum
+                    detur. <note place="margin">Vide Dietenberg. in confuta. Luthe. de votis et confess. ubi convincit et arguit eum 874 mendaciorum. In lib. cont. Emserum.</note> Item Apologia Augustanae Confessionis asserit Catholicos ubique excluso
+                    Christo docere, mereri iustificationem per opera legis. Rursus Catholicos Mariam
+                    Christo aequare et id genus alia infinita, quae longum foret hic ordine
+                    enumerare. Et profecto Lutherus ipse eo loco haberi vult, ut si vel semel
+                    mentiri manifeste deprehendatur, tanquam infamis nebulo habeatur, qui nihil
+                    fidei mereatur in ullo scripto. Quare nemo mihi vitio vertere potest, quod
+                    studio et amore veritatis, repudiato Lutheri Evangelio et scriptis, in quibus
+                    innumerabilia pene deprehendas mendatia, me ad Christi Evangelium et Catholicae
+                    Ecclesiae gremium receperim.</p>
+                <p>Secunda. <note place="margin">De captivita. Baby. et lib. cont. Papatum. </note> Quod deinde ex libris Lutheri manifeste cognoverim ipsum invidia potius
+                    quam pio zelo ad scribendum incitatum: et ad evertendam Catholicam religionem
+                    suas tetras et novas opiniones propagare et stabilire voluisse. </p>
+                <p>Tertia. <note place="margin">Lib. contra Pap. et Ioan. Farcimen. Item in serm. convivalib.</note> Quod etiam in eiusdem scriptis et Tomis tantam invenerim verborum
+                    turpitudinem et scurrilem obscoenitatem, ut etiam lenones ipsos et omnem
+                    scortorum impudentiam facile vincat, quibus cum plurimas paginas conspurcatas
+                    habeat, non difficile esset exempla afferre, nisi pias et religiosas aures
+                    offendere vererer.</p>
+                <pb xml:id="A3r"/>
+                <p>Quarta. <note place="margin">In praefatio. Bibliae Luth. Vide Emser. Vice. Dieten. Staphil. Lindanum. </note> Quod insuper certo compererim Lutheranos non modo integros libros
+                    (alioquin ab Ecclesia approbatos) tanquam apocrypha scripta ex sacrae scripturae
+                    Catalogo rejicere, sed etiam libros, quos retinent, passim in infinitis locis de
+                    industria corrupisse ac depravasse ad novam suam vanam doctrinam melius
+                    confirmandam. Quod si adulterare monetam vel Regias literas capitale censetur,
+                    quanto magis scelus capitale existimandum est scripta prophetica et Apostolica
+                    mutilare, pervertere et falsa interpretatione contaminare? Quemadmodum Lutherus
+                    plerunque facere consuevit, qui conciliandae sibi maioris authoritatis gratia
+                    omnes alios, quantumvis pios interpretes ab ipso discrepantes ex alto despicit
+                    et contemnit nec quicquam valere sinit, quam quod Ipse dixit.</p>
+                <p>Quinta. Quod item perspexerim eos passim in interpretatione scripturae ludere et
+                    comminisci, addere et demere, quicquid libet, modo fuco aliquo velari possit ad
+                    simplicibus imponendum. <note place="margin">Ad quendam amicum Tom. 4 germ. Vitenber. folio 475.</note>Sed de suis corruptelis convicti sic a Magistro suo
+                    Luthero respondere docentur, Doctor Martinus Lutherus vult sic habere: et dicit
+                    Papistam et Asinum esse rem unam: Sic volo, sic iubeo, sit pro ratione voluntas.
+                    Nolumus enim Papistarum scholares aut discipuli esse, sed magistri ac iudices.
+                    Quis autem in hac causa non mallet audire et sequi versionem et interpretationem
+                    ab Ecclesia approbatam vel item vocem Christi et Apostolorum quam periuri et
+                    perfidi Monachi impudentem temeritatem?</p>
+                <pb xml:id="A3v"/>
+                <p>Sexta. Quod simul eo pervenerim in inquisitione veritatis, ut quae antea
+                    consentanea esse scripturae et patribus credidi, ea nunc cum ipsis ex Diametro
+                    pugnare et longissime discrepare notaverim.</p>
+                <p>Septima. Quod postea etiam deprehenderim eos non solum sacram scripturam, sed
+                    etiam sanctorum patrum testimonia et scripta partim adulterare, partim ad
+                    stabilienda propria commenta vane et sinistre interpretari et detorquere.
+                    Quodque per Dei gratiam nunc tandem intellexerim, quam mirabili et artificiosa
+                    fallacia hominum mentes perstringant aut in scripturis sacris mirifice
+                    extollendis et citandis patribus et Conciliis, cum tamen non alio loco revera
+                    Sanctos patres et Concilia habeant, quam quo loco Alcoranum Mahometi et Aesopi
+                    fabulas, et pluris in veritate axiomata sua faciant quam ipsam scripturam
+                    sacram. Nam quod ad patres attinet, si authoritate eorum urgeantur, vel
+                    impudenter rejiciunt, vel si depravare vel alio loco torquere non possunt, se
+                    eos recipere asserunt, sed quatenus cum scriptura consentiunt. Quasi non eatenus
+                    etiam Alcoranum et Aesopi fabulas recipiant. Quomodo vero ad scripturam eos
+                    examinent, inde notum est, quod non scripturam ipsam, sed sua dogmata sive
+                    propria axiomata scripturae regulam faciant. Nam si quod Concilium dicat esse
+                    purgatorium aut Missam esse sacrificium, statim rejicitur, non quia hoc ulla
+                    scriptura neget, sed quia eorum dogmatibus adversatur. Ita Epistola Sancti
+                    Iacobi ad dogma Lutheri, Sola fides iustificat, est examinata <pb xml:id="A4r"/>et quia dogma Lutheri evertebat, pro straminea est reiecta. Sic secundus
+                    Machabeorum ad alterum dogma examinatus est, Non offerendum vel sacrificandum
+                    pro mortuis: Et quia non quadrabat, in apocryphos reiectus est. Quis igitur
+                    credat eos summam authoritatem (ut videri volunt) scripturae tribuere, cum non
+                    solum Patres et Concilia, sed etiam ipsam Scripturam ad regulam suorum axiomatum
+                    examinent, explodant et rejiciant?</p>
+                <p>Octava.<note place="margin">Vide Sanderum lib. 8 de Monarchia visibili capi. 57. Lindanum de Tabulis. </note> Quod ex scriptis Sanctorum Patrum didicerim doctrinam Lutheri nihil fere
+                    aliud esse quam quoddam chaos et veluti farraginem quandam ex obsoletis
+                    haeresibus et erroribus antiquorum haereticorum collectam, quos iamdudum
+                    Concilia legitima et Sancti patres vivo DEI verbo magno consensu reiecerunt,
+                    refutarunt, anathematizarunt et ex Ecclesia profligarunt.</p>
+                <p>Nona. <note place="margin">Vide Fabium de antilogiis Lutheri. Item Septicipitem Cochlei. Contra Regem Angliae adversus falso dictum statum Ecclesiast.</note> Quod etiam animadverterim Lutherum in multis locis a seipso longissime
+                    dissentire et crebro pugnantia dicere atque adeo semetipsum proprio iudicio
+                    damnare et mendacem reddere.</p>
+                <p>Decima. <note place="margin">In i. ad Timoth. cap. 2. Tom. i. Ger. Vitenber. et super psalm. 45. Tom. 3. </note> Quod cum ipse Lutherus iactet se certissimum esse, quod doctrina sua non
+                    sit sua, sed Christi, omnibusque deneget salutem, quicunque eam non recipiunt,
+                    tamen observaverim eum subinde de doctrina sua dubitare, imo asserere se credere
+                    non posse vera esse, quae tradidit et scripsit in libris suis. Nec mirum, cum
+                    alibi fateatur se ne Christo quidem credere posse et eius verbis firmiter
+                    confidere, quippe qui affirmet se plus fiduciae <pb xml:id="A4v"/>collocare in
+                    sua Catharina et Philippo quam in Christo.<note place="margin">in serm. convivali. titulo de Prophetis et patriarch. item titul. de operib. Dei et titulo de Christo et de sola fide.</note>
+        </p>
+                <p>Undecima. Quod ad haec solidis argumentis convictus sim, ut affirmare audeam et
+                    debeam gregem Lutheranorum esse populum sine vera DEI Ecclesia, sine Sacrificio,
+                    Absolutione, Sacramento Altaris, veris Sacerdotibus et ministris. Ex quorum
+                    numero aliquot annis (proh dolor) me unum quoque fuisse fateor et ex animo
+                    doleo, qui neque rite neque legitime seu modo Ecclesiastico vocatus ministerium
+                    verbi et Sacramentorum apud miseram plebem administravi.</p>
+                <p>Duodecima. Nec parum invitatus sum et hac ratione, quod Lutherani conscii sibi de
+                    defectu veritatis et errore sententiam quandoque suam munire contendunt Patrum
+                    authoritate et testimoniis, quibus ut videantur consentanea et verisimilia
+                    tradere, multa et varia ipsorum dicta insidiose et perperam pro se citant
+                    suasque haereses illis affingunt: quin et aperte de illis mentiri non verentur.
+                    Atque ut exempli gratia unum atque alterum afferam, Apologia Augustana affingit
+                    Sancto Augustino, quod scripserit peccatum in Baptismo remitti, non ut non sit,
+                    sed non imputetur: quod nusquam scripsit Sanctus Augustinus, sed contrarium
+                    asseruit quam plurimis in locis. Similiter Protestantes adversus Concilium
+                    Tridentinum anno 62. asserunt Sanctum Ambrosium negare per iustos nos ire posse
+                    ad Deum, cum tamen dicat per istos (intelligens Paganorum Deos) non posse iri ad
+                    Deum: sic vocem Istos de industria et fraudulenter corrumpentes et mutantes <pb xml:id="A5r"/>in Iustos. Sic etiam eadem Apologia Augustana aperte de
+                    Sanctis Patribus mentiri non erubescit, affirmans veteres scriptores ante
+                    Gregorium nullam fecisse Sanctorum invocationis mentionem, cum tamen Divus
+                    Athanasius, Gregorius Nissenus, Ephrem, Theodoretus, Ambrosius, Augustinus,
+                    Hieronymus, Origines et multi alii, qui ante Gregorium extiterunt, non tantum
+                    eius mentionem fecerint, sed etiam invocationem et verbo et exemplo docuerint.
+                    Ne quis igitur talibus eorum imposturis decipiatur, Patres ipsos inspiciat et
+                    locorum ab ipsis citatorum verba et circumstantias sedulo expendat: facile enim
+                    fallitur, qui temere credit talibus impostoribus.</p>
+                <p>Decimatertia.<note place="margin">Vide Elenchum haereti. authore Gabriele Prateolo. </note> Me item ingenue comperisse fateor concionatores Lutheranos in
+                    multis articulis Turcis et Mahometistis magis patrocinari quam Christianis et
+                    ipsorum mores et ritus propemodum per Cacozelian imitari et repraesentare.</p>
+                <p>Decimaquarta. Quod super haec omnia longa experientia notaverim, quales fructus
+                    ipsorum fides et religio produxerit, tales videlicet, ut quisque, quod libet,
+                    sibi licere putet. <note place="margin">Vide tabulam Staphili de concordia fratrum Evangelicorum. Concio 3 habita 1546 tomo 4. folio 597. pagi. 2. </note>Quae quidem libertas carnis (quam tamen ipsi Chrianam
+                    appellant) hoc efficit, ut in reprobum sensum tradantur, et ut inter eos omnis
+                    generis scelera ubique locorum summa licentia et impunitate grassentur.</p>
+                <p>Decimaquinta <corr>Decmaquinta</corr>. Quod intellexerim quoque omnes pene
+                    sectas, quotquot hac nostra aetate grassantur, non aliunde nisi ex eiusdem
+                    Lutheri libris et doctrina tanquam <pb xml:id="A5v"/>ex scaturigine promanasse
+                    et propagatas esse.</p>
+                <p>Decima sexta. Quod etiam invenerim in eius operibus multas acerbissimas
+                    criminationes et convitia, quibus omnes suos adversarios proscindere et
+                    insectari sibique soli omnem laudem vendicare et tribuere solet. Et non solum
+                    non parcit praelatis et Theologis: sed nec quidem Romano Pontifici, Episcopis,
+                    Academiis atque adeo ipsi Caesareae Maiestati, Regibus, Principibus et aliis
+                    Imperii ordinibus, imo etiam beatis ipsis cum Christo regnantibus, ut sese verum
+                    eius praecursorem esse demonstret, de quo novissimis temporibus venturo iam olim
+                    Daniel Propheta et Sanctus Ioannes in Apocalypsi vaticinati sunt, quod futurus
+                    esset rex impudens facie, qui cor suum magnificabit, cuique dabitur os loquens
+                    magna et blasphemias contra Deum, tabernaculum eius et eos, qui in coelo
+                    habitant.</p>
+                <p>Decima septima. Quod ex ipsiusmet scriptis et Tomis perspexerim non solum
+                    Ecclesiasticas personas, videlicet Pontificem et Episcopos, ac Academias
+                    celeberrimas, sed etiam Imperii status et ordines Lutheranam religionem et fidem
+                    ut summam impietatem et haeresin manifestam in ipso exortu damnasse et
+                    proscripsisse.</p>
+                <p>Decima octava. Nec parum et illud me movisse fateor, quod Lutherani concionatores
+                    usque adeo oculati sint in peccata et levissimos naevos Catholicorum
+                        <corr>Catolicorum</corr>, ut eos non solum diligenter observare et notare
+                    consueverint, sed etiam eosdem pro concione usque adeo exaggerare, <pb xml:id="A6r"/>ut ex musca Elephantem facientes universum illorum ministerium
+                    et doctrinam suspectam et odiosam reddant: Cum tamen e diverso, si ex vita et
+                    moribus fides et religio iudicanda est, nusquam minus quam apud illos veram
+                    doctrinam sonare iudicandum sit, quippe qui multis modis Catholicorum flagitia
+                    in tam brevi sui novi Evangelii cursu superasse videantur. Nam ut de sola
+                    libidine dicam, cum ipsi Concionatores uxores ducant, adeo illis non contenti
+                    sunt, ut ad explendam insatiabilem suam libidinem frequenter iuxta Lutheri
+                    doctrinam etiam ancillis abuti et (quod magis foedum est) aliorum uxoribus vim
+                    afferre commutationemque uxorum inter se mutuo instituere non erubescant. Quod
+                    tam aperte de ipsis affirmare et scribere non auderem, nisi tamdiu inter eos
+                    versatus id certo et crebro cum multis aliis comperissem. Taceo, quid tentent
+                    frequenter inter audiendum confessiones, quorsum tam saepe aegritudines
+                    simulent, infirmos visitent, convivia quaedam instituant. Hoc unicum libet
+                    referre de quodam non infimae sortis concionatore, qui mecum pacisci contendebat
+                    de commutandis inter nos uxoribus: et ad id faciendum quodammodo me vi cogere
+                    volebat, cum videret me nulla ratione in tantum scelus velle acquiescere. Plura
+                    id genus praeclara facinora pudor prohibet longius commemorare.</p>
+                <p>Decima nona. Non etiam sine falsitatis opinione paucis ab hinc annis videre potui
+                    Lutheranorum religionem sensim collabi et intestinis dissensionibus in perniciem
+                        <pb xml:id="A6v"/>et interitum adduci: concionatores et Academiarum
+                    professores in mutua odia religionis causa exardescere, adeo ut nec
+                    superintendens superintendentem nec minister ministrum nec aedituum ferat
+                    aedituus: dominari palam foedas partium criminationes, aperta convitia et
+                    execranda anathematum fulmina: in constituenda religione cuique, quod libet,
+                    licere: nullum esse disputationis ordinem, nullam dirimendarum controversiarum
+                    certam et constantem regulam, nullum veritatis et fidei tutum asylum. Qua ex re
+                    gravissimae existant necesse est et deplorandae calamitates et extremae
+                    afflictarum conscientiarum desperationes.</p>
+                <p>Vigesima. Hic etiam de barbarica illa ignorantia dicendum est, quae paulatim
+                    inter eosdem Lutheranos ita crevit, ut vix maius incrementum sumere posse
+                    videatur. Postquam enim antesignani illorum, qui a Catholicis instituti doctrina
+                    maiori praestabant, mortui sunt, nullus pene amplius restat de vere solideque
+                    doctis viris, qui causam religionis Lutheranae paulo accuratius agere vel
+                    propugnare possit. Nam si qui sunt, qui sibi aliquam eruditionem tribuunt, illi
+                    tamen ridicule ineptiunt et rhetoricantur in suis scriptis et contionibus, ut
+                    vix operae pretium sit eas legere vel audire. Nec tamen aliud quicquam tractant
+                    quam vetera suorum praeceptorum mendacia, quae iam pridem a tot scriptoribus
+                    Catholicis sunt confutata. Unde fit, ut in tanta penuria literatorum ad
+                    administrationem Verbi DEI et Sacramentorum sese <pb xml:id="A7r"/>ingerant
+                    levissimi homines, perfidi monachi, Sartores, Sutores, Lictores, Carnifices et
+                    similes cerdones, ut dignum sit patella operculum et similes habeant labra
+                    lactucas: licet nihilominus iactitent et glorientur se non quosvis, sed tantum
+                    perspectae probitatis et eruditionis viros ad tractandum ministerium admittere.
+                    Contra vero maximus est virorum Catholicorum numerus, qui excellunt omni
+                    doctrinarum genere, sicut eorum libri, quos singulis annis edunt, testantur. </p>
+                <p>Vigesima prima. Quod etiam meminerim quamplurimos ad tantam desperationem venire,
+                    ut in tanta fidei suae certitudine et fiducia vitam sibi ipsis non dubitent vel
+                    laqueo vel alio suplicii genere extorquere: cuius rei apud eos frequentissima
+                    passim extant exempla, quae quidem vanitatem doctrinae Lutheranae in erigendis
+                    perterrefactis conscientiis (ut ipsi loquuntur) non obscure ostendunt. Sed
+                    talium desperationum nulla iam me tenet admiratio, quandoquidem et extra
+                    Ecclesiam sunt, in qua sola vera consolatio invenitur, et veris ministris
+                    Sacramentorum veraque absolutione peccatorum destituuntur. Quare mihi non fit
+                    verisimile aliquem ex Catholicis sanae mentis ulla ratione flecti aut persuaderi
+                    in posterum posse, ut a fide sua deficiat ad Lutheranismi impietatem, in quo vix
+                    aliud praeter meram confusionem omnium rerum et conscientiarum trepidationem vel
+                    puer septimum annum egressus animadvertere et agnoscere queat. Quae quidem res
+                    etiam ipsos <pb xml:id="A7v"/>Lutheranos Concionatores miris modis angit et
+                    confundit, ita ut fere nihil minus verum esse statuant quam suam religionem et
+                    doctrinam. Ideoque simul eam paulatim magis magisque ipsimet fastidire
+                    incipiunt, ut qui noverint eam vere paradoxon esse conflatum ex longe diversis
+                    et non cohaerentibus membris, sine verbo Dei et contra doctrinam Christi,
+                    Prophetarum et Apostolorum eiusque promulgationem iusto Dei iudicio permissam
+                    esse propter scelera et ingratitudinem mundi: nec tamen idem dogma perpetuo
+                    mansurum, sed brevi funditus interiturum esse non solum suspicantur, sed etiam
+                    quodammodo certo sciunt et paulo post, perinde ut illorum maiores et
+                    antecessores haeretici, re ipsa experientur. Maxima etiam pars praesertim
+                    vociferatorum et scriptorum, qui inter eos sunt, iam pridem religionem propriam
+                    una cum ipsa Augustana Confessione negligere et deserere pergunt, cum videant se
+                    eam amplius defendere et tueri non posse: sicut apparet ex illis absurdis
+                    puerilibus et ridiculis scriptis, quibus ad libros Catholicorum tam inepte et
+                    frigide respondent. Unde facile est conjicere nihil praeter faeces et rudera
+                    amplius apud istos restare et omnia ruinam undique minari.</p>
+                <p>Vigesima secunda. Quod postremo re tota bene considerata animadverterim me in
+                    Lutheranorum coetu permanere et eorum doctrinae acquiescere non posse, nisi
+                    velim per summam impietatem simul damnare omnes pios maiores nostros et tot
+                    sanctos Ecclesiae Catholicae <pb xml:id="A8r"/>doctores, qui ante Lutherum
+                    extiterunt. Certo enim didici eos cum Romana Ecclesia doctrina et fide
+                    communicasse et Romanum Pontificem pro Christi Vicario et Sancti Petri in
+                    Pastorali munere successore agnovisse. Certum enim habeo (ut de aliis articulis
+                    taceam) eos Sanctorum invocationem, Reliquiarum venerationem et Missae
+                    sacrificium approbasse. Certum est denique eos in ea doctrina tuenda et in
+                    Romanae Ecclesiae communione constantes usque ad extremum vitae spiritum
+                    permansisse. Lutherani autem Romanam Ecclesiam pro meretrice Babylonica, Romanum
+                    Pontificem pro Antichristo habendum contendunt: Sanctorum invocationem et
+                    Reliquiarum venerationem ac Missae sacrificium tanquam summam Idolatriam
+                    execrantur. Vel itaque profiteri oportet Omnes maiores nostros et Ecclesiae
+                    doctores ac pastores haereticos fuisse atque ad extremum damnatos esse neque
+                    quenquam vitam aeternam consequuturum, nisi qui partes Lutheri sequutus fuerit:
+                    Vel si maiores nostri salvi facti sunt, consequens est Lutheranos salvos fieri,
+                    nisi resipiscant, non posse. Nam sine fide, eademque vera, una et Catholica,
+                    impossibile est placere Deo; et consensu omnium extra Ecclesiam non est salus.
+                    Ecclesiam intellige, quae vera est, quae una, quae a Christo ita supra petram
+                    aedificata est, ut portae Inferi non sint adversus eam praevaliturae, quae
+                    perpetuo est duratura. Quod quomodo in Ecclesiam Lutheranorum conveniat, non
+                    video, cum ea paucis ab hinc annis primum sit exorta et brevi, sicut <pb xml:id="A8v"/>non obscure prae se fert, sit interitura. Quomodo item fides
+                    Lutherana vera esse potest, quae neque una est in se, sed in tot sectas
+                    dissecta, neque una cum maiorum nostrorum et Sanctorum Patrum fide? Neque enim
+                    in toto orbe terrarum demonstrare possunt vel locum aliquem, ubi eorum fides
+                    ante Lutherum praedicata fuerit: aut scriptorem unicum vel authorem, qui idem
+                    per omnia cum Luthero vel Confessione Augustana senserit et scripserit: licet
+                    fatear in hoc articulo cum illo haeretico, in isto cum alio atque iterum alio
+                    convenire, ut supra dixi.</p>
+                <p>Quare mihi nulla ratione salutem meam negligendam esse duxi, sed ad antiquae,
+                    verae Ecclesiae castra mihi esse convolandum, in qua tot sancti et praeclari
+                    maiores nostri sancte et pie usque in finem militarunt, ubi sunt veri pastores,
+                    ubi verum Dei verbum annunciatur, vera Sacramenta administrantur, verus Dei
+                    cultus viget et vera salus expectanda est. Ad veram itaque salutem salutaremque
+                    veritatem sectandam omnes eodem errore, quo ego fui, fascinatos invito: Deumque
+                    precor, qui dixit De tenebris lumen splendescere, ut veritatis suae luce eorum
+                    mentes illustrare et ad salutis suae portum dirigere et perducere sua
+                    benignitate dignetur, ut fiat unum ovile et unus pastor et servemus in una spe
+                    vocationis nostrae unitatem Spiritus in vinculo pacis. AMEN.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

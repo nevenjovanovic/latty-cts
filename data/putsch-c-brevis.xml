@@ -1,0 +1,624 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="putsch-c-brevis">
+            <titleStmt>
+                <title>Brevis et indubitata assertio de iis principibus, qui
+                    a Christi nativitate ad haec nostra usque tempora dominio integre potiti sunt
+                    civitatis Tridentinae, versio electronica</title>
+                <author key="tyrol23.putsch01">
+                    <name xml:lang="dt">Putsch, Christoph Wilhelm</name>
+                    <date precision="high">1542-1572</date>
+                </author>
+                <editor>Schaffenrath, Florian</editor>
+                <respStmt>
+                    <resp>Hanc versionem electronicam curavit</resp>
+                    <name>Johanna Luggin</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Digital text provided by the editor</edition>
+            </editionStmt>
+            <extent>16 folia</extent>
+            
+            <publicationStmt>
+                <p>Croatica et Tyrolensia: Tyrolis Latina <date>July 2014</date>
+            </p>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>TLMF, Dip. 1197</bibl>
+                <bibl>Schaffenrath, Florian (Hg.): Gegen Eunuchen und Antichristen.
+                    Christoph Wilhelm Putschs Beitrag zum Streit um das Hochstift Trient zwischen
+                    Bischof und Tiroler Landesfürst, in : Tiroler Heimat 69 (2005), 143–176.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <creation>
+                <date when="1568" precision="high" period="15xx_3_third">1568</date>
+            </creation>
+            <textClass>
+                <keywords scheme="time">
+                    <term>Das 16. Jh. bis zum Tod Erzherzog Ferdinands II. von Tirol (1595)</term>
+                </keywords>
+                <keywords scheme="genre">
+                    <term>Geschichtsschreibung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change>
+                <date>2014-07-18</date>
+                <name>Johanna Luggin</name>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>Brevis et indubitata Assertio De iis Principibus,
+                qui a Christi nativitate ad haec nostra usque tempora Dominio integrè potiti sunt
+                Civitatis Tridentinae; Serenissimum et Illustrissimum ac Dominum Ferdinandum II.
+                Archiducem Austriae, Ducem Burgundiae, Principem Comitatus Tirolensis etc.
+                Christophoro Gulielmo Putschio Tirolensi Auctore, Anno MDLXVIII, primo die Mensis
+                Augusti.</head>
+            <pb xml:id="F2r"/> 
+         <p>Praecepisti Serenissime atque Illustrissime Princeps, Domine Clementissime, ut
+                brevem quendam rerum Tridentinarum, adeòque eorum, qui civitatem ipsam Tridentinam
+                pleno imperio gubernaverunt, indicem ad peculiarem Celsitudinis Tuae usum
+                colligerem. Parui, ut debui, libens, remque quantum temporis angustia indulsisse
+                videtur, aggredi iam et explicare proposui. Porrò cuncta quae annotaturus sum, ex
+                pervetustis et fidelibus superioris memoriae monumentis, instrumentis, diplomatibus
+                scriptoribusque fide dignis excerpta sunt, et veritatis potissimum gratia, ut ratio
+                eius tandem haberetur, collecta. </p>
+            <p>Serenissimae Celsitudinis Tuae Oboedientissimus Clientulus Christophorus Gulielmus
+                Putschius Tirolensis</p>
+            <pb xml:id="F2v"/> 
+            <div type="chapter" n="I">
+                <head>I</head>
+                <p n="1">(1) Iam primum igitur constat Trogo Pompeio, eiusque
+                Abbreviatore Iustino autoribus Civitatem Tridentinam a Gallis Senonibus, qui postea
+                Romam coeperunt unà cum Mediolano Verona reliquisque vicinis et circumiacentibus
+                oppidis extructam esse. Gallos autem Senones, Germanos, Suevosque fuisse, inter
+                illustres constat auctores. Hi ergò Galli, eorumque posteritas harum novarum Urbium
+                a se conditarum dominio integrè potiti sunt ad Monarchiam usque Caij Iulij Caesaris,
+                Tridento tamen diutius imperitaverunt.</p> 
+            <p n="2">(2) Operae pretium
+                igitur videtur breviter fide historica quomodo aut quando Civitas agerque
+                Tridentinus in Romanorum potestatem devenerit, commemorare: prius tamen quid Strabo
+                et Ptolemaeus celebres et pervetusti Geographi de huius Urbis situ scripserint,
+                aperire decrevi. Ptolemaeus igitur Civitatem hanc Venetiae Mediterraneae attribuisse
+                videtur, è contra Strabo hoc longe antiquior illam Rhaetis hoc est Germanis
+                adscribit, cui tamquam vetustiores scriptores omnes nostro et superioris memoriae
+                Viri antiquitatum peritissimi adstipulantur.</p> 
+            <p n="3">(3) De subactione
+                igitur Norici et Rhaetiae Tridentinaeque Civitatis per Caesarem Augustum factae
+                gravissimus rerum Romanarum autor, Dion Cassius, Nicaeus Romanae Historiae libro
+                quinquagesimo quarto sic scribit: Mario Livio Livij filio Druso Libone et Lucio
+                Calpurnio Livij filio Lucij Nepote Pisone Caesonio consulibus, hoc est anno ab Urbe
+                condita septingentesimo trigesimo nono, ante Christi vero nativitatem anno quarto
+                <pb xml:id="F3r"/> decimo, <quote>a Druso et Tiberio Augusti Caesaris privignis hae res
+                    sunt gestae.</quote>
+            </p> 
+            <p n="4">(4)<quote> Rhaeti inter Noricum et Galliam Cisalpinam ad Alpes Italiae
+                    finitimas (per hoc etiam constat Rhaetos esse Germanos), quas Tridentinas
+                    nominant, sedes suas habent: hi vicinam Galliam frequenter populati, ex Italiae
+                    finibus praedas egerant, Romanosque et eorum socios iter per ipsorum terras
+                    facientes invest<add resp="editor">ig</add>averant: id quidem iam consuetudine recoeptum erat, ut
+                    in eos, qui nullo sunt foedere iuncti, ita statuerent: sed praeter hoc omnis
+                    masculos quos compraehendissent, etiam in utero adhuc matrum (id enim quibusdam
+                    divinationibus investigabant) morantes necabant.</quote>
+            </p> 
+                <p n="5">(5)<quote> Ea propter Augustus principio Drusum contra eos cum exercitu
+                    misit, isque Rhaetos apud Alpes sibi Tridentinas obviam factos, praelio
+                    congressus haud magno certamine fudit, eiusque Victoriae ergò Praetorios honores
+                    adeptus est.</quote>
+            </p>
+                    <p n="6">(6) <quote>Deinde cum ab Italia reiecti Rhaeti nihilominus Galliam urgerent,
+                    Tiberium quoque contra eos misit. Proinde Drusus ac Tiberius simul multis locis
+                    in Rhaetiam irrumpentes Legatorum opera ac ipse etiam Tiberius per Lacum
+                    navigijs subvectus, exterruerunt ea re barbaros, dissipatosque aggressi, haud
+                    difficulter multis exiguis proelijs dispersas eorum copias deleverunt,
+                    reliquaeque infirmiores exinde, ac animis collapsos in suam potestatem
+                    redegerunt. Quia vero populosa erat gens Rhaetorum, videbanturque bellum
+                    retentaturi, maximam ejus, et aetate validissimam partem inde abduxerunt, ijs
+                    relictis, qui et colendo ei regioni sufficerent, et ad rebellandum non
+                    satis <pb xml:id="F3v"/> virium haberent.</quote> Hactenus Dio loco iam
+                citato.</p>
+                <p n="7">(7) Idem scribunt Velleius Paterculus, Lucius Florus,
+                Suetonius Tranquillus, Sextus Aurelius Victor, Eutropius, Eusebius Caesariensis,
+                Sextus Rufus, Paulus Orosius et reliqui, apud quos plura conquiri poterunt. Ex supra
+                adductis compertum esse reor, quomodo Tridentum sub Romanorum iugum venerit. Romani
+                ergo Caesares Tridentina civitate, omnique circumiacenti agro potiti, illum per
+                Praesides ad inclinationem usque Romani Imperii gubernaverunt. </p>
+         </div>
+            <div type="chapter" n="II">
+            <head>II</head>
+                <p n="1">(1) Placet autem hoc loco Antistitum Tridentinorum memorias
+                intertexere, et quid iuris in civitate atque Republica Tridentina (non dico
+                Ecclesia) ab antiquo habuerint, obiter recensere. Ecclesiae quidem Tridentinae
+                Pastores cum adhuc pauperes cum Christo essent, modestiores fuere, nec dominia
+                saecularia appetebant, sed unica illis cura erat, oves sibi commissas verbo Christi
+                moderari, atque pascere, saecularibus negotiis Principibus terrarum relictis;
+                imperioque mundano penitus abstinebant. Quando autem animarum curatores Episcopi
+                dominijs saecularibus inhiare eaque arripere tentarint, in sequentibus paulatim (ut
+                spero) elucescet. </p> 
+            <p n="2">(2) Iovinum igitur quendam primum Episcoporum
+                ponunt et sub Nerone Caesare vixisse fabulantur, eique statim subiungunt Abundantium
+                Episcopum ordine Secundum quem ego primum Sacrosancta Conciliorum auctoritate <pb xml:id="F4r"/>
+                edoctus circiter annum Christi trecentesimum octuagesimum primum vixisse certum
+                habeo, in quod tempus ipsi fabulose Divum Vigilium decimum octavum Antistitem
+                collocant, qui suo ipsius testimonio centum et decem plus minus annis posterius
+                vixit: nam Divus Vigilius circa annum Christi Quingentesimum et vigesimum claruit.</p>
+               <p n="3">(3) Ex hoc apparet, quàm sine omni fundamento Tridentinae
+                Ecclesiae proceres in suis rebus astruendis sibi constent. Simili quoque vasticie
+                sibi civitatis Tridentinae Dominium, saecularemque administrationem a multis iam
+                annis vendicare prosumpserunt.</p> 
+            <p n="4">(4) Principes tamen nostri
+                tanquam legitimi eius Civitatis gubernatores, et Domini, eorum frivolis conatibus
+                fortiter adversati hactenus in eadem Urbe potestatem civilem suumque ius
+                magnanimiter obtinuerunt, peculiaremque eò semper Praefectum, sive Capitaneum, qui
+                principis (non dico Tridentini sed Tirolensis) nomine ius diceret, audiret causas,
+                easque decerneret, direxerunt: etiamsi superioribus annis ea de causa Principes
+                nostri Tirolenses ab Episcopis eius urbis multoties in Ius Ecclesiasticum vocati
+                fuerunt, tamen quoad civilem Rempublicam ibidem gubernandam Principibus nihil
+                derogatum aut detractum est, imò pleno civili iure, ordine haereditario sibi invicèm
+                succedentes Civitatem Tridentinam uti Principatui Tirolensi incorporatam rexerunt:
+                quod ex sequentibus palam <pb xml:id="F4v"/> fiet. </p> 
+            <p n="5">(5) Quum ergo Abundantius
+                secundus Episcopus in ordine Tridentinam Ecclesiam regeret, quod anno Christi
+                trecentesimo octuagesimo primo factum est, Romanorum Imperio praeerant Gratianus et
+                Valentinianus iunior Caesares Augusti, à quo pariter anno occasum Romani Imperii
+                enumerant et Rufinus et Divus Hieronymus. </p>
+         </div>
+            <div type="chapter" n="III">
+            <head>III</head> 
+                <p n="1">(1) Urbs ergò Tridentina ab Episcopis in fide Christi
+                sustentata, ab ipsis autem Imperatoribus saeculariter gubernata ad tempora usque
+                Attilae immanissimi, pariterque saevissimi Hunnorum Tyranni in summa nominis
+                celebritate perseveravit. At Attila (qui se metum orbis, flagellum Dei nuncupare non
+                erubuit) crudelissimè per totam ferè Europam saeviente, et haec Urbs unà cum
+                compluribus alijs funditus excisa atque devastata est, atque in ruinis per annos
+                ferè sexaginta plus minus comminuta iacuit:</p> 
+            <p n="2">(2) donec illam
+                Theodericus Gothorum in Italia Rex, Imperatoris Caesaris Flavij Anastasij Augusti in
+                Occidente Locum tenens, subita Bavarorum ferocissimarum, ùt ipse ait, gentium in
+                Italiam irruptione commotus, a fundamentis erigi curavit, novisque ijsdemque
+                validissimis moenibus adversus exterorum vim cinxit et communuit. Factum est autem
+                hoc anno Christi DXV. Divi Vigilio Ecclesiae Tridentinae praesidente. </p> 
+                <p n="3">(3) Extat apud M. Aurelium Cassiodorum Theoderici Gothorum in
+                Italia Regis Cancellarium <pb xml:id="F5r"/> Variarum Libro quinto Theoderici Regis edictum, quo
+                voluit, Feltrinos, et homines etiam Religiosos ad condendam Tridentinorum Urbem
+                convenire. Gothorum igitur in Italia Reges Tridentinam civitatem per aliquot annos
+                vice Imperatorum Constantinopolitanorum sub sua potestate habuerunt, Episcopis eius
+                Loci nihil negocij ipsis in re saeculari facessentibus. </p>
+         </div>
+            <div type="chapter" n="IV">
+            <head>IV</head> 
+            <p n="1">(1) Postquam autem Gothi Italia pulsi sunt, quod anno
+                redemptionis humanae Quingentesimo quinquagesimo et tertio factum esse historica
+                fides edocet, Longobardi, gens Germanica, in Italiam irrupit, ut eam sibi
+                vindicaret, et omnibus Italiae Urbibus praeter Romam et Ravenam intra triennij
+                tempus sub eorum ditionem redactis, regiam sedem Ticinum collocarunt.</p>
+            <p n="2">(2) Inter eas autem Urbes, quas coeperunt non postrema fuit
+                Tridentum, Paulo Diacono in Libris rerum Langobardicarum idoneo auctore. Irruptio
+                autem haec Langobardica contigit anno Christianorum Quingentesimo sexagesimo octavo,
+                primusque Langobardorum in Italia Rex Alboinus appellatus fuit, tenueruntque Italiam
+                ducentis et sex annis: </p> 
+            <p n="3">(3) quo temporis intervallo Reges ipsi
+                interdum ex mero placido Duces saepe crearunt et unicuique Urbem unam in fidem,
+                tutelamque commiserunt, suprema tamen potestas penes Regem ipsum semper fuit,
+                ipsique Langobardicarum Civitatum Duces Regi per omnia subiecti erant, qui prò
+                arbitrio ipsos <pb xml:id="F5v"/> creare, aut ab officio revocare integram potestatem habebat.
+                Fuerunt autem hoc temporum cursu hi Duces, quorum memoriam extare intelleximus.</p> 
+                <p n="4">(4) Comus Tridentinae civitatis Dux anno virginei partus
+                Quingentesimo septuagesimo tertio creatus est. Post Comum Euinus sequitur Dux, rerum
+                gestarum gloria clarissimus, qui Divum Agnellum Episcopum Tridentinum in ordine
+                vigesimum quintum anno salutis Christianae quingentesimo nonagesimo quinto ex
+                mandato Flavij Agilulphi Langobardorum Regis in Galliam Legatum misit. Habuit autem
+                hic Euinus Garibaldi, Baioariorum Regis Principisque Provinciae Tirolensis filiam in
+                matrimonio. Euino defuncto Ducem reperio Gaidoaldum virum bonum ac religiosum. Post
+                Gaidoaldum sceptrum capit Ducale Alachis sive Alagisus, iniqui filius appellatus,
+                qui suo proprio Regi Cuniberto perfide sese opposuit et rebellavit, ast tandem circa
+                annum Christi septingentesimum praelio victus occisus est et meritas suae perfidiae
+                poenas dedit. Post hunc nulli Duces amplius sed Reges Langobardici per se
+                Rempublicam Tridentinam administrarunt.</p> 
+            <p n="5">(5) Porro hoc loco
+                obiter notandum est, quod Tridentini fabulose adseverant, adeòque Typis excudendum
+                dedere: Theodosium nempe Caesarem Augustum Episcopo Tridentino Vallem Lagarinam cum
+                Ursinico pietatis ergò <pb xml:id="F6r"/> dono dedisse: iactitant Sacratissimum Caesarem motum
+                multiplicium Divi Vigilii Martyris miraculorum copia; hoc autem quàm falsum et a
+                veritate alienum sit vel hinc patet. Caesaris enim Theodosij obitus multis annis
+                antecessit Divi Vigilij aetatem; obiit namque Mediolani anno Christi trecentesimo
+                nonagesimo quinto. Divus autem Vigilius passus est anno gratiae Quingentesimo et
+                vigesimo, quùm viginti annis Episcopatui Tridentinae Ecclesiae magna sanctitatis
+                opinione praefuisset. Ecce quàm accurate Tridentini Mystae temporum supputationem
+                observare soleant. Fingunt ineruditè Theodosium Caesarem Divi Vigilij miraculis
+                commotum haec loca Episcopis dono dedisse, quùm eo tempore nondum hominem induerit
+                Divus Vigilius, quo Caesar ille imperavit.</p> 
+            <p n="6">(6) Similes plures
+                ineptias Archivis suis religiosè (ut sunt religiosuli) infarciunt, atque adeò in
+                templis publicè decantari faciunt. Deprehendi ego Ecclesiasticos, ut originem
+                principiaque templorum suorum augustiora vili plebeiulae faciant, animos vulgi
+                imperiti huiuscemodi fabulis ad quaestum confictis, allicere, et oblectare solere.
+                </p> 
+            <p n="7">(7) Sed iam tempus est referre, quàm diu civitas Tridentina
+                sub administratione Regum Langobardicorum extitèrit, et qua ratione eadem civitas ex
+                illorum potestate iurisdictioneque ad Duces Bavariae tanquam ejus temporis legitimos
+                Provinciae Tirolensis Principes devenerit. Anno igitur post natum Christum humani
+                generis <pb xml:id="F6v"/> Salvatorem octavo et sexagesimo supra quingentesimum (ut rerum
+                Scriptores tradunt) Langobardi Civitatem Tridentinam in potestatem suam redegerant,
+                eaque per annos fere ducentos quiete obtinuerunt, post hoc tempus amiserunt illam
+                primùm circa annum Christi septingentesimum et quinquagesimum. </p>
+         </div>
+            <div type="chapter" n="V">
+            <head>V</head> 
+                <p n="1">(1) Per idem namque tempus fortissimus Princeps Utilo (quem
+                alij Antitionem nuncupare solent) Dux totius Baioariae Tirolensisque Provinciae
+                Princeps, Vallem Athesinam infesto aggressus est bello, cujus rei mentionem non
+                incelebrem celeberrimus ille Historiographus Principum Bavaricorum piae memoriae
+                Ioannes Aventinus Annalium Boiorum libro tertio, ita nominatim scribens: 
+                <quote>Utilo regulus Boiorum Vallem Athesinam, Venustiae vallem alij
+                    vocitant, Maias, Pisonium colonias Boiorum et reliqua castella, quae Litobrandus
+                    Rex Longobardorum Boijs abstulerat vi et armis recuperat: Tridentum insuper
+                    invadit ac occupat, quod posthac semper Noricorum </quote>(hoc est, Ducatus
+                Bavarici et postea Comitatus Tirolensis)<quote> Principibus divulsum
+                    Italia paruit.</quote>
+            </p>
+                <p n="2">(2) Et in Germanico exemplari clarius aliquomodo eandem rem his
+                verbis compraehendit atque perstringit. <quote xml:lang="dt">Herzog Hutel aus Bayern
+                    fiel dieweil auch in das Etschlandt, nambs wider ein, das vor ettlichen jaren
+                    König Leutzbrecht, wie oben beschrieben ist, den Bayrischen Fürstenthumb
+                    abgedrungen hatt, <pb xml:id="F7r"/> es nam auch darzue Hertzog Hutel
+                    ein die Stadt Triendt, hett vor zue dem Lombardischen Königreich gehörett, ist
+                    ein Hertzogthuemb gewesen, nach diser zeit aber hatts allweg zum Deutschlandt
+                    und dem Königreich Bayern gehörtt, ietzt aber zue der Grafschaft Tirol</quote>.</p> 
+                <p n="3">(3) Ex quibus verbis aperte constat, a temporibus huius
+                Utilonis ad nostra usque tempora civitatem Tridentinam a Principibus Tirolensibus
+                (quemadmodum etiam re ipsa est) semper gubernatam fuisse. Porro Aventino sacrosancta
+                est adhibenda fides, ille enim haec omnia cùm ex publicis tùm quoque privatis
+                Instrumentis quae fallere non possunt diplomatibusque totius Baioariae iussu
+                Principum suorum summa religione atque fide excerpsit.</p> 
+            <p n="4">(4)
+                Utilo igitur primus fuit, qui iure belli Tridentinam civitatem ejusque omnem agrum
+                Langobardis (non dico Episcopis ejus Urbis, quia illam nunquam possederunt) ademptum
+                Provinciae Tirolensi integrè incorporavit.</p> 
+            <p n="5">(5) Eius filius et
+                Successor in regimine fuit Tassilo, qui Divi Valentini primi episcopi Pataviensis et
+                Confessoris Christi corpus Tridento Bathaviam transtulit: quod etiam evidens
+                argumentum, Thessalonem Ducem, et non Episcopum Tridentinae civitatis clavem
+                tenuisse.</p> 
+            <p n="6">(6) Post quae tempora Pontificis Tridentini spreta
+                humilitate, neglectàque paulatim animarum cura, falcem in alienam segetem extendere
+                coeperunt, quod vel hoc exemplo cognoscere licebit, siquidem anno redemptionis
+                humanae <pb xml:id="F7v"/> octingentesimo quinquagesimo et quinto Hildeschalius sive Adeschalius
+                eius Ecclesiae in ordine quadragesimus septimus Antistes vineas Annonis Episcopi
+                Frisingensis apud Bausanum, celebre Tirolensis Provinciae oppidum, ad Isaci et
+                Athesis Talveraeque confluentes violentes occupare praesumpsit. Qua insigni injuria
+                motus Anno Episcopus fruxinensis rem ad Ludovicum Regem tanquam utriusque ordinarium
+                Magistratum, legitimumque Principem deferre coactus est. Is Pontificibus diem dixit
+                apud Aibeling in publico Boiorum conventu, vico superioris Boiorum in ripa
+                Mangvvalda iure disceptare jubet, qui causam cognovère Iudicis, vineas Frisingensi
+                templo addixêre et sic Tridentinus Praesul avaritiae nota infamis et dignam repulsam
+                passus est. Hinc etiam haud difficulter colligitur, Episcopum Tridentinum Ludovico
+                non solum ùt Regi Germaniae et Baioariae, verum etiam ùt legitimo Tirolensis
+                Provinciae Principi adeòque civitatis Tridentinae Domino subiectum fuisse. Ea enim
+                regio, quae hodie Tirolensis nuncupatur, olim pars regni Bavarici fuit, ab ipsisque
+                Baioariae regibus et ducibus ad tempora usque Friderici Barbarossae Caesaris Augusti
+                administrata est.</p> 
+            <p n="7">(7) Porro ratio, ordoque temporum iam exigere
+                adeòque a nobis postulare videtur ut continua serie ad nostra propius tempora
+                instituta decurrat oratio. </p>
+         </div>
+            <div type="chapter" n="VI">
+            <head>VI</head> 
+                <p n="1">(1) Post Hludovicum igitur Regem multi intercesserunt <pb xml:id="F8r"/>
+                Principes, qui Provinciam Tirolensem, eique incorporatam civitatem Tridentinam plena
+                potestate moderati sunt, Episcopis in Republica Tridentina nihil iuris, excoepta
+                Ecclesiastica Iurisdictione habentibus; nam circa annum Dominicae incarnationis
+                millesimum, ducentesimum et septuagesimum Illustrissimus Princeps foelicissimae
+                recordationis Meinhardus Dux Carinthiae, Princeps Comitatuum Goriciae et Tirolis,
+                Alberti primi Regis Romanorum Semper Augusti, Ducisque suae Serenissimae Domus
+                Austriae primi socer, civitatem Tridentinam sub suo imperio habuisse legitur.</p> 
+                <p n="2">(2) Is autem et Ius Ecclesiasticum Episcopi eius Ecclesiae
+                injuriis motus ad se pertrahere conatus est; qua de causa ab Episcopo apud summum
+                Pontificem graviter delatus instigantibus Mystis excommunicatus est, a Coelestino
+                tamen Papa quinto re exacte cognita in Ecclesiae gremium recoeptus. Qui sibi
+                iniuriam fieri a Sanctissimis illis Patribus vociferatur, edicto publico obnunciat
+                crimina objecta tali oratione (ùt erat Vir sapientia singulari praeditus, pacisque
+                studiosus) diluit.</p>
+            <p n="3">(3) <quote>Equidem (ita me Deus amet!) bellum sponte non infero, sed
+                    propulsare contendo, nihil unquam mihi magis cordi fuit, quàm pacem cum quovis
+                    hominum maxime cum Episcopis inviolabiliter conservare, nisi boni Patres ùt
+                    coeteri mortalium, copia rerum cor<pb xml:id="F8v"/>rupti nobis
+                    immeritissimis ultrò arma prava libidine dominandi intulissent, nosque terris
+                    avitis spoliare conati fuissent. Arma sumpsi, castella hostibus Patriae ademi,
+                    quo mihi ac popularibus subditisque meis otio frui absque armis liceat. Quodsi
+                    quispiam uas atque Praes fuerit, ne metuere perfidiam et lupos habeam nevè de
+                    caetero huiuscemodi nobis a fastuosis illis Archisinagogis (nam Pastoribus
+                    dicere religio est) contingam actutum omnia reddam: Aliter nunquam committam, ut
+                    tam stultus videar, ut e manu manubrium mihi eripi patiar, aut memet ultrò atque
+                    meos ludibrio effoeminatis Antichristis atque prodigiosis Eunuchis esse sinam.
+                    Nemo magis concordiam christianam labefactat, non sacris literis interpretandis,
+                    aut ediscendis sed liberis dant operam, Liberum amant, divitias congregant,
+                    regna, gloriam, dominationem avidissime appetunt. Pro hisce nobiscum sanguine
+                    ovium decertant, Christi paupertatem, comitum eius et discipulorum simplicitatem
+                    non solum non aemulant sed irrident quoque, atque antiquare conantur. Si
+                    Antichristi non sunt, quid aliud obsecrò sunt? Estne isthuc pascere oves? amare
+                    gregem? regna, opes, aliena appetere, pro gloria, dignitate degladiari, oviculas
+                    opprimere, occidere, belligerari, Christi praeceptum invertunt, donanti tunicam
+                    et pallium<pb xml:id="F9r"/> vi auferunt. Quis tam ferreus, ut verius
+                    dicam, tam stolidum peius fuerit, ut superbiam, fastum, perfidiam, fraudem,
+                    flagitia, scelera, luxum, avaritiam nebulonum aequo animo ferat? Peiores Turcis,
+                    Saracenis, Tartaris, Iudeis sunt, plus his omnibus Christianae simplicitati
+                    officiunt, libertatem Christi sanguine partam excindere conantur; dominationem
+                    modestiae episcopalis obliti arripiunt. Cum nostri servi sint, ipsi dominari
+                    contra ius gentium, adversus leges, auspicia et oracula divina, Dominos et
+                    Principes sibi servire volunt. Scitum est vulgi proverbium: Sacerdotes
+                    superstitionum praestigiis caliginem oculis offundere mortalium et ceremonijs,
+                    carminibusque cassis, veluti Mandragoro soporifero poculo mentem mutare, et
+                    humanis animis atque sensibus stuporem propinare. Numquid Pastor aut oves tondet
+                    aut mulget; nonnè nuncius rem Domini atque eorum, ob quorum utilitatem mittitur,
+                    agere debet? Proinde a saevo et nobis iniquo Pontifice ad aequum Pastorem,
+                    pientissimumque Patrem, qui in coelis est, Deum Optimum Maximum
+                provoco.</quote>
+            </p>
+            <p n="4">(4) Ex hac expurgatoria Principis invicti oratione luce
+                meridiana clarius apparet, quanta insolentia Pontifices Tridentini superioribus
+                annis Serenissimis nostris Principibus temeraria herculè audacia sese opposuerunt,
+                ita ut omni posthabita animorum cura atque salute <pb xml:id="F9v"/> saecularium Principum more
+                dominia aliena avidissimè appetere non erubuerint. Meinhardus tamen infracti animi
+                Princeps nihil minus etsi fulmine Pontificis petitus, civitatem ipsam Tridentinam,
+                omnemque eius saecularem Iurisdictionem (sicut etiam de jure potuit) constanter
+                retinuit:</p> 
+            <p n="5">(5) quemadmodum quoque et filius eius successor,
+                illustrissimus Princeps Henricus Rex Bohemiae et Poloniae, Dux Carinthiae, Sacri
+                Romani Imperii Princeps, Elector ac Archiprinceps qui crebrò Tridenti cum Aula sua
+                vixit: quem etiam ibidem postremum clausisse diem volunt. Iohannes Aventinus
+                inprimis quidem fidelis Historicus (cuius suprà paulò meminimus) eius Mausolaeum in
+                cathedrali ecclesia Tridentina superesse testatur. Sub eius gubernatione anno
+                Christi 1313. Capitaneum egit Tridentinae civitatis nobilis vir D. Nicolaus de Metis
+                frater germanus Henrici episcopi Tridentini.</p> 
+            <p n="6">(6) Post hos anno
+                incarnati Urbi millesimo trecentesimo quadragesimo secundo Principatum Tirolensem
+                omnium Provincialium petitione et consensu regendum suscepit Potentissimus Princeps
+                Hludovicus Comes Palatinus Rheni, Dux Bavariae et Carinthiae Marchio
+                Brandenburgensis et Lusatiae, Princeps Elector et Sacri Romani Imperii
+                Archicamerarius Comesque Goriciae. Sub eius gubernatione Nicolaus Bruna Moravus
+                Pontifex Tridentinus in ordine <pb xml:id="F10r"/> octuagesimus quartus Tridentinae civitatis
+                civilem administrationem sibi suisque successoribus episcopis Tridentinis arroganter
+                vendicare voluit, (adeò tetra dominandi libido mortalium animos excaecat ad imaque
+                demergit) civesque Tridentinos invitos sibi sacramenta dicere, oboedientiaeque
+                iuramentum prostare ilicò praecoepit. Hludovicus autem Marchio, Princepsque
+                Tirolensis et legitimus civitatis Tridentinae Dominus, hoc cognito, talique Episcopi
+                lacessitus Injuria, bilem collegit, iustaque ira accensus infesto exercitu
+                Rempublicam Tridentinam invasit inique et armis repentè superavit pervastatisque
+                agris oppida atque arces hostiliter dejecit, iura et causas, sicuti et ante factum
+                erat, ad se suosque tanquam legitimos magistratus referri voluit, et per eos
+                expedire; sciebat enim Reipublicae curam a Sacerdotio alienam esse debere, non
+                decere, ajebat Presbyterum (eo enim nomine ipse utebatur) rerum et armorum imperitum
+                cruento praelio interesse, quem uni Dei intentum esse convenit; indecorum et
+                ridiculum esse vulgo exclamabat, abrasum caput hostili gladio feriendum abjici: ea
+                ageret Praesul Tridentinus, quae divini cultus sunt, quod reliquum est, et domi et
+                foris gerant magni Principes, quorum est urbes ac provincias administrare et pro
+                majestate imperare, cives tueri, copias educere, et si opus sit, confligere; quam ob
+                rem ea commotus sententia suoque iure fretus, quam armis subegerat Tridentinorum
+                civitatem decem et septem annos plenè obtinuit.</p> 
+            <p n="7">(7) Defuncto
+                Mar<pb xml:id="F10v"/>chione Hludovico Illustrissimus, pariterque religiosissimus Princeps
+                Rudolphus cognomento magnanimus et fundator a tot positis Basilicis, Archidux
+                Austriae, Stiriae, Carinthiae primus Serenissimae suae familiae Comitatum Tirolensem
+                donationis sive traditionis iure gubernare coepit. Cuius inclyta posteritas in hunc
+                usque diem per annos iam quinque supra ducentos Comitatus Tirolensis dominio
+                foeliciter potitur. Deus optimus Maximus perenne illis atque tranquillum in terris
+                Dominium pro sua in nos benignitate elargiri dignetur. Amen. Rudolphum Mediolani
+                mortuum excipiunt fratres eius duo germani Albertus cum Trica et Leopoldus Probus.
+                Hic filios reliquit quatuor Vvilhelmum Honorificum, Leopoldum Iuniorem, Ernestum
+                ferreum, patrem Imperatoris Caesaris Friderici Quarti Pij felicis semper Augusti, et
+                Fridericum Seniorem patrem Sigismundi liberalissimi illius Austriae Archiducis, qui
+                post obitum Patris communibus aliquandiu auspiciis omnes Austriae ditiones simul
+                gubernaverunt.</p> 
+            <p n="8">(8) Sub eorum regimine anno post natum Christum
+                millesimo et septimo<note place="end">septimo: Abschrift hat 
+                septuagesimo</note> supra quadringentesimum foedus
+                quoddam erectum est in decennium usque a plerisque Nobilitatis Tirolensis
+                proceribus, civitatibus et Iudicijs adversus quosdam, qui eos in provincia Tirolensi
+                contra ius fasque armis aggredi praesumpserant, idque cùm consensu Friderici Ducis
+                Austriae Principisque Tirolensis factum est. Huius foederis decennalis supremus
+                author fuit magnificus Vir Dominus <pb xml:id="F11r"/> Henricus à Rottenburg, Aulae Tirolensis
+                Praefectus, et tunc temporis Gubernator sive Capitaneus Athesini tractus et Urbis
+                Tridentinae. Ad hoc foedus decennale peculiariter se etiam obligavit Civitas ipsa
+                Tridentina. </p>
+            <p n="9">(9) Sequenti tempore, anno nimirum salutis humanae
+                millesimo quadringentesimo decimo quinto, Serenissimus et invictus Princeps Ernestus
+                cognomento ferreus Archidux Austriae etc. graviter se devinxit atque obligavit erga
+                Provinciales suos Tirolenses eisque omnia sua et singula privilegia, quae ab antiquo
+                habuerunt de novo gratiose confirmavit, quum frater eius interea germanus Dux
+                Fridericus sub potestate et imperio Sigismundi Caesaris detentus esset atque in ea
+                obligatione Episcopus Brixinensis inter caeteros comprovinciales, tanquàm concivis
+                (vulgo <foreign xml:lang="dt">ein Insässer</foreign>) annumeratur et appellatur. Sed libet hoc
+                maximè hoc loco Illustrissimi Principis Ernesti Archiducis Austriae etc. diploma
+                quoddam ex Germanica in Linguam latinam conversum proponere, quo civitati
+                Tridentinae privilegia corroborat atque confirmat, et ex quo facile dici potest,
+                ipsum civitatis Tridentinae (secluso Episcopo) dominio tanquam legitimum ejus urbis
+                totiusque Provinciae Tirolensis Principem potitum fuisse. Id autem in haec verba
+                sonat, quàm fidelissimè fieri potuit translatum. </p> 
+            <p n="10">(10)
+                <quote>Nos Ernestus Dei gratia Archidux Austriae, Stiriae, Carinthiae et
+                    Carnioliae Comes Tirolis etc. Notum facimus, quod ad nos venerint Honorabiles et
+                    prudentes nostri fideles dilecti Senatus cives et universa Communio
+                    Civitatis <pb xml:id="F11v"/> Tridentinae, ut supplicarint nobis, ùt
+                    dignaremur eis confirmare statuta, ordinationes, iura, gratias, immunitates et
+                    laudabiles consuetudines, quibus a praedecessoribus nostris piae memoriae
+                    Comitibus Tirolensibus privilegiati et donati essent. Nos itaque attendentes
+                    eorum petitiones iustas esse et honestas et in memoriam revocantes eorum fidelia
+                    servitia, quae praedecessoribus nostris, nobis atque illustri principi Duci
+                    Friderico fratri nostro dilecto hactenus spontè et impigrè exhibuerunt, atque
+                    praestiterunt, quae in futurum nobis et nostris haeredibus et successoribus
+                    Comitibus Tirolensibus exhibere possunt et debent, ideò ex nostra gratia
+                    accedente consilio nostrorum consiliariorum omnia statuta eorum, iura, gratias,
+                    privilegia et consuetudines, quae hactenus ipsis civibus et civitati Tridentinae
+                    a nostris praedecessoribus Comitibus Tirolensibus bonae memoriae concessa sunt,
+                    gratiose tanquam Advocatus et Defensor dicti Episcopatus Tridentinensis
+                    confirmavimus, atque approbavimus, et confirmamus, approbamus et ratificamus ea
+                    omnia ipsis auctoritate nostra et per praesentes, quae de iure ipsis confirmare
+                    et approbare possumus, eo modo et statuimus, ut ipsi nunc in perpetuum eis
+                    gaudere et frui sine impedimento et contradicto possint et valeant, et
+                    praesertim confirmamus et approbamus eis veterem illorum consuetudinem ut ipsi
+                    eligere habeant saecularem Vicarium, sive potestatem Doctorem Juris civilis,
+                    natum extra Episcopatum <pb xml:id="F12r"/> Tridentinum, sed id non
+                    aliter, quam si noster aut nostri Capitanei ibidem consensus accessivit. Qui
+                    Vicarius nobis aut Capitaneo, qui tunc temporis fuerit, nostro nomine corporale
+                    iuramentum ad sancta Evangelia iurare debet, quod nobis fidelis et obediens esse
+                    et recte iudicare velit, quo facto habebit potestatem ius dicendi idque
+                    exequendi iuxta statuta et ordinationes et consuetudines et secundum ius
+                    commune, pauperibus atque divitibus aequaliter iusticiam administrando: et
+                    siquis a dicto Vicario ad nos aut nostrum Capitaneum ibidem intra certum
+                    terminum appellare voluerit, id liberum esse debebit cuilibet, et dictus
+                    Vicarius, qui ex voluntate et consensu nostro aut Capitanei nostri fuerit
+                    electus, non longius in officio residere, sed elapso anno syndicari debet.
+                    Statuimus praeterea, quod cives Tridentini minus Vectigal habere debent et
+                    exinde vias, muros, pontes atque alia incumbentia restaurare, quemadmodum
+                    hactenus ex vetere consuetudine est servatum dolo malo semoto. Sed in praedicta
+                    confirmatione reservamus nobis et fratri nostro Friderico Duci, omnibus nostris
+                    haeredibus et successoribus Comitibus Tirolensibus omnem potestatem, iura et
+                    consuetudines, quae ad nos spectare dignoscuntur, et mandamus ob hoc Capitaneo
+                    nostro nunc existenti, et omnibus sequentibus temporis tractu, praeterea omnibus
+                    Capitanibus, Baronibus, Equitibus, Nobilibus, Praefectis, Iudicibus <pb xml:id="F12v"/>
+                    atque alijs omnibus nostris officialibus subditis et
+                    fidelibus, quibus hae literae ostensae fuerint, ut praedictis civibus totique
+                    communioni civitatis Tridentinae in dicta nostra confirmatione nullo modo
+                    violetur, nec ullum impedimentum eis in ea fiat, aut per alios fieri admittatur,
+                    sed eos manuteneant, nostroque nomine defendant, haecque est nostra certa
+                    voluntas per praesentes. Dato Bolzani die Jovis ante festum Simonis et Iudae
+                    Apostolorum, anno Christi nato millesimo quadringentesimo decimo
+                quinto.</quote> Et haec quidem sunt verba huius diplomatis fideliter translata.</p> 
+                <p n="11">(11) Caeterum defuncto Ernesto Cives Tridentini ultrò se Friderico Duci
+                Austriae tanquam legitimo suo Principi in fidem commiserunt, licet Episcopus mirum
+                in modum ipsi Friderico ea de causa adversarius fuerit praesertim in Concilio
+                Constantiensi; nihilominus tamen Dux Fridericus integram possessionem obtinuit.</p> 
+                <p n="12">(12) Fridericus ubi decessit, quod Oeniponti anno Christi
+                millesimo trigesimo nono supra quadringentesimum factum est, successorem in regimine
+                Tirolensi habuit filium Sigismundum fortissimum Principem. Sub eius administratione
+                anno Virginis Matris millesimo quadringentesimo quadragesimo tertio in in absentia
+                principis Sigismundi, Athesini tractus accolae Episcopi Tridentini injuriis
+                quibusdam commoti civitatem Tridentinam subitanea et tumultuaria obsidione cinxerunt
+                <pb xml:id="F13r"/> eamque de novo in potestatem suam redegerunt: erant autem Tirolensium quùm
+                Urbem oppugnare adorti essent, ad tria millia; illis etiam complures in obsidione a
+                Tridentinis interfecti sunt, graviterque vulnerati, cruenta tamen victoria potiti
+                civitatem ipsam profligato Pontifice sub sua potestate constanter retinerunt,</p>
+                <p n="13">(13) et paucis intervenientibus annis Serenissimus Archidux
+                Sigismundus tanquam Princeps Tirolensis cum Aula sua in eadem sua civitate
+                aliquamdiù commoratus est et feuda concessit. Legi diplomata, quae in primis
+                regiminis sui annis elargitus fuerit, in quibus tali usus est titulo: 
+                    <quote>Nos Sigismundus Dei gratia Dux Austriae, Stiriae, Carinthiae et
+                    Carniolae, Comes Tirolis etc;</quote> Et in fine Literarum sic: 
+                    <quote>Datum in civitate nostra Tridentina sexta die mensis Iunij anno Domini
+                    millesimo quadringentesimo quadragesimo sexto.</quote> Per id tempus civitatis
+                Tridentinae Capitaneus Archiducalis fuit Nobilis et Strenuus Vir Dominus Henricus a
+                Mörsperg Eques Auratus, postea anno Christi millesimo quadringentesimo septuagesimo
+                quinto, quùm Beatus Simon puer Tridentinus a Judaeis sceleratissimis horrendo
+                supplicij genere martyrio coronatus est, Praefectum sive Capitaneum nomine
+                Archiducis Sigismundi in civitate Tridentina egit Nobilis Vir Dominus Jacobus a
+                Spaur, haereditarius Principatus Tirolensis Pincerna.</p> 
+            <p n="14">(14)
+                Porro Sigismundus senio iam confectus mortique vicinus <pb xml:id="F13v"/> quùm nullos liberos
+                relinqueret, Serenissimum Principem Maximilianum Romanorum Regem Semper Augustum
+                suarum ditionum haeredem instituit, qui Comitatum hunc nostrum Tirolensem summa
+                animi moderatione et prudentia singulari ad obitum usque suum administravit,
+                civitatem Tridentinam suo subjectam Dominio habuit; nam ùt semper aliàs ita etiam
+                anno Christi millesimo quingentesimo octavo Cives Tridentini tanquam Principatui
+                Tirolensi plenè incorporati ab ipso Caesare in conventum publicum convocati sunt,
+                eisque tali titulo Maximilianus Caesar Comesque Tirolensis lingua vernacula scribere
+                solebat : <quote>
+                  <foreign xml:lang="dt">Den Ersamen Unseren getrewen lieben IC den Räthen und
+                    Verwesern zue Triendt etc</foreign>
+               </quote>. – Erat autem ea tempestate Caesaris Maximiliani
+                eius nominis primi sacratissimae memoriae, tanquam Principis Tirolensi in civitate
+                Tridentina Praefectus sive Capitaneus nobilis Vir Dominus Adamus a Vveinegck,
+                Caesarea Maiestate Consiliarius et Praefectus Castri Sigmundskron.</p>
+                <p n="15">(15) Caeterum ne omninò quis dubitet, civitatem Tridentinam non
+                Episcopo eius Urbis, sed cuivis legitimo Comitatus Tirolensis Principi subiectam
+                esse, placet unas ipsius sacratissimi Caesaris literas testimoniales in medium
+                producere, quarum principium et finem fideliter subtexo : <quote>Maximilianus divina favente clementia Electus Romanorum Imperator semper
+                    Augustus ac Germaniae, Hungariae, Dalmatiae, Croatiae etc. Rex <pb xml:id="F14r"/>
+                    Archidux Austriae, Dux Burgundiae, Brabantiae, etc. Comes
+                    Palatinus etc.</quote> Et in fine huius diplomatis haec verba leguntur : 
+                    <quote>Datae in civitate nostra Tridentina die vigesimo octavo Aprilis,
+                    Anno Domini millesimo quingentesimo decimo sexto, Regni nostri Romani tricesimo
+                    primo, Hungariae verò vigesimo septimo.</quote>
+            </p>
+            <p n="16">(16) Divo Maximiliano Caesare viam universae carnis ingresso
+                Invictissimus longèque potentissimus Princeps sanctissimae recordationis Carolus
+                Quintus Caesar Augustus eius ex filio Philippo, Hispaniarum et Utriusque Siciliae
+                Rege nepos, ditissimum, pariterque foecundissimum Comitatum Tirolensem in fidem
+                accepit, quem deinde fratri suo Germano Ferdinando Augustissimo Romanorum Regi
+                gubernandum commisit. Hoc temporum tractu Capitaneus Civitatis Tridentinae extitit
+                Nobilis et Strenuus Vir Dominus Christophorus a Thunn in Künigsberg, Eques Auratus,
+                haereditarius Episcopatus Tridentini Pincerna. Porro quomodo Archidux Ferdinandus
+                postea Romanorum Rex, electusque Imperator semper Augustus religiosissimae memoriae
+                cum Episcopis Tridentinae Ecclesiae convenerit, aut quas inter se contractiones,
+                quae pacta conventionesque habuerint, Cancellariae Tirolensis alumnis investigandum
+                relinquo. Sed hic orationi nostrae finem tandem imponere remque concludere
+                decrevi.</p>
+         </div>
+            <div type="chapter" n="VII">
+            <head>VII</head> 
+            <p>Atque haec ferè sunt, Serenissime Princeps, <pb xml:id="F14v"/> quae tanta
+                temporis brevitate ut clementissimo tuo iussu et voluntatui pro viribus satisfacerem
+                raptim omni verborum mundicie atque elegantia procul relegata, ex plerisque meis
+                Collectaneis Tirolensibus colligere potui, Celsitudinem Tuam summopere obsecrans, ut
+                studium illud meum (propriis sumptibus non sine gravi patrimonii dispendio hactenus
+                septimum annum continuatum laboriosumque) in illustrandis Patriae nostrae Tirolensis
+                monumentis, clementissimo animo complectatur, promovere dignetur, meque sibi humilem
+                clientulum quàm commendatissimum esse sinat. Serenissima Celsitudo Tua foelicissimè
+                valeat, donet et imperio Princeps fortissimè, pariterque religiosissimè tempora
+                longa tuo ille rerum omnium arbiter, qui trinus et unus est. Amen. </p>
+         </div>
+            <div type="chapter" n="VIII">
+            <pb xml:id="F15r"/> 
+            <head>VIII Paralipomena</head>
+            <p n="1">(1) Sigillum Civitatis Tridentinae : Montes argentum mihi dant
+                nomenque Tridentum</p>
+            <p n="2">(2) Johannes Aventinus Historiographorum Princeps Annalium
+                Boiorum Libro Secundo : Tridentum a Strabone Rhaetis, a Ptolemeo Venetiae
+                attribuitur; nunc Noricorum est, avitae Germaniae terminus.
+                Theodericus Rex Gothorum moenibus cinxit contra Boios. In tertium Librum plura
+                consulti differo.</p>
+            <p n="3">(3) Paulus Iovius Novocomensis Episcopus Nucerinus Historiarum
+                sui temporis Libro quadragesimo secundo Tridentinos sub ditione Caesaris, et non
+                Episcopi eius Urbis constitutos esse apertè testatur.</p>
+            <p n="4">(4) Johannes Sleidanus Commentariorum Libro XIV: Tridentum est
+                in Alpibus ad Athesim flumen Ferdinandeae ditionis oppidum, a Venetijs iter tridui,
+                Verona non bidui.</p>
+            <p n="5">(5) Omnes denique (excoepto uno atque altero extero adulatore)
+                nostrae, et superioris memoriae rerum Historicarum gravissimi Scriptores, quotquot
+                editis lucubrationibus innotuerunt, videreque contigit, unanimiter contestantur:
+                Tridentinam Civitatem <pb xml:id="F15v"/> non per se peculiarem Principatum a Provincia Tirolensi
+                certis limitibus separatam, sed Germaniae adeòque Comitatui Tirolensi incorporatam
+                esse Urbem, cuius Dominus sit legitimus hic Princeps, qui totum et integrum
+                Principatum Tirolensem plena potestate moderatur.</p>
+            <p n="6">(6) Porro habeo Bernhardi Episcopi Tridentini literas lingua
+                germanica scriptas, quarum Principium est: <quote>
+                  <foreign xml:lang="dt">Bernhardt von Gottes
+                    gnaden Bischoue zu Triendt</foreign>
+               </quote> (et in calce) <quote>Datum Triendt in
+                    unserem Schloß Boni Consilii am drey und zwanzigsten Tag Martij anno Domini etc.
+                </quote>
+            </p>
+            <p n="7">(7) Ex his verbis luculenter constat civitatem Tridentinam
+                Principi Tirolensi, et non episcopo eius Urbis paruisse, quia Praesul aliàs siquid
+                iuris in obtinuenda integra Urbis possessione habere potuisset in hunc modum literas
+                subsignavisset: <quote>Datum in civitate nostra Tridentina</quote>;
+                quemadmodum hoc ipso tempore Divus Caesar Maximilianus re ipsa atque priorum
+                temporum Comitatus Tirolensis Principes legitimo iure freti fecerunt. Voluit igitur
+                Antistes hac scribendi formula subindicare, Civitatem per se non ad se, suosque
+                successores spectare, sed Castrum solummodò Boni Consilii. Haec autem omnia in
+                superioribus (ùt spero) manifesta reddita sunt, modò attentè accuratèque perlecta
+                sint. </p>
+            <p>Finis.</p>
+         </div>
+        </body>
+    </text>
+</TEI>

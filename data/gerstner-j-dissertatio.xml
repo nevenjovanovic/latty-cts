@@ -1,0 +1,458 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="gerstner-j-dissertatio">
+            <titleStmt>
+                <title>Dissertatio medica inauguralis de salubritate aquae purae ad longaevitatem , versio electronica</title>
+                <author key="gerstner01">
+                    <name xml:lang="dt">Gerstner, Johann C.</name>
+                    <date>1713-1790</date>
+                    </author>
+                <respStmt>
+                    <resp>Hanc versionem electronicam curavit</resp>
+                    <name>Clementina Marsico</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>transcribed from the printed text</edition>
+            </editionStmt>
+            <extent>21 paginae</extent>
+            
+            <publicationStmt>
+                <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
+        </p>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title>Dissertatio medica inauguralis de salubritate aquae purae ad longaevitatem</title>
+                        <imprint>
+                            <pubPlace>Innsbruck</pubPlace>
+                            <date when="1756">1756</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>TLMF, FB 3937</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <creation>
+                <date when="1756">1756</date>
+            </creation>
+            <textClass>
+                <keywords scheme="time">
+                    <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens (1773)</term>
+                </keywords>
+                <keywords scheme="genre">
+                    <term>Medizin</term>
+                    <term>Dissertationsschrift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change>corrected teiHeader and body<date>2015-10-08</date>
+        <name>Johanna Luggin</name>
+      </change>
+        </revisionDesc>
+        
+            </teiHeader>
+    <text>
+        <body>
+            <div>
+            <head>Dissertatio medica inauguralis de salubritate aquae purae ad longaevitatem, habita
+                in alma Caesareo-Lepoldina regio-archiducali Universitate Oenipontana a prenobili
+                magnifico et excellentissimo domino Joanne Carolo Ant. Gerstnero, philosophiae et
+                medicinae doctore, ac praexeos professore publico ordinario, cum ex decreto
+                saluberrimae facultaris post exantlata solita examina ritu publico, ac solenni
+                suprema medicinae doctoratus laurea dignissime condecoraretur praenobilis et
+                excellentissimus dominus Josephus Maria Joannis Nepom, de Scrinci, patritius
+                Pragensi philosophiae magister. Die 16 augusti anno <date>1756</date>.</head>
+            <p>Superiorum permissu.</p>
+      </div>
+            <div>
+            <pb xml:id="F1v"/>
+            <pb xml:id="F2r"/>
+        <p>Gloriosissimae coeli reginae, potentissimae mundi dominae, virgini deiparae
+                Mariae. </p>
+            <p>Praeter eam, quae cum universo humano genere in reparata salute a te, clementissima
+                coeli, terraeque domina! Communis mihi uberrime impensa est gratia; alias iam ipsa
+                incunabula mea; alias purelis; alias, easque expectatione mea, meritisque maiores
+                excepti haec aetas mea; quas cum animo revolvo, earumque magnitudinem, numerum <pb xml:id="F2v"/>
+                mea vero etiam demerita pensiculatius excutio, una haec me cura dies pene, noctesque
+                omnes angit, ut erga ducem, principem, et auctorem fortunarum quantularumcunque
+                mearum sat memor, gratusque iudicer. Atque ut palam, et ingenue, quod te minime
+                late, fatear, haec me una invidia tangit, cum alios video sumptuosa templa; alios
+                marmoreos, eburneosque colossos; alios aureas, argneteasque aras gloriosissimo
+                nomini tuo exstruere, mihi hactenus nonnisi pusillum hoc, tenueque opus, in
+                gratissimi animi significationem inscribere liceat. Erigit me tamen maternus tuus,
+                benevolentiaeque plenissimus sinus, quem dona, votaque clientum non tam ex pretio et
+                magnitudine, quam affectu, pensare novi. Quare ad sacratissimas aras tuas
+                profundissime advoluto indulge! Has theses medicas adsternere, quas pietatis in te
+                meae, observantiae, cultus, gratissimaeque memoriae monumentum sempiternum esse
+                cupio.</p>
+            <p>Clientum indignissimus</p>
+             <pb xml:id="A1r"/>
+        <p>Quam supervacaneum videri merito possit. A.A. si dicam de conatu illo,
+                studiove, quo medici quam plurimi omnis fere retro aetatis inveniendo vitae quam
+                diutissime protrahendae arcano insudarunt: tam iucundum vobis, atque optatum, nec
+                minus utile fore confiso, si ex una parte vanissimas, ut cum magno Boerhaavio
+                loquar, iactantias eiusmodi medicorum et remediorum, quae sub speciosis titulis
+                lapidis philosophorum, tincturae auri, entis primi cedrini Helmontiani, elixirii
+                proprietatis Paracelsi, aliorumque arcanorum ad longaevitatem commendantur, vobis
+                ostendam; ex altera vero genuinum fontem aperiam, unde salutis vestrae aquas,
+                certissimum, inquam, vitae ad ultimum usque terminum prolongandae subsidium
+                hauriatis. Enimvero tantum abest, ut ver quadam ratione, aut experimentorum fide
+                eiusmodi arcanum comprobatum habeamus, ut confidenter affiremm, illud divinae
+                sapientiae, et bonitati repugnare. Num supremum conditorem vitae termonos mortalibus
+                constituisse, et medium ad eosdem consequendos tantum medicis, atque ex tanto numero
+                paucissi<pb xml:id="A1v"/>mis, aut ex ignaris medicinae ditioribus duntaxat, qui iactatum tale
+                arcanum auri pretio sibi comparare possunt, concessisse, quis sanae mentis sibi
+                persuadeat? Quis ita sentire ausit de infinita Dei sapientia et bonitate?</p>
+            <p>Hac sola ratione, ut taceam plures alias, satis superque evictum puto, longaevitatis
+                remedia alia non esse, quam quae mortalibus omnibus a Deo ter optimo maximo sunt
+                concessa; res nimirum diaetaeticas, in quibus continuo versamur omnes, quotquot
+                vivimus.</p>
+            <p>Ex his ego rebus diaetaeticis unam duntaxat aquam puram depromam hodie, atque
+                ostendam, eandem pro quotidiano potu, et temperamentorum diversitate prudenter
+                adhibitam, moderate frigidam, princeps longaevitatis remedium esse, atque
+                adiumentum; quia aptissimum conservandis quam diutissime conditionibus ad vitam
+                requisitis solidorum, seu organorum: haec prima: liquidorum vitalium: haec altera
+                orationis pars. Argumentum hoc (fateor) frigidum plane, et insipidum est, quia totum
+                aquosum, ob inaestimabilem tamen vitae prolongandae thesaurum haud levidense,
+                ratione proin, non gustu, diiudicandum.</p>
+            <p>Antequam moriendi necessitatem mortalibus omnibus in prima creatione a supremo
+                conditore velut implantatam, e cuius cognitione longaevitatis remedia deducenda
+                sunt, vobis ante oculos ponam. A.A. Huic disquisitioni ad clariorem dicendorum
+                intellectum genuinam mortis idaeam praemittendam duxi.</p>
+            <p>Essentiam mortis si considero, una eademque est omnibus, cordis videlicet,
+                arteriarum, totius sanguinis, fluidique <pb xml:id="A2r"/>nervei, quies irrevocabilis, hinc
+                mutui commercii inter corpus et animam, unde humana dicitur vita nostra, dissolutio.
+                Si causa mortis perpendo, mille sunt modi, mille figurae moriendi, ac tot veluti
+                mortes, quot morbi, aut violentiae externae. Sed de morte morbosa et violenta hic
+                verba facere alienum foret a propositi mei ratione. Mortem duntaxat naturalem in
+                praesenti paucis delineabo, ut, quanta aquae vis sit ad eandem diutissime arcendam,
+                ad oculum elucescat.</p>
+            <p>Ut praetermittam inanes veterum hypotheses de causa mortis naturalis, humidi nempe
+                radicalis consumptione, calidi innati dissipatione, flamulae vitalis cordis
+                difflaminatione, ex ipsa structura partium corporis nostri solidarum per continuas
+                vitae diuturnae actiones sensim mutata, scilicet, nimia tandem fibrarum rigiditate,
+                densitate, inflexibilitate, vasculorum minorum ex minoribus vasculis constructorum
+                contractione, increscente sensim immobilitate, rationem seu necessitatem naturalem
+                mortis senilis inevitabilis petendam esse, facile profecto evincam. A.A. Si rationes
+                modo proponendas acutiore mentis oculo perspexeritis.</p>
+            <p>Omnis pars solida machinae humanae hydraulico-pneumaticae a sapientissimo conditore
+                tam admirando constructa est artificio, ut es aliis minoribus constaret partibus,
+                maiori quam simillimis, fibrae ex fibrillis, muusculi ex aliis minoribus et
+                minoribus, vasa ex vasculis, donec ad ultima perventum fuerit. Id acutissimi
+                anatomici, Malphigius, Ruyschius, Levvenhoekius, Hookius, aliique artificiosis
+                partium divisionibus, ac liquorum in minutissima vascula inectioni<pb xml:id="A2v"/>bus ad oculum
+                demonstrarunt. Haec autem partium corporis nostri in minores et minutissimas
+                divisibilitas requirebatur necessario ad earundem flexibilitatem, flexibilitas ad
+                motum vasorum et humorum; siquidem, ut rem exemplo declarem, arteria sanguinem, a
+                corde propulsum, nec recipere potest, nisi dilatata, nec eundem per convergentium
+                canalium angustias urgere, ac propellere, nisi constricta, et quod inde evidenti
+                illatione consequitur, nullum exercere motum, seu actionem vitae, nisi flexilis,
+                quia, ut talis arteria flexilis sit, seu dilatari possit, eius membranam non unam
+                indivisibilem massam, sed ex aliis minoribus, ac facile flexilibus, vasculis totam
+                fabricatam esse necesse est.</p>
+            <p>Perspecta flexibilitatis vasorum ad vitam necessitate, ratio mortis naturalis in
+                promptu est.</p>
+            <p>Cor primorium vitae organum, quasi systole seu contractione sanguinem in omnia vasa
+                sanguifera propellit. Idem motus humorum, a corde impulsorum, omnia vasa implet,
+                renitentia urget, distendit. Vasa maiora, aucto per aetatem cordis vitaeque robore,
+                a sanguine, in adeptis dimensionis suae terminum iam copiosiore, iam vehementius
+                distenta, canales minores et minimos, qui maiorum membranas efficiunt, sensim
+                comprimunt, expressis repetito compressu liquidis, exsiccant, impervios reddunt,
+                consolidantque. Concretis itaque vasculis minimis, maioribus vero per auctam
+                rigiditatem nimium angustias, imminuto sensim per vascula cereblli angustiora
+                spirituum influxu, cor debile evacuando in vasa adeo resistentia ac contracta
+                sanguini magis magisque impar, tandem penitus oppressum placidissime
+                conquiescit.</p>
+                <p>Hunc compressum attritumque vasorum minorum phy<pb xml:id="A3r"/>siologice demonstratum, ut
+                rigiditatis senilis, ac in ea fundatae necessitatis naturalis moriendi causam,
+                certissima illustrant observata in corporibus tam hominum, quam brutorum.</p>
+            <p>In hominibus, qui duris manuum laboribus diu exercitati sunt, cutis crassa, callosa,
+                in volis manuum quam aliam causam evidentius probat, nisi compressum attritumque
+                cutis, et vasculorum eius? Ast quid alieno opus est exemplo ad dilucidandam
+                veritatem, quam in suo quisque corpore suimet haurire oculis potest? Callosam cutis
+                rigiditatem in plantis pedum intelligo, evidenti compressione per motum et pondus
+                corporis incumbentis productam.</p>
+            <p>In brutis seu senio confectis, seu duris aratri laboribus diu fatigatis, rigiditas
+                carnium vix dentibus superanda non minus evidens effectus est attritus externi
+                internique, vasa comprimentis, compingentis. Iam vero, ut ad dissertationis Scopum
+                propius accedam, nemo vestrum ullus inficiabitur, id retardandae rigiditatis
+                senilis, seu quod idem est, prolongandae vitae princeps remedium iure merito
+                dicendum esse, quod rigifitatis causis diutissime, quam possibile est, arcendis par
+                sit. At vero hanc vim salutarem aquae, communi omnibus elemento, a providentissimo
+                conditore inditam fuisse, haud leviculis, opinor, argumentis contendam: dum eius
+                virtutes conditionibus organorum et humorum ad impediendas rigiditatis causas
+                requisitis, aptissimas, penitius examinabo, et quidem in prima hac parte virtutes
+                aquae, quatenus solida seu organa respiciunt.</p>
+            <p>Has inter virtutes aquae prima sese offert nobis virtus fibras leniens, seu emolliens
+                summa. Corium rigidissimum, <pb xml:id="A3v"/>atque intractabile, soli aquae tepidae aliquamdiu
+                immersum, mollescit brevi, quemadmodum etiam cito iterum rigescit exsiccatum. Cutis
+                in plantis pedum indurata pediluvio tepido, per breve tempus applicato, emollitur.
+                Cornua cervi durissima vapore aquae tepidae diuturniore emolliri penitus medicis
+                potissimum est. Omitto complura alia experimenta: dum ex propositis evidenter
+                liquet, mollitiem humani corporis a parte aquosa, humorum ferme unice dependere.</p>
+            <p>Neque ab experimentis ratio physico-medica abdulit: habet enim aqua pura, nullisque
+                inquinata notabili saltem copia heterogeneis (de hac tantum loquor) indolem
+                blandissimam, insipidam, omnis stimuli salini, quo carnes animalium indurari
+                experimentis oeconomicis constat, expertem, fibris facile adharentem, eas nihil
+                irritantem.</p>
+            <p>Si igitur directis adeo experimentis omnino tribuendum putetis. A.A. corpus externum
+                aqua tepida laxari posse, quod pro iudicii vestri aequitate ac perspicacia a vobis
+                mihi concedi sentio: eritne, qui neget aquae utilitatem ad corporis interni fibras
+                strictas emolliendas, vasa contracta relaxanda, concretiones eorum praecavendas,
+                potissimum ad impetum liquidi arteriosi, qui principalem causam agit vasa
+                comprimentem, rigida efficientem, corde paululum laxato temperandum? Nec obstat
+                salubritati emollienti aquae eius frigus moderatum, in propositione concessum,
+                utpote quod claore ventriculi et intestinorum emendatur, antequam aqua has vias
+                percurrerit: dum praeterea aqua temperate frigida ventriculum minus debilitat, quam
+                tepida. Modo aqua etiam temperatissime frigida, corpore calefacto non hauriatur; quo
+                casu non tantum aqua, sed etiam quivis alius potus actu frigi<pb xml:id="A4r"/>dus, licet
+                potentia calidus, grave damnum corpori inferre facile potest.</p>
+            <p>Humectans vis oli aquae propria est, et cum emolliente in effectu in partes solidas
+                convenit, per id tantum diversa, quod humectatio solidorum praeter emollitonem simul
+                involvat nova in vasis liquida aquosa, quae antea absuere; quae mutatio in
+                emollitione solidorum per se considerata non contingit.</p>
+            <p>Cum itaque soli aquae proprium sit humectare, consequitur, quod forte mirum vobis
+                videbitur, nec vinum, nec cerevisiam, imo nec lac, aut aliud liquidum, quod simplex
+                aqua non est, humectare, qua tale, seu per se, sed tantum per aquam in eo
+                dominantem. Demonstratur facile: quia aqua lento calore evaporata, liquores praefati
+                in sicca et solida corpora mutantur, teste experientia. Accedit quod aquosa
+                exilissimos quosvis canales humectando emolliant, oleosis proin ad arcendam
+                rigiditatem senilem quam longissime praehabenda: namque oleosa minimis vasis
+                pervadendis plane inepta sunt, hosque canales obstruunt, ut Practicos non latet.</p>
+            <p>Quid denique dicam de virtute aquae vasa omnia penetrante, aperiente? Campum hic
+                suspicio demonstrandae ad retardandam rigiditatem senilem salubritatis aquae
+                amplissimum. Argumentis physologicis, atque experimentis anatomicis, nec non
+                observatis practicis, demonstratum habemus, dari in humano corpore plures vasorum
+                convergentium series, cavitatis diametro decrescentes, quarum singulae
+                proportionatum humorem vehunt, diametro vasis decrescentis respondentem, hinc
+                tenuiorem, et tenuiorem. Sanguis ruber naturaliter tantum vasa sanguifera, seriem
+                inter de<pb xml:id="A4v"/>crescentes vasorum series maximam permeat, vasa serosa, quae
+                sanguiferis angustiora sunt, non intrat. Pariter serum, liquidum sanguine rubro
+                notabiliter tenuius, tantum vasis setosis permeandis naturaliter aptum, vasa
+                lymphatica utpote setosis minora, non ingreditur, uti nec lympha reliquas vasorum
+                conicorum, seu convergentium series minores, seu decrescentes.</p>
+            <p>Porro notatu dignum est, omnia corporis nostri vasa, inprimis minora, nisi a liquidis
+                transfluentibus continuo distendantur, ac aperta serventur, collabi, seu potius e
+                latere proprio constringi, sicque, concretis sensim parietibus concrescere. Ex quod
+                id ego conficio: si series vasorum, quo magis decrescunt, eo exiliores, ac tandem
+                exilissimae evadunt, etiam liquidum, quod easdem permeare possit, esse debet
+                tenuissimum. Sequela evidens est, lumine rationis naturalis. Restat ergo
+                demonstrandum, aquam puram liquorem esse omnium tenuissimum, hinc ad praecavendas
+                quam longissimo tempore vasorum minorum concretiones, unde rigiditas senilis
+                dependet, aptissimum. Etenim illud liquidum communi phylosophorum et medicorum
+                consensu tenuissimum censetur, quod simplicissimum, seu homogeneum, unaque
+                politissimu, blandissimum nempe, seu nihil scabrum, aut ramentosum est. Aquae purae
+                simplicitatem seu homogeneitatem demonstrat eius indivisibilitas in particulas
+                minores ab aqua distinctas. Aqua pura in tenuissimum vaporem resoluta semper aqua
+                manet. Igne fortissimo ad sensum consumpta, si eius subtilis vapor laevigata
+                cuiusdam obiecti superficie excipiatur, prior aqua apparet. Corporibus
+                diversissimis, et durissimis mixta, dein artificio chemico iterum ex<pb xml:id="B1r"/>tracta,
+                priorem indolem omni aquae propriam retinet. Verbo, nullo hactenus experimento
+                excogitabili aquosae particulae corrumpi, id est in minores non aquosas dividi
+                unquam poturere.</p>
+            <p>Indolem aquae politissimam, seu nihil prorsus scabram, aut ramentosam, hinc
+                blandissimam et sphaericam, id satis evincit: quia organa sensuum gustus et odoratus
+                nihil prorsus afficit, sed inodora et insipida hinc nullo sale, aut sulphure
+                praedita est: his enim particulis sublatis, aqua rosarum, violarum, aut quaecunque
+                alia, etsi fragrantissima, omnem saporem ac odorem perdit, hinc simplex aqua
+                evadit.</p>
+            <p>Hanc de particularum aquearum superficie politissima veritatem omnium luculentissime
+                confirmat experimentum magni ducis Hetruriae, a celeberrimo Boerhaavio in suis
+                institutionibus chemiae notatum, quo aqua per poros globi, ex auro purissimo
+                confecti, dein clauso exactissime orificio, praelo vehementissime compressi,
+                transudare est visa. Quomodo (vos iudices aequissimos hac in re constituto A.A.)
+                quomodo particulae aquae, si scabrae aut ramentosae fuissent, angustissimos auri
+                omnium metallorum solidissimi poros pervasissent?</p>
+            <p>Eidem sententiae suffragantur observata practica. In morbis convulsivis et
+                spasmodicis universalibus, nec non particularibus renum in colica, calculo, spasmo
+                hysterico viscerum abdominalium, saepe urina crystalli instar limpida, inodora, et
+                insipida, verbo, simpliciter aquosa per constrictos renum canales secretorios
+                transpressa evacuatur. Ratio harum observationum clara et palpabilis est: quia
+                canales adeo constricti invalescentibus dein hisce morbis penitus occlu<pb xml:id="B1v"/>dendi,
+                non nisi politissimam ac tenuissimam humorum nostrorum partem transmittere possunt,
+                aquam nempe. Et cum vasa nostra ne collabantur, aliquis humor perenniter pertransire
+                debeat, minima vero tenuissimus tantum permeare possit, veritas stat inconcussa,
+                aquam liquidum esse omnium tenuissimum, ad minima quaevis vascula penetranda,
+                emollienda, eorum concretiones impedienda, ac, quod in prima hac parte probandum
+                erat, conditiones organorum, quae ad vitam requiruntur, quam diutissime conservandas
+                aptissimum; nec minus etiam ad conditiones humorum vitalium, quod in altera parte
+                nunc examinandum.</p>
+            <p>Quodsi conditiones humorum, quae ad vitam robustam conducunt, ita etiam ad longaevam
+                conferrent, lubens concederem, elixiriis vitae, proprietatis, aliisque iactatis
+                arcanis, quae humorum impetum adaugent, posse vitam prolongari. Verum observata
+                testantur fidissima, vitam robustissimam, seu duris continuo laboribus, aut motibus
+                vehementioribus occupatam, seu calidis potibus aut remediis incitatam, nunquam
+                admodum longaevum esse. Rationem huius observati in prima parte ostendi: quia ab
+                eadem causa, aucto nimirum liquidi arteriosi, a corde impulsi, impetu, vasa maiora
+                nimium distendente, minora comprimente, unde robus vitae dependet, etiam rigiditas
+                senilis, ceu causa mortis naturalis, acceleratur. Quapropter quod conditiones
+                humorum ad vitam requisitas in secunda hac parte attinet, in iis longaevitas
+                quaerenda est, quae causas nimii humorum vitalium in vasa arteriosa impetus arcent
+                continuo, avertuntque. Huius impetus vitalis validioris causae internae humorales ex
+                legibus hydraulico-mechanicis eruuntur duae potissimu, den<pb xml:id="B2r"/>sitas nempe humorum,
+                et plethora. Primum de densitate humorum, dein de plethora mihi est dicendum, et,
+                quandtum ad easdem arcendas salubris aquae potus valeat, demonstrandum.</p>
+            <p>Densitas humorum, uti aliorum corporum, est quantis massae, seu materiae, considerata
+                ad volumen seu spatium, quod occupant. Densitate autem et celeritate aestimatur
+                magnitudo motus, seu, ut mathematici loquuntur, consideratur in ratione composita
+                massarum, et quadratorum velocitatum. Eadem proin regula etiam impetus humorum, a
+                corde impulsorum, mensurandus, eoque maior censendus est, quo humores a corde
+                impulsi sunt densiores, seu compactiores. Ad haec ex structura conica arteriarum, ac
+                constanti lege machinae humanae hydraulicae constat, in homine etiam sanissimo
+                sanguinem per extremas vasorum angustias cum naturali quadam difficultate traiici,
+                hinc cordi naturalem poni resistentiam, et impetum humorum, a corde impulsorum,
+                tanto magis augeri, quanto difficilius humores densiores, seu compactiores, in
+                minimos globulos, qui solitarii per extremitates arteriosas transire debent,
+                dividuntur.</p>
+            <p>Pariter ex arteriarum pulsu certissimum es, maiore sanguinis impetu in vasa maiora
+                eorum latera ab axi validius removeri, urgeri, premi, et minora vascula, per maiorum
+                membranas contexta, naturali necessitate comprimi, exsiccari, consolidari. Unde
+                recta ratione concludo, inter longaevitatis remedia illud inprimis numerandum esse,
+                quod imepdiendae nimiae humorum densitati, seu quod idem est; conservandae
+                diutissime eorum fluxilitati par sit.</p>
+                <p>Iam (quae ineffabilis Dei bonitas est) conservandae de<pb xml:id="B2v"/>bitae humorum
+                fluxibilitatis vim soli aquae a Deo ter optimo maximo fuisse inditam, brevi mecum
+                sentietis A.A. ratione et experientia convicti.</p>
+            <p>Elementum aquosum in omnibus corporibus etiam solidissimis contineri, nemo
+                philosophorum contravertit. Ast eiusdem copiam in corporibus determinare soli norunt
+                chymici, ac medici chemiae periti. Ossa viginti aliquot annorum tractu exsiccata,
+                instar ferri dura, chemico igne dissoluta, dimidium aquae suppeditant. Experimenta
+                vero, cum humoribus corporis humani facta, eosdem maximam partem aqua constare
+                irrefragabili sensuum fide testantur. Celeberrimus Fridericus Hoffmannus in sanguine
+                hominis sani tres fere partes liquidi, et unam solidi circiter (nam vicus et
+                temperamentorum diversitas experimentorum successum quodamodo mutat) observavit: dum
+                ex unciis sex et drachmis quinque snaguinis substantiae solidae unciam unam et
+                drachmas septem, dein in alio experimento ex unciis septem et dimidia sanguinis
+                substantiae solidae uncias duas, et drachmas duas extraxit. Illustris Boyle in
+                historia naturali sanguinis ex eius unciis quatuor et drachmis quinque solidi unciam
+                unam, drachmas tres, et grana 34 eduxit. Incomparabilis Boerhaavius in suis
+                institutionibus chemiae cum sero sanguinis experimenta instituit, atque ex eius sex
+                partibus quinque fere aquae limpidae destillando extorsit. Similibus experimentis
+                urinas hominis sani examinarunt varii medici. Hos inter solertissimus Laurentius
+                Bellini urinam hominis sani per varios densitatis gradus evaporando inspissavit,
+                dein affusione quantitatis aquae, quae antea evaporata fuerat (mirum dictu) ad
+                colorem denuo citrinum, statumque cuivis urinae naturali <pb xml:id="B3r"/>omni proprietate
+                simillium, reduxit. Ex his, aliisque compluribus experimentis, quae brevitatis causa
+                praetereo, liquet, opinor, fluxilitatem nostrorum humorum a sola aqua, particulis
+                solidis intermixta, unice dependere, et ad reparandam, quae actionibus vitae
+                quotidie difflatur, partem aquosam nostrorum humorum, eorumque impediendam
+                densitatem, demonstratam maioris vitalis impetus causam, solum liquidum aquosum, nec
+                vinum, nec cerevisiam, aliumve potum requiri, ac indicari. Reliquum est, ut
+                plethoram alteram causam humoralem validioris liquidorum vitalium impetus, et
+                peculiarem aquae ad eam praecavendam utilitatem paucis perpendam.</p>
+            <p>Impetum aquarum motarum aucta earum copia, vel absoluta in iisdem numeo canalibus,
+                vel respectiva in canalibus, quorum nonnulli occlusi vel angustati sunt, augeri,
+                immutabilis hydraulicae lex est, nemini ignara, cui vel semel videre contigit
+                machinam hydraulicam, et, obturatis nonnullis fistulis, auctum per alias adhuc
+                pervias aquarum impetum, saltumque.</p>
+            <p>Iisdem hydraulices legibus (non obstante cordis et vasorum vitali systole, ut
+                primaria motus humorum causa) corporis etiam humani liquida subiecta esse probant
+                directa in corpore etiam moraliter sano phoenomorum observata. In corpore sano omnis
+                acrimoniae experte, sola plethora versus tempus venaesectionis consuetae pulsum
+                naturaliter maiorem et velociorem efficit. Eadem plethora sine alio stimulo per
+                auctum circulationis impetum in corporibus puris haemorrhagias salutares producit.
+                Non minus luculenter impetus sanguinis venaesectione emissi gradatim decrescens
+                monstrat leges <pb xml:id="B3v"/>plethorae hydraulicas. Atque ut paucis rem dicam, de qua hic
+                potissimum agitur: impetus a plethora productus per maiorum vasorum distensionem
+                nimiam minora comprimendo naturali necessitate sensim rigiditatem senilem corporibus
+                inducere debet. Illud ergo (infero) quod plethoram praecavet, rigiditatem senilem
+                arcet, vitam prolongat. Sed quid illus? Aio: sola diaeta legitima, atque ex ea
+                potissimum aquae potus, quod ostendo.</p>
+            <p>Pondus humani corporis, et molem humorum in statu etiam sano augeri vel minui
+                proportionate ad incrementum vel decrementum excretionum, potissimum perspirationis,
+                Sanctorius immortali posteriatis memoria dignissimus staticis experimentis
+                demonstravit. Ex octo libris cibi potusque intra diem naturalem quinque circiter
+                libras humoris perspirabilis difflatas notavit auctor praelaudatus, quod nemini
+                mirandum videbitur, qui certam perpenderit experimenti Sanctoriani fidem, qua
+                constitit, intra diem materiae perspirabilis semilibram circiter per solum os
+                excretam fuisse, testantibus guttis in speculo ori admoto.</p>
+            <p>Humor perspirabilis, qui guttatim in speculo collectus fuerat, omni experimento
+                examinatus, liquidissima seu aquosa sanguinis pars, paucissimo elemento solido
+                impraegnata, manifesto deprehendiur. Hoc quisquis attente considerat, ac virtutes
+                aquae, vasa aperientem, et humores attenuantem, exacte trutinat, caecus profecto
+                sit, qui potus aquosi utilitatem non videat, ad excretiones humorum, in primis
+                perspirabilium, promovendas, et ita plethorae materiem identidem averruncandam.</p>
+                <p>Haec quam vera sunt, aptaque, ut confido, ad demon<pb xml:id="B4r"/>strandam aquae purae
+                salubritatem, eiusque potum vobis commendandum. A.A. Multo tamen efficaciora sunt
+                ipsa veritatis exempla, ac viva testimonia, senes intelligo non paucos, atque ex iis
+                etiam decrepitos, qui longaevitatem suam, et peculiare corporis animique robur, quo
+                pollent, diuturno aquae potui in acceptis referunt. Ut taceam tempora antediluviana,
+                et maximam longaevitatem illorum hominum sine potu vini: quis naturalem huius rei
+                possibilitatem sibi persuaderi sinet, qui omnem hactenus vitam sine guttula aquae
+                conservavit? Sed animadverto in plerisque vestrum contrarios motus, sensusque a meis
+                longissime alienos. Quid (cogitant secum) salutis anchora, cynosura longaevitatis,
+                aqua vitae praedicetur, latex aquosus, prima illa generis humani per diluvium ruina,
+                illa putredinis concausa necessaria, illud caloris vitalis in senio iam elanguentis
+                exterminium?</p>
+            <p>O quanta mortalium sunt praeiudicia! Quanta vis sensuum, ad rationis usque
+                obscurationem! Dico sincere, quod sentio: si aqua insipida non esset, osoribus aquae
+                nihil certe noceret. Plus dico: affectatae sunt noxae, quas aquae adfingunt plurimi,
+                qui tota vita anteacta vix labiis aquam tetigere, effectuum proin, quos producere
+                posset, plane ignari. Dolendine sint, an ridendi eiusmodi homines, ambigo: hoc tamen
+                scio, suismet illos decipi praeiudiciis, ac plurimos praemature iagulari, quos aquae
+                potus longaevos servasset. Hydropicis videntur comparandi in eo, quod hydropicorum
+                instar aquam falso vituperent, illud, quod Jonathas olim de pauculo melle degustato,
+                de aqua dispari ratione ingeminantes: gustavimus paululum aquae (crediderim, sed
+                plurimum vini) et ecce morimur aqua. Dein cum innumeris celeber<pb xml:id="B4v"/>rimis medicis
+                fidenter assero, a Noemi temporibus incomparabili numero plures vini, quam aquae,
+                diluvium suffocasse. </p>
+            <p>Quod de humido, ut causa putredinis, obiicitur, huc plane non spectat: quia aquae
+                potum ad retardandam mortem naturalem, non morbosam, commendavi. Insuper falso haec
+                obiectio laborat supposito: ac si mortis, e morbo enatae, causa necessaria sit
+                putredo. Namque putredo saepe mortem morbosam non antecedit, sed ipsius mortis
+                effectus est.</p>
+            <p>Vim aquae nimis refrigerantem, igniculos vitales alias in senibus non admodum
+                copiosos, extinguentem, refutat quotidiana experientia: quot ego novi senes,
+                septuaginta et plurium annorum, alares et vegetos, qui quotidie aquam etiam
+                largiorem potarunt, imo frigidiusculam. Experientiae ratio solida ancillatur: nam
+                vita senum aeque, ac iuniorum a circulo sanguinis, circulus a debita sanguinis
+                fluxilitate seu tenuitate, tenuitas a sufficiente aqua particulis solidis sanguinis
+                intermixta dependet. Quod ergo circulum sanguinis conservat, ipsam vitam conservat,
+                seu calorem vitalem. Haec ego non ita dicta, aut a vobis intellecta velim, ac si
+                senibus eam quam iunioribus, aquae quantitatem, aut nulla temperamentorum habita
+                ratione, potandam esse existimem: cum non ignorem, liquidum aquosum, utpote
+                pauciorem ignem continens, largius ingestum sanguinem humanum refrigerare. Alios
+                audire mihi videor: innumeri sunt sedentarii, inprimis litterati, nec non artifices,
+                atque etiam plebaei, sola manuum opera, eaque levissima, occupati, quibus aqua etsi
+                moderatissime pota non potest non nocere, utpote omnis stimuli expers, hinc tarde
+                canalem intestinalem percurrens, eundem alias in sedentariis debilem magis
+                distendens, flatus producens, digestionem laedens.</p>
+                <p>
+          <pb xml:id="C1r"/>Tela haec, quam speciosa, ac fortia incautis videntur, tam facile enervantur
+                obvertendo clypeum certissimae experientiae, ac solidae rationis. Constans hactenus
+                experientia docuit, viros religiosos, maxime longaevos extitisse, non ob inediam ut
+                forte nonnulli putant: quia eosdem divino servitio impares redderet, sed potissimum
+                ob parciorem vini usum, praeprimis in religionibus rigidioribus, ubi vita agitur
+                magis sedentaria ac contemplativa. Praeterea inter homines etiam ante diluvianos
+                multi fuere sedentarii, senes connaturaliter debiles, quibus tamen omnibus aqua
+                sufficiebat ad longaevitatem. Rationis trutina si obiectionem hanc examino, nihil
+                prorsus contra sententiam meam probat, in qua sanis, non morbosis aquam commendavi,
+                et quidem prudenter potandam, hinc parciorem sedentariis, senibus, natura
+                tenerioribus. Inter sanos non sunt, quos moderata aquae copia laedit.</p>
+            <p>Quapropter cum luculenter intellexeritis. A.A. aquam puram pro temperamentorum
+                diversitate quotidie prudenter potam, moderate frigidam, conservandis quam
+                diutissime conditionibus organorum et humorum, ad vitam requisitis flexibilitatis
+                nempe, et permeabilitatis vasorum, fluxilitatis, seu tenuitatis, ac mediocris copiae
+                humorum, aptissimam esse. Dubitabitis, quin in meam concedatis sententiam, enadem
+                princeps esse longaevitatis remedium, atque adiumentum? Haud equidem ego ita haec
+                velim intellecta, ac si omnem vini usum reiiciendum putem. Scio dari non paucos,
+                qui, si non ad longaevitatem, uti in hunc finem plane non indigen, saltem ad quasdam
+                actiones vitae usu vini indigeant moderato. Hos ego nequaquam carpo, sed tantum
+                hortor, ut moderate vini copiae moderatum pariter aquae potum iugant, quo si<pb xml:id="C1v"/>ne
+                longaevitatis praeiudicio carere non potest corpus humanum. Denique eos omnes, qui
+                longaevitatis amore compulsi aquam aut solam, aut vino interpositam, potare
+                statuerunt, obtestor sincere, ut in mensa eandem hauriant, Chylo dein intimius
+                permiscendam, nec adeo cito difflandam; et mature hauriant, antqueam rigiditas
+                vasorum invaluerit, nullis dein amplius remediis emollienda.</p>
+            <p>Dixi.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

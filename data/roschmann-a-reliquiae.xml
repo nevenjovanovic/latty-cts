@@ -1,0 +1,894 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="roschmann-a-reliquiae">
+            <titleStmt>
+                <title>Reliquiae aedificii Romani ad oppidum Tyrolense Lienz detectae vulgo das Zwergengebäu, versio electronica</title>
+                <author key="tyrol1072.roschmann01">
+                    <name xml:lang="dt">Roschmann, Anton</name>
+                    <date precision="high">1694–1760</date>
+                </author>
+                <editor>Müller, Florian Martin</editor>
+                <editor>Schaffenrath, Florian</editor>
+                <respStmt>
+                    <resp>Hanc versionem electronicam curavit</resp>
+                    <name>Johanna Luggin</name>
+            </respStmt>
+            </titleStmt>      
+            <editionStmt>
+                <edition>Digital text provided by the editors</edition>
+            </editionStmt>
+            <extent>15 folia</extent>
+            
+            <publicationStmt>
+                <p>Croatica et Tyrolensia: Tyrolis Latina <date>July 2014</date>
+            </p>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>TLMF, Dip. 935/14</bibl>
+                <bibl>Müller, Florian Martin/Schaffenrath, Florian (Hg.) : Anton Roschmanns lateinische Beschreibung der Ruinen von Aguntum, Innsbruck 2007</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <creation>
+                <date when="1746" period="17xx_2_third">1746</date>
+            </creation>
+            <textClass>
+                <keywords scheme="time">
+                    <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens (1773)</term>
+                </keywords>
+                <keywords scheme="genre">
+                    <term>Geschichtsschreibung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change>
+                <date>2014-07-22</date>
+                <name>Johanna Luggin</name>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <head>Reliquiae aedificii Romani ad oppidum Tyrolense Lienz detectae vulgo das Zwergengebäu</head>
+            <div>
+            <head>Occasio scriptionis</head>
+            <p>(1) Loncium Norici Tyrolensis non ignobile oppidum et iam in sic dicto <emph>
+                  <bibl>Antonini Itinerario</bibl>
+               </emph>
+                memoratum varia equidem Romanarum
+                antiquitatum monumenta exhibet, uti sunt nummi ex auro, argento et aere, sigilla,
+                arma atque utensilia iterum ex aere, ara Veneri Castori sacra, inscriptio Marco
+                Aurelio et Septimio Severo dedicata, lapis milliarius et complura id generis alia,</p>
+                <p>(2) quae tamen longe adhuc maiorem conficerent numerum, nisi Loncium antiquum nescio
+                quo tempore iteratis vicibus eluvionum Sabulis Saxisque misere obrutum et totum,
+                quantum ruinis alte fuisset, sepultum,</p> 
+            <p>(3) adeo ut ne vestigium quidem eiusdem
+                supersit, nisi strata, ut vocant, stratis imposita, quorum interdum ultra quinque,
+                si aut lapides pro aedificiis quaerantur aut fundamenta pro his fodiantur,
+                occurrunt. </p>
+            <p>(4) Inter cetera tamen memoratu digniora sunt rudera nobilissimarum, ut videtur,
+                aedium, de quibus iam ante duo omnino saecula celebris poeta noster Oenipontanus
+                Ioannes Putschius teste Burgklechnero ita cecinit:</p>
+            <p>(5) <quote>
+                  <lg>
+                     <l>Hinc nos de Carnis in Norica venimus arva</l>
+                     <l>et legimus forti Teutona regna pede.</l>
+                     <l>Utque Dravi potamus aquam, Loncina videmus</l>
+                     <l> moenia Romanaque atria facta manu,</l>
+                     <l>nunc Romanorum palatia demiramur.</l>
+                  </lg>
+               </quote>
+            </p>
+            <p>(6) Haec igitur rudera ante dimidium circiter saeculum rusticos ad quaerendum ibi,
+                uti putavere, thesaurum invitarunt, incertum, quorum rumore aut indiciis animatos.</p>
+                <p>(7) Ager nimirum est ab hodierno Loncio nonnihil ultra primum lapidem remotus, ad
+                sinistram Dravi ripam prope pagum <emph>
+                  <placeName>Nusdorff</placeName>
+               </emph> Carinthiam versus
+                dissitus atque optimi frumenti ferax.</p> 
+            <p>(8) In hoc data opera terram effodere, omnia
+                susdeque vertere et opes quaerere</p> 
+            <p>(9) ruricolae multo labore occeperant, et inventum
+                tandem est pavimentum tessellati operis perelegans substructis fornicibus impositum. </p>
+            <note>O,1 lapis milliarius] inter dedicata et
+                et complura in rasura legitur lapis milliaria – O,2-3 maiorem
+                ... occurrunt] in margine – alte] supra
+                    lineam adiectum – O,3 si ... fodiantur] si supra lineam
+                    adiectum, pro fodiantur olim fodientibus scriptum – O,3 quaerantur] supra lineam
+                    adiectum, olim quaerentibus scriptum – O,4 tamen]
+                    supra lineam adiectum – memoratu] inter tamen et memoratu in rasura
+                    legitur vero digna – O,7 nimirum] supra lineam
+                    adiectum – O,9 multo ... occeperant et] in margine –
+                tandem] supra lineam scriptum, infra in rasura legitur dum –
+                tessellati] scripsi, in manuscripto thessellati – substructis
+                ... impositum] in margine</note>
+            <p>
+               <pb/>(10) In alio porro passibus nonnullis dissito loco muri aliquid cum triglyphis
+                ex marmore Pario detexerant atque in eadem rursus vicinia inter duos parietes
+                primarios canaliculum quendam stratum, quem sectae ex marmore albi coloris tabellae
+                munierant, aqua adhuc decurrente plenum aperuere.</p> 
+            <p>(11) Permovit ea res
+                illustrissimam regii parthenonis Halae antistitam, loci huius dynastam, ut in rem
+                hanc elapso autumno curatius indagari voluerit.</p>
+            <p>(12) Remota igitur fuit fere in omnibus agri huius partibus incumbens terra
+                inventumque est inter eminentia murorum rudera pavimentum illud tessellati operis ex
+                marmore candido, ornamentis nigris undique distinctum, in duas aequales partes, ad
+                finem tamen invicem pervias, muro intermedio divisum, pedes circiter triginta tres
+                longum, et ubi continuum est, quattuordecim pedes latum, ubi vero muro intermedio
+                divisum, sex latitudinem pedes conficiunt,</p> 
+            <p>(13) fornicibus triginta sex aequali fere
+                spatio distantibus impositum, horum fornicum pavimentum intermedium inferius ex
+                gypso durissimum est, undique pervium, et spatium omne rubro colore tinctum, altum
+                pedes tres, ipsaque fornicis rotunditas et apertura tota pedem unum, pollices septem
+                lata est.</p> 
+            <p>(14) Murus ipse usque ad hemicyclos fornicum pollices novem crassitie sua
+                implet. </p>
+            <p>(15) Iunctum est huic pavimento septemtrionem versus iterum aliud pavimentum operis
+                musivi, sexdecim pedes et dimidium longum et septem circiter latum, nigri coloris
+                niveis e diverso ornamentis pari ratione depictum, rudioris tamen nonnihil operis,
+                et totum terrae, non vero fornicibus, ut alterum, incumbens. </p>
+            <p>(16) His pavimentis in latere ad occidentem et orientem muri contigui fuere cum
+                pavimento ex gypso durissimo atque hae ruinae sibi invicem contiguae sunt.</p> 
+            <p>(17) In
+                spatio dein aliquot passuum occidentem versus iterum murorum reliquiae cum scala
+                quinque graduum lapideorum, quinque circiter pedes latorum, et quos ars latomi rite
+                ad regulam deducavit, patuere.</p>
+            <note>O,10 ex marmore Pario] in margine – detexerant] post detexerant in rasura legitur est
+                – quendam] scripsi, in manuscripto quemdam – sectae ex] supra lineam, infra legitur in rasura stratisque – O,12
+                tessellati] scripsi, in manuscripto thesselati – O,13
+                intermedium inferius] in margine – O,15 circiter] supra lineam scriptum, infra in rasura legitur pedes – e
+                diverso] supra lineam scriptum, infra in rasura legitur tamen
+                – pari ratione] supra lineam scriptum, infra in rasura legitur egregie – vero] supra lineam scriptum</note>
+            <p>
+               <pb/>(18) Eademque rursus versus occidentem via recta viginti circiter passus a primo
+                aedificio distanti iterum murorum fornicumque reliquiae effossa humo comparuere.
+                (19) Ad pedem collis, in quo situm hoc opus mirabile, nonnihil muri fossoribus
+                spectandum se praebuit cum binis urnarum frustulis.</p> 
+            <p>(20) Ceterum dispersi per omnem
+                fere agrum muri nihil contiguum indicarunt nec ductu longiori sibi occurrerunt, si
+                solum illud spatium, quod opus tessellatum exhibet, excipiamus. </p>
+            <p>(21) Nemo igitur mirabitur, si universos noscendi cupido incedat, quid tam concinnae
+                sibi antiquitatis reliquiae velint.</p> 
+            <p>(22) Quas coniectura haud facili nominari posse
+                putamus, ut tamen, quantum possumus, rem hanc eruamus, complura adhuc nobis antea
+                lustranda et exploranda sunt.</p> 
+            <p>(23) Addendum tamen prius semel in his ruinis inventos
+                esse avulsos nescio unde cancellos ferreos, quales fenestris praefigi solent,
+                frustum marmoris pessulo, ut quidem videbatur, obducendo aptatum, clavis Romana ex
+                ferro, ansa non inelegans ex aere et denique columella lapidis Parii pedum binarum
+                vix excedens longitudinem operis rudioris, tigni vero antiqui maiores variae formae
+                complures cum urnarum, quas dixi, frustulis.</p>
+            <p>(24) Haec igitur omnia ut explicari facilius possint, quaedam promittenda sunt, sit
+                igitur paragraphus primus.</p>
+            <note>O,17 aliquot] supra lineam scriptum, infra in rasura legitur
+                viginti circiter – O,18 recta] post recta legitur in rasura ite – O,19 ad ... mirabile] in margine
+                    pro textu, qui in rasura legitur Quemadmodum etiam [haec
+                    duo verba eradi omissa] recto ab opere thesselato in colle nonnihil
+                prominenti ad pedem eiusdem pariter – O,20 ceterum ... excipiamus] in margine pro textu, qui in rasura legitur Sed in contiguis hisce
+                reliquiis nihil sibi respondens aut coniunctum efossum fuit utut data opera
+                circumquaque bis strata sint omnia – nec] supra lineam scriptum,
+                    infra in rasura legitur aut – si] supra lineam scriptum,
+                    in rasura legitur praeter – tessellatum] scripsi, in
+                    manuscripto thesselatum – excipiamus] supra lineam
+                    scriptum, in rasura legitur praeter cancellos ferreos fenestra olim haud <gap/>; 
+                [ultimum verbum non legitur] – O,22 nobis] post nobis iterum adhuc in rasura legitur – O,23 semel] in
+                    margine – inventos] in rasura inventum – avulsos ...
+                cancellos] supra lineam scripta, infra in rasura legitur
+                clatrum – ferreos] in rasura ferreum – solent] olim solet scriptum supra lineam
+                    corrigitur – quidem] supra lineam scriptum, infra in
+                    rasura legitur res nobis – ferro] supra lineam scriptum,
+                    infra in rasura legitur aere – non inelegans] supra
+                    lineam scriptum, infra in rasura, quid sit, non legitur – pedum] pedes in rasura – operis rudioris] in
+                    margine – vero] supra lineam scriptum – cum] in margine – O,24 haec ... possint] in
+                    margine</note>
+         </div>
+            <pb/>
+         <div type="chapter" n="1">
+            <head>1. De operibus tessellatis nonnulla</head>
+            <p>(1) Descripsimus operis tessellati reliquias, quae nomen suum a tesserulis, quadratis
+                nimirum lapillis ad conficienda sternendaque pavimenta compositis, sortita sunt, et
+                alias etiam musaea, musiva et opera quadratoria audiunt, ut ex inscriptione Sponius
+                in <emph>
+                  <bibl>Miscellaneis eruditae antiquitatis</bibl>
+               </emph> docuit. </p>
+            <p>(2) Harum
+                similitudine usus est Plinius inquiens: „Androdamas argenti nitorem habet, ut
+                adamas, quadratis semper tessellis similis.“</p> 
+            <p>(3) Lapilli igitur sunt quadrangulares,
+                quartam circiter pollicis partem magni. </p>
+            <p>(4) Cur autem hanc formam requirant, ipse nos architectorum princeps Vitruvius
+                instruit, dum libro septimo, capitulo primo sic ait: <quote>„Pavimenta sectilia et tesseris
+                structa omnes angulos aequales habere debent et sectilia dicuntur, quoniam in
+                particulas secta sunt, et quocunque velis, possunt circumferri.“</quote>
+            </p> 
+            <p>(5) Alio nomine
+                lithostrota dicuntur simileque fuit illud pavimentum tribunalis Pilati, quod apud
+                <bibl>Ioannem capitulo 19. versu 13.</bibl> 
+               <emph>
+                  <quote>lihtostrotos</quote>
+               </emph> et apud Iudaeos
+                <emph>
+                  <quote>gabbatha</quote>
+               </emph> compellatus. (6) <quote>„Haec vero lithostrota“</quote> teste
+                Plinio <quote>„coeptavere iam sub Sylla parvulis certe crustis, exstat hodieque, quod in
+                Fortunae delubro Praeneste fecit.“</quote>
+            </p> 
+            <p>(7) Exhibet hoc in suo 
+                    <emph>
+                  <bibl>Latio</bibl>
+               </emph> Kircherus et, quemadmodum Mabillonius fidem facit, asservatur hodie
+                integrum in aedibus Barberinorum Praenestinis, in quas translatum fuit, ne situs et
+                tempus tam lepidum opus labefactarent.</p>
+            <p>(8) Continuata fuit pretiosa haec pavimentorum exstructio imperatorum Romanorum
+                temporibus, praecipue primis duobus saeculis.</p> 
+            <p>(9) Iamque Caesarem <quote>„munditiarum
+                lautitiarumque studiosissimum multi prodiderunt, (cum Suetonio asserentes) quamvis
+                tenuem adhuc obaeratum, in expeditionibus tessellata et sectilia pavimenta
+                circumtulisse.“</quote>
+            </p> 
+            <p>(10) Laudat vero idem author Augustum tamquam ab omni luxu
+                abhorrentem principem: <quote>„Habitavit in aedibus modicis Hortensianis, ut in quibus
+                porticus breves essent Albanarum columnarum et sine marmore ullo aut insigni
+                pavimento conclavia.“</quote> 
+            </p>
+            <note>tit. tessellatis] scripsi, in
+                    manuscripto thesselatis – 1,1 tessellati] scripsi, in
+                    manuscripto thesselati – quadratoria] in margine, in
+                    rasura legitur quadrata – inscriptione] post
+                inscriptione in rasura legitur docuit – docuit] supra lineam adiectum – 1,2 quadratis] 
+                scripsi cum Plinio, in manuscripto legitur quadrata et – 
+                    tessellis] scripsi, in manuscripto tesselis – 1,3 magni] scripsi, in manuscripto magna – 1,4 
+                    tesseris] scripsi, in manuscripto thesseris – secta sunt et] inter sunt et et in
+                    rasura legitur ut – 1,5 compellatus] supra lineam
+                    scriptum, infra in rasura legitur auditur – 1,6 vero] supra lineam adiectum – 1,7 Kircherus] post
+                Kircherus legitur in rasura ad – 1,8 praecipue ... saeculis]
+                    in margine – 1,9 iamque] in
+                    margine – Caesarem] in rasura legitur adeo ut de
+                Caesare testatus Suetonius – cum Suetonio asserentes] in
+                    margine – tessellata] scripsi, in manuscripto
+                thesselata – 1,10 tamquam ... principem] in margine, in rasura
+                    legitur dum ita</note>
+            <p>
+               <pb/>(11) Meminit denique horum pavimentorum adhuc sanctus Augustinus, dum libro
+                primo <emph>
+                  <bibl>de ordine</bibl>
+               </emph> ita fatur: <quote>„Si quis tam minutum cerneret, ut
+                in vermiculato pavimento nihil ultra unius tessellae modulum acies eius valeret
+                ambire, vituperaret artificem velut ordinationis et compositionis ignarum, eo quod
+                varietatem lapillorum perturbatam putaret, a quo illa emblemata in unius
+                pulchritudinis faciem congruentia simul cerni collustrarique non possent.“</quote> Ubi notes
+                velim vermiculata eadem ac tessellata esse et ornamenta emblemata vocari.</p>
+            <p>(12) Horum pavimentorum illustres hodiedum in toto Romano imperio supersunt reliquiae
+                hasque complures exhibet rerum harum peritissimus collector Montefalconius.</p> 
+            <p>(13) Nam
+                praeter iam dictum Fortunae Praenestinae delubrum, cuius pavimentum variis regionum
+                animalium ac hominum figuris refertissimum est, aliud nobis monstrat iterum figuris
+                humanis eleganter pictum, Romae nostro aevo detectum, quod ille pavimentum templi
+                Dianae credit.</p> 
+            <p>(14) Aesculapii porro alibi sacrificium non ita pridem prope Tusculum
+                repertum rursusque gladiatores circi producit.</p> 
+            <p>(15) In supplementis quoque suis
+                iterum Romanum Neptuni profert, ubi Bartholum celebrem antiquarium ita scribentem
+                recitat: <quote>„In quibusdam fundus sive, ut aiunt, campus ex marmoreis tessellis candidus
+                est, schemata vero ex nigris. In alio contra schemata sunt alba et campus ater.“</quote>
+            </p>
+                <p>(16) Quartum denique, quod libro secundo eiusdem supplementi folio 39. describit,
+                anno 1720 Viterbii repertum, <quote>„cuius lapilli sunt omnes vel cinerei nigrantes vel
+                albi parvis in ornamentis emblematum exceptis.“</quote>
+            </p> 
+            <p>(17) Crevitque in tantum Romanorum
+                luxus, ut etiam in hypogaeis pretiosa haec antiquitatum cymelia, non vero
+                ostendamus, quorum bina apud Montefalconium praeclara omnino extant. </p>
+            <note>1,11 meminit denique] in margine, in rasura legitur meminitque
+                – vermiculato] scripsi, in manuscripto verniculato –
+                tessellae] scripsi, in manuscripto thessellae – ubi ...
+                    vocari] in margine – tessellata] scripsi, in manuscripto thesselata – 1,13 regionum] in
+                    rasura legitur regionibus et – animalium ac hominum] in
+                    margine – 1,14 Aesculapii ... producit] in margine –
+                Aesculapii] supra lineam scriptum, infra in rasura legitur
+                integrum – 1,15 Bartholum] scripsi, in manuscripto Bartolum –
+                in quibusdam] ante in in rasura
+                    legitur fund – ut aiunt] in manuscripto deest, scripsi
+                    cum <bibl>Montfaucon 1724, III
+                    71</bibl> – tessellis] scripsi, in manuscripto thessellis –
+                1,16 cinerei] in rasura cisnerei – 1,17 crevitque ... extant]
+                    in margine – hypogaeis pretiosa] inter hypogaeis et pretiosa supra
+                    lineam in scriptum est</note>
+                <p>
+               <pb/>(18) Velserus quoque inter <emph>
+                  <bibl>Monumenta Augustana</bibl>
+               </emph> simile
+                pavimentum tessellatum, quod balneorum credit, pluribus doctissime pro more suo
+                illustrat.</p> 
+            <p>(19) Nec minus eximium Sponius Lugduni 1670 repertum et 20 circiter pedes
+                longum decemque latum affert ac pluribus explicat additque:</p> 
+            <p>(20) <quote>„Sed et in Galliam
+                nostram cum cetero Romano luxu advecta fuere. Reperiuntur enim praecipue in oppidis,
+                quae coloniae Romanae iure gaudebant“,</quote> Arausione, Nemausi, Remis, ubi adhuc aliud,
+                Lugduni ac demum illud Aventici Helvetiorum attingit, in cuius medio consules
+                descripti sunt</p> 
+            <p>(21) additque ad repertum illud suum anno 1670 lithostroton, ut
+                conservaretur et curiosis pateret, cameram superstructam fuisse putatque in hoc
+                totum consistere artificium, ut caementum ex calce et marmore pulveratum pararetur,
+                in quod diversicolores lapilli inserendi sint, quod suo loco relinquendum est et
+                authori.</p>
+            <p>(22) Ceterum ars haec adeo celebris olim fuit, ut imperatores Theodosius et
+                Valentinianus ab oneribus publicis excusent musivarios, ut ex libro tertio decimo
+                codicis titulo <emph>
+                  <bibl>de excusatione artificum</bibl>
+               </emph> patet.</p>
+            <note>1,22 libro tertio decimo] scripsi, in manuscripto legitur L. 10.</note>
+         </div>
+            <pb/>
+         <div type="chapter" n="2">
+                <head>2. Quid fuerit Loncium</head>
+            <p>(1) Qui <emph>
+                  <bibl>Antonini Itinerarium</bibl>
+               </emph> consulunt, Loncium in via
+                militari regia et itinere consulari ab Aquileia per compendium Veldidenae inveniunt,
+                a Iulio Carnico triginta passuum millibus dissitum, ex quo necessarium sit locum
+                hunc aut mutationem aut mansionem aut civitatem, municipiumve vel coloniam Romanam
+                fuisse.</p> 
+            <p>(2) In mutationes enim, mansiones et civitates haec itinerarii loca consensu
+                omnium authorum et praecipue ipsius <emph>
+                  <bibl>Itinerarii
+                    Hierosolomytani</bibl>
+               </emph> expresso tenore distincta fuere.</p> 
+            <p>(3) Coloniam fuisse
+                Loncium nullis omnino indiciis vel authoritatibus patet.</p> 
+            <p>(4) Megiserus in 
+                    <emph>
+                  <bibl>Annalibus Carinthiae</bibl>
+               </emph> municipium, sed sine teste facit. </p>
+            <p>(5) Mansionem tamen fuisse non improbabili ex ratione credimus, quia legitimo unius
+                diei itinere a Iulio Carnico distat.</p> 
+            <p>(6) <emph>
+                  <bibl>Itinerarium</bibl>
+               </emph> enim 
+                    <emph>
+                  <bibl>Antonini</bibl>
+               </emph> viginti duobus passuum millibus a Iulio Carnico
+                    distare dicit et ita <emph>
+                  <bibl>Itinerarium</bibl>
+               </emph> in exemplari Regio,
+                Blandiniano et Neapolitano teste Surita scriptum est correctumque fuit rite ad hunc
+                numerum secundum et tertium.</p> 
+            <p>(7) Vaticanum pariter Schelstrateni numerum vigesimum
+                secundum exhibet.</p> 
+            <p>(8) Viginti enim aut viginti unum duove millia passuum iter unius
+                diei esse ex antiquis authoribus vir in hoc studio exercitatissimus Philippus a
+                Turre in dissertatione apologetica secunda a pagina decima et praecipue pagina
+                tertia ex Vegetio docet, qui libro primo, capitulo nono ait: <quote>„Militari ergo gradu
+                viginti milia passuum horis quinque dumtaxat aestivis conficienda sunt, pleno autem
+                gradu, qui citatior est, totidem horis viginti quattuor milia peragenda sunt;
+                quidquid addideris, iam cursus est, cuius spatium non potest definiri.“</quote>
+            </p> 
+                <p>(9) Consentit cum Philippo a Turre Lipsius <emph>
+                  <bibl>de militia Romana</bibl>
+               </emph>
+                libro quinto dialogis 11. et 14., Bergerius <emph>
+                  <bibl>de publicis et
+                    militaribus viis</bibl>
+               </emph>, Pancirollus <emph>
+                  <bibl>ad Notitiam Utranque
+                    Imperii</bibl>
+               </emph>, capitulo 6. aliique.</p> 
+            <p>(10) Neque ab his multum differre Procopius
+                        videtur, dum libro primo <emph>
+                  <bibl>belli Gothici</bibl>
+               </emph> capitulo 14. ait:
+                <quote>„Viae Appiae longitudo est quinque dierum expedito homini, Roma enim pertingit
+                    Capuam.“</quote>
+            </p> 
+            <p>(11) Teste autem <emph>
+                  <bibl>Itinerario</bibl>
+               </emph> Roma a Capua milia
+                passuum CXLII disiungitur, quod pro diei spatio milia passuum XXVIII conficit,
+                quartam enim itineris partem expedito homini facile possumus addere ac concedere. </p>
+            <p>(12) Patet igitur ex his Loncium a Iulio Carnico regulari spatio XXII millium passuum
+                itineris diurni remotum esse atque hinc necessariam mansionis Romanae conditionem
+                pro Loncio sequi.</p>
+            <note>2,1 quid fuerit Loncium] ante titulum in rasura Ad hoc igitur
+                illustrandum nosse imprimis decet, quid Loncium antiquitus fuerit, sit igitur
+                paragraphus secundus – Iulio] scripsi, in manuscripto Iulia –
+                passuum] alterum u supra lineam
+                    adiectum – 2,3 coloniam] ante coloniam in rasura duplim coloniam – 
+                2,6 distare dicit] supra lineam, infra in rasura legitur distat – Blandiniano]
+                    scripsi cum <bibl>Wesseling 1735, 279,</bibl> in manuscripto Plantiniano – 
+                        correctumque] ante in rasura legitur corriger – 2,8 duove] supra lineam, infra in rasura legitur duosve – 
+                        quattuor] scripsi, in manuscripto quatuor – iam] scripsi cum <bibl>Müller
+                    1997, 42,</bibl> in manuscripto deest – 2,9 Pancirollus ... c.6] in margine</note>
+         </div>
+            <div type="chapter" n="3">
+                <head>3. Quid fuerit mansio Romana</head>
+            <p>(1) Si Romanos authores, utpote ex quibus haec Romanorum monumenta solis explicari
+                debent ac possunt, interrogamus, mansio nihil aliud quam pernoctatio est, et manere,
+                pernoctare.</p> 
+            <p>(2) Inter hos Cicero <quote>„Servius“ inquit „pridie Nonis Maii Minturnis
+                mansisse dicitur, hodie in Literno mansurum apud Gaium Marcellum.“</quote>
+            </p> 
+            <p>(3) Idem libro
+                    <emph>
+                  <bibl>de divinatione</bibl>
+               </emph>: <quote>„Conclave illud, ubi erat mansurus, si
+                ire perrexisset, prima nocte corruit.“</quote>
+            </p> 
+            <p>(4) Seneca tertio <emph>
+                  <bibl>de
+                    beneficiis</bibl>
+               </emph> XVI: <quote>„Non sufficit dies omnibus, apud alium gestata est, apud
+                alium mansit.“</quote>
+            </p> 
+            <p>(5) Neque aliter hoc verbo usus est et quidem iteratis vicibus
+                    Suetonius, in <emph>
+                  <bibl>Augusto</bibl>
+               </emph> enim 72. haec habet: <quote>„Per annos amplius
+                quadraginta eodem cubiculo hieme et aestate mansit.“</quote>
+            </p> 
+            <p>(6) et 78. <quote>„Si maturius
+                vigilandum esset, ne id contra commodum faceret, in proximo cuiusque domestici
+                caenaculo manebat.“</quote>
+            </p> 
+            <p>(7) et demum in <emph>
+                  <bibl>Caligula</bibl>
+               </emph> 55. <quote>„Prasinae
+                factioni ita addicit, ut cenaret in stabulo adsidue et maneret.“</quote>
+            </p>
+            <p>(8) Atque haec locutio adeo apud authores invaluit, ut iter unius diei tantum
+                mansionem dicerent.</p> 
+            <p>(9) Plinius libro 12. capitulo 14. <quote>„octo mansionibus distat
+                    regio eorum turrifera Saba appellata.“</quote>
+            </p> 
+            <p>(10) Et <emph>
+                  <bibl>Simia Plinii</bibl>
+               </emph>
+                Solinus capitulo 33. <quote>„Pagus Sabaeorum“ inquit „a quo octo mansionibus regio turifera
+                disterminatur.“</quote> 
+            </p>
+            <p>(11) Erant autem hae mansiones aedificia ampla adeo, ut imperatores cum militibus in
+                ipsis cum comitatu suo nonnumquam pernoctarent, ut Cuperus in epistula sua ad
+                Lactantium Firmianum <emph>
+                  <bibl>de mortibus persecutorum</bibl>
+               </emph> et Bergerius
+                <emph>
+                  <bibl>de viis militaribus</bibl>
+               </emph> libro quarto pagina 224. aliique
+                pluribus ex ipsis Romanorum testimoniis docent.</p> 
+            <p>(12) Quid enim aliud sibi volunt
+                verba Alexandri Severi apud Lampridium iter suum promulgantis: <quote>„Et si dii voluerint,
+                in prima mansione mansurus“?</quote>
+            </p> 
+            <p>(13) Item Lactantii de Constantino: <quote>„Sublatisque per
+                mansiones multas omnibus equis publicis“ et iterum „geminatis mansionibus“.</quote> 
+            </p>
+            <note>3,1 explicari] scripsi, in manuscripto exsplicari – 3,2 Inter
+                hos Cicero] in margine – Literno] scripsi
+                    cum Cicerone, in manuscripto Linturno – 3,4 Seneca ... XVI] in margine – 3,7 Prasinae] scripsi, in
+                    manuscripto Phrasinae – 3,11 cum militibus] in
+                    margine – de viis] inter de et viis in rasura legitur d – 
+                    ex ipsis] in rasura legitur de ipsis – 3,12 iter suum promulgantis] in margine – 3,13 item] in rasura
+                    legitur et</note>
+            <p>
+               <pb/>(14) Neque aliud de Tito Suetonius habet: <quote>„Ad primam statim mansionem febrim
+                nactus.“</quote>
+            </p> 
+            <p>(15) Et Vopiscus in <emph>
+                  <bibl>Aureliano</bibl>
+               </emph>: <quote>„Sed cum iter
+                faceret, apud Cenofrurium mansionem, quae est inter Heraclaeam et Byzantium, manu
+                Mucaporis interemptus est.“</quote>
+            </p> 
+            <p>(16) Prae omnibus tamen audiendus est divus Ambrosius
+                    <emph>
+                  <bibl>de obitu Valentiniani</bibl>
+               </emph> verba faciens <quote>„Ecce“ inquit
+                „litterae de instruendis mansionibus, invectio ornamentorum regalium aliaque
+                eiusmodi, quae ingressurum iter imperatorem significarent.“</quote>
+            </p>
+            <p>(17) At ne quis forsitan putet in aliis quam publicis his aedificiis in hanc rem de
+                industria exstructis mansisse imperatores, mandatum praesidum provinciarum
+                imperatoris Valentis attendendum est in haec verba conceptum: <quote>„Cum ad aliquam urbem
+                mansionemque accesseris, protinus horrea inspicere te volumus.“</quote>
+            </p> 
+            <p>(18) Sciendum autem
+                est, quod praesides, dum provincias obirent, ad privatos ire haud potuerint, sed ad
+                mansiones necessario divertere debuerint.</p> 
+            <p>(19) Nam Valentinianus ita de his statuit:
+                <quote>„ut eius, qui provinciae praesidentem propria possessione susceperit, ager, quem
+                diversorium habuerit praedictus in transitu, fisci iuribus vindicetur. Ita enim
+                iudices mansiones instruere et instaurare nitentur.“</quote>
+            </p> 
+            <p>(20) Ubi vides fisco cessisse
+                hospitium, in quo praeses divertit, ne publica mansionum aedificia instrui
+                negligerentur aut restaurari.</p>
+                <note>3,15 Cenofrurium] scripsi cum <bibl>Hohl 1971, II 176,</bibl> in manuscripto Coenofrurium –
+                3,17 praesidum] supra lineam, infra in rasura legitur
+                praesidis – verba conceptum] in margine – 3,19 eius, qui] scripsi cum 
+                    <bibl>Mommsen 1905, 59,</bibl> in manuscripto legitur quisque, in rasura legitur quisquis – propria possessione] in
+                    margine
+            </note>
+         </div>
+            <pb/>
+         <div type="chapter" n="4">
+                <head>4. An mansio Loncium oppidum aut civitas fuerit</head>
+            <p>(1) Mansiones loca fuisse amplis aedibus instructa, ut omnes cursu publico utentes
+                pernoctare possent, quibus horrea et stabula addita, ne annona aut iumenta deessent,
+                quae omnia indicante Symmacho libro secundo epistula 27. rectores provinciarum
+                curabant, unanimis authorum consensus est,</p> 
+            <p>(2) pro exercitibus praecipue; teste enim
+                sancto Ambrosio, eo exceptione omni maiori, cum ipse praesidis officio sit usus,
+                <quote>„Miles“ inquit „qui iter ingreditur, viandi ordinem non ipse disponit sibi ... sed
+                itinerario ab imperatore accipit ... rectaque via conficit iter, ut inveniat
+                commeantium parata sibi subsidia.</quote>
+            </p> 
+            <p>(3) <quote>Si alio ambulaverit itinere, annonam non
+                    accipit, mansionem paratam non invenit.</quote>
+            </p> 
+            <p>(4) <quote>Quia imperator his iubet praeparari
+                omnia, qui sequuntur, nec dextra nec sinistra a praescripto itinere declinant,
+                meritoque non deficit, qui imperatorem sequitur suum.“ </quote>
+            </p>
+            <p>(5) Ex his igitur mansionibus natae sunt paulatim civitates et oppida, imo aliqua
+                horum una mansiones erant, et simul oppida, municipia aut coloniae.</p> 
+            <p>(6) Argentoratum
+                    enim a Zosimo libro tertio, capitulo tertio urbs vocatur iisdemque insignibus a 
+                    <emph>
+                  <bibl>Peutingeriana tabula</bibl>
+               </emph> ornatur, atque in 
+                    <emph>
+                  <bibl>Itinerario Antonini</bibl>
+               </emph> terminus itinerum est a Mediolano, Lugduno Batavorum,
+                Treviris et Tauruno, ab Ammiano vero Marcellino praecipuis Germaniae primae locis
+                par habitus.</p> 
+            <p>(7) Hic ipse tamen author libro decimo sexto ad finem de hoc tanquam
+                    mansione loquitur, <quote>„Argentorato“ inquit „mansione quadragesima“.</quote>
+            </p> 
+            <p>(8) Minus nobilia
+                quidem Argentorato loca una mansiones et civitates ac oppida fuisse Ducangius in
+                glossario ex actis conciliorum deducit mansionem Nicaeae in Thracia, Thermensem et
+                Sasimorum oppidum.</p> 
+            <p>(9) Simile quid etiam ex Suida constat, qui de Gregorii episcopi
+                loco natali Nazianzo testatus: <quote>„Hoc autem Nazianzum est Cappadociae statio“,</quote> quod
+                etiam in Appollinario repetiit.</p> 
+            <p>(10) Imo ipse, quem primum laudavimus, Ducangius
+                tres mansiones in Bithynia civitatis iure donatas ex codicis Theodosiani lege 119
+                putavit ansamque mihi dedit, ut in ipsam hanc legem curatius indagarem.</p> 
+            <p>(11) Ea
+                autem sic incipit: <quote>„Claudiopolis, Prusiadis ac Tottai et Doridis oppidorum sive
+                mansionum per Bythiniam curiales publicis illudere functionibus per suam fugam
+                cognovimus iubemusque, ut edictis primitus evocati utilitatibus se patriae et ei,
+                cui nati sunt, restituant civitati.“ </quote>
+            </p>
+            <note>4,1 libro secundo] scripsi, in manuscripto L. 11 – 4,4
+                sinistra] ante sinistra in rasura
+                    legitur sist – 4,6 atque] in rasura legitur et – 4,8
+                Nicaeae] scripsi, in manuscripto Nycaeae – Sasimorum] scripsi cum 
+                <bibl>du Cange V 226,</bibl> in manuscripto Sasymorum – 4,9 qui] supra lineam adiectum – Gregorii episcopi] inter
+                Gregorii et episcopi in rasura legitur
+                Nazianzeni – 4,11 Prusiadis ac Totai] ac in rasura legitur,
+                    scripsi cum <bibl>Mommsen 1905, 691</bibl> –
+                illudere] scripsi cum <bibl>Mommsen 1905, 691,</bibl> in manuscripto includere –
+                primitus] scripsi cum <bibl>Mommsen 1905, 691,</bibl> in manuscripto legitur
+                primum</note>
+            <p>
+               <pb/>(12) Verum quidquid de his civitatibus et mansionibus sit, nondum tamen exinde
+                argui potest, omnes mansiones atque ita etiam Loncium nostrum civitatis iure gavisum
+                fuisse.</p> 
+            <p>(13) Aliud igitur argumentum, quo hoc adstruamus, inquirendum est:</p> 
+            <p>(14)
+                lapis nimirum Romanus, quem Megiserus ac Lazius exscripserunt, Gruterus 
+                    <emph>
+                  <bibl>Thesauro</bibl>
+               </emph> suo intulit et, ni vehementer fallamur, etiam
+                Putschius inspexit; post versus enim superius recitatos ita pergit: </p>
+            <p>
+               <quote>(15) <lg>
+                     <l>sacraque Caesareis intitulata notis</l>
+                     <l>alta stat hic niveo de marmore facta columna</l>
+                     <l>in summo montis conspicienda iugo.</l>
+                  </lg>
+               </quote>
+            </p>
+            <p>(16) De alio enim lapide etiam post sedulam inquisitionem nihil constat, licet etiam
+                hic ipse iniquo, ut saepius fieri amat, fato sublatus iam sit.</p> 
+            <p>(17) Tantorum tamen
+                virorum inspectione oculari tutus illud sic repono:</p>
+            <p>
+               <quote>
+                  <emph>(18) M. Aurelio. Antonino. Caes.
+            Imp. destinat. Imp. L. Septi
+            mi Severi. Pertinacis. Aug.
+            Fil. res P. Len.</emph>
+               </quote>
+            </p>
+            <p>(19) Ex hac igitur inscriptione luculenter patet Loncium rem publicam Lentiensem esse
+                vocatum.</p> 
+            <p>(20) Consului proin lapidum inscriptorum collectores et similes locorum res
+                publicas in Reinesio inveni undecim, in clarissimo Muratorio quinquaginta duo, in
+                Grutero 74.</p> 
+            <p>(21) Iuvat ex altero et hoc ultimo quasdam vicinas adducere, et quidem
+                prior meminit Aquileiensis rei publicae folio 1028 numero secundo, Brixianorum 1034
+                numero septimo, Camunorum folio 1035 numero quinto, Tergestinorum 1085 numero
+                septimo.</p> 
+            <p>(22) Gruterus vero iterum Brixianorum folio 455 numero secundo, Mantuanorum
+                folio 479 numero sexto, Veronensium folio 97 numero undecimo et folio 1102 numero
+                septimo et denique Vicetinorum folio 272 numero quarto. </p>
+            <note>4,14 Romanus] post Romanus legitur in
+                    rasura est – Megiserus ac] in margine –
+                exscripserunt] scripsi, in manuscripto exscripsit – Gruterus]
+                    ante Gruterus in rasura legitur et
+                – 4,20 quinquaginta duo] duo supra lineam adiectum – 4,21
+                folio 1028, numero secundo] in margine – 4,22 folio 455] correxi, in manuscripto legitur folio 355.</note>
+            <p>
+               <pb/>(23) Ex hoc inscriptionum selectu manifestum utique fit, si non omnia, saltem
+                pleraque haec loca, quae in lapidibus sub rei publicae nomine occurrunt, nobiliora
+                oppida, municipia et colonias fuisse, adeo quidem, ut marmorum interpretes in
+                explicanda hac voce haudquaquam, ut alias solent, laborent, inter quos Reinesius
+                copiosus alias et felix lapidum hariolator nec verbulum quidem fecit.</p> 
+            <p>(24) Fabrettus
+                vero in rem nostram diserte edisserat „Favent 70 et amplius inscriptiones in
+                Grutero, quae in oppidulo quoque rem publicam agnoscunt, et nos in Labicana et in
+                Oricula diximus“ videturque idem esse, quod in medii aevi urbium sigillis audit
+                commune civium aut communitas. </p>
+            <p>(25) Si vero adhuc scrupulus cuidam haereat, ille Sextum Pompeium Festum audiat ita
+                in hanc rem ad hoc verbum disserentem: <quote>„Eae nationes“ inquit „cum aliis rebus per
+                avaritiam atque stultitiam res publicas suas amiserunt.“</quote>
+            </p> 
+            <p>(26) Quem textum viri docti
+                de iuribus civitatum intelligunt, imo explicatius adhuc de his Cicero disserit, dum
+                ita pronuntiat: <quote>„Utinam isto animo atque virtute in summa re publica nobiscum
+                versari, quam in municipali maluisses.“</quote> 
+            </p>
+            <note>4,24 Fabrettus ... communitas] in margine – quae ...
+                    agnoscunt] in margine – 4,25 Sextum Pompeium] supra lineam adiectum – 4,26 
+                    explicatius] scripsi, in manuscripto exsplicatius </note>
+         </div>
+            <pb/>
+         <div type="chapter" n="4.5">
+                <head>Paragraphus ultimus</head>
+            <head>corollaria</head>
+            <p>(1) Intelleximus ex hactenus dictis Loncium secundum <emph>
+                  <bibl>Itinerarium</bibl>
+               </emph> 
+                et authorum rationes mansionem fuisse et quidem inter illas,
+                quas plures adduximus, non inferiorem.</p> 
+            <p>(2) Si enim, ut in Carnunto docet
+                Wesselingius ad <emph>
+                  <bibl>Itinerarium Hierosolymitanum</bibl>
+               </emph>, praeter iam
+                adducta etiam urbium exempla suppetant, quae mutationes fuere, id eo magis de
+                mansionibus credendum est, quae nobiliores semper mutationibus fuere.</p> 
+            <p>(3) Quin si
+                etiam haec abessent, sola, quam adduximus, inscriptio ex recepta nummariorum et
+                lapidariorum sententia ad adstruendam Loncio nobilitatem sufficeret.</p> 
+            <p>(4) Nam ut
+                audivimus, aut urbes fuere ac coloniae, aut saltem municipia, quae rerum publicarum
+                nomine allata sunt. </p>
+            <p>(5) Non mirum igitur fuit huius civitatis cives eximias sibi etiam villas exstruxisse
+                unumque aut alterum ex his villam habuisse „opere“ ut Varro <emph>
+                  <bibl>de re
+                    rustica</bibl>
+               </emph> loquitur <quote>„tectorio et intestino ac pavimentis nobilibus
+                lithostrotis spectandam.“</quote>
+            </p> 
+            <p>(6) Nihil quoque impedit, si coniecturae forte non admodum
+                inani et nos indulgeamus, tam ampla, quae descripsimus, rudera ipsius mansionis ad
+                ipsos etiam excipiendos imperatores parata has superesse reliquias.</p> 
+            <p>(7) Quidquid id
+                sit, hoc fere indubium est itinere hoc regio ab Aquileia Veldidenam Caesares ac
+                illustrissimos quoque rei publicae viros huc transiisse, atque si etiam aliquid
+                coniecturis ulterioribus dare licet, quid prohibet, cum ex columna ad Aguntum
+                miliarium imperatorem Philippum has vias munivisse constet, eundem etiam per hanc
+                ipsam tum profectum esse, ubi teste Zosimo <quote>„contra Carpos expeditionem suscepit, qui
+                iam Istro viciniora loca populabantur.“</quote>
+            </p> 
+            <p>(8) Probus etiam imperator probabilius hoc
+                iter trivit, ubi Vopisco teste <quote>„Illyricum petiit, et priusquam veniret, Rhaetias sic
+                pacatas reliquit, ut illic ne suspicionem quidem ullius terroris relinqueret.“</quote> 
+            </p>
+            <note>U,2 Hierosolymitani] scripsi, in manuscripto Hierosolomytanum – U,2 adducta etiam] 
+                inter adducta et etiam in rasura
+                    legitur alia – urbium exempla] in margine – U,5
+                lithostrotis] ante lithostrotis in rasura
+                    legitur cast – U,8 Probus] ante Probus legitur in rasura Sed quid incertis immoramur? probus ce –
+                etiam imperator probabilius] in margine – hoc iter] ante legitur in rasura certe – ubi] supra
+                    lineam, infra legitur in rasura cum</note>
+            <p>
+               <pb/>(9) Si enim semel in Rhaetia Probum admittimus, per hoc Noricum Pustrense utique
+                via proximior in Illyricum duxit.</p> 
+            <p>(10) De Iuliano etiam diserte Ammianus Marcellinus
+                testatur: <quote>„Die quartum Kalendas Iunias ab urbe profectus per Tridentum iter in
+                Illyricum“</quote> festinavit.</p> 
+            <p>(11) Et quamvis ex limatissima codicis Iustiniani chronologia
+                probe sciam Gratianum imperatorem Treviris per Arborem Felicem, Lauriacum ac
+                Bononiam, Pannoniae Sirmium festinasse Valenti opitulaturum, non puto tamen itinerum
+                compendio, sed ex aliis causis circuitione usum fuisse. Si enim Illyricum in sensu
+                vero et strictiori summatur, itinere Aquileiensi ex Germania via certe propinquior
+                est. </p>
+            <p>(12) Sed ne vos diutius in his ruinis moremur, in quibus utique optassem, ut sicut in
+                illis Aventici, etiam hic consules adscripti fuissent, cum ceteroquidem lapillorum
+                colores cum pluribus aliis supra descriptis conveniunt et forte sicuti alibi
+                secundum Sponium hae coloniae reliquiae esse possint, vela tandem contrahamus, haud
+                solliciti, an transferre in locum tutiorem (ut Praenestinae) velint aut num camera
+                (ut Lugdunensibus) superstruenda sit.</p> 
+            <p>(13) Id unum optamus, ut tam eximia
+                antiquitatis et patriae ornamenta saltem ex merito conserventur et, si quae
+                reperiantur in posterum, non adeo temere a rusticis labefiant aut ab imperitis
+                contemnantur. </p>
+            <p>(14) Mihi vero aliud nihil superest, quam ut veniam rogem tumultuariae huius
+                dissertationis.</p> 
+            <p>(15) Tempus enim defuit, ut hanc pro dignitate tantorum virorum
+                exornarem ac cum Cicerone in <emph>
+                  <bibl>Bruto</bibl>
+               </emph> de M. Calidii stylo
+                oratorio loqui possem: <quote>„Nullum nisi loco positum et tamquam in vermiculato emblemate
+                ut ait Lucilium, strictum verbum videres“.</quote>
+            </p> 
+            <p>(16) Dissertationem enim dumtaxat, non
+                orationem adornare constitui. </p>
+            <note>U,9 duxit] post duxit legitur in rasura
+                Si hae vero ne haec quidem verba aliquibus videantur, ad Iulianum Caesarem appello,
+                Iulianum nempe imperatorem de hoc enim diserte – U,10 De Iuliano etiam diserte] supra lineam adiectum – quartum] scripsi
+                    cum Ammiano, in manuscripto quarta – U,11 et quamvis ... propinquior est]
+                    in margine – Arborem Felicem] scripsi,
+                    in manuscripto Felicem Arborem – Bononiam] supra lineam
+                    adiectum – sed ... circuitione] in margine – U,12 ut
+                sicut] scripsi, in manuscripto ut etiam sicut – etiam hic]
+                    supra lineam – hae coloniae] hae supra
+                    lineam, infra legitur in rasura rel – esse possint] in
+                    margine, in rasura legitur sunt – tandem] supra lineam
+                    adiectum – tutiorem] ante legitur in rasura tutionem
+                – Praenestinae] ante legitur in rasura Prael – in posterum]
+                    scripsi, in manuscripto impostero – U,15 tantorum
+                virorum] in margine – vermiculato] scripsi
+                    cum Cicerone, in manuscripto vermicula</note>
+         </div>
+            <pb/>
+         <div type="chapter" n="5">
+                <head>5. Unde his reliquiis nomen <emph>
+                  <name xml:lang="dt">Zwergl-Gebäu</name>
+               </emph> adhaeserit</head>
+            <p>(1) Examinata Loncii dignitate plane non infima ac mansionis conditione et nominis
+                rei publicae usu inter doctos communibus suffragiis recepto, reliquum mihi nunc est
+                insolitum hoc monumenti huius nomen ut examinem.</p> 
+            <p>(2) Et plane desperassem, cum non
+                    tantum vulgus in exprimendis his ruderibus utatur hoc vocabulo
+                    <emph>
+                  <name xml:lang="dt">Zwergl-Gebäu</name>
+               </emph>, sed addat <quote>
+                  <foreign xml:lang="dt">wo die guaten, wo die
+                    engelischen Leuthlein gewohnet hätten</foreign>
+               </quote>, certas etiam diluvii universalis
+                reliquias pro eorum pecuniis venditantes.</p> 
+            <p>(3) Superstitiosa haec esse nemo prudens
+                non videt, sed unde superstitio arcessenda sit, diu utique mecum omnes haesitassent,
+                nisi commodum vir summus Ioannes Georgius Eccardus in <emph>
+                  <bibl>Francia
+                    Orientali</bibl>
+               </emph> succurrisset.</p> 
+            <p>(4) Dum enim canones in synodo sancti Bonifacii
+                tertia Salisburgensi ad Salsam explicat ad verba: <quote>„De his, quae faciunt super
+                petras: Credebant“ inquit „gentiles ea a spiritibus et geniis mortuorum inhabitari,
+                qui venerationem sui bonis compensarent.“</quote> Et inferius appositissime ad rem nostram:
+                <quote>„Moles lapideas et colles etiam sepulcrales a naenis, spirituum sive daemonum
+                genere, inhabitari creditum fuisse. <emph>
+                     <bibl>Edda</bibl>
+                  </emph> Islandorum prodit,
+                unde et monumenta haec in Saxonia inferiori a plebe <emph>
+                     <name xml:lang="dt">Zvverch-Löcher</name>
+                  </emph>, 
+                        hoc est naenorum receptacula vel antra vocantur.“</quote>
+            </p> 
+            <p>(5) An
+                vero antiqua haec sit nuncupatio vel recentior, haud constat. </p>
+            <p>(6) Vicinia Debonensis tantum bis circiter C passibus distans, vulgo 
+                <emph>
+                  <foreign xml:lang="dt">gen der Debant</foreign>
+               </emph> in diplomate Leonticensi compellata, auricalco
+                fabricando celebris est et fossorum metallicorum, praesertim ex valle Teffereggia
+                concursu frequentata huic dictioni ansam praebere potuit.</p> 
+            <p>(7) Cum enim non raro
+                aliqui horum fossorum in Saxoniam proficisci soleant, pronum est colligere hanc ibi
+                superstitionem illos hausisse, cum praecipue in illis partibus naeni montani, vulgo
+                    <emph>
+                  <name xml:lang="dt">die Bergmannlin</name>
+               </emph> multas superstitiones excitare soleant. </p>
+            <note>5,1 mansionis] scripsi, in manuscripto mansionem – 5,2 sed
+                addat] in margine – 5,3 superstitiosa] scripsi, in manuscripto supersitiosa – 
+                superstitio] scripsi, in manuscripto superstitionis – succurrisset] scripsi, in manuscripto succurisset – 5,4 synodo ... 
+                tertia] in margine, in rasura legitur concilio – 
+                Salsam] scripsi, in manuscripto Salam – ad verba] supra lineam, infra legitur in rasura Item de arboribus – appositissime ad
+                rem nostram] in margine – 5,6 tantum ... distans] in margine – 5,7 non raro] in margine
+                – pronum] in rasura legitur facile</note>
+            <p>
+               <pb/>(8) Cum praecipue ex prima relatione mihi constet inter fossores illos
+                privilegio camerali Oenipontano ad eruendos thesauros probe munitos etiam
+                Teffereggenses fuisse rusticos, quos cum extraneis saepius exercere commercia
+                novimus, et ideo de religione acatholicorum olim saltem aliquid attraxisse novimus,
+                manente ideo adhuc proverbio de homine ineptum quid proferente <quote>
+                  <foreign xml:lang="dt">„o
+                    du deferegger!“</foreign>
+               </quote>
+            </p> 
+            <p>(9) Interim tamen haec collis ruderibus plena hoc nomen
+                attraxit, quod per universam vallem Pustrissam hodie percelebre est. </p>
+            <p>(10) Sepulchrum continere has reliquias non persuadeor, cum omnia simul considerata
+                frequentia aedium rudera loquantur.</p> 
+            <p>(11) Nihilque in ipso agro omnino adsit aut in
+                ullo authorum verisimile quid inveniatur, quod vel a longe ad sepulchra pertinere
+                possit.</p> 
+            <p>(12) Fornices enim tantum sustinent pavimentum elegantius, ad omnem apicem
+                emendatissimum atque, ut Virtuvius loquitur, <quote>„ad regulam et libellam exactum“</quote>, ne si
+                agro incumberet, terrae humoribus facilius dissolvi posset.</p> 
+            <p>(13) Et hinc videmus
+                nigrum, quod longe rudius est, tanta cura non extructum agro incumbere, cum tanti
+                periisse non fuisset.</p> 
+            <p>(14) Verum de his ne exerrem e tramite, peritiores atque in
+                versandis ruderibus exercitatos viros consulam, quos plures audire necesse est.</p> 
+            <p>(15)
+                Ego tamen quid interim suspicerem, non subticebo. </p>
+            <p>(16) Ex Vitruvio edit Laet libro septimo, capitulo primo folio 127: <quote>„Supra nucleum ad
+                regulam et libellam exacta pavimenta struantur sive sectilibus seu tesseris. Cum ea
+                extructa fuerint et fastigia extructiones habuerint, ita fricentur, uti, si sectilia
+                sint, nulli gradus in scutulis aut trigonis aut quadratis seu favis extent, sed
+                coagmentorum compositio planam habeat inter se directionem, si tesseris structum
+                erit, ut eae omnes angulos habeant aequales, nullibique a fricatura extantes. Cum
+                enim anguli non fuerint omnes aequaliter plani, non erit exacta, ut oportet,
+                fricatura.“</quote> 
+            </p>
+            <note>5,8 probe] supra lineam adiectum – saepius] in rasura legitur non raro – aliquid] ante aliquid
+                    unum verbum in rasura non legitur – 5,11 in ipso agro]
+                    in margine – adsit] supra lineam, infra
+                    legitur sit – 5,12 atque ut ... exactum] in margine
+                – 5,14 consulam, quos] supra lineam, infra legitur in rasura
+                consulere incoepi et – 5,15 suspicerem] supra lineam, infra
+                    legitur in rasura sentirem – 5,16 tesseris] scripsi, in
+                    manuscripto thesseris– nullibique ... extantes] non apud
+                    Vitruvium legitur
+            </note>
+            <p>
+               <pb/>(17) Ad haec Guilielmus Philander, doctissimus Vitruvii saeculi XVI. commentator
+                Catalaunus Gallus: <quote>„Pavimenta a paviendo, id est feriendo dicta, ut ipsum
+                instrumentum pavicula vocatur. Principio picta fuerunt, postea facta sunt
+                lithostrota, id est lapillis strata. Quorum fit mentio apud Varronem libro tertio
+                    <emph>
+                     <bibl>rei rusticae</bibl>
+                  </emph> capitulo primo et Plinium libro 26. capitulo
+                25. Per sectilia intelligo sectas parvas crustas in varios interdum colores, id est
+                opus amusseatum sive museacum sive musivum, ut Spartianus in <emph>
+                     <bibl>Pescennio</bibl>
+                  </emph>
+                dicit et divus Augustinus libro <emph>
+                     <bibl>de civitate
+                    Dei</bibl>
+                  </emph> 16. capitulo octavo. Vulgo <emph>
+                     <name>Mosaicum</name>
+                  </emph> vocamus. Per
+                tesseras autem quadrata grandia opus musivum expressit Nilus Scholasticus 
+                <emph>
+                     <bibl>epigrammaton</bibl>
+                  </emph> libro quarto <quote>
+                     <foreign xml:lang="gr">πῶς ἐκ λίθου ἄλλοθεν ἄλλης
+                συμφερτὸς, γνόμην διαπίνης σάτυρ</foreign> – aliisque lapillis tam cito
+                    compositum transierim in satyrum</quote>. Artifices dicuntur musivarii a Theodosio
+                et Valentiniano codicis libro tertio decimo <emph>
+                     <bibl>de excusatione
+                    artificum</bibl>
+                  </emph>. Musivi operis pavimenti accuratissima diligentia atque arte
+                consertas et cogmentatas particulas vidimus Tiburti in villa, quae dicitur
+                Quintiliani, et Romae in aedibus Matthiae Sossii et in Aventino monte in divi Alexii
+                templo (quo loco fuerat Herculis) ad aram maximam. In eis, inquam, particulis
+                tessellulata marmora minutulis fabis haud maiora piscium, sed et aliarum rerum
+                effigies variis coloribus emendare et graphicotereos imitantur. Libenter in hoc
+                diverti, quod scirem paucissimas animadversas esse eiusmodi pavimentorum reliquias.
+                Nota enim sunt omnibus templi Bacchi lacunaria diu Nomentana.“</quote>
+            </p>
+         </div>
+        </body>
+    </text>
+</TEI>

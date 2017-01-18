@@ -1,0 +1,782 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>De Studiorum Instauratione, versio electronica</title>
+                <author key="santoni01">
+                    <name>Santoni, Paolo</name>
+                    <date precision="medium">1445-1510</date>
+                </author>
+                <respStmt>
+                    <resp>Hanc versionem electronicam curavit</resp>
+                    <name>Irina Tautschnig</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Digital text provided by the editor</edition>
+            </editionStmt>
+            
+            <extent/>
+            
+            <publicationStmt>
+                <p>Croatica et Tyrolensia: Tyrolis Latina <date>September 2015</date>
+        </p>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Santoni, Paolo</author>
+                        <title>De Studiorum Instauratione a Celsissimo Viro Christophoro Sizzo, Tridentinorum
+                            Episcopo et Principe, Marchione Castellarii etc. Anno M. DCC. LXXIII. Sancita
+                            Oratio</title>
+                        <imprint>
+                            <pubPlace>Trient</pubPlace>
+                            <date>1773</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>TLMF, Dip. 728/3</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <creation>
+                <date when="1773">1773</date>
+            </creation>
+            <textClass>
+                <keywords scheme="time">
+                    <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens (1773)</term>
+                </keywords>
+                <keywords scheme="genre">
+                    <term>Rede</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change>corrected teiHeader and body<date>2015-09-23</date>
+                <name>Johanna Luggin</name>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <head>De Studiorum Instauratione a Celsissimo Viro Christophoro Sizzo, Tridentinorum
+                    Episcopo et Principe, Marchione Castellarii etc. Anno M. DCC. LXXIII. Sancita
+                    Oratio.</head>
+                <p>Tridenti, ex Typographia Episcopali Monauniana.</p>
+                <p>Sumptu Seminarii Episcopalis.</p>
+
+            </div>
+            <pb/>
+            <div>
+                <head>Viro Celsissimo Christophoro Sizzo, Tridentinorum Episcopo et Principi,
+                    Marchioni Castellarii etc. Presbyter Franciscus Santoni, Episcopalis Seminarii
+                    Rector.</head>
+                <p>Cum non pauci viri graves, quos plurimum suspicio, me vehementer poposcissent,
+                    Celsissime Princeps, quin etiam pro sua humanitate obsecrassent, ut orationem,
+                    quam pro Tua instauratione <pb/> studiorum conscripsi atque ante conspectum Tuum
+                    in solemni frequentissimoque doctorum virorum conventu recitavi, typis mandarem,
+                    eorum tamen votis ex ea potissimum ratione obsistendum mihi persuaseram, quod
+                    omnia sapientissimi instituti Tui capita complecti nequiverim, quaeque praeterea
+                    hac oratione ipse comprehenderam, adumbraverim potius, quam pro dignitate
+                    absolverim. Temporis enim angustia praepeditus rerumque copia ad Seminarium Tuum
+                    atque ad publica studia pertinentium implicatus frustillatim adeo raptimque ea
+                    mihi fuit scribenda, ut indigesta plenaque festinationis oratio appellari posse
+                    videatur. Quapropter verebar admodum, ne decorem Tuum in discrimen aliquod
+                    adducerem, si orationem hanc incomptam hac maxime tempestate mihi vulgare
+                    sumerem, quae usque adeo morosa est ac difficilis, ut non modo scrupulose
+                    minutimque rimetur omnia, verum etiam ad invidiam aliis faciendam ea, quae
+                    nullibi invenias, aucupetur animoque obvolvat. Iidem <pb/> tamen viri in
+                    proposito firmius permanentes, ut me repugnantem convincerent, alia me via
+                    aggressi sunt: Clementissimum nempe assensum Tuum exorarunt. Vix itaque id mihi
+                    delatum est, aegre quidem, sed animo reverenti de sententia decessi, cum
+                    quidquam nolim esse mihi antiquius, ut maxime decet, quam ad Principis et
+                    Episcopi mei nutum omnia mea componere. Quin et id quoque tunc mihi venit in
+                    mentem satius admodum esse bonorum prudentumque virorum genio parere, qui magno
+                    largiter numero praeter omnem exspectationem meam bonaque fide compositionis
+                    hujus editionem non cupiebant solum, verum etiam flagitabant, quam acrium
+                    censorum aut lividorum quorumdam in fermento jacentium froenumque mordentium
+                    inani forte metu exanimari. Patere igitur, Benignissime Princeps, ut, quoniam
+                    orationi huic, quaecumque fuerit, imprimendae assensum Tuum benevole
+                    accommodasti, eandem Reverendissimae Celsitudinis <pb/>Tuae auspicio vel ideo
+                    typis committam, ut omnes, ad quos ipsa pervenerit et sapientiam Tuam
+                    Pastoralemque solicitudinem, qua erga concreditas Tibi oves subditasque gentes
+                    vehementer afficeris, per me utcunque intelligant et summam meam in Te
+                    observantiam gratumque animum dignoscant. Dolet equidem mihi cor, quod
+                    praecellentes animi Tui dotes primis vix tantum lineis designare valuerim.
+                    Attamen, quia tempori cedere oportuit et integer, quantum potui, laudavi, spe
+                    nitor veniam a Te me facile impetraturum, Deumque impotentiae meae damna
+                    opportune compensaturum esse confido. Centenos fortunatissimae carissimaeque
+                    Dioecesi Tuae vivas feliciter annos.</p>
+            </div>
+            <pb n="1"/>
+            <div>
+                <head>De Tridentinorum Studiorum Instauratione Oratio.</head>
+                <p>Quam provinciam, Celsissime Princeps, pro singulari Tua in me benevolentia
+                    decrevisti mihi, ut ad frequentissimum istud ornatissimumque doctorum virorum
+                    concilium de felicissima Tua Studiorum instauratione ante augustum conspectum
+                    Tuum orationem haberem, eandem ut viribus meis plane superiorem modo tantum
+                    persentiscere incipio. Cum enim suavissima gratia tua privatim duntaxat antea
+                    perfruerer ac praeterea paucos auditores, eosque inter domesticos <pb n="2"/>
+                    magis quam publicos parietes literarum studiis instituere hactenus consuevissem,
+                    sub ipsum idcirco clementissimae jussionis Tuae principium oneris gravitatem
+                    haudquaquam satis praesensi. At modo qui Te amplissima dignitate Tua
+                    praefulgentem adoro, qui Ecclesiae Tuae Senatum Summumque in eo Scholasticum
+                    Tibi assidentem revereor, qui Tridentinos Septemviros una collectos studiorumque
+                    promovendorum amore succensos Tibique propterea symbolam suam libentissime
+                    dantes observo, qui viros doctissimos ornatosque adolescentes magno numero
+                    coactos animadverto, qui denique me ipsum a natura silentio magis quam
+                    elocutioni comparatum plusquam satis experientia teneo, tota mente atque omnibus
+                    artubus jam jam contremiscere coepi. Nam quum haec omnia et gravitatem orationis
+                    et dictionis nitorem, quodque magis faciendum est, virum usquequaque sapientem,
+                    quae mihi deesse sentio, requirant, vastissimo velut pelago me inconsiderate
+                    commissum agnosco ac, quo me vertam, prorsus ignoro. Quid igitur consilii
+                    capiam? Dabone vela retrorsum? Verum neque praeclarissimum decus Tuum neque
+                    gravissimus iste conventus nec denique susceptae materiae pondus tam immane
+                    patiuntur erratum. Dicam igitur? Quomodo vero id praestem ego, quem labia ipsa
+                    prope deficiunt? Hei mihi, qui rem tantam insipienter adeo suscepi! At nullae me
+                    tamen ab incepto rationes deterreant: praevalido namque auspicio ductuque vestro
+                    confisus, Deipara Virgo, animo concidentium salus, Beatique Carole <pb n="3"/>
+                    atque Aloysi, Episcopalis Seminarii studiosaeque juventutis singulares Patroni,
+                    suavissimoque praeterea Tuo vultu firmatus, Humanissime Princeps, metum omnem
+                    excutiam atque ad dicendum aggrediar. Interea vos, comissimi auditores, etiam
+                    atque etiam rogo, ut propitiis auribus vestris mihi dicenti vires superaddere
+                    velitis. Quid dicam porro? Publicam puerorum institutionem privatae anteponendam
+                    esse fundamenti loco antea omnia firmabo: tum, quae publica institutio recta
+                    dicenda sit, perspicue breviterque aperiam: quanta demum quantique facienda
+                    sint, quae in amplissimam Dioecesin Tuam, Celsissime Praesul, ex novissima per
+                    Te jam decreta Studiorum instituendorum ratione derivabunt emolumenta, quam per
+                    me fieri poterit, nitidissime aeque ac strictissime ostendam.</p>
+            </div>
+            <div>
+                <head>I.</head>
+                <p>Publicae privataeque felicitatis summam in recta puerorum institutione
+                    collocandam esse jam inde ab imperiorum exordio in confessum venit. Aegyptiorum
+                    enim, Atheniensium, Lacedaemonum, Cretensium, Persarum aliarumque priscarum
+                    gentium dominatores sibi persuasissimum habentes pueros ad rempublicam magis
+                    quam ad parentes spectare, ut Aristoteles in Politicis observat et in Lycurgo
+                    Plutarchus, hoc unum de puerorum institutione caput sic diligenter <pb n="4"/>
+                    versarunt, ut nesciam, an posteriorum temporum legislatores, quanquam virtute
+                    animique cultura priscis illis multum praecellere videantur, par tamen studium
+                    in re tanti molumenti posuerint. Idem sane Plutarchus in Lycurgi Numaeque
+                    Pompilii comparatione advertit multum durasse instituta prioris, quod optimas de
+                    puerorum educatione leges condiderit; posterioris autem jussa, caeteroquin
+                    sapientissima, quod puerorum institutionem legibus definire neglexerit,
+                    confestim ab ejusdem morte cessasse perpendit. In quaestione porro versatur,
+                    Puerosne publicis in scholis an vero domi a privatis magistris institui magis
+                    expediat. Qua in controversia video Marcum Fabium Quintilianum inter veteres,
+                    inter recentiores autem Carolum Rollinium, viros ambos celeberrimos in eam valde
+                    propendisse sententiam, quae pueros in publicis scholis erudiendos esse
+                    affirmat. Quorum ego quidem auctoritate ita permoveor, ut in eandem Sententiam
+                    libenti animo jure meritoque concedam. Ambo etenim puerorum institutioni
+                    doctrina, ingenio, experientia diu multumque vacarunt: idque in amplissimis
+                    atque principibus urbibus, Romae scilicet, ut probe nostis, Quintilianus,
+                    Parisiis autem Rollinius. Jam vero si quis vestrum tantis auctoritatibus
+                    acquiescere fortasse detrectet, potissima eorundem virorum argumenta audire haud
+                    gravate ferat, ac minime dubito, quin hac in causa unum omnes atque idem
+                    sentiatis: quanquam argumenta ipsa candide quidem, at summatim tamen in medium
+                    sim adducturus. Ac primo <pb n="5"/>quidem: observat Quintilianus publicam
+                    institutionem animos puerorum sic erigere, ut non pertimescant homines,
+                    eosdemque inflammare, ut in publicum audentius prodeant: quod in privata
+                    institutione vix aut nullo modo sperandum. Hujus autem vim argumenti, quod primo
+                    aspectu leve nonnullis posset forte videri, tum vos, ornatissimi auditores,
+                    facillime percipietis, cum animadverteritis pueris, utra instituantur ratione,
+                    in publicum tandem aliquando prodeundum atque versandum, ex iisque deligendos
+                    esse Principum, Magistratuum Communiumque ministros, consiliarios, judices,
+                    oratores, divini verbi praecones, rectores animarum, causarum patronos atque
+                    alios humanitatis soteres. Magni siquidem plerumque interest, ut ii non solum
+                    docte prudenterque cogitare, sed et libere praesentique animo dicere valeant.
+                    Revocate, quaeso, in mentem non paucos viros, qui, licet scientiarum ornamenta
+                    morumque integritatem possideant, in publicis tamen, sive ecclesiasticis sive
+                    politicis officiis vel ideo solum occupari minime possunt, quod metuant umbram:
+                    eisque sycophantas illos exadversum opponite, qui, quod verba vendere fucosasque
+                    merces suas expedire noverunt, doctorum altorumque famam generatim sic auferunt,
+                    ut pauci, quibus datum est in rerum naturam intrare, universalem fascinationem
+                    istam eludant. Ex qua duplici observatione quisque vestrum id sane concludet,
+                    probe quidem, at publice simul instituendam esse juventam. Assuescat ergo jam a
+                    tenero puer, ut Quintilianus ait Rolliniusque <pb n="6"/>confirmat, non
+                    reformidare homines neque illa solitaria et veluti umbratili vita pallescere.
+                    Excitanda mens et attollenda semper est, quae in hujusmodi secretis aut
+                    languescit et quemdam velut in opaco situm ducit aut contra intumescit inani
+                    persuasione. Necesse est enim sibi nimum tribuat, qui se nemini comparat.
+                    Maximum deinde, quod ex publica institutione oritur emolumentum, ejusque ita
+                    proprium, ut ab institutione privata exspectari minime queat, in mutua puerorum
+                    aemulatione positum est. Fit enimvero, ut pueri animadvertentes unum modo
+                    laudari a Magistro scholaeque primoribus allegi, modo alterum corripi, inter
+                    infimos projici fusteque interdum pectitari, scholas praeterea saepe a Studiorum
+                    Praefecto ac quandoque a publicis etiam earundem moderatoribus invisi, deque
+                    discipulorum agendi ratione palam ab iisdem inquiri eorumque alterum in ore
+                    laudari, in alterum autem pro merito animadverti, praemia tandem meritasque
+                    laudes ad finem anni solertioribus publice tribui ipsorumque nomina itidem
+                    recitari typisque committi, fit, inquam, ut pueri haec animadvertentes (omnia
+                    siquidem perquam curiosissime animadvertunt) ad virtutem nimium quantum
+                    inflammentur. In ipsis namque condiscipulorum vitiis observant, quae illos ipsos
+                    fugere oporteat, atque adeo delectet, in virtutibus autem turpe ducunt cedere
+                    pari, pulchrum superasse majores. Et licet ipsa vitium sit ambitio, ut
+                    Quintilianus advertit, frequenter tamen, ut is ipse testatur, causa virtutum
+                    est. Quod jure quadantenus <pb n="7"/>ab eo affirmari nemo unus vestrum
+                    diffitebitur, qui amoris proprii naturam non a morosis quibusdam asceticis, ut
+                    ajunt, scriptoribus, sed ab ipsa generis humani conditione rite desumere ac
+                    moderare didicerit. Idque praeclarissimos viros Antonium Mariam Salvinium in
+                    academicis orationibus, in Morali autem Philosophoia Ludovicum Antonium
+                    Muratorium egregie jam tradidisse juxta mecum vos scire non dubito. Quid multis
+                    opus? Ut auditorum multitudo erigit oratoris animum stimulatque vehementer,
+                    dejicit autem parcitas atque enervat, ita discipulorum copia ingenii aciem
+                    magistris ipsis exacuit stimulosque accurate docendi adjungit, inopia vero
+                    torporem quemdam sensim eisdem insinuat. Unde fit tandem, ut discipulorum
+                    ingenia in publica quidem institutione naviter exerceantur atque in dies
+                    promptiora evadant, incultu vero socordiaque in privata torpescant. Nam ut
+                    fervens oratio plurimum valet ad excitandos movendosque auditorum animos, ita
+                    pigra segnisque fastidium movet somnumque conciliat. <quote>Tantum
+                        abfuit</quote>, inquiebat Tullius Callidium frigidum oratorem alloquens,
+                        <quote>ut inflammares nostros animos: somnum isto loco vix
+                    tenebamus.</quote> Cum itaque ex hactenus dictis luculentissime pateat longe
+                    majorem pueros ex publica quam ex privata institutione fructum colligere, hinc
+                    quilibet vestrum huic illam anteponendam esse mecum indubitanter putabit. At
+                    enim quaeret aliquis majorem quoque in scholis quam domi timendam esse morum
+                    corruptionem. Unde protinus inferet pueros, quoniam potior de <pb n="8"/>
+                    honestate morum quam de profectu in literis habenda est ratio, a scholis
+                    publicis, quantum fieri potest, removendos esse. Fateor hoc unum, quod alicuius
+                    quidem momenti sit, contra publicam puerorum institutionem objici posse. Nullus
+                    tamen dubito, quin possit usque adeo resolvi, ut non modo pro nihilo habendum
+                    sit, verum etiam in publicae institutionis favorem cedere queat. Vobis itaque
+                    primo, sapientissimi auditores, hoc problema a Quintiliano Rollinioque versatum
+                    dissolvendum propono, dicendumne sit pueros morum corruptelam e scholis
+                    exportare, an magis affirmandum pueros morum depravationem ad scholas afferre.
+                    Ad me quod attinet, plurimum vereor, ne ii ipsi pueri, quos coecus amor velut
+                    innoxios parentum oculis effingit, in scholas frequenter importent lascivientis
+                    plerunque famulitii scandala, imprudentissimas mutuasque parentum suaviationes,
+                    platonicum... Quid refert investigare, ita me forte quidam interpellabunt
+                    parentes, num pueri morum corrupteam ad scholas afferant, an e scholas
+                    accipiant? Id nostra maxime interest, ne innocentes filii nostri contaminentur a
+                    male moratis pueris, qui scholas indubitate frequentant, sive istiusmodi antea
+                    fuerint, sive tales ibidem evaserint. Diespiter ego, quod ad nostros filios
+                    attinet, scholas publicas perduit. Bona verba, quaeso. Motum animi tantillum
+                    sedate meque idem negotium insistentem tranquille rursus audite. Erant saeculo
+                    Ecclesiae quarto in Cappadocia familae duae genere, opibus ac pietate illustres,
+                        <pb n="9"/>ex quarum altera prodiit Basilius Magnus, ex altera vero
+                    Gregorius Nazianzenus, pueri ambo forma decori, praecellentes ingenio morumque
+                    urbanitate suaves. Juxta vos ergo pueri nulli excogitari poterunt, in quibus
+                    magis quam in Gregorio et Basilio ea omnia conspirent, quae parentibus suadeant,
+                    ne filios suos publicae institutioni concredant. Nam generis nobilitas vetabat,
+                    ne discipulorum turbae admiscerentur, divitiarum opulentia excellentes iisdem
+                    parabat magistros, a quibus literas omnes patriis in aedibus edocerentur,
+                    parentum denique pietas et filiorum qualitates maxime interdicebant, ne morum
+                    corruptioni objicerentur. Esto: filii vestri hisce dotibus praediti sint. An
+                    publicae institutioni erudiendos committeretis? Absit. Itane tamen de Gregorio
+                    et Basilio factum putatis? Nihil minus. Sed infantia vix exacta Caesaream
+                    primum, tum Constantinopolim alter, alter Alexandriam, ambo demum Athenas, Urbes
+                    amplissimas atque a paternis aedibus longissime distantes, Haereticis praeterea,
+                    Gentilibus vitiorumque incitamentis faecundas missi fuere, ac non eo quidem
+                    consilio, ut sub aliquo pio doctoque viro privatim instituerentur, sed ut
+                    erudirentur in scholis publicis, quas insuper Ethnici Professores quoque
+                    regebant. Quid vultis amplius, aut quid reponetis ad ista? Publicasne scholas
+                    etiamnum criminabimini? Quid tum vero, si millena hujusmodi exempla vobis
+                    enarrem? Quamplurimi enim e Sanctis Ecclesiae Patribus aliisque piissmis viris
+                    jam inde ab initio nascentis Ecclesiae ad nostram usque <pb n="10"/>aetatem ad
+                    hunc modum instituti fuere. Verumtamen, quoniam humanissimi Principis patientia
+                    abrumpenda non est, id solum ad eorum, quae dixi, confirmationem adjiciam, morum
+                    scilicet integritatem aut depravationem ab educatione, quae pueris a teneris
+                    unguiculis adhibetur, maxime pendere. Haec autem exemplis magis continetur quam
+                    documentis. Pueri enim, cum tenera sunt praesertim aetate, non ut homines
+                    ratione pollentes, quemadmodum Aristoteles initio Moralium observat, sed ut
+                    quaedam veluti automata ab externis objectis ferme tantum acta considerandi
+                    sunt. Unde fit, ut, quandiu prava morum exempla in eorundem sensus agunt, omnia
+                    quantumvis efficacissima christianae institutionis documenta futura sint verba
+                    data in ventos. Si a pueris ergo, cum ea maxime sunt aetate, quam vitae
+                    quodammodo vestibulum totamque annorum consequentium quasi formam quamdam et
+                    aedificationem politissimus Cardinalis Sadoletus in suo de Liberis recte
+                    instituendis libro appellat, singula vitiorum incitamenta perquam diligentissime
+                    removeantur christianaque subinde institutione rite informentur, adolescentes
+                    bene moratos nusquam gentium desideres; sin secus, improbos ubivis reperias
+                    necesse est: eumque vitae habitum ad senectam usque tenebunt, quo se in
+                    adolescentia induerunt, Spiritu Sancto id verbis hisce attestante:
+                        <quote>Adolescens juxta viam suam, etiam cum senuerit, non recedet ab
+                        ea.</quote> Unde factum est etiam, ut Basilius Magnus et Gregorius
+                    Nazianzenus, quod domi ab infantibus ad christianam pietatem <pb n="11"/>probe
+                    seduloque educati sunt, viri non solum doctrina illustres, verum etiam
+                    sanctitate insignes evaserint, licet prima aetate vix completa iis in scholis
+                    eisque in civitatibus, quas paullo ante memoravi, artium liberalium studio
+                    vacaverint. Adeo in teneris consuescere multum est. Quicunque igitur ea, quae in
+                    publicae institutionis favorem usque adhuc strictim disserui, attente
+                    consideravit, praetereaque animadvertit difficillimum esse hac nostra potissimum
+                    aetate egregios morum simul et artium invenire magistros, faciliusque contingere
+                    posse, ut a suo pueros literis moribusque instituendi officio discedant, qui
+                    privatim, quam qui publice docent, quod ii nempe a Semidoctis plerunque
+                    improvidisque parentibus assumantur, hi vero a prudentissimis Scholarum
+                    moderatoribus summa deligantur sapientia, Studiorumque Praefectis obnoxii sint,
+                    qui haec omnia, inquam, rite seduloque perpenderit, non modo publicam amplius
+                    non vituperabit institutionem, sed in primis quidem pueros christianum in morem
+                    ab infantia educandos putabit, hoc ipsum vero publice illos erudiendi institutum
+                    jam inde ab imperiorum exordio sapienter conceptum et ad nostra usque tempora,
+                    ipsa etiam ab incunabulis Ecclesia probante ubique locorum solicite perpetuoque
+                    servatum laudibus subinde attollet falsisque judiciis a mente procul amandatis
+                    privatae institutione anteponendum incunctanter decernet.</p>
+            </div>
+            <pb n="12"/>
+            <div>
+                <head>II.</head>
+                <p>Hisce veluti fundamenti loco positis ad alterum orationis membrum, quaenam
+                    scilicet publica puerorum institutio recta dicenda sit, perspicue breviterque
+                    aperiendum accedo. Quae res quanti sit momenti, nemo non videt. Nam ut multum
+                    quidem refert infirmo periclitanti Medicum advocare, plurimum vero aptam eidem
+                    medicinam praebere, ita magni quidem ponderis est pueros infirmum animum
+                    gerentes in Scholis publicis educare, at eosdem recte ibidem salubriterque
+                    instituere multo maximum esse luce clarius constat. Equidem video amplam valde
+                    materiam se hic mihi exhibere narrandam, quam si plenius tractare vellem, nimis
+                    multam orationem contra propositum meum haberem, Disserendum enim esset primo de
+                    singulis Studiorum classibus, quae plures sunt maximeque diversae: tum de iis
+                    optimae institutionis regulis disputandum foret, quae illo potissimum tendunt,
+                    ut pueri studium amicis oculis aspiciant moresque ad sinceram honestatem
+                    christianamque pietatem non in speciem, sed ex corde componant. Ne itaque a
+                    proposito declinem, ad tertium orationis caput priora transponam, ubi
+                    opportunius, quoad ea, quae majoris sunt momenti, enucleabantur; Magistrorum
+                    autem fidei Studiorumque Praefectis posteriora committam, quos optimis hanc in
+                    rem editis libris instructos esse indubitatum teneo, <pb n="13"/>veluti Carolo
+                    Rollinio, Joanne Lockio* <note place="foot">* Mirabuntur forte nonnulli, quod
+                        hac in altera orationis parte honestam Joannis Lockii mentionem faciam,
+                        ejusdem autem auctoritatem in parte priore neglexerim, licet eorum
+                        Sententiam impugnet, qui publicam puerorum institutionem privatae
+                        anteponendam esse affirmant. Ipsorum tamen admirationem tum cessaturam
+                        existimo, cum animadverterint, quod, ut difficillimum est misellum adeo
+                        Scriptorem deprehendere, cujus omnia plane dicta sint improbanda, ita non
+                        exigui operis esse videatur auctorem sic praecellentem reperire, cujus omnes
+                        prorsus opiniones universis arrideant. Joannes Lockius in suo de puerorum
+                        educatione opere multa sane praeclare scripsit, ac de iis praesertim, quae
+                        ad Studii amorem pueris conciliandum eorumque mores ad naturalem honestatem
+                        componendos attinent: idque in causa fuit, ut ejusdem hic honeste meminerim.
+                        Nonnulla tamen ipso libro suo complectitur, in quibus apud alios quidem
+                        gratiam, apud alios autem offensionem habet: unde a non paucis cum
+                        exceptione laudatur. Huc mea quidem opinione illa sunt referenda, quae
+                        contra publicam puerorum institutionem, quae immanium praeteriti saeculi
+                        magistrorum erat in manu, protulit in medium, quaeque ad morum corruptelam
+                        ex depravatorum puerorum quisquiliis, ut ajebat, manantem in summa
+                        referuntur. Non erat propterea necesse, ut Lockii auctoritatem ibi mihi
+                        expresse objicerem, sed satis esse putavi summam argumentorum, quae ipsi
+                        aliisque communia sunt, afferre atque diluere, suppresso celebris hujus
+                        auctoris nomine. Si namque ipsum nominatim quoque citassem, <pb n="14"/>non
+                        modo vim nullam orationi adjunxissem, verum, contra quam oportebat, eandem
+                        plurimum attenuassem, quoniam Lockii nomen atque auctoritas auditorum animos
+                        ita commovisset, ut, dissolutis etiam ipsius argumentis, opinionem mente
+                        conceptam aegerrime admodum abjicerent. Vetant insuper artis oratoriae leges
+                        eas attingere oppositiones, quas diluere victrici refutatione nequeamus.
+                        Contra quas leges nonnulli ex iis etiam graviter delinquunt, qui maximi
+                        ponderis ac momenti controversias Scholastica quidem ratione pertractant,
+                        sed oratoriae tamen institutionis haud sunt imperiti. Nam Franciscus Lami,
+                        exempli gratia, celebris ex Sancti Benedicti Ordine Scriptor, licet in
+                        Rhetorica se multum versatum ex iis ostenderit, quae contra Balthassarem
+                        Gibertum nobilissimum artis oratoriae Professorem scriptoremque multo ardore
+                        vulgavit, is tamen in opere suo contra Spinozam, quod <quote>Novus Atheismus
+                            eversus</quote> inscripsit, quae hujus impii argumenta luculenter ipse
+                        exposuit, infeliciter adeo refellit, ut non jam Atheos evertere, sed
+                        confirmare potius videatur. Historiae quoque literariae Studiosi haud
+                        ignorant, quantum poenarum simillimam ob causam pertulit scriptor illustris
+                        Antonius Genuensis, cum suam Metaphysicam edidit. A quo ipso vitio in
+                        Christianae Theologiae elementis, quae ipsius nomen in fronte gerunt, non
+                        multum abhorruisse haud satis certe dolendum. Gravissimas enim quandoque
+                        sibi difficultates in iis opponit, quas deinde vel in medio prorsus
+                        relinquit vel lubrice aut praepostere solvit. Nam Lib. I. cap. V. exempli
+                        causa, <quote>in quo eorum argumentis <pb n="15"/>veteris testamenti
+                            auctoritatem aut evertere aut elevare conantur</quote>, tribus ejusmodi
+                        argumentorum classibus positis, postremum secundae classis argumentum sine
+                        ullo plane responso relinquit; tertium vero classis tertiae, quod sibi
+                        verbis hisce opposuerat: <quote>III. Genes. 46. v. 26. Cunctae animae, quae
+                            ingressae sunt cum Jacob in Aegyptum, fuere sexaginta sex. At Stephanus
+                            Act. 7. v. 14. numerat septuaginta quinque</quote>: hoc, inquam,
+                        argumentum ad hunc modum resolvit: <quote>Ad tertium, narrationem
+                            interpolavit Stephanus, ut perspecte Melchior Canus: Sed Stephanus
+                            spiritu Dei non loquebatur: Lucas vero retulit, quae Stephanus dixerat,
+                            etiamsi minus vera.</quote> Quo uno responso triplicem gravem admodum
+                        culpam Genuensis admittit. Nam primo in Melchiorem Canum, qui alia prorsus
+                        ratione argumentum diluit, ampliter mentitur: tum Sanctum Stephanum, quem
+                        Sanctus Lucas Act. cap. VI. et VII. <quote>virum plenum Spiritu
+                            Sancto</quote> appellat, conviciis proscindit: divinamque postremo
+                        Sacrarum Scripturarum auctoritatem vacillantem intolerantissime reddit. Quae
+                        omnia vitare facillime poterat, si respondisset numerum animarum, quae in
+                        Aegyptum cum Jacob ingressae dicuntur, pro varietate Scripturae sacrae
+                        textuum non ideo discrepare, quod absolute incertus sit, sed quod earundem
+                        animarum nonnullae ab uno textu recenseantur, ab alio non item. Nam Textus
+                        hebraeus, cum eoque Vulgata editio Genes. cap. 46. v. 26. ajunt fuisse illas
+                        sexaginta sex tantummodo, quoniam eo numero non comprehenduntur Jacob et
+                        Joseph hujusque duo filii Manasses et Ephraim: at vero proxime sequenti
+                        ejusdem capitis versiculo Septuaginta ideo fuisse affirmant, quoniam hae
+                        quatuor versiculo antecedenti <pb n="16"/>omissae hic numerantur.
+                        Septuaginta porro Interpretes antedicto septuagenario animarum numero alias
+                        quinque insuper adjiciunt, tres scilicet nepotes duosque pronepotes Josephi:
+                        unde factum est, ut Septuaginta quinque ab iisdem fuisse dicantur. Nihil est
+                        autem tam certum et constans quam Hellenistas sive Judaeos in Graeciae
+                        provinciis degentes graeca Septuaginta Interpretum, ut ajunt, Versione tam
+                        privatim quam etiam in Synagogis usos fuisse. Quin adeo celebris erat et
+                        pervulgata Versio haec Apostolorum tempore, ut ipsi Evangelistae caeterique
+                        Novi testamenti Scriptores ex ea ipsa veteris foederis testimonia citaverint
+                        atque in novum transtulerint. Nihil est igitur, quod miremur Sanctum
+                        Stephanum ex Hellenistis delectum et cum Hellenistis disputantem, prout ex
+                        Act. cap. VI. et VII. apparet, juxta eandem Septuaginta Interpretum
+                        Versionem affirmasse <quote>omnem Josephi cognationem animabus septuaginta
+                            quinque</quote> constitisse. Id potius summe demirandum Antonium
+                        Genuensem, cum praedictum argumentum perversa ratione illa solvere ausus
+                        est, usque adeo dormitasse, ut haec non animadverterit, praesertim cum ille
+                        ipse Lib. I. cap. I. §. 9. scripsisset non modo Judaeos Hellenistas omnesque
+                        Graecos Patres, sed et Apostolos ipsos una Septuaginta Interpretum versione
+                        usos fuisse: ipseque praeterea Melchior Canus, ad quem fallaciter appellat,
+                        ea sola ratione, quam breviter attigimus, illud ipsum argumentum diluerit.
+                        Sed de his satis. Eo igitur denuo regredior, unde diverti, et dico: si
+                        celebris Lockii auctoritatem nomenque in primo orationis membro mihi
+                        objectassem, absurde nimis et contra oratoriae artis naturam proposito meo
+                        nocuissem; proptereaque summam ejusdem argumentorum mihi tantum opponere
+                        subindeque diluere satius esse putavi.</note>, Carolo Gobineto,
+                    praetermissis innumeris, idque unum hoc temporis agam, <pb n="14"/>ut
+                    demonstrem rectae institutionis summam in eo reponendam esse, ut Studia omnia,
+                    quoniam arcta quadam cognatione inter <pb n="15"/>se continentur, ita sint
+                    invicem connexa sibique mutuo respondeant, ut unum alteri viam ad amussim deque
+                    industria <pb n="16"/>complanet. Ita enim fiet aedepol, ut pueri mediocris
+                    etiam ingenii, dummodo ad ejusmodi studia diligentiam conferant <pb n="17"/>
+                    eorumque cursum absolute impleant, magnum inde fructum reportent, omni vero
+                    scientia perfecti evadant, qui fuerint ingenio ferventes. Enimvero qui studii
+                    unius rudimenta hic quidem sub uno ponunt magistro, alterius vero alibi sub
+                    altero, trioboli doctores suis in officis perpetuo claudicantes evadunt. Nam et
+                    Studia, quibus dant operam, superficie tenus percurrunt, et cum ex uno in
+                    alterum transeunt, praecedens cognationis defectu velut ignorant et more denique
+                    pessimo unum modo, modo alterum studium prorsus omittunt, ut ex ambito et
+                    qualitercunque tractando officio aliquo calamitosis rationibus suis, quam citius
+                    fieri potest, provideant. Unde fit tandem, ut tota horum infelicium puerorum
+                    institutio purum putumque isteron proteron dicenda sit; ipsi vero eorumque
+                    institutores, qui plerunque semidocti sunt, parum saepe bene morati aliisque
+                    distenti negotiis, proprie sint appellandi generis humani flagellum. Inde namque
+                    prodeunt et Notarii lites innumeras prae inscitia creantes et Advocati causas
+                    diutius ac in multos annos maximo familiarum incommodo protrahentes et Judices
+                    inter litigantes jus perverse dicentes et Medici infelicium hominum cadaveribus
+                    coemeteria praemature onerantes et illiterati denique, ut deteriora sileam,
+                    improbique Sacerdotes, genus omne malorum. Possunt inordinata istiusmodi studia,
+                    quae penitus exterminanda forent, rusticanis quibusdam domibus haud prorsus
+                    inepte conferri. Considerastisne unquam, doctissimi auditores, locupletium
+                    quorumdam agricolarum multam <pb n="18"/>familiam habentium satis amplas aedes?
+                    Si vel parum ordinis et architectonices amantes estis, risum profecto, ne dicam
+                    bilem, vobis permoverint. Earum siquidem tecta sunt partim alta, partim vero
+                    praeter modum humilia; horumque suggrundia hinc multum prominent, istinc autem
+                    parum adeo exstant, ut stillicidia muros decorticent. Singula parietum latera,
+                    ne ipsa quidem fronte excepta, eminent una in parte, in altera vero se
+                    retrahunt; hic concava sunt, illic gibbosa, nullibi ad libellam composita. Quid
+                    de ipsarum fenestris enarrem? Sive lapidum sive structurae sive altitudinis ac
+                    latitudinis etiam sive denique ordinis rationem habeas, nullae aut ferme nullae
+                    sibi respondent, ut chimaerae, non hominis opus fuisse dixeris. Earundem
+                    tabulata sunt adeo inaequalia, ut tibi cameram unam intrare festinanti per duos
+                    tresve gradus ascendendum sit, proptereaque ad superliminare vehementer
+                    impingendum caput cervicesque fragendae; alteram vero ingredi volenti per tot
+                    similiter inopinato descendendum, ob idque in caput volvendum, susque deque
+                    abeundum, suffringendaque ideo crura vel intereundum fracto collo. In summa
+                    nihil ordinis, elegantiae prorsus nihil, nihil aut parum certe commodi ibi
+                    deprehendas. Scalae praecipites earumque gradus omnes contracti, dispares
+                    singuli: angusta et inquinata usque adeo cubicula, ut prae aeris crassitudine
+                    respirationem elidant retroque praecipitatentem foetorem undique spirent: ita
+                    depressae hiantesque contignationes, ut summis digitis illas contingas foedusque
+                    pulvis, quem luxuriantes <pb n="19"/>desuper sorices inde projiciunt, reboantia
+                    stertentium rusticorum ora infarciat: pavimenta sic hinc inde discissa, ut lento
+                    gradu incedendum sit, ne tali ad singulos passus luxentur: praesepia hircum
+                    olentia ac ita praepostere locata, ut omnem contagio vicinitatem inficiant.
+                    Omnia tandem sordida, inconcinna, molesta, nauseae plena. Quid ita? Quia plures
+                    nempe fuerunt opifices non solum architectura parum instructi, verum etiam a se
+                    invicem ita sejuncti, ut nemo eorum alterius cogitationes assequi curaverit, sed
+                    ad privatas tantummodo angustasque ideas suas infeliciter complendas singuli
+                    attenderint. Unde non potuit non fieri, quin ex tot misellis aedificatiunculis
+                    aedes prodierint monstruosum istiusmodi centonem repraesentantes. Ad puerorum
+                    modo institutionem, sapientissimi auditores, quae dixi, accomodate majorisque
+                    perspicuitatis gratia magnificum palatium aliquod a peritissimo Architecto
+                    delineatum, ad ejusque archetypum studiose constructum, numerisque omnibus
+                    absolutum concipite, ac mecum omnes una mente et voce consentietis eam solummodo
+                    puerorum institutionem rectam dicendam esse, in qua singulae Studiorum classes
+                    ita sunt invicem inter se colligatae mutuoque respondentes, ut unaquaeque
+                    ipsarum viam alteri data opera ita exaequet, ut rem res consequatur et
+                    conveniant posteriora prioribus. Nam si omnibus certe in rebus tam magnis quam
+                    minimis etiam summa adeo vis ordinis est, ut familiarum, civitatum, regnorum
+                    coelique ipsius totiusque mundi status atque felicitas prorsus <pb n="20"/>ab
+                    ordine pendeat nullaque omnino sine ordine res queat firma stabilisque
+                    consistere, non potest profecto non hinc necessario concludi in ordine quoque
+                    Studiorum cardinem verti.</p>
+            </div>
+            <div>
+                <head>III.</head>
+                <p>Te itaque Principem Celsissimum ter felicem voluptate gestiens appello, quod
+                    Superis tandem bene faventibus eo perveneris, ut, quanquam consilium pro tempore
+                    ac re Tibi capere oportuerit, hujus tamen Civitatis et Dioecesis Tuae Studia eum
+                    in ordinem adducere valueris, qui maxime necessarius est, ut literis operam
+                    dantium institutio recte comparata dici jure optimo queat. Quanta et quam maxima
+                    in amplissimam fortunatamque Dioecesin Tuam hinc derivanda emolumenta prospicio!
+                    Tanta profecto sunt, ut, si eis singillatim enarrandis incumbere vellem, dies,
+                    vox, latera me prius deficerent, quam finem loquendi facerem. Talia vero, ut
+                    iisdem pro merito exponendis oratorem longe omnium disertissimum necessarium
+                    esse intelligam. Quanquam vero id admodum majus esse cognoscam, quam a me
+                    postulandum sit, suavissimus tamen aspectus Tuus me ad quosdam eorundem
+                    flosculos hinc et illinc delibandos vehementer incendit. Dicam itaque primo,
+                    quae sint exspectandae utilitates ex Grammaticae tradendae ratione, quam non
+                    sine considerando <pb n="21"/>Seminarii Tui proventuum coeteroquin angustorum
+                    dispendio lubens constituisti, ut subditarum Tibi gentium bono commodisque
+                    prospiceres. Conduplicasti namque artis hujus magistros et voluisti, ut, qui
+                    latinae linguae praecepta Italis exponere debent, Itali sint, et qui Germanis,
+                    Germani: ac praeterea, ut non latinam modo, sed et patriam linguam ex artis
+                    legibus tradere satagant. Indecorum forte quis vestrum existimat, ut Princeps et
+                    Praesul rei se Grammaticorum immisceat? Siqui fortasse habeantur, qui sic
+                    opinentur, inconveniens quoque iidem pronuncient, si tamen fieri potest, ut
+                    prudens Architectus aedificii fundamenta procuret. Quantum porro emolumenti ex
+                    hac Grammaticae tradendae ratione manandum arbitramini ? Plurimum certe. Nam
+                    quum ante consuetudo ferret, ut, quoniam celebris haec vetustaque Civitas in
+                    Germaniae Italiaeque confiniis posita est, ideoque Nationis utriusque pueri huc
+                    ad Studia confluant, quum ferret consuetudo, inquam, ut singuli per singulas
+                    classes magistri Italos pariter atque Germanos docerent temporisque fere
+                    dimidium, quod hisce institutionibus tradendum est, earundem auditores propterea
+                    deperderent, lugenda haec temporis jactura ab hinc profecto cessabit. Singuli
+                    praeterea Magistri, utpote linguam patriam probe callentes, suae quoque nationis
+                    discipulos rectius tutiusque docebunt. Vestros deinde filios, nobilissimi cives,
+                    si ab infantibus germanicam linguam vel inconcinniter eloqui, quod commode
+                    facere potestis, curaveritis, illam <pb n="22"/>ipsam deinde rebus vestris
+                    feliciter promovendis admodum necessariam hisce in Scholis rite ac sine impensa
+                    perdiscere valebunt. Postrema demum utilitas, quam magni ponderis esse cordatus
+                    quisque dabit, in eo reponenda est, quod non latinam modo, sed et patriam
+                    linguam ad artis normam tradere praeceptum fuerit. Hinc fiet enimvero, ut
+                    germanam linguam Germani, Itali autem italicam ad suae quique nationis
+                    grammaticen, prout amor decusque patriae postulat, eloqui et intelligere
+                    accurate perdiscant. Maxime namque pudendum est curasse parentes, ut filii sui
+                    multos annos linguae latinae utut quoque addiscendae acriter insumerent, patrium
+                    vero sermonem iisdem rite tradi usque adeo neglexisse, ut neque optimos libros
+                    hoc ipso nativo sermone suo conscriptos recte intelligere neque orationem ad
+                    populum habere, quin nec familiarem epistolam supplicemve libellum, imo ne
+                    apocham quidem nisi barbarismis ac soloecismis etiam redundantem scribere
+                    valeant. Ut silentio praeteream istiusmodi scriptionum verba sententiasque a
+                    vertice ad talos praepostere adeo et ambigue frequentissime poni, ut nec caput
+                    nec pes sermonis appareat ipsique rustici homines mentem persaepe suam nativa
+                    quadam simplicitate clarius apertiusque depromant scriptoque sua manu exarato
+                    declarent, quam plures ex iis, qui Alvari impalluere Grammaticae. De politiori
+                    autem Humanitate quidnam? Cum haec illa sit classis, in qua verborum, dictionum,
+                    poeticarumque elevationum vis et natura ponderatur atque percipitur, <pb n="23"/>quaeque propterea summam linguae studio manum imponit Studentiumque ingenia
+                    evolvit et explicat, idcirco voluisti, ut ejusdem auditores ad perfectam
+                    utriusque Sermonis, patrii scilicet atque latini intelligentiam, qua carmine,
+                    qua soluta oratione in ea ipsa extollantur. Quid vero de Rhetorices arte
+                    dicendum, quae diu squallida cum jacuisset, hac nostra aetate viri doctissimi
+                    Josephi Mariae Platinae ejusque percelebris auditoris Joannis Angeli Serrae
+                    laboribus maxime reflorescere tentat? Sanxisti, facundissime Praesul, ut divinae
+                    hujus artis vis atque natura sit reponenda praecise in dicendo juxta leges
+                    triplicis oratorii status, prout Cicero ejusdem facile princeps saepenumero
+                    tradit. Id namque duntaxat ad persuadendum flectendumque auditorum animos valet:
+                        <quote>in quo uno vis omnis oratoris est</quote>, ut Tullius ipse conceptis
+                    verbis affirmat. Qui enim cum Longini Demetriique Phalerei sectatoribus ajunt
+                    principem oratoris curam esse debere verborum, nimium oh quantum a germana
+                    Rhetorices notione secedunt! Illi enimvero, qui toti sunt in oratorio ornatu
+                    tempusque in verborum, sententiarum similiumque ornamentorum lepore consumunt,
+                    venustulos quidem literatores demulcent, nemini tamen, quod tractant, absolute
+                    persuadent. <quote>Ex rerum siquidem cognitione efflorescat et redundet oportet
+                        oratio, quae nisi subest, res ab oratore percepta et cognita inanem quamdam
+                        habet elocutionem ac pene puerilem</quote>, ut Tullius in suis de Rhetorica
+                    operibus frequentissime inculcat. Quapropter literarum amantes ac maxime
+                    Clericos <pb n="24"/>graviter hortari suaviterque allicere prudentissime
+                    deliberasti, ut in artem oratoriam tum solum incumbant, cum studia, quae
+                    uniuscujusque conditionem decent, absolverint. Nam tunc solummodo, cum materiam
+                    ad artis leges digerendam in promptu habeant, vere idonei existimandi sunt, ut
+                    praeclarissimum dicendi artificium rite perdiscant actuque perficiant. Cujus
+                    quidem deliberationis Tuae quanta futura sit quantique facienda utilitas, dici
+                    vix potest. Haec una siquidem ex omnibus efficere valet, ut divini verbi
+                    praecones, animarum curatores causarumque patroni, unde temporalis aeternaque
+                    hominum felicitas maxime pendet, gravissimo officio suo probe utiliterque
+                    fungantur. Ad Philosophiam quod attinet, tria maxime mihi commemoranda esse
+                    video. Primum eorum est, quod philosophandi quidem libertatem Peripateticorum
+                    terriculamenta funditus evertentem concesseris, at ita tamen, ut, quoniam ipsa
+                    nonnullis plus justo pretiosa evadit, ad absolutissimi <quote>De ingeniorum
+                        moderatione</quote> operis leges eandem temperandam esse praeceperis.
+                    Alterum vero, quod Philosophiam quoque Moralem tradi volueris: id enim antea,
+                    nescio quo pacto, non erat in more positum. Tecum itaque in animo
+                        considerans <quote>omnem</quote> quidem <quote>Philosophiae summam ad beate
+                        vivendum</quote>, ut Cicero ajebat, <quote>referri</quote>, sed id a Morali
+                    Philosophia maxime praestari animadvertens sapientissime idcirco mandasti, ut
+                    morum ad rectae rationis normam componendorum plurimi aestimandam artem a
+                    Socrate Graecorum sapientissimo primum ex professo excultam <pb n="25"/>
+                    universos Philosophiae auditores Lyceum Tuum doceret. Quae ipsa praescriptio Tua
+                    id eximii praeterea complectitur, ut, quae de hominum actionibus officiisque in
+                    Ethica tradenda sunt, non ad incerta et sterilia vulgarium Scholasticorum
+                    placita, sed ad indubia juris naturae principia optimis emolumentis
+                    foecundissima perpendi statueris. Tertium postremo id est, quod elementa
+                    Matheseos, eaque non jam perfunctorie, sed ex instituto Philosophiae
+                    praelectionibus adjungenda esse decreveris. Qua in re sapientiamne tuam an
+                    utilitatis praestantiam magis admirer, prorsus ignoro. Mathematica siquidem
+                    elementa non ad solam Physicen, ut minuti quidam Philosophi arbitrantur, sed ad
+                    omnem prorsus sive humanam sive divinam quoque scientiam rite percipiendam
+                    mentem aptissimam reddunt, adeo ut inter omnes Dialecticas longe praestent: quin
+                    etiam ad omnem vitae humanae usum plurimum valent. Elementa porro dixisti, non
+                    autem tractationem plenissimam. Scite namque novisti, quod <quote>mathematica
+                        elementa</quote>, ut Clarissimus Mabillonius in celebri de Studiis
+                    Monasticis opere monuit, <quote>Studiosis quidem prosint, sed si semel bis
+                        immersus fuerit animus, vix unquam ad spiritualia assurgere valent.</quote>
+                    Qui enim se penitus in mathematicas disciplinas immergunt, eam sibi argumentandi
+                    rationem, quae summam in omni re perspicuitatem absolute requirit, familiarem
+                    adeo reddunt, ut caetera, quae hujusmodi evidentiam non exhibent, plane
+                    despiciant. Unde fit, ut, quoniam christianae religionis mysteria, licet aliunde
+                    prorsus indubia evincantur, <pb n="26"/>ejus tamen generis evidentiam non
+                    admittunt, delicatissimum propterea istiusmodi Mathematicorum gustum terrenae
+                    coelestisque Sapientiae discrimina haud satis annotantem offendant. Leviter ita
+                    velutque in transitu iis tractatis, quae profana Studia respiciunt, ea modo,
+                    quae viros ecclesiasticos maxime decent, spectabo, Jus Canonicum scilicet,
+                    Theologiam Moralem atque Dogmaticam: quae ut rite tractentur et excolantur, Tibi
+                    utpote Sacerdoti Magno sunt plurimum cordi. Facto itaque initio ex Jure Canonico
+                    solicite in mandatis dedisti, ut in statuenda ejusdem natura potissimum studium
+                    ponatur. Perspexisti enim, vigilantissime Praesul, non vulgares modo Canonistas,
+                    ut Pragmaticorum vocibus utar, sed et non paucos ecclesiasticae antiquitatis
+                    peritos adeo hic coecutire, ut eorundem hallucinationes ferri minime queant. An
+                    suspicatur aliquis vestrum aut me subiratum esse Juris Canonici peritis aut
+                    falsas me fingere causas, ut moderatissimum Pastorem laudibus ornem? Ne Deus
+                    siverit. Siqui tamen sint, qui de me ita forte opinentur, ducam eis primo in
+                    argumentum Joannem Doujatium, virum ecclesiastica quidem antiquitate instructum
+                    et Jure canonico excultum, ajentem tamen <quote>Subjectum, circa quod versatur
+                        Jus canonicum, nihil aliud esse quam res ecclesiasticas, quatenus sub
+                        disceptationem cadunt.</quote> Ecquisnam, amabo vos, mentem Ecclesiae probe
+                    assecutus istam Juris canonici definitionem aequo animo ferat? Qua etenim
+                    ratione intelligi potest augustam Regis pacifici sponsam christianae disciplinae
+                        <pb n="27"/>regulas, quae Juris canonici materiam constituunt, eo
+                    potissimum consilio excogitasse, ut rerum ecclesiasticarum disceptationes, a
+                    quibus suapte natura nimium quantum abhorret, valeant ex professo tractari?
+                    Profecto qui de Juris hujus natura ita praepostere sentiunt, Isidorianam
+                    Mercaturam rerumque ad Imperium et Sacerdotium pertinentium confusionem inde
+                    magna ex parte profectam christianaeque disciplinae vim plurimum attenuantem cum
+                    sincero Ecclesiae catholicae statu nimis inconsiderate permiscent. Huc adde unum
+                    ex omnibus hoc in loco non peccasse Doujatium, sed plerosque alios pares illi
+                    sociosque fuisse. Nam multo etiam ante ipsius aetatem Sanctus Carolus
+                    Borromaeus, cujus in ecclesiastica disciplina et antiquitate subactum ingenium
+                    Ecclesiae Mediolanensis Acta satis superque testantur, Sanctus Carolus, inquam,
+                        <quote>dolebat eos tantummodo canones communi consuetudine ad interpretandum
+                        seligi</quote>, ut ejus res gestae loquuntur, <quote>qui ad lites judiciaque
+                        valerent</quote>. Quapropter ipsum sapientissime decrevisse adjungunt, ut,
+                        <quote>qui sacris canonibus declarandis praeesset, illa afferret, ex quibus
+                        sacra Majorum instituta et ritus optimumque Ecclesiae componendae et
+                        adiministrandae genus haurirentur</quote>. Ita sane de Canonico jure
+                    sentiebat Sanctus Carolus Borromaeus, ille exempli Episcopus, ille Sacerdotii
+                    decus. Tu igitur, consultissime Praesul, tanti exemplaris vestigia implens
+                    mandasti, ut, qui Jus ecclesiasticum tradituri sunt, in posterum non in solo
+                    Decretalium cortice insistant, verum in ipsis christianae disciplinae fontibus
+                    optimam Ecclesiae componendae ordinandaeque <pb n="28"/>rationem inquirant
+                    ibique animadvertant Ecclesiam in condendis Sacris canonibus id maxime prae
+                    oculis habuisse, ut per exterioris disciplinae instituta sacrarum rerum
+                    praestantia et ipsi respondens animi veneratio, qua res ipsae tractandae sunt, a
+                    nobis sensibiliter concipiatur. Quam Ecclesiae mentem cum in omnibus huc
+                    spectantibus viri ecclesiastici apprehenderint, tum quoque probe cognoscent, qua
+                    ratione quove animo tam in exteriore vivendi habitu suisque muniis obeundis quam
+                    in populo hac super re instituendo continere se debeant. Quae res quantum
+                    utilitatis redditura sit, tam perspicuum existimo, ut in eam enarrandam amplius
+                    insistere si vellem, vestra me sapientia atque humanitate abuti arbitrarer. Ad
+                    Moralem igitur Theologiam procedo. Hanc Tu, Pastor integerrime, cum sincero
+                    perenniter amore dilexeris, factus propterea forma gregis ex animo, non potuit
+                    inde non fieri, ut non ea modo praeciperes, quae ad ipsam a Casuistarum, ut
+                    ajunt, inquinamentis purgandam plurimum valent, quaeque Deo jam bene volente ita
+                    sane in posterum custodientur, ut non fallant amplius imperium Tuum, verum etiam
+                    ut ad illam evangelicae integritati penitus restituendam sedulo animadverti
+                    juberes, princeps ejusdem Professoris officium in eo collocandum esse, ut in
+                    humanarum actionum regulis exponendis id maxime perspiciat, quod interiorem
+                    sinceramque earundem bonitatem gignere valet, in eoque aperiendo nervos omnes
+                    intendat. Vulgares namque Moralis Theologiae Magistri, <pb n="29"/>ut in iis
+                    enucleandis prolixiores sunt, quae ad materialem quamdam exterioremque
+                    praeceptorum custodiam et peccata oculos perstringentia spectant, ita in iis
+                    exponendis, quae intimam eorundem praeceptorum observationem vitiaque latitantia
+                    respiciunt, adeo parciores evadunt, ut non christiani hominis institutores, sed
+                    Pharisaeorum ingentia tantummodo delicta ceu Mercatores ad plenum vendentes
+                    ponderantium instauratores esse videantur contra apertam Christi inclamantis
+                    sententiam: <quote>Pharisaee coece, munda prius, quod intus est calicis et
+                        paropsidis, ut fiat id, quod deforis est, mundum.</quote> Haec itaque
+                    praescriptio Tua, integerrime Pastor, tanti est sane putanda, ut mores
+                    christiana sinceritate dignos Tibi concreditis ovibus ipsa una restituere
+                    valeat. Magna sunt equidem singula haec beneficia Tua, Celsissime Princeps.
+                    Attamen ut ad solis ortum sidera evanescunt, ita haec ipsa Episcopalis
+                    beneficentiae Tuae munera cum Studio Theologiae Dogmaticae, quod instituere jam
+                    decrevisti, comparata prae verecundia se contegunt fugaeque se pene commendant.
+                    Regionem profecto incolimus christianae fidei integritatem, Deo gratia, adhuc
+                    servantem. Ast resonat clamoribus aether, magnas prospicimus mente procellas
+                    fidemque in extremum adduci pavemus. Nam et in ipso Ecclesiae catholicae sinu
+                    morantur homines recondita sapientiae arcana sibi unis revelata crepantes, qui
+                    generis humani e religionis vinculis eximendi praetextu sacratiora fidei dogmata
+                    inverecunde pessundant vertuntque in risum. <pb n="30"/>Quae nequissima
+                    improbitas partim quidem ex ingenti morum corruptela enascitur, maxime tamen ex
+                    effraeni licentia illa repetenda est, qua eduntur et lectitantur opuscula
+                    Ecclesiae Romanae documenta et instituta liberrime adeo carpentia, ut, nisi
+                    Episcopi Dogmaticae Theologiae Studium probe seduloque promoverint, omnia brevi
+                    susque deque ferenda et turbanda sint ac miscenda sacra profanis. Quapropter, ut
+                    dilectissimam Sponsam Tuam a gravissima calamitate ista salvam et incolumem
+                    reddas, binos Dogmaticae Theologiae Professores creare deliberasti, qui fidei
+                    catholicae dogmata pro dignitate aperiant, confirment, tueantur. Dum enim
+                    steterit fides, spes aliqua salutis effulget: fide vero excisa, jacta est alea.
+                    Jam vero et haec altera maximi facienda utilitas hinc derivabit, ut Parochi
+                    scilicet aliique curam animarum gerentes et Sacri praeterea oratores de rebus
+                    divinis ad populum pro merito dicere valeant. Nam qui solam Theologiam Moralem
+                    addidicerunt, christianae doctrinae institutiones et homilias ad populum
+                    ipsasque insuper conciones sacras miserandum adeo in modum plerunque faciunt,
+                    ut, quoniam plena rerum, quas tractant, cognitione deficiunt, inanem quamdam,
+                    prout Cicero superius laudatus ajebat, ac pene puerilem elocutionem ostentent.
+                    Exemplis enim saepe deridendis magis quam reverendis aliisque similibus ineptiis
+                    plurimum immorantur, fidei vero et sacri verbi capita, quae accuratissime
+                    tractanda forent, leviter adeo exponunt, ut nullam aut ferme nullam eorundem
+                    persuasionem <pb n="31"/>sibi auditores inducant. Unde fit, ut christianae
+                    religionis virtus enervetur magis, quam rite concipiatur, et christianus hinc
+                    populus crassa ista minerva institutus exteriorique praeterea quadam pietatis
+                    specie ludificatus Pharisaeorum more potius, quam ut germanos Christi asseclas
+                    decet, sapiat et operetur. Quae gravissima incommoda ex una Dogmaticae
+                    Theologiae ignoratione ultro dimanant. Sola enim Theologia Moralis non modo ad
+                    rerum divinarum tractatorem probe instituendum non valet, sed ne ad eam quidem
+                    fidei copiam assequendam satis putanda est, qua Paulus Apostolus ad Hebraeos
+                    scribens homini christiano ad Deum accedendum esse affirmat. Ecquis enim bardus
+                    adeo fuerit, ut Moralem Theologiam satis esse opinetur vel ad concipiendam,
+                    quantum in nobis situm est, christianae redemptionis necessitatem ac
+                    magnitudinem, quae tamen religionis nostrae fundamentum habentur? Vel ad
+                    intelligendam, quoad ejus fieri potest, duarum Christi naturarum in una Persona
+                    convenientiam, unde infinitus nobisque pernecessarius Redemptoris nostri
+                    meritorum valor emanat? Vel ad summam gratiae medicinalis efficaciam
+                    omnimodamque necessitatem satis percipiendam, quam maximo christianae
+                    humilitatis fiduciaeque dispendio cum patentes, tum latitantes Pelagii fautores,
+                    qua cuniculis, qua vi aperta exterminare summeque infensam reddere attentarunt?
+                    Vel ad intellecta consequendam naturam et praepotentem vim Sacrosancti Missae
+                    sacrificii, quod christianae plebi frequenter exponi <pb n="32"/>mandavit
+                    generalis Tridentina Synodus, qua vos tantopere ornatissimi cives universo
+                    terrarum orbi inclaruistis? Vel tandem, ut sexcenta, eaque gravissima capita
+                    sileam, ad christianae religionis veritatem per credibilitatis, ut ajunt, motiva
+                    nostris maxime temporibus perspicue revincendam, unde sincerae pietatis fervor
+                    et constantia in fide usque adeo augentur, ut hoc certe argumentum sit mihi pro
+                    centum millibus unum? Enimvero qui assereret christianum populum hisce rebus
+                    satis instructum esse non oportere, in eandem summae dementiae notam procul
+                    dubio incurreret, qua is merito afficeretur, qui Newtonianum Philosophum,
+                    exempli causa, immortalis Newtoni placita ignorare posse latraret. Praeterea...
+                    Sed est modus in rebus. Unde licet quamplures aliae magni faciendae utilitates
+                    dicendae supersint, mecum tamen considerans summae moderationis Tuae,
+                    Humanissime Princeps, vel maxime habendam esse rationem, finem loquendi faciam.
+                    Te itaque Principem Celsissimum ad vitam annis gravem et salubritate incolumem
+                    Deus Optimus Maximus perducat, ut, quam Studiorum formam instituisti, magis
+                    magisque confirmare ac laetissimos sapientiae Tuae fructus ipsissimis oculis
+                    Tuis cernere valeas: est enim magni laboris et temporis opus. Vos autem,
+                    Pontificie Senatus Patresque Conscripti, quos publicae felicitatis amore
+                    inflammatos perspicio, quin Principis Vestri consilium animo volenti unaque voce
+                    reapse juvetis, non dubito, ut Tridentino populo decorum <pb n="33"/>
+                    secundumque institutum per studia quoque vestra in dies plus plusque firmetur
+                    atque augeatur. Cunctos vos porro, doctissimi auditores, hortor atque obtestor,
+                    ut non modo vos ipsi ad unum omnes optimum Pastorem meritis prosequamini
+                    laudibus eique pro tam utilissimo instituto immortales gratias habeatis, verum
+                    etiam ut haec summa nullisque praeconiis satis praedicanda beneficia, de quibus
+                    me, quoad ejus facere potui, disputantem aequo meque vobis aeternum devinciente
+                    animo perhumaniter sustinuistis, universo populo vestrisque potissimum filiis
+                    annuntietis, ut illa ipsa cognoscat generatio altera et filii, qui nascentur et
+                    exsurgent, posteris suis enarrent. Vos tandem ornatissimos adolescentes ac vos
+                    maxime carissimos Episcopalis Seminarii alumnos et convictores, quos partim
+                    quidem fidei servandae, verbo Dei populis annuntiando animisque curandis
+                    destinatos libens meritoque prospicio, partim vero tuendae valetudini, agendis
+                    causis, artibus ingenuis tractandis, juri dicendo populisque moderandis
+                    praeficiendos non ambigo, vos, inquam, officii vestri esse commoneo, ut in
+                    obeundis muniis, quibus suo tempore addicemini, ea vos ratione geratis, ut ex
+                    praestantia doctrinae et morum integritate, quam sub validissimo Immaculatae
+                    Virginis Mariae Sanctorumque Caroli et Aloysii patrocinio vobis ab integerrimo
+                    Pontifice per Studiorum Praefectum vehementer commendato hinc vos hausturos esse
+                    pro certo pono, tanti instituta Pastoris universi plane dignoscant atque
+                    commendent. Sane hercle <pb n="34"/>Te Principem Celsissimum, Te
+                    Reverendissimum Praesulem, Te denique Pastorem sapientissimum non modo, qui
+                    impraesentiarum sunt, laudibus propterea laeta fronte gratoque animo extollent,
+                    sed et nati natorum , et qui nascentur ab illis.</p>
+                <p>Finis.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

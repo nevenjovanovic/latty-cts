@@ -10,4 +10,4 @@ A CTS version of Tyrolean Neo-Latin texts (Latinitas Tyrolensis)
 Follow the [CITE Architecture](http://cite-architecture.github.io/) and [CapiTainS Guidelines](http://capitains.github.io/pages/guidelines) to make the 90 documents in this collection cts compliant
 
 ## License
-[CC-BY]()
+[CC-BY](https://github.com/nevenjovanovic/latty-cts/blob/master/LICENSE.md)

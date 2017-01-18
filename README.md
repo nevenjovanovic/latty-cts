@@ -9,5 +9,9 @@ A CTS version of Tyrolean Neo-Latin texts (Latinitas Tyrolensis)
 ## The Task
 Follow the [CITE Architecture](http://cite-architecture.github.io/) and [CapiTainS Guidelines](http://capitains.github.io/pages/guidelines) to make the 90 documents in this collection cts compliant
 
+## Contents
++ The XML files are in [data](https://github.com/nevenjovanovic/latty-cts/tree/master/data)
++ Files with additional information are in [docs](https://github.com/nevenjovanovic/latty-cts/tree/master/docs)
+
 ## License
 [CC-BY](https://github.com/nevenjovanovic/latty-cts/blob/master/LICENSE.md)

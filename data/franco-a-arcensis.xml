@@ -3,8 +3,8 @@
         <fileDesc xml:id="franco-a-arcensis">
             <titleStmt>
                 <title>Arcensis comitatus descriptio, versio electronica</title>
-                <author>
-                    <name key="tyrol259.franco01">Franco, Ambrogio</name>
+                <author key="tyrol259.franco01">
+                    <name>Franco, Ambrogio</name>
                     <date precision="high">1559-1611</date>
                 </author>
                 <editor>Mederle, Sissy</editor>

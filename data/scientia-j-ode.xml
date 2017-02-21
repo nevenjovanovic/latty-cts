@@ -1,199 +1,192 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="scientia-j-ode">
-            <titleStmt>
-                <title>Panegyrica ode, versio electronica</title>
-                <author key="scientia01">
-                    <name xml:lang="lat">Scientia, J.B.</name>
-                    <date>fl. 1626</date>
-                </author>
-                <respStmt>
-                    <resp>Hanc editionem electronicam curavit</resp>
-                    <name>Johanna Luggin</name>
-                </respStmt>
-            </titleStmt>
-            
-            <editionStmt>
-                <edition>transcribed from the printed text</edition>
-            </editionStmt>
-            
-            <extent>6 paginae</extent>
-            
-            <publicationStmt>
-                <p>Croatica et Tyrolensia: Tyrolis Latina <date>September 2015</date>
+  <teiHeader>
+    <fileDesc xml:id="scientia-j-ode">
+      <titleStmt>
+        <title>Panegyrica ode, versio electronica</title>
+        <author key="scientia01">
+          <name xml:lang="lat">Scientia, J.B.</name>
+          <date>fl. 1626</date>
+        </author>
+        <respStmt>
+          <resp>Hanc editionem electronicam curavit</resp>
+          <name>Johanna Luggin</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>6 paginae</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
         </p>
-            </publicationStmt>
-            
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <author>Scientia, J.B.</author>
-                        <title>Panegyrica ode quam illustrissimo et reverendissimo domino domino Carolo Madrutio
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Scientia, J.B.</author>
+            <title>Panegyrica ode quam illustrissimo et reverendissimo domino domino Carolo Madrutio
                             Tridenti episcopo consecrato accinebat J.B. Scientia</title>
-                        <imprint>
-                            <pubPlace>Trient</pubPlace>
-                            <date when="1626">1626</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-                <bibl>TLMF, Dip. 651/7</bibl>
-            </sourceDesc>
-        </fileDesc>
-        
-        <profileDesc>
-            <creation>
-                <date when="1626">1626</date>
-            </creation>
-            <textClass>
-                <keywords scheme="time">
-                    <term>Das 17. Jh. bis zum Aussterben der Tiroler Linie der Habsburger (1665) und zur Gründung der Universität (1669)</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>Dichtung</term>
-                    <term>Ode</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        
-        <revisionDesc>
-            <listChange>
-                <change>
+            <imprint>
+              <pubPlace>Trient</pubPlace>
+              <date when="1626">1626</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>TLMF, Dip. 651/7</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1626">1626</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Das 17. Jh. bis zum Aussterben der Tiroler Linie der Habsburger (1665) und zur Gründung der Universität (1669)</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Dichtung</term>
+          <term>Ode</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change>
           <date>2015-09-10</date>
           <name>Johanna Luggin</name>
         </change>
-            </listChange>
-        </revisionDesc>
-    </teiHeader>
-    
-    <text>
-        <body>
-            <div>
-        <head>Panegyrica ode quam illustrissimo et reverendissimo domino domino <persName>Carolo Madrutio</persName>
-                <placeName>Tridenti</placeName> episcopo consecrato accinebat <persName>J.B. Scientia</persName>.</head>
-            <p>
-          <placeName>Tridenti</placeName>, apud <persName>Iohannem Albertum</persName>. <date>MDCXXVI</date>.</p>
-            <p>Superiorum Permissu.<pb n="1"/>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Panegyrica ode quam illustrissimo et reverendissimo domino domino<persName>Carolo Madrutio</persName>
+          <placeName>Tridenti</placeName>episcopo consecrato accinebat<persName>J.B. Scientia</persName>.</head>
+        <p>
+          <placeName>Tridenti</placeName>, apud<persName>Iohannem Albertum</persName>.<date>MDCXXVI</date>.</p>
+        <p>Superiorum Permissu.<pb n="1"/>
         </p>
       </div>
-            <div>
-            <head>Tricolos pentastrophos.</head>
-            <lg>
+      <div>
+        <head>Tricolos pentastrophos.</head>
+        <lg>
           <lg type="stanza">
             <l>Felix o superum munere civitas,</l>
             <l>O felix iterum, cui Deus altior</l>
             <l>Fortuna dominus praeficit, et suo</l>
             <l>Decretum fato</l>
-            <l>Vult imperare <persName>CAROLUM</persName>.</l>
+            <l>Vult imperare<persName>CAROLUM</persName>.</l>
           </lg>
-                <lg type="stanza">
+          <lg type="stanza">
             <l>Non illo pietas, et meritis satis</l>
             <l>Virtus facta suis, quae vetat emori</l>
             <l>Iam functos homines: non amor, et boni</l>
             <l>Communis cura</l>
             <l>Possunt abesse, sospite.</l>
           </lg>
-                <lg type="stanza">
+          <lg type="stanza">
             <l>Pendet crimina, grex perstrepat ilicet,</l>
             <l>Aequum iustitiae, Pricipe dignior</l>
             <l>Virtus, rara tamen, sed tamen omnibus</l>
             <l>Omni sub saeclo,</l>
             <l>Virtutibus sublimior.</l>
           </lg>
-                <lg type="stanza">
+          <lg type="stanza">
             <l>Sive urbem deceat quis decor, adferet,</l>
             <l>Seu civem status: usquam mala (sedulus</l>
             <l>Aeternis vicibus in bona subditi)</l>
             <l>Admittet nunquam,</l>
             <l>Regnare doctus a suis.</l>
           </lg>
-                <lg type="stanza">
+          <lg type="stanza">
             <l>Dic o dic patria, cui domino mage</l>
             <l>Optasti eximio vivere sub iugo?</l>
-            <l>Non sic Romuleo nomine septimons </l>
+            <l>Non sic Romuleo nomine septimons</l>
             <l>Plebes Romana</l>
             <l>Digne superbiat modo.</l>
           </lg>
-            <pb n="2"/>
-                <lg type="stanza">
+          <pb n="2"/>
+          <lg type="stanza">
             <l>Non Spartana suis, Graecia non suis,</l>
             <l>Non digne Priamo gaudeat Ilion,</l>
             <l>Nec Thebe Hercule, nec Persia nobilis</l>
             <l>Legislatore,</l>
             <l>Se nulla praeferat tibi;</l>
           </lg>
-                <lg type="stanza">
+          <lg type="stanza">
             <l>Cui MADRUTIA reddit Domus arbitra</l>
             <l>Sub miti imperio iura, sibi et suis</l>
             <l>Vel solo hoc similis: credite posteri,</l>
             <l>Se virtus laudat</l>
             <l>Legata norma posteris.</l>
           </lg>
-                <lg type="stanza">
+          <lg type="stanza">
             <l>Hanc qui Nile caput contegis, Ister hanc,</l>
             <l>Et Tigris rapidus suspicitis domum:</l>
             <l>Hanc ipse Oceanus dissitus, ultimo,</l>
             <l>Exornamentum</l>
             <l>Europae inaudit Hespero.</l>
           </lg>
-                <lg type="stanza">
+          <lg type="stanza">
             <l>Huis venit meritis gloria quaelibet</l>
             <l>Par nunquam: titulus insuper inclitus,</l>
             <l>Subiectorum animis addere fortius</l>
             <l>Ad mores calcar,</l>
             <l>Ad recta, ad aequa pergere.</l>
           </lg>
-                <lg type="stanza">
+          <lg type="stanza">
             <l>Ut possint placidis lumina condere</l>
-            <l>In somnis alii, sic vigilabitur </l>
+            <l>In somnis alii, sic vigilabitur</l>
             <l>Tanto a Principe. Non vixeris ancium</l>
             <l>Rerum Tridentum,</l>
             <l>Est qui pericla submovet.</l>
           </lg>
-            <pb n="3"/>
-                <lg type="stanza">
+          <pb n="3"/>
+          <lg type="stanza">
             <l>Erranti iniiciet frena licentiae,</l>
             <l>Artes ut veteres inuehat, a quibus</l>
             <l>Augetur decus, et crescit honor suo</l>
             <l>Porrectus cursu</l>
             <l>Qua nascitur caditque sol.</l>
           </lg>
-                <lg type="stanza">
+          <lg type="stanza">
             <l>Virtus his animo crescit, et amplior</l>
             <l>Ad summum decus extenditur his via,</l>
             <l>Formavere rudes protinus insciam</l>
             <l>His anni mentem,</l>
             <l>Grassatur his ad gloriam.</l>
           </lg>
-                <lg type="stanza">
+          <lg type="stanza">
             <l>Quis nunc egregio sub domino timens</l>
             <l>Credit fervitium? Fallitur: alterum</l>
             <l>Non est praesidium tutius aprius</l>
             <l>Nostro, cui praesto</l>
             <l>Iustus piusque CAROLUS.</l>
           </lg>
-                <lg type="stanza">
+          <lg type="stanza">
             <l>Quo custode, furor civicus, exterus</l>
             <l>Nullis temporibus conteret otium,</l>
             <l>Nec quae sic gladios ira acuit truces,</l>
             <l>Urbes ut cive,</l>
             <l>Civesque privet urbibus.</l>
           </lg>
-                <lg type="stanza">
+          <lg type="stanza">
             <l>Hospes Thrax etiamsi foret, aut novo</l>
             <l>Ex orbe adveniens Cantaber, annuet</l>
             <l>Laudatum Patriae promerito patris</l>
             <l>Nomen; dicetque:</l>
             <l>Sic civitas beata fit.</l>
           </lg>
-            <pb n="4"/>
-                <lg type="stanza">
+          <pb n="4"/>
+          <lg type="stanza">
             <l>Quorsum Musa? Tuo non opus his sono</l>
             <l>Quae sunt clara suo: laudibus abstine.</l>
             <l>Queis per digna labor facta mererier</l>
             <l>Laudes, cur curent</l>
             <l>Audire laudis omnia?</l>
           </lg>
-                <lg type="stanza">
+          <lg type="stanza">
             <l>Ergo dum propriis fontibus invicem</l>
             <l>Distabunt Athesis, Cydnus, et Albula,</l>
             <l>Vivat MADRUTIO sanguine nobilis</l>
@@ -202,74 +195,74 @@
           </lg>
         </lg>
       </div>
-             <div>   
-            <head>Tradita illustrissimo et reverendissimo domino domino Carolo Madrutio Episcopatus
+      <div>
+        <head>Tradita illustrissimo et reverendissimo domino domino Carolo Madrutio Episcopatus
                 insignia</head>
-            <lg>
-            <l>In pennas allapsa suas cur Fama sereno</l>
-            <l>Aethere devehitur? Fallor, an ipsa Dea est?</l>
-            <l>Laeta Tridentinus per compita fertur ovanti</l>
-            <l>Nereus adsimilis: stat sine nube polus.</l>
-            <l n="5">Insolito micat orbe dies nitidissima: quid si</l>
-            <l>Prisca novis revebat saecula Phoebus equis?</l>
-            <l>Ah revehet, non ille quidem qui temperat annum,</l>
-            <l>Sed qui sacra novo nomine frena regit.</l>
-            <l>Ecce manu Mitram praetedens Fama, superni</l>
-            <l n="10">Doni tibi Mitram, sic tulit orsa, Iovis.</l>
-            <pb n="5"/>
-            <l>O quonda-<emph>M AD RUTI</emph>-lum trino diademate peplum</l>
-            <l>Quem genus, et pietas, quem tua fata vocant:</l>
-            <l>Accipe nunc certo maioribus omine nomen</l>
-            <l>Fascibus auspicium, dignior ipse datis:</l>
-            <l n="15">Post meriti venient fasces. Tanto incipe, pondus</l>
-            <l>Assuetis humeris ne grave Mundus eat.</l>
-            <l>Intonuit faustum Deus his, votoque frequenti</l>
-            <l>Emeritae imposita est Insula sacra comae.</l>
-            <l>Aeternos sperare potes tibi frontis honores;</l>
-            <l n="20">Si tibi quae data sunt, sunt data teste Deo.</l>
+        <lg>
+          <l>In pennas allapsa suas cur Fama sereno</l>
+          <l>Aethere devehitur? Fallor, an ipsa Dea est?</l>
+          <l>Laeta Tridentinus per compita fertur ovanti</l>
+          <l>Nereus adsimilis: stat sine nube polus.</l>
+          <l n="5">Insolito micat orbe dies nitidissima: quid si</l>
+          <l>Prisca novis revebat saecula Phoebus equis?</l>
+          <l>Ah revehet, non ille quidem qui temperat annum,</l>
+          <l>Sed qui sacra novo nomine frena regit.</l>
+          <l>Ecce manu Mitram praetedens Fama, superni</l>
+          <l n="10">Doni tibi Mitram, sic tulit orsa, Iovis.</l>
+          <pb n="5"/>
+          <l>O quonda-<emph>M AD RUTI</emph>-lum trino diademate peplum</l>
+          <l>Quem genus, et pietas, quem tua fata vocant:</l>
+          <l>Accipe nunc certo maioribus omine nomen</l>
+          <l>Fascibus auspicium, dignior ipse datis:</l>
+          <l n="15">Post meriti venient fasces. Tanto incipe, pondus</l>
+          <l>Assuetis humeris ne grave Mundus eat.</l>
+          <l>Intonuit faustum Deus his, votoque frequenti</l>
+          <l>Emeritae imposita est Insula sacra comae.</l>
+          <l>Aeternos sperare potes tibi frontis honores;</l>
+          <l n="20">Si tibi quae data sunt, sunt data teste Deo.</l>
         </lg>
       </div>
-            <div>
-            <head>Idem illustrissimus et reverendissimus CAROLUS EPISCOPUS</head>
-            <head>Per anagramma.</head>
-            <head>SIC POPULO CARUS ES</head>
-            <lg>
-            <l>Iam lugent inhorora suum decus arva pruinis</l>
-            <l>Iam nemus albescit, iam iuga cana rigent.</l>
-            <l>Nec nemoris luctum, nec supputat arva Tridentum</l>
-            <l>Veris dissimiles explicuisse comas.</l>
-            <l n="5">Vere novo gaudens petit undique et undique; festos</l>
-            <l>Quo celebres sacro signet honore dies.</l>
-            <pb n="6"/>
-            <l>Sed quid Io? Cessit ne alii sua iura Bootes</l>
-            <l>Hinc ne Tridentini gaudia tanta fori?</l>
-            <l>Tempora nimirum te Praeside dura recedunt,</l>
-            <l n="10">Carole, <emph>SIC POPULO CARUS ES</emph>, ille tibi.</l>
+      <div>
+        <head>Idem illustrissimus et reverendissimus CAROLUS EPISCOPUS</head>
+        <head>Per anagramma.</head>
+        <head>SIC POPULO CARUS ES</head>
+        <lg>
+          <l>Iam lugent inhorora suum decus arva pruinis</l>
+          <l>Iam nemus albescit, iam iuga cana rigent.</l>
+          <l>Nec nemoris luctum, nec supputat arva Tridentum</l>
+          <l>Veris dissimiles explicuisse comas.</l>
+          <l n="5">Vere novo gaudens petit undique et undique; festos</l>
+          <l>Quo celebres sacro signet honore dies.</l>
+          <pb n="6"/>
+          <l>Sed quid Io? Cessit ne alii sua iura Bootes</l>
+          <l>Hinc ne Tridentini gaudia tanta fori?</l>
+          <l>Tempora nimirum te Praeside dura recedunt,</l>
+          <l n="10">Carole,<emph>SIC POPULO CARUS ES</emph>, ille tibi.</l>
         </lg>
       </div>
-            <div>
-            <head>Anni praelagium.
+      <div>
+        <head>Anni praelagium.
             Quo illustrissimus et reverendissimus Carolus Madrucius 
             Episcopus est renunciandus.
             Ex nomine per Cabalisticos numeros deductum.</head>
-            <p>304. 387 417 110</p>
-            <p>
-          <persName>Carolus Madrucius</persName> Episcopus fiet.</p>
-            <p>101 3 161 143</p>
-            <p>Anno ab nato Domino.</p>
-            <p>
+        <p>304. 387 417 110</p>
+        <p>
+          <persName>Carolus Madrucius</persName>Episcopus fiet.</p>
+        <p>101 3 161 143</p>
+        <p>Anno ab nato Domino.</p>
+        <p>
           <date>M. DC. XXVI.</date>
         </p>
-            <p>304</p>
-            <p>387</p>
-            <p>417</p>
-            <p>110</p>
-            <p>101</p>
-            <p>3</p>
-            <p>161</p>
-            <p>143</p>
-            <p>1626</p>
+        <p>304</p>
+        <p>387</p>
+        <p>417</p>
+        <p>110</p>
+        <p>101</p>
+        <p>3</p>
+        <p>161</p>
+        <p>143</p>
+        <p>1626</p>
       </div>
-        </body>
-    </text>
+    </body>
+  </text>
 </TEI>

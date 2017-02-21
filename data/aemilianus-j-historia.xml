@@ -1,461 +1,456 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="aemilianus-j-historia">
-            <titleStmt>
-                <title>Historia beati Simonis Tridentini, versio electronica</title>
-                <author key="aemilianus01">
-                    <name xml:lang="lat">Aemilianus, Johannes Stephanus</name>
-                    <date precision="low">1449–1499</date>
-                </author>
-                <respStmt>
-                    <resp>Hanc versionem electronicam curavit</resp>
-                    <name>Johanna Luggin</name>
+  <teiHeader>
+    <fileDesc xml:id="aemilianus-j-historia">
+      <titleStmt>
+        <title>Historia beati Simonis Tridentini, versio electronica</title>
+        <author key="aemilianus01">
+          <name xml:lang="lat">Aemilianus, Johannes Stephanus</name>
+          <date precision="low">1449–1499</date>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Johanna Luggin</name>
         </respStmt>
-                <respStmt>
-                    <resp>transcriptionem fecit</resp>
-                    <name>Irina Tautschnig</name>
-                </respStmt>
-            </titleStmt>
-            
-            <editionStmt>
-                <edition>transcribed from the printed text</edition>
-            </editionStmt>
-            <extent>270 versus (Historicon), 50 versus (Pinacedion)</extent>
-            
-            <publicationStmt>
-                <p>Croatica et Tyrolensia: Tyrolis Latina <date>August 2015</date>
+        <respStmt>
+          <resp>transcriptionem fecit</resp>
+          <name>Irina Tautschnig</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>270 versus (Historicon), 50 versus (Pinacedion)</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>August 2015</date>
         </p>
-            </publicationStmt>
-            
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <author>Aemilianus, Johannes Stephanus</author>
-                        <title>Historia beati Simonis Tridentini</title>
-                        <imprint>
-                            <pubPlace>Wien</pubPlace>
-                            <date cert="medium">1493</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-                <bibl>Staats- und Stadtbibliothek Augsburg, 4 Ink 145</bibl>
-            </sourceDesc>
-        </fileDesc>
-        
-        <profileDesc>
-            <creation>
-                <date when="1493" cert="medium">1493</date>
-            </creation>
-            <textClass>
-                <keywords scheme="time">
-                    <term>Von der Tiroler Landeseinheit bis zum Tod Kaiser Maximilians I. (1519)</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>Dichtung</term>
-                    <term>Elegie</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        
-        <revisionDesc>
-            <change>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Aemilianus, Johannes Stephanus</author>
+            <title>Historia beati Simonis Tridentini</title>
+            <imprint>
+              <pubPlace>Wien</pubPlace>
+              <date cert="medium">1493</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>Staats- und Stadtbibliothek Augsburg, 4 Ink 145</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1493" cert="medium">1493</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Von der Tiroler Landeseinheit bis zum Tod Kaiser Maximilians I. (1519)</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Dichtung</term>
+          <term>Elegie</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
         <date>2015-08-24</date>
         <name>Johanna Luggin</name>
       </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div>
-                <head>Historia beati <persName>Simonis</persName> Tridentini</head>
-                <pb/>
-            </div>
-            <div>
-                <head>
-          <persName>C. Pauli Amalthei</persName> Poetae laureati ad Lectorem. </head>
-                <lg>
-                <l>Si tu Candidulum legis Poema</l>
-                <l>Vatis Cimbriaci, subinde disces,</l>
-                <l>O Lector, pueri necem <persName>Simonis</persName>,</l>
-                <l>Indignum facinus tamen tonandum</l>
-                <l n="5">Longo syrmate millibus poetis</l>
-                <l>Plusque Treicii dapes Tyranni</l>
-                <l>Aut Caenam Pelopeiam Thyesti</l>
-                <l>Aut Busiridis aut sacrum Dianae</l>
-                <l>Humana nece Thraciasque bigas.</l>
-                <l n="10">Quod cum legeris aure diligenti,</l>
-                <l>Quidnam Cimbriaco puer Poetae</l>
-                <l>Debet versiculis datus sonoris,</l>
-                <l>Aut quantum recutita turba saevit</l>
-                <l>In nostrum nimis aestuans cruorem,</l>
-                <l n="15">Nosces protinus et sciens cavebis.</l>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Historia beati<persName>Simonis</persName>Tridentini</head>
+        <pb/>
+      </div>
+      <div>
+        <head>
+          <persName>C. Pauli Amalthei</persName>Poetae laureati ad Lectorem.</head>
+        <lg>
+          <l>Si tu Candidulum legis Poema</l>
+          <l>Vatis Cimbriaci, subinde disces,</l>
+          <l>O Lector, pueri necem<persName>Simonis</persName>,</l>
+          <l>Indignum facinus tamen tonandum</l>
+          <l n="5">Longo syrmate millibus poetis</l>
+          <l>Plusque Treicii dapes Tyranni</l>
+          <l>Aut Caenam Pelopeiam Thyesti</l>
+          <l>Aut Busiridis aut sacrum Dianae</l>
+          <l>Humana nece Thraciasque bigas.</l>
+          <l n="10">Quod cum legeris aure diligenti,</l>
+          <l>Quidnam Cimbriaco puer Poetae</l>
+          <l>Debet versiculis datus sonoris,</l>
+          <l>Aut quantum recutita turba saevit</l>
+          <l>In nostrum nimis aestuans cruorem,</l>
+          <l n="15">Nosces protinus et sciens cavebis.</l>
         </lg>
-            </div>
-            <div>
-                <head>
-          <persName>Iacobus Pona</persName> Tridentinus Quintio Haemiliano Cimbriaco Poetae salutem dicit. </head>
-                <lg>
+      </div>
+      <div>
+        <head>
+          <persName>Iacobus Pona</persName>Tridentinus Quintio Haemiliano Cimbriaco Poetae salutem dicit.</head>
+        <lg>
           <l>Hoc, quodcumque canis docto, Haemiliane, Libello,</l>
-                <l>Crede mihi, Phaebi verius est Tripode.</l>
-                <l>Vidi ergo Iudaeos dantes pro crimine poenas</l>
-                <l>Et lacerum corpus, Sancte puelle, tuum.</l>
-                <l>Vidi <corr change="mills" resp="Irina Tautschnig">millibus</corr>  modis passim miracula mille, </l>
-                <l n="5">Sed tunc praecipue, quom petit aeger opem.</l>
-                <l>Ergo tibi manes pueri, divine Poeta,</l>
-                <l> Debent Astriferi sidera Celsa poli.</l>
+          <l>Crede mihi, Phaebi verius est Tripode.</l>
+          <l>Vidi ergo Iudaeos dantes pro crimine poenas</l>
+          <l>Et lacerum corpus, Sancte puelle, tuum.</l>
+          <l>Vidi<corr change="mills" resp="Irina Tautschnig">millibus</corr>modis passim miracula mille,</l>
+          <l n="5">Sed tunc praecipue, quom petit aeger opem.</l>
+          <l>Ergo tibi manes pueri, divine Poeta,</l>
+          <l>Debent Astriferi sidera Celsa poli.</l>
         </lg>
-                <pb/>
-            </div>
-            <div>
-                <head>HISTORICON HAEMILIANI CIMBRICI POETAE DE INTERITU BEATI <persName>SIMONIS</persName> PUERI
+        <pb/>
+      </div>
+      <div>
+        <head>HISTORICON HAEMILIANI CIMBRICI POETAE DE INTERITU BEATI<persName>SIMONIS</persName>PUERI
                     TRIDENTINI.</head>
-                <lg>
-          <l>Quem totum in numero confecum vulnere cernis, </l>
-                <l> Et lacrimas, hospes, dum mea fata vides,</l>
-                <l>Fortisan ignoras, fuerim qua morte peremptus,</l>
-                <l> Et nomen quaeris, et genus unde fui:</l>
-                <l n="5">Ne longum quaeras, paucis, adverte, docebo.</l>
-                <l> Hic nostri Christus carminis auctor erit,</l>
-                <l>Qui cum foelices aeternum demoror annos,</l>
-                <l> Angelicis mixtus nunc super astra choris,</l>
-                <l>Urbe <placeName>Tridentina</placeName> non grandi stemmate natus.</l>
-                <l n="10"> Si nescis, hospes, sum puer ille <persName>Simon</persName>,</l>
-                <l>Heu scelus infandum, quem funere mersit acerbo</l>
-                <l> Nuper ebraeorum sordida turba canum.</l>
-                <l>Accipe inauditum facinus, licet omnia volvas</l>
-                <l> Exempla et veterum nunc monumenta senum.</l>
-                <l n="15">Non te detineo longum, tu crimine ab uno</l>
-                <l> Disce, precor, quantum gens scelerosa furit,</l>
-                <l>Ac fuge crudelis posthac comertia gentis,</l>
-                <l> Exemplo factus cautior ipse meo.</l>
-                <l>Ee vos, o pueri, quando mea fata videtis,</l>
-                    <l n="20"> Ne iudaeorum credite blandiciis.</l>
-                <l>Tempus erat, quo sylva nova mox fronde virescit </l>
-                <l> Atque renascenti gramine vernat humus,</l>
-                <l>Impia quo ritus quamvis synagoga nefandos</l>
-                <l> et celebrat festos, quos habet ipsa dies,</l>
-                    <l n="25">Quove resurgentis redeunt solenna Christi,</l>
-                <l> Qui regna inferna vicit et astra subit.</l>
-                <l>Venerat ergo dies caedem visura nefandam</l>
-                <l> Et sacra de nobis non placitura deo.</l>
-                <pb/>
-                <l>Tunc statuunt aras veterum de more parentum</l>
-                    <l n="30"> Accumulantque sacris tunc holocausta focis.</l>
-                <l>Sed praeter ritus, quo tetrum pellat odorem,</l>
-                <l> De nostro panes turba cruore facit.</l>
-                <l>Haec loquor expertus, non te per ficta sequentem</l>
-                <l> Verba traho, nostra mors tibi testis erit.</l>
-                    <l n="35">Iudaei (quoniam saxosis vectus ab agris</l>
-                <l> Hic levigi prisco more iuvencus erat)</l>
-                <l>Conveniunt subito duri <persName>Samuelis</persName> ad aedes:</l>
-                <l> Hic iudeaorum tunc synagoga fuit.</l>
-                <l>Multaque dum secum vario sermone volutant,</l>
-                    <l n="40"> Impia crudelis angelus ora movet.</l>
-                <l>Ille quidem indignus tam sancto nomine, quando</l>
-                <l> Cor durum illius nulla movet pietas.</l>
-                <l>Ergo prius vario respexit singula vultu</l>
-                <l> Atque haec <unclear>substrisas</unclear> impia verba facit.</l>
-                    <l n="45">Ad solenne sacrum solitaeque ad fercula Caenae</l>
-                <l> Omnia non adsunt, caetera conticuit.</l>
-                <l>Percaepit vocem crudelis turba nefandam.</l>
-                <l> Hic erat et moses, callidus arte senex,</l>
-                <l>Cui tristes vultus promissaque barba fluebat,</l>
-                    <l n="50"> Ardentes oculos sanguineaeque genae,</l>
-                    <l>Qualis ad infernas <corr change="memeratur" resp="Irina Tautschnig">memoratur</corr>
-                    portitor undas,</l>
-                <l> Qui totiens stygias itque reditque lacus.</l>
-                <l>Credula sperabat divino turba furore</l>
-                <l> Hunc aliis motum posse fututa loqui.</l>
-                    <l n="55">Is puerum hortatur iudaeos quaerere, cuius</l>
-                <l> Admixto panes sanguine conficiunt.</l>
-                <l>Confestim exoritur contentio summa, laborant</l>
-                <l> Quaesisse, inventor quis velit esse mali.</l>
-                <l>Hic servum dictis <persName>Samuel</persName> hortatur amicis,</l>
-                    <l n="60"> Inque scelus tentat pellere blanditiis.</l>
-                <l>Quis centum aureolos iungit, non accipit ille, </l>
-                <l> Sed cum sarcinulis territus urbe fugit.</l>
-                <l>Inveniunt <persName>Thobiam</persName>, monstrum crudele, nefandum.</l>
-                <l> Is subit accaepta conditione scelus.</l>
-                <pb/>
-                    <l n="65">At quamvis esset verbis pellectus, et auro </l>
-                <l> Haesitat et secum fluctuat ipsa
+        <lg>
+          <l>Quem totum in numero confecum vulnere cernis,</l>
+          <l>Et lacrimas, hospes, dum mea fata vides,</l>
+          <l>Fortisan ignoras, fuerim qua morte peremptus,</l>
+          <l>Et nomen quaeris, et genus unde fui:</l>
+          <l n="5">Ne longum quaeras, paucis, adverte, docebo.</l>
+          <l>Hic nostri Christus carminis auctor erit,</l>
+          <l>Qui cum foelices aeternum demoror annos,</l>
+          <l>Angelicis mixtus nunc super astra choris,</l>
+          <l>Urbe<placeName>Tridentina</placeName>non grandi stemmate natus.</l>
+          <l n="10">Si nescis, hospes, sum puer ille<persName>Simon</persName>,</l>
+          <l>Heu scelus infandum, quem funere mersit acerbo</l>
+          <l>Nuper ebraeorum sordida turba canum.</l>
+          <l>Accipe inauditum facinus, licet omnia volvas</l>
+          <l>Exempla et veterum nunc monumenta senum.</l>
+          <l n="15">Non te detineo longum, tu crimine ab uno</l>
+          <l>Disce, precor, quantum gens scelerosa furit,</l>
+          <l>Ac fuge crudelis posthac comertia gentis,</l>
+          <l>Exemplo factus cautior ipse meo.</l>
+          <l>Ee vos, o pueri, quando mea fata videtis,</l>
+          <l n="20">Ne iudaeorum credite blandiciis.</l>
+          <l>Tempus erat, quo sylva nova mox fronde virescit</l>
+          <l>Atque renascenti gramine vernat humus,</l>
+          <l>Impia quo ritus quamvis synagoga nefandos</l>
+          <l>et celebrat festos, quos habet ipsa dies,</l>
+          <l n="25">Quove resurgentis redeunt solenna Christi,</l>
+          <l>Qui regna inferna vicit et astra subit.</l>
+          <l>Venerat ergo dies caedem visura nefandam</l>
+          <l>Et sacra de nobis non placitura deo.</l>
+          <pb/>
+          <l>Tunc statuunt aras veterum de more parentum</l>
+          <l n="30">Accumulantque sacris tunc holocausta focis.</l>
+          <l>Sed praeter ritus, quo tetrum pellat odorem,</l>
+          <l>De nostro panes turba cruore facit.</l>
+          <l>Haec loquor expertus, non te per ficta sequentem</l>
+          <l>Verba traho, nostra mors tibi testis erit.</l>
+          <l n="35">Iudaei (quoniam saxosis vectus ab agris</l>
+          <l>Hic levigi prisco more iuvencus erat)</l>
+          <l>Conveniunt subito duri<persName>Samuelis</persName>ad aedes:</l>
+          <l>Hic iudeaorum tunc synagoga fuit.</l>
+          <l>Multaque dum secum vario sermone volutant,</l>
+          <l n="40">Impia crudelis angelus ora movet.</l>
+          <l>Ille quidem indignus tam sancto nomine, quando</l>
+          <l>Cor durum illius nulla movet pietas.</l>
+          <l>Ergo prius vario respexit singula vultu</l>
+          <l>Atque haec<unclear>substrisas</unclear>impia verba facit.</l>
+          <l n="45">Ad solenne sacrum solitaeque ad fercula Caenae</l>
+          <l>Omnia non adsunt, caetera conticuit.</l>
+          <l>Percaepit vocem crudelis turba nefandam.</l>
+          <l>Hic erat et moses, callidus arte senex,</l>
+          <l>Cui tristes vultus promissaque barba fluebat,</l>
+          <l n="50">Ardentes oculos sanguineaeque genae,</l>
+          <l>Qualis ad infernas<corr change="memeratur" resp="Irina Tautschnig">memoratur</corr>portitor undas,</l>
+          <l>Qui totiens stygias itque reditque lacus.</l>
+          <l>Credula sperabat divino turba furore</l>
+          <l>Hunc aliis motum posse fututa loqui.</l>
+          <l n="55">Is puerum hortatur iudaeos quaerere, cuius</l>
+          <l>Admixto panes sanguine conficiunt.</l>
+          <l>Confestim exoritur contentio summa, laborant</l>
+          <l>Quaesisse, inventor quis velit esse mali.</l>
+          <l>Hic servum dictis<persName>Samuel</persName>hortatur amicis,</l>
+          <l n="60">Inque scelus tentat pellere blanditiis.</l>
+          <l>Quis centum aureolos iungit, non accipit ille,</l>
+          <l>Sed cum sarcinulis territus urbe fugit.</l>
+          <l>Inveniunt<persName>Thobiam</persName>, monstrum crudele, nefandum.</l>
+          <l>Is subit accaepta conditione scelus.</l>
+          <pb/>
+          <l n="65">At quamvis esset verbis pellectus, et auro</l>
+          <l>Haesitat et secum fluctuat ipsa
                     tamen,</l>
-                <l>Qualis in egaeo quondam certantibus austris</l>
-                <l> Nunc huc, nunc illuc icta carina salit.</l>
-                <l>Cognovit fluctus moses animumque labantem:</l>
-                    <l n="70"> Quid dubitas gentis phama futura tuae?</l>
-                <l>Rumpe moras, timidos audax <corr>fortuna</corr> repellit </l>
-                <l> Et mira fortes adiuvat arte viros.</l>
-                <l>Nec scelus est meritas inimico sanguine penas</l>
-                <l> Exigere, haec nobis si movet ora deus.</l>
-                    <l n="75">Si moses ventura videt, si voce prophetas</l>
-                <l> Veridica exequitur, te iubet haec facere.</l>
-                <l>Sic ille infoelix dictis commotus amicis</l>
-                <l> Solvit ad infandum tristia corda nefas.</l>
-                <l>Sic pendet dubius summotis nubibus aer,</l>
-                    <l n="80"> Sic pulsus vento solvitur in pluvias.</l>
-                <l>Ergo, tartareas quoniam concaeperat iras,</l>
-                <l> Insidias quaerit quoi paret, unde queat.</l>
-                <l>Qualis venator sequitur vestigia cervi,</l>
-                <l> Aut leporem docto quaeritat ore canis, </l>
-                    <l n="85">Egrediturque foras missusque perambulat urbem</l>
-                <l> De stygiis lacubus in mea fata canis.</l>
-                <l>Tunc ego ludebam facto modo vespere solus</l>
-                <l> Ante domum et nostras parvulus ante fores.</l>
-                <l>Ecce venit pueri quaesitor saevus et ultra,</l>
-                    <l n="90"> Quam decuit, tacito lumine cuncta notat.</l>
-                <l>Ut nullum videt esse domi, me voce moratur</l>
-                <l> Ac per blandicias me capit ille manu.</l>
-                <l>Quod mihi venturum fuerat, crudele canebat</l>
-                <l> Maeroris nomen tristiciaeque meum.</l>
-                    <l n="95">Sic habuit nomen, nutu fatale deorum, </l>
-                <l> Qui fuit ad stygios hostia prima focos.</l>
-                <l>Sic miser <persName>Hippolytus</persName> curru laceratus equorum </l>
-                <l> Sanguine parcarum tinxerat ora suo.</l>
-                <l>Ducebat blande, falsum tamen ipse notavi</l>
-                    <l n="100"> Ductorem et lacrymis non caruere genae.</l>
-                <pb/>
-                <l>Vix mihi ter denos iam tunc expleverat orbes</l>
-                <l> <persName>Cynthia</persName> nec poteram sat bene verba loqui.</l>
-                <l>Ah quotiens teneris vox intercepta labellis </l>
-                <l> Dicere conantem destituit miserum.</l>
-                    <l n="105">Sublimis rapior statim <persName>Samuelis</persName> in aedes, </l>
-                <l> Scilicet ad mortem suppliciumque grave. </l>
-                <l>Me viso laetis implent velantibus auras</l>
-                <l> Atque ferunt celeres ad nova sacra pedes, </l>
-                <l>Vix potuere moras optati ferre cruoris:</l>
-                    <l n="110"> Tanta est humani sanguinis illa <corr>sitis</corr>.</l>
-                <l>Ut quoniam getuli praedam videre leones, </l>
-                <l> Aut ursi <unclear>in fores</unclear>, quos movet alta fames, </l>
-                <l>Vix proferre moras, vix expectare cruores, </l>
-                <l> Vix ieiuna queunt ora movere siti.</l>
-                    <l n="115">Me capiunt cunisque locant, mea pectora somnus</l>
-                <l> Occupat. In somnis tum mihi mater adest.</l>
-                <l>Hei mihi qualis erat, quantas dabat ore querelas!</l>
-                <l> Ah quotiens frustra est visa vocare deum:</l>
-                <l>Quis te surripuit nobis, mea vita, meum cor,</l>
-                    <l n="120"> Quo sine non possum vivere, malo mori.</l>
-                <l>Illi crudeles admorunt hubera tigres, </l>
-                <l> Hircanas inter bistoniasque feras.</l>
-                <l>O dulces oculos, totiens quibus oscula fixi,</l>
-                <l> O nimium pueri blanda labelle mei,</l>
-                    <l n="125">Formosam faciem, pulchros sine fine capillos</l>
-                <l> Colla flagellantes candidulasque manus!</l>
-                <l>Quid moror? Aut charum, superi, mihi reddite natum, </l>
-                <l> Natum, divicias deliciasque meas,</l>
-                <l>Aut, si forte iacet fatis mihi raptus iniquis,</l>
-                    <l n="130"> Me quoque. Sic dicens languida diriguit.</l>
-                <l>Si me quaesierant, sic me tota urbe vocarant</l>
-                <l> Et charus genitor, et mea chara parens. </l>
-                <l>Donec iam serae moniti decedere nocti</l>
-                <l> Me sine vel tristes vix abiere domum,</l>
-                    <l n="135">Excutior somno. Medium transegerat orbem</l>
-                <l> Delia et in scythiam verterat ursa boves.</l>
-                <pb/>
-                <l>Tunc me diripiunt cunis et viscera nudant</l>
-                <l> Arrisi. Volui nescio quid loquier,</l>
-                <l>Sed me non sivit fari miserabilis aetas.</l>
-                    <l n="140"> Qua potui duros sorte movere animos,</l>
-                <l>Si foret his pietas duris mortalibus ulla,</l>
-                <l> Aut hominum posset mitius esse genus.</l>
-                <l>Sed vetus est illis in nos discordia, quantum</l>
-                <l> et vetus est odium, primaque causa mali.</l>
-                    <l n="145">Ante lupis ergo timidus sociabitur agnus, </l>
-                <l> Et mare veliferum desinet esse prius,</l>
-                <l>Quam semel ex animis odium crudele recedat</l>
-                <l> Aut in daeorum sit pia turba canum.</l>
-                <l>Me excaepit genibus <persName>Moses</persName>, in terga reductis</l>
-                    <l n="150"> Vestibus ac nudis plus medio pedibus </l>
-                <l>Et nudo capite et nudis in parte lacertis,</l>
-                <l> Getuli ritu moreque carnificis.</l>
-                <l>Ut vidi, ut teneros gelidus tremor occupat artus</l>
-                <l> Congeminantque ictus excita corda metu,</l>
-                    <l n="155">Tunc mihi praestringit <persName>Samuel</persName> luctantia vittis</l>
-                <l> Guttura, ne possem sub mea fata loqui.</l>
-                <l>Inde mihi teneram divellunt forcipe carnem.</l>
-                <l> Sic credas agnum dilacerare lupos.</l>
-                <l>Edere vagitus volui, vel dicere: Sevae</l>
-                    <l n="160"> Quid facitis tigres? Presserat ora manus,</l>
-                <l>Qualis in egypto digytis sua labra duobus</l>
-                <l> Comprimit (ut memorant) nobilis harpocrates.</l>
-                <l>Luctabar, memini, contra mecumque dolebam </l>
-                <l> Inque meo semper pectore mater erat.</l>
-                    <l n="165">Quo magis obnitor, tanto magis urget anhelum</l>
-                <l> Spiritus. In medio verbere deficio.</l>
-                <l>Prosequitur facinus gens haec crudele nefanda</l>
-                <l> Deque meo superis sanguine vota ferunt.</l>
-                <l>Tunc varia in christum cuncti ludibria iactant</l>
-                    <l n="170"> Ac nostram irridet impia turba fidem,</l>
-                <l>Praecipue laetos vultus in sidera versus</l>
-                <l> Exorsusque senex tristia verba loqui:</l>
-                <pb/>
-                <l>Accipias, inquit, spumantem sanguine, <persName>Moses</persName>,</l>
-                <l> Accipias pateram, <persName>Christe</persName> beate, tuo.</l>
-                    <l n="175">Scilicet humano non ullo sanguine nasci</l>
-                <l> Virgineoque utero te potuisse rear?</l>
-                <l>Non sum tam stolidus, non tam delirus ob aevum, </l>
-                <l>Non hanc admittunt pectora nostra fidem.</l>
-                <l>Quem coluere patres, quem laudavere prophetae,</l>
-                    <l n="180"> Hunc unum, hunc solum credimus esse deum.</l>
-                <l>Nascetur quondam, populos ut liberet omnes,</l>
-                <l> Mesia, qum saeclis venerit ora suis,</l>
-                <l>Sic, male, despereat caelo terraque marique</l>
-                <l> Gens tua, sic pereas tuque tuumque genus.</l>
-                    <l n="185">Haec postquam (cunctis vel respondentibus amen)</l>
-                <l> Fudit in aeternum sordida lingua deum,</l>
-                <l>Confestim laeto caelum clamore salutat</l>
-                <l> Deque meo modicum sanguine quisque bibit.</l>
-                <l>Iamque propinquabam letho, iam luce carebant</l>
-                    <l n="190"> Lumina, iam mortis venerat hora meae.</l>
-                <l>Pallidus ora color, teneros tremor occupat artus.</l>
-                <l> Quid moror? Eterno frigore corripior.</l>
-                <l>Illicet attollunt morientem et brachia tendunt,</l>
-                <l> Qualiter et christum tunc habuisse ferunt,</l>
-                    <l n="195">Dum genus humanum miseranda morte redemit,</l>
-                <l> Nostra suis medicans vulnera vulneribus.</l>
-                <l>Hic mihi caelestes sunt visi astare ministri</l>
-                <l> Et puer in caelum dicere: Sancte, veni!</l>
-                <l>Suspexi: statim patuerunt limina caeli,</l>
-                    <l n="200"> Vidi, quae humano non licet ore loqui.</l>
-                <l>Tunc me conficiunt acubus (miserabile visu),</l>
-                <l> Unde meum aeterno vulnere corpus hiat.</l>
-                <l>Deficio atque caput dura sub morte reclino</l>
-                <l> In dextrum vita sic fugiente latus.</l>
-                    <l n="205">Tum meus aethereos conscendit spiritus axes,</l>
-                <l> Nunc ubi, quae vidi, gaudia possideo.</l>
-                <l>Innumeras transit caelestis gloria mortes</l>
-                <l> Et mihi vita fuit sic potuisse mori,</l>
-                <pb/>
-                <l>Laeticia incedit de me sic caede peracta.</l>
-                    <l n="210"> Hic et gratatur sordida turba deo.</l>
-                <l>Post redit ad lautae solennia fercula mensae,</l>
-                <l> Improba sed durant gaudia nulla diu.</l>
-                <l>Me quoniam genitor totam cum matre per urbem</l>
-                <l> Perquirunt tristes et sine fine vocant,</l>
-                    <l n="215">Et quia rumor erat populum fervere tumultu, </l>
-                <l> Confestim subter me posuere cados.</l>
-                <l>Post aliquot noctes mensa imposuere cadaver</l>
-                <l> Atque ibi psallentes occanuere deo.</l>
-                <l>Hinc me summergunt propria cum veste recinctum</l>
-                    <l n="220"> Flumine, qua subter labitur unda domus,</l>
-                <l>Ut sic extinctus videar claustrisque retentus</l>
-                <l> Ferratis praeter non potuisse vehi.</l>
-                <l>Nam secus abscondi facinus non posse videbant,</l>
-                <l> Unde et iudaeis plurimus horror erat,</l>
-                    <l n="225">Quod me vicatim quaeri <persName>Inderbachius</persName> ipse</l>
-                <l> Iusserat. Hic rector maximus urbis erat</l>
-                <l>Et pius Antistes, quo non clementius urbi</l>
-                <l> Praefuit ex aequo iustitiamque dedit.</l>
-                <l>Tum pueri certis implebant vocibus auras</l>
-                    <l n="230"> Tristia Iudaeos fata dedisse mihi,</l>
-                <l>Vel quia caelestis pueriles visitat annos</l>
-                <l> Castaque sic pueris spiritus ora movet, </l>
-                <l>Unde sui memores latitantia facta recludunt</l>
-                <l> Signaque fatidico certius ore notant,</l>
-                    <l n="235">Vel quia non possunt sceleris comenta latere</l>
-                <l> Ficta diu, unde mali conscia phama volat.</l>
-                <l>Phama volat totam passim vulgata per urbem</l>
-                <l> Tristia Iudaeos fata dedisse mihi.</l>
-                <l>Curritur et multo populus furit agmine circum,</l>
-                    <l n="240"> Ut quondam, boreas <hi rend="background(green)">qum</hi> mare ventus agit.</l>
-                <l>Ergo ad pontificem mittunt, qui nunciet undis</l>
-                <l> Me exceptum ulterius non potuisse rapi,</l>
-                <l>Inventum pueri non ausos tangere corpus</l>
-                <l> Iudeos, quamvis prae pietate velint</l>
-                <pb/>
-                    <l n="245">Orare, ut veniat visum, ne turba putaret, </l>
-                <l>(Si secus extraherent) forte subesse scelus.</l>
-                <l>Illicet Antistes <persName>Samuelis</persName> pergit ad aedes </l>
-                <l> Corporeque inspecto vulnere cuncta notat.</l>
-                <l>Cognoscit fraudem, iubet hos in vincula duci </l>
-                    <l n="250"> Et crimen fari suppliciumque pati.</l>
-                <l>Ergo raptati curru prius igne cremantur,</l>
-                <l> Publicitus visi sic meruisse mori.</l>
-                <l>At <persName>Moses</persName>, quoniam laqueo finire labores</l>
-                <l> et voluit fato promptior esse suo, </l>
-                    <l n="255">Est datus in praedam pueris saevumque cadaver</l>
-                <l> Proiectum. Haud aliter debuit ille mori.</l>
-                <l>Hospes, te docui, fuerim qua morte peremptus,</l>
-                <l> Et iudaeorum tristia fata canum.</l>
-                <l>At, quae divino faciam miracula nutu,</l>
-                    <l n="260"> Hic pro me potis est fixa tabella loqui,</l>
-                <l>Quam mihi suspendit, tanquam soteria reddat</l>
-                <l> Expertus nostram plurimus aeger opem.</l>
-                <l>Haec tibi Cimbriacus non grandi concitus oestro</l>
-                <l> Ad Cytharam dixit carmina, sancte puer,</l>
-                    <l n="265">In quibus et praesens et postera perlegat aetas</l>
-                <l> Et probet historiam martyriumque tuum.</l>
-                <l>Ipse preces domino fundes pro vate benignas</l>
-                <l> Angelicis mixtus nunc super astra choris,</l>
-                <l>Ut sibi concessam vivat sine crimine vitam.</l>
-                <l n="270"> Et tandem factus spiritus astra petet.</l>
+          <l>Qualis in egaeo quondam certantibus austris</l>
+          <l>Nunc huc, nunc illuc icta carina salit.</l>
+          <l>Cognovit fluctus moses animumque labantem:</l>
+          <l n="70">Quid dubitas gentis phama futura tuae?</l>
+          <l>Rumpe moras, timidos audax<corr>fortuna</corr>repellit</l>
+          <l>Et mira fortes adiuvat arte viros.</l>
+          <l>Nec scelus est meritas inimico sanguine penas</l>
+          <l>Exigere, haec nobis si movet ora deus.</l>
+          <l n="75">Si moses ventura videt, si voce prophetas</l>
+          <l>Veridica exequitur, te iubet haec facere.</l>
+          <l>Sic ille infoelix dictis commotus amicis</l>
+          <l>Solvit ad infandum tristia corda nefas.</l>
+          <l>Sic pendet dubius summotis nubibus aer,</l>
+          <l n="80">Sic pulsus vento solvitur in pluvias.</l>
+          <l>Ergo, tartareas quoniam concaeperat iras,</l>
+          <l>Insidias quaerit quoi paret, unde queat.</l>
+          <l>Qualis venator sequitur vestigia cervi,</l>
+          <l>Aut leporem docto quaeritat ore canis,</l>
+          <l n="85">Egrediturque foras missusque perambulat urbem</l>
+          <l>De stygiis lacubus in mea fata canis.</l>
+          <l>Tunc ego ludebam facto modo vespere solus</l>
+          <l>Ante domum et nostras parvulus ante fores.</l>
+          <l>Ecce venit pueri quaesitor saevus et ultra,</l>
+          <l n="90">Quam decuit, tacito lumine cuncta notat.</l>
+          <l>Ut nullum videt esse domi, me voce moratur</l>
+          <l>Ac per blandicias me capit ille manu.</l>
+          <l>Quod mihi venturum fuerat, crudele canebat</l>
+          <l>Maeroris nomen tristiciaeque meum.</l>
+          <l n="95">Sic habuit nomen, nutu fatale deorum,</l>
+          <l>Qui fuit ad stygios hostia prima focos.</l>
+          <l>Sic miser<persName>Hippolytus</persName>curru laceratus equorum</l>
+          <l>Sanguine parcarum tinxerat ora suo.</l>
+          <l>Ducebat blande, falsum tamen ipse notavi</l>
+          <l n="100">Ductorem et lacrymis non caruere genae.</l>
+          <pb/>
+          <l>Vix mihi ter denos iam tunc expleverat orbes</l>
+          <l>
+            <persName>Cynthia</persName>nec poteram sat bene verba loqui.</l>
+          <l>Ah quotiens teneris vox intercepta labellis</l>
+          <l>Dicere conantem destituit miserum.</l>
+          <l n="105">Sublimis rapior statim<persName>Samuelis</persName>in aedes,</l>
+          <l>Scilicet ad mortem suppliciumque grave.</l>
+          <l>Me viso laetis implent velantibus auras</l>
+          <l>Atque ferunt celeres ad nova sacra pedes,</l>
+          <l>Vix potuere moras optati ferre cruoris:</l>
+          <l n="110">Tanta est humani sanguinis illa<corr>sitis</corr>.</l>
+          <l>Ut quoniam getuli praedam videre leones,</l>
+          <l>Aut ursi<unclear>in fores</unclear>, quos movet alta fames,</l>
+          <l>Vix proferre moras, vix expectare cruores,</l>
+          <l>Vix ieiuna queunt ora movere siti.</l>
+          <l n="115">Me capiunt cunisque locant, mea pectora somnus</l>
+          <l>Occupat. In somnis tum mihi mater adest.</l>
+          <l>Hei mihi qualis erat, quantas dabat ore querelas!</l>
+          <l>Ah quotiens frustra est visa vocare deum:</l>
+          <l>Quis te surripuit nobis, mea vita, meum cor,</l>
+          <l n="120">Quo sine non possum vivere, malo mori.</l>
+          <l>Illi crudeles admorunt hubera tigres,</l>
+          <l>Hircanas inter bistoniasque feras.</l>
+          <l>O dulces oculos, totiens quibus oscula fixi,</l>
+          <l>O nimium pueri blanda labelle mei,</l>
+          <l n="125">Formosam faciem, pulchros sine fine capillos</l>
+          <l>Colla flagellantes candidulasque manus!</l>
+          <l>Quid moror? Aut charum, superi, mihi reddite natum,</l>
+          <l>Natum, divicias deliciasque meas,</l>
+          <l>Aut, si forte iacet fatis mihi raptus iniquis,</l>
+          <l n="130">Me quoque. Sic dicens languida diriguit.</l>
+          <l>Si me quaesierant, sic me tota urbe vocarant</l>
+          <l>Et charus genitor, et mea chara parens.</l>
+          <l>Donec iam serae moniti decedere nocti</l>
+          <l>Me sine vel tristes vix abiere domum,</l>
+          <l n="135">Excutior somno. Medium transegerat orbem</l>
+          <l>Delia et in scythiam verterat ursa boves.</l>
+          <pb/>
+          <l>Tunc me diripiunt cunis et viscera nudant</l>
+          <l>Arrisi. Volui nescio quid loquier,</l>
+          <l>Sed me non sivit fari miserabilis aetas.</l>
+          <l n="140">Qua potui duros sorte movere animos,</l>
+          <l>Si foret his pietas duris mortalibus ulla,</l>
+          <l>Aut hominum posset mitius esse genus.</l>
+          <l>Sed vetus est illis in nos discordia, quantum</l>
+          <l>et vetus est odium, primaque causa mali.</l>
+          <l n="145">Ante lupis ergo timidus sociabitur agnus,</l>
+          <l>Et mare veliferum desinet esse prius,</l>
+          <l>Quam semel ex animis odium crudele recedat</l>
+          <l>Aut in daeorum sit pia turba canum.</l>
+          <l>Me excaepit genibus<persName>Moses</persName>, in terga reductis</l>
+          <l n="150">Vestibus ac nudis plus medio pedibus</l>
+          <l>Et nudo capite et nudis in parte lacertis,</l>
+          <l>Getuli ritu moreque carnificis.</l>
+          <l>Ut vidi, ut teneros gelidus tremor occupat artus</l>
+          <l>Congeminantque ictus excita corda metu,</l>
+          <l n="155">Tunc mihi praestringit<persName>Samuel</persName>luctantia vittis</l>
+          <l>Guttura, ne possem sub mea fata loqui.</l>
+          <l>Inde mihi teneram divellunt forcipe carnem.</l>
+          <l>Sic credas agnum dilacerare lupos.</l>
+          <l>Edere vagitus volui, vel dicere: Sevae</l>
+          <l n="160">Quid facitis tigres? Presserat ora manus,</l>
+          <l>Qualis in egypto digytis sua labra duobus</l>
+          <l>Comprimit (ut memorant) nobilis harpocrates.</l>
+          <l>Luctabar, memini, contra mecumque dolebam</l>
+          <l>Inque meo semper pectore mater erat.</l>
+          <l n="165">Quo magis obnitor, tanto magis urget anhelum</l>
+          <l>Spiritus. In medio verbere deficio.</l>
+          <l>Prosequitur facinus gens haec crudele nefanda</l>
+          <l>Deque meo superis sanguine vota ferunt.</l>
+          <l>Tunc varia in christum cuncti ludibria iactant</l>
+          <l n="170">Ac nostram irridet impia turba fidem,</l>
+          <l>Praecipue laetos vultus in sidera versus</l>
+          <l>Exorsusque senex tristia verba loqui:</l>
+          <pb/>
+          <l>Accipias, inquit, spumantem sanguine,<persName>Moses</persName>,</l>
+          <l>Accipias pateram,<persName>Christe</persName>beate, tuo.</l>
+          <l n="175">Scilicet humano non ullo sanguine nasci</l>
+          <l>Virgineoque utero te potuisse rear?</l>
+          <l>Non sum tam stolidus, non tam delirus ob aevum,</l>
+          <l>Non hanc admittunt pectora nostra fidem.</l>
+          <l>Quem coluere patres, quem laudavere prophetae,</l>
+          <l n="180">Hunc unum, hunc solum credimus esse deum.</l>
+          <l>Nascetur quondam, populos ut liberet omnes,</l>
+          <l>Mesia, qum saeclis venerit ora suis,</l>
+          <l>Sic, male, despereat caelo terraque marique</l>
+          <l>Gens tua, sic pereas tuque tuumque genus.</l>
+          <l n="185">Haec postquam (cunctis vel respondentibus amen)</l>
+          <l>Fudit in aeternum sordida lingua deum,</l>
+          <l>Confestim laeto caelum clamore salutat</l>
+          <l>Deque meo modicum sanguine quisque bibit.</l>
+          <l>Iamque propinquabam letho, iam luce carebant</l>
+          <l n="190">Lumina, iam mortis venerat hora meae.</l>
+          <l>Pallidus ora color, teneros tremor occupat artus.</l>
+          <l>Quid moror? Eterno frigore corripior.</l>
+          <l>Illicet attollunt morientem et brachia tendunt,</l>
+          <l>Qualiter et christum tunc habuisse ferunt,</l>
+          <l n="195">Dum genus humanum miseranda morte redemit,</l>
+          <l>Nostra suis medicans vulnera vulneribus.</l>
+          <l>Hic mihi caelestes sunt visi astare ministri</l>
+          <l>Et puer in caelum dicere: Sancte, veni!</l>
+          <l>Suspexi: statim patuerunt limina caeli,</l>
+          <l n="200">Vidi, quae humano non licet ore loqui.</l>
+          <l>Tunc me conficiunt acubus (miserabile visu),</l>
+          <l>Unde meum aeterno vulnere corpus hiat.</l>
+          <l>Deficio atque caput dura sub morte reclino</l>
+          <l>In dextrum vita sic fugiente latus.</l>
+          <l n="205">Tum meus aethereos conscendit spiritus axes,</l>
+          <l>Nunc ubi, quae vidi, gaudia possideo.</l>
+          <l>Innumeras transit caelestis gloria mortes</l>
+          <l>Et mihi vita fuit sic potuisse mori,</l>
+          <pb/>
+          <l>Laeticia incedit de me sic caede peracta.</l>
+          <l n="210">Hic et gratatur sordida turba deo.</l>
+          <l>Post redit ad lautae solennia fercula mensae,</l>
+          <l>Improba sed durant gaudia nulla diu.</l>
+          <l>Me quoniam genitor totam cum matre per urbem</l>
+          <l>Perquirunt tristes et sine fine vocant,</l>
+          <l n="215">Et quia rumor erat populum fervere tumultu,</l>
+          <l>Confestim subter me posuere cados.</l>
+          <l>Post aliquot noctes mensa imposuere cadaver</l>
+          <l>Atque ibi psallentes occanuere deo.</l>
+          <l>Hinc me summergunt propria cum veste recinctum</l>
+          <l n="220">Flumine, qua subter labitur unda domus,</l>
+          <l>Ut sic extinctus videar claustrisque retentus</l>
+          <l>Ferratis praeter non potuisse vehi.</l>
+          <l>Nam secus abscondi facinus non posse videbant,</l>
+          <l>Unde et iudaeis plurimus horror erat,</l>
+          <l n="225">Quod me vicatim quaeri<persName>Inderbachius</persName>ipse</l>
+          <l>Iusserat. Hic rector maximus urbis erat</l>
+          <l>Et pius Antistes, quo non clementius urbi</l>
+          <l>Praefuit ex aequo iustitiamque dedit.</l>
+          <l>Tum pueri certis implebant vocibus auras</l>
+          <l n="230">Tristia Iudaeos fata dedisse mihi,</l>
+          <l>Vel quia caelestis pueriles visitat annos</l>
+          <l>Castaque sic pueris spiritus ora movet,</l>
+          <l>Unde sui memores latitantia facta recludunt</l>
+          <l>Signaque fatidico certius ore notant,</l>
+          <l n="235">Vel quia non possunt sceleris comenta latere</l>
+          <l>Ficta diu, unde mali conscia phama volat.</l>
+          <l>Phama volat totam passim vulgata per urbem</l>
+          <l>Tristia Iudaeos fata dedisse mihi.</l>
+          <l>Curritur et multo populus furit agmine circum,</l>
+          <l n="240">Ut quondam, boreas<hi rend="background(green)">qum</hi>mare ventus agit.</l>
+          <l>Ergo ad pontificem mittunt, qui nunciet undis</l>
+          <l>Me exceptum ulterius non potuisse rapi,</l>
+          <l>Inventum pueri non ausos tangere corpus</l>
+          <l>Iudeos, quamvis prae pietate velint</l>
+          <pb/>
+          <l n="245">Orare, ut veniat visum, ne turba putaret,</l>
+          <l>(Si secus extraherent) forte subesse scelus.</l>
+          <l>Illicet Antistes<persName>Samuelis</persName>pergit ad aedes</l>
+          <l>Corporeque inspecto vulnere cuncta notat.</l>
+          <l>Cognoscit fraudem, iubet hos in vincula duci</l>
+          <l n="250">Et crimen fari suppliciumque pati.</l>
+          <l>Ergo raptati curru prius igne cremantur,</l>
+          <l>Publicitus visi sic meruisse mori.</l>
+          <l>At<persName>Moses</persName>, quoniam laqueo finire labores</l>
+          <l>et voluit fato promptior esse suo,</l>
+          <l n="255">Est datus in praedam pueris saevumque cadaver</l>
+          <l>Proiectum. Haud aliter debuit ille mori.</l>
+          <l>Hospes, te docui, fuerim qua morte peremptus,</l>
+          <l>Et iudaeorum tristia fata canum.</l>
+          <l>At, quae divino faciam miracula nutu,</l>
+          <l n="260">Hic pro me potis est fixa tabella loqui,</l>
+          <l>Quam mihi suspendit, tanquam soteria reddat</l>
+          <l>Expertus nostram plurimus aeger opem.</l>
+          <l>Haec tibi Cimbriacus non grandi concitus oestro</l>
+          <l>Ad Cytharam dixit carmina, sancte puer,</l>
+          <l n="265">In quibus et praesens et postera perlegat aetas</l>
+          <l>Et probet historiam martyriumque tuum.</l>
+          <l>Ipse preces domino fundes pro vate benignas</l>
+          <l>Angelicis mixtus nunc super astra choris,</l>
+          <l>Ut sibi concessam vivat sine crimine vitam.</l>
+          <l n="270">Et tandem factus spiritus astra petet.</l>
         </lg>
-            </div>
-            <div>
-                <head>PINACEDION BEATI <persName>SIMONIS</persName> PUERI TREDENTINI</head>
-                <lg>
+      </div>
+      <div>
+        <head>PINACEDION BEATI<persName>SIMONIS</persName>PUERI TREDENTINI</head>
+        <lg>
           <l>Hanc tibi Cimbriacus figit sua vota tabellam</l>
-                <l> Expertus de te, qum foret aeger opem.</l>
-                <l>Unde tua auscultet nostris miracula chartis</l>
-                <l> Mandata, haec supplex, qui sacra templa subit,</l>
-                <pb/>
-                <l n="5">Atque aliis narret, qui non videre, probetque</l>
-                <l> Grande tridentinum numen habere solum</l>
-                <l>Et sanare homines, morbo quocumque laborent,</l>
-                <l> Expertus medicas nil potuisse munus.</l>
-                <l>Qum tibi suppliciter fundunt pia vota
+          <l>Expertus de te, qum foret aeger opem.</l>
+          <l>Unde tua auscultet nostris miracula chartis</l>
+          <l>Mandata, haec supplex, qui sacra templa subit,</l>
+          <pb/>
+          <l n="5">Atque aliis narret, qui non videre, probetque</l>
+          <l>Grande tridentinum numen habere solum</l>
+          <l>Et sanare homines, morbo quocumque laborent,</l>
+          <l>Expertus medicas nil potuisse munus.</l>
+          <l>Qum tibi suppliciter fundunt pia vota
                     precesque,</l>
-                <l n="10"> Dura cathenatis solvere vincla soles</l>
-                <l>Ac non legitimo fato revocare abeuntes</l>
-                <l> Filaque de lachesis reglomerare manu.</l>
-                <l>Ah quotiens mediis turbatus nauta procellis,</l>
-                <l>Qum foret aequoreis emoriturus aquis,</l>
-                <l n="15">In te conversus lacrymantia <corr>lumina</corr> dixit:</l>
-                <l> Suppecias, quaeso, fer mihi, sancte puer.</l>
-                <l>Ergo placatis siluerunt aequora ventis</l>
-                <l> Et salva in portum fessa carina subit.</l>
-                <l>Ille memor voti supplex tua limina visit</l>
-                <l n="20"> Ac dedit auratis carbasa fixsa tholis.</l>
-                <l>Tu surdis aures, tu reddis lumina caecis,</l>
-                <l> Tu rectos claudos ire facis pedibus</l>
-                <l>Ac vitam extinctis, etiam plutone negante, </l>
-                <l> Restituis, patriae gloria magna tuae,</l>
-                <l n="25">Ora locuturis solvis miracula mutis,</l>
-                <l> Unde tuam statim <corr>lingua</corr> fatetur
+          <l n="10">Dura cathenatis solvere vincla soles</l>
+          <l>Ac non legitimo fato revocare abeuntes</l>
+          <l>Filaque de lachesis reglomerare manu.</l>
+          <l>Ah quotiens mediis turbatus nauta procellis,</l>
+          <l>Qum foret aequoreis emoriturus aquis,</l>
+          <l n="15">In te conversus lacrymantia<corr>lumina</corr>dixit:</l>
+          <l>Suppecias, quaeso, fer mihi, sancte puer.</l>
+          <l>Ergo placatis siluerunt aequora ventis</l>
+          <l>Et salva in portum fessa carina subit.</l>
+          <l>Ille memor voti supplex tua limina visit</l>
+          <l n="20">Ac dedit auratis carbasa fixsa tholis.</l>
+          <l>Tu surdis aures, tu reddis lumina caecis,</l>
+          <l>Tu rectos claudos ire facis pedibus</l>
+          <l>Ac vitam extinctis, etiam plutone negante,</l>
+          <l>Restituis, patriae gloria magna tuae,</l>
+          <l n="25">Ora locuturis solvis miracula mutis,</l>
+          <l>Unde tuam statim<corr>lingua</corr>fatetur
                     opem.</l>
-                <l>Tu sanas medicis vel desperantibus aegros,</l>
-                <l> Per te desertos sordida lepra fugit.</l>
-                <l>Demonia expellis, tibi parent tartara ditis</l>
-                <l n="30"> Caelestisque tuas decapit aula preces.</l>
-                <l>Per te sentit opem miles casurus in armis, </l>
-                <l> Cognoscunt numen martia signa tuum,</l>
-                <l>Durum captivis rumpit te praeside ferrum</l>
-                <l> Ac per te liber in sua castra redit.</l>
-                <l n="35">Per tua sanantur dispectae numina plagae,</l>
-                <l> Auxiliis coeunt <corr>vulnera</corr> saeva tuae, </l>
-                <l>
-            <corr>Quae</corr> non perrhebis constringat
+          <l>Tu sanas medicis vel desperantibus aegros,</l>
+          <l>Per te desertos sordida lepra fugit.</l>
+          <l>Demonia expellis, tibi parent tartara ditis</l>
+          <l n="30">Caelestisque tuas decapit aula preces.</l>
+          <l>Per te sentit opem miles casurus in armis,</l>
+          <l>Cognoscunt numen martia signa tuum,</l>
+          <l>Durum captivis rumpit te praeside ferrum</l>
+          <l>Ac per te liber in sua castra redit.</l>
+          <l n="35">Per tua sanantur dispectae numina plagae,</l>
+          <l>Auxiliis coeunt<corr>vulnera</corr>saeva tuae,</l>
+          <l>
+            <corr>Quae</corr>non perrhebis constringat
                     semifer herbis</l>
-                <l> Phillyrides Chiron phaebigenaeque manus.</l>
-                <l>Nil veris maiora loquor, tua templa citentur </l>
-                <l n="40"> Et non una sacris fixa tabella tholis,</l>
-                <pb/>
-                <l>Quam tibi suspendit <corr>concessae</corr> vota salutis </l>
-                <l> In testem accaeptae conscius aeger opem,</l>
-                <l>
-            <corr>Quae</corr> non de nostris poterit
+          <l>Phillyrides Chiron phaebigenaeque manus.</l>
+          <l>Nil veris maiora loquor, tua templa citentur</l>
+          <l n="40">Et non una sacris fixa tabella tholis,</l>
+          <pb/>
+          <l>Quam tibi suspendit<corr>concessae</corr>vota salutis</l>
+          <l>In testem accaeptae conscius aeger opem,</l>
+          <l>
+            <corr>Quae</corr>non de nostris poterit
                     cognoscere chartis,</l>
-                <l> Et tamen excissim cuncta videre cupit.</l>
-                <l n="45">Hinc oculis legito, tua qui miracula quaerit</l>
-                <l> Ac visum ex alio sedulus orbe venit.</l>
-                <l>Non mihi si centum sint ora sonantia linguis, </l>
-                <l> Possim pro meritis omnia ferre tuis.</l>
-                <l>Quanto plura loquor, tanto mihi plura supersunt</l>
-                <l n="50"> Et vincunt nostram facta stupenda lyram.</l>
-                <l>Haec nunc, sancte puer, satis est dixisse. Subinde</l>
-                <l>His tibi, plus oci qum mihi, plura canam.</l>
+          <l>Et tamen excissim cuncta videre cupit.</l>
+          <l n="45">Hinc oculis legito, tua qui miracula quaerit</l>
+          <l>Ac visum ex alio sedulus orbe venit.</l>
+          <l>Non mihi si centum sint ora sonantia linguis,</l>
+          <l>Possim pro meritis omnia ferre tuis.</l>
+          <l>Quanto plura loquor, tanto mihi plura supersunt</l>
+          <l n="50">Et vincunt nostram facta stupenda lyram.</l>
+          <l>Haec nunc, sancte puer, satis est dixisse. Subinde</l>
+          <l>His tibi, plus oci qum mihi, plura canam.</l>
         </lg>
-            </div>
-        </body>
-    </text>
+      </div>
+    </body>
+  </text>
 </TEI>

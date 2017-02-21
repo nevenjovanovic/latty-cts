@@ -1,241 +1,233 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="pichler-i-ecstasis">
-            <titleStmt>
-                <title>Ecstasis poetica, versio electronica</title>
-                <author key="pichler01">
-                    <name xml:lang="dt">Pichler, Ignaz</name>
-                    <date precision="low">floruit 1740</date>
-                </author>               
-                <respStmt>
-                    <resp>Hanc versionem electronicam curavit</resp>
-                    <name>Clementina Marsico</name>
-                </respStmt>
-            </titleStmt>
-            
-            <editionStmt>
-                <edition>transcribed from the printed text</edition>
-            </editionStmt>
-            
-            <extent> 8 paginae </extent>
-            
-            <publicationStmt>
-                <p>Croatica et Tyrolensia: Tyrolis Latina<date>April 2015</date>
+  <teiHeader>
+    <fileDesc xml:id="pichler-i-ecstasis">
+      <titleStmt>
+        <title>Ecstasis poetica, versio electronica</title>
+        <author key="pichler01">
+          <name xml:lang="dt">Pichler, Ignaz</name>
+          <date precision="low">floruit 1740</date>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Clementina Marsico</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>8 paginae</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>April 2015</date>
         </p>
-            </publicationStmt>
-            
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <title>Ecstasis poetica metro epico expressa ubi in alma Caesarea Austriaca Universitate Oenipontana ex decreto
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>Ecstasis poetica metro epico expressa ubi in alma Caesarea Austriaca Universitate Oenipontana ex decreto
                             consultissimae facultatis Iuridicae, promotore Praenchili Magnifico et
                             Consultissimo Viro Domino Thoma Hermanin, de Reichenfeld 
                             iuris utriusque Doctore, et codicis ac Iuris Publici Prof. Ord. nec non p.t. 
                             Eiusdem Universitatis Rectore, Suprema Doctoratus Lauro felicissime redimitus est Praenobilis et 
                             Excellentissimus Dominus Ioannes Baptista Besenella, AA. LL. et Philosophiae Magister, Pressanesis
                             Tyrolis Decima Calendas Iulius Anno 1722.</title>
-                        <imprint>
-                            <pubPlace>Innsbruck</pubPlace>
-                            <date when="1722">1722</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-                <bibl>TLMF, W 499</bibl>
-            </sourceDesc>
-        </fileDesc>
-        
-        <profileDesc>
-            <creation>
-                <date when="1722">1722</date>
-            </creation>
-            <textClass>
-                <keywords scheme="time">
-                    <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens (1773)</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>Dichtung</term>
-                    <term>Gelegenheitsdichtung</term>
-                    <term>Promotionsgedicht</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        
-        <revisionDesc>
-            <listChange>
-                <change>corrected teiHeader and body<date>2015-09-14</date>
+            <imprint>
+              <pubPlace>Innsbruck</pubPlace>
+              <date when="1722">1722</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>TLMF, W 499</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1722">1722</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens (1773)</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Dichtung</term>
+          <term>Gelegenheitsdichtung</term>
+          <term>Promotionsgedicht</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change>corrected teiHeader and body<date>2015-09-14</date>
           <name>Johanna Luggin</name>
         </change>
-            </listChange>
-        </revisionDesc>
-    </teiHeader>
-    
-    <text>
-        <body>
-            <div>
-                <head>Ecstasis poetica metro epico expressa ubi in alma Caesarea Austriaca Universitate <placeName> Oenipontana </placeName> ex decreto
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Ecstasis poetica metro epico expressa ubi in alma Caesarea Austriaca Universitate<placeName>Oenipontana</placeName>ex decreto
                     consultissimae facultatis Iuridicae, promotore Praenchili Magnifico et
-                    Consultissimo Viro Domino <persName> Thoma Hermanin </persName>, de <placeName>Reichenfeld </placeName> 
-                    iuris utriusque Doctore, et codicis ac Iuris Publici Prof. Ord. nec non p.t. Eiusdem Universitatis Rectore, Suprema Doctoratus Lauro felicissime redimitus est Praenobilis et Excellentissimus Dominus <persName>Ioannes Baptista Besenella</persName>, AA. LL. et Philosophiae Magister, Pressanesis
-                    Tyrolis <date>Decima Calendas Iulius Anno 1722. </date>
+                    Consultissimo Viro Domino<persName>Thoma Hermanin</persName>, de<placeName>Reichenfeld</placeName>iuris utriusque Doctore, et codicis ac Iuris Publici Prof. Ord. nec non p.t. Eiusdem Universitatis Rectore, Suprema Doctoratus Lauro felicissime redimitus est Praenobilis et Excellentissimus Dominus<persName>Ioannes Baptista Besenella</persName>, AA. LL. et Philosophiae Magister, Pressanesis
+                    Tyrolis<date>Decima Calendas Iulius Anno 1722.</date>
         </head>
-            <pb xml:id="F29v"/>
-            <l>
+        <pb xml:id="F29v"/>
+        <l>
           <pb xml:id="F30r"/>Quis Sonitus? quae Sacra cavas tinnire per aures,</l>
-            <l>Et toto late clarescere carmina coelo? </l>
-            <l>Quive inflare tubas, urbemque accendere cantu</l>
-            <l>Miseni? quorsumve repens hunc tibia plausum</l>
-            <l n="5">Edit, et innumeros reboant cava tympana pulsus?</l>
-            <l>Cui Paean nova plectra moves? humeroque comanti</l>
-            <l>Assyrium suspendis ebur? procul, ecce! sonoro</l>
-            <l>Descedunt Helicone Deae, laetoque tumultu</l>
-            <l>Pars digitis pulsant (artem miretur Apollo)</l>
-            <l n="10">Dulcia fila Lyrae, et concentibus aethera complent:</l>
-            <l>Pars chelyn exornant, et blandos praepete plectro</l>
-            <l>Percutiunt nervos; citharam movet illa, fidesque</l>
-            <l>Pollice, et Aonio dignum dat Praeside cantum;</l>
-            <l>Haec sibi Lunato sub pectore barbiton aptans,</l>
-            <l n="15">Increpat intentas aurato pectine chordas;</l>
-            <l>Nulla tamen lapidale auditur pangere carmen.</l>
-            <l>Dic o Sacra cohors! quis hic est, quem prodere vestrae</l>
-            <l>Concertant adeo mentes, calor? unde resultat,</l>
-            <l>Aut quos in fines tantum vos perculit aestrum?</l>
-            <l n="20">Parcite sed Linguis Socii; nisi fallimur, ingens</l>
-            <l>His latet indiciis, nec cognitus ante triumphus.</l>
-            <l>Imo haec ipsa, Deas, quae sic hortatur, et ambit,</l>
-            <l>Et reliquas toto vultu supereminet omnes,</l>
-            <l>Calliope est, dubiosque rei vix amplius esse</l>
-            <l n="25">Nos sinit, obtentae dans heac praeludia palmae?</l>
-            <l>
+        <l>Et toto late clarescere carmina coelo?</l>
+        <l>Quive inflare tubas, urbemque accendere cantu</l>
+        <l>Miseni? quorsumve repens hunc tibia plausum</l>
+        <l n="5">Edit, et innumeros reboant cava tympana pulsus?</l>
+        <l>Cui Paean nova plectra moves? humeroque comanti</l>
+        <l>Assyrium suspendis ebur? procul, ecce! sonoro</l>
+        <l>Descedunt Helicone Deae, laetoque tumultu</l>
+        <l>Pars digitis pulsant (artem miretur Apollo)</l>
+        <l n="10">Dulcia fila Lyrae, et concentibus aethera complent:</l>
+        <l>Pars chelyn exornant, et blandos praepete plectro</l>
+        <l>Percutiunt nervos; citharam movet illa, fidesque</l>
+        <l>Pollice, et Aonio dignum dat Praeside cantum;</l>
+        <l>Haec sibi Lunato sub pectore barbiton aptans,</l>
+        <l n="15">Increpat intentas aurato pectine chordas;</l>
+        <l>Nulla tamen lapidale auditur pangere carmen.</l>
+        <l>Dic o Sacra cohors! quis hic est, quem prodere vestrae</l>
+        <l>Concertant adeo mentes, calor? unde resultat,</l>
+        <l>Aut quos in fines tantum vos perculit aestrum?</l>
+        <l n="20">Parcite sed Linguis Socii; nisi fallimur, ingens</l>
+        <l>His latet indiciis, nec cognitus ante triumphus.</l>
+        <l>Imo haec ipsa, Deas, quae sic hortatur, et ambit,</l>
+        <l>Et reliquas toto vultu supereminet omnes,</l>
+        <l>Calliope est, dubiosque rei vix amplius esse</l>
+        <l n="25">Nos sinit, obtentae dans heac praeludia palmae?</l>
+        <l>
           <pb xml:id="F30v"/>Sed quid id est? Socii! nunc o nunc signa videte,</l>
-            <l>Qua nostram propiora fidem, verumque merentur</l>
-            <l>Assensum. Et vacuas reddunt caligine mentes.</l>
-            <l>Nunc veniunt currus circum Parnasside Lauro,</l>
-            <l n="30">Et palmis, harum dives quas gignit Idume,</l>
-            <l>Atque Dionaeis virides multum undique myrtis.</l>
-            <l>Et quis in his primam Themidem non norit, ab illa</l>
-            <l>Cuius parte latus Nemesis Rhamnusia stipat,</l>
-            <l>Ab laeva reddit profugos Astraea favores?</l>
-            <l n="35">En quoque suffixos titulos, insignia tantae</l>
-            <l>Ornamenta rei, magnoque aptata triumpho!</l>
-            <l>Sum Themis, humanis quondam data Litibus, ades</l>
-            <l>Est Cadmaa mihi juxta Cephisidas undas;</l>
-            <l>Iustitita Regina vocor, sua Lance per aqua</l>
-            <l n="40">Pendens cuique, scelus, seu poscat praemia virtus:</l>
-            <l>Prole carens dudum, tandem nunc mater adopto,</l>
-            <l>Qui meta sustineat fessa dehinc munera, natum.</l>
-            <l>Altera Adra stas Dea sum notissima templo,</l>
-            <l>Et quia par tanta mihi spes est indolis, Illi</l>
-            <l n="45">Pro quoque parte mea tandem confisa recumbam.</l>
-            <l>Tertia, qua terras olim suprema reliqui,</l>
-            <l>Post vero sum facta redux, iam denuo caelos</l>
-            <l>Haud alia permota petam ratione, futuras</l>
-            <l>Quam quia nunc alis tollet sine crimine noxas.</l>
-            <l n="50">Insignes vere tituli, quos trina Dearum, </l>
-            <l>Nescio, cui tanto largitur turba Lycurgo.</l>
-            <l>
+        <l>Qua nostram propiora fidem, verumque merentur</l>
+        <l>Assensum. Et vacuas reddunt caligine mentes.</l>
+        <l>Nunc veniunt currus circum Parnasside Lauro,</l>
+        <l n="30">Et palmis, harum dives quas gignit Idume,</l>
+        <l>Atque Dionaeis virides multum undique myrtis.</l>
+        <l>Et quis in his primam Themidem non norit, ab illa</l>
+        <l>Cuius parte latus Nemesis Rhamnusia stipat,</l>
+        <l>Ab laeva reddit profugos Astraea favores?</l>
+        <l n="35">En quoque suffixos titulos, insignia tantae</l>
+        <l>Ornamenta rei, magnoque aptata triumpho!</l>
+        <l>Sum Themis, humanis quondam data Litibus, ades</l>
+        <l>Est Cadmaa mihi juxta Cephisidas undas;</l>
+        <l>Iustitita Regina vocor, sua Lance per aqua</l>
+        <l n="40">Pendens cuique, scelus, seu poscat praemia virtus:</l>
+        <l>Prole carens dudum, tandem nunc mater adopto,</l>
+        <l>Qui meta sustineat fessa dehinc munera, natum.</l>
+        <l>Altera Adra stas Dea sum notissima templo,</l>
+        <l>Et quia par tanta mihi spes est indolis, Illi</l>
+        <l n="45">Pro quoque parte mea tandem confisa recumbam.</l>
+        <l>Tertia, qua terras olim suprema reliqui,</l>
+        <l>Post vero sum facta redux, iam denuo caelos</l>
+        <l>Haud alia permota petam ratione, futuras</l>
+        <l>Quam quia nunc alis tollet sine crimine noxas.</l>
+        <l n="50">Insignes vere tituli, quos trina Dearum,</l>
+        <l>Nescio, cui tanto largitur turba Lycurgo.</l>
+        <l>
           <pb xml:id="F31r"/>Sed nova iam caeptam glomerant spectacula pompam</l>
-            <l>Aeacus, en! Sequitur Boeotum Regis Asopi,</l>
-            <l>Hinc dextra Rhadamanthon habens, Minoa sinistra.</l>
-            <l n="55">Hi quoque dispositas monstrant in curribus urnas,</l>
-            <l>Et Phlegethontaeis monumenta inscripta figuris:</l>
-            <l>Macte animi, Themidis constans super aethera cultor!</l>
-            <l>Has, ubi post Pylias, ut sunt praesagia, messes</l>
-            <l>Morsuus in vacuas quondam extenuavere auras,</l>
-            <l n="60">Unanimes, certique sumus tibi tradere sortes.</l>
-            <l>Nempe sacri mores, et summa scientia Iuris,</l>
-            <l>Et mediam nullo librans discrimine Lancem</l>
-            <l>Mens hoc poscit onus: nos caetera sponte quieti</l>
-            <l>Nullo non victas dabimus tibi tempere palmas.</l>
-            <l n="65">Hoc quoque thema grave est, et nil nisi tanta requirit</l>
-            <l>Nomina, quae tanto sunt digna reperta triumpho.</l>
-            <l>Nunc quoque siste tamen plus fari lingua, suasque</l>
-            <l>Delicia oculis, et menti gaudia cede.</l>
-            <l>Tertius ordo subit, Romani Maximus Auctor</l>
-            <l n="70">Juris adest, rigidique simul Jovis arma, simulque</l>
-            <l>Signa gerens, mitem, Divae armipotentis olivam.</l>
-            <l>Scripturam legisse placet; dignissima lectu est:</l>
-            <l>Tertia lex tituli (cui nomen fecit Julus)<note place="foot" xml:id="ftn1" n="1"> L. 3. C. ad L. Jul. repetund.</note>
-            </l>
-            <l>Quo repetis, qua non fas est semel ara dedisse:</l>
-            <l n="75">Observanda venit: post hanc memor esto Novelle,</l>
-            <l>Septima post decimam, quae te subit ordine primo.<note place="foot" xml:id="ftn2" n="2">Nov. 17. cap. I.</note>
+        <l>Aeacus, en! Sequitur Boeotum Regis Asopi,</l>
+        <l>Hinc dextra Rhadamanthon habens, Minoa sinistra.</l>
+        <l n="55">Hi quoque dispositas monstrant in curribus urnas,</l>
+        <l>Et Phlegethontaeis monumenta inscripta figuris:</l>
+        <l>Macte animi, Themidis constans super aethera cultor!</l>
+        <l>Has, ubi post Pylias, ut sunt praesagia, messes</l>
+        <l>Morsuus in vacuas quondam extenuavere auras,</l>
+        <l n="60">Unanimes, certique sumus tibi tradere sortes.</l>
+        <l>Nempe sacri mores, et summa scientia Iuris,</l>
+        <l>Et mediam nullo librans discrimine Lancem</l>
+        <l>Mens hoc poscit onus: nos caetera sponte quieti</l>
+        <l>Nullo non victas dabimus tibi tempere palmas.</l>
+        <l n="65">Hoc quoque thema grave est, et nil nisi tanta requirit</l>
+        <l>Nomina, quae tanto sunt digna reperta triumpho.</l>
+        <l>Nunc quoque siste tamen plus fari lingua, suasque</l>
+        <l>Delicia oculis, et menti gaudia cede.</l>
+        <l>Tertius ordo subit, Romani Maximus Auctor</l>
+        <l n="70">Juris adest, rigidique simul Jovis arma, simulque</l>
+        <l>Signa gerens, mitem, Divae armipotentis olivam.</l>
+        <l>Scripturam legisse placet; dignissima lectu est:</l>
+        <l>Tertia lex tituli (cui nomen fecit Julus)<note place="foot" xml:id="ftn1" n="1">L. 3. C. ad L. Jul. repetund.</note>
         </l>
-            <l>
+        <l>Quo repetis, qua non fas est semel ara dedisse:</l>
+        <l n="75">Observanda venit: post hanc memor esto Novelle,</l>
+        <l>Septima post decimam, quae te subit ordine primo.<note place="foot" xml:id="ftn2" n="2">Nov. 17. cap. I.</note>
+        </l>
+        <l>
           <pb xml:id="F31v"/>Caetera sum vita tuam morumque tuorum,</l>
-            <l>Nilque quod ex Nobis discendum restat, habebis.</l>
-            <l>Denique iam quartam, quae longe est maxima, classem</l>
-            <l n="80">Cernite, quam toto Princeps et Pastor in orbe</l>
-            <l>Praegreditur, suavique pedo, binisque decorus</l>
-            <l>Clavibus, et triplici, summo de Iure corona.</l>
-            <l>Hic quoque victori quaenam det verba, legamus,</l>
-            <l>Pauca quidem, potiora tamen, quam prima fuere:</l>
-            <l n="85">Gnate cave, dum resque finit, mea dicta revolve.</l>
-            <l>Quaeque Sacri Canones tibi mandant, fortius omni</l>
-            <l>Iure tene, reliquasque meis postponito leges.</l>
-            <l>Hac ubi praestiteris, veluti modo iure fuisti,</l>
-            <l>Victor semper eris, condignaque dona sequentur.</l>
-            <l n="90">Pompae finis adest, sed cuinam instructa videtur?</l>
-            <l>Quis quis dicet, erit magnus mihi semper Apollo.</l>
-            <l>Dicam ego: non alium, quam te, victoria spectat</l>
-            <l>Isthaec, atque tuos ornant monumenta triumphos,</l>
-            <l>O Superis, hominque nimis dilecte Ioannes,</l>
-            <l n="95">O semper nostros inter memorande sodales!</l>
-            <l>Neve putes, fictas quod spargat fabula voces,</l>
-            <l>Vatidicam campi Lucani accessimus urbem,</l>
-            <l>Inque sibyllinis praeconia legimus antris</l>
-            <l>Et nec ventus erat, ramos qui turbine facto</l>
-            <l n="100">Disicerer, foliisque suas confundere sortes</l>
-            <l>Posset, et incertas sine spe dimittere mentes.</l>
-            <l>His erat inscriptum: non per privata cucurrit</l>
-            <l>
+        <l>Nilque quod ex Nobis discendum restat, habebis.</l>
+        <l>Denique iam quartam, quae longe est maxima, classem</l>
+        <l n="80">Cernite, quam toto Princeps et Pastor in orbe</l>
+        <l>Praegreditur, suavique pedo, binisque decorus</l>
+        <l>Clavibus, et triplici, summo de Iure corona.</l>
+        <l>Hic quoque victori quaenam det verba, legamus,</l>
+        <l>Pauca quidem, potiora tamen, quam prima fuere:</l>
+        <l n="85">Gnate cave, dum resque finit, mea dicta revolve.</l>
+        <l>Quaeque Sacri Canones tibi mandant, fortius omni</l>
+        <l>Iure tene, reliquasque meis postponito leges.</l>
+        <l>Hac ubi praestiteris, veluti modo iure fuisti,</l>
+        <l>Victor semper eris, condignaque dona sequentur.</l>
+        <l n="90">Pompae finis adest, sed cuinam instructa videtur?</l>
+        <l>Quis quis dicet, erit magnus mihi semper Apollo.</l>
+        <l>Dicam ego: non alium, quam te, victoria spectat</l>
+        <l>Isthaec, atque tuos ornant monumenta triumphos,</l>
+        <l>O Superis, hominque nimis dilecte Ioannes,</l>
+        <l n="95">O semper nostros inter memorande sodales!</l>
+        <l>Neve putes, fictas quod spargat fabula voces,</l>
+        <l>Vatidicam campi Lucani accessimus urbem,</l>
+        <l>Inque sibyllinis praeconia legimus antris</l>
+        <l>Et nec ventus erat, ramos qui turbine facto</l>
+        <l n="100">Disicerer, foliisque suas confundere sortes</l>
+        <l>Posset, et incertas sine spe dimittere mentes.</l>
+        <l>His erat inscriptum: non per privata cucurrit</l>
+        <l>
           <pb xml:id="F32r"/>Tantum Iura; sed et magnos per publica passus</l>
-            <l>Fecit, et immensam sibi quasus undique famam.</l>
-            <l n="105">Consule naturam, gentesque et consule Cives,</l>
-            <l>Quo sint orta modo, qua sint ab origine ducta</l>
-            <l>Publica Iura, dabit vester documenta Ioannes</l>
-            <l>Aurea Bulla suis an sit obnoxia satis?</l>
-            <l>Quidque sub hoc casu de pacto Caesaris? aut quid</l>
-            <l n="110">De fonte Imperii et de Iure, quod arroget audax</l>
-            <l>Teuto sibi, Teuto populo generosior omni;</l>
-            <l>Quaeve gubernandi ratio per caetera praestet?</l>
-            <l>Quo statui pacto summus supter omnia Princeps</l>
-            <l>Debeat? an nostro Monarchica tempore regna</l>
-            <l n="115">Sint censenda? vel his abrepto quomodo clavo</l>
-            <l>Conservanda salus? qua sint Regalia Summi</l>
-            <l>Principis? Imperii tandem sit quale supremum </l>
-            <l>Iudicium? quid sit status? Electerque? Quid imus</l>
-            <l>Princeps? Iure alios quisnam preaecedat? et urbes</l>
-            <l n="120">Qua sint imperii? quis Nobilis? unde Scholarum </l>
-            <l>Fundamenta? quibus sint praedita Iuribus arma?</l>
-            <l>Quid sit comitium? crede, haec, et plura resolvet.</l>
-            <l>Haec ubi transiimus, retroque relegimus aedes,</l>
-            <l>Advolata dextra magni Iovis armiger ales,</l>
-            <l n="125">Mox et picus adest, falcoque exortus ab Austro,</l>
-            <l>Et procul extremo corvus bene missus ab ortu.</l>
-            <l>Cepimus augurium, strepitusque repente tubarum</l>
-            <l>(Haud secus, ac vellet confundere praelia Mavors)</l>
-            <l>
+        <l>Fecit, et immensam sibi quasus undique famam.</l>
+        <l n="105">Consule naturam, gentesque et consule Cives,</l>
+        <l>Quo sint orta modo, qua sint ab origine ducta</l>
+        <l>Publica Iura, dabit vester documenta Ioannes</l>
+        <l>Aurea Bulla suis an sit obnoxia satis?</l>
+        <l>Quidque sub hoc casu de pacto Caesaris? aut quid</l>
+        <l n="110">De fonte Imperii et de Iure, quod arroget audax</l>
+        <l>Teuto sibi, Teuto populo generosior omni;</l>
+        <l>Quaeve gubernandi ratio per caetera praestet?</l>
+        <l>Quo statui pacto summus supter omnia Princeps</l>
+        <l>Debeat? an nostro Monarchica tempore regna</l>
+        <l n="115">Sint censenda? vel his abrepto quomodo clavo</l>
+        <l>Conservanda salus? qua sint Regalia Summi</l>
+        <l>Principis? Imperii tandem sit quale supremum</l>
+        <l>Iudicium? quid sit status? Electerque? Quid imus</l>
+        <l>Princeps? Iure alios quisnam preaecedat? et urbes</l>
+        <l n="120">Qua sint imperii? quis Nobilis? unde Scholarum</l>
+        <l>Fundamenta? quibus sint praedita Iuribus arma?</l>
+        <l>Quid sit comitium? crede, haec, et plura resolvet.</l>
+        <l>Haec ubi transiimus, retroque relegimus aedes,</l>
+        <l>Advolata dextra magni Iovis armiger ales,</l>
+        <l n="125">Mox et picus adest, falcoque exortus ab Austro,</l>
+        <l>Et procul extremo corvus bene missus ab ortu.</l>
+        <l>Cepimus augurium, strepitusque repente tubarum</l>
+        <l>(Haud secus, ac vellet confundere praelia Mavors)</l>
+        <l>
           <pb xml:id="F32v"/>Intonuit, nostrasque subhaec penetravit ad aures</l>
-            <l n="130">Vox ingens, quasi Stentoreo de gutture missa,</l>
-            <l>Atque haec verba dedit: Cantabitur orbe Ioannes,</l>
-            <l>Donec erit Phaebus, Convexaque sidera coeli</l>
-            <l>Ornabunt tacitae radiantia tempora Lunae.</l>
-            <l>Scilicet implevit meritis, et honoribus aequis</l>
-            <l n="135">Solis utramque Domum, et sedes. Boreaque Notique.</l>
-            <l>Haec ego Fama loquor, dabit experientia verum.</l>
-            <l>Hisce preces fas est etiam subnectere nostras:</l>
-            <l>Vive diu felix, nostris Solamen amorque</l>
-            <l>Pectoribus, tantumque cave, ne forte ministret,</l>
-            <l n="140">Quo minus esse memor nostri, quem cernis, amoris,</l>
-            <l>Atque Sodalitii possis, tibi pocula Lethe.</l>
-            <l>Caetera, nomen adhuc vivum (Libitina recedat)</l>
-            <l>Cantantes sublime ferent super aethera Cygni.</l>
-            <p>Ita accinunt.</p>
-            <p>Devinctissimi</p>
-            <p>Praenobilis Ignat. Maria Pichler de et in Rungg. J. U. Stud. Nob. Georg. Joseph.
+        <l n="130">Vox ingens, quasi Stentoreo de gutture missa,</l>
+        <l>Atque haec verba dedit: Cantabitur orbe Ioannes,</l>
+        <l>Donec erit Phaebus, Convexaque sidera coeli</l>
+        <l>Ornabunt tacitae radiantia tempora Lunae.</l>
+        <l>Scilicet implevit meritis, et honoribus aequis</l>
+        <l n="135">Solis utramque Domum, et sedes. Boreaque Notique.</l>
+        <l>Haec ego Fama loquor, dabit experientia verum.</l>
+        <l>Hisce preces fas est etiam subnectere nostras:</l>
+        <l>Vive diu felix, nostris Solamen amorque</l>
+        <l>Pectoribus, tantumque cave, ne forte ministret,</l>
+        <l n="140">Quo minus esse memor nostri, quem cernis, amoris,</l>
+        <l>Atque Sodalitii possis, tibi pocula Lethe.</l>
+        <l>Caetera, nomen adhuc vivum (Libitina recedat)</l>
+        <l>Cantantes sublime ferent super aethera Cygni.</l>
+        <p>Ita accinunt.</p>
+        <p>Devinctissimi</p>
+        <p>Praenobilis Ignat. Maria Pichler de et in Rungg. J. U. Stud. Nob. Georg. Joseph.
                 Haidlberger. Nob. Franc. Joseph. Zvverger, ambo AA. LL. et Philosophiae Magistri ac
                 Iuris Utrisque Stud.</p>
       </div>
-        </body>
-    </text>
+    </body>
+  </text>
 </TEI>

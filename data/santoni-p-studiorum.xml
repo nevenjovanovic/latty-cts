@@ -1,85 +1,77 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>De Studiorum Instauratione, versio electronica</title>
-                <author key="santoni01">
-                    <name>Santoni, Paolo</name>
-                    <date precision="medium">1445-1510</date>
-                </author>
-                <respStmt>
-                    <resp>Hanc versionem electronicam curavit</resp>
-                    <name>Irina Tautschnig</name>
-                </respStmt>
-            </titleStmt>
-            
-            <editionStmt>
-                <edition>Digital text provided by the editor</edition>
-            </editionStmt>
-            
-            <extent/>
-            
-            <publicationStmt>
-                <p>Croatica et Tyrolensia: Tyrolis Latina <date>September 2015</date>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>De Studiorum Instauratione, versio electronica</title>
+        <author key="santoni01">
+          <name>Santoni, Paolo</name>
+          <date precision="medium">1445-1510</date>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Irina Tautschnig</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Digital text provided by the editor</edition>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
         </p>
-            </publicationStmt>
-            
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <author>Santoni, Paolo</author>
-                        <title>De Studiorum Instauratione a Celsissimo Viro Christophoro Sizzo, Tridentinorum
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Santoni, Paolo</author>
+            <title>De Studiorum Instauratione a Celsissimo Viro Christophoro Sizzo, Tridentinorum
                             Episcopo et Principe, Marchione Castellarii etc. Anno M. DCC. LXXIII. Sancita
                             Oratio</title>
-                        <imprint>
-                            <pubPlace>Trient</pubPlace>
-                            <date>1773</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-                <bibl>TLMF, Dip. 728/3</bibl>
-            </sourceDesc>
-        </fileDesc>
-        
-        <profileDesc>
-            <creation>
-                <date when="1773">1773</date>
-            </creation>
-            <textClass>
-                <keywords scheme="time">
-                    <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens (1773)</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>Rede</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        
-        <revisionDesc>
-            <change>corrected teiHeader and body<date>2015-09-23</date>
-                <name>Johanna Luggin</name>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-
-    <text>
-        <body>
-            <div>
-                <head>De Studiorum Instauratione a Celsissimo Viro Christophoro Sizzo, Tridentinorum
+            <imprint>
+              <pubPlace>Trient</pubPlace>
+              <date>1773</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>TLMF, Dip. 728/3</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1773">1773</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens (1773)</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Rede</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>corrected teiHeader and body<date>2015-09-23</date>
+        <name>Johanna Luggin</name>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>De Studiorum Instauratione a Celsissimo Viro Christophoro Sizzo, Tridentinorum
                     Episcopo et Principe, Marchione Castellarii etc. Anno M. DCC. LXXIII. Sancita
                     Oratio.</head>
-                <p>Tridenti, ex Typographia Episcopali Monauniana.</p>
-                <p>Sumptu Seminarii Episcopalis.</p>
-
-            </div>
-            <pb/>
-            <div>
-                <head>Viro Celsissimo Christophoro Sizzo, Tridentinorum Episcopo et Principi,
+        <p>Tridenti, ex Typographia Episcopali Monauniana.</p>
+        <p>Sumptu Seminarii Episcopalis.</p>
+      </div>
+      <pb/>
+      <div>
+        <head>Viro Celsissimo Christophoro Sizzo, Tridentinorum Episcopo et Principi,
                     Marchioni Castellarii etc. Presbyter Franciscus Santoni, Episcopalis Seminarii
                     Rector.</head>
-                <p>Cum non pauci viri graves, quos plurimum suspicio, me vehementer poposcissent,
+        <p>Cum non pauci viri graves, quos plurimum suspicio, me vehementer poposcissent,
                     Celsissime Princeps, quin etiam pro sua humanitate obsecrassent, ut orationem,
-                    quam pro Tua instauratione <pb/> studiorum conscripsi atque ante conspectum Tuum
+                    quam pro Tua instauratione<pb/>studiorum conscripsi atque ante conspectum Tuum
                     in solemni frequentissimoque doctorum virorum conventu recitavi, typis mandarem,
                     eorum tamen votis ex ea potissimum ratione obsistendum mihi persuaseram, quod
                     omnia sapientissimi instituti Tui capita complecti nequiverim, quaeque praeterea
@@ -91,7 +83,7 @@
                     adducerem, si orationem hanc incomptam hac maxime tempestate mihi vulgare
                     sumerem, quae usque adeo morosa est ac difficilis, ut non modo scrupulose
                     minutimque rimetur omnia, verum etiam ad invidiam aliis faciendam ea, quae
-                    nullibi invenias, aucupetur animoque obvolvat. Iidem <pb/> tamen viri in
+                    nullibi invenias, aucupetur animoque obvolvat. Iidem<pb/>tamen viri in
                     proposito firmius permanentes, ut me repugnantem convincerent, alia me via
                     aggressi sunt: Clementissimum nempe assensum Tuum exorarunt. Vix itaque id mihi
                     delatum est, aegre quidem, sed animo reverenti de sententia decessi, cum
@@ -103,7 +95,7 @@
                     censorum aut lividorum quorumdam in fermento jacentium froenumque mordentium
                     inani forte metu exanimari. Patere igitur, Benignissime Princeps, ut, quoniam
                     orationi huic, quaecumque fuerit, imprimendae assensum Tuum benevole
-                    accommodasti, eandem Reverendissimae Celsitudinis <pb/>Tuae auspicio vel ideo
+                    accommodasti, eandem Reverendissimae Celsitudinis<pb/>Tuae auspicio vel ideo
                     typis committam, ut omnes, ad quos ipsa pervenerit et sapientiam Tuam
                     Pastoralemque solicitudinem, qua erga concreditas Tibi oves subditasque gentes
                     vehementer afficeris, per me utcunque intelligant et summam meam in Te
@@ -113,17 +105,16 @@
                     nitor veniam a Te me facile impetraturum, Deumque impotentiae meae damna
                     opportune compensaturum esse confido. Centenos fortunatissimae carissimaeque
                     Dioecesi Tuae vivas feliciter annos.</p>
-            </div>
-            <pb n="1"/>
-            <div>
-                <head>De Tridentinorum Studiorum Instauratione Oratio.</head>
-                <p>Quam provinciam, Celsissime Princeps, pro singulari Tua in me benevolentia
+      </div>
+      <pb n="1"/>
+      <div>
+        <head>De Tridentinorum Studiorum Instauratione Oratio.</head>
+        <p>Quam provinciam, Celsissime Princeps, pro singulari Tua in me benevolentia
                     decrevisti mihi, ut ad frequentissimum istud ornatissimumque doctorum virorum
                     concilium de felicissima Tua Studiorum instauratione ante augustum conspectum
                     Tuum orationem haberem, eandem ut viribus meis plane superiorem modo tantum
                     persentiscere incipio. Cum enim suavissima gratia tua privatim duntaxat antea
-                    perfruerer ac praeterea paucos auditores, eosque inter domesticos <pb n="2"/>
-                    magis quam publicos parietes literarum studiis instituere hactenus consuevissem,
+                    perfruerer ac praeterea paucos auditores, eosque inter domesticos<pb n="2"/>magis quam publicos parietes literarum studiis instituere hactenus consuevissem,
                     sub ipsum idcirco clementissimae jussionis Tuae principium oneris gravitatem
                     haudquaquam satis praesensi. At modo qui Te amplissima dignitate Tua
                     praefulgentem adoro, qui Ecclesiae Tuae Senatum Summumque in eo Scholasticum
@@ -141,8 +132,7 @@
                     patiuntur erratum. Dicam igitur? Quomodo vero id praestem ego, quem labia ipsa
                     prope deficiunt? Hei mihi, qui rem tantam insipienter adeo suscepi! At nullae me
                     tamen ab incepto rationes deterreant: praevalido namque auspicio ductuque vestro
-                    confisus, Deipara Virgo, animo concidentium salus, Beatique Carole <pb n="3"/>
-                    atque Aloysi, Episcopalis Seminarii studiosaeque juventutis singulares Patroni,
+                    confisus, Deipara Virgo, animo concidentium salus, Beatique Carole<pb n="3"/>atque Aloysi, Episcopalis Seminarii studiosaeque juventutis singulares Patroni,
                     suavissimoque praeterea Tuo vultu firmatus, Humanissime Princeps, metum omnem
                     excutiam atque ad dicendum aggrediar. Interea vos, comissimi auditores, etiam
                     atque etiam rogo, ut propitiis auribus vestris mihi dicenti vires superaddere
@@ -152,16 +142,15 @@
                     sint, quae in amplissimam Dioecesin Tuam, Celsissime Praesul, ex novissima per
                     Te jam decreta Studiorum instituendorum ratione derivabunt emolumenta, quam per
                     me fieri poterit, nitidissime aeque ac strictissime ostendam.</p>
-            </div>
-            <div>
-                <head>I.</head>
-                <p>Publicae privataeque felicitatis summam in recta puerorum institutione
+      </div>
+      <div>
+        <head>I.</head>
+        <p>Publicae privataeque felicitatis summam in recta puerorum institutione
                     collocandam esse jam inde ab imperiorum exordio in confessum venit. Aegyptiorum
                     enim, Atheniensium, Lacedaemonum, Cretensium, Persarum aliarumque priscarum
                     gentium dominatores sibi persuasissimum habentes pueros ad rempublicam magis
                     quam ad parentes spectare, ut Aristoteles in Politicis observat et in Lycurgo
-                    Plutarchus, hoc unum de puerorum institutione caput sic diligenter <pb n="4"/>
-                    versarunt, ut nesciam, an posteriorum temporum legislatores, quanquam virtute
+                    Plutarchus, hoc unum de puerorum institutione caput sic diligenter<pb n="4"/>versarunt, ut nesciam, an posteriorum temporum legislatores, quanquam virtute
                     animique cultura priscis illis multum praecellere videantur, par tamen studium
                     in re tanti molumenti posuerint. Idem sane Plutarchus in Lycurgi Numaeque
                     Pompilii comparatione advertit multum durasse instituta prioris, quod optimas de
@@ -180,7 +169,7 @@
                     acquiescere fortasse detrectet, potissima eorundem virorum argumenta audire haud
                     gravate ferat, ac minime dubito, quin hac in causa unum omnes atque idem
                     sentiatis: quanquam argumenta ipsa candide quidem, at summatim tamen in medium
-                    sim adducturus. Ac primo <pb n="5"/>quidem: observat Quintilianus publicam
+                    sim adducturus. Ac primo<pb n="5"/>quidem: observat Quintilianus publicam
                     institutionem animos puerorum sic erigere, ut non pertimescant homines,
                     eosdemque inflammare, ut in publicum audentius prodeant: quod in privata
                     institutione vix aut nullo modo sperandum. Hujus autem vim argumenti, quod primo
@@ -199,7 +188,7 @@
                     ut pauci, quibus datum est in rerum naturam intrare, universalem fascinationem
                     istam eludant. Ex qua duplici observatione quisque vestrum id sane concludet,
                     probe quidem, at publice simul instituendam esse juventam. Assuescat ergo jam a
-                    tenero puer, ut Quintilianus ait Rolliniusque <pb n="6"/>confirmat, non
+                    tenero puer, ut Quintilianus ait Rolliniusque<pb n="6"/>confirmat, non
                     reformidare homines neque illa solitaria et veluti umbratili vita pallescere.
                     Excitanda mens et attollenda semper est, quae in hujusmodi secretis aut
                     languescit et quemdam velut in opaco situm ducit aut contra intumescit inani
@@ -219,7 +208,7 @@
                     fugere oporteat, atque adeo delectet, in virtutibus autem turpe ducunt cedere
                     pari, pulchrum superasse majores. Et licet ipsa vitium sit ambitio, ut
                     Quintilianus advertit, frequenter tamen, ut is ipse testatur, causa virtutum
-                    est. Quod jure quadantenus <pb n="7"/>ab eo affirmari nemo unus vestrum
+                    est. Quod jure quadantenus<pb n="7"/>ab eo affirmari nemo unus vestrum
                     diffitebitur, qui amoris proprii naturam non a morosis quibusdam asceticis, ut
                     ajunt, scriptoribus, sed ab ipsa generis humani conditione rite desumere ac
                     moderare didicerit. Idque praeclarissimos viros Antonium Mariam Salvinium in
@@ -232,15 +221,13 @@
                     ingenia in publica quidem institutione naviter exerceantur atque in dies
                     promptiora evadant, incultu vero socordiaque in privata torpescant. Nam ut
                     fervens oratio plurimum valet ad excitandos movendosque auditorum animos, ita
-                    pigra segnisque fastidium movet somnumque conciliat. <quote>Tantum
-                        abfuit</quote>, inquiebat Tullius Callidium frigidum oratorem alloquens,
-                        <quote>ut inflammares nostros animos: somnum isto loco vix
-                    tenebamus.</quote> Cum itaque ex hactenus dictis luculentissime pateat longe
+                    pigra segnisque fastidium movet somnumque conciliat.<quote>Tantum
+                        abfuit</quote>, inquiebat Tullius Callidium frigidum oratorem alloquens,<quote>ut inflammares nostros animos: somnum isto loco vix
+                    tenebamus.</quote>Cum itaque ex hactenus dictis luculentissime pateat longe
                     majorem pueros ex publica quam ex privata institutione fructum colligere, hinc
                     quilibet vestrum huic illam anteponendam esse mecum indubitanter putabit. At
                     enim quaeret aliquis majorem quoque in scholis quam domi timendam esse morum
-                    corruptionem. Unde protinus inferet pueros, quoniam potior de <pb n="8"/>
-                    honestate morum quam de profectu in literis habenda est ratio, a scholis
+                    corruptionem. Unde protinus inferet pueros, quoniam potior de<pb n="8"/>honestate morum quam de profectu in literis habenda est ratio, a scholis
                     publicis, quantum fieri potest, removendos esse. Fateor hoc unum, quod alicuius
                     quidem momenti sit, contra publicam puerorum institutionem objici posse. Nullus
                     tamen dubito, quin possit usque adeo resolvi, ut non modo pro nihilo habendum
@@ -258,8 +245,7 @@
                     fuerint, sive tales ibidem evaserint. Diespiter ego, quod ad nostros filios
                     attinet, scholas publicas perduit. Bona verba, quaeso. Motum animi tantillum
                     sedate meque idem negotium insistentem tranquille rursus audite. Erant saeculo
-                    Ecclesiae quarto in Cappadocia familae duae genere, opibus ac pietate illustres,
-                        <pb n="9"/>ex quarum altera prodiit Basilius Magnus, ex altera vero
+                    Ecclesiae quarto in Cappadocia familae duae genere, opibus ac pietate illustres,<pb n="9"/>ex quarum altera prodiit Basilius Magnus, ex altera vero
                     Gregorius Nazianzenus, pueri ambo forma decori, praecellentes ingenio morumque
                     urbanitate suaves. Juxta vos ergo pueri nulli excogitari poterunt, in quibus
                     magis quam in Gregorio et Basilio ea omnia conspirent, quae parentibus suadeant,
@@ -278,7 +264,7 @@
                     regebant. Quid vultis amplius, aut quid reponetis ad ista? Publicasne scholas
                     etiamnum criminabimini? Quid tum vero, si millena hujusmodi exempla vobis
                     enarrem? Quamplurimi enim e Sanctis Ecclesiae Patribus aliisque piissmis viris
-                    jam inde ab initio nascentis Ecclesiae ad nostram usque <pb n="10"/>aetatem ad
+                    jam inde ab initio nascentis Ecclesiae ad nostram usque<pb n="10"/>aetatem ad
                     hunc modum instituti fuere. Verumtamen, quoniam humanissimi Principis patientia
                     abrumpenda non est, id solum ad eorum, quae dixi, confirmationem adjiciam, morum
                     scilicet integritatem aut depravationem ab educatione, quae pueris a teneris
@@ -295,10 +281,9 @@
                     removeantur christianaque subinde institutione rite informentur, adolescentes
                     bene moratos nusquam gentium desideres; sin secus, improbos ubivis reperias
                     necesse est: eumque vitae habitum ad senectam usque tenebunt, quo se in
-                    adolescentia induerunt, Spiritu Sancto id verbis hisce attestante:
-                        <quote>Adolescens juxta viam suam, etiam cum senuerit, non recedet ab
-                        ea.</quote> Unde factum est etiam, ut Basilius Magnus et Gregorius
-                    Nazianzenus, quod domi ab infantibus ad christianam pietatem <pb n="11"/>probe
+                    adolescentia induerunt, Spiritu Sancto id verbis hisce attestante:<quote>Adolescens juxta viam suam, etiam cum senuerit, non recedet ab
+                        ea.</quote>Unde factum est etiam, ut Basilius Magnus et Gregorius
+                    Nazianzenus, quod domi ab infantibus ad christianam pietatem<pb n="11"/>probe
                     seduloque educati sunt, viri non solum doctrina illustres, verum etiam
                     sanctitate insignes evaserint, licet prima aetate vix completa iis in scholis
                     eisque in civitatibus, quas paullo ante memoravi, artium liberalium studio
@@ -317,11 +302,11 @@
                     ipsa etiam ab incunabulis Ecclesia probante ubique locorum solicite perpetuoque
                     servatum laudibus subinde attollet falsisque judiciis a mente procul amandatis
                     privatae institutione anteponendum incunctanter decernet.</p>
-            </div>
-            <pb n="12"/>
-            <div>
-                <head>II.</head>
-                <p>Hisce veluti fundamenti loco positis ad alterum orationis membrum, quaenam
+      </div>
+      <pb n="12"/>
+      <div>
+        <head>II.</head>
+        <p>Hisce veluti fundamenti loco positis ad alterum orationis membrum, quaenam
                     scilicet publica puerorum institutio recta dicenda sit, perspicue breviterque
                     aperiendum accedo. Quae res quanti sit momenti, nemo non videt. Nam ut multum
                     quidem refert infirmo periclitanti Medicum advocare, plurimum vero aptam eidem
@@ -337,8 +322,8 @@
                     proposito declinem, ad tertium orationis caput priora transponam, ubi
                     opportunius, quoad ea, quae majoris sunt momenti, enucleabantur; Magistrorum
                     autem fidei Studiorumque Praefectis posteriora committam, quos optimis hanc in
-                    rem editis libris instructos esse indubitatum teneo, <pb n="13"/>veluti Carolo
-                    Rollinio, Joanne Lockio* <note place="foot">* Mirabuntur forte nonnulli, quod
+                    rem editis libris instructos esse indubitatum teneo,<pb n="13"/>veluti Carolo
+                    Rollinio, Joanne Lockio*<note place="foot">* Mirabuntur forte nonnulli, quod
                         hac in altera orationis parte honestam Joannis Lockii mentionem faciam,
                         ejusdem autem auctoritatem in parte priore neglexerim, licet eorum
                         Sententiam impugnet, qui publicam puerorum institutionem privatae
@@ -359,7 +344,7 @@
                         referuntur. Non erat propterea necesse, ut Lockii auctoritatem ibi mihi
                         expresse objicerem, sed satis esse putavi summam argumentorum, quae ipsi
                         aliisque communia sunt, afferre atque diluere, suppresso celebris hujus
-                        auctoris nomine. Si namque ipsum nominatim quoque citassem, <pb n="14"/>non
+                        auctoris nomine. Si namque ipsum nominatim quoque citassem,<pb n="14"/>non
                         modo vim nullam orationi adjunxissem, verum, contra quam oportebat, eandem
                         plurimum attenuassem, quoniam Lockii nomen atque auctoritas auditorum animos
                         ita commovisset, ut, dissolutis etiam ipsius argumentis, opinionem mente
@@ -371,8 +356,8 @@
                         exempli gratia, celebris ex Sancti Benedicti Ordine Scriptor, licet in
                         Rhetorica se multum versatum ex iis ostenderit, quae contra Balthassarem
                         Gibertum nobilissimum artis oratoriae Professorem scriptoremque multo ardore
-                        vulgavit, is tamen in opere suo contra Spinozam, quod <quote>Novus Atheismus
-                            eversus</quote> inscripsit, quae hujus impii argumenta luculenter ipse
+                        vulgavit, is tamen in opere suo contra Spinozam, quod<quote>Novus Atheismus
+                            eversus</quote>inscripsit, quae hujus impii argumenta luculenter ipse
                         exposuit, infeliciter adeo refellit, ut non jam Atheos evertere, sed
                         confirmare potius videatur. Historiae quoque literariae Studiosi haud
                         ignorant, quantum poenarum simillimam ob causam pertulit scriptor illustris
@@ -381,21 +366,21 @@
                         multum abhorruisse haud satis certe dolendum. Gravissimas enim quandoque
                         sibi difficultates in iis opponit, quas deinde vel in medio prorsus
                         relinquit vel lubrice aut praepostere solvit. Nam Lib. I. cap. V. exempli
-                        causa, <quote>in quo eorum argumentis <pb n="15"/>veteris testamenti
+                        causa,<quote>in quo eorum argumentis<pb n="15"/>veteris testamenti
                             auctoritatem aut evertere aut elevare conantur</quote>, tribus ejusmodi
                         argumentorum classibus positis, postremum secundae classis argumentum sine
                         ullo plane responso relinquit; tertium vero classis tertiae, quod sibi
-                        verbis hisce opposuerat: <quote>III. Genes. 46. v. 26. Cunctae animae, quae
+                        verbis hisce opposuerat:<quote>III. Genes. 46. v. 26. Cunctae animae, quae
                             ingressae sunt cum Jacob in Aegyptum, fuere sexaginta sex. At Stephanus
                             Act. 7. v. 14. numerat septuaginta quinque</quote>: hoc, inquam,
-                        argumentum ad hunc modum resolvit: <quote>Ad tertium, narrationem
+                        argumentum ad hunc modum resolvit:<quote>Ad tertium, narrationem
                             interpolavit Stephanus, ut perspecte Melchior Canus: Sed Stephanus
                             spiritu Dei non loquebatur: Lucas vero retulit, quae Stephanus dixerat,
-                            etiamsi minus vera.</quote> Quo uno responso triplicem gravem admodum
+                            etiamsi minus vera.</quote>Quo uno responso triplicem gravem admodum
                         culpam Genuensis admittit. Nam primo in Melchiorem Canum, qui alia prorsus
                         ratione argumentum diluit, ampliter mentitur: tum Sanctum Stephanum, quem
-                        Sanctus Lucas Act. cap. VI. et VII. <quote>virum plenum Spiritu
-                            Sancto</quote> appellat, conviciis proscindit: divinamque postremo
+                        Sanctus Lucas Act. cap. VI. et VII.<quote>virum plenum Spiritu
+                            Sancto</quote>appellat, conviciis proscindit: divinamque postremo
                         Sacrarum Scripturarum auctoritatem vacillantem intolerantissime reddit. Quae
                         omnia vitare facillime poterat, si respondisset numerum animarum, quae in
                         Aegyptum cum Jacob ingressae dicuntur, pro varietate Scripturae sacrae
@@ -405,7 +390,7 @@
                         sexaginta sex tantummodo, quoniam eo numero non comprehenduntur Jacob et
                         Joseph hujusque duo filii Manasses et Ephraim: at vero proxime sequenti
                         ejusdem capitis versiculo Septuaginta ideo fuisse affirmant, quoniam hae
-                        quatuor versiculo antecedenti <pb n="16"/>omissae hic numerantur.
+                        quatuor versiculo antecedenti<pb n="16"/>omissae hic numerantur.
                         Septuaginta porro Interpretes antedicto septuagenario animarum numero alias
                         quinque insuper adjiciunt, tres scilicet nepotes duosque pronepotes Josephi:
                         unde factum est, ut Septuaginta quinque ab iisdem fuisse dicantur. Nihil est
@@ -417,8 +402,8 @@
                         atque in novum transtulerint. Nihil est igitur, quod miremur Sanctum
                         Stephanum ex Hellenistis delectum et cum Hellenistis disputantem, prout ex
                         Act. cap. VI. et VII. apparet, juxta eandem Septuaginta Interpretum
-                        Versionem affirmasse <quote>omnem Josephi cognationem animabus septuaginta
-                            quinque</quote> constitisse. Id potius summe demirandum Antonium
+                        Versionem affirmasse<quote>omnem Josephi cognationem animabus septuaginta
+                            quinque</quote>constitisse. Id potius summe demirandum Antonium
                         Genuensem, cum praedictum argumentum perversa ratione illa solvere ausus
                         est, usque adeo dormitasse, ut haec non animadverterit, praesertim cum ille
                         ipse Lib. I. cap. I. §. 9. scripsisset non modo Judaeos Hellenistas omnesque
@@ -430,13 +415,12 @@
                         objectassem, absurde nimis et contra oratoriae artis naturam proposito meo
                         nocuissem; proptereaque summam ejusdem argumentorum mihi tantum opponere
                         subindeque diluere satius esse putavi.</note>, Carolo Gobineto,
-                    praetermissis innumeris, idque unum hoc temporis agam, <pb n="14"/>ut
+                    praetermissis innumeris, idque unum hoc temporis agam,<pb n="14"/>ut
                     demonstrem rectae institutionis summam in eo reponendam esse, ut Studia omnia,
-                    quoniam arcta quadam cognatione inter <pb n="15"/>se continentur, ita sint
+                    quoniam arcta quadam cognatione inter<pb n="15"/>se continentur, ita sint
                     invicem connexa sibique mutuo respondeant, ut unum alteri viam ad amussim deque
-                    industria <pb n="16"/>complanet. Ita enim fiet aedepol, ut pueri mediocris
-                    etiam ingenii, dummodo ad ejusmodi studia diligentiam conferant <pb n="17"/>
-                    eorumque cursum absolute impleant, magnum inde fructum reportent, omni vero
+                    industria<pb n="16"/>complanet. Ita enim fiet aedepol, ut pueri mediocris
+                    etiam ingenii, dummodo ad ejusmodi studia diligentiam conferant<pb n="17"/>eorumque cursum absolute impleant, magnum inde fructum reportent, omni vero
                     scientia perfecti evadant, qui fuerint ingenio ferventes. Enimvero qui studii
                     unius rudimenta hic quidem sub uno ponunt magistro, alterius vero alibi sub
                     altero, trioboli doctores suis in officis perpetuo claudicantes evadunt. Nam et
@@ -455,7 +439,7 @@
                     improbique Sacerdotes, genus omne malorum. Possunt inordinata istiusmodi studia,
                     quae penitus exterminanda forent, rusticanis quibusdam domibus haud prorsus
                     inepte conferri. Considerastisne unquam, doctissimi auditores, locupletium
-                    quorumdam agricolarum multam <pb n="18"/>familiam habentium satis amplas aedes?
+                    quorumdam agricolarum multam<pb n="18"/>familiam habentium satis amplas aedes?
                     Si vel parum ordinis et architectonices amantes estis, risum profecto, ne dicam
                     bilem, vobis permoverint. Earum siquidem tecta sunt partim alta, partim vero
                     praeter modum humilia; horumque suggrundia hinc multum prominent, istinc autem
@@ -475,7 +459,7 @@
                     singuli: angusta et inquinata usque adeo cubicula, ut prae aeris crassitudine
                     respirationem elidant retroque praecipitatentem foetorem undique spirent: ita
                     depressae hiantesque contignationes, ut summis digitis illas contingas foedusque
-                    pulvis, quem luxuriantes <pb n="19"/>desuper sorices inde projiciunt, reboantia
+                    pulvis, quem luxuriantes<pb n="19"/>desuper sorices inde projiciunt, reboantia
                     stertentium rusticorum ora infarciat: pavimenta sic hinc inde discissa, ut lento
                     gradu incedendum sit, ne tali ad singulos passus luxentur: praesepia hircum
                     olentia ac ita praepostere locata, ut omnem contagio vicinitatem inficiant.
@@ -494,14 +478,14 @@
                     ipsarum viam alteri data opera ita exaequet, ut rem res consequatur et
                     conveniant posteriora prioribus. Nam si omnibus certe in rebus tam magnis quam
                     minimis etiam summa adeo vis ordinis est, ut familiarum, civitatum, regnorum
-                    coelique ipsius totiusque mundi status atque felicitas prorsus <pb n="20"/>ab
+                    coelique ipsius totiusque mundi status atque felicitas prorsus<pb n="20"/>ab
                     ordine pendeat nullaque omnino sine ordine res queat firma stabilisque
                     consistere, non potest profecto non hinc necessario concludi in ordine quoque
                     Studiorum cardinem verti.</p>
-            </div>
-            <div>
-                <head>III.</head>
-                <p>Te itaque Principem Celsissimum ter felicem voluptate gestiens appello, quod
+      </div>
+      <div>
+        <head>III.</head>
+        <p>Te itaque Principem Celsissimum ter felicem voluptate gestiens appello, quod
                     Superis tandem bene faventibus eo perveneris, ut, quanquam consilium pro tempore
                     ac re Tibi capere oportuerit, hujus tamen Civitatis et Dioecesis Tuae Studia eum
                     in ordinem adducere valueris, qui maxime necessarius est, ut literis operam
@@ -514,7 +498,7 @@
                     postulandum sit, suavissimus tamen aspectus Tuus me ad quosdam eorundem
                     flosculos hinc et illinc delibandos vehementer incendit. Dicam itaque primo,
                     quae sint exspectandae utilitates ex Grammaticae tradendae ratione, quam non
-                    sine considerando <pb n="21"/>Seminarii Tui proventuum coeteroquin angustorum
+                    sine considerando<pb n="21"/>Seminarii Tui proventuum coeteroquin angustorum
                     dispendio lubens constituisti, ut subditarum Tibi gentium bono commodisque
                     prospiceres. Conduplicasti namque artis hujus magistros et voluisti, ut, qui
                     latinae linguae praecepta Italis exponere debent, Itali sint, et qui Germanis,
@@ -533,7 +517,7 @@
                     praeterea Magistri, utpote linguam patriam probe callentes, suae quoque nationis
                     discipulos rectius tutiusque docebunt. Vestros deinde filios, nobilissimi cives,
                     si ab infantibus germanicam linguam vel inconcinniter eloqui, quod commode
-                    facere potestis, curaveritis, illam <pb n="22"/>ipsam deinde rebus vestris
+                    facere potestis, curaveritis, illam<pb n="22"/>ipsam deinde rebus vestris
                     feliciter promovendis admodum necessariam hisce in Scholis rite ac sine impensa
                     perdiscere valebunt. Postrema demum utilitas, quam magni ponderis esse cordatus
                     quisque dabit, in eo reponenda est, quod non latinam modo, sed et patriam
@@ -552,7 +536,7 @@
                     quadam simplicitate clarius apertiusque depromant scriptoque sua manu exarato
                     declarent, quam plures ex iis, qui Alvari impalluere Grammaticae. De politiori
                     autem Humanitate quidnam? Cum haec illa sit classis, in qua verborum, dictionum,
-                    poeticarumque elevationum vis et natura ponderatur atque percipitur, <pb n="23"/>quaeque propterea summam linguae studio manum imponit Studentiumque ingenia
+                    poeticarumque elevationum vis et natura ponderatur atque percipitur,<pb n="23"/>quaeque propterea summam linguae studio manum imponit Studentiumque ingenia
                     evolvit et explicat, idcirco voluisti, ut ejusdem auditores ad perfectam
                     utriusque Sermonis, patrii scilicet atque latini intelligentiam, qua carmine,
                     qua soluta oratione in ea ipsa extollantur. Quid vero de Rhetorices arte
@@ -561,18 +545,17 @@
                     laboribus maxime reflorescere tentat? Sanxisti, facundissime Praesul, ut divinae
                     hujus artis vis atque natura sit reponenda praecise in dicendo juxta leges
                     triplicis oratorii status, prout Cicero ejusdem facile princeps saepenumero
-                    tradit. Id namque duntaxat ad persuadendum flectendumque auditorum animos valet:
-                        <quote>in quo uno vis omnis oratoris est</quote>, ut Tullius ipse conceptis
+                    tradit. Id namque duntaxat ad persuadendum flectendumque auditorum animos valet:<quote>in quo uno vis omnis oratoris est</quote>, ut Tullius ipse conceptis
                     verbis affirmat. Qui enim cum Longini Demetriique Phalerei sectatoribus ajunt
                     principem oratoris curam esse debere verborum, nimium oh quantum a germana
                     Rhetorices notione secedunt! Illi enimvero, qui toti sunt in oratorio ornatu
                     tempusque in verborum, sententiarum similiumque ornamentorum lepore consumunt,
                     venustulos quidem literatores demulcent, nemini tamen, quod tractant, absolute
-                    persuadent. <quote>Ex rerum siquidem cognitione efflorescat et redundet oportet
+                    persuadent.<quote>Ex rerum siquidem cognitione efflorescat et redundet oportet
                         oratio, quae nisi subest, res ab oratore percepta et cognita inanem quamdam
                         habet elocutionem ac pene puerilem</quote>, ut Tullius in suis de Rhetorica
                     operibus frequentissime inculcat. Quapropter literarum amantes ac maxime
-                    Clericos <pb n="24"/>graviter hortari suaviterque allicere prudentissime
+                    Clericos<pb n="24"/>graviter hortari suaviterque allicere prudentissime
                     deliberasti, ut in artem oratoriam tum solum incumbant, cum studia, quae
                     uniuscujusque conditionem decent, absolverint. Nam tunc solummodo, cum materiam
                     ad artis leges digerendam in promptu habeant, vere idonei existimandi sunt, ut
@@ -584,16 +567,15 @@
                     fungantur. Ad Philosophiam quod attinet, tria maxime mihi commemoranda esse
                     video. Primum eorum est, quod philosophandi quidem libertatem Peripateticorum
                     terriculamenta funditus evertentem concesseris, at ita tamen, ut, quoniam ipsa
-                    nonnullis plus justo pretiosa evadit, ad absolutissimi <quote>De ingeniorum
-                        moderatione</quote> operis leges eandem temperandam esse praeceperis.
+                    nonnullis plus justo pretiosa evadit, ad absolutissimi<quote>De ingeniorum
+                        moderatione</quote>operis leges eandem temperandam esse praeceperis.
                     Alterum vero, quod Philosophiam quoque Moralem tradi volueris: id enim antea,
                     nescio quo pacto, non erat in more positum. Tecum itaque in animo
-                        considerans <quote>omnem</quote> quidem <quote>Philosophiae summam ad beate
-                        vivendum</quote>, ut Cicero ajebat, <quote>referri</quote>, sed id a Morali
+                        considerans<quote>omnem</quote>quidem<quote>Philosophiae summam ad beate
+                        vivendum</quote>, ut Cicero ajebat,<quote>referri</quote>, sed id a Morali
                     Philosophia maxime praestari animadvertens sapientissime idcirco mandasti, ut
                     morum ad rectae rationis normam componendorum plurimi aestimandam artem a
-                    Socrate Graecorum sapientissimo primum ex professo excultam <pb n="25"/>
-                    universos Philosophiae auditores Lyceum Tuum doceret. Quae ipsa praescriptio Tua
+                    Socrate Graecorum sapientissimo primum ex professo excultam<pb n="25"/>universos Philosophiae auditores Lyceum Tuum doceret. Quae ipsa praescriptio Tua
                     id eximii praeterea complectitur, ut, quae de hominum actionibus officiisque in
                     Ethica tradenda sunt, non ad incerta et sterilia vulgarium Scholasticorum
                     placita, sed ad indubia juris naturae principia optimis emolumentis
@@ -605,15 +587,14 @@
                     omnem prorsus sive humanam sive divinam quoque scientiam rite percipiendam
                     mentem aptissimam reddunt, adeo ut inter omnes Dialecticas longe praestent: quin
                     etiam ad omnem vitae humanae usum plurimum valent. Elementa porro dixisti, non
-                    autem tractationem plenissimam. Scite namque novisti, quod <quote>mathematica
+                    autem tractationem plenissimam. Scite namque novisti, quod<quote>mathematica
                         elementa</quote>, ut Clarissimus Mabillonius in celebri de Studiis
-                    Monasticis opere monuit, <quote>Studiosis quidem prosint, sed si semel bis
-                        immersus fuerit animus, vix unquam ad spiritualia assurgere valent.</quote>
-                    Qui enim se penitus in mathematicas disciplinas immergunt, eam sibi argumentandi
+                    Monasticis opere monuit,<quote>Studiosis quidem prosint, sed si semel bis
+                        immersus fuerit animus, vix unquam ad spiritualia assurgere valent.</quote>Qui enim se penitus in mathematicas disciplinas immergunt, eam sibi argumentandi
                     rationem, quae summam in omni re perspicuitatem absolute requirit, familiarem
                     adeo reddunt, ut caetera, quae hujusmodi evidentiam non exhibent, plane
                     despiciant. Unde fit, ut, quoniam christianae religionis mysteria, licet aliunde
-                    prorsus indubia evincantur, <pb n="26"/>ejus tamen generis evidentiam non
+                    prorsus indubia evincantur,<pb n="26"/>ejus tamen generis evidentiam non
                     admittunt, delicatissimum propterea istiusmodi Mathematicorum gustum terrenae
                     coelestisque Sapientiae discrimina haud satis annotantem offendant. Leviter ita
                     velutque in transitu iis tractatis, quae profana Studia respiciunt, ea modo,
@@ -628,12 +609,11 @@
                     falsas me fingere causas, ut moderatissimum Pastorem laudibus ornem? Ne Deus
                     siverit. Siqui tamen sint, qui de me ita forte opinentur, ducam eis primo in
                     argumentum Joannem Doujatium, virum ecclesiastica quidem antiquitate instructum
-                    et Jure canonico excultum, ajentem tamen <quote>Subjectum, circa quod versatur
+                    et Jure canonico excultum, ajentem tamen<quote>Subjectum, circa quod versatur
                         Jus canonicum, nihil aliud esse quam res ecclesiasticas, quatenus sub
-                        disceptationem cadunt.</quote> Ecquisnam, amabo vos, mentem Ecclesiae probe
+                        disceptationem cadunt.</quote>Ecquisnam, amabo vos, mentem Ecclesiae probe
                     assecutus istam Juris canonici definitionem aequo animo ferat? Qua etenim
-                    ratione intelligi potest augustam Regis pacifici sponsam christianae disciplinae
-                        <pb n="27"/>regulas, quae Juris canonici materiam constituunt, eo
+                    ratione intelligi potest augustam Regis pacifici sponsam christianae disciplinae<pb n="27"/>regulas, quae Juris canonici materiam constituunt, eo
                     potissimum consilio excogitasse, ut rerum ecclesiasticarum disceptationes, a
                     quibus suapte natura nimium quantum abhorret, valeant ex professo tractari?
                     Profecto qui de Juris hujus natura ita praepostere sentiunt, Isidorianam
@@ -643,18 +623,16 @@
                     ex omnibus hoc in loco non peccasse Doujatium, sed plerosque alios pares illi
                     sociosque fuisse. Nam multo etiam ante ipsius aetatem Sanctus Carolus
                     Borromaeus, cujus in ecclesiastica disciplina et antiquitate subactum ingenium
-                    Ecclesiae Mediolanensis Acta satis superque testantur, Sanctus Carolus, inquam,
-                        <quote>dolebat eos tantummodo canones communi consuetudine ad interpretandum
-                        seligi</quote>, ut ejus res gestae loquuntur, <quote>qui ad lites judiciaque
-                        valerent</quote>. Quapropter ipsum sapientissime decrevisse adjungunt, ut,
-                        <quote>qui sacris canonibus declarandis praeesset, illa afferret, ex quibus
+                    Ecclesiae Mediolanensis Acta satis superque testantur, Sanctus Carolus, inquam,<quote>dolebat eos tantummodo canones communi consuetudine ad interpretandum
+                        seligi</quote>, ut ejus res gestae loquuntur,<quote>qui ad lites judiciaque
+                        valerent</quote>. Quapropter ipsum sapientissime decrevisse adjungunt, ut,<quote>qui sacris canonibus declarandis praeesset, illa afferret, ex quibus
                         sacra Majorum instituta et ritus optimumque Ecclesiae componendae et
                         adiministrandae genus haurirentur</quote>. Ita sane de Canonico jure
                     sentiebat Sanctus Carolus Borromaeus, ille exempli Episcopus, ille Sacerdotii
                     decus. Tu igitur, consultissime Praesul, tanti exemplaris vestigia implens
                     mandasti, ut, qui Jus ecclesiasticum tradituri sunt, in posterum non in solo
                     Decretalium cortice insistant, verum in ipsis christianae disciplinae fontibus
-                    optimam Ecclesiae componendae ordinandaeque <pb n="28"/>rationem inquirant
+                    optimam Ecclesiae componendae ordinandaeque<pb n="28"/>rationem inquirant
                     ibique animadvertant Ecclesiam in condendis Sacris canonibus id maxime prae
                     oculis habuisse, ut per exterioris disciplinae instituta sacrarum rerum
                     praestantia et ipsi respondens animi veneratio, qua res ipsae tractandae sunt, a
@@ -673,15 +651,15 @@
                     juberes, princeps ejusdem Professoris officium in eo collocandum esse, ut in
                     humanarum actionum regulis exponendis id maxime perspiciat, quod interiorem
                     sinceramque earundem bonitatem gignere valet, in eoque aperiendo nervos omnes
-                    intendat. Vulgares namque Moralis Theologiae Magistri, <pb n="29"/>ut in iis
+                    intendat. Vulgares namque Moralis Theologiae Magistri,<pb n="29"/>ut in iis
                     enucleandis prolixiores sunt, quae ad materialem quamdam exterioremque
                     praeceptorum custodiam et peccata oculos perstringentia spectant, ita in iis
                     exponendis, quae intimam eorundem praeceptorum observationem vitiaque latitantia
                     respiciunt, adeo parciores evadunt, ut non christiani hominis institutores, sed
                     Pharisaeorum ingentia tantummodo delicta ceu Mercatores ad plenum vendentes
                     ponderantium instauratores esse videantur contra apertam Christi inclamantis
-                    sententiam: <quote>Pharisaee coece, munda prius, quod intus est calicis et
-                        paropsidis, ut fiat id, quod deforis est, mundum.</quote> Haec itaque
+                    sententiam:<quote>Pharisaee coece, munda prius, quod intus est calicis et
+                        paropsidis, ut fiat id, quod deforis est, mundum.</quote>Haec itaque
                     praescriptio Tua, integerrime Pastor, tanti est sane putanda, ut mores
                     christiana sinceritate dignos Tibi concreditis ovibus ipsa una restituere
                     valeat. Magna sunt equidem singula haec beneficia Tua, Celsissime Princeps.
@@ -693,7 +671,7 @@
                     fidemque in extremum adduci pavemus. Nam et in ipso Ecclesiae catholicae sinu
                     morantur homines recondita sapientiae arcana sibi unis revelata crepantes, qui
                     generis humani e religionis vinculis eximendi praetextu sacratiora fidei dogmata
-                    inverecunde pessundant vertuntque in risum. <pb n="30"/>Quae nequissima
+                    inverecunde pessundant vertuntque in risum.<pb n="30"/>Quae nequissima
                     improbitas partim quidem ex ingenti morum corruptela enascitur, maxime tamen ex
                     effraeni licentia illa repetenda est, qua eduntur et lectitantur opuscula
                     Ecclesiae Romanae documenta et instituta liberrime adeo carpentia, ut, nisi
@@ -713,7 +691,7 @@
                     Exemplis enim saepe deridendis magis quam reverendis aliisque similibus ineptiis
                     plurimum immorantur, fidei vero et sacri verbi capita, quae accuratissime
                     tractanda forent, leviter adeo exponunt, ut nullam aut ferme nullam eorundem
-                    persuasionem <pb n="31"/>sibi auditores inducant. Unde fit, ut christianae
+                    persuasionem<pb n="31"/>sibi auditores inducant. Unde fit, ut christianae
                     religionis virtus enervetur magis, quam rite concipiatur, et christianus hinc
                     populus crassa ista minerva institutus exteriorique praeterea quadam pietatis
                     specie ludificatus Pharisaeorum more potius, quam ut germanos Christi asseclas
@@ -732,7 +710,7 @@
                     humilitatis fiduciaeque dispendio cum patentes, tum latitantes Pelagii fautores,
                     qua cuniculis, qua vi aperta exterminare summeque infensam reddere attentarunt?
                     Vel ad intellecta consequendam naturam et praepotentem vim Sacrosancti Missae
-                    sacrificii, quod christianae plebi frequenter exponi <pb n="32"/>mandavit
+                    sacrificii, quod christianae plebi frequenter exponi<pb n="32"/>mandavit
                     generalis Tridentina Synodus, qua vos tantopere ornatissimi cives universo
                     terrarum orbi inclaruistis? Vel tandem, ut sexcenta, eaque gravissima capita
                     sileam, ad christianae religionis veritatem per credibilitatis, ut ajunt, motiva
@@ -751,8 +729,7 @@
                     Tuis cernere valeas: est enim magni laboris et temporis opus. Vos autem,
                     Pontificie Senatus Patresque Conscripti, quos publicae felicitatis amore
                     inflammatos perspicio, quin Principis Vestri consilium animo volenti unaque voce
-                    reapse juvetis, non dubito, ut Tridentino populo decorum <pb n="33"/>
-                    secundumque institutum per studia quoque vestra in dies plus plusque firmetur
+                    reapse juvetis, non dubito, ut Tridentino populo decorum<pb n="33"/>secundumque institutum per studia quoque vestra in dies plus plusque firmetur
                     atque augeatur. Cunctos vos porro, doctissimi auditores, hortor atque obtestor,
                     ut non modo vos ipsi ad unum omnes optimum Pastorem meritis prosequamini
                     laudibus eique pro tam utilissimo instituto immortales gratias habeatis, verum
@@ -771,12 +748,12 @@
                     Virginis Mariae Sanctorumque Caroli et Aloysii patrocinio vobis ab integerrimo
                     Pontifice per Studiorum Praefectum vehementer commendato hinc vos hausturos esse
                     pro certo pono, tanti instituta Pastoris universi plane dignoscant atque
-                    commendent. Sane hercle <pb n="34"/>Te Principem Celsissimum, Te
+                    commendent. Sane hercle<pb n="34"/>Te Principem Celsissimum, Te
                     Reverendissimum Praesulem, Te denique Pastorem sapientissimum non modo, qui
                     impraesentiarum sunt, laudibus propterea laeta fronte gratoque animo extollent,
                     sed et nati natorum , et qui nascentur ab illis.</p>
-                <p>Finis.</p>
-            </div>
-        </body>
-    </text>
+        <p>Finis.</p>
+      </div>
+    </body>
+  </text>
 </TEI>

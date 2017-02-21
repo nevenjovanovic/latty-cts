@@ -1,243 +1,238 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="anonymi-carmen">
-            <titleStmt>
-                <title>Carmen in natali celebritate serenissimae archid. Mariae Eleonorae faustissimis Leopoldo et Claudiae parentibus, laetae foecunditatis auspicio, primo genita, versio electronica</title>
-                <author>Anonymi poetae</author>
-                <respStmt>
-                    <resp>Hanc editionem electronicam curavit</resp>
-                    <name>Clementina Marsico</name>
-                </respStmt>
-            </titleStmt>
-            
-            <editionStmt>
-                <edition>transcribed from the printed text</edition>
-            </editionStmt>
-            <extent>8 folia</extent>
-            
-            <publicationStmt>
-                <p>Croatica et Tyrolensia: Tyrolis Latina <date>September 2015</date>
+  <teiHeader>
+    <fileDesc xml:id="anonymi-carmen">
+      <titleStmt>
+        <title xml:id="Anonymus52168">Carmen in natali celebritate serenissimae archid. Mariae Eleonorae faustissimis Leopoldo et Claudiae parentibus, laetae foecunditatis auspicio, primo genita, versio electronica</title>
+        <author>Anonymi poetae</author>
+        <respStmt>
+          <resp>Hanc editionem electronicam curavit</resp>
+          <name>Clementina Marsico</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>8 folia</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
         </p>
-            </publicationStmt> 
-            
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <title>Carmen in natali celebritate serenissimae archid. Mariae Eleonorae faustissimis Leopoldo et Claudiae parentibus, laetae foecunditatis auspicio, primo genita,</title>
-                        <imprint>
-                            <pubPlace>Innsbruck</pubPlace>
-                            <date when="1628">1628</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct> 
-                <bibl>ULBT, 30271/Adl. 5</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date when="1628">1628</date>
-            </creation>
-            <textClass>
-                <keywords scheme="time">
-                    <term>Das 17. Jh. bis zum Aussterben der Tiroler Linie der Habsburger (1665) und zur Gründung der Universität (1669)</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>Dichtung</term>
-                    <term>Genethliacon</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        
-        <revisionDesc>
-            <change>corrected teiHeader and body<date>2015-09-30</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>Carmen in natali celebritate serenissimae archid. Mariae Eleonorae faustissimis Leopoldo et Claudiae parentibus, laetae foecunditatis auspicio, primo genita,</title>
+            <imprint>
+              <pubPlace>Innsbruck</pubPlace>
+              <date when="1628">1628</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>ULBT, 30271/Adl. 5</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1628">1628</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Das 17. Jh. bis zum Aussterben der Tiroler Linie der Habsburger (1665) und zur Gründung der Universität (1669)</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Dichtung</term>
+          <term>Genethliacon</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>corrected teiHeader and body<date>2015-09-30</date>
         <name>Johanna Luggin</name>
       </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div>
-            <head>Carmen in natali celebritate serenissimae archiducissae <persName>Mariae Eleonorae</persName> faustissimis
-                <persName>Leopoldo</persName> et <persName>Claudia</persName> parentibus, laetae foecunditatis auspicio, primo genita.</head>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Carmen in natali celebritate serenissimae archiducissae<persName>Mariae Eleonorae</persName>faustissimis<persName>Leopoldo</persName>et<persName>Claudia</persName>parentibus, laetae foecunditatis auspicio, primo genita.</head>
       </div>
-            <div>
-                <lg>
-            <l>Castalii regina chori Melopeia canoris</l>
-            <l>Dic age quis fidibus torpor? Quae molle sonanti</l>
-            <l>Segnities plectro? Cur non Aganippide potae</l>
-            <l>Dulce sodalitium musae (tamen ante parabant)</l>
-            <l n="5">Ludere festive numeris genialibus audent?</l>
-            <l>Ergo licet cumulo votorum gaudia distent</l>
-            <l>Fas laudes tacuisse Deo? Qui sospitat alvi</l>
-            <l>Foecundam, et cara vegetat cum prole parentem?</l>
-            <l>Quantum noctis habent mortalia pectora vulgus</l>
-            <l n="10">Nempe exors rerum, quas inconsulta poposcit</l>
-            <l>Sedulitate precum, votoque ardente cupido,</l>
-            <l>Tantum non culpat celestia munera divum,</l>
-            <l>At non haec vestras agitat vesania mentes</l>
-            <l>Consortes pretiosae animae, quibus omne quod aequo</l>
-            <l n="15">Temperat arbitrio divum sator, atque hominum rex</l>
-            <l>Vultu hilari, et grato acceptum reverenter habetur.</l>
-            <l>Macti animis, et spe: vester quae flagitat ardor</l>
-            <l>Tempestive aderunt: intempestiva parantur</l>
-            <l>
-            <pb/> Exitio, nimiumque cito properata senescunt,</l>
-            <l n="20">At quae festinat lente fortuna perennat,</l>
-            <l>Aetatem saevas contra latura procellas,</l>
-            <l>Ingratasque moras conpensatura beato</l>
-            <l>Foenore laetitiae et vena lucente bonorum.</l>
-            <l>Cuncta licet tenui surgentia cernere ab ortu</l>
-            <l n="25">In maius, viresque suas efferre pudenter,</l>
-            <l>Ac velut a pueris solidos adolescere in annos</l>
-            <l>Hoc alios alii subeunt ex ordine foetus</l>
-            <l>Ut postquam risit flos luxuriantibus arbos</l>
-            <l>Conspicienda comis, malorum fulgeat auro,</l>
-            <l n="30">Utque satu a primo lactente tenerrimus herba</l>
-            <l>Germinet, et gravidae post germem culmus aristae</l>
-            <l>Turgescat, pretio concedunt prima secundis.</l>
-            <l>Sic et pomifero patri, frugumque datori</l>
-            <l>Praenitet autumno formosi gratia veris;</l>
-            <l n="35">Et florum preludit honos: cerealia dona</l>
-            <l>Nunciat herba virens, ac mollis pampinus uvas.</l>
-            <l>Lympha prius de fonte cadit, trepidoque laborat</l>
-            <l>Argento virides interretare smaragdos:</l>
-            <l>Mox auctu tivus; mox auxiliaribus undis</l>
-            <l n="40">Audit nobilium fluvius regnator aquarum.</l>
-            <l>Matutina ferens Zephiros aurora maritos</l>
-            <l>Phoebeum iubar antevenit; bona germina lucis</l>
-            <l>Concentu venerantur aves: praelustre corusci</l>
-            <l>Fulminis ante aciem fulgur micat; et sua rite </l>
-            <l n="45">Quaedam sunt natis veluti praeludia rebus</l>
-            <l>Ipsa rudimentis ars, atque exilibus orsis</l>
-            <l>
-            <pb/> Educit miranda operum. Sic primula magni</l>
-            <l>Spem partus <persName>Leonora</persName> dedit: secedite curae,</l>
-            <l>Et vos queis dominae studium flagrantius aulae</l>
-            <l n="50">Ponite corda metum; praesumere gaudia certis</l>
-            <l>Fas est auguriis, et praesagire superbae</l>
-            <l>Incrementa domus; iam sydere pulchrior omni</l>
-            <l>Qui regat imperio populos, domitorque rebelles</l>
-            <l>Frangat, et infidos circumtonet arduus hostes</l>
-            <l n="55">(Vera fides, nec longa adeo mora) prosilit infans</l>
-            <l>Quamquam foeminei non vilis gloria partus;</l>
-            <l>Et nisi sexu, animo certe solet esse virili</l>
-            <l>Stirpis adoratae soboles: hoc sanguine reges</l>
-            <l>Crevisse, et stabili fultum munimine sceptrum</l>
-            <l n="60">Regnatrix gemini laetatur Iberia mundi.</l>
-            <l>Mista sacro generi sileatur <placeName>Gallias</placeName>; mista</l>
-            <l>Boiaria, et quidquid Rhenus contingit, et Albis,</l>
-            <l>Quaeque sub arcto glaciem plaga sydere servat.</l>
-            <l>In quantum Ausonios culmen, fastumque dynastas</l>
-            <l n="65">Austriacae vexere nurus? Ter sustulit Arnus</l>
-            <l>Inde caput, caput unde etiam nunc regius effert.</l>
-            <l>Extulit Austriacos Farnesia lilia sanguis</l>
-            <l>Lateque, illustres fama, et virtute sabaudos,</l>
-            <l>Gonzagasque heroas, et egregios Estenses.</l>
-            <l n="70">Ire piget per centum opubus florentia, et armis</l>
-            <l>Regna, maritali nodo quibus <placeName>Austria</placeName> lumen</l>
-            <l>Praebuit et columen, celsa ad connubia natam</l>
-            <l>Credere, cui caelum divos afflavit honores</l>
-            <l>Et charites roseis iam mel pepigere labellis</l>
-            <l n="75">
-            <pb/> Dat species: quantum ore decus, quantum eminet aureas</l>
-            <l>Fronte iubar? Nitidis quae se lux spargit ocellis?</l>
-            <l>Qualis ubi septis regum violaria in hortis</l>
-            <l>Afflavit Zephirus nutritor, et annus amico</l>
-            <l>Sole, et fronte aluit, cum iam ver provocat, et iam</l>
-            <l n="80">Laxat humum tepor, exoriens rosa fulgurat alto</l>
-            <l>Vertice sublimis, parte exsinuata decorem,</l>
-            <l>Et spectanda magis, quo plus latet, ac genitori</l>
-            <l>Fidere se caelo, ne dum rivalibus auris</l>
-            <l>Audet odoratae metuens virguncula formae:</l>
-            <l n="85">Illam omnis florum pubes, et verna iuventus</l>
-            <l>Circumfusa stupet, natamque aurora salutat:</l>
-            <l>Illam formosus puer, et formosa puella</l>
-            <l>Praeripiens, capiti gestamen carius auro</l>
-            <l>Infert, aut sacris festina altaribus addit.</l>
-            <l n="90">Non aliter firmis vegetam, pulchrisque decenter</l>
-            <l>Artubus, et placito rapientem lumina vultu</l>
-            <l>Suspicimus; blando cum festivissima lusu</l>
-            <l>Auricomos crines, et dulce atque acre micantes</l>
-            <l>Vircum fert oculos, ac cerea brachia iactar</l>
-            <l n="95">Pupa recens; quam ni fraenos reverentia ponat,</l>
-            <l>Quisque velit cupidis adstringere dulciter ulnis:</l>
-            <l>Tantum est in tenera iam maiestate leporis.</l>
-            <l>Ex quo terrarum spatia, et caeli ardua lustrat</l>
-            <l>Nascendi pater, et splendes auriga diei,</l>
-            <l n="100">Nil aeque formosum, aeque spectabile vidit.</l>
-            <l>At vero quantum plenis mox nubilis annis</l>
-            <l>Exeret os virgo, quando mollissima tantum</l>
-            <l>
-            <pb/> Dat specimen? Non huic poterunt certare decori</l>
-            <l>Veris opes, caelive faces, patriumve micantes</l>
-            <l n="105">Gemmarum luces, aut fulgor amabilis auri</l>
-            <l>Non Helenae, aut Veneres, non si quid pulchrius usquam est</l>
-            <l>Quin et in ornatum, qualem miracula formae</l>
-            <l>Fortunaeque docent, quidquid peregrina voluptas</l>
-            <l>Gemmiferis scrutatur aquis, operosa parabit</l>
-            <l n="110">Praestruat ut dignum thalamis opulentia mundum.</l>
-            <l>Iam phrygiae laxantur acus, et sudat ahenis</l>
-            <l>Purpura baccharum pretio victura, canopi,</l>
-            <l>Cum radiosa oculis ostentaretur amantis</l>
-            <l>Reginam, se seque viro cum comeret Hester. </l>
-            <l n="115">At tibi praecelsa, divinaque indole natae</l>
-            <l>Sordebunt, qui vulgi oculos, et corda lacessunt</l>
-            <l>Attalici flores, inter fusique pyropi:</l>
-            <l>Nec te cura coquet praetiosa pericula formae</l>
-            <l>Excolere, aut liquido perfundere corpus amomo,</l>
-            <l n="120">Suggestumque, comae fulvis onerare lapillis.</l>
-            <l>Hic cultus regalis erit, componere mores,</l>
-            <l>Tum quidquid coecos hebetat caligine sensus</l>
-            <l>Eluere, et patrio generosum pectus honesto</l>
-            <l>Ut genus, et virtus, et vitae congruat ordo</l>
-            <l n="125">Imbuere, ac sanctas caelum affectare per artes</l>
-            <l>Post modo labentis, lapsique Heroidas oevi</l>
-            <l>Laude super gressa, et veteres praevecta sybillas</l>
-            <l>Ambitione precum thalamis ora here coniux</l>
-            <l>Regibus, augustis, quod erunt florente iuventa</l>
-            <l n="130">Imperio fulti, diadematique superbam</l>
-            <l>
-            <pb/> Caesariem certata procis de millibus unum</l>
-            <l>Quem praeferre velis non aspernata maritum,</l>
-            <l>Solum optare labor, seu re magis Itala tempe,</l>
-            <l>Seu magis alliciant Gallorum gemmea rura,</l>
-            <l n="135">Visere seu gelidos optes regina Triones,</l>
-            <l>Aut Pyreneas trans Alpes ire potenti</l>
-            <l>E solio dominatum orbes, quos extudit ingens</l>
-            <l>Austriacae fortuna domus: cui nupseris, esto</l>
-            <l>Regem infra sedeat, regnum tua forma parabit</l>
-            <l n="140">Et pudor, et pietas, et virtutum chorus omnis</l>
-            <l>Intere rectas vivendi accersere leges</l>
-            <l>Sic ubi opus fuerit, laudumque exempla tueri</l>
-            <l>Circum quos imiteris habes, stellante decoram</l>
-            <l>Matrem fronte geris, crinali multus in auro,</l>
-            <l n="145">Multus in ore pater, magna et matertera fulget</l>
-            <l>
+      <div>
+        <lg>
+          <l>Castalii regina chori Melopeia canoris</l>
+          <l>Dic age quis fidibus torpor? Quae molle sonanti</l>
+          <l>Segnities plectro? Cur non Aganippide potae</l>
+          <l>Dulce sodalitium musae (tamen ante parabant)</l>
+          <l n="5">Ludere festive numeris genialibus audent?</l>
+          <l>Ergo licet cumulo votorum gaudia distent</l>
+          <l>Fas laudes tacuisse Deo? Qui sospitat alvi</l>
+          <l>Foecundam, et cara vegetat cum prole parentem?</l>
+          <l>Quantum noctis habent mortalia pectora vulgus</l>
+          <l n="10">Nempe exors rerum, quas inconsulta poposcit</l>
+          <l>Sedulitate precum, votoque ardente cupido,</l>
+          <l>Tantum non culpat celestia munera divum,</l>
+          <l>At non haec vestras agitat vesania mentes</l>
+          <l>Consortes pretiosae animae, quibus omne quod aequo</l>
+          <l n="15">Temperat arbitrio divum sator, atque hominum rex</l>
+          <l>Vultu hilari, et grato acceptum reverenter habetur.</l>
+          <l>Macti animis, et spe: vester quae flagitat ardor</l>
+          <l>Tempestive aderunt: intempestiva parantur</l>
+          <l>
+            <pb/>Exitio, nimiumque cito properata senescunt,</l>
+          <l n="20">At quae festinat lente fortuna perennat,</l>
+          <l>Aetatem saevas contra latura procellas,</l>
+          <l>Ingratasque moras conpensatura beato</l>
+          <l>Foenore laetitiae et vena lucente bonorum.</l>
+          <l>Cuncta licet tenui surgentia cernere ab ortu</l>
+          <l n="25">In maius, viresque suas efferre pudenter,</l>
+          <l>Ac velut a pueris solidos adolescere in annos</l>
+          <l>Hoc alios alii subeunt ex ordine foetus</l>
+          <l>Ut postquam risit flos luxuriantibus arbos</l>
+          <l>Conspicienda comis, malorum fulgeat auro,</l>
+          <l n="30">Utque satu a primo lactente tenerrimus herba</l>
+          <l>Germinet, et gravidae post germem culmus aristae</l>
+          <l>Turgescat, pretio concedunt prima secundis.</l>
+          <l>Sic et pomifero patri, frugumque datori</l>
+          <l>Praenitet autumno formosi gratia veris;</l>
+          <l n="35">Et florum preludit honos: cerealia dona</l>
+          <l>Nunciat herba virens, ac mollis pampinus uvas.</l>
+          <l>Lympha prius de fonte cadit, trepidoque laborat</l>
+          <l>Argento virides interretare smaragdos:</l>
+          <l>Mox auctu tivus; mox auxiliaribus undis</l>
+          <l n="40">Audit nobilium fluvius regnator aquarum.</l>
+          <l>Matutina ferens Zephiros aurora maritos</l>
+          <l>Phoebeum iubar antevenit; bona germina lucis</l>
+          <l>Concentu venerantur aves: praelustre corusci</l>
+          <l>Fulminis ante aciem fulgur micat; et sua rite</l>
+          <l n="45">Quaedam sunt natis veluti praeludia rebus</l>
+          <l>Ipsa rudimentis ars, atque exilibus orsis</l>
+          <l>
+            <pb/>Educit miranda operum. Sic primula magni</l>
+          <l>Spem partus<persName>Leonora</persName>dedit: secedite curae,</l>
+          <l>Et vos queis dominae studium flagrantius aulae</l>
+          <l n="50">Ponite corda metum; praesumere gaudia certis</l>
+          <l>Fas est auguriis, et praesagire superbae</l>
+          <l>Incrementa domus; iam sydere pulchrior omni</l>
+          <l>Qui regat imperio populos, domitorque rebelles</l>
+          <l>Frangat, et infidos circumtonet arduus hostes</l>
+          <l n="55">(Vera fides, nec longa adeo mora) prosilit infans</l>
+          <l>Quamquam foeminei non vilis gloria partus;</l>
+          <l>Et nisi sexu, animo certe solet esse virili</l>
+          <l>Stirpis adoratae soboles: hoc sanguine reges</l>
+          <l>Crevisse, et stabili fultum munimine sceptrum</l>
+          <l n="60">Regnatrix gemini laetatur Iberia mundi.</l>
+          <l>Mista sacro generi sileatur<placeName>Gallias</placeName>; mista</l>
+          <l>Boiaria, et quidquid Rhenus contingit, et Albis,</l>
+          <l>Quaeque sub arcto glaciem plaga sydere servat.</l>
+          <l>In quantum Ausonios culmen, fastumque dynastas</l>
+          <l n="65">Austriacae vexere nurus? Ter sustulit Arnus</l>
+          <l>Inde caput, caput unde etiam nunc regius effert.</l>
+          <l>Extulit Austriacos Farnesia lilia sanguis</l>
+          <l>Lateque, illustres fama, et virtute sabaudos,</l>
+          <l>Gonzagasque heroas, et egregios Estenses.</l>
+          <l n="70">Ire piget per centum opubus florentia, et armis</l>
+          <l>Regna, maritali nodo quibus<placeName>Austria</placeName>lumen</l>
+          <l>Praebuit et columen, celsa ad connubia natam</l>
+          <l>Credere, cui caelum divos afflavit honores</l>
+          <l>Et charites roseis iam mel pepigere labellis</l>
+          <l n="75">
+            <pb/>Dat species: quantum ore decus, quantum eminet aureas</l>
+          <l>Fronte iubar? Nitidis quae se lux spargit ocellis?</l>
+          <l>Qualis ubi septis regum violaria in hortis</l>
+          <l>Afflavit Zephirus nutritor, et annus amico</l>
+          <l>Sole, et fronte aluit, cum iam ver provocat, et iam</l>
+          <l n="80">Laxat humum tepor, exoriens rosa fulgurat alto</l>
+          <l>Vertice sublimis, parte exsinuata decorem,</l>
+          <l>Et spectanda magis, quo plus latet, ac genitori</l>
+          <l>Fidere se caelo, ne dum rivalibus auris</l>
+          <l>Audet odoratae metuens virguncula formae:</l>
+          <l n="85">Illam omnis florum pubes, et verna iuventus</l>
+          <l>Circumfusa stupet, natamque aurora salutat:</l>
+          <l>Illam formosus puer, et formosa puella</l>
+          <l>Praeripiens, capiti gestamen carius auro</l>
+          <l>Infert, aut sacris festina altaribus addit.</l>
+          <l n="90">Non aliter firmis vegetam, pulchrisque decenter</l>
+          <l>Artubus, et placito rapientem lumina vultu</l>
+          <l>Suspicimus; blando cum festivissima lusu</l>
+          <l>Auricomos crines, et dulce atque acre micantes</l>
+          <l>Vircum fert oculos, ac cerea brachia iactar</l>
+          <l n="95">Pupa recens; quam ni fraenos reverentia ponat,</l>
+          <l>Quisque velit cupidis adstringere dulciter ulnis:</l>
+          <l>Tantum est in tenera iam maiestate leporis.</l>
+          <l>Ex quo terrarum spatia, et caeli ardua lustrat</l>
+          <l>Nascendi pater, et splendes auriga diei,</l>
+          <l n="100">Nil aeque formosum, aeque spectabile vidit.</l>
+          <l>At vero quantum plenis mox nubilis annis</l>
+          <l>Exeret os virgo, quando mollissima tantum</l>
+          <l>
+            <pb/>Dat specimen? Non huic poterunt certare decori</l>
+          <l>Veris opes, caelive faces, patriumve micantes</l>
+          <l n="105">Gemmarum luces, aut fulgor amabilis auri</l>
+          <l>Non Helenae, aut Veneres, non si quid pulchrius usquam est</l>
+          <l>Quin et in ornatum, qualem miracula formae</l>
+          <l>Fortunaeque docent, quidquid peregrina voluptas</l>
+          <l>Gemmiferis scrutatur aquis, operosa parabit</l>
+          <l n="110">Praestruat ut dignum thalamis opulentia mundum.</l>
+          <l>Iam phrygiae laxantur acus, et sudat ahenis</l>
+          <l>Purpura baccharum pretio victura, canopi,</l>
+          <l>Cum radiosa oculis ostentaretur amantis</l>
+          <l>Reginam, se seque viro cum comeret Hester.</l>
+          <l n="115">At tibi praecelsa, divinaque indole natae</l>
+          <l>Sordebunt, qui vulgi oculos, et corda lacessunt</l>
+          <l>Attalici flores, inter fusique pyropi:</l>
+          <l>Nec te cura coquet praetiosa pericula formae</l>
+          <l>Excolere, aut liquido perfundere corpus amomo,</l>
+          <l n="120">Suggestumque, comae fulvis onerare lapillis.</l>
+          <l>Hic cultus regalis erit, componere mores,</l>
+          <l>Tum quidquid coecos hebetat caligine sensus</l>
+          <l>Eluere, et patrio generosum pectus honesto</l>
+          <l>Ut genus, et virtus, et vitae congruat ordo</l>
+          <l n="125">Imbuere, ac sanctas caelum affectare per artes</l>
+          <l>Post modo labentis, lapsique Heroidas oevi</l>
+          <l>Laude super gressa, et veteres praevecta sybillas</l>
+          <l>Ambitione precum thalamis ora here coniux</l>
+          <l>Regibus, augustis, quod erunt florente iuventa</l>
+          <l n="130">Imperio fulti, diadematique superbam</l>
+          <l>
+            <pb/>Caesariem certata procis de millibus unum</l>
+          <l>Quem praeferre velis non aspernata maritum,</l>
+          <l>Solum optare labor, seu re magis Itala tempe,</l>
+          <l>Seu magis alliciant Gallorum gemmea rura,</l>
+          <l n="135">Visere seu gelidos optes regina Triones,</l>
+          <l>Aut Pyreneas trans Alpes ire potenti</l>
+          <l>E solio dominatum orbes, quos extudit ingens</l>
+          <l>Austriacae fortuna domus: cui nupseris, esto</l>
+          <l>Regem infra sedeat, regnum tua forma parabit</l>
+          <l n="140">Et pudor, et pietas, et virtutum chorus omnis</l>
+          <l>Intere rectas vivendi accersere leges</l>
+          <l>Sic ubi opus fuerit, laudumque exempla tueri</l>
+          <l>Circum quos imiteris habes, stellante decoram</l>
+          <l>Matrem fronte geris, crinali multus in auro,</l>
+          <l n="145">Multus in ore pater, magna et matertera fulget</l>
+          <l>
             <persName>Elisabet</persName>, genere, et meritis insignis, et ipso</l>
-            <l>Supra omnem invidiam claro victricibus armis</l>
-            <l>Coniuge, reque magis magno quam nomine, cuius</l>
-            <l>Pangere si tenui coner praeconia versu</l>
-            <l n="150">Deficiam, tantatum extra patet area laudum</l>
-            <l>Ingenium, viresque meas: avua unclyta menti</l>
-            <l>Ipsa quoque occurret, teque ad maiora lacesset</l>
-            <l>Thuscorum <persName>Christina</persName> potens, prudenter agendi</l>
-            <l>Grande magisterium, rebusque exemplar honestis,</l>
-            <l n="155">Cuius tu egregios imitabere sedula mores,</l>
-            <l>Maternosque simul, quae per vestigia famam</l>
-            <l>Nacta bonam, clara meritorum luce coruscum</l>
-            <l>Attolles regina cput, factura beatum</l>
-            <l>
-            <pb/> Et regem, et regnum numeroso germine prolis.</l>
-            <l n="160">In praesens teneris dum lusibus aptior aetas</l>
-            <l>Perge, ut caepisti, tenerorum vena leporum</l>
-            <l>Pupula, amor matris, risus patris, atque voluptas</l>
-            <l>Festivis hilarare modis blandissima matrem,</l>
-            <l>Post curas recreare graves dulcissima patrem.</l>
+          <l>Supra omnem invidiam claro victricibus armis</l>
+          <l>Coniuge, reque magis magno quam nomine, cuius</l>
+          <l>Pangere si tenui coner praeconia versu</l>
+          <l n="150">Deficiam, tantatum extra patet area laudum</l>
+          <l>Ingenium, viresque meas: avua unclyta menti</l>
+          <l>Ipsa quoque occurret, teque ad maiora lacesset</l>
+          <l>Thuscorum<persName>Christina</persName>potens, prudenter agendi</l>
+          <l>Grande magisterium, rebusque exemplar honestis,</l>
+          <l n="155">Cuius tu egregios imitabere sedula mores,</l>
+          <l>Maternosque simul, quae per vestigia famam</l>
+          <l>Nacta bonam, clara meritorum luce coruscum</l>
+          <l>Attolles regina cput, factura beatum</l>
+          <l>
+            <pb/>Et regem, et regnum numeroso germine prolis.</l>
+          <l n="160">In praesens teneris dum lusibus aptior aetas</l>
+          <l>Perge, ut caepisti, tenerorum vena leporum</l>
+          <l>Pupula, amor matris, risus patris, atque voluptas</l>
+          <l>Festivis hilarare modis blandissima matrem,</l>
+          <l>Post curas recreare graves dulcissima patrem.</l>
         </lg>
       </div>
-            <div>
-            <p>Finis.</p>
+      <div>
+        <p>Finis.</p>
       </div>
-        </body>
-    </text>
+    </body>
+  </text>
 </TEI>

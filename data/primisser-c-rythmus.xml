@@ -1,78 +1,74 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="primisser-c-rythmus">
-            <titleStmt>
-                <title>Rythmus in laudem Venerabilis Patris Joannis Campidonensis Sacerdotis et Monachi Ordinis Cisterciensis et monasterii Stamsensis, adversionibus historicis explicatus, versio electronica</title>
-                <author key="primisser01">
-                    <name>Primisser, Cassian</name>
-                    <date>1735-1771</date>
-                    </author>
-                <respStmt>
-                    <resp>Hanc versionem electronicam curavit</resp>
-                    <name>Clementina Marsico</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>transcribed from the printed text</edition>
-            </editionStmt>
-            <extent> 36 paginae</extent>
-            <publicationStmt>
-                <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
+  <teiHeader>
+    <fileDesc xml:id="primisser-c-rythmus">
+      <titleStmt>
+        <title>Rythmus in laudem Venerabilis Patris Joannis Campidonensis Sacerdotis et Monachi Ordinis Cisterciensis et monasterii Stamsensis, adversionibus historicis explicatus, versio electronica</title>
+        <author key="primisser01">
+          <name>Primisser, Cassian</name>
+          <date>1735-1771</date>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Clementina Marsico</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>36 paginae</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
         </p>
-            </publicationStmt>
-            
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <title>Rythmus in laudem Venerabilis Patris Joannis Campidonensis Sacerdotis et Monachi Ordinis Cisterciensis et monasterii Stamsensis, adversionibus historicis explicatus</title>
-                        <imprint>
-                            <pubPlace>Innsbruck</pubPlace>
-                            <date when="1766">1766</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-                <bibl>TLMF, Dip. 436</bibl>
-            </sourceDesc>
-            
-        </fileDesc>
-        
-        <profileDesc>
-            <creation>
-                <date when="1766">1766</date>
-            </creation>
-            <textClass>
-                <keywords scheme="time">
-                    <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens (1773)</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>Dichtung</term>
-                    <term>Hymnus</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        
-        <revisionDesc>
-            <change>corrected teiHeader and body<date>2015-09-24</date>
-                <name>Johanna Luggin</name>
-            </change>
-        </revisionDesc>  
-    </teiHeader>
-    <text>
-        <body>
-            <div>
-            <head>Rythmus in laudem Venerabilis Patris Joannis Campidonensis Sacerdotis et Monachi Ordini
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>Rythmus in laudem Venerabilis Patris Joannis Campidonensis Sacerdotis et Monachi Ordinis Cisterciensis et monasterii Stamsensis, adversionibus historicis explicatus</title>
+            <imprint>
+              <pubPlace>Innsbruck</pubPlace>
+              <date when="1766">1766</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>TLMF, Dip. 436</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1766">1766</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens (1773)</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Dichtung</term>
+          <term>Hymnus</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>corrected teiHeader and body<date>2015-09-24</date>
+        <name>Johanna Luggin</name>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Rythmus in laudem Venerabilis Patris Joannis Campidonensis Sacerdotis et Monachi Ordini
                 Cisterciensis et monasterii Stamsensis, adversionibus histoticis explicatus.</head>
       </div>
-            <div>
-                <pb xml:id="FA1v"/>
+      <div>
+        <pb xml:id="FA1v"/>
         <p>S.P. Bernardus Praefat. in vitam S. Malachia Archip. Armac.</p>
-            <p>Semper operae pretium fuit illustres Sanctorum describere vitas; <gap reason="illegible"/>speculum et
-                exemplum, ac quo <gap reason="illegible"/>veluti condimentum vitae hominum super terram. Per hoc enim
+        <p>Semper operae pretium fuit illustres Sanctorum describere vitas;<gap reason="illegible"/>speculum et
+                exemplum, ac quo<gap reason="illegible"/>veluti condimentum vitae hominum super terram. Per hoc enim
                 quodammodo apud nos etiam post mortem vivunt, multosque ex his, qui viventes mortui
                 sunt, ad veram provocant et revocant vitam.</p>
-                    <pb xml:id="FA2r"/>
+        <pb xml:id="FA2r"/>
         <p>Reverendissimo perillustri amplissimo domino Vigilio archiducalis et exemti
-                monasterii Beatae Mariae Verginis et Sancti Joannis Baptistae in <placeName>Stams</placeName> sacri et
+                monasterii Beatae Mariae Verginis et Sancti Joannis Baptistae in<placeName>Stams</placeName>sacri et
                 exemiti ordini cistercensi praesuli dignissimo, vigilantissimo S.C.R.A. maiestatis
                 consilirario nato, et sacellano aulae haereditario inclytorum provinciae Tirolis
                 ordinum ad interiora consilia deputato, decoris domum Dei zelatori insatiabili
@@ -89,70 +85,70 @@
                 et benedictus est D.D.D. ipso S.P. Bernardi festo die. Devotissimi et
                 obsequentissimi filii religiosi Iulius.</p>
       </div>
-            <div>
-            <pb xml:id="FA3r"/>
+      <div>
+        <pb xml:id="FA3r"/>
         <p>Iulius Marcellus Lanzinger, Meranensis, prior.</p>
-            <p>Benedictus Gienger, Halensis, senior.</p>
-            <p>Iosephus Castner, Oenipontanus.</p>
-            <p>Desiderius Klebelsberg, milensis.</p>
-            <p>Edmundus Hopfgartner, Landeggensis, confessarius conventualis.</p>
-            <p>Bernardus Gall, Milbacensis.</p>
-            <p>Albericus Faber, Halensis, parochus vicarius ad Sanctum Petrum apud Teriolos.</p>
-            <p>Godefridus Egger, Oenipontanus, director conversorum et confessarius
+        <p>Benedictus Gienger, Halensis, senior.</p>
+        <p>Iosephus Castner, Oenipontanus.</p>
+        <p>Desiderius Klebelsberg, milensis.</p>
+        <p>Edmundus Hopfgartner, Landeggensis, confessarius conventualis.</p>
+        <p>Bernardus Gall, Milbacensis.</p>
+        <p>Albericus Faber, Halensis, parochus vicarius ad Sanctum Petrum apud Teriolos.</p>
+        <p>Godefridus Egger, Oenipontanus, director conversorum et confessarius
                 conventualis.</p>
-            <p>Vincentius Grunewald, Oenipontanus, praefectus munditiae.</p>
-            <p>Ubicus Bernlochner, Oenipontanus, cantor summus.</p>
-            <p>Maximilianus Riedmiller, Oenipontanus, custos sacrorum.</p>
-            <p>Zacharias Vischer, Malsensis, cooperator ad Sanctum Petrum.</p>
-            <p>Franciscus Egg, Meranenis.</p>
-            <p>Jeremias Amort, Meranensis, beneficiatus ad Sanctum Georgium Maiis.</p>
-            <p>Robertus Adler, Halensis, director fratrum, magister novitiorum, et confessarius
+        <p>Vincentius Grunewald, Oenipontanus, praefectus munditiae.</p>
+        <p>Ubicus Bernlochner, Oenipontanus, cantor summus.</p>
+        <p>Maximilianus Riedmiller, Oenipontanus, custos sacrorum.</p>
+        <p>Zacharias Vischer, Malsensis, cooperator ad Sanctum Petrum.</p>
+        <p>Franciscus Egg, Meranenis.</p>
+        <p>Jeremias Amort, Meranensis, beneficiatus ad Sanctum Georgium Maiis.</p>
+        <p>Robertus Adler, Halensis, director fratrum, magister novitiorum, et confessarius
                 conventualis.</p>
-            <p>Petrus Stadler, Halensis, parochus vicharius Maiis.</p>
-            <p>Eugenius Marquard, Halensis, curatus vicarius in Pfelders.</p>
-            <p>Guillelmus Weingartner, Appianensis, cantor secundus.</p>
-            <p>Joannes Nep. Gislanzoni, Oenipontanus, beneficiatus ad Sanctum Valentinum Maiis.</p>
-            <p>Caelestinus Faber, Oenipontanus, cooperator parochialis Maiis.</p>
-            <p>Ioachimus Platner, Bayrwisensis, sanctissimae theologiae professor publicus
+        <p>Petrus Stadler, Halensis, parochus vicharius Maiis.</p>
+        <p>Eugenius Marquard, Halensis, curatus vicarius in Pfelders.</p>
+        <p>Guillelmus Weingartner, Appianensis, cantor secundus.</p>
+        <p>Joannes Nep. Gislanzoni, Oenipontanus, beneficiatus ad Sanctum Valentinum Maiis.</p>
+        <p>Caelestinus Faber, Oenipontanus, cooperator parochialis Maiis.</p>
+        <p>Ioachimus Platner, Bayrwisensis, sanctissimae theologiae professor publicus
                 Oenipontanus.</p>
-            <p>Romedius Schandl, Thaurensis, pistrinarius.</p>
-            <p>Ignatius Lachemayr, Oenipontanus, cooperator in Pfelders.</p>
-            <p>Martinus Moser, Burghusianus, sanctissimae theologiae professor.</p>
-            <p>Fortunatus Tanner, Halensis, cooperator parochialis Mariis.</p>
-            <pb xml:id="FA3v"/>
+        <p>Romedius Schandl, Thaurensis, pistrinarius.</p>
+        <p>Ignatius Lachemayr, Oenipontanus, cooperator in Pfelders.</p>
+        <p>Martinus Moser, Burghusianus, sanctissimae theologiae professor.</p>
+        <p>Fortunatus Tanner, Halensis, cooperator parochialis Mariis.</p>
+        <pb xml:id="FA3v"/>
         <p>Engelbertus Fillinger, Oenipontanus, succentor.</p>
-            <p>Aloysius Specker, Sevatensis, sanctissimae theologiae professor, et chori regens.</p>
-            <p>Iacobus Holer, Humistensis, hortulanus.</p>
-            <p>Gerardus Schwarb, Halensis, supprior.</p>
-            <p>Nivardus Graber, Oenipontanus, parochus vicarius ad Sanctum Joannem Batpstiam in
+        <p>Aloysius Specker, Sevatensis, sanctissimae theologiae professor, et chori regens.</p>
+        <p>Iacobus Holer, Humistensis, hortulanus.</p>
+        <p>Gerardus Schwarb, Halensis, supprior.</p>
+        <p>Nivardus Graber, Oenipontanus, parochus vicarius ad Sanctum Joannem Batpstiam in
                 Stams.</p>
-            <p>Amadeus Ehinger, Oenipontanus, cellarius monasterii.</p>
-            <p>Cassianus Primisser, Pratensis, secretarius, archivarius, et bibliothecae
+        <p>Amadeus Ehinger, Oenipontanus, cellarius monasterii.</p>
+        <p>Cassianus Primisser, Pratensis, secretarius, archivarius, et bibliothecae
                 praefectus.</p>
-            <p>Stephanus Gasteiger, Meranensis, catechista in templo parochiali.</p>
-            <p>Antonius Tausch, Oenipontanus, praefectus vestiarii.</p>
-            <p>Stanislaus Freysing, Oenipontanus, adiunctus ad archivum.</p>
-            <p>Henricus Weiskopf, Grinsensis.</p>
-            <p>Marianus Freysing, Oenipontanus, subcustos sacrorum.</p>
-            <p>F. Matthaeus Winkelhofer, Admotensis Styrus, pharmacopaeus.</p>
-            <p>F. Casimirus Sterzinger, Oenipontanus.</p>
-            <p>F. Leopoldus Platuer, Sterzingensis, succentor.</p>
-            <p>F. Rogerius Schranzhofer, Inticensis.</p>
-            <p>F. Longinus Miller, Tuberiensis.</p>
-            <p>F. Augustinus Trenkwalder, Oberhofensis.</p>
-            <p>C. Dismas Kuen, Miemingensis.</p>
-            <p>C. Georgius Zoller, Silzensis.</p>
-            <p>C. Michael Neurauter, Stamsensis.</p>
-            <p>C. Joannes Waldner, Meranensis.</p>
-            <p>C. Andreas Dobler, Halensis.</p>
-            <p>C. Dominicus Scherer, Maiensis.</p>
+        <p>Stephanus Gasteiger, Meranensis, catechista in templo parochiali.</p>
+        <p>Antonius Tausch, Oenipontanus, praefectus vestiarii.</p>
+        <p>Stanislaus Freysing, Oenipontanus, adiunctus ad archivum.</p>
+        <p>Henricus Weiskopf, Grinsensis.</p>
+        <p>Marianus Freysing, Oenipontanus, subcustos sacrorum.</p>
+        <p>F. Matthaeus Winkelhofer, Admotensis Styrus, pharmacopaeus.</p>
+        <p>F. Casimirus Sterzinger, Oenipontanus.</p>
+        <p>F. Leopoldus Platuer, Sterzingensis, succentor.</p>
+        <p>F. Rogerius Schranzhofer, Inticensis.</p>
+        <p>F. Longinus Miller, Tuberiensis.</p>
+        <p>F. Augustinus Trenkwalder, Oberhofensis.</p>
+        <p>C. Dismas Kuen, Miemingensis.</p>
+        <p>C. Georgius Zoller, Silzensis.</p>
+        <p>C. Michael Neurauter, Stamsensis.</p>
+        <p>C. Joannes Waldner, Meranensis.</p>
+        <p>C. Andreas Dobler, Halensis.</p>
+        <p>C. Dominicus Scherer, Maiensis.</p>
       </div>
-            <div>
-            <pb xml:id="FA4r"/>
+      <div>
+        <pb xml:id="FA4r"/>
         <head>Praefatio et protestatio.</head>
       </div>
-                <div>
-            <p>Caniculare otium, quo anno superiore in Alpibus nostris Stamsensibus fruebar,
+      <div>
+        <p>Caniculare otium, quo anno superiore in Alpibus nostris Stamsensibus fruebar,
                 iucundius locare non poteram, quam id tandem agendo, ad quod me tum antiquitatum
                 Stamsensium, tum maxime sacrarum et venerabilium reliquiarum nostrarum amor ac
                 veneratio dudum invitarant. Meo fateor, indulsi genio. Hinc est, ut lectorem
@@ -163,52 +159,50 @@
                 opinioni relinquitur. Qui momentis adductis acquieverit; et privatam, ut aiunt, erga
                 venerabilem Joannem nostrum devotionem conceperit. Is meo quoque voto fecerit satis:
                 qui vero noluerit, volentibus haud difficulter ignoscet.</p>
-            <p>Meae solius devotioni erga venerabile confratrem nostrum has odas, nullo meto nisi
+        <p>Meae solius devotioni erga venerabile confratrem nostrum has odas, nullo meto nisi
                 rythmico ligatas, sacraveram; neque de luce publica cogitassem unquam, nisi et
-                amplissimus felicis memoriae <persName>Rogerius</persName> praesul nuper defunctus, illas typis mandare
+                amplissimus felicis memoriae<persName>Rogerius</persName>praesul nuper defunctus, illas typis mandare
                 prior statuisset, et, proposito hoc frustrato, confratres mei admodum reverendi, ut
                 eadem edi permitterem, suasissent.</p>
-            <p>Caeterum, quidquid sive in rythmo, sive in adversionibus subnexis asseritur, totum
-                intelligendum est iuxta bullam Urbani VIII de 13 martii <date>1625</date>, eiusque declarationem
-                de 5 iulii <date>1624</date>: quibus nullatenus praeiudicare, sed me penitus conformare, ut verus
+        <p>Caeterum, quidquid sive in rythmo, sive in adversionibus subnexis asseritur, totum
+                intelligendum est iuxta bullam Urbani VIII de 13 martii<date>1625</date>, eiusque declarationem
+                de 5 iulii<date>1624</date>: quibus nullatenus praeiudicare, sed me penitus conformare, ut verus
                 ecclesiae romano catholicae filius, volo. Auctor C.P.S. Ordine Cistercense in Stams
                 professus, archivi ac bibliothecae custos ibidem, et reverendissimi domini abbatis
-                secretarius. </p>
+                secretarius.</p>
       </div>
-                <div>
-                    <pb xml:id="FB1r"/>
-        <head>Rythmus in laudem Venerabilis Patris <persName>Joannis Campidonensis</persName> sacerdotis et
+      <div>
+        <pb xml:id="FB1r"/>
+        <head>Rythmus in laudem Venerabilis Patris<persName>Joannis Campidonensis</persName>sacerdotis et
                 monachi Stamsensis.</head>
       </div>
-                <div>
+      <div>
         <lg>
-                    <pb xml:id="FB1v"/>
+          <pb xml:id="FB1v"/>
           <l>O beate<note place="foot" xml:id="ftn1" n="1">
-              <p rend="footnote text">
-                        Adversiones. Beati titulo nostro <persName>Joanni Campidonensi</persName> tribuitur a Paulo II
+              <p rend="footnote text">Adversiones. Beati titulo nostro<persName>Joanni Campidonensi</persName>tribuitur a Paulo II
                         abbate Stamsensi in chronicis suis; item a Francisco abbate in pluribus locis
                         et annotationibus suis manuscriptis; item a Joanne Silvestro Sistio canonico
-                        inticensi: qui cum <placeName>Viennae</placeName> compilaret vita sanctissimorum Tirolensium,
+                        inticensi: qui cum<placeName>Viennae</placeName>compilaret vita sanctissimorum Tirolensium,
                         petiit ab abbate Francisco monumenta ad rem suam factua. Et eidem abbati
-                        dubitanti, an titulus beati, <persName>Joanni</persName> nostro sit tribuendus, respondit
-                        epistola data <placeName>Viennae</placeName> 25 Novembris <date>1705</date>: exhilarabatur autem animus, dum
+                        dubitanti, an titulus beati,<persName>Joanni</persName>nostro sit tribuendus, respondit
+                        epistola data<placeName>Viennae</placeName>25 Novembris<date>1705</date>: exhilarabatur autem animus, dum
                         novum etiam et antehac ignotum mihi divum popularem in eodem (fasciculo
                         documentorum) legerem beatum scilicet anonymum de Campidona voto et
                         professione Stambsensem: proin bona amplitudinis vestra reverendissimae
                         venia indaganda sunt mihi de hoc divo etiam num hac: primo eum non ex vanis
                         coniecturis pro devotissimo et religiosissimo illo Joanne de Campidona
-                        credatur, utique scietur istius dies et annus obitus. Et in epistola data
-                        <placeName>Viennae</placeName> 27 ianuarii <date>1796</date>: caeterum titulum beati non video denegandum
+                        credatur, utique scietur istius dies et annus obitus. Et in epistola data<placeName>Viennae</placeName>27 ianuarii<date>1796</date>: caeterum titulum beati non video denegandum
                         anonymo (seu, ut credimus Joanni) a Campidona, ascetae Stambsensi, cum
-                        relationes datae eundem omnino approbent. Et in epistola data <placeName>Viennae</placeName> 26
-                        maii <date>1706</date>: beatus Joannis de Campidona Stambsensis asceta effigiem iam
-                        delineari curavi in actu sacrificantis et apparitione imperatoris <persName>Ludovici
+                        relationes datae eundem omnino approbent. Et in epistola data<placeName>Viennae</placeName>26
+                        maii<date>1706</date>: beatus Joannis de Campidona Stambsensis asceta effigiem iam
+                        delineari curavi in actu sacrificantis et apparitione imperatoris<persName>Ludovici
                         Bavari</persName>, ast putabam ignorari in cuius altari, unde curaveram appingi sanctum
                         legislatore, mellifluum doctorem cum instrumenti passionis surgentem a
                         divina matre lac virgineum, sed emendabitur pro maiori veritate historiae.
-                        Denique in epistola data <placeName>Viennae</placeName> 28 augusti <date>1706</date>: fiet etiam paulo post, uf
+                        Denique in epistola data<placeName>Viennae</placeName>28 augusti<date>1706</date>: fiet etiam paulo post, uf
                         effigiem beati Joannis Stambsensis aeri incisam communicare voluero, et
-                        caetera. Iconismo autem <placeName>Viennae</placeName> excuso subscriptionem addidit sequentem:
+                        caetera. Iconismo autem<placeName>Viennae</placeName>excuso subscriptionem addidit sequentem:
                         beatus Joannes de Campidona ex zelosissimo pro animarum et ovium suarum
                         salute in Nesselwag pastore asceta sacri ordinis cisterciensis ad sanctum
                         Joannem Baptistam in Stambs, ubi olim parentes sui puero moribus tunc
@@ -219,41 +213,39 @@
                         visibiliter apparentem e summis purgatorii panis liberare meritus est.
                         Spriritus prophetico clarus et caelestium desideriorum plenus Stambsii, ubi
                         etiamnum sacrae eius exuviae suavissimo odore fragrantes honorifice
-                        custodiuntur, terris valedixit circa annum <date>1350</date> dignus, ut eius perennet
+                        custodiuntur, terris valedixit circa annum<date>1350</date>dignus, ut eius perennet
                         memoria ad diem 12 octobris.</p>
-            </note> te amantes</l>
-            <l>Fratres tuos,<note place="foot" xml:id="ftn2" n="2">
-              <p rend="footnote text">
-                        Religiosos Stamsenses praecipue intelligebam. Lector devotus intelligat, si
+            </note>te amantes</l>
+          <l>Fratres tuos,<note place="foot" xml:id="ftn2" n="2">
+              <p rend="footnote text">Religiosos Stamsenses praecipue intelligebam. Lector devotus intelligat, si
                         velit, aut sacerdotes, aut quodlibet christianos eiusdem venerabilis Joannis
                         merita venerantes, et patrocinium implorantes. Quod quidem haud temerarium
                         esse, ex sequentibus adversionibus fortasse persuadebitur.</p>
-            </note> et
+            </note>et
                 laudantes</l>
-            <l>Tuis iuva precibus!</l>
-            <l>Propter te sit collaudatus</l>
-            <l>Deus trinus, pater, natus,</l>
-            <l>Sanctus quoque spiritus.</l>
+          <l>Tuis iuva precibus!</l>
+          <l>Propter te sit collaudatus</l>
+          <l>Deus trinus, pater, natus,</l>
+          <l>Sanctus quoque spiritus.</l>
         </lg>
       </div>
-            <pb xml:id="FB2r"/>
+      <pb xml:id="FB2r"/>
       <div>
         <l>
           <foreign xml:lang="dt"/>
         </l>
-            <pb xml:id="FB2v"/>
+        <pb xml:id="FB2v"/>
       </div>
-                <div>
+      <div>
         <lg>
           <l>Campidona<note place="foot" xml:id="ftn3" n="3">
-              <p rend="footnote text">
-                        Campodonum antiquis, in medio aevo frequentius Campidona, germanice Kempten,
+              <p rend="footnote text">Campodonum antiquis, in medio aevo frequentius Campidona, germanice Kempten,
                         urbs Sveviae imperialis omnibus notissima.</p>
             </note>tibi dabat</l>
-            <l>Vitam;<note place="foot" xml:id="ftn4" n="4">
-              <p rend="footnote text"> Rudolfus
+          <l>Vitam;<note place="foot" xml:id="ftn4" n="4">
+              <p rend="footnote text">Rudolfus
                         monachus, dein abbas Stamsii tertius in libro miraculorum sancti Joannis
-                        Baptistae scripto circa annum <date>1288</date>, capitulo 84: honestior civis in civitate
+                        Baptistae scripto circa annum<date>1288</date>, capitulo 84: honestior civis in civitate
                         Campidona habebat filium scolarem Johannem nomine nuncupatum, qui in dicta
                         civitate cum puerilior esset, ascendit angulare sive turrim, que mire
                         altitudinis demonstratur, sicque a fastigio usque ad imo corruit
@@ -264,15 +256,13 @@
                         ut si revivisceret ipsum sue domui (Stamsensi) presentarent. Post votum puer
                         non sine ammiratione multorum quasi reviviscit tripudiantibus
                     universis.</p>
-            </note> lapsus exturbabat</l>
-            <l>Turri de praeedita</l>
-            <l>Vitae expers die tota,</l>
-            <l>Vivis ad parentum vota</l>
-            <l>Per Baptistae merita.<note place="foot" xml:id="ftn6" n="6">
-              <p rend="footnote text">
-                        Vide Adv. 4. Caeterum hoc miraculum contigit inter annos <date>1285</date> et <date>1288</date>, quo
-                        tempore puer saltem septennis fuisse debet. Proinde natus est circa annum
-                        <date>1280</date>. Praesentatio, de qua Rudolfus, non erat donatio pueri ad ordinem et
+            </note>lapsus exturbabat</l>
+          <l>Turri de praeedita</l>
+          <l>Vitae expers die tota,</l>
+          <l>Vivis ad parentum vota</l>
+          <l>Per Baptistae merita.<note place="foot" xml:id="ftn6" n="6">
+              <p rend="footnote text">Vide Adv. 4. Caeterum hoc miraculum contigit inter annos<date>1285</date>et<date>1288</date>, quo
+                        tempore puer saltem septennis fuisse debet. Proinde natus est circa annum<date>1280</date>. Praesentatio, de qua Rudolfus, non erat donatio pueri ad ordinem et
                         monasterium ingrediendum, sed peregrinatio ad ecclesiam Stamsensem Sancti
                         Joannis Baptistae in societate ipsius pueri. Frequentissima autem tunc
                         temporis beneficia miraculosa, seu miraculis similia per sanctum Joannem
@@ -288,42 +278,38 @@
                         Iohannis Baptiste, per miracula et sanitatum beneficia omnibus queritantibus
                         hucusque impensa, tam largiter ut vix inveniatur aliquis quocunque morbo vel
                         defectu teneatur, ibidem sua limina visitans, qui curationis medium non
-                        deportet, lucidissima fama divolgaverit. Datum in Cistercio anno domini <date>1282</date>
-                        tempore capituli generalis.</p>
+                        deportet, lucidissima fama divolgaverit. Datum in Cistercio anno domini<date>1282</date>tempore capituli generalis.</p>
             </note>
           </l>
         </lg>
       </div>
-            <pb xml:id="FB3r"/>
+      <pb xml:id="FB3r"/>
       <div>
         <l>
           <foreign xml:lang="dt"/>
         </l>
-            <pb xml:id="FB3v"/>
+        <pb xml:id="FB3v"/>
       </div>
-                <div>
+      <div>
         <lg>
           <l>Huic Divo,<note place="foot" xml:id="ftn7" n="7">
-              <p rend="footnote text">
-                        Sancti Joanni Baptista de quo supra.</p>
-            </note> cui debebas</l>
-            <l>Vitam, totum te reddebas,</l>
-            <l>Mores iungens studiis:</l>
-            <l>Datus in pastorem bonum,</l>
-            <l>Pascis oves et sermonum</l>
-            <l>Et exempli pabulis.<note place="foot" xml:id="ftn8" n="8">
-              <p rend="footnote text">
-                        Verbis Rudolfi Adv. 4 relatis subscripta sunt charactere aliquantum
+              <p rend="footnote text">Sancti Joanni Baptista de quo supra.</p>
+            </note>cui debebas</l>
+          <l>Vitam, totum te reddebas,</l>
+          <l>Mores iungens studiis:</l>
+          <l>Datus in pastorem bonum,</l>
+          <l>Pascis oves et sermonum</l>
+          <l>Et exempli pabulis.<note place="foot" xml:id="ftn8" n="8">
+              <p rend="footnote text">Verbis Rudolfi Adv. 4 relatis subscripta sunt charactere aliquantum
                         recentiore ista: qui (Joannes) postmodum in adulta etate factus sacerdos
                         ecclesiam in Nesselwang regebat. Et ultimo factus est monachus huius domus.
                         Qui mihi fratri Marco ipsum super hoc interrogante, retulit de verbo ad
                         verbum cuncta prelibata audientibus universis, in colloqui generalis. Haec
-                        Marcus Lindaugiensis Joannis nostro coaevus, et anno <date>1358</date> adhuc superstes.
+                        Marcus Lindaugiensis Joannis nostro coaevus, et anno<date>1358</date>adhuc superstes.
                         Marcus iste studuerat scientiis severioribus Parisiis sub Conrado II abbate,
                         ad quem epistola Parisiis data, exstat in bibliotheca nostra. Stamsium
                         reversus, libris describendis et verbo Dei praedicando operam dedit. Obiit
-                        diu post annum <date>1353</date>: nam in catalogo religiosorum Stamsensium, qui ab anno
-                        <date>1358</date>usque ad annum <date>1437</date> obierunt, ponitur 13us item Fr. Marcus, qui multum
+                        diu post annum<date>1353</date>: nam in catalogo religiosorum Stamsensium, qui ab anno<date>1358</date>usque ad annum<date>1437</date>obierunt, ponitur 13us item Fr. Marcus, qui multum
                         scripsit et praedicavit. Existant inter alia eius scripta sermones quidam
                         latini, seu collationes, quarum una sic infit: in principio collationis
                         nostre pro impetranda gratia salutemus virginem gloriosam angelica
@@ -331,59 +317,57 @@
                         et legifer noster beatus Bernhardus, volens nos tanquam milites et caetera.
                         Unde prioris aut supprioris officium aliquando gessisse, colligitur. Ex
                         supra dictis autem sequitur, Joannem illum, qui e turri delapsus revixerat,
-                        eundem esse cum eo, qui anno <date>1348</date> tanquam monachus occurrit inter testes
+                        eundem esse cum eo, qui anno<date>1348</date>tanquam monachus occurrit inter testes
                         primus in instrumento, quod Conradus Graentner civis Halensis a Georgio de
                         Novomonte in Mays varia bona coemit. Eius exordium tale est: anno domini
-                        millesimo trecentesimo quadragesimo octavo, indictione prima, die <gap/> in
+                        millesimo trecentesimo quadragesimo octavo, indictione prima, die<gap/>in
                         Nidermais, in horto dotis ecclesie sancti Vigilii, presentibus fratre
-                        Iohanne de Campodona Con<gap/> (Conventuali de Stams, legendum puto) domino
+                        Iohanne de Campodona Con<gap/>(Conventuali de Stams, legendum puto) domino
                         Chunzlino de Triento, nunc plebano in Mais, domino Pietro de Awer Tirolis,
                         nunc iudice in Merano, et caetera. Quo anno Joannes noster Campidonensi
                         presbyterio initiatus aut parochiae praepositus fuerit, nihil equidem
-                        constat. Attamen, si eum circa annum <date>1280</date>, ut vero simile est, natum
-                        supponamus, eundem circa nnum <date>1305</date> sacerdotem, et post aliquot annorum
+                        constat. Attamen, si eum circa annum<date>1280</date>, ut vero simile est, natum
+                        supponamus, eundem circa nnum<date>1305</date>sacerdotem, et post aliquot annorum
                         intervallum parochum factum esse, aeque verisimiliter
                 coniicimus.</p>
             </note>
           </l>
         </lg>
       </div>
-           <div>
+      <div>
         <pb xml:id="FB4r"/>
         <l>
           <foreign xml:lang="dt"/>
         </l>
-                        <pb xml:id="FB4v"/>
+        <pb xml:id="FB4v"/>
       </div>
-               <div>
+      <div>
         <lg>
           <l>Ovem gregis e pastore,</l>
-            <l>Et virtutis e doctore</l>
-            <l>Facis te discipulum:<note place="foot" xml:id="ftn9" n="9">
-              <p rend="footnote text">
-                        Vide Adv. 8.</p>
+          <l>Et virtutis e doctore</l>
+          <l>Facis te discipulum:<note place="foot" xml:id="ftn9" n="9">
+              <p rend="footnote text">Vide Adv. 8.</p>
             </note>
           </l>
-            <l>Puerumque e grandaevo,</l>
-            <l>Perfectusque sine naevo</l>
-            <l>Stamsii novitium.<note place="foot" xml:id="ftn10" n="10">
-              <p rend="footnote text">
-                        Annum ingressus, et professionis certo non non scimus. Sub Hermanno abbate,
-                        qui anno <date>1333</date> praesultatum sponte posuit, Joannem parochum Nesselwangensem,
+          <l>Puerumque e grandaevo,</l>
+          <l>Perfectusque sine naevo</l>
+          <l>Stamsii novitium.<note place="foot" xml:id="ftn10" n="10">
+              <p rend="footnote text">Annum ingressus, et professionis certo non non scimus. Sub Hermanno abbate,
+                        qui anno<date>1333</date>praesultatum sponte posuit, Joannem parochum Nesselwangensem,
                         religionem ingressum ac professum fuisse, opinor: tum, quia Franciscus
                         abbas, in tabulis Stamsensibus apprime versatus, narrationi illi Adv. 4
                         relatae in margine adscripsit: iste est noster beatus Joannes de Campidona,
                         cuius sacrum caput et lypsana habemus. Vixit sub domino Ulrico abate, circa
-                        annum <date>1334</date>. Tum quia nunquam alias tantus fuit candidatorum ad monasterium
+                        annum<date>1334</date>. Tum quia nunquam alias tantus fuit candidatorum ad monasterium
                         Stamsense concursus, quam sub eodem Hermanno, viro a sanctimonia vitae et
                         animas regendi peritia tun celeberrimo. Non longe proin a vero erravero, si
-                        annum ingressus, <date>1330</date> fuisse existimem: quo ipse Joannes iam quinquagenarius
+                        annum ingressus,<date>1330</date>fuisse existimem: quo ipse Joannes iam quinquagenarius
                         fuit. Quod Aug. Sartorius ordinis cisterciensis in suo cistercio bis tertio
                         germanico f. 936 et Iac. Schmid. societatis Jesu in Ehrenglanz der
                         Graffschaft Tirol p. 3, ex relationibus a Stamsio submissis afferunt,
                         Joannem nostrum religionem Stamsii ingressum fuisse circa annum 1340. Alio
                         fundamento non nititur, quam negativo; eo scilicet, quod Joannis de
-                        Campidona prima mentio in tabulis occurrat anno <date>1341</date> die 4 decembris. At
+                        Campidona prima mentio in tabulis occurrat anno<date>1341</date>die 4 decembris. At
                         exinde contrarium potius eruitur. Neque enim monachum vix professum, statim
                         oeconomiae et praeiis curandis fuisse admotum, credibile est, sed religiosum
                         vitae diuturno monasterii rigore probatae.</p>
@@ -391,35 +375,35 @@
           </l>
         </lg>
       </div>
-                    <div>
+      <div>
         <pb xml:id="FC1r"/>
         <l>
           <foreign xml:lang="dt"/>
         </l>
-                        <pb xml:id="FC1v"/>
+        <pb xml:id="FC1v"/>
       </div>
-            <div>
+      <div>
         <lg>
           <l>Quantum per virtutis viam,</l>
-            <l>Martham simul et Mariam</l>
-            <l>Imitando, proficis!</l>
-            <l>Solatricis dum honorem</l>
-            <l>Maiis curas, et laborem</l>
-            <l>Pro confratrum praediis.<note place="foot" xml:id="ftn11" n="11">
-              <p rend="footnote text"> Majae, Maja, Magia, Magies, Maies, Majis, Maijs, Mais
+          <l>Martham simul et Mariam</l>
+          <l>Imitando, proficis!</l>
+          <l>Solatricis dum honorem</l>
+          <l>Maiis curas, et laborem</l>
+          <l>Pro confratrum praediis.<note place="foot" xml:id="ftn11" n="11">
+              <p rend="footnote text">Majae, Maja, Magia, Magies, Maies, Majis, Maijs, Mais
                         pagus nobilis est ad Athesim, olim urbs Sancti Valentini confessoris et
                         Passaviensis seu potius regionarii harum partium episcopi sepulcro celebris:
                         quod sanctus Corbinianus Frisingensis et beatus Venantius Fortunatus
                         Pictaviensis, episcopi, tantis in delitiis habuerunt; ut hic in suo itinere
-                        ex <placeName>Italia</placeName> in <placeName>Galliam</placeName>, per longum circuitum Majas divertere, ille vero et
+                        ex<placeName>Italia</placeName>in<placeName>Galliam</placeName>, per longum circuitum Majas divertere, ille vero et
                         vivere et mortuus quiescere apud sanctum Valentinum, voluerint. Urbis huius
                         initia obscura sunt, quia antiquissima. Civitatem tamen appellat Aribo
                         episcopus Frisingesis, qui ipse Majis oriundus fuit, in vita sancti
                         Corbiniani c. 38. Obiit autem hic Sanctus Frisingae et Maias translatus est
-                        anno <date>730</date>. Huius seculi circa finem urbs Maiensis exitium subiit, delapso
+                        anno<date>730</date>. Huius seculi circa finem urbs Maiensis exitium subiit, delapso
                         vicino monte sepulta, excepta ecclesia sancti Valentini et paucis castellis.
                         Porro domus ad clivum ruinae postmodum constructae versus Boream, vocabantur
-                        Amrain, quod colligo tum ex instrumento de anno <date>1490</date>, quo ecclesia Sancti
+                        Amrain, quod colligo tum ex instrumento de anno<date>1490</date>, quo ecclesia Sancti
                         Georgii ibidem sita, appellatur S. Georgen am Rain; tum ex etymo nominis,
                         quo civitas inde exorta, olim et nunc in instrumentis scripta legitur an
                         Meran. Pars tamen Maiarum australis, quae aut remanserat, aut de novo
@@ -431,16 +415,15 @@
                         spectabat, quando monasterium Stamsense fundari coepit. Huic ego et
                         Meinhardus II comes Tirolis advocatiam, et Egno episcopus tridentinus ius
                         patronatu cum omnibus proventibus parochiae Maiensis in vim fundationis
-                        donarunt anno <date>1273</date>. In ecclesia supra dicta Beatae Virginis Mariae anno <date>1332</date>
-                        imago quaedam lignea eiusem Beatae Virginis Filii sui corpus exanime gremio
+                        donarunt anno<date>1273</date>. In ecclesia supra dicta Beatae Virginis Mariae anno<date>1332</date>imago quaedam lignea eiusem Beatae Virginis Filii sui corpus exanime gremio
                         sustentatis, beneficiis coruscare et specialiter coli coepit; prout ex
                         antiquis literis se eruisse testatur R.P. Ioachimus Dinzel Ordinis Capuccini
-                        in sua historia Mariae a solatis, impressa augustae <placeName>Vindobonae</placeName> anno <date>1729</date>,
+                        in sua historia Mariae a solatis, impressa augustae<placeName>Vindobonae</placeName>anno<date>1729</date>,
                         qua vero occasione aut origine, prorsus ignotum est. Hodie imago ista
                         etiamnum gratiosa, vocatur Beata Virgo de Solatio. Eo quod circa finem
-                        seculi XIV Ramecio amne exundante sepulta, et anno <date>1626</date> reperta, Maienses
+                        seculi XIV Ramecio amne exundante sepulta, et anno<date>1626</date>reperta, Maienses
                         ingenti solatio assecisset. Eadem ecclesia Beatae Virginis Mariae de novo
-                        exstructa est ano <date>1341</date>, quo ipso anno Joannes Campidonensis ab Ulrico abbate
+                        exstructa est ano<date>1341</date>, quo ipso anno Joannes Campidonensis ab Ulrico abbate
                         Maias missus est ad oeconomiam et bonorum Stamsensium ibi sitorum
                         administrationem. Unde pronus sum, ut credam, restaurationem ecclesiae
                         Beatae Virginis factam esse curante eodem venerabile Joanne nostro, et ad
@@ -450,46 +433,44 @@
                         Hoc etiam anno die 4 decembris Hedwigis de Laubers, vidua Alberti equitis de
                         Vellenberch fundavit anniversarium pro se, et marito suo Alberto, et patre
                         Henrico et aliis, celebrandum in ecclesia Sancte Marie plebis Mays. Ed aliud
-                        pro eisdem celebrandum in Stammes <gap/> domino Hainrico de Markpurchk et
+                        pro eisdem celebrandum in Stammes<gap/>domino Hainrico de Markpurchk et
                         domino Iohanni de Campidona, fratribus dicti monasterii in Stammes, ibidem
                         presentibus, stipulantibus et recipientibus vice et nomine eiusdem
                         monasterii. Porro Joannem de Campidona nno sequente ex Maiis revocatum esse,
-                        patet ex instrumento de 17 Novembris <date>1342</date>, in quo iam alius officialis cum
-                        Henrico de Markburg, nempe Ulricus Freysinger occurrit. Sed denuo anno <date>1348</date>
-                        Majas, sive ad oeconomiam, sive ad alia negotia missum esse, constat ex
+                        patet ex instrumento de 17 Novembris<date>1342</date>, in quo iam alius officialis cum
+                        Henrico de Markburg, nempe Ulricus Freysinger occurrit. Sed denuo anno<date>1348</date>Majas, sive ad oeconomiam, sive ad alia negotia missum esse, constat ex
                         instrumento allegato Adv. 8.</p>
             </note>
           </l>
         </lg>
       </div>
-                    <div>
+      <div>
         <pb xml:id="FC2r"/>
         <l>
           <foreign xml:lang="dt"/>
         </l>
-                        <pb xml:id="FC2v"/>
+        <pb xml:id="FC2v"/>
       </div>
-            <div>
+      <div>
         <lg>
           <l>Ast dum corpus in externis,</l>
-            <l>Contemplando in supernis</l>
-            <l>Conversatur Spiritus:</l>
-            <l>Qui divinis mersus rebus</l>
-            <l>Quinquies est quot diebus</l>
-            <l>Recreatus raptibus.<note place="foot" xml:id="ftn12" n="12">
-              <p rend="footnote text">
-                        In quodam regesto seu indice reliquiarum monasterii, scripto anno <date>1422</date>,
+          <l>Contemplando in supernis</l>
+          <l>Conversatur Spiritus:</l>
+          <l>Qui divinis mersus rebus</l>
+          <l>Quinquies est quot diebus</l>
+          <l>Recreatus raptibus.<note place="foot" xml:id="ftn12" n="12">
+              <p rend="footnote text">In quodam regesto seu indice reliquiarum monasterii, scripto anno<date>1422</date>,
                         legitur: nota. Subscripte reliquie continentur in dem Sarch des Sagrers et
                         sunt descripta anno domini 1400 vicesimo secundo in die Sancte Potenciane
-                        virginis. Primo crux argentea et preciosa <gap/>. Item brachium sancti
+                        virginis. Primo crux argentea et preciosa<gap/>. Item brachium sancti
                         Victoris. Item duo brachia XI millium virginum. Item brachium unum sine
-                        titulo. Item duo capita undecim milium virginum <foreign xml:lang="dt"> ingemacht in plawen semitt
-                        und haben Berlin krön </foreign>. Item Schrinium Argenteum cum reliquiis. Item duo
+                        titulo. Item duo capita undecim milium virginum<foreign xml:lang="dt">ingemacht in plawen semitt
+                        und haben Berlin krön</foreign>. Item Schrinium Argenteum cum reliquiis. Item duo
                         alii Schrinii decorate cum aruo obriso. Item duo Schrinii materie vitree et
                         super aureate. Item magnum Schrinium ligneum et pictatum in quo est caput
                         cuiusdam devotissimi fratris nacionis de Campidona cuius corpus est sepultum
                         in capela infirmorum et mula futura praedixit et caetera. Ita forma lancee
-                        domini <gap/>. Et in membranula antiqua sacro illi Capiti praefixa, leguntur
+                        domini<gap/>. Et in membranula antiqua sacro illi Capiti praefixa, leguntur
                         verba sequentia: istud caput fuit cuiusdam fratris huius domus professi mire
                         contemplacionis viri, cuius eximie sanctitatis experimentum erat gratia
                         spiritus sancti, cuius suavitate dulciter affectus, et in Deo suo feliciter
@@ -518,10 +499,10 @@
                         Minister, de quo schedula, fuit certe bonus scriba, et fratri, cuius hae
                         reliquiae sunt, familiaris. Equidem plures erant circa id temporis boni
                         scribae Stamsii: sed familiaritas cum Joanne Campidonensi de solo Marco
-                        constat ex Adv. 8. Praterea Marcus nuper <placeName>Parisiis</placeName> reversus, aetate iuvenis,
+                        constat ex Adv. 8. Praterea Marcus nuper<placeName>Parisiis</placeName>reversus, aetate iuvenis,
                         venerabili seni virtute haud multum dissimilis, ministe eidem adiungi facile
                         potuit. Quisquis tamen fuerit ille minister et scriptor, certe Joanni
-                        Campidonensi, qui anno <date>1348</date> vixit, synchronus fuit. Ex quo aeque certum fit,
+                        Campidonensi, qui anno<date>1348</date>vixit, synchronus fuit. Ex quo aeque certum fit,
                         fratrem, cuius sunt istae reliquie, Joannem Campidonensem fuisse, quia
                         nullus alius Campidonensis eo tempore Stamsii duir, praeter
                     Joannem.</p>
@@ -529,37 +510,36 @@
           </l>
         </lg>
       </div>
-                    <div>
+      <div>
         <pb xml:id="FC3r"/>
         <l>
           <foreign xml:lang="dt"/>
         </l>
-                        <pb xml:id="FC3v"/>
+        <pb xml:id="FC3v"/>
       </div>
-            <div>
+      <div>
         <lg>
           <l>In hac schola didicisti,</l>
-            <l>Quae futura praedixisti,</l>
-            <l>Quae remota conspicis:</l>
-            <l>Dumque poenas defunctorum</l>
-            <l>Vides, flammas afflictorum</l>
-            <l>Deles Sacrificiis.<note place="foot" xml:id="ftn13" n="13">
-              <p rend="footnote text">
-                        Extat in tabulario nostro Stamsensi extractus chronici Ethalensis sequens:
+          <l>Quae futura praedixisti,</l>
+          <l>Quae remota conspicis:</l>
+          <l>Dumque poenas defunctorum</l>
+          <l>Vides, flammas afflictorum</l>
+          <l>Deles Sacrificiis.<note place="foot" xml:id="ftn13" n="13">
+              <p rend="footnote text">Extat in tabulario nostro Stamsensi extractus chronici Ethalensis sequens:
                         ex chronico antiquissimo Ettalensi nota. Sequenti die, quam Ludovicus
                         imperator obiit, fuerat monachus in Stambs in elebratione missae suae, et
                         quando debuit loqui verba consecrationis, diu oblicuit. Et tandem fuerat
-                        intime locutus in vulgari: <foreign xml:lang="dt">O wie <unclear>wee</unclear> dir ist, und wurdt dir
+                        intime locutus in vulgari:<foreign xml:lang="dt">O wie<unclear>wee</unclear>dir ist, und wurdt dir
                         schuer wol besser</foreign>. Et haec loquebatur tribus vicinas, et postea consecravit,
                         et elevavit corpus dominicum. Et post hoc, quando debui sumere corpus
-                        dominicum, iterum obticuit diu. Et tandem erat locutus ter iterum: <foreign xml:lang="dt">o wie dir
+                        dominicum, iterum obticuit diu. Et tandem erat locutus ter iterum:<foreign xml:lang="dt">o wie dir
                         ist! Unnd wurdt dir doch schier wol besser</foreign>. Et post hoc sumpsit corpus
                         dominicum, et finivit missam suam, et post missam ministrans inquirebat ab
                         eo verbis flexibilibus et humilibus: O! Pater! Dic mihi, quid notasti cum
                         istis theonicis (lege theotiscis) verbis? Qui respondit sibi, Ludovicum
                         imperatorem obiise, et sibi apparuisse in missa. Eadem historia narratur in
                         fragmento libri germanici typis perantiquis in forma quarta impressi, hoc
-                        modo. <foreign xml:lang="dt">Ein gross miracul nach todt kaysers Ludwigen geschehen. Darnach inn
+                        modo.<foreign xml:lang="dt">Ein gross miracul nach todt kaysers Ludwigen geschehen. Darnach inn
                         dem 1347 jare. Am III tag des Weinmonats seiner kaiserlichen Mayestaten
                         regierens in dem XXXIII jare ist der durchleuchtigist fürst unnd herr Ludwig
                         der IIII des namens römischer kayser von disem jamertall abgeschiden. Dem
@@ -585,7 +565,7 @@
                         octobris. Unde apparet, vel auctorem huius fragmenti fuisse opinionis minus
                         communis, vel typographi errore numerum III pro XI, quod quidem perfacile
                         fieri potuit, irrepsisse. Conveniunt hae duae relationes de caetero
-                        accurate, nisi quod latina afferat, sacerdotem diu, germanica vero, <foreign xml:lang="dt">eine
+                        accurate, nisi quod latina afferat, sacerdotem diu, germanica vero,<foreign xml:lang="dt">eine
                         klaine zeit</foreign>, obticuisse. Sed parum interest. Primama autem ex chronico
                         antiquissimo monasterii Ethalensis excerptam esse, mirum videri non debet.
                         Quando Ludovicus ipse eiusdem fundator exstitit, cuius utique vitam, et res
@@ -600,10 +580,10 @@
                         promisit nhilominus inquirere, et si, quod petiissem, invenerit, prompte
                         transmittere, id quod etiamnum exspecto. Caeterum siquis historiam istam in
                         dubium revocet, vel ex eo, quod de huiusmodi apparitionibus nihil credendum
-                        sit, vel ex eo, quod <persName>Ludovicus Bavarus</persName> ut ecclesiae rebellis et ab ea
+                        sit, vel ex eo, quod<persName>Ludovicus Bavarus</persName>ut ecclesiae rebellis et ab ea
                         segregatus obierti: cum neutro mihi hic agendum sumo. Sufficit mihi ea, quae
                         de Joanne nostro inveni, sive dubia, sive certa sint, veraciter retulisse.
-                        De <persName>Ludovico</persName> tamen non possum dissumulare, quod sentio; scilicet virum fuisse
+                        De<persName>Ludovico</persName>tamen non possum dissumulare, quod sentio; scilicet virum fuisse
                         pium, sed lapsum esse schisma excitando, propterea anathemate perculsum,
                         resipuisse, sed veniae locum in foro, ut aiunt, externo minime invenisse,
                         mortuum vero esse piissime. Vide Herwartum et alios scriptores praecipue
@@ -612,17 +592,17 @@
           </l>
         </lg>
       </div>
-                    <div>
+      <div>
         <pb xml:id="FD1r"/>
         <l>
           <foreign xml:lang="dt"/>
         </l>
-                        <pb xml:id="FD1v"/>
+        <pb xml:id="FD1v"/>
       </div>
-                        <div>
+      <div>
         <lg>
-          <l> Tuam nobis sanctitatem<note place="foot" xml:id="ftn14" n="14">
-              <p rend="footnote text"> Joannem nostrum in fama sanctitatis obiisse, probant
+          <l>Tuam nobis sanctitatem<note place="foot" xml:id="ftn14" n="14">
+              <p rend="footnote text">Joannem nostrum in fama sanctitatis obiisse, probant
                         supra relata testimonia Adv. 12; quod fuerit devotissimus, mirae
                         contemplationis vir, eximiae sanctitatis, in extasin ad minus quinquies in
                         die raptus, spiritu prophetico insignis et caetera. Item quod sepultus non
@@ -666,20 +646,20 @@
                         Geist aufgeben</foreign>.</p>
             </note>
           </l>
-            <l>Per odoris suavitatem</l>
-            <l>Inhaerentem ossibus,</l>
-            <l>Reliquisti venerandam,</l>
-            <l>Commendasti imitandam</l>
+          <l>Per odoris suavitatem</l>
+          <l>Inhaerentem ossibus,</l>
+          <l>Reliquisti venerandam,</l>
+          <l>Commendasti imitandam</l>
         </lg>
       </div>
-                    <div>
+      <div>
         <pb xml:id="FD2r"/>
         <l>
           <foreign xml:lang="dt"/>
-                        <pb xml:id="FD2v"/>
+          <pb xml:id="FD2v"/>
         </l>
-      </div> 
-            <div>
+      </div>
+      <div>
         <lg>
           <l>Quem te modo veneramur,<note place="foot" xml:id="ftn15" n="15">
               <p rend="footnote text">Si maiores nostri, qui in confratrum
@@ -696,38 +676,37 @@
                         aliquo non vult nec intendit iis, qui aut per communem ecclesiae consensum,
                         vel immemorabilem temporis cursum, aut per patrum virorumque sanctorum
                         scripta, vel longissimi temporis scientia ac tolerantia sedis aposolicae,
-                        vel ordinarii coluntur. Certe immemorabilis temporis cursus fuit ab anno
-                        <date>1422</date>, quo Joannis nostri reliquiae inter alias sanctorum reliquias
+                        vel ordinarii coluntur. Certe immemorabilis temporis cursus fuit ab anno<date>1422</date>, quo Joannis nostri reliquiae inter alias sanctorum reliquias
                         asservabantur et colebantur, usque ad tempora Urbani VII, et multo magis
                         usque ad nostra.</p>
             </note>
           </l>
-            <l>Fac, ut fortes assequamur!</l>
-            <l>Tuo fave Stamsio!<note place="foot" xml:id="ftn16" n="16">
-              <p rend="footnote text"> In
+          <l>Fac, ut fortes assequamur!</l>
+          <l>Tuo fave Stamsio!<note place="foot" xml:id="ftn16" n="16">
+              <p rend="footnote text">In
                         praefatione monui, rythmum hunc ad meum solius usum fuisse compositum.
                         Siquis alius, a Stamsio non dependens, eodem uti voluerit, substituat huic
-                        versui istum: Fave tuo famulo! Et respondentem germanicum: <foreign xml:lang="dt">Deinem dir
+                        versui istum: Fave tuo famulo! Et respondentem germanicum:<foreign xml:lang="dt">Deinem dir
                         Ergebnen bey!</foreign>
               </p>
             </note>
           </l>
-            <l>Ut in vita Dei mater</l>
-            <l>Et in morte, roga frater,</l>
-            <l>Nobis sit solatio!</l>
+          <l>Ut in vita Dei mater</l>
+          <l>Et in morte, roga frater,</l>
+          <l>Nobis sit solatio!</l>
         </lg>
       </div>
-                    <div>
+      <div>
         <pb xml:id="FD3r"/>
         <l>
           <foreign xml:lang="dt"/>
-                        <pb xml:id="FD3v"/>
+          <pb xml:id="FD3v"/>
         </l>
       </div>
-            <div>
+      <div>
         <lg>
           <l>Rege patrem, nos regentem,<note place="foot" xml:id="ftn17" n="17">
-              <p rend="footnote text"> Rogerium Stamsii praesulem XXXIII tunc ego quidem
+              <p rend="footnote text">Rogerium Stamsii praesulem XXXIII tunc ego quidem
                         intellexi, quando rythmum composui. Sed eo defuncto (cui requiem aeternam
                         impetret venerabilis Joannes!) intelligendus venit modernus reverendissimus,
                         perillustris ac amplissimus dominus praesul Vigilius, cui idem venerabilis
@@ -736,25 +715,24 @@
                         superiorem intelligere.</p>
             </note>
           </l>
-            <l>Santum corpus, salvam mentem</l>
-            <l>Huic a Deo impetra!</l>
-            <l>Pace modo nos fraterna, </l>
-            <l>Tandem tecum aeviterna</l>
-            <l>Frui fac nos gloria!</l>
+          <l>Santum corpus, salvam mentem</l>
+          <l>Huic a Deo impetra!</l>
+          <l>Pace modo nos fraterna,</l>
+          <l>Tandem tecum aeviterna</l>
+          <l>Frui fac nos gloria!</l>
         </lg>
       </div>
-                    <div>
+      <div>
         <pb xml:id="FD4r"/>
         <l>
           <foreign xml:lang="dt"/>
-                        <pb xml:id="FD4v"/>
+          <pb xml:id="FD4v"/>
         </l>
       </div>
-            <div>
+      <div>
         <lg>
           <l>Per Baptistam Domini<note place="foot" xml:id="ftn18" n="18">
-              <p rend="footnote text">
-                        Adv. 6 observatum est, innumera olim per sanctum Joannem Baptistam Stamsi
+              <p rend="footnote text">Adv. 6 observatum est, innumera olim per sanctum Joannem Baptistam Stamsi
                         thaumaturgum miracula ac sanitatum beneficia contigisse. Hic addere libet,
                         monasterium Stamsense (quod et Stirpinense appellatum nonnunquam occurrit)
                         eiusdem divi patrocinio non solum sui conservationem, sed etiam ipsam
@@ -800,18 +778,17 @@
                         facultatem, quidquid privilegiorum et honorum sive a principibus, sive a
                         nobilibus, sive etiam a plebeiis Stamsio obvenit, id pene omne in honorem
                         sanctissimi thaumaturgi nostri datum est ac concessum. Hinc frequens illud
-                        in donationum tabulis: <foreign xml:lang="dt">dem lieben Herrn sant Iohanns ze Stams</foreign>. Hinc etiam
+                        in donationum tabulis:<foreign xml:lang="dt">dem lieben Herrn sant Iohanns ze Stams</foreign>. Hinc etiam
                         factum, ut serenissimus fundator suae suorumque omnium sepulturae stamsense
                         monasterium destinaret. Quando duodecim Tirolensium comitum exuvias ex arce
                         Teriolis elevata, huc transferri, et una cum coniuge sua Elisabetha ac
-                        liberis suis in basilica ante gradum altaris denuo tumulari fecit anno <date>1284</date>
-                        die 5 novembris, quo ipso die monasterium a septem episcopis solennissime
+                        liberis suis in basilica ante gradum altaris denuo tumulari fecit anno<date>1284</date>die 5 novembris, quo ipso die monasterium a septem episcopis solennissime
                         dedicatum est. Hinc factum, ut Bruno episcopus Brixinensis non tantum
                         exemtionem, sed etiam universam parochiam Silzensem, et alia beneficia tanta
                         contulerit, ut verissime de se scripserit diplomate Adv. 6 citato: nomine et
                         re sumus et esse volumus fundator pro nostro tempore monasterii nominati.
-                        Hinc factum, ut Henricus Meinhardi et Elisabethae filius, dux <placeName>Carinthiae</placeName> et
-                        electus <placeName>Bohemiae</placeName> rex, devotissimus sanctis Joannis Baptistae cultor,
+                        Hinc factum, ut Henricus Meinhardi et Elisabethae filius, dux<placeName>Carinthiae</placeName>et
+                        electus<placeName>Bohemiae</placeName>rex, devotissimus sanctis Joannis Baptistae cultor,
                         ecclesiam superiorem antiquam ampliare, ampliusque dotare, Stamsium suum
                         identidem visitare, Hermannum abbatem in conscientiae arbitrum etiam per
                         diploma eligere dignaretur. Hinc factum, ut Rudolfus comes palatinus Reni et
@@ -819,44 +796,43 @@
                         reverentiam beati Iohannis Baptiste, insigne privilegium conferret, quo
                         bona, sibi suisque haeredibus feudi iure obnoxia, cum primum ad Stamsium
                         quovis titulo pervenerint, eo ipso propria monasterio et libera fierent:
-                        datum in Stams anno domini <date>1415</date> in octava sancti Michaelis Archangeli. Hinc
+                        datum in Stams anno domini<date>1415</date>in octava sancti Michaelis Archangeli. Hinc
                         etiam factum, ut Carolus IV imperator Stamsenses praesules sacrarum imperii
                         reliquiarum custodes crearet; eisque caput sancti Zachariae patris sancti
                         Joannis Baptistae a Joanne Palaeologo orientis imperatore acceptum, donaret
-                        anno <date>1377</date>. Hinc denique factum, ut et <placeName>Austriae</placeName> serenissimi atque etiam
+                        anno<date>1377</date>. Hinc denique factum, ut et<placeName>Austriae</placeName>serenissimi atque etiam
                         augustissimi principes Stamsium, tanquam familiae suae mausolaeum
-                        amplissimis gratiis ac praerogativis cumularent. </p>
+                        amplissimis gratiis ac praerogativis cumularent.</p>
               <p rend="footnote text">Sed ne finem non inveniam; praeterio reliqua, quae de cultu sanctissimi
                         patroni Stamsensis commemoranda occurrerent. Quia vero de principibus
                         Stamsii sepultis curiosum esse lectorem, non dubito: brevem eorundem do
                         catalogum , alia occasione, si Deus dederit, latius deducendum.</p>
               <p rend="footnote text">In prima sepultura ante gradum altaris.</p>
-              <p rend="footnote text">Albertus I comes <placeName>Goritiae</placeName>, qui obierat anno <date>1253</date>, die
+              <p rend="footnote text">Albertus I comes<placeName>Goritiae</placeName>, qui obierat anno<date>1253</date>, die
                         22 iulii.</p>
-              <p rend="footnote text">Albertus III comes princeps <placeName>Tirolis</placeName>,
-                        qui obierat anno <date>1254</date>, die 1 septembris.</p>
+              <p rend="footnote text">Albertus III comes princeps<placeName>Tirolis</placeName>,
+                        qui obierat anno<date>1254</date>, die 1 septembris.</p>
               <p rend="footnote text">Iuta
-                        duc. Meraniae, Alberti III comes <placeName>Tirolis</placeName> coniux: obierat post annum
-                        <date>1254</date>.</p>
+                        duc. Meraniae, Alberti III comes<placeName>Tirolis</placeName>coniux: obierat post annum<date>1254</date>.</p>
               <p rend="footnote text">Meinhardus III comes Goritiae, seu I comes
-                        Tirolis: obierat anno <date>1258</date>.</p>
+                        Tirolis: obierat anno<date>1258</date>.</p>
               <p rend="footnote text">Octo alii de istorum
                         familia.</p>
               <p rend="footnote text">Elisabetha regina romanorum Conradi IV
                         regis romanorum primum, dein Meinhardi II comes Tirolis coniux, Ottonis IV
-                        D. Bavierae filia, Stamsii fundatrix praecipua: quae obierat anno <date>1273</date> die
+                        D. Bavierae filia, Stamsii fundatrix praecipua: quae obierat anno<date>1273</date>die
                         10 octobris tum quidem in ecclesia superiori (quae primis duodecim annis
-                        monasterialis fuit) sepulta, postmodum vero in inferiori, anno <date>1284</date>, die 5
-                        Novembris. </p>
+                        monasterialis fuit) sepulta, postmodum vero in inferiori, anno<date>1284</date>, die 5
+                        Novembris.</p>
               <p rend="footnote text">Quatuor infantes liberi
                         fundatorum.</p>
               <p rend="footnote text">Albertus D. Carinthiae filius Fundd.
-                        obierat anno <date>1292</date>, die 24 Aprilis.</p>
+                        obierat anno<date>1292</date>, die 24 Aprilis.</p>
               <p rend="footnote text">Meinhardus II
                         comes principes Tirolis et D. Carinthiae, Stamsensis monasterii fundator,
-                        obierat anno <date>1295</date>, die 31 octobris.</p>
+                        obierat anno<date>1295</date>, die 31 octobris.</p>
               <p rend="footnote text">Ludovicus D.
-                        Carinthiae, comes Tirolis obierat anno <date>1305</date>, die 23 septembris.</p>
+                        Carinthiae, comes Tirolis obierat anno<date>1305</date>, die 23 septembris.</p>
               <p rend="footnote text">Otto D. Carintiae, comes Tirolis obierat anno 1310, die
                         25 maii.</p>
               <p rend="footnote text">Anna regina Bohemiae prima coniux
@@ -895,26 +871,24 @@
                         Stamsii fautor: obierat ann 1439, in natali sancti Joannis Baptistae.</p>
               <p rend="footnote text">In Tertia sepultura, seu novo mausolaeo extra chorum
                         constructo:</p>
-              <p rend="footnote text">Eleonora regina <placeName>Scotiae</placeName>, Sigismundi
-                        archiducis prima coniux: obierat anno <date>1480</date>, die 20 novembris.</p>
+              <p rend="footnote text">Eleonora regina<placeName>Scotiae</placeName>, Sigismundi
+                        archiducis prima coniux: obierat anno<date>1480</date>, die 20 novembris.</p>
               <p rend="footnote text">Wolfgangus archiducis Sigismundi et Eleonorae filius:
-                        obierat anno <date>1480</date>.</p>
-              <p rend="footnote text">Sigismundus I archidux
-                        <placeName>Austriae</placeName>: obierat anno <date>1496</date>, die 4 martii.</p>
+                        obierat anno<date>1480</date>.</p>
+              <p rend="footnote text">Sigismundus I archidux<placeName>Austriae</placeName>: obierat anno<date>1496</date>, die 4 martii.</p>
               <p rend="footnote text">M.
                         Blanca imperatris, Maximiliani I altera coniux, duc. mediolanesis: obierat
-                        anno <date>1510</date>, die 31 decembris.</p>
+                        anno<date>1510</date>, die 31 decembris.</p>
               <p rend="footnote text">Rudolfus princeps
-                        Anhaltinus: obierat anno <date>1515</date>.</p>
+                        Anhaltinus: obierat anno<date>1515</date>.</p>
               <p rend="footnote text">Severinus d.
-                        Saxoniae: obierat anno <date>1533</date>
+                        Saxoniae: obierat anno<date>1533</date>
               </p>
               <p rend="footnote text">Joannes archiducx
                         Ferdinandi I imperatoris filius: obierat 1539, die 20 martii.</p>
-              <p rend="footnote text">Ursula, Ferdinandi I imperatoris filia: obierat anno
-                        <date>1543</date>, die 30 aprilis.</p>
+              <p rend="footnote text">Ursula, Ferdinandi I imperatoris filia: obierat anno<date>1543</date>, die 30 aprilis.</p>
               <p rend="footnote text">Fridericus archidux
-                        Maximiliani II imperatoris filius: obierat anno <date>1563</date>, die 26 Ianuarii.</p>
+                        Maximiliani II imperatoris filius: obierat anno<date>1563</date>, die 26 Ianuarii.</p>
               <p rend="footnote text">Denique inter beneficia praecipua per sanctum Joannem
                         Baptistam monasterio Stamsensi praestita, illud ipsum non immerito censendum
                         videtur: quod Joanni Campidonensi puero, e turris fastigio prolapso, seu
@@ -926,99 +900,93 @@
                         omniumque fundatorum et fautorum nostrorum salute! Amen.</p>
             </note>
           </l>
-            <l>Laus sit enti increato,</l>
-            <l>Laus parenti sit, et nato,</l>
-            <l>Laus sit sancto Flamini!</l>
-            <l>Amen</l>
+          <l>Laus sit enti increato,</l>
+          <l>Laus parenti sit, et nato,</l>
+          <l>Laus sit sancto Flamini!</l>
+          <l>Amen</l>
         </lg>
       </div>
-             <div>
+      <div>
         <pb xml:id="FE1r"/>
         <l>
           <foreign xml:lang="dt"/>
-                        <pb xml:id="FE1v"/>
+          <pb xml:id="FE1v"/>
         </l>
       </div>
-                <div>
-            <p>Cum aliquoties in hisce adversionibus quorundam abbatum Stamsensium mentio
+      <div>
+        <p>Cum aliquoties in hisce adversionibus quorundam abbatum Stamsensium mentio
                 sit facta, et eruditi lectoris intersit, chronicum eorundem ordinem nosse; hinc ad
                 maius commodum sequens subnectitur.</p>
-            <p>Catalogus abbatum Stamsensium.</p>
-            <p>I. Henricus I de Honstetten, in primum abbatem Stamsensem electus caesareae die 29
-                ianuarii anno <date>1272</date>. Obiit Stamsii in claustro ligneo die 17 februarii anno 1279 vel
-                <date>1280</date>.</p>
-            <p>II. Fridericus de Tegernsee, electus anno <date>1279</date> vel <date>1280</date>. Resign. anno <date>1289</date>.
-                Reassumtus ante anno <date>1295</date>. Denuo resig. 9 aprilis anno <date>1299</date>. Obiit 29 augusti anno
+        <p>Catalogus abbatum Stamsensium.</p>
+        <p>I. Henricus I de Honstetten, in primum abbatem Stamsensem electus caesareae die 29
+                ianuarii anno<date>1272</date>. Obiit Stamsii in claustro ligneo die 17 februarii anno 1279 vel<date>1280</date>.</p>
+        <p>II. Fridericus de Tegernsee, electus anno<date>1279</date>vel<date>1280</date>. Resign. anno<date>1289</date>.
+                Reassumtus ante anno<date>1295</date>. Denuo resig. 9 aprilis anno<date>1299</date>. Obiit 29 augusti anno
                 eodem.</p>
-            <p>III. Rudolfus, unus de primis fratribus caesarea egressis, electus anno <date>1289</date>. Obiit
-                20 martii anno <date>1293</date> vel <date>1294</date>.</p>
-            <p>IV. Conradus I Walder, Faucensis, electus 14 aprilis anno 1299. Resig. anno 1316.
-                Obiit 20 februarii anno <date>1318</date>.</p>
-            <p>V. Hermannus de Freysing, electus anno <date>1316</date>. Resig. 20 iunii anno 1333. Obiit 20
-                decembris anno <date>1333</date>.</p>
-            <p>VI. Ulricus Riezensis, electus 20 iunii anno <date>1333</date>. Obiit 15 septembris anno 1345,</p>
-            <p>VII. Conradus II Feldkirchensis, electus anno <date>1345</date>. Cessit Henrico II anno 1350
-                exeunte iunio. Reassumtus 18 maii anno <date>1353</date>. Obiit 3 martii anno 1369.</p>
-            <p>VIII Henricus II de Albrechtseck, Isniensi, electus a male contentis Fatribus anno
-                <date>1350</date> exeunte iunio. Depositus 18 maii anno <date>1352</date>. Obiit die 7 maii anno incerto post
-                <date>1375</date>.</p>
-            <p>IX. Henricus III Grussit, Uberlinganus, electus anno <date>1369</date>. Resign. anno <date>1387</date>. Obiit
-                22 Februarii anno <date>1389</date>.</p>
-            <p>X. Bertholdus Musont, Isniensis, electus anno 1387. Obiit 13 octobris anno 1399.</p>
-            <p>XI Joannes I Blaterler seu Pustula, Isniensi, electus anno 1399. Obiit 28 maii anno
+        <p>III. Rudolfus, unus de primis fratribus caesarea egressis, electus anno<date>1289</date>. Obiit
+                20 martii anno<date>1293</date>vel<date>1294</date>.</p>
+        <p>IV. Conradus I Walder, Faucensis, electus 14 aprilis anno 1299. Resig. anno 1316.
+                Obiit 20 februarii anno<date>1318</date>.</p>
+        <p>V. Hermannus de Freysing, electus anno<date>1316</date>. Resig. 20 iunii anno 1333. Obiit 20
+                decembris anno<date>1333</date>.</p>
+        <p>VI. Ulricus Riezensis, electus 20 iunii anno<date>1333</date>. Obiit 15 septembris anno 1345,</p>
+        <p>VII. Conradus II Feldkirchensis, electus anno<date>1345</date>. Cessit Henrico II anno 1350
+                exeunte iunio. Reassumtus 18 maii anno<date>1353</date>. Obiit 3 martii anno 1369.</p>
+        <p>VIII Henricus II de Albrechtseck, Isniensi, electus a male contentis Fatribus anno<date>1350</date>exeunte iunio. Depositus 18 maii anno<date>1352</date>. Obiit die 7 maii anno incerto post<date>1375</date>.</p>
+        <p>IX. Henricus III Grussit, Uberlinganus, electus anno<date>1369</date>. Resign. anno<date>1387</date>. Obiit
+                22 Februarii anno<date>1389</date>.</p>
+        <p>X. Bertholdus Musont, Isniensis, electus anno 1387. Obiit 13 octobris anno 1399.</p>
+        <p>XI Joannes I Blaterler seu Pustula, Isniensi, electus anno 1399. Obiit 28 maii anno
                 1420.</p>
-           <pb xml:id="FE2r"/>
+        <pb xml:id="FE2r"/>
         <p>XII. Joannes II Petrer, Isniensi, electus anno 1420. Obiit 21 iunii anno 1436.</p>
-            <p>XIII. Georgius I Ried seu Kotz, Kausburanus, electus anno 1436. Resig. anno 1481
+        <p>XIII. Georgius I Ried seu Kotz, Kausburanus, electus anno 1436. Resig. anno 1481
                 mense iulio. Obiit 10 iulii anno 1483.</p>
-            <p>XIV. Casparius Moerkel Feldkirchensis, electus 4 augusti 1481. Depositus 5 maii anno
-                <date>1484</date>. Obiit 19 Aprilis anno 1496.</p>
-            <p>XV. Bernardus I Welsch, Noerdlinganus, electus 5 maii anno 1484. Huic Fridericus IV
+        <p>XIV. Casparius Moerkel Feldkirchensis, electus 4 augusti 1481. Depositus 5 maii anno<date>1484</date>. Obiit 19 Aprilis anno 1496.</p>
+        <p>XV. Bernardus I Welsch, Noerdlinganus, electus 5 maii anno 1484. Huic Fridericus IV
                 imperator et Sigismundus I archidux, indignum rati, sacellanos principalis Mausolaei
                 mitratos non esse, usum pontificalium impetravere ab Innocentio VIII anno 1488.
-                Resig. 19 augusti anno <date>1501</date>. Obiit 29 novembris anno eodem.</p>
-            <p>XVI. Christianus Bedrot, Pludentinus, electus 19 augusti anno 1501. Resig. 8 augusti
-                anno 1523. Obiit 18 aprilis anno <date>1524</date>.</p>
-            <p>XVII. Pelagius Baur, <gap/>, electo 11 maii anno <date>1525</date>. Resig. 18 aprilis anno <date>1540</date>.
+                Resig. 19 augusti anno<date>1501</date>. Obiit 29 novembris anno eodem.</p>
+        <p>XVI. Christianus Bedrot, Pludentinus, electus 19 augusti anno 1501. Resig. 8 augusti
+                anno 1523. Obiit 18 aprilis anno<date>1524</date>.</p>
+        <p>XVII. Pelagius Baur,<gap/>, electo 11 maii anno<date>1525</date>. Resig. 18 aprilis anno<date>1540</date>.
                 Obiit 25 novembris eodem anno.</p>
-            <p>XVIII. Paulus I Kesinger, postulatus e Caesarea 1 iunii anno 1540. Obiit 1 martii
+        <p>XVIII. Paulus I Kesinger, postulatus e Caesarea 1 iunii anno 1540. Obiit 1 martii
                 anno 1543.</p>
-            <p>XIX. Somon Gaster, Bayrwisensis, electus 23 maii anno 1543. Obiit 23 iulii anno
+        <p>XIX. Somon Gaster, Bayrwisensis, electus 23 maii anno 1543. Obiit 23 iulii anno
                 1554.</p>
-            <p>XX. Geogius II Beghofer, Partanensis, electus 7 septembris anno 1554. Obiit 13
+        <p>XX. Geogius II Beghofer, Partanensis, electus 7 septembris anno 1554. Obiit 13
                 februarii anno 1567.</p>
-            <p>XXI. Joannes III Kalbel, Partanensis, electus anno 1567. Obiit 17 augusti anno
+        <p>XXI. Joannes III Kalbel, Partanensis, electus anno 1567. Obiit 17 augusti anno
                 1590.</p>
-            <p>XXII. Nicolaus Bachmann, Weissenseensis, electus 30 augusti anno 1590. Obiit 2 martii
+        <p>XXII. Nicolaus Bachmann, Weissenseensis, electus 30 augusti anno 1590. Obiit 2 martii
                 anno 1601.</p>
-            <p>XXIII. Melchior Faeger, Schoeffaviensis, electus 16 aprilis anno 1601. Obiit 15 iunii
+        <p>XXIII. Melchior Faeger, Schoeffaviensis, electus 16 aprilis anno 1601. Obiit 15 iunii
                 anno 1615.</p>
-            <p>XXIV. Thomas Lugga seu Lucas, Oenippntanus, electus 29 iunii anno 1615. Obiit 16 maii
-                anno <date>1631</date>.</p>
-            <p>XXV Paulus II Gay, Oenipontanus, electus 9 iunii anno <date>1631</date>. Obiit 25 maii anno
-                <date>1638</date>.</p>
-           <pb xml:id="FE2v"/>
+        <p>XXIV. Thomas Lugga seu Lucas, Oenippntanus, electus 29 iunii anno 1615. Obiit 16 maii
+                anno<date>1631</date>.</p>
+        <p>XXV Paulus II Gay, Oenipontanus, electus 9 iunii anno<date>1631</date>. Obiit 25 maii anno<date>1638</date>.</p>
+        <pb xml:id="FE2v"/>
         <p>XXVI. Bernardus II Gemelich, Oenipontanus, electus 11 augusti anno 1638.
-                Obiit 10 iulii anno <date>1660</date>.</p>
-            <p>XXVII. Augustinus I Haas, Meranensis, electus 4 augusti anno 1660. Obiit 10 iunii
+                Obiit 10 iulii anno<date>1660</date>.</p>
+        <p>XXVII. Augustinus I Haas, Meranensis, electus 4 augusti anno 1660. Obiit 10 iunii
                 anno 1672.</p>
-            <p>XXVIII. Georgius III Nussbaumer, Maiensis, electus 27 iunii anno 1672. Resig. 15
+        <p>XXVIII. Georgius III Nussbaumer, Maiensis, electus 27 iunii anno 1672. Resig. 15
                 martii 1690. Obiit 29 iulii anno 1711.</p>
-            <p>XXIX. Edmundus Zoz, Sevatensis, electus 7 augusti anno 1690. Resig. 25 iulii nno
-                1699. Obiit 17 marti anno <date>1706</date>.</p>
-            <p>XXX. Franciscus Lachemayr, Oenipontanus, electus 29 iulii anno <date>1699</date>. Obiit 31 martii
-                anno <date>1714</date>.</p>
-            <p>XXXI. Augustinus II Castner, Oenipontanus, electus 3 maii anno <date>1714</date>. Obtinuit diploma
+        <p>XXIX. Edmundus Zoz, Sevatensis, electus 7 augusti anno 1690. Resig. 25 iulii nno
+                1699. Obiit 17 marti anno<date>1706</date>.</p>
+        <p>XXX. Franciscus Lachemayr, Oenipontanus, electus 29 iulii anno<date>1699</date>. Obiit 31 martii
+                anno<date>1714</date>.</p>
+        <p>XXXI. Augustinus II Castner, Oenipontanus, electus 3 maii anno<date>1714</date>. Obtinuit diploma
                 a Carolo VI imperatore ut abbates Stamsenses sint consiliarii nati et sacellani
-                aulae haereditarii, 12 ianuarii anno 1717. Obiit 19 martii anno <date>1738</date>.</p>
-            <p>XXXII. Iacobus Milbeck, Sterzingensis, electus 6 maii anno <date>1738</date>. Obiit 17 martii anno
-                <date>1742</date>.</p>
-            <p>XXXIII. Rogerius Sailer, Delphensis, electus 9 aprilis anno <date>1742</date>. Obiit 17 aprilis
-                anno <date>1766</date>.</p>
-            <p>XXXIV. Vigilius Granicher, Oenipontanus, electus 26 maii anno <date>1766</date>. Benedictus
+                aulae haereditarii, 12 ianuarii anno 1717. Obiit 19 martii anno<date>1738</date>.</p>
+        <p>XXXII. Iacobus Milbeck, Sterzingensis, electus 6 maii anno<date>1738</date>. Obiit 17 martii anno<date>1742</date>.</p>
+        <p>XXXIII. Rogerius Sailer, Delphensis, electus 9 aprilis anno<date>1742</date>. Obiit 17 aprilis
+                anno<date>1766</date>.</p>
+        <p>XXXIV. Vigilius Granicher, Oenipontanus, electus 26 maii anno<date>1766</date>. Benedictus
                 Caesareae 27 iulii eodem anno.</p>
-            <p>Vivat!</p>
-                </div>
-        </body>
-    </text>
+        <p>Vivat!</p>
+      </div>
+    </body>
+  </text>
 </TEI>

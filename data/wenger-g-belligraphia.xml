@@ -1,73 +1,70 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="wenger-k-belligraphia">
-            <titleStmt>
-                <title>Belligraphia cum apologetico inter illustrissimum Sigismundum Austrie archiducem et magnificum senatum Venetorum, versio electronica</title>
-                <author key="wenger01">
-                    <name xml:lang="dt">Wenger, Konrad</name>
-                    <date precision="medium">1425-1501</date>
-                    </author>
-                <respStmt>
-                    <resp>Hanc versionem electronicam curavit</resp>
-                    <name>Clementina Marsico</name>
-                </respStmt>
-                </titleStmt>
-            <editionStmt>
-                <edition>transcribed from the printed text</edition>
-            </editionStmt>
-            <extent>32 paginae</extent>
-            
-            <publicationStmt>
-                <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
+  <teiHeader>
+    <fileDesc xml:id="wenger-k-belligraphia">
+      <titleStmt>
+        <title>Belligraphia cum apologetico inter illustrissimum Sigismundum Austrie archiducem et magnificum senatum Venetorum, versio electronica</title>
+        <author key="wenger01">
+          <name xml:lang="dt">Wenger, Konrad</name>
+          <date precision="medium">1425-1501</date>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Clementina Marsico</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>32 paginae</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
         </p>
-            </publicationStmt>
-            
-            <sourceDesc>
-            <biblStruct>
-                <monogr>
-                    <imprint>
-                        <pubPlace>Augsburg</pubPlace>
-                        <date when="1488">1488</date>
-                    </imprint>
-                </monogr>
-            </biblStruct>
-                <bibl>TLMF, Dip. 65</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date when="1773">1773</date>
-            </creation>
-            <textClass>
-                <keywords scheme="time">
-                    <term>Von der Tiroler Landeseinheit bis zum Tod Kaiser Maximilians I. (1519)</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>Geschichtsschreibung</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        
-        <revisionDesc>
-            <change>corrected teiHeader and body<date>2015-09-23</date>
-                <name>Johanna Luggin</name>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <imprint>
+              <pubPlace>Augsburg</pubPlace>
+              <date when="1488">1488</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>TLMF, Dip. 65</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1773">1773</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Von der Tiroler Landeseinheit bis zum Tod Kaiser Maximilians I. (1519)</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Geschichtsschreibung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>corrected teiHeader and body<date>2015-09-23</date>
+        <name>Johanna Luggin</name>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
       <div>
-            <head>Domini Conradi Wengeri de bello inter Venetos et Sigismundum Austriae archiducem
+        <head>Domini Conradi Wengeri de bello inter Venetos et Sigismundum Austriae archiducem
                 gesto libellus.</head>
       </div>
-            <pb xml:id="F110"/>
+      <pb xml:id="F110"/>
       <div>
         <head>Conradi Wengeri de bello inter Venetos et Sigismundum Austriae
-                archistrategum liber.</head> </div>
-            <div>
-            <p>Illustrissimo excelsoque principi Sigismundo, archiduci <placeName>Austriae</placeName>, comitique <placeName>Tyrolis</placeName>,
-                domino suo gratiosissimo, universisque baronibus evocatis, et aerariis militibus per
-                <placeName>Germaniam</placeName> constitutis, in campo apud Calianum Tridentinae di<gap/>sis praelia
+                archistrategum liber.</head>
+      </div>
+      <div>
+        <p>Illustrissimo excelsoque principi Sigismundo, archiduci<placeName>Austriae</placeName>, comitique<placeName>Tyrolis</placeName>,
+                domino suo gratiosissimo, universisque baronibus evocatis, et aerariis militibus per<placeName>Germaniam</placeName>constitutis, in campo apud Calianum Tridentinae di<gap/>sis praelia
                 gerentibus Conradus Vuenger doctor canonicus Brixinensis humillime se commendati,
                 obsequiumque dicit. Et has uti sunt huiusce sui laboris lucubrationes pro gloria
                 princeps tua, et inclytae Germanice nationis offert, contra et adversus quendam
@@ -75,7 +72,7 @@
                 septembris ad suas usque effluebant aures, qui adversus Germanum profluit iniuriis,
                 et opprobriis dente cruento lacessens. Cui si me ipse obiecero, clavum clavo
                 retrudero, nil plus egero, quam par pari vicarias referre iniurias. Satius mihi
-                consultum in convicia sua sordere, quibus nil affer quam <pb xml:id="F111"/>gloriam princeps
+                consultum in convicia sua sordere, quibus nil affer quam<pb xml:id="F111"/>gloriam princeps
                 tuam, et totius militiae in<gap reason="illegible"/>ctribus armis partam obfuscare, et
                 gentis suae fugam ignominiosam, exceptamque stragem, sub epithemate et nitore
                 sermonis, rethoricaque adulatione colorare. Te inclitum principem cum milite tuo,
@@ -89,7 +86,7 @@
                 nunc foecundas, et corda ira et odio defecata expergefacere, quae per papalis
                 dignitatis, et imperialis maiestatis legatos et caduceatores conciliatae sunt,
                 compositoque nituntur. O Iacobe non indigne ulciscendum, si tua sponte non
-                submissus, carmina illa famosa per <placeName>Italiam</placeName> et <placeName>Galliam Cisalpinam</placeName>, per choros
+                submissus, carmina illa famosa per<placeName>Italiam</placeName>et<placeName>Galliam Cisalpinam</placeName>, per choros
                 decantari adornasti, sum<pb xml:id="F112"/>pta olim fescennina licentia condemnataque, dum per
                 honestas serpere coepit domos lex lata maloque nollet carmine quenquam describi
                 ludum illum noxium, verterunt formidine fustis. Sic ab benedicendum redacti ipse
@@ -113,26 +110,25 @@
                 infamia contra principem disseminata, contra militiam germanam in rebus agentem
                 nullam fidem observasse, et astu stylo dilitescente Germanum in singulari certamine
                 Italum superasse confingis, ad quod mea festinat apologia. Germanus quis sit, et
-                unde sit accipe. <placeName>Germania</placeName> cis citraque Istri, alias Danubii fluminis oram, Sveviam
+                unde sit accipe.<placeName>Germania</placeName>cis citraque Istri, alias Danubii fluminis oram, Sveviam
                 dico, quam romana respublica apud Vindelicam urbem, nunc Augustam appellatam clade
                 accepta, ad internicionem unius hominis usque pernovit. Ab illis Iulius Caesar apud
                 Nomagium trans Rhenum ponte fabricato fracto, viso Germano ponte abstinuit. Huius
                 nunc Ungarus a finibus suis, egressus in Vindelico campo superatus, fugatus, fusus,
-                ad fines suos ad actus, <pb xml:id="F114"/>accepta clade persensit, amplius nunquam reversus,
-                et reliqua. Sic Germana <placeName>Germania</placeName>, <unclear/>oetia facta, in societatem romanorum non
+                ad fines suos ad actus,<pb xml:id="F114"/>accepta clade persensit, amplius nunquam reversus,
+                et reliqua. Sic Germana<placeName>Germania</placeName>,<unclear/>oetia facta, in societatem romanorum non
                 victa devenit. Quae non consuevit multitudini fidere, sed fidei et pietati semper
-                amica fuit. Hodieque libera <placeName>Svevia</placeName>, fide et armis praepollens, in Caesarea
+                amica fuit. Hodieque libera<placeName>Svevia</placeName>, fide et armis praepollens, in Caesarea
                 expeditione, in cornu ac primo aggressu locum habet, et signum fert victoriale. Haec
-                est ista <placeName>Germania</placeName> Cerere ac Baccho abundans, cui etiam nec lac novum aestate nec
+                est ista<placeName>Germania</placeName>Cerere ac Baccho abundans, cui etiam nec lac novum aestate nec
                 frigore defit. Cuius virtus bellica pipere preciosior est, et cunctis aromatibus,
                 uti pulegium apud Indos. Is nempe Germanus nutritus faustis sub penetralibus, fortis
                 creatus ex fortibus patrum testiculis, feroces nec imbelles progenerat, ut aquila,
-                columbas. Inde Flaccus, quis horrida quos parturit <placeName>Germania</placeName> foetus, immanesque
+                columbas. Inde Flaccus, quis horrida quos parturit<placeName>Germania</placeName>foetus, immanesque
                 Rhoetos te Caesare incolume pavescet? Hos forsitan Iacobe ex Suicia villa exstimas,
-                qui ea lege non censentur. Ex ea <placeName>Svevia</placeName> pauci milites periere, sed hi qui ex gleba
+                qui ea lege non censentur. Ex ea<placeName>Svevia</placeName>pauci milites periere, sed hi qui ex gleba
                 sulcanda in militiam vocati, partim succubuere dormientes. Haec tibi in praefatione
-                patefacere me iuvit, ut agnoscas apricum solum et genus Germanum. De inclita
-                <placeName>Alamania</placeName> ad oram Reni fluminis, nobilique Teuthonia, ad <pb xml:id="F115"/>oram Albiae
+                patefacere me iuvit, ut agnoscas apricum solum et genus Germanum. De inclita<placeName>Alamania</placeName>ad oram Reni fluminis, nobilique Teuthonia, ad<pb xml:id="F115"/>oram Albiae
                 fluminis, confinantibus provinciis bellicis gentibus describere historia me praesens
                 comprimit. Nec in praeliis Teuthones propter nimiam distantiam interfuerunt, nunc
                 adacti cruentissimi Martis et proeliorum, proh Deum, pone agrum Calianum Tridentinae
@@ -144,12 +140,12 @@
                 sint proxima veris, ut Graeci in historiis nugari soliti iuxta vatem, Xerxem regem
                 velificatum Athon montem, fretumque constratis classibus pontificabile facere, ut
                 aiunt, tentasse, scribere tentabo. Et ceu olim videre Rhoeti bella Drusum gerentem,
-                sub alpibus Vindelicis, ita sub anno salutis <date>1487</date> in die sacnti Georgii martyris
+                sub alpibus Vindelicis, ita sub anno salutis<date>1487</date>in die sacnti Georgii martyris
                 videre Roforenses cives, dominio Veneto subiecti, gaudentium comitem Amaciae, belli
                 ducem generalem, sub alpibus ad oram Athefis fluminis, et procul ab extremis
-                fluminum Rheni et Istrioris, sylvaque <pb xml:id="F116"/>Hercinia, principi meo subiectis
+                fluminum Rheni et Istrioris, sylvaque<pb xml:id="F116"/>Hercinia, principi meo subiectis
                 gentibus, Norico admixto milite, una cum suis proceribus comitatus Tirolis nec non
-                et quos, ut ait <persName>Lucanus</persName>, fundit ab extremo flavos Aquilone Svevos, indomitumque
+                et quos, ut ait<persName>Lucanus</persName>, fundit ab extremo flavos Aquilone Svevos, indomitumque
                 caput Rheni ducentem, quibus deductus per omne tempus mos Amazonia securi dextras
                 obarmet, quorum suprascriptorum omne ope Roforedum forti cingitur obsidione. Dux
                 castra, tentoria, papiliones, stativas aggeresque locat, fabricat sedula cura
@@ -190,7 +186,7 @@
                 dux annuit militi frumentatum ire, qui ponte ultra Athesim traiecto, et custode
                 tutato, decrevit a lacu Benaci, exercitui Veneto, qui apud Seravallem, castra
                 merabatur, meatum claudere et intercipere. Montis Coronae aditum Venetus avisatus,
-                montem prior occupat. Interim Robertus <pb xml:id="F119"/>exercitum solvit apud <placeName>Seravallem</placeName>, et
+                montem prior occupat. Interim Robertus<pb xml:id="F119"/>exercitum solvit apud<placeName>Seravallem</placeName>, et
                 Germanum inavisatum obruere tentans, equite et pedite non pauco. Germanus cum paucis
                 e quitibus centum et quinquaginta, ac octingentis peditibus, latentibus in insidiis,
                 nec praesentibus, Venetum adoritur. Vi maxima insultans, coniecta velut cerva
@@ -204,7 +200,7 @@
                 fragorem milites dilitescentes, ex insidiarum loco prosiliunt, et ad finem
                 conflictus usque perveniunt. Venetum fudientem, unum veluti Thyrsis et Corydon
                 pastores gregem compulerant ovium, in ovile ad suas compulerant archas. In quo
-                certamine Robertus, quem praemiserat continuo miles, <pb xml:id="F120"/>vix mortis contagium
+                certamine Robertus, quem praemiserat continuo miles,<pb xml:id="F120"/>vix mortis contagium
                 dicitur evasisse, caeteris occisis et submersis. Et tamen de primo praelio, in quo
                 Germanus impar Italo extitit, triumphabat spolia legendo. Bellum secundum. Post haec
                 gaudentius Roforedo in fidem recepto arce et oppido, milite pauco custode relicto,
@@ -232,7 +228,7 @@
                 serenissimum principem convenire, invitatur princeps oppidum ad Meraniam, istac se
                 confert, comparent provinciales. Inter quos habita concione, et mysterio consilii
                 inter terrae proceres communicato et bene digesto principi pro audientia sedenti,
-                communi omnium ex ore pro<unclear/> iubent, quo coram captata benevolentia, orator sic
+                communi omnium ex ore pro<unclear/>iubent, quo coram captata benevolentia, orator sic
                 ordi<pb xml:id="F122"/>tur. Optime princeps, res dura, et terrae novitas, nos talia moliti
                 cogunt, arcentque, et late custode fines tueri. In primis rogamus, protestamurque
                 gentes has peregrinas, ex Merania, quo ingenio concitas nescitur, abigere velis. Nec
@@ -246,7 +242,7 @@
                 examinato negocio, comperitur aliud actum, aliud praetensum. Quae ipse scribere
                 praetermitto, haec parce scire congruit. Nec phas est omnia scribere, praeter unum,
                 quo minus dixerim, et alterum, qubus ultra unum non addam, sed ponam digitum ori
-                meo. Magnificus senatus consultus Venetorum, concione habita in magna. <gap reason="illegible"/>gada, concludit <pb xml:id="F123"/>Germanum magna et tumultuari vi adoriri. Pontem et
+                meo. Magnificus senatus consultus Venetorum, concione habita in magna.<gap reason="illegible"/>gada, concludit<pb xml:id="F123"/>Germanum magna et tumultuari vi adoriri. Pontem et
                 ratem nauticam ultra Athesim traiectat, illam fune ad littora pendet, versus
                 Calianum, in planitiem. Inter eum et rivulum aquae vivae castra locat, non longe a
                 castro Petrae, subter Bisenum collem eminentem, custode et speculatore munit. Signum
@@ -260,7 +256,7 @@
                 conscius nec ne sit, parum mihi constat. Venetus grassatur praedae gratia,
                 circumvagantur alii, stativas milites aurati fabricant, continuo gentes traiiciendo.
                 Nuncius capitaneo Friderico illico datur, aestuans labore, sparsus pulvere, inquiens
-                Venetum cum decem milibus ultra Athesim venturum hostem <pb xml:id="F124"/>et iam fere mediam
+                Venetum cum decem milibus ultra Athesim venturum hostem<pb xml:id="F124"/>et iam fere mediam
                 totius exercitus partem traiectam. Et quod magis, necatis custodibus, totis
                 discederant campis, praedae gratia furientes et bacchantes. Non dum finito verbo,
                 venit vir armorum validus Michaletus ex Durano valle Indicaria, datus super
@@ -270,7 +266,7 @@
                 subsequuntur. Michaletus non expectato capitaneo, cohortem aggreditur hostilem,
                 necatur, perdit in ore gladii viros 200 circiter. Adest confestim cum suo aurato
                 milite, et stationariis paucis capitaneus, de tanto adversus eum gregato et ferrato
-                equitum et peditum quatuor milium agmine. Ipse vero cum omni aggrega<gap reason="illegible"/> cohorte praeter cives Tridentinos, qui nondum venerant, abundabat mille
+                equitum et peditum quatuor milium agmine. Ipse vero cum omni aggrega<gap reason="illegible"/>cohorte praeter cives Tridentinos, qui nondum venerant, abundabat mille
                 viris. Territus, obrigescens quid faceret, premit altum corde dolorem. Spei reique
                 prorsus dubius hortatur milites, o vos socii maiora passi adversus ducem belgarum
                 Carolum, quem vice terna ad internicionem usque postravimus, terras suas in ditionem
@@ -278,8 +274,7 @@
                 non est locus refugii, asylum nullum. Si terga vertimus, hostis dorso haerer.
                 Quanquam Venetus sit in multitudine contra nos gravi, nos vero pauci, facile est
                 concludere multos manibus paucorum. Sunt equidem per Illyricum superique maris finum
-                gentes precio conductae, cis et citra Eridani, alias Padi fluenta, ex <placeName>Aemilia</placeName>,
-                <placeName>Liguria</placeName>, <placeName>Cisalpina Gallia</placeName> collectae, mala poena sub dira servitute constrictae, quae
+                gentes precio conductae, cis et citra Eridani, alias Padi fluenta, ex<placeName>Aemilia</placeName>,<placeName>Liguria</placeName>,<placeName>Cisalpina Gallia</placeName>collectae, mala poena sub dira servitute constrictae, quae
                 non solent pro dulci patria, suisque dominis se praecipitare, corpora obiicere, nec
                 pulchram petere per vulnera mortem, altisona voce subiungens. In Dei nomine petite
                 hostem, nec ipsi parcite ab homine usque ad pecus. Vix sermone finito, miscentur
@@ -318,7 +313,7 @@
                 quae hostris occuparat, naturaque munivit, diffugere nequiens, versus pontem, quem
                 longe ante dux belli Germanus non improvide solvit, haerentem fune fugit moestus
                 exercitus. Quem Germanus persequitur manu forti, ruunt ferratae equitum et peditum
-                cohortes, qualis <pb xml:id="F128"/>undas exercet Auster indomitas, Pliadum scindente choro
+                cohortes, qualis<pb xml:id="F128"/>undas exercet Auster indomitas, Pliadum scindente choro
                 nubes. Germanus equos frementes mittit sonipedes, medios per hostes. Cadit
                 irrevocabile vulgus, quo quemque fert impetus. Sine ordine haerentia sibi agmina
                 prorumpit, alter alterum ocius in itinere versus pontem praevenire nititur.
@@ -326,7 +321,7 @@
                 gurgite se credunt, ventrem in flumine purgant. Hi vero qui scaphas, lintres seu
                 phaselos sibi consciverant, salvis ad portum venere carinis, tabentes et tremulos
                 artus in littore ponunt, spem metumque inter dubii. Mane Germanus dulcia spolia
-                legens, Itala cadavera ad submersos una sepelit, et ad rastrum <placeName>Veronae</placeName> in Athesi
+                legens, Itala cadavera ad submersos una sepelit, et ad rastrum<placeName>Veronae</placeName>in Athesi
                 praetensum delegavit suos, in Calcina tumulando. Nunc vide Iacobe, si sententia tua
                 quadret, qua asseris Guidonem apud pontem Germanos trucidasse. Quae scribo, vera
                 sunt, tu vero profugus factus, scire non vales, quae abs te acta sunt in toto
@@ -342,7 +337,7 @@
                 te homines et equos perdidisse, et turpiter fugisse. O crudele bellum, o res inter
                 christianos principes miserandas, quibus interdum pro ovo certantibus, interim
                 plectuntur achivi seditione, dolis, scelere atque libidine et ira. O mundi scelera,
-                o homines, tantorum causa malorum. O inclite <persName>Roberte</persName>, qui, ut aiunt, post multam
+                o homines, tantorum causa malorum. O inclite<persName>Roberte</persName>, qui, ut aiunt, post multam
                 militiam actam, per tempora cupieras germanam militiam in suo ordine etiam
                 agnoscere. Agnovisti, et interiisti a tuo milite mercenario desertus, qui dexteram
                 fefellerat tuam, quia mercenarii sunt. O nobilis, et superinclita natio Germanica,
@@ -360,8 +355,8 @@
                 Securus dominus est, fugam ne adornet, transfugaque fiat. Quod satyricus laude
                 effert imperium, stabilius esse, quod virtute, non vi metuque fit. Hoc satis, et
                 tantum de secundo bello, pone Calianum peracto, qua non maius existimandum est,
-                comparatione facta cum <persName>Catilina</persName>, paravit arsuras in tecta romanorum faces. Bellum
-                tertium, hora diei peracti belli tarda, noctem <pb xml:id="F131"/>versus, triumphat belli dux
+                comparatione facta cum<persName>Catilina</persName>, paravit arsuras in tecta romanorum faces. Bellum
+                tertium, hora diei peracti belli tarda, noctem<pb xml:id="F131"/>versus, triumphat belli dux
                 suo cum milite, spolia legere iubet. Necessariora, planiciem Marci victi campi, ut
                 assolet, tutari ab hoste mandat. Tridentum redit cruentus, fathiscens artubus, nocte
                 ille dulci sopore quiescit. Orto lucis sidere, ex Tridento excidit cum milite,
@@ -373,7 +368,7 @@
                 divina, nec arte magistra proveniebat. Crateres laeti statuunt, et vina coronant,
                 sed comicus infit omnibus in rebus. Nequid nimis. Enimvero nescia mens hominum, fati
                 sortisque futurae et servare modum, rebus sublata secundis. Si quem prima dies belli
-                dedit haec eadem versa fortuna et aufert. Deinde ad corpus ducis <persName>Roberti</persName>, quem
+                dedit haec eadem versa fortuna et aufert. Deinde ad corpus ducis<persName>Roberti</persName>, quem
                 abstulit laeti atra dies, et mersit acerbo, inquirendum in gurgitem mittitur quod
                 prope castrum Petrae in abisso reperitur, extractum in urbem Tri<pb xml:id="F132"/>dentinam
                 honorificem sepulturae traditur, cuius anima in Christo requiescat. Hunc tu Iacobe
@@ -404,7 +399,7 @@
                 quartum. Deinde in vallem Primerii districtus argenti plenam, quam Venetus ardebat,
                 gentes mittit Germanus. In valle Cannalis, rupes pense fluvium eminentes, ne Italus
                 prior occupet, intercipit, bastigiam struit, munit, gentes locat. Italus
-                circumvallat, oppugnat, evincit. Quatuor istuc interimit Germanus <pb xml:id="F134"/>collectis
+                circumvallat, oppugnat, evincit. Quatuor istuc interimit Germanus<pb xml:id="F134"/>collectis
                 viribus ex primerio, adunata potentia inter se, et accomodato milite per principem,
                 paucorum numero adoritur Italum, eo in loco. Qui relicta bastia, terga vertit, quos
                 in terga persequitur, occidit, trucidat centum, minus octo, bellicos viros
@@ -419,11 +414,11 @@
                 mitterent in tecta ecclesiae Brixinensis, aggregato milite 1200, incolis terrae
                 rusticis, pauco a gente in rebus militaribus experto adiuncto, adoriuntur. Et strage
                 facta 40 virorum, viriliter se intra septa villae defendentium, reliquae gentes
-                terga vertunt, adeo fugientes, quod oculum elapsum <pb xml:id="F135"/>prae formidine hostis
+                terga vertunt, adeo fugientes, quod oculum elapsum<pb xml:id="F135"/>prae formidine hostis
                 sublevasset nemo. Germanus spolia legit, partitur. Partitione facta, villam incedit,
                 ultra progressus, in silvis et saltibus, scrobibus et antris terrae condita bona
                 quaerit. Invenit, abducit, lachrymantia commovet corda. Hoc non contentus, valles
-                ingreditur, non unam, ad miliaria <placeName>Italia</placeName> 15, ultra concremat, exurit omnia, quae
+                ingreditur, non unam, ad miliaria<placeName>Italia</placeName>15, ultra concremat, exurit omnia, quae
                 reperit, nemini parcendo. Hoc potitus triumpho, ad propria regreditur loca grassans.
                 Istud est bellum quintum, quo Venetus caesus, spoliatus, fugatusque existit, Germano
                 superante. Sextum et ultimum bellum, quod Germanus libens evitasset, propter
@@ -431,10 +426,9 @@
                 adversu villam Ambetet, quae in continuo praefatione treugarum, calide laboraban, et
                 eo medio graeculos miserunt in vallem Emenberg, milite existente iuxta Andracium,
                 qui ignem fulminant, quosdam capita truncant, in delubrium et scandalum, testas
-                occisorum in superis suis gestant ampullantes. Mox designatur <persName>Hainricus Horber</persName>
-                militum tribunus, et capitaneus generalis. Is collectis gentibus et incolis
+                occisorum in superis suis gestant ampullantes. Mox designatur<persName>Hainricus Horber</persName>militum tribunus, et capitaneus generalis. Is collectis gentibus et incolis
                 ecclesiae Brixinensis, et comitatus Taufers, equitesque paulominus 70, qui hoste
-                sciente et vidente, miliaria ad <pb xml:id="F136"/>quinque italica, per alpem ligno praecisam,
+                sciente et vidente, miliaria ad<pb xml:id="F136"/>quinque italica, per alpem ligno praecisam,
                 graminiferam, planam incedit, luce meridiana ita, et tali ordine, quod hostis
                 quinque milium equitum et peditum stipatus, Germanum facile dinumerare poterat.
                 Inquitque capitaneus Venetorum, visa tam parva multitudine Germanici hostis: o viri
@@ -449,14 +443,14 @@
                 lapsilem et congelatum. Qua villa in alto posita est, dum ascendere manibus et
                 pedibus serpendo, pedites molirentur, vallum et loci septa firma dissipare, ex
                 adverso emittunt tela ad instar grandinis. Germanus bellicus ante hac non insuetus
-                talia ferre, resupine <pb xml:id="F137"/>se tenet, si hostica casso vulnere tela volant. Et
+                talia ferre, resupine<pb xml:id="F137"/>se tenet, si hostica casso vulnere tela volant. Et
                 priusquam arcus distenderent Itali, balistarum Germani capitaneum ex Blivio
                 occidunt. Tremit exercitus, horripilans, totus nescius movere prae timore arma.
                 Germanus arcessit locum impetu, et robore forti dissecat, vel lit, lacerat, quos
                 reperit, necat. Vulgus fugat equites, pariter evacuat. Totam inhabitantium villam
                 depraedatur, spolia legit, incendit, dolum dolo compensat. Ignem et taedas antea in
                 tecta ecclesiae immissos, in miseram plebem pariter iactat. Armigeri et graeculi de
-                prope tenentes lustrant, ut viderent finem. O <placeName>Venetia</placeName>, ubi tua opulenta gaza, male
+                prope tenentes lustrant, ut viderent finem. O<placeName>Venetia</placeName>, ubi tua opulenta gaza, male
                 merita milite tuo lasso et profugo atque transfuga. Germanus tota nocte, per itinera
                 aspera, altasque alpes exercitum trahens, fame et labore deficines, sudans et
                 algens, extra villam, ad pontem ultra se recipit concrepante rogi immissi pyramide.
@@ -471,14 +465,14 @@
                 Sustulit et Germanus, sed triumphi potitor, discrimina mortis, sed haec sine caede
                 fieri vix praelia possunt. Quotiens res publica romana profligata, et fere extincta
                 in mari terraque extitit? Cuius nominis fama usque ad Eufratem flumen, et Caucasi
-                montis iugum porrecta. Apud <placeName>Cannas</placeName> <placeName>Apuliae</placeName> regnum, Treviaque in <placeName>Tuscia</placeName> vicus, et ad
+                montis iugum porrecta. Apud<placeName>Cannas</placeName>
+          <placeName>Apuliae</placeName>regnum, Treviaque in<placeName>Tuscia</placeName>vicus, et ad
                 Caudinas furcas loca testantur, et reliqua. Omnia fert aetas, animum quoque. Ad
                 extrema bellorum omnium praescriptorum tempora, ad execrandas huiusmodi lites,
                 romanus episcopus, beatissimus dominus noster, papa Innocentius, post multam
                 instantiam, ut a bellis desisteret, principi factam, tandem comminatus est, brevia
                 asversus eum emittere. Sic principes consentaneus factus, sua sanctitas episcopum
-                Tervisinum legatum designat. Imperialis maiestas, quae post archiducem <placeName>Au<pb xml:id="F139"/>striae</placeName> proximus haeres extat, videns in rem suam non agi, legatum <placeName>Venetias</placeName>
-                mittit pariter suum, quibus coram electi viri, conterranei <placeName>Athesinae</placeName> provinciae
+                Tervisinum legatum designat. Imperialis maiestas, quae post archiducem<placeName>Au<pb xml:id="F139"/>striae</placeName>proximus haeres extat, videns in rem suam non agi, legatum<placeName>Venetias</placeName>mittit pariter suum, quibus coram electi viri, conterranei<placeName>Athesinae</placeName>provinciae
                 comparent. Germani nec pacem precantur, ut tu canicee in tua invectiva depromis. Sed
                 longa concertatione a partibus coram legatis habita, causam belli uter utri
                 dedisset, alterque in alterum plus aequo saevisset, discussa, et mature hinc inde
@@ -491,7 +485,7 @@
                 per militem in tumulta ablatis, captivis emissis, castris duobus, ad iudicium Marcae
                 suo dirimendis, ad manus beatissimi Domini nostri papae sepositis, partes pace
                 fruuntur, et potiuntur foecunda, quam Deus aevo perpetuo conservare dignetur. Quae
-                facile non dissolvetur, si lege agraria non <pb xml:id="F140"/>neglecta, de terminis non
+                facile non dissolvetur, si lege agraria non<pb xml:id="F140"/>neglecta, de terminis non
                 movendis, regundorumque finium rectum iudicium observetur inter confinantes. Quo
                 omisso, tantus est hodie hominum ardor et libido habendi, terraeque habitabilis
                 avida occupandi concertatio, vix pax huiusmodi est tempore duratura. Saepenumero in
@@ -503,9 +497,9 @@
                 relicta. Serenissime princeps, aurum et gemmae non sunt mihi, qud habeo a Deo, tibi
                 do. Accipe a me obsequutori tuo hanc, adversus Italum calumniantem statum tuum, quem
                 hactenus illaesum conservasti, apologiam meque amore et gratia prosequi non desinas.
-                Dixi anno salutis <date>millesimo quadringentesimo octuagesimo octavo</date>, ultima
+                Dixi anno salutis<date>millesimo quadringentesimo octuagesimo octavo</date>, ultima
                 septembris.</p>
-            </div>
-        </body>
-    </text>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,76 +1,69 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="payr-f-apologia">
-            <titleStmt>
-                <title>Apologia inter Sarcophibum et Sarcophilum cum Crisi Theophili Veronensis, seu
+  <teiHeader>
+    <fileDesc xml:id="payr-f-apologia">
+      <titleStmt>
+        <title>Apologia inter Sarcophibum et Sarcophilum cum Crisi Theophili Veronensis, seu
                     Discursus Rationalis de Praecepto Ecclesiastico Jejunii et Abstinentiae, versio
                     electronica</title>
-                <author key="payr01">
-                    <name xml:lang="dt">Payr, Franz Friedrich</name>
-                    <date>1685-1759</date>
-                </author>
-                <respStmt>
-                    <resp>Hanc versionem electronicam curavit</resp>
-                    <name>Irina Tautschnig</name>
-                </respStmt>
-            </titleStmt>
-
-            <editionStmt>
-                <edition>transcribed from the printed text</edition>
-            </editionStmt>
-
-            <extent>43 paginae</extent>
-
-            <publicationStmt>
-                <p>Croatica et Tyrolensia: Tyrolis Latina <date>August 2015</date>
+        <author key="payr01">
+          <name xml:lang="dt">Payr, Franz Friedrich</name>
+          <date>1685-1759</date>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Irina Tautschnig</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>43 paginae</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>August 2015</date>
         </p>
-            </publicationStmt>
-
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <author>Payr, Franz Friedrich</author>
-                        <title>Apologia inter Sarcophibum et Sarcophilum cum Crisi Theophili
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Payr, Franz Friedrich</author>
+            <title>Apologia inter Sarcophibum et Sarcophilum cum Crisi Theophili
                             Veronensis, seu Discursus Rationalis de Praecepto Ecclesiastico Jejunii
                             et Abstinentiae</title>
-                        <imprint>
-                            <pubPlace>Innsbruck</pubPlace>
-                            <date>1741</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-                <bibl>TLMF, FB 1380</bibl>
-            </sourceDesc>
-        </fileDesc>
-
-        <profileDesc>
-            <creation>
-                <date when="1741">1741</date>
-            </creation>
-            <textClass>
-                <keywords scheme="time">
-                    <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens
+            <imprint>
+              <pubPlace>Innsbruck</pubPlace>
+              <date>1741</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>TLMF, FB 1380</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1741">1741</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens
                         (1773)</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>Theologie</term>
-                    <term>Moraltheologie</term>
-                    <term>Disputation</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change>corrected teiHeader and body<date>2015-09-09</date>
-                <name>Johanna Luggin</name>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-
-    <text>
-        <body>
-            <div>
-                <head>Apologia inter Sarcophibum et Sarcophilum cum Crisi Theophili Veronensis, seu
+        </keywords>
+        <keywords scheme="genre">
+          <term>Theologie</term>
+          <term>Moraltheologie</term>
+          <term>Disputation</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>corrected teiHeader and body<date>2015-09-09</date>
+        <name>Johanna Luggin</name>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Apologia inter Sarcophibum et Sarcophilum cum Crisi Theophili Veronensis, seu
                     Discursus Rationalis de Praecepto Ecclesiastico Jejunii et Abstinentiae, quos et
                     in quantum obliget, Applausus loco typis editus, dum ex Saluberrimae Facultatis
                     Decreto Promotore Praenobili et Magnifico Viro Franciscus Fridericus Payr ad
@@ -79,24 +72,22 @@
                     Praenobilis et Excellentissimus Dominus Joannes Josephus Lang, Oenipontanus,
                     Artium Liberalium et Philosophiae Doctor Anno MDCCXLI Mense Augusto Die
                     XXIII.</head>
-                <p>Typis Michaelis Antonii Wagner, Regiae Aulae et Universitatis Typhographi et
+        <p>Typis Michaelis Antonii Wagner, Regiae Aulae et Universitatis Typhographi et
                     Bibliopolae.</p>
-            </div>
-            <pb/>
-
-            <div>
-                <head>Quaestiones in actu discutiendae:</head>
-                <p>I. Quidnam sit tenendum de numero dierum Criticorum et annorum
+      </div>
+      <pb/>
+      <div>
+        <head>Quaestiones in actu discutiendae:</head>
+        <p>I. Quidnam sit tenendum de numero dierum Criticorum et annorum
                     Climacteriorum.</p>
-                <p>II. An bonus theoricus possit esse malus practicus.</p>
-                <p>III. In quantum Praeceptum Ecclesiasticum in Jejunio tam praeceptivo quam
+        <p>II. An bonus theoricus possit esse malus practicus.</p>
+        <p>III. In quantum Praeceptum Ecclesiasticum in Jejunio tam praeceptivo quam
                     naturali dicto obliget.</p>
-            </div>
-            <pb/>
-
-            <div>
-                <head>Praefatio ad benevolum Lectorem.</head>
-                <p>Benevole Lector! Jam aliquot praeterlapsa sunt lustra, quod non pauci tam
+      </div>
+      <pb/>
+      <div>
+        <head>Praefatio ad benevolum Lectorem.</head>
+        <p>Benevole Lector! Jam aliquot praeterlapsa sunt lustra, quod non pauci tam
                     Theologi quam Laici frequenter meas aures vellicaverint et optaverint, ut
                     aliquando quoddam lumen praeferatur Medicum, quod adeo obscurum illustraret
                     praeceptum Ecclesiasticum circa jejunium. Quam promptus essem, ut cujuslibet
@@ -106,7 +97,7 @@
                     Disputationes Publicas etiam saepius duplici provisionaliter praefuerim
                     Chatedrae. Alterum froenum est difficilis combinatio doctrinae Medicae cum
                     orthodoxa, et quam difficultatem adauget, quod destituamur Authoribus Medicis,
-                    qui ex professo de hac materia tractant, excepto <persName>Paulo Zachia</persName> in suis
+                    qui ex professo de hac materia tractant, excepto<persName>Paulo Zachia</persName>in suis
                     quaestionibus Medico Legalibus, qui tamen Classicus et ab Ecclesia Romana
                     receptus et approbatus est author. Caetera ex variis authoribus sunt excerpta,
                     quorum nomen eo magis reticui, cum tantum quasi per accidens de his scribant.
@@ -125,37 +116,35 @@
                     exspectes, quem momentosa argumenti subtilitas non permittit. Et si defecerim,
                     benigne ignoscas; ac adscribas partim fragilitati humanae, partim vero praecoci
                     expeditioni ac multivariae occupationi. Interim vale et fave.</p>
-            </div>
-            <pb/>
-
-            <div>
-                <head>Approbatio Theologica.</head>
-                <p>Quisquis attenta animi consideratione praesentem elucubrationem perlustravit a
+      </div>
+      <pb/>
+      <div>
+        <head>Approbatio Theologica.</head>
+        <p>Quisquis attenta animi consideratione praesentem elucubrationem perlustravit a
                     capite usque ad calcem, deprehendet eam nec nimii rigoris ac severitatis aut
                     nimiae laxitatis esse arguendam. Quia igitur cum sana doctrina Theologiae
                     moralis optime concordat, dignissima est, quae ad utilitatem publicam et
-                    condignam Clarissimi sui Authoris laudem typis mandetur. Ita censeo <persName>Leopoldus
+                    condignam Clarissimi sui Authoris laudem typis mandetur. Ita censeo<persName>Leopoldus
                     Neustyfter</persName>, Societatis Jesu, Theologiae Moralis Professor Ordinarius Sac.
                     Facultatis p. t. Decanus.</p>
-            </div>
-
-            <div>
-                <head>Approbatio Medica.</head>
-                <p>Perlustravi praesentem hanc Apologiam de Jejunio observando, et quantum haec rem
+      </div>
+      <div>
+        <head>Approbatio Medica.</head>
+        <p>Perlustravi praesentem hanc Apologiam de Jejunio observando, et quantum haec rem
                     Medicam concernit, non tantum apprehendo eam fundamentis Medicis plenam, sed
                     quod insuper Clarissimus Author in omnibus sit versatissimus Facultatibus; hinc
                     eam Luci publicae (ut Publico maxima fiat utilitas et Clarissimi Authoris alias
                     jam omni laude dignissimi eveniat major adhuc declaratio, et ut Excellentissimi
                     domini Neo-Promoti Praeclarissimum quoad Scientiam Medicam nomen ubique
-                    divulgetur) dignissimam censeo. <placeName>Oeniponti</placeName> <date>9. Augusti 1741</date>. <persName>Hieronymus Leopoldus
+                    divulgetur) dignissimam censeo.<placeName>Oeniponti</placeName>
+          <date>9. Augusti 1741</date>.<persName>Hieronymus Leopoldus
                     Bacchettoni</persName>, Medicus Doctor Anatomiae et Chirurgiae Professor etc. ac p. t.
                     Facultatis Medicae Decanus.</p>
-            </div>
-            <pb xml:id="A1r"/>
-
-            <div>
-                <head>Sarcophibus.</head>
-                <p>Quam frequenter, dictante sic invidia mali omnis Authore, Medici vellicentur,
+      </div>
+      <pb xml:id="A1r"/>
+      <div>
+        <head>Sarcophibus.</head>
+        <p>Quam frequenter, dictante sic invidia mali omnis Authore, Medici vellicentur,
                     quod pro ea, qua gaudent, dignitate et honore et iis, quibus ditantur reditibus,
                     studium eorum sit leve et sine ullo conscientiae suae onere, nemo est, qui
                     ignorat. Quam longe autem a veritate talia dicteria sint remota, sufficeret,
@@ -165,7 +154,7 @@
                     bono, quo mens honesta gaudio affici deberet. Praeterea honores, quod attinet,
                     vel tales Zoili intelligunt publicos, quos Medici sua sponte Theologis et Jus
                     dicentibus cedunt vel suggillant privatos, qui revera aliud non sunt quam
-                    favores ex virtute gratitudinis <pb xml:id="A1v"/>oriundi nec unquam mala
+                    favores ex virtute gratitudinis<pb xml:id="A1v"/>oriundi nec unquam mala
                     soboles virtutis est. Idem Judicium manet reditus, qui si publici sunt, certo
                     certius tanti non sunt (saltem in his Provinciis), ut, si Ecclesiastici essent
                     et Medicus Clericus, teneretur ad restitutionem vigore Canonis: Si reditus
@@ -173,15 +162,15 @@
                     in uniuscujusque est arbitrio et ut favor gratitudinis Proles: Illud vero, si
                     exigitur ab eo, quem ingratitudinis Diabolus possidet, suum in Medico daemonem
                     aspicit, juxta Poetam:</p>
-                <quote>
+        <quote>
           <lg>
-                        <l>Tres Medicus facies habet, unam, quando rogatur,</l>
-                        <l> Angelicam. Mox est, cum juvat, ipse Deus.</l>
-                        <l>Post, ubi curato poscit sua praemia morbo,</l>
-                        <l> Horridus apparet terribilisque Sathan.</l>
-                    </lg>
+            <l>Tres Medicus facies habet, unam, quando rogatur,</l>
+            <l>Angelicam. Mox est, cum juvat, ipse Deus.</l>
+            <l>Post, ubi curato poscit sua praemia morbo,</l>
+            <l>Horridus apparet terribilisque Sathan.</l>
+          </lg>
         </quote>
-                <p>Praeter vitae periculum, cui Medicus in morbis contagiosis indies est expositus
+        <p>Praeter vitae periculum, cui Medicus in morbis contagiosis indies est expositus
                     neque momentum temporis sibi commodum reservat, sed totum quantum in Proximi
                     salutem impendit: an hic labor nullius est pretii? Sed respondet Zoilus non
                     absolute dignitates medicas et eorum reditus esse magnos, excedere tamen studii
@@ -196,7 +185,7 @@
                     Scriptura infinita Protaplastae Providentia Medicinam creaverit in terra, quam
                     sapiens non abhorrebit. Sed mordicus adhuc Zoilus adhuc suae inhaeret
                     propositioni: studium Medicum saltem ex hoc titulo esse leve, quia nullam onerat
-                    conscientiam, si saltem Medicus ratione probabili operatur. Sed apage cum <pb xml:id="A2r"/>tuo probabilismo, nihil enim neque apparenter probabile hic
+                    conscientiam, si saltem Medicus ratione probabili operatur. Sed apage cum<pb xml:id="A2r"/>tuo probabilismo, nihil enim neque apparenter probabile hic
                     proponis, nimis enim in propatulo est unanime Theologorum decisum esse
                     probabilismum saltem tunc posse admitti, ubi nullum versatur praejudicium
                     tertii, cum vero Medicus practicus semper versetur cum tertio, nunquam
@@ -219,19 +208,17 @@
                     putas, publico et privatis excrescit praejudicium? Et hoc nullius onerat
                     conscientiam? Sed Zoilus ex ungue cognoscat Leonem, ex mille aliis saltem in
                     Praeceptum Ecclesiasticum Jejunii modo vacat inquirere.</p>
-                <p>Jejunium itaque in suo quidem stricto sensu insinuat talem a cibo vel potu
+        <p>Jejunium itaque in suo quidem stricto sensu insinuat talem a cibo vel potu
                     abstinentiam, quae fit cum notabili quadam evacuatione et inanitione. Saepius
                     tamen, ut audiemus in differentiis praesertim Ecclesiasticis, pro simplici
-                    summitur abstinentia. Jejuni hujus plurimae sunt differentiae, ita, ut aliud sit
-                        <pb xml:id="A2v"/>jejunium medicum, et hoc vel hygiasticum, quod Diaetae
-                    Praeceptores commendant post factam repletionem, uti legimus in Aphorismis
-                    <persName>Hippocratis</persName>: <quote>Quicunque morbi fiunt a repletione, inanitione
-                        curantur.</quote> Sect. 2. aph. 22. Hoc jejunium idem <persName>Hippocrates</persName> suspectum
+                    summitur abstinentia. Jejuni hujus plurimae sunt differentiae, ita, ut aliud sit<pb xml:id="A2v"/>jejunium medicum, et hoc vel hygiasticum, quod Diaetae
+                    Praeceptores commendant post factam repletionem, uti legimus in Aphorismis<persName>Hippocratis</persName>:<quote>Quicunque morbi fiunt a repletione, inanitione
+                        curantur.</quote>Sect. 2. aph. 22. Hoc jejunium idem<persName>Hippocrates</persName>suspectum
                     habet, imo in suo sensu damnat in Sect. 1. Aph. 5. Aliud est jejunium
                     Pathologicum, quod consistit in defectu appetitus vel omnino in aversione a cibo
                     et potu, et quod praeternaturalem hominis statum denotat: Aliud est Medico
                     Therapeuticum, quo Medicus actualiter aegrotantes a summendo cibo vel potu
-                    arcet, quod ipse <persName>Hippocrates</persName> in morbis acutis, morbi vigore et exacerbationibus
+                    arcet, quod ipse<persName>Hippocrates</persName>in morbis acutis, morbi vigore et exacerbationibus
                     in diversis Aphorismis in Sectione prima jubet: sed de his modo non est mens
                     loquendi. Aliud porro est jejunium arbitrarium, vi cujus quis ob diversos fines
                     a cibo vel potu abstinet, et neque hoc est moderni discursus objectum. Aliud
@@ -244,15 +231,15 @@
                     Et omnes hae Jejuniorum species sunt moderni discursus argumentum. Et
                     dispiciendum, quid sit tale Jejunium, quisnam sit finis, quosnam et in quantum
                     obliget, ac quales subeat exceptiones.</p>
-                <p>Jejunium itaque poenale est determinata a cibo vel potu abstinentia cum notabili
+        <p>Jejunium itaque poenale est determinata a cibo vel potu abstinentia cum notabili
                     inanitione imposita vel ab ipsa Ecclesia vel ab Episcopo illius loci vel
                     Confessario vel quocunque Judice legitimo Ecclesiastico ad expiandum scelum
                     impositum uni vel pluribus, quos vel ex hoc ipso obligat, quod Judicium
                     legitimum agnoscant, nec aliam patitur exceptionem, nisi versetur notabile vitae
                     vel sanitatis periculum. Suasorium est mutuus quasi contractus, quem Mater
-                    Ecclesia cum suis filiis init et <pb xml:id="A3r"/>dicit, si hoc servas
+                    Ecclesia cum suis filiis init et<pb xml:id="A3r"/>dicit, si hoc servas
                     jejunium, tantum tibi dabo ex infinito thesauro meritorum Christi.</p>
-                <p>Jejunium pro diebus Veneris et Sabbati ordinariis praecipit solam abstinentiam a
+        <p>Jejunium pro diebus Veneris et Sabbati ordinariis praecipit solam abstinentiam a
                     Carne et cibis, qui ab illa immediate scaturiunt, uti sunt ova, lacticinia,
                     butyrum, caseus. Inter carnes autem referunt omnia animalia, quae sanguinem
                     habent calidum: et hoc jejunium obligat omnes et hujus Praecepti finis est, ut
@@ -265,20 +252,20 @@
                     quae expresse dixit Petro, cujus moderni Pontifices sunt legitimi Successores:
                     quidquid ligaveris super terram, erit et ligatum in Coelo etc., negare
                     velit.</p>
-                <p>Aliud Jejunium pariter praeceptivum Universale est, quod dicitur quadragesimale,
+        <p>Aliud Jejunium pariter praeceptivum Universale est, quod dicitur quadragesimale,
                     et quod imponitur singulis angariis atque vigiliis majoribus Beatissimae
                     Virginis Mariae et Sanctorum Apostolorum etc. Et hoc aeque est universale nec
                     minus sub peccato mortali obligat non tantum ob Jus, quod Sacra Ecclesia in suos
                     subditos habet, sed etiam ob pientissimum finem, qui primarius est ad
                     macerationem carnis et salutem animae juxta preces, quas tempore quadragesimali
-                    solet ad Deum fundere: <quote>Deus, qui per sacrum jejunium vitia comprimis,
-                        mentem elevas, virtutem largiris et praemia.</quote> Sed etiam, licet
+                    solet ad Deum fundere:<quote>Deus, qui per sacrum jejunium vitia comprimis,
+                        mentem elevas, virtutem largiris et praemia.</quote>Sed etiam, licet
                     secundario, ad sanitatem corporis, unde in medio quadragesimae commemorationem
-                    facit sanctorum <persName>Cosmae</persName> et <persName>Damiani</persName>, Medicorum et consequenter sanitatis
+                    facit sanctorum<persName>Cosmae</persName>et<persName>Damiani</persName>, Medicorum et consequenter sanitatis
                     Praesentis conservandae et amissae restituendae Patronorum Potentissimorum, et
                     instituit Quadragesimam circa tempus Vernale, in quo caro magis, sicut in
                     caeteris animalibus brutis et insectis, ita et in homine solet luxuriare.
-                    Jejunium vero angariale circa solstitia et <pb xml:id="A3v"/>aequinoctia, ubi
+                    Jejunium vero angariale circa solstitia et<pb xml:id="A3v"/>aequinoctia, ubi
                     pariter solent observari mutationes corporis magis solennes. Praecipit autem non
                     tantum abstinentiam in hoc jejunio a carne, sed unam solam admittit refectionem,
                     et quidem circa horam meridianam, in qua licet corpus ad satietatem restaurare,
@@ -305,14 +292,13 @@
                     Religionis Principio Christiani sanctissime hoc observaverant praeceptum, sed
                     adhuc dum moderna hora observent tot utriusque sexus Religiosi, et longe majori
                     austeritate, nec tantum sine ullo sanitatis suae detrimento, sed potius plures,
-                    quam quidem ad saeculares fiere consuevit, <pb xml:id="A4r"/>annos et quasi
+                    quam quidem ad saeculares fiere consuevit,<pb xml:id="A4r"/>annos et quasi
                     incanos expleant. Cum itaque Ecclesia tanta promittat et promissa sancte servet,
                     quis in dubium vocare poterit, quin jus habeat et aequum sit, ut legis suae
                     contemptores aeterni ignis poena mulctet?</p>
-                <p>Nec habent Delicatuli, ut opponant ciborum esurialium insalubritatem, contra
+        <p>Nec habent Delicatuli, ut opponant ciborum esurialium insalubritatem, contra
                     authoritatem, rationem et experientiam. Consulant enim quoscunque authores
-                    medicos genuinos et approbatos, praesertim nostros antesignanos, <persName>Hippocratem</persName>
-                    scilicet et <persName>Galenum</persName>, et reperient eos pisces in omni ferme languore, imo in
+                    medicos genuinos et approbatos, praesertim nostros antesignanos,<persName>Hippocratem</persName>scilicet et<persName>Galenum</persName>, et reperient eos pisces in omni ferme languore, imo in
                     febre et continua et tertiana, in quibus carnes serio proscribunt, concedere nec
                     sine ratione; saporis enim pisces praesertim marini et saxatiles, seu ex aquis
                     petrosis desumpti, sunt vix non fragrantis odoris, consistentiae non adeo
@@ -321,7 +307,7 @@
                     vitam sanam ac longaevam degere. Adeoque injuriose ac fere blasphemice in
                     supremum Numen Beneficentissimum piscium largitorem agit, quicunque cum
                     Kornmanno asserit pisces non nisi succum aquosum praebere.</p>
-                <p>Vegetabilia vero quam grati sunt odoris et saporis, tam bonos et laudabiles nobis
+        <p>Vegetabilia vero quam grati sunt odoris et saporis, tam bonos et laudabiles nobis
                     suppeditant succos, et licet cruda tardioris sint digestionis, huic vero
                     praememorata consulitur abstinentia per alias salvas viginti tres horas, et quam
                     facile vegetabilium cruditas varia praeparatione, trituritione, incisione,
@@ -332,20 +318,17 @@
                     putredinalem promptitudinem, ob quam causam in peste omnis caro interdicitur,
                     praeterea caro quidem copiam sanguinis adauget, sed qui sanguis vasa nimium
                     replet, si est ab animalibus junioribus, sanguis emergit aquosus, fibras reddit
-                    flaccidas et ad motum inidoneas: <pb xml:id="A4v"/>si vero ex animalibus est
+                    flaccidas et ad motum inidoneas:<pb xml:id="A4v"/>si vero ex animalibus est
                     annosis, sanguis fit crassus, motui resolutorio et circulatorio resistens:
                     spiritus, qui ex tali sanguine generantur, prout magis ad carnalia vergunt, ita
-                    magis ab honestatis regulis deviant et longaevitati ita officiunt, ut a <persName>Noemi</persName>
-                    tempore, quo usus carnis increbuit, nemo amplius <persName>Adami</persName>, <persName>Methusalem</persName> et <persName>Noemi</persName>
-                    attingat annos, et ulterius omnis caro per se odore et sapore piscibus et
+                    magis ab honestatis regulis deviant et longaevitati ita officiunt, ut a<persName>Noemi</persName>tempore, quo usus carnis increbuit, nemo amplius<persName>Adami</persName>,<persName>Methusalem</persName>et<persName>Noemi</persName>attingat annos, et ulterius omnis caro per se odore et sapore piscibus et
                     vegetabilibus longe cedit.</p>
-                <p>Panis vicissim, qui ex solis vegetabilium seminibus conficitur, omnes alimenti
+        <p>Panis vicissim, qui ex solis vegetabilium seminibus conficitur, omnes alimenti
                     qualitates tam perfecte continet, ut a Sacra scriptura per antonomasiam sub pane
-                    omne nutritivum intelligatur, ita enim legimus de <persName>Moyse</persName> Exodi cap. 24 vers. 27:
-                        <quote>fuit ergo ibi cum Domino quadraginta noctes et panem non comedit et
+                    omne nutritivum intelligatur, ita enim legimus de<persName>Moyse</persName>Exodi cap. 24 vers. 27:<quote>fuit ergo ibi cum Domino quadraginta noctes et panem non comedit et
                         vinum non bibit</quote>, et Deuteronomii cap. 9. vers. 9. de se ipso
-                    loquitur <persName>Moyses</persName>: <quote>et perseveravi in monte quadraginta diebus et
-                        quadraginta noctibus panem non comedens et aquam non bibens.</quote> In
+                    loquitur<persName>Moyses</persName>:<quote>et perseveravi in monte quadraginta diebus et
+                        quadraginta noctibus panem non comedens et aquam non bibens.</quote>In
                     quibus Textibus Interpretes unanimiter conveniunt, quod sub pane et aqua omne
                     alimentum et potum intellexerint, quin vero infinita Christi sapientia, quo
                     carnem suam manducandam gratissimam nobis reddat in Eucharistia, panem elegit:
@@ -360,18 +343,18 @@
                     sapidissimum manna ut cibum levissimum abhorrentium ollas aegyptiacas caepis et
                     allio foetentes anhelarunt: ac tandem vitam, quae summum alias pretium est,
                     avida cothurnicum ingestione cum morte commutaverunt, qui, inquam, pisces et
-                    vegetabilia nauseantes <pb xml:id="B1r"/>carnem, carnem, carnem efflagitant.
+                    vegetabilia nauseantes<pb xml:id="B1r"/>carnem, carnem, carnem efflagitant.
                     Quoniam vero Catholici et exacti praeceptorum Ecclesiasticorum observatores
                     nihilominus audiri volunt, scientes nullum Ecclesiae praeceptum sub peccato
                     moratli obligare cum notabili sanitatis, multo minus vitae detrimento, hinc
                     turmatim Medicos avolant, qui testentur, ut ob sanitatis vel vitae periculum a
                     praecepto jejuniii sint excusati vel merito dispensandi.</p>
-                <p>Et en, Medicum, ut <persName>Pilatum</persName>, si annuit, peccati mortalis, ac si ipse comederet
+        <p>Et en, Medicum, ut<persName>Pilatum</persName>, si annuit, peccati mortalis, ac si ipse comederet
                     carnes, participem se facit, si negat, ut impius, crudus, omnis charitatis erga
                     proximum inops, et ita Praxeos Medicae, quae in charitate fundatur, inhabilis
                     per totum orbem divulgatur et diffamatur, quae diffamatio est eo major, quo
                     talia subjecta suae conscientiae magis incuria sunt.</p>
-                <p>Hoc certum et apud omnes Theologos et Canonistas indubitatum est solas molestias
+        <p>Hoc certum et apud omnes Theologos et Canonistas indubitatum est solas molestias
                     a cibis esurialibus oriundas ab integro praecepto jejunii non excusare; quia
                     enim Ecclesia, quae primariam habet animae curam, intendit carnis macerationem,
                     ut per eam spiritus confortetur, solas corporis tristes sensationes non tantum
@@ -381,15 +364,15 @@
                     utique tolli potest, ut integra imperanti Ecclesiae obedientia praestetur, nulla
                     vero exemptio, nisi actuale adsit vitae periculum, locum habet, ubi vero prudens
                     est imminentis periculi praesumptio, legitimus est dispensationis locus.</p>
-                <p>Primo ad specialia vero descendendo, non solum ova, sed etiam carnes comedi
+        <p>Primo ad specialia vero descendendo, non solum ova, sed etiam carnes comedi
                     possunt in Idiopathicis et habitualibus cephalalgiis tam continuis quam
                     periodicis, etiamsi sint sine febre, ejusmodi enim dolor requirit tale
                     nutrimentum, quod facile concoquatur et stomachum retardando descensum et
                     distributionem non aggravet, quod parum excrementi habeat, quod evaporatione
-                    careat, et quod praecipue pituitam in capite adaugere <pb xml:id="B1v"/>non
+                    careat, et quod praecipue pituitam in capite adaugere<pb xml:id="B1v"/>non
                     valeat, quod si vero talis patiens sit stomachi robustioris, licet caro
                     concedatur, tenetur tamen ad unicam refectionem et horam determinatam.</p>
-                <p>Secundo idem sentiendum de morbis nervos occupantibus, uti est apoplexia,
+        <p>Secundo idem sentiendum de morbis nervos occupantibus, uti est apoplexia,
                     epilepsia, paralysis, stupor, spasmus, vertigo, memoriae lapsus, torpor; cum
                     facile succedere possit, ut a cibis, quibus in jejunio utimur, multa pituita
                     generetur et alii excrementii humores, qui levi modo graves morbos graviores
@@ -397,7 +380,7 @@
                     leviores etiam reddere graves possunt. Caro etiam concedenda tempore
                     intermissionis ob timorem verisimilem, ne ex ipsius jejunii culpa revertantur et
                     deteriores fiant.</p>
-                <p>Tertio pariter a jejunio excusat omnis delirii species, tum ob ipsum morbum, tum
+        <p>Tertio pariter a jejunio excusat omnis delirii species, tum ob ipsum morbum, tum
                     quod meritorum delirantes non sint capaces in ipso paroxismo: extra eum vero, si
                     nulla adsit suspicio reliquiarum morbi, ad omne jejunii genus ut sani tenentur,
                     praesentibus vero reliquiis stricte sani dici non possunt, adeoque ad jejunium
@@ -406,84 +389,83 @@
                     qualitate ciborum, non vero a jejunio, quia, si homo a jejunio insaniret ac
                     jejunium esset causa insaniae, absque dubio praeponeret mediocre bonum multo
                     meliori et numero et conditione, ab omnibus enim operibus bonis impediretur.</p>
-                <p>Quarto nec minus insignes oculorum morbi, ut longae et pertinaces ophthalmiae,
+        <p>Quarto nec minus insignes oculorum morbi, ut longae et pertinaces ophthalmiae,
                     lippitudines, suffusiones, glaucomata, amauroses etc. unius vel utriusque oculi,
                     nisi sint omnino confirmati, excusant a qualitate ciborum, non vero a unitate
                     refectionis nec ab hora determinata; cum enim cibi quadragesimales, ubi impura
                     corpora offendunt, crassius alimentum subministrent, et maxima ex parte vaporosi
                     sint et facillime caput repleant, et cum in Stomacho diutius commorentur ob
-                    coctionis difficultatem saltem secundum plurimum, hinc facile est tales morbos
-                        <pb xml:id="B2r"/>adaugeri, ita, ut in perfectam caecitatem terminentur: at
+                    coctionis difficultatem saltem secundum plurimum, hinc facile est tales morbos<pb xml:id="B2r"/>adaugeri, ita, ut in perfectam caecitatem terminentur: at
                     vero, si morbus sit confirmatus et incurabilis neque a praecepto ulterius
                     destrui posset, nulla amplius subest excusationis ratio.</p>
-                <p>Quinto omnes pectoris morbi, dummodo sint notatu digni, utut sint sine febre
+        <p>Quinto omnes pectoris morbi, dummodo sint notatu digni, utut sint sine febre
                     (secus enim jam febris excusat), ut omnes species asthmatis, tussis molesta et
                     pertinax, haemoptoe, empyoma etc. tam praesentes quam imminentes, sunt legitima
                     causa impediendi jejunium qualecunque tam quadragesimale quam quatuor temporum
-                    et vigiliarum. Ex Sententia enim <persName>Hippocratis</persName> Sect. 5. Aph. 24. <quote>frigidum
-                        inimicum pectori</quote> et cibi esuriales selectiores, ut pisces, sint
+                    et vigiliarum. Ex Sententia enim<persName>Hippocratis</persName>Sect. 5. Aph. 24.<quote>frigidum
+                        inimicum pectori</quote>et cibi esuriales selectiores, ut pisces, sint
                     frigidi et cum multa excrementitia humiditate. Huc tamen non referendus omnis
                     catharrus, sed debet esse insignis, salsus, diutinus cum aspredine in pectore,
                     dolore et morsu, et consequenter cum periculo nisi phthiseos et vasorum
                     rupturae, saltem asthmatis. At si catharrus sit crassus, non excusat a
                     jejunio.</p>
-                <p>Sexto morbi omnes pectoris, ut ejus tremor, cardialgia, syncope, tam praesentes
+        <p>Sexto morbi omnes pectoris, ut ejus tremor, cardialgia, syncope, tam praesentes
                     quam prudenter timendi ab omni jejunio excusant ob partis affectae praestantiam,
                     quia exiguunt cibos facilis digestionis et distributionis et paucorum
                     excrementorum, et saepius, sed parca manu exhibendos.</p>
-                <p>Septimo omnes insignes affectus stomachi, ut cardialgia, lypothimia, morsus,
+        <p>Septimo omnes insignes affectus stomachi, ut cardialgia, lypothimia, morsus,
                     inflatio ab omni jejunii obligatione eximunt, tam qualitate quam tempore quam
                     unitate refectionis, frigidi enim tales sunt, et sic nec pisces nec multum pro
                     vice tollerant et in pessimos possunt degenerare morbos.</p>
-                <p>Octavo epatis, splenis etc. rebelles et contumaces obstructiones, tumores,
+        <p>Octavo epatis, splenis etc. rebelles et contumaces obstructiones, tumores,
                     cachexiae, hydropis species tam incipientes quam confirmatae, affectiones
                     melancholiae et hypochondriacae insigniter exercentes ob copiam humorum, calorem
                     viscerum et flatus excusant; quia neque olera neque fructus nec legumina concedi
                     possunt.</p>
-                <pb xml:id="B2v"/>
-                <p>Nono Renum vitia et vesicae, quae excretioni urinae insigniter incommodant, ut
+        <pb xml:id="B2v"/>
+        <p>Nono Renum vitia et vesicae, quae excretioni urinae insigniter incommodant, ut
                     debilitas, obstructio sive a phlegmate sive a calculo, gonorrhaea vera,
                     sanguinis mictus, diabetes, stranguria, ischuria, dysuria etc., legitime
                     impediunt hominem a jejunio; nam absque periculo majoris mali non possunt sic
                     affecti uti cibis quadragesimalibus, qui pituitam multam generantes et maxime in
                     corporibus morbosis causam praebent majori morbo, consultum tamen est pluribus,
                     ut horae determinatae et unicae refectioni acquiescant.</p>
-                <p>Decimo febres omnes (excepta ephemera), sive sint essentiales sive symptomaticae,
+        <p>Decimo febres omnes (excepta ephemera), sive sint essentiales sive symptomaticae,
                     sive continuae sive periodicae et intermittentes ab omni jejunio excusant, etiam
                     tempore intermissionis, quia causa morbifica latitat et potest transire in
                     continuam, licet aliqui solis ovis possent esse contenti.</p>
-                <p>Undecimo morbi cutanei, qua tales, quatenus respiciunt decorem, nullatenus
+        <p>Undecimo morbi cutanei, qua tales, quatenus respiciunt decorem, nullatenus
                     excusant, respectu vero causae, si humor est atrabilaris, salsus, melancholicus
                     vel pruritus intollerabilis, somnum non concedens vel sitim excitans excusat a
                     ciborum qualitate, non vero ab unica refectione nec ab hora determinata, imo
                     vero si possunt ali piscibus recentibus, ranis et cancris, simul sunt
                     medicamenta, vel saltem ova concedenda, quin carnis sit necessitas, nisi leprae
                     species vel febris conjuncta, ubi sola febris, ut dictum, excusat.</p>
-                <p>Duodecimo morbi articulares, Podagrici, qua tales, nisi torpus sit imbecille, et
+        <p>Duodecimo morbi articulares, Podagrici, qua tales, nisi torpus sit imbecille, et
                     possunt habere cibos esuriales nobiliores, non excusant a nullo praecepti
                     articulo, quia pisces potius edulcorant et abstinentia sola sine applicatione
                     medicamentorum multi fuerunt a morbis articularibus et podagra integre
                     curati.</p>
-                <p>Decimo tertio neque morbus gallicus, qua talis, nisi secumferat symptomata, de
+        <p>Decimo tertio neque morbus gallicus, qua talis, nisi secumferat symptomata, de
                     quibus prius fuit facta mentio, quia morbus qua talis nullum secumfert
                     periculum, sed solum periculum dependet a symptomatibus.</p>
-                <pb xml:id="B3r"/>
-                <p>Decimo quarto vulnera omnia periculosa, sive sint cum, sive sine febre, et ulcera
+        <pb xml:id="B3r"/>
+        <p>Decimo quarto vulnera omnia periculosa, sive sint cum, sive sine febre, et ulcera
                     maligna et cachoetica legitime a jejunio excusant, quia requirunt succum
                     nutritium selectissimum, si vero etiam sint profunda, sed sine periculo vitae,
                     nequaquam praecepto Ecclesiastico aliquid praejudicant.</p>
-                <p>Decimo quinto valetudinarii habituales, qui de facili aegrotant, vel qui perpetuo
+        <p>Decimo quinto valetudinarii habituales, qui de facili aegrotant, vel qui perpetuo
                     aliqua corporis valetudine detinentur, ut stomachici, epatici, lienosi,
                     hyppochondriaci, viscera obstructa habentes et herniosi, mulieres hystericae, a
                     jejunio jure fieri possunt immunes, quia ejusmodi ob ciborum qualitatem et
                     victus mutationem facile morbum contrahunt: herniosis vero sola caro concedenda,
                     observatis caeteris praeceptis.</p>
-                <p>Decimo sexto mulieres utero gerentes, quocunque gestationis tempore, puerperae
+        <p>Decimo sexto mulieres utero gerentes, quocunque gestationis tempore, puerperae
                     per totum puerperium, nutrices actualiter lactantes non modo ad jejunium non
                     tenentur, sed jejunantes peccant, si adversi quidpiam conceptui vel foetui
                     contingit. Quod si vero a jejunio nihil adversi observant, jejunando non
                     peccant, sed peccant non jejunando.</p>
-                <p>Cum vero Ecclesia non tantum in quadragesima, tempore angariali et pro feriis
+        <p>Cum vero Ecclesia non tantum in quadragesima, tempore angariali et pro feriis
                     festorum majorum injungat cibos esuriales, sed insuper unicam tantum admittat
                     refectionem et illam modo statutam prandii horam, plurimi sunt, qui abstinentiam
                     a carne quidem observant, sed uni refectioni et praefixae horae acquiescere
@@ -495,7 +477,7 @@
                     querelis potius laudabunt modernae Ecclesiae benignitatem, quae non tantum
                     concedit usum vini, potus Chocholati, Thee, Caffee etc., sed admittit etiam
                     jentaculum vel collatiunculam, ut vocant, quae tamen nullam habeat formam
-                    mensae, adeoque non <pb xml:id="B3v"/>sit operosa in parandis jusculis vel actu
+                    mensae, adeoque non<pb xml:id="B3v"/>sit operosa in parandis jusculis vel actu
                     calidis, sed consistat in leguminibus, fructibus, pisciculis frigidis,
                     infumatis, pane. Et quorum quantitas simul sumpta non excedat sex vel ad summum
                     octo uncias, vel prout plures non injuste docent, quintam vel ad summum quartam
@@ -512,18 +494,18 @@
                     sunt Professorum Gymnasii, maxime si sunt juncti cum motu corporis, ut
                     concionatorum, nec tamen extendendus hic labor ad omnes meditationes, quas
                     habent auditores et discipuli.</p>
-                <p>Paupertas autem excusat in illis, qui media non habent, quibus se sustentent, sed
+        <p>Paupertas autem excusat in illis, qui media non habent, quibus se sustentent, sed
                     comedunt, quantum et quando ex charitate aliorum habere possunt.</p>
-                <p>Adversa valetudo eximit, si vel ventriculus ejus est sensibilitatis, ut jejuni in
+        <p>Adversa valetudo eximit, si vel ventriculus ejus est sensibilitatis, ut jejuni in
                     cardialgiam, dolorem capitis, vertiginem vel animi deliquium incidant, quales
                     ventriculos Graeci picrocoli dicunt, vel in quibus ventriculis tantam
                     capacitatem non habet, ut eam simultaneam ingestionem capiat, qualis pro una
                     refectione par est, quibus accedunt puerperae, lactantes et gravidae, non adeo
                     pro se, sed potius ratione foetus, quem alunt vel in utero vel uberibus suis, et
                     qui praecepto non subjacet.</p>
-                <p>Excipit etiam Ecclesia ab hoc praecepti articulo aetates et quidem, quae vel
+        <p>Excipit etiam Ecclesia ab hoc praecepti articulo aetates et quidem, quae vel
                     Juvenili, adeoque vigesimo secundo est minor, vel virili est major, adeoque
-                    senectutem, quae incipit anno <pb xml:id="B4r"/>sexagesimo, si vires sibi
+                    senectutem, quae incipit anno<pb xml:id="B4r"/>sexagesimo, si vires sibi
                     fractas sentit, secus senex, si vegetus est, non facto annorum computo ad
                     obligationem tenetur, obligatio enim praecepti semper manet in possessione et
                     minus certum est, an sub anno sexagesimo vires deficiant, quam certum est, quod
@@ -535,39 +517,37 @@
                     possunt, in quibus haec memorata minoris sunt intensionis, cum dubio tamen
                     prudenti, quin sanitatem laedant, Ecclesiae honorem exhibeant, et ut
                     dispensationem obtineant, laborent.</p>
-                <p>Jejunium poenale fit ad Intentionem Judicis modo magis, modo minus strictum, et
+        <p>Jejunium poenale fit ad Intentionem Judicis modo magis, modo minus strictum, et
                     causas excusantes ac dispensantes habet easdem ut jejunium Ecclesiasticum
                     praeceptivum, quia tale jejunium nunquam injungitur cum periculo mortis vel
                     evidenti destructione sanitatis.</p>
-                <p>Jejunium suasorium cum consistat in mutuo contractu, tenetur quivis servare, in
+        <p>Jejunium suasorium cum consistat in mutuo contractu, tenetur quivis servare, in
                     quantum potest, et in quantum vult meritorum Christi capax fieri vel cum
                     consensu Ecclesiae jejunium in aliud bonum opus commutare.</p>
-                <p>Jejunium tandem naturale seu Eucharisticum est a coena, quae sit trihorio ante
+        <p>Jejunium tandem naturale seu Eucharisticum est a coena, quae sit trihorio ante
                     mediam noctem, usque ad sumptionem Eucharistiae abstinentia ab omni cibi et
-                    potus genere,<quote> ne</quote>, ut habet Consilium Matisconiense 11. Can. 6.,
-                        <quote>Coelesti et spirituali cibo terrestris praeponeretur</quote>: Quod
+                    potus genere,<quote>ne</quote>, ut habet Consilium Matisconiense 11. Can. 6.,<quote>Coelesti et spirituali cibo terrestris praeponeretur</quote>: Quod
                     utique requirit summa, quam Creatori nostro debemus, veneratio: hinc ad hujus
                     jejunii factionem requiritur, ut substantia illo die vel saltem trihorio ante
                     principium illius diei fuerit ingesta, et ut illa substantia habeat rationem
                     cibi vel potus. Ex quo eruunt, ut, si musca involaret in os et deglutiretur, vel
-                    substantia v. g. carnosa dentibus <pb xml:id="B4v"/>impacta deglutiretur, vel
+                    substantia v. g. carnosa dentibus<pb xml:id="B4v"/>impacta deglutiretur, vel
                     carbones, creta, calx etc., quae non habent rationem alimenti, assummerentur,
                     quod jejunium non frangat, neque ob eandem rationem masticatio vel suffitus
                     tabacci. Et haec ipsa decentia exigit, ut post assumptam Eucharistiam, et donec
                     species Eucharisticae sint destructae, nulla fiat nec exscreatio neque
                     expectoratio, minus vomitus.</p>
-                <p>Utut vero haec vera videantur fundamenta theologica, quibus Medicus tuto et
+        <p>Utut vero haec vera videantur fundamenta theologica, quibus Medicus tuto et
                     secure confidere potest, nihilominus cum res sit majoris momenti, etiam tuam,
                     Colendissime Collega Sarcophile, expiscari volui sententiam, ut, si et mecum
                     sentias, in mea doctrina magis confirmer. Si eam dubiam vel omnino alienam
                     facias, at tertium tanquam arbitrum confugiamus: et hunc in finem, si equidem
                     tibi placeret, omnium primum et omni exceptione majorem eligerem Venerabilem
                     nostrum Decanum et Seniorem Theophilum scilicet Veronensem.</p>
-            </div>
-
-            <div>
-                <head>Sarcophilus.</head>
-                <p>Plurimum observande Collega Sarcophibe, non parum doleo tot Scommata plane
+      </div>
+      <div>
+        <head>Sarcophilus.</head>
+        <p>Plurimum observande Collega Sarcophibe, non parum doleo tot Scommata plane
                     effronter in selectissimam nostram sponsam (Medicinam puto) effusa, quorum
                     nullus, imo infinitus est numerus, et dolerem magis, si hoc fatum tantum nostram
                     exspectaret facultatem, sed singulis horis idem experitur Doctrina et Polemica
@@ -575,14 +555,12 @@
                     nulla tam alta, quam fulmina haec non feriunt, nulla tam humilis, quam non
                     inferius premunt, nulla tam nitida, tam pura, quam non coinquinant Zoili
                     scommata. Et cum nulla hactenus potuerit effugere, satius est patienter
-                    tollerare, quod averti non potest. Satis solide vero haec refutasti scommata,
-                        <pb xml:id="C1r"/>quam arduum sit studium Medicum, nemo satis declarare
-                    potest, qui non magis profunda ejus penetralia subiit: sufficit, quod
-                    <persName>Hippocrates</persName> Cous, qui doctrinam suam Medicam eo evexit, ut ab Atheniensibus, qui
+                    tollerare, quod averti non potest. Satis solide vero haec refutasti scommata,<pb xml:id="C1r"/>quam arduum sit studium Medicum, nemo satis declarare
+                    potest, qui non magis profunda ejus penetralia subiit: sufficit, quod<persName>Hippocrates</persName>Cous, qui doctrinam suam Medicam eo evexit, ut ab Atheniensibus, qui
                     sua aetate erat populus cultissimus, promeritus fuerit divinis affici honoribus,
-                    quod, inquam, hic <persName>Hippocrates</persName> suum libellum, quem vocavit Aphorismos, quod opus
+                    quod, inquam, hic<persName>Hippocrates</persName>suum libellum, quem vocavit Aphorismos, quod opus
                     tota hactenus obstupuit sua posteritas et non minus obstupescet nostra, ita
-                    inchoet: <quote>Ars (Medica) longa, vita brevis</quote>, adeoque doctrinam hanc
+                    inchoet:<quote>Ars (Medica) longa, vita brevis</quote>, adeoque doctrinam hanc
                     ipsa vita longiorem pronuntiaverit et nulli spes sit, ut illam plane consummatam
                     sit possessurus. Cavendum tamen, ne ad ejusmodi scommata ansa detur, et doctrina
                     Medica, praesertim, quae publicum respicit, sana et solidissima conservetur, et
@@ -590,7 +568,7 @@
                     tradidisti, doctrina circa praeceptum Ecclesiasticum in observando jejunio
                     supersint, cum non satis cum fundamentis medicis conveniant, si cum mente
                     Ecclesiae, quantum de ea constare potest, una lance librentur.</p>
-                <p>Supersedebo vero dubio, quod nonnulli, qui etiam summum Pontificem ut Christi in
+        <p>Supersedebo vero dubio, quod nonnulli, qui etiam summum Pontificem ut Christi in
                     terris Vicarium venerantur, movent, utrum scilicet Christi Vicarius posset
                     aliquid praecipere sub onere peccati mortalis. Cardo dubii vertitur in eo; cum
                     peccatum mortale aequiparetur crimini laesae Majestatis et Majestas Divina
@@ -602,8 +580,7 @@
                     Hinc prout peccatum mortale et transgressiones legum Divinarum involvunt
                     malitiam infinitam et infinitum non capit magis nec minus transgressiones
                     praeceptorum Ecclesiasticorum, ut longe inferiores non possunt esse malitiae
-                    infinitae; quod dubium, eo quod forum Medicum nullo modo tangat, <pb xml:id="C1v"/>nullus etiam movebo, sed eo ipso, cum Christus dixerit:
-                        <quote>Quidquid ligaveris in terra, erit et ligatum in coelo, et quidquid
+                    infinitae; quod dubium, eo quod forum Medicum nullo modo tangat,<pb xml:id="C1v"/>nullus etiam movebo, sed eo ipso, cum Christus dixerit:<quote>Quidquid ligaveris in terra, erit et ligatum in coelo, et quidquid
                         solveris super terram, erit et solutum in coelis</quote>: et eligerem potius
                     esse solutus in coelis quam in eo ligatus transferri in ignem Gehennae,
                     praeceptis Ecclesiasticis sponte me subjicio, eo magis, quia adeo benigna est,
@@ -614,10 +591,10 @@
                     suam sustentandam est necessaria, etiam ex minori causa schedulam attestantem
                     formare possit, quo salvatur honor Ecclesiae, et praeoccupat damnum sibi
                     emergens; consulat proinde sibi, quisquis tanta importunitate urget.</p>
-                <p>Quo vero innotescat, an sit majoris vel minoris momenti, opus est, ut in prima
+        <p>Quo vero innotescat, an sit majoris vel minoris momenti, opus est, ut in prima
                     fundamenta fiat inquisitio, et quidem in Praecepti finem, quia finis praecepti
                     est regula observationis legalis.</p>
-                <p>Dicis itaque finem primarium Jejunii Ecclesiastici esse macerationem carnis, quod
+        <p>Dicis itaque finem primarium Jejunii Ecclesiastici esse macerationem carnis, quod
                     si vero cibi esuriales, ut jactas, sunt adeo sapidi, tam boni et constantis ac
                     corruptioni resistentis succi, quomodo poterit per eos caro macerari? Sed
                     respondes per macerationem carnis non intelligi ejus extenuationem et plenariam
@@ -627,7 +604,7 @@
                     non concedis senibus decrepidis, in quibus hic finis cessat? Si quaeris hanc
                     refraenationem per unicam refectionem: Cur hoc praeceptum non injungis
                     adolescentibus ab anno decio quarto usque ad vigesimum primum, ubi tamen motus
-                    iste est maximus, praesertim in posteriori triennio, et quantum concernit <pb xml:id="C2r"/>unam refectionem, an nescis corpus humanum et praesertim
+                    iste est maximus, praesertim in posteriori triennio, et quantum concernit<pb xml:id="C2r"/>unam refectionem, an nescis corpus humanum et praesertim
                     sanguinem in continuo versari motu resolutorio, qui, si ultra consuetum tempus
                     durat, quin accedente novo chylo dulcificetur, transire in acrimoniam, quae
                     spiritus ad quaevis inhonesta allicit, id quod non tantum in homine, sed etiam
@@ -641,7 +618,7 @@
                     abusi, et quidem sine carne, post diluvium, ubi intentio illa cessavit, primum
                     introductus fuit carnis comedendae usus. Et miraris adhuc, quod dubitem, an iste
                     a te propositus finis sit genuinus etiam Ecclesiae.</p>
-                <p>Nec minus suspectus est alter finis, quem, ut profers, in hoc praecepto
+        <p>Nec minus suspectus est alter finis, quem, ut profers, in hoc praecepto
                     Ecclesiastico sibi proposuit Sancta Mater Ecclesia, qui est, ut simul sanitas
                     conservetur. Quid, quaeso, in nostro Climate, ubi terra et aqua frequenter ad
                     mensem Aprilem usque sunt glacie occupatae, olera vel ob longam conservationem
@@ -653,7 +630,7 @@
                     emaciatis tibi promittis, quid de piscibus alienis fumo induratis vel muria
                     conditis, quid de secali, hordeo, frumento saracenico vel turcico sanitati adeo
                     congruum est exspectandum: solum denique triticum est, quod veram alimenti
-                    rationem habet, sed neque solo, ut ipsa aeterna veritas fatetur, pane vivit <pb xml:id="C2v"/>homo, et insuper illud nobilioribus et pinguioris bursae est
+                    rationem habet, sed neque solo, ut ipsa aeterna veritas fatetur, pane vivit<pb xml:id="C2v"/>homo, et insuper illud nobilioribus et pinguioris bursae est
                     reservatum, et cum praeceptum statuas universale, a quo nemo excipitur ab anno
                     septimo nisi vel mechanico vel litterario motu occupati vel pauperes, qui ex
                     aliorum charitate vivunt, vel infirmi: quid cum illis agendum, qui vitam agunt
@@ -661,7 +638,7 @@
                     tales moraliter sani se exponant periculo infirmitatis, ut officio suo non
                     amplius fungi possint cum praejudicio sui, suae familiae et non raro totius
                     publici.</p>
-                <p>Sed refers per hoc sanitati consultum iri, ut saltem unica fiat refectio, ut, si
+        <p>Sed refers per hoc sanitati consultum iri, ut saltem unica fiat refectio, ut, si
                     qui cibi esuriales difficilioris sint coctionis, beneficio temporis corrigantur,
                     et dum tempus vacat longiori resolutioni, exinde optimus emergat succus
                     nutritius et copiosissimi ac genuini spiritus ad salutem animae et corporis
@@ -671,8 +648,7 @@
                     imo vero evidenter nocet, eo quod quidem non adeo paucae insint particulae
                     activae, sed illae haeterogeneae et motus motui spirituum nostrorum refractarii.
                     Secundo cum in nostra regione subjecta a teneris sint educata saltem cum duplici
-                    refectione, quantum consuetudinis immutatio praejudicet sanitati, legimus in
-                    <persName>Hippocratis</persName> libro de veteri Medicina, numero decimo nono et vigesimo, et quantam
+                    refectione, quantum consuetudinis immutatio praejudicet sanitati, legimus in<persName>Hippocratis</persName>libro de veteri Medicina, numero decimo nono et vigesimo, et quantam
                     vim habeat non tantum sanitatem destruendi, sed etiam occidendi, legi potest in
                     eodem libro, numero decimo quinto. Et quantum praeterea hic nunquam satis
                     laudandus senex rationem habeat consuetudinis, legere poteris in libello
@@ -680,10 +656,10 @@
                     prima, aphorismis decimo sexto et decimo septimo. Item in sectione secunda,
                     aphorismo trigesimo octavo, et ejusdem sectionis aphorismis quadragesimo nono et
                     quiquagesimo. De Aristotele nota est sententia: ab asuetis non fit passio; ergo
-                    fit ab inasuetis: <pb xml:id="C3r"/>per hoc autem praeceptum non tantum
+                    fit ab inasuetis:<pb xml:id="C3r"/>per hoc autem praeceptum non tantum
                     consuetudinis fit immutatio circa ciborum qualitates, sed etiam circa unicam
                     refectionem, et quidem hora paucissimis consueta.</p>
-                <p>Damnas, mi Sarcophibe, carnes, lac, butyrum, caseum et ova ut putredini obnoxia,
+        <p>Damnas, mi Sarcophibe, carnes, lac, butyrum, caseum et ova ut putredini obnoxia,
                     et iis praefers vegetabilia et pisces, sed facile tibi cedam, si mihi ostendes,
                     quod vegetabilia ab utero suae matris evulsa et saltem per septimanam conservata
                     ejusdem sint saporis, odoris et gratiae, uti sunt recenter a terra collecta.
@@ -700,31 +676,30 @@
                     ratio? Jactas etiam in quadragesima et jejunio angariali tempus aequinoctiale
                     scilicet et solstitia ut sanitati maxime opportuna, cum natura in his etiam
                     quandam subeat mutationem, sed tempus vernale forte ideo, quia sub tempore
-                    hyemali, ubi ventres juxta <persName>Hippocratem</persName> in sectione prima, aphorismis decimo
+                    hyemali, ubi ventres juxta<persName>Hippocratem</persName>in sectione prima, aphorismis decimo
                     quinto et decimo octavo, sunt calidissimi, et uberior victus concedendus, et
                     vicissim dum aeris inclementia domo discedere non permittit, motus minor fuit et
                     sic uberrimae cumulantur cruditates, quae tempore vernali commotae sui
                     excretionem postulant, et ad hanc commendas ut opportunum exhibere olera,
                     legumina, pastas farinaceas, pisces vel exsuccos vel emaciatos muria et sale
-                    conditos, an in tempore vernali, in quo juxta aphorismum ultimo citatum <pb xml:id="C3v"/>principium vitale cibos, excepta hyeme, omnium facillime fert,
+                    conditos, an in tempore vernali, in quo juxta aphorismum ultimo citatum<pb xml:id="C3v"/>principium vitale cibos, excepta hyeme, omnium facillime fert,
                     opportunam habes per continuas viginti tres horas ob omnibus cibis abstinentiam.
                     His accedit, quod tempore quadragesimali coelum plerumque sit pluviis vel omnino
                     nivibus turbatum, rarius serenum, quod transpirationem inhibendo generandis
-                    cruditatibus favet. Jejunium angariale quod concernit, scio equidem <persName>Hippocratem</persName>
-                    multum aestimare has temporis mutationes; unde in libro tertio aphorismorum
+                    cruditatibus favet. Jejunium angariale quod concernit, scio equidem<persName>Hippocratem</persName>multum aestimare has temporis mutationes; unde in libro tertio aphorismorum
                     cujuslibet stationis morbos recenset, et non paucos vernales: in libro vero
                     epidemicorum suadet, ut tempore aequinoctii vel solstitii nullae fiant venae
                     sectiones vel exhibeantur medicamenta, quae majorem facerent in corpore
                     mutationem, et tu consulis tantum in ciborum qualitate et quantitate a longiori
                     tempore inducta consuetudine recessum.</p>
-                <p>Audivimus jam rationes, quibus Jejunii Ecclesiastici salubritatem nobis
+        <p>Audivimus jam rationes, quibus Jejunii Ecclesiastici salubritatem nobis
                     persuadere conatus es, quas corroboras experientia, dum primaevi Christicolae
                     non tantum, sed moderno etiamnum saeculo magnus numerus sit utriusque sexus
                     Religiosorum, qui non tantum hoc jejunium, sed praeterea alias non leves
                     austeritates sancte observant, quin vel levissimum habeant sanitatis suae
                     dispendium, sed eos numerent annos, qui Saecularibus et Laicis ac delicate
                     viventibus sunt perquam rari.</p>
-                <p>Stringeret non parum hoc a te productum argumentum, praesertim Medicos
+        <p>Stringeret non parum hoc a te productum argumentum, praesertim Medicos
                     dogmaticos, qui soli utut satis splendidae diffidunt rationi, nisi ea ab ipsa
                     confirmetur experientia: stringeret equidem, confiteor, si eandem cum nostris
                     antecessoribus haberemus educationem, stringeret modernum saeculum, si aeque
@@ -732,7 +707,7 @@
                     teneris hic jejunandi introductus fuisset habitus, sed si in memoriam revocamus
                     nostrorum atavorum filios suos educandi morem, non mirum, quod plura sine
                     incommodo sustinuerint, quae nobis sine vitae periculo nec quidem tentare licet.
-                    Sed age, Sarcophibe, si filium habes, vel <pb xml:id="C4r"/>filiam, caeteris
+                    Sed age, Sarcophibe, si filium habes, vel<pb xml:id="C4r"/>filiam, caeteris
                     omnibus virtutibus praeditum, sed tenerum, valetudinarium et jam annis
                     adolescentiae majorem, offer hunc tuum filium cuidam Praesuli vel cujuscunque
                     saltem magis austerae religionis cujuslibet sexus Antistiti, ut in suam
@@ -745,7 +720,7 @@
                     cum hoc jejunio possit subsistere et senectutis annos attingere, praeceptum non
                     esset sanctum, non Matris, sed inhumanum, sed novercae, quae filiorum suorum
                     mortem intenderet.</p>
-                <p>Jam utut neuter a de adductus neque primarius neque secundarius finis per
+        <p>Jam utut neuter a de adductus neque primarius neque secundarius finis per
                     fundamenta Medica inquisitus subsistat et experientiam habeat sibi contrariam,
                     nihilominus hanc legem ut universalem ita proponis, ut omnes ab annis pueritiae
                     sub peccato mortali ab abstinentiam a carne adstringat, qui nullo et quidem
@@ -757,13 +732,13 @@
                     truculentae potius homicidae? Sed quid dico? Fallor, quod dixi, revoco: longe
                     alia est Sanctae et pientissimae Matris Ecclesiae mens, quae per sincerissimum
                     suum interpretem Divum Thomam Aquinatem Doctorem Angelicum ita se explicat, qui
-                    2. 2. quaest. 88. art. 2. ad tertium ita determinat: <quote>abstinentia non est
+                    2. 2. quaest. 88. art. 2. ad tertium ita determinat:<quote>abstinentia non est
                         Deo accepta, nisi in quantum est opus virtutis, at abstinentia in tantum est
-                        opus virtutis, in quantum cum discretione <pb xml:id="C4v"/>fit, ut scilicet
+                        opus virtutis, in quantum cum discretione<pb xml:id="C4v"/>fit, ut scilicet
                         concupiscentia refraenetur et natura non nimis gravetur, ita, ut, si in
                         observatione alicujus voti vel jejunii magnum vel manifestum gravamen quis
                         sentiret et non esset facultas recurrendi ad superiorem, non debuisset homo
-                        tale votum (et consequenter nec jejunium) servare.</quote> Sed hoc
+                        tale votum (et consequenter nec jejunium) servare.</quote>Sed hoc
                     praeceptum, ut prius experietur Medicinam, est Sarcophibi. Et prout Schommata
                     sunt dictamen invidiae, ita suspicionem merito movet talem legem esse dictamen
                     avaritiae. Et confitere ingenue, an certam polliceris opem et securus es, ut
@@ -775,7 +750,7 @@
                     spatio etiam vulnus gravissimum consolidaret, sed prudentiorem te judico; nemo
                     igitur, cujus ventriculus cibos esuriales non suscipit et hujus certior est
                     factus, ad periclitandum medicamentum est tenendus.</p>
-                <p>Dum vero agis de specialibus affectibus, qui a jejunio eximunt, statim in primo
+        <p>Dum vero agis de specialibus affectibus, qui a jejunio eximunt, statim in primo
                     puncto confiteris cibos esuriales, a quibus etiam selectos non eximis, resistere
                     resolutioni et distributioni, esse magis excrementitios, vaporosos, flatulentos
                     et pituitam in capite augere, ob quam rationem ab illis ad carnes in affectibus
@@ -786,46 +761,45 @@
                     solvat praeceptum, quoniam bonum mediocre praeponeret multo meliori et numero et
                     conditione, an non, inquam, haec ratio magis excusaret eos, qui publico
                     funguntur officio, ut Consiliarii, Concionatores, Advocati, Medici et alii
-                    officiales, et si ab usu ciborum esurialium, qui phlegma et
-                        <corr>melancholiam</corr>
-                    <pb xml:id="D1r"/>generant, sentiunt se minus habiles, et ita praejudicium
+                    officiales, et si ab usu ciborum esurialium, qui phlegma et<corr>melancholiam</corr>
+          <pb xml:id="D1r"/>generant, sentiunt se minus habiles, et ita praejudicium
                     fieret publico vel etiam privato. In tuo enim casu saltem unam laedit personam,
                     in meo vero plures, et subinde totum publicum, imo emergere posset damnum
                     irreparabile.</p>
-                <p>In Puncto quarto miror, quod non recordatus fueris morborum aurium et dentium,
+        <p>In Puncto quarto miror, quod non recordatus fueris morborum aurium et dentium,
                     cum illarum actio non minus pro conversatione humana, imo pro salute Animae et
                     horum pro sanitate tuenda sit necessaria quam oculorum, et ciborum esurialium
                     usus amborum actionem destruere potis sit.</p>
-                <p>Quoad Punctum quintum, si Catarrhus licet sit crassus, sit habitualis et
+        <p>Quoad Punctum quintum, si Catarrhus licet sit crassus, sit habitualis et
                     Chronicus, excusat etiam ab unica refectione, quia inducit fibrarum pulmonalium
                     flacciditatem, nec tantum licet una vice ingerere, ut pro tota die et nocte
                     sufficiat.</p>
-                <p>Circa Punctum octavum meretur addi, ubi sanguinis in ramificatione venae portae
+        <p>Circa Punctum octavum meretur addi, ubi sanguinis in ramificatione venae portae
                     et limphae circulus in mesenterio non rite procedit, quia utriusque motum cibi
                     esuriales, sive sint piscibus sive oleribus sive leguminibus sive ex pasta
                     farinacea, hebetant.</p>
-                <p>Quoad Punctum nonum in paroxismo nephritidis, gonorrheae, diabetis, stranguriae,
+        <p>Quoad Punctum nonum in paroxismo nephritidis, gonorrheae, diabetis, stranguriae,
                     ischuriae, dysuriae vix possibile est uni refectioni acquiescere, sed oportet
                     saepius saltem brodiis succurrere.</p>
-                <p>Quoad Punctum undecimum pruritus, si tantus est, ut somnum etiam non admittat,
-                    etiam ab unica refectione excusat, quia juxta <persName>Hippocratem</persName> libro Epidemicorum
+        <p>Quoad Punctum undecimum pruritus, si tantus est, ut somnum etiam non admittat,
+                    etiam ab unica refectione excusat, quia juxta<persName>Hippocratem</persName>libro Epidemicorum
                     sexto: aqua vorax, vigilia vorax.</p>
-                <p>Quoad punctum duodecimum, si per Podagricos et arthriticos intelligis eos, qui ab
+        <p>Quoad punctum duodecimum, si per Podagricos et arthriticos intelligis eos, qui ab
                     omni febre sunt liberi, eo quod febre correptos jam Puncto decimo censueris ut
                     excusatos, et si pisces recentes et selectos habere possint, facile tibi
                     accessero, ut vero ad comestionem pastae farinaceae, leguminum, olerum vel
-                    piscium ex lacubus desumptorum vel salsorum aut fumo induratorum <pb xml:id="D1v"/>teneri possint ii, quorum motus est abolitus a limpha acri
+                    piscium ex lacubus desumptorum vel salsorum aut fumo induratorum<pb xml:id="D1v"/>teneri possint ii, quorum motus est abolitus a limpha acri
                     plus minus spissa, non capio.</p>
-                <p>Quoad Punctum decimum quartum, si vulnera vel ulcera profunda, licet quoad vitam
+        <p>Quoad Punctum decimum quartum, si vulnera vel ulcera profunda, licet quoad vitam
                     non sint periculosa, infirmum tamen a functione sibi necessaria impediant,
                     pariter tenetur, ut pro consolidatione acceleranda sibi prospiciat de optimo
                     succo nutritio et consequenter de cibis ex carne paratis.</p>
-                <p>Quoad Punctum decimum quintum, circa valetudinarios, ubi nulla deprehenditur
+        <p>Quoad Punctum decimum quintum, circa valetudinarios, ubi nulla deprehenditur
                     interna vitiosa dispositio, sed tantum infirmantur, quoties diaetae regulas
                     excedunt, essem magis religiosus et prius adhortarer ad strictiorem
                     observantiam. Herniosis vero admodum paucis licet tantum pro vice ingerere, ut
                     pro viginti quatuor horis sufficiat.</p>
-                <p>In Puncto decimo sexto declaratio data nihil declarat, quidquid enim agerent
+        <p>In Puncto decimo sexto declaratio data nihil declarat, quidquid enim agerent
                     gravidae et lactantes, peccarent. Utrum foetus sive utero detentus sive natus
                     cibos esuriales sufferre possit necne, prius non constat, quia non omnibus
                     foetibus eadem est fibrarum teneritudo, et sic adultos quosdam cibi esuriales
@@ -837,12 +811,12 @@
                     igitur haec declaratio? Quod si igitur quaedam declaratio esset necessaria,
                     forte magis consultum esset non jejunare, quia leviora sunt peccata omissionis,
                     quam si jejunando fieret peccatum commissionis seu homicidii.</p>
-                <p>Eandem cum superioribus excusationem merentur curae majores tam in actuali morbo
+        <p>Eandem cum superioribus excusationem merentur curae majores tam in actuali morbo
                     quam ad eum avertendum adhibitae, uti sunt purgantia fortiora, sudorifera,
                     salivantia, usus thermarum et aquarum mineralium, utpote quae requirunt exactas
-                    diaetae regulas et victum facilis resolutionis et distributionis, <pb xml:id="D2r"/>omni acrimonia destitutum et simul analepticum, et hunc parco
+                    diaetae regulas et victum facilis resolutionis et distributionis,<pb xml:id="D2r"/>omni acrimonia destitutum et simul analepticum, et hunc parco
                     praebio et saepius exhibitum.</p>
-                <p>Jam vero quod concernit alterum Praecepti articulum, scilicet de una refectione,
+        <p>Jam vero quod concernit alterum Praecepti articulum, scilicet de una refectione,
                     jactas, et non immerito, Matris Ecclesiae benignitatem, ut jentaculum admittat:
                     Dicis vero primo, quod illud sit ita paratum, ut nullam mensae formam habeat,
                     sit facile parabile, hinc excludis juscula et actu calida. Sed si scrutaris
@@ -855,7 +829,7 @@
                     potus, excitat, nulla ergo praesumptio est, ut calor actualis sit contra mentem
                     Ecclesiae, sed potius Hebraismum sapit, vel dum mensam non vis operosam,
                     famulitio faves.</p>
-                <p>In quantitate vero vis, ut sex vel summum octo uncias non excedat, vel quartam ad
+        <p>In quantitate vero vis, ut sex vel summum octo uncias non excedat, vel quartam ad
                     summum coenae justae partem: quod tibi concessero in plagis meridionalibus, ubi
                     hyems benigna et brevis, ubi cibi quadragesimales selecti boni succi et paucorum
                     excrementorum: sed si facias comparationem ad nostrum Clima, in quo frigus
@@ -864,9 +838,9 @@
                     quam alimentitio, qui destituimur piscibus recentibus nec fructus habemus nisi
                     exsuccos, et illos majoris pretii, an putas, quod tua doctrina cum nostra
                     sanitate posset subsistere, quam tamen Ecclesia non vult destructam?</p>
-                <p>Excipis ab hoc praecepti articulo labores, et merito, nam juxta <persName>Hippocratem</persName>, ubi
+        <p>Excipis ab hoc praecepti articulo labores, et merito, nam juxta<persName>Hippocratem</persName>, ubi
                     fames, laborandum non est, ergo si labor est necessarius, fames exulet, ad
-                    laborem etiam refers itinerationem <pb xml:id="D2v"/>pedestrem saltem ad duas
+                    laborem etiam refers itinerationem<pb xml:id="D2v"/>pedestrem saltem ad duas
                     legas, curru vel equo facta sit extensa ad aliquot dies, quod vero determinare
                     non licet, sed differt pro ratione coeli plus minus frigidi et viae majoris vel
                     minoris asperitatis: Excludis labores sedentarios, ut sutorum, quasi
@@ -874,16 +848,16 @@
                     labores capitis, et merito: sed prout finis victus est, ut deperditum
                     restauretur, ita et laboris cynosura est, si fiat cum fatigatione et
                     lassitudine, qualiscunque tandem sit labor.</p>
-                <p>Excipis etiam pauperes, qui se ipsos sustentare non valent, sed hos non adeo
+        <p>Excipis etiam pauperes, qui se ipsos sustentare non valent, sed hos non adeo
                     tangit his articulus, sed a nullum tenentur jejunium, quia Jus, quod quivis
                     habet ad vitam, oritur ab ipso Conditore, adeoque praecedit Juri
                     Ecclesiastico.</p>
-                <p>Excipis etiam ab hoc articulo aetatem, et quidem infantilem, puerilem et
+        <p>Excipis etiam ab hoc articulo aetatem, et quidem infantilem, puerilem et
                     adolescentiae absolute, senilem vero a sexagesimo conditionate, si vires fuerint
                     fractae, sed cum haec declaratio sit ansa ad scrupulos, ut vix quis seipsum
                     possit judicare, melius faceres, si omnes excipias sexagenarios, ut habeatur
                     uniformitas.</p>
-                <p>Circa jejunium naturale acquiesco formalibus Consilii Matisconensis a te
+        <p>Circa jejunium naturale acquiesco formalibus Consilii Matisconensis a te
                     adductis, sed quod praetendas trihorium ante principium illius diei, est contra
                     omnem consuetudinem legaliter introductam: cum vero non pertineat ad forum
                     Medicum, intactum relinquo. Quantum vero formum Medicum concernit, indagandum
@@ -894,7 +868,7 @@
                     excludatur aqua simplex, utut haec neque spiritus nec partes solidas, sed solos
                     humores adaugeat. Ex quo etiam eruitur Ecclesiam non sumere cibum ut substantiam
                     solidam, ut apud Medicos receptum est, sed qualemcunque substantiam sive
-                    liquidam <pb xml:id="D3r"/>sive solidam. Et hoc supposito nullus concederem, ut
+                    liquidam<pb xml:id="D3r"/>sive solidam. Et hoc supposito nullus concederem, ut
                     ante Eucharistiam deglutiretur carbo, creta etc., quia licet hae substantiae nec
                     humores nec partes solidas nutriunt, restaurant tamen spiritus, quia tales, dum
                     singulari appetitu in memoratas substantias feruntur, iis assumptis recreantur
@@ -903,23 +877,22 @@
                     utut enim immediate et intentionaliter non deglutiantur, cum vero ejus
                     substantia realiter et non tantum qualitative communicetur limphae salivali,
                     quae deglutitur, sic utique fit realis deglutitio.</p>
-                <p>Vides itaque, mi Sarcophibe, quod si tua doctrina per trutinam medicam
+        <p>Vides itaque, mi Sarcophibe, quod si tua doctrina per trutinam medicam
                     examinetur, multa et majoris quidem momenti remanere dubia: male itaque non
                     vertes, si juxta tuum Consilium ad Venerabilem nostrum Seniorem me convertam, et
                     ut in re dubia inter nos arbitrum agat.</p>
-                <p>Eja igitur, Venerabilis Theophile, audisti momentosam, quae Sarcophibum inter et
+        <p>Eja igitur, Venerabilis Theophile, audisti momentosam, quae Sarcophibum inter et
                     me versatur, differentiam. Agitur de honore nostrae Facultatis, agitur de salute
                     animae et corporis. Pro tua igitur benignitate et fervore, quem foves in
                     Facultatem Medicam et proximum ac honorem Dei, tuum interpone studium et inter
                     nos non propter meum et tuum altercantes officium Judicis age.</p>
-            </div>
-
-            <div>
-                <head>Theophilus Veronensis.</head>
-                <p>Dilectissima Capita, perduram mihi imponitis Provinciam, perduram, dico, primo,
+      </div>
+      <div>
+        <head>Theophilus Veronensis.</head>
+        <p>Dilectissima Capita, perduram mihi imponitis Provinciam, perduram, dico, primo,
                     quia altercatio vestra videtur mihi eadem ac Mulierum apud Salomonem, ubi
                     utraque illarum praetendit foetum mortuum fuisse suum, ita et vestrum uterque
-                    pro <pb xml:id="D3v"/>se praetendit veritatem. Sed durius est hoc Judicium quam
+                    pro<pb xml:id="D3v"/>se praetendit veritatem. Sed durius est hoc Judicium quam
                     Salomonicum, foetus enim mortuus fuit divisibilis, non veritas, quae est ens
                     simplicissimum, nec physice nec metaphysice divisibile. Durum est Judicium, quia
                     uterque vestrum mihi percharus est, uterque magnae et publicae Authoritatis, sic
@@ -929,8 +902,8 @@
                     tantum otiosa et speculativa, sed de practica, quae tangit et famam Facultatis
                     et ipsam Religionem, quae res est admodum delicata. Delicatus est oculus, uti
                     scitis, delicata est fama, quae pari cum ipsa vita passu ambulat, sed super
-                    omnia delicata est Religio, juxta proverbium: <quote>non patitur lusum fama,
-                        fides, oculus.</quote> Est autem veritas virgo quaedam, utut in summo gradu
+                    omnia delicata est Religio, juxta proverbium:<quote>non patitur lusum fama,
+                        fides, oculus.</quote>Est autem veritas virgo quaedam, utut in summo gradu
                     pudica, omnis tamen vestis exosa, quia sub quocunque vestium nitore omni decore
                     magis deorbatur, quia sola gaudet simplicitate; est enim ipsius simplicissimae
                     Divinitatis filia. Praeterea naturam habet illius animalis, quod unicornu
@@ -943,20 +916,17 @@
                     immittas et ex ratiunculis politicis authoritatem Ecclesiae suspectam habeas;
                     nimis enim res periculosa est expositio circa religionem, in rem ad
                     controversam</p>
-                <p>Sarcophibus vero finem jejunii bene et mentem Ecclesiae satis explicavit, quod
+        <p>Sarcophibus vero finem jejunii bene et mentem Ecclesiae satis explicavit, quod
                     scilicet sit vitiorum compressio, mentis elevatio et virtutum ac praemiorum
                     receptio, ad quam requiritur quaedam carnis emaciatio, et licet ex tuis
-                    rationibus Physicis adductis, quas quidem negare non possum, jejunium non sit
-                        <pb xml:id="D4r"/>medium adaequatum, tamen illae rationes locum non habent
+                    rationibus Physicis adductis, quas quidem negare non possum, jejunium non sit<pb xml:id="D4r"/>medium adaequatum, tamen illae rationes locum non habent
                     neque unquam habere possunt, ubi obstat Evangelica veritas, quam legimus
-                    Matthaei capite quarto, ubi diabolus Deum hominem esurientem tentavit, dicendo:
-                        <quote>Si filius Dei es, fac, ut ex his lapidibus fiat panis</quote>: prout
+                    Matthaei capite quarto, ubi diabolus Deum hominem esurientem tentavit, dicendo:<quote>Si filius Dei es, fac, ut ex his lapidibus fiat panis</quote>: prout
                     enim substantia lapidea longissime et infinite ferme est remota ab omni
                     substantia alimentitia, ita, ut fiat transitus a lapide in panem, requiritur
                     major quam humana et etiam Angelica, et consequenter Divina potentia, et ex hac
-                    transmutatione cognovisset potentiam divinam, sed respondet Christus: <quote>non
-                        solo pane vivit homo, sed omni verbo, quod exit ab ore Dei.</quote>
-                    Intellexit autem, cum fuerit esuriens, per To <quote>vivit</quote>: non vitam
+                    transmutatione cognovisset potentiam divinam, sed respondet Christus:<quote>non
+                        solo pane vivit homo, sed omni verbo, quod exit ab ore Dei.</quote>Intellexit autem, cum fuerit esuriens, per To<quote>vivit</quote>: non vitam
                     tantum spiritualem, sed vere Physicam et corpoream. Et sic dixit per
                     benedictionem divinam omnem substantiam ita posse elevari, ut vita etiam
                     corporea conservari possit, quod etiam bis proinde facto ostendit, dum exiguo
@@ -969,49 +939,48 @@
                     homo. Et ita quidem, ut, licet cibi esuriales majorem vim Physicam habeant
                     humores et spiritus genitales augendi, per virtutem tamen Divinam superiorem
                     hominem taliter confortant, ut efficaciter ejusmodi motibus resistat.</p>
-                <p>Nec dubites etiam, quod finem secundarium concernit, de charitate Spiritus Sancti
+        <p>Nec dubites etiam, quod finem secundarium concernit, de charitate Spiritus Sancti
                     et inde oriunda pientissimae Matris nostrae benignitate, ita, ut simul etiam
                     sanitatem corporis consideret, et quae benignitas tanta est, ut nobis a mari
                     remotis, et qui tempore quadragesimali piscibus recentibus destituimur et
-                    vegetabilibus, ut per indultum et vi hujus legitime introducta <pb xml:id="D4v"/>consuetudine concesserit usum ovorum, butyri, casei et lactis, quae sane omnem
+                    vegetabilibus, ut per indultum et vi hujus legitime introducta<pb xml:id="D4v"/>consuetudine concesserit usum ovorum, butyri, casei et lactis, quae sane omnem
                     optimi alimenti facultatem in se continent.</p>
-                <p>Certus etiam sis, ut piissima Mater non parvum habeat respectum, uti, nisi
+        <p>Certus etiam sis, ut piissima Mater non parvum habeat respectum, uti, nisi
                     unanimiter, revera longe potior pars tenet Doctorum Sacrorum Canonum, ad
                     consuetudinem, modo haec sit introducta a viris prudentibus et conscientiae suae
                     studiosis, si vero ex consuetudine inferre velis, ut, qui sanus a longo tempore
                     asuetus est carnibus, ob hanc consuetudinem a praecepto jejunii sit exemptus,
-                    negas tuum, quem adeo Sanctum in re Medica habes <persName>Hippocratem</persName>, hic in suis
-                    Aphorismis Sec. 2. Aphorismo 50. ita tradit: <quote>consueta longo tempore, etsi
-                        deteriora, insuetis minus molestare solent.</quote> Sed attende bene, quid
-                    addat: <quote>quare ad insolita quandoque transeundum.</quote> Vult scilicet
-                    <persName>Hippocrates</persName> dicere, quod eo ipso, quod insueta magis molestent, etsi meliora,
+                    negas tuum, quem adeo Sanctum in re Medica habes<persName>Hippocratem</persName>, hic in suis
+                    Aphorismis Sec. 2. Aphorismo 50. ita tradit:<quote>consueta longo tempore, etsi
+                        deteriora, insuetis minus molestare solent.</quote>Sed attende bene, quid
+                    addat:<quote>quare ad insolita quandoque transeundum.</quote>Vult scilicet<persName>Hippocrates</persName>dicere, quod eo ipso, quod insueta magis molestent, etsi meliora,
                     nunquam nimis longa assummatur consuetudo, sed quandoque pro sanitate consultum
                     sit, ut etiam ad insueta fiat transitus, et sic a carne ad cibos esuriales.</p>
-                <p>Tempus quadragesimale saltem in nostro Climate (ingenue fateor) finem secundarium
+        <p>Tempus quadragesimale saltem in nostro Climate (ingenue fateor) finem secundarium
                     non adeo implet, eo potior vero est in fine primario, ut scilicet uberior sit
                     fructus Passionis Dominicae et eo magis gloriosa cum ipso resurrectio.</p>
-                <p>Circa dies tres angariales certo certius hi sanum non offendent nec tantae exinde
+        <p>Circa dies tres angariales certo certius hi sanum non offendent nec tantae exinde
                     molestiae, quanta proemia sunt, exspectandae.</p>
-                <p>Experientia, quam Sarcophibus producit, nullam patitur exceptionem, nec eam, mi
+        <p>Experientia, quam Sarcophibus producit, nullam patitur exceptionem, nec eam, mi
                     Sarcophile, et quidem prudenter, negas, sed affers modernam educationem, quae ab
                     educatione majorum nostrorum longius distat quam Roma Athenis, sed pariter
                     negare non poteris hanc ipsam adeo delicatam educationem non tantum Ecclesiae,
                     sed ipsi etiam Politiae esse summe pernitiosam et deleteriam. Quare de publico
                     et ipso supremo Numine optimum habebis meritum et Praemium, si junctis cum tota
-                    Medicorum turba viribus omnem nervum impendentes, <pb xml:id="E1r"/>ut
+                    Medicorum turba viribus omnem nervum impendentes,<pb xml:id="E1r"/>ut
                     proscripta hac nimis delicata educatione priorem plane salubriorem induceres.
                     Nec vero etiam sola in causa est delicata educatio, sed defectus virtutum
                     Theologicarum, infirmae scilicet fidei et spei praevalet philautia, quae
                     charitatem Theologicam non admittit: si haberent fidem et spem Divi Pauli,
-                    dicerent cum eo: <quote>omnia possum in eo, qui me confortat.</quote>
+                    dicerent cum eo:<quote>omnia possum in eo, qui me confortat.</quote>
         </p>
-                <p>Utut vero hoc praeceptum Ecclesiasticum sit universale et serium, non minus tamen
+        <p>Utut vero hoc praeceptum Ecclesiasticum sit universale et serium, non minus tamen
                     reflectit ad alteram veritatem in superius memorato Evangelio contentam. Dum
                     scilicet daemon alteram periclitabatur tentationem in Christo, an hic filius Dei
                     esset, voluit eum persuadere, ut hic ex alto se praecipitet, asserens textum ex
-                    sacra scriptura Matthaei cap. 4. vers. 6.: <quote>scriptum est enim, Angelis
+                    sacra scriptura Matthaei cap. 4. vers. 6.:<quote>scriptum est enim, Angelis
                         suis mandavit de te, ut custodiant te in viis tuis, ne offendas ad lapidem
-                        pedem tuum.</quote> Sed huic respondit aeterna veritas: <quote>scriptum est,
+                        pedem tuum.</quote>Sed huic respondit aeterna veritas:<quote>scriptum est,
                         ne tentes Dominum Deum tuum</quote>: id est, licet Deus, ut auctor naturae,
                     et qui ejus posuit leges et immediate et per Angelos posset avertere omnes
                     noxias, quae a tali praecipitatione inducerentur, tamen hoc de levi causa non
@@ -1028,8 +997,8 @@
                     consultum est, ut, si in aliis versetur diaetae erroribus, hos emendet, ne
                     videatur, ut tantum circa praeceptum Ecclesiasticum sanitatem observet,
                     caeteroquin vero ejus plane incurius vivat.</p>
-                <pb xml:id="E1v"/>
-                <p>Quoad speciales affectus, in quibus notat Sarcophibus excusationes a Praecepto
+        <pb xml:id="E1v"/>
+        <p>Quoad speciales affectus, in quibus notat Sarcophibus excusationes a Praecepto
                     Ecclesiastico, vel in totum, vel, quoad partem, singulariter, et quidem bene,
                     attendit ad adductas rationes, praesertim in tribus primis punctis, quae
                     scilicet fundantur in eo, quod cibi esuriales resistant resolutioni et
@@ -1039,9 +1008,9 @@
                     semper sunt fugiendi et neminem tale praeceptum stringeret. Sed, chare
                     Sarcophile, recordare axiomatis, quod ab universa colitur Philosophia, et
                     moniti, quod adducit Cornelius Celsus, Vir acutissimi Judicii et apud Medicos
-                    maximae famae. Axioma Philosophicum dicit: <quote>quidquid recipitur, per modum
+                    maximae famae. Axioma Philosophicum dicit:<quote>quidquid recipitur, per modum
                         recipientis recipitur. Et causa efficiens non agit nisi in subjectum
-                        dispositum.</quote> Utique ex ipsa rubrica vides, quod Sarcophibus non agat
+                        dispositum.</quote>Utique ex ipsa rubrica vides, quod Sarcophibus non agat
                     de sanis, sed de his, qui in praeternaturali statu sunt constituti, et qui
                     lympham gastricam habent inertem vel vitiosam, ut omnia, nisi qualitates habeant
                     vitio suo oppositas in sui naturam, vult dicere, vel in flatus vel pituitam vel
@@ -1051,26 +1020,26 @@
                     viribus pollent, nulli strictae sanitatis regulae se addicant, praesertim circa
                     ciborum qualitatem. Et hic male infers: cibi esuriales nocent infirmis; ergo
                     etiam sanis.</p>
-                <p>Quoad alterum hujus articuli punctum facilius tibi accedo, ut, maxime si negotium
+        <p>Quoad alterum hujus articuli punctum facilius tibi accedo, ut, maxime si negotium
                     sit publicum, vel etiam privatum, ad sui vero vel familiae honestam
                     sustentationem necessarium, ab experientia habeat, ut sub usu ciborum esurialium
                     tali negotio praeesse non possit, ut sic etiam praecepto Ecclesiae non sit
                     subjectus, quod si vero tantum ejus habeat timorem, tenetur Medicum consulere,
                     qui si justum invenit timorem ac talem connexionem inter cibos esuriales ac
-                    insufficientiam ad suum negotium, dabit <pb xml:id="E2r"/>ipsi attestatum pro
+                    insufficientiam ad suum negotium, dabit<pb xml:id="E2r"/>ipsi attestatum pro
                     petenda dispensatione, et consensu Ecclesiae.</p>
-                <p>Quoad Punctum quartum, quoad aures in otalgia, cum sit cum febre, haec per se
+        <p>Quoad Punctum quartum, quoad aures in otalgia, cum sit cum febre, haec per se
                     excusat, caeteri aurium morbi non tantae sunt considerationis. Morbi dentium
                     vero, praesertim, si de scorbuto participant, eandem cum eo rationem habent.</p>
-                <p>In puncto octavo etiam facilis Sarcophilo cedo.</p>
-                <p>Item circa Punctum nonum.</p>
-                <p>Parem assensum meretur undecimum, quia ratio videtur sufficiens.</p>
-                <p>In puncto duodecimo contenti possunt petere dispensationem ad carnes, ita tamen,
+        <p>In puncto octavo etiam facilis Sarcophilo cedo.</p>
+        <p>Item circa Punctum nonum.</p>
+        <p>Parem assensum meretur undecimum, quia ratio videtur sufficiens.</p>
+        <p>In puncto duodecimo contenti possunt petere dispensationem ad carnes, ita tamen,
                     ut uni acquiescant mensae.</p>
-                <p>Pariter non rejicio, quod Sarcophilus notat in puncto decimo quarto.</p>
-                <p>Eandem censuram meretur Punctum decimum quintum, tam quoad valetudinarios quam
+        <p>Pariter non rejicio, quod Sarcophilus notat in puncto decimo quarto.</p>
+        <p>Eandem censuram meretur Punctum decimum quintum, tam quoad valetudinarios quam
                     herniosos, qui proinde circa unicam mensam petant dispensationem.</p>
-                <p>Punctum decimum sextuum videtur equidem arduum, rite tamen consideratum sic
+        <p>Punctum decimum sextuum videtur equidem arduum, rite tamen consideratum sic
                     deciderem, ut, si experientia habeatur, quod lactantes et Puerperae offendantur
                     a cibis esurialibus, quod tunc teneantur ad carnes, cum vero periculum facere
                     non sit licitum, in hoc pariter casu, ut in aliis casibus, ubi res ambigua est,
@@ -1083,13 +1052,13 @@
                     major exspectatur corporis humani mutatio etiam in moraliter sanis, praesente
                     tamen causa vel dispositione morbifica, cujus avertendae gratia talis cura
                     instituitur.</p>
-                <p>Ex his fundamentis patet etiam sanos morbis acutis contagiosis <pb xml:id="E2v"/>assistentes a toto jejunii praecepto esse absolutos. A carne non tenentur
+        <p>Ex his fundamentis patet etiam sanos morbis acutis contagiosis<pb xml:id="E2v"/>assistentes a toto jejunii praecepto esse absolutos. A carne non tenentur
                     abstinere, tum ut se et vires suas conservent, quibus natura contagio magis
                     resistat, tum ut ipse patiens magis confortantia habeat juscula, quae eo meliora
                     sunt, quo plus carnis incoquitur: ad jejunium non tenentur, quia nihil magis
                     venenum contagii ad se attrahit quam ventriculus jejunus, ut millena confirmatum
                     habetur experientia. Haec de subjectis particularibus.</p>
-                <p>Jam oritur insuper quaestio, an dentur causae excusantes vel dispensantes etiam
+        <p>Jam oritur insuper quaestio, an dentur causae excusantes vel dispensantes etiam
                     pro Communitate. Et respondetur, quod sic. Et causae excusantes sunt tum morbi
                     epidemici, maxime si contagiosi grassantes, ex rationibus superius adductis,
                     item valet magna penuria ciborum esurialium,, vel eorum, praesertim frumenti, ex
@@ -1104,18 +1073,18 @@
                     medicae sunt imprimis morbi epidemici etiam non adeo frequentes vel in illa vel
                     magis frequentes in vicinia, cum qua habent communionem, grassantes. Secundo
                     temporum anomaliae, praesertim si hyems fuerit austrina, ex qua merito timendi
-                    sunt morbi, juxta <persName>Hippocratem</persName> in sect. 3. aphor. 5.: <quote>auster auditum
+                    sunt morbi, juxta<persName>Hippocratem</persName>in sect. 3. aphor. 5.:<quote>auster auditum
                         hebetat, vertiginem, oculorum caliginem, capitis gravitatem et lassitudinem
                         inducit: Quotiescunque igitur auster diu multumque dominatum obtinuerit,
-                        hujusmodi ferme morbi exspectandi.</quote> Et hoc magis hyeme, quia tum est
+                        hujusmodi ferme morbi exspectandi.</quote>Et hoc magis hyeme, quia tum est
                     praeter ordinem, nec debita haberi potest transpiratio: et in eadem sectione,
-                    aphorismo octavo: <quote>Constantibus anni partibus, si tempestates convenienter
-                        succedant, bene morati, facilis ac secundi judicii incidunt <pb xml:id="E3r"/>morbi. At incertis, male moratis maleque constitutis temporibus adversi
-                        difficilisque judicii indicunt morbi.</quote> Et iterum aphorismo duodecimo
-                    ejusdem sectionis: <quote>si autem austrina, pluviosa et tepida fuerit hyems,
+                    aphorismo octavo:<quote>Constantibus anni partibus, si tempestates convenienter
+                        succedant, bene morati, facilis ac secundi judicii incidunt<pb xml:id="E3r"/>morbi. At incertis, male moratis maleque constitutis temporibus adversi
+                        difficilisque judicii indicunt morbi.</quote>Et iterum aphorismo duodecimo
+                    ejusdem sectionis:<quote>si autem austrina, pluviosa et tepida fuerit hyems,
                         ver autem siccum et aquilonium, mulieres ingraviditatae, quae vere pariturae
                         sunt, facili de causa abortiunt, et si pepererint, infirmos et
-                        valetudinarios foetus edunt etc.</quote> Quo textu expresse nobis significat
+                        valetudinarios foetus edunt etc.</quote>Quo textu expresse nobis significat
                     talem hyemem principio vitali esse summe noxiam. Tertio si frigoris inclementia
                     vel et intensa vel etiam eo extensa, ut neque pisces recentes nec ranae nec ova
                     nec vegetabilia haberi possit. Quarto si farinae, butyri, olei etc. pretium
@@ -1137,24 +1106,24 @@
                     frigus, eo plus permittit. Secundo pro qualitate tam prandii quam et praesertim
                     ipsius jentaculi, si hoc vel illud magis nutrit vel confortat, in minori, si
                     vero magis est excrementitium, in majori admittatur praebio. Tertio pro ratione
-                    potus, <pb xml:id="E3v"/>cum enim Ecclesia potum nemini neget, quod si suadente
+                    potus,<pb xml:id="E3v"/>cum enim Ecclesia potum nemini neget, quod si suadente
                     siti vel adventu hospitis etc. liberalior sit potus, huic etiam, ne haustus
                     noceat, cibo magis indulgendum, modo major potus quantitas non sit in fraudem
                     praecepti. Quarto etiam variat pro consuetudine a viris prudentia et religione
                     conspicuis introducta.</p>
-                <p>Circa excusationem vero vel dispensationem ab hoc praecepti articulo puto
+        <p>Circa excusationem vero vel dispensationem ab hoc praecepti articulo puto
                     animadversiones a Sarcophilo notatas esse respiciendas.</p>
-                <p>Circa tertium articulum praecepti, scilicet circa horam prandii, jam satis
-                    expressit Sarcophibus. </p>
-                <p>Uti etiam circa jejunium suasorium.</p>
-                <p>In Poenali major requiritur extenuatio plerumque, dependet tamen ab arbitrio
-                    Judicis. </p>
-                <p>Circa praeceptum jejunii naturalis ante cibos eucharisticos pariter accedo
+        <p>Circa tertium articulum praecepti, scilicet circa horam prandii, jam satis
+                    expressit Sarcophibus.</p>
+        <p>Uti etiam circa jejunium suasorium.</p>
+        <p>In Poenali major requiritur extenuatio plerumque, dependet tamen ab arbitrio
+                    Judicis.</p>
+        <p>Circa praeceptum jejunii naturalis ante cibos eucharisticos pariter accedo
                     Sarcophilo, cui addo, quod vanus videatur Scrupulus, quem aliqui rudiores sibi
                     formant in collutione oris, cum vix possit contigere, ut aquae gutta per
                     collutionem, modo haec non sit plane incuria, descendat ad ipsum usque
                     stomachum, utut in faucibus refrigerationem inducat.</p>
-                <p>Bene etiam mones, ut omnis reverentia exigatur, quo summa adhibeatur cautela, ne
+        <p>Bene etiam mones, ut omnis reverentia exigatur, quo summa adhibeatur cautela, ne
                     post assumptam Sacrosanctam Eucharistiam fiat vel salivae exspuitio vel
                     expectoratio vel vomitus. Sed miror, quod nec verbum addas, quantum temporis
                     requiratur ad talem continentiam. Et respondeo hoc tempus differre tam pro
@@ -1165,7 +1134,7 @@
                     magis grossa et compacta, eo diuturnioris hae species sunt morae. Ordinarie
                     tamen in hostia minore ultra quinque horae minutas vix durat in homine sano,
                     major ad octo circiter. Pariter minor vini quantitas vel ejus qualitas tenuis
-                    citius, liberalius vero vinum <pb xml:id="E4r"/>vel crassius, meracum dulce
+                    citius, liberalius vero vinum<pb xml:id="E4r"/>vel crassius, meracum dulce
                     longiores moras trahit. Ratione subjecti maxima differentia haeret in saliva
                     linguae faucibus et ventriculo inhaerente, ita, ut, quo haec est magis copiosa
                     et tenuis, eo breviori tempore species absummit, quo ex opposito saliva magis
@@ -1174,15 +1143,14 @@
                     ut subinde ultra dimidiam horam adhuc notabiles observentur. Saliva tamen acida
                     prius agit in panem, tardius in vinum. Potest tamen haec immutatio multum
                     promoveri majori dilutione, praesertim actu calida.</p>
-                <p>Et haec sunt, Charissima capita, quae in tam controversa materia doctrina medica
+        <p>Et haec sunt, Charissima capita, quae in tam controversa materia doctrina medica
                     orthodoxae sociata nobis suppeditat. Scio equidem, quod nec vobis nec omnibus
                     Theologis et Canonistis sim placiturus. Sed in Provincia adeo ardua non
                     possibile est omnibus satisfacere, et confido in vestram benignitatem, qua meam
                     intentionem, quae vobiscum una est, dispicitis, ut scilicet pateat Via Veritatis
                     ad Vitam aeternam per eum, qui est Via, Veritas et Vita, et in Cujus ac Coelitum
                     honorem unice haec dixi.</p>
-            </div>
-
-        </body>
-    </text>
+      </div>
+    </body>
+  </text>
 </TEI>

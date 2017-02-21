@@ -1,105 +1,102 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="graser-g-historici">
-            <titleStmt>
-                <title>De historici studii amoenitate atque utilitate deque historicorum delectu, versio electronica</title>
-                <author key="graser01">
-                    <name xml:lang="dt">Graser, Giovanni Battista</name>
-                    <date precision="high">1718–1786</date>
-                </author>
-                <respStmt>
-                    <resp>Hanc versionem electronicam curavit</resp>
-                    <name>Clementina Marsico</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>transcribed from the printed text</edition>
-            </editionStmt>
-            <extent>66 paginae</extent>
-            
-            <publicationStmt>
-                <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
+  <teiHeader>
+    <fileDesc xml:id="graser-g-historici">
+      <titleStmt>
+        <title>De historici studii amoenitate atque utilitate deque historicorum delectu, versio electronica</title>
+        <author key="graser01">
+          <name xml:lang="dt">Graser, Giovanni Battista</name>
+          <date precision="high">1718–1786</date>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Clementina Marsico</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>66 paginae</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
         </p>
-            </publicationStmt>
-            
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <title>De historici studii amoenitate atque utilitate deque historicorum delectu</title>
-                        <imprint>
-                            <pubPlace>Innsbruck</pubPlace>
-                            <date when="1775">1775</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-                <bibl>TLMF, Dip. 420</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date when="1775">1775</date>
-            </creation>
-            <textClass>
-                <keywords scheme="time">
-                    <term>Von der Vertreibung der Jesuiten bis zur Revolution 1848</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>Geschichtsschreibung</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        
-        <revisionDesc>
-            <change>corrected teiHeader and body<date>2015-09-23</date>
-                <name>Johanna Luggin</name>
-            </change>
-        </revisionDesc>    
-    </teiHeader>
-    <text>
-        <body>
-            <div>
-            <head>
-          <persName>Ioannis Baptistae Graserii</persName> patrologiae professoris ordo praedicatorum ac Theresianae bibliothecae
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>De historici studii amoenitate atque utilitate deque historicorum delectu</title>
+            <imprint>
+              <pubPlace>Innsbruck</pubPlace>
+              <date when="1775">1775</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>TLMF, Dip. 420</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1775">1775</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Von der Vertreibung der Jesuiten bis zur Revolution 1848</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Geschichtsschreibung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>corrected teiHeader and body<date>2015-09-23</date>
+        <name>Johanna Luggin</name>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>
+          <persName>Ioannis Baptistae Graserii</persName>patrologiae professoris ordo praedicatorum ac Theresianae bibliothecae
                 praefecti caesarei regii, academiae Roboretanae socii de historici studii
                 amoenitate atque utilitate deque historicorum delectu dissertatio academica,
-                habita in lycaeo Oenipontano pridie kalendas frebruarias <date>1775</date>.</head>
-            </div>
-            <pb xml:id="F2"/>
-            <div>
-            <pb xml:id="F3"/>
+                habita in lycaeo Oenipontano pridie kalendas frebruarias<date>1775</date>.</head>
+      </div>
+      <pb xml:id="F2"/>
+      <div>
+        <pb xml:id="F3"/>
         <head>Illustrissimo amplissimoque viro Carolo Antonio de Martinis sacrae caes. reg. ap.
                 maiestatis a consiliis in academia Vindobonensi iur. nat. et institutionum
-                professori ordo praedicatorum <persName>Ioannis Baptista Graserius</persName> felicitatem.</head>
+                professori ordo praedicatorum<persName>Ioannis Baptista Graserius</persName>felicitatem.</head>
       </div>
-            <div>
-            <p>Annus vertitur iam septimus decimus, vir amplissime, ex quo primum et summam tuam
+      <div>
+        <p>Annus vertitur iam septimus decimus, vir amplissime, ex quo primum et summam tuam
                 eruditione, atque doctrinam, quam antea in scriptis tuis miratus eram, coram
-                agnoscere, et <pb xml:id="F4"/>singularem in eos, qui litteras amant, humanitatem, quam a
+                agnoscere, et<pb xml:id="F4"/>singularem in eos, qui litteras amant, humanitatem, quam a
                 plurimis celebratam audiveram, re ipsa experiri mihi contigit. Nec temporaria ea
                 fuit officiositas; nam ex eo tempore perpetuo tuo favore ita sum usus, ut quot a te
                 sim devinctus officiis, mens quidem nunquam oblivisci, sed facundia nunquam digna
                 possit oratione complecti. Satis sit dicere, benignitatem tuam vota mea longe
                 superasse. Quod enim ab alia atque alia cathedra translatus ascendendo creverim, tua
-                potissimum ope consilioque factum est; <pb xml:id="F5"/>qui pro ea, quam de me fovebas, opinione
+                potissimum ope consilioque factum est;<pb xml:id="F5"/>qui pro ea, quam de me fovebas, opinione
                 talem me in unaquaque sperasti futurum, qualem equidem cuperem, ab aliis cognitum
                 iudicari. Adde igitur, oro te, ad caetera, quae tibi debeo, plurima hoc etiam, ut
                 brevem hanc scriptionem illustri atque amplissimo tuo nomine decoratam edere mihi
                 liceat; ut benignitatis in me tuae hoc extet qualecumque monumnetum, quod aliquando
                 ostendat, in tuorum clientum numero me fuisse. Hoc quanti ego faciam, dicerem, si
-                sine laudum tuarum commemorationi fieri posset; <pb xml:id="F6"/>quae quum verissimae sint, male
+                sine laudum tuarum commemorationi fieri posset;<pb xml:id="F6"/>quae quum verissimae sint, male
                 in adulationis suspicionem vocaverunt. Dedicatoriae epistolae illas inserendo,
                 cuiusmodi ego monumenta in hac ipsa, quam tibi offero, scriptione parvi habenda
                 affirmo. Hoc melius iudicabunt posteri; quos hoc unum hisce ex litteris discere
                 volo, et te mihi patronum, et me apud te gratiosum fuisse. Vale et reipublicae ac
                 litterarum bono diu feliciterque vivito.</p>
-            <p>Oeniponte kalendas ianuarias <date>1779</date>.</p>
+        <p>Oeniponte kalendas ianuarias<date>1779</date>.</p>
       </div>
-            <div>
-                <pb xml:id="F7"/>
+      <div>
+        <pb xml:id="F7"/>
         <head>De studio historico dissertatio academica.</head>
       </div>
-            <div>
-            <p>De historici studii praestantia verba facturus, quod potisimmum argumenti eligerem,
+      <div>
+        <p>De historici studii praestantia verba facturus, quod potisimmum argumenti eligerem,
                 summa ipsa, ut fatear, rerum copia anceps haerebam. Undenam enim uberior orationis
                 seges, quam ex historia colligi potest, quae quot partes complectitur, quot numerat
                 scriptorum classes, quot aetates pingit, quot facta, quot illustres homines, tot ad
@@ -108,7 +105,7 @@
                 quum interea a militia, publicisque muneribus omnibus vacasset; quid ego, si cum eo
                 comparer, plane infans tam brevi tempore de universae historiae praestantia dignum
                 afferrem, quae tanto latius patet, quanto orbis universi spatium brevibus illam
-                limitibus <pb xml:id="F8"/>circumscriptam <placeName>Graeciae</placeName> partem superat? Quoniam tamen in hoc orationum
+                limitibus<pb xml:id="F8"/>circumscriptam<placeName>Graeciae</placeName>partem superat? Quoniam tamen in hoc orationum
                 genere id unum praecipue agitur, ut studiosa iuventus ad alacriter dandam litteris
                 operam alliciatur; homines autem nihil solet magis allicere, quam magna ostensa
                 utilitas, si multa sit praesertim cum voluptate coniuncta; historiae studium
@@ -127,7 +124,7 @@
                 virtutem, aut vitium non ostendunt solum, sed inspirant, penitusque infundunt. De
                 iucunditate igitur, atque utilitate historiae primum, deinde vero de historicorum in
                 genere delectu breviter dicenti patientem, quaeso, aurem commodate.</p>
-            <p>Atque ut ab illo incipiam, quod primum de iucunditate proposui, videte, quaeso, quam
+        <p>Atque ut ab illo incipiam, quod primum de iucunditate proposui, videte, quaeso, quam
                 provido ac sapienti naturae conditoris consilio factum sit, ut earum rerum maior
                 esset potiundi voluptas, quarum maior esset appetitio; earum autem et maior
                 appetitio, et communior esset, quas naturae ipsius necessitas, aut summa utilitas
@@ -137,7 +134,7 @@
                 cupiditas, quum futurorum, quae Dei solius est, scientia expleri nequeat, ad
                 praesentia omnia, ac praeterita inquirenda, et contemplanda convertitur, Et vero
                 cur, quaeso, secreta quadam dulcique invidia tangimur, quum quempiam audimus itinera
-                sua narrantem, qui mores <pb xml:id="F10"/>hominum multorum urbesque viderit, nisi quod non
+                sua narrantem, qui mores<pb xml:id="F10"/>hominum multorum urbesque viderit, nisi quod non
                 minimam in eo felicitatis partem ponimus? Atqui quod summo alii labore, longo
                 tempore, ac periculosis itineribus vix obtinent, ut aliquam orbis, in quo degimus,
                 partem perlustrent, id per quietem et otium securus domi sedens historiarum lector
@@ -149,17 +146,17 @@
                 omnium inventionem, ac progressus uno ferme intuitu cernat: heroas denique,
                 sapientes, et claros in quovis genere viros tantum non de facie noscat, eorumque
                 dictis, ac rebus gestis interfuisse, et cum iis versatus esse videatur. Satis sit
-                hoc dixisse, quod magni vir iudicii <persName>Plutarchus</persName> in eo libro, quem scripsit ad hanc
+                hoc dixisse, quod magni vir iudicii<persName>Plutarchus</persName>in eo libro, quem scripsit ad hanc
                 sententiam asserendam, non posse suaviter vivi secundum epicureos, quum vellet
                 ostendere, quanto corporeis praestent animorum voluptates, primum omnium iter
                 iudicanda studia, magisque oble<pb xml:id="F11"/>ctantia locum historiis dedit; quae quum multas,
                 inquit, habeant animum oblectantes tractationes, perpetuum veritatis studium nunquam
-                explent, nunqueam exsatiant voluptate. Et vere. Est enim, idem ait, <note place="margin">in Aemil.</note> convictui et conversationi similis res, quum apud nos ceu diversantem
+                explent, nunqueam exsatiant voluptate. Et vere. Est enim, idem ait,<note place="margin">in Aemil.</note>convictui et conversationi similis res, quum apud nos ceu diversantem
                 unumquemque procerum illorum historia duce, hospitio accipimus, acceptum
                 contemplamur, quantus sit, qualisque, ex omnibus maxime illustria, maximeque scitu
                 digna decerpentes. Quid per immortales aut iucundius, aut ad instaurandos more
                 efficacius esse potest?</p>
-            <p>Ut autem in sola interim studii huiusce voluntate consistamus, quis non illud quoque
+        <p>Ut autem in sola interim studii huiusce voluntate consistamus, quis non illud quoque
                 intelligit, quam iucundum sit, in nulla orbis regione peregrinum vivere: contra vero
                 quam insuave ac molestum homini accidat degere in eo loco, ubi neminem noscat, neque
                 quo se gerat modo, nec quibuscum versetur, neque cui fidat, statuere secum possit?
@@ -167,7 +164,7 @@
                 multitudinem. Atqui haec vera est utriusque vitae imago. Nam qui historiae ignarus
                 est, in mundo, atque in ipsa sua patria peregrinus vivit: qui vero mundum novit, cui
                 nationes omnes, earumque mores, artes, studia sunt perspecta, quocunque aut sponte
-                veniat <pb xml:id="F12"/>aut fortuna deferatur, non inter ignotos versabitur, sed populi
+                veniat<pb xml:id="F12"/>aut fortuna deferatur, non inter ignotos versabitur, sed populi
                 historiae notitiam, quasi veteris amicitiae, hospitiique tesseram ostendens, cito
                 non ut hospes, sed ut civis accipietur. Hoc unum profecto, si nullam secum
                 utilitatem affert (quam sane affert maximam) solam si animi voluptatem spectemus,
@@ -177,7 +174,7 @@
                 quod sit inter homines ac gentes societatis universale principium^ Societatem enim
                 omnem mutua primum notitia conciliari, esse hominem qui ignoret, arbitror
                 neminem.</p>
-            <p>At enim laboriosum est (inquit fortasse quispiam) tot libros legere, laboriosius
+        <p>At enim laboriosum est (inquit fortasse quispiam) tot libros legere, laboriosius
                 autem inter multas, saepe varias, saepe etiam inter se pugnantes narrationes a
                 falsis vera discernere. Quid inde? Ergo non iucundum historiae studium, non
                 voluptate plenum? Falsa conclusio. Nonne vides in physicis, quale sit gaudium per
@@ -188,9 +185,8 @@
                 testes in iudicio audire, eorum inter se pugnantia dicta conferre, hinc simultatis,
                 hunc gratiae, hunc ignorati negotii, hunc venalis calami reum convictum tenere, et
                 post multa saecula rem ita praesentem constituere valenat, ut quo se cumque
-                contradictor vertat, inficias ire non possit? Equidem non maiore exultasse laetitia
-                <persName>Archimedem</persName> arbitror, quando nudus e balneo prosiliit clamans: inveni veritatem.</p>
-            <p>Nec vero mihi obiiciatis, optimi, qui me auditis, adolescentes, philosophicam nimis,
+                contradictor vertat, inficias ire non possit? Equidem non maiore exultasse laetitia<persName>Archimedem</persName>arbitror, quando nudus e balneo prosiliit clamans: inveni veritatem.</p>
+        <p>Nec vero mihi obiiciatis, optimi, qui me auditis, adolescentes, philosophicam nimis,
                 ac seriam esse huiusmodi voluptatem, quamque ii soli gustare possint qui mente a
                 caeteris omnibus abstracta, in una semper sint veritatis inquisitione, et
                 contemplation defixi. Primo enim ridiculum esset, quasi vero a litteris ac studiis
@@ -201,15 +197,15 @@
                 spectacula exhibet. Sola philosophica, ac litteraria historia tot hominum ingenia,
                 variosque, quos passa sunt, manes vobis pinget, tot absurdas cogitationes, tot
                 scenas ridiculas,<note place="foot" xml:id="ftn1" n="1">
-            <p rend="footnote text"> Hoc
+            <p rend="footnote text">Hoc
                         in genere lepidi sunt Luciani dialogus, qui iscribitur Vitarum auctio,
                         Iosephi Bianchini liber de satyra italica, J. Burch. Menckenii declamatio de
                         Charlataneria eruditorum.</p>
-          </note> ut albis, quos aiunt, dentibus ridere
+          </note>ut albis, quos aiunt, dentibus ridere
                 possitis. Legite modo, nam exemplum nec priscum, nec recens afferre ullum in
                 praesenti vacat; sed legite, inquam: et me, si fallo, in ius coram amplissimo hoc
                 senatu convenite.</p>
-            <p>Sed quia sana philosophia utilitatis maiorem, quam voluptatis rationem habendam
+        <p>Sed quia sana philosophia utilitatis maiorem, quam voluptatis rationem habendam
                 praecipit; pauca haec de historiae amoenitate delibasse sufficiat, et breviter iam
                 illius utilitates enumerando potius, quam disserendo percurramus. Non enim brevis
                 orationis, sed iusti voluminis materia esset emolumentum ingens, quod ex omni
@@ -230,8 +226,7 @@
                 quorum antea fortasse corticem non penetra; idem ferme discirimini intercedet inter
                 eum, qui meras virtutum vitiorumque ideas abstractas a philosophis, quique illarum
                 veras vividasque imagines ab historicis repraesentatas acceperit. In his enim tota
-                illarum pulchritudo, horumque deformitas, et quid ex quo sequatur, manifesto <pb xml:id="F16"/>
-                conspicitur. Inde gloriae stimulus oritur ad imitanda praeclara maiorum facinora;
+                illarum pulchritudo, horumque deformitas, et quid ex quo sequatur, manifesto<pb xml:id="F16"/>conspicitur. Inde gloriae stimulus oritur ad imitanda praeclara maiorum facinora;
                 quum ex infinita propemodum hominum multitudine, qui ab orbe condito orti sunt atque
                 extincti, eos solos cernimus emersisse e turba, nomenque suum a mortis legibus
                 vindicasse, qui industria, laboribus, artibus, omnis denique virtutis studio
@@ -247,9 +242,9 @@
                 factorum vitiorumque notitia per totum orbem historicorum scriptis divulgata, quem
                 non absterreat ab iis flagitiis, quorum sola conscientia scelestos di<pb xml:id="F17"/>re torquet,
                 et quae sibimetipsis celare, si possent, quovis pretio cuperent?</p>
-            <p>Iam vero quoniam huma vita et consilio in rebus dubiis, et moderatione in prosperis,
+        <p>Iam vero quoniam huma vita et consilio in rebus dubiis, et moderatione in prosperis,
                 et solatio indiget in adversis; quis melius haec omnia praestat, quam historia? Si
-                enim verum est, quod ait <persName>Marcus Tullius</persName>, mentem, rationem, et consilium in senibus
+                enim verum est, quod ait<persName>Marcus Tullius</persName>, mentem, rationem, et consilium in senibus
                 esse, et eum semper esse puerum, qui nesciat, quid ante se natum acciderit; potest
                 quisquis praeteritarum rerum monumenta pervolvere voluerit, non aetate, sed
                 sapientia cito senex fieri, et iudicii maturitate provectiores anteire. Quum enim
@@ -263,35 +258,33 @@
                 vaga poetarum pictura, qui naturae ideam abstractam pin<pb xml:id="F18"/>gunt, non a fallacibus
                 physiognomorum ineptiis, sed in vivis verisque imaginibus, naturam, qualis revera
                 est, exhibentibus, vidit, penitusque perspexit.</p>
-            <p>Scio quidem, nec quisquam diffitetur, multum ad mundi hominumque notitiam acquirendam
+        <p>Scio quidem, nec quisquam diffitetur, multum ad mundi hominumque notitiam acquirendam
                 conferre peregrinationes: sed illud quoque negare nemo poterit, emolumenti aut
                 nihil, aut certe parum ex ea re percipi posse ab eo, qui nullis instructus
-                praenotionibus itinera suscipiat. Neque enim sine ratione <persName>Plato</persName> in sua Republica
+                praenotionibus itinera suscipiat. Neque enim sine ratione<persName>Plato</persName>in sua Republica
                 utilem eius duntaxat peregrinationem agnoscit, qui ad maturam aetatem pervenerit;
                 non quidem quod soli anni prudentem faciant hominem, sed quia multa excultus
                 doctrina, multa eruditus historiarum lectione existimatur. Qui enim sine hisce
                 comitibus orbem peragraverit, non multo doctior ac prudentior, quam currus et equi,
                 quibus vectus fuerit, a peregrinatione redibit. Equidem quovis deposito pignore
-                contendere ausim, plus augustissimum nostrum <persName>Caesarem</persName> in sua brevi per <placeName>Italiam</placeName>
-                excursione vidisse, ac notasse, quam quivis alius eam longo tempore perlustraverit.
+                contendere ausim, plus augustissimum nostrum<persName>Caesarem</persName>in sua brevi per<placeName>Italiam</placeName>excursione vidisse, ac notasse, quam quivis alius eam longo tempore perlustraverit.
                 Tantum interest, quibus oculis res intuearis, et quanam paratus rerum cognitione ad
                 exteros visendus exeas.</p>
-                <pb xml:id="F19"/>
+        <pb xml:id="F19"/>
         <p>Age vero, ut alia duo, quae proposuimus, levissime tangamus, quis in adversis
                 fortios erit, quam cui novum nihil accidat, qui tot constantiae ad fortitudinis
                 exempla spectaverit, qui tot rerum propemodum desperatarum felices exitus viderit?
-                Aut quis secundam fortunam seret moderatius, quam qui in <persName>Chraeso</persName>, in <persName>Cyro</persName>, in
-                <persName>Alexandro</persName>, in <persName>Caesare</persName>, aliisque sexcentis humanae felicitatis brevitatem, rerumque
+                Aut quis secundam fortunam seret moderatius, quam qui in<persName>Chraeso</persName>, in<persName>Cyro</persName>, in<persName>Alexandro</persName>, in<persName>Caesare</persName>, aliisque sexcentis humanae felicitatis brevitatem, rerumque
                 vicissitudinem, ac perpetuam volubilitatem fuerit contemplatus? Et haec quidem
                 singula, quantum ad privatae uniuscuiusque vitae modum ponendum, amplissima essent
                 ad disserendum argumenta.</p>
-            <p>Quod si historiam contemplemur comparate ad sapientem reipublicae administationem,
+        <p>Quod si historiam contemplemur comparate ad sapientem reipublicae administationem,
                 veramque politicen; tantum abest, ut longa oratione sit opus ad eius utilitatem
                 ostendendam, ut etiam sapientibus merito ridiculus fieret, qui multa de hoc verba
                 faceret. Quis enim ignorat, quantam in republica semper vim obtinuerit animorum
                 domina ac moderatrix eloquentia? Aut quis est, qui nesciat, eloquentiam veram non ex
                 inani verborum copia, sed ex philosophia atque eruditione progigni, quarum illa
-                rationes ad persuadendum, haec vero exempla ad rationes <pb xml:id="F20"/>ipsas confirmandas,
+                rationes ad persuadendum, haec vero exempla ad rationes<pb xml:id="F20"/>ipsas confirmandas,
                 animosque permovendos subministrat? Deinde gentium, regnorumque iura, aut veterum
                 morum, legum, consuetudinum notitia, ratio, ac vera intelligentia undenam, quaeso,
                 nisi ex historia repetenda sunt? Hinc merito eloquentia, et historiarum notitia duae
@@ -306,27 +299,26 @@
                 facta aemulando, et cum iis virtute, iustitia, prudentia, magnanimitate certando;
                 eorum omnium notitia, rerumque ab iis gestarum habere illos oporteat. Et haec quidem
                 ratio est, cur hanc adeo plenam sibi comparare soleant, ut nemini magis domus nota
-                sit sua. <pb xml:id="F21"/>Idem ferme dicendum de pupuratis, qui in consilium assumuntur, et
+                sit sua.<pb xml:id="F21"/>Idem ferme dicendum de pupuratis, qui in consilium assumuntur, et
                 quibus reipublicae pars aliqua administranda committitur. Nam si de civitatum
                 regundarum arte loquamur, deque vera ac falsa politica internoscenda; abeat, ac
                 valeat quisquis sine multa historiarum notitia, genericis quibusdam praeceptis satis
                 se instructum accedere putat ad publica negotia sapienter feliciterque tractanda.
                 Nihilo enim nelior erit hic politicus, quam ego essem medicus, si (quod cito fieri
-                potest) <persName>Hippocratis</persName> aphorismos memoriae mandavissem. In consiliis publicis
-                historiarum, et antiquitatis cognitio mirifice utilis est, ait <persName>Aristoteles</persName>: ast ego
-                affirmare non dubito, esse omnino necessariam. Si enim recte <persName>Tullius</persName> historiarum
+                potest)<persName>Hippocratis</persName>aphorismos memoriae mandavissem. In consiliis publicis
+                historiarum, et antiquitatis cognitio mirifice utilis est, ait<persName>Aristoteles</persName>: ast ego
+                affirmare non dubito, esse omnino necessariam. Si enim recte<persName>Tullius</persName>historiarum
                 ignaros pueris comparat; eritne senatus, qui ex huiusmodi hominibus sit compositus?
                 Vera politica ex historia discitur; in qua si quis attente oculos defixerit,
                 consilia inspexit, exitus spectaverit; inita rerum omnium ratione atque subducta,
                 intelliget, id ipsum, quod in mathematicis, etiam in moralibus, et in quovis
                 expediendo negotio pro certo axiomate poni debere, rectam scilicet lineam omnium
-                esse brevissimam; hoc est aequitatem, iustitiam, et finium, modorumque agendi
-                <pb xml:id="F22"/>rectitudinem totius verae politices basim ac fundamentum esse. Ostendunt enim
+                esse brevissimam; hoc est aequitatem, iustitiam, et finium, modorumque agendi<pb xml:id="F22"/>rectitudinem totius verae politices basim ac fundamentum esse. Ostendunt enim
                 innumeri rerum eventus verissimum prophetae regis effatum: dominus dissipat consilia
                 gentium; reprobat autem cogitationes populorum, et reprobat consilia principum;
                 scilicet quae mere humana consilia fuerint, et non a Deo, hoc est a veritate, et
                 aequitate perita.</p>
-            <p>Et quando huc iam devenimus, silentio minime praetereunda est ea, quam tertio loco
+        <p>Et quando huc iam devenimus, silentio minime praetereunda est ea, quam tertio loco
                 posuimus, maxima omnium historiae utilitas, quae in eo nimirum est posita, ut sicuti
                 caeterae scientiae omnes, ita ipsa quoque ad Deum agnoscendum nau ducat. Dicant
                 enim, aut blaterent quidquid in buccam venerit, recentiores quidam, non tam
@@ -336,24 +328,24 @@
                 mundum hunc aeternum non esse, sed initium, et quidem non antiquius, quam quod
                 sacrae paginae ostendant, habuisse. Quidquid enim de maiore vetustate fingitur, adeo
                 manifeste fabulosum est, ut irrisione potius quam confutatione dignum a doctis
-                agno<pb xml:id="F23"/>scatur. Quapropter merito <persName>Augustinus</persName> non loqui istos, aut ratiocinari, sed
+                agno<pb xml:id="F23"/>scatur. Quapropter merito<persName>Augustinus</persName>non loqui istos, aut ratiocinari, sed
                 vanissime garrire affirmat.<note place="foot" xml:id="ftn2" n="2">
-            <p rend="footnote text"> In margine: de civitate Dei, libro XVIII, capitulo
+            <p rend="footnote text">In margine: de civitate Dei, libro XVIII, capitulo
                     40.</p>
-          </note> Frustra, inquit, vanissima praesumptione garriunt quidam
-                dicentes, ex quo rationem syderum compraehendit <placeName>Aegyptus</placeName>, amplius quam centum
+          </note>Frustra, inquit, vanissima praesumptione garriunt quidam
+                dicentes, ex quo rationem syderum compraehendit<placeName>Aegyptus</placeName>, amplius quam centum
                 annorum millia numerari. In quibus enim libris istum numerum collegerunt, qui non
                 multum ante annorum duo millia litteras magistra Iside didicerunt? Non enim parvus
-                auctor est in historia <persName>Varro</persName>, qui hoc prodidit, quod a litterarum etiam divinarum
-                veritate non dissidet. Quum enim ab ipso primo homine, qui est appellatus <persName>Adam</persName>,
+                auctor est in historia<persName>Varro</persName>, qui hoc prodidit, quod a litterarum etiam divinarum
+                veritate non dissidet. Quum enim ab ipso primo homine, qui est appellatus<persName>Adam</persName>,
                 nondum sex millia annorum computentur; quomodo non isti ridendi potius, quam
                 refellendi sunt, qui de spatio temporis tam diversa, et huic exploratae veritati tam
                 contraria persuadere conantur? Maiorem adhuc antiquitatem iactavere chaldaei; qui ab
                 initio observatorum syderum quadringenta ac septuaginta annorum millia numerabant;
-                in quo, ut ait <persName>Lactantius</persName>, se quia posse argui non putabant, liberum sibi
+                in quo, ut ait<persName>Lactantius</persName>, se quia posse argui non putabant, liberum sibi
                 crediderunt esse mentiri;<note place="foot" xml:id="ftn3" n="3">
-            <p rend="footnote text"> In margine: libro VII, capitulo 14.</p>
-          </note> quos
+            <p rend="footnote text">In margine: libro VII, capitulo 14.</p>
+          </note>quos
                 Bruckerus in sua historia philosophica merito ridendos dicit. Hoc ipsa loquitur
                 mundi facies, quae recentis fabricae indicia multa ostendit, ut bene genuensis
                 sapienterque considerat. Hoc testantur gentium populorumque origi<pb xml:id="F24"/>nes, quarum
@@ -361,10 +353,10 @@
                 profecto vetustiores omnes omnium gentium codices, aut memorias, si quae ubivis
                 extitissent, destruere non poterat ad historiae suae fidem conciliandam. Hoc clamant
                 artium scientiarumque inventiones, quarum omnium tempora designantur,<note place="foot" xml:id="ftn4" n="4">
-            <p rend="footnote text"> Vid. Plinius libro 7, capitulo
+            <p rend="footnote text">Vid. Plinius libro 7, capitulo
                         56. Guid. Pancirol. rer. deperditar. et recens inventar. Polydor. Virgilius
                         de rer. inventoribus.</p>
-          </note> et quarum tam sei ortus ratio nulla
+          </note>et quarum tam sei ortus ratio nulla
                 probabilis reddi posset, si quidem maior esset humani generis, atque huius orbis
                 antiquitas. Nam quod effutiant, memorias vetustiores bellis, incendiis, ruinis,
                 aliisque vicissitudinibus esse deletas, hoc totum nihil est. Pereuntibus enim
@@ -379,7 +371,7 @@
                 antiquitate, ratio, iterum aio, probabilis ulla unquam reddi poterit. Deinde vero,
                 quomodo hoc deglutiemus, omnes antiquiores libros ac monumenta vel temporis, vel
                 hominum iniuria esse consumpta, silam Moysis historiam tot millibus superstitem esse
-                relictam? Hebraeorum populus in <placeName>Aegypto</placeName> precarius hospes, in deserto peregrinus, in
+                relictam? Hebraeorum populus in<placeName>Aegypto</placeName>precarius hospes, in deserto peregrinus, in
                 terra acquisita bellis saepissime exercitus, toties suis eiectus sedibus, toties in
                 servitutem redactus, ad cuius internecionem gentes omnes quasi ex condicto
                 allaborabant, monumentum huius codicis conservat incolume: caeterarum omnium gentium
@@ -394,29 +386,28 @@
                 regentem, fortiterque simul ac suaviter ad certos omnia fines deducentem agnoscat,
                 adoretque; hunc non modo non philosophum, sed nec sanum quidem hominem
                 habebimus.</p>
-            <p>Hactenus brevissime historici studii amoenitates, atque utilitates praecipuas
+        <p>Hactenus brevissime historici studii amoenitates, atque utilitates praecipuas
                 enumeravimus potius, quam descripsimus: sed quia non omnes ex omnibus scriptoribus
                 percipi possunt, pauca nunc generatim de eorum delectu adiicienda sunt. Non enim tam
                 feliciter cum rebus humanis agitur, ut pura veritas, et solida eruditio ubique
                 reperiatur; immo vero quemadmodum de philosophica, caeterarumque scientiarum
-                bibliotheca, ita de historica idipsum dici posse videtur, quod de suis versiculis
-                <persName>Martialis</persName> aiebat:</p>
+                bibliotheca, ita de historica idipsum dici posse videtur, quod de suis versiculis<persName>Martialis</persName>aiebat:</p>
       </div>
-            <div>
+      <div>
         <lg>
-            <l>triginta toto mala sunt epigrammata libro:</l>
-            <l>si totidem bona sunt, Lause, liber</l>
-            <l>bonus est.</l>
+          <l>triginta toto mala sunt epigrammata libro:</l>
+          <l>si totidem bona sunt, Lause, liber</l>
+          <l>bonus est.</l>
         </lg>
       </div>
-            <div>
-            <p>Verum quidem est, nullum esse tam malum auctorem, unde fructus aliquis legendo
+      <div>
+        <p>Verum quidem est, nullum esse tam malum auctorem, unde fructus aliquis legendo
                 percipi non possit: at non tamen om<pb xml:id="F27"/>nibus hoc promittitur, sed iis duntaxat, qui
                 cribro uti sciant, hoc est acuto solidoque iudicio a malis bona secernere.
                 Quapropter quum non solum scriptores inter se differant, sed eiusdem saepe
                 scriptoris non omnes merces aeque probae sint, sollertia in iis deligendis adhibenda
                 est.</p>
-            <p>Sed ad delectum iudicium requiritur; iudicium autem a certo quodam debet principio
+        <p>Sed ad delectum iudicium requiritur; iudicium autem a certo quodam debet principio
                 proficisci. Ecquod ergo illud est, aut unde deducetur? Brevis est in re nostra ad
                 quaestionem responsio; at non tam facilis explicatu, si materia, quanta se offert,
                 tota exhaurienda sit. Brevissime igitur: ii sunt meliores, aliisque praeferendi
@@ -425,9 +416,9 @@
                 vituperatione narratio, quae magnarum reum consilia, actiones, exitus, regumque, ac
                 magnorum virorum actus, cum temporum, ac locorum ordine ac descriptione, tanquam
                 viva quadam pictura ante oculos exponit. Ex qua propria illius natura pulcherrimam
-                illam descriptionem <persName>Marcus Tullius</persName> deduxit, historia est testis temporum, lux
+                illam descriptionem<persName>Marcus Tullius</persName>deduxit, historia est testis temporum, lux
                 veritatis, vita memoriae, magistra vitae, nuncia vetustatis. Melior ergo erit
-                historicus, qui plenius omnia expleverit, quae <pb xml:id="F28"/>in allata definitione
+                historicus, qui plenius omnia expleverit, quae<pb xml:id="F28"/>in allata definitione
                 continentur; sed duo hic nos praecipue spectabimus officia, testis nempe rerum, ac
                 vitae magistri, quorum utrumque summam fidem postulat, summamque peritiam. Quatenus
                 ergo testis est, animo debet esse sincero, ac libero, omnique affectu ac praeiudicio
@@ -439,7 +430,7 @@
                 viderunt os sublinedi populom et pecuniam aeruscandi ludificatorum artificium. Non
                 omnes omnium rerum idonei sunt testes; aliud est enim rerum cortice, aliud res ipsas
                 intueri, ac cernere. De Aquilaiensi dissidio, quod Histriae episcopos a romana
-                ecclesia saeculo VI dividebat, ita scipsit <persName>Paulus Diaconus</persName>, ut veritatem habeas, si
+                ecclesia saeculo VI dividebat, ita scipsit<persName>Paulus Diaconus</persName>, ut veritatem habeas, si
                 rem inverso plane modo accipias; versa enim vice devios illos habet, qui rectum
                 sequebantur. Scripsit ergo non quod res erat, sed quod historiae ignarum eum
                 ostenderet, Quam multa por<pb xml:id="F29"/>ro de prodigiis quibusdam magicis, de strigum
@@ -453,45 +444,45 @@
                 phantasiae morbo contagi similius, et quod Itali in proverbio habent, stultus unus
                 centum alios facit. Immo eo res devenire solet, ut ametur illusio, mentisque
                 delirium, adeo plane ut aegre ferant homines, si quis eos ab iucundo errore deducat,
-                nec secus atque ille apud <persName>Horatium</persName> clament: pol me occidistis amici! Si vero
+                nec secus atque ille apud<persName>Horatium</persName>clament: pol me occidistis amici! Si vero
                 fabulae, aut antiquae vulgares traditiones in alicuius gentis, aut civitatis gloriam
                 cedant; vae illi, qui certis prolatis ex antiquitate documentis, et re prudenter ad
                 trutinam vocata, popularem gratissimum errorem animis conetur evellere. Tunc enim
                 vero apparebit, quan<pb xml:id="F30"/>tum vulgi sit non in populo solum sed inter eos, qui
                 litterati audiunt. Insurgent contra, perinde ac si de aris focisque res esset, nec
                 minori hoc ei dabunt crimini, quam si patrem occidisset, aut sana compilasset; quum
-                tamen nulla alia reprehensione dignus revera sit, quam illa <persName>Luciani</persName>: quid oportebat
+                tamen nulla alia reprehensione dignus revera sit, quam illa<persName>Luciani</persName>: quid oportebat
                 hunc unum inter tot insanientes sanum esse? Exempla afferre si luberet, non essent
                 ab antiquitate repetenda.</p>
-            <p>Non absimilem ludum ludit in hominibus quivis affectus res multifariam pingens.
+        <p>Non absimilem ludum ludit in hominibus quivis affectus res multifariam pingens.
                 Quories enim audimus idem factum, quod plures habuerit spectatores, ab aliis quidem
                 laudibus in coelum, velut heroicum tolli, ab aliis vero atro colore pingi, aut velut
-                ineptum derideri? Sic perdifficile, ait optime <persName>Plutarchus</persName>, valdeque laboriosum
+                ineptum derideri? Sic perdifficile, ait optime<persName>Plutarchus</persName>, valdeque laboriosum
                 videtur veritatem ipsam historia consequi, quandoquidem et posteris ex antiquitatis
                 memoria reum cognitio repetenda est, et hi, quibus contigit praesentibus res ipsas
                 gestas intueri, partim odio et invidia, partim gratia et assentatione veritatem
                 corrumpunt ac pervertunt. Non est ergo mirum, si quem legamus ab aliis scelestus,
-                meritoque affectus supplicio narratur. Forte ne hi, ne illi <pb xml:id="F31"/>rem tenent, et
+                meritoque affectus supplicio narratur. Forte ne hi, ne illi<pb xml:id="F31"/>rem tenent, et
                 hominem sub religionis specie fanaticum aliis odium, aliis amor adeo varium
                 exhibuit. Huiusmodi in historiis separanda sunt primum certa a dubiis: accipiendum
                 est factum, caussae bero interea sub iudice relinquendae; nec ante de his ferendum
                 iudicium, quam lectis, et secum invicem collatis, quae undique afferuntur, quaeque
                 dies prodiderit, tot pro parte alterutra veritatis indicia collecta sint, quae vel
                 certum iudicium, vel opinionem satis probabilme pariant. Nam re adhuc recenti,
-                scinditur incertum studia in contraria vulgus; quare optime monet <persName>Persius</persName>:</p>
+                scinditur incertum studia in contraria vulgus; quare optime monet<persName>Persius</persName>:</p>
       </div>
-            <div>
+      <div>
         <lg>
-            <l>Non si quid turbida Roma</l>
-            <l>Elevet, accedas, examenque improbum in illa</l>
-            <l>Castiges trutina.</l>
+          <l>Non si quid turbida Roma</l>
+          <l>Elevet, accedas, examenque improbum in illa</l>
+          <l>Castiges trutina.</l>
         </lg>
       </div>
-            <div>
-            <p>Neque tamen propterea universalem in historia pyrrhonismum probamus, aut omnem
+      <div>
+        <p>Neque tamen propterea universalem in historia pyrrhonismum probamus, aut omnem
                 prorsus humanam, fidem reiiciendam, omniumque testimonia explodenda concludimus.
-                Minime gentium; nam optime <persName>Phaedrus</persName> monet, periculosum esse non solum credere, sed
-                et non credere. Quapropter quod ait <persName>Cornelius Agrippa</persName>: tam inter se dissentiunt
+                Minime gentium; nam optime<persName>Phaedrus</persName>monet, periculosum esse non solum credere, sed
+                et non credere. Quapropter quod ait<persName>Cornelius Agrippa</persName>: tam inter se dissentiunt
                 historici, tam varia et diversa de eisdem tradunt, ut impossibile sit, pluri<pb xml:id="F32"/>mos
                 illorum non esse mendacissimos, si quis ita dictum accipiat, ut ad cautos reddendos
                 historum lectores scriptum esse intelligat: et sapit, et mecum facit, er Iove
@@ -503,8 +494,7 @@
                 admixtum fit, doceatque quisquilias, ac probas merces internoscere. Non igitur
                 aliter quam per ironiam dictum intelligendum est etiam illud Senecae de historico
                 Esphoro: nec magna molitione detrahenda est auctoritas Ephoro: historico est, quasi
-                vero idem sonaret, ac vanus, aut mendax; itemque illud in Claudii Caesaris
-                <foreign xml:lang="gr">χολοχητωσι</foreign>: quid unquam ab historico iurato res exegit? Notant enim haec abusum iam
+                vero idem sonaret, ac vanus, aut mendax; itemque illud in Claudii Caesaris<foreign xml:lang="gr">χολοχητωσι</foreign>: quid unquam ab historico iurato res exegit? Notant enim haec abusum iam
                 quasi consuetudine praescriptum aliquid fingendi. Caeterum historica fide narrare
                 aliquid, apud veteres idem valuit, ac bona romanaque fide; quod enim est huma<pb xml:id="F33"/>no
                 corpori anima, hoc est historiae veritas. Haec igitur duo duntaxat ex antea positis
@@ -513,7 +503,7 @@
                 improbum, nec imperitum de turba hominem, sed eximiae probitatis, et emunctae naris
                 virum esse oportere. Quippe ad veritatem rerum, prout se habent, exponendam non id
                 solum requiritur, ut quis velit, sed etiam ut possit.</p>
-            <p>Seclusis autem praeiudiciis, atque affectibus, possunt ii melius veritatem
+        <p>Seclusis autem praeiudiciis, atque affectibus, possunt ii melius veritatem
                 patefacere, qui propius res agnoscunt. Quare ii primo loco veniunt, ac caeteris
                 anteponendi sunt, qui res narrant sua aetate gestas, quique earum caussas, cum
                 adiunctis omnibus ita exponunt, ut omnia sibi constent, nec ulla falsa temporis
@@ -521,7 +511,7 @@
                 falsitate convictus amittit fidem, ita multo magis historicus, si pro historiis
                 fabulas tradere deprehendatur. Unus ex hisce exempli gratia est Abdias Babylonis, ut
                 se vocat, episcopis, ab apostolis, si diis placet, initiatus, in faculosa historia,
-                quam de apostolorum pugna inscripsit. Iactata enim se Christum dominum <pb xml:id="F34"/>vidisse,
+                quam de apostolorum pugna inscripsit. Iactata enim se Christum dominum<pb xml:id="F34"/>vidisse,
                 et in duorum ac septuaginta. Discipulorum numerum ab eo relatum esse, tum Simonis ac
                 Iudae comitem itineris in Persidem fuisse, quum interea citet Egesippum, qui
                 triginta annis post Christi ascensionem vixit, immo etiam Iulium africanum, duobus
@@ -536,7 +526,7 @@
                 propositum quatuor evangelicae historiae sacris scriptoribus vitam, doctrinam,
                 miracula, ac mortem Christi domini describere. Sed quum tot essent ab eo prodigiose
                 facta, ut ingentes codices non ea caperent; satis habuit unusquisque summa doctrinae
-                capita exponere, passionem, mortem, ac resurrectionem: miracula vero, <pb xml:id="F35"/>et facta
+                capita exponere, passionem, mortem, ac resurrectionem: miracula vero,<pb xml:id="F35"/>et facta
                 quaedam singularia non omnes aeque minutim omnia, sed singuli ex parte aliqua,
                 quantum satis esset ad Deum hominem ostendendum, describenda suscepere. Tunc igitur
                 solum negantis argumenti, sive a silentio ducti magna vis est, quando aliquid
@@ -547,64 +537,61 @@
                 historicis relata collegerunt; quae tanto maior est, quanto meliores fontes, unde
                 illa hauserint, et quo sollertiore cura, atque acutiore iudicio in iis eligendis usi
                 fuerint.</p>
-            <p>At non satis est sola praesentia, aut temporis propinquitas, animusque non stupidus,
+        <p>At non satis est sola praesentia, aut temporis propinquitas, animusque non stupidus,
                 ut vera rerum historia scribi possit. Quapropter ad ea, quae de affectuum magna vi
                 paullo ante diximus, pauca hoc loco de illorum originibus, sive caussis addenda
                 sunt, ne locum amplissimum nimis leviter attigisse videamur. Natio ergo, religio,
                 fortunae status, schola, inimicitia, aut favor in caussa saepe sunt, cur non bene
-                historicus suo fungatur officio. Atque ut cursim singula <pb xml:id="F36"/>tangamus, quis nescit
+                historicus suo fungatur officio. Atque ut cursim singula<pb xml:id="F36"/>tangamus, quis nescit
                 Graecam nationem levem ac fabulosam, quum se primam rerum omnium facit, quum omnium
                 vetustiorum facta, atque inventa ad se rapit, quum de veris aliorum historiis
-                fabellas consuit, quibus suos ornet heroas, minime audiri? Neque maior <persName>Iosepho</persName>, ac
-                Philoni hebraeis, scriptoribus licet gravibus, habetur fides quum ex <persName>Abrahamo</persName>
-                patriarcha totam philosophiam platonicam colligunt, quo genti suae scientiarum
-                omnium originis gloriam arrogent. <persName>Iustinus</persName> porro, aliique gentiles, quum hebraeorum
+                fabellas consuit, quibus suos ornet heroas, minime audiri? Neque maior<persName>Iosepho</persName>, ac
+                Philoni hebraeis, scriptoribus licet gravibus, habetur fides quum ex<persName>Abrahamo</persName>patriarcha totam philosophiam platonicam colligunt, quo genti suae scientiarum
+                omnium originis gloriam arrogent.<persName>Iustinus</persName>porro, aliique gentiles, quum hebraeorum
                 populi describunt originem ac religionem, quum res et prodigia per Moysen patrata
                 insulsis fabellis deformant; non ex scientia ac fide, sed ex inscitia simul ac
                 nationis odio scripsisse intelliguntur. In universum autem hoc habent homines, ut
                 gentem extollat quisque suam; nam sua unicuique pulchriora sunt, et amor patriae,
                 qui nunquam, nisi cum cute exuitur, etiam prudentibus et cordatis imponit. Cuius rei
-                exemplum habemus in <persName>Plutarcho</persName>, ingenuo alioqui, ac olidi iudicii viro, hoc tantum
+                exemplum habemus in<persName>Plutarcho</persName>, ingenuo alioqui, ac olidi iudicii viro, hoc tantum
                 nomine a criticis notato, nec immerito, quod graecis suis nimium faveat. Sed quid
                 ego semper antiqua commemoro, quum recentiora afferri possint? Non ignorabat, nec
                 ignorare poterat vir eruditus Hia<pb xml:id="F37"/>cynthus Gimma, Annianas Berosi antiquitates
                 meram imposturam a doctis merito haberi. Nec ille quidem eas omnino recipit, sed nec
-                tamen penitus reiicit, et in sua historia litteraria ad commendandam <placeName>Italiae</placeName>
-                antiquitatem locum habere sinit; multaque ex illis colligit, quae, conrasis undique
+                tamen penitus reiicit, et in sua historia litteraria ad commendandam<placeName>Italiae</placeName>antiquitatem locum habere sinit; multaque ex illis colligit, quae, conrasis undique
                 scriptorum quorumcunque opinionibus, probabilitatis specie saltem aliqua colorare
                 conatur. Ait enim, Alphonsum de Viliegas Berosi auctoritate nixum scripsisse Noachum
-                in <placeName>Italia</placeName> obiisse; et addit, in chronico fidelis Onuphrii haberi, in Viterbiensi
+                in<placeName>Italia</placeName>obiisse; et addit, in chronico fidelis Onuphrii haberi, in Viterbiensi
                 urbe a Japheto condita locum esse, quod Noachi sepulchrum appellatur. At nos non
                 quaerimus, quid hic, aut ille ex opinione, ex coniextura, ex Anniano Beroso, aut ex
                 vulgi traditione scripserit: quaerimus, quid tu sentias, ac pro vero vendites.
                 Nolite quaerere. Ne oboli quidem sponsione quidquam affirmasset, nam et ipse dubiae
                 fidei pleraque agnoscit; sed hae fabellae pulchriores erant, quam ut patriae amor
                 gloriae silentio obvolvi pateretur.</p>
-            <p>Hinc obiter colligi potest, quid de iis sentiendum sit, qui vitam suam, suaque facta
+        <p>Hinc obiter colligi potest, quid de iis sentiendum sit, qui vitam suam, suaque facta
                 describunt; sacris tamen scriptoribus, et sanctis quibusdam viris semper exceptis.
-                Quid facturus fuisset <persName>Marcus Tullius</persName>, si res suas <pb xml:id="F38"/>gestas absoluta historia
-                comprehendisset, satis ostendere videtur epistola ad <persName>Lucceium</persName>, qua rogabat illum, ut
+                Quid facturus fuisset<persName>Marcus Tullius</persName>, si res suas<pb xml:id="F38"/>gestas absoluta historia
+                comprehendisset, satis ostendere videtur epistola ad<persName>Lucceium</persName>, qua rogabat illum, ut
                 eam historiam scriberet. Itaque te plane, inquit, etiam atque etiam rogo, ut et
                 ornes ea vehementius etiam, quam fortasse sentis, et in eo leges historiae negligas
                 - - - amorique nostro plusculum etiam, quam concedit veritas largiare. Ingeniose
                 quidem Midletonius purgare ipsum nititur hisce verbis: quid non videt dictum hoc
                 esse in hypothesi absurda et improbabili, quod Lucceio Ciceronis res gestae non per
                 se satis laudabiles viderentur? Verum, ut dicam, quod et mihi videtur, fortasse hoc
-                ita <persName>Cicero</persName> scripsit, modestiam quandam callidissime affectando, quasi fateretur res
+                ita<persName>Cicero</persName>scripsit, modestiam quandam callidissime affectando, quasi fateretur res
                 a se gestas non satis per se splendere posse, nisi accedente orationis ornatu, et
                 amplificatione; simulque miro, quo pollebat, artificio occupatione utitur, gloriae
                 scilicet cupiditatem adeo magnam prae se ferens, ut simulata potius, quam vera
                 videretur, ac proinde non serio, sed ioco hoc petere existimaretur. Nam proprias
                 extenuare virtutes, vitia vero nimium exaggerare ii simulata modestia solent, qui
                 alios contra sentire cupiunt, atque ipsi loquuntur.</p>
-            <p>Quod si vero nationes hostes inter se fiant, quidquid ea praesertim tempestate ab
-                <pb xml:id="F39"/>altera de altera scribitur, magna falsitatis, aut deformatae veritatis
+        <p>Quod si vero nationes hostes inter se fiant, quidquid ea praesertim tempestate ab<pb xml:id="F39"/>altera de altera scribitur, magna falsitatis, aut deformatae veritatis
                 suspicione laborare necesse est. Quum autem nulla saeviora sint odia, quam quae
                 religionis cuassa, vel obtentu nascuntur, sperabimusne humanam fidem apud illos
                 sanctam, et integram fore, qui divinam pessundatum audacter eunt? Ioannis Sleidani
                 historia de statu religionis ac reipublicae Carolo V caesare, si illos audiamus, qui
                 ab ecclesia catholica altero abhinc saeculo abalientati sunt, nihil candidius aut
-                sincerius est, ut non eorum modo <persName>Livius</persName>, sed quintus tantum non evangelista sit.
+                sincerius est, ut non eorum modo<persName>Livius</persName>, sed quintus tantum non evangelista sit.
                 Interea si partem alteram audiamus, mendacissimus habetur, adeo ut Latomus
                 contenderit evincere undecies mille falsitatibus opus illud inquinatum esse. Rursum
                 si Matthiae Berneggero credimus, hoc de Sleidani narrationibus Carolus V caesar
@@ -613,7 +600,7 @@
                 veritatemque commendans. At si Petro Meimburgo fides est, quoties gloriosissimus
                 ille imperator Sleidanum vellet legere, non aliter eum poscebat librum, quam hisce
                 verbis: cedo mihi meum mendacem. Fortasse utrumque credi potest. Non enim miraculum
-                est, secreta <pb xml:id="F40"/>principum evulgari, et reconditam aliquam notitam posse ex
+                est, secreta<pb xml:id="F40"/>principum evulgari, et reconditam aliquam notitam posse ex
                 tabulariis ad historicos pervenire: sed et illud certum est, idem factum, iisdem ex
                 documentis erutum, mille posse modis pingi, et colorari. Illud extra omne dubium
                 est, ubi partium studia exarserint, nullum esse tam putidum mendacium, quod ii,
@@ -622,72 +609,70 @@
                 vel novaculas arripit. Quid putidius, atque ineptius fabella illa de Ioanna papissa,
                 quam nunc ipsi a communione nostra alieni viri docti exsibilant? Atqui tempus fuit,
                 quum quidam pudori sibi non ducerent pro historia afferre, ut catholicae ecclesiae
-                probro verterent. </p>
-            <p>Qua fortuna porro usus fuerit historicus, multum ad fidem adhibendam, aut detrahendam
+                probro verterent.</p>
+        <p>Qua fortuna porro usus fuerit historicus, multum ad fidem adhibendam, aut detrahendam
                 momenti habere, nemo non videt, qui sciat, non esse hominum dicta fortunis absona,
-                et ex abundantia cordis os loqui. Quod igitur ait in re poetica <persName>Horatius</persName>:</p>
+                et ex abundantia cordis os loqui. Quod igitur ait in re poetica<persName>Horatius</persName>:</p>
       </div>
-            <div>
+      <div>
         <lg>
-            <l>Nolito ad versus tibi factos ducere plenum</l>
-            <l>Laetitiae, clamabit enim pulchre, bene, recte,</l>
+          <l>Nolito ad versus tibi factos ducere plenum</l>
+          <l>Laetitiae, clamabit enim pulchre, bene, recte,</l>
         </lg>
       </div>
-            <div>
-            <p>etiam in historicos quadrare optime potest, qui vel pretio conducti scribunt, vel
-                quod <pb xml:id="F41"/>offa eloquentes in laudando facit. Qui enim tenuis homo fortunae fuerit,
+      <div>
+        <p>etiam in historicos quadrare optime potest, qui vel pretio conducti scribunt, vel
+                quod<pb xml:id="F41"/>offa eloquentes in laudando facit. Qui enim tenuis homo fortunae fuerit,
                 quive scriptitando vixerit, principum virorum gratiam captans, ac munera aeruscans,
-                calamum venalem habet. Hac labe inquinatus notatur <persName>Paulus Iovius</persName>, ciuis historiae,
+                calamum venalem habet. Hac labe inquinatus notatur<persName>Paulus Iovius</persName>, ciuis historiae,
                 hominumque elogia ideo nihil a doctis fiunt, quod non tam veritati, quam tempori,
                 rationibusque suis scripta eum constet accomodavisse. Unde mortuo falsum illud
                 epitaphium fictum est, quod ita latine reddi potest:</p>
       </div>
-            <div>
+      <div>
         <lg>
-            <l>hic tumulus <persName>Paulum Iovium</persName> tegit hermaphroditum,</l>
-            <l>uxorem ad libitum qui se dedit, atque maritum.</l>
+          <l>hic tumulus<persName>Paulum Iovium</persName>tegit hermaphroditum,</l>
+          <l>uxorem ad libitum qui se dedit, atque maritum.</l>
         </lg>
       </div>
-            <div>
-            <p>Ad eandem metam, sed alia plerumque via tetendit <persName>Petrus Aretinus</persName>, cynicus
+      <div>
+        <p>Ad eandem metam, sed alia plerumque via tetendit<persName>Petrus Aretinus</persName>, cynicus
                 mordacissimus, cuius ventrem implebant viri principes, nec a cane illo in suis
                 scriptis morderentur; tanto laudabiliores illi, quod sui gloriam nominis magni
                 facerent, quanto ille petulantior, qui omnibus allatraba. Verberatus et ille quidem,
                 et iis concisus maledictis, eaque adspersus infamia, qua homo aliqua pudoris parte
                 praeditus ad restim adigeretur: sed pecuniae, ventrisque mancipium ita sibi similis
-                semper fuit, ut huius quoque defuncti epitaphium (cuius auctor <persName>Franciscus Maynardus</persName>
-                creditur) non qui<pb xml:id="F42"/>dem sepulchro inscriptum, sed fama ubique vulgatam, typisque
+                semper fuit, ut huius quoque defuncti epitaphium (cuius auctor<persName>Franciscus Maynardus</persName>creditur) non qui<pb xml:id="F42"/>dem sepulchro inscriptum, sed fama ubique vulgatam, typisque
                 excusum omnium consensione probetur.</p>
       </div>
-            <div>
+      <div>
         <lg>
-            <l>Condit Aretini cineres lapis iste sepultos,</l>
-            <l>Mortales atro qui sale perfricuit.</l>
-            <l>Intactus Deus et illi, caussamque rogatus,</l>
+          <l>Condit Aretini cineres lapis iste sepultos,</l>
+          <l>Mortales atro qui sale perfricuit.</l>
+          <l>Intactus Deus et illi, caussamque rogatus,</l>
         </lg>
       </div>
-            <div>
-            <p>Hanc dedit. Ille, inquit, non mihi notus erat.<note place="foot" xml:id="ftn5" n="5">
-            <p rend="footnote text"> Similis, immo eiusdem sententiam aliud illud est,
+      <div>
+        <p>Hanc dedit. Ille, inquit, non mihi notus erat.<note place="foot" xml:id="ftn5" n="5">
+            <p rend="footnote text">Similis, immo eiusdem sententiam aliud illud est,
                         quod affert Popeblount in censur. celebrior. auctor. p. 455:</p>
             <l rend="footnote text">amarus iace hic, viator, hostis</l>
             <l rend="footnote text">vivorum simul, atque mortuorum.</l>
             <l rend="footnote text">Dis convicia nulla dixit. Et se</l>
             <l rend="footnote text">Excusans, sibi cognitos negavit.</l>
-            <p rend="footnote text">Sed erronee et male <persName>Leonardo Aretino</persName> aptatur, qui longe
-                        alius fuit, et alter cum altero ibi cofusus est. Vid. <persName>Petri Aretini</persName> vitam a
-                        <persName>Cl. Mazzucchello</persName> scripta, et <placeName>Patavii</placeName> editam per Ios. Cominum <date>1741</date>, pag. 81
+            <p rend="footnote text">Sed erronee et male<persName>Leonardo Aretino</persName>aptatur, qui longe
+                        alius fuit, et alter cum altero ibi cofusus est. Vid.<persName>Petri Aretini</persName>vitam a<persName>Cl. Mazzucchello</persName>scripta, et<placeName>Patavii</placeName>editam per Ios. Cominum<date>1741</date>, pag. 81
                         seq., ubi in hanc sententiam plures aliae inscriptiones latinae, italicae,
                         gallicae, referuntur.</p>
           </note>
         </p>
-            <p>Scholae quoque dogmata historicum vel bonum, vel malum possunt facere. Et primo
+        <p>Scholae quoque dogmata historicum vel bonum, vel malum possunt facere. Et primo
                 quidem tantum interest, quam bonus sit philosophus, quantum discriminis est inter
-                artem historicam et poeticam. Quapropter <persName>Dionysius Alicarnassaeus</persName> non veram profecto
-                videtur doctrinam tradidisse, quum in suo de <persName>Thucydide</persName> iudicio docuit, id
+                artem historicam et poeticam. Quapropter<persName>Dionysius Alicarnassaeus</persName>non veram profecto
+                videtur doctrinam tradidisse, quum in suo de<persName>Thucydide</persName>iudicio docuit, id
                 prae<pb xml:id="F43"/>cipuum esse historici officium, et in eo summam curam esse ponendam, ut
                 argumentum historiae eligat pulchrum, ac iucundum, quodque lectoris animum voluptate
-                afficiat. Quo principio posito <persName>Thucydidem</persName> arguit, quod nimirum unum tantummodo
+                afficiat. Quo principio posito<persName>Thucydidem</persName>arguit, quod nimirum unum tantummodo
                 bellum scriptura persequitur, et id neque honestum, neque fortunatum, et quod
                 nunquam geri oportuit; quasi vero historia vitae magistra non aeque bene, aut etiam
                 melius doceret mortales, narrando res infeliciter gestas, malosque ostendendo
@@ -700,36 +685,36 @@
                 iisque adeptis gaudere, quod sua sponte faciunt; sed qui modum ostendat pericula
                 cavendi, vel adversa vincendi. Non igitur officium historicum bene intelligit, qui
                 honestum duntaxat, et fortunatum bellum litteris manda<pb xml:id="F44"/>ndum existimat. Ea enim
-                est praecipua historiae utilitas, quam ex eodem <persName>Thucydide</persName> <persName>Lucianus</persName> docet, ut si
+                est praecipua historiae utilitas, quam ex eodem<persName>Thucydide</persName>
+          <persName>Lucianus</persName>docet, ut si
                 quando etiam rursus similia quaedam incidant, ad haec descripta respicientes rebus
-                civitatis recte uti possint; quod ipsum antea <persName>Titus Livius</persName> elegantissime simul
+                civitatis recte uti possint; quod ipsum antea<persName>Titus Livius</persName>elegantissime simul
                 gravissimeque expressit: hoc, inquiens, illud est praecipue in cognitione rerum
                 salubrem ac frugiferum: omnis te exempli documenta in illustri posita monumento
                 intueri, unde tibi tuaeque reipublicae quod imitere capias: unde foedum incoeptu,
-                foedum exitu, quod vites. Haec <persName>Dionysii</persName> doctrina olet scholam <persName>Democriti</persName>, qui, teste
-                <persName>Plutarcho</persName>, aiebat, curandum esse, qui auspicata nobis exempla conquiramus, magis
-                quam pravis infaustisque proficiamus; quod prudenter vocat ipse <persName>Plutarchus</persName> dogma non
+                foedum exitu, quod vites. Haec<persName>Dionysii</persName>doctrina olet scholam<persName>Democriti</persName>, qui, teste<persName>Plutarcho</persName>, aiebat, curandum esse, qui auspicata nobis exempla conquiramus, magis
+                quam pravis infaustisque proficiamus; quod prudenter vocat ipse<persName>Plutarchus</persName>dogma non
                 sanum in philosophiam illatum. Nam etsi vetus est illud: fortunatus sapiens; ironia
                 tamen est, vulgi stuporem notas. Neque enim quid feliciter casu evenerit, sed qui
                 prudentia valeat, quo virtus, quo ferat error, attente inspicere, sapientes homines,
                 ac rerum peritos facit; qui, si se fortunae credant, superstitione, non ratione vita
                 dirigitur. Nec solum si felices, aut infelices rerum eventus spectemus, verum etiam
-                actionum ipsarum honestatem, aut pravitatem, <pb xml:id="F45"/>idem prorsus iudicium ferendum
+                actionum ipsarum honestatem, aut pravitatem,<pb xml:id="F45"/>idem prorsus iudicium ferendum
                 videtur. Neque enim minus utiliter furunculorum technae, impostorum fraudes,
                 proditorumque artes nequissimae, quam recta proborum consilia legentium oculis
                 exponuntur. Docent enim haec bonos imitari, illa vero malos et noscere et cavere, si
                 modo vero suo colore pingantur. Itaque mea quidem sententia non magis bene de
-                republica meritus est <persName>Plutarchus</persName>, quum iusti <persName>Aristidis</persName>, aut honestissimi Phocionis
+                republica meritus est<persName>Plutarchus</persName>, quum iusti<persName>Aristidis</persName>, aut honestissimi Phocionis
                 integerrimam vitam, quam Arrianus Epicteti discipulus, quum Tillibori latronis
                 facinora, aut eius exemplo Lucianus Alexandri Abonichitae impostoris turpissimi
                 dolos ac flagitia gistoria complexus est. Maius enim beneficium praestant, quam qui
                 adulterinae monetae specimina in imagine diligenter expressa populo exhibeant,
                 notasque ostendant, quibus a probis internosci, ac discerni queant.</p>
-            <p>Immo, ut hoc quoque addamus, ad eam legem puchra et amoena argumenta eligendi ne
+        <p>Immo, ut hoc quoque addamus, ad eam legem puchra et amoena argumenta eligendi ne
                 quidem poeta tenetur, qui quum sit naturae pictor universalis, satis est, ut
                 graphice pingat, quiquid sibi pingendum sumit, et imaginem rei quam perfectissimam
                 exhibeat. Historicus autem, qui non universae naturae, sed singularium individuorum
-                pictor est, multo minus curare debet, quid <pb xml:id="F46"/>spectatu sit iucundius, sed illud
+                pictor est, multo minus curare debet, quid<pb xml:id="F46"/>spectatu sit iucundius, sed illud
                 unice propositum sit illi oportet, ut veram prorsus rei effigiem repraesentet. Nec
                 verum est, voluptatem ex sola rerum iucundarum pictura percipi, Nam etsi res ipsae
                 aut miserae, aut horrendae, quum coram cenuntur, dolorem, aut terrorem incutiant;
@@ -737,14 +722,13 @@
                 oblectat oculos terribilis pugna picta, quam hilare convivium; nec minus artem
                 miramur, si viventis hominis ac ridentis, quam si lugentis, aut extremum trahentis
                 spiritum figura nobis ostendatur. Denique hoc in genere id pulcherrimum est, quod
-                est cuique maxime proprium. Atque ut bene idem notavit <persName>Plutarchus</persName>, voces inconditae
-                animalium<note place="margin"> in Sympos.</note>, aut miserorum luctus, atque eiulatus, unde
+                est cuique maxime proprium. Atque ut bene idem notavit<persName>Plutarchus</persName>, voces inconditae
+                animalium<note place="margin">in Sympos.</note>, aut miserorum luctus, atque eiulatus, unde
                 alioqui moleste sensus afficitur, si graphice a perito imitatore exprimantur in
                 theatro, libernter audiuntur, et nec lacrimae quidem sua voluptate carent, quas
                 alieni doloris viva spiransque imago spectatorum oculis expresserit.</p>
-            <p>Si de argumento deligendo praecipiendum esset, illa potius historicis lex esset
-                statuenda, ut utiliora prae minus utilibrus eligerent. Ut enim prudenter <persName>Muratorius</persName>
-                ait in praestantissimo vereque aureo opuscolo, <pb xml:id="F47"/>quod inscripsit De sano
+        <p>Si de argumento deligendo praecipiendum esset, illa potius historicis lex esset
+                statuenda, ut utiliora prae minus utilibrus eligerent. Ut enim prudenter<persName>Muratorius</persName>ait in praestantissimo vereque aureo opuscolo,<pb xml:id="F47"/>quod inscripsit De sano
                 litteraturae gustu, sive de vero litterato formando, etsi non inutilem reipublicae
                 navarint operam etiam ii, qui de re antiqua vestiaria, de vehiculis, de vasculis,
                 aliisque huiusmodi quidquid erat in vetustis auctoribus, aut monumentis collegerunt;
@@ -752,7 +736,7 @@
                 exitus, sapientum virorum vitas, et apophtegmata, uno verbo eas, quae ad prudentem
                 reipublicae administrationem, rectamque humanae vitae institutionem pertinent,
                 historias scribunt.</p>
-            <p>Alia eligendi argumenti historici regula deducenda esset ab ipsius scriptoris
+        <p>Alia eligendi argumenti historici regula deducenda esset ab ipsius scriptoris
                 utilitate; non quidem quo lucrum quaerat, sed quo caveat infortunium. In una ex
                 epistolis comitis Ottolini Veronensis ad amicum Hieonymum Tartarottum clarissimae
                 memoriae civem meum memini legisse me dicum illud aposotli littera occidit, scite
@@ -765,41 +749,44 @@
                 locum habet poetarum magistri monitum de materia sumenda suis viribus aequa; quod
                 qui nequit, aliud agat, et hisotiam, quam meditatur, aliis scribendam relinquat. Sin
                 enim et scribere volet, et nullius odium incurrere, multa necesse erit, ut vera,
-                scituque digna praetereat; quo nomine reprehenduntur a <persName>Vossio</persName> <persName>Leonardus Aretinus</persName> <note place="margin"> de hist. lat. libro III capitulo 5</note>, et <persName>Poggius</persName> florentinus, qui in illis quae
+                scituque digna praetereat; quo nomine reprehenduntur a<persName>Vossio</persName>
+          <persName>Leonardus Aretinus</persName>
+          <note place="margin">de hist. lat. libro III capitulo 5</note>, et<persName>Poggius</persName>florentinus, qui in illis quae
                 florentini foris gessere, ita silentio praetereunt magnam eorum partem, quae
                 pertinent ad intestina odia, vivilesque discordias, et mala, quae inde sunt
                 consecuta. Nempe, uti videtur, quia offensam metuerent eorum, quorum maiores
                 reprehendere cogerentur. In quo neglexere historici boni officium. Et hoc quidem
                 alterum erit, quod in rationem venire possit, ac debeat, ubi de argumento historiae
                 deligendo deliberatur.</p>
-            <p>At non, ut vult Dionysius, argumentti iucunditas, lectorumque voluptas historiam
+        <p>At non, ut vult Dionysius, argumentti iucunditas, lectorumque voluptas historiam
                 meliorem facit. Nam etsi infelicium eventuum descriptio nullam afferret legentibus
                 voluptatem, nequaquam tamen officio defuit historicus, si modo vere ac vivide omnia
-                pinxerit. Nam aut prodesse volunt, <pb xml:id="F49"/>aut delctare poetae; at vero historicus
-                prodesse tantum. Unum enim (ut optume <persName>Lucianus</persName> docet) <note place="margin">liber de
-                    scribendis hist.</note> opus est historiae, et unus finis utilitas, quae ex sola veritate
+                pinxerit. Nam aut prodesse volunt,<pb xml:id="F49"/>aut delctare poetae; at vero historicus
+                prodesse tantum. Unum enim (ut optume<persName>Lucianus</persName>docet)<note place="margin">liber de
+                    scribendis hist.</note>opus est historiae, et unus finis utilitas, quae ex sola veritate
                 conciliatur. Debet ergo historia, quae humanarum actionum effigies est, quantum
                 fieri potest, ad archetypi similitudinem accedere; neque si pingat coclitem, debet
                 illi utrumque oculum affingere. Et quoniam vita, atque actus hominum nil aliud sunt,
                 quam mistum quoddam ex vitiis, atque virtutibus, ex prosperis et adversis; utraque
                 fideliter, si suo fungi velit officio, repraesentet, necesse est. Sed qui si
-                coclitem pingat versa in partem alteram facie, quemadmodum <persName>Apelles</persName> <persName>Philippum</persName>, ut
-                vitium lateat? Nonne tamen ea erit <persName>Philippi</persName> imago? Erit quidem, at non perfecta,
-                nec illa, unde <persName>Philippum</persName>, qualis fuerit, plane possis agnoscere. Hoc panegyristae
+                coclitem pingat versa in partem alteram facie, quemadmodum<persName>Apelles</persName>
+          <persName>Philippum</persName>, ut
+                vitium lateat? Nonne tamen ea erit<persName>Philippi</persName>imago? Erit quidem, at non perfecta,
+                nec illa, unde<persName>Philippum</persName>, qualis fuerit, plane possis agnoscere. Hoc panegyristae
                 conceditur, qui res non tam narrandas, quam ornandas sumit, ideoque ita hominum
                 format imagines, ut, si quid est deforme, sub oculos non cadat, aut artificiose in
                 eo positu figuram sistit, ut si claudum exhibeat, non appareat turpitudo, sed
                 venusta, ac voluntaria corporis inflexio videatur. Unde etiam fit, ut historiae,
                 quae ex panegyricis laudationibus, dedicatoriis epistolis, poetarum epigrammatibus,
-                aliisque <pb xml:id="F50"/>huiusmodi monumentis postea deducuntur, nisi certioribus
+                aliisque<pb xml:id="F50"/>huiusmodi monumentis postea deducuntur, nisi certioribus
                 solidioribusque nitantur documentis, a doctis flocci fiant. Est enim in proverbio,
                 ab Epitaphiorum elogiis, dedicatoriis epistolis, poeticisque laudationibus sine ullo
                 veritatis dispendio septem octavas partes detrahi posse.</p>
-            <p>Non ergo, iterum aio, lex historico bene imponitur, ut id argumenti eligat, quod
+        <p>Non ergo, iterum aio, lex historico bene imponitur, ut id argumenti eligat, quod
                 magis oblectare legentes possit; sed unum id ei tantum negotii datur, ut sive
                 iucunda, sive tragica, semper vera, ac scitu digna referat, ex quorum lectione
                 prudentiores homines fiant. Nec dissimulare quidquam veri debet. Nam, ut pulchre
-                sapienterque ait <persName>Marcus Tullis</persName>
+                sapienterque ait<persName>Marcus Tullis</persName>
           <note place="margin">De oratore libro primo</note>, quis nesciat primam esse
                 historiae legem, ne quid falsi dicere audeat: deinde ne quid veri non audeat? Cuius
                 rei rationem reddit Lucianus plane sano homine dignam: historici, inquiens, unum
@@ -812,11 +799,10 @@
                 et quasi deos faciat; is philosophiae defectu inter poeticen, et historicam artem
                 non discernit, sed a vero, immo et verisimili discedendo, nec poema, nec historiam
                 scribit.</p>
-            <p>Sed multo peiorem facit schola historicum, si non modica, sed prava sit philosophia
+        <p>Sed multo peiorem facit schola historicum, si non modica, sed prava sit philosophia
                 imbutus, quippe magistri vitae tunc officio male fungitur. Quum enim historia sit
                 narratio cum laude aut vituperatione, periculum est, ne pro salubri cibo venenum
-                paretur, et falsa expetendorum fugiendorumque doctrina corrumpatur animus. Quod
-                <persName>Lucretiae</persName>, <persName>Catonis</persName>, <persName>Bruti</persName>, aliorumque similium mortes ut heroica facta laudentur ab
+                paretur, et falsa expetendorum fugiendorumque doctrina corrumpatur animus. Quod<persName>Lucretiae</persName>,<persName>Catonis</persName>,<persName>Bruti</persName>, aliorumque similium mortes ut heroica facta laudentur ab
                 ethnicis, aut iis narrentur verbis, quae virtutis potius, quam vitii speciem
                 referant; non adeo miramur, neque offendimur, quum nullam ii meliorem, quam stoicame
                 philosophiam agnoscerent, nec vera eos religio illuminaret. Eiusdem peccati non
@@ -834,87 +820,82 @@
                 animum, in victoria clementiam, in legum latione iustitiam. At vero qui non horreat,
                 si christianus homo artium regandi, seu politicorum stratagema cum titulo librum
                 inscripserit, in quo perfidissimae proditiones, ac detestabilium facinorum mysteria
-                revelentur? Quis non <persName>Machiavellum</persName> exsecretur, quum <persName>Castrucci</persName> vitam resque gestas
+                revelentur? Quis non<persName>Machiavellum</persName>exsecretur, quum<persName>Castrucci</persName>vitam resque gestas
                 descripturus in ipso exordio solam fortunam rerum omnium arbitram facit? Aut quum
                 Valentini ducis abominandam perfidiam in reconcilianda simulate gratia,
-                fallendisque, ac crudeliter mactandis hostibus ita describit, ut ne verbum
-                <pb xml:id="F53"/>quidem vituperationis appareat, se potius miseros quodammodo ignaviae notat, quasi
+                fallendisque, ac crudeliter mactandis hostibus ita describit, ut ne verbum<pb xml:id="F53"/>quidem vituperationis appareat, se potius miseros quodammodo ignaviae notat, quasi
                 virtuti suae, praeteritorumque facinorum gloriae maculam inusserint, quod alter
                 denuntiata sibi morte fleverit, alter de peccatorum venia fuerit impetranda
-                sollicitus? Hac ipsa culpa non prorsus immunis est <persName>Tacitus</persName>, saepe vitia virtutis
+                sollicitus? Hac ipsa culpa non prorsus immunis est<persName>Tacitus</persName>, saepe vitia virtutis
                 quadam specie cohonestans, nec conveniente atro colore pingens. Minus adhuc venia
-                dignus est <persName>Senece</persName>
+                dignus est<persName>Senece</persName>
           <note place="margin">De tranquillitate</note>, qui non historice, sed
-                philosophice scribens tantum <persName>Catoni</persName> tribuat, ut vitia, ipsi adhaerentdo, virtutis
-                quodammodo colorem, naturamque induerent. <persName>Catoni</persName> ebrietas, inquit, obiecta est.
-                Facilius efficiet, quisquis obiecerit, hoc crimen honestum, quam turpem <persName>Catonem</persName>. Si
-                <persName>Catonis</persName> ergo vitam scripsisset, malum in hoc ipsum quoque historicum haberemus. Male
+                philosophice scribens tantum<persName>Catoni</persName>tribuat, ut vitia, ipsi adhaerentdo, virtutis
+                quodammodo colorem, naturamque induerent.<persName>Catoni</persName>ebrietas, inquit, obiecta est.
+                Facilius efficiet, quisquis obiecerit, hoc crimen honestum, quam turpem<persName>Catonem</persName>. Si<persName>Catonis</persName>ergo vitam scripsisset, malum in hoc ipsum quoque historicum haberemus. Male
                 quoque philosophiae, vel certe mali moris iudicium, aut suspicionem creat accurata
-                nimium ac prolixa foeditatum obscoenarum narratio; in quo <persName>Svetonii Tranquilli</persName> in
+                nimium ac prolixa foeditatum obscoenarum narratio; in quo<persName>Svetonii Tranquilli</persName>in
                 vitis Caesarum nimia profecto licentia, et quae honestum gravemque virum non
                 deceret, excusari vix potest. Nam etsi verum es, quod iam posuimus, virtutes aeque
-                ac vitia narranda esse, ita tamen fieri hoc debet, ut sua pudori iura constent.
-                <pb xml:id="F54"/>Postremum, de quo dicere costitueram, est inimicitia, aut favor; de quibus eo
+                ac vitia narranda esse, ita tamen fieri hoc debet, ut sua pudori iura constent.<pb xml:id="F54"/>Postremum, de quo dicere costitueram, est inimicitia, aut favor; de quibus eo
                 dicendum est brevius, quo magis constat, nihil esse facilius, quam ut in alios
                 odium, aliis vero placendi studium historicos aut mendaces, aut certe officio
                 veritatis fideliter exponendae minus obsequentes reddat. Hoc in Eunapio cernitur, de
-                quo haec habet <persName>Photius</persName>
+                quo haec habet<persName>Photius</persName>
           <note place="margin">In bibliothec. cod. 77</note>: qui pietate singulari
                 imperium ornarunt, eos omnino largiter veliicat, atque traducit, maximeque omnium
                 Constantinum Magnum: impios contra extollit, ac prae coeteris Iulianum Apostatam, ut
                 fere ad hunc laudandum historicum hocce opus elaborasse videatur. Neque aliud
                 profecto verisimilius in caussa fuit, nisi malus in meliores animus, et improbis
                 placendi studium; nam quod ethnicus fuerit, non adeo hoc veritati historicae
-                offecisset. Ethnicus fuit etiam <persName>Ammianus Marcellinus</persName>, et in Iuliani exercitu mils;
+                offecisset. Ethnicus fuit etiam<persName>Ammianus Marcellinus</persName>, et in Iuliani exercitu mils;
                 nec tamen ideo minus sincerus et candidus aut male improbos laudavit, aut quae in
                 commendationem cederent christianae religionis omisit, minusve moderate quidquam
                 scripsit. Ethnicus fuit et Plinius iunior; nec tamen quum Bithyniae praefectus
                 esset, minus accurate ac sincere certiorem fecit Traianum de innoxia vita, ac
-                moribus christianorum. Non <pb xml:id="F55"/>ergo ethnica superstitio, sed malis placendi, bonos
+                moribus christianorum. Non<pb xml:id="F55"/>ergo ethnica superstitio, sed malis placendi, bonos
                 autem vituperandi libido transversum egit Eunapium. Non aeque rei agi possunt Iulius
                 Capitolinus, et huic aequalis Aelius Spartianus, quod acerbissimae persecutionis per
                 Marcum Antoninum, et Lucium Verum in christianos excitatae ne verbum quidem
-                fecerint, eo quod ambo <persName>Diocletiani</persName> temporibus, et in gratiam ipsius scripserint, ut
+                fecerint, eo quod ambo<persName>Diocletiani</persName>temporibus, et in gratiam ipsius scripserint, ut
                 notat Baronius. Non enim hi usque adeo a recto tramite exierunt, ut omnem honestatem
                 exuerunt; immo venia digni sunt, silentes ea, quae laudare non poterant,
                 reprehendere non audebant. At vero mera peccavit, ut docti censent, malignitate
                 Sallustius, qui quum pulcherrimam illam scripsisset sententiam: ubi odium, amicitia,
                 ira atque misericordia officiunt, haud facile animus verum providet, sua doctrina
                 uti nesciit, nec periculum cavit, quod aliis ostenderat. Nam in historia de
-                coniuratione <persName>Catilinae</persName> multus est in laudandis antiquis romanis hominibus, multus in
+                coniuratione<persName>Catilinae</persName>multus est in laudandis antiquis romanis hominibus, multus in
                 exaggerandis corruptis sui temporis moribus, multus in extollendo Caesare et Catone:
-                interea veo de <persName>Ciceronis</persName> laudibus, qui ad liberandam patriam vitae discrimne adiit,
+                interea veo de<persName>Ciceronis</persName>laudibus, qui ad liberandam patriam vitae discrimne adiit,
                 ne verbum quidem ibi legitur, sed omnia praeclare ab eo facta mirifico silentio
-                teguntur. Hoc idem <pb xml:id="F56"/>videtur, ac si quis historiam scribens de recepta a
+                teguntur. Hoc idem<pb xml:id="F56"/>videtur, ac si quis historiam scribens de recepta a
                 christianis Hierosolyma, Gothofridum, qui expeditionis illius princeps, ac summus
                 heros fuit, vix nominaret. Non ignoro quidem Tullium ab eo semel oprimum consulem
                 vocatum esse; itemque induci ab eo loquentem Caesarem, a quo vir clarissimus
                 appellatur. Verum enim vero hoc satis non habeo, nec habebit, opinor, quisquis aequo
-                animo iudicet, ut sibi persuadeat <persName>Ciceronis</persName> meritis totum id, quod debebatur, esse
-                tributum, et sinceri atque ingenui scriptoris laude in hoc <persName>Sallustium</persName> dignum esse;
-                quidquid contra alii dicant, et in his <persName>Laurentius Valla</persName>, vel quisquis commentarii in
-                Catilinae coniurationem auctor est. Quisquis enim considerabit, quam multa
-                <persName>Sallustius</persName> silento obvolverit, et ea quidem omnia Ciceroni maxime decora: gratiarum
+                animo iudicet, ut sibi persuadeat<persName>Ciceronis</persName>meritis totum id, quod debebatur, esse
+                tributum, et sinceri atque ingenui scriptoris laude in hoc<persName>Sallustium</persName>dignum esse;
+                quidquid contra alii dicant, et in his<persName>Laurentius Valla</persName>, vel quisquis commentarii in
+                Catilinae coniurationem auctor est. Quisquis enim considerabit, quam multa<persName>Sallustius</persName>silento obvolverit, et ea quidem omnia Ciceroni maxime decora: gratiarum
                 actionem senatus, quod prudentia ac virute sua tot rempublicam periculis liberasset:
                 laudem ipsi in senatu a Quinto Catulo, et Marco Catone tributam, quum eum patrem
                 patirae appellaverunt: supplicationem diis eius nomine decretam, quo honore nemo
                 ante erum alius ornatus erat: coronam civicam, quam L. Gellius ei deberi censuit:
-                statuam denique auratam illi in foro <placeName>Capuae</placeName> ab illius urbis decemviris <pb xml:id="F57"/>erectam:
-                quisquis haec omnia igitur considerabit a <persName>Sallustio</persName> mire dissimulata, et cum hoc
+                statuam denique auratam illi in foro<placeName>Capuae</placeName>ab illius urbis decemviris<pb xml:id="F57"/>erectam:
+                quisquis haec omnia igitur considerabit a<persName>Sallustio</persName>mire dissimulata, et cum hoc
                 silentio componet eiusdem in laudandis aliis eloquentiam, manifesto deprehendet
-                sinceritati historicae odium praevaluisse. Frustra ergo est <persName>Vossius</persName>, quum ab hac
+                sinceritati historicae odium praevaluisse. Frustra ergo est<persName>Vossius</persName>, quum ab hac
                 labe purgare illum conatur, dum ait: obiectant aliqui, quod pravo logilinis succo
-                pleraque ad <persName>Ciceronis</persName> laudem pertinentia, quae apud alios legere fit, praeterierit.
+                pleraque ad<persName>Ciceronis</persName>laudem pertinentia, quae apud alios legere fit, praeterierit.
                 Verum ea potius neglexisse ego arbitror, vel ut falsa, vel ut incerta, vel ut exigua
-                et minuta. Nam sola illa appellatio parentis patirae testes habet Plinium et
-                <persName>Plutarchum</persName>: caeteri vero honorescommemorati sunt ab ipso Tullio, nec profecto tam
+                et minuta. Nam sola illa appellatio parentis patirae testes habet Plinium et<persName>Plutarchum</persName>: caeteri vero honorescommemorati sunt ab ipso Tullio, nec profecto tam
                 vanus ac mendax coram senatu populoque romano fuisset, ut eas sibi tribueret laudes,
                 quibus oculos omnibus eruere velle videretur. Quod autem Sallustio exigia illa ac
                 minuta videri potuerint, quae ab aliis historicis tanti fiunt, mihi quidem hercle
                 non sit verisimile, quando minutiora de aliis non neglexit; sed ideo potius omissa
                 arbitror, quia maiora et praeclariora erant, quam ut invidia describere illa
                 sineret. Quare vero iudicat Melchior Canus, non caruisse illum vitiis gratiae et
-                simultatis, et multa de <persName>Cicerone</persName> praeteriisse silentio, quae libentissime in aliorum
+                simultatis, et multa de<persName>Cicerone</persName>praeteriisse silentio, quae libentissime in aliorum
                 gratiam retulisset.<note place="margin">De loc. Theol. libro XI capitulo 6</note>
           <pb xml:id="F58"/>Si ergo et qui
                 laudant, et qui vituperant, vel laudes silent, aut in adulationis, aut in odii
@@ -923,40 +904,38 @@
                 consiliorum, opinionumque humanarum laude, aut vitupratione relinquat? Minime
                 prorsus, si quidem vitae magistram historiam esse oportet. Hoc nec poetae quidem
                 conceditur, ut illaudatam virtutem, aut irreprehensum vitium in scenam producat.
-                Discimus ex <persName>Seneca</persName>, quid <persName>Euripidi</persName> acciderit, quum quendam proxisset auri admiratorem
-                haec verba proferentem: </p>
+                Discimus ex<persName>Seneca</persName>, quid<persName>Euripidi</persName>acciderit, quum quendam proxisset auri admiratorem
+                haec verba proferentem:</p>
       </div>
-            <div>
+      <div>
         <lg>
-            <l>sine me vocari pessimum, ut dives vocer. </l>
-            <l>An dives omnes quaerimus, nemo an bonus. </l>
-            <l>Non quare, et unde; quid habeas tantum rogant. </l>
-            <l>Ubique tanti quisque, quanum habuit, fuit. </l>
-            <l>Aut dives opto vivere, aut pauper mori. </l>
-            <l>Bene moritur, qui dum moritur lucrum facit. </l>
-            <l>Pecunia ingens generis humani lucrum.</l>
+          <l>sine me vocari pessimum, ut dives vocer.</l>
+          <l>An dives omnes quaerimus, nemo an bonus.</l>
+          <l>Non quare, et unde; quid habeas tantum rogant.</l>
+          <l>Ubique tanti quisque, quanum habuit, fuit.</l>
+          <l>Aut dives opto vivere, aut pauper mori.</l>
+          <l>Bene moritur, qui dum moritur lucrum facit.</l>
+          <l>Pecunia ingens generis humani lucrum.</l>
         </lg>
       </div>
-            <div>
-            <p>Nam quum hi novissimi, inquit, versus in tragoedia pronunciati essent, totus populus
-                ad eiiciendum et actore, et carmen consurrexit uno impetu: donec <persName>Euripides</persName> in medium
+      <div>
+        <p>Nam quum hi novissimi, inquit, versus in tragoedia pronunciati essent, totus populus
+                ad eiiciendum et actore, et carmen consurrexit uno impetu: donec<persName>Euripides</persName>in medium
                 ipse prosiluit, petens ut ex<pb xml:id="F59"/>pectarem, viderentque, quem admirator auri exitum
                 faceret. Neque suspicionis ullius apud aequos iudices periculum subest, si nec
                 laudes affectatae, nimiumque prolixae sint, nec iniustae vituperationes,
                 sycophantiose innoxia facta accusando, aut animi sinisteritare quadam, ac
                 malignitate in deteriorem partem ea, quae dupliciter accipi possunt, interpretando;
-                quo nomine <persName>Plutarchus</persName> peculiari libello grandem dicam impegit <persName>Herodoto</persName>, maiore
-                fortasse acerbitate, atque inclementia, quam fuerit <persName>Herodotii</persName> in <persName>Plutarchi</persName> patriam
-                iniustia. Est inter Tanaim quiddam, socerumque Viselli, ait bene <persName>Horatius</persName>: et qui
+                quo nomine<persName>Plutarchus</persName>peculiari libello grandem dicam impegit<persName>Herodoto</persName>, maiore
+                fortasse acerbitate, atque inclementia, quam fuerit<persName>Herodotii</persName>in<persName>Plutarchi</persName>patriam
+                iniustia. Est inter Tanaim quiddam, socerumque Viselli, ait bene<persName>Horatius</persName>: et qui
                 vere probi sunt, ingenuoque animo scribunt, seu bene seu male factum quidpiam
                 referant, ita utrumque faciunt, ut suam ostendant ea de re modeste breviterque
-                sententiam. Quo in genere mirifica est omnino <persName>Muratorii</persName> peritia in suis <placeName>Italiae</placeName>
-                Annalibus, ubi uno saepe verbo, melius quam <persName>Tacitus</persName>, actionis cuiuscumque, et eius
+                sententiam. Quo in genere mirifica est omnino<persName>Muratorii</persName>peritia in suis<placeName>Italiae</placeName>Annalibus, ubi uno saepe verbo, melius quam<persName>Tacitus</persName>, actionis cuiuscumque, et eius
                 qualitatis plenam ideam exhibet.</p>
-            <p>Quod si alterutram in partem peccandum omnino esset, quum perfectum nihil sperandum
+        <p>Quod si alterutram in partem peccandum omnino esset, quum perfectum nihil sperandum
                 sit ab hominibus, et ii meliores sint qui minora peccant; tolerabilior, mea quidem
-                sententia, erit, qui vel laudabilia nimium extollat, vel de levi errato maius,
-                <pb xml:id="F60"/>quam par est, convivium faciat, quam frigidus ille, ac siccus, de quo nunquam possis
+                sententia, erit, qui vel laudabilia nimium extollat, vel de levi errato maius,<pb xml:id="F60"/>quam par est, convivium faciat, quam frigidus ille, ac siccus, de quo nunquam possis
                 affirmare, quid sentiat, aut cui faveat. Quod igitur lege statuerat Lycurgus, civem
                 illum aqua et igni interdicens, qui conspiratis in republica duabus factionum
                 partibus, neutri sese adiungeret, sed in civili bello spectator otiosus quiesceret,
@@ -970,7 +949,7 @@
                 inania concipiantur nomina, et omnia humana facta aut temerarius fotunae ludus, aut
                 fati cuiusam necessitas, aut variae corporum machinae motiones existimentur? Hac
                 peste infecto animo, sperate civem, qui privatis suis commodis publicam felicitatem,
-                qui vitae suae patriae salutem, aut debitam regi suo fidelitatem anteponat. <pb xml:id="F61"/>Sed
+                qui vitae suae patriae salutem, aut debitam regi suo fidelitatem anteponat.<pb xml:id="F61"/>Sed
                 satis sit haec cursim, ut promisimus, attigisse; ex quibus, omnia in pauca
                 contrahendo, colligemus eos esse historicos meliores, aliisque praeferendos, qui
                 probitate et honestate commendantur, iudicii quoque maturitatem prae se ferunt,
@@ -985,31 +964,31 @@
                 miraculis prodigiisque abundet. Denique ab odio, gratia, venalitate immunem haec
                 ostendunt: si non satyrico utatur stilo, nec mordendi occasiones et ansas quaerat:
                 si quae in duplicem partem accipi possunt, in deteriorem sine ratione non rapiat: si
-                non affectet obscuritatem quandam, ac mysterium, ut ii faciunt, qui quum <pb xml:id="F62"/>nihil
+                non affectet obscuritatem quandam, ac mysterium, ut ii faciunt, qui quum<pb xml:id="F62"/>nihil
                 mali possunt dicere, verbis tamen ambiguis suspiciones iniiciunt: si non in nimias,
                 ac prolixas laudationes se diffundat, nec omnia ornare affectet; sed veritati
                 accuratius, quam eloquantiae studeat.</p>
-            <p>Hisce dotibus omnibus qui ita sint praediti, ut nullus prorsus naevus in eorum
+        <p>Hisce dotibus omnibus qui ita sint praediti, ut nullus prorsus naevus in eorum
                 scripta incurrerit, inter profanae ac litterariae historiae scriptores, de quibus
                 agimus, adeo rari sunt, ut vix unum reperire sit, cuius defectus aliquis non
                 notetur. Quoniam tamen praecipuum, quod in his psectatur, est animi candor, fides,
                 ac sincerum veritatis exponendae studium; recte inter meliores ii recipiuntur,
                 quorum ingenuitas, ac verecundia quum in ipso scribendi modo elucet, tum etiam
                 communi fama celebratur. Ex latinis in hac classe a Melchiore Cano nominatim inter
-                caeteros ponuntur <persName>Caesar</persName>, <persName>Valerius Maximus</persName>, <persName>Terentius Varro</persName>, <persName>Livius</persName>, <persName>Cornelius
-                Tacitus</persName>, <persName>Seneca</persName>, <persName>Ammianus Marcellinus</persName>, <persName>Eutropius</persName>, <persName>Flavius Vopiscus</persName>, <persName>Paullus
-                Diaconus</persName>, <persName>Lucius Florius</persName>, <persName>Iulius Capitolinus</persName>, <persName>Cornelius Nepos</persName>, aliique plures; a
+                caeteros ponuntur<persName>Caesar</persName>,<persName>Valerius Maximus</persName>,<persName>Terentius Varro</persName>,<persName>Livius</persName>,<persName>Cornelius
+                Tacitus</persName>,<persName>Seneca</persName>,<persName>Ammianus Marcellinus</persName>,<persName>Eutropius</persName>,<persName>Flavius Vopiscus</persName>,<persName>Paullus
+                Diaconus</persName>,<persName>Lucius Florius</persName>,<persName>Iulius Capitolinus</persName>,<persName>Cornelius Nepos</persName>, aliique plures; a
                 quorum numero nec Sallustium excludit, ubi gratia et simultas veritati non
                 offecerit. Sed bene notat haec duo vitia, quum historicorum fere omnium communia,
                 tum quorundam quasi pro<pb xml:id="F63"/>pria esse. Aliud ergo est hos a turpi mendacii crimine
                 immunes credere, aliud veritatis plene, accurate, ac sincere prorsus expositae laude
-                ubique dignos ducere. Nam et in <persName>Caesaris</persName> de civili bello historia notavit Lipsius
-                fidem a nonnulis requiri, et in commentariis ait <persName>Vossius</persName> eum, si quid imprudentius,
+                ubique dignos ducere. Nam et in<persName>Caesaris</persName>de civili bello historia notavit Lipsius
+                fidem a nonnulis requiri, et in commentariis ait<persName>Vossius</persName>eum, si quid imprudentius,
                 vel quocunque modo aliter fecisset, quam oporteret, hoc fere vel plane praeterire,
-                vel ita referre, ut in alios potius coniiciat culpam. At vero <persName>Valerius Maximus</persName> male
-                audit, etiam tanquam adulationis foeditate vilescens. De <persName>Livio</persName> romanae historiae
-                facile principe scripsit <persName>Erasmus</persName> in Ciceroniano, tantum abesse, ut nunquam aberret a
-                vero, ut non raro secum ipso in rerum narratione diffideat. In <persName>Floro</persName> non quidem mala
+                vel ita referre, ut in alios potius coniiciat culpam. At vero<persName>Valerius Maximus</persName>male
+                audit, etiam tanquam adulationis foeditate vilescens. De<persName>Livio</persName>romanae historiae
+                facile principe scripsit<persName>Erasmus</persName>in Ciceroniano, tantum abesse, ut nunquam aberret a
+                vero, ut non raro secum ipso in rerum narratione diffideat. In<persName>Floro</persName>non quidem mala
                 fides, sed abiectum ac puerile notatur mira dicendi desiderium, quo veritatis
                 dispendio se abripi passus sit; nec non patriae amor nimius, qui eum libri II capp.
                 VI, XVII et XVIII in laudanda Hispania praeter modum eloquentem fecerit. Iulium
@@ -1017,25 +996,23 @@
                 eo voluntas: Sigonius vero hunc aeque ac Spartianum, Lampridium et Vopiscum accusat,
                 quod pleraque dicenda omittant, multis inepte, et quae ad rem nihil, vel parum
                 faciunt, additis.</p>
-                <pb xml:id="F64"/>
-        <p>Inter Graecos antiquitatis pretio eminet <persName>Herodotus</persName>, omnium, quotquot extant,
-                vetustissimus, merito idcirco <persName>Tullio</persName> historiae parens appellatus: de quo verum
+        <pb xml:id="F64"/>
+        <p>Inter Graecos antiquitatis pretio eminet<persName>Herodotus</persName>, omnium, quotquot extant,
+                vetustissimus, merito idcirco<persName>Tullio</persName>historiae parens appellatus: de quo verum
                 existimamus Wheari iudicium, si miras quasdam excipiamus amoenitatis gratia admixtas
                 fabulosas narrationes, totum eius historiae coprus singulari fide, et diligenti
-                vetustatis studio coagmentatum esse. Historica vero sinceritate, et gravitate eminet
-                <persName>Thucydides</persName>, et omnium laudatus consensione <persName>Polybius</persName>. Hos sequuntur <persName>Apianus
-                Alexandrinus</persName>, et <persName>Plutarchus</persName>, veridici tamen in alienis magis, quam in suis; quibus
-                iungendus <persName>Dionysius Alicarnassaus</persName>, qui, teste Ehear, omnium consessione scriptor
+                vetustatis studio coagmentatum esse. Historica vero sinceritate, et gravitate eminet<persName>Thucydides</persName>, et omnium laudatus consensione<persName>Polybius</persName>. Hos sequuntur<persName>Apianus
+                Alexandrinus</persName>, et<persName>Plutarchus</persName>, veridici tamen in alienis magis, quam in suis; quibus
+                iungendus<persName>Dionysius Alicarnassaus</persName>, qui, teste Ehear, omnium consessione scriptor
                 gravissimus, et in romanos antiquitatibus pervestigandis, describendisque
-                accuratissimus perhibetur. Politicus tamen interdum parum bonus ab <persName>Isaaco Casaubono</persName>
-                dicitur et alienorum scriptorum vensor alicubi morosus, ac ferme putidus. Hoc
-                vidimus in eiusdem de <persName>Thucydide</persName> iudicio, ubi eum carpendi pruritus, et obscurandae
+                accuratissimus perhibetur. Politicus tamen interdum parum bonus ab<persName>Isaaco Casaubono</persName>dicitur et alienorum scriptorum vensor alicubi morosus, ac ferme putidus. Hoc
+                vidimus in eiusdem de<persName>Thucydide</persName>iudicio, ubi eum carpendi pruritus, et obscurandae
                 alterius gloriae cupiditas ita obcaecavit, ut vanitatem, ac falsitatem sui dogmatis,
-                et ex eo ductae censurae non perspiceret. Huic aequari posset <persName>Dio Cassius</persName>, si par
-                ingenio iudicium, bonamque mentem fortius esset nec <pb xml:id="F65"/>optimos, ac
+                et ex eo ductae censurae non perspiceret. Huic aequari posset<persName>Dio Cassius</persName>, si par
+                ingenio iudicium, bonamque mentem fortius esset nec<pb xml:id="F65"/>optimos, ac
                 praestantissimos viros carpendi mala quadam libidine laborasset; quem Lipsius
                 idcirco ait cum iudicio legendum, nec illi fidem usquequaque habendam.</p>
-            <p>De recentioribus nominatim dicere supersedemus; non enim bibliothecae describendae
+        <p>De recentioribus nominatim dicere supersedemus; non enim bibliothecae describendae
                 est animus, sed speciminis tantum loco pauca attigimus, quibus notatis
                 informartionem quandam ad omnium in genere delectum haberemus. Extant de singulis
                 iudicia in litterariae historiae scriptoribus, bibliothecarum compositoribus,
@@ -1044,7 +1021,7 @@
                 habendi, qui veterum optimos fuerint imitati, quique officio historico, eiusque
                 antea indicatis partibus accuratius satisfecerint. Nam ars eadem semper est,
                 iisdemque principiis, ac regulis nititur.</p>
-            <p>Illud tamen hac quoque in re diligenter praemonendum, nec unius, nec cuiusvis
+        <p>Illud tamen hac quoque in re diligenter praemonendum, nec unius, nec cuiusvis
                 iudicio, nisi saepe falli velimus, de probando, improbandove scriptore aliquo
                 standum esse. Quae enim caussae historicos, eaedem saepissime censores, ac iudices
                 transversos possunt agere: et ubi nationis, sectae, aut scholae amor, aut
@@ -1062,7 +1039,7 @@
                 celebrant, qui ecclesiam ac religionem pessum premere cuperent, tantum abest, ut
                 proba moneta haberi possint, quanto illis gloriosius esset eiusmodi hominum encomia
                 nunquam meruisse. Dixi.</p>
-            </div>
-        </body>
-    </text>
+      </div>
+    </body>
+  </text>
 </TEI>

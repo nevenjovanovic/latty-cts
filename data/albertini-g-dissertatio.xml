@@ -1,99 +1,94 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="albertini-g-dissertatio">
-            <titleStmt>
-                <title>Dissertatio de miraculis, versio electronica</title>
-                <author key="albertini01">
-                    <name>Albertini, Giovanni Battista</name>
-                    <date precision="high">1742-1820</date>
-                </author>
-                <respStmt>
-                    <resp>Hanc versionem electronicam curavit</resp>
-                    <name>Clementina Marsico</name>
-                </respStmt>
-            </titleStmt>
-                                
-            <editionStmt>
-                <edition>transcribed from the printed text</edition>
-            </editionStmt>
-                <extent>82 paginae</extent>
-            <publicationStmt>
-                <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
+  <teiHeader>
+    <fileDesc xml:id="albertini-g-dissertatio">
+      <titleStmt>
+        <title>Dissertatio de miraculis, versio electronica</title>
+        <author key="albertini01">
+          <name>Albertini, Giovanni Battista</name>
+          <date precision="high">1742-1820</date>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Clementina Marsico</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>82 paginae</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
         </p>
-            </publicationStmt>
-                
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <imprint>
-                            <pubPlace>Innsbruck</pubPlace>
-                            <date when="1779">1779</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-                <bibl>ULBT, 26.445; TLMF, FB 168</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date when="1779">1779</date>
-            </creation>
-            <textClass>
-                <keywords scheme="time">
-                    <term>Von der Vertreibung der Jesuiten bis zur Revolution 1848</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>Theologie</term>
-                    <term>Traktat</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        
-        <revisionDesc>
-            <change>corrected teiHeader and body<date>2015-09-23</date>
-                <name>Johanna Luggin</name>
-            </change>
-        </revisionDesc>
-        
-    </teiHeader>
-    <text>
-        <body>
-            <div>
-            <head>
-          <persName>Ioannis Baptistae Albertini</persName> studii phi. caes. reg. directoris, ac log. met. et phi.
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <imprint>
+              <pubPlace>Innsbruck</pubPlace>
+              <date when="1779">1779</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>ULBT, 26.445; TLMF, FB 168</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1779">1779</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Von der Vertreibung der Jesuiten bis zur Revolution 1848</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Theologie</term>
+          <term>Traktat</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>corrected teiHeader and body<date>2015-09-23</date>
+        <name>Johanna Luggin</name>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>
+          <persName>Ioannis Baptistae Albertini</persName>studii phi. caes. reg. directoris, ac log. met. et phi.
                 mor. prof. ordo praedicatorum academiae Robor. socii Dissertatio de miraculis
-                annexis positionibus quas propugnandas <gap reason="illegible"/> illustris dominus Petrus Antonius de
-                Martini a Wasserberg S.R.I.W. Oeniponte die 28 mensis Augusti <date>1779</date>.</head>
+                annexis positionibus quas propugnandas<gap reason="illegible"/>illustris dominus Petrus Antonius de
+                Martini a Wasserberg S.R.I.W. Oeniponte die 28 mensis Augusti<date>1779</date>.</head>
       </div>
-            <pb xml:id="FA1v"/>
-            <div>
-                <pb xml:id="F1"/>
-        <head>Dissertatio de miraculis. </head>
+      <pb xml:id="FA1v"/>
+      <div>
+        <pb xml:id="F1"/>
+        <head>Dissertatio de miraculis.</head>
       </div>
-            <div>
-            <p>I. Non in Deo tantum, verum et in entibus, quae hanc universitatem componunt, et
-                quidem in iis quoque, quae materiam <pb xml:id="F2"/>dicimus et corpora, experientia, ac ratione
+      <div>
+        <p>I. Non in Deo tantum, verum et in entibus, quae hanc universitatem componunt, et
+                quidem in iis quoque, quae materiam<pb xml:id="F2"/>dicimus et corpora, experientia, ac ratione
                 duce principium quoddam comperimus, certarum actionum atque operationum. Hocce porro
                 principium actuosum entis internum rectissime natura dicitur, increata, si ad Deum,
                 creata, si ad mundi entia, referatur.</p>
-            <p>* Activitatem in rebus mundanis agnoscunt philosophi ex
+        <p>* Activitatem in rebus mundanis agnoscunt philosophi ex
                 recentioribus omnes, quibusdam tantum ex charthesianorum familia exceptis. Hi enim
                 Malebranchio duce opinantur, entia creata causas duntaxat esse occasionale eventuum
                 effectorumque, quae in mun<pb xml:id="F3"/>do contingunt, solumque Deum causam esse vere
                 efficientem. Verum, ut caetera sileam, quis opinationem omnium fere hominum ideis
                 repugnantem nullis firmis momentis suffultam amplexabitur?</p>
-            <p>Caeterum naturam per principium actuosum entis internum recte definiri, patet, quod
-                <unclear/> dicta sit, ut observat servius, quod nasci aliquid faciat. Accedit, quod in
+        <p>Caeterum naturam per principium actuosum entis internum recte definiri, patet, quod<unclear/>dicta sit, ut observat servius, quod nasci aliquid faciat. Accedit, quod in
                 hanc originem vocis quotquot a philosophis datae sunt naturae definitiones variae
                 licet ac vehementer discrepantes, sensu conspirent, quemadmodum illarum non paucas
                 collegit illustrissimus L.B. de Martini exercit. J.N. par. I Schol.</p>
-                <pb xml:id="F4"/>
+        <pb xml:id="F4"/>
         <p>II. Quum natura principium actuosum dicatur, quod actionum et operationum ratio
                 sit sufficiens: id autem, quod actionis ratio sufficiens est, vis ab Ontologis
                 adpelletur, plano aveo consequitur, singularis cuiusvis entis naturam nonnisi
                 eiusdem vim, et naturam universam collectionem esse omnium virium omnium entium
-                creatorum. </p>
-            <p>*Veteres philosophi falsa, incompletaque tum creatoris, tum rerum creatarum idea
+                creatorum.</p>
+        <p>*Veteres philosophi falsa, incompletaque tum creatoris, tum rerum creatarum idea
                 decepti universam naturam ut ens concipie<pb xml:id="F5"/>bant reapse a mundo diversum. Hinc
                 quidam Deum ipsum naturam dixerunt: alii naturam reposuerunt in vi nativa materiae,
                 qua res omnes mundanas absque Deo efficeret: alii mundum totum animatum esse, cum
@@ -101,19 +96,19 @@
                 super re opiniones enarrare. In medium tantum adhic proferam viri caetera magni
                 inter recentiores nominis Cudworthi admirabilem prorsus et singularem
                 sententiam.</p>
-            <p>Is naturam universam commentus est, quae substantia foret incorporea, infimo vitae
+        <p>Is naturam universam commentus est, quae substantia foret incorporea, infimo vitae
                 genere prraedita, (quae olim plantis attribuebatur) qua Deus in mundi
                 mutatio<pb xml:id="F6"/>nibus perficiendis tamquam instrumento, ac administra uteretur ita, ut
                 eidem tamen quippe rationis et consilii experti invigilet, quae forte perperam facta
                 sunt, correcturus et emendaturus. Mihi non vacat somnium hocce refutare. Interim,
                 refutationem si desideres, adeas Moshemium syst. intell. c. 3 dissert. de nat.
                 gen.</p>
-            <p>III. Naturae leges sunt normae illae, quibus creatae vires actiones suas conformare
+        <p>III. Naturae leges sunt normae illae, quibus creatae vires actiones suas conformare
                 debent: constans ille modus, quo hae actiones pro certa positione, applicatione,
                 dispositione se<pb xml:id="F7"/>cundum leges naturae inviolabiter fieri, atque aliae alias consequi
                 coguntur, ordo naturae dicitur: ipsa illarum actionum effectuumque huic ordini
                 conveniens consecutio, cursus naturae nuncupatur.</p>
-            <p>*Extare leges, ordinemque naturae, facile concedet, qui eventuum
+        <p>*Extare leges, ordinemque naturae, facile concedet, qui eventuum
                 in mundo constantiam, atque uniformitatem paulo attentius contemplabitur. Nec secus
                 in hominibus providentia ulla, atque instituendae vitae certa ratio locum habere
                 posset. Pro rerum tamen, atque actionum differentia, diversae quoque sint naturae
@@ -126,7 +121,7 @@
                 perserverat in statu motus, vel quietis, donec aliunde cogatur statum suum mutare:
                 actioni aequalis semper et contraria est reactio: corpora in certis distantiis sese
                 attrahunt, in aliis sese repellunt.</p>
-                <pb xml:id="F9"/>
+        <pb xml:id="F9"/>
         <p>**Summa animi contentione disputatur inter philosophos, num
                 leges naturae physicae necessariae sint et immutabiles, an contingentes et
                 mutabiles. Existimo ego, litem istam humano intellectu finiri non posse. Decisio
@@ -142,21 +137,21 @@
                 etiam in certa combinatione, certi distantiis, coexistendi modis, aliisque his
                 similibus. Qui vero nesciat, ob adaequatam comparate ad determinatum spatium
                 materiae indifferentiam haecd omnia contingentia esse et mutabilia?</p>
-                <pb xml:id="F11"/>
+        <pb xml:id="F11"/>
         <p>IV. Effectus, cuius existentia a vi creata dependet, naturalis qualis esset
                 combustio ligni in ignem iniecti; cuius ratio vero sufficiens in universa natura non
                 continetur, uti esset cuiusdam substantiae creatio, supernaturalis adpellatur: qui
                 naturae ordini repugnat, contranaturalis, et qui ex naturae ordine explicari nequit,
                 praeternaturalis dicitur.</p>
-            <p>Ita si corpus in mediis flammis illaesum et integrum consistat, effectus est
-                contranaturalis; si vero frumentum crescat semine terrae <pb xml:id="F12"/>non commisso, effectus
+        <p>Ita si corpus in mediis flammis illaesum et integrum consistat, effectus est
+                contranaturalis; si vero frumentum crescat semine terrae<pb xml:id="F12"/>non commisso, effectus
                 praternaturalis est. Quod si effectus sit huiusmodi, ut ex ordine naturae absolute
                 explicatum non habeat, qualis esset mortui suscitatio effectum adpello
                 praeternaturalem quoad substantiam; quoad modum autem si ex naturae ordine explicari
                 nequeat tantum ratione modi, quo producitur, uti gravis morbi depulsio momneto, aut
                 brevissimo tempore, nulloque adhibito medicamine facta.</p>
-            <p>V. Miraculum est effectus praeter et contranaturalis, seu opus, quos fit praeter et
-                contra ordinem naturae. <pb xml:id="F13"/>Hanc genuinam esse miraculi definitionem excussus, uti
+        <p>V. Miraculum est effectus praeter et contranaturalis, seu opus, quos fit praeter et
+                contra ordinem naturae.<pb xml:id="F13"/>Hanc genuinam esse miraculi definitionem excussus, uti
                 oportet, loquendi usus sat mihi manifesto ostendere videtur. Certus sum, homines hoc
                 vocabulo nunquam usos fuisse, nisi vel experti fuissent, vel experiri sibi saltem
                 fuissent visi effectus, qui naturae ordini conformiter non essent secuti. Et, ut,
@@ -168,18 +163,18 @@
                 supernaturales, minus recte tamen miracula vocarentur. Ita subita hominis conversio,
                 qualis illa fuit divi Pauli, inter vera miracula referenda est. Erronea iam quasdam
                 miraculi definitiones producamus.</p>
-            <p>** <persName>Spinozae</persName> miraculum erat opus naturae, cuius causam naturalem exemplo alterius rei
-                solitae explicare non possumus. Existimabat scilicet falso <persName>Spinoza</persName>, effectus omnes
+        <p>**<persName>Spinozae</persName>miraculum erat opus naturae, cuius causam naturalem exemplo alterius rei
+                solitae explicare non possumus. Existimabat scilicet falso<persName>Spinoza</persName>, effectus omnes
                 vi necessitatis et imutabilitatis legum secundum naturae ordinem contingere debere;
                 attamen nonnullorum causa naturale, quae huic ordini convenienter age<pb xml:id="F15"/>ret, a
                 nobis ignorari: et hos effectus miracula compellebat. Quae proin effectus essent vel
                 praeter vel contra naturae ordinem impossibilia esse censebat. Quo demum
                 consequitur, ut, si sincerus esse voluisset, miracula simpliciter negaset. Enimvero
-                tota <persName>Spinozae</persName> de miraculis disputatio verborum lusus sit, necesse est, ut optime
-                advertit <persName>Baylius</persName>. In illius enim systemate, ubi Deus cum natura confunditur,
+                tota<persName>Spinozae</persName>de miraculis disputatio verborum lusus sit, necesse est, ut optime
+                advertit<persName>Baylius</persName>. In illius enim systemate, ubi Deus cum natura confunditur,
                 miraculum necessario locum habere nequit.</p>
-            <p>
-          <persName>Lockius</persName> miraculum dicit operationem quamdam in sensus incurrentem, quae cum
+        <p>
+          <persName>Lockius</persName>miraculum dicit operationem quamdam in sensus incurrentem, quae cum
                 spectatoris captum exsuperet, ipsiusque opinione cursui naturae constituto
                 con<pb xml:id="F16"/>traria sit, ab eo pro divina habetur. Quis non videat, in re nostra non
                 spectatoris captum, sed realem ipsum rerum stratum attendi debere? Quod si enim
@@ -187,40 +182,40 @@
                 ab rudiori plebecula inter miracula censebuntur. Quapropter cum illis minime facio,
                 qui quemcunque indistinctim miraculorum iudicem constituunt. Si uspiam rerum
                 naturalium scientia opus est, in hoc negotio certo primas partes tenere debeat.</p>
-            <p>Alias miraculi falsas definitiones haud ignoro equidem, ab iis tamen esponendis
-                supersedeo. Nemo enim est, qui non pervideat, plerosque <pb xml:id="F17"/>istiusmodi architectos
+        <p>Alias miraculi falsas definitiones haud ignoro equidem, ab iis tamen esponendis
+                supersedeo. Nemo enim est, qui non pervideat, plerosque<pb xml:id="F17"/>istiusmodi architectos
                 simulato in re tota agere, eundemque duntaxat finem sibi proposuisse, ut rem
                 obscurarent, implicatamque redderent. Quod possibilitatem miraculorum attinet, is
                 nodum, si quis sit, iam solvit, qui possibiles esse efficit effectus, qui praeter,
                 et contra naturae ordinem sint: id quod sequentibus propositionibus manifestum
                 facere conabor.</p>
-            <p>VI. Si effectus praecipue contra naturae ordinem possibiles non sint, id aliter
+        <p>VI. Si effectus praecipue contra naturae ordinem possibiles non sint, id aliter
                 intelligi nequit, quam quod vel essentiis rerum creatarum, vel divinis attributis
                 contradicant.</p>
-                <pb xml:id="F18"/>
+        <pb xml:id="F18"/>
         <p>* Scilicet disputatio non instituitur contra atheos, sed Dei existentia hac in
                 controversia supponenda est. Quo dato distincta impossibilitatis notio veritatem
                 istam evidentissime demonstrat. Nec ipsi miraculorum hostium conatus de eadem
                 dubitare nos patiuntur.</p>
-            <p>VII. Si naturae leges physice contingentes sint et mutabiles effectus tum praeter,
+        <p>VII. Si naturae leges physice contingentes sint et mutabiles effectus tum praeter,
                 tum etiam contra naturae ordinem salvis rerum creatarum essentiis possibiles
                 sunt.</p>
-                <p>Naturae enim leges physicae contingentes solummodo <pb xml:id="F19"/>et mutabiles esse queunt,
+        <p>Naturae enim leges physicae contingentes solummodo<pb xml:id="F19"/>et mutabiles esse queunt,
                 quod rationatum sint liberrimae creatoris voluntas: nihil itaque prohibet, quominus
                 eae eadem voluntate salvis rerum essentiis suspendatur; et eventus hoc pacto in
                 mundo nasci possint, qui non tantum ex naturae ordine explicatum non habeant, verum
                 etiam qui illi repugnent, seu qui non tantum praeter, sed etiam contra naturae
                 ordinem sint.</p>
-            <p>Contempleris leges tantum naturae physicas superius traditas, summasque suspendi,
+        <p>Contempleris leges tantum naturae physicas superius traditas, summasque suspendi,
                 innumeros mox cognosces oriri debere, effe<pb xml:id="F20"/>ctus, qui sint et praeter et etiam
                 contra ordinem naturae. Atque in hypothesi, quod leges naturae physicae contingentes
                 sint et mutabiles, ea de causa quod suspendi, et mutari quant, possibilitas similium
                 effectuum res est tam manifesta, ut omnes propterea, qui eamnegant, leges naturae
                 physicas necessarias faciant, et immutabiles. De qua etiam hypothesi haec sit
                 propositio.</p>
-            <p>VIII. Quamvis naturae leges physicae necessariae forent et immutabiles, possibiles
+        <p>VIII. Quamvis naturae leges physicae necessariae forent et immutabiles, possibiles
                 tamen in mundo essent effectus, etiam contra naturae ordinem; idque illaesis rerum
-                creatarum essentiis. <pb xml:id="F21"/>Sint namque naturae leges physicae necessariae et
+                creatarum essentiis.<pb xml:id="F21"/>Sint namque naturae leges physicae necessariae et
                 immutabiles: quoniam normae sunt, quibus creatae vires actiones suas conformare
                 debeant; (§3) huius indolis ea tantummodo de causa esse intelligentur, quod rei
                 cuiusvis creatae essential sit, ut hoc determinate modo, non alio agat. Atqui hoc
@@ -233,14 +228,14 @@
                 evertendo. Quapropter, si istud fiat, ne insuperhabita legum naturae physicae
                 necessitate, atque immutabilitate effectus sequetur vel naturae ordinis adversus,
                 es<pb xml:id="F23"/>sentiis tamen rerum creatarum minime contrarius.</p>
-            <p>* Nec te moveat hunc in modum fors adornanda argumentatio: quia leges naturae morales
+        <p>* Nec te moveat hunc in modum fors adornanda argumentatio: quia leges naturae morales
                 necessariae, et immutabiles sunt, nihil contra eas fieri moraliter potest: ergo
                 nihil quoque fieri poterit physice contra leges naturae physicas, si iisdem sint
                 praeditae proprietatibus: id autem si fit, effectus contra naturae ordinem
                 possibilis non est. Ita enim argumentatis suppositum falsum esse, demonstrationem
                 iam iam adductam consideranti manifestum illico fiet. Effectus siquidem contra
                 naturae ordinem in hac hypothesi sequitur duntaxat, cum vis fortior se se immiscet:
-                atqui in hoc <pb xml:id="F24"/>casu nec concipi ulla lex physica potest. Et an forte dices, si
+                atqui in hoc<pb xml:id="F24"/>casu nec concipi ulla lex physica potest. Et an forte dices, si
                 Deo volente innocens morti tradatur, quid propterea contra leges morales committi?
                 Caeterum leges inter morales et physicas illud maxime est discriminis caput, quod
                 liberis actionibus sive in notione sua, sive ut omnibus circumscriptis circumstantis
@@ -251,13 +246,13 @@
                 naturae ordini adversum, salva<pb xml:id="F25"/>re rerum materiatarum essentia opus est tantum, ut
                 virium istarum actio aut effectus evertatur: illud repugnat; hoc maxime possibile
                 est.</p>
-            <p>** Ast possibilitas effectuum contra naturae ordinem insuperhabita quoque legum
+        <p>** Ast possibilitas effectuum contra naturae ordinem insuperhabita quoque legum
                 naturae physicarum necessitate, et immutabilitate ad evidentiam usque patescet, si
                 ad ipsum naturae ordinem attentionem deflexerimus. Hic videlicet, quum nonnisi in
                 corporum, et elementorum systemate obtineat, quamvis materiatarum rerum essentiam
                 constituas, ut hoc modo potius, quam alio agant, constans tamen deteminatusque in
                 certis circumstantiis agendi modus ex certa partium systema componentium
-                combinatione, certa coexistentia, <pb xml:id="F26"/>certa positione, aliisve similibus
+                combinatione, certa coexistentia,<pb xml:id="F26"/>certa positione, aliisve similibus
                 inadaequate dependebit. Iam, quoniam corporatae res essentia sua hanc prae altera
                 relate ad se invicem coexistentiam atque positionem non determinent, iis tantum
                 consideratis nihil prohibere potest, quin sive partialis, sive integri totalis
@@ -273,29 +268,29 @@
                 intelligis, insuper habita legum physicarum necessitate et immutabilitate tum
                 praetenaturales, tum et contranaturales effectus possibiles esse, quin ii essentiis
                 rerum creatarum contradicant.</p>
-            <p>*** Superest iam, ut possibilitatem effectuum, qui sint prater, et contra naturae
+        <p>*** Superest iam, ut possibilitatem effectuum, qui sint prater, et contra naturae
                 ordinem comparate etiam ad divina attributa evincere satagamus.</p>
-                <pb xml:id="F28"/>
+        <pb xml:id="F28"/>
         <p>IX. Qui effectuum praeter et contranaturalium impossibilitatem ex Dei attributis
                 derivare connituntur, id generis effectus immutabilitati, ac sapientiae divinae
                 contrarios esse, iactitative consueverunt.</p>
-            <p>* Posset fors etiam iam campum produici repugnantia cum divina omnipotentia, At, quae
+        <p>* Posset fors etiam iam campum produici repugnantia cum divina omnipotentia, At, quae
                 in proxima propositione dicenda et demonstranda sunt, ostendent facilem irritos
                 illius futuros ese conatur, qui id pertentaturus esset.</p>
-                <pb xml:id="F29"/>
+        <pb xml:id="F29"/>
         <p>X. Effectus praeter, et contra naturae ordinem sapientiae divinae non
                 repugnant.</p>
-            <p>Quamvis enim divina infinita sapientia postulante universum ita ordinatum,
+        <p>Quamvis enim divina infinita sapientia postulante universum ita ordinatum,
                 dispositumque sit oportea, ut absolute vi eventuum effectorumque primo ordini
                 convenientium finis a summo creatore intentus, quam optime fieri possit, impetrari
-                necessum sit: non repugnat tamen, ut adiuncta occurrant, in quibus <pb xml:id="F30"/>ille idem
+                necessum sit: non repugnat tamen, ut adiuncta occurrant, in quibus<pb xml:id="F30"/>ille idem
                 finis non creatoris, sed creaturarum facto felicius obtineatur per effectus, qui
                 ordini illi convenienter non consequantur: tam longe igitur abest, ut effectus sive
                 preter, sive etiam contra naturae ordinem in certis determionatisque adiunctis et
                 circumstantiis producendi divinae repugnent spaientiae, ut vel maxime eidem
                 amplificandae inservire valeant.</p>
-            <p>* Nimirum, quod mundus, quippe infinitae sapientiae opus sit, perfectissimus esse
-                debeat, consequens statim necessarium haud estm ut in <pb xml:id="F31"/>eiusdem ordine nihil
+        <p>* Nimirum, quod mundus, quippe infinitae sapientiae opus sit, perfectissimus esse
+                debeat, consequens statim necessarium haud estm ut in<pb xml:id="F31"/>eiusdem ordine nihil
                 inverti, nihilque immutari salva divina sapientia queat. Potest utique fieri, aliis
                 ommissis casibus, ut ratione praeditae, liberoque utentes arbitrio creaturae in
                 eiusmodi statum facto suo incidant, ut iis reparandis effectus constituto rerum
@@ -303,24 +298,23 @@
                 enim experientia est, homines hisce effectibus magis, quam iis, qui secundum naturae
                 ordinem et cursum eveniunt, ad officium suum exstimulari solere. Quis autem non
                 videat, productos in istiusmodi casu praeter, aut etiam contra naturae ordinem
-                efefctus sapientiam divinam reipsa illustrare? Vel an forte putas, spirtuum et
-                <pb xml:id="F32"/>agentium moralium universitatem maioris non esse Deo, quam corpora et agentia
+                efefctus sapientiam divinam reipsa illustrare? Vel an forte putas, spirtuum et<pb xml:id="F32"/>agentium moralium universitatem maioris non esse Deo, quam corpora et agentia
                 naturalia? Illos plane stultis accensendos esse existimo, qui hominum superbiae
                 attribuunt, quod brutis, inanimisque creaturis sese praestantiores aestiment. Verum
                 degeneres hi illi sunt potissimum, qui totum hominem materiem faciunt,
                 praestantissimasque, quibus posset, facultates non immateriatae substantiae, sed
                 certae compositioni corporeae adiudicant.</p>
-            <p>XI. Effectus praete, et contra naturae ordinem immutabilitati divinae non
+        <p>XI. Effectus praete, et contra naturae ordinem immutabilitati divinae non
                 repugnant.</p>
-                <pb xml:id="F33"/>
+        <pb xml:id="F33"/>
         <p>Deus enim, dum mundana entia creavit, eoque disposuit modo, ut ex eorumdem nexu
                 prodiret naturae ordo, quem in praesentiarum observamus, imo ab aeterno voluit, ut
                 in certis determinatisque adiunctis effectus producerentur non ex hoc ordine
                 explicandi, aut etiam illi contrarii: ergo, dum reipsa continguunt, nullus
                 voluntatum sequitur dissensus, et per consequens nulla in Deo mitatio, seu, quod in
-                idem cadit, effectus, qui sive praeter, sive <pb xml:id="F34"/>contra naturae ordinem sint,
+                idem cadit, effectus, qui sive praeter, sive<pb xml:id="F34"/>contra naturae ordinem sint,
                 immutabilitati divinae non repugnant.</p>
-            <p>* Ne autem, quae in hoc paragrapho continentur, excogitata esse arbitreris,
+        <p>* Ne autem, quae in hoc paragrapho continentur, excogitata esse arbitreris,
                 consideres velim, Deum omiscium esse, voluntateque perfectissima pollentem. Ut
                 omniscius non potuit non distinctissime cognoscere, effectus praeter, vel etiam
                 contra naturae ordinem in certis determinatisque circumstantiis media esse ad finem
@@ -328,27 +322,26 @@
                 sapientia praeditus illos semper voluisse censendus est. Non video igitur, qua
                 ratione exsculpere pos<pb xml:id="F35"/>sis, , propterea Deum mutatum iri, quod effectus vel
                 praeter, vel contra naturae ordinem in universo orirentur.</p>
-            <p>XII. Miracula sunt possibilia.</p>
-            <p>Miracula enim sunt effectus praete, et contra naturales, seu qui praeter, et contra
+        <p>XII. Miracula sunt possibilia.</p>
+        <p>Miracula enim sunt effectus praete, et contra naturales, seu qui praeter, et contra
                 naturae ordinem sunt: (§5) hi autem nec rerum creatarum essentiis, (§ 7, 8) nec
                 divinis attributis contradicunt: (§ 10 et 11) qua tantum in hypothesi possibilia non
-                esse <pb xml:id="F36"/>intelligerentur: (§6) miracula igitur possibilia sunt.</p>
-            <p>* Praestructis hoc pacto propositionibus miraculorum possibilitati hoc unicum adhuc
+                esse<pb xml:id="F36"/>intelligerentur: (§6) miracula igitur possibilia sunt.</p>
+        <p>* Praestructis hoc pacto propositionibus miraculorum possibilitati hoc unicum adhuc
                 obiici posse videtur: ex concessa miraculorum possibilitate fabulae sat multae,
                 eaeque non absurdae tantum, verum etiam admodum noxiae et antiquitus, et nostris
                 quoque temporibus evulgatae sunt: ergo possibilitas miraculorum, quippe quae
                 fraudibus atque deceptionibus portam aperiat, neganda est. Multa opus non est, haud
                 diffiteor, eruditione, nec mundi etiam experientia, ut, quod in antecedente dicitur,
-                verum esse cognoscatur. Ast sine multo quoque acumine logico perspicitur,
-                <pb xml:id="F37"/>fallaciam accidentis committi, si inde concludatur, miraculorum possibilitatem
+                verum esse cognoscatur. Ast sine multo quoque acumine logico perspicitur,<pb xml:id="F37"/>fallaciam accidentis committi, si inde concludatur, miraculorum possibilitatem
                 negandam esse. Quis enim non videat, hanc neutiquam causam esse per se, naturaque
                 sua fraudum ac deceptionum, quae committuntur, sed haec omnia fieri hominum vel
                 ignorantia vel malitia? Et an non multae etiam fabulae de Diis olim spargebantur?
                 Consequens tamen haud est, ut Dei existentiam ea propter inficiemur. Consultum, ut
-                ego quidem existimo, erit satis, si quae exscribo ex opere celeberrima <persName>Muratorii</persName> de
+                ego quidem existimo, erit satis, si quae exscribo ex opere celeberrima<persName>Muratorii</persName>de
                 moderatione ingeniorum in negotio religionis libro tertio, capitulo undecimo, monita probe sancteque
                 custodiantur: in hoc negotio (miraculorum scilicet) duplex animadverti potes
-                excessus <pb xml:id="F38"/>alter eorum, qui nimis multa, alter eorum, qui nimis pauca credunt.
+                excessus<pb xml:id="F38"/>alter eorum, qui nimis multa, alter eorum, qui nimis pauca credunt.
                 Iudicio illi, temeritate isti peccant. Nam exploratum est, fuisse olim, et adhuc
                 esse, immo eorum sobolem diu duraturam, qui miracula confixere, sive pravum, sive
                 bonum in finem; aliosque plures fuisse, qui sine ullo criterio, atque
@@ -356,32 +349,31 @@
                 posteros bona fide transmiserunt - - sed et alter excessus est, idem veris negare
                 fidem, quia flasis deprehenduntur immixta; et aeque stultum est nimis pauca, immo
                 nulla credere certa - - interim iudico critico heic opus est, et expendenda sunt
-                omnia, ut quantum fieri potest <pb xml:id="F39"/>miracula germana a spuriis, certa ab incertis,
+                omnia, ut quantum fieri potest<pb xml:id="F39"/>miracula germana a spuriis, certa ab incertis,
                 vera a falsis distinguatur.</p>
-            <p>XIII. Solus Deus potest esse vera efficiens causa miraculorum.</p>
-            <p>Deus enim solus, quippe totius universi auctor quum sit, in naturae ordinem dominium
+        <p>XIII. Solus Deus potest esse vera efficiens causa miraculorum.</p>
+        <p>Deus enim solus, quippe totius universi auctor quum sit, in naturae ordinem dominium
                 habet; nec cum eius sive sapientia sive bonitate consentire potest, ut alieno
                 arbitrio constitutum a se ordinem committat: miracula ergo, quae semper naturae
                 ordi<pb xml:id="F40"/>nis immutatione sunt, Dei effectus tantum esse queunt, seu solus Deus potes
                 esse vera efficiens causa miraculorum.</p>
-            <p>Cor. Miracula ergo tanquam signa habenda sunt, quibus Deus quispiam testetur; ac
+        <p>Cor. Miracula ergo tanquam signa habenda sunt, quibus Deus quispiam testetur; ac
                 consequenter, si certo cognoscatur, miraculum fuisse patratum in confirmationem
                 cuiusam doctrinae, aut alicuius facti, quoniam impossibile sit, Deum falsum testari,
                 de rei veritate impium foret addubitare.</p>
-            <p>* Ita demontratum esse intelligis, quod alii in ipsa statim sumunt definitione,
-                miraculum nimirum effectum esse supernaturalem. Convenientius id fieri, nisi mea me
-                <pb xml:id="F41"/>vehementer fallat opinio, ipsa docet disputationis huius natura. Certe
+        <p>* Ita demontratum esse intelligis, quod alii in ipsa statim sumunt definitione,
+                miraculum nimirum effectum esse supernaturalem. Convenientius id fieri, nisi mea me<pb xml:id="F41"/>vehementer fallat opinio, ipsa docet disputationis huius natura. Certe
                 propugnatores miraculum eo ab adversariis adducti, demum demonstrare coguntur,
                 ordinis naturae mutationem nonnisi divinum effectum esse posse. Quo iam manifesto
                 fateri videntur, ipsum miraculum in huiusmodi mutatione reponendum esse. Sed de hoc
                 consule § 5.</p>
-            <p>** Philosophia, dioces, sola spectata cognoscimus, possibiles esse substantias homine
+        <p>** Philosophia, dioces, sola spectata cognoscimus, possibiles esse substantias homine
                 excellentiores: incertum igitur philosophice etiam loquendo esse debet, an non
                 existant: si autem id sit reapse, cur non possint per ista miracula patrari? Certe
                 nobis obscurum, im<pb xml:id="F42"/>mo incognitum penitus sit oportet, quantae sint istiusmodi
                 substantiarum vires, ut saltem causa non suppetat, cur iis hanc virtutem
                 abiudicemus, solique Deo attribuamus. Obiecto haec speciosa magis est, quam solida.
-                Licet enim negari nequeat, nihil esse in <persName>Platonis</persName>, aliorumque philosophia doctrina
+                Licet enim negari nequeat, nihil esse in<persName>Platonis</persName>, aliorumque philosophia doctrina
                 de geniis, seu substantiis homine excellentioribus vulgarius; atque de horum
                 existentia dubitare nos non sinat revelatio; ipsaeque etiam eorundem vires nulla
                 nobis via sint cognitae: nihil tamen inde conficitur. Quantaecumque enim sint
@@ -394,7 +386,7 @@
                 sensibilibus praeter consuetum naturae ordinem immiscerent, id ab divina voluntate,
                 aut peculiari saltem Dei permissione dependeret: ut proinde causa tamen semper
                 principalis miraculorum Deus sit oporteat. Et quidem si sermo sit de malis geniis,
-                illud cuilibet indubium esse debet, divinae bonitati <pb xml:id="F44"/>omnino repugnare, ut iis
+                illud cuilibet indubium esse debet, divinae bonitati<pb xml:id="F44"/>omnino repugnare, ut iis
                 cursum naturae violare permittat in circumstantiis illis, ubi homines etiam citra
                 omnem suam culpam in perniciosum errorem inducerentur. Quocirca vel quid moliri
                 praeter, aut contra naturae ordinem, cursumque in confirmationem falsae doctrinae
@@ -402,7 +394,7 @@
                 cognoscentur, quod ad perfectum et permanentem effectum non perducantur, aut
                 operibus aliis vel dignitate, vel numero multo maioribus superabuntur. Semper
                 circumstantiis singularibus omnibus consideratis, reque ex omni parte examinata,
-                criterion supererit, unde opera Deo permittente facta ab iis, quae <pb xml:id="F45"/>ipso volente
+                criterion supererit, unde opera Deo permittente facta ab iis, quae<pb xml:id="F45"/>ipso volente
                 peracta sunt, discerni possint. Artem vero extare, qua praestari possit, ut ad
                 volitionem hominis spiritus nequam ordinem naturae invertendo humano generi noceat,
                 id est, quod mihi nunquam persuadere potero. Omnis enim tunc inter homines
@@ -411,26 +403,25 @@
                 doctissimique viri ultimis potissimum temporibus contra magiam scriptis suis
                 depugnarunt, tota haec ars hodie summo mortalium beneficio conticescit? Certe, cum
                 antea in annos singulos innumeri ferme ob magiae criminis suspicionem utriusque
-                sexus <pb xml:id="F46"/>homines rogo aut aliis suppliciis damnaretur, vix ulla nunc audiuntur
+                sexus<pb xml:id="F46"/>homines rogo aut aliis suppliciis damnaretur, vix ulla nunc audiuntur
                 huiusmodi exempla. An forte hisce scriptis ars magica sublata, et malo genio nocendi
                 potestas adempta est?</p>
-            <p>XIV. Ut in individuis adiunctis cum certitutiden de miraculo iudicium ferri possit,
+        <p>XIV. Ut in individuis adiunctis cum certitutiden de miraculo iudicium ferri possit,
                 opus haud est, ut leges naturae physicae omnes cognoscantur.</p>
-            <p>Ordo enim, cursusque naturae, quantum saltem ordinarium vitae nostrae regimen
-                <pb xml:id="F47"/>attinet, ita nobis est cognitus, ut sceptici tantum esse si velimus, de eo dubitare
+        <p>Ordo enim, cursusque naturae, quantum saltem ordinarium vitae nostrae regimen<pb xml:id="F47"/>attinet, ita nobis est cognitus, ut sceptici tantum esse si velimus, de eo dubitare
                 queamus: quoniam ergo ordo, cursusque naturae ex parte a legibus pendeat, nisi leges
                 extare contrarias contra omnem verisimilitudinem opinemur, in casibus individuis
                 exceptionem a lege, seu immutationem in naturae ordine factam esse, cum certitudine
                 iudicare poterimus: qui eventus cum sit miraculum, liquet, ut in individuis casibus
-                cum certitudine de miraculo iudicium <pb xml:id="F48"/>ferri possit, opus haud esse, ut leges
+                cum certitudine de miraculo iudicium<pb xml:id="F48"/>ferri possit, opus haud esse, ut leges
                 naturae physicae omnes cognoscantur.</p>
-            <p>* Russeavii sententia est, impium equidem esse negare, posse Deum patrare miracula,
+        <p>* Russeavii sententia est, impium equidem esse negare, posse Deum patrare miracula,
                 neminem tamen esse, qui cum certitudine de miraculo iudicare possit. Ita enim
                 ratiocinatur: miraculum est exceptio quaedam realis atque sensibilis ab naturae
                 legibus, seu sensibilis in ordine natuirae mutatio: ergo hae leges, ut de miraculo
                 iudicari possit, cognosci debent, et ut cum certitudine id fieri queat, omnes et
                 singulas haberi oportet in numerato. Quotusquisque autem est, qui id generis
-                cognitionem sibi vindicare <pb xml:id="F49"/>valeat? Argumentatio ad fucum faciendum vere
+                cognitionem sibi vindicare<pb xml:id="F49"/>valeat? Argumentatio ad fucum faciendum vere
                 aptissima. Cognoscit quivis experentia doctus, planetas constanter cursum suum intra
                 certum tempus certamque periodum absolvere; hominem inter flammas conlocatum
                 comburi, non sustentatum in aquis mergi, mortuum non reviviscere. Haec, inquam, et
@@ -445,7 +436,7 @@
                 postularet? Nec iuvat enim latibulum quaerere, ut probetur, neminem posse de
                 miraculo iudicare, in disciplinis naturalibus chymia, et physica, vocatis etiam in
                 auxilium scientiis mathematichis, quemadmodum citatus idem philosophus magna cum
-                eloquentia, iactataque eruditione hoc artificio utitur. <pb xml:id="F51"/>Quod enim scientiis
+                eloquentia, iactataque eruditione hoc artificio utitur.<pb xml:id="F51"/>Quod enim scientiis
                 illis imbutus effectus producere possit, qui rudibus hominibus miracula esse
                 videantur; consequens tantummodo est, non quemvis in quocunque casu aequum miraculi
                 iuicem censendum esse: quod supra sponte fatebantur. Nihilo tamen secius, quia nulla
@@ -455,99 +446,99 @@
                 cum certitudine iudicare possit. Recenseat igitur magna pompa Russeavius diversas
                 operationum chemicarum species, numerum ingen<pb xml:id="F52"/>tem experimentorum physicorum,
                 artefacta sat multa matheseos opera confecta: nunquam tamen, quod probandum sibi
-                sumpserat, persuadebit. </p>
+                sumpserat, persuadebit.</p>
       </div>
-            <div>
-                <pb xml:id="F53"/>
+      <div>
+        <pb xml:id="F53"/>
         <head>Positiones ex logica.</head>
       </div>
-            <div>
-            <p>I. Logica artificialis utpote scientia, quae dirigit mentem in vero cognoscendo et
+      <div>
+        <p>I. Logica artificialis utpote scientia, quae dirigit mentem in vero cognoscendo et
                 diiudicndo, versari debet circa ideas, iudicia, et ratiocinia. In ideis distinguit
                 potissimum inter ideas substantiarum et modorum abstractorum. Hae enim quoniam
                 obiectum non habent in reali rerum existentia, falsae esse nequeunt, nisi quatenus
                 ad aliorum ideas referuntur: illae vero falsae esse possunt etiam, si ad realem
                 rerum existentiam referantur, suntque semper tales, si referantur ad rerum realem
-                essentiam. </p>
-                <pb xml:id="F54"/>
+                essentiam.</p>
+        <pb xml:id="F54"/>
         <p>II. Inde est quoque, quod modorum abstractorum verae quidem sint et propriae
                 tales definitiones; nullatenus vero substantiarum potissimum materialium.</p>
-            <p>III. Si quae cavenda praecipit logica, naviter caveantur, nihil prohibet, quo minus
+        <p>III. Si quae cavenda praecipit logica, naviter caveantur, nihil prohibet, quo minus
                 testimonium sensuum externorum criterium veritatis veri nominis habeatur tum circa
                 corporum existentiam, tum etiam circa eorumdem adfectiones; uti non minus sensus
                 intimus circa ea, quae intra nos continguunt.</p>
-            <p>IV. Quoniam quae demonstrantur ex principiis certis et evidentibus erruntur,
+        <p>IV. Quoniam quae demonstrantur ex principiis certis et evidentibus erruntur,
                 demonstratio etiam legitime instituta iudiciorum mediatorum criterium veri iure
                 constituitur.</p>
-            <p>V. De testimonio hominum videtur magis ambigendum esse: quia tamen occurrere ea
+        <p>V. De testimonio hominum videtur magis ambigendum esse: quia tamen occurrere ea
                 adiuncta possunt, in quibus nec de scientia, nec de voluntate verum dicendi testis
                 dubitari potest, nihil obstare videtur, quo minus testimonioum pariter hominum inter
                 criteria veritatis annumeretur.</p>
-                <pb xml:id="F55"/>
+        <pb xml:id="F55"/>
         <p>VI. Multo autem magis id adserendum intelligitur de testimonio divino: quo tamen
                 non satis niti videntur ii, qui illud ad res mere naturales et physicas probandas
                 adhibent.</p>
-            <p>VII. Non videmus autem, cur inter veri nominis criteria censeatur sensus, ut dicitur,
+        <p>VII. Non videmus autem, cur inter veri nominis criteria censeatur sensus, ut dicitur,
                 communis; uti etiam non intelligimus, quare ultimo opus sit veritatis criterio, quod
                 in mentis evidentia reponatur.</p>
-            <p>VIII. Extantibus veri criteriis possibilem esse in hominibus oportet scientiam, etsi
+        <p>VIII. Extantibus veri criteriis possibilem esse in hominibus oportet scientiam, etsi
                 in multis supra probabilitatem eluctuari sit impossibile. Probabile vero recte
                 definiri censemus per id, quod ad veritatem accedit magis, quam recedit.</p>
       </div>
-            <div>
-            <head>Ex ontologia.</head>
+      <div>
+        <head>Ex ontologia.</head>
       </div>
-            <div>
-            <p>IX. Versatur Ontologia circa ens in genere. Entis autem nomine, non quod existit
-                tantum, sed quod etiam possibile est, venire debet. <pb xml:id="F56"/>Absurdum enim negare
+      <div>
+        <p>IX. Versatur Ontologia circa ens in genere. Entis autem nomine, non quod existit
+                tantum, sed quod etiam possibile est, venire debet.<pb xml:id="F56"/>Absurdum enim negare
                 videtur nobis possibilitatem internam negare.</p>
-            <p>X. Hinc est etiam , ut ceu principium evidens defendamus, essentias entium etiam
+        <p>X. Hinc est etiam , ut ceu principium evidens defendamus, essentias entium etiam
                 finitorum necessarias esse, aeternas, immutabiles.</p>
-            <p>XI. Et quoniam attributa determinationes entis sunt, quae in essentia rationem
+        <p>XI. Et quoniam attributa determinationes entis sunt, quae in essentia rationem
                 sufficientem habent; et ipsa necessaria, immutabilia, aeterna esse debere manifestum
                 est: quod de modis haudquaquam intelligitur.</p>
-            <p>XII. Perfectionem in entibus dicimus variorum in unum concordiam. Cogitur hinc, ad
+        <p>XII. Perfectionem in entibus dicimus variorum in unum concordiam. Cogitur hinc, ad
                 omnem perfectionem tria requiri, finem sc., varia, et consensum. Est vero primum
                 perfectio essentialis, naturalis, et accidentalis; dein simplex, et composita, ac
                 demum privativa, et positiva.</p>
-            <p>XIII. Ens omne aut simplex est, aut compositum. Hoc et oriri potest, quin fiat de
+        <p>XIII. Ens omne aut simplex est, aut compositum. Hoc et oriri potest, quin fiat de
                 nihilo, et interire, quin abeat in nihilum: illud contra, cum oritur, in instant ex
                 nihilo oritur, et, cum intererit in nihilum momento abit. Si extant entia composita,
                 et simplicia extare oportet.</p>
-                <pb xml:id="F57"/>
+        <pb xml:id="F57"/>
         <p>XIV. Spatium definimus per ordinem simultaneorum, quatenus sibi coexistunt; qui
                 ordo, si actualis sit, spatium reale; si vero possibilis tantum concipiatur, spatium
                 erit abstractum. Hinc sine rebus simultaneis existentibus spatium reale prossibile
                 non esse, manifesto fluit.</p>
-            <p>XV. Tempus quoque definimus per ordinem entium sibi succedentium, dividimusque in
+        <p>XV. Tempus quoque definimus per ordinem entium sibi succedentium, dividimusque in
                 reale, et abstractum, quorum primum sine entibus sibi actu succedentibus non
                 intelligitur.</p>
-            <p>XVI. Ad substantiae ideam opus non est, ut ens cogitetur, quod in se est, et per se
-                concipitur, intelligendo cum <persName>Spinoza</persName> ens, quod ad ens alius etiam ut eiusdem caussam
+        <p>XVI. Ad substantiae ideam opus non est, ut ens cogitetur, quod in se est, et per se
+                concipitur, intelligendo cum<persName>Spinoza</persName>ens, quod ad ens alius etiam ut eiusdem caussam
                 efficientem referendum non sit; sed sufficit, si ens repraesentetur perdurabile et
                 modificationum capax, unde totus pantheismus ruat, oportet.</p>
-            <p>XVII. Quid autem re ipsa unaquaeque substantia sit, definiri est impossibile. Hinc
+        <p>XVII. Quid autem re ipsa unaquaeque substantia sit, definiri est impossibile. Hinc
                 miramur phiolosophos illos, qui materiales substantias admittentes spirituales
                 negant, ea tantum ducti ratione, quod, qui eae sint, non concipiant.</p>
-                <pb xml:id="F58"/>
+        <pb xml:id="F58"/>
         <p>XVIII. Substantiis creatis potissimum materialibus vim vere agendi negant
                 Carthesiani. Etsi quaestio haec in physica solvenda sit, nos, qui contrariam
                 sententiam amplectimur, in metaphysica etiam Carthesianorum methaphysicis argumentis
                 respondebimus.</p>
-            <p>XIX. Propugnamus etiam, actionem in distans repugnare, nullo efficaci argumento
+        <p>XIX. Propugnamus etiam, actionem in distans repugnare, nullo efficaci argumento
                 demonstrari posse.</p>
       </div>
-            <div>
-            <head>Ex psychologia.</head>
+      <div>
+        <head>Ex psychologia.</head>
       </div>
-            <div>
-            <p>XX. Est psychologia scientia de anima praecipue humana. Extare in nobis ens, quod sui
+      <div>
+        <p>XX. Est psychologia scientia de anima praecipue humana. Extare in nobis ens, quod sui
                 rerumque extra se positarum est conscium, quod animam adpellamus, convincit
                 quemlibet experientia intima. Quum porro anima se discernere a rebus aliis et alias
                 a se invicem nequeat sine repraesentationibus, manifestum est, animam facultate
                 cognoscendi gaudere: quam in superiorem, quae res afficiendis sensibus ineptas, et
                 inferiorem, quae res id praestando aptas percipiti, tribuimus.</p>
-                <pb xml:id="F59"/>
+        <pb xml:id="F59"/>
         <p>XXI. Ad facultatem cognoscendi inferiorem pertinet facultas sentiendi, cuius
                 repraesentationes, si nullus comitetur dolor aut voluptas, sensuales ideas, si
                 contrarium, sensiones, aut sensationes adpellamus. Servare autem facultas sentiendi
@@ -556,342 +547,339 @@
                 per motum fibrillarum nervearum oscillatorium, aan per fluidum quoddam nerveum
                 mutationes in orgnais externis factae ad cerebrum deferantur, disputatur. Hoc
                 ultumum nobis probabilius videtur.</p>
-            <p>XXII. Facultas ideas rerum olim sensuum ope praeceptarum denuo reproducendi est
+        <p>XXII. Facultas ideas rerum olim sensuum ope praeceptarum denuo reproducendi est
                 phantasia. Attemperat se autem huic legi: si quae simul sensimus, et unius sensatio
                 denuo producitu, phantasia producit et perceptionem alterius. Caeterum cum iis non
                 sentimus, qui phantasiae locum non esse iudicant, nisi praecedentibus mutationibus
                 in organis externis factis.</p>
-            <p>XXIII. A phantasia pendet quidem memoria, sed minus tamen cum illa recte
+        <p>XXIII. A phantasia pendet quidem memoria, sed minus tamen cum illa recte
                 confunderetur: est enim facultas reproductas ideas recognoscendi. Ab hac etiam
                 distinguenda est reminescentia, utpote facultas circumstantiarum quarundam
                 adminiculo perceptions praeteritas recognoscendi.</p>
-                <pb xml:id="F60"/>
+        <pb xml:id="F60"/>
         <p>XXIV. In facultate cognoscendi superiori duplex praecipue est distinguenda
                 facultas: intellectus primum, cui viam veluti sternunt facultates attendendi et
                 reflectendi; dein ratio subiectiva, quam cum obiectiva non confundimus, cuius
                 intuitu asserimus contra Bailum, alia esse supra, alia contra rationem.</p>
-            <p>XXV. Ex facultate cognoscendi facultas adpetendi, et adversandi, et quidem ex
+        <p>XXV. Ex facultate cognoscendi facultas adpetendi, et adversandi, et quidem ex
                 inferiori inferior, seu facultas adpetendi et adversandi sensitiva; ex superiori
                 superior seu rationalis, seu etiam, voluntas et noluntas descendit. Nec facultas
                 porro adpetendi sine repraesentatione boni, quod id dicimus, quod novis
                 perfectionem, nec facultas aversandi sine repraesentatione mali, quod id adpellamus,
                 quod nobis imperfectionem adfert, in actum erumpere possunt.</p>
-            <p>XXVI. Repraesentationes autem boni et mali per sensus et phantasiam factae elateres
+        <p>XXVI. Repraesentationes autem boni et mali per sensus et phantasiam factae elateres
                 seu stimulos; quae vero per intellectum et rationem fiunt, motiva seu momenta
                 nuncupamus. Id hic propugnamus, bonum minus in comparatione maioris fieri
                 comparative malum, et malum minus in concursu mali maioris fieri comparative
                 bonum.</p>
-            <p>XXVII. Qui voluntatem maiori bonitate obiecti determinari aiunt, modo facultas
-                consultandi retinentur <pb xml:id="F61"/>periculosos libertati cuniculos non substruunt. Nequit
+        <p>XXVII. Qui voluntatem maiori bonitate obiecti determinari aiunt, modo facultas
+                consultandi retinentur<pb xml:id="F61"/>periculosos libertati cuniculos non substruunt. Nequit
                 enim libertas esse nisi arbitrium per rationem determinabile, seu facultas ex
                 pluribus possibilibus sponte eligendi, quod maxime placet.</p>
-            <p>XXVIII. Gaudere porro animam libertate, veritas est, quam evidenter nobis ultimato
+        <p>XXVIII. Gaudere porro animam libertate, veritas est, quam evidenter nobis ultimato
                 commonstrat sensus intimus.</p>
-            <p>XXIX. Anima humana utpote cogitandi vi instructa nequit esse ens compositum, nec
+        <p>XXIX. Anima humana utpote cogitandi vi instructa nequit esse ens compositum, nec
                 etiam substantia eius naturae, cuius sunt elementa corporum; ac per consequens nullo
                 sensu materia. Insuper intellectu et voluntate praedita esse cognoscitur. Restat
                 igitur, ut sit spiritus.</p>
-            <p>XXX. Ast si spiritus sit anima, qua ratione explicatur, quod inter eam et corpus
+        <p>XXX. Ast si spiritus sit anima, qua ratione explicatur, quod inter eam et corpus
                 intercedit, commercium? Ad id ex excogitatis tribus hypothesibus assistentiae,
                 harmoniae praestabilitate, et influxus physici, ultimam praeferimus, licet et istam
                 gravissimis difficultatibus obnoxiam esse fateamur.</p>
-            <p>XXXI. Non eadem est animae et corporis origo, ut Traducianorum opinio est, sed anima
+        <p>XXXI. Non eadem est animae et corporis origo, ut Traducianorum opinio est, sed anima
                 creatione tantum oriri potest.</p>
-                <pb xml:id="F62"/>
-        <p>XXXII. Praextitisse animas corporibus nec in sensu <persName>Origenis</persName>, nec in sensu
-                <persName>Leibnizii</persName> sustineri potest; sed probabilius tunc primo creantur animae, cum corpora,
+        <pb xml:id="F62"/>
+        <p>XXXII. Praextitisse animas corporibus nec in sensu<persName>Origenis</persName>, nec in sensu<persName>Leibnizii</persName>sustineri potest; sed probabilius tunc primo creantur animae, cum corpora,
                 quibus infundendae sunt, ad functiones aliquas vitales peragendas sunt apta.</p>
-            <p>XXXIII. Quod ad originem idearum attinet, nec probamus sententiam <persName>Malebrackii</persName>
-                docentis, animam humanam res externas ex archetypis rerum ideis in divina essentia
+        <p>XXXIII. Quod ad originem idearum attinet, nec probamus sententiam<persName>Malebrackii</persName>docentis, animam humanam res externas ex archetypis rerum ideis in divina essentia
                 contentis intelligere, nec illam Carthesianorum, ideas quasdam innatas esse
                 admittentium; sed ideas omnes a sensibus vel immediate vel mediate originem suam
                 habere, propugnamus.</p>
-            <p>XXXIV. Caeterum soluto animae et corporis commercio anima non interit: spectata enim
+        <p>XXXIV. Caeterum soluto animae et corporis commercio anima non interit: spectata enim
                 natura ipsius certo cognoscitur esse immortalitate naturali donata.</p>
-            <p>XXXV. Bruta non esse meras machinas, sed anima gaudere eaque simplici, docent eorum
+        <p>XXXV. Bruta non esse meras machinas, sed anima gaudere eaque simplici, docent eorum
                 actiones.</p>
-            <p>XXXVI. Carent tamen brutorum animae intellectu et ratione. Quae enim in iis
+        <p>XXXVI. Carent tamen brutorum animae intellectu et ratione. Quae enim in iis
                 observantur ratiociniorum umbrae, per rationis analogum explicari possunt.</p>
-                <pb xml:id="F63"/>
+        <pb xml:id="F63"/>
         <p>Unde videas, brutorum anima ab humanis longissime differre. At an spiritus sunt?
                 Cum intellectu et voluntate non sint praeditae, videntur quidem spiritus dici non
                 posse. Interim si eas quis vocare velit spiritus, de vocalibus non litigamus.</p>
       </div>
-            <div>
-            <head>Ex theologia naturali.</head>
+      <div>
+        <head>Ex theologia naturali.</head>
       </div>
-            <div>
-            <p>XXVII. Deum existere certissima est veritas. Ast, quae ad hanc demonstrandam
+      <div>
+        <p>XXVII. Deum existere certissima est veritas. Ast, quae ad hanc demonstrandam
                 veritatem, argumenta, attulerunt philosophi ex ordine mundi, ex idea Dei innata, ex
                 sensu communi, rem non videntur invicte conficere.</p>
-            <p>XXXVIII. Plenam existentiae Dei demonstrationem dant illi, qui ex existentia rerum
+        <p>XXXVIII. Plenam existentiae Dei demonstrationem dant illi, qui ex existentia rerum
                 innumerarum naturam quamdam aeternam, eamque independentem, atque eo ipso infinitam
                 existere demonstat.</p>
-            <p>XXXIX. Deus porro utpote natura infinita nonnisi unicus esse potest, immutabilis,
+        <p>XXXIX. Deus porro utpote natura infinita nonnisi unicus esse potest, immutabilis,
                 simplicissimus, immensus, omnipraesent, et omnipotens.</p>
-                <pb xml:id="F64"/>
+        <pb xml:id="F64"/>
         <p>XL. Ex eadem ratione gaudere praeterea debet Deus intellectu eoque
                 prerfectissimo. Unde non possibilia tantum, praeterita, et praesentia, sed etiam
                 futura, et quidem non modo necessaria, sed et libera distinctissime cognoscit.</p>
-            <p>XLI. Nec minus perfectissima voluntate praeditum esse Deum oportet, quae quoad
+        <p>XLI. Nec minus perfectissima voluntate praeditum esse Deum oportet, quae quoad
                 externos actus liberrima sit. Quocirca summe etiam bonus, sapiens, iustus ac sanctus
                 est Deus.</p>
-            <p>XLII. Quoniam mundus totus nonnisi entibus constat finitis, atque ultimo proin ex
+        <p>XLII. Quoniam mundus totus nonnisi entibus constat finitis, atque ultimo proin ex
                 nihilo produci debuit, necessum est, Deum esse mundi auctorem, atque ita ut quidquid
                 ex nihilo procreatum est in mundo, a solo Deo produci potuerit.</p>
-            <p>XLIII. Quamvis autem, quod Deus vult, id ab tot aeternitate velit; mundus tamen a Deo
+        <p>XLIII. Quamvis autem, quod Deus vult, id ab tot aeternitate velit; mundus tamen a Deo
                 creatus ab aeterno non est: imo nec creari potuisset.</p>
-            <p>XLIV. Ens sapiens, dum agit, finem sibi operationis suae aliquem proponit; nullum
+        <p>XLIV. Ens sapiens, dum agit, finem sibi operationis suae aliquem proponit; nullum
                 proinde est dubium, quin Deus in mundi procreatione finem quemdam sibi constituerit.
-                Et quoniam finis Deo dignus <pb xml:id="F65"/>alius esse nequit, quam Deus ipse, semetipsum pro
+                Et quoniam finis Deo dignus<pb xml:id="F65"/>alius esse nequit, quam Deus ipse, semetipsum pro
                 mundi fine Deum constituisse, pro certo habendum est.</p>
-            <p>XLV. Quum autem semetipsum non potuerit Deus pro mundi fine sibi proponere nisi quoad
+        <p>XLV. Quum autem semetipsum non potuerit Deus pro mundi fine sibi proponere nisi quoad
                 gloriam externam, consequitur, finem mundi esse gloriam Dei externam.</p>
-            <p>XLVI. Sed sapientiae partes sunt etiam, ut recte omnia ordinentur ad finem propositum
+        <p>XLVI. Sed sapientiae partes sunt etiam, ut recte omnia ordinentur ad finem propositum
                 obtinendum; sequitur igitur, ut omnia, quae in mundo sunt, conspirare debeant ad
                 mundi finem obtinendum. Hinc licet a posteriori mundi perfectio demonstrari non
                 possit, mundum tamen perfectum esse, imo perfectissimum, a priori evidenter
                 cognoscitur.</p>
-            <p>XLVII. An vero mundus, quem nos incolimus, optimus omnium possibilium sit, et
+        <p>XLVII. An vero mundus, quem nos incolimus, optimus omnium possibilium sit, et
                 perfectissimus, acriter disputarunt et disputant philosophi. Nos nec aientem, nec
                 negantem amplectimur definitive sententiam: defendimus tamen, argumenta ex notione
                 entis finiti, et infinitudine perfectionum divinarum, ex laesa libertate Dei, quae
                 aienti sententiae opponunt, sat firma non esse.</p>
-            <p>XLVIII. Quum res creatae natura sua existentiam continuare non possint,
-                conservationis divinae manifesta <pb xml:id="F66"/>adparet necessitas: quae si subtrahatur res in
+        <p>XLVIII. Quum res creatae natura sua existentiam continuare non possint,
+                conservationis divinae manifesta<pb xml:id="F66"/>adparet necessitas: quae si subtrahatur res in
                 nihilum abeunt; et per consequens ad annihilationem non exigimus actionem positivam,
                 ut clar. Genuensis volebat.</p>
-            <p>XLIX. Concurrere etiam Deum defendimus ad omnium causarum creatarum actiones:
+        <p>XLIX. Concurrere etiam Deum defendimus ad omnium causarum creatarum actiones:
                 necessitatem tamen haud pervidemus, ut id fiat per distinctam quandam a
                 conservatione actionem.</p>
-            <p>L. Deus demum ut sapientissimus omnium rerum actiones ad finem disponere debet; atque
+        <p>L. Deus demum ut sapientissimus omnium rerum actiones ad finem disponere debet; atque
                 adeo mundum gubernare intelligitur.</p>
-            <p>LI. In conservatione, concursu, et gubernatione reponimus providentiam: consequens
+        <p>LI. In conservatione, concursu, et gubernatione reponimus providentiam: consequens
                 igitur est, ut qui Deum res omnes conservare, ad earundem actiones concurrere,
                 demum easdem gubernare defendimus, propugnemus simul, Deum mundi etiam toti
                 providere.</p>
-            <p>LII. Quamvis porro in mundo utpote a Deo condito non possint omnia sapientissime esse
+        <p>LII. Quamvis porro in mundo utpote a Deo condito non possint omnia sapientissime esse
                 disposita, non obstat tamen, quin ea occurrere possint adiuncta, ut divinis
                 conveniat perfectionibus effectum producere, qui per nullas naturae viribus
                 explicari possit, seu miraculum. Sive enim leges motus statua mutabiles, sive
                 necessarias propugnamus, miracula per Deum possibilia esse.</p>
       </div>
-            <div>
-                <pb xml:id="F67"/>
+      <div>
+        <pb xml:id="F67"/>
         <head>De philosophia morali ex phil. pract. univ.</head>
       </div>
-            <div>
-            <p>LIII. Docet philosophia practica universalis notiones maxime generales, quae omnibus
+      <div>
+        <p>LIII. Docet philosophia practica universalis notiones maxime generales, quae omnibus
                 philosophiae moralis partibus ceu principia inserviant. Est omnis actio libera bona
                 vel mala moraliter, idque natura sua. Non possumus proinde eorum assentiri opinioni,
                 quia obiectivam negant moralitatem.</p>
-            <p>LIV. Inde tamen id tantum concludi concedimus, actiones liberas non dari
+        <p>LIV. Inde tamen id tantum concludi concedimus, actiones liberas non dari
                 indifferentes individuo; cum admittendam iudicemus indifferentiam actionum secundum
                 suam notionem spectatarum, seu, ut alii loqui amant, in specie.</p>
-            <p>LV. Imo, quoniam non repugnat, ad eumdem finem obtinendum plura dari aeque apta
+        <p>LV. Imo, quoniam non repugnat, ad eumdem finem obtinendum plura dari aeque apta
                 media, et obiectivam actionum indifferentiam defendimus.</p>
-                <pb xml:id="F68"/>
+        <pb xml:id="F68"/>
         <p>LVI. Quemadmodum vis nulla physica intelligitur obligari, nisi ligamentis
                 devinciatur; ita, ut voluntas etiam obligetur, vinculis quibusdam opus est. Quum
                 autem nulla alia vincula respectum voluntatis idonea esse possint praeter motiva seu
                 momenta; recte definiri obligationem moralem activam existimamus per convexionem
                 motivorum seu momentorum cum actionibus liberis nullo pacto formidantes censoriam
                 virgulam, qua definitio haec Wolfiana a quibusdam notatur.</p>
-            <p>LVII. Ex obligatione morali activa lex moralis promanat; cuius duae statuendae sunt
+        <p>LVII. Ex obligatione morali activa lex moralis promanat; cuius duae statuendae sunt
                 partes sanctio et edictum.</p>
-            <p>LVIII. Ad legis essentiale pertinere promulgationem, distinctae ipsius legis et
+        <p>LVIII. Ad legis essentiale pertinere promulgationem, distinctae ipsius legis et
                 obligationis notiones ostendunt.</p>
-            <p>LIX. Sed ex iisdem notionibus distinctis manifestum est quoque, leges proprie
+        <p>LIX. Sed ex iisdem notionibus distinctis manifestum est quoque, leges proprie
                 permissivas nonnisi chimaeris annumerandas esse.</p>
-            <p>LX. Id tamen non negamus, sed imo defendimus; leges praecipientes extare posse, quae
+        <p>LX. Id tamen non negamus, sed imo defendimus; leges praecipientes extare posse, quae
                 ex parte permittentes sint.</p>
-                <pb xml:id="F69"/>
+        <pb xml:id="F69"/>
         <p>LXI. Fieri potest, ut duae leges non mutatae, nec alias contrariae ita ob
                 eventum peculiarem discrepent, ut ambas custodire sit impossibile nullum proin
                 dubium, quin possibilis sit legum collisio.</p>
-            <p>LXII. Quo in statu exceptionem esse necessario admittendam, evidenter patet, quod ad
+        <p>LXII. Quo in statu exceptionem esse necessario admittendam, evidenter patet, quod ad
                 impossibile obligatio nulla esse possit. Institui vero ita, exceptio debet, ut lex
                 fortior debiliori, bonum totius bono partis, lex fundamentalis legi minus
                 fundamentali praeferatur.</p>
-            <p>LXIII. Legum divisio in divinas et humanas; dein in naturales et positivas facienda
+        <p>LXIII. Legum divisio in divinas et humanas; dein in naturales et positivas facienda
                 est. Est enim lex etiam naturalis divina.</p>
-            <p>LXIV. Legum naturalium existentia nec ex sensu communi, nec ex idei innatis recte
+        <p>LXIV. Legum naturalium existentia nec ex sensu communi, nec ex idei innatis recte
                 demonstratur.</p>
-            <p>LV. Ex attributis vero divinis necessitas et existentia quidem cuiusdam legi
+        <p>LV. Ex attributis vero divinis necessitas et existentia quidem cuiusdam legi
                 evincitur; at luculenta legum naturalium demostratio ex sola naturae hominis
                 propriae, atque actionum humanarum consioderatiore peritur.</p>
-                <pb xml:id="F70"/>
+        <pb xml:id="F70"/>
         <p>LXVI. Quoniam tamen naturales actionum consecutiones legum naturalium pro omni
                 casu sanctionem sufficientem haud continent, adfirmamus; praemiis aliis a divina
                 bonitate, aliisque poenis a divina iustitia expectandis easdem esse communitas.</p>
-            <p>LXVII. Legum naturalium principium essendi, proximum stratuimus in essential hominis,
+        <p>LXVII. Legum naturalium principium essendi, proximum stratuimus in essential hominis,
                 rerumque; remotum vero et ultimum in essentia divina. Actualitatis autem principium
                 proximum est eadem natura humana rerumque existens; et remorum et ultimum est
                 voluntas divina.</p>
-            <p>LXVIII. Quod principium cognoscendi legum naturalium adtinet, illud esse defendimus
+        <p>LXVIII. Quod principium cognoscendi legum naturalium adtinet, illud esse defendimus
                 fines rerum a Deo conditarum, quatenus ex ipsa earum essentia, atque natura solo
                 rationis lumine intelligi, atque actionibus nostris liberis adplicari possunt.</p>
-            <p>LXIX. Sunt porro leges naturales necessariae, aeternae, immutabiles, omni sensu
+        <p>LXIX. Sunt porro leges naturales necessariae, aeternae, immutabiles, omni sensu
                 universales, et sanctae.</p>
-            <p>LXX. Conscientiam esse iudicium, asserimus, de propriarum actionum honestate et
+        <p>LXX. Conscientiam esse iudicium, asserimus, de propriarum actionum honestate et
                 turpitudine, hocque ratiocinationem vere syllogisticam, cuius maior le<pb xml:id="F71"/>gem, minor
                 actionem, conclusio sententiam contineat.</p>
-            <p>LXXI. Tam qui secundum conscientiam vincibiliter erroneam, quam qui contra eandem
+        <p>LXXI. Tam qui secundum conscientiam vincibiliter erroneam, quam qui contra eandem
                 agit, peccati reum se facit.</p>
-            <p>LXXII. Qui dubia est instructus conscientia, an actio sit praecepta, illam suscipere,
+        <p>LXXII. Qui dubia est instructus conscientia, an actio sit praecepta, illam suscipere,
                 qui autem dubitat, an actio sit prohibita, illam omittere, qui demum dubitat, an
                 actio sit praecepta vel prohibita, illam suspendere obligatur.</p>
-            <p>LXXIII. Qui ex gravibus quidem rationibus actionem esse licitam, ex maioribus tamen
+        <p>LXXIII. Qui ex gravibus quidem rationibus actionem esse licitam, ex maioribus tamen
                 illicitam esse iudicat, minus verisimili iudicio adhaerere prohibetur.</p>
-            <p>LXXIV. Si tamen nihil certi habere possit, concedimus, ut quis iudicium sequatur,
+        <p>LXXIV. Si tamen nihil certi habere possit, concedimus, ut quis iudicium sequatur,
                 quod ipsi probabile adparet.</p>
-            <p>LXXV. Est imputatio nihil aliud quam iudicium, quo cuiusdam arbitrio libero factum,
+        <p>LXXV. Est imputatio nihil aliud quam iudicium, quo cuiusdam arbitrio libero factum,
                 eiusque consectaria adsignantur. Hinc obiectum imputationis nonnisi actiones
                 liberae, subiectum vero ii tantum, agendi libertate praediti sunt, absolvere
                 possunt.</p>
-                <pb xml:id="F72"/>
+        <pb xml:id="F72"/>
         <p>LXXVI. Illud insuper patet, moralitatem seu a libertate dependentiam fundamentum
                 esse imputationis, atque eiusdem quantitatem ex libertatis quantitate esse
                 repetendam. Quocirca quo maior spontaneitas, contingentia et ratio, eo etiam maior
                 debet esse imputatio.</p>
       </div>
-            <div>
-            <head>Ex iure naturae.</head>
+      <div>
+        <head>Ex iure naturae.</head>
       </div>
-            <div>
-            <p>LXXVII. Triplex est obiectum legum naturalium, Deus sc. nosmetipsi et alii homines.
+      <div>
+        <p>LXXVII. Triplex est obiectum legum naturalium, Deus sc. nosmetipsi et alii homines.
                 Ad divinam gloriam illustrandam nos esse lege naturali obligatos, fines divinae
                 creationis sat luculenter ostendunt. Imo propositio haec: illustra gloriam divinam
                 est principium officiorum omnium erga Deum mentium.</p>
-            <p>LXXVIII. Officiorum vero erga Deum negantium principium illam ponimus propositionem:
+        <p>LXXVIII. Officiorum vero erga Deum negantium principium illam ponimus propositionem:
                 ne obscures gloriam Dei.</p>
-            <p>LXXIX. Porro, qui illustrat divinam gloriam, Deum colit. Cultus autem Deo adhibendus
+        <p>LXXIX. Porro, qui illustrat divinam gloriam, Deum colit. Cultus autem Deo adhibendus
                 non tantum internus est, sed etiam externus.</p>
-                <pb xml:id="F73"/>
+        <pb xml:id="F73"/>
         <p>LXXX. Fines divinae creationis commonstrant etiam, nos nobismetipsis officia
                 debere. Haec autem animam, corpus, et statum externum respiciunt.</p>
-            <p>LXXXI. Autochiria, quae est sui occisio propria auctoritate facta, est semper
+        <p>LXXXI. Autochiria, quae est sui occisio propria auctoritate facta, est semper
                 vetita.</p>
-            <p>LXXXII. Cum officia nobis debita sint erga animum, corpus, et statum externum, atque
+        <p>LXXXII. Cum officia nobis debita sint erga animum, corpus, et statum externum, atque
                 in horum omnium implemento, nostri perfectio consistat, consequens est, ut officia
                 nobis debita seiungenda non sint.</p>
-            <p>LXXXIII. Quod collisio officiorum erga nosmetipsos oriatur, exceptio ita facienda
+        <p>LXXXIII. Quod collisio officiorum erga nosmetipsos oriatur, exceptio ita facienda
                 est, ut officia erga animam officiis erga corpus; huius autem officiis ratione opum
                 praeferenda sint.</p>
-            <p>LXXXIV. Quum officia erga Deum affirmativa non obligent, nisi data occasione, non
+        <p>LXXXIV. Quum officia erga Deum affirmativa non obligent, nisi data occasione, non
                 dubitamus defendere, officia erga nos necessitatis, aut magnae etiam utilitatis in
                 collisione illis esse praeferenda.</p>
-            <p>LXXXV. Officia autem erga Deum negantia ita sancte servanda sunt, ut in cuiuscunque
+        <p>LXXXV. Officia autem erga Deum negantia ita sancte servanda sunt, ut in cuiuscunque
                 officii collisione sint semper praehabenda.</p>
-                <pb xml:id="F74"/>
+        <pb xml:id="F74"/>
         <p>LXXXVI. Ex finibus divinae creationis et illud demum intelligitur, ad officia
                 erga alios naturalia nos esse obstrictos: quae in perfecta, et imperfecta tribuimus.
                 Imperfecta hac propositione continentur: alios perfice, seu quod tibi vis fieri,
                 alteri feceris. Ad haec porro cogi nemo potest.</p>
-            <p>LXXXVII. Quum ad alios perficiendos obligemur, consequitur necessario, officium esse
+        <p>LXXXVII. Quum ad alios perficiendos obligemur, consequitur necessario, officium esse
                 alios amare, atque ita, ut non tantum amici, sed inimici amandi sint.</p>
-            <p>LXXXVIII. Amor porro aliorum ita efficax sit, oportet, ut non tantum quae innoxiae,
+        <p>LXXXVIII. Amor porro aliorum ita efficax sit, oportet, ut non tantum quae innoxiae,
                 verum, quae noxiae etiam utilitatis officia sunt, aliis sint praestanda.</p>
-            <p>LXXXIX. Hoc autem ipso lege naturali alios laedere vetitum esse debere manifestum
+        <p>LXXXIX. Hoc autem ipso lege naturali alios laedere vetitum esse debere manifestum
                 est. Imo haec propositio: neminem laedas, seu quod tibi non vis fieri, alteri ne
                 feceris, officia omnia erga alios perfecta continet.</p>
-            <p>XC. Laesio infertur alteri vel aliquid de to suo alterius auferendo, vel alium in
+        <p>XC. Laesio infertur alteri vel aliquid de to suo alterius auferendo, vel alium in
                 exercitio iuris sui impediendo, sive ius illud perfectum sit sive imperfectum.</p>
-            <p>XCI. Inde manifesto colligitur, leges naturales vetari homicidium tum dolosum tum
-                culposum, alium <pb xml:id="F75"/>in errorem induci praecipue in cognitione boni vel mali,
+        <p>XCI. Inde manifesto colligitur, leges naturales vetari homicidium tum dolosum tum
+                culposum, alium<pb xml:id="F75"/>in errorem induci praecipue in cognitione boni vel mali,
                 voluntatem alterius moresque corrumpere, sanitatem perdere; alterius famae et
                 existimationi detrahere. In quam ultimam legem committere maximopere iudicamus
                 illos, qui vel spargunt, vel credunt criminationes vagas.</p>
-            <p>XCII. Quum qui laesionem non reparat, laedere pergat, colligitur, laedentem ad damni
+        <p>XCII. Quum qui laesionem non reparat, laedere pergat, colligitur, laedentem ad damni
                 reparationem obligari: quae si fieri potest, restitutione facienda est, sin minus,
                 alia possibili satisfactione.</p>
-            <p>XCIII. In collisione officiorum erga se ipsum cum officiis erga alios illud
+        <p>XCIII. In collisione officiorum erga se ipsum cum officiis erga alios illud
                 communiter receptum, charitatem a se ipso inchoare, non probamus: sed quod
                 perfectius est, eligendum esse, iudicamus.</p>
-            <p>XCIV. In pari autem causam semper meliorem esse debere conditionem to suum
+        <p>XCIV. In pari autem causam semper meliorem esse debere conditionem to suum
                 defendentis veritas est nobis explorata.</p>
-            <p>XCV. Quid vero si alius iniuste nos aggrediatur? Mediis lenioribus deficientibus in
+        <p>XCV. Quid vero si alius iniuste nos aggrediatur? Mediis lenioribus deficientibus in
                 iis circumstantiis, in quibus aequale bonum est se defendere, et a defensione
                 abstinere, defensio etiam cum internacione adgressoris permissa est.</p>
-            <p>XCVI. Si maius bonum sit se defendere, defensio est praecepta: si denique a
+        <p>XCVI. Si maius bonum sit se defendere, defensio est praecepta: si denique a
                 defensione abstinere maius sit bonum , defensio est vetita.</p>
-                <pb xml:id="F76"/>
+        <pb xml:id="F76"/>
         <p>XCVII. Quia vero occisio calumniatoris ad famam defendendam nec aptum nec
                 necessarium remedium esse potest: ius ad occidendum calumniatorem nemini
                 competit,</p>
-            <p>XCVIII. Ex eadem ferme ratione inter licitas iure naturae defensionis species
+        <p>XCVIII. Ex eadem ferme ratione inter licitas iure naturae defensionis species
                 Monomachia, seu duellum referendum non est.</p>
-            <p>XCIX. Falsiloquium dicimus sermonem a mente alienum: quod minime confundendum est cum
+        <p>XCIX. Falsiloquium dicimus sermonem a mente alienum: quod minime confundendum est cum
                 mendacio. Haud recta enim est medacii definitio, quod locutio sit simpliciter contra
                 mentem.</p>
-            <p>C. Regulas etiam logices migrant tum ii, qui mendacium definiunt per locutionem
+        <p>C. Regulas etiam logices migrant tum ii, qui mendacium definiunt per locutionem
                 contra mentem illi factam, qui sciendae veritatis ius habet perfectum; tum et illi,
                 qui mendacium dicunt sermonem a mente alienum in nostrum, vel aliorum damnam
-                directum. Vera mendacii definito est illa sancti <persName>Augustini</persName> Enchir. c. 22: locutio
+                directum. Vera mendacii definito est illa sancti<persName>Augustini</persName>Enchir. c. 22: locutio
                 contra mentem animo alterum fallendi.</p>
-            <p>CI. An locutio contra mentem in casu summae necessitatis seu nostrae seu alienae
+        <p>CI. An locutio contra mentem in casu summae necessitatis seu nostrae seu alienae
                 legibus repugnet naturalibus? Quaestio est, ut d. Augustinus ait latebrosa et inter
                 doctus alternas. Nos in huius<pb xml:id="F77"/>modi casu falsiloquium illicitum esse adserere non
                 audemus.</p>
-            <p>CII. Restrictiones pure mentales aequipollent medacio; et per consequense illicitae
+        <p>CII. Restrictiones pure mentales aequipollent medacio; et per consequense illicitae
                 sunt: restrictio vero non pure mentalis ambiguo sermoni aequivalet: igitur, quando
                 nulla est obligatio clarius loquendi, ea non erit illicita.</p>
-            <p>CIII. Quia promissio acceptata est pactum: et qui metum alteri incutit promissum
+        <p>CIII. Quia promissio acceptata est pactum: et qui metum alteri incutit promissum
                 acceptare non potest, defendimus, pacta metu ioniusto extorta esse nulla.</p>
-            <p>CIV. Contractum faenebrem legi naturali indistinctim repugnare, non putamus.</p>
+        <p>CIV. Contractum faenebrem legi naturali indistinctim repugnare, non putamus.</p>
       </div>
-            <div>
-            <head>Positiones ex geometria et trigonometria.</head>
+      <div>
+        <head>Positiones ex geometria et trigonometria.</head>
       </div>
-            <div>
-            <p>I. Circulus est figura plana, linea in se redeunte terminata, in qua quaevis lineae
-                rectae, a centro ad quodvis peripheriae punctum <pb xml:id="F78"/>ductae inter se aequales sunt.
+      <div>
+        <p>I. Circulus est figura plana, linea in se redeunte terminata, in qua quaevis lineae
+                rectae, a centro ad quodvis peripheriae punctum<pb xml:id="F78"/>ductae inter se aequales sunt.
                 Sphera gignitur, semicirculo iuxta diametrum in orbem rotato. Quare et radii tam
                 sphaerae quam circuli inter se aequantur, et diametri et circulum et peripheriam in
                 partes aequales secant.</p>
-            <p>II. Pars peripheriae quantalibet arcus dicitur, indeque petitur mensura angulorum
+        <p>II. Pars peripheriae quantalibet arcus dicitur, indeque petitur mensura angulorum
                 diversa pro diverso scilicet angulorum sive ad centrum, sive extra centrum, sive ad
                 peripheriam situ.</p>
-            <p>III. Arcus aequales in iisdem aut aequalibus circulis chordas pariter aequales;
+        <p>III. Arcus aequales in iisdem aut aequalibus circulis chordas pariter aequales;
                 similes in inaequalibus chordas radiis similes praetendunt: ad quas si ex centro
                 perpendicularis ducatur, secabit illa et arcum et chordam bifariam.</p>
-            <p>IV. Circulis area est aequalis areae trinaguli, cuius basis sit peripheria, et
+        <p>IV. Circulis area est aequalis areae trinaguli, cuius basis sit peripheria, et
                 altitudo radius. Sunt igitur circuli in ratione composite peripheriarum, et
                 radiorum. Sunt item in ratione duplicate diametrorum, et radiorum.</p>
-            <p>V. Data chorda et radio, invenitur chora arcus dimidi; dato item latere polygoni
+        <p>V. Data chorda et radio, invenitur chora arcus dimidi; dato item latere polygoni
                 regularis inscripti invenitur latus polygoni circumscripti.</p>
-            <p>VI. Ratio diametric ad peripheriam est secundum <persName>Archimedem</persName> ut 7 ad 22 fere; secundum
-                <pb xml:id="F79"/>Ludolphum a Ceule, resectis notis ultimis, ut 100 ad 314, aut ut 10000 ad
+        <p>VI. Ratio diametric ad peripheriam est secundum<persName>Archimedem</persName>ut 7 ad 22 fere; secundum<pb xml:id="F79"/>Ludolphum a Ceule, resectis notis ultimis, ut 100 ad 314, aut ut 10000 ad
                 31415; secundum Adrianum Metium ut 113 ad 355 quam proxime.</p>
-            <p>VII. Hac ratione posita invenitur porro, data diametro, circuli peripheria et area;
+        <p>VII. Hac ratione posita invenitur porro, data diametro, circuli peripheria et area;
                 data item peripheria aut area invenitur diameter.</p>
-            <p>VIII. Invenitur etiam, dato radio circuli et ratione arcus ad peripheriam area
+        <p>VIII. Invenitur etiam, dato radio circuli et ratione arcus ad peripheriam area
                 sectoris, itemque data altitudine et dimidia basi, area segmentorum.</p>
-            <p>IX. Quodsi ad diametrum circuli ex peripheria demittatur perpendicularis; erit ea
+        <p>IX. Quodsi ad diametrum circuli ex peripheria demittatur perpendicularis; erit ea
                 media proportionalis inter sagittam, et alteram diametri partem. Data igitur sagitta
                 et chorda dimidia invenitur diameter.</p>
-            <p>X. Sphaera aequatur pyramidi, cuius basis aequalis sit super<unclear/>, et altitudo radio
+        <p>X. Sphaera aequatur pyramidi, cuius basis aequalis sit super<unclear/>, et altitudo radio
                 spherae; ad cylindrum vero eiusdem baseos et altitudinis est ut 2 ad 3, et ad conum
                 ut 2 ad 1. Superficies porro spherae et quadrupla circuli maximi.</p>
-            <p>XI. Quare data diametro, inveniri spaerae superficies perinde ac soliditas potest:
+        <p>XI. Quare data diametro, inveniri spaerae superficies perinde ac soliditas potest:
                 superficies quidem, aut peripheria in diametrum, aut area circuli maximi in 4ducta;
-                soliditas vero, aut <pb xml:id="F80"/>inventa peripheria et area circuli maximi in 1/3 diametri,
+                soliditas vero, aut<pb xml:id="F80"/>inventa peripheria et area circuli maximi in 1/3 diametri,
                 aut inventa superficie in 1/6 diametri ducta.</p>
-            <p>XII. Spherae sunt ut cubi diametrorum; cubus autem diametri est ad sphaeram ut 300 ad
+        <p>XII. Spherae sunt ut cubi diametrorum; cubus autem diametri est ad sphaeram ut 300 ad
                 157.</p>
-            <p>XIII. Trigonometria plana est scientia, datis tribus trianguli rectilinei partibus,
+        <p>XIII. Trigonometria plana est scientia, datis tribus trianguli rectilinei partibus,
                 inveniendi reliquas, id est, datis lateribus angulos, aut datis partim lateribus
                 partim angulis vel angulos vela latera. Quod cum per regulam auream fiat, nullaque
                 detur inter latera et angulorum arcus proportio, pro angulis aliae quaedam rectae
                 sunt substitutae, quae sinus, tangentes, secantes et caetera vocantur.</p>
-            <p>XIV. Sinus est dimidium chordae arcus dupli, datoque sinu invenitur cosinus, sinus
+        <p>XIV. Sinus est dimidium chordae arcus dupli, datoque sinu invenitur cosinus, sinus
                 arcus dimidii aur dupli, tangens item et secans eiusdem arcus.</p>
-            <p>XV. In omni triangulo latera sunt ut sinus angulorum oppositorum; et sinus angulorum
+        <p>XV. In omni triangulo latera sunt ut sinus angulorum oppositorum; et sinus angulorum
                 ut latera opposita. Datis igitur duobus angulis cum latere uni eorum oppositio
                 invenitur latus alteri quoque oppositum.</p>
-            <p>XVI. Datis item tribus lateribus inveniuntur anguli, et datis duobus lateribus cum
-                angulo uni eorum opposito, aut intercepto inveniuntur anguli reliqui. </p>
-            </div>
-        </body>
-    </text>
+        <p>XVI. Datis item tribus lateribus inveniuntur anguli, et datis duobus lateribus cum
+                angulo uni eorum opposito, aut intercepto inveniuntur anguli reliqui.</p>
+      </div>
+    </body>
+  </text>
 </TEI>

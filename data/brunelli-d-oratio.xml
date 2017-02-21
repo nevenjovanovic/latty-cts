@@ -1,137 +1,131 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="brunelli-d-oratio">
-            <titleStmt>
-                <title>Oratio genethliaca, versio electronica</title>
-                <author key="brunelli01">
-                    <name xml:lang="dt">Brunelli, Domenico</name>
-                  <date>1686-1756</date>
-                </author>
-                <respStmt>
-                    <resp>Hanc versionem electronicam curavit</resp>
-                    <name>Clementina Marsico</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>transcribed from the printed text</edition>
-            </editionStmt>
-            <extent>17 paginae</extent>
-            
-            <publicationStmt>
-                <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
+  <teiHeader>
+    <fileDesc xml:id="brunelli-d-oratio">
+      <titleStmt>
+        <title>Oratio genethliaca, versio electronica</title>
+        <author key="brunelli01">
+          <name xml:lang="dt">Brunelli, Domenico</name>
+          <date>1686-1756</date>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Clementina Marsico</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>17 paginae</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
         </p>
-            </publicationStmt>
-            
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <title>Oratio genethliaca</title>
-                        <imprint>
-                            <pubPlace>Innsbruck</pubPlace>
-                            <date when="1741">1741</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-                <bibl>SEM, E23</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date when="1741">1741</date>
-            </creation>
-            <textClass>
-                <keywords scheme="time">
-                    <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens (1773)</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>Rede</term>
-                    <term>Oratio genethliaca</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        
-        <revisionDesc>
-            <change>corrected teiHeader and body<date>2015-09-29</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>Oratio genethliaca</title>
+            <imprint>
+              <pubPlace>Innsbruck</pubPlace>
+              <date when="1741">1741</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>SEM, E23</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1741">1741</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens (1773)</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Rede</term>
+          <term>Oratio genethliaca</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>corrected teiHeader and body<date>2015-09-29</date>
         <name>Johanna Luggin</name>
       </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div>
-            <head>Oratio genethliaca, quam in solennitate publica nati serenissimi regis <placeName>Hungariae</placeName>, et
-                <placeName>Bohemiae</placeName>, principis, <placeName>Austriae</placeName> archiducis, et comitis Tyroleos et caetera et caetera
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Oratio genethliaca, quam in solennitate publica nati serenissimi regis<placeName>Hungariae</placeName>, et<placeName>Bohemiae</placeName>, principis,<placeName>Austriae</placeName>archiducis, et comitis Tyroleos et caetera et caetera
                 Josephi Benedicti Augusti Michaelis Joannis Antonii Adami ante sacrum festivum, et
                 hymnum sub eo Ambrosianum ad senatum populumque academicum devotissimae almae
                 caesareo-Leopoldinae universitatis Oenipontanae in templo SS. Trinitatis Societatis
-                Jesu ibidem dixit <persName>Dominicus Brunelli</persName>, SS. theologiae doctor, S.R.M. <placeName>Hungariae</placeName> et
-                <placeName>Bohemiae</placeName> reginae in sacris scripturis professor ord. publicus, archiducalis
+                Jesu ibidem dixit<persName>Dominicus Brunelli</persName>, SS. theologiae doctor, S.R.M.<placeName>Hungariae</placeName>et<placeName>Bohemiae</placeName>reginae in sacris scripturis professor ord. publicus, archiducalis
                 Parthenonis regularium sacellanus, et sacrae facultatis pro tempore decanus. Die 30
-                aprilis divi Josephi patrocinio sacra anno reparata salutis <date>1741</date>.</head>
+                aprilis divi Josephi patrocinio sacra anno reparata salutis<date>1741</date>.</head>
       </div>
-            <pb/>
-            <div>
-            <pb xml:id="A1r"/>
+      <pb/>
+      <div>
+        <pb xml:id="A1r"/>
         <p>Thema. Congratulamini mihi, quia inveni drachmam, quam perdideram. Lucae 15, v.
                 9.</p>
-            <p>Non somnio, nec sum in insula Patmos cum Joanne. Vere ex repetitis horum montium
+        <p>Non somnio, nec sum in insula Patmos cum Joanne. Vere ex repetitis horum montium
                 boatibus et reboatibus, quasi Joannes in Patmos, audivi vocem turbae magnae, et
                 sicut vocem tonitruorum magnorum dicentium: alleluja: laudem dicite Deo nostro omnes
                 servi eius, pusilli et magni.<note place="foot" xml:id="ftn1" n="1">
-            <p rend="footnote text"> Apocal. 19 v. 5, 6.</p>
-          </note> Non somnio. Eja!
+            <p rend="footnote text">Apocal. 19 v. 5, 6.</p>
+          </note>Non somnio. Eja!
                 Exultemus, succinamus, iubilantes succlamemus, repetamus et nos: alleluja, alleluja,
                 alleluja! Post densa enim nubila, imo inter nubila tandem serenissimus Phaebus.
                 Gloria in excelsis Deo, et in terra pax hominibus, sed bonae voluntatis.<note place="foot" xml:id="ftn2" n="2">
-            <p rend="footnote text"> Hymn.
+            <p rend="footnote text">Hymn.
                     angel.</p>
-          </note> Cantate Domino canticum novum, quia mirabilia fecit.<note place="foot" xml:id="ftn3" n="3">
-            <p rend="footnote text"> Psalm. 97, v.
+          </note>Cantate Domino canticum novum, quia mirabilia fecit.<note place="foot" xml:id="ftn3" n="3">
+            <p rend="footnote text">Psalm. 97, v.
                     13.</p>
-          </note> Laudate Dominum omnes gentes, laudate eum omnes populi.<note place="foot" xml:id="ftn4" n="4">
-            <p rend="footnote text"> Psalm. 116 v.
+          </note>Laudate Dominum omnes gentes, laudate eum omnes populi.<note place="foot" xml:id="ftn4" n="4">
+            <p rend="footnote text">Psalm. 116 v.
                     1.</p>
-          </note> Evangelizo enim vobis gaudium magnum, quod erit omni populo (bonae
+          </note>Evangelizo enim vobis gaudium magnum, quod erit omni populo (bonae
                 voluntatis) quia natus est Salvator,<note place="foot" xml:id="ftn5" n="5">
-            <p rend="footnote text"> Luc. 2 v. 10, 11.</p>
-          </note> desideratus cunctis
+            <p rend="footnote text">Luc. 2 v. 10, 11.</p>
+          </note>desideratus cunctis
                     gentibus<note place="foot" xml:id="ftn6" n="6">
-            <p rend="footnote text"> Aggai 2,
+            <p rend="footnote text">Aggai 2,
                         v. 8.</p>
-          </note> (bonae voluntatis). Deus crea<pb xml:id="A1v"/>vit novum super terram,
+          </note>(bonae voluntatis). Deus crea<pb xml:id="A1v"/>vit novum super terram,
                 et foemina (nova Rachel) circumdedit, et peperit virum,<note place="foot" xml:id="ftn7" n="7">
-            <p rend="footnote text"> Ier. 31, v. 22</p>
-          </note> non
+            <p rend="footnote text">Ier. 31, v. 22</p>
+          </note>non
                 Ben-oni filium doloris,<note place="foot" xml:id="ftn8" n="8">
-            <p rend="footnote text"> Genes. 35, v. 18</p>
-          </note> sed filium exultationis,
+            <p rend="footnote text">Genes. 35, v. 18</p>
+          </note>sed filium exultationis,
                 quae cum Sara parto Isaaco laetabunda clamat: risum fecit mihi Deus, quicunque
                 audierit, corridebit mihi,<note place="foot" xml:id="ftn9" n="9">
-            <p rend="footnote text"> Genes. 21, v.6</p>
-          </note> congratulabitur mihi, mecum
+            <p rend="footnote text">Genes. 21, v.6</p>
+          </note>congratulabitur mihi, mecum
                 exultabit, et festum aget. Nam mulier cum parit habet quidem tristitiam, sed cum
                 pepererit puerum, iam non meminit pressurae propter gaudium.<note place="foot" xml:id="ftn10" n="10">
-            <p rend="footnote text"> Ioan. 16, v. <unclear/>
+            <p rend="footnote text">Ioan. 16, v.<unclear/>
             </p>
-          </note>
-                Ite iam et parcite parcae: mitte gladium tuum in vaginam,<note place="foot" xml:id="ftn11" n="11">
-            <p rend="footnote text"> Ioan. 18, v. 11.</p>
-          </note> pone
+          </note>Ite iam et parcite parcae: mitte gladium tuum in vaginam,<note place="foot" xml:id="ftn11" n="11">
+            <p rend="footnote text">Ioan. 18, v. 11.</p>
+          </note>pone
                 pharetram, frange, et proiice sagittas truculenta intempestiva, barbara mors, non
                 per ostium, sed aliunde, ut fur, et latro, hactenus ingressa.<note place="foot" xml:id="ftn12" n="12">
-            <p rend="footnote text"> Ioann. 19, v. 1.</p>
-          </note> Satis
+            <p rend="footnote text">Ioann. 19, v. 1.</p>
+          </note>Satis
                 superque debacchata es, ac si tibi, et tuis mandasset Ezechiel:<note place="foot" xml:id="ftn13" n="13">
-            <p rend="footnote text"> Cap. <unclear/> v. 5,
+            <p rend="footnote text">Cap.<unclear/>v. 5,
                     6.</p>
-          </note> transite per civitatem, et percutite, non parcat oculus vester,
+          </note>transite per civitatem, et percutite, non parcat oculus vester,
                 nec misereamini; senem et adolescentem, et virginem, parvulos, et mulieres
                 interficite; vel: mucro mucro evagina te ad occidendum, lima te, ut interficias, et
                     fulgeas.<note place="foot" xml:id="ftn14" n="14">
-            <p rend="footnote text"> Ezech.
-                        21, v. <gap reason="illegible"/>
+            <p rend="footnote text">Ezech.
+                        21, v.<gap reason="illegible"/>
             </p>
-          </note> Crudelis! Non satis tibi fuit depopulari
+          </note>Crudelis! Non satis tibi fuit depopulari
                 regna, vastare provincias, subvertere urbes, eousque progressa est tua barbaries, ut
                 etiam in triregnum, et augustissimas coronas ausu temerario praemature involare, et
                 altissimas mundi columnas sacras et profanas succutere non perhorrueris immanis
@@ -139,240 +133,226 @@
                 altum suspirare debuerit: vide Domine quoniam tribulor; venter meus conturbatus est,
                 subversum est cor meum n memetipsa, quoniam plena sum amaritudine, foris interficit
                 gladius, et domi mors similis est.<note place="foot" xml:id="ftn15" n="15">
-            <p rend="footnote text"> Ihren. 1, v. 20</p>
-          </note> Quod sustuleris Clementem
+            <p rend="footnote text">Ihren. 1, v. 20</p>
+          </note>Quod sustuleris Clementem
                 XII prae senio deficientem et Leopoldum pium in senectute bona, provectaeque aetatis
                 et plenum dierum,<note place="foot" xml:id="ftn16" n="16">
-            <p rend="footnote text">
-                        Gen. 25, v. 8.</p>
-          </note> parce egisti parca; sed quod Josephum
+            <p rend="footnote text">Gen. 25, v. 8.</p>
+          </note>parce egisti parca; sed quod Josephum
                 gloriosissimum, Carolum constantissimum in florida aetate, horumque filios
                 amplissimorum regnorum, et certo certius ipsiusmet etiam sacri romani imperii haeredes in
                 herba, et in fasciis succideris, sicque, ut quidem putas, serenissimum
-                augustissimumque stemma ex radicibus evulseris, parcam egisti immitissimam <pb xml:id="A2r"/>
-                plusquam Herodianam; et hoc quid tibi parcat insatiabili parca et sanguisuga? Sed
+                augustissimumque stemma ex radicibus evulseris, parcam egisti immitissimam<pb xml:id="A2r"/>plusquam Herodianam; et hoc quid tibi parcat insatiabili parca et sanguisuga? Sed
                 posui vectem et ostia, non procedes amplius: hic confringes tumentes flucus
                     tuos.<note place="foot" xml:id="ftn17" n="17">
-            <p rend="footnote text"> Iob. 38,
+            <p rend="footnote text">Iob. 38,
                         v. 10, 11.</p>
-          </note> Datum iam satis lufo; sat funeri, sat lacrymis, sat
+          </note>Datum iam satis lufo; sat funeri, sat lacrymis, sat
                 est datum doloribus: surrexit extinctor necis.<note place="foot" xml:id="ftn18" n="18">
-            <p rend="footnote text"> Hymn. Pasch.</p>
-          </note> Gradum iam siste, et tu
+            <p rend="footnote text">Hymn. Pasch.</p>
+          </note>Gradum iam siste, et tu
                 ipsa morere o mors. Utut enim coelum visum sit tantisper opponere nubme, ne transeat
                     oratio;<note place="foot" xml:id="ftn19" n="19">
-            <p rend="footnote text"> Thren.
+            <p rend="footnote text">Thren.
                         3, v. 44</p>
-          </note> postquam tamen continuatis ardentibus precibus (quia
+          </note>postquam tamen continuatis ardentibus precibus (quia
                 oportet semper orare, et non deficere)<note place="foot" xml:id="ftn20" n="20">
-            <p rend="footnote text"> Lucae 18, v. 1.</p>
-          </note> et nuncupatis variis votis
+            <p rend="footnote text">Lucae 18, v. 1.</p>
+          </note>et nuncupatis variis votis
                 cum Isaia oratum est: rorate coeli desuper, et nubes pluant iustum, aperiatur terra,
                 et germinet Salvatorem,<note place="foot" xml:id="ftn21" n="21">
-            <p rend="footnote text"> Isai. 45, v. 8.</p>
-          </note> expugnatum est coelum,
+            <p rend="footnote text">Isai. 45, v. 8.</p>
+          </note>expugnatum est coelum,
                 venit qui mittendus erat, et erat expectatio gentium.<note place="foot" xml:id="ftn22" n="22">
-            <p rend="footnote text"> Genes. 49, v. 10.</p>
-          </note> Hic
+            <p rend="footnote text">Genes. 49, v. 10.</p>
+          </note>Hic
                 de manu mortis liberabit nos, de morte redimet nos, et erit mors tua o mors.<note place="foot" xml:id="ftn23" n="23">
-            <p rend="footnote text"> Osee 13, v.
+            <p rend="footnote text">Osee 13, v.
                     14.</p>
-          </note> Vetera enim transierunt, et ecce facta sunt omnia nova.<note place="foot" xml:id="ftn24" n="24">
-            <p rend="footnote text"> 2 Cor. 5, v.
+          </note>Vetera enim transierunt, et ecce facta sunt omnia nova.<note place="foot" xml:id="ftn24" n="24">
+            <p rend="footnote text">2 Cor. 5, v.
                     17.</p>
-          </note> Venit plenitudo temporis, et misit Deus filium factum ex
+          </note>Venit plenitudo temporis, et misit Deus filium factum ex
                     muliere,<note place="foot" xml:id="ftn25" n="25">
-            <p rend="footnote text"> ad
+            <p rend="footnote text">ad
                         Galat. 4, v. 4.</p>
-          </note> amicta sole.<note place="foot" xml:id="ftn26" n="26">
-            <p rend="footnote text"> Apoc. 12, v. 1.</p>
-          </note> Phoenicem ex propriis
+          </note>amicta sole.<note place="foot" xml:id="ftn26" n="26">
+            <p rend="footnote text">Apoc. 12, v. 1.</p>
+          </note>Phoenicem ex propriis
                 cineribus post fata resurgentem, qui nos convivificavit, et conresuscitavit;<note place="foot" xml:id="ftn27" n="27">
-            <p rend="footnote text"> ad Ephes. 2, v. 5,
+            <p rend="footnote text">ad Ephes. 2, v. 5,
                         6.</p>
-          </note> qui nunc quidem infirma mundi in cunis elegit, sed ut
+          </note>qui nunc quidem infirma mundi in cunis elegit, sed ut
                 confundat, cum adoleverit, fortia,<note place="foot" xml:id="ftn28" n="28">
-            <p rend="footnote text"> 1 Cor. I, v. 27.</p>
-          </note> et in sole ponat
+            <p rend="footnote text">1 Cor. I, v. 27.</p>
+          </note>et in sole ponat
                 tabernaculum suum.<note place="foot" xml:id="ftn29" n="29">
-            <p rend="footnote text">
-                        Ps. 18, v. 6.</p>
+            <p rend="footnote text">Ps. 18, v. 6.</p>
           </note>
         </p>
-            <p>Sed quis tandem est hic, et laudabimus eum?<note place="foot" xml:id="ftn30" n="30">
-            <p rend="footnote text"> Eccli. 31, v. 9.</p>
-          </note> Et ubi est, qui natus
+        <p>Sed quis tandem est hic, et laudabimus eum?<note place="foot" xml:id="ftn30" n="30">
+            <p rend="footnote text">Eccli. 31, v. 9.</p>
+          </note>Et ubi est, qui natus
                     est,<note place="foot" xml:id="ftn31" n="31">
-            <p rend="footnote text"> Matth. 2,
+            <p rend="footnote text">Matth. 2,
                         v. 2.</p>
-          </note> ut venientes adoremus, et procidamus ante eum?<note place="foot" xml:id="ftn32" n="32">
-            <p rend="footnote text"> Ibid., v.
+          </note>ut venientes adoremus, et procidamus ante eum?<note place="foot" xml:id="ftn32" n="32">
+            <p rend="footnote text">Ibid., v.
                     11.</p>
-          </note> Quid quaeritis? Decima tertia martii anni millesimi
+          </note>Quid quaeritis? Decima tertia martii anni millesimi
                 septingentesimi quadragesimi primi nunc currentis hora tertia matutina impletum est
                 tempus pariendi,<note place="foot" xml:id="ftn33" n="33">
-            <p rend="footnote text">
-                        Luc. I, v. 57</p>
-          </note> et augusta <placeName>Hungariae</placeName>, et <placeName>Bohemiae</placeName> regina, archidux
-                <placeName>Austriae</placeName> et caetera et caetera <persName>Maria Teresia</persName>, altera plorans Rachel, peperit filium,
+            <p rend="footnote text">Luc. I, v. 57</p>
+          </note>et augusta<placeName>Hungariae</placeName>, et<placeName>Bohemiae</placeName>regina, archidux<placeName>Austriae</placeName>et caetera et caetera<persName>Maria Teresia</persName>, altera plorans Rachel, peperit filium,
                 cui nomen erat Joseph de domo David,<note place="foot" xml:id="ftn34" n="34">
-            <p rend="footnote text"> Luc. I, v. 27.</p>
-          </note> id est regis Jerusalem, cui,
+            <p rend="footnote text">Luc. I, v. 27.</p>
+          </note>id est regis Jerusalem, cui,
                 inquam, nomen erat Josephus, Benedictus, Augustus, Michael, Joannes, Antonius,
-                Adamus, serenissimus <placeName>Austriae</placeName> viduatae archidux, qui <placeName>Viennae</placeName> in <placeName>Austria</placeName> inter <pb xml:id="A2v"/>
-                ubera dissuaviantis ter beatae augustae matris commemoratur.<note place="foot" xml:id="ftn35" n="35">
-            <p rend="footnote text"> Cant. I v. 12.</p>
-          </note> Ite
+                Adamus, serenissimus<placeName>Austriae</placeName>viduatae archidux, qui<placeName>Viennae</placeName>in<placeName>Austria</placeName>inter<pb xml:id="A2v"/>ubera dissuaviantis ter beatae augustae matris commemoratur.<note place="foot" xml:id="ftn35" n="35">
+            <p rend="footnote text">Cant. I v. 12.</p>
+          </note>Ite
                 nunc ad Joseph;<note place="foot" xml:id="ftn36" n="36">
-            <p rend="footnote text">
-                        Gen. 41, v. 55.</p>
-          </note> procidite, adorate. Proh quantum donum! Quam
+            <p rend="footnote text">Gen. 41, v. 55.</p>
+          </note>procidite, adorate. Proh quantum donum! Quam
                 amplae spes! Sed quis putas, puer iste erit?<note place="foot" xml:id="ftn37" n="37">
-            <p rend="footnote text"> Luc. I, v. 66.</p>
-          </note> Quid iterum quaeritis?
+            <p rend="footnote text">Luc. I, v. 66.</p>
+          </note>Quid iterum quaeritis?
                 Manus Domini erit cum illo;<note place="foot" xml:id="ftn38" n="38">
-            <p rend="footnote text"> Ibid.</p>
-          </note> magna enim, et multa nomina, magna
+            <p rend="footnote text">Ibid.</p>
+          </note>magna enim, et multa nomina, magna
                 profecto et multa omina. At generationem eius, vel potius regenerationem quis
                     enarrabit?<note place="foot" xml:id="ftn39" n="39">
-            <p rend="footnote text">
-                        Isai. 53, v. 8.</p>
-          </note> Hoc enim videtur mihi apocalypticum illud
+            <p rend="footnote text">Isai. 53, v. 8.</p>
+          </note>Hoc enim videtur mihi apocalypticum illud
                 sacramentum septem stellarum, et septem candelabar aurea;<note place="foot" xml:id="ftn40" n="40">
-            <p rend="footnote text"> Apocal. I, v. 20.</p>
-          </note>
-                atque liber scriptus intus, et foris in dextera sedentis supra thronum signatus
+            <p rend="footnote text">Apocal. I, v. 20.</p>
+          </note>atque liber scriptus intus, et foris in dextera sedentis supra thronum signatus
                 sigillis septem; et quis est dignus aperire librum, et solvere signacula eius?<note place="foot" xml:id="ftn41" n="41">
-            <p rend="footnote text"> Apoc. 5, v. 1,
+            <p rend="footnote text">Apoc. 5, v. 1,
                         1.</p>
-          </note> Nemo facile, multo minus ego rudis, et sterilis orator.
+          </note>Nemo facile, multo minus ego rudis, et sterilis orator.
                 Tentandum tamen pro viribus; pro quo hanc vobis A.A.L.L. propono, et mihi praepono
                 metam, ad quam animo nitidiore, quam stylo collimo, quamque attingere medullitus
                 opto. En apertum vobis librum, en soluta, vel nunc dissolvenda septem sigilla.
                 Josephi filius accrescens<note place="foot" xml:id="ftn42" n="42">
-            <p rend="footnote text"> Genes. 49, v. 22.</p>
-          </note> crescet in mille
+            <p rend="footnote text">Genes. 49, v. 22.</p>
+          </note>crescet in mille
                     millia;<note place="foot" xml:id="ftn43" n="43">
-            <p rend="footnote text"> Gen.
+            <p rend="footnote text">Gen.
                         24, v. 60.</p>
-          </note> Benedictus, quia venit in nomine Domini, iam nunc
+          </note>Benedictus, quia venit in nomine Domini, iam nunc
                 Augustus, erit augustissimus; in Michaele potentissimus, in Joanne maximus, in
                 Antonio gloriosissimus, in Adamo perpetuus. Haec ex parte cognoscimus, et ex parte
                     prophetamus.<note place="foot" xml:id="ftn44" n="44">
-            <p rend="footnote text"> I
+            <p rend="footnote text">I
                         Cor. 13, v. 9</p>
-          </note> Qui habet aures libenter audiendi, audiat<note place="foot" xml:id="ftn45" n="45">
-            <p rend="footnote text"> Matth. 11, v.
+          </note>Qui habet aures libenter audiendi, audiat<note place="foot" xml:id="ftn45" n="45">
+            <p rend="footnote text">Matth. 11, v.
                     35</p>
-          </note> benevole, non diiudicet severe.</p>
-            <p>Felix nox! Quae talem ac tantum meruit germinare redemptorem.<note place="foot" xml:id="ftn46" n="46">
-            <p rend="footnote text"> In bened. cerci.</p>
-          </note> Felix
+          </note>benevole, non diiudicet severe.</p>
+        <p>Felix nox! Quae talem ac tantum meruit germinare redemptorem.<note place="foot" xml:id="ftn46" n="46">
+            <p rend="footnote text">In bened. cerci.</p>
+          </note>Felix
                 nox! De qua scriptum videtur: nox sicut dies illuminabitur,<note place="foot" xml:id="ftn47" n="47">
-            <p rend="footnote text"> Ibid.</p>
-          </note> quae dispellit
+            <p rend="footnote text">Ibid.</p>
+          </note>quae dispellit
                 tenebras, maestis reddit laetitiam, fugat odia, concordiam parat, curvat
                     imperia.<note place="foot" xml:id="ftn48" n="48">
-            <p rend="footnote text">
-                        Ibid.</p>
-          </note> Vere felix et beata nox! Quae expoliavit Aegyptiuos pacis
+            <p rend="footnote text">Ibid.</p>
+          </note>Vere felix et beata nox! Quae expoliavit Aegyptiuos pacis
                 turbatores, ditavit Hebraeos<note place="foot" xml:id="ftn49" n="49">
-            <p rend="footnote text"> Ibid.</p>
-          </note> eiusdem cultore. Quam honorabile
+            <p rend="footnote text">Ibid.</p>
+          </note>eiusdem cultore. Quam honorabile
                 connubium in omnibus, quam felix et immaculatus torus<note place="foot" xml:id="ftn50" n="50">
-            <p rend="footnote text"> ad Hebr. 13, v. 4.</p>
-          </note>
-                regio-tusco-austriacus! Exulta iam augusta, et speciosa filia Sion, fortunatissima
-                arca noetica <persName>Maria <pb xml:id="B1r"/>Teresia</persName>, exulta, et iubila, cum tuo indivulso coniuge rege
-                <placeName>Jerusalem</placeName>. Gaude <placeName>Hungaria</placeName>, laetare <placeName>Bohemia</placeName>, iubila resuscitata universa <placeName>Austria</placeName> cum
-                meliore reqliqua <placeName>Germania</placeName>, subsili <placeName>Tuscia</placeName> cum reliqua <placeName>Italia</placeName>, recipe, si superis
+            <p rend="footnote text">ad Hebr. 13, v. 4.</p>
+          </note>regio-tusco-austriacus! Exulta iam augusta, et speciosa filia Sion, fortunatissima
+                arca noetica<persName>Maria<pb xml:id="B1r"/>Teresia</persName>, exulta, et iubila, cum tuo indivulso coniuge rege<placeName>Jerusalem</placeName>. Gaude<placeName>Hungaria</placeName>, laetare<placeName>Bohemia</placeName>, iubila resuscitata universa<placeName>Austria</placeName>cum
+                meliore reqliqua<placeName>Germania</placeName>, subsili<placeName>Tuscia</placeName>cum reliqua<placeName>Italia</placeName>, recipe, si superis
                 placet, et venerare recisum tibi caput acephalum romanum imperium. Eja! Laetare et
-                tu tristis <placeName>Jerusalem</placeName>! Quid? <placeName>Jerusalem</placeName>? Ita; <placeName>Jerusalem</placeName> laetare et tu: erige capur, et
+                tu tristis<placeName>Jerusalem</placeName>! Quid?<placeName>Jerusalem</placeName>? Ita;<placeName>Jerusalem</placeName>laetare et tu: erige capur, et
                 expecta consolatorem. Beatus venter, qui te portavit<note place="foot" xml:id="ftn51" n="51">
-            <p rend="footnote text"> Luc. II, v. 27.</p>
-          </note> regie
+            <p rend="footnote text">Luc. II, v. 27.</p>
+          </note>regie
                 principes Josephe, dilecte Deo et hominibus ferme<note place="foot" xml:id="ftn52" n="52">
-            <p rend="footnote text"> Eccli. 45, v. 1.</p>
-          </note> universis, qui, quia
+            <p rend="footnote text">Eccli. 45, v. 1.</p>
+          </note>universis, qui, quia
                 in te invenerunt drachmam, quam in avo tuo perdiderant, in nativitate tua
                     gaudebunt,<note place="foot" xml:id="ftn53" n="53">
-            <p rend="footnote text"> Luc.
+            <p rend="footnote text">Luc.
                         I, v. 14.</p>
-          </note> et gavisi sunt gaudio magno;<note place="foot" xml:id="ftn54" n="54">
-            <p rend="footnote text"> Matth. 2, v. 10</p>
-          </note>
-                quidquid unus, alterve Esau ob praereptas sibi, et praecisas spes clamore magno
+          </note>et gavisi sunt gaudio magno;<note place="foot" xml:id="ftn54" n="54">
+            <p rend="footnote text">Matth. 2, v. 10</p>
+          </note>quidquid unus, alterve Esau ob praereptas sibi, et praecisas spes clamore magno
                     irrugiat.<note place="foot" xml:id="ftn55" n="55">
-            <p rend="footnote text">
-                        Genes. 27, v. 34.</p>
-          </note> Ecquis non gaudeat, si quod perierat, inventum
+            <p rend="footnote text">Genes. 27, v. 34.</p>
+          </note>Ecquis non gaudeat, si quod perierat, inventum
                 est, si quod sepultum erat, resurrexit, si quod defloverat, reflorescit, si quod
                 mortuum erat, revixit? Nempe potesn est Deus ter optimus maximus, qui de nihilo
                 creavit coelum et terram,<note place="foot" xml:id="ftn56" n="56">
-            <p rend="footnote text"> Genes. I, v. 1.</p>
-          </note> et ea, quae in eis
+            <p rend="footnote text">Genes. I, v. 1.</p>
+          </note>et ea, quae in eis
                     sunt,<note place="foot" xml:id="ftn57" n="57">
-            <p rend="footnote text"> Apoc. 10,
+            <p rend="footnote text">Apoc. 10,
                         v. 6.</p>
-          </note> etiam de lapidibus suscitare filios Abrahae,<note place="foot" xml:id="ftn58" n="58">
-            <p rend="footnote text"> Matth. 2, v.
+          </note>etiam de lapidibus suscitare filios Abrahae,<note place="foot" xml:id="ftn58" n="58">
+            <p rend="footnote text">Matth. 2, v.
                     9.</p>
-          </note> et contra spem in spem<note place="foot" xml:id="ftn59" n="59">
-            <p rend="footnote text"> Roman. 4, v. 18.</p>
-          </note> Abrahamos erigere, ac si
-                augustissimo tuo avo <persName>Carolo VI</persName> romanorum imperatori, cuius memoria in benedictione
+          </note>et contra spem in spem<note place="foot" xml:id="ftn59" n="59">
+            <p rend="footnote text">Roman. 4, v. 18.</p>
+          </note>Abrahamos erigere, ac si
+                augustissimo tuo avo<persName>Carolo VI</persName>romanorum imperatori, cuius memoria in benedictione
                     est,<note place="foot" xml:id="ftn60" n="60">
-            <p rend="footnote text"> Eccli. 45,
+            <p rend="footnote text">Eccli. 45,
                         v. 1.</p>
-          </note> praedictum et promissum sit illud: cum te consumptum
+          </note>praedictum et promissum sit illud: cum te consumptum
                 putaveris, ut Lucifer oriens.<note place="foot" xml:id="ftn61" n="61">
-            <p rend="footnote text"> Job. 2, v. 17.</p>
-          </note> Vel hoc alterum: cum
+            <p rend="footnote text">Job. 2, v. 17.</p>
+          </note>Vel hoc alterum: cum
                 dormieris cum patribus tuis, suscitabo semen tuum post te, quod egredietur de utero
                 tuo, et firmabo regnum eius: ego ero ei in patrem, et ipse erit mihi in filium.<note place="foot" xml:id="ftn62" n="62">
-            <p rend="footnote text"> 2 Reg. 7, v. 12,
+            <p rend="footnote text">2 Reg. 7, v. 12,
                         14.</p>
           </note>
         </p>
-            <p>In te igitur Josephe phili precum erectae sunt collapsae nostrae spes; quia rorarunt
+        <p>In te igitur Josephe phili precum erectae sunt collapsae nostrae spes; quia rorarunt
                 te coeli desuper, et nubes per te efffuderun iustum, et aperta terra te nobis
                 geminavit salvatorem; iustum inquam et salvatorem, quia utriusque circumfers in
                 nomine tuo praerogativam; fides enim habenda est Matthaeo dicenti:<note place="foot" xml:id="ftn63" n="63">
-            <p rend="footnote text"> Cap. I, v. 19.</p>
-          </note> Joseph
+            <p rend="footnote text">Cap. I, v. 19.</p>
+          </note>Joseph
                 cum esset iustus, et Moysi pro<pb xml:id="B1v"/>nuntianti:<note place="foot" xml:id="ftn64" n="64">
-            <p rend="footnote text"> Genes. 39, v. 2.</p>
-          </note> fuit Dominus cum
+            <p rend="footnote text">Genes. 39, v. 2.</p>
+          </note>fuit Dominus cum
                 Josepho, et erat vir in cunctis prospere agens. Propterea interrogavit pharao:<note place="foot" xml:id="ftn65" n="65">
-            <p rend="footnote text"> Genes. 41, v.
+            <p rend="footnote text">Genes. 41, v.
                         38.</p>
-          </note> num invenire poterimus talem virum, qui spiritu Dei plenus
+          </note>num invenire poterimus talem virum, qui spiritu Dei plenus
                 sit? Qui proin vertit nomne illius, et vocavit eum lingua aegyptiaca salvatorem
                     mundi;<note place="foot" xml:id="ftn66" n="66">
-            <p rend="footnote text"> Ibid. v.
+            <p rend="footnote text">Ibid. v.
                         45.</p>
-          </note> quasi praeluderet vaticinio patriarchae Jacobi Josepho filio
+          </note>quasi praeluderet vaticinio patriarchae Jacobi Josepho filio
                 suo benedicentis et praedicentis:<note place="foot" xml:id="ftn67" n="67">
-            <p rend="footnote text"> Genes. 49, v. 22.</p>
-          </note> filius accrescens Joseph,
+            <p rend="footnote text">Genes. 49, v. 22.</p>
+          </note>filius accrescens Joseph,
                 filius accrescens. Quae repetitio prophetica, et repetita prophetia tibi apposite
                 applicata, et in te implenda regie princeps cum tempore dabit, ut crescas in mille
                     milia,<note place="foot" xml:id="ftn68" n="68">
-            <p rend="footnote text"> Gen. 24,
+            <p rend="footnote text">Gen. 24,
                         v. 60.</p>
-          </note> ut ad tui oris imperium cunctus populus obediat, ut absque
+          </note>ut ad tui oris imperium cunctus populus obediat, ut absque
                 tuo imperio non moveat quisque manum aut pedem in omni terra,<note place="foot" xml:id="ftn69" n="69">
-            <p rend="footnote text"> Gen. 41, v. 40, 44.</p>
-          </note> ut
+            <p rend="footnote text">Gen. 41, v. 40, 44.</p>
+          </note>ut
                 rex regum, et dominus dominantium sis in terris ita, ut rex regum, et dominus
                 dominantium in coelis, qui te nobis donavit supremi tantum regni solio (ut ita
                 loquar) te praecedat.<note place="foot" xml:id="ftn70" n="70">
-            <p rend="footnote text"> Ibid.</p>
-          </note> Certe incrementum vel tuo ipso nomine
+            <p rend="footnote text">Ibid.</p>
+          </note>Certe incrementum vel tuo ipso nomine
                 praesagis, si credis mellifluo, qui de Josepho scriptum reliquit:<note place="foot" xml:id="ftn71" n="71">
-            <p rend="footnote text"> Homil. 2 supermissus
+            <p rend="footnote text">Homil. 2 supermissus
                     est.</p>
-          </note> coniice ex proprio vocabulo, quod augmentum non dubitas
+          </note>coniice ex proprio vocabulo, quod augmentum non dubitas
                 interpretari. Haec profecto, si non prophetamus calentissimis saltem votis
                 suspiramus, et suspirant quotquot domui regio archiducali austriacae synceros se
                 profitentur subditos, et clientes, inter quos non postremo loco venit universitas
@@ -383,207 +363,200 @@
                 diem hodiernam sancti Josephi tui, et ditionum austriacarum tutelaris patrocinio
                 sacram provido consilio selegit, efflictim Deum exercituum oratura, non tantum, ut
                 sis longaevus, semper sospes, super terram,<note place="foot" xml:id="ftn72" n="72">
-            <p rend="footnote text"> Exodi 20 v. 12.</p>
-          </note> et tibi addat fratrem
+            <p rend="footnote text">Exodi 20 v. 12.</p>
+          </note>et tibi addat fratrem
                 Benjaminum, et vobis fratres; verum etiam, ut tu ipse sis pater multorum principum,
                 sicut vitis abundans in lateribus domus tuae;<note place="foot" xml:id="ftn73" n="73">
-            <p rend="footnote text"> Psalm. 127, v. 3.</p>
-          </note> <pb xml:id="B2r"/>sicut oliva
+            <p rend="footnote text">Psalm. 127, v. 3.</p>
+          </note>
+          <pb xml:id="B2r"/>sicut oliva
                 fructifera in domo tua<note place="foot" xml:id="ftn74" n="74">
-            <p rend="footnote text"> Psalm. 51, v. 10.</p>
-          </note> ita, ut sint filii tui,
+            <p rend="footnote text">Psalm. 51, v. 10.</p>
+          </note>ita, ut sint filii tui,
                 sicut novellae olivarum in circuitu mensae tuae;<note place="foot" xml:id="ftn75" n="75">
-            <p rend="footnote text"> Psalm. 127, v. 3.</p>
-          </note> ut sis terror
+            <p rend="footnote text">Psalm. 127, v. 3.</p>
+          </note>ut sis terror
                 hostium tuorum, et regnorum gloriosus ampliator; ut nemo sit similis tui in regibus
                 cunctis retro diebus;<note place="foot" xml:id="ftn76" n="76">
-            <p rend="footnote text"> 3 Reg. 3, v. 13.</p>
-          </note> ut requiescat super te
+            <p rend="footnote text">3 Reg. 3, v. 13.</p>
+          </note>ut requiescat super te
                 spiritus sapientiae, et intellectus, spiritus consilii, et fortitudinis, spiritus
                 scientiae, et pietatis;<note place="foot" xml:id="ftn77" n="77">
-            <p rend="footnote text"> Isai. 11, v. 2.</p>
-          </note> ut de fructu ventris tui
+            <p rend="footnote text">Isai. 11, v. 2.</p>
+          </note>ut de fructu ventris tui
                 ponat super sedem tuam;<note place="foot" xml:id="ftn78" n="78">
-            <p rend="footnote text"> Psalm. 131, v. 11.</p>
-          </note> ut effundat spiritum
+            <p rend="footnote text">Psalm. 131, v. 11.</p>
+          </note>ut effundat spiritum
                 suum super semen tuum, et benedictionem suam super stirpem tuam;<note place="foot" xml:id="ftn79" n="79">
-            <p rend="footnote text"> Isa. 44, v. 3.</p>
-          </note> ut in
+            <p rend="footnote text">Isa. 44, v. 3.</p>
+          </note>ut in
                 semine tuo benedicantur omnes gentes terrae;<note place="foot" xml:id="ftn80" n="80">
-            <p rend="footnote text"> Gen. 22, v. 18.</p>
-          </note> ut impleatur gloria tua
+            <p rend="footnote text">Gen. 22, v. 18.</p>
+          </note>ut impleatur gloria tua
                 universa terra;<note place="foot" xml:id="ftn81" n="81">
-            <p rend="footnote text">
-                        Num. 14, v. 21.</p>
-          </note> ut Dominus iudicet nocentes te, expugnet
+            <p rend="footnote text">Num. 14, v. 21.</p>
+          </note>ut Dominus iudicet nocentes te, expugnet
                 impugnantes te: apprehendat arma, et scutum, et exurgat in adiutorium tibi;<note place="foot" xml:id="ftn82" n="82">
-            <p rend="footnote text"> Psal. 34, v.
+            <p rend="footnote text">Psal. 34, v.
                     12</p>
-          </note> ut etiam gentes, quae te non cognoverunt, ad te, ad Josephum,
+          </note>ut etiam gentes, quae te non cognoverunt, ad te, ad Josephum,
                     currant.<note place="foot" xml:id="ftn83" n="83">
-            <p rend="footnote text"> Isa.
+            <p rend="footnote text">Isa.
                         55, v. 5</p>
-          </note> Paucis, ut cum exaltatus fueris a cunis ad thronum,
+          </note>Paucis, ut cum exaltatus fueris a cunis ad thronum,
                 omnia trahas ad te ipsum;<note place="foot" xml:id="ftn84" n="84">
-            <p rend="footnote text"> Ioan. 12, v. 32.</p>
-          </note> ut sic de te, et de
+            <p rend="footnote text">Ioan. 12, v. 32.</p>
+          </note>ut sic de te, et de
                 tempore tui imperii prophetarit Isaias:<note place="foot" xml:id="ftn85" n="85">
-            <p rend="footnote text"> Cap. II, v. 6.</p>
-          </note> habitabit lupus cum agno, et
+            <p rend="footnote text">Cap. II, v. 6.</p>
+          </note>habitabit lupus cum agno, et
                 pardus cum haedo accubabit; vitulus, et leo, et ovis simul morabuntur, et puer
                 parvulus minabit eos.</p>
-            <p>Profecto AA.LL., si haec fierent, esset filius accrescent Joseph, filius
+        <p>Profecto AA.LL., si haec fierent, esset filius accrescent Joseph, filius
                     accrescens,<note place="foot" xml:id="ftn86" n="86">
-            <p rend="footnote text">
-                        Genes. 49, v. 22.</p>
-          </note> crescens in mille millia.<note place="foot" xml:id="ftn87" n="87">
-            <p rend="footnote text"> Genes. 24, v. 60.</p>
-          </note> Et
+            <p rend="footnote text">Genes. 49, v. 22.</p>
+          </note>crescens in mille millia.<note place="foot" xml:id="ftn87" n="87">
+            <p rend="footnote text">Genes. 24, v. 60.</p>
+          </note>Et
                 cur non fiant? Spuria vitulamina non dabunt radices altas;<note place="foot" xml:id="ftn88" n="88">
-            <p rend="footnote text"> Sap. 4, v. 3.</p>
-          </note> at ubi
+            <p rend="footnote text">Sap. 4, v. 3.</p>
+          </note>at ubi
                 est vitis vera;<note place="foot" xml:id="ftn89" n="89">
-            <p rend="footnote text">
-                        Ioan. 15, v. 1.</p>
-          </note> ubi bonus homo plantavit; Apollo rigavit, et Deus
+            <p rend="footnote text">Ioan. 15, v. 1.</p>
+          </note>ubi bonus homo plantavit; Apollo rigavit, et Deus
                 in nomine et omine incrementum dedit,<note place="foot" xml:id="ftn90" n="90">
-            <p rend="footnote text"> 1 Cor. 3, v. 6.</p>
-          </note> haec planta,
+            <p rend="footnote text">1 Cor. 3, v. 6.</p>
+          </note>haec planta,
                 benedictionibus repleatur, necesse est; imo Josephi planta iis est abunde iam
                 repleta. Ipse est Benedictus in se, utpote iustus, et salvator; Benedictus in sacro
                 fonte; Benedictus in generatione rectorum;<note place="foot" xml:id="ftn91" n="91">
-            <p rend="footnote text"> Psal. 111, v. 2.</p>
-          </note> Benedictus in
+            <p rend="footnote text">Psal. 111, v. 2.</p>
+          </note>Benedictus in
                 benedictionibus patrum eius:<note place="foot" xml:id="ftn92" n="92">
-            <p rend="footnote text"> Gen. 49, v. 26.</p>
-          </note> si ergo benedixit ei
+            <p rend="footnote text">Gen. 49, v. 26.</p>
+          </note>si ergo benedixit ei
                 Dominus, erit Benedictus;<note place="foot" xml:id="ftn93" n="93">
-            <p rend="footnote text"> Gen. 27, v. 33.</p>
-          </note> si Benedictus, crescet in
-                mille millia. Unde quadrabit Josepho nostro <pb xml:id="B2v"/>quod Deus Jacobo, et sic Josepho
+            <p rend="footnote text">Gen. 27, v. 33.</p>
+          </note>si Benedictus, crescet in
+                mille millia. Unde quadrabit Josepho nostro<pb xml:id="B2v"/>quod Deus Jacobo, et sic Josepho
                 eius filio et haeredi praenuntiavit: erit semen tuum quasi pulvis terrae:
                 dilataberis ad occidentem et orientem, et meridiem, et septentrionem: et
                 benedicentur in te et in semine tuo omnes tribus terrae, et ero custos tuus
                 quocunque perexeris.<note place="foot" xml:id="ftn94" n="94">
-            <p rend="footnote text"> Gen. 28, v. 14, 15.</p>
-          </note> Nihil porro deerit, quin Josephus
+            <p rend="footnote text">Gen. 28, v. 14, 15.</p>
+          </note>Nihil porro deerit, quin Josephus
                 Benedictus fiat Augustus. Fallor. Quid, quin fiat Augustus? Augustus re et nomine
                 venit in mundum, cur ergo fiat Augustus? Crescere tamen potest, et augeri, quin
                 crescere debet, et augeri, cum sit filius accrescens, et intepretetur augmentum; et
                 cum sit filius accrescens, filius accrescens,<note place="foot" xml:id="ftn95" n="95">
-            <p rend="footnote text"> Gen. 49, v. 22.</p>
-          </note> non modo fiet
+            <p rend="footnote text">Gen. 49, v. 22.</p>
+          </note>non modo fiet
                 augustior, sed augustissimus ad similitudinem grani humilis sinapis, quod minimum
                 est omnibus seminibus, cum autem creverit, maius est omnibus oleribus, et fit
                     arbor;<note place="foot" xml:id="ftn96" n="96">
-            <p rend="footnote text"> Matth.
+            <p rend="footnote text">Matth.
                         13, v. 32.</p>
-          </note> cumque Deus miserit in fundamentis lapidem (hunc
+          </note>cumque Deus miserit in fundamentis lapidem (hunc
                 austriacum) lapidem probatum, angularem, pretiosum, in fundamento fundatum,<note place="foot" xml:id="ftn97" n="97">
-            <p rend="footnote text"> Isa. 25, v.
+            <p rend="footnote text">Isa. 25, v.
                     16.</p>
-          </note> necesse est, ut haec fabrica in excelsum surgat, utpote in
+          </note>necesse est, ut haec fabrica in excelsum surgat, utpote in
                 altissimo profundae humilitatis austriacae fundamento fundata, quam si genimina
                     viperarum<note place="foot" xml:id="ftn98" n="98">
-            <p rend="footnote text"> Luc.
+            <p rend="footnote text">Luc.
                         3, v. 7.</p>
-          </note> arrodere, tinea corrumpere,<note place="foot" xml:id="ftn99" n="99">
-            <p rend="footnote text"> Luc. 12, v. 33.</p>
-          </note> aut
+          </note>arrodere, tinea corrumpere,<note place="foot" xml:id="ftn99" n="99">
+            <p rend="footnote text">Luc. 12, v. 33.</p>
+          </note>aut
                 bellorum turbines impetere ausint, uti proh dolor! Nunc ab aquilone panditur
                     malum;<note place="foot" xml:id="ftn100" n="100">
-            <p rend="footnote text"> Ier.
+            <p rend="footnote text">Ier.
                         1, v. 14.</p>
-          </note> ubi dum superbit impius, incenditur pauper,<note place="foot" xml:id="ftn101" n="101">
-            <p rend="footnote text"> Psalm. 10, v.
+          </note>ubi dum superbit impius, incenditur pauper,<note place="foot" xml:id="ftn101" n="101">
+            <p rend="footnote text">Psalm. 10, v.
                         2.</p>
-          </note> irritus erit omnis conatus; cadet superbus et corruet, et non
+          </note>irritus erit omnis conatus; cadet superbus et corruet, et non
                 erit, qui suscitet eum.<note place="foot" xml:id="ftn102" n="102">
-            <p rend="footnote text"> Amos 5, v. 2.</p>
-          </note> Quin, si quis exaltatus
+            <p rend="footnote text">Amos 5, v. 2.</p>
+          </note>Quin, si quis exaltatus
                 fuerit, ut aquila, et si inter sydera posuerit nidum suum, inde detrahetur.<note place="foot" xml:id="ftn103" n="103">
-            <p rend="footnote text"> Abdiae v.
+            <p rend="footnote text">Abdiae v.
                     4.</p>
-          </note> Nam consurget Michael princeps magnus, qui stat pro filiis
+          </note>Nam consurget Michael princeps magnus, qui stat pro filiis
                     populi;<note place="foot" xml:id="ftn104" n="104">
-            <p rend="footnote text">
-                        Daniel. 12, v. 1.</p>
-          </note> Michael unus de principibus primis veniet in
+            <p rend="footnote text">Daniel. 12, v. 1.</p>
+          </note>Michael unus de principibus primis veniet in
                 adiutorium eius;<note place="foot" xml:id="ftn105" n="105">
-            <p rend="footnote text">
-                        Daniel. 10, v. 13.</p>
-          </note> atque ipse, et angeli eius praeliabuntur cum
+            <p rend="footnote text">Daniel. 10, v. 13.</p>
+          </note>atque ipse, et angeli eius praeliabuntur cum
                 quocunque dracone, et draco ille magnus, quicunque futurus sit, proiicietur in
                 terram, et angeli eius cum illo.<note place="foot" xml:id="ftn106" n="106">
-            <p rend="footnote text"> Apoc. 12, v. 7, 9.</p>
-          </note> Secum adducet Michael,
+            <p rend="footnote text">Apoc. 12, v. 7, 9.</p>
+          </note>Secum adducet Michael,
                 si opus fuerit, plusquam duodecim legiones angelorum,<note place="foot" xml:id="ftn107" n="107">
-            <p rend="footnote text"> Matth. 26, v. 53.</p>
-          </note>
-                aut hoc uno fulmine: quis ut Deus? Sternet omnes omnium solium suum exaltare
-                praesumentium insultus, ut maximo suo damno, nec <pb xml:id="C1r"/>non famae et honoris, imo et
+            <p rend="footnote text">Matth. 26, v. 53.</p>
+          </note>aut hoc uno fulmine: quis ut Deus? Sternet omnes omnium solium suum exaltare
+                praesumentium insultus, ut maximo suo damno, nec<pb xml:id="C1r"/>non famae et honoris, imo et
                 vitae dispendio expertus est superbus ille asyoriorum rex Sennacherib, in cuius
                 castris una nocte manu angeli centum octoginta quinque millia ceciderunt, percusso
                 ipso a filiis suis in tempo Nesroch Dei sui.<note place="foot" xml:id="ftn108" n="108">
-            <p rend="footnote text"> 4 Reg. 19, v. 35, 37.</p>
-          </note> Iam vero si
+            <p rend="footnote text">4 Reg. 19, v. 35, 37.</p>
+          </note>Iam vero si
                 Deus pro nobis, quis contra nos?</p>
-            <p>Sed anne hoc satis nostro regio principi? An ei sufficiet sarta tecta conservare,
+        <p>Sed anne hoc satis nostro regio principi? An ei sufficiet sarta tecta conservare,
                 regna, et provincias suas cum hostium terrore in florido statu potentissime firmare,
                 et solum cavere, ne tinea corrumpat,<note place="foot" xml:id="ftn109" n="109">
-            <p rend="footnote text"> Luc. 12, v. 33.</p>
-          </note> et ne regnum divisum detur
+            <p rend="footnote text">Luc. 12, v. 33.</p>
+          </note>et ne regnum divisum detur
                 Medis et Persis?<note place="foot" xml:id="ftn110" n="110">
-            <p rend="footnote text">
-                        Daniel. 5, v. 28.</p>
-          </note> Minime gentium. Amplius, amplius; plus ultra.
+            <p rend="footnote text">Daniel. 5, v. 28.</p>
+          </note>Minime gentium. Amplius, amplius; plus ultra.
                 Maximus esse vult in Joanne, et erit maximus in Joanne, cum enim inter natos
                 mulierum non surrexit maior Joanne,<note place="foot" xml:id="ftn111" n="111">
-            <p rend="footnote text"> Matth. 11, v. 11</p>
-          </note> ipse, qui Joannes est,
+            <p rend="footnote text">Matth. 11, v. 11</p>
+          </note>ipse, qui Joannes est,
                 erit maximus; maximus vero non erit, nisi ad occidentem, et orientem, ad
                 septentrionem, et meridiem imperium suum dilatet, et sibi subditas faciat omnes
                 barbaras nationes ad nostram perpetuam pacem:<note place="foot" xml:id="ftn112" n="112">
-            <p rend="footnote text"> Eccles. in Parasce.</p>
-          </note> ut sic habitet
+            <p rend="footnote text">Eccles. in Parasce.</p>
+          </note>ut sic habitet
                 lupus cum agno, et pardus cum haedo accubet.<note place="foot" xml:id="ftn113" n="113">
-            <p rend="footnote text"> Isa. 11, v. 6.</p>
+            <p rend="footnote text">Isa. 11, v. 6.</p>
           </note>
         </p>
-            <p>Mittat nunc luctum, et lamenta tristis Jerusalem; nec amplius plangat Zacharias:<note place="foot" xml:id="ftn114" n="114">
-            <p rend="footnote text"> Cap. 1, v.
+        <p>Mittat nunc luctum, et lamenta tristis Jerusalem; nec amplius plangat Zacharias:<note place="foot" xml:id="ftn114" n="114">
+            <p rend="footnote text">Cap. 1, v.
                     12.</p>
-          </note> Domine exercituum, usquequo tu non misereberis Jerusalem? Aut
+          </note>Domine exercituum, usquequo tu non misereberis Jerusalem? Aut
                     Jeremias,<note place="foot" xml:id="ftn115" n="115">
-            <p rend="footnote text">
-                        Thren. 1, v. 2.</p>
-          </note> non est qui consoletur eam ex omnibus charis
+            <p rend="footnote text">Thren. 1, v. 2.</p>
+          </note>non est qui consoletur eam ex omnibus charis
                 eius. Erigat capit et animum: accipiet consolatore, qui prope est in ianuis;<note place="foot" xml:id="ftn116" n="116">
-            <p rend="footnote text"> Matth. 24, v.
+            <p rend="footnote text">Matth. 24, v.
                         33.</p>
-          </note> qui zelatur Jerusalem, et Sion zelo magno;<note place="foot" xml:id="ftn117" n="117">
-            <p rend="footnote text"> Zach. 1, v. 14.</p>
-          </note> qui
+          </note>qui zelatur Jerusalem, et Sion zelo magno;<note place="foot" xml:id="ftn117" n="117">
+            <p rend="footnote text">Zach. 1, v. 14.</p>
+          </note>qui
                 terrendo vestigia aviti sanguinis, famigeratissimi illius Lotharingici herois
                 Godefridi Bullionii, de cuius sanguine bullit in venis eius, eriget ibi vexilla, et
                 in calvaria replantabit crucem, vi illius adagii:</p>
-            <p>Non procul a proprio stipite poma cadunt:</p>
-            <p>Et documenta damus, qua sumus origine nati.</p>
-            <p>O quanta tunc fama! Quanta tunc augustissimae regio archiducalis renatae domus
-                austriacae gloria! <pb xml:id="C1v"/>Sed verba haec sunt, interrumpit non nemo, vota sunt et pia
+        <p>Non procul a proprio stipite poma cadunt:</p>
+        <p>Et documenta damus, qua sumus origine nati.</p>
+        <p>O quanta tunc fama! Quanta tunc augustissimae regio archiducalis renatae domus
+                austriacae gloria!<pb xml:id="C1v"/>Sed verba haec sunt, interrumpit non nemo, vota sunt et pia
                 desideria, quis enim consiliarius Dei fuit?<note place="foot" xml:id="ftn118" n="118">
-            <p rend="footnote text"> Isa. 40, v. 13.</p>
-          </note> Et quid dinumeravit
+            <p rend="footnote text">Isa. 40, v. 13.</p>
+          </note>Et quid dinumeravit
                 dies principis? Verba quidem haec sunt, fateor, quia de ore procedunt, sed non
                 iactata; vota, et desideria sunt, sed in fundamento fundata, et tali, ut etiam
                 queant dinumerari dies eius, imo ut prae multitudine numerari non possint.<note place="foot" xml:id="ftn119" n="119">
-            <p rend="footnote text"> Gen. 32, v.
+            <p rend="footnote text">Gen. 32, v.
                         12.</p>
-          </note> Numquid Deus Salomoni, qui non petiit sibi divitias, et
+          </note>Numquid Deus Salomoni, qui non petiit sibi divitias, et
                 gloriam, sed cor docile et sapientiam, hanc et illas largitus est dicens:<note place="foot" xml:id="ftn120" n="120">
-            <p rend="footnote text"> 3 Reg. 3 v. 13,
+            <p rend="footnote text">3 Reg. 3 v. 13,
                         14.</p>
-          </note> sed et haec, quae non postulasti, dedi tibi: divitias
+          </note>sed et haec, quae non postulasti, dedi tibi: divitias
                 scilicet et gloriam, ut nemo fuerit similis tui in regibus cunctis retro diebus. Si
                 autem ambulaveris in viis mei et custodieris praecepta mea, sicut ambulavit pater
                 tuus, longos faciam dies tuos. Dimetiamini Rudolphos, Albertos, Maximilianos,
@@ -601,105 +574,103 @@
                 vobis tulit. Et degener erit serenissimus hic filius precum, tantorum, et talium
                 avorum, parentumque surculus? An iste intercidet hos saluberrimos canales, turbabit
                 limpidissimos hos fontes, et non recipiet in se aquam bonam? Qui hoc cito credit,
-                levis <pb xml:id="C2r"/> est corde,<note place="foot" xml:id="ftn121" n="121">
-            <p rend="footnote text"> Eccl. 19, v. 4.</p>
-          </note> et exinanita est fides et
+                levis<pb xml:id="C2r"/>est corde,<note place="foot" xml:id="ftn121" n="121">
+            <p rend="footnote text">Eccl. 19, v. 4.</p>
+          </note>et exinanita est fides et
                 spes eius:<note place="foot" xml:id="ftn122" n="122">
-            <p rend="footnote text"> Rom.
+            <p rend="footnote text">Rom.
                         4, v. 14.</p>
-          </note> qualis enim pater, talis solet esse filius, quando
+          </note>qualis enim pater, talis solet esse filius, quando
                 semen cecidit in terram bonam.<note place="foot" xml:id="ftn123" n="123">
-            <p rend="footnote text"> Luc. 8, v. 8.</p>
-          </note> Calcabit igitur vestigia
+            <p rend="footnote text">Luc. 8, v. 8.</p>
+          </note>Calcabit igitur vestigia
                 patrum suorum, et quid superest; quam ut a summo omnium bonorum auctore et
                 largitore, qui cum non sit acceptor personarum,<note place="foot" xml:id="ftn124" n="124">
-            <p rend="footnote text"> Actor. 10, v. 34.</p>
-          </note> non plus favet
+            <p rend="footnote text">Actor. 10, v. 34.</p>
+          </note>non plus favet
                 Temistocli, quam Epaminondae, non plus Salomoni filio Davidis quam Josepho non viro,
-                sed filio <persName>Mariae Teresiae</persName>, expectet longos dies, gloriam, et honorem; et gloriam
+                sed filio<persName>Mariae Teresiae</persName>, expectet longos dies, gloriam, et honorem; et gloriam
                 tantam, ut nemo fuerit similis sui in regibus cunctis retro diebus,<note place="foot" xml:id="ftn125" n="125">
-            <p rend="footnote text"> 3 Reg. 3, v.
+            <p rend="footnote text">3 Reg. 3, v.
                         13.</p>
-          </note> ut sit omnium gloriosissimus.</p>
-            <p>Hanc tamen gloriam, quanta quanta erit, potiori saltem ex parte debebit suo sexto
+          </note>ut sit omnium gloriosissimus.</p>
+        <p>Hanc tamen gloriam, quanta quanta erit, potiori saltem ex parte debebit suo sexto
                 tutelari s. Antonio, qui non est sicut caetei hominum sanctorum, sed praerogativis
                 gaudet singularibus adeo, ut celeberrimus quidam verbi divini praeco, et insignis
                 encomiastes ei proprium facere non dubitarit illud ecclesiastici:<note place="foot" xml:id="ftn126" n="126">
-            <p rend="footnote text"> Cap. 44, v. 20.</p>
-          </note> non
+            <p rend="footnote text">Cap. 44, v. 20.</p>
+          </note>non
                 est inventus similis illi in gloria, prodigiorum nempe et stupendorum. Et revera vix
                 videbis non dicam templum, aut altare divo Antonio sacrum, sed vix eius in tabula
                 imaginem, ex qua non pendeant grata pro insigni beneficio anathemata, neque hoc in
                 una tantum, alterva urbe, provincia aut regno, ut cum aliis tutelaribus alibi minus
-                notis usu venit, velut in <placeName>Polonia</placeName>, <placeName>Hungaria</placeName>, <placeName>Illiria</placeName>, sed in universo, qua late
+                notis usu venit, velut in<placeName>Polonia</placeName>,<placeName>Hungaria</placeName>,<placeName>Illiria</placeName>, sed in universo, qua late
                 patet christiano orbe; neque a decem, vigintive lustris, sed a quinque circiter
                 saeculis contra id, quod fieri amat de plerisque aliis sanctis, quorum cultus apud
                 multos post aliquod tempus solet tepescere, praecipue si novus exsurgat
-                thaumaturgus. Non tantum in <placeName>Lusitania</placeName>, ubi Antonius natus est, non tantum in <placeName>Gallia</placeName>,
-                ubi docuti; non tantum in <placeName>Italia</placeName>, ubi quiescit; sed in omnibus <placeName>Europae</placeName> regnis, imo
+                thaumaturgus. Non tantum in<placeName>Lusitania</placeName>, ubi Antonius natus est, non tantum in<placeName>Gallia</placeName>,
+                ubi docuti; non tantum in<placeName>Italia</placeName>, ubi quiescit; sed in omnibus<placeName>Europae</placeName>regnis, imo
                 in utrisque Indiis adeo celebre est nomen eius, ut vix invenias, qui non gestiat, se
                 illum habere protectorem; et hinc est, quod itali cum alio nomine non compellent,
-                quam antonomastice: <foreign xml:lang="it">il santo</foreign>. <pb xml:id="C2v"/>Sed an fors te offendo thaumaturge Joannes
+                quam antonomastice:<foreign xml:lang="it">il santo</foreign>.<pb xml:id="C2v"/>Sed an fors te offendo thaumaturge Joannes
                 Nepomucene, quod unius lancis exaltatio sit alterius depressio? Id equidem non
                 expectavero, et mens certe non est, cum te supra merito depredicaverim talem, quo
                 inter natos mulierum non surrexit maior;<note place="foot" xml:id="ftn127" n="127">
-            <p rend="footnote text"> Matth. 11, v. 11.</p>
-          </note> et certus sim, quod
+            <p rend="footnote text">Matth. 11, v. 11.</p>
+          </note>et certus sim, quod
                 nec tu Antonio, nec Antonius tibi invideat praerogativam: non enim contentio est
                 inter vos, qui vestrum videatur esse maior.<note place="foot" xml:id="ftn128" n="128">
-            <p rend="footnote text"> Luc. 22, v. 24.</p>
-          </note> Fama tua, quia
+            <p rend="footnote text">Luc. 22, v. 24.</p>
+          </note>Fama tua, quia
                 iunior est, nondum totum occupat orbem christianum, sed crescit eundo, et magnis
-                passibus diffunditur; ac iam praeter plagam Aquilonarem, saltem totam pervasit
-                <placeName>Italiam</placeName>. Brevi duo erunt Antonii; brevi in omnem terram exibit sonus duorum, et in
+                passibus diffunditur; ac iam praeter plagam Aquilonarem, saltem totam pervasit<placeName>Italiam</placeName>. Brevi duo erunt Antonii; brevi in omnem terram exibit sonus duorum, et in
                 fines orbis terrae verba eorum:<note place="foot" xml:id="ftn129" n="129">
-            <p rend="footnote text"> Rom. 10, v. 18.</p>
-          </note> iunctis igitur viribus
+            <p rend="footnote text">Rom. 10, v. 18.</p>
+          </note>iunctis igitur viribus
                 nonne facilius, certius et securius eo usque cum gloriosis vexillis deducetis, et
                 utique deducetis, identicum fratrem vestrum Josephum, nec unquam concedetis, ut quid
                 ipsi accidat triste.<note place="foot" xml:id="ftn130" n="130">
-            <p rend="footnote text"> Eccli. 5, v. 4.</p>
-          </note> Quod si malevoli quidam
+            <p rend="footnote text">Eccli. 5, v. 4.</p>
+          </note>Quod si malevoli quidam
                 inito nefando consilio dicant: venite, occidamus eum;<note place="foot" xml:id="ftn131" n="131">
-            <p rend="footnote text"> Gen. 37, v. 20.</p>
-          </note> vos
+            <p rend="footnote text">Gen. 37, v. 20.</p>
+          </note>vos
                 eritis saltem benevoli illi duo fratres protectores Ruben et Iudas.<note place="foot" xml:id="ftn132" n="132">
-            <p rend="footnote text"> Ibid. v. 21,
+            <p rend="footnote text">Ibid. v. 21,
                         26.</p>
-          </note> Ille, quia conservabit legem Excelsi, et in tentatione
+          </note>Ille, quia conservabit legem Excelsi, et in tentatione
                 invenietur fidelis, dignus erit, ut det ille Deus gloriam in gente sua, det crescere
                 quasi terrae cumulum, et uti stellas exaltare semen suum, et haereditare a mari
                 usque ad mare, et a flumine usque ad terminos terrae.<note place="foot" xml:id="ftn133" n="133">
-            <p rend="footnote text"> Eccli. 44, v.
+            <p rend="footnote text">Eccli. 44, v.
                 20.</p>
           </note>
         </p>
-            <p>At, inquitis, si fors raperetur, ne malitia mutet intellectum eius,<note place="foot" xml:id="ftn134" n="134">
-            <p rend="footnote text"> Sap. 4, v. 11.</p>
-          </note> et
+        <p>At, inquitis, si fors raperetur, ne malitia mutet intellectum eius,<note place="foot" xml:id="ftn134" n="134">
+            <p rend="footnote text">Sap. 4, v. 11.</p>
+          </note>et
                 consummatus in brevi expleat tempora multa,<note place="foot" xml:id="ftn135" n="135">
-            <p rend="footnote text"> Ibid. v. 13.</p>
-          </note> atque sic renata cedrus
+            <p rend="footnote text">Ibid. v. 13.</p>
+          </note>atque sic renata cedrus
                 austriaca rursus in vere non modo putaretur, sed succideretur, ut non possit
                 protuberare, et dare exoptatum fructum suum; quid tum in luctuosissimo hoc eventu
                 patrocinium nostrum, quid tum custodia nostra? Nisi enim Dominus custodierit
                 civitatem frustra vigilat, qui custodit eam.<note place="foot" xml:id="ftn136" n="136">
-            <p rend="footnote text"> Psal. 126, v. 2.</p>
-          </note> Horreo quidem
+            <p rend="footnote text">Psal. 126, v. 2.</p>
+          </note>Horreo quidem
                 isthaec audire, quia esset novissimus error longe peior priore;<note place="foot" xml:id="ftn137" n="137">
-            <p rend="footnote text"> Matth. 22, v. 64.</p>
-          </note>
-                sed non terreor, quia <pb xml:id="D1r"/>benedixit Dominus Obededom, et omnem domum eius,<note place="foot" xml:id="ftn138" n="138">
-            <p rend="footnote text"> 2 Reg. 6, v.
+            <p rend="footnote text">Matth. 22, v. 64.</p>
+          </note>sed non terreor, quia<pb xml:id="D1r"/>benedixit Dominus Obededom, et omnem domum eius,<note place="foot" xml:id="ftn138" n="138">
+            <p rend="footnote text">2 Reg. 6, v.
                         11.</p>
-          </note> et vobis utpote tutelaribus incumbit hoc ipsum omnium malorum
+          </note>et vobis utpote tutelaribus incumbit hoc ipsum omnium malorum
                 caput vestris intercessionibus avertere. Quamvis, ut supra adduximus, videatur Deus,
                 qui fidelis est, nolle ei abbreviare, sed longos indulgere dies. Et quid pluribus
                 opus? Mors ipsa mortua est; ex mortuo suo semine repullulavit cedrus austriaca;
                 resurgens autem ex mortuis, iam non moritur, mors illi ultra non dominabitur.<note place="foot" xml:id="ftn139" n="139">
-            <p rend="footnote text"> Rom. 6, v.
+            <p rend="footnote text">Rom. 6, v.
                     9.</p>
-          </note> Putari poterit renata ex se arbor, sed non funditus exscindi. Et
+          </note>Putari poterit renata ex se arbor, sed non funditus exscindi. Et
                 quaeso vos! An unquam audistis, semen Adami fuisse penitus exstinctum, aut esse ante
                 consumationem saeculi extinguendum? Diluvium pervasit et submersit totum orbem, sed
                 non totaliter. Arca Noetica, quae ferebatur super aquas, ut ut fluctibus, et undis
@@ -708,57 +679,55 @@
                 Adamum secundum, Christum Domini. Quamvis enim Deum dolore cordis tactum intrinsecus
                 poenituerit, quod hominem fecisset in terra, ac delere decreverit, et deleverit
                 hominem a facie terrae, quia omnis caro corruperat viam suam super terram;<note place="foot" xml:id="ftn140" n="140">
-            <p rend="footnote text"> Gen. 6, v.
+            <p rend="footnote text">Gen. 6, v.
                     6.</p>
-          </note> nihilominus, ac si huius ipsius cataclysmi eum poeniteret: ecce,
+          </note>nihilominus, ac si huius ipsius cataclysmi eum poeniteret: ecce,
                 inquit Noemo, ego statuam pactum meum vobiscum, et cum semine vestro post vos, et
                 nequaquam ultra interficietur omnis caro aquis diluvii.<note place="foot" xml:id="ftn141" n="141">
-            <p rend="footnote text"> Gen. 9, v. 9.</p>
+            <p rend="footnote text">Gen. 9, v. 9.</p>
           </note>
         </p>
-            <p>Iam vero, licet attritus sit forte propter scelera nostra<note place="foot" xml:id="ftn142" n="142">
-            <p rend="footnote text"> Isa. 53, v. 5.</p>
-          </note>
-                augustissimus, clementissimusque pater noster <persName>Carolus VI</persName> romanorum imperator, et cum
-                ipso totum genus austriacum, nihilominus in <persName>Maria Teresia</persName>, velut altera arca
+        <p>Iam vero, licet attritus sit forte propter scelera nostra<note place="foot" xml:id="ftn142" n="142">
+            <p rend="footnote text">Isa. 53, v. 5.</p>
+          </note>augustissimus, clementissimusque pater noster<persName>Carolus VI</persName>romanorum imperator, et cum
+                ipso totum genus austriacum, nihilominus in<persName>Maria Teresia</persName>, velut altera arca
                 Noetica, licet miris modis intus, et foris agitata adeo, ut etiam inimici fuerint
                 domestici eius;<note place="foot" xml:id="ftn143" n="143">
-            <p rend="footnote text">
-                        Matth. 10, v. 36.</p>
-          </note> et quos nutrivit, et exaltavit, spreverint
+            <p rend="footnote text">Matth. 10, v. 36.</p>
+          </note>et quos nutrivit, et exaltavit, spreverint
                     eam;<note place="foot" xml:id="ftn144" n="144">
-            <p rend="footnote text"> Isa. 1,
+            <p rend="footnote text">Isa. 1,
                         v. 2.</p>
           </note>singularissimo Dei beneficio salvum et incolume servatum est
-                semen eius in nostro neo-nato regio <pb xml:id="D1v"/>archiducali principe Josepho Adamo, qui
+                semen eius in nostro neo-nato regio<pb xml:id="D1v"/>archiducali principe Josepho Adamo, qui
                 utpote Adamus, vel si mavis, utpote Noe austriacus perseverabit in suis posteris
                 usque ad consummationem saeculi,<note place="foot" xml:id="ftn145" n="145">
-            <p rend="footnote text"> Matth. 28, v. ult.</p>
-          </note> nec sceptrum unquam
+            <p rend="footnote text">Matth. 28, v. ult.</p>
+          </note>nec sceptrum unquam
                 auferetur de manu eius, et dux de femore qius, donec veniat in nubibus coeli, qui
                 secundo mittendus est;<note place="foot" xml:id="ftn146" n="146">
-            <p rend="footnote text"> Gen. 49, v. 10.</p>
-          </note> verumque erit dictum illus
-                ex initialibus vocalibus confectum: <placeName>Austria</placeName> erit in orbe ultima, simulque ex asse
+            <p rend="footnote text">Gen. 49, v. 10.</p>
+          </note>verumque erit dictum illus
+                ex initialibus vocalibus confectum:<placeName>Austria</placeName>erit in orbe ultima, simulque ex asse
                 implebitur hoc meum seu vaticinium seu votum initio productum: Joseph filius
                 accrescens crescet in mille millia; Benedictus, quia venit in nomine Domini, iam
                 nunc Augustus erit augustissimus, in Michaele potentissimus, in Joanne maximus, in
                 Antonio gloriosissimus, in Adamo perpetuus.</p>
-            <p>Faxint boni superi, quorum opem anhelis votis hodie et deinceps ad hunc finem
+        <p>Faxint boni superi, quorum opem anhelis votis hodie et deinceps ad hunc finem
                 implorabimus; ut ex his, quae hic et nunc ex parte cognovimus, et ex parte
                     prophetavimus,<note place="foot" xml:id="ftn147" n="147">
-            <p rend="footnote text"> 1 Cor. 13, v. 9.</p>
-          </note> aut prophetare contendimus; donec transeat
+            <p rend="footnote text">1 Cor. 13, v. 9.</p>
+          </note>aut prophetare contendimus; donec transeat
                 coelum et terra, iota unum, aut unus apex non praetereat, donec omnia fiant,<note place="foot" xml:id="ftn148" n="148">
-            <p rend="footnote text"> Matth. 5, v.
+            <p rend="footnote text">Matth. 5, v.
                         19.</p>
-          </note> et sic gaudium nostrum nemo unquam tollat a nobis.<note place="foot" xml:id="ftn149" n="149">
-            <p rend="footnote text"> Ioann. 16, v.
+          </note>et sic gaudium nostrum nemo unquam tollat a nobis.<note place="foot" xml:id="ftn149" n="149">
+            <p rend="footnote text">Ioann. 16, v.
                         22.</p>
           </note>
         </p>
-            <p>Amen.</p>
-            </div>
-        </body>
-    </text>
+        <p>Amen.</p>
+      </div>
+    </body>
+  </text>
 </TEI>

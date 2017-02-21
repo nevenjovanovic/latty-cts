@@ -1,216 +1,209 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="anonymus-hymnus">
-            <titleStmt>
-                <title>Hymnus de Sancto Simone Innocente Tridentino, versio electronica</title>
-                <author>
-                    <name>Anonymus</name>
-                </author>
-                <respStmt>
-                    <resp>Hanc versionem electronicam curavit</resp>
-                    <name>Irina Tautschnig</name>
-                </respStmt>
-            </titleStmt>
-            
-            <editionStmt>
-                <edition>transcribed from the printed version</edition>
-            </editionStmt>
-            
-            <extent>90 versus</extent>
-            
-            <publicationStmt>
-                <p>Croatica et Tyrolensia: Tyrolis Latina <date>April 2015</date>
+  <teiHeader>
+    <fileDesc xml:id="anonymus-hymnus">
+      <titleStmt>
+        <title xml:id="Anonymus52330">Hymnus de Sancto Simone Innocente Tridentino, versio electronica</title>
+        <author>
+          <name>Anonymus</name>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Irina Tautschnig</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed version</edition>
+      </editionStmt>
+      <extent>90 versus</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>April 2015</date>
         </p>
-            </publicationStmt>
-            
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <title>Hymnus de Sancto Simone Innocente Tridentino</title>
-                        <imprint>
-                            <pubPlace>Trient</pubPlace>
-                            <date when="1727">1727</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-                <bibl>Tiroler Landesmuseum Ferdinandeum, FB 2937</bibl>
-            </sourceDesc>
-        </fileDesc>
-        
-        <profileDesc>
-            <creation>
-                <date when="1727">1727</date>
-            </creation>
-            <textClass>
-                <keywords scheme="time">
-                    <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens (1773)</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>Dichtung</term>
-                    <term>Hymnus</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        
-        <revisionDesc>
-            <change>corrected teiHeader and body<date>2015-05-20</date>
-                <name>Johanna Luggin</name>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    
-    <text>
-        <body>
-            <div>
-                <head>Hymnus de Sancto Simone Innocente Tridentino. <placeName>Trideni</placeName>, <date>MDCC.XXVII.</date> Ex Typographo Joannis Antonii Brunati,Superiorum Permissu.</head>
-            </div>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>Hymnus de Sancto Simone Innocente Tridentino</title>
+            <imprint>
+              <pubPlace>Trient</pubPlace>
+              <date when="1727">1727</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>Tiroler Landesmuseum Ferdinandeum, FB 2937</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1727">1727</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens (1773)</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Dichtung</term>
+          <term>Hymnus</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>corrected teiHeader and body<date>2015-05-20</date>
+        <name>Johanna Luggin</name>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Hymnus de Sancto Simone Innocente Tridentino.<placeName>Trideni</placeName>,<date>MDCC.XXVII.</date>Ex Typographo Joannis Antonii Brunati,Superiorum Permissu.</head>
+      </div>
       <pb xml:id="A2r"/>
-            <div>
-                <head>Hymnus de Sancto Simone Innocente Tridentino.</head>
-            </div>
-            <div>
-                <head>I.</head>
-                    <l>Pange lingua gloriosi</l>
-                    <l>Simonis Martyrium,</l>
-                    <l>Sanguinisque pretiosi,</l>
-                    <l>Quem effudit roseum</l>
-                    <l n="5">In conventu malignorum,</l>
-                    <l>Nocte coenae Domini.</l>
-                </div>
-            <div>
-                <head>II.</head>
-                    <l>Raptus hic de matris aede</l>
-                    <l>Residens in limine</l>
-                    <l>Per Tobiam ductus pede</l>
-                    <l n="10">Falso mentis tramite:</l>
-                    <l>Hunc in domum Samuelis</l>
-                    <l>Praesentat sub chlamyde.</l>
-                </div>
+      <div>
+        <head>Hymnus de Sancto Simone Innocente Tridentino.</head>
+      </div>
+      <div>
+        <head>I.</head>
+        <l>Pange lingua gloriosi</l>
+        <l>Simonis Martyrium,</l>
+        <l>Sanguinisque pretiosi,</l>
+        <l>Quem effudit roseum</l>
+        <l n="5">In conventu malignorum,</l>
+        <l>Nocte coenae Domini.</l>
+      </div>
+      <div>
+        <head>II.</head>
+        <l>Raptus hic de matris aede</l>
+        <l>Residens in limine</l>
+        <l>Per Tobiam ductus pede</l>
+        <l n="10">Falso mentis tramite:</l>
+        <l>Hunc in domum Samuelis</l>
+        <l>Praesentat sub chlamyde.</l>
+      </div>
       <pb xml:id="A2v"/>
-            <div>
-                <head>III.</head>
-                    <l>Fit conventus Judaeorum</l>
-                    <l>Noctis in crepusculo,</l>
-                    <l n="15">Synagoga perfidorum</l>
-                    <l>Domus in ergastulo:</l>
-                    <l>Hinc <corr>insultant</corr>, et exultant</l>
-                    <l>Innocentis sanguine.</l>
-                </div>
-            <div>
-                <head>IV.</head>
-                    <l>Vestes hujus primum levant,</l>
-                    <l n="20">Et revolvunt invicem:</l>
-                    <l>A supremis, et ab imis</l>
-                    <l>Adusque coxendicem:</l>
-                    <l>Sed de subtus istas ligant</l>
-                    <l>Perfido ligamine.</l>
-            </div>
-            <div>
-                <head>V.</head>
-                    <l n="25">Hic jam senex premunitur</l>
-                    <l>Trahit carnem forcipe, </l>
-                    <l>Sic a mento labrum subtus</l>
-                    <l>Et in dextro poplite</l>
-                    <l>Fluit sanguis, quem subiecta</l>
-                    <l n="30">Colligit paropside.</l>
-                </div>
+      <div>
+        <head>III.</head>
+        <l>Fit conventus Judaeorum</l>
+        <l>Noctis in crepusculo,</l>
+        <l n="15">Synagoga perfidorum</l>
+        <l>Domus in ergastulo:</l>
+        <l>Hinc<corr>insultant</corr>, et exultant</l>
+        <l>Innocentis sanguine.</l>
+      </div>
+      <div>
+        <head>IV.</head>
+        <l>Vestes hujus primum levant,</l>
+        <l n="20">Et revolvunt invicem:</l>
+        <l>A supremis, et ab imis</l>
+        <l>Adusque coxendicem:</l>
+        <l>Sed de subtus istas ligant</l>
+        <l>Perfido ligamine.</l>
+      </div>
+      <div>
+        <head>V.</head>
+        <l n="25">Hic jam senex premunitur</l>
+        <l>Trahit carnem forcipe,</l>
+        <l>Sic a mento labrum subtus</l>
+        <l>Et in dextro poplite</l>
+        <l>Fluit sanguis, quem subiecta</l>
+        <l n="30">Colligit paropside.</l>
+      </div>
       <pb xml:id="A3r"/>
-            <div>
-                <head>VI.</head>
-                    <l>Post haec cultrum tam severum</l>
-                    <l>Efferat in inguine,</l>
-                    <l>Et ex inde madet ferrum</l>
-                    <l>Copioso sanguine,</l>
-                    <l n="35">Quem in coena tam prophana</l>
-                    <l>Libaverunt hodie.</l>
-            </div>
-            <div>
-                <head>VII.</head>
-                    <l>Domum gens haec tam funesta</l>
-                    <l>Manus armat stimulis,</l>
-                    <l>Et corpusculum infanti</l>
-                    <l n="40">Strictis pungit acubus</l>
-                    <l>Execrandis usa verbis</l>
-                    <l>In contemptum fidei.</l>
-            </div>
-            <div>
-                <head>VIII.</head>
-                    <l>Inter haec tam dire gesta</l>
-                    <l>Ingemit infantulus;</l>
-                    <l n="45">Et ad Coelos, et ad astra</l>
-                    <l>Levat suos oculos;</l>
-                    <l>Ut rex sumus, et aeternus</l>
-                    <l>Hic se tolat ocyus.</l>
-                </div>
+      <div>
+        <head>VI.</head>
+        <l>Post haec cultrum tam severum</l>
+        <l>Efferat in inguine,</l>
+        <l>Et ex inde madet ferrum</l>
+        <l>Copioso sanguine,</l>
+        <l n="35">Quem in coena tam prophana</l>
+        <l>Libaverunt hodie.</l>
+      </div>
+      <div>
+        <head>VII.</head>
+        <l>Domum gens haec tam funesta</l>
+        <l>Manus armat stimulis,</l>
+        <l>Et corpusculum infanti</l>
+        <l n="40">Strictis pungit acubus</l>
+        <l>Execrandis usa verbis</l>
+        <l>In contemptum fidei.</l>
+      </div>
+      <div>
+        <head>VIII.</head>
+        <l>Inter haec tam dire gesta</l>
+        <l>Ingemit infantulus;</l>
+        <l n="45">Et ad Coelos, et ad astra</l>
+        <l>Levat suos oculos;</l>
+        <l>Ut rex sumus, et aeternus</l>
+        <l>Hic se tolat ocyus.</l>
+      </div>
       <pb xml:id="A3v"/>
-            <div>
-                <head>IX.</head>
-                    <l>Tum hi duo seniores</l>
-                    <l n="50">Samuel, et Moyses</l>
-                    <l>Hunc attolunt, et <corr>sustentant</corr>
+      <div>
+        <head>IX.</head>
+        <l>Tum hi duo seniores</l>
+        <l n="50">Samuel, et Moyses</l>
+        <l>Hunc attolunt, et<corr>sustentant</corr>
         </l>
-                    <l>In utroque brachio</l>
-                    <l>Extendentes, et stringentes</l>
-                    <l>Lineo strophilo.</l>
-                </div>
-            <div>
-                <head>X.</head>
-                    <l n="55">Mox in collo sic adstrictus</l>
-                    <l>Inclinato capite</l>
-                    <l>Est atritus, et afflictus</l>
-                    <l>Jam emuncto Sanguine</l>
-                    <l>Reddit vitam, qujeturus</l>
-                    <l n="60">In supremo culmine.</l>
-            </div>
-            <div>
-                <head>XI.</head>
-                    <l>Coros intrat Angelorum, </l>
-                    <l>Fitque pars in ordine</l>
-                    <l>Innocentum supernorum,</l>
-                    <l>Ac Sanctorum agmine:</l>
-                    <l n="65">Ubi nunc triunphat laetus</l>
-                    <l>Duplicato foenore.</l>
-                  </div>
+        <l>In utroque brachio</l>
+        <l>Extendentes, et stringentes</l>
+        <l>Lineo strophilo.</l>
+      </div>
+      <div>
+        <head>X.</head>
+        <l n="55">Mox in collo sic adstrictus</l>
+        <l>Inclinato capite</l>
+        <l>Est atritus, et afflictus</l>
+        <l>Jam emuncto Sanguine</l>
+        <l>Reddit vitam, qujeturus</l>
+        <l n="60">In supremo culmine.</l>
+      </div>
+      <div>
+        <head>XI.</head>
+        <l>Coros intrat Angelorum,</l>
+        <l>Fitque pars in ordine</l>
+        <l>Innocentum supernorum,</l>
+        <l>Ac Sanctorum agmine:</l>
+        <l n="65">Ubi nunc triunphat laetus</l>
+        <l>Duplicato foenore.</l>
+      </div>
       <pb xml:id="A4r"/>
-            <div>
-                <head>XII.</head>
-                    <l>Hinc exulta, gens devota,</l>
-                    <l>Plebs, et Civis inclyte,</l>
-                    <l>Urbis almae Tridentinae</l>
-                    <l n="70">Tam sacrato martyre,</l>
-                    <l>Qui necatus est in <sic>ea</sic>
+      <div>
+        <head>XII.</head>
+        <l>Hinc exulta, gens devota,</l>
+        <l>Plebs, et Civis inclyte,</l>
+        <l>Urbis almae Tridentinae</l>
+        <l n="70">Tam sacrato martyre,</l>
+        <l>Qui necatus est in<sic>ea</sic>
         </l>
-                    <l>Judeorum scelere.</l>
-            </div>
-            <div>
-                <head>XIII.</head>
-                    <l>In contemptum Judaeorum,</l>
-                    <l>Et suorum complicum,</l>
-                    <l n="75">Plaudat Virgo mater sancta</l>
-                    <l>Per infantis meritum,</l>
-                    <l>Qui pro Christo fuit ductus</l>
-                    <l>Ad necis interitum.</l>
-            </div>
-            <div>
-                <head>XIV.</head>
-                    <l>Patri, Nato cum Spirato,</l>
-                    <l n="80">Laus, et benedictio</l>
-                    <l>Sit pro mellei puelli</l>
-                    <l>Tam sublimi merito,</l>
-                    <l>Quo donati sumus modo</l>
-                    <l>Ejus beneficio.</l>
-                </div>
+        <l>Judeorum scelere.</l>
+      </div>
+      <div>
+        <head>XIII.</head>
+        <l>In contemptum Judaeorum,</l>
+        <l>Et suorum complicum,</l>
+        <l n="75">Plaudat Virgo mater sancta</l>
+        <l>Per infantis meritum,</l>
+        <l>Qui pro Christo fuit ductus</l>
+        <l>Ad necis interitum.</l>
+      </div>
+      <div>
+        <head>XIV.</head>
+        <l>Patri, Nato cum Spirato,</l>
+        <l n="80">Laus, et benedictio</l>
+        <l>Sit pro mellei puelli</l>
+        <l>Tam sublimi merito,</l>
+        <l>Quo donati sumus modo</l>
+        <l>Ejus beneficio.</l>
+      </div>
       <pb xml:id="A4v"/>
-            <div>
-                <head>XV.</head>
-                    <l n="85">Regi Regum salus vita,</l>
-                    <l>Sit in hac victoria,</l>
-                    <l>Qui pro Christo fit sacratus</l>
-                    <l>In hujus memoria,</l>
-                    <l>Qui perenni jam dotatus</l>
-                    <l n="90">Triumphat in gloria.</l>
-                    <l>Amen.</l>
-            </div>
-        </body>
-    </text>
+      <div>
+        <head>XV.</head>
+        <l n="85">Regi Regum salus vita,</l>
+        <l>Sit in hac victoria,</l>
+        <l>Qui pro Christo fit sacratus</l>
+        <l>In hujus memoria,</l>
+        <l>Qui perenni jam dotatus</l>
+        <l n="90">Triumphat in gloria.</l>
+        <l>Amen.</l>
+      </div>
+    </body>
+  </text>
 </TEI>

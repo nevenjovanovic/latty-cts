@@ -1,99 +1,88 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="kuefner-j-oratiuncula">
-            <titleStmt>
-                <title>Oratiuncula parenetica ad pueros in symposio et coepulatione a puero
+  <teiHeader>
+    <fileDesc xml:id="kuefner-j-oratiuncula">
+      <titleStmt>
+        <title>Oratiuncula parenetica ad pueros in symposio et coepulatione a puero
                     recitata, versio electronica</title>
-                <author key="kuefner01">
-                    <name>Küfner, Johannes</name>
-                    <date precision="medium">1521-1546</date>
-                </author>
-                <respStmt>
-                    <resp>Hanc versionem electronicam curavit</resp>
-                    <name>Irina Tautschnig</name>
-                </respStmt>
-            </titleStmt>
-
-            <editionStmt>
-                <edition>Transcribed from the printed text</edition>
-            </editionStmt>
-
-            <extent>11 paginae</extent>
-
-            <publicationStmt>
-                <p>Croatica et Tyrolensia: Tyrolis Latina <date>August 2015</date>
+        <author key="kuefner01">
+          <name>Küfner, Johannes</name>
+          <date precision="medium">1521-1546</date>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Irina Tautschnig</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>11 paginae</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>August 2015</date>
         </p>
-            </publicationStmt>
-
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <author>Joseph Küfner</author>
-                        <title>Oratiuncula parenetica ad pueros in symposio et coepulatione a puero
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Joseph Küfner</author>
+            <title>Oratiuncula parenetica ad pueros in symposio et coepulatione a puero
                             recitata</title>
-                        <imprint>
-                            <pubPlace>Siegmundslust bei Schwaz</pubPlace>
-                            <date>1521</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-                <bibl>TLMF, FB 38060</bibl>
-            </sourceDesc>
-        </fileDesc>
-
-        <profileDesc>
-            <creation>
-                <date when="1521">1521</date>
-            </creation>
-            <textClass>
-                <keywords scheme="time">
-                    <term>Das 16. Jh. bis zum Tod Erzherzog Ferdinands II. von Tirol (1595)</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>Beredsamkeit</term>
-                    <term>Schulrede</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change>corrected teiHeader and body<date>2015-09-02</date>
-                <name>Johanna Luggin</name>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-
-    <text>
-        <body>
-
-            <div>
-                <head>Oratiuncula parenetica ad pueros in symposio et coepulatione a puero recitata.
+            <imprint>
+              <pubPlace>Siegmundslust bei Schwaz</pubPlace>
+              <date>1521</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>TLMF, FB 38060</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1521">1521</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Das 16. Jh. bis zum Tod Erzherzog Ferdinands II. von Tirol (1595)</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Beredsamkeit</term>
+          <term>Schulrede</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>corrected teiHeader and body<date>2015-09-02</date>
+        <name>Johanna Luggin</name>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Oratiuncula parenetica ad pueros in symposio et coepulatione a puero recitata.
                     Joanne Cuefnero Rattenbergio authore.</head>
-            </div>
-
-            <div>
-                <head>Endecasillabum Phaletium Simonis Minervii Budissini ad libellum.</head>
-                <lg>
-                <l>In faustis avibus, libelle parve,</l>
-                <l>Te cirrata cohors emat legatque:</l>
-                <l>Sanctos nam simul et doces pudicos</l>
-                <l>Mores: ronchisoni procul facessant.</l>
-                <l>Non, non hec criticis Latonibusve</l>
-                <l>Scripta est pagina: nunc valete, Momi.</l>
+      </div>
+      <div>
+        <head>Endecasillabum Phaletium Simonis Minervii Budissini ad libellum.</head>
+        <lg>
+          <l>In faustis avibus, libelle parve,</l>
+          <l>Te cirrata cohors emat legatque:</l>
+          <l>Sanctos nam simul et doces pudicos</l>
+          <l>Mores: ronchisoni procul facessant.</l>
+          <l>Non, non hec criticis Latonibusve</l>
+          <l>Scripta est pagina: nunc valete, Momi.</l>
         </lg>
-            </div>
-
-            <div>
-                <p>M D XXI.</p>
-            </div>
-            <pb xml:id="A1v"/>
-
-            <div>
-                <head>Joannes Cuephnerus Musarum candidato et pio lectori.</head>
-                <p>Candide mi lector, diversa esse hominum iuditia non ignoro: Alii rem ex equo,
+      </div>
+      <div>
+        <p>M D XXI.</p>
+      </div>
+      <pb xml:id="A1v"/>
+      <div>
+        <head>Joannes Cuephnerus Musarum candidato et pio lectori.</head>
+        <p>Candide mi lector, diversa esse hominum iuditia non ignoro: Alii rem ex equo,
                     alii contra iudicant. Quod idem in meo isto qualicunque foetu usu venturum mihi
                     in lucem prodeunti certum est. Nam non deerunt, qui Horatianum illud mihi
-                    succinent: <quote>nonumque prematur in annum</quote>, quod forte locum habet de
+                    succinent:<quote>nonumque prematur in annum</quote>, quod forte locum habet de
                     his scriptis, quibus eruditionis testimonium et immortalitatis fama petitur. At
                     ego, qui non augustam laudem, non glorie celaturam, denique non famam ampliorem,
                     quam que bonis et studiosis debetur, secutus sum, malui nunc Apellem quam
@@ -108,25 +97,23 @@
                     amicumque agas auctori tum Musis tum musophilis se ultro submittenti. Quod si
                     hec parva boni consulueris, ad maiora me animabis. Vale. Rattenberge ex edibus
                     nostris Anno M D XXI.</p>
-            </div>
-
-            <div>
-                <head>Ad turbam Palladiam Joannes Cuephnerus Rattenbergino. </head>
-                <lg>
-                <l>Has tibi primitias, tetrice que signa Minerve</l>
-                <l> Ardua per sequeris, candida turba, dico.</l>
-                <l>Accipe parva, precor: summus fit nemo repente,</l>
-                <l> Heserat olim nunc mamora summa legens:</l>
-                <l>Exiguo referent letas tibi tempora fruges</l>
-                <l> Momento, accedent his meliora. Vale.</l>
+      </div>
+      <div>
+        <head>Ad turbam Palladiam Joannes Cuephnerus Rattenbergino.</head>
+        <lg>
+          <l>Has tibi primitias, tetrice que signa Minerve</l>
+          <l>Ardua per sequeris, candida turba, dico.</l>
+          <l>Accipe parva, precor: summus fit nemo repente,</l>
+          <l>Heserat olim nunc mamora summa legens:</l>
+          <l>Exiguo referent letas tibi tempora fruges</l>
+          <l>Momento, accedent his meliora. Vale.</l>
         </lg>
-            </div>
-            <pb xml:id="A2r"/>
-
-            <div>
-                <head>Oratiuncula protreptica ad pueros coepulantes a puero recitata authore Joanne
+      </div>
+      <pb xml:id="A2r"/>
+      <div>
+        <head>Oratiuncula protreptica ad pueros coepulantes a puero recitata authore Joanne
                     Cueffnero Rattenbergio.</head>
-                <p>Theophrastus, ille vir summe prudentie, studii singularis, necnon eloquis
+        <p>Theophrastus, ille vir summe prudentie, studii singularis, necnon eloquis
                     admirandi, tametsi etatis sue facile facundissimus esset divineque illius
                     eloquencie studio palmam sepe inconsertis (ut dicam) manibus emeruisset, verba
                     tamen perpauca ad populum ac patricios athenienses facturus, hoc est, orationem
@@ -146,39 +133,37 @@
                     oratoriis pigmentis inuncta, non Homeriacis modulis exculta iamiam honoravero.
                     Et ne iusto longius in exordio usans ingrata prolixitate, ingrato recitatore
                     prostituto audiendi benevolentiam ipse mihi perimam ad narrationem ipsam
-                    animosius accedam. Vergilianum hoc mecum repetens: <quote>Audentes fortuna
-                        iuvat,</quote> item et illud: <quote>Gloria nec ulli fumidos nisi parit
+                    animosius accedam. Vergilianum hoc mecum repetens:<quote>Audentes fortuna
+                        iuvat,</quote>item et illud:<quote>Gloria nec ulli fumidos nisi parit
                         honores</quote>. Imitaborque plane eum, de quo facundissimus Poeta in hunc
                     modum lusit:</p>
-                <quote>
+        <quote>
           <lg>
-                        <l>Inventa secuit primus qui nave profundum</l>
-                        <l> Et rudibus remis sollicitavit aquas,</l>
-                        <l>Qui dubiis ausus committere flatibus alnum,</l>
-                        <l> Quas natura negat, prebuit arte vias,</l>
-                        <l>Tranquillo primum trepidus se credidit undis,</l>
-                        <l> Littora securo tramite summa ledens,</l>
-                        <pb xml:id="A2v"/>
-                        <l>Mox longos tentare sinus et linquere terras</l>
-                        <l> et leni cepit pendere vela notho.</l>
-                        <l>Ast ubi paulatim preceps <corr>audacia</corr> crevit</l>
-                        <l> Cordaque lagnentem dedicere metum,</l>
-                        <l>Iam vagus irrupit pelago celumque secutus</l>
-                        <l> Aegeas hyemes <corr>ioniumque</corr> domat.</l>
-                        <note place="margin">Claudiani de raptu proserpine.</note>
-                    </lg>
+            <l>Inventa secuit primus qui nave profundum</l>
+            <l>Et rudibus remis sollicitavit aquas,</l>
+            <l>Qui dubiis ausus committere flatibus alnum,</l>
+            <l>Quas natura negat, prebuit arte vias,</l>
+            <l>Tranquillo primum trepidus se credidit undis,</l>
+            <l>Littora securo tramite summa ledens,</l>
+            <pb xml:id="A2v"/>
+            <l>Mox longos tentare sinus et linquere terras</l>
+            <l>et leni cepit pendere vela notho.</l>
+            <l>Ast ubi paulatim preceps<corr>audacia</corr>crevit</l>
+            <l>Cordaque lagnentem dedicere metum,</l>
+            <l>Iam vagus irrupit pelago celumque secutus</l>
+            <l>Aegeas hyemes<corr>ioniumque</corr>domat.</l>
+            <note place="margin">Claudiani de raptu proserpine.</note>
+          </lg>
         </quote>
-                <p>Huius itaque, quicumque denique fuerit, exemplo vela orationis mee ventis
+        <p>Huius itaque, quicumque denique fuerit, exemplo vela orationis mee ventis
                     committam, que tamen, ut spero, ita moderabor, ut neque me dixisse nec vos
                     audivisse penituerit, modo Christi Optimi et Maximi exposita omnibus pie
-                    invocantibus benignitas et inmensa pietas mentis nostre tenebras suo fulgore
-                        <corr>discutiat</corr> et sensus nostros infirmos certe et in modum
+                    invocantibus benignitas et inmensa pietas mentis nostre tenebras suo fulgore<corr>discutiat</corr>et sensus nostros infirmos certe et in modum
                     ebriosorum, qui ex inmodica Nicerei numinis infusione capitis vertigine
                     rotantur, nutabundos firmet ac bono faustoque regat auspicio. Nulla est enim
                     mortalitatis nostre firmitudo, nulle vires humane, que non Christo perpetua
                     deditione teneantur, cui nos omnia referre acceptum, a quo omnia expostulare
-                    orantes debemus, cuius est celum et terra, qui fons est et <corr>origo</corr>
-                    boni, ex quo ceu ex oceano profluunt in hunc nostrum orbem mille divine sue et
+                    orantes debemus, cuius est celum et terra, qui fons est et<corr>origo</corr>boni, ex quo ceu ex oceano profluunt in hunc nostrum orbem mille divine sue et
                     inexplicabilis bonitatis rivuli saciantes ubertim aquis vivis, quacumque
                     sitibundis (ut ita dicam) faucibus accurrerit. Hunc igitur mecum, pueri et
                     condiscipuli optimi, piis et puris vocibus invocate. Hunc, hunc, qui spiritu suo
@@ -194,15 +179,14 @@
                     pudicitie et sanctitatis virginem, salutis nostre causatricem, patronam et
                     interventricem, numquam non morum puritate et innocentia virginitatisque et
                     humilitatis imitacione (nam hic cultus et deo et deipare nympe ac sanctis longe
-                    est gratissimus), denique et piis<pb xml:id="A3r"/> precibus veneremini. Sancte
+                    est gratissimus), denique et piis<pb xml:id="A3r"/>precibus veneremini. Sancte
                     adhoc crucis munimine facto bonos genios (quos Christus noster lectos comites et
                     in salutis conservande mancipium nobis adiunxit, ut eventus presciti nos
                     eugenica suggestione premoneant, exposcant cottidie et vellicent tutandos) ceu
                     dei legatos debita veneratione et humili commendatione nostri suspicatis. His
                     enim ministris et stipatoribus vita nostra mille periclitationibus maritata
                     tucior est. Cumque innumeris hostibus christiane saluti adversis homo
-                    obvolvatur, opus nobis est eorum auxiliaribus copiis, ne dum animosa cum vitiis
-                        <corr>fortitudine</corr> congredimur, victi succumbamus. Post hoc virtutem
+                    obvolvatur, opus nobis est eorum auxiliaribus copiis, ne dum animosa cum vitiis<corr>fortitudine</corr>congredimur, victi succumbamus. Post hoc virtutem
                     ipsam, vite nostre cum doctricem, tum moderatricem optimam amplectamur, que nos
                     a quadriniis et ulixea ambiguitate revocatos ad verum iter Christiana
                     orbitacione accersit, ut animus extirpata prava cupidine corpus voluptatibus
@@ -210,17 +194,17 @@
                     peccamina virtus. Nam virtute nitens fortis in astra volat. Adlubescant carmina
                     vergiliana, quibus nos amica cohortacione et egregiis premiis propositis ad
                     virtutis solium enitendum expergefacit inquiens:</p>
-                <quote>
+        <quote>
           <lg>
-                        <l>Quisquis enim duros casus <corr>virtutis</corr> amore</l>
-                        <l>Vicerit, ille sibi laudem decusque parabit,</l>
-                        <l>At qui desidiam luxumque sequetur inertem,</l>
-                        <l>Dum fugit oppositos incauta mente labores,</l>
-                        <l>Turpis inopsque simul miserabile transigit evum.</l>
-                        <note place="margin">Vergilii de litera pythagore.</note>
-                    </lg>
+            <l>Quisquis enim duros casus<corr>virtutis</corr>amore</l>
+            <l>Vicerit, ille sibi laudem decusque parabit,</l>
+            <l>At qui desidiam luxumque sequetur inertem,</l>
+            <l>Dum fugit oppositos incauta mente labores,</l>
+            <l>Turpis inopsque simul miserabile transigit evum.</l>
+            <note place="margin">Vergilii de litera pythagore.</note>
+          </lg>
         </quote>
-                <p>Oppetere mortem ultroneam necessum non habemus, quando et non accersita viam hanc
+        <p>Oppetere mortem ultroneam necessum non habemus, quando et non accersita viam hanc
                     citius, quam velis ipse, abrumpat. Verum navanda est opera, ut post excessum
                     vite curriculum vivacitate fame evincamus. Quo enim vita nostra districtior est,
                     quo diffortuniis concatenatior, eo maior etiam inveniende immortalitatis cura
@@ -231,21 +215,20 @@
                     barathrum traxit trahitque cottidie, quot prestantissima ingenia, quot
                     clarissimi sanguinis partus, intereadum otio indulgeret inter pocula, inter
                     scorta et lenones, in tabernis, popinis et lustris, rem simul et nomen paternium
-                    una cum vita foctissime prostitutam inglorii amiserunt.<pb xml:id="A3v"/>
-                    Pretermitto libens exemplis id, quod dico, ostendere, que utinam non essent
+                    una cum vita foctissime prostitutam inglorii amiserunt.<pb xml:id="A3v"/>Pretermitto libens exemplis id, quod dico, ostendere, que utinam non essent
                     plura et notiora, quam ut etiam vix libris complecti possint. Ob id non abs re
                     atheinenses otium severissime plectebant. Ad hoc omnibus detrimentosissimum, ne
                     nos occupet et oboriatur, liberalibus studiis aut honesta semper actione
                     eliminandum submonemur hisce satyrici versiculis:</p>
-                <quote>
+        <quote>
           <lg>
-                        <l>Scribe, puer, vigilia, causas age pellege rubras,</l>
-                        <l> Maiorum leges.</l>
-                        <l>Ardua marte gravi laus arma capessere quemquam</l>
-                        <l> Maior consiliis.</l>
-                    </lg>
+            <l>Scribe, puer, vigilia, causas age pellege rubras,</l>
+            <l>Maiorum leges.</l>
+            <l>Ardua marte gravi laus arma capessere quemquam</l>
+            <l>Maior consiliis.</l>
+          </lg>
         </quote>
-                <p>Nec minori cura compescenda puerorum labella duxerim, ut vagam verborum luxuriam
+        <p>Nec minori cura compescenda puerorum labella duxerim, ut vagam verborum luxuriam
                     Samia quandoque rariloquentia cohibeant: nam ut numerose dicam: Multiloquo
                     tacitis prestat amicla labris. Neve ad pomerianam (ut dicam) domum seu ad
                     venusinas edes prostantia verba unquam vomant, immo honore semper covivencium
@@ -264,12 +247,11 @@
                     omnium animalium precellentissimo, mutui amoris in hominem expressio et summa
                     benevolentie obstrictio conveniet, onficii nanque facilis coniunctio nemini
                     despicienda est, qui honestam rationem non simulet. Quam etenim custodite
-                    sobrie, caste, quam denique curiose custodienda mutua animorum
-                        <corr>coniunctio</corr> sit, non solum in hominibus, quos natura hominum
+                    sobrie, caste, quam denique curiose custodienda mutua animorum<corr>coniunctio</corr>sit, non solum in hominibus, quos natura hominum
                     architectrix solertissima in iis, que ingenii vim respiciunt, et capatiores et
                     habiliores ceteris esse voluit animatibus, quin et in bestiis, quibus crassior
-                    intelligentie servit <corr>usus</corr>, observamus et naturali exemplo
-                    contemplamur, nam iis summa invicem<pb xml:id="A4r"/> seminarie conformitatis
+                    intelligentie servit<corr>usus</corr>, observamus et naturali exemplo
+                    contemplamur, nam iis summa invicem<pb xml:id="A4r"/>seminarie conformitatis
                     consuetudo et equa sors est. Ad hanc itaque, quam dixi, communem vitam et
                     convenientem omnibus pro quovis etatum gradu enitendum. Est nanque etatum
                     progressus quidam ceu numeralis, propagatione septenaria distributus per
@@ -277,24 +259,23 @@
                     fuerit colligere: Inter eas infancia primum sortitur locum, que septimum usque
                     tendit ad annum totaque in altricando consistit. Hanc sequitur puericia, que
                     nunc fabellarum illecebris, nunc facetis salibus, nunc lusibus alee capitur.
-                    Demum adulescentia comitatur, que ob exauctissimum <corr>sanguinis</corr>
-                    fervorem tepidum voluptatibus convulsa creditur. Huic amor inest, hec puellas
-                    spirat, hec cum Virgilio clamat: <quote>Me tamen urit amor, quis enim modus
+                    Demum adulescentia comitatur, que ob exauctissimum<corr>sanguinis</corr>fervorem tepidum voluptatibus convulsa creditur. Huic amor inest, hec puellas
+                    spirat, hec cum Virgilio clamat:<quote>Me tamen urit amor, quis enim modus
                         adsit amori?</quote>
-          <note place="margin">Vergilii eclog. 2</note> Huius
+          <note place="margin">Vergilii eclog. 2</note>Huius
                     mehercle tanta vis est, ut sepe miserandos questus, ter quaterque miseris
                     amatoribus extorqueat, quales sunt amasii cuiusdam, que Guarinus veronensis
                     elegiaco carmine Alde flammis captum et misere perditum introducit his
                     verbis:</p>
-                <quote>
+        <quote>
           <lg>
-                        <l>Uror et ardentes versant mea pectora flamme</l>
-                        <l> Nec mihi nox grata est nec mihi grata dies,</l>
-                        <l>Ergo idem geminus ingens furor urget amantes</l>
-                        <l> Et furit in omnes exiciosus amor.</l>
-                    </lg>
+            <l>Uror et ardentes versant mea pectora flamme</l>
+            <l>Nec mihi nox grata est nec mihi grata dies,</l>
+            <l>Ergo idem geminus ingens furor urget amantes</l>
+            <l>Et furit in omnes exiciosus amor.</l>
+          </lg>
         </quote>
-                <p>Consequens est iuventa, virilis perspicacitas et laudis et contendende ambicionis
+        <p>Consequens est iuventa, virilis perspicacitas et laudis et contendende ambicionis
                     aucupio detenta, animi virtutisque perfecta completio. Huic proxima subrepit,
                     que reliquas etates complectitur, grandiuscula confectio, dietim consenescens,
                     loripedi concedens, positum vite stadium decurrit, quod naturata lege
@@ -307,8 +288,8 @@
                     emancipationem celestis patrie pro Christi regia fortiter belligerantes a
                     principis nostri signis non defecerimus. Inde nihilominus debita compactio puta
                     Christo, non gentiliciis numinibus offerenda, non extimis conviscerationibus,
-                    non <corr>sanguinibus</corr> proluendis, non victimariis concissionibus et
-                    hostiis, sed corde contrito integramente animis compositis,<pb xml:id="A4v"/> ut
+                    non<corr>sanguinibus</corr>proluendis, non victimariis concissionibus et
+                    hostiis, sed corde contrito integramente animis compositis,<pb xml:id="A4v"/>ut
                     sic expulsa Adamea putredine et antique serpentis perditione et morte renatam in
                     Christo vitam amplectamur. Quid enim insignius, quid dehinc nobilius, quam
                     Christi nomen in babtismatis lavacro inditum operibus Christiano dignis
@@ -324,54 +305,53 @@
                     gloriosius, quam paternis laudibus et preceptorum vestigiis, si modo recta
                     pressione, ut Plinio placet, exempla dederint, respondere, unde ille sic
                     cecinit:</p>
-                <quote>
+        <quote>
           <lg>
-                        <l>Gloria sit clari tibi maioranda parentis,</l>
-                        <l> Sic equidem magne gloria laudis erit.</l>
-                    </lg>
+            <l>Gloria sit clari tibi maioranda parentis,</l>
+            <l>Sic equidem magne gloria laudis erit.</l>
+          </lg>
         </quote>
-                <p>Quoniam vero omnia ad mediocritatem esse revocanda divinus ille Plato scribit, ob
+        <p>Quoniam vero omnia ad mediocritatem esse revocanda divinus ille Plato scribit, ob
                     id et ego moderabor orationis mee cursum et velis (ut dicam) contractis ad oram
                     properabo, si prius Maronis nostri locum, quo Elissei convivii magnificentiam
                     pleno (ut dicitur) ore celebrat mutuaticio iuro huc adscitum adduxero:</p>
-                <quote>
+        <quote>
           <lg>
-                        <l>At domus interior regali splendida luxu</l>
-                        <l>Instruitur mediisque parant convivia tectis.</l>
-                        <l>Iam pater Aeneas et iam Troiana iuventus</l>
-                        <l>Conveniunt stratoque super discumbitur ostro.</l>
-                        <l>Dant manibus famule lymphas cereremque canistris</l>
-                        <l>Expediunt tonsisque ferunt mantilia villis.</l>
-                        <l>Quinquaginta intus famule, quibus ordine longo</l>
-                        <l>Cura penum struere et flammis adolere penates.</l>
-                        <l>Centum alie totidemque pares etate ministri,</l>
-                        <l>Qui dapibus mensas onerant et pocula ponunt.</l>
-                        <l>Postquam prima quies epulis menseque remote,</l>
-                        <l>Crateras magnos statuunt et pocula ponunt.</l>
-                        <note place="margin">Vergilii locus ex primo Aeneidis.</note>
-                    </lg>
+            <l>At domus interior regali splendida luxu</l>
+            <l>Instruitur mediisque parant convivia tectis.</l>
+            <l>Iam pater Aeneas et iam Troiana iuventus</l>
+            <l>Conveniunt stratoque super discumbitur ostro.</l>
+            <l>Dant manibus famule lymphas cereremque canistris</l>
+            <l>Expediunt tonsisque ferunt mantilia villis.</l>
+            <l>Quinquaginta intus famule, quibus ordine longo</l>
+            <l>Cura penum struere et flammis adolere penates.</l>
+            <l>Centum alie totidemque pares etate ministri,</l>
+            <l>Qui dapibus mensas onerant et pocula ponunt.</l>
+            <l>Postquam prima quies epulis menseque remote,</l>
+            <l>Crateras magnos statuunt et pocula ponunt.</l>
+            <note place="margin">Vergilii locus ex primo Aeneidis.</note>
+          </lg>
         </quote>
-                <pb xml:id="A5r"/>
-                <p>In hunc locum licenciosius oberravi, quod videretur non nihil lautissime istius
+        <pb xml:id="A5r"/>
+        <p>In hunc locum licenciosius oberravi, quod videretur non nihil lautissime istius
                     coepulationis splendorem referre et depingere. Nunc super est, ut receptui canam
                     vosque ad unum ingenuos pueros et condiscipulos amantissimos, quam possim,
                     maxima prece obtester, ut hanc meam scholasticam et (ut vocant) progymnasmaticam
                     oratiunculam, quam defrons ego in humanitate vestra et genuina comitate confisus
                     auribus vestris inculcare ausus fuerim, boni equique consulatis. Spero omnino
-                    fore, ut, si hec, que <corr>admonui</corr>, studiose observaveritis, vitam hanc
+                    fore, ut, si hec, que<corr>admonui</corr>, studiose observaveritis, vitam hanc
                     umbratitam exigatis honeste, et futuram, pro qua omnes in hac miseriarum valle
                     militamus, procul dubio acquiratis eternam. Ad quam nos celestis ille pater post
                     filium suum Jesum Christum trahat, cui laus et gloria.</p>
-            </div>
-
-            <div>
-                <head>Frater Kilianus Brae Monachus Benedictinus Candido lectori Salutem.</head>
-                <p>Joannes Kuophnerus Ratemburgius, optime lector, parentibus cum primis honestis ac
+      </div>
+      <div>
+        <head>Frater Kilianus Brae Monachus Benedictinus Candido lectori Salutem.</head>
+        <p>Joannes Kuophnerus Ratemburgius, optime lector, parentibus cum primis honestis ac
                     locupletibus natus, eleganti corpore, moribus facillimis ac suavissimis,
                     dexterrimo ingenio, bonas literas a teneris (ut Graeci dicunt) unguiculis summo
                     semper studio et coluit et amavit usque eo, ut illum neque adulescentiae
                     lubricum illud neque pestiferae sodalitates neqeu delitiae illicibilesque
-                    voluptates transversum agere et ab iis abalienare <corr>potuerint</corr>. Quin
+                    voluptates transversum agere et ab iis abalienare<corr>potuerint</corr>. Quin
                     orbatus utroque parente sat ampli patrimonii haeres sua ipsius in manu sita
                     habens omnia, per tot videlicet caussas alio trahenteis avelli sese ab his
                     studiis nullo pacto permisit et ne uxore quidem ducta, magno certe studiorum
@@ -385,13 +365,12 @@
                     Etenim interest plurimum bonarum literarum studiorumque rectorum multos esse in
                     Germania nostra laicos tales et studiosos ipsos et reliquorum studiosorum tam
                     bonos patronos. Valet.</p>
-            </div>
-            <pb xml:id="A5v"/>
-
-            <div>
-                <head>Simon Minervius Budissinus ingenuorum quorundam puerorum Suocii preceptor
+      </div>
+      <pb xml:id="A5v"/>
+      <div>
+        <head>Simon Minervius Budissinus ingenuorum quorundam puerorum Suocii preceptor
                     Joanni Cuffnero ornatissimo adulescenti salutem plurimam dicit.</head>
-                <p>Quom multe sint in te tum animi tum corporis dotes, excellentes simul et rare, ob
+        <p>Quom multe sint in te tum animi tum corporis dotes, excellentes simul et rare, ob
                     quas diligi et amari merearis, Joannes amabilissime, unum tamen est, quod me non
                     solum in amorem, immo etiam admirationem tui impellit, nempe singulare et
                     pertinax tuum in bonas literas studium, quod semel et puer ingressus tam pleno
@@ -420,7 +399,7 @@
                     dotibus ornatam, succi plenam, bellam, generosam dotatamque et tui (ut par est)
                     amantissimam iugali vincula tibi sociarunt, ut vel sic uxoriis illecebris
                     inescatus et captus aut domesticarum rerum curis implicitus multorum poenitendo
-                    exemplo virtuti<pb xml:id="A6r"/> et Musis nuctium remitteres. Ceterum te neque etas
+                    exemplo virtuti<pb xml:id="A6r"/>et Musis nuctium remitteres. Ceterum te neque etas
                     malesuada precipitavit nec equalium consuetudo seduxit, non pessundederunt
                     divicie, non amor (vincens alioqui omnia) vicit, non evertit voluptas, non
                     mancipavit coniugalis charitas, aut longius avocavit externarum rerum studium.
@@ -442,26 +421,23 @@
                     possim, quod tum fiet, si qua cepisti via porro ire, et quod ex me audis, semper
                     esse cogitaveris. Vale et Simonem tui amantissimum redamato. Ex schola nostra
                     privata Tertio Calen. Julias Suocii Anno M D XXI.</p>
-            </div>
-
-            <div>
-                <head>Simon Minervius Budissinus libellum facit loquentem.</head>
-                <lg>
-                <l>Palladium quisquis cogitas superare cacumen</l>
-                <l> Eternumque cupis demeruisse decus,</l>
-                <l>Ne te Scylla latrans neu te implacata Charibdis</l>
-                <l> Subvertat, mediis, monstra cavenda, vadis,</l>
-                <l>Me lege, me lecto nosces semel atque relecto,</l>
-                <l> Que facienda tibi, queque cavenda simul.</l>
-                <l>Sum parvus, fateor, parvis me scripserat author:</l>
-                <l> Sepe sed et parvis gratia rebus inest.</l>
+      </div>
+      <div>
+        <head>Simon Minervius Budissinus libellum facit loquentem.</head>
+        <lg>
+          <l>Palladium quisquis cogitas superare cacumen</l>
+          <l>Eternumque cupis demeruisse decus,</l>
+          <l>Ne te Scylla latrans neu te implacata Charibdis</l>
+          <l>Subvertat, mediis, monstra cavenda, vadis,</l>
+          <l>Me lege, me lecto nosces semel atque relecto,</l>
+          <l>Que facienda tibi, queque cavenda simul.</l>
+          <l>Sum parvus, fateor, parvis me scripserat author:</l>
+          <l>Sepe sed et parvis gratia rebus inest.</l>
         </lg>
-            </div>
-
-            <div>
-                <p>Josephus Pyribullius Suocii imprimebat mense Junio MDXXI.</p>
-            </div>
-
-        </body>
-    </text>
+      </div>
+      <div>
+        <p>Josephus Pyribullius Suocii imprimebat mense Junio MDXXI.</p>
+      </div>
+    </body>
+  </text>
 </TEI>

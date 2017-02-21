@@ -1,77 +1,72 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="thun-p-litterae">
-            <titleStmt>
-                <title>Litterae encyclicae, versio electronica</title>
-                <author key="thun01">
-                    <name>Thun, Petrus Vigilius von</name>
-                    <date>1723-1800</date>
-                </author>
-                <respStmt>
-                    <resp>Hanc versionem electronicam curavit</resp>
-                    <name>Johanna Luggin</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>transcribed from the printed text</edition>
-            </editionStmt>
-            <extent>15 paginae</extent>
-            <publicationStmt>
-                <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
+  <teiHeader>
+    <fileDesc xml:id="thun-p-litterae">
+      <titleStmt>
+        <title>Litterae encyclicae, versio electronica</title>
+        <author key="thun01">
+          <name>Thun, Petrus Vigilius von</name>
+          <date>1723-1800</date>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Johanna Luggin</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>15 paginae</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
         </p>
-            </publicationStmt>
-            
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <imprint>
-                            <pubPlace>Trient</pubPlace>
-                            <date when="1792">1792</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-                <bibl>TLMF, Dip. 134/3</bibl>
-            </sourceDesc>
-        </fileDesc>
-        
-        <profileDesc>
-            <creation>
-                <date when="1792">1792</date>
-            </creation>
-            <textClass>
-                <keywords scheme="time">
-                    <term>Von der Vertreibung der Jesuiten bis zur Revolution 1848</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>Brief</term>
-                    <term>Hirtenbrief</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        
-        <revisionDesc>
-            <change>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <imprint>
+              <pubPlace>Trient</pubPlace>
+              <date when="1792">1792</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>TLMF, Dip. 134/3</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1792">1792</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Von der Vertreibung der Jesuiten bis zur Revolution 1848</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Brief</term>
+          <term>Hirtenbrief</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
         <date>2015-09-30</date>
-                <name>Johanna Luggin</name>
-            </change>
-        </revisionDesc>
-        
-    </teiHeader>
-    <text>
-        <body>
-            <div>
-            <head>
-          <persName>Petrus Vigilius</persName> Dei gratia episcopus et S.R.I. princeps 
-                <persName>Tridenti</persName> etc. Marchio
+        <name>Johanna Luggin</name>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>
+          <persName>Petrus Vigilius</persName>Dei gratia episcopus et S.R.I. princeps<persName>Tridenti</persName>etc. Marchio
                 Castellarii etc. ex comitibus de Thunn ed Hochenstein etc. Ven. Clero in animarum cura constituto. 
                 Gratia vobis et pax a Deo Patre, et Domino N.J.C.</head>
       </div>
-            <div>
-            <p>Apostolorum oraculum, quo futura discimus novissima tempora periculosa, in quibus
+      <div>
+        <p>Apostolorum oraculum, quo futura discimus novissima tempora periculosa, in quibus
                 discedent quidam a Fide, attendentes spiritibus erroris, in deceptione illusores,
-                iuxta proprias concupiscentias ambulantes in impietatibus, </p>
-            <pb n="1"/>
-            <p>Magistri mendaces, qui introducunt sectas perditionis, quid prohibet, fratres
+                iuxta proprias concupiscentias ambulantes in impietatibus,</p>
+        <pb n="1"/>
+        <p>Magistri mendaces, qui introducunt sectas perditionis, quid prohibet, fratres
                 charissimi, ut ad iniquam aetatem nostram referendum esse dicamus? Neminem enim
                 vestrum latere possunt turbae, seditiones, exitia, bellique strepitus, quibus
                 florentissimum Galliarum regnum nuper a legitimi sui regis imperio discissum,
@@ -83,29 +78,29 @@
                 incauti rudesque falluntur, perversitate, atque blanditiis in discrimen vocentur.
                 Qui tantorum malorum, quibus Gallia finitimaeque regiones misere premuntur, authores
                 sunt, ut fucum imperitis faciant, cieantque tumultus, libertatem aequalitatemque
-                hominibus pollicentur. His autem inanibus, at praestigiae plenis vocibus allecti, </p>
-            <pb n="2"/>
-            <p>incitatique Populi nihil non se consecuturos putant, si caeco impetu seditiosis morem
+                hominibus pollicentur. His autem inanibus, at praestigiae plenis vocibus allecti,</p>
+        <pb n="2"/>
+        <p>incitatique Populi nihil non se consecuturos putant, si caeco impetu seditiosis morem
                 gerant, et furore abreptis arma, viresque ministrent.</p>
-            <p>Verum quam libertatem miseri fuerint adepti, quamque obtinuerint aequalitatem
+        <p>Verum quam libertatem miseri fuerint adepti, quamque obtinuerint aequalitatem
                 testantur expilata civium bona, ac vi exacta tributa; testantur spoliata Divi
                 Numinis templa; testantur e sinu parentum erepti et militiae addicti liberi;
                 testantur demum optimorum virorum, ac sacerdotum exilia, et crudelissimae
                 interneciones. Hic libertatis infelix exitus, hic aequalitatis miserrimus
                 fructus.</p>
-            <p>Cum autem haec et alia innumera atrocissima mala speratam libertatem, et aequalitatem
+        <p>Cum autem haec et alia innumera atrocissima mala speratam libertatem, et aequalitatem
                 sint consecuta, et nemo nisi aversus a vero, praeceps et mente captus ea negare
                 possit; videte fratres charissimi, de quis in populo sit, qui per huiusmodi
-                philosophiam et inanem fallaciam simplices ac imperitos decipiat. </p>
-            <p>Dolentes enim audivimus, aliquos esse e plebecula, qui sono verborum excitati multa
+                philosophiam et inanem fallaciam simplices ac imperitos decipiat.</p>
+        <p>Dolentes enim audivimus, aliquos esse e plebecula, qui sono verborum excitati multa
                 sibi blandientes promittunt, et vana libertatis et aequalitatis aura pascuntur. Non
                 intelligunt miseri, libertate</p>
-            <pb n="3"/>
-            <p>In societatem inducta, vitiis atque sceleribus apertam patere viam; privatam
+        <pb n="3"/>
+        <p>In societatem inducta, vitiis atque sceleribus apertam patere viam; privatam
                 utilitatem omnis iustitiae et aequitatis matrem fore; vim et violentiam virtutis
                 locum occupare; ipsam denique rempublicam, velut sine remigio navim, civilium
                 tumultuum ludibrium futuram.</p>
-            <p>Quid vero a falso commentitioque aequalitatis vocabulo sibi simplices pollicentur?
+        <p>Quid vero a falso commentitioque aequalitatis vocabulo sibi simplices pollicentur?
                 Iustumne putant illi, et aequo animo ferre possent, ut qui improbo labore, multa
                 industriae, ingeniique laude patrimonium sibi, liberisque suis comparavit, illud
                 inutilibus, inertibus, otionis et helluonibus dividat? An cives illi, qui merito
@@ -115,8 +110,8 @@
                 paulisper inutile libertatis aequalitatisque nomen, subiectamque his vocibus
                 significationem consideret, aut somnium figementumque subesse, aut his sub
                 involueris impietatis, atque nequitiae semen latere non intelligat.</p>
-            <pb n="4"/>
-            <p>Quampropter, charissimi fratres, illud nos summopere turbat excruciatque animum
+        <pb n="4"/>
+        <p>Quampropter, charissimi fratres, illud nos summopere turbat excruciatque animum
                 nostrum, quod fraudulenta, fallaxque philosophia, qua rempublicam labefactare,
                 incautosque fallere conantur impii, ab irreligionis, impietatisque impuro fronte
                 proficiscatur. Nam si puram, sanctamque religionem, quam ab incunabulis didicerunt,
@@ -124,35 +119,35 @@
                 atque foedera violare ausi fuissent. Quid enim est publico bono, atque
                 tranquillitati non utile modo, sed et necessarium, quod non a Dei religione
                 praecipiatur, et ab ea derivetur? Haec divino mantato, non propter timorem tantum,
-                sed etiam propter conscientiam cives subiicit imperanti: <quote>Omnis
+                sed etiam propter conscientiam cives subiicit imperanti:<quote>Omnis
                     anima potestatibus sublimioribus subdita sit: non est enim potestas, nisi a
-                    Deo.</quote> Haec, quae sociis debentur officia, quibusque violatis, quies
-                tollitur, prohibet infringi: <quote>non adulterabis; non occides; non
+                    Deo.</quote>Haec, quae sociis debentur officia, quibusque violatis, quies
+                tollitur, prohibet infringi:<quote>non adulterabis; non occides; non
                     furaberis; non falsum testimonium dices; non concupisces; non facies calumniam
                     proximo tuo, nec vi opprimes eum; non erit criminator, neque sussurro in populo;
                     non</quote>
         </p>
-            <pb n="5"/>
-                <p>
-          <quote>quaeras ultionem, nec memor eris iniuriae civium tuorum. </quote>Haec
+        <pb n="5"/>
+        <p>
+          <quote>quaeras ultionem, nec memor eris iniuriae civium tuorum.</quote>Haec
                 parentum filiorumque, haec dominorum atque servorum mutua onera iubet, fovet atque
-                tuetur: <quote>Filii obedite parentibus vestris in Domino... et vos
+                tuetur:<quote>Filii obedite parentibus vestris in Domino... et vos
                     parentes nolite ad iracundiam provocare filios vestros; sed educate illos in
-                    disciplina, et correptione Domini</quote> ... <quote>servi obedite
+                    disciplina, et correptione Domini</quote>...<quote>servi obedite
                     dominis et vos domini eadem facite illis, remittentes minas, scientes, quia et
-                    horum et vester Dominus est in coelis. </quote>Haec, ut paucis omnia complectamur,
+                    horum et vester Dominus est in coelis.</quote>Haec, ut paucis omnia complectamur,
                 publicam securitatem non tam scelera redarguendo, quam virtutem omnigenam excitando
-                procurat et promovet: <quote>Fratres, quaecunque sunt vera, quaecunque
+                procurat et promovet:<quote>Fratres, quaecunque sunt vera, quaecunque
                     pudica, quaecunque iusta, quaecunque sancta, quaecunque amabilia, quaecunque
-                    bonae famae, si qua virtus, si qua laus disciplinae, haec cogitate. </quote>O
+                    bonae famae, si qua virtus, si qua laus disciplinae, haec cogitate.</quote>O
                 fortunatam rempublicam, fortunatosque cives, ubi tam sancta colitur, servaturque
                 religio! Quid enim ad vinculum et robur societatis retinendum, ad perfectam
                 sanctionem legibus conciliandam, proficuum magis esse potest ea religione, divinaque
                 lege, quae non solum manifesta, sed et occulta ab Aeterno Iudice punienda</p>
-            <pb n="6"/>
-            <p>scelera docet? Quae humanis legibus nutu Dei parendum praecipit? Quae vim omnem
+        <pb n="6"/>
+        <p>scelera docet? Quae humanis legibus nutu Dei parendum praecipit? Quae vim omnem
                 facinorosorum hominum divino iudicio subdit atque reservat?</p>
-            <p>Haec religio, fratres charissimi, si a republica tollatur, fides etiam et societas
+        <p>Haec religio, fratres charissimi, si a republica tollatur, fides etiam et societas
                 humani generis, et una excellentissima virtus iustitiae tollitur. Hac sublata
                 religione, nequicquam psaeudophilosophi ad populos in officio continendos,
                 tuendamque civitatem inania honestatis humanitatisque vocabula populorum auribus
@@ -164,24 +159,24 @@
                 potest esse humanitas, quae honestas, quae iustitia, quae sanctitas, si abest
                 religio, quae proemiorum, atque poenarum aliam superesse vitam docet? Imo quo se non
                 proripit,</p>
-            <pb n="7"/>
-            <p>ac proiicit cupiditas, ac corruptela, cum despicatui habetur criminum inspector et
+        <pb n="7"/>
+        <p>ac proiicit cupiditas, ac corruptela, cum despicatui habetur criminum inspector et
                 ultor Deus?</p>
-            <p>Quapropter, fratres charissimi, populos sollicitudini vestrae commissos diligenter
+        <p>Quapropter, fratres charissimi, populos sollicitudini vestrae commissos diligenter
                 instruite, ut caveant sedulo ab iis, qui religione neglecta, honestatis
                 humanitatisque incertas leges plenis buccis venditantes reipsa non timent nisi
-                testem et iudicem. <quote>Quae enim in occulto fiunt ab ipsis turpe est
-                    et dicere. </quote>Horum scilicet libertinorum ea est religio omnis, ac morum
+                testem et iudicem.<quote>Quae enim in occulto fiunt ab ipsis turpe est
+                    et dicere.</quote>Horum scilicet libertinorum ea est religio omnis, ac morum
                 regula, ut temperent se a criminibus, quae luce manifestantur, et principis lege
                 plectuntur. Quod si opportunam poenam eludendi occasionem nansiscantur; ius illis
                 erit latrocinari, ius adulterare, ius falsum dicere, ius occidere, ius incendiis et
                 ferro omnia vastare.</p>
-            <p>Sed ut populo persuadeatis, omnia esse timenda, nihilque sperandum ab iis, qui
+        <p>Sed ut populo persuadeatis, omnia esse timenda, nihilque sperandum ab iis, qui
                 scelerum faedere ac nefaria societate coniuncti, nescimus, an facinora patrent
                 magis, ut perdant religionem, vel religionem abiecerint, ut libera pateat ad
                 facinora via; non indigemus argumentis, cum palam facta ipsa loquantur. Quae</p>
-            <pb n="8"/>
-            <p>enim primo superest illis religio? Desolata sunt templa Dei; cessavit sacrificium;
+        <pb n="8"/>
+        <p>enim primo superest illis religio? Desolata sunt templa Dei; cessavit sacrificium;
                 sacerdotes Deo fideles gementes eiecti sunt, aut velut oves ad occisionem ducti; qui
                 vero inter eos hominibus magis, quam Deo voluerunt obedire a Christi in terris
                 vicario tamquam perdita membra, tanquam schismatici ab ecclesiae unitate abscinendi
@@ -189,43 +184,42 @@
                 enim est fidelis minister, qui eas verbi Dei et sacramentorum dispensatione pascat,
                 qui in tribulationibus eas consoletur, qui morientes suscipiat, et aeterno pastori
                 consignet.</p>
-            <p>Sed quid praeterea tam impium, tam barbarum, tam iniquum, tam flagitiosum dici
+        <p>Sed quid praeterea tam impium, tam barbarum, tam iniquum, tam flagitiosum dici
                 potest, quod a perditis scelestisque hominibus, ad reipublicae perniciem, non fuerit
                 patratum? Refugit animus, fratres carissimi, horretque enarrare quae tetra,
                 horribilis ac infesta coniuratorum manus molita est facinora. Huc pertinent privata
                 bonorum dominia violata, civium fortunae publicatae, optimorum virorum neces,
                 nefariorum vero hominum vita servata</p>
-            <pb n="9"/>
-            <p>regii palatii atque Thesauri depraedatio, ecclesiae praestantissimorum ministrorum
+        <pb n="9"/>
+        <p>regii palatii atque Thesauri depraedatio, ecclesiae praestantissimorum ministrorum
                 persecutio, ac internecio, obliterata antiquitatis monumenta, templorum
                 profanationes, lamentationes matrumfamilias, fuga virginum, atque puerorum, miseri
                 atque insepulti civium acervi. Quis haec considerans temperet a lacrimis? Quis
                 confitetur Iesum Christum, et hanc desolationis abominationem non detestatur?</p>
-            <p>Haec aliaque atrocissima facinora in religionem atque rempublicam eiusmodi sunt, quae
+        <p>Haec aliaque atrocissima facinora in religionem atque rempublicam eiusmodi sunt, quae
                 et eorum fucatam honestatem, humanitatemque patefaciunt et quae libertas, quae
                 aequalitas sit expectanda, clarissime ostendunt.</p>
-            <p>Quod si libertinorum, infestorumque hominum studia a primordiis cognoscere velimus;
+        <p>Quod si libertinorum, infestorumque hominum studia a primordiis cognoscere velimus;
                 non nova sapientibus viris, sed a multo tempore ad tollendam religionem, ipsumque
                 imperium ab iis disposita ac constituta apparebunt.</p>
-            <p>Notissima est de istarum, ut vocari amant, impia secta, quae saeculo superiori
+        <p>Notissima est de istarum, ut vocari amant, impia secta, quae saeculo superiori
                 labente ex Angliae regno in Galliam aliasque regiones pestilentissimum</p>
-            <pb n="10"/>
-            <p>diffudit virus, plurimis editis, evulgatisque libris impietate magis, quam doctrina
+        <pb n="10"/>
+        <p>diffudit virus, plurimis editis, evulgatisque libris impietate magis, quam doctrina
                 insignibus. Horum omnium scelerati conatus eo imprimis, specie tenus videntur
                 tendere; ut religionem Die evertant, naturalemque substituant, reipsa ut, incerta et
                 imperfecta actionum regula proposita, imperantium iura pessumdarent, vincula
                 solverent sobietatis, ac libertatem, dicamus magis effroenem vitiorum licentiam
                 inducerent. Haec nefariorum operum colluvies crevit in dies, atque heu quam multorum
                 religionem, moresque foedavit! Quamprimum pestis haec e regno tenebrarum egesta est,
-                clamarunt vigiles civitatis Dei custodes, et cum paulo clamorem ingeminarunt: 
-                <quote>Videte ne quis vos decipiat per pholosophiam, et innanem
+                clamarunt vigiles civitatis Dei custodes, et cum paulo clamorem ingeminarunt:<quote>Videte ne quis vos decipiat per pholosophiam, et innanem
                     fallaciam, secundum traditionem hominum, secundum elementa mundi, et non
-                    secundum Ceristum!</quote> Verum si apostolica verba multos quidem innocentes ab
+                    secundum Ceristum!</quote>Verum si apostolica verba multos quidem innocentes ab
                 errore servare potuerunt; bellum tamen a spiritu erroris indictum restinqui non
                 potuit. Erupit denique aperte virus, cum pestilentissimo opusculo in Galliarum
                 regno, vix quinque ante lustra,</p>
-            <pb n="11"/>
-            <p>evulgato; omnium incredulorum nomine impiissimus author non obscure nuntiavit, se
+        <pb n="11"/>
+        <p>evulgato; omnium incredulorum nomine impiissimus author non obscure nuntiavit, se
                 Deum, si fieri potest, e coelo et imperantes e sedibus deturbare, subditosque a
                 vinculo logis solvere velle. Infandum huius caeterorumque libertinorum conatum
                 ardenti studio reprimere fatagens clerus Gallicanus christianissimo regi anno 1770
@@ -235,66 +229,64 @@
                 extincti non sunt; sed magis aucti (tanta est malae progeniei infausta foecunditas!)
                 Regiones omnes libere pervaserunt et scelerata doctrina, morumque pessima corruptela
                 infecerunt.</p>
-            <p>Advenit tandem optata et tamdiu ab impiis hominibus expectata dies, qua ab impio
+        <p>Advenit tandem optata et tamdiu ab impiis hominibus expectata dies, qua ab impio
                 pseudo-philosophorum coetu statutum consilium religionem, imperium, splendidissimos
                 viros optimosque cives perdenti, iniquo ausu, crudelitate maxima, scelere
                 incredibili perfecerunt.</p>
-            <pb n="12"/>
-            <p>Et ut intelligamus ab iis non pro religione, non pro republica pugnarum esse,
+        <pb n="12"/>
+        <p>Et ut intelligamus ab iis non pro religione, non pro republica pugnarum esse,
                 audivimus, fratres charissimi, nullas unquam Deo immortali pro reportata victoria
                 redditas gratias, sed mira impietate scelestis authoribus publicos honores dicatos,
                 eorumque foedis cineribus quasi litatum esse. Hic fuit diuturni contra religionem
                 belli finis; hic libertinorum scopus; hic denique philosophicae lucis, qua saeculum
                 nostrum affusum est, tenebricosissimus exitus.</p>
-            <p>Nos vero, fratres charissimi, qui inter hostium pericula non versamus, immortales Deo
+        <p>Nos vero, fratres charissimi, qui inter hostium pericula non versamus, immortales Deo
                 Opt. Max. gratias debemus. Verum si procul a tectis, templis ac moenibus sunt
                 hostium mucrones et arma; proximi nobis sunt et nobiscum vivunt qui incredulorum
                 erroribus imbuti religioni, ecclesiae ac patriae exitium parant.</p>
-                <p>Itaque, fratres charissimi, <quote>induite vos armaturam Dei, ut possitis
-                    stare adversus insidias diaboli. </quote> Concreditum vobis populum sedulo ac
+        <p>Itaque, fratres charissimi,<quote>induite vos armaturam Dei, ut possitis
+                    stare adversus insidias diaboli.</quote>Concreditum vobis populum sedulo ac
                 studiose instruite, ne se aequalitatis et libertatis insidiosis verbis falli
                 patiatur et monitum minasque Pauli</p>
-            <pb n="13"/>
-                <p>eidem sape repetite: <quote> nemo vos seducas inanibus verbis, propter haec
-                    enim venit ira Dei in filios <corr>diffidentiae</corr>. Nolite ergo esse participes eorum. </quote>Si qui
+        <pb n="13"/>
+        <p>eidem sape repetite:<quote>nemo vos seducas inanibus verbis, propter haec
+                    enim venit ira Dei in filios<corr>diffidentiae</corr>. Nolite ergo esse participes eorum.</quote>Si qui
                 sint inter vos, qui, Christi spreta doctrina, libertinorum erroribus infecti domos
                 subvertunt, docentes quae non oportet, populum monete ut praecepti apostolici memor
-                sit: <quote>Si quis venit ad vos, et hanc doctrinam non affert, nolite
-                    recipere eum in domum, ne cave ei dixeritis. </quote> Et ne specie, captiosisque
+                sit:<quote>Si quis venit ad vos, et hanc doctrinam non affert, nolite
+                    recipere eum in domum, ne cave ei dixeritis.</quote>Et ne specie, captiosisque
                 eorum verbis simplices decipiantur, certum populum vestrum facite hos illos esse,
-                qui <quote>aberrantes conversi sunt in vaniloquium, volentes esse legis
+                qui<quote>aberrantes conversi sunt in vaniloquium, volentes esse legis
                     doctores, non intelligentes neque quae loquuntur, neque de quibus affirmant. Et
-                    dicentes esse sapientes stulti facti sunt. </quote> Qui <quote>dominationem spernunt, maiestatem autem offendunt. </quote>Qui <quote>quaecunque ignorant blasphemant, quaecunque autem naturaliter tamquam muta
+                    dicentes esse sapientes stulti facti sunt.</quote>Qui<quote>dominationem spernunt, maiestatem autem offendunt.</quote>Qui<quote>quaecunque ignorant blasphemant, quaecunque autem naturaliter tamquam muta
                     animalia norunt in his corrumpuntur. Hi sunt nubes sine aqua, quae a ventis
                     circumferuntur, arbores autumnales, infructuosae, bis mortuae, eradicatae,
                     fluctus feri maris despumantes suas confusiones, sidera errantia, quibus
-                    procella tenebrarum servata est in aeternum. </quote>Depravator mores</p>
-            <pb n="14"/>
-            <p>corrigite, colloquia mala, a quibus mores corrumpuntur, malorum librorum lectionem
+                    procella tenebrarum servata est in aeternum.</quote>Depravator mores</p>
+        <pb n="14"/>
+        <p>corrigite, colloquia mala, a quibus mores corrumpuntur, malorum librorum lectionem
                 omnibus, ast adolescentibus praeprimis prohibete. Timendum siquidem nobis est
-                vehementer, ne ob effrontem peccandi libertatem, moresque dissolutos ac profligatos
-                <quote>reveletur ira Dei de coelo super omnem impietatem et
-                    iniustitiam hominum eorum, qui veritatem Dei in iniustitia detinent. </quote>Divino
-                mandato praecipite, ut subiecti sint populi superioribus suis <quote>tanquam a Deo missis. </quote>Super omnia demum petimus, ut iuges fiant 
-                <quote>obsecretiones, orationes, postulationes, gratiarum actiones pro
+                vehementer, ne ob effrontem peccandi libertatem, moresque dissolutos ac profligatos<quote>reveletur ira Dei de coelo super omnem impietatem et
+                    iniustitiam hominum eorum, qui veritatem Dei in iniustitia detinent.</quote>Divino
+                mandato praecipite, ut subiecti sint populi superioribus suis<quote>tanquam a Deo missis.</quote>Super omnia demum petimus, ut iuges fiant<quote>obsecretiones, orationes, postulationes, gratiarum actiones pro
                     omnibus hominibus, pro regibus et omnibus, qui in sublimitate sunt, ut quietam
-                    et tranquillam vitam agamus in omni pietate, </quote>fratres, <quote>perfecti estote, exhortamini, idem sapite, pacem habete et Deus pacis et
+                    et tranquillam vitam agamus in omni pietate,</quote>fratres,<quote>perfecti estote, exhortamini, idem sapite, pacem habete et Deus pacis et
                         dilectionis erit vobiscum.</quote>
         </p>
       </div>
-            <div>
-            <p>Datum Tridenti ex arce nostrae residentiae hac die 30. Novembris 1792.</p>
-            <p>Petrus Vigilius etc.</p>
-            <p>Ad mandatum celsissimi ac reverendissimi D.D. proprium.</p>
-            <p>P. Petrus Josephus Cloch Cancellarius</p>
+      <div>
+        <p>Datum Tridenti ex arce nostrae residentiae hac die 30. Novembris 1792.</p>
+        <p>Petrus Vigilius etc.</p>
+        <p>Ad mandatum celsissimi ac reverendissimi D.D. proprium.</p>
+        <p>P. Petrus Josephus Cloch Cancellarius</p>
       </div>
-            <pb n="15"/>
-            <div>
+      <pb n="15"/>
+      <div>
         <p>NB. Litteras has nostras vulgari idiomati redditas e suggestu vel altari prima die
                 Dominica a singulis animarum curatoribus populo enunciari, atque ex iis argumentum
                 saepius populum instruendi et ex hortandi desumi mandamus.</p>
       </div>
-            <pb n="16"/>
-        </body>
-    </text>
+      <pb n="16"/>
+    </body>
+  </text>
 </TEI>

@@ -1,83 +1,79 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="vannetti-c-sermones">
-            <titleStmt>
-                <title>Sermones habiti a Clementino Vannettio apud sodales litterarios Roboreti, quum esset ei sodalitati a secretis, versio electronica</title>
-                <author key="vannetti01">
-                    <name xml:lang="dt">Vannetti, Clementino</name>
-                    <date precision="high">1754–1795</date>
-                </author>
-                <respStmt>
-                    <resp>Hanc versionem electronicam curavit</resp>
-                    <name>Clementina Marsico</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>transcribed from the printed text</edition>
-            </editionStmt>
-            <extent>74 paginae</extent>
-            
-            <publicationStmt>
-                <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
+  <teiHeader>
+    <fileDesc xml:id="vannetti-c-sermones">
+      <titleStmt>
+        <title>Sermones habiti a Clementino Vannettio apud sodales litterarios Roboreti, quum esset ei sodalitati a secretis, versio electronica</title>
+        <author key="vannetti01">
+          <name xml:lang="dt">Vannetti, Clementino</name>
+          <date precision="high">1754–1795</date>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Clementina Marsico</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>74 paginae</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
         </p>
-            </publicationStmt>
-            
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <title>Sermones habiti a Clementino Vannettio apud sodales litterarios Roboreti, quum esset ei sodalitati a secretis</title>
-                        <imprint>
-                            <pubPlace>Pavia</pubPlace>
-                            <date when="1792">1792</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-                <bibl>TLMF, Dip. 428/6</bibl>
-            </sourceDesc>
-        </fileDesc>
-        
-        <profileDesc>
-            <creation>
-                <date when="1792">1792</date>
-            </creation>
-            <textClass>
-                <keywords scheme="time">
-                    <term>Von der Vertreibung der Jesuiten bis zur Revolution 1848</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>Beredsamkeit</term>
-                    <term>Redensammlung</term>
-                    <term>Sermones</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        
-        <revisionDesc>
-            <change>corrected teiHeader and body<date>2015-09-29</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>Sermones habiti a Clementino Vannettio apud sodales litterarios Roboreti, quum esset ei sodalitati a secretis</title>
+            <imprint>
+              <pubPlace>Pavia</pubPlace>
+              <date when="1792">1792</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>TLMF, Dip. 428/6</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1792">1792</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Von der Vertreibung der Jesuiten bis zur Revolution 1848</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Beredsamkeit</term>
+          <term>Redensammlung</term>
+          <term>Sermones</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>corrected teiHeader and body<date>2015-09-29</date>
         <name>Johanna Luggin</name>
       </change>
-        </revisionDesc>  
-    </teiHeader>
-    <text>
-        <body>
-            <div>
-            <head>Sermones habiti a <persName>Clementino Vannettio</persName> apud sodales litterarios Roboreti, quum
-                esset ei sodalitati a secretis. Ticini. Excudebat Ioseph Bolzanius. Anno <date>1792</date>.
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Sermones habiti a<persName>Clementino Vannettio</persName>apud sodales litterarios Roboreti, quum
+                esset ei sodalitati a secretis. Ticini. Excudebat Ioseph Bolzanius. Anno<date>1792</date>.
                 Censoribus rei litterariae permittentibus.</head>
       </div>
-           <div>
-            <pb n="2"/>
-            <pb n="3"/>
+      <div>
+        <pb n="2"/>
+        <pb n="3"/>
         <head>I.</head>
-            <head>Anno <date>1787</date>, 11 calendas iulias. Placonide praeside, mentore Flaciano, censoribus. </head>
-            <p>I.</p>
-            <p>Quum scriptorum meorum, quod vobis in praesens recitarem, haberem sane nihil, nollem
+        <head>Anno<date>1787</date>, 11 calendas iulias. Placonide praeside, mentore Flaciano, censoribus.</head>
+        <p>I.</p>
+        <p>Quum scriptorum meorum, quod vobis in praesens recitarem, haberem sane nihil, nollem
                 autem, ut sum natura paullo loquacior, prater consuetudinem silentio uti, persuasi
                 mihi ipse, rem gratam universo coetui me facturum, si quis librorum hoc intervallo
                 sodalitati nostrae missum esset, quam brevissime, et sine ullo prorsus exordio ad
                 vos referrem.</p>
-            <p>II.</p>
-            <p>Libellum igitur Oeniponto ad nos misit <persName>Antonius Sterzingherius</persName>, theologiae, et
+        <p>II.</p>
+        <p>Libellum igitur Oeniponto ad nos misit<persName>Antonius Sterzingherius</persName>, theologiae, et
                 eloquentiae sacrae professor (si ullum inter sacram, profanaque eloquentiam
                 discrimen esse potest) una cum litteris humanissimis, quibus amicitiam nostram
                 petebat, vel potius societatem. Est autem libellus ipse germanico sermone scriptus,
@@ -94,14 +90,14 @@
                 germanum repente factum esse putetis, quod profecto nolim, primum quidem sic habete:
                 librum illum me nunquam legisse; deinde quidquid de eo praedicem, ex altero censore
                 nostro Flaviano<note place="foot" xml:id="ftn1" n="1">
-            <p rend="footnote text"> Vero
-                        nomine <persName>Valeriano Malfatto Roboretano</persName>, Volni discipulo, Tartarottorum
+            <p rend="footnote text">Vero
+                        nomine<persName>Valeriano Malfatto Roboretano</persName>, Volni discipulo, Tartarottorum
                         amico.</p>
-          </note> viro doctissimo accepisse, qui quidem istum sodalitatis
+          </note>viro doctissimo accepisse, qui quidem istum sodalitatis
                 nostrae candidatum diplomate impertiendum existimavit.</p>
-            <p>III.</p>
-            <p>Porro idem honos tributus est Ferdinando Stegherio ecclesiasticae historiae
-                professori, qui et ipse libellum, sed latinum quo <pb n="5"/> eius historiae studiosi
+        <p>III.</p>
+        <p>Porro idem honos tributus est Ferdinando Stegherio ecclesiasticae historiae
+                professori, qui et ipse libellum, sed latinum quo<pb n="5"/>eius historiae studiosi
                 initiari possint, Vienna Vindelicorum ad nos misit, specimen doctrinae suae, ac
                 petitionis indicem non obscurum. Scitote igitur opus esse cum eruditum, tum auctoris
                 cuiusdam iudicii, libertatisque plenum minimeque praeiudicatis opinionibus
@@ -112,15 +108,14 @@
                 flasis, res gestae a commentittis, priscae, atque universales ecclesiae
                 consuetudines a recentioribus, peculiaribusque secernantur; ad harum ipsarum legum
                 severitatem de cuiusque historici fide, diligentia, acumine iudicium Stegherius
-                facit: quumque ab <persName>usebio Caesarensi</persName>, qui princeps res christianas litteris
+                facit: quumque ab<persName>usebio Caesarensi</persName>, qui princeps res christianas litteris
                 consignavit, initium ducat, usque ad eos, qui proxime scripserunt, ne haereticis
                 quidem exceptis, ita descendit, ut de unoquoque ea pronuntiet, quae ab amoris atque
                 odii significatione abhorreant, veritati consentanea videantur.</p>
-            <p>IV.</p>
-            <p>Atque haec vobis attuli e <placeName>Germania</placeName>; ex <placeName>Italia</placeName> vero nostra pauciora quidem afferam,
-                sed multo elegantiora, atque adeo meras ele<pb n="6"/>gantias, merosque lepores. Etenim
-                <persName>Francisca Robertia</persName>, lectissima atque ornatissima femina, quae ab hinc triennium in
-                nostra sodalitatem cooptata fuit, quum <persName>Francisci Petrarchae</persName> Africam, quae novem
+        <p>IV.</p>
+        <p>Atque haec vobis attuli e<placeName>Germania</placeName>; ex<placeName>Italia</placeName>vero nostra pauciora quidem afferam,
+                sed multo elegantiora, atque adeo meras ele<pb n="6"/>gantias, merosque lepores. Etenim<persName>Francisca Robertia</persName>, lectissima atque ornatissima femina, quae ab hinc triennium in
+                nostra sodalitatem cooptata fuit, quum<persName>Francisci Petrarchae</persName>Africam, quae novem
                 latinis libris continetur, italicis versibus interpretati instituerit, primumque iam
                 librum conversum vulgaverit, huius ipsus exempla tria Patavio ad me dedit, quorum
                 unum sodalitati suis verbis exhiberi per litteras iussit. De quo quidem libro etsi
@@ -133,15 +128,14 @@
                 floret nobilissimis, neque in ea vitia, quae officiosas eiusmodi epistolas comitati
                 solent, usquam incurit. Iam quanta in praefatione iudicii vis! Quam apta eruditio!
                 Quae sermonis elegantia! Qui lepos! Quae festivitas! Quam preclare ibi differit de
-                toto poemate Robertia! Quam vere ostendit hunc honorem <persName>Petrarchae</persName> iamdiu ab <placeName>Italia</placeName>
-                deberi, ut cius Africam, summorum <pb n="7"/>praemiorum olim ipsi conciliatricem, dein
+                toto poemate Robertia! Quam vere ostendit hunc honorem<persName>Petrarchae</persName>iamdiu ab<placeName>Italia</placeName>deberi, ut cius Africam, summorum<pb n="7"/>praemiorum olim ipsi conciliatricem, dein
                 neglectam, ab oblivione, atque a tenebris vindicent!</p>
-            <p>V.</p>
-            <p>Nolite vos tamen, sodales, nostrorum hominum pigritiae succensere; quin imo, si me
+        <p>V.</p>
+        <p>Nolite vos tamen, sodales, nostrorum hominum pigritiae succensere; quin imo, si me
                 auditis, huic ipsi gratias agite, quod talem provinciam Robertiae potissimum
                 reservarit. Etenim sic habete, primum hunc eiusmodi poematis librum quo Publius ille
-                Scipio, qui agnomen ex devicta <country>Africa</country> invenit, celebratur, eo modo ab ingeniosissima
-                muliere esse redditum, ut iure arbitrer, fore, ut <persName>Petrarcha</persName> ipse, si leget, nec alia
+                Scipio, qui agnomen ex devicta<country>Africa</country>invenit, celebratur, eo modo ab ingeniosissima
+                muliere esse redditum, ut iure arbitrer, fore, ut<persName>Petrarcha</persName>ipse, si leget, nec alia
                 lingua, nec aliter scripsisse se vellet. Sed merito factum puto, ut quae Thuscorum
                 poetarum optimum lustrare voluit, hoc studii fui, gratique animi praemium ab musis
                 referret, ut eum ipsum illustrando aequaret. Musae enim omnes, medius fidius,
@@ -150,31 +144,31 @@
                 ferbant tempora, latino carmine exequutus fuerat, tam scite expoliret, ornaret,
                 illuminaret. Vere enim affirmabo, nullum in toto libro esse locum, qui servilem
                 interpretis metum, ac laborem ostendat, contra etiam expeditissima esse omnia,
-                maximeque incitata, acria, sublimia. Nam ut nihil dicam, quam <pb n="8"/>splendide Robertia
-                exordiatur, quam graphice mutua <placeName>Carthaginis</placeName>, et <placeName>Romae</placeName> odia describat, quam vividis
+                maximeque incitata, acria, sublimia. Nam ut nihil dicam, quam<pb n="8"/>splendide Robertia
+                exordiatur, quam graphice mutua<placeName>Carthaginis</placeName>, et<placeName>Romae</placeName>odia describat, quam vividis
                 coloribus Scipionis ingenium depingat; qui potuit aut huius imperatoris nocturnum,
                 divinumque ad superos volatum elegantius, diertiusque adumbrare, aut sapientissima
                 illa ab eius patre, atque avunculo in flammantium stellarum orbibus cum eo habita
                 colloquia illustrius, gravius, magnificentius exponere?</p>
-            <p>VI.</p>
-            <p>Quae quum ita se habeant, si quidem verum est, earum rerum quae in terris fiunt,
+        <p>VI.</p>
+        <p>Quae quum ita se habeant, si quidem verum est, earum rerum quae in terris fiunt,
                 famam etiam ad beatas Elysiorum sedes penetrare (nihil enim prohibet in re poetica
-                poetarum more loqui) qua tandem voluptate affectum iri putatis <persName>Lauram</persName> illa
-                Avenionensem, quum audierit, inventam aliquando esse feminam, quae <persName>Petrarchae</persName> suo
+                poetarum more loqui) qua tandem voluptate affectum iri putatis<persName>Lauram</persName>illa
+                Avenionensem, quum audierit, inventam aliquando esse feminam, quae<persName>Petrarchae</persName>suo
                 communi totius sexus nomine gratiam referret? Equidem videre iam illam mihi videor
                 laetissimo in myrteto alacriter amatori occurentem, verbisque Hyblaeo melle
-                dulcioribus tantos honores gratulantem. Ipsum vero <persName>Petrarcham</persName> qua laetitia perfundi
+                dulcioribus tantos honores gratulantem. Ipsum vero<persName>Petrarcham</persName>qua laetitia perfundi
                 oportet, quo studio incendi in Robertiam! quem quidem, etiam illud optaturum esse
                 arbitror, ut latina eius Africa depereat, remeneat thusca, quo magis apud posteros,
-                adempta conferendi facultate, quoniam ex <pb n="9"/>aliena lingua translata sere deteriora
+                adempta conferendi facultate, quoniam ex<pb n="9"/>aliena lingua translata sere deteriora
                 esse solent, latini poematis opinio, ac desiderium ex ipsa thusci pulchritudine
                 augeatur. Sed quidquid est horum, non enim scire plane licet quid illic apud Elysios
                 agatur, nos interim gratulemur tam doctae matronae, virorum studia non sui sexus
                 mollitias sequutate, eamque cohortemur, ut et reliquos octos libros ad hoc exemplum
-                convertat, atque in eo dumtaxat <persName>Petrarcham</persName> ne aemuletur, quod ille Africam suam
+                convertat, atque in eo dumtaxat<persName>Petrarcham</persName>ne aemuletur, quod ille Africam suam
                 multis demum post annis ad exitum, finemque perduxit.</p>
-            <p>VII.</p>
-            <p>Ac quoniam vobis tam multa de Robertia sum loquutus, non videor mihi sine flagitio
+        <p>VII.</p>
+        <p>Ac quoniam vobis tam multa de Robertia sum loquutus, non videor mihi sine flagitio
                 praeterire posse, quin et de Baptista Robertio, homine arcta illi cognatione
                 coniuncto, aliquid dicam. Et si quid possum dicere, quod non sit vobis quam
                 notissimum? Facit enim iam pridem singulare viri ingenium, atque excellens doctrina,
@@ -183,7 +177,7 @@
                 arbitror, quanta in eo sit tum nostrarum, tum latinarum litterarum intelligentia,
                 quam multiplex, ac recondita eruditio, quantus in scribendo nitor, quam magna etiam
                 ligatae orationis facultas; qui ut cetera eius scripta sane elegantissima
-                praetermittam, Aesopicas quoque <pb n="10"/> fabulas Italorum primus variis modis atque
+                praetermittam, Aesopicas quoque<pb n="10"/>fabulas Italorum primus variis modis atque
                 numeris scribere est aggressus. Quibus fabellis nescio equidem quid lepidius
                 excogitari possit, quid amoenius, quid purius. Nihil igitur amplius de Robertio
                 dicam, nisi id, quad gratia haec ipsa dixi, me scilicet vobis esse auctorem, ut
@@ -192,8 +186,8 @@
                 a qua is absit, qui sit illi cum sanguine, atque amore, tum ipso studiorum genere
                 coniunctissumus. Ambo enim easdem litteras amant, iisdem excellunt, ut eos gratuae
                 ipsae eodem in ludo ad omnem elegantiam instituisse videantur.</p>
-            <p>VIII.</p>
-            <p>Sed quando consilium vobis dare coepi, duos etiam nominabo hoc eodem honore, mea
+        <p>VIII.</p>
+        <p>Sed quando consilium vobis dare coepi, duos etiam nominabo hoc eodem honore, mea
                 sententia, dignissimos, Lauretium Barottum ferrariensem, et Iosephum Quirosium
                 hispanum, quorum alter aliquot civium suorum vitas ab Andrea Barotto eius patre
                 elegantissime, accuratissimeque conscriptas, ac editas diserta ad pontificem
@@ -206,17 +200,19 @@
                 latine scribit. Hos igitur si vobis, sodales optimi, pro vestra humanitate ultro
                 adiungendos censueritis, rem feceritis et mihi iucundam, et his ipsis honorificam,
                 et vobis omnibus sine ulla dubitatione gloriosam.</p>
-            <p>IX.</p>
-            <p>Verum sentio, me quadam sermonis voluptate captum, non modo lapsum esse longius, quam
+        <p>IX.</p>
+        <p>Verum sentio, me quadam sermonis voluptate captum, non modo lapsum esse longius, quam
                 debueram, sed plura etiam vobis exposuisse quam initio promiseram. Et tamen videte,
                 quam patientes vos arbitrer: tantum enim abest, ut veniam a vobis petam, ut ne abire
                 quidem vos ante permittam, quam mechanicas quasdam Marci Antonii Ianesinii
                 solertissimi viri ad nos litteras meumque ad illas, vel potius mentoris nostri<note place="foot" xml:id="ftn2" n="2">
-            <p rend="footnote text"> <persName>Clementis Baronii
-                        Cavalcabovii</persName> </p>
-          </note> responsum recitavero. Mechanicas autem dixi
+            <p rend="footnote text">
+              <persName>Clementis Baronii
+                        Cavalcabovii</persName>
+            </p>
+          </note>responsum recitavero. Mechanicas autem dixi
                 litteras, quia in eis agitur de machina astronomica, quam Ianesinius excogitavit,
-                construxitque on ad coelestem descriptionem eam, quam <persName>Copernicus</persName> invenit, quaeque
+                construxitque on ad coelestem descriptionem eam, quam<persName>Copernicus</persName>invenit, quaeque
                 apud sanos omnes probatur, sed ad veterem quan<pb n="12"/>dam, qua terrae huic nostrae
                 diurnus dumtaxat motus tribuitur, annuo illo altero, cuius ope tot siderum non re,
                 sed specie regredientium, stantium, abberrantium motus perfacile explicantur,
@@ -224,12 +220,12 @@
                 cognoscetis, quam tamen si quidem mentori assentiemini, melius collocari
                 cupietis.</p>
       </div>
-                <div>
-            <pb n="13"/>
+      <div>
+        <pb n="13"/>
         <head>II.</head>
-            <head>Anno <date>1777</date>, 6 calendas ianuarias mentore Praeside, mentore Flaviano, censoribus.</head>
-            <p>I.</p>
-            <p>Videmini mihi, sodales, ita animati huc advenisse, ut nonnihil mihi succenseatis,
+        <head>Anno<date>1777</date>, 6 calendas ianuarias mentore Praeside, mentore Flaviano, censoribus.</head>
+        <p>I.</p>
+        <p>Videmini mihi, sodales, ita animati huc advenisse, ut nonnihil mihi succenseatis,
                 quod et conventum eum, qui quotannis postremus sub autumni initium haberi solet,
                 nullus indixerim, et ruri quatuor ipsos menses absuerim. Equidem intelligo haec esse
                 eiusmodi, ut apud eos, quibus mea ratio non sit perspecta, notam aspergere mihi
@@ -238,7 +234,7 @@
                 quaeso, si confindentius dixi; ut enim quisque culpa maxime vacat, ita loqui solet
                 audacissime. Etsi id ipsum nunc quaeritis. Sic igitur habete, quibus diebus
                 advocandus fuerat postremus ille conventus, per eos ferme dies quum et maximi
-                calores essent, et eo morbi genere civitas vexaretur, a quo mihi <pb n="14"/>iure metuerem,
+                calores essent, et eo morbi genere civitas vexaretur, a quo mihi<pb n="14"/>iure metuerem,
                 coactum esse me valetadinis gratia in Iserianum confungere. Itaque quum caussam
                 haberem sonticae simillimam, ac paene parem, putavi, facilem mihi fore excusationem,
                 quod me vobis diutius conservare voluissem. Nam quod illic tamdiu sum commoratus,
@@ -247,11 +243,11 @@
                 incurretis; sed idem affirmo, me nunquam minus otiosum fuisse, nunquam tam studiose,
                 tam multa, tam secundo Apolline scripsisse, quam quum proxime ruri essem. Et vero
                 qui fieri aliter poterat? Eram totos dies cum Paulo Botto poeta facili et festivo:
-                habebam etiam <persName>Iosephum Malisanam</persName>
+                habebam etiam<persName>Iosephum Malisanam</persName>
           <note place="foot" xml:id="ftn3" n="3">
-            <p rend="footnote text"> Venetum e dominicana familia, qui legum sacratum
+            <p rend="footnote text">Venetum e dominicana familia, qui legum sacratum
                         scientiani tridenti professus fuerat.</p>
-          </note> virum plane singularem,
+          </note>virum plane singularem,
                 atque eo ingenio praeditum, ut ad id unum, quodcumque agat, factus esse videatur.
                 Cum igitur multum operae ambulationibus, ludis, iocis, tum vero plurimum litteris
                 tribuebamus. Nulla dies abitat, quin et legeremus aliquid, et scriberebus, quum
@@ -260,24 +256,22 @@
                 narrare; alioqui nova atque ante hanc diem inaudita commen<pb n="15"/>ta proferre possem,
                 quae nostrae rusticationi debeantur. Nunc ne putetis (videte quam suspiciosos vos
                 arbitrer) privatis dumtaxat studiis me indulsisse, illa vobis referre statui, quae
-                hoc intervallo e <placeName>Germania</placeName>, ulterioque <placeName>Italia</placeName> ad nos pervenerunt. Sed antequam id
+                hoc intervallo e<placeName>Germania</placeName>, ulterioque<placeName>Italia</placeName>ad nos pervenerunt. Sed antequam id
                 facio, peto a vobis, ut iram, si quam huc in me quasi in hominem negligentem
                 attulistis, omnem illico deponatis, quod quo facilius impetrem, brevissimum me fore
                 polliceor.</p>
-            <p>II.</p>
-            <p>Duo igitur fuere omnino hominum genera, a quibus aliquid acceperimus, unum eorum, qui
+        <p>II.</p>
+        <p>Duo igitur fuere omnino hominum genera, a quibus aliquid acceperimus, unum eorum, qui
                 in nostram sodalitatem adscisci cupiebant, alterum eorum, qui iam pridem adsciti
-                fuerant. Ad primos quod attinesi, <persName>Camillus Volta</persName> mantuanus una cum epigrammate
-                <persName>Metastasio</persName> inscripto poematium ad nos misit, quo <persName>Mariae Theresiae</persName> Augustae laudes
+                fuerant. Ad primos quod attinesi,<persName>Camillus Volta</persName>mantuanus una cum epigrammate<persName>Metastasio</persName>inscripto poematium ad nos misit, quo<persName>Mariae Theresiae</persName>Augustae laudes
                 persequebatur, ita eleganter, atque eo verborum, et sententiarum splendore, ut
                 sodalitatis principes dignum censuerint, qui nostro diplomate ornaretur. Haud pari
-                successu usus est <persName>Simon Damaschius</persName>
+                successu usus est<persName>Simon Damaschius</persName>
           <note place="foot" xml:id="ftn4" n="4">
-            <p rend="footnote text"> Quae ita scripta invenerit, sciat lector haud vera
+            <p rend="footnote text">Quae ita scripta invenerit, sciat lector haud vera
                         esse nomina.</p>
           </note>, qui comoediam prosa oratione scriptam, cui patri
-                sapienti nomen indiderat, nobis reddendam curavit, de qua ego ad censores <pb n="16"/>
-                diligentissime retuli. Erat autem ita composita, ut a vulgaribus amorum illecebris
+                sapienti nomen indiderat, nobis reddendam curavit, de qua ego ad censores<pb n="16"/>diligentissime retuli. Erat autem ita composita, ut a vulgaribus amorum illecebris
                 discederet, habebatque personas cum ad delectandum, tum ad docendum mirifice
                 appositas; nam et boni, sedulique patris, et filii paulo quidem negligentioris, sed
                 qui facile ad frugem revocari posset, et oppido ridiculi adolescentis, amici
@@ -296,20 +290,19 @@
                 eosque doctos nulla re minus, quam numero egemus. Retineamus igitur, vel potius
                 revocemus instituta maiorum, ullosque homines dimittamus, ex quorum cooptatione
                 nihil ad ipsos verae laudis, ad nos plurimum est dedecoris perventurum.</p>
-            <p>III.</p>
-            <p>Quamquam nolite me ita severum existimare, ut ne ipsam quidem repussam quacumque
+        <p>III.</p>
+        <p>Quamquam nolite me ita severum existimare, ut ne ipsam quidem repussam quacumque
                 ratione leniendam putem, ego vero vel maxime, idque etiam nuper re ipsa declaravi.
-                Nam quum <persName>Carolus Rotteguntus</persName> natione germanus libellos aliquot theologicos sane
-                ineptos diplomatis impetrandi gratia misisset, eosque <persName>Antonius Sterzingherius</persName>
-                commendatitiis litteris esset prosequutus, nolui quidquam ad <persName>Rotteguntum</persName> scribere,
-                ne, si ipse negarem, gravius illi vulnus accideret; verum <persName>Sterzingherio</persName> rem exposui,
+                Nam quum<persName>Carolus Rotteguntus</persName>natione germanus libellos aliquot theologicos sane
+                ineptos diplomatis impetrandi gratia misisset, eosque<persName>Antonius Sterzingherius</persName>commendatitiis litteris esset prosequutus, nolui quidquam ad<persName>Rotteguntum</persName>scribere,
+                ne, si ipse negarem, gravius illi vulnus accideret; verum<persName>Sterzingherio</persName>rem exposui,
                 eumque submisi, qui hominem admoneret. Epistolare autem haec fere sententia erat: me
-                eius humanitate fretum, quae ad <persName>Rotteguntum</persName> scribere veritus fuissem, ea ipsi,
+                eius humanitate fretum, quae ad<persName>Rotteguntum</persName>scribere veritus fuissem, ea ipsi,
                 sodali nostro, aperire. Legisse nos quae de hominis summo bono, eiusdemque extremis,
                 de suprema autorictate concilii generalis, se sorte Adami, eiusque culpa ad posteros
                 omnes manante suus ille popularis edidisset; sed nihil suffragio nostro dignum
                 reperisse. Scriptorem esse eiusmodi, qui alienae auctoritati nimium tribuat, rationi
-                suae <pb n="18"/>minimum, qui vetera, ac trita sic persequatur, ut meliori in lumine non
+                suae<pb n="18"/>minimum, qui vetera, ac trita sic persequatur, ut meliori in lumine non
                 collocet, qui eruditionem sine modo ac iudicio indique congerat, qui de iis etiam
                 disserat, quae nimie callet, qui absurdas quasque opiniones defendat, qui denique
                 insulsissimis delectetur iocis, atque impurissimo genere sermonis. Itaque dubium
@@ -325,11 +318,11 @@
                 nobis res sit, qui sodalitatis dignitatem commendationi suae anteponi facile
                 patietur. Et tamen spem esse, ut Rotteguntus ad sanitatem se aliquando recipiat, ac
                 diplomate nostro quam dignissimum praebeat. Hoc interim nos optare, ut iss verbis de
-                nostro iudicio certior <pb n="19"/>fiat, quae sint illi quam minimum doloris allatura.
+                nostro iudicio certior<pb n="19"/>fiat, quae sint illi quam minimum doloris allatura.
                 Neminem porro ad id esse aptiorem, quam ipsum Sterzingherium, eumque nos, ut rem
                 suscipiat, etiam atque etiam rogare.</p>
-            <p>IV.</p>
-            <p>Ex his igitur, sodales, videre potestis, quae mea sit ratio, quam quum ab optimo
+        <p>IV.</p>
+        <p>Ex his igitur, sodales, videre potestis, quae mea sit ratio, quam quum ab optimo
                 praesertim animo profiscicatur, haud quaquam vobis improbatum iri confido. Sed iam
                 relictis candidatis, venio ad sodalium munuscula, de quibus quam paucissimis
                 expediam. Menghinius Oeniponto commendationem de preparatione alimentorum,
@@ -337,14 +330,14 @@
                 militares, quae Antonius Storehius archiater regius et sodalis noster germanico
                 sermone composuit, ipse in nostrum nuper convertit, ita dilucide ac perspicue, ut se
                 cum utriusque linguae, tum rerum, quibus de agitur, peritissumum ostendat. Elegos
-                praeterea accepimus ab <persName>Iosepho Quirosio</persName> hispano iuris consulto latinos, quibus
+                praeterea accepimus ab<persName>Iosepho Quirosio</persName>hispano iuris consulto latinos, quibus
                 Antonium Ferraresium civem ferrariensem ad iuris purudentiae lauream accedentem
                 laudavit; quorum nunc mentionem haud facerem, nisi elegantia, nitore, gravitate ex
                 infinita versiculorum turba ita se eriperent, ut dubitare incipiam, utrum sit ille
                 aptior defendendis caussis, an pangendis carminibus. Atque ut ne a poetis discendam,
-                thuscum poema<pb n="20"/>tium nobis reddendum curavit <persName>Hyppolytus Bevilaqua</persName> Veronensis, de
+                thuscum poema<pb n="20"/>tium nobis reddendum curavit<persName>Hyppolytus Bevilaqua</persName>Veronensis, de
                 cuius excellenti in hoc genere facultate non est cur plura dicam. Eo poematio, quod
-                ad <persName>Mariam Annam</persName> fratris filiam, ornatissimam feminam, quum Camillo Nazianzeni ad
+                ad<persName>Mariam Annam</persName>fratris filiam, ornatissimam feminam, quum Camillo Nazianzeni ad
                 Olympiam carmen imitatus, praecipua matris familias officia demonstravit, nihil ego
                 iam dudum legi neque tersius, neque dulcius, neque sapientius, neque floridius.
                 Gemmas auro illigatas diceres. Porro eiusdem Bevilaquae opera Seguierii viri
@@ -368,13 +361,13 @@
                 Seguierius praetermisit, sed adeo accurate, ita erudite singulas excussit, ac
                 refurtavit, ut florentissima illa sodalitas, quae ab inscriptionibus appellatur, sit
                 ipsi pubblice per litteras gratulata.</p>
-            <p>V.</p>
-            <p>Atque haec sunt, sodales optimi, quae in vulgus edita his proximis mensibus ad nos
+        <p>V.</p>
+        <p>Atque haec sunt, sodales optimi, quae in vulgus edita his proximis mensibus ad nos
                 pervenerunt. Nunc praeterea duas lucubrationes accepimus calamo tantum exaratas, sed
-                cum diversi auctoris, tum inter se dissimillimas. Altera enim est a <persName>Carolo Maria
-                Magio</persName> Veronensi, et in physicis tota versatur, altera ab <persName>Ioanne Fabronio Florentio</persName>,
+                cum diversi auctoris, tum inter se dissimillimas. Altera enim est a<persName>Carolo Maria
+                Magio</persName>Veronensi, et in physicis tota versatur, altera ab<persName>Ioanne Fabronio Florentio</persName>,
                 eaque, quod minime expectetis, versibus continetur. Sermonem, inquam, Magius misit
-                bene longum, quo ad lunam usque provectus est <pb n="22"/>dum quaerit, ab ea ne quaedam,
+                bene longum, quo ad lunam usque provectus est<pb n="22"/>dum quaerit, ab ea ne quaedam,
                 quae in animantibus, plantisque fieri videmus, manent ac fluant, an haec omnia
                 crassioris huius aeris vis, tempestatesque moderentur. Huius ego sermonis
                 particulam, quoniam ita auctor iussit, mox recitabo. Fabronius autem quum Lutetiae
@@ -389,13 +382,13 @@
                 festivitatem percipietis, si os ipsum, ac vocem elegantissimi, adolescentis, quem
                 mecum hic saepe vidistis, oculis vestris, atque auribus proponetis.</p>
       </div>
-                <div>
-            <pb n="23"/>
+      <div>
+        <pb n="23"/>
         <head>III</head>
-            <head>Anno <date>1778</date>, pridie calendas maias, <persName>Cinonio</persName> praeside, mentore <persName>Flaviano</persName>, censoribus.</head>
-            <p>I.</p>
-            <p>Vellem, sodales, aut plus otii mihi fuisset, aut certe tantum esset facultatis, ut,
-                quod, <persName>Lucilius</persName> ille, qui urbem secuit, factitasse dicitur, stans pede in uno totas
+        <head>Anno<date>1778</date>, pridie calendas maias,<persName>Cinonio</persName>praeside, mentore<persName>Flaviano</persName>, censoribus.</head>
+        <p>I.</p>
+        <p>Vellem, sodales, aut plus otii mihi fuisset, aut certe tantum esset facultatis, ut,
+                quod,<persName>Lucilius</persName>ille, qui urbem secuit, factitasse dicitur, stans pede in uno totas
                 implere pagellas possem; profecto non essem veritus, ne non optimum disserendi
                 haberem argumentum. His enim mensibus, qui postremum conventum nostrum sunt
                 consequuti, complura nobis sunta allata, quibus de singulis bene longus institui
@@ -403,13 +396,12 @@
                 hodieque impediunt, sponte illae quidem, sed non inutili, ut aliquando videbitis,
                 consilio susceptae; nec tane is ego sum, qui proclivi illa utar scribendi
                 celeritate; ita dabitis mihi hanc veniam, ut spero, non iniucundam, ut haec omnia in
-                quam paucissima conferam <pb n="24"/>magis scilicet consuetudinis, et dicis causa quam
+                quam paucissima conferam<pb n="24"/>magis scilicet consuetudinis, et dicis causa quam
                 ullius libri materiam, ac laudem accurate demonstrandi.</p>
-            <p>II.</p>
-            <p>Ut igitur ab externis munusculis initium sumam, tres germani paene eodem tempore tres
+        <p>II.</p>
+        <p>Ut igitur ab externis munusculis initium sumam, tres germani paene eodem tempore tres
                 libros ad nos miserunt dissimillimo argumento, qx quibus duo latine scripti sunt,
-                vel potius, ne quis cavilletur, latinis verbis. Nam <persName>Michael Stenuserius</persName>
-                commentationem medicam misit, qua partim Margrasianis experimentis, quae e germanico
+                vel potius, ne quis cavilletur, latinis verbis. Nam<persName>Michael Stenuserius</persName>commentationem medicam misit, qua partim Margrasianis experimentis, quae e germanico
                 in latinum vertit, partim aliunde petitis rationibus docet, quibus elementis alumen
                 gignatur, ac multiplices, mirabilesque huius salis in omni vita usus recenset.
                 Carolus Michaelerius non libellum nobis, sed spissum volumen exhibuit, quod tamen a
@@ -419,52 +411,52 @@
                 eruuntur, ad certam grammaticae normam exiguntur, atque inter se comparantur. Quod
                 quidem patriae eruditionis praeclarum est monumentum. Denique a Ioane Prixelio
                 germanicam lucubrationem accepimus, quam ita inscripsit, ut feminis equitandi
-                studiosis se non nihil praecepturum profitatur. An vero etiam <pb n="25"/>praestet, tuni
+                studiosis se non nihil praecepturum profitatur. An vero etiam<pb n="25"/>praestet, tuni
                 denique vobis dicam, quum ex Flavianom cuius oculis in hac lingua uti soleo, id
-                ipsum cum cognovero. Interea scitote, et <persName>Stenuserium</persName>, et <persName>Michaelerium</persName> merito in
+                ipsum cum cognovero. Interea scitote, et<persName>Stenuserium</persName>, et<persName>Michaelerium</persName>merito in
                 nostra sodalitatem adscriptos esse.</p>
-            <p>III.</p>
-            <p>Venio ad nostratia. <persName>Franciscus Rezzanius</persName> comensis, vir in primis litteratus, mirifica
+        <p>III.</p>
+        <p>Venio ad nostratia.<persName>Franciscus Rezzanius</persName>comensis, vir in primis litteratus, mirifica
                 quadam in nos est liberalitate. Nam quum italicum eruditissimum poema de ecclesiae
                 triumpho, quod ad sextum usque Christi seculum perduxit, in totidemque libros
                 divisit, atque omnibus artis luminibus ornavit, haud ita multo ante ad nos
                 perferendum curaverit eaque re quibus litteris sunt ipsi actae gratiae, iisdem
                 sodalis noster sit creatus, aliud volumen nunc misit, quo sacra quaedam cantica
                 latine primum ab eo extra metrum scripta, italicis deinde versibus ornatius reddita
-                continentur. Latina autem quum legas, <persName>Davidem</persName> tibi hac lingua loquentem audire
+                continentur. Latina autem quum legas,<persName>Davidem</persName>tibi hac lingua loquentem audire
                 videaris: ita se totum ad divini huius vatis similitudinem Rezzanius composuit,
                 imaginibus, verbis, verborum constructione, forma ipsa denique, et charactere.
                 Itaque si quis hunc librum in manum sumat, neque ad canticorum indices valde
                 attendat, qui sunt fere de rebus ad christianam religionem pertiaentibus, is
                 facillime falli poterit in eo, ut se non recentia, sed ex sacris libris excerpta
-                carmina <pb n="26"/>legere arbitretur. Id autem intelligitis sodalem nostrum sine eximia
+                carmina<pb n="26"/>legere arbitretur. Id autem intelligitis sodalem nostrum sine eximia
                 quadam aptissimi ingenii vi nullo modo assequi potuisse. Nam italicos eius versus,
                 et si grandes, atque ampli fluant, minus tamen mirari soleo, quippe quum similes
                 facre multi possint; illa vero singularis, ac propria laus est, novos hymnos hebraea
-                maiestate plenos condidisse, ac <persName>Davidicam</persName> citharam feliciter esse aemulatum.
+                maiestate plenos condidisse, ac<persName>Davidicam</persName>citharam feliciter esse aemulatum.
                 Caeterum ne quid Rezzanio abesse putetis, quo minus omni laude cumulatus haberi
                 debeat, scitote, ipsum etiam prosa oratione sic scribere, ut nihil illustrius,
                 nihili acutius fieri possit. Quod epistolae qua libris praeposuit, et librorum
                 proemia satis declarant, ex quibus etiam de excellenti eius doctrina licet
                 iudicare.</p>
-            <p>IV.</p>
-            <p>Iam vero videte, sodales optimi, quam recte sub italo caelo muliebria ingenia semper
+        <p>IV.</p>
+        <p>Iam vero videte, sodales optimi, quam recte sub italo caelo muliebria ingenia semper
                 provenerint, ut vel una gens nostra eorum iniquitatem refellat, qui huic sexui
                 acumen, atque il litterarum studiis industriam adimunt. Nondum enim duo menses sunt,
                 ex quo Anna Paltrineria mantuana bina poeamatia ad nos misit, alterum editum ad
                 romanam arcadiam, quo filioli mortem ita deflet, ut de summi artificis providentia,
                 de animorum immortalitate, deque bonorum finibus et eleganter, et splendide
-                loquatur; alterum calamo <pb n="27"/>exaratum ad <persName>Camillum Voltam</persName> sodalem nostrum, quo
+                loquatur; alterum calamo<pb n="27"/>exaratum ad<persName>Camillum Voltam</persName>sodalem nostrum, quo
                 fallacium amicorum perfidia acerrime insectatur; quod quidem illorum sermonibus
                 opponi potest, qui de amicarum fraudibus queruntur, atque in solas feminas hoc
                 crimen coniiciunt. Ultrumque carmen matronam ostendit, quae et eximiis sit praedita
                 virtutibus, et praeclaris philosophiae praeceptis institutisque abundet, non huius
                 tantum, quae ad mores pertinet, sed etiam eius, quae in natura versatur. Itaque quum
-                quartae huic <persName>Corinnae</persName> diploma mitteremus, non obsequium illud, quo nos feminis
+                quartae huic<persName>Corinnae</persName>diploma mitteremus, non obsequium illud, quo nos feminis
                 iamdiu obnoxios reddidimus, sed verissimas eius laudes sequuti sumus.</p>
-            <p>V.</p>
-            <p>Nunc ad viros redeamus. Latinum sermonem accepimus <placeName>Lutetia</placeName> parisiorum ab <persName>Ioanne
-                Fabronio</persName> doctissimo, adolescente, qui idcirco illum fortasse misit, ne quum
+        <p>V.</p>
+        <p>Nunc ad viros redeamus. Latinum sermonem accepimus<placeName>Lutetia</placeName>parisiorum ab<persName>Ioanne
+                Fabronio</persName>doctissimo, adolescente, qui idcirco illum fortasse misit, ne quum
                 amatorium eius eidyllium proxime audieritis, ei rei dumtaxat opera se dare
                 arbitremini. Hoc igitur sermone historiae naturalis, quae ipsi quavis puella est
                 carior, originem, ae praestantiam mirifice demonstrat: varias eius auctorum rationes
@@ -474,53 +466,50 @@
                 rite incumbit, non qui in suas quidque classes curiose tribuit, sed qui res ipsas
                 penitus retexit, atque inspicit; postremo illam graduum, et quasi anulorum seriem,
                 qua tria naturae regnae quae hodie dicuntur, inter se contineri maiores nostri
-                crediderunt, ita oppugnat, ut prorsus dissolvere videatur. Quod utinam <persName>Fabronius</persName>
-                meus vel nostra, vel certe Gallica lingua in his conscribendis uti, quam Latina,
+                crediderunt, ita oppugnat, ut prorsus dissolvere videatur. Quod utinam<persName>Fabronius</persName>meus vel nostra, vel certe Gallica lingua in his conscribendis uti, quam Latina,
                 maluisset, ut quoniam in sententiis, atque in re omnia sunt lauda digna, nihil esset
                 ne in oratione quidem reprehendendum. Atque id ipsum tamen fatis mirari non possum,
                 hominem adolescentulum inter gallos versantem, romani sermonis contemptores vel
                 maximos, romanum sermonem potissimum, quem paene oblitus esset, adhibere voluisse,
-                Usque adeo verum est quod ait <persName>Marcus Tullius</persName>, multis involucris, et quasi velis
+                Usque adeo verum est quod ait<persName>Marcus Tullius</persName>, multis involucris, et quasi velis
                 quibusdam obtendi uniuscuiusque naturam.</p>
-            <p>VI.</p>
-            <p>Atque haec habebam de rebus nostris quae ad vos referrem, nisi illud etiam addam,
-                <persName>Maximilianum Feldinerium</persName> germanum, qui <placeName>Viennae Vindelicorum</placeName> physiologiam profitetur,
-                tum ipsius, tum Battistii sodalis nostri rogatu; et <persName>Joannem Mariam Cepolinium</persName>
-                Venetum, auctore praeside nostro onoratissimo <pb n="29"/>viro, <note place="foot" xml:id="ftn5" n="5">
-            <p rend="footnote text"> <persName>Iosepho Malisana</persName> qui tunc caetum
+        <p>VI.</p>
+        <p>Atque haec habebam de rebus nostris quae ad vos referrem, nisi illud etiam addam,<persName>Maximilianum Feldinerium</persName>germanum, qui<placeName>Viennae Vindelicorum</placeName>physiologiam profitetur,
+                tum ipsius, tum Battistii sodalis nostri rogatu; et<persName>Joannem Mariam Cepolinium</persName>Venetum, auctore praeside nostro onoratissimo<pb n="29"/>viro,<note place="foot" xml:id="ftn5" n="5">
+            <p rend="footnote text">
+              <persName>Iosepho Malisana</persName>qui tunc caetum
                         ducebat.</p>
           </note>cuius testimonium egregii speciminis instar habet, ea
                 sodalitatis lege, quae est de viris fama notis, in nostrum numerum cooptatos
                 fuisse.</p>
-            <p>VII.</p>
-            <p>Nunc autem, quando huc omnes de more convenistis, habeo ego quem nominem dignum coetu
-                vestro, vestrisque suffragiis. Is est <persName>Iosephus Nemberius</persName> adolescens <placeName>Brixianus</placeName>, cuius
-                libellum de <persName>Francisco Quintiani Stoae</persName>, ac <persName>Ioannis Planerii</persName> vita quum eius familiaris
-               <persName> Baptista Rodella</persName>, vir optimus, mihique in primis amicus, nuper ad me misisset, sic
+        <p>VII.</p>
+        <p>Nunc autem, quando huc omnes de more convenistis, habeo ego quem nominem dignum coetu
+                vestro, vestrisque suffragiis. Is est<persName>Iosephus Nemberius</persName>adolescens<placeName>Brixianus</placeName>, cuius
+                libellum de<persName>Francisco Quintiani Stoae</persName>, ac<persName>Ioannis Planerii</persName>vita quum eius familiaris<persName>Baptista Rodella</persName>, vir optimus, mihique in primis amicus, nuper ad me misisset, sic
                 eius lectione sum delectatus, ut statim de adiungendo nobis auctore cogitaverim.
                 Nihil inquam, eo libello limatius, nihil candidius. Quum enim hoc historiae genus
                 vel difficillimum sit, propterea et res ac mores hominum deseribi eatenus oportet,
                 ut levicula, aut supervacua non ingerantur, et ad hoc ipsum oratione cum expressa ac
-                suavi, tum brevi et pura opus est, <persName>Nemberius</persName> ita utrumque est assequutus, ut in utro
+                suavi, tum brevi et pura opus est,<persName>Nemberius</persName>ita utrumque est assequutus, ut in utro
                 excellat, iudicari fatis non possit. Nam et duos illos litteratissimos viros penitus
                 nobis tradit inspiciendos, quod sane paucorum historicorum est, et si qua eiusmodi
                 dicenda sunt, quae ad temporum notationem, ad aliorum testimonia, atque ad similia
-                potius, quam ad ipsas personas referantur, <pb n="30"/>ea omnia ab historiae perpuetuitate
+                potius, quam ad ipsas personas referantur,<pb n="30"/>ea omnia ab historiae perpuetuitate
                 seiungit, et stilo utitur eo, qui vim, qui acumen habeat, idemque lenitatem et
                 elegantiam, quo denique, si linguarum discrimen modo excipias, nullus sit Corneliano
-                similior. De ipsius autem <persName>Nemberii</persName> virtutibus si quaeritis, quamquam, id quidem in
+                similior. De ipsius autem<persName>Nemberii</persName>virtutibus si quaeritis, quamquam, id quidem in
                 nemine solestis, quum litteris perpolitos vel nimis multos esse constet, quorum vita
                 sit vitiis inquinatissima, sed tamen si quaeritis, scitote, iuvenem esse prudentem,
                 modestum, gravem, studiosum, quique et sibi, et suis, et patriae ornamento sit longe
                 maximos. Quapropter si hunc recipietis, maximos ex eius observantia, atque industria
                 fructus, maximamque voluptatem capietis.</p>
       </div>
-                <div>
-            <pb n="31"/>
+      <div>
+        <pb n="31"/>
         <head>IV</head>
-            <head>Anno <date>1778</date>, 7 calendas iulias, <persName>Meneippo</persName> praeside, mentore <persName>Flaviano</persName>, censoribus.</head>
-            <p>I.</p>
-            <p>Soleo vobis, sodales ornatissimi, quoties sermonem de rebus nostris apud vos
+        <head>Anno<date>1778</date>, 7 calendas iulias,<persName>Meneippo</persName>praeside, mentore<persName>Flaviano</persName>, censoribus.</head>
+        <p>I.</p>
+        <p>Soleo vobis, sodales ornatissimi, quoties sermonem de rebus nostris apud vos
                 instituo, brevitatem polliceri, qui videlicet valde metuam, ne orationem meam per se
                 iniucundam, si etiam longior sit, vestrae aures ferre nullo modo possint. Verum
                 hodierno die quod solemni exordio illo utar, nihil est, quum enim et pauca, et
@@ -529,45 +518,45 @@
                 me aliquando peccasse fateor, ne fidem fallam. Nam quod tardius ad rem venire, atque
                 inanibus verbis tempus eximere fortasse videor; vos vero sic habete, me haeo ipsa
                 dicere, ut, quum coetus dimissus fuerit, aliquid tamen me dixisse dicatis. Sed ne
-                cum homine cavillandi studioso, ac sophistarum <pb n="32"/>persimili rem vobis esse
+                cum homine cavillandi studioso, ac sophistarum<pb n="32"/>persimili rem vobis esse
                 extimetis, quidquid id est, quod pro consuetudine mea referre ad vos habeo,
                 quantumque est , continuo persequar.</p>
-            <p>II.</p>
-            <p>Ac primum omnium <persName>Prixelii</persName> illius Germani recordari vos iubeo, quem proxime
+        <p>II.</p>
+        <p>Ac primum omnium<persName>Prixelii</persName>illius Germani recordari vos iubeo, quem proxime
                 narraveram, commentariolum de equitandi arte ad nos misisse sua lingua scriptum, quo
                 feminae potissimum uterentur. Hoc igitur commentariolum Flavanius noster, cuius
                 studium, ac diligentiam nostis, quum pridem legerit, nihil non vulgare ac tritum
                 inesse dixit; eam tamen reperit sermonis elegantiam, tantum concinnitatis, ut hoc
                 nomine dumtaxat candidatum suffragio suo ornaverit. Porro ille alter Germanus, de
-                quo pariter in postremo conventu mentionem feci, <persName>Carolus</persName>, inquam, <persName>Michaelerius</persName> magum
+                quo pariter in postremo conventu mentionem feci,<persName>Carolus</persName>, inquam,<persName>Michaelerius</persName>magum
                 volumen, sed ineditum, nuper ad nos dedit, ea quidem inscriptione, ut, si totam
                 recitare velim, face, et viatico opus sit, ut ait ille apud Plautum facetus senex.
                 In quo sane germanorum hominum consuetudinem semper sum miratus, quod ipsorium
                 libris eos titulos fere inscribant, qui verbosa quadam obscuritate non allicere
                 lectores, sed deterrere videantur. Caeterum eo in voluine de linguae Latinae, ac
-                germanicae origine, et natura disputabat <persName>Michaelerius</persName>, qui quidem humanissimis
+                germanicae origine, et natura disputabat<persName>Michaelerius</persName>, qui quidem humanissimis
                 litteris, quas simul mi<pb n="33"/>serat, significabat, se illud sodalitati dedicare velle,
                 eamque sibi praecipuam esse mittendi caussam, quod speraret, nostra opera vulgatum
                 iri. Respondi ut potui, ut debui, iucundissimum nobis fuisse eius officium, ex quo
                 quam grato, ac benevolo in hanc sodalitatem sit animo, intelleximus; proinde gratiam
                 sibi et habere nos maximam, et referre aliquando cupere. Verum librarios, qui tanto
-                volumini sint pares, <placeName>Roboreti</placeName> esse nullos; et Operis, quod ad Germanicam linguam
+                volumini sint pares,<placeName>Roboreti</placeName>esse nullos; et Operis, quod ad Germanicam linguam
                 maxime spectet, haud ita expeditam hic fore venditionem. Itaque in omnem partem
                 satius esse a Germanis suis ipsum non discendere. Nos quidem sibi esse auctores, ut
                 illud commentarium quam primum edat; idque non magis ad nostrum decus, quam ad
                 ipsius laudem pertinere.</p>
-            <p>III.</p>
-            <p>Quae quidem postrema verba, qua sum in his rebus libertate, non addidissem, nisi
+        <p>III.</p>
+        <p>Quae quidem postrema verba, qua sum in his rebus libertate, non addidissem, nisi
                 auctorem in suo ullo genere, quod ceteroqui insuave, ac spinosum est, doctum
                 diligentemque, et acutum cognovissem. Nam hoc ipso in libro, quem simul accepi,
                 statim, ut sit, inspexi, ac degustavi, nec ordinem desideres, nec perspicuitatem,
                 quae ego interdum multo eruditione apparet non vulgaris, et subtilitas plane summa,
-                ut igitur <pb n="34"/>omnia in pauca conferam, librum sic remissi, ut vestris verbis, et
+                ut igitur<pb n="34"/>omnia in pauca conferam, librum sic remissi, ut vestris verbis, et
                 nuncupationis honorem acceperim, et editionis curam devitarim. Hactenus de
                 externis.</p>
-            <p>IV.</p>
-            <p>
-          <persName>Ioannes Iacobus Dyonysius</persName> Veronensis ex eorum sane paucorum sodalium numero est, qui
+        <p>IV.</p>
+        <p>
+          <persName>Ioannes Iacobus Dyonysius</persName>Veronensis ex eorum sane paucorum sodalium numero est, qui
                 litteram nullam in vulgus edunt, quin nobiscum communicent. Itaque etiam nuper
                 libellum ab eo accepimus, cui id est propositum, ut demonstretur, Zenonem Sanctum,
                 pontificem veronensium, sub tertii a Christo saeculi finem, atque intium quarti, hoc
@@ -578,13 +567,12 @@
                 eiusque filios pertinentibus, multa de coronis omperatoriis, multa de martyris
                 appellatione, multa de pontifice ipso, ac de proculo disserentur, atque ita plane
                 explicantur, ut sive stilum spectes, nihil purius, sive rationum vim, ac momenta
-                expendas, nihil quaeras robustius. Itaque non dubium mihi quidem est, quin <persName>Dyonisius</persName>
-                noster, vir sane cum humanissimus, tum omnis antiquitatis peritissimus, id quod
-                cupit, efficiat, ut et coronatum a <pb n="35"/>quorundam maledictis recte vindicet, et qua
-                aetate <persName>Zeno</persName> vixerit, sine errore constituat.</p>
-            <p>V.</p>
-            <p>Equidem quam vere, atque ex animo, tam etiam libenter de huius scriptoris laudibus
-                hodie apud vos loquor, quum praesertim <persName>Franciscus Dyonysius</persName> eius fratris filius hic
+                expendas, nihil quaeras robustius. Itaque non dubium mihi quidem est, quin<persName>Dyonisius</persName>noster, vir sane cum humanissimus, tum omnis antiquitatis peritissimus, id quod
+                cupit, efficiat, ut et coronatum a<pb n="35"/>quorundam maledictis recte vindicet, et qua
+                aetate<persName>Zeno</persName>vixerit, sine errore constituat.</p>
+        <p>V.</p>
+        <p>Equidem quam vere, atque ex animo, tam etiam libenter de huius scriptoris laudibus
+                hodie apud vos loquor, quum praesertim<persName>Franciscus Dyonysius</persName>eius fratris filius hic
                 adsit, et ita adsit, ut sodalem studio habeamus, dignitate principem vereamur.
                 Dignum profecto adolescentem patruo suo, quique nisi et brevitatis promissione
                 impedirer, et vero ipsius pudori parcendum existimarem, facile me propter eximias
@@ -592,15 +580,15 @@
                 sermonis proposito posset paulisper avocare. Quamquam quid dico? quae enim vobis
                 nota esse volebam, omnia iam exposui, praeter duo, quae et ipsa continuo
                 adiungam.</p>
-            <p>VI</p>
-            <p>Multum ego debeo, sodales optimi, Marco Zagurio patricio veneto, qui pontifex
+        <p>VI</p>
+        <p>Multum ego debeo, sodales optimi, Marco Zagurio patricio veneto, qui pontifex
                 Cenetensium nuper est factus<note place="foot" xml:id="ftn6" n="6">
-            <p rend="footnote text"> Postea vero Vicetinorum.</p>
+            <p rend="footnote text">Postea vero Vicetinorum.</p>
           </note>, quumque
                 observantiam ipsi meam insigni aliquo officio testatiorem esse cupiam, nihil potius
                 reperio, quam et eum nostrae sodalitatis diplomate cohonestandum curem. Quod quum
                 totum in manu sit vestra, quanto studio a vobis petani, ut ne spem, ac preces meas
-                fru<pb n="36"/>stremini, satis, opinor, intelligitis. Et est omnino <persName>Zagurius</persName> vir eiusmodi,
+                fru<pb n="36"/>stremini, satis, opinor, intelligitis. Et est omnino<persName>Zagurius</persName>vir eiusmodi,
                 ut quaecumque sodalitas eum receperit, non tam ipsi ornamentum allatura, quam ab
                 illo acceptura esse videatur. Nemo certe eo melius e nostris, si Valsecchium, et
                 Nogheram excipias, istos philosophos a gallis profectos exagitavit, qui eam unam
@@ -616,11 +604,11 @@
                 omnes simulandi, ac dissimulandi artes, mendacia omnia, omnes dolos, omnia denique
                 pertinaciae, levitatis, arrogantiae, dicacitatis genera in apertissimam lucem
                 proferat. Quibus rebus iure videor posse dicere, nec quid quam tali ratione esse
-                acrius, efficaciusque, nec quamquam <pb n="37"/>praeterea apud nos hac aetate extitisse,
+                acrius, efficaciusque, nec quamquam<pb n="37"/>praeterea apud nos hac aetate extitisse,
                 qui difficillimum istud perpetuae ironiae genus, quod divinus ille Socrates plurimum
                 adamasse fertur, vel urbanius tractaverit, vel utilius.</p>
-            <p>VII.</p>
-            <p>Constitueram hoc loco de <persName>Elisabethae</persName> quoque <persName>Thuriae</persName> venetae mulieris, quae Vicetiae
+        <p>VII.</p>
+        <p>Constitueram hoc loco de<persName>Elisabethae</persName>quoque<persName>Thuriae</persName>venetae mulieris, quae Vicetiae
                 ephemerides lietterarias scribit, et quacum consuetudo mihi epistolarum est,
                 laudibus plura dicere, eodem videlicet hoc consilio, ut eam vestrum in numerum
                 adsciscatis. Verum per mihi opportune in mentem venit, nihil multis opus esse, quum
@@ -638,87 +626,84 @@
                 reprehendet, ut omnis verborum acrimonia sit tamen abfutura: eosdem, si boni plane
                 erunt, ita laudabit, ut voluntatem in vos suam, gratumque animum sitis
                 perspecturi.</p>
-            <p>VIII.</p>
-            <p>Nunc ut aures vestras orationis meae asperitate fatigatas iucunda aliqua lectione
-                paulum relevem, recitabo vobis italicam quandam elegiam <persName>Vincentii Montii</persName>
-                ferrariensis, sodalis quidem nostri, atque optimi poetae, quam ipse nuper pro
+        <p>VIII.</p>
+        <p>Nunc ut aures vestras orationis meae asperitate fatigatas iucunda aliqua lectione
+                paulum relevem, recitabo vobis italicam quandam elegiam<persName>Vincentii Montii</persName>ferrariensis, sodalis quidem nostri, atque optimi poetae, quam ipse nuper pro
                 amicitia nostra ad me misit. Huius argumentum quod quaeratis, nihil est; quid enim
-                aliud caneret <persName>Montius</persName> meus, nisi puellarum blanditias, atque umbratiles vel iras,
+                aliud caneret<persName>Montius</persName>meus, nisi puellarum blanditias, atque umbratiles vel iras,
                 vel inducias, vel paces? Qui quidem ea sit animi mollitia, ut quavis forma capiatur,
                 quovis vultu auferri se sentiat, ut centum habeat caussas, cur sempet amet, ut
                 denique illud Nasonis dictum non minus vere de se usurpare possit:</p>
       </div>
-               <div> <lg>
-            <l>Vive, Deus, posito, si quis mihi dicat amore.</l> 
-             <l>Deprecer; usque adeo dulce puella malum est.</l>
+      <div>
+        <lg>
+          <l>Vive, Deus, posito, si quis mihi dicat amore.</l>
+          <l>Deprecer; usque adeo dulce puella malum est.</l>
         </lg>
       </div>
-                <div>
-            <p>Verum enim magnam eiusmodi amoribus habendam esse gratiam censeo, quod poetae
+      <div>
+        <p>Verum enim magnam eiusmodi amoribus habendam esse gratiam censeo, quod poetae
                 ingenium mirifice provehant, ex eoque pulcherrimos versus saepe eliciant. Nam vel
-                hoc ipsum poematium tam multis abundat virtuti<pb n="39"/>bus, ut quum illud <persName>Faventiam</persName> ad
-                <persName>Caesarem Naldium</persName> auctor misisset, vir nobilissimus, idemque intelligens aestimator
+                hoc ipsum poematium tam multis abundat virtuti<pb n="39"/>bus, ut quum illud<persName>Faventiam</persName>ad<persName>Caesarem Naldium</persName>auctor misisset, vir nobilissimus, idemque intelligens aestimator
                 librario opere descriptum remiserit. Omnino multum inest amoris, dulcedinis,
                 amaritudinis, doloris. Videtur autem poeta, quum huic elegiae scribendae opera,
                 daret, Propertianam illam, quam omnium dulcissimam, maximeque miserabilem inter
                 doctos esse constat, ob oculos propositam habuisse:</p>
       </div>
-                <div>
+      <div>
         <lg>
-            <l>Haec certe deserta loca, et taciturna querenti; </l>
-            <l>Et vacuum zephyri possidet aura nemus. </l>
-            <l>Hic licet occultos proferre impune dolores,</l>
-            <l>si modo sola queant saxa tenere fidem.</l>
+          <l>Haec certe deserta loca, et taciturna querenti;</l>
+          <l>Et vacuum zephyri possidet aura nemus.</l>
+          <l>Hic licet occultos proferre impune dolores,</l>
+          <l>si modo sola queant saxa tenere fidem.</l>
         </lg>
       </div>
-                <div>
-            <p>Nostis reliqua. Animum igitur advertite, ac de meo iudicio iudicate.</p>
+      <div>
+        <p>Nostis reliqua. Animum igitur advertite, ac de meo iudicio iudicate.</p>
       </div>
-                <div>
-            <pb n="40"/>
+      <div>
+        <pb n="40"/>
         <head>V</head>
-            <head>Anno <date>1778</date>, 6 calendas ianuarias, <persName>Quistanio</persName> praeside, mentore <persName>Flaviano</persName>,
+        <head>Anno<date>1778</date>, 6 calendas ianuarias,<persName>Quistanio</persName>praeside, mentore<persName>Flaviano</persName>,
                 censoribus.</head>
-            <p>I.</p>
-            <p>Neminem vestrum esse arbitror, sodales, cui non <persName>Hyeronimi Carlii</persName>, viri clarissimi,
+        <p>I.</p>
+        <p>Neminem vestrum esse arbitror, sodales, cui non<persName>Hyeronimi Carlii</persName>, viri clarissimi,
                 sodalitatis litterariae Mantuanae a secretis, nomen saepius auditum sit, quique non
                 ipsum magni faciat. Nam praeterquam quod singulari est homo lenitate, modestia,
                 suavitate, tanta etiam rerum maximarum scientia excellit, adeo in romanis,
-                graecisque antiquitatibus est versatus, ut, qui ei pares poni possint, non multo in
-                <placeName>Italia</placeName> habeamus. Quae omnia, utpote in etruscis natus, mira sermonis urbanitate
-                condire, atque exornare solet. Is igitur quum proxima aestate extremam hanc <placeName>Italiae</placeName>
-                oram, vel, si vultis, laciniam perlustraret, ac mecum pro sua humanitate totos dies
+                graecisque antiquitatibus est versatus, ut, qui ei pares poni possint, non multo in<placeName>Italia</placeName>habeamus. Quae omnia, utpote in etruscis natus, mira sermonis urbanitate
+                condire, atque exornare solet. Is igitur quum proxima aestate extremam hanc<placeName>Italiae</placeName>oram, vel, si vultis, laciniam perlustraret, ac mecum pro sua humanitate totos dies
                 esset: non ante omnino abire voluit, quam vestrae sodalitati, in quam mea opera
                 adscriptus fuerat, voluntatem, studiumque suum aliquo pacto testatum
                 reliquisset.</p>
-            <pb n="42"/>
+        <pb n="42"/>
         <p>II.</p>
-            <p>Itaque tradidit mihi recentissimum opus <persName>Petri Forfaitii Rothomagensis</persName>, architecti
+        <p>Itaque tradidit mihi recentissimum opus<persName>Petri Forfaitii Rothomagensis</persName>, architecti
                 navium regis Galliarum, numeris sane omnibus absolutum. Nam quum sodalitas mantuana
                 de more quaestionem posuisset: qua ratione, quam minimo labore, ac sumptu alvei
                 navigabiles ex arena, terraeve acervis, quibus eorum fundus altius erigitur,
-                expediri possint; ita sollerter <persName>Forfaitius</persName> viam qua id facilissime fiat,
+                expediri possint; ita sollerter<persName>Forfaitius</persName>viam qua id facilissime fiat,
                 pervestigavit, tamque opportunas in hanc rem machinas excogitavit, ut caeteros
                 omnes, qui certatim in eodem argumento elaborarant, superaverit, sitque ipsi
                 praemium publice adiudicatum.</p>
-            <p>III.</p>
-            <p>Addidit praeterea <persName>Carlius</persName> duos alios libellos, quorum in altero, unde puniendi ius
-                fluxerit, explicatur. Hunc autem seripsit vir amplissimus <persName>Ioannes Baptista
+        <p>III.</p>
+        <p>Addidit praeterea<persName>Carlius</persName>duos alios libellos, quorum in altero, unde puniendi ius
+                fluxerit, explicatur. Hunc autem seripsit vir amplissimus<persName>Ioannes Baptista
                 Gherardius Archius</persName>, qui quidem duplicem poenarum sumendarum originem extitisse ait:
                 alteram, quod irati homines, quum alienam vim propulsare statim non potuissent,
                 iniuriam postea ulcisci cuperent; alteram, quod publicae tranquillitatis gratia,
                 quam quisque potestatem earum rerum adhibendarum haberet, quae et propriam salutem
                 tuerentur, et improborum licentiam refrenarent, eam ipsam communi consensu
-                Reipublicae concederet, quae deinde <pb n="42"/>peccatis aequas paenas irrogaret. Ab his
+                Reipublicae concederet, quae deinde<pb n="42"/>peccatis aequas paenas irrogaret. Ab his
                 principiis profectus auctor, omniaque philosophica illa subtilitate excutiens, ac
                 perpendens, rem eo deducit, nihil ut fieri possit illustrius. Quid multa? Laudatus
-                est per litteras cum ab <persName>Alambertio</persName>, et <persName>Condillachio</persName>, 
+                est per litteras cum ab<persName>Alambertio</persName>, et<persName>Condillachio</persName>, 
                 tum ab ipso Borussorum rege, ab
                 illo, inquam, rege, quem nescias, Martisne magis, an Minervae munera delectent,
                 quique quum Caesari et bellandi, et scribendi laude similis sit, ne Augusto quidem
                 doctorum hominum amicitiis colendis cedit.</p>
-            <p>IV.</p>
-            <p>Alterum opusculum est de bombycibus in agro mantuano procurandis, idque ab universa
+        <p>IV.</p>
+        <p>Alterum opusculum est de bombycibus in agro mantuano procurandis, idque ab universa
                 sodalitate, singulis velut symbolam conferentibus, est conflatum. Non mehercule,
                 sodales, tam multa de puerorum institutione Lochiani isti philosophi disputant, quam
                 multa super eiusmodi bestiolis proferuntur. Quamquam profecto dignae sunt quamvis
@@ -728,44 +713,42 @@
                 commoda, et quod apte vestimur, et quod molliter recumbimus, et quod laute lamur,
                 debemus. In ea igitur commentatione diligentissime de bombycum ortu, femine,
                 educatione, opere, morbis agitur.</p>
-            <pb n="43"/>
+        <pb n="43"/>
         <p>V.</p>
-            <p>Atque haec ipsa monent, ne binos libellos praeteream, quos <persName>Carolus Bettonius</persName>,
-                agricola doctus, et liberalis, proxime ad nos misit. Qui quidem non de <persName>Bombycibus</persName>
-                solum, verum etiam de armentis est universe bene meritus. Nam paene eodem tempore
+        <p>Atque haec ipsa monent, ne binos libellos praeteream, quos<persName>Carolus Bettonius</persName>,
+                agricola doctus, et liberalis, proxime ad nos misit. Qui quidem non de<persName>Bombycibus</persName>solum, verum etiam de armentis est universe bene meritus. Nam paene eodem tempore
                 utrorumque vitae studiosissime prospicit, quum et moris, quibus bombyces vivunt,
                 vulgata sue periclitantibus medicas manus admovere conetur, et multarum arborum
                 folia gratissimo pecudibus pabulo esse posse ostendat. Videtis, sodales, quam valde
                 aetatis nostrae homines sapiant, quamque, ut iaculatorum tela ad metam, sic omnium
                 ad unam utilitatem conversa sint studia. Itaque finem dicendi faciam, ne caeteris
-                sedulo exercentibus, ipse unus, ut de <persName>Marco Lepido</persName> narrat <persName>Caesar</persName>, diutius, quam par
+                sedulo exercentibus, ipse unus, ut de<persName>Marco Lepido</persName>narrat<persName>Caesar</persName>, diutius, quam par
                 est, nugari fortasse videar. Quamquam manete etiam paulisper, dum paucula
                 adiungo.</p>
-            <p>VI.</p>
-            <p>
-          <persName>Ioannes Baptista Albertinius Anauniensis</persName>, qui <placeName>Oeniponti</placeName> dialecticam profiretur,
-                Graserii nostri rogatu in hanc sodalitatem exeunte octobri cooptatus est. <persName>Antonius
+        <p>VI.</p>
+        <p>
+          <persName>Ioannes Baptista Albertinius Anauniensis</persName>, qui<placeName>Oeniponti</placeName>dialecticam profiretur,
+                Graserii nostri rogatu in hanc sodalitatem exeunte octobri cooptatus est.<persName>Antonius
                 Sterzingherius</persName>, Germanus, sodalis noster, scripsit, ad me nuper, gratissimum sibi
-                fore, si <persName>Ferdinandum Sterzingherium</persName>, cognatione sibi coniunctum, hoc eodem officio
-                complectamur; doctum esse <pb n="44"/>virum, multaque in vulgus edidisse, quae ad nos
+                fore, si<persName>Ferdinandum Sterzingherium</persName>, cognatione sibi coniunctum, hoc eodem officio
+                complectamur; doctum esse<pb n="44"/>virum, multaque in vulgus edidisse, quae ad nos
                 mittentur, atque adeo nunc quoque monachii publice docere.</p>
-            <p>VII.</p>
-            <p>
-          <persName>Marcus Zagurius</persName> pontifex Cenetensis, quem meo impulsu, hac aestate in vestrum numerum
+        <p>VII.</p>
+        <p>
+          <persName>Marcus Zagurius</persName>pontifex Cenetensis, quem meo impulsu, hac aestate in vestrum numerum
                 retulistis, pro ea, qua est humanitate, litteras ad me dedit officii, diligentiaeque
                 plenissimas, quas in vestro onventu recitarem, ex quibus, quantum sibi voluptatis
                 diploma illud nostrum attulerit, facile intelligetis. Quamobrem animum attendite.
-                Legam autem continuo et poematium in primis pulchrum, atque utile, quod mihi
-                <persName>Hyppolitus Bevilaqua</persName>, sodalis noster, antiqua homo virtute, ac fide, quum Iseria
+                Legam autem continuo et poematium in primis pulchrum, atque utile, quod mihi<persName>Hyppolitus Bevilaqua</persName>, sodalis noster, antiqua homo virtute, ac fide, quum Iseria
                 discederet, tanquam hospitii tesseram, reliquit.</p>
       </div>
-                <div>
-             <pb n="45"/>
+      <div>
+        <pb n="45"/>
         <head>VI</head>
-            <head>Anno <date>1770</date>, pridie nonas augusti, <persName>Mentippo</persName> praeside, mentore <persName>Flaviano</persName>,
+        <head>Anno<date>1770</date>, pridie nonas augusti,<persName>Mentippo</persName>praeside, mentore<persName>Flaviano</persName>,
                 censoribus.</head>
-            <p>I.</p>
-            <p>Si de me nunc quaeratis, sodales ornatissimi, toto hoc tempore, quod a postremo
+        <p>I.</p>
+        <p>Si de me nunc quaeratis, sodales ornatissimi, toto hoc tempore, quod a postremo
                 conventu ad hanc diem fluxit, quid rerum gesserim, cur vos citius non convocarim;
                 longa profect sit oratio. Etenim magna pars aegrotatni, ut scitis, est elapsa, maior
                 nihil agenti, maxima nugas agenti. Verum haec ipsa distincte exponere, nisi multis
@@ -774,144 +757,136 @@
                 indigni, quorum aures ineptis sermonibus torqueantur. Quare hanc veniam a vobis
                 peto, ut me et praetermittere haec omnia, et vero etiam quod ad vestras res attinet,
                 prorsus quam brevissimum esse patiamini.</p>
-            <p>II.</p>
-               <p>Ut igitur propositum meum teneam, sci<pb n="46"/>tote, <persName>Franciscum Rezzanium</persName> misisse ad nos
+        <p>II.</p>
+        <p>Ut igitur propositum meum teneam, sci<pb n="46"/>tote,<persName>Franciscum Rezzanium</persName>misisse ad nos
                 tertium volumen eius poematis, quod ecclesiae trimphum inscripsit. His autem
                 postremis libris tria secula complexus est, septimum, octavum, nonum. Quam scite
                 atque eleganter non dico; vosmet enim ex iis, quae de hominis ingenio, ac stilo,
-                quam priorum voluminum mentionem facerem, praedicavi, id facile colligetis. Porro a
-                <persName>Carolo Ferdinando</persName>, qui italicam linguam Lausenii docet, libellum accepimus, quem
-               <persName> Moses Mendelsonius</persName> hebraeus, alter quidem Longinus, de genere sublimi, quod in
+                quam priorum voluminum mentionem facerem, praedicavi, id facile colligetis. Porro a<persName>Carolo Ferdinando</persName>, qui italicam linguam Lausenii docet, libellum accepimus, quem<persName>Moses Mendelsonius</persName>hebraeus, alter quidem Longinus, de genere sublimi, quod in
                 humanioribus litteris dominatur, gravissime scripsit, ipse in nostrum sermonem
                 convertit. Quod quamquam ita fecerit, ut alia nisi repetita lectione, non
                 intelligas, alia ne intelligas quidem; (nam et verbis utitur non magnopere usitatis,
                 et ambitu etiam implicatiore) tamen homini et probo, et solerti, et nostrum, quod
                 vidi, studiosissimo non possum non favere. Itaque eius industriam, honestissimosque
                 conatus approbatione potius aliqua fovendos, quam ulla reprehensione retardandos
-                esse existimavi.<persName>Ioannem Baptistam Graserium</persName> civem nostrium quid apud vos commendem?
+                esse existimavi.<persName>Ioannem Baptistam Graserium</persName>civem nostrium quid apud vos commendem?
                 cuius incredibile acumen, atque expeditam dicendi copiam nemo est, qui non iam diu
                 maximi faciat. Is quoque latinam orationem, quam paucis abhinc annis, in lyceo
                 oenipontano historiae tradendae munus susceptu<pb n="47"/>rus, composuerat, nuper emisit, et
                 pro ac debuit, ea nos ne careremus curavit. De qua si magis iudicium meum
                 flagitaritis, ad vicetinas ephemerides vos remittam, quibus is opsum latissime
                     consignavi.<note place="foot" xml:id="ftn7" n="7">
-            <p rend="footnote text">
-                        Initio voluminis octavi ad annum <date>1779</date>.</p>
+            <p rend="footnote text">Initio voluminis octavi ad annum<date>1779</date>.</p>
           </note>
         </p>
-            <p>III.</p>
-            <p>Sed haec levia, et quotidiana: illud praeclarum, ac prope regium est munus, quod
-                <persName>Ferdinandus Sterzingherius</persName> proxime nobis monachio misit, impellente quidem, et
-                conciliante me. Sunt autem tredecim ipsa volumina rerum <persName>Boicarum</persName>, spissum, sane
+        <p>III.</p>
+        <p>Sed haec levia, et quotidiana: illud praeclarum, ac prope regium est munus, quod<persName>Ferdinandus Sterzingherius</persName>proxime nobis monachio misit, impellente quidem, et
+                conciliante me. Sunt autem tredecim ipsa volumina rerum<persName>Boicarum</persName>, spissum, sane
                 opus, et operosum, et quod quum evolvas, invictam illam germanorum constantiam,
                 atque illud robur agnoscas. Huic ego egi gratias mehercle, quam libentissime. Atque
                 audite quaeso, et illius ad me, et meas ad illum litteras...</p>
-            <p>IV.</p>
-            <p>Haec igitur habui de rebus vestris quae dicerem. Nunc <persName>Bernardini Roduplhii Benacensis</persName>
-                commentationem de quaestione veteri, et satis iam ut arbitror, explicata, utrum plus
-                ingenio, an disciplina prosiciant homnes, et pastoralia quaedam <persName>Nicolai Bellavitae</persName>
-                veronensis carmina suavissime, amoenissimeque conscripta, ut audiatis, cum meis, tum
+        <p>IV.</p>
+        <p>Haec igitur habui de rebus vestris quae dicerem. Nunc<persName>Bernardini Roduplhii Benacensis</persName>commentationem de quaestione veteri, et satis iam ut arbitror, explicata, utrum plus
+                ingenio, an disciplina prosiciant homnes, et pastoralia quaedam<persName>Nicolai Bellavitae</persName>veronensis carmina suavissime, amoenissimeque conscripta, ut audiatis, cum meis, tum
                 ipsorum qui miserunt, verbis etiam atque etiam vos rogo.</p>
       </div>
-                <div>
-            <pb n="48"/>
+      <div>
+        <pb n="48"/>
         <head>VII</head>
-            <head>Anno <date>1779</date>, 6 calendas ianuarias, <persName>Placonide</persName> praeside, mentore <persName>Flaviano</persName>,
+        <head>Anno<date>1779</date>, 6 calendas ianuarias,<persName>Placonide</persName>praeside, mentore<persName>Flaviano</persName>,
                 censoribus.</head>
-            <p>I.</p>
-            <p>Nolite expectare, sodales vulgare illud exordii genus, quo vobis antea, ut benevolos
+        <p>I.</p>
+        <p>Nolite expectare, sodales vulgare illud exordii genus, quo vobis antea, ut benevolos
                 atque attentos mihi vos facerem, brevitatem solebam polliceri. Etenim tam pauca in
                 praesens habeo quae dicam, ut nullo plane exordio mihi utendum putem.</p>
-            <p>II.</p>
-            <p>
-          <persName>Ludovicus</persName> igitur <persName>Cultellinius</persName>, domo Aretio, pridem binos sermones ad nos misit,
+        <p>II.</p>
+        <p>
+          <persName>Ludovicus</persName>igitur<persName>Cultellinius</persName>, domo Aretio, pridem binos sermones ad nos misit,
                 quibus quatuor Anaglyptis aeneis Etruscis Cortonae inventis eruditissime lucem
-                adhibet; proxime autem latinum commentariolum de suspectis tutoribus <persName>Franciscus
-                Zeillerius</persName> germanus, uterque Sodalitii diplomatis impetrandi gratia. Sed
+                adhibet; proxime autem latinum commentariolum de suspectis tutoribus<persName>Franciscus
+                Zeillerius</persName>germanus, uterque Sodalitii diplomatis impetrandi gratia. Sed
                 Cultellinius eo, quem petebat honore statim potitus est. Zeillerius vir bonus,
                 adhunc in candidatis versatur, e quibus quam mox exeat, in manu est vestra. Porro
-                vetus <pb n="49"/>sodalis noster <persName>Graferius</persName>, cuius <placeName>Germiania</placeName> reditum patriae gratulari iure
+                vetus<pb n="49"/>sodalis noster<persName>Graferius</persName>, cuius<placeName>Germiania</placeName>reditum patriae gratulari iure
                 licet, qui et ipse librum illum suum de loco proprie sacerdotibus in templo ad
-                sedendum attibuto nuper ab se latine conversum, et <persName>Iosepho Garampio</persName> pontificio apud
-                Augustum legato, viro summo <note place="foot" xml:id="ftn8" n="8">
-            <p rend="footnote text"> Nunc in collegium patrum purpuratum merito ad scripto.
-                        De <persName>Graserii</persName> autem libro vide ephemerides romanas ad mensem aprilem anno
-                        <date>1780</date>, numero 15 pagina 119. Ipse <persName>Graserius</persName> obiit sexennio post estatque
-                        Vannettii liber de eius vita editus Mutinae anno <date>1790</date>.</p>
+                sedendum attibuto nuper ab se latine conversum, et<persName>Iosepho Garampio</persName>pontificio apud
+                Augustum legato, viro summo<note place="foot" xml:id="ftn8" n="8">
+            <p rend="footnote text">Nunc in collegium patrum purpuratum merito ad scripto.
+                        De<persName>Graserii</persName>autem libro vide ephemerides romanas ad mensem aprilem anno<date>1780</date>, numero 15 pagina 119. Ipse<persName>Graserius</persName>obiit sexennio post estatque
+                        Vannettii liber de eius vita editus Mutinae anno<date>1790</date>.</p>
           </note>inscriptum
-                nobis dono dedit; vehementer vos rogat, ut <persName>Carolum Scaevarlium</persName>, qui sibi in docendi
+                nobis dono dedit; vehementer vos rogat, ut<persName>Carolum Scaevarlium</persName>, qui sibi in docendi
                 munus singulari doctrina esse virum, tum etiam sua caussa in vestrum numerum
-                cooptetis. Sed et ego habeo quem vobis nominem eadem cooptatione dignissimum,
-                <persName>Ioannem Ferrium Fanestrem</persName>, adolescentem liberalium artium doctrina cum primis
-                excultum, qui quum <placeName>Lutetiae parisiorum</placeName>, quo puer perductus est, fere degat, gallice
+                cooptetis. Sed et ego habeo quem vobis nominem eadem cooptatione dignissimum,<persName>Ioannem Ferrium Fanestrem</persName>, adolescentem liberalium artium doctrina cum primis
+                excultum, qui quum<placeName>Lutetiae parisiorum</placeName>, quo puer perductus est, fere degat, gallice
                 scribit et soluta, et ligata oratione sic, ut non tam eam linguam didicisse, quam in
                 ea natus esse videatur. Habet autem iamdudum in manibus permagnum, perque difficile
                 opus, quo nostrorum hominum litterarum laude excellentium gloriam a gallorum
-                maledictis vindicaturum se pollicetur. Itaque sic ipsum <placeName>Parisiis</placeName> <pb n="50"/>versari
+                maledictis vindicaturum se pollicetur. Itaque sic ipsum<placeName>Parisiis</placeName>
+          <pb n="50"/>versari
                 statuo, ut quendam in hostium castris exporatorem. Redeo ad munera.</p>
-            <p>III.</p>
-            <p>
-          <placeName>Roma</placeName> accepimus a <persName>Vincentio Montio</persName> sodali nostro volumen eorum carminum, quae liburni
+        <p>III.</p>
+        <p>
+          <placeName>Roma</placeName>accepimus a<persName>Vincentio Montio</persName>sodali nostro volumen eorum carminum, quae liburni
                 vulgavit. De quibus scio vos non dubitare, quid sentiam. Omnino poeta est eiusmodi,
                 ut neminem ei in lyricis, hoc quidem tempore, anteponam. Sed legite, quaeso, est
                 enim liber in medio. Verum quum ad eam epistolam veneritis, qua me puellae nescio
                 cuius amore captum facit<note place="foot" xml:id="ftn9" n="9">
-            <p rend="footnote text"> E sex epistolis, quas <persName>Montius</persName> prosa oratione
-                        carminibus suis interposuit, una est ad <persName>Vannettium</persName>, qua amatorias elegias
+            <p rend="footnote text">E sex epistolis, quas<persName>Montius</persName>prosa oratione
+                        carminibus suis interposuit, una est ad<persName>Vannettium</persName>, qua amatorias elegias
                         quasi amatori festive dedicat.</p>
           </note>, fidem ei ne habeatis; quin illum,
                 ut cum maxime, tunc poetam agere existimate, etenim ipsi videtis, quantum toto vitae
                 instituto, ipso denique cultu atque ore ab huius insaniae suspicione absim, ut
-                dicere non verear, <persName>Montium</persName> meum, quum ubique decorum servarit, in hac fabula
-                confingenda plane ab eo recessisse. <persName>Franciscus Parisius</persName> romanus, qui <persName>Scipioni
-                Burghesio</persName> purpurato est a secretis, virorum integerrimus, atque eruditissimus,
+                dicere non verear,<persName>Montium</persName>meum, quum ubique decorum servarit, in hac fabula
+                confingenda plane ab eo recessisse.<persName>Franciscus Parisius</persName>romanus, qui<persName>Scipioni
+                Burghesio</persName>purpurato est a secretis, virorum integerrimus, atque eruditissimus,
                 multis verbis apud me extulit vestram humanitatem, quod dignum duxissetis, quem
                 vobis adiungeretis. Hic quum librum composuisset, in quo optimum scribam informat,
                 (non hos dico forsense quorum vix bonus quisquam esse potest), sed illos qui
-                principibus <pb n="51"/>viris in scribendis epistolis operam navant) verumtamen quum eum
+                principibus<pb n="51"/>viris in scribendis epistolis operam navant) verumtamen quum eum
                 librum composuisset, atque id nomen, quo in sodalitate nostra appellatur, vellet
                 inscribere, non modo veniam a nobis petiit, sed librum ipsum calamo descriptum (si
                 exigere liberet) se nobis missurum dixit. Eam modestiam admirati censores nostri
                 gratiarum etiam actione prosequendam putaverunt. Itaque non descriptum, sed editum
                 brevi, ut spero, librum habebimus. Audite nune iam suavissimos quosdam ad nutricem
-                infantulo adsidentem versiculos, quos <persName>Hippolytus Bevilaqua</persName> socius noster proxime ad
-                me misit, ex quibus intelligetis, quam vere <persName>Horatius</persName> cecinerit:</p>
+                infantulo adsidentem versiculos, quos<persName>Hippolytus Bevilaqua</persName>socius noster proxime ad
+                me misit, ex quibus intelligetis, quam vere<persName>Horatius</persName>cecinerit:</p>
       </div>
-                <div>
-            <l>Os tenerum pueri balbumque poeta figurat.</l>
+      <div>
+        <l>Os tenerum pueri balbumque poeta figurat.</l>
       </div>
-                <div>
-          <pb n="52"/>
+      <div>
+        <pb n="52"/>
         <head>VIII</head>
-            <head>Anno 1780, pridies nonas iulias, <persName>Biagiato</persName> praeside, mentore <persName>Flaviano</persName>, censoribus.</head>
-            <p>I.</p>
-            <p>Pauca hodierna die vobis, sodales humanissimi, eaque fere poetica ex ulteriore Italia
-                sum allaturus, nihil boni e Germania. <placeName>Mantua</placeName> igitur nescio quid versicolorum
-                accepimus a <persName>Maria Paltrineria</persName>, quibus philosophiae studiosa femina, unde horribiles
+        <head>Anno 1780, pridies nonas iulias,<persName>Biagiato</persName>praeside, mentore<persName>Flaviano</persName>, censoribus.</head>
+        <p>I.</p>
+        <p>Pauca hodierna die vobis, sodales humanissimi, eaque fere poetica ex ulteriore Italia
+                sum allaturus, nihil boni e Germania.<placeName>Mantua</placeName>igitur nescio quid versicolorum
+                accepimus a<persName>Maria Paltrineria</persName>, quibus philosophiae studiosa femina, unde horribiles
                 illi terrae motus existant voraginum effectores, evesoresque oppidorum, quodam
                 Cyrenes nimphae quasi afflatu nobis demonstrat. Quamquam scio, nonnihil vereri
                 Censores nostros, ne aut mulier parum intellexerit quid sibi nympha ad aurem
                 insusurrarit tum, quum subterranea fluviorum capita (sic enima narrat) speluncasque
                 ingectes ambae simul perlustrarent; aut ipsa nympha mulieri mendaciolum obtruserit.
                 Sunt enim quae cum recentissimis optymorum physicoru inventis, ac rationibus non
-                admodum congruant. Quae tamen probe nostis, non <pb n="53"/>nimis a poetis solere exquiri;
+                admodum congruant. Quae tamen probe nostis, non<pb n="53"/>nimis a poetis solere exquiri;
                 nam quae poetarum propria sunt in iss paltrineria minime offendit, nisi si quando
                 inflatior est, ac novae huic voluntati propior, quam manare video in dies
                 latius.</p>
-            <p>II.</p>
-            <p>A quo quidem vitio longe abest Ioannes Lepocinius, qui poematium in duos libros
+        <p>II.</p>
+        <p>A quo quidem vitio longe abest Ioannes Lepocinius, qui poematium in duos libros
                 digestum venetiis edidit, ad nosque misit. Poematis et titulus, et argumentum
                 nobilitas est, cuius origo ita explicatur, evolviturque, ut variae mundi aetates, ac
                 primorum praesertim hominum ab omni fastu, invidiaque remotissimorum, unique agri
-                culturae studentium mores fuse lateque describantur. Sed meministis tritum illud
-                <persName>Horatii</persName> verbum, in vitium ducere culpae fugam, si caret arte. Id ipsum in Lepocinium
+                culturae studentium mores fuse lateque describantur. Sed meministis tritum illud<persName>Horatii</persName>verbum, in vitium ducere culpae fugam, si caret arte. Id ipsum in Lepocinium
                 optime quadraverit; quippe ex hac artis ignoratione factum arbitror, ut quum ille
                 tumorem istum de quo dicebam, qui nunc prope solus dominatur, fortasse vitare
                 vellet, in verbosum quoddam, humile, atque enervatum inciderit scribendi genus. Quod
                 ipsi non inurbane quidam merito evenisse dixit, qui de nobilitate, re Musis invisa,
                 canere voluerit.</p>
-            <p>III.</p>
-            <p>Haud paullo meliore munusculo nos impertiit <persName>Carolus Bettonius</persName>, novo, inquam, libello
+        <p>III.</p>
+        <p>Haud paullo meliore munusculo nos impertiit<persName>Carolus Bettonius</persName>, novo, inquam, libello
                 de bombycibus bis anno educendis. Ve<pb n="54"/>re, ut assolet, et autumni frigore primo;
                 quod ille, modo certae quaedam cautiones adhibeantur, quas sigillatim experentia
                 duce persequitur, cum ad rusticorum fructum, tum ad mororum luem avertendam
@@ -919,22 +894,20 @@
                 vestra, et ipse Bettonius, quid vos sentiatis, scire cupit, libellum, quaeso,
                 percurrite; et dicestis sale aliquid, et fortasse etiam ridebitis, quum bombyces
                 Augustinos legetis.</p>
-            <p>IV.</p>
-            <p>Duos germanos, <persName>Graserio</persName> praeside petente, in nostram sodalitatem adscripsimus,
-                <persName>Carolum Scaevarlium</persName>, virum haud ineruditum, et <persName>Carolum Rotteguntum</persName>, hominem, credo
+        <p>IV.</p>
+        <p>Duos germanos,<persName>Graserio</persName>praeside petente, in nostram sodalitatem adscripsimus,<persName>Carolum Scaevarlium</persName>, virum haud ineruditum, et<persName>Carolum Rotteguntum</persName>, hominem, credo
                 meliorem libris suis. Scaevarlius latinam orationculam misit descriptam, non editam,
                 de litterarum utilitate. Genus materiae videtis quam expositum, quam apertum:
                 difficile autem est, quae communia, et pervulgata sint, ea ita tractare, ut propria,
-                ac nova dicere videare. De <persName>Constantini Laurentii</persName> popularis nostri, necessarii mei,
+                ac nova dicere videare. De<persName>Constantini Laurentii</persName>popularis nostri, necessarii mei,
                 cooptatione nihil est quod certiores vos faciam quum ipsum modo recitantem
                 audieritis. Qui quidem quum a gravissimo censore nostro mentore ob egregiam illam,
                 beneque disertam, quam de Thomae sancti laudibus proxime habuit, orationem hoc
-                honore dignus sit indicatus, timere nullo pacto <pb n="55"/>debetis, ne cui iniuria talem
+                honore dignus sit indicatus, timere nullo pacto<pb n="55"/>debetis, ne cui iniuria talem
                 in numerum adscitus esse videatur.</p>
-            <p>V.</p>
-            <p>Porro summam aequi iudicii laudem ac vobis relatum iri polliceor, si per me hodierna
-                die vos exorari sinetis, ut idem istud societatis vestrae diploma <persName>Antonio Frittio</persName>
-                deferatis, civi ferrariensi, amico meo, poetae facetissimo, accuratissimoque
+        <p>V.</p>
+        <p>Porro summam aequi iudicii laudem ac vobis relatum iri polliceor, si per me hodierna
+                die vos exorari sinetis, ut idem istud societatis vestrae diploma<persName>Antonio Frittio</persName>deferatis, civi ferrariensi, amico meo, poetae facetissimo, accuratissimoque
                 historico, cuius etiam nuper volumen exiit de Bevilaquarum familia; quod ego quum
                 legerem (etenim ad me misit), non poteram mirari satis, quo pacto vir sollertissimus
                 duos illos scopulos, ad quos talium rerum scriptores navim saepissime impingunt,
@@ -944,105 +917,104 @@
                 condiret. Tenete igitur traditam vobis a maioribus consuetudinem, ut quorum
                 praeclara ingenii specimina feruntur, eos honestissimo opinionis vestrae testimonio
                 vel ultro exornetis.</p>
-            <p>VI.</p>
-            <p>Ne ego quidem interea a meo more discendam, quem vobis probari intellexi, ut sermoni
+        <p>VI.</p>
+        <p>Ne ego quidem interea a meo more discendam, quem vobis probari intellexi, ut sermoni
                 meo aliquid alieni poematii subiiciam, quo et animus vester, et aures, si qua in re
-                offenderint, ipsa carminis suavitate acquiescant <pb n="56"/>et recreentur. Legam autem
+                offenderint, ipsa carminis suavitate acquiescant<pb n="56"/>et recreentur. Legam autem
                 epistolam Iosephi Ianuarii patavini, sodalis nostri, hominis cum docti, tum mihi
                 amicissimi, patrio sermone, horatiano stilo, et charactere conscriptam: quo ille
                 perdifficili perque recondito in genere iam diu magna cum laude versatur.</p>
       </div>
-                <div>
-            <pb n="57"/>
+      <div>
+        <pb n="57"/>
         <head>IX</head>
-            <head>Anno <date>1781</date>, 12 calendas iulias, Aquino praside, mentore Flaviano, censoribus.</head>
-            <p>I.</p>
-            <p>Quid caussae fuerit, cur sodalitiis, qui haberi solent tum hyeme tum vere,
+        <head>Anno<date>1781</date>, 12 calendas iulias, Aquino praside, mentore Flaviano, censoribus.</head>
+        <p>I.</p>
+        <p>Quid caussae fuerit, cur sodalitiis, qui haberi solent tum hyeme tum vere,
                 conventibus intermissis, meo tamen reliquo nulla ex parte neglecto officio ruri tam
                 diu sim commoratus, non ignoratis; quid igitur tanto intervallo boni hodie afferam,
                 quaeritis. Ego vero, sodales nec multa, nec magna: sed ea tamen, quae vobis non
                 prorsus iniucunda sutura sint.</p>
-            <p>II.</p>
-            <p>Nam duo caesenates <persName>Iosephus Aldinius</persName>, et <persName>Thomas Lacchinius</persName> vestrae societatis cupidi,
+        <p>II.</p>
+        <p>Nam duo caesenates<persName>Iosephus Aldinius</persName>, et<persName>Thomas Lacchinius</persName>vestrae societatis cupidi,
                 duos libellos miserunt sane non contemneudos: alter commentarium de varia fortuna,
                 qua latina lingua modo horridula, modo florens, tum autem corrupta, rursusque
-                restituta usa est, non solum erudite, <pb n="58"/>verum etiam hac eadem lingua probabiliter
-                scriptum, alter laudationem funebrem <persName>Romualdi Guidii</persName> civis sui, optimi purpurati,
+                restituta usa est, non solum erudite,<pb n="58"/>verum etiam hac eadem lingua probabiliter
+                scriptum, alter laudationem funebrem<persName>Romualdi Guidii</persName>civis sui, optimi purpurati,
                 factis disertam, et splendidam. Eorum utrique vestro diplomate satis factum est.</p>
-            <p>III.</p>
-            <p>
-          <persName>Michael Tuccius</persName> sodalis noster, quod iam diu fuerat pollicitus de re rustica volumen,
+        <p>III.</p>
+        <p>
+          <persName>Michael Tuccius</persName>sodalis noster, quod iam diu fuerat pollicitus de re rustica volumen,
                 tandem persolvit. Est autem in sex omnino capita tributum, quibus de frumentis,
                 vitibus, moris, bombycibus, bombycinoque opere (quae maxim nunc vigent) diligenter
                 agitur; quippe quum id propositum sit auctori, ut foroiulienses cives suos doceat,
                 quemadmodum eorum agri talium fructuum quam feracissimi reddi possint. Videorne
                 vobis in illa mea Iseriensi mansione aliquid ex ista Camillorum, fabritiorumque
                 disciplina arripuisse? Verum deflectam alio, nec errare vos patiar.</p>
-            <p>IV.</p>
-            <p>Bina opuscula a <persName>Ludovica Barberio</persName> vicetino accepimus de convenientia, quam is
+        <p>IV.</p>
+        <p>Bina opuscula a<persName>Ludovica Barberio</persName>vicetino accepimus de convenientia, quam is
                 contendit esse coloribus cum hisce sonis, quos vocalent appellant, atque adeo
                 singulis coloribus cum musicis modis; et de aeternitate divina, deque tempore, quo
                 mortalia haec nostra praeter labuntur, quae quidem quum subtilissimis rationibus
                 partim e mathematica scientia partim e physica, partim etiam ex ea, quae est de
                 natura animorum, petitis confi<pb n="59"/>ciantur, hoc orationis genere nullo modo adumbrari
-                posse intelligitis. Et tamen audio, <persName>Barberium</persName>, qui Neutoniana de coloribus plane
+                posse intelligitis. Et tamen audio,<persName>Barberium</persName>, qui Neutoniana de coloribus plane
                 mirifica oppugnet, vicissim ab aliis oppugnari. Videat sane vir doctus, ne
                 praeoccupata, fatigataque longis contemplationibus mente, dum vera tenere se putat,
                 inania, ut fit, consectetur.</p>
-            <p>V.</p>
-            <p>
-          <persName>Iacobus</persName> quoque <persName>Dionysius</persName> binis libellis bibliothecam nostram locupletavit, quorum
-                altero latinae nonullae epistolae continentur, qua ipse, <persName>Iosephus Spergesius</persName>, et
-                <persName>Ioannes Baptisa Vercius</persName> de nummis veronensibus, qui praesertim sub Ezelino conflati
+        <p>V.</p>
+        <p>
+          <persName>Iacobus</persName>quoque<persName>Dionysius</persName>binis libellis bibliothecam nostram locupletavit, quorum
+                altero latinae nonullae epistolae continentur, qua ipse,<persName>Iosephus Spergesius</persName>, et<persName>Ioannes Baptisa Vercius</persName>de nummis veronensibus, qui praesertim sub Ezelino conflati
                 sint, mutuo benevolentiae testimonio, nec vulgari doctrinae copia inter se
                 scripserunt. Alter patria lingua exaratus accuratissimam habet de Arcadio sancto
-                disputationem, qui idem <placeName>Veronae</placeName> et mortem Christi caussa oppetiisse, et natus quoque
+                disputationem, qui idem<placeName>Veronae</placeName>et mortem Christi caussa oppetiisse, et natus quoque
                 esse non ita multis argumentis, multo tamen acumine demonstratur. Praetereo poematia
-                nescio quae iuvenilia, graeca et latina, <persName>Augustini Casatii</persName> mediolanensis, et quaedam
+                nescio quae iuvenilia, graeca et latina,<persName>Augustini Casatii</persName>mediolanensis, et quaedam
                 ad suae gentis originem, atque avitarum aliquot apud turcas possessionum ius
-                pertinentia, quae ipsius verbis <persName>Baptista Todeschius</persName> virlimatissimus nobis
+                pertinentia, quae ipsius verbis<persName>Baptista Todeschius</persName>virlimatissimus nobis
                 reddidit.</p>
-            <p>VI.</p>
-                    <p>Illud quidem sciatis velim, <persName>Franciscum</persName> <pb n="60"/>Parisium, qui <persName>Scipioni Burghesio</persName> est ab
+        <p>VI.</p>
+        <p>Illud quidem sciatis velim,<persName>Franciscum</persName>
+          <pb n="60"/>Parisium, qui<persName>Scipioni Burghesio</persName>est ab
                 epistolis, tandem aliquando quem de optimo scriba confecerat librum, eum tribus
                 voluminibus digestum protulisse. Quo ego libro nihil arbitror in suo genere fieri
                 potuisse perfecetius. Itaque et ipsi sum pridem per litteras gratulatus, et vobis,
                 quod eum in vestrum numerum me suasore allegeritis, nunc cum maxime gratulor. Quod
-                si me successu invitati paullo iam fidentius auditis, <persName>Emmanuelem</persName> quoque fabrum,
-                mexicanum hominem, sine cunctatione allegetis. Is enim quum <persName>Didaci Abadii</persName> collegae
+                si me successu invitati paullo iam fidentius auditis,<persName>Emmanuelem</persName>quoque fabrum,
+                mexicanum hominem, sine cunctatione allegetis. Is enim quum<persName>Didaci Abadii</persName>collegae
                 nostri, mexicani item hominis, qui superiore anno est bononiae mortuus, vitam latino
-                non ineleganti commentariolo complexus esset, idque cum heroicis eiusdem <persName>Abadii</persName> de
+                non ineleganti commentariolo complexus esset, idque cum heroicis eiusdem<persName>Abadii</persName>de
                 Deo, Deoque homine carminibus divulgasset, bina libri exempla ad me proxime
                 preferenda curavit, quorum unum mihi haberem, alterum vobis suo nomine traderem.
                 Huic ego statim sic rescribendum (nam et ipse humanissime scripserat)
                 existimavi....</p>
-            <p>VII.</p>
-            <p>
-          <persName>Dominicus Todeschinius</persName>, ad me scripsit <persName>Georgium Terpinium</persName>, qui <placeName>Friburgi</placeName> ius naturale
-                profitetur, et <persName>Antonium Musnigium</persName> publicae valetudini tuendae apud foroiulienses
+        <p>VII.</p>
+        <p>
+          <persName>Dominicus Todeschinius</persName>, ad me scripsit<persName>Georgium Terpinium</persName>, qui<placeName>Friburgi</placeName>ius naturale
+                profitetur, et<persName>Antonium Musnigium</persName>publicae valetudini tuendae apud foroiulienses
                 praefectum,ac medicorum, qui gradiscae, et goritiae sunt, magistrum, in hanc
-                societatem nomen dare vehementer velle, si per <pb n="61"/>vos liceat. At de horum doctrina
+                societatem nomen dare vehementer velle, si per<pb n="61"/>vos liceat. At de horum doctrina
                 comperti nihil habemus, doctos quidem esse existimare facile possumus. Iudicium
-                igitur vestrume esto, vestrum arbitrium. Ego tamen <persName>Todeschinio</persName> suaseram, ut aliquid
+                igitur vestrume esto, vestrum arbitrium. Ego tamen<persName>Todeschinio</persName>suaseram, ut aliquid
                 ab eis speciminis loco postularet. An persuaserim, nescio.</p>
-            <p>VIII.</p>
-            <p>Hactenus scipseram, quum collega noster Placonides orationem mihi dedit patria lingua
-                exaratam, qua <persName>Laurentius Caleppius</persName>, qui <persName>Iosepho Garampio</persName> pontificio apud Augustum
-                legato est ab latere, <persName>Mariam Theresiam</persName> caesarum filiam, uxorem, matrem, ingenti
-                orbis terrarum luctu nuper ereptam nostrae gentis nomine <placeName>Viennae Vindelicorum</placeName>
-                laudavit. Quae tota oratio hoc habet praecipuum argumentum, ut ostendat, reginam
+        <p>VIII.</p>
+        <p>Hactenus scipseram, quum collega noster Placonides orationem mihi dedit patria lingua
+                exaratam, qua<persName>Laurentius Caleppius</persName>, qui<persName>Iosepho Garampio</persName>pontificio apud Augustum
+                legato est ab latere,<persName>Mariam Theresiam</persName>caesarum filiam, uxorem, matrem, ingenti
+                orbis terrarum luctu nuper ereptam nostrae gentis nomine<placeName>Viennae Vindelicorum</placeName>laudavit. Quae tota oratio hoc habet praecipuum argumentum, ut ostendat, reginam
                 nostram, vel potius matrem (huius enim nominis suavitate maxme delectamur) cum
                 caeteris virtutibus, tum in primis vitae innocentia, et consiliorum magnitudine
                 hominum iuvandorum studio praestitisse. Nihil his laudibus nec magnificentius, nec
                 verius. Ipsum porro stili genus id esse reor, quod tempori, ac materiae, et
                 gravitate dictorum, et dictionis nobilitate, ac beata quadam copia praeclare
-                respondeat. Magni ingenii profecto suit, sodales, <persName>M. Theresiae</persName> merita oratione
-                exaequare. Quamobrem vos rogo ipsius etiam Placonidis verbis, ut <persName>Laurentium
-                Caleppium</persName> vestrae approbationis testimonio exornetis.</p>
-            <pb n="62"/>
+                respondeat. Magni ingenii profecto suit, sodales,<persName>M. Theresiae</persName>merita oratione
+                exaequare. Quamobrem vos rogo ipsius etiam Placonidis verbis, ut<persName>Laurentium
+                Caleppium</persName>vestrae approbationis testimonio exornetis.</p>
+        <pb n="62"/>
         <p>IX.</p>
-            <p>Iam vero audite, si libet, <persName>Montii</persName> nostri haud antiquum poematium, quod solitudinem
-                inscripsit, ubi multa ex rerum naturalium scientia, quae <persName>Iacquerius</persName> in conventu
+        <p>Iam vero audite, si libet,<persName>Montii</persName>nostri haud antiquum poematium, quod solitudinem
+                inscripsit, ubi multa ex rerum naturalium scientia, quae<persName>Iacquerius</persName>in conventu
                 arcadico longa oratione persequutus fuerat, scitissime perstrinxit. Quod utinam
                 germanico quodam gallicove colore totam poesim non infuscasset; aut certe cum
                 etruscae elegantiae studiosior fuisset (sunt enim quidam loquendi modi, qui
@@ -1050,22 +1022,22 @@
                 quasi tornasset! iacit tamen multos igniculos ingenii, et felicissima interdum
                 mentis concitatione provehitur. Dum lego, quaeso, diligenter attendite.</p>
       </div>
-                <div>
-            <pb n="63"/>
+      <div>
+        <pb n="63"/>
         <head>X</head>
-            <head>Anno <date>1782</date>, 9 calendas iulias, <persName>Biagiato</persName> praeside, mentore <persName>Flaviano</persName>, censoribus.</head>
-            <p>I.</p>
-            <p>Praeclarum est illud, sodales, <persName>Marcii Tullii</persName> dictum loquaci stultitiae praestare
+        <head>Anno<date>1782</date>, 9 calendas iulias,<persName>Biagiato</persName>praeside, mentore<persName>Flaviano</persName>, censoribus.</head>
+        <p>I.</p>
+        <p>Praeclarum est illud, sodales,<persName>Marcii Tullii</persName>dictum loquaci stultitiae praestare
                 indisertam prudentiam. Id ego sequutus, constitui hodierna die inania illa otiosarum
                 aurium blandimenta, quae in principiis dicendi assumi solent, omnino repudiare,
                 quaeque interea, dum intercapedo huc conveniendi fuit, in sodalitate nostra acta
                 sunt, ea ita ut acta sunt, sine fuco, ornatuque verborum apud vos narrando
                 percensere.</p>
-            <p>II.</p>
-            <p>Atque ut hinc statim incipiam, <persName>Carolus Scaevarlius</persName> germanus priorem partem ad nos
+        <p>II.</p>
+        <p>Atque ut hinc statim incipiam,<persName>Carolus Scaevarlius</persName>germanus priorem partem ad nos
                 misit eorum commentatiorum, ex quibus ipse oeniponti theologiam tradit, quae
                 pertinet ad controversias. Sic autem hi sunt tributi, ut errores primum refellant
-                eorum, qui negant esse Deum, tum eorum, qui esse <pb n="64"/>quidem concedunt, sed nec
+                eorum, qui negant esse Deum, tum eorum, qui esse<pb n="64"/>quidem concedunt, sed nec
                 rebus humanis moderari, nec quidquam agere affermant quieto beatoque aevo fruentem
                 deinde illorum, qui naturae omnia ductu, et quali imperio fieri, ab eaque demum ius,
                 aequumque fluxisse volunt; denique eorum quibus, persuasum est, nondum coelo
@@ -1074,56 +1046,52 @@
                 minimi: ordo perspicuus, res bene distinctae, beneque explanatae, satis doctrinae,
                 argumenta firma, et adstricta, brevitas opportuna; latinitas quidem quae esse
                 theologorum solet. Verus hactenus.</p>
-            <p>III.</p>
-            <p>Ab <persName>Anna Paltrineria</persName> carmen accepimus in nuptias <persName>Aloysii Bertii</persName>, qui tum <placeName>Mantuae</placeName>
-                praeturam gerebat, et <persName>Mariae Molinariae</persName> viennensis feminae. Quae quidem nuptiae quum
-                auspicem primo habuissent <persName>M. Theresiam</persName>, eaque postea esset extincta, et ipsi filius
+        <p>III.</p>
+        <p>Ab<persName>Anna Paltrineria</persName>carmen accepimus in nuptias<persName>Aloysii Bertii</persName>, qui tum<placeName>Mantuae</placeName>praeturam gerebat, et<persName>Mariae Molinariae</persName>viennensis feminae. Quae quidem nuptiae quum
+                auspicem primo habuissent<persName>M. Theresiam</persName>, eaque postea esset extincta, et ipsi filius
                 successisset, uberem materiam poetriae praebuerunt, quaeque gratam imaginum
                 reciperet varietatem. Itaque versus insunt cum pleni, tum grandes, color eiusmodi,
                 qui ab eo, quo Frugonii sunt lita poemata, non procul abhorreat. Intelligas mulierem
                 liberius paullo, quam soleat, ingenio velificatam suo: quacum tamen altera mulier
-                acriter videtur de <pb n="65"/>huius laudis principatu contendere. Ea est <persName>Paulina Suardia
-                Grismuda Bergomas</persName>, quae <persName>Mariam Carolinam</persName> sardorum regis filiam, quum haec <persName>Antonio
-                Saxoniae</persName> principi nuptura in <placeName>Germaniam</placeName> iret, celebravit, idque carmen, sane
+                acriter videtur de<pb n="65"/>huius laudis principatu contendere. Ea est<persName>Paulina Suardia
+                Grismuda Bergomas</persName>, quae<persName>Mariam Carolinam</persName>sardorum regis filiam, quum haec<persName>Antonio
+                Saxoniae</persName>principi nuptura in<placeName>Germaniam</placeName>iret, celebravit, idque carmen, sane
                 perelegans, ad nos perserendum curavit, ex quo sodalitates censores de eius
                 facultate iudicarent. Qui quidem cooptationis honorem ipsi adiudicarunt. Paulina
                 vero humanissimis litteris ad me datis gratias universae sodalitati egit
                 maximas.</p>
-            <p>IV.</p>
-            <p>Et quoniam de Corinnis, et Cynthiis diximus, Alcaeos etiam, et Anacreontes memoremus.
-                <persName>Franciscus Dulcius</persName> viscovichius illyricus, Cunichii, et <persName>Zamagnae</persName> Homeri interpretum,
+        <p>IV.</p>
+        <p>Et quoniam de Corinnis, et Cynthiis diximus, Alcaeos etiam, et Anacreontes memoremus.<persName>Franciscus Dulcius</persName>viscovichius illyricus, Cunichii, et<persName>Zamagnae</persName>Homeri interpretum,
                 ut puto, civis, cuius praecipuum studium est in bellis, regibusque latino lyrico
-                versu exsequendis, quum esset <placeName>Viennae Vindelicorum</placeName>, cognovissetque ab socio nostro
-                <persName>Alcesimarcho</persName>, praestantissimo iuvene, quaedam ex eius lyricis mirifice mihi esse
-                probata, ultro ad me scripsit, carmenque adiecit ad <persName>Stanislaum</persName> Augustum Sarmatorum
+                versu exsequendis, quum esset<placeName>Viennae Vindelicorum</placeName>, cognovissetque ab socio nostro<persName>Alcesimarcho</persName>, praestantissimo iuvene, quaedam ex eius lyricis mirifice mihi esse
+                probata, ultro ad me scripsit, carmenque adiecit ad<persName>Stanislaum</persName>Augustum Sarmatorum
                 regem. Quo ego perlecto, vim spiritumque admiratus, qualem non temere quivis
                 afferat, ita respondi, ut me sibi vestram gratiam, vestrique testimonii ornamenta
                 conciliaturum pollicerer. Quod magno eius merito quum receperim, vestrum est,
-                sodales, curare, ne frustra receperim. Sed <placeName>Italia</placeName> redeamus.</p>
-            <pb n="66"/>
+                sodales, curare, ne frustra receperim. Sed<placeName>Italia</placeName>redeamus.</p>
+        <pb n="66"/>
         <p>V.</p>
-            <p>
-          <persName>Antonium Melonium Ferrariensem</persName> ecquis vestrum ignorat? At ille se ignotum vobis
+        <p>
+          <persName>Antonium Melonium Ferrariensem</persName>ecquis vestrum ignorat? At ille se ignotum vobis
                 putabat, quum epigramma quoddam nuptiale, sane huius, quo vates inflammantur,
                 furoris plenum necesse habuit mittere quo in vestrum numerum adsciscerertur. Quasi
                 vero non in medio essent complura eius tum soluta, tum vincta numeris scripta, et
                 maxime quae in sua illa italorum auctorum catalecta ipsa coniecit. Nolite igitur
                 dubitare, quin aut ego confestim huic vestro nomine satis fecerim, aut hic vestram
                 in se voluntatem, eo quo par erat, officio sit persequutus.</p>
-            <p>VI.</p>
-            <p>
-          <persName>Carolus</persName> quoque <persName>Rosminius</persName> civis noster, lectissimus adolescens, nobis est usus
+        <p>VI.</p>
+        <p>
+          <persName>Carolus</persName>quoque<persName>Rosminius</persName>civis noster, lectissimus adolescens, nobis est usus
                 morigeris, nec immerito. Hac enim tam molli, acque inerti iuventute ipse aut solus,
                 aut paene solus litteris operam dat, nec committi, ut aliis, quam quibus in Helicone
                 monte domus est, puellis omne tempus florentissimae aetatis addixisse videatur. Qui
                 si tamen quum versiculos facit, approbante quidem mirum in modum natura, saepe ad
                 amores delabitur, haud eo id facit, quo his deliciis plus aequo sudeat, sed quia
-                veterum poetarum, in primis <persName>Horatii</persName>, et <persName>Petrarchae</persName>, quos in sinu fert, suavitatem
-                ipsa argumenti similitudine melius se imitari poses confidit. Ac vellem equidem <pb n="67"/>
-                ceteri adolescentes hoc paeto amarent. Crebriores profecto coetus, frequentioresque
+                veterum poetarum, in primis<persName>Horatii</persName>, et<persName>Petrarchae</persName>, quos in sinu fert, suavitatem
+                ipsa argumenti similitudine melius se imitari poses confidit. Ac vellem equidem<pb n="67"/>ceteri adolescentes hoc paeto amarent. Crebriores profecto coetus, frequentioresque
                 haberemus.</p>
-            <p>VII.</p>
-            <p>Sed nolo orationem, tanquam ad scopulum, sic ad querelam detrudere peracerbam; nolo
+        <p>VII.</p>
+        <p>Sed nolo orationem, tanquam ad scopulum, sic ad querelam detrudere peracerbam; nolo
                 externorum hominum in nostram societatem flagrantissimum studium commemorare,
                 domesticorum insectari fastidium, pigritiam, animique dissolutionem. Valeant isti,
                 qui nobilitatem in otio ponunt; inter mulierum cathedras viros musarum consuetudini
@@ -1132,29 +1100,29 @@
                 sodales, contenti simus nostra virtute, quid iniqui in nos iaciant, ne laboremus: et
                 si quidem viri sumus, partam a maioribus gloriam vel amplificemus ipsi, vel certe
                 omni ratione tueamur.</p>
-            <p>VIII.</p>
-            <p>Iam vero quis unquam ne per somnium quidem cogitasset, huius theatri, cuius etsi
+        <p>VIII.</p>
+        <p>Iam vero quis unquam ne per somnium quidem cogitasset, huius theatri, cuius etsi
                 fortasse serius quam cultissimae civitatis ratio posceret, aliquando tamen
                 fundamenta poni vidimus, aedificandi consilium, novum societati nostrae sodalem
-                adiuncturum fuisse? Nam quum <persName>Iosephus</persName>, cui a via nomen est, patricius bononiensis,
-                summo genere, eximiaque <pb n="68"/>dignitate vir, qui tridenti commoratur, pro amicitia,
+                adiuncturum fuisse? Nam quum<persName>Iosephus</persName>, cui a via nomen est, patricius bononiensis,
+                summo genere, eximiaque<pb n="68"/>dignitate vir, qui tridenti commoratur, pro amicitia,
                 quae sibi cum aliquot nostris hominibus est, theatri exemplum ea caveae forma, quae
                 ese ad spectandum aptissima existimatur, sua manu descriptum miserit, eiusque
                 iudicii rationes non satis ille quidem dilucide, sed tamen ita exposuerit, ut
                 appareat mathematicarum rerum scentiam sibi nequaquam deesse; cum eius amicorum
                 precibus, atque adeo ipsius cupiditati obsequendi, tum vero grati animi declarandi
                 gratia, simul quod res ipsa aliqua laude digna visa est, haud aegre illum nostro
-                collegio coonestavimus, <persName>Clemente Baronio</persName> praefertim non repugnante: cuius
+                collegio coonestavimus,<persName>Clemente Baronio</persName>praefertim non repugnante: cuius
                 doctissimas in hanc sententiam ad me litteras eo diligentius audiatis velim, quod de
                 optima theatri constructione verissimam habent, apertissimamque disputationem, et
                 quae una multorum schemata, commentationesque facile vincat. Ac Viaeius quidem
                 magnopere mihi mandavit, ut vobis demonstrarem, se quoad vita suppetet, beneficii
                 vestri memoriam nunquam esse depositurum.</p>
-            <p>IX.</p>
-            <p>Reliquum est, sodales, ut sciatis duos adolescentes, qui eundem hunc honorem
+        <p>IX.</p>
+        <p>Reliquum est, sodales, ut sciatis duos adolescentes, qui eundem hunc honorem
                 petebant, a me repulsam tulisse: quorum alter, qui ne nomen quidem suum edere
                 auderet, nescio quid nugarum per internuncium obtruserat, alter, et is quidem haud
-                paulo melior <pb n="69"/>saniorque, nomine Iacobus Chittalius, domo Bonfadino, quod est
+                paulo melior<pb n="69"/>saniorque, nomine Iacobus Chittalius, domo Bonfadino, quod est
                 oppidum in carnis, libellum de iure sacerdotali miserat latine scriptum, quem
                 reiiciendum censui ob eam rem, quod scholastici cuiusdam commentarioli speciem
                 haberet; nos autem sodalitiis legibus vetamur, quae Lyceum, et iuvenilem disciplinam
@@ -1165,44 +1133,45 @@
                 haudquaquam desideratutum. Haec habebam sodales, quae dicerem: nihil iam vos
                 moror.</p>
       </div>
-                <div>
-            <pb n="70"/>
+      <div>
+        <pb n="70"/>
         <head>XI</head>
-            <head>Anno <date>1782</date>, 6 calendas ianurias, Erotico praeside, mentore Flaviano, censoribus.</head>
-            <p>I.</p>
-            <p>Nihil quicquam nec domesticae, neque externae rei, quod auditu magnopere dignum sit,
+        <head>Anno<date>1782</date>, 6 calendas ianurias, Erotico praeside, mentore Flaviano, censoribus.</head>
+        <p>I.</p>
+        <p>Nihil quicquam nec domesticae, neque externae rei, quod auditu magnopere dignum sit,
                 hodie ad vos affero, sodales ornatissimi; suit enim his mensibus incredibilis
                 quaedam raritas tum novorum librorum, qui sodalium liberalitate commeare ad nos
                 solent, tum eorum hominum, qui societatem nostra ad amplificandam ingenii famam sibi
-                expetunt. Quid enim vobis dicam unum <persName>Iosephum Christorum</persName>, venetum hominem, fortasse
+                expetunt. Quid enim vobis dicam unum<persName>Iosephum Christorum</persName>, venetum hominem, fortasse
                 doctum, sed de cuius ingenio nihil unquam ne rumore quidem nuntio accepimus, misisse
                 ad nos, qui eius verbis id honoris peteret? Cui quidem quum respondissem, neminem,
                 cuius non apud nos doctrinam vel fama celebrasset, vel scripta ostendissent, a nobis
                 solere cooptati, nihil mihi postea ab illo aut renuntiatum, aut allatum est.</p>
-            <pb n="71"/>
+        <pb n="71"/>
         <p>II.</p>
-            <p>Iam vero de libris par fortuna, eademque ratio. Nam <persName>Fuscus Montanus</persName> latinum opusculum
+        <p>Iam vero de libris par fortuna, eademque ratio. Nam<persName>Fuscus Montanus</persName>latinum opusculum
                 misit rixarum, atque adeo inficentiarum plenum in Scaevinum collegam suum; quod
                 neque argumenti utilitate, quum in quibusdam theologorum salebris potius, quam
                 quaestionibus versetur, neque perspicuitate sermonis, quum genere dicendi
                 impeditissimo quasi obvolvatur, neque dictorum urbanitate, quum adversarium
                 petulanter, et tamen frigide insectetur, cuiquam qui bonas horas bene collocare
                 velit, legendum puto. Alteram oratione similem, iudicio dissimilem commentationem
-                accepimus ab <persName>Iacobo Chittalio</persName>, qua hic demonstrat, sacra quae quotidie a
+                accepimus ab<persName>Iacobo Chittalio</persName>, qua hic demonstrat, sacra quae quotidie a
                 sacerdotibus leguntur, canunturque, cum vatum hebraeroum, tum apostolorum patrumque
                 scripta meliorem et delectum et ordinem desiderare. Hac ille tam parva mercede
                 societatis sibi nostrae ornamenta comparavit.</p>
-            <p>III.</p>
-            <p>Numquid nunc aliud expectatis, sodales? Nostrarum quidem rerum, quod addam, nihil
+        <p>III.</p>
+        <p>Numquid nunc aliud expectatis, sodales? Nostrarum quidem rerum, quod addam, nihil
                 est; sed manete quaeso paulisper, dum Eroticus noster<note place="foot" xml:id="ftn10" n="10">
-            <p rend="footnote text"> <persName>Carolus Rosminius</persName>, qui plura
-                        deinde edidit, sed in primis <persName>Publii Ovidii</persName> vita absolutissime
+            <p rend="footnote text">
+              <persName>Carolus Rosminius</persName>, qui plura
+                        deinde edidit, sed in primis<persName>Publii Ovidii</persName>vita absolutissime
                         scriptam.</p>
-          </note> amores quosdam suos dulcissi<pb n="72"/>mis versibus in sinu vestro
+          </note>amores quosdam suos dulcissi<pb n="72"/>mis versibus in sinu vestro
                 deponit; quorum mollitie capti ne plus aequo voluptate difflutatis, ego quoque
                 nonnullos meos subiiciam sane asperos, et amaros, non amores dico sed versus. Hoc
                 agite ergo, amant alterna Camoenae.</p>
-                </div>
-        </body>
-    </text>
+      </div>
+    </body>
+  </text>
 </TEI>

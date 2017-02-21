@@ -1,191 +1,181 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="madlener-j-specimen">
-            <titleStmt>
-                <title>Specimen inaugurale medicum de usu et abusu potus caffè, versio electronica</title>
-                <author key="madlener01">
-                    <name xml:lang="dt">Madlener, Johann Michael</name>
-                    <date precision="low">fl. 1772</date>
-                    </author>
-                <respStmt>
-                    <resp>Hanc versionem electronicam curavit</resp>
-                    <name>Clementina Marsico</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>transcribed from the printed text</edition>
-            </editionStmt>
-            <extent>23 paginae</extent>
-            
-            <publicationStmt>
-                <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
+  <teiHeader>
+    <fileDesc xml:id="madlener-j-specimen">
+      <titleStmt>
+        <title>Specimen inaugurale medicum de usu et abusu potus caffè, versio electronica</title>
+        <author key="madlener01">
+          <name xml:lang="dt">Madlener, Johann Michael</name>
+          <date precision="low">fl. 1772</date>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Clementina Marsico</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>23 paginae</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
         </p>
-            </publicationStmt>
-            
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <title>Specimen inaugurale medicum de usu et abusu potus caffè</title>
-                        <imprint>
-                            <pubPlace>Innsbruck</pubPlace>
-                            <date when="1772">1772</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-                <bibl>TLMF, FB 3415</bibl>
-            </sourceDesc>
-        </fileDesc>
-        
-        <profileDesc>
-            <creation>
-                <date when="1772">1772</date>
-            </creation>
-            <textClass>
-                <keywords scheme="time">
-                    <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens (1773)</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>Medizin</term>
-                    <term>Traktat</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        
-        <revisionDesc>
-            <change>corrected teiHeader and body<date>2015-09-29</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>Specimen inaugurale medicum de usu et abusu potus caffè</title>
+            <imprint>
+              <pubPlace>Innsbruck</pubPlace>
+              <date when="1772">1772</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>TLMF, FB 3415</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1772">1772</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens (1773)</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Medizin</term>
+          <term>Traktat</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>corrected teiHeader and body<date>2015-09-29</date>
         <name>Johanna Luggin</name>
       </change>
-        </revisionDesc>
-        
-    </teiHeader>
-    
-    <text>
-        <body>
-            <div>
-            <head>Specimen inaugurale medicum de usu et abusu potus caffe, quod authoritate, et
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Specimen inaugurale medicum de usu et abusu potus caffe, quod authoritate, et
                 consensu illustrium, magnificorum, spectabilium, et clarissimorum virorum plurimum
                 reverendi, illustris, et magnifici domini universitatis rectoris, illustris
                 magnifici, et clarissimi inclitae facultatis medicae domini directoris, magnifici,
                 spectabilis, et clarissimi inclitae facultatis medicae domini decani nec non
                 magnificorum, et clarissimorum D.D. professorum publice disquisitioni submittit
-                J<persName>oannes Michael Madlener</persName> Ranckwillanus raetho-austriacus, pro suprema medici
-                doctoratus laurea candidatus. Disputabitur in domo Universitatis die <gap/> mensis
-                augusti anno <date>1772</date>.</head>
+                J<persName>oannes Michael Madlener</persName>Ranckwillanus raetho-austriacus, pro suprema medici
+                doctoratus laurea candidatus. Disputabitur in domo Universitatis die<gap/>mensis
+                augusti anno<date>1772</date>.</head>
       </div>
-            <div>
-            <pb/>
-            <pb/>
+      <div>
+        <pb/>
+        <pb/>
         <p>Illustribus, magnificis ac amplissimis viris ordinandae, docendaequae in
-                provincia Tyrolensi medicinae augusto favore constitutis. D.D. <persName>Nicolao Sterzinger</persName> a
+                provincia Tyrolensi medicinae augusto favore constitutis. D.D.<persName>Nicolao Sterzinger</persName>a
                 Salzrein, S.C.R.A..M. consiliario, et inclitae facultatis medicae directori et
                 caetera et caetera.</p>
-            <p>D.D. <persName>Francisco Xav. Casparo Eglhoff de Stadthoff</persName>, anatomes professori ord. publico,
+        <p>D.D.<persName>Francisco Xav. Casparo Eglhoff de Stadthoff</persName>, anatomes professori ord. publico,
                 et inclitae facultatis medicae h.t. decano et caetera et caetera.</p>
-            <p>D.D. <persName>Carolo Antonio Gerstnero</persName>, pathologiae ac praexeos medicae professori ordin.
+        <p>D.D.<persName>Carolo Antonio Gerstnero</persName>, pathologiae ac praexeos medicae professori ordin.
                 publico, et inclitae facultatis medicae seniori et caetera et caetera.</p>
-            <p>D.D. <persName>Joanni Michaeli de Menghin</persName>, institutionum medicarum, et materiae medicae
+        <p>D.D.<persName>Joanni Michaeli de Menghin</persName>, institutionum medicarum, et materiae medicae
                 professori ordin. publico, inclitae facultatis philosophicae directori et caetera et
                 caetera.</p>
-            <p>Praeceptoribus ac fautoribus suis in aeternae devotionis ac gratitudinis pignus leves
+        <p>Praeceptoribus ac fautoribus suis in aeternae devotionis ac gratitudinis pignus leves
                 hosce conatus, seque ipsum d.d.</p>
-            <p>
+        <p>
           <persName>Joannes Michael</persName>.</p>
       </div>
-            <div>
-            <pb n="1"/>
+      <div>
+        <pb n="1"/>
         <p>I.</p>
-            <p>Coffea coffe. Juss. A.G. 1713. Cal. Perianthio quadridentato, minimo supero.</p>
-            <p>Cor. monopetala infundibuliformi, tubo cylindraceo tenui, calyce multoties longiore,
+        <p>Coffea coffe. Juss. A.G. 1713. Cal. Perianthio quadridentato, minimo supero.</p>
+        <p>Cor. monopetala infundibuliformi, tubo cylindraceo tenui, calyce multoties longiore,
                 limbo plano quinque partito, tubo longiore: laciniis lanceolatis: lateribus
-                revolutis et caetera ex Cl. Pendand. O. Monogyn. <persName>Caroli V Linne</persName>.<note place="foot" xml:id="ftn1" n="1">
-            <p rend="footnote text"> Gener. plant. n.
+                revolutis et caetera ex Cl. Pendand. O. Monogyn.<persName>Caroli V Linne</persName>.<note place="foot" xml:id="ftn1" n="1">
+            <p rend="footnote text">Gener. plant. n.
                 230.</p>
           </note>
         </p>
-            <p>Baccarum coffe earumque praeparatorum hodie non minus notus quam frequens usus est.
-                Inventi gloria debetur arabibus teste <persName>Krugero</persName>.<note place="foot" xml:id="ftn2" n="2">
-            <p rend="footnote text"> Liber de diaeta p. 311.</p>
+        <p>Baccarum coffe earumque praeparatorum hodie non minus notus quam frequens usus est.
+                Inventi gloria debetur arabibus teste<persName>Krugero</persName>.<note place="foot" xml:id="ftn2" n="2">
+            <p rend="footnote text">Liber de diaeta p. 311.</p>
           </note>
         </p>
-            <pb n="2"/>
-        <p>Praetor quidam Amstelodamensis nomine Witsen huius arboris fructus primus in
-                <placeName>Indiam</placeName> primo, dein in <placeName>Europam</placeName> transtulit.<note place="foot" xml:id="ftn3" n="3">
-            <p rend="footnote text"> Vid. <foreign xml:lang="dt">Erhartus um Anhang der zweyten Abtheilung zum
+        <pb n="2"/>
+        <p>Praetor quidam Amstelodamensis nomine Witsen huius arboris fructus primus in<placeName>Indiam</placeName>primo, dein in<placeName>Europam</placeName>transtulit.<note place="foot" xml:id="ftn3" n="3">
+            <p rend="footnote text">Vid.<foreign xml:lang="dt">Erhartus um Anhang der zweyten Abtheilung zum
                         Lonizerischen Kraeuterbuch</foreign>, pagina 104.</p>
           </note>
         </p>
-            <p>Tres autem sunt baccarum caffè species, orientalis una appellatur, flavescente colore
+        <p>Tres autem sunt baccarum caffè species, orientalis una appellatur, flavescente colore
                 prae caeteris donata, reliquis magnitudine cedens, ivanica altera coloris minus
                 flavescentis, singulas magnitudine superans, tertia demum surinamica est, mediocris
-                magnitudinis, coloris viridescentis; ex <placeName>America</placeName> haec ad nos adsportari solet.<note place="foot" xml:id="ftn4" n="4">
-            <p rend="footnote text"> L.c.</p>
-          </note>
-                Arabicas baccas maxime commendat Zimmermanus.<note place="foot" xml:id="ftn5" n="5">
-            <p rend="footnote text"> <foreign xml:lang="dt">Allgemeine Grundsetze der theoretisch-practischen
+                magnitudinis, coloris viridescentis; ex<placeName>America</placeName>haec ad nos adsportari solet.<note place="foot" xml:id="ftn4" n="4">
+            <p rend="footnote text">L.c.</p>
+          </note>Arabicas baccas maxime commendat Zimmermanus.<note place="foot" xml:id="ftn5" n="5">
+            <p rend="footnote text">
+              <foreign xml:lang="dt">Allgemeine Grundsetze der theoretisch-practischen
                         Chemie</foreign>, pag. 528.</p>
           </note>
         </p>
       </div>
-            <div>
-            <p>II. </p>
-            <p>Arbor haec in <placeName>America</placeName> praesertim felici crescit viginti, triginta, imo non nunquam
-                quadraginta pedum altitudine; quae vero huius generis arbores in <placeName>Europa</placeName> nostra coli
-                solent, octo ulnas vix excedunt, id, quod diversitati clymatis, et regionis <pb n="3"/>
-                adscribendum. Sponte has arbores dat inculta tellus arabica, quod nostra vix iussa
+      <div>
+        <p>II.</p>
+        <p>Arbor haec in<placeName>America</placeName>praesertim felici crescit viginti, triginta, imo non nunquam
+                quadraginta pedum altitudine; quae vero huius generis arbores in<placeName>Europa</placeName>nostra coli
+                solent, octo ulnas vix excedunt, id, quod diversitati clymatis, et regionis<pb n="3"/>adscribendum. Sponte has arbores dat inculta tellus arabica, quod nostra vix iussa
                 facit.</p>
       </div>
-            <div>
-            <p>III.</p>
-            <p>Disceptant rei botanicae scriptores, num arbor potius, an frutex vocari debeat?
-                Fruticem vocari debere putat <persName>Rajus</persName>,<note place="foot" xml:id="ftn6" n="6">
-            <p rend="footnote text"> Conferatur Cl. Zimmerman. pag. 520.</p>
-          </note> quam
+      <div>
+        <p>III.</p>
+        <p>Disceptant rei botanicae scriptores, num arbor potius, an frutex vocari debeat?
+                Fruticem vocari debere putat<persName>Rajus</persName>,<note place="foot" xml:id="ftn6" n="6">
+            <p rend="footnote text">Conferatur Cl. Zimmerman. pag. 520.</p>
+          </note>quam
                 vero sententiam refutat Cl. Jussie.<note place="foot" xml:id="ftn7" n="7">
-            <p rend="footnote text"> L.c.</p>
+            <p rend="footnote text">L.c.</p>
           </note>
         </p>
-            <p>Pingue solum amant hae arbores, et loca umbrosa, id quod maxime arabes in earum
+        <p>Pingue solum amant hae arbores, et loca umbrosa, id quod maxime arabes in earum
                 cultura observant, qui de sufficeini umbraculo illas prospecturi, populos meridiem
                 spectantes, ne siccae exarescante, serere, et aquam ad truncorum radices derivare
                 perhibentur, quam illico detrahunt sollicite, quamprimum baccas maturescere
                     animadvertunt.<note place="foot" xml:id="ftn8" n="8">
-            <p rend="footnote text">
-                        Conferatur Krügers <foreign xml:lang="dt">Diät, oder Lebensordnung</foreign>, pag. 308.</p>
+            <p rend="footnote text">Conferatur Krügers<foreign xml:lang="dt">Diät, oder Lebensordnung</foreign>, pag. 308.</p>
           </note>
         </p>
       </div>
-            <div>
-            <p>III.</p>
-            <p>Arboris huius lignum molle est, flexile, atque odorum, corticem habet album, folia
+      <div>
+        <p>III.</p>
+        <p>Arboris huius lignum molle est, flexile, atque odorum, corticem habet album, folia
                 laurinis maiora, tenuiora tamen, sa<pb n="4"/>poris non adeo grati, odoris nullius. Illud
                 mirum est, quod haec arbor quacunque anni tempestate virescat, floreat, fructusque
                 promat; unde diversis anni temporibus diversas baccas, maturas has, immaturas illas,
                 quin et flores videre est.<note place="foot" xml:id="ftn9" n="9">
-            <p rend="footnote text"> Kruger l.c.</p>
-          </note> Flores profert haec arbor
+            <p rend="footnote text">Kruger l.c.</p>
+          </note>Flores profert haec arbor
                 albos, non nunquam subrubellos forti odore nares vellicantes, iasmani florum odori
                     aemulo.<note place="foot" xml:id="ftn10" n="10">
-            <p rend="footnote text"> Erhart
+            <p rend="footnote text">Erhart
                         l.c.</p>
-          </note> Baccae autem subviridi primum colore apparent, postea
+          </note>Baccae autem subviridi primum colore apparent, postea
                 rubescunt, et demum saturato colore rubro tinguntur; magnitudine aequare videntur
                 cerasa; extus apparet membranula rubra liquorem subdulcem, et nauseosum contines,
                 nucleum circumdans<note place="foot" xml:id="ftn11" n="11">
-            <p rend="footnote text">
-                        Kruger l.c. p. 309.</p>
-          </note> nuclei descriptionem legere est apud
+            <p rend="footnote text">Kruger l.c. p. 309.</p>
+          </note>nuclei descriptionem legere est apud
                     Erhart.<note place="foot" xml:id="ftn12" n="12">
-            <p rend="footnote text"> l.c. p.
+            <p rend="footnote text">l.c. p.
                         104.</p>
           </note>
         </p>
       </div>
-            <div>
-            <p>IV.</p>
-            <p>Solemne est Arabibus ter in anno arboris huius fructus colligere verno scilicet,
+      <div>
+        <p>IV.</p>
+        <p>Solemne est Arabibus ter in anno arboris huius fructus colligere verno scilicet,
                 aestivo ac autumnali tempore teste C. Zimmermanno:<note place="foot" xml:id="ftn13" n="13">
-            <p rend="footnote text"> L.c. p. 310.</p>
-          </note> hac fere ratione:
+            <p rend="footnote text">L.c. p. 310.</p>
+          </note>hac fere ratione:
                 lintea<pb n="5"/>mina subter arbores expandunt, quibus maturas levi arboris concussu
                 decidentes baccas excipiunt, collectas radiis solaribus exponunt, ut exteriori
                 cortice exarescente sponte nuclei excidant, quod ut facilius accidat, eas molendina
@@ -193,74 +183,69 @@
                 mutuo, et cortices a baccis recedant, atque hac agitatione cortices a nucleis
                 separati furfurum instare segregentur.</p>
       </div>
-            <div>
-            <p>V.</p>
-            <p>Caffe baccas surinamicas caeteris praeferre non dubitat Cl. Fhrhart,<note place="foot" xml:id="ftn14" n="14">
-            <p rend="footnote text"> L.c. p.
+      <div>
+        <p>V.</p>
+        <p>Caffe baccas surinamicas caeteris praeferre non dubitat Cl. Fhrhart,<note place="foot" xml:id="ftn14" n="14">
+            <p rend="footnote text">L.c. p.
                     104.</p>
-          </note> non quod eminenti quadam praerogativa reliquis antecellant, sed
+          </note>non quod eminenti quadam praerogativa reliquis antecellant, sed
                 quod ob itineris brevitatem minus corrumpantur. In genere autem tenendum est, eas
                 baccas optimas esse, quae provectioris aetatis non sunt, et colore viridi praeditae
                 aquae non supernatant, quae macula immunes sunt, siquidem maculare aquae maritimae
                 salsedine baccas infestantis non levem praebent suspicionem, probandae autem vel
                 maxime sunt illae, quae tostae gratum spirant odorem.</p>
       </div>
-            <div>
-                <pb n="6"/>
+      <div>
+        <pb n="6"/>
         <p>VI.</p>
-            <p>Baccae non tostae (de tostis enim ob deperdita vi ignis principia sermo nobis non
+        <p>Baccae non tostae (de tostis enim ob deperdita vi ignis principia sermo nobis non
                 est) analysi chemicae subiectae dederunt principium quoddam aquosum, tum oleum
                 quoddam crassum, faetens, quod sequebatur oleum crassum, relicto capite mortuo, ex
                 quo sal alcalinum fixum parari potest.</p>
       </div>
-            <div>
-            <p>VII.</p>
-            <p>Nec nimis vehemens, aut nimis diuturna, neque demum nimis lenta esse debet analysis,
+      <div>
+        <p>VII.</p>
+        <p>Nec nimis vehemens, aut nimis diuturna, neque demum nimis lenta esse debet analysis,
                 priori enim methodo, quod inest optimum, vi ignis deperditur, superstite terra
                 inerte, oleo ingrato divite: posteriore autem ratione tractatae baccae multa in se
                 retinent non nisi intensiore ignis tortura elicienda. Ceterum, si hae baccae
                 consueto, apud nos more, igne aperto, torrentur, quartam ponderis partem amittunt,
                 teste Cl. Neumanno,<note place="foot" xml:id="ftn15" n="15">
-            <p rend="footnote text">
-                        In tractatu <foreign xml:lang="dt">von vielerley Getränken</foreign> pag. 182.</p>
-          </note> si vero illud ipsum
-                vaporosum exhalans durante operatione colligitur, obtinetur pars aquosa sale acido
-                <pb n="7"/>ditata, ac parum de oleo volatili.<note place="foot" xml:id="ftn16" n="16">
-            <p rend="footnote text"> Krugers Diat pag. 314.</p>
-          </note> Sal quoddam parti
+            <p rend="footnote text">In tractatu<foreign xml:lang="dt">von vielerley Getränken</foreign>pag. 182.</p>
+          </note>si vero illud ipsum
+                vaporosum exhalans durante operatione colligitur, obtinetur pars aquosa sale acido<pb n="7"/>ditata, ac parum de oleo volatili.<note place="foot" xml:id="ftn16" n="16">
+            <p rend="footnote text">Krugers Diat pag. 314.</p>
+          </note>Sal quoddam parti
                 aquosae inesse, probat nata effervescentia orta a sale alcalino immisso, nec non
                 syrupi violarum mutatio in colorem rubrum, quae certa sunt acidi praesentis in
                 quodam corpore indicia; oleum illud fugax volatile se ipsum odore prodit, cum ab hoc
                 solo aqua ex baccis destillatis odora fiat, et colore tingatur rubello. Illud ex Cl.
                     Zimmermanno<note place="foot" xml:id="ftn17" n="17">
-            <p rend="footnote text">
-                        L.c. pag. 529.</p>
-          </note> noto, inesse his baccis tostis magnam oartem
+            <p rend="footnote text">L.c. pag. 529.</p>
+          </note>noto, inesse his baccis tostis magnam oartem
                 terrestrem, nec aqua, nec spiritu vini resolubilem, tum quoque principium gummosum
                 sola aqua extrahendum, et simul resinosum spiritu vini resolubile, ac denique oleum
                 quoddam gratum odoro percipiendum. Cuiuscunque principii pondus absolutum habet Cl.
                     Kruger.<note place="foot" xml:id="ftn18" n="18">
-            <p rend="footnote text"> L.c.
+            <p rend="footnote text">L.c.
                         pag. 315.</p>
-          </note> Si forte quis ex me quaerat, num et de parte resinosa
+          </note>Si forte quis ex me quaerat, num et de parte resinosa
                 potus caffè participet, quam tamen aqua non solet extrahere, huic respondeo, pro
                 certo tenendum esse, partes gummosas et resinosas tam arcte inter se cohaerere, ut
                 solum gummi, in maiori licet copia baccis tostis praesens, abque resina vix solvi
-                queat, exemplo est aloe. Saporem <pb n="8"/>potus caffè partibus <gap reason="illegible" unit="page" quantity="1"/>
+                queat, exemplo est aloe. Saporem<pb n="8"/>potus caffè partibus<gap reason="illegible" unit="page" quantity="1"/>
         </p>
       </div>
-            <div>
-            <pb n="9"/>
+      <div>
+        <pb n="9"/>
         <p>IX.</p>
-            <p>Virtutem potus caffè ad somnum abigendum fere nullus est qui nesciat, si modo vel
+        <p>Virtutem potus caffè ad somnum abigendum fere nullus est qui nesciat, si modo vel
                 semel exoertus est.<note place="foot" xml:id="ftn19" n="19">
-            <p rend="footnote text">
-                        Confer. Wilislii op. omn. pag. 494.</p>
-          </note> In roborando ventriculo,
+            <p rend="footnote text">Confer. Wilislii op. omn. pag. 494.</p>
+          </note>In roborando ventriculo,
                 quanta sit illius efficacia, legere est apud Cel. Lemery,<note place="foot" xml:id="ftn20" n="20">
-            <p rend="footnote text"> Traité des aliments.</p>
-          </note>
-                qui illius usum cibos difficilis digestionis concoquere, humorum spissitudinem et
+            <p rend="footnote text">Traité des aliments.</p>
+          </note>qui illius usum cibos difficilis digestionis concoquere, humorum spissitudinem et
                 tenacitatem infringere, stabulantem in primis viis acrimoniam emendare, dolores
                 capitis a serosorum humorum colluvie ortos abigere, menses pellere, animum
                 exhilarare, ingenii acumen augere, ebrietatem vel impedire, vel natam mitigare,
@@ -275,253 +260,253 @@
                 assumptum hunc potum insignem operam conferre posse. Quod si id vitium non urgeat,
                 praestat ab hoc potu eo tempore abstinere.</p>
       </div>
-            <div>
-            <p>X.</p>
-            <p>Quivis sanus matutino tempore ingratum ventriculi morsum, seu verius, sensum famis
+      <div>
+        <p>X.</p>
+        <p>Quivis sanus matutino tempore ingratum ventriculi morsum, seu verius, sensum famis
                 experitur, quem ex liquoris gastrici maiori copia, et relicta a cibis acrimonia
                 derivamus, huic molestae sensationi ocurrimus, dum aut cibum, aut, quod magis in usu
                 est, potum caffeatum assumimus. Et licet quoditianum usum haud comporbet Cel.
                     Tissot,<note place="foot" xml:id="ftn21" n="21">
-            <p rend="footnote text"> <foreign xml:lang="dt">Von der
-                        Gesundheit der Gelehrten</foreign> p. 155.</p>
-          </note> cum per continuum illius usum
+            <p rend="footnote text">
+              <foreign xml:lang="dt">Von der
+                        Gesundheit der Gelehrten</foreign>p. 155.</p>
+          </note>cum per continuum illius usum
                 robur ventriculi imminuatur, et nervis caracter quidam imprimatur, quem ceu causam
                 frequentissimam multarum febrium accusat, monet tamen, moderatum illius usum mentem
                 exhilarare, mucosa ventriculi dividere, digestionem promovere, capitis oppressionem,
                 doloresque abigere, et memoriam et intellectum acuere; in ge<pb n="11"/>nere humidis, et
                 pinguibus convenit, vid. Commentaria A.R.S. Gottingensis.<note place="foot" xml:id="ftn22" n="22">
-            <p rend="footnote text"> Anno 1751. Tom. I p.
+            <p rend="footnote text">Anno 1751. Tom. I p.
                     129.</p>
-          </note> Coeterum potum caffè omisso sacharo alvi fluxum copiosum
+          </note>Coeterum potum caffè omisso sacharo alvi fluxum copiosum
                 cohibere, observat Lanzoni<note place="foot" xml:id="ftn23" n="23">
-            <p rend="footnote text"> A.N.C. vol. I observ. 44.</p>
-          </note> cephalalgiam
+            <p rend="footnote text">A.N.C. vol. I observ. 44.</p>
+          </note>cephalalgiam
                 periodicam fugare scribit Nebelius<note place="foot" xml:id="ftn24" n="24">
-            <p rend="footnote text"> Ibidem oserv. 88.</p>
-          </note> Cephalalgiam
+            <p rend="footnote text">Ibidem oserv. 88.</p>
+          </note>Cephalalgiam
                 symptomaticam ex vitio male dirigentis stomachi aliquot horas post prandium
                 torquentem in quamplurimis, ac in se ipso curavit Baglivius,<note place="foot" xml:id="ftn25" n="25">
-            <p rend="footnote text"> Apud Vogel Hist. Mat. Med. p.
+            <p rend="footnote text">Apud Vogel Hist. Mat. Med. p.
                         251.</p>
-          </note> qui itidem hunc potum in doloribus calculosis, et podagricis
+          </note>qui itidem hunc potum in doloribus calculosis, et podagricis
                     commendat,<note place="foot" xml:id="ftn26" n="26">
-            <p rend="footnote text"> Vid.
+            <p rend="footnote text">Vid.
                         Prosp. alpin. l.c.</p>
-          </note> de mulieribus Aegiptiis constat, eas
+          </note>de mulieribus Aegiptiis constat, eas
                 frequenter hoc potu mestruorum tempore uti, ut irregularem fluxum in ordinem
                     redigant.<note place="foot" xml:id="ftn27" n="27">
-            <p rend="footnote text"> Apud
+            <p rend="footnote text">Apud
                         eundem l.c.</p>
-          </note> Praeterea Cel. Lanzoni<note place="foot" xml:id="ftn28" n="28">
-            <p rend="footnote text"> A.N.C. vol. I obs. 97.</p>
-          </note>
-                decoctum caffè ex solo lacte, sive asinino, sive caprino cum euphoria dedit in
+          </note>Praeterea Cel. Lanzoni<note place="foot" xml:id="ftn28" n="28">
+            <p rend="footnote text">A.N.C. vol. I obs. 97.</p>
+          </note>decoctum caffè ex solo lacte, sive asinino, sive caprino cum euphoria dedit in
                 asthmate, leucophlegmatia, arthritide, rheumatismo, passione hysterica, et tussi
                 sicca. Denique decoctum aquosum utiliter in morbis soporosis, et apoplecticis
                 af<pb n="12"/>fectibus forma clysmatis iniicitur. Leg. Act. Paris.<note place="foot" xml:id="ftn29" n="29">
-            <p rend="footnote text"> Anno 1702, p. 29.</p>
+            <p rend="footnote text">Anno 1702, p. 29.</p>
           </note>
         </p>
       </div>
-            <div>
-            <p>XI.</p>
-            <p>Hactenus de utilitate potus caffeati locuti sumu, iam pauca quaedam de illius abusu
+      <div>
+        <p>XI.</p>
+        <p>Hactenus de utilitate potus caffeati locuti sumu, iam pauca quaedam de illius abusu
                 dicenda restant. Potus hic immoderate aut incongruo tempore assumptus exsiccat,
                 viros elumbat, et emasculat teste Sim. Pauli.<note place="foot" xml:id="ftn30" n="30">
-            <p rend="footnote text"> In comment. de abus. tabac. et herb.
+            <p rend="footnote text">In comment. de abus. tabac. et herb.
                     thee.</p>
-          </note> Impotentiam generandi inducere scribit Olearius,<note place="foot" xml:id="ftn31" n="31">
-            <p rend="footnote text"> In ttinere persico
+          </note>Impotentiam generandi inducere scribit Olearius,<note place="foot" xml:id="ftn31" n="31">
+            <p rend="footnote text">In ttinere persico
                         libro V capitulo 17.</p>
-          </note> cuius rei exemplum refert Cl. Ehrhart<note place="foot" xml:id="ftn32" n="32">
-            <p rend="footnote text"> <foreign xml:lang="dt">Im Anhang zum
+          </note>cuius rei exemplum refert Cl. Ehrhart<note place="foot" xml:id="ftn32" n="32">
+            <p rend="footnote text">
+              <foreign xml:lang="dt">Im Anhang zum
                         Lonizerischen Kraetuerbuch zweyter Abtheilung</foreign>, pag. 104.</p>
-          </note> de rege
+          </note>de rege
                 barbaro, qui ex abusu huius potus omni virilitate amissa generationi ineptus
                 reddebatur. Virgines huic potui nimium indulgentes mensium suppressionem incurrere,
-                et totas reddi cachecticas ex Iunchero notat <persName>Zimmermannus</persName>
+                et totas reddi cachecticas ex Iunchero notat<persName>Zimmermannus</persName>
           <note place="foot" xml:id="ftn33" n="33">
-            <p rend="footnote text"> L.c. p. 541.</p>
-          </note> quod
+            <p rend="footnote text">L.c. p. 541.</p>
+          </note>quod
                 etiam illust. L.B. van Swieten<note place="foot" xml:id="ftn34" n="34">
-            <p rend="footnote text"> Cemment. Sect. 1124.</p>
-          </note> ad vertit, et hinc in
+            <p rend="footnote text">Cemment. Sect. 1124.</p>
+          </note>ad vertit, et hinc in
                 eam medicorum sententiam, sanguinem his potibus diluendum, et circulo aptandum esse,
-                invehitur: monet <pb n="13"/>tamen <persName>Zimmermannus</persName>
+                invehitur: monet<pb n="13"/>tamen<persName>Zimmermannus</persName>
           <note place="foot" xml:id="ftn35" n="35">
-            <p rend="footnote text"> L.c. L.B.</p>
-          </note> haec incommoda eos potissimum
+            <p rend="footnote text">L.c. L.B.</p>
+          </note>haec incommoda eos potissimum
                 infectare, qui vitam sedentariam, et otiosam in cubilibus a frigore male munitis
                 vivunt. Caeterum siccis, macilentis, plethoricis, atrabilariis, haemorrhoidibus
                 obnoxiis, et quibus ob partem humorum oleosam, viscidumque corruptum ataxia
                 spirituum est, omnimo interdicendus est potus caffè, maxime saturatus. Confer.
                 Carol. Guiliel. Poerner.<note place="foot" xml:id="ftn36" n="36">
-            <p rend="footnote text"> Mat. Med. p. 150.</p>
-          </note> Praeterea frequentior
+            <p rend="footnote text">Mat. Med. p. 150.</p>
+          </note>Praeterea frequentior
                 illius per diem usus et hoc habet incommodi, quod sudorem moveat, hinc perspirabile
                 Sanctorianum impediat, corpus debilitet, ventriculi vires deiiciat, menstruorum
                 digestioni famulantium vim infringat, et sic infinita fere mala producat.</p>
-            <p>Sunt quoque non nulli, quibus potus caffè adeo in deliciis est, ut, cum ipsis
+        <p>Sunt quoque non nulli, quibus potus caffè adeo in deliciis est, ut, cum ipsis
                 suppellectilis domesticae penuria quotidianum illius usum deneget, ipsum adeo
                 hordeum, et avenam in usum ducere soleant, verum quam misera est horum hominum
                 conditio! Fruuntur, ut sibi imaginantur, potu caffè, sed sperato effectu, solis
                 caffè baccis proprio, nunquam potiuntur; licet autem et nos ii non simus, qui
-                hordeo, et avenae <pb n="14"/>omnem in medicina locum denegemus, cum in morbis acutis, et
+                hordeo, et avenae<pb n="14"/>omnem in medicina locum denegemus, cum in morbis acutis, et
                 inflammatoriis illorum decocta optimo sane cum effectu adhibeamus, eas tamen vires,
                 quas miseri hi homines hordei vel avenae tostae decocto inesse falso sibi
                 imaginantur, huic potui adscribere non possumus, virtus enim carminativa oleo
                 volatili baccarum caffè propria in avena vel hordeo incassum quaeritur, vid. Cl.
                 Vit. Riedlinus.<note place="foot" xml:id="ftn37" n="37">
-            <p rend="footnote text">
-                        Lineae medicae pag. 357.</p>
+            <p rend="footnote text">Lineae medicae pag. 357.</p>
           </note>
         </p>
-            <p>Longus forem, si mala singula, quae ab authoribus potui caffè imputantur, vel
+        <p>Longus forem, si mala singula, quae ab authoribus potui caffè imputantur, vel
                 recensere solum vellem; verum, uti de plerisque aliis, ita et de hoc potu nullas
                 generales regulas determinari posse censeo, et uti usum illius omnibus sine
                 discrimine commendare, stolidum esset, ita in omnibus eundem vituperare, temerarium
                 est. Ipse Redi, qui in hunc potum vehementer alias invehitur, quod ex sequentibus
                 versiculis ab illo compositis colligi potest:</p>
       </div>
-            <div>
-                <lg>
+      <div>
+        <lg>
           <l>
             <foreign xml:lang="it">Berrei prima il veleno</foreign>
           </l>
-                    <l>
+          <l>
             <foreign xml:lang="it">Che un bichier, che fosse pieno</foreign>
           </l>
-                    <l>
+          <l>
             <foreign xml:lang="it">Del amaro, e reo caffè.</foreign>
           </l>
-                    <l>
+          <l>
             <foreign xml:lang="it">Colà tra gli arabi,</foreign>
           </l>
-                    <l>
+          <l>
             <foreign xml:lang="it">E tra i Giannizzeri</foreign>
           </l>
-                    <l>
+          <l>
             <foreign xml:lang="it">Liquor si ostico</foreign>
           </l>
-                    <l>
+          <l>
             <foreign xml:lang="it">Si nero, e torbido</foreign>
           </l>
-                    <l>
+          <l>
             <foreign xml:lang="it">Gli schiavi ingollino</foreign>
           </l>
-                    <l>
+          <l>
             <foreign xml:lang="it">Giù nel tartaro</foreign>
           </l>
-                    <pb n="15"/>
+          <pb n="15"/>
           <l>
             <foreign xml:lang="it">Giù nel Erebo</foreign>
           </l>
-                    <l>
+          <l>
             <foreign xml:lang="it">L’empie Beladi l’inventarono</foreign>
           </l>
-                    <l>
+          <l>
             <foreign xml:lang="it">E Tesiphone e l0aktre furie</foreign>
           </l>
-                    <l>
+          <l>
             <foreign xml:lang="it">A Proserpina il ministrarono</foreign>
           </l>
-                    <l>
+          <l>
             <foreign xml:lang="it">E se in Asia il Musulmanno</foreign>
           </l>
-                    <l>
+          <l>
             <foreign xml:lang="it">Se la cionca a precipizio</foreign>
           </l>
-                    <l>
+          <l>
             <foreign xml:lang="it">Monstra aver poco giudizio.</foreign>
           </l>
         </lg>
       </div>
-            <div>
-            <p>tamen in epistola ad <persName>Rinaldum degli Albizi</persName>
+      <div>
+        <p>tamen in epistola ad<persName>Rinaldum degli Albizi</persName>
           <note place="foot" xml:id="ftn38" n="38">
-            <p rend="footnote text"> Tom. 4 p. 342.</p>
-          </note> monet, se ipsum saepius huic
+            <p rend="footnote text">Tom. 4 p. 342.</p>
+          </note>monet, se ipsum saepius huic
                 potui indulgere, neque a moderato illius usu cum debitis cautelis adhibito quidquam
                 metuendum esse. Et Cl. Cheyne membrum Societis reg. Londinensis, etsi plerumque
                 potus caffeatos damnet, eundem tamen cum lacte moderate sumptum in phlegmaticis,
                 frigis concedere cogitur.<note place="foot" xml:id="ftn39" n="39">
-            <p rend="footnote text"> Apud Anton. Valisnieri opere fisico mediche t. 3
+            <p rend="footnote text">Apud Anton. Valisnieri opere fisico mediche t. 3
                         saggio d’istoria medica e naturale p. 372.</p>
           </note>
         </p>
-            <p>Paucis post caffè usum abusumque complexus est Lepidus poeta medicus dum canit:</p>
+        <p>Paucis post caffè usum abusumque complexus est Lepidus poeta medicus dum canit:</p>
       </div>
-            <div>
+      <div>
         <lg>
-            <l>Hircus olim dementantes</l>
-            <l>Uvas, vitam decurtantes</l>
-            <l>Ebrius detexerat.</l>
-            <l>Usum faboe vigilantis,</l>
-            <l>Lingos dies decurtantis</l>
-            <l>Capra nunc invexerat.</l>
-            <pb n="16"/>
+          <l>Hircus olim dementantes</l>
+          <l>Uvas, vitam decurtantes</l>
+          <l>Ebrius detexerat.</l>
+          <l>Usum faboe vigilantis,</l>
+          <l>Lingos dies decurtantis</l>
+          <l>Capra nunc invexerat.</l>
+          <pb n="16"/>
           <l>Istum caffeatum potum,</l>
-            <l>Olim Turcis, Persis notum</l>
-            <l>Ex praescripto monachi,</l>
-            <l>Nunc sorbillat Iber, Gallus,</l>
-            <l>Teuto, Belga, et Italus</l>
-            <l>Pro sigillo stomachi.</l>
-            <l>Fabam olim tam damnatam,</l>
-            <l>Solis rusticis dicatam,</l>
-            <l>Nunc pitissant nobiles:</l>
-            <l>Et ad vitam prolongandam</l>
-            <l>Sanitatem conservandam</l>
-            <l>Magni bibunt principes.</l>
-            <l>Laudo mores, laudo usum,</l>
-            <l>qui caffe bibit infusum</l>
-            <l>Post maiora prandia,</l>
-            <l>Coquit cibos, negliguntur,</l>
-            <l>Quae post prandia bibuntur</l>
-            <l>Sanitatis pocula.</l>
-            <l>Si quis credat, hanc farinam</l>
-            <l>Esse magnam medicinam</l>
-            <l>Panaceae titulo,</l>
-            <l>Errat: pulvis est fabarum</l>
-            <l>Turcicarum, et tostarum</l>
-            <l>Dilutus in iusculo.</l>
-            <l>Ergo sanus moneatur</l>
-            <l>Ne mature moriatur,</l>
-            <l>Ut a caffe caveat:</l>
-            <l>Spiritus impellit nimis,</l>
-            <l>Unde vita mille rimis</l>
-            <l>Quasi vapor avolat.</l>
+          <l>Olim Turcis, Persis notum</l>
+          <l>Ex praescripto monachi,</l>
+          <l>Nunc sorbillat Iber, Gallus,</l>
+          <l>Teuto, Belga, et Italus</l>
+          <l>Pro sigillo stomachi.</l>
+          <l>Fabam olim tam damnatam,</l>
+          <l>Solis rusticis dicatam,</l>
+          <l>Nunc pitissant nobiles:</l>
+          <l>Et ad vitam prolongandam</l>
+          <l>Sanitatem conservandam</l>
+          <l>Magni bibunt principes.</l>
+          <l>Laudo mores, laudo usum,</l>
+          <l>qui caffe bibit infusum</l>
+          <l>Post maiora prandia,</l>
+          <l>Coquit cibos, negliguntur,</l>
+          <l>Quae post prandia bibuntur</l>
+          <l>Sanitatis pocula.</l>
+          <l>Si quis credat, hanc farinam</l>
+          <l>Esse magnam medicinam</l>
+          <l>Panaceae titulo,</l>
+          <l>Errat: pulvis est fabarum</l>
+          <l>Turcicarum, et tostarum</l>
+          <l>Dilutus in iusculo.</l>
+          <l>Ergo sanus moneatur</l>
+          <l>Ne mature moriatur,</l>
+          <l>Ut a caffe caveat:</l>
+          <l>Spiritus impellit nimis,</l>
+          <l>Unde vita mille rimis</l>
+          <l>Quasi vapor avolat.</l>
         </lg>
       </div>
-            <div>
-                <pb n="17"/>
+      <div>
+        <pb n="17"/>
         <head>Theses.</head>
       </div>
-            <div>
-            <p>I. Ossa pubis in naturali partu disiungi, probabile non est, licet haud inficias
+      <div>
+        <p>I. Ossa pubis in naturali partu disiungi, probabile non est, licet haud inficias
                 eamus, id rariori casu contingere posse.</p>
-            <p>II. Vomitus parturienti inter dolores partus superveniens non est signum futuri
+        <p>II. Vomitus parturienti inter dolores partus superveniens non est signum futuri
                 felicis partus.</p>
-            <p>III. In partu naturali nunquam pereunt feminae, nisi post editum exclusi foetus
+        <p>III. In partu naturali nunquam pereunt feminae, nisi post editum exclusi foetus
                 nixum.</p>
-            <p>IV. Falsa est sententia clarissimi Mauriceau, quod uteri parietes graviditatis
+        <p>IV. Falsa est sententia clarissimi Mauriceau, quod uteri parietes graviditatis
                 tempore extenuentur.</p>
-            <p>V. Usus aegagropilarum dammarum in ileo plane ridiculus est.</p>
-            <p>VI. Male frigidam notam opio tribuit Galenus.</p>
-            <p>VII. Usus stipitum dulcamarae in febribus intermittentibus, ubi respiratio extra
+        <p>V. Usus aegagropilarum dammarum in ileo plane ridiculus est.</p>
+        <p>VI. Male frigidam notam opio tribuit Galenus.</p>
+        <p>VII. Usus stipitum dulcamarae in febribus intermittentibus, ubi respiratio extra
                 paroxismum difficilis est, non proficiente Kemerte minerali, tuto et utiliter
                 tentari postest. Cel. Collin anno Med. 3 p. 103.</p>
-            <p>VIII. Extractum stramonii in melancholia et mania utile spectata indicatione remedium
+        <p>VIII. Extractum stramonii in melancholia et mania utile spectata indicatione remedium
                 est.</p>
-            <p>IX. Utilis est convulsis in morbo acucto camphora non quidem semper promovendo
-                exanthematum eruptionem, sed et virtute sua, qua vires erigit, <pb n="18"/>atque irritatis
+        <p>IX. Utilis est convulsis in morbo acucto camphora non quidem semper promovendo
+                exanthematum eruptionem, sed et virtute sua, qua vires erigit,<pb n="18"/>atque irritatis
                 nervis quietem conciliat, illust. praeses de Storck anno medico I p. 5.</p>
-            <p>X. In hydrope thoracis invererato paracentesis ambigua est, et admodum incerta. Idem
+        <p>X. In hydrope thoracis invererato paracentesis ambigua est, et admodum incerta. Idem
                 anno Med. II pag. 189.</p>
-            <p>XI. Venaesectio in paraxismo podagrico per se non convenit, nisi alia accidentia
+        <p>XI. Venaesectio in paraxismo podagrico per se non convenit, nisi alia accidentia
                 eandem forte exposcant. Illust. L.B. van Swieten Comment. § 1270.</p>
-            <p>XII. Potus caffeae cephalalgiam symptomaticam ex vitio male digerentis ventriculi
+        <p>XII. Potus caffeae cephalalgiam symptomaticam ex vitio male digerentis ventriculi
                 aliquot post pastus horas torquentem curat, teste Baglivio, p. 65.</p>
-            </div>
-        </body>
-    </text>
+      </div>
+    </body>
+  </text>
 </TEI>

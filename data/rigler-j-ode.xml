@@ -1,235 +1,228 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="rigler-j-ode">
-            <titleStmt>
-                <title>Ode in solemni distributione numismatum viris fortibus a provincia Tyrolensi decretorum, versio electronica</title>
-                <author key="rigler01">
-                    <name xml:lang="dt">Rigler, Joseph Anton</name>
-                    <date precision="high">1748–1816</date>
-                </author>
-                <respStmt>
-                    <resp>Hanc versionem electronicam curavit</resp>
-                    <name>Irina Tautschnig</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>transcribed from the printed version</edition>
-            </editionStmt>
-            
-            <extent>18 stanzas</extent>
-            
-            <publicationStmt>
-                <p>Croatica et Tyrolensia: Tyrolis Latina <date>May 2015</date>
+  <teiHeader>
+    <fileDesc xml:id="rigler-j-ode">
+      <titleStmt>
+        <title>Ode in solemni distributione numismatum viris fortibus a provincia Tyrolensi decretorum, versio electronica</title>
+        <author key="rigler01">
+          <name xml:lang="dt">Rigler, Joseph Anton</name>
+          <date precision="high">1748–1816</date>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Irina Tautschnig</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed version</edition>
+      </editionStmt>
+      <extent>18 stanzas</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>May 2015</date>
         </p>
-            </publicationStmt>
-            
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <author>Rigler, Joseph Anton</author>
-                        <title>Ode in solemni distributione numismatum viris fortibus a provincia Tyrolensi decretorum</title>
-                        <imprint>
-                            <pubPlace>Innsbruck</pubPlace>
-                            <date when="1798">1798</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-                <bibl>Tiroler Landesmuseum Ferdinandeum, Dip. 1245/2</bibl>
-            </sourceDesc>
-        </fileDesc>
-        
-        <profileDesc>
-            <creation>
-                <date when="1798">1798</date>
-            </creation>
-            <textClass>
-                <keywords scheme="time">
-                    <term>Von der Vertreibung der Jesuiten bis zur Revolution 1848</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>Dichtung</term>
-                    <term>Gelegenheitsdichtung</term>
-                    <term>Ode</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Rigler, Joseph Anton</author>
+            <title>Ode in solemni distributione numismatum viris fortibus a provincia Tyrolensi decretorum</title>
+            <imprint>
+              <pubPlace>Innsbruck</pubPlace>
+              <date when="1798">1798</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>Tiroler Landesmuseum Ferdinandeum, Dip. 1245/2</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1798">1798</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Von der Vertreibung der Jesuiten bis zur Revolution 1848</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Dichtung</term>
+          <term>Gelegenheitsdichtung</term>
+          <term>Ode</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
         <date>2015-05-19</date>
-                <name>Johanna Luggin</name> Corrected teiHeader and body
-            </change>
-            <change>
+        <name>Johanna Luggin</name>Corrected teiHeader and body</change>
+      <change>
         <date>2015-03-25</date>
         <name>Irina Tautschnig</name>Versionem XML
                 fecit.</change>
-        </revisionDesc>
-    </teiHeader>
-    
-    <text>
-        <body>
-            <div>
-                <head> ODE IN SOLEMNI DISTRIBUTIONE NUMISMATUM VIRIS FORTIBUS A PROVINCIA TYROLENSI DECRETORUM. <date>V. CAL. JUN. MDCCXCVIII.</date>
-                </head>
-            </div>
-            <div>
-                <l>Poscimus, siquid vacui sub umbra</l>
-                <l>Lusimus tecum, quod et hunc in annum</l>
-                <l>Vivat et plures: age, dic Latinum, </l>
-                <l> Barbite, carmen.</l>
-                <l> Horat. Libr. I. Odar. 27 ad Lyram.</l>
-            </div>
-            <div>
-                <div>
-                <head>I.</head>
-                <l>Euoe triumpha, non superabilis </l>
-                <l>Mater virorum, Patria fortium!</l>
-                <l> Euoe triumpha jam, Tyrolis,</l>
-                <l> Cingito tempora mille lauris!</l>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>ODE IN SOLEMNI DISTRIBUTIONE NUMISMATUM VIRIS FORTIBUS A PROVINCIA TYROLENSI DECRETORUM.<date>V. CAL. JUN. MDCCXCVIII.</date>
+        </head>
+      </div>
+      <div>
+        <l>Poscimus, siquid vacui sub umbra</l>
+        <l>Lusimus tecum, quod et hunc in annum</l>
+        <l>Vivat et plures: age, dic Latinum,</l>
+        <l>Barbite, carmen.</l>
+        <l>Horat. Libr. I. Odar. 27 ad Lyram.</l>
+      </div>
+      <div>
+        <div>
+          <head>I.</head>
+          <l>Euoe triumpha, non superabilis</l>
+          <l>Mater virorum, Patria fortium!</l>
+          <l>Euoe triumpha jam, Tyrolis,</l>
+          <l>Cingito tempora mille lauris!</l>
         </div>
-                <div>
-                <head>II.</head>
-                <l>Diceris olim Mars Alemaniae </l>
-                <l>Et Galliarum terror et optimo</l>
-                <l> Gens chara Francisco secundo,</l>
-                <l> Relligione tua Fideque</l>
+        <div>
+          <head>II.</head>
+          <l>Diceris olim Mars Alemaniae</l>
+          <l>Et Galliarum terror et optimo</l>
+          <l>Gens chara Francisco secundo,</l>
+          <l>Relligione tua Fideque</l>
         </div>
-                <pb/>
-                <div>
+        <pb/>
+        <div>
           <head>III.</head>
-                <l>Innixa, diro nescia cedere</l>
-                <l>Hosti, tuis vel firmior alpibus!</l>
-                <l> Non te minae Martisve fraudes </l>
-                <l> Innumerabilis et triumphus,</l>
+          <l>Innixa, diro nescia cedere</l>
+          <l>Hosti, tuis vel firmior alpibus!</l>
+          <l>Non te minae Martisve fraudes</l>
+          <l>Innumerabilis et triumphus,</l>
         </div>
-                <div>
+        <div>
           <head>IV.</head>
-                <l>Non arma terrent, non fera praelia, </l>
-                <l>Non ipse victor, quidlibet impotens</l>
-                <l> Sperare rebus tam secundis!</l>
-                <l> Irruat is minitans, Tyrolis</l>
+          <l>Non arma terrent, non fera praelia,</l>
+          <l>Non ipse victor, quidlibet impotens</l>
+          <l>Sperare rebus tam secundis!</l>
+          <l>Irruat is minitans, Tyrolis</l>
         </div>
-                <div>
+        <div>
           <head>V.</head>
-                <l>Et pervagetur viscera vallium, </l>
-                <l>Auratum anhelis faucibus appetat</l>
-                <l> Tectum Oenipontanum recensens</l>
-                <l> Ambrasii pretiosa cistis</l>
+          <l>Et pervagetur viscera vallium,</l>
+          <l>Auratum anhelis faucibus appetat</l>
+          <l>Tectum Oenipontanum recensens</l>
+          <l>Ambrasii pretiosa cistis</l>
         </div>
-                <div>
+        <div>
           <head>VI.</head>
-                <l>Servata, avaro praemia militi</l>
-                <l>Promissa jurans, aedibus aulicis</l>
-                <l> Stantem aere longaevo virorum</l>
-                <l> Nobilium seriem figura</l>
+          <l>Servata, avaro praemia militi</l>
+          <l>Promissa jurans, aedibus aulicis</l>
+          <l>Stantem aere longaevo virorum</l>
+          <l>Nobilium seriem figura</l>
         </div>
-                <div>
-          <head>VII. </head>
-                <l>Versa tonare ut fulmina martia </l>
-                <l>Mandet suo forte exitiabilem</l>
-                <l>Cladem Nepoti post futuram!</l>
-                <l> Scrinia, templa, domos minent<add resp="Irina Tautschnig">es</add>
+        <div>
+          <head>VII.</head>
+          <l>Versa tonare ut fulmina martia</l>
+          <l>Mandet suo forte exitiabilem</l>
+          <l>Cladem Nepoti post futuram!</l>
+          <l>Scrinia, templa, domos minent<add resp="Irina Tautschnig">es</add>
           </l>
         </div>
-                <div>
+        <div>
           <head>VIII.</head>
-                <l>Stymphalli aves mox depopularier,</l>
-                <l>Rebus raptis denique singulos</l>
-                <l> Tum liberos dicant paresque,</l>
-                <l> Pauperie miseros eadem!</l>
+          <l>Stymphalli aves mox depopularier,</l>
+          <l>Rebus raptis denique singulos</l>
+          <l>Tum liberos dicant paresque,</l>
+          <l>Pauperie miseros eadem!</l>
         </div>
-                <pb/>
-                <div>
+        <pb/>
+        <div>
           <head>IX.</head>
-                <l>Hoc illa celso turgida spiritu, </l>
-                <l>Lenocinanti pelliciens sono,</l>
-                <l> Gens callida immani Tyrolim</l>
-                <l> Perdomitura fuit ruina!</l>
+          <l>Hoc illa celso turgida spiritu,</l>
+          <l>Lenocinanti pelliciens sono,</l>
+          <l>Gens callida immani Tyrolim</l>
+          <l>Perdomitura fuit ruina!</l>
         </div>
-                <div>
+        <div>
           <head>X.</head>
-                <l>At qui potenti supplicibus manu</l>
-                <l>Praesens et imo tollere de gradu</l>
-                <l> Infirma consuevit, superbas</l>
-                <l> Vertere terga Deus phalanges</l>
+          <l>At qui potenti supplicibus manu</l>
+          <l>Praesens et imo tollere de gradu</l>
+          <l>Infirma consuevit, superbas</l>
+          <l>Vertere terga Deus phalanges</l>
         </div>
-                <div>
+        <div>
           <head>XI.</head>
-                <l>Jubet, tumultu pectora turbido</l>
-                <l>Miscet: ruunt hac, quae trepidis data </l>
-                <l> Porta est,  <corr>retortis</corr>mox ademptas</l>
-                <l> Exuvias oculis dolentes!</l>
+          <l>Jubet, tumultu pectora turbido</l>
+          <l>Miscet: ruunt hac, quae trepidis data</l>
+          <l>Porta est,<corr>retortis</corr>mox ademptas</l>
+          <l>Exuvias oculis dolentes!</l>
         </div>
-                <div>
+        <div>
           <head>XII.</head>
-                <l>Qualis minister fulminis aliger</l>
-                <l>Solus minorum pennigerum greges</l>
-                <l> Terrore palantes per auras</l>
-                <l> Urget agens minitante rostro,</l>
+          <l>Qualis minister fulminis aliger</l>
+          <l>Solus minorum pennigerum greges</l>
+          <l>Terrore palantes per auras</l>
+          <l>Urget agens minitante rostro,</l>
         </div>
-                <pb/>
-                <div>
+        <pb/>
+        <div>
           <head>XIII.</head>
-                <l>Tales Tyrolis tunc popularibus</l>
-                <l>Conjuncta Gallos viribus expulit!</l>
-                <l> <note>Dominus Georgius Nagele a Stainachensibus et Dominus Petrus Mayr 
-                    ab Axamensibus ad concilium provinciale missi. </note>Senes beati! Isthaec vetustae</l>
-                <l> Praemia sunt fidei, valenti</l>
+          <l>Tales Tyrolis tunc popularibus</l>
+          <l>Conjuncta Gallos viribus expulit!</l>
+          <l>
+            <note>Dominus Georgius Nagele a Stainachensibus et Dominus Petrus Mayr 
+                    ab Axamensibus ad concilium provinciale missi.</note>Senes beati! Isthaec vetustae</l>
+          <l>Praemia sunt fidei, valenti</l>
         </div>
-                <div>
+        <div>
           <head>XIV.</head>
-                <l>Cum voce percussi quoque pectora </l>
-                <l>Primi Deum testando per omnia,</l>
-                <l>Quae sancta, campanas vibrari</l>
-                <l>Ad Boream resono boatu</l>
+          <l>Cum voce percussi quoque pectora</l>
+          <l>Primi Deum testando per omnia,</l>
+          <l>Quae sancta, campanas vibrari</l>
+          <l>Ad Boream resono boatu</l>
         </div>
-                <div>
+        <div>
           <head>XV.</head>
-                <l>Ceu classicum agris, urbibus et casis</l>
-                <l>Vultis! Minorem non ego te canam</l>
-                <l> Virtute, nostratis juventae</l>
-                <l> Laus, honor atque decus, tuorum</l>
+          <l>Ceu classicum agris, urbibus et casis</l>
+          <l>Vultis! Minorem non ego te canam</l>
+          <l>Virtute, nostratis juventae</l>
+          <l>Laus, honor atque decus, tuorum</l>
         </div>
-                <div>
+        <div>
           <head>XVI.</head>
-                <l>Australium qui factus aheneus</l>
-                <l>Murus, retardas millia militum</l>
-                <l> Fretus viris ternis tibique </l>
-                <l> Auxiliante Deo triumphas!<note>Dominus Martinus Teimer, 
-                        jaculatorum Maisensium Procenturio, tum Poeseos Merani, nunc Oeniponti Philosophiae Studiosus. </note>
+          <l>Australium qui factus aheneus</l>
+          <l>Murus, retardas millia militum</l>
+          <l>Fretus viris ternis tibique</l>
+          <l>Auxiliante Deo triumphas!<note>Dominus Martinus Teimer, 
+                        jaculatorum Maisensium Procenturio, tum Poeseos Merani, nunc Oeniponti Philosophiae Studiosus.</note>
           </l>
         </div>
-                <div>
+        <div>
           <head>XVII.</head>
-                <l>O Patriae Patres, quibus ipsius</l>
-                <l>Jesu Cor unos esse Tyroleos</l>
-                <l> Cives dedit; Fortes eodem</l>
-                <l> Corde Viros redimite sertis,</l>
+          <l>O Patriae Patres, quibus ipsius</l>
+          <l>Jesu Cor unos esse Tyroleos</l>
+          <l>Cives dedit; Fortes eodem</l>
+          <l>Corde Viros redimite sertis,</l>
         </div>
-                <div>
+        <div>
           <head>XVIII.</head>
-                <l>Palmas virentes plectite, nectite</l>
-                <l>Lauros et uni cuique Numismata </l>
-                <l> Nepotibus seris futura</l>
-                <l> Indicium fidei datote!</l>
+          <l>Palmas virentes plectite, nectite</l>
+          <l>Lauros et uni cuique Numismata</l>
+          <l>Nepotibus seris futura</l>
+          <l>Indicium fidei datote!</l>
         </div>
-            </div>
+      </div>
       <pb/>
-            <div>
-                <head>Freye Uebersetzung der lateinischen Ode, so auf die von der Tyrolischen Landschaft veranstalteten Austheilung der Ehrenmünzen am 28. Maymonaths 1789 verfertiget worden.
-                </head>
-            </div>
-            <div>
-                <p>Frohlocke nun unbezwingliche Mutter, Vaterland tapferer Männer! Frohlocke nun
+      <div>
+        <head>Freye Uebersetzung der lateinischen Ode, so auf die von der Tyrolischen Landschaft veranstalteten Austheilung der Ehrenmünzen am 28. Maymonaths 1789 verfertiget worden.</head>
+      </div>
+      <div>
+        <p>Frohlocke nun unbezwingliche Mutter, Vaterland tapferer Männer! Frohlocke nun
                     Tyrol, und umwinde deine Schläfe mit Tausenden der Lorberkränze!</p>
-                <p>Einst wirst du heißen Wodan <note>Der Kriegsgott der alten Deutschen.</note> der Allemanier, der Feinde Schrecken, und das vom
+        <p>Einst wirst du heißen Wodan<note>Der Kriegsgott der alten Deutschen.</note>der Allemanier, der Feinde Schrecken, und das vom
                     besten der Herrscher Franzen dem Zweyten geliebte Volk!</p>
-                <p>Mit offener Stirne, gestützt auf Religion und Treue, biethest du dem greulichen
-                    Feinde den Trotz, und fester, als deine Alpengebirge<pb/>
-                    stehest du ihm unerschüttert entgegen! Muthig bey Drohungen, und Kriegeslisten,
+        <p>Mit offener Stirne, gestützt auf Religion und Treue, biethest du dem greulichen
+                    Feinde den Trotz, und fester, als deine Alpengebirge<pb/>stehest du ihm unerschüttert entgegen! Muthig bey Drohungen, und Kriegeslisten,
                     schrecken dich nicht die unzähligen Siege, nicht das Geräusch der Waffen, und
                     die grausamen Schlachten, selbst nicht der Glückslauf des Siegers, betrunken in
                     seinen Hoffnungen!</p>
-                <p> Er soll hereinbrechen der stolze Droher; und der Thäler Eingeweide durchwühlen,
+        <p>Er soll hereinbrechen der stolze Droher; und der Thäler Eingeweide durchwühlen,
                     bis zum Herzen Tyrols soll er dringen; schnaubend mag er nach Innsbrucks Zierde,
                     nach dem Golde des Dächchens haschen; Ambras Schätze, verschlossen in Schränken,
                     mag er seinem gierigen Krieger zur lohnenden Beute verheißen; selbst die
@@ -237,14 +230,14 @@
                     gebildet, und des Alterthumes, so die Fürstenbilder im Erzte gegossen ehrwürdig
                     schildert, auch diese mag er umzustalten sinnen, daß sie sogar als kriegerische
                     Donnerschläge zum Verderben ihres Enkels brüllen!</p>
-                <p>Plünderung und Verheerung mag dieser den Tempeln, Pallästen und Hütten drohen,
+        <p>Plünderung und Verheerung mag dieser den Tempeln, Pallästen und Hütten drohen,
                     und endlich nach vollbrachtem Raube die Elenden bey allgemeiner Erarmung alle
                     frey und gleich erklären!</p>
-                <p>So dachte dieses, von hoher Einbildung getäuschte; dieß durch reitzende Töne
+        <p>So dachte dieses, von hoher Einbildung getäuschte; dieß durch reitzende Töne
                     bezaubernde listige Volk dem Tyrol die Unterjochung mit schrecklichem Sturze
                     zu!</p>
         <pb/>
-                <p>Doch der allgewaltige Gott, der die Flehenden mit mächtigem Schirme schützt, und
+        <p>Doch der allgewaltige Gott, der die Flehenden mit mächtigem Schirme schützt, und
                     die Niedrigen von der Tiefe empor hebt, hieß die stolzen Schaaren fliehen; in
                     Angst und Schrecken verwirrt er ihre Herzen; schon stürzen die Sieggewohnten
                     dort, wo ihnen die Pforte offen blieb, bebend hinaus, und trauern mit noch
@@ -252,22 +245,24 @@
                     Donnerkeiltragende Adler allein erschrockene Heerden kleinerer Vögelchen im
                     drohenden Fluge durch Lüfte herumierend jagt: so trieb Tyrol, in Massen vereint,
                     die Gallier hinaus!</p>
-                <p>Glückliche Alte! empfanget den Lohn eurer alten Treue, und nehmet den Dank hin,
+        <p>Glückliche Alte! empfanget den Lohn eurer alten Treue, und nehmet den Dank hin,
                     den euch das Vaterland darbringt; Ihr riefet zuerst Gott und den Himmel zu
                     Zeugen mit mächtigem Schlage auf eure Brust, und zoget im nördlichen Theile die
-                    stürmende Glocke für Adel, Bürger und Bauer zum Kampfe voll Begeisterung an! <note>Herr Georg Nagele von Stainach, und Herr Peter Mayr von Axams kamen 
-                        als Abgeordnete zum landschaftlichen Congresse. </note> </p>
-                <p>Aber auch dich Jüngling! Zierde und Ehre unserer Jugend! auch dich soll meine
+                    stürmende Glocke für Adel, Bürger und Bauer zum Kampfe voll Begeisterung an!<note>Herr Georg Nagele von Stainach, und Herr Peter Mayr von Axams kamen 
+                        als Abgeordnete zum landschaftlichen Congresse.</note>
+        </p>
+        <p>Aber auch dich Jüngling! Zierde und Ehre unserer Jugend! auch dich soll meine
                     Harfe besingen, und deine Tapferkeit hoch preisen; du warst deinen biedern
                     Landsleuten im Süden eine eherne Mauer! Tausende der feindlichen Krieger standen
-                    bebend vor Dir, und den letzten Dreyen, <pb/>die dich unterstützten, unbeweglich
-                    da! so siegtest Du, durch Gottes Hülfe! <note>Herr Martin Teimer Unterlieutenant der Maiser Compagnie, 
-                        damahls der Poesie zu Meran, jetzt der Philosophie beflissen zu Innsbruck. </note> </p>
-                <p>Väter des Vaterlandes! Euch gab Jesu Herz, daß Tyrols Bewohner durch Muth und
+                    bebend vor Dir, und den letzten Dreyen,<pb/>die dich unterstützten, unbeweglich
+                    da! so siegtest Du, durch Gottes Hülfe!<note>Herr Martin Teimer Unterlieutenant der Maiser Compagnie, 
+                        damahls der Poesie zu Meran, jetzt der Philosophie beflissen zu Innsbruck.</note>
+        </p>
+        <p>Väter des Vaterlandes! Euch gab Jesu Herz, daß Tyrols Bewohner durch Muth und
                     Eintracht siegten! krönet die durch das nähmliche Herz tapfere Sieger! pflücket
                     grünende Palmen und flechtet Lorber, gebet ihnen Denkmünzen, für späte Enkel zum
                     Zeichen der Treue!</p>
-            </div>
-        </body>
-    </text>
+      </div>
+    </body>
+  </text>
 </TEI>

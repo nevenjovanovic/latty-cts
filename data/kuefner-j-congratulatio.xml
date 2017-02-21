@@ -1,86 +1,83 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="kuefner-j-congratulatio">
-            <titleStmt>
-                <title>Congratulatio cessantis interregni electo Romanorum Hispaniaeque regi Carolo sacra, versio electronica</title>
-                <author key="kuefner01">
-                    <name>Küfner, Johannes</name>
-                    <date precision="medium">before 1521-1546</date>
-                    </author>
-                <respStmt>
-                    <resp>Hanc versionem electronicam curavit</resp>
-                    <name>Clementina Marsico</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>transcribed from the printed text</edition>
-            </editionStmt>
-            <extent>22 paginae</extent>
-            
-            <publicationStmt>
-                <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
+  <teiHeader>
+    <fileDesc xml:id="kuefner-j-congratulatio">
+      <titleStmt>
+        <title>Congratulatio cessantis interregni electo Romanorum Hispaniaeque regi Carolo sacra, versio electronica</title>
+        <author key="kuefner01">
+          <name>Küfner, Johannes</name>
+          <date precision="medium">before 1521-1546</date>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Clementina Marsico</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>22 paginae</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
         </p>
-            </publicationStmt>
-            
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <title>Congratulatio cessantis interregni electo Romanorum Hispaniaeque regi Carolo sacra</title>
-                        <imprint>
-                            <pubPlace>Augsburg</pubPlace>
-                            <date when="1520">1520</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-                <bibl>TLMF, FB 604</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <creation>
-                <date when="1520">1520</date>
-            </creation>
-            <textClass>
-                <keywords scheme="time">
-                    <term>Das 16. Jh. bis zum Tod Erzherzog Ferdinands II. von Tirol (1595)</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>Beredsamkeit</term>
-                    <term>Panegyrik</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        
-        <revisionDesc>
-            <change>corrected teiHeader and body<date>2015-09-29</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>Congratulatio cessantis interregni electo Romanorum Hispaniaeque regi Carolo sacra</title>
+            <imprint>
+              <pubPlace>Augsburg</pubPlace>
+              <date when="1520">1520</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>TLMF, FB 604</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1520">1520</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Das 16. Jh. bis zum Tod Erzherzog Ferdinands II. von Tirol (1595)</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Beredsamkeit</term>
+          <term>Panegyrik</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>corrected teiHeader and body<date>2015-09-29</date>
         <name>Johanna Luggin</name>
       </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div>
-            <head>Congratulatio cessantis interregni electo Romanorum Hispaniaeque regi Carolo sacra,
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Congratulatio cessantis interregni electo Romanorum Hispaniaeque regi Carolo sacra,
                 authore Ioanne Keffner Ratembergensi.</head>
       </div>
-            <div>
-            <p>Ioannes Pinicianus.</p>
+      <div>
+        <p>Ioannes Pinicianus.</p>
       </div>
-            <div>
-            <lg>
-            <l>Rex ausum Iovis ales ut est, rex maxime Carle,</l>
-            <l>Sic solus magni sceptriger orbis eris.</l>
-            <l>Utque novae volucres aquilae sua munera donant.</l>
-            <l>Sic vates regem carminibus celebrant.</l>
-            <l>Quos inter tibi Ioannes (licet exigue sint)</l>
-            <l>Primicias studii contulit ipse sui.</l>
+      <div>
+        <lg>
+          <l>Rex ausum Iovis ales ut est, rex maxime Carle,</l>
+          <l>Sic solus magni sceptriger orbis eris.</l>
+          <l>Utque novae volucres aquilae sua munera donant.</l>
+          <l>Sic vates regem carminibus celebrant.</l>
+          <l>Quos inter tibi Ioannes (licet exigue sint)</l>
+          <l>Primicias studii contulit ipse sui.</l>
         </lg>
       </div>
-            <div>
-            <p>Omnia ratione constant.</p>
-            <pb n="2"/>
+      <div>
+        <p>Omnia ratione constant.</p>
+        <pb n="2"/>
         <p>Ad humanissimum virum, lauro iurium insignem Hyeronimum Charophiliden Ioannis
                 Kueffner Ratembergensis epistola.</p>
-            <p>Salutem plurimam dicit. Queres editionis nostre rationem, constat quidem, nec
+        <p>Salutem plurimam dicit. Queres editionis nostre rationem, constat quidem, nec
                 improbanda, a musis enim velut somnio praemonitus, ut quietem datam, scripto quaedam
                 condirem, ne languens ocio corpus nimis interstitio sum redderetur, ingeniumque iuvenile,
                 diurna litteratum vacatione, res missum, in obliterationem resolverent. Quo nihil
@@ -97,8 +94,7 @@
                 mihi nuper intermissis studiis, antequam hec excudissem, obtigit. Ceterum quid tibi
                 hac in re videatur, eventura ne vel contraria somniarim, dato chalculo nobis
                 renuncia. Quod si feceris, quia me inter, et musas (quibus cum longa et
-                acerrima mihi fuit contentio) rursus conveniat, minime dubito? Opellum vero
-                <pb n="3"/>meum, ut supprimi, aut in cistellariscoque diutius delitescere cum tua prohibet
+                acerrima mihi fuit contentio) rursus conveniat, minime dubito? Opellum vero<pb n="3"/>meum, ut supprimi, aut in cistellariscoque diutius delitescere cum tua prohibet
                 authoritas, singularisque benevolentia divino nexu, industriosaque colligatione a
                 puero usque fundata, hisque innixia radicibus, ut si ultra, citraque aras, amicitie
                 ius, preter Demosthenicam determinationem, ab Aulo Gellio, primo noctium Atticarum
@@ -122,8 +118,7 @@
                 ordine referret. Reliquis est ut hoc meum opusculum, utcumque machinarum esudatumque
                 exporrectis manibus, quum ad te, itinerando divertet excipias ulteriores causas non
                 requirens, donec et maiora, et splendidiora, sumpta virili toga, sese obtulerint,
-                gratulor autem musis quos me dormitantem somnoque involutum maturius excitarint, ne
-                <pb n="4"/>dum sectarer inertiam paestilens quidam subcommitaretur incommoditas. Postremo
+                gratulor autem musis quos me dormitantem somnoque involutum maturius excitarint, ne<pb n="4"/>dum sectarer inertiam paestilens quidam subcommitaretur incommoditas. Postremo
                 ut fotunam meam, ex utraque parte laborantem accipias, ego nunc delicatius
                 acquiescens, ambigua rerum confusione ducor, nunc nebus domesticis occupor, nunc
                 aliarum rerum (que musis obsunt) operosa actione distingor. Corruunt paulatim musae
@@ -131,7 +126,7 @@
                 mediocriter exanclavimus. Decidunt e manibus puggellareis, studiosumque ocium
                 nostrum, quo prius ut plurimum solacii gratia quum ocium nos in fastidium vertisset,
                 detinebamur, cum ingratae tum perniciose quietis vicem subit. Conteruntur atque
-                collabescunt prope sensim <unclear/>scrupolos, curasque rerum familiarium
+                collabescunt prope sensim<unclear/>scrupolos, curasque rerum familiarium
                 inicientes, nunc obrepit oblivio memoriam, quam quidam tenacem animi conceptum idest
                 comprehensionem appellarunt, temporatim deprimens. Abest ulteriora addiscendi copia,
                 non quod libri se ipsa preceptoris institutio deficiat. Restant solum libri, quos in
@@ -142,9 +137,9 @@
                 inter dulces avium canoros voluto libro recumbere, quandoque etiam otium, data
                 remissione, fidium pulsatione subartare, mecumque ipse solus agitaremque stiunculas,
                 transigendae vitae cuasas sapientes, opacitatemque montium sectari, subque sole
-                magno, incessante frigore tepefieri. Ventorum <unclear/> ventilantione, aestivos
+                magno, incessante frigore tepefieri. Ventorum<unclear/>ventilantione, aestivos
                 calores refugare, littorales strepitus, soporem inducentes, noctu audire: a
-                pu<unclear/> motibus villam secedere, nunc musis, nunc corpori vacare, quoia
+                pu<unclear/>motibus villam secedere, nunc musis, nunc corpori vacare, quoia
                 auferuntur. Factus sum autem plane miles erasmianus, lucrubrationibus eius non ad
                 solem modo, verum etiam ad lucernas quoque excubatissime pervigilnas, nec militare,
                 sed litterarium premium, devictis fusisque hostibus ex bello referre cupiens. Hunc
@@ -176,8 +171,8 @@
                 previsum, sed inhumationem petiit, vitam suam tristi, sed christiano homine digno
                 exitu finiens. Vale mense maii anno vigesimo.</p>
       </div>
-            <div>
-                <pb n="6"/>
+      <div>
+        <pb n="6"/>
         <p>Exiciosa imperii vacatio, vitam nostram cum mortalem, tum ob immentium
                 periculorum et pertinacem, et continuam sequutionem calamitosam, suspensam, lubricis
                 perversae fortunae vicibus expositam, affectuum rotatione carnifica, exagitatam,
@@ -193,7 +188,7 @@
                 posthabito. Que enim et quam gravis poena prevaricatoribus legum non modo divinarum
                 sed et humanarum, pari definitione videlicet honestatis et equitatis nitencium
                 iniungatur, ipsa liquet expiatione. Quosdam vitae quosdam bonorum ademptione, quo ad
-                observatio iusticiae diligentior admitta <pb n="7"/> puniens: ut exemplo inde sumpto, alii
+                observatio iusticiae diligentior admitta<pb n="7"/>puniens: ut exemplo inde sumpto, alii
                 quodque et cautiores et circumspectiores efficerentur. Hinc legum sanctiones
                 municipalia, corrogationes, promulgationes, conclamationes, publicatae, valuisque
                 publicis affixae prosciptiones, incompositos mores atque honestate alienos,
@@ -230,7 +225,7 @@
                 ceterorum animantium, eleganti compactione, conditore Deo concreata, cum ex hac
                 ruinosa domo, id est corpore foetido, emigrandi tempus adveniret, perpetuam sedem,
                 ab eterno, ut sui ipsius vox evangelicae doctine testatur, constituit. Quo uno
-                eulogio Christianae fidei robur <pb n="9"/>confirmatur. Quam vero articulate humanos artus
+                eulogio Christianae fidei robur<pb n="9"/>confirmatur. Quam vero articulate humanos artus
                 distinxerit. Usum cuique attribuerit, quibusque donis percipuis hominem exornarit,
                 ipsa rerum natura liquido conspicimus. Ita etiam natura corpus humanum
                 proporcionavit, ut nec adimi, nec adici quicquam absque vel deformitate, vel
@@ -249,7 +244,7 @@
                 canescunt comae calamistratae, flavaeque barba iuvenilibus annis extensa, in rorem
                 convertitur, sordescit habitus. Hec annositatis munera, hec vivendi precia:
                 competente natura distributa. His ita se habentibus, inter ceteras hominum
-                conditiones, heraemitas, <pb n="10"/>monachos, Christi flamines, virgines sacris deditas,
+                conditiones, heraemitas,<pb n="10"/>monachos, Christi flamines, virgines sacris deditas,
                 atque castimoniae conservandae, obsides pignoraticias, et solitarios homines,
                 religioni divinae castius insudantes, si data vota ex officio, nec ullo pretextu
                 iusticiae commenticio, nec presumptuosa perfectione de se ipsis habita, perlitarint
@@ -262,7 +257,7 @@
                 inquit longa est iniuria, longe ambages, sed summa sequar fastigia rerum. Quidam
                 enim summam voluptatem in aesculentis poculentisque et ciborum voragminibus. Quidam
                 in munerum vacatione, nonnulli in potita dignitatum ambitione. Quidam inconvenienti
-                fortune aspiratione. Quidam in amore illicito, <unclear>per grecatione</unclear> concubitu coitione et his
+                fortune aspiratione. Quidam in amore illicito,<unclear>per grecatione</unclear>concubitu coitione et his
                 similibus, collocarunt que mutuorum sensu, motione quod ad ea que vel doleant vel
                 delectent cum abhorrente tum subministrante natura impraemeditacius proriptuntur,
                 non nostra finis esse solet. Obmissa iam ethnicorum supersticiosa gentilitate ea que
@@ -285,8 +280,7 @@
                 arma procurrere, cum tamen idipsum vitae ratio videatur inhibere. Quod si presentis
                 vite limitem, cunctis incerta praescriptione datum, sepius animo volueris, non
                 facilis lapsus sit, necessum arbitror, labi quidem humanum esse, sed ipsa
-                conscientia, mentisque poenitencia ducte, aculeo pungente, vellicanteque non
-                    <pb n="12"/>exterreri, plusquam pecoreum ixta allusione Hyeronimianam veraciter asseruerum.
+                conscientia, mentisque poenitencia ducte, aculeo pungente, vellicanteque non<pb n="12"/>exterreri, plusquam pecoreum ixta allusione Hyeronimianam veraciter asseruerum.
                 Nam cetera animalia, ut puta iumenta, rationis visu expertia, discrimine quodam
                 vitam agunt, hominum austera mansuefactione cicure facta. Videmus enim leones,
                 ursos, feles et huiusmodi nostro quanque uti pedissequio, nos etiam presepe a viarum
@@ -303,7 +297,7 @@
                 sospitalitatem usque animalis cunctatus, comitatu deinde suo ubique triennio usus.
                 Quo defuncto velut himana voce mortem eius colluxit silvam repetens spontanea morte
                 succubuit. Feles item miree et insolite magnitudinis, hominis cuiusdam consuetudine
-                a teneris annis assuefacta. Cum ille duellionis audaculi devotione <pb n="13"/>in pugnam
+                a teneris annis assuefacta. Cum ille duellionis audaculi devotione<pb n="13"/>in pugnam
                 provocaretur, inita dimicatione pari, animali collum alterius prensum, adeo
                 complicavit, ut ille perendino die vitam amiserit, alter morbum quoque illapsus non
                 multo post decessit. Quem illa horrenda clamitatione maerens se quoque unguium aciae
@@ -321,7 +315,7 @@
                 declinationem et peccabundam libertatem, pronos effutimentisque suis persuasos, nos
                 retrahit. Quo fit ut mortis imago, umbraque presens, ab oculis effugiat, exilisque
                 memoria hac causa prestante, redundet, decedunt homines, gignuntur alii, sed quam
-                diu vel qua forte <pb n="14"/>vixuri illiquidum, senescunt alii, morti quottidie propiores,
+                diu vel qua forte<pb n="14"/>vixuri illiquidum, senescunt alii, morti quottidie propiores,
                 crescunt atque decrescunt diviciae (quibus accumulandis, congerendisque omnes
                 plerumque suggestione naturali ducimur) ex mutatione fortune. Nam ut ut mare nunc
                 fluctuat, nunc placidum residet, sed plus semper formidinis, horroris, et
@@ -338,9 +332,9 @@
                 omnium? Qui nisi nostris rebus consuluerit quin pereant, quid inficias ibit? Exemplo
                 est immatura mort imperatoris nostri Maximiliani? Qui gazis et opibus quas hic
                 possedit, relictis caelestium indiffidenter adiit numerum? Quid Alexandri magni ex
-                gestis nomen induentis, quod aliorum quos mors cunct<unclear/> abstulit vitas facinorosas,
+                gestis nomen induentis, quod aliorum quos mors cunct<unclear/>abstulit vitas facinorosas,
                 referam? Mundo ne quam Christo militari potius. Quid preter eternitatis praemia
-                insultandum? <pb n="15"/>Nos vero belli societate lunguescentes, quieti dabimus. Hanc
+                insultandum?<pb n="15"/>Nos vero belli societate lunguescentes, quieti dabimus. Hanc
                 contendimus. Hanc relicta omni preda militari, premii et renumerationis loco
                 exornari. Hac redimiti novam patriam adire studeamus. Umbratilem vero sequi gloriam,
                 Christoque bellum indicere, minus laudo. Hinc ulcio divina. Hinc hostilis
@@ -357,7 +351,7 @@
                 posthumanas, ad exemplar quoddam nepotibus suis representantum efformandum,
                 haereditatis loco reliquit) et ob ingentissimas, vivendi causas, ulteriusque vitae
                 spacii, dilationes, maxime sit conquarenda, tamen nova principis electio, utinam
-                foelici ulteriorisque avito sydere auspicata, luctum, <pb n="16"/>ex obitu eius miserando
+                foelici ulteriorisque avito sydere auspicata, luctum,<pb n="16"/>ex obitu eius miserando
                 conceptum, pleraque ex parte sublevat atque mitescit, o chalculata dies, et
                 candidissimo lapillo. Appallineisque litteris notanda, qua rex electorum imperii
                 subrogatione, declaratus, utroque dyodemate quoque exornatus fuerit. Regnumque avito
@@ -392,7 +386,7 @@
                 administratore uterentur, eo etiam ad Deos relato, procipio fruarentur numine. Huic
                 delubra, statuasque ponentes. Redeam nunc aliquantulum, ad imperatorem nostrum, vita
                 exactum, quiquam bene, rempublicam romanam gesserit quam subnixe imperium romanum
-                (quo functus auxerit, quam iuste in omnes <pb n="18"/>egerit, quam multos sua humanitate
+                (quo functus auxerit, quam iuste in omnes<pb n="18"/>egerit, quam multos sua humanitate
                 foverit, ad se profugientes expansis alis, semper adiuverit, infimeque sortis
                 homines, ad summa usque fastigia extulerit. Quibus denique beatioris vitae donis
                 effulserit, nemini ambiguum reor. Quem ore gemebundo suffusis luminibus? Oblinito
@@ -409,7 +403,7 @@
                 prebeas. Mirum quo ardore: quibus studiis, quanta efflagitatione, ad te visendum
                 omnis exaestuet Germania. Cui fidem publica suorum vox: habitis comiciis, prestitit,
                 adiutrices manus etiam absenti pollicita: sacramento confirmata. Quod iuramentum in
-                exposcendis tuorum votis fuerit presens ipse senties. <pb n="19"/>Quod autem relictis
+                exposcendis tuorum votis fuerit presens ipse senties.<pb n="19"/>Quod autem relictis
                 Hispaniae faucibus: ad coronam imperii recipiendam: festino cursu austriacas oras
                 accelerasse atque pervolasse communi fama diceris? Gratulari satis nequeo. Ad
                 propera igitur rex Carolae et germanos tuos a perfidia foedi fragio: periuriisque
@@ -427,7 +421,7 @@
                 gyrum, ad glomeratum circum, circulati orbis spatiosam immensitatem. Aquila
                 perrexeris? Ut accepta sobole non hereditas modo amplissima, sed et parentalis
                 precosatio relinquatur, habitus est iam mense maio. Comicialis dies, quo illustris
-                principes Marchio Casimirus <pb n="20"/>episcopus Salispurgensis. Episcopus item
+                principes Marchio Casimirus<pb n="20"/>episcopus Salispurgensis. Episcopus item
                 Tridentinus virique summo nobilitatis decoramento prediti, curam reipublicae vice
                 rhegia gerentes Georgius de Firmian, cuius ego famulicium obii. Cancellarius ille
                 Serentinus, conventum agunt per celebrem Sophicaenium grece dictum, partim regis
@@ -441,15 +435,15 @@
                 esse, quanto maiorem, si nos perviderit sequuturam, putes. Faxit itaque Deus optimus
                 Maximus ut te et faustissimo et quam longissimo principe fruamur, utque vitam non
                 minori, vel gloria, vel foelicitate, quam parentes tui, quos aliud nunc seculum
-                retinet, exigas. </p>
-            <p>Finis.</p>
+                retinet, exigas.</p>
+        <p>Finis.</p>
       </div>
-            <div>
-           <pb n="21"/>
+      <div>
+        <pb n="21"/>
         <head>Ioannes Kueffner Iacobo Manio suo.</head>
       </div>
-                <div>
-            <p>Salutem plurimam dicit. Exemplar illud meum, recognitione tua pervisum, typographo,
+      <div>
+        <p>Salutem plurimam dicit. Exemplar illud meum, recognitione tua pervisum, typographo,
                 id est litteratio formatori, excudendum, exarandum, contexandum, offerre
                 destinavimus. Quod ut quantum ratio, exegerit graphiario tuo, priusque prelum ineat,
                 emendaris. Carmine quopiam honoratorio, vel trilineali saltem epistolio, suburgente
@@ -457,7 +451,7 @@
                 prestari, certo sciebam. In re litteraria, cuius ego primas classes devici,
                 periculum facere, commonente Hyeronimo nostro trilingui peritissimo collibuit? Num
                 perfectam bellandi scientiam emeritis veteranisque militibus, qui vel iure trium
-                liberorum, vel iugeribus, libertatis <unclear/>gaudeant, attribuerim? Idque laudis
+                liberorum, vel iugeribus, libertatis<unclear/>gaudeant, attribuerim? Idque laudis
                 quod alii gloriosius sibi adiudicarint mihi demo? Quod autem titulum depravatius
                 subscripserim, neque materie, neque stylo consentientem hoc potissimum cause fuit?
                 Quod pleranque partem in posterum mihi integram reservare proposuerim? Nam aliud
@@ -466,7 +460,7 @@
                 Nam vel scrupulosa legum volumina maculosis manibus attrectare. Sacros pontificii
                 iuris canones perperam interrumpere? Theologiae divinum studium quod nunc
                 sophisticis nugis adsertur? Aut heresen aut irreligionem, interposita colluctatione
-                generat? Insidiosis <unclear/>suffundere? Curandi artem imperitius exprimere.
+                generat? Insidiosis<unclear/>suffundere? Curandi artem imperitius exprimere.
                 Aliaque preter ingenium meum attentare? Non sum aulus. Nosti enim me humanioris
                 studii candidatum? Me nec cedonis, nec sutoris, nec crepidinarii, nec cementarii vel
                 alterius fungi officio? Non stropham sed legittimam excusationem, que nec iudicis
@@ -486,7 +480,7 @@
                 puellari ducenda? Plerosque alios aliis exercitationibus praepediri? Contigit nuper
                 exemplum de prestitore quodam, qui ducta uxore inopi, augustana, bibliopola, id est
                 lutheranarum et eccianarum collitigationum venditor existens? Ad agendi, pastum
-                pecora studium , redditus cultos? Hic dum in plano e <unclear>sum pro meridianum</unclear> sumeret, spectaculum
+                pecora studium , redditus cultos? Hic dum in plano e<unclear>sum pro meridianum</unclear>sumeret, spectaculum
                 cum iuvene et venusina virgine, accidit? Ille dum hoc visendo retentaretur, abactor
                 quispiam lupus ex obliquo veniens, caprinos cattulos devorans, maiora que vix
                 effugerant, velaberant, disturbavit. Quod ille inimicius ferens, lupum in ius
@@ -495,6 +489,6 @@
                 fortunae desperatione, obiecerit. Vale ex urbe Ratembergensi, idibus maii, anno et
                 c. vigesimo.</p>
       </div>
-        </body>
-    </text>
+    </body>
+  </text>
 </TEI>

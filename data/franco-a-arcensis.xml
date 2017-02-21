@@ -1,655 +1,586 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="franco-a-arcensis">
-            <titleStmt>
-                <title>Arcensis comitatus descriptio, versio electronica</title>
-                <author key="tyrol259.franco01">
-                    <name>Franco, Ambrogio</name>
-                    <date precision="high">1559-1611</date>
-                </author>
-                <editor>Mederle, Sissy</editor>
-                <respStmt>
-                    <resp>Hanc versionem electronicam curavit</resp>
-                    <name>Johanna Luggin</name>
-                </respStmt>
-            </titleStmt>
-            
-            <editionStmt>
-                <edition>Digital text provided by the editor</edition>
-            </editionStmt>
-            
-            <extent>7 folia</extent>
-            
-            <publicationStmt>
-                <p>Croatica et Tyrolensia: Tyrolis Latina <date>February 2015</date>
+  <teiHeader>
+    <fileDesc xml:id="franco-a-arcensis">
+      <titleStmt>
+        <title>Arcensis comitatus descriptio, versio electronica</title>
+        <author key="franco01">
+          <name>Franco, Ambrogio</name>
+          <date precision="high">1559-1611</date>
+        </author>
+        <editor>Mederle, Sissy</editor>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Johanna Luggin</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Digital text provided by the editor</edition>
+      </editionStmt>
+      <extent>7 folia</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>February 2015</date>
         </p>
-            </publicationStmt>
-            
-            <sourceDesc>
-                <bibl>TLMF, Dip. 1154</bibl>
-                <bibl>Tiroler Landesarchiv, landsch. Archiv Hs. LXXXII</bibl>
-                <bibl>Mederle, Sissy: Descriptio Arcensis Comitatus : Transkription, Übersetzung und Kommentar einer neulateinischen Beschreibung der Grafschaft Arco von Ambrogio Franco, Dipl. Innsbruck 2012.</bibl>
-            </sourceDesc>
-        </fileDesc>
-        
-        <profileDesc>
-            <creation>
-                <date notBefore="1570" notAfter="1650" period="16xx_1_third">1570-1650</date>
-            </creation>
-            <textClass>
-                <keywords scheme="time">
-                    <term>Das 16. Jh. bis zum Tod Erzherzog Ferdinands II. von Tirol (1595)</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>Geschichtsschreibung</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        
-        <revisionDesc>
-            <change>
-                <date>2015-02-03</date>
-                <name>Johanna Luggin</name>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    
-    <text>
-        <body>
-            <div>
-            <pb xml:id="F1r"/>
-            <head> (0) Arcensis Comitatus Per Amb<add resp="editor">rosium</add> Francum Descriptio, multis in locis a Io<add resp="editor">anne</add>
-                Dominico ejus F<add resp="editor">ilio</add> auctior et Illustrior
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>TLMF, Dip. 1154</bibl>
+        <bibl>Tiroler Landesarchiv, landsch. Archiv Hs. LXXXII</bibl>
+        <bibl>Mederle, Sissy: Descriptio Arcensis Comitatus : Transkription, Übersetzung und Kommentar einer neulateinischen Beschreibung der Grafschaft Arco von Ambrogio Franco, Dipl. Innsbruck 2012.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date notBefore="1570" notAfter="1650" period="16xx_1_third">1570-1650</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Das 16. Jh. bis zum Tod Erzherzog Ferdinands II. von Tirol (1595)</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Geschichtsschreibung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2015-02-03</date>
+        <name>Johanna Luggin</name>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb xml:id="F1r"/>
+        <head>(0) Arcensis Comitatus Per Amb<add resp="editor">rosium</add>Francum Descriptio, multis in locis a Io<add resp="editor">anne</add>Dominico ejus F<add resp="editor">ilio</add>auctior et Illustrior
                 reddita.</head>
       </div>
-            <div>
-            <p n="1">(1) Arcensis regio olim, quemadmodum<note place="foot" xml:id="ftn1" n="1"> § 1: quemadm
-                odum HS 1; quemadmodum HS 2.</note>
-                etiam Tridentina Civitas, inter Cenomanos recensebatur: quorum Caput erat Brixia,
+      <div>
+        <p n="1">(1) Arcensis regio olim, quemadmodum<note place="foot" xml:id="ftn1" n="1">§ 1: quemadm
+                odum HS 1; quemadmodum HS 2.</note>etiam Tridentina Civitas, inter Cenomanos recensebatur: quorum Caput erat Brixia,
                 limites vero ab ortu paludes Padi apud Brigantinum atque Melaniam: hinc ad Athesim
                 Veronam ac Tridentum usque deflectebatur. (2) A Borea Alpes, quibus Italia à
                 Germania dispescitur. (3) Ab occasu lacus larius et flumen Abdua. 
-                (4) A Meridie<note place="foot" xml:id="ftn2" n="2"> § 4: Meriode HS 1;
-                        Meridie HS 2.</note> Padus Brigantinum, atque ad iam dictas paludes
-                usque. (5) Qua quidem in ora Benacus, Laderanum<note place="foot" xml:id="ftn3" n="3"> § 5: Laderamum HS 1; Laderanum HS 2.</note>,
-                Naunes, Voltureni<note place="foot" xml:id="ftn4" n="4"> §
+                (4) A Meridie<note place="foot" xml:id="ftn2" n="2">§ 4: Meriode HS 1;
+                        Meridie HS 2.</note>Padus Brigantinum, atque ad iam dictas paludes
+                usque. (5) Qua quidem in ora Benacus, Laderanum<note place="foot" xml:id="ftn3" n="3">§ 5: Laderamum HS 1; Laderanum HS 2.</note>,
+                Naunes, Voltureni<note place="foot" xml:id="ftn4" n="4">§
                         5: Volturteni HS 1; Voltureni HS 2.</note>, Camuli aliaeque alpinae
-                gentes, Arcensis ager ac totus fere Tridentinus Ducatus includitur. </p>
-            <p n="2">(6) Non desunt qui Benacum, Arcenses et nonnullos Tridentinae
-                Marchiae populos in Gallia<note place="foot" xml:id="ftn5" n="5">Gali HS 1; Gallia HS 2. </note> Tradana
+                gentes, Arcensis ager ac totus fere Tridentinus Ducatus includitur.</p>
+        <p n="2">(6) Non desunt qui Benacum, Arcenses et nonnullos Tridentinae
+                Marchiae populos in Gallia<note place="foot" xml:id="ftn5" n="5">Gali HS 1; Gallia HS 2.</note>Tradana
                 collocent, quam his confinibus describunt: (7) ab oriente Mincius et dexterum Benaci
                 latus, atque inde flumen Sarca usque ad ejus fontem herent, ad Boream Alpium
-                Rheticarum iuga<note place="foot" xml:id="ftn6" n="6"> § 7:
+                Rheticarum iuga<note place="foot" xml:id="ftn6" n="6">§ 7:
                         iuxta HS 1; juga HS 2.</note>, que mons Bralius, Sancti Bernardi ac
                 Sancti Gothardi vulgo appellantur, superincumbunt. (8) Occasum Alpes, quae Galliam
                 disterminant ab Italia, claudunt usque ad Varum, ab occasu in Meridiem ac subinde in
-                Orientem flectens Padus reliquum lambit. </p>
-            <p n="3">(9) Sempronius tamen Orienti Athesim et Venetos assignat. (10) Alij Tridentinam
+                Orientem flectens Padus reliquum lambit.</p>
+        <p n="3">(9) Sempronius tamen Orienti Athesim et Venetos assignat. (10) Alij Tridentinam
                 Marchiam Longobardie inserunt: at quoniam Longobardia Cenomanos atque Transpadanos
-                    comprendebat<note place="foot" xml:id="ftn7" n="7"> §
+                    comprendebat<note place="foot" xml:id="ftn7" n="7">§
                         10: comprendebat HS 1; comprehendebat HS 2.</note>, pluribus non
-                    immoror<note place="foot" xml:id="ftn8" n="8"> § 10:
-                        imoror HS 1; immoror HS 2.</note>. </p>
-            <p n="4">(11) Strabo Rhaetijs adscribit, Ptolomeus Venetiae. (12) Annales Boiarici Noricorum
-                esse tradunt. (13) Sunt qui Tyroli<note place="foot" xml:id="ftn9" n="9"> § 13: Tijro
-                    li HS 1; Tyroli HS 2.</note> assignent.
+                    immoror<note place="foot" xml:id="ftn8" n="8">§ 10:
+                        imoror HS 1; immoror HS 2.</note>.</p>
+        <p n="4">(11) Strabo Rhaetijs adscribit, Ptolomeus Venetiae. (12) Annales Boiarici Noricorum
+                esse tradunt. (13) Sunt qui Tyroli<note place="foot" xml:id="ftn9" n="9">§ 13: Tijro
+                    li HS 1; Tyroli HS 2.</note>assignent.
                 (14) Tridentini contra nituntur sibique in eo iniuriam fieri clamant. (15) Sed de
-                his nimium. </p>
-            <p n="5">(16) Iacet vero Arcensis Comitatus in Dioecesi<note place="foot" xml:id="ftn10" n="10"> § 16: Dioecesi HS 1; Diecaesi HS 2.</note>
-                Tridentina, atque ab ora Benaci, ob aquarum Scaturiginibus Lymphano<note place="foot" xml:id="ftn11" n="11"> § 16: Lijmphano HS
-                        1; Lymphano HS 2.</note> appellata, ad Sarcocaenium, quod est diversorium
-                medioque fere itinere Arco Tridentum protenditur. </p>
-            <p n="6">(17) Comitatum Arci annexasque Naci et Dedriae ditiones sepiunt ab Austro Ripenses,
+                his nimium.</p>
+        <p n="5">(16) Iacet vero Arcensis Comitatus in Dioecesi<note place="foot" xml:id="ftn10" n="10">§ 16: Dioecesi HS 1; Diecaesi HS 2.</note>Tridentina, atque ab ora Benaci, ob aquarum Scaturiginibus Lymphano<note place="foot" xml:id="ftn11" n="11">§ 16: Lijmphano HS
+                        1; Lymphano HS 2.</note>appellata, ad Sarcocaenium, quod est diversorium
+                medioque fere itinere Arco Tridentum protenditur.</p>
+        <p n="6">(17) Comitatum Arci annexasque Naci et Dedriae ditiones sepiunt ab Austro Ripenses,
                 vertices montis Brennonij, Benacus, Veronenses communitatesque Brentonici per iuga
-                Montis Baldi, Murij<note place="foot" xml:id="ftn12" n="12">
-                        § 17: Nurij HS 1; Murii HS 2.</note> et Tyerni<note place="foot" xml:id="ftn13" n="13"> § 17: Thijerni HS 1; Tyerni HS
-                        2.</note> ad Baldi radices, quae ortum spectant: (18) ab Oriente
+                Montis Baldi, Murij<note place="foot" xml:id="ftn12" n="12">§ 17: Nurij HS 1; Murii HS 2.</note>et Tyerni<note place="foot" xml:id="ftn13" n="13">§ 17: Thijerni HS 1; Tyerni HS
+                        2.</note>ad Baldi radices, quae ortum spectant: (18) ab Oriente
                 Castrobarcenses cum lacus Sancti Andreae parte, que extra controversiam est, atque
                 inde per alpium dorsum supra Castellinum: (19) Deinceps Comitum Lodronij ditio,
                 Castellani populus aliaeque Vallis Laderanae gentes: (20) à Septentrione Vallis
-                Cavedini, Callavini<note place="foot" xml:id="ftn14" n="14">
-                        § 20: Collavini HS 1; Callavini HS 2.</note> et Madrutium: (21) ab
-                occasu ditio Thennensis, Ballini<note place="foot" xml:id="ftn15" n="15"> § 21: Badini HS 1; Ballini HS 2.</note> montana,
+                Cavedini, Callavini<note place="foot" xml:id="ftn14" n="14">§ 20: Collavini HS 1; Callavini HS 2.</note>et Madrutium: (21) ab
+                occasu ditio Thennensis, Ballini<note place="foot" xml:id="ftn15" n="15">§ 21: Badini HS 1; Ballini HS 2.</note>montana,
                 hinc vallis Lomasoni Iudicariae exterioris, nempe Lomasij gens et montana iuga,
-                    quae<note place="foot" xml:id="ftn16" n="16"> § 21: quae
-                        HS 1; qua HS 2. </note> per saltum Comandoni<note place="foot" xml:id="ftn17" n="17"> § 21: Comandeni HS 1; Comandoni
-                        HS 2.</note> sive Comalij, per Casalis declivia ad Sarcae cauponam
-                descenditur. (22) Is est ad Sexaginta milia<note place="foot" xml:id="ftn18" n="18"> § 22: Millia HS 1; millia HS 2. corr.:
-                    milia</note> passuum ambitus. </p>
-            <p n="7">(23) Inter hos igitur limites in aequata<note place="foot" xml:id="ftn19" n="19">
-                § 23: aequatata HS 1; aequata HS 2.</note> agri
+                    quae<note place="foot" xml:id="ftn16" n="16">§ 21: quae
+                        HS 1; qua HS 2.</note>per saltum Comandoni<note place="foot" xml:id="ftn17" n="17">§ 21: Comandeni HS 1; Comandoni
+                        HS 2.</note>sive Comalij, per Casalis declivia ad Sarcae cauponam
+                descenditur. (22) Is est ad Sexaginta milia<note place="foot" xml:id="ftn18" n="18">§ 22: Millia HS 1; millia HS 2. corr.:
+                    milia</note>passuum ambitus.</p>
+        <p n="7">(23) Inter hos igitur limites in aequata<note place="foot" xml:id="ftn19" n="19">§ 23: aequatata HS 1; aequata HS 2.</note>agri
                 planitie Arcensis Comitatus iacet: (24) ipsum autem oppidum ita Montis ad circiter
-                mille passus imas radices ambit, ut merito ARCVS non<note place="foot" xml:id="ftn20" n="20"> § 24: non
-                        delendum est, ut sententia recta sit.</note> aut veteri vocabulo Burgus
+                mille passus imas radices ambit, ut merito ARCVS non<note place="foot" xml:id="ftn20" n="20">§ 24: non
+                        delendum est, ut sententia recta sit.</note>aut veteri vocabulo Burgus
                 appellandus esse conformes, qui tamquam<note place="foot" xml:id="ftn21" n="21">
-            <p rend="footnote text"> § 24: tamque HS 1; tamquam HS 2.</p>
-          </note> amplo in
-                theatro collocatus omnes sibi subditos populos unico quasi<note place="foot" xml:id="ftn22" n="22"> § 24: in rasura: qasi HS
-                    1.</note> intuitu conspicit. (25) Dexterum latus tenent Romartioli<note place="foot" xml:id="ftn23" n="23"> § 25: in rasura:
+            <p rend="footnote text">§ 24: tamque HS 1; tamquam HS 2.</p>
+          </note>amplo in
+                theatro collocatus omnes sibi subditos populos unico quasi<note place="foot" xml:id="ftn22" n="22">§ 24: in rasura: qasi HS
+                    1.</note>intuitu conspicit. (25) Dexterum latus tenent Romartioli<note place="foot" xml:id="ftn23" n="23">§ 25: in rasura:
                         Romarsioli HS 1.</note>, sinistrum vero Transarcani cum Nacensibus
-                tuentur, e conspectu Arcense arvum<note place="foot" xml:id="ftn24" n="24">
-                    § 25: arcuum HS 1; arvum HS 2.</note> protenditur,
-                à tergo vero Cenichini<note place="foot" xml:id="ftn25" n="25">
-                    § 25: Ceniechini HS 1; Cenichini HS 2.</note>,
-                Drodij ac Dedrienses<note place="foot" xml:id="ftn26" n="26"> § 25: Derienses HS 1; Dedrienses HS 2.</note> claudunt. </p>
-            <p n="8">(26) Haec autem regio quamquam pluribus alijs est magnitudine inferior: (27) aeris
+                tuentur, e conspectu Arcense arvum<note place="foot" xml:id="ftn24" n="24">§ 25: arcuum HS 1; arvum HS 2.</note>protenditur,
+                à tergo vero Cenichini<note place="foot" xml:id="ftn25" n="25">§ 25: Ceniechini HS 1; Cenichini HS 2.</note>,
+                Drodij ac Dedrienses<note place="foot" xml:id="ftn26" n="26">§ 25: Derienses HS 1; Dedrienses HS 2.</note>claudunt.</p>
+        <p n="8">(26) Haec autem regio quamquam pluribus alijs est magnitudine inferior: (27) aeris
                 tamen salubritate, aquarum puritate, piscium copia, et omnigeno aucupij et
-                venationis pomorumque genere, atque olei vinique<note place="foot" xml:id="ftn27" n="27"> § 27: in rasura: u HS 1.</note> ubertate
+                venationis pomorumque genere, atque olei vinique<note place="foot" xml:id="ftn27" n="27">§ 27: in rasura: u HS 1.</note>ubertate
                 plurimis est superior. (28) Hic Coelum densum aut caligine obsitum numquam
                 offunditur: si qua dies ningit, humus semper vernans et herbida paucas horas, ne
-                dicam dies, nives ferre solet. (29) Hic tota fere hyems<note place="foot" xml:id="ftn28" n="28"> § 29: hijems HS 1; hyems HS
-                        2.</note> sole nitet, qui, ut primum<note place="foot" xml:id="ftn29" n="29"> § 29: utquam HS 1; ut primum HS 2.</note> se
-                se attollit, totam hanc ferme<note place="foot" xml:id="ftn30" n="30"> § 29: ferme! HS 1.</note> plagam lustrat
+                dicam dies, nives ferre solet. (29) Hic tota fere hyems<note place="foot" xml:id="ftn28" n="28">§ 29: hijems HS 1; hyems HS
+                        2.</note>sole nitet, qui, ut primum<note place="foot" xml:id="ftn29" n="29">§ 29: utquam HS 1; ut primum HS 2.</note>se
+                se attollit, totam hanc ferme<note place="foot" xml:id="ftn30" n="30">§ 29: ferme! HS 1.</note>plagam lustrat
                 . (30)
                 Frigora, quae circumquaque maxima esse solent, hic nulla saeviunt, caligines glaciales
-                nullae, ventorum rabies nulla, sed frigoris ea est lenitas, ut summa hyeme<note place="foot" xml:id="ftn31" n="31"> § 30: hijeme HS 1;
-                        hyeme HS 2.</note> agricolae à decerpendis oleis, vitibus putandis<note place="foot" xml:id="ftn32" n="32"> § 30: pubandis HS 1;
-                        putandis HS 2.</note> (utrisque<note place="foot" xml:id="ftn33" n="33"> § 30: utrisque HS 1; ubrisque HS 2.</note>
-                    plurimum<note place="foot" xml:id="ftn34" n="34"> § 30:
-                        plurimis HS 1; plurimum HS 2.</note> abundat regio)
-            <pb xml:id="F1v"/> minime deterreantur: (31) intra vero municipij moenia adeo remissa ac mitis est
+                nullae, ventorum rabies nulla, sed frigoris ea est lenitas, ut summa hyeme<note place="foot" xml:id="ftn31" n="31">§ 30: hijeme HS 1;
+                        hyeme HS 2.</note>agricolae à decerpendis oleis, vitibus putandis<note place="foot" xml:id="ftn32" n="32">§ 30: pubandis HS 1;
+                        putandis HS 2.</note>(utrisque<note place="foot" xml:id="ftn33" n="33">§ 30: utrisque HS 1; ubrisque HS 2.</note>plurimum<note place="foot" xml:id="ftn34" n="34">§ 30:
+                        plurimis HS 1; plurimum HS 2.</note>abundat regio)<pb xml:id="F1v"/>minime deterreantur: (31) intra vero municipij moenia adeo remissa ac mitis est
                 frigoris vis, ut eam vel minime sentias vel minime facias. (32) Salviarum tumuli,
                 rosmarinorum sepes, Laurorum frequentia, olearum circumfusa copia speciem gratissimi
-                ac perpetui veris semper perseferunt<note place="foot" xml:id="ftn35" n="35">
-                    § 32: perseferunt HS 1; praseferunt HS 2.</note>.
+                ac perpetui veris semper perseferunt<note place="foot" xml:id="ftn35" n="35">§ 32: perseferunt HS 1; praseferunt HS 2.</note>.
                 (33) Ipsis vix Cerealibus actis in hortis statim crescunt olera, vivent petroselina,
                 densantur lactucae, crispantur Brassicae, dilatantur Betae, surgunt asparagi, germinant
-                    fenicula<note place="foot" xml:id="ftn36" n="36"> § 33:
-                        faenicula HS 1; fenicula HS 2.</note>, nascuntur Dragunculi<note place="foot" xml:id="ftn37" n="37"> § 33: Dragunculi HS
-                        1; aragunculi HS 2.</note>, quos<note place="foot" xml:id="ftn38" n="38"> § 33: quot HS 1; quos HS 2.</note> sequitur
-                grata Iaccho, at ingrata Phoebo<note place="foot" xml:id="ftn39" n="39">
-                    § 33: Phebo HS 1; Phoebo HS 2.</note> cinara. </p>
-            <p n="9">(34) Sed quid de floribus? (35) Hic albent lilia<note place="foot" xml:id="ftn40" n="40"> § 35: lillia HS 1; lilia HS 2.</note>,
-                subrubent narcissi, fulgent hyacinthi<note place="foot" xml:id="ftn41" n="41">
-                    § 35: hiacijnthi HS 1; hyacinthi HS 2.</note>,
+                    fenicula<note place="foot" xml:id="ftn36" n="36">§ 33:
+                        faenicula HS 1; fenicula HS 2.</note>, nascuntur Dragunculi<note place="foot" xml:id="ftn37" n="37">§ 33: Dragunculi HS
+                        1; aragunculi HS 2.</note>, quos<note place="foot" xml:id="ftn38" n="38">§ 33: quot HS 1; quos HS 2.</note>sequitur
+                grata Iaccho, at ingrata Phoebo<note place="foot" xml:id="ftn39" n="39">§ 33: Phebo HS 1; Phoebo HS 2.</note>cinara.</p>
+        <p n="9">(34) Sed quid de floribus? (35) Hic albent lilia<note place="foot" xml:id="ftn40" n="40">§ 35: lillia HS 1; lilia HS 2.</note>,
+                subrubent narcissi, fulgent hyacinthi<note place="foot" xml:id="ftn41" n="41">§ 35: hiacijnthi HS 1; hyacinthi HS 2.</note>,
                 pallent violae, panduntur rosae, splendent violaria leucoiaque, tum alba, tum punicea,
-                luteaque ac mixta, et (quod mirum est) cum albis rubea et<note place="foot" xml:id="ftn42" n="42"> § 35: in rasura: a HS
-                    1.</note> cum puniceis mixta eodem in caespite<note place="foot" xml:id="ftn43" n="43"> § 35: cespite HS 1; cespite HS 2.
-                        Corr.: caespite.</note> nullo cultu in ipsis et collibus et montium
-                    crepidinibus<note place="foot" xml:id="ftn44" n="44"> §
-                        35: in rasura: pr HS 1.</note> proveniunt. (36) Id etiam mirari est in
-                ipsis caryophyllis<note place="foot" xml:id="ftn45" n="45">
-                        § 36: cariophijllis HS 1; cariophylis HS 2. Corr.: caryophyllis.</note>
-                vernaculis, quorum non modo rubei, albi et punicei tam mira suavitate ac
-                pulchritudine in hortis conspiciantur, ut Nympharum manu cultos<note place="foot" xml:id="ftn46" n="46"> § 36: custos HS 1; cultos HS 2.</note> esse existimes. </p>
-            <p n="10">(37) Foecundi<note place="foot" xml:id="ftn47" n="47"> § 37:
-                        Faecundi HS 1; Foecundi HS 2.</note> item et iucundi colles viridantur
+                luteaque ac mixta, et (quod mirum est) cum albis rubea et<note place="foot" xml:id="ftn42" n="42">§ 35: in rasura: a HS
+                    1.</note>cum puniceis mixta eodem in caespite<note place="foot" xml:id="ftn43" n="43">§ 35: cespite HS 1; cespite HS 2.
+                        Corr.: caespite.</note>nullo cultu in ipsis et collibus et montium
+                    crepidinibus<note place="foot" xml:id="ftn44" n="44">§
+                        35: in rasura: pr HS 1.</note>proveniunt. (36) Id etiam mirari est in
+                ipsis caryophyllis<note place="foot" xml:id="ftn45" n="45">§ 36: cariophijllis HS 1; cariophylis HS 2. Corr.: caryophyllis.</note>vernaculis, quorum non modo rubei, albi et punicei tam mira suavitate ac
+                pulchritudine in hortis conspiciantur, ut Nympharum manu cultos<note place="foot" xml:id="ftn46" n="46">§ 36: custos HS 1; cultos HS 2.</note>esse existimes.</p>
+        <p n="10">(37) Foecundi<note place="foot" xml:id="ftn47" n="47">§ 37:
+                        Faecundi HS 1; Foecundi HS 2.</note>item et iucundi colles viridantur
                 oleis et florentibus fruticibus redimiti argutas et canoras aves excipiunt, quae
-                gratis et tremulis concentibus Ver mortalibus praeferunt<note place="foot" xml:id="ftn48" n="48"> § 37: praeferunt HS 1; preferunt HS 2.</note>: (38) agricolis 
+                gratis et tremulis concentibus Ver mortalibus praeferunt<note place="foot" xml:id="ftn48" n="48">§ 37: praeferunt HS 1; preferunt HS 2.</note>: (38) agricolis 
                 labores mulcent viatoribusque leniter flectunt.</p>
-            <p n="11">(39) Hic aurae placidissimae spirant et avium concentibus concordes inter tremulas
+        <p n="11">(39) Hic aurae placidissimae spirant et avium concentibus concordes inter tremulas
                 frondes ad harmoniam effluere videntur. (40) Rivuli quoque limpidissimi et
-                    garruli<note place="foot" xml:id="ftn49" n="49"> § 40:
-                        garuli HS 1; garruli HS 2.</note> ex apricis collibus in amoena pomaria
+                    garruli<note place="foot" xml:id="ftn49" n="49">§ 40:
+                        garuli HS 1; garruli HS 2.</note>ex apricis collibus in amoena pomaria
                 et viridaria defluentes querulo murmure canentibus avibus et ludentibus auris non
-                minimam gratiam afferunt, (41) quare Aestatem autem<note place="foot" xml:id="ftn50" n="50"> § 41: aut HS 1; autem HS 2.</note> hic
+                minimam gratiam afferunt, (41) quare Aestatem autem<note place="foot" xml:id="ftn50" n="50">§ 41: aut HS 1; autem HS 2.</note>hic
                 numquam experieretur gravem, sed iucundam et gratam multaque florum, fructuum,
                 cibariorum varietate refectam<note place="foot" xml:id="ftn51" n="51">§ 41: refectam HS 1; refertam HS 2.</note>,
-                vinorum frigiditate<note place="foot" xml:id="ftn52" n="52">
-                        § 41: frigitate HS 1; frigiditate HS 2.</note> suavem et grato benigne
-                spirantium aurarum afflatu<note place="foot" xml:id="ftn53" n="53"> § 41: afflata HS 1; afflatu HS 2.</note> levem et
-                salubrem. </p>
-            <p n="12">(42) Coelum Arcense nemini non blanditur. </p>
-            <p n="13">(43) Verum enimvero sinuosus Sarcae fluminis cursus medium secans Arcense agrum non
-                    minimam<note place="foot" xml:id="ftn54" n="54"> § 43:
-                        minima HS 1; minimam HS 2.</note> huic regioni salubritatem,
-                    amoenitatem<note place="foot" xml:id="ftn55" n="55"> §
-                        43: amenitatem HS 1; amoenitatem HS 2.</note> et utilitatem affert. 
+                vinorum frigiditate<note place="foot" xml:id="ftn52" n="52">§ 41: frigitate HS 1; frigiditate HS 2.</note>suavem et grato benigne
+                spirantium aurarum afflatu<note place="foot" xml:id="ftn53" n="53">§ 41: afflata HS 1; afflatu HS 2.</note>levem et
+                salubrem.</p>
+        <p n="12">(42) Coelum Arcense nemini non blanditur.</p>
+        <p n="13">(43) Verum enimvero sinuosus Sarcae fluminis cursus medium secans Arcense agrum non
+                    minimam<note place="foot" xml:id="ftn54" n="54">§ 43:
+                        minima HS 1; minimam HS 2.</note>huic regioni salubritatem,
+                    amoenitatem<note place="foot" xml:id="ftn55" n="55">§
+                        43: amenitatem HS 1; amoenitatem HS 2.</note>et utilitatem affert. 
                 (44) Flumen id est regionis praecipuum, cujus
-                ortus est in Alpibus supra Camulos in sinu Montis Nambini, qui ad Zistulenses<note place="foot" xml:id="ftn56" n="56"> § 44: Zitulenses HS
-                        1; Zistulenses HS 2.</note> atque Clessienses pertinet, ex lacu
-                    ejusdem<note place="foot" xml:id="ftn57" n="57"> § 44:
-                        ejudem HS 1; ejusdem HS 2.</note> nominis
-                    Salmonum<note place="foot" xml:id="ftn58" n="58"> § 44:
-                        Sulmonum HS 1; Sulmonum HS 2. Corr.: Salmonum.</note> feraci
-                mollissimorum valdeque delicatorum piscium, quorum alijs flavescit<note place="foot" xml:id="ftn59" n="59"> § 44: flovescit HS 1;
+                ortus est in Alpibus supra Camulos in sinu Montis Nambini, qui ad Zistulenses<note place="foot" xml:id="ftn56" n="56">§ 44: Zitulenses HS
+                        1; Zistulenses HS 2.</note>atque Clessienses pertinet, ex lacu
+                    ejusdem<note place="foot" xml:id="ftn57" n="57">§ 44:
+                        ejudem HS 1; ejusdem HS 2.</note>nominis
+                    Salmonum<note place="foot" xml:id="ftn58" n="58">§ 44:
+                        Sulmonum HS 1; Sulmonum HS 2. Corr.: Salmonum.</note>feraci
+                mollissimorum valdeque delicatorum piscium, quorum alijs flavescit<note place="foot" xml:id="ftn59" n="59">§ 44: flovescit HS 1;
                             flavescit HS 2.</note>, alijs rubescit
-                venter. (45) Hos Plinius Marinis omnibus praefert. </p>
-            <p n="14">(46) Hinc igitur haud procul à Campilio, quod olim in infirmorum et Peregrinorum usum
-                    Xenodochium<note place="foot" xml:id="ftn60" n="60"> §
-                        46: Xenodochiam HS 1; Xenodochium HS 2.</note> ditissimum erat, cum Delubro Deiparae Virgini dicato, nunc vero in
-                    Cauponam<note place="foot" xml:id="ftn61" n="61"> § 46:
-                        Capuonam HS 1; Cauponam HS 2.</note> versum, tenuis rivus e lacu Nambino
-                effluit, quem accolae Sarcam Campiliensem vocant. (47) Per Campilium<note place="foot" xml:id="ftn62" n="62"> § 47: Camplium HS 1;
-                        Campilium HS 2.</note> transit, inde per abruptos saxorum anfractus
-                atque inter iniquissimos colles in planitiem<note place="foot" xml:id="ftn63" n="63"> § 47: Planiciem HS 1; planitiem HS 2.</note> delapsus ab occasu alio rivo
+                venter. (45) Hos Plinius Marinis omnibus praefert.</p>
+        <p n="14">(46) Hinc igitur haud procul à Campilio, quod olim in infirmorum et Peregrinorum usum
+                    Xenodochium<note place="foot" xml:id="ftn60" n="60">§
+                        46: Xenodochiam HS 1; Xenodochium HS 2.</note>ditissimum erat, cum Delubro Deiparae Virgini dicato, nunc vero in
+                    Cauponam<note place="foot" xml:id="ftn61" n="61">§ 46:
+                        Capuonam HS 1; Cauponam HS 2.</note>versum, tenuis rivus e lacu Nambino
+                effluit, quem accolae Sarcam Campiliensem vocant. (47) Per Campilium<note place="foot" xml:id="ftn62" n="62">§ 47: Camplium HS 1;
+                        Campilium HS 2.</note>transit, inde per abruptos saxorum anfractus
+                atque inter iniquissimos colles in planitiem<note place="foot" xml:id="ftn63" n="63">§ 47: Planiciem HS 1; planitiem HS 2.</note>delapsus ab occasu alio rivo
                 Sarca Nambroni noncupato<note place="foot" xml:id="ftn64" n="64">§ 47: noncupat HS 1; nucupato
-                        &gt; HS 2.</note> prope pontem cinguli augetur. (48) Cingula vocant
+                        &gt; HS 2.</note>prope pontem cinguli augetur. (48) Cingula vocant
                 indigenae scopulos, rupes et inacessas crepidines vel nuda montium latera atque
-                ramenta. </p>
-            <p n="15">(49) Hinc meridiem versus labitur per Rhendenenses et apud Pinceolum amnem recipit,
+                ramenta.</p>
+        <p n="15">(49) Hinc meridiem versus labitur per Rhendenenses et apud Pinceolum amnem recipit,
                 qui ex Genvensi valle Sarcae ibidem nomen affert. (50) Aliquanto inferius inter vicos
-                Burciacum atque Pellucum amniculos<note place="foot" xml:id="ftn65" n="65"> § 50: anriculos HS 1; amniculos HS 2.</note>
-                nomine Betulium<note place="foot" xml:id="ftn66" n="66"> §
-                        50: Betuliam HS 1; Betulium HS 2.</note> et qui Sancti Valentini refert
-                    Irvetarum<note place="foot" xml:id="ftn67" n="67"> § 50:
-                        Irvetarum HS 1; Iroctarum HS 2. </note> feraces excipit. (51) Infra
+                Burciacum atque Pellucum amniculos<note place="foot" xml:id="ftn65" n="65">§ 50: anriculos HS 1; amniculos HS 2.</note>nomine Betulium<note place="foot" xml:id="ftn66" n="66">§
+                        50: Betuliam HS 1; Betulium HS 2.</note>et qui Sancti Valentini refert
+                    Irvetarum<note place="foot" xml:id="ftn67" n="67">§ 50:
+                        Irvetarum HS 1; Iroctarum HS 2.</note>feraces excipit. (51) Infra
                 Verdasinam torrentem Finalem admittit: quem ita appellari arbitror, quod
-                    Rhendenensium<note place="foot" xml:id="ftn68" n="68"> §
-                        51: Rhenendenensium HS 1; Rhendenensium HS 2.</note> 
-                limites a Tyonensibus<note place="foot" xml:id="ftn69" n="69"> § 51: Thijonensibus HS 1; Tyonensibus HS 2.</note>
-                submoveat. (52) Ab ortu pariter multi rivuli accretionem<note place="foot" xml:id="ftn70" n="70">
-                    § 52: accressionem HS 1; accretionem HS 2.</note> afferunt, praesertim vero Vitulinus et
-                Franconiger. (53) Quum ad <pb xml:id="F2r"/> Tyonenses<note place="foot" xml:id="ftn71" n="71"> § 53:
-                        Thijonenses HS 1; Tyonenses HS 2.</note>
-                ventum est, in ortum flectit atque Arnodum aquis prope aequalem<note place="foot" xml:id="ftn72" n="72"> § 53: equalem HS 1; aequalem
-                        HS 2.</note> rapidum ac propter saxorum moles vorticosum suscipit. (54)
-                    Dehinc<note place="foot" xml:id="ftn73" n="73"> § 54:
-                            Deihinc HS 1; Dehinc HS 2.</note> Provorium praeterlapsus la Mallea da
-                Stenico, Bletios ac<note place="foot" xml:id="ftn74" n="74">
-                        § 54:  a HS 1;
-                        ac HS 2.</note> Lomasios à Banalensibus separat atque inter
-                    extensos<note place="foot" xml:id="ftn75" n="75"> § 54:
+                    Rhendenensium<note place="foot" xml:id="ftn68" n="68">§
+                        51: Rhenendenensium HS 1; Rhendenensium HS 2.</note>limites a Tyonensibus<note place="foot" xml:id="ftn69" n="69">§ 51: Thijonensibus HS 1; Tyonensibus HS 2.</note>submoveat. (52) Ab ortu pariter multi rivuli accretionem<note place="foot" xml:id="ftn70" n="70">§ 52: accressionem HS 1; accretionem HS 2.</note>afferunt, praesertim vero Vitulinus et
+                Franconiger. (53) Quum ad<pb xml:id="F2r"/>Tyonenses<note place="foot" xml:id="ftn71" n="71">§ 53:
+                        Thijonenses HS 1; Tyonenses HS 2.</note>ventum est, in ortum flectit atque Arnodum aquis prope aequalem<note place="foot" xml:id="ftn72" n="72">§ 53: equalem HS 1; aequalem
+                        HS 2.</note>rapidum ac propter saxorum moles vorticosum suscipit. (54)
+                    Dehinc<note place="foot" xml:id="ftn73" n="73">§ 54:
+                            Deihinc HS 1; Dehinc HS 2.</note>Provorium praeterlapsus la Mallea da
+                Stenico, Bletios ac<note place="foot" xml:id="ftn74" n="74">§ 54:  a HS 1;
+                        ac HS 2.</note>Lomasios à Banalensibus separat atque inter
+                    extensos<note place="foot" xml:id="ftn75" n="75">§ 54:
                         extesos HS 1; exesos HS 2. Corr.:
-                        extensos.</note> et praeruptos montes spumosus et mirabundus per subiecta
-                saxa ingenti strepitu cadit coarctaturque in profundissima<note place="foot" xml:id="ftn76" n="76"> § 54: profondissima HS 1;
-                        profundissima HS 2.</note> valle surgentibus hinc inde editissimis
+                        extensos.</note>et praeruptos montes spumosus et mirabundus per subiecta
+                saxa ingenti strepitu cadit coarctaturque in profundissima<note place="foot" xml:id="ftn76" n="76">§ 54: profondissima HS 1;
+                        profundissima HS 2.</note>valle surgentibus hinc inde editissimis
                 montibus, quorum latera nuda atque inacessa magno cum terrore asperrima Casalis iuga
-                superantium conspiciuntur, (55) donec<note place="foot" xml:id="ftn77" n="77">
-                    § 55: Donec HS 1; donec HS 2.</note> ad
-                Sarcocaenium erumpens, ubi ligneo Ponte coniungitur<note place="foot" xml:id="ftn78" n="78"> § 55: in rasura: ingitur HS 1. </note>, in
-                    Meridiem<note place="foot" xml:id="ftn79" n="79"> § 55:
-                        Maridiem HS 1; meridiem HS 2.</note> curvatur susceptoque ab oriente
+                superantium conspiciuntur, (55) donec<note place="foot" xml:id="ftn77" n="77">§ 55: Donec HS 1; donec HS 2.</note>ad
+                Sarcocaenium erumpens, ubi ligneo Ponte coniungitur<note place="foot" xml:id="ftn78" n="78">§ 55: in rasura: ingitur HS 1.</note>, in
+                    Meridiem<note place="foot" xml:id="ftn79" n="79">§ 55:
+                        Maridiem HS 1; meridiem HS 2.</note>curvatur susceptoque ab oriente
                 amne, qui e Tobliacensi lacu effunditur, recta Drodum contendit: (56) ibi ex
-                quadratis lapidibus ponte suscipitur. (57) Multis interea ab ortu rivis augetur. </p>
-            <p n="16">(58) Hinc Arcum excurrit, ubi ad Portam Orientalem ponte<note place="foot" xml:id="ftn80" n="80"> § 57: Ponti HS 1; ponte HS
-                    2</note> ibidem quadrato lapide continetur moeniaque praeterlapsus ad tertium
+                quadratis lapidibus ponte suscipitur. (57) Multis interea ab ortu rivis augetur.</p>
+        <p n="16">(58) Hinc Arcum excurrit, ubi ad Portam Orientalem ponte<note place="foot" xml:id="ftn80" n="80">§ 57: Ponti HS 1; ponte HS
+                    2</note>ibidem quadrato lapide continetur moeniaque praeterlapsus ad tertium
                 lapidem in Benacum navigationis nullibi patiens devolvitur. (59) Is est ad
-                quadraginta milia<note place="foot" xml:id="ftn81" n="81"> §
-                        59: millia HS 1; millia HS 2. Corr.: milia.</note> passuum cursus. </p>
-            <p n="17">(60) Hanc Benacus parentem fatetur et Mincius à Scriptoribus nuncupatur, qui ad
-                    Lymphani<note place="foot" xml:id="ftn82" n="82"> § 60:
-                        Lijmphani HS 1; Lymphani HS 2.</note> Scaturigines Benacum ingressus ad
-                Pischeriam emittitur. </p>
-            <p n="18">(61) Sarca vero ea est Salubritate, ut nullibi paludosum<note place="foot" xml:id="ftn83" n="83"> § 61: palludosum HS 1; paludosum HS 2.</note> patiatur
-                alveum, sordidas nullibi algas nutriat, nullas unquam caligines emittat<note place="foot" xml:id="ftn84" n="84"> § 61: emittet HS 1;
-                            emittat HS 2.</note> ea amoenitate, ut
-                à parte Drodiorum ad ipsum usque Benacum multiiuga arborum corona saepta<note place="foot" xml:id="ftn85" n="85"> § 61: in rasura: spe
-                        HS 1; septa HS 1; septa HS 2. Corr.: saepta.</note> inter viridantium
-                pratorum ripas grate sonanti murmure fluat. </p>
-            <p n="19">(62) Fecunditatem<note place="foot" xml:id="ftn86" n="86"> §
-                        62: Foecunditate HS 1; Foecunditatem HS 2. Corr.: Fecunditatem.</note>
-                quidem summa cum utilitate coniunctam satis unquam laudabit nemo: (63) sapidissimos
+                quadraginta milia<note place="foot" xml:id="ftn81" n="81">§
+                        59: millia HS 1; millia HS 2. Corr.: milia.</note>passuum cursus.</p>
+        <p n="17">(60) Hanc Benacus parentem fatetur et Mincius à Scriptoribus nuncupatur, qui ad
+                    Lymphani<note place="foot" xml:id="ftn82" n="82">§ 60:
+                        Lijmphani HS 1; Lymphani HS 2.</note>Scaturigines Benacum ingressus ad
+                Pischeriam emittitur.</p>
+        <p n="18">(61) Sarca vero ea est Salubritate, ut nullibi paludosum<note place="foot" xml:id="ftn83" n="83">§ 61: palludosum HS 1; paludosum HS 2.</note>patiatur
+                alveum, sordidas nullibi algas nutriat, nullas unquam caligines emittat<note place="foot" xml:id="ftn84" n="84">§ 61: emittet HS 1;
+                            emittat HS 2.</note>ea amoenitate, ut
+                à parte Drodiorum ad ipsum usque Benacum multiiuga arborum corona saepta<note place="foot" xml:id="ftn85" n="85">§ 61: in rasura: spe
+                        HS 1; septa HS 1; septa HS 2. Corr.: saepta.</note>inter viridantium
+                pratorum ripas grate sonanti murmure fluat.</p>
+        <p n="19">(62) Fecunditatem<note place="foot" xml:id="ftn86" n="86">§
+                        62: Foecunditate HS 1; Foecunditatem HS 2. Corr.: Fecunditatem.</note>quidem summa cum utilitate coniunctam satis unquam laudabit nemo: (63) sapidissimos
                 haec Pisces affatim alit, et praeter ceteros Torrentinas, quas
                 &gt; roctas vocant, saporas, molles neque omnino dissimiles Carpionibus, qui in
                 Benaco tantum proveniunt, caeterorum omnium piscium celeberrimis, de quibus hoc
-                carmen à lepido Poeta olim me audivisse memini: </p>
-            <p n="20">(64) Carpio non ullis generosus pascitur herbis;</p>
-            <p n="21">Sed capit auratos fulva metalla cibos.</p>
-            <p n="22">(65) Producit item capitones seu fluviatiles mugiles<note place="foot" xml:id="ftn87" n="87"> § 65: in rasura: g HS 1.</note> divitum
+                carmen à lepido Poeta olim me audivisse memini:</p>
+        <p n="20">(64) Carpio non ullis generosus pascitur herbis;</p>
+        <p n="21">Sed capit auratos fulva metalla cibos.</p>
+        <p n="22">(65) Producit item capitones seu fluviatiles mugiles<note place="foot" xml:id="ftn87" n="87">§ 65: in rasura: g HS 1.</note>divitum
                 mensarum delicias, Lucios, Mullos barbatos, Anguillas et alia innumera Piscium
-                genera. (66) Fluvius hic haud gelu clauditur, quare nullo numquam tempore<note place="foot" xml:id="ftn88" n="88"> § 66: tempere HS 1;
-                        tempore HS 2. </note> in eo pisces capiuntur. </p>
-            <p n="23">(67) Deducuntur autem ex Sarcae<note place="foot" xml:id="ftn89" n="89">§ 67: Sarca HS 1; Sarca HS 2. Corr.:
-                    Sarcae.</note> alveo rivi copiosas aquas agentes, quorum unus regioni
+                genera. (66) Fluvius hic haud gelu clauditur, quare nullo numquam tempore<note place="foot" xml:id="ftn88" n="88">§ 66: tempere HS 1;
+                        tempore HS 2.</note>in eo pisces capiuntur.</p>
+        <p n="23">(67) Deducuntur autem ex Sarcae<note place="foot" xml:id="ftn89" n="89">§ 67: Sarca HS 1; Sarca HS 2. Corr.:
+                    Sarcae.</note>alveo rivi copiosas aquas agentes, quorum unus regioni
                 transarcanae irrigandae operam praebet; (68) alter intra Oppidi Moenia admissus in duas
-                partes secatur universoque fere Arcensium et Romartiolorum agro aquas impertit<note place="foot" xml:id="ftn90" n="90"> § 68: imperdit HS 1;
+                partes secatur universoque fere Arcensium et Romartiolorum agro aquas impertit<note place="foot" xml:id="ftn90" n="90">§ 68: imperdit HS 1;
                         impertit HS 2.</note>; (69) tertius supra Turbulas erutus in Benacum
-                emittitur. </p>
-            <p n="24">(70) Super hos autem rivos plura sunt<note place="foot" xml:id="ftn91" n="91">
-                § 70: in rasura: sont HS 1.</note> constructa
-                edificia, nempe pistrina<note place="foot" xml:id="ftn92" n="92">§ 70: pistrina HS 1; pristina HS 2.</note> cum
-                pluribus molis frumentarijs, quorum aliquot<note place="foot" xml:id="ftn93" n="93"> § 70: aliquod HS 1; aliquot HS 2.</note> ex
+                emittitur.</p>
+        <p n="24">(70) Super hos autem rivos plura sunt<note place="foot" xml:id="ftn91" n="91">§ 70: in rasura: sont HS 1.</note>constructa
+                edificia, nempe pistrina<note place="foot" xml:id="ftn92" n="92">§ 70: pistrina HS 1; pristina HS 2.</note>cum
+                pluribus molis frumentarijs, quorum aliquot<note place="foot" xml:id="ftn93" n="93">§ 70: aliquod HS 1; aliquot HS 2.</note>ex
                 lapide secto structa sunt, pilae hordeaceae, ferrariae officine, serra quoque dentata,
                 qua ingentes arborum trunci in asseres secantur, trapeta, quibus olee teruntur cum
-                    prelis<note place="foot" xml:id="ftn94" n="94"> § 70:
+                    prelis<note place="foot" xml:id="ftn94" n="94">§ 70:
                         prelis HS 1; praelis HS 2. Corr.: prelis.</note>, quibus exprimuntur;
                 (71) itemque Rhombus sericarius operose constructus, cui infectoria officina
                 adheret. (72) Aliae plurimaeque domus, in quibus coria conficiuntur: (73) haec de
-                    aquis<note place="foot" xml:id="ftn95" n="95"> § 73:
-                        aqus HS 1; aquis HS 2. </note>. </p>
-            <p n="25">(74) Dulcissimi ac iucunde olentis olei, et quantum sibi satis est, atque in plures
-                Germaniae partes deferendum fert Arcensis plaga. </p>
-            <p n="26">(75) Vina vero quam hic suavia, quam pretiosa<note place="foot" xml:id="ftn96" n="96"> § 75: praetiosa HS 1;
-                        pretiosa HS 2. Corr.: pretiosa.</note> feruntur! (76) Neque Massicis
+                    aquis<note place="foot" xml:id="ftn95" n="95">§ 73:
+                        aqus HS 1; aquis HS 2.</note>.</p>
+        <p n="25">(74) Dulcissimi ac iucunde olentis olei, et quantum sibi satis est, atque in plures
+                Germaniae partes deferendum fert Arcensis plaga.</p>
+        <p n="26">(75) Vina vero quam hic suavia, quam pretiosa<note place="foot" xml:id="ftn96" n="96">§ 75: praetiosa HS 1;
+                        pretiosa HS 2. Corr.: pretiosa.</note>feruntur! (76) Neque Massicis
                 neque Falernis aut quibusvis alijs celebrioribus invidemus. (77) Praedicent hi, qui
-                vel semel delibaverunt<note place="foot" xml:id="ftn97" n="97">
-                    § 77: delibarunt HS 1; delibarunt HS 2. Corr.:
+                vel semel delibaverunt<note place="foot" xml:id="ftn97" n="97">§ 77: delibarunt HS 1; delibarunt HS 2. Corr.:
                         delibaverunt.</note>. (78) De Arcensium mero Scipio à Castro vir
                 omnigena eruditione insignis ad Rodericum à Castro in haec verba scribit: (79)
                 „Hoc tempore, quamvis sit initium Decembris, in Paradiso
-                    terrestri dego, nempe<note place="foot" xml:id="ftn98" n="98"> § 79: in
-                                rasura: nm HS 1.</note> ARCI, ubi
-                    adulta hyeme<note place="foot" xml:id="ftn99" n="99"> § 79: hijeme
-                                HS 1; hyeme HS 2.</note> florum,
-                    fructuum et Coeli temperatissimi <pb xml:id="F2v"/> perenni vere perfruimur. (80) Hic
-                    nulla<note place="foot" xml:id="ftn100" n="100"> § 80: Hic vocabulum nulla deest HS 1; nulla HS
-                        2.</note> ventorum asperitas, hic nullus
+                    terrestri dego, nempe<note place="foot" xml:id="ftn98" n="98">§ 79: in
+                                rasura: nm HS 1.</note>ARCI, ubi
+                    adulta hyeme<note place="foot" xml:id="ftn99" n="99">§ 79: hijeme
+                                HS 1; hyeme HS 2.</note>florum,
+                    fructuum et Coeli temperatissimi<pb xml:id="F2v"/>perenni vere perfruimur. (80) Hic
+                    nulla<note place="foot" xml:id="ftn100" n="100">§ 80: Hic vocabulum nulla deest HS 1; nulla HS
+                        2.</note>ventorum asperitas, hic nullus
                     nivium rigor. (81) Hic omnium suavissimi ac
                     praestantissimi vini, quod à quovis unquam vel Graeco vel Latino scriptore
                     celebratum fuerit, copia incredibilis: (82) Hic arvorum,
                     montium et fluminum uberrimae venationes. (83)
-                    Protenditur Comitatus Arci usque amoenissimi Benaci caput.” (84) Haec ille. </p>
-            <p n="27">(85) Bobus iugatoriis, Asellis<note place="foot" xml:id="ftn101" n="101">
-                § 85: Ascellis HS 1; Asellis HS 2.</note>,
-                    Vaccis<note place="foot" xml:id="ftn102" n="102"> § 85:
-                        Vacis HS 1; Vaccis HS 2.</note> et Capris, quae lactis, casei, vitulorum
+                    Protenditur Comitatus Arci usque amoenissimi Benaci caput.” (84) Haec ille.</p>
+        <p n="27">(85) Bobus iugatoriis, Asellis<note place="foot" xml:id="ftn101" n="101">§ 85: Ascellis HS 1; Asellis HS 2.</note>,
+                    Vaccis<note place="foot" xml:id="ftn102" n="102">§ 85:
+                        Vacis HS 1; Vaccis HS 2.</note>et Capris, quae lactis, casei, vitulorum
                 atque hedorum intra annum magnam copiam prestant, abundant. (86) Ovibus ibidem, que
                 non modo lac et caseum prestantissimum atque agnos prebent, verum etiam lanas,
-                quibus optimi, tum nativi, tum varie infecti, panni conficiuntur. </p>
-            <p n="28">(87) Porro Prata, irrigua pascua et agros omnes viridaria dicas: (88) pomorum,
-                prunorum, armeniacorum, iuglandium, abellinarum, pirorum<note place="foot" xml:id="ftn103" n="103"> § 88: pijrorum HS 1; pirorum HS
-                        2.</note>, cerasorum, persicorum et ficuum omni genere, que<note place="foot" xml:id="ftn104" n="104"> § 88: in rasura:
-                        qua HS 1.</note> longum esset hic percensere, etiam secundum vias miro
-                ordine consita sunt. (89) Punicorum quattuor<note place="foot" xml:id="ftn105" n="105"> § 89: quator HS 1; quatuor HS 2. Corr.:
-                        quattuor.</note> genera et eo plura habemus. (90) Primum quidem acinos
+                quibus optimi, tum nativi, tum varie infecti, panni conficiuntur.</p>
+        <p n="28">(87) Porro Prata, irrigua pascua et agros omnes viridaria dicas: (88) pomorum,
+                prunorum, armeniacorum, iuglandium, abellinarum, pirorum<note place="foot" xml:id="ftn103" n="103">§ 88: pijrorum HS 1; pirorum HS
+                        2.</note>, cerasorum, persicorum et ficuum omni genere, que<note place="foot" xml:id="ftn104" n="104">§ 88: in rasura:
+                        qua HS 1.</note>longum esset hic percensere, etiam secundum vias miro
+                ordine consita sunt. (89) Punicorum quattuor<note place="foot" xml:id="ftn105" n="105">§ 89: quator HS 1; quatuor HS 2. Corr.:
+                        quattuor.</note>genera et eo plura habemus. (90) Primum quidem acinos
                 habet albicantes, lucidos, diamanti haud dissimiles, unde tamen subrufe fibre
-                leviter coruscant. (91) Gustui sunt<note place="foot" xml:id="ftn106" n="106">
-                    § 91: in rasura: so HS 1.</note> gratissima,
-                saporis acuti, cui dulce quid inseri<note place="foot" xml:id="ftn107" n="107"> § 91: in rasura: inseni HS
-                         1.</note> videtur: (92) haec Schlavica nuncupamus. (93) Alterum
+                leviter coruscant. (91) Gustui sunt<note place="foot" xml:id="ftn106" n="106">§ 91: in rasura: so HS 1.</note>gratissima,
+                saporis acuti, cui dulce quid inseri<note place="foot" xml:id="ftn107" n="107">§ 91: in rasura: inseni HS
+                         1.</note>videtur: (92) haec Schlavica nuncupamus. (93) Alterum
                 majus est, cui acini aliquanto majores atque nigerrimi sunt: (94) in his nihil
-                acuti, nihil austeri sentias: dulcia vocantur. </p>
-            <p n="29">(95) Tertium genus est, quod acinorum colorem a Schlavicis et dulcibus mutuatur<note place="foot" xml:id="ftn108" n="108"> § 95: mutiatur
+                acuti, nihil austeri sentias: dulcia vocantur.</p>
+        <p n="29">(95) Tertium genus est, quod acinorum colorem a Schlavicis et dulcibus mutuatur<note place="foot" xml:id="ftn108" n="108">§ 95: mutiatur
                             HS 1; mutuatur HS 2.</note>:</p>
-            <p n="30">(96) Saporis medij appellantur, nam<note place="foot" xml:id="ftn109" n="109"> § 96: kam HS 1; nam HS
-                        2.</note> et austerum et acutum cum dulci commiscent<note place="foot" xml:id="ftn110" n="110"> § 96: commmiscent HS 1; commiscent HS 2.</note>. (97) Postrema
-                sunt, quae Sylvestria<note place="foot" xml:id="ftn111" n="111"> § 97: Sijlvestria HS 1; Sylvestria HS 2.</note>
-                dicuntur; (98) haec in toto fere Comitatu<note place="foot" xml:id="ftn112" n="112"> § 98: commitatu HS 1; Comitatu HS 2.</note>
-                inter sepes, vepres et prediorum labra sua sponte nascuntur: (99) acini parvi sunt,
-                acres, austeri, exsucci<note place="foot" xml:id="ftn113" n="113"> § 99: non legi potest HS 1; exsucci HS 2.</note>,
+        <p n="30">(96) Saporis medij appellantur, nam<note place="foot" xml:id="ftn109" n="109">§ 96: kam HS 1; nam HS
+                        2.</note>et austerum et acutum cum dulci commiscent<note place="foot" xml:id="ftn110" n="110">§ 96: commmiscent HS 1; commiscent HS 2.</note>. (97) Postrema
+                sunt, quae Sylvestria<note place="foot" xml:id="ftn111" n="111">§ 97: Sijlvestria HS 1; Sylvestria HS 2.</note>dicuntur; (98) haec in toto fere Comitatu<note place="foot" xml:id="ftn112" n="112">§ 98: commitatu HS 1; Comitatu HS 2.</note>inter sepes, vepres et prediorum labra sua sponte nascuntur: (99) acini parvi sunt,
+                acres, austeri, exsucci<note place="foot" xml:id="ftn113" n="113">§ 99: non legi potest HS 1; exsucci HS 2.</note>,
                 exsangues. (100) Dentibus stuporem inducunt. (101) Hujus generis tamen alia succi
                 pleniora sunt et gustui minus ingrata, ut soli, ubi proveniunt, mitior fert natura,
                 que malorum Medicorum loco condiendis cibis aliquando
-                &gt; usui sunt. </p>
-            <p n="31">(102) Montes vero Arcensium<note place="foot" xml:id="ftn114" n="114">
-                § 102: arcenisum HS 1; Arcensium HS 2.</note> sunt
+                &gt; usui sunt.</p>
+        <p n="31">(102) Montes vero Arcensium<note place="foot" xml:id="ftn114" n="114">§ 102: arcenisum HS 1; Arcensium HS 2.</note>sunt
                 quedam Alpium Rheticarum iuga, que Benacum complexa agrum Veronensem ab ortu et
                 Brixianum ab occasu pertingunt. (103) Hi
-                    &gt; Lomasiensibus<note place="foot" xml:id="ftn115" n="115">
-                        § 103: Lomacensibus HS 1; Lomasiensibus HS
-                    2.</note> imminent: (104) illi Castri Barci et Criste<note place="foot" xml:id="ftn116" n="116"> § 104: Cricte HS 1; Criste HS
-                        2.</note> vertices cum subiectis villis spectant. (105) Fontibus<note place="foot" xml:id="ftn117" n="117"> § 105: in rasura:
-                        Sed HS 1.</note> irrigui sunt fenorum<note place="foot" xml:id="ftn118" n="118"> § 105: foenorum HS 1; fenorum HS 2.</note>
-                et segetum feraces, cerasorum, prunorum, armeniacorum fertiles. (106) Brassicas
+                    &gt; Lomasiensibus<note place="foot" xml:id="ftn115" n="115">§ 103: Lomacensibus HS 1; Lomasiensibus HS
+                    2.</note>imminent: (104) illi Castri Barci et Criste<note place="foot" xml:id="ftn116" n="116">§ 104: Cricte HS 1; Criste HS
+                        2.</note>vertices cum subiectis villis spectant. (105) Fontibus<note place="foot" xml:id="ftn117" n="117">§ 105: in rasura:
+                        Sed HS 1.</note>irrigui sunt fenorum<note place="foot" xml:id="ftn118" n="118">§ 105: foenorum HS 1; fenorum HS 2.</note>et segetum feraces, cerasorum, prunorum, armeniacorum fertiles. (106) Brassicas
                     quoque cucullatas iuste magnitudinis producentes,
-                    sylvis<note place="foot" xml:id="ftn119" n="119"> § 106:
-                        sijlvis HS 1; sylvis HS 2.</note>
-                    &gt; frequentes<note place="foot" xml:id="ftn120" n="120"> § 106: frequentas HS 1; frequentes HS 2.</note>. </p>
-            <p n="32">(107) Maximam<note place="foot" xml:id="ftn121" n="121"> §
-                        107: Maxima HS 1; Maximam HS 2.</note> ejus generis Castanearum, quas
-                    Megobalanos<note place="foot" xml:id="ftn122" n="122"> §
-                        107: Megobolanos HS 1; Megobalanos HS 2.</note> vel Diosbalanos<note place="foot" xml:id="ftn123" n="123"> § 107: ajosbalanos
-                        HS 1; Diosbalanos HS 2.</note> vocant, vulgus Maronos, abundantiam<note place="foot" xml:id="ftn124" n="124"> § 107: abundantia
-                        HS 1; abundantiam HS 2.</note> ferunt, quarum ingens copia per totam
+                    sylvis<note place="foot" xml:id="ftn119" n="119">§ 106:
+                        sijlvis HS 1; sylvis HS 2.</note>&gt; frequentes<note place="foot" xml:id="ftn120" n="120">§ 106: frequentas HS 1; frequentes HS 2.</note>.</p>
+        <p n="32">(107) Maximam<note place="foot" xml:id="ftn121" n="121">§
+                        107: Maxima HS 1; Maximam HS 2.</note>ejus generis Castanearum, quas
+                    Megobalanos<note place="foot" xml:id="ftn122" n="122">§
+                        107: Megobolanos HS 1; Megobalanos HS 2.</note>vel Diosbalanos<note place="foot" xml:id="ftn123" n="123">§ 107: ajosbalanos
+                        HS 1; Diosbalanos HS 2.</note>vocant, vulgus Maronos, abundantiam<note place="foot" xml:id="ftn124" n="124">§ 107: abundantia
+                        HS 1; abundantiam HS 2.</note>ferunt, quarum ingens copia per totam
                 fere Germaniam deportatur. (108) Lepores, Vulpes, Ursos, Lupos et alia
-                    Sylvestria<note place="foot" xml:id="ftn125" n="125"> §
-                        108: Sjlvestria HS 1; Sylvestria HS 2.</note> animalia nutriunt;
-                    Erythrotaonas<note place="foot" xml:id="ftn126" n="126">
-                        § 108: Erijthrotaonas HS 1; Erythrotaonas HS 2.</note> ex Meleagridum
-                genere, quas nonnulli Pavones Sylvestres<note place="foot" xml:id="ftn127" n="127"> § 108: Sijlvestres HS 1; Sylvestres HS
-                    2.</note> et Cetrones (ni fallor) vocitant, Rusticulas seu Scolopaces,
+                    Sylvestria<note place="foot" xml:id="ftn125" n="125">§
+                        108: Sjlvestria HS 1; Sylvestria HS 2.</note>animalia nutriunt;
+                    Erythrotaonas<note place="foot" xml:id="ftn126" n="126">§ 108: Erijthrotaonas HS 1; Erythrotaonas HS 2.</note>ex Meleagridum
+                genere, quas nonnulli Pavones Sylvestres<note place="foot" xml:id="ftn127" n="127">§ 108: Sijlvestres HS 1; Sylvestres HS
+                    2.</note>et Cetrones (ni fallor) vocitant, Rusticulas seu Scolopaces,
                 attagenes, coturnices, perdices, turdos, merulas, ficedulas et plures alias avium
-                species alunt. (109) Quibus indigene laqueis, visco, retibus, pyrobolis<note place="foot" xml:id="ftn128" n="128"> § 109: pijrobolis
+                species alunt. (109) Quibus indigene laqueis, visco, retibus, pyrobolis<note place="foot" xml:id="ftn128" n="128">§ 109: pijrobolis
                         HS 1; pyrobolis HS 2.</note>, ballistis, globiferis, flabris
-                aucupatorijs vel aucupio flatili quotidie insidiantur. (110) Cervi praeterea<note place="foot" xml:id="ftn129" n="129"> § 110: preterea HS
-                        1; praeterea HS 2.</note> nonnumquam<note place="foot" xml:id="ftn130" n="130"> § 110: nonumquam HS 1; nonnumquam HS
-                    2.</note> lynces<note place="foot" xml:id="ftn131" n="131"> § 110: lijnces HS 1; Linces HS 2. Corr.: lynces.
-                    </note> quoque visuntur. (111) Meles, Lutre, Martes, Herinacei sepe
+                aucupatorijs vel aucupio flatili quotidie insidiantur. (110) Cervi praeterea<note place="foot" xml:id="ftn129" n="129">§ 110: preterea HS
+                        1; praeterea HS 2.</note>nonnumquam<note place="foot" xml:id="ftn130" n="130">§ 110: nonumquam HS 1; nonnumquam HS
+                    2.</note>lynces<note place="foot" xml:id="ftn131" n="131">§ 110: lijnces HS 1; Linces HS 2. Corr.: lynces.</note>quoque visuntur. (111) Meles, Lutre, Martes, Herinacei sepe
                 capiuntur.</p>
-            <p n="33">(112) Habent praeterea<note place="foot" xml:id="ftn132" n="132"> § 112: preterea HS 1;
-                        etiam HS 2. Corr.: praeterea.</note> Montes isti latumias sane egregias,
+        <p n="33">(112) Habent praeterea<note place="foot" xml:id="ftn132" n="132">§ 112: preterea HS 1;
+                        etiam HS 2. Corr.: praeterea.</note>Montes isti latumias sane egregias,
                 ex quibus mire crassitudinis lapides exciduntur ad Templa et alia edificia
-                    magnificentia<note place="foot" xml:id="ftn133" n="133">
-                        § 112: manificentia HS 1; magnifico opere HS 2. Corr.:
-                    magnificentia.</note> extruenda. </p>
-            <p n="34">(113) Ferunt<note place="foot" xml:id="ftn134" n="134"> §
-                        113: Ferunt HS 1; Ferunt HS 2. </note> preterea ijdem montes
-                    Dictamnum<note place="foot" xml:id="ftn135" n="135"> §
-                        113: Dijctamum HS 1; Dyctamnum HS 2. Corr.: Dictamnum. </note>,
-                    Peoniam<note place="foot" xml:id="ftn136" n="136"> §
-                        113: Peoniam HS 1; Peoniam HS 2.</note>, Panaceam, Hypericum<note place="foot" xml:id="ftn137" n="137"> § 113: Hijpericum
-                        HS 1; Hypericum HS 2.</note>, Bryoniam<note place="foot" xml:id="ftn138" n="138"> § 113: Sirioniam HS 1; Brioniam HS 2. Corr.:
+                    magnificentia<note place="foot" xml:id="ftn133" n="133">§ 112: manificentia HS 1; magnifico opere HS 2. Corr.:
+                    magnificentia.</note>extruenda.</p>
+        <p n="34">(113) Ferunt<note place="foot" xml:id="ftn134" n="134">§
+                        113: Ferunt HS 1; Ferunt HS 2.</note>preterea ijdem montes
+                    Dictamnum<note place="foot" xml:id="ftn135" n="135">§
+                        113: Dijctamum HS 1; Dyctamnum HS 2. Corr.: Dictamnum.</note>,
+                    Peoniam<note place="foot" xml:id="ftn136" n="136">§
+                        113: Peoniam HS 1; Peoniam HS 2.</note>, Panaceam, Hypericum<note place="foot" xml:id="ftn137" n="137">§ 113: Hijpericum
+                        HS 1; Hypericum HS 2.</note>, Bryoniam<note place="foot" xml:id="ftn138" n="138">§ 113: Sirioniam HS 1; Brioniam HS 2. Corr.:
                         Bryoniam.</note>, Imperatoriam, Aristolochias, Gentianam,
-                    Euphragiam<note place="foot" xml:id="ftn139" n="139"> §
+                    Euphragiam<note place="foot" xml:id="ftn139" n="139">§
                         113: Eufragiam HS 1; Euphragiam HS 2.</note>, Scordium, centaureas,
-                    Cavalinam<note place="foot" xml:id="ftn140" n="140"> §
-                        113: Cavalinam HS 1; Cavolinam HS 2. </note>, Scorzoneram<note place="foot" xml:id="ftn141" n="141"> § 113:
+                    Cavalinam<note place="foot" xml:id="ftn140" n="140">§
+                        113: Cavalinam HS 1; Cavolinam HS 2.</note>, Scorzoneram<note place="foot" xml:id="ftn141" n="141">§ 113:
                         Scorzoneriam HS 1; Scorzoneriam HS 2. Corr.: Scorzoneram.</note>,
-                lentiscum, Lunariam Alchimistarum<note place="foot" xml:id="ftn142" n="142"> § 113: Alchimistam HS 1; Alchimistarum HS
-                    2.</note> spem, qua plurimos ex auro plumbum conficere novimus, atque alias
+                lentiscum, Lunariam Alchimistarum<note place="foot" xml:id="ftn142" n="142">§ 113: Alchimistam HS 1; Alchimistarum HS
+                    2.</note>spem, qua plurimos ex auro plumbum conficere novimus, atque alias
                 innumeras medicas herbas, quas quotannis herbarij ex tota fere Lombardia quesitum
                 accedunt. (114) Agaricum ab exteris et longinquis nationibus magnopere expetitum
                 reique Medice summe conferens in nostris ceterisque Tridentinis atque totius Rhetie
-                    sylvis<note place="foot" xml:id="ftn143" n="143"> § 114:
-                        Sijlvis HS 1; sylvis HS 2.</note> ubertim<note place="foot" xml:id="ftn144" n="144"> § 114: umberum HS 1; ubertim HS
-                        2.</note> ex laricibus provenit: (115) ex quibus etiam liquor<note place="foot" xml:id="ftn145" n="145"> § 115: liqua HS 1;
-                        liquor HS 2.</note> manat, quem<note place="foot" xml:id="ftn146" n="146"> § 115: quam HS 1; quem HS 2.</note> virium
-                similitudine seu alia <pb xml:id="F3r"/> quapiam de causa<hi rend="color(FF0000)"> Terebinthinam</hi>
-          <note place="foot" xml:id="ftn147" n="147"> § 115: Terebentinam HS 1; Terebinthinam HS 2.</note> Medici
+                    sylvis<note place="foot" xml:id="ftn143" n="143">§ 114:
+                        Sijlvis HS 1; sylvis HS 2.</note>ubertim<note place="foot" xml:id="ftn144" n="144">§ 114: umberum HS 1; ubertim HS
+                        2.</note>ex laricibus provenit: (115) ex quibus etiam liquor<note place="foot" xml:id="ftn145" n="145">§ 115: liqua HS 1;
+                        liquor HS 2.</note>manat, quem<note place="foot" xml:id="ftn146" n="146">§ 115: quam HS 1; quem HS 2.</note>virium
+                similitudine seu alia<pb xml:id="F3r"/>quapiam de causa<hi rend="color(FF0000)">Terebinthinam</hi>
+          <note place="foot" xml:id="ftn147" n="147">§ 115: Terebentinam HS 1; Terebinthinam HS 2.</note>Medici
                 vocant. (116) Abietes haud multum absimile abietinum oleum prebent. (117) Ex his
-                atque ex Pinis alijsque arboribus alburnum<note place="foot" xml:id="ftn148" n="148"> § 117: in rasura: abl HS 1.</note> sive
-                    resina prestantissima colligitur. </p>
-            <p n="35">(118) Sed libet hoc loco rem prorsus admirandam enarrare. (119) Romartioli montes
-                    Lomasiensibus<note place="foot" xml:id="ftn149" n="149">
-                        § 119: Lomacensibus HS 1; Lomasiensibus HS
-                        2.</note> conterminos habent, in quorum iugis
-                &gt; est pratum<note place="foot" xml:id="ftn150" n="150">
-                        § 119: in rasura: fontum HS 1.</note>, quod cumulorum seu metarum vulgo
+                atque ex Pinis alijsque arboribus alburnum<note place="foot" xml:id="ftn148" n="148">§ 117: in rasura: abl HS 1.</note>sive
+                    resina prestantissima colligitur.</p>
+        <p n="35">(118) Sed libet hoc loco rem prorsus admirandam enarrare. (119) Romartioli montes
+                    Lomasiensibus<note place="foot" xml:id="ftn149" n="149">§ 119: Lomacensibus HS 1; Lomasiensibus HS
+                        2.</note>conterminos habent, in quorum iugis
+                &gt; est pratum<note place="foot" xml:id="ftn150" n="150">§ 119: in rasura: fontum HS 1.</note>, quod cumulorum seu metarum vulgo
                 dictitant cujusque ad mille ducentos passus est ambitus. (120) Solent autem
                 quotannis hujusmodi prata dividi et secanda in singulas familias sorte distribui.
                 (121) In quadam igitur hujus prati parte mete seu cumuli ad viginti, alij majores,
                 alij minores, visuntur, qui nulla temporis diuturnitate, nullis aut imbribus aut
-                nivibus solui potuerunt, sed non secus ac pratum ipsum corticem obduxerunt. </p>
-            <p n="36">(122) Hujus autem rei incole eam causam afferunt, quod, cum die Assumptionis<note place="foot" xml:id="ftn151" n="151"> § 122: Assumptioni
-                            HS 1; Assumptionis HS 2.</note>
-                Virginis sacro in parte illa fenum secaretur et siccaretur in metasque
+                nivibus solui potuerunt, sed non secus ac pratum ipsum corticem obduxerunt.</p>
+        <p n="36">(122) Hujus autem rei incole eam causam afferunt, quod, cum die Assumptionis<note place="foot" xml:id="ftn151" n="151">§ 122: Assumptioni
+                            HS 1; Assumptionis HS 2.</note>Virginis sacro in parte illa fenum secaretur et siccaretur in metasque
                 ad avehendum construeretur, fenum illud in violati
-                Numinis poenam<note place="foot" xml:id="ftn152" n="152"> §
-                        122: penam HS 1; poenam HS 2.</note>
-                cortice induit, super quam<note place="foot" xml:id="ftn153" n="153"> § 122: qua HS 1; quam HS
-                        2.</note> excrevit herba<note place="foot" xml:id="ftn154" n="154"> § 122: herba HS 1; herba
+                Numinis poenam<note place="foot" xml:id="ftn152" n="152">§
+                        122: penam HS 1; poenam HS 2.</note>cortice induit, super quam<note place="foot" xml:id="ftn153" n="153">§ 122: qua HS 1; quam HS
+                        2.</note>excrevit herba<note place="foot" xml:id="ftn154" n="154">§ 122: herba HS 1; herba
                         HS 2.</note>, quamobrem inde auferri minime potuit, sed ad posteritatis
-                exemplum in diem usque hodiernam intactum perseverat, unde<note place="foot" xml:id="ftn155" n="155"> § 122: in rasura: n HS
-                    1.</note> pratum<note place="foot" xml:id="ftn156" n="156"> § 122: prato HS 1;
-                        pratum HS 2.</note> cumulorum nomen factum est.</p>
-            <p n="37">(123) Ego quidem anno MDCXXI, cum Romartioli limites suos lustrarent, in pratum illud
+                exemplum in diem usque hodiernam intactum perseverat, unde<note place="foot" xml:id="ftn155" n="155">§ 122: in rasura: n HS
+                    1.</note>pratum<note place="foot" xml:id="ftn156" n="156">§ 122: prato HS 1;
+                        pratum HS 2.</note>cumulorum nomen factum est.</p>
+        <p n="37">(123) Ego quidem anno MDCXXI, cum Romartioli limites suos lustrarent, in pratum illud
                 deveni, ubi certum est metas illas adhuc extare, easdemque egomet tenui virga
-                trajeci et festucas traiciendo<note place="foot" xml:id="ftn157" n="157"> § 123: traijciendo HS 1;
-                        traiciendo HS 2.</note> conscidi et conscendendo subsilire vidi et
+                trajeci et festucas traiciendo<note place="foot" xml:id="ftn157" n="157">§ 123: traijciendo HS 1;
+                        traiciendo HS 2.</note>conscidi et conscendendo subsilire vidi et
                 ingens saxum unius in vertice mete collocatum illam
-                 neque disiecisse neque solo equasse maxime admiratus sum. </p>
-            <p n="38">(124) Id certe summi prodigij loco habetur; (125) unde agricole discant Sacrosanctum
+                 neque disiecisse neque solo equasse maxime admiratus sum.</p>
+        <p n="38">(124) Id certe summi prodigij loco habetur; (125) unde agricole discant Sacrosanctum
                 Numen vereri festisque diebus debitum honorem habere. (126) Quod et Poeta his
-                carminibus affirmat. </p>
-            <p n="39">(127) Luce sacra requiescat humus, requiescat arator</p>
-            <p n="40">Et grave suspenso vomere cesset opus.</p>
-            <p n="41">(128) Omnia sint operata Deo, non audeat ulla</p>
-            <p n="42">Lanificam pensis imposuisse manum.</p>
-            <p n="43">(129) At nimium digressi sumus, ad rem iam redeundam est. (130) Porro in Arcensi ora
+                carminibus affirmat.</p>
+        <p n="39">(127) Luce sacra requiescat humus, requiescat arator</p>
+        <p n="40">Et grave suspenso vomere cesset opus.</p>
+        <p n="41">(128) Omnia sint operata Deo, non audeat ulla</p>
+        <p n="42">Lanificam pensis imposuisse manum.</p>
+        <p n="43">(129) At nimium digressi sumus, ad rem iam redeundam est. (130) Porro in Arcensi ora
                 atque in toto agro Tridentino scorpiones alibi nocentissimi innocui sunt: eorum enim
-                ictus nullam noxam afferunt. (131) Quod evenire asserunt<note place="foot" xml:id="ftn158" n="158"> § 131: afferunt HS 1; asserunt HS 2.</note> vel aeris
+                ictus nullam noxam afferunt. (131) Quod evenire asserunt<note place="foot" xml:id="ftn158" n="158">§ 131: afferunt HS 1; asserunt HS 2.</note>vel aeris
                 temperie, ut ferme in tota Boreali plaga, ubi ob frigoris rigorem angues et plante
                 ut plurimum exiguam ac prope invalidam veneni vim obtinent: (132) vel gratia
                 peculiari regioni à Deo impertita (ubi accole afferunt et pium est credere) precibus
                 Divi Vigilij Episcopi Tridentini a Bois olim apud Rhendenenses, dum gentilium Idola
                 ad Sarce ripam demolitur, lapidibus et encentribus obruti: (133) genus id est
                 cuspidatorum calonum, quibus Alpine gentes per montium crepidines et astrictas
-                    glacie<note place="foot" xml:id="ftn159" n="159"> § 133:
-                        in rasura: s HS 1; glacie HS 2.</note> aquas mira dexteritate
+                    glacie<note place="foot" xml:id="ftn159" n="159">§ 133:
+                        in rasura: s HS 1; glacie HS 2.</note>aquas mira dexteritate
                 gradiuntur. (134) Hunc multis miraculis clarum ut Patronum et Advocatum precipuum
-                apud Deum summa Tridentini veneratione excolunt. </p>
-            <p n="44">(135) Sed de hujus ore hominibus iam aliquid dicamus. (136) Arcenses igitur corporis
+                apud Deum summa Tridentini veneratione excolunt.</p>
+        <p n="44">(135) Sed de hujus ore hominibus iam aliquid dicamus. (136) Arcenses igitur corporis
                 atque animi viribus sunt prestantissimi, libertatis acerrimi propugnatores, linguam
-                quam plurimi Germanicam<note place="foot" xml:id="ftn160" n="160"> § 136: Germanam HS 1;
-                        Germanicam HS 2.</note> colunt<note place="foot" xml:id="ftn161" n="161"> § 136: codent HS 1;
+                quam plurimi Germanicam<note place="foot" xml:id="ftn160" n="160">§ 136: Germanam HS 1;
+                        Germanicam HS 2.</note>colunt<note place="foot" xml:id="ftn161" n="161">§ 136: codent HS 1;
                         colunt HS 2.</note>. (137) In Privilegijs et immunitatibus sartis tectis
                 conservandis cura et sollecitudo maxima. (138) Nusquam defessi concidunt. (139) Sunt
-                    manu<note place="foot" xml:id="ftn162" n="162"> § 139:
-                        munu HS 1; manu HS 2.</note> strenui et
+                    manu<note place="foot" xml:id="ftn162" n="162">§ 139:
+                        munu HS 1; manu HS 2.</note>strenui et
                 adversus quoscumque conatus et impetus ingenti robore firmissimi. (140) Pertinaci
                 labore victum subqueritant, frugi vivunt atque (ubi
                 opus fuerit)</p>
-            <p n="45">(141) Ferre famem, tolerare sitim, contemnere somnos,</p>
-            <p n="46">Dura pati didicit quilibet Arcigena.</p>
-            <p n="47">(142) Si quos in famulatu alicui herere contigerit, inconcussa fide sunt omnium
+        <p n="45">(141) Ferre famem, tolerare sitim, contemnere somnos,</p>
+        <p n="46">Dura pati didicit quilibet Arcigena.</p>
+        <p n="47">(142) Si quos in famulatu alicui herere contigerit, inconcussa fide sunt omnium
                 prestantissimi. (143) Tanta preterea est horum hominum humanitas, ut ignotos etiam,
-                et quicumque sibi offeruntur<note place="foot" xml:id="ftn163" n="163"> § 143: oferuntur HS 1; offeruntur HS 2.</note>, nedum
-                gentiles, et<note place="foot" xml:id="ftn164" n="164"> §
-                        143: in rasura: alum HS 1.</note> notos humanissimis verbis de via
-                fessos ad bibendum invitent. </p>
-            <p n="48">(144) Perspicacissimi autem sunt ingenij et ad scientias capessendas non minime
+                et quicumque sibi offeruntur<note place="foot" xml:id="ftn163" n="163">§ 143: oferuntur HS 1; offeruntur HS 2.</note>, nedum
+                gentiles, et<note place="foot" xml:id="ftn164" n="164">§
+                        143: in rasura: alum HS 1.</note>notos humanissimis verbis de via
+                fessos ad bibendum invitent.</p>
+        <p n="48">(144) Perspicacissimi autem sunt ingenij et ad scientias capessendas non minime
                 inepti, quare hec eadem regio viros semper in quacunque facultate prestantes,
-                Theologos, concionatores, Philosophos<note place="foot" xml:id="ftn165" n="165">
-                    § 144: Philosofos HS 1; Philosophos HS 2.</note>,
+                Theologos, concionatores, Philosophos<note place="foot" xml:id="ftn165" n="165">§ 144: Philosofos HS 1; Philosophos HS 2.</note>,
                 Iurisconsultos, Medicos, Litterarum Professores, Scribas seù Notarios protulit.
                 (145) Et nostris hisce temporibus ad Septuaginta, qui Divino cultui mancipati sunt,
-                Patriae ornamentum afferunt, ex<note place="foot" xml:id="ftn166" n="166">
-                    § 145: in margine: mast<add resp="editor"> ?</add>ro Pub<add resp="editor">li</add>co HS
-                    1.</note> quibus Sacerdotes ad quinquaginta, reliqui vel Clerici vel Laici,
-                tum Seculares, tum Regulares: <pb xml:id="F3v"/> (146) Sunt etiam ex his, qui summis
-                <note place="foot" xml:id="ftn167" n="167"> § 146: Sumis HS 1; summis HS 2.</note> Principibus
-                precipuam operam summa cum laude navant. </p>
-            <p n="49">(147) Ipsimet quoque agrorum cultores iudicio pollent acerrimo, quos si quando lites
-                agitare contingat<note place="foot" xml:id="ftn168" n="168">
-                        § 147: catingat HS 1; contingat HS 2.</note>. (148) (contigit autem que
-                temporum est calamitas persepe). </p>
-            <p n="50">(149) Continuo se in alicuius clientelam committunt, hunc diligentissime causas suas
+                Patriae ornamentum afferunt, ex<note place="foot" xml:id="ftn166" n="166">§ 145: in margine: mast<add resp="editor"> ?</add>ro Pub<add resp="editor">li</add>co HS
+                    1.</note>quibus Sacerdotes ad quinquaginta, reliqui vel Clerici vel Laici,
+                tum Seculares, tum Regulares:<pb xml:id="F3v"/>(146) Sunt etiam ex his, qui summis<note place="foot" xml:id="ftn167" n="167">§ 146: Sumis HS 1; summis HS 2.</note>Principibus
+                precipuam operam summa cum laude navant.</p>
+        <p n="49">(147) Ipsimet quoque agrorum cultores iudicio pollent acerrimo, quos si quando lites
+                agitare contingat<note place="foot" xml:id="ftn168" n="168">§ 147: catingat HS 1; contingat HS 2.</note>. (148) (contigit autem que
+                temporum est calamitas persepe).</p>
+        <p n="50">(149) Continuo se in alicuius clientelam committunt, hunc diligentissime causas suas
                 edocent, patroni limina quotidie terunt, persepe ea argumenta excogitant, que cause
                 maxime patrocinentur, et, quod iuris eruditissimis magne admirationi fuit, rebus
                 perplexis et maxime difficillibus sepenumero ea Patronis proposuerunt, quibus se
-                precipuam causam habere ad Ius<note place="foot" xml:id="ftn169" n="169"> § 149: in rasura: ejus HS 1.</note> obtinendum
+                precipuam causam habere ad Ius<note place="foot" xml:id="ftn169" n="169">§ 149: in rasura: ejus HS 1.</note>obtinendum
                 probarent.</p>
-            <p n="51">(150) In Sermone familiari quilibet vel agricola adagia, scommata et sententias
-                promit. (151) Non desunt, qui litteras numquam noverunt<note place="foot" xml:id="ftn170" n="170"> § 151: novunt HS 1; novunt HS
+        <p n="51">(150) In Sermone familiari quilibet vel agricola adagia, scommata et sententias
+                promit. (151) Non desunt, qui litteras numquam noverunt<note place="foot" xml:id="ftn170" n="170">§ 151: novunt HS 1; novunt HS
                         2. Corr.: noverunt.</note>, et tamen lune defectus, silentium et
                 concursus, ortum et senectam probe tenent: (152) celerrimeque multorum annorum
-                conceptuas ferias praedicant<note place="foot" xml:id="ftn171" n="171"> § 152: predicat HS 1; praedicant HS 2.</note>. </p>
-            <p n="52">(153) Et quod eque admirere, nonnulli, qui vix litterarum prima elementa<note place="foot" xml:id="ftn172" n="172"> § 153: elamenta HS
-                        1; elementa HS 2.</note> attigerunt, carmina Italica non inconcinna
-                condunt. </p>
-            <p n="53">(154) Agricolationis et arborum inserendarum eque sunt studiosissimi ac peritissimi
+                conceptuas ferias praedicant<note place="foot" xml:id="ftn171" n="171">§ 152: predicat HS 1; praedicant HS 2.</note>.</p>
+        <p n="52">(153) Et quod eque admirere, nonnulli, qui vix litterarum prima elementa<note place="foot" xml:id="ftn172" n="172">§ 153: elamenta HS
+                        1; elementa HS 2.</note>attigerunt, carmina Italica non inconcinna
+                condunt.</p>
+        <p n="53">(154) Agricolationis et arborum inserendarum eque sunt studiosissimi ac peritissimi
                 eique rei indesinetenter tamque accurate atque industrie operam tradunt, ut ab alvo
-                materno agriculture peritiam extulisse videantur. </p>
-            <p n="54">(155) Quilibet ad fundos suos omni cura ornandos incumbit: (156) arbitranturque (ut
+                materno agriculture peritiam extulisse videantur.</p>
+        <p n="54">(155) Quilibet ad fundos suos omni cura ornandos incumbit: (156) arbitranturque (ut
                 ait Tullius) nihil agricultura melius, nihil uberius, nihil dulcius nihilque homine
-                libero dignius. (157) Frumentum, siliginem, fabas, Pisa, Emiliam<note place="foot" xml:id="ftn173" n="173"> § 157: exvilia HS 1; Emiliam HS
-                        2.</note>, lentem, milium<note place="foot" xml:id="ftn174" n="174">
-                            § 157: millium HS 1; milium HS 2.</note>, panicum,
-                Lobam seu medicam<note place="foot" xml:id="ftn175" n="175">
-                        § 157: Pidicem HS 1; medicam HS 2.</note>, milium<note place="foot" xml:id="ftn176" n="176"> § 157: millium HS 1; milium HS
-                        2.</note> indicum, ciceres, phaseolos eius praesertim<note place="foot" xml:id="ftn177" n="177"> § 157: presertim HS 1;
-                        praesertim HS 2.</note> generis, quos turcicos vel smilacem hortensem
+                libero dignius. (157) Frumentum, siliginem, fabas, Pisa, Emiliam<note place="foot" xml:id="ftn173" n="173">§ 157: exvilia HS 1; Emiliam HS
+                        2.</note>, lentem, milium<note place="foot" xml:id="ftn174" n="174">§ 157: millium HS 1; milium HS 2.</note>, panicum,
+                Lobam seu medicam<note place="foot" xml:id="ftn175" n="175">§ 157: Pidicem HS 1; medicam HS 2.</note>, milium<note place="foot" xml:id="ftn176" n="176">§ 157: millium HS 1; milium HS
+                        2.</note>indicum, ciceres, phaseolos eius praesertim<note place="foot" xml:id="ftn177" n="177">§ 157: presertim HS 1;
+                        praesertim HS 2.</note>generis, quos turcicos vel smilacem hortensem
                 vocant, copiose percipiunt: (158) vix tamen frequentissimo populo sufficiunt; quum
-                annone angustia laboratur, aliunde<note place="foot" xml:id="ftn178" n="178">
-                    § 158: non legi potest HS 1; aliunde HS 2.</note>
-                importantur. </p>
-            <p n="55">(159) Verum, de qua prius dicendum erat, Religionem silentio pretermittam<note place="foot" xml:id="ftn179" n="179"> § 159:
+                annone angustia laboratur, aliunde<note place="foot" xml:id="ftn178" n="178">§ 158: non legi potest HS 1; aliunde HS 2.</note>importantur.</p>
+        <p n="55">(159) Verum, de qua prius dicendum erat, Religionem silentio pretermittam<note place="foot" xml:id="ftn179" n="179">§ 159:
                         pretermittam HS 1; pretermittam HS 2.</note>? (160) Sunt Arcenses
-                pietatis christiane ardentissimi cultores, stabiliendis sarciendisque<note place="foot" xml:id="ftn180" n="180"> § 160:
-                        sarciendisque HS 1; sarcendisque HS 2.</note> quassis Templis novisque
+                pietatis christiane ardentissimi cultores, stabiliendis sarciendisque<note place="foot" xml:id="ftn180" n="180">§ 160:
+                        sarciendisque HS 1; sarcendisque HS 2.</note>quassis Templis novisque
                 condendis iugiter student. (161) Id facile coniectare licet ex eo, quod in Comitatu
                 Arcensi, dempta Nacensi ditione, Templa ad Triginta et eo amplius conspiciuntur, que
-                suo queque loco referemus. (162) Divino cultui egregie operam<note place="foot" xml:id="ftn181" n="181"> § 162: non legi potest HS 1;
-                        operam HS 2.</note> insumunt atque Religioni suum tenorem suamque
-                observationem assidue reddunt. </p>
-            <p n="56">(163) Porro in hanc regionem nonnulli conicere<note place="foot" xml:id="ftn182" n="182"> § 163: conijcere HS 1; coniicere HS 2. Corr.:
-                        conicere.</note> videntur à Divo Rutperto Wormatiensi Pontifice anno
-                Christiane Redemptionis DXXXX christianam<note place="foot" xml:id="ftn183" n="183"> § 163: christiana HS 1; christianam HS
-                    2.</note> religionem<note place="foot" xml:id="ftn184" n="184"> § 163: religione HS 1; religionem HS 2.</note>
-                    invectam<note place="foot" xml:id="ftn185" n="185"> §
-                        163: inerecta HS 1; invectam HS 2.</note> fuisse. (164) Quem Theodoricus
-                Rex Francie misit ad Theodonem<note place="foot" xml:id="ftn186" n="186">
-                    § 164: Teodonem HS 1; Theodonem HS 2.</note>
-                tertium Boiorum Ducem, cui Reginodrudam filiam nuptum<note place="foot" xml:id="ftn187" n="187"> § 164: in rasura: p HS
-                    1.</note> collocaverat, ut eum sapientiam Christianam institueret. (165) Hic
+                suo queque loco referemus. (162) Divino cultui egregie operam<note place="foot" xml:id="ftn181" n="181">§ 162: non legi potest HS 1;
+                        operam HS 2.</note>insumunt atque Religioni suum tenorem suamque
+                observationem assidue reddunt.</p>
+        <p n="56">(163) Porro in hanc regionem nonnulli conicere<note place="foot" xml:id="ftn182" n="182">§ 163: conijcere HS 1; coniicere HS 2. Corr.:
+                        conicere.</note>videntur à Divo Rutperto Wormatiensi Pontifice anno
+                Christiane Redemptionis DXXXX christianam<note place="foot" xml:id="ftn183" n="183">§ 163: christiana HS 1; christianam HS
+                    2.</note>religionem<note place="foot" xml:id="ftn184" n="184">§ 163: religione HS 1; religionem HS 2.</note>invectam<note place="foot" xml:id="ftn185" n="185">§
+                        163: inerecta HS 1; invectam HS 2.</note>fuisse. (164) Quem Theodoricus
+                Rex Francie misit ad Theodonem<note place="foot" xml:id="ftn186" n="186">§ 164: Teodonem HS 1; Theodonem HS 2.</note>tertium Boiorum Ducem, cui Reginodrudam filiam nuptum<note place="foot" xml:id="ftn187" n="187">§ 164: in rasura: p HS
+                    1.</note>collocaverat, ut eum sapientiam Christianam institueret. (165) Hic
                 Divi Rutperti predicatione et uxoris prudentissime cohortatione, una cum filio,
-                fratribus, toto Norico totaque Athesina Provincia<note place="foot" xml:id="ftn188" n="188"> § 165: Provintia HS 1; Provintia HS 2. Corr.:
-                        Provincia.</note> (ut refert Lazius), unda lustrica perlutus<note place="foot" xml:id="ftn189" n="189"> § 165: perlotus HS
-                        1; perlotus HS 2. Corr.: perlutus.</note> est. </p>
-            <p n="57">(166) Alij arbitrantur hos populos ducentis annis ante instituta Christiana
+                fratribus, toto Norico totaque Athesina Provincia<note place="foot" xml:id="ftn188" n="188">§ 165: Provintia HS 1; Provintia HS 2. Corr.:
+                        Provincia.</note>(ut refert Lazius), unda lustrica perlutus<note place="foot" xml:id="ftn189" n="189">§ 165: perlotus HS
+                        1; perlotus HS 2. Corr.: perlutus.</note>est.</p>
+        <p n="57">(166) Alij arbitrantur hos populos ducentis annis ante instituta Christiana
                 suscepisse à Divo Vigilio Tridentino Antistite, quum Naunes, Stonos aliosque
-                    Tridentinorum<note place="foot" xml:id="ftn190" n="190">
-                        § 166: Tridentinum HS 1; Tridentinorum HS 2.</note> Alpium accolas ab
+                    Tridentinorum<note place="foot" xml:id="ftn190" n="190">§ 166: Tridentinum HS 1; Tridentinorum HS 2.</note>Alpium accolas ab
                 Idolorum cultura abducere conaretur. (167) Que quidem opinio longe est priori
-                    verisimilior<note place="foot" xml:id="ftn191" n="191">
-                        § 167: in rasura: vari HS 1.</note>. (168) Nam quod ibi Vallem Athesinam
-                à D<add resp="editor">ivo</add> Rutperto sacro fonte purgatam aiunt, intellige, quousque Boiorum fines
-                    protendebantur<note place="foot" xml:id="ftn192" n="192">
-                        § 168: protendebatur HS 1; protendebantur HS 2.</note>: nempe ad
-                Pisonium vel paulo suprà. </p>
-            <p n="58">(169) Arbitrari etiam licet Arcenses (quoquo modo eo tempore vocarentur) ab
-                    Apollonio<note place="foot" xml:id="ftn193" n="193"> §
-                        169: Appollonio HS 1; Apollonio HS 2.</note> Brixiano Presule, una cum
+                    verisimilior<note place="foot" xml:id="ftn191" n="191">§ 167: in rasura: vari HS 1.</note>. (168) Nam quod ibi Vallem Athesinam
+                à D<add resp="editor">ivo</add>Rutperto sacro fonte purgatam aiunt, intellige, quousque Boiorum fines
+                    protendebantur<note place="foot" xml:id="ftn192" n="192">§ 168: protendebatur HS 1; protendebantur HS 2.</note>: nempe ad
+                Pisonium vel paulo suprà.</p>
+        <p n="58">(169) Arbitrari etiam licet Arcenses (quoquo modo eo tempore vocarentur) ab
+                    Apollonio<note place="foot" xml:id="ftn193" n="193">§
+                        169: Appollonio HS 1; Apollonio HS 2.</note>Brixiano Presule, una cum
                 Benacensibus, ad Christi fidem traductos fuisse sub annum decimum nonum supra
-                    centesimum<note place="foot" xml:id="ftn194" n="194"> §
-                        169: centenum HS 1; centesimum HS 2.</note>. </p>
-            <p n="59">(170) Accedit postrema gentis opinio per manus tradita, Tridentinos initio
-                    Christianismi<note place="foot" xml:id="ftn195" n="195">
-                        § 170: in rasura: Christianissimo HS 1.</note> Marco Evangelista ejusque
+                    centesimum<note place="foot" xml:id="ftn194" n="194">§
+                        169: centenum HS 1; centesimum HS 2.</note>.</p>
+        <p n="59">(170) Accedit postrema gentis opinio per manus tradita, Tridentinos initio
+                    Christianismi<note place="foot" xml:id="ftn195" n="195">§ 170: in rasura: Christianissimo HS 1.</note>Marco Evangelista ejusque
                 discipulis Lucio, Hermacora et Fortunato Sacris undis tinctos fuisse, quibus per
                 annum Ecclesia Tridentina testimonij carmen sepissime canit: (171) atque eodem
-                tempore Arcenses sacra lympha<note place="foot" xml:id="ftn196" n="196">
-                    § 171: lijmpha HS 1; lympha HS 2.</note> expiatos
+                tempore Arcenses sacra lympha<note place="foot" xml:id="ftn196" n="196">§ 171: lijmpha HS 1; lympha HS 2.</note>expiatos
                 esse credibile est. (172) Etenim eundem Hermacoram, una cum Fortunato, Tridentine,
-                    Laureacensis<note place="foot" xml:id="ftn197" n="197">
-                        § 172: Lauracensis HS 1; Laureacensis HS 2.</note> aliarumque
-                Ecclesiarum in Rhetijs et Norico fundamenta iecisse auctores tradunt. </p>
-            <p n="60">(173) Utcunque tamen res se habeat, licet plurimum ad
+                    Laureacensis<note place="foot" xml:id="ftn197" n="197">§ 172: Lauracensis HS 1; Laureacensis HS 2.</note>aliarumque
+                Ecclesiarum in Rhetijs et Norico fundamenta iecisse auctores tradunt.</p>
+        <p n="60">(173) Utcunque tamen res se habeat, licet plurimum ad
                 nostrum institutum referret, in re tamen ab hominum memoria tam remota atque in tot
                 difficultatum salebris obruta tempus terendum non censeo. (174) Sed ad Arcensem
-                descriptionem recurramus. <pb xml:id="F4r"/> (175) In ora Benaci Orientali inter Malamsilicem oppidum Veronense et Turbulas
+                descriptionem recurramus.<pb xml:id="F4r"/>(175) In ora Benaci Orientali inter Malamsilicem oppidum Veronense et Turbulas
                 excurrit in lacum montis latus, quem Angulum indigitant. (176) Hunc Arcensium et
-                Veronensium ditionis limitem predicant. </p>
-            <p n="61">(177) In Benaci ripa aquilonari sunt Turbule frequenti Mercatorum conventu oppidum
-                celeberrimum et Sabellici, Blondi, Corij aliorumque<note place="foot" xml:id="ftn198" n="198"> § 177: aliarumque HS 1;
-                        aliorumque HS 2.</note> historijs clarum. (178) Superincumbitque passus
+                Veronensium ditionis limitem predicant.</p>
+        <p n="61">(177) In Benaci ripa aquilonari sunt Turbule frequenti Mercatorum conventu oppidum
+                celeberrimum et Sabellici, Blondi, Corij aliorumque<note place="foot" xml:id="ftn198" n="198">§ 177: aliarumque HS 1;
+                        aliorumque HS 2.</note>historijs clarum. (178) Superincumbitque passus
                 circiter mille Penetra Castellum edito in cacumine Montis situm, cui Nacum oppidum
-                    subiacet<note place="foot" xml:id="ftn199" n="199"> §
+                    subiacet<note place="foot" xml:id="ftn199" n="199">§
                         178: in rasura: iacet HS 1.</note>. (179) Saltus, qua Turbulis Nacum vel
                 Penetra aditur, valde acclivis est, preruptus, salebrosus atque lapidosus et tam
-                    equis<note place="foot" xml:id="ftn200" n="200"> § 179:
-                        equis HS 1; equis HS 2.</note> quam pedibus superatu arduum. (180) Naci
+                    equis<note place="foot" xml:id="ftn200" n="200">§ 179:
+                        equis HS 1; equis HS 2.</note>quam pedibus superatu arduum. (180) Naci
                 Vicarius, qui singulis annis à populo cooptatur, ius dicit: provocationes ad Comites
-                deferuntur. </p>
-            <p n="62">(181) Naci fines secundum<note place="foot" xml:id="ftn201" n="201">
-                § 181: secondum HS 1; secundum HS 2.</note> Lacum
+                deferuntur.</p>
+        <p n="62">(181) Naci fines secundum<note place="foot" xml:id="ftn201" n="201">§ 181: secondum HS 1; secundum HS 2.</note>Lacum
                 Sancti Andreae eorundem Historicorum monumentis notum atque per iuga Baldi Montis
                 longius latiusque in Brentonicenses atque in Veronenses proferunt. (182) Quin
-                    immo<note place="foot" xml:id="ftn202" n="202"> § 182:
-                        Quinimo HS 1; Quinimo HS 2. Corr.: Quin immo.</note> Nacenses Lacus
+                    immo<note place="foot" xml:id="ftn202" n="202">§ 182:
+                        Quinimo HS 1; Quinimo HS 2. Corr.: Quin immo.</note>Nacenses Lacus
                 ipsius partem dimidiam ad se cum Castrobarcis pertinere contendunt. (183) Hac de re
                 olim coram Augustalis Camere Auditorio à Comitibus Arci adversus Castrobarcos
                 iudicio decertatum est, ubi pro Arcensibus sententia lata est, atque à Carolo V.
-                Imperatore Ludovicus, Antonius et Io<add resp="editor">annes</add> Franciscus Lodronij Commisarij et
-                executores ad Comites in Lacus possessionem mittendos constituti sunt V Id<add resp="editor">ae</add>
-                Novembris MDXXVI; at Arcensium incuria nil preterea actum est. (184) Castrobarcenses
-                in bonis sunt. </p>
-            <p n="63">(185) Sed ad Benacum remigro. (186) Turbalis<note place="foot" xml:id="ftn203" n="203"> § 186: Turbalis HS 1; Turbulis HS 2.</note>
-                dextrorsum propter Alpium radices in Boream pergentibus in primis ad secundum
-                lapidem Fanum vetustissimum in collis vertice situm et D<add resp="editor">ivo</add> Nicolao dicatum
+                Imperatore Ludovicus, Antonius et Io<add resp="editor">annes</add>Franciscus Lodronij Commisarij et
+                executores ad Comites in Lacus possessionem mittendos constituti sunt V Id<add resp="editor">ae</add>Novembris MDXXVI; at Arcensium incuria nil preterea actum est. (184) Castrobarcenses
+                in bonis sunt.</p>
+        <p n="63">(185) Sed ad Benacum remigro. (186) Turbalis<note place="foot" xml:id="ftn203" n="203">§ 186: Turbalis HS 1; Turbulis HS 2.</note>dextrorsum propter Alpium radices in Boream pergentibus in primis ad secundum
+                lapidem Fanum vetustissimum in collis vertice situm et D<add resp="editor">ivo</add>Nicolao dicatum
                 occurrit.</p>
-            <p n="64">(187) À Fano paululum progressus exiguum pagum offendes, quem Vincolas vocant, ad
+        <p n="64">(187) À Fano paululum progressus exiguum pagum offendes, quem Vincolas vocant, ad
                 Montis radices, quà nempe arduo asperoque itinere celsa montium iuga superantur et
-                Gardumenses adeuntur. (188) Hic ibidem<note place="foot" xml:id="ftn204" n="204">§ 188: in rasura: Templum HS 1.</note> Templum cum
-                    Coemeterio<note place="foot" xml:id="ftn205" n="205"> §
-                        188: Cemeterio HS 1; Cemeterio HS 2. Corr.: Coemeterio.</note> D<add resp="editor">ivo</add>
-                Valentino martyri<note place="foot" xml:id="ftn206" n="206">
-                        § 188: Martijri HS1; martyri HS 2.</note> dicatum. </p>
-            <p n="65">(189) Hac torrens, quem Salonum dictitant, e Montium iugis magno murmure in planitiem
+                Gardumenses adeuntur. (188) Hic ibidem<note place="foot" xml:id="ftn204" n="204">§ 188: in rasura: Templum HS 1.</note>Templum cum
+                    Coemeterio<note place="foot" xml:id="ftn205" n="205">§
+                        188: Cemeterio HS 1; Cemeterio HS 2. Corr.: Coemeterio.</note>D<add resp="editor">ivo</add>Valentino martyri<note place="foot" xml:id="ftn206" n="206">§ 188: Martijri HS1; martyri HS 2.</note>dicatum.</p>
+        <p n="65">(189) Hac torrens, quem Salonum dictitant, e Montium iugis magno murmure in planitiem
                 defertur, qui omnis aggeris impatiens alveum saxorum mole adequat: (190) inde per
-                arva grassabundus sata, vites, arbores tum secum rapit, tum ruderibus comprimit. </p>
-            <p n="66">(191) Hinc ad sexcentos passus Bononianum pagus insignis et multa pecudum, frugum,
+                arva grassabundus sata, vites, arbores tum secum rapit, tum ruderibus comprimit.</p>
+        <p n="66">(191) Hinc ad sexcentos passus Bononianum pagus insignis et multa pecudum, frugum,
                 vinorum et castanearum copia dives offertur: (192) ubi incole, quamquam Arcuane
-                Paroecie subiciuntur<note place="foot" xml:id="ftn207" n="207"> § 192: subijciuntur HS 1; subiiciuntur HS 2. Corr.:
-                        subiciuntur.</note>, templum tamen honorificum, veteri diruto, D<add resp="editor">ivo</add>
-                Floriano sacrum sibi construxerunt cum turri, quam<note place="foot" xml:id="ftn208" n="208"> § 192: qua HS 1; quam HS 2.</note> tribus
-                exornarunt campanis. (193) Hic Bononianenses<note place="foot" xml:id="ftn209" n="209"> § 193: Bononienses HS 1; Bononianenses HS
-                        2.</note> insignem cippum<note place="foot" xml:id="ftn210" n="210">§ 193: crispum HS 1; cippum HS 2.</note> cum hac
-                inscriptione effoderunt: </p>
-            <p n="67">(194) <lg>
+                Paroecie subiciuntur<note place="foot" xml:id="ftn207" n="207">§ 192: subijciuntur HS 1; subiiciuntur HS 2. Corr.:
+                        subiciuntur.</note>, templum tamen honorificum, veteri diruto, D<add resp="editor">ivo</add>Floriano sacrum sibi construxerunt cum turri, quam<note place="foot" xml:id="ftn208" n="208">§ 192: qua HS 1; quam HS 2.</note>tribus
+                exornarunt campanis. (193) Hic Bononianenses<note place="foot" xml:id="ftn209" n="209">§ 193: Bononienses HS 1; Bononianenses HS
+                        2.</note>insignem cippum<note place="foot" xml:id="ftn210" n="210">§ 193: crispum HS 1; cippum HS 2.</note>cum hac
+                inscriptione effoderunt:</p>
+        <p n="67">(194)<lg>
             <l>
               <emph>SEXTO</emph>
-              <note place="foot" xml:id="ftn211" n="211"> § 193:
-                        in rasura: <emph>SENTO</emph> HS 1.</note> <emph>LAELIO</emph>
+              <note place="foot" xml:id="ftn211" n="211">§ 193:
+                        in rasura:<emph>SENTO</emph>HS 1.</note>
+              <emph>LAELIO</emph>
             </l>
             <l>
               <emph>PRIMIGENI</emph>
               <add resp="editor">t</add>O</l>
             <l>
-              <emph>VI</emph> <add resp="editor">vo</add>· <emph>VIR</emph>
-              <add resp="editor">o</add> · <emph>AVG</emph>
-              <add resp="editor">usto</add> ·</l>
+              <emph>VI</emph>
+              <add resp="editor">vo</add>·<emph>VIR</emph>
+              <add resp="editor">o</add>·<emph>AVG</emph>
+              <add resp="editor">usto</add>·</l>
             <l>
               <emph>ET LAELIAE</emph>
             </l>
@@ -657,528 +588,507 @@
               <emph>RESTITVTAE</emph>
             </l>
             <l>
-              <emph>LAELIA</emph> · <emph>PRISCILLA</emph>
+              <emph>LAELIA</emph>·<emph>PRISCILLA</emph>
             </l>
             <l>
               <emph>PARENTIBVS</emph>
             </l>
             <l>
-              <emph>PIENTISSIMIS</emph> ~</l>
+              <emph>PIENTISSIMIS</emph>~</l>
           </lg>
         </p>
-            <p n="68">(195) In eodem pago est fons, qui ad mille passus supra Bononianum exurgens per
+        <p n="68">(195) In eodem pago est fons, qui ad mille passus supra Bononianum exurgens per
                 ligneos tubos in plateam corrivatur, ubi gemina fistula ex Marmoreo Castello
-                erumpens perenni lympha<note place="foot" xml:id="ftn212" n="212"> § 195: Lijmpha HS 1; lypmpha HS 2.</note> subiecto
+                erumpens perenni lympha<note place="foot" xml:id="ftn212" n="212">§ 195: Lijmpha HS 1; lypmpha HS 2.</note>subiecto
                 in lacu excipitur: (196) Ibidem anno MDL Franciscus Allegrantius Sacerdos latinis
                 Grecisque litteris eruditus Sacellum S<add resp="editor">anctissim</add>e atque Individue Trinitati dicatum
                 posuit predijsque attributis dotavit. (197) Idem postea Bononianenses porticu ac
                 pictura exornarunt.</p>
-            <p n="69">(198) Bononiano ascendens montem, cui iugo Aestivo
-                    &gt; nomen<note place="foot" xml:id="ftn213" n="213">
-                        § 198: nomem HS 1; nomen HS 2.</note> est, acclivi et ardua ad ter mille
-                passus via superata aedes S<add resp="editor">anctorum</add> Iacobi et Philippi occurret, 
-            <pb xml:id="F4v"/> que et situ et magnitudine ac cultu minime est contemnenda. (199) Hinc erumpit fons,
+        <p n="69">(198) Bononiano ascendens montem, cui iugo Aestivo
+                    &gt; nomen<note place="foot" xml:id="ftn213" n="213">§ 198: nomem HS 1; nomen HS 2.</note>est, acclivi et ardua ad ter mille
+                passus via superata aedes S<add resp="editor">anctorum</add>Iacobi et Philippi occurret,<pb xml:id="F4v"/>que et situ et magnitudine ac cultu minime est contemnenda. (199) Hinc erumpit fons,
                 qui Rivus appellatur et iugi fluxu prata permulta irrigat Bononianumque preterlapsus
-                Sarce commiscetur. (200) Ex hoc Aestivo iugo Anno MDXCIIX ultimo Februarii<note place="foot" xml:id="ftn214" n="214"> § 200: Februarj HS
-                        1; Februarii HS 2. </note> vasta vis nivis ventis vel suo etiam pondere
+                Sarce commiscetur. (200) Ex hoc Aestivo iugo Anno MDXCIIX ultimo Februarii<note place="foot" xml:id="ftn214" n="214">§ 200: Februarj HS
+                        1; Februarii HS 2.</note>vasta vis nivis ventis vel suo etiam pondere
                 e montis vertice discussa atque in subiectam planitiem turbinis instar horrido
                 fragore rotata ingentis magnitudinis Nuces, Castaneas, Fagos, Quercus aliasque
                 arbores et domos secum raptavit. (201) Quin et montem, dum deorsum conglomeratur,
                 solo usque ad vivi montis corticem magno colonorum terrore, iactura atque periculo
                 denudavit: (202) parumque abfuit, quin pagi magnam partem substraverit.</p>
-            <p n="70">(203) Bononiano egressus transmissoque Rivo<note place="foot" xml:id="ftn215" n="215"> § 203: rivo HS 1; rivo HS 2. Corr.:
-                    Rivo.</note> Mossonium advenies, ubi Templum est non ignobile cum
-                    Coemeterio<note place="foot" xml:id="ftn216" n="216"> §
+        <p n="70">(203) Bononiano egressus transmissoque Rivo<note place="foot" xml:id="ftn215" n="215">§ 203: rivo HS 1; rivo HS 2. Corr.:
+                    Rivo.</note>Mossonium advenies, ubi Templum est non ignobile cum
+                    Coemeterio<note place="foot" xml:id="ftn216" n="216">§
                         203: Cemeterio HS 1; Coemeterio HS 2.</note>, turri Sacra et horologio.
-                (204) Tutelaris est D<add resp="editor">ivus</add> Ioannes Apostolus et Evangelista. (205) In hoc eodem
+                (204) Tutelaris est D<add resp="editor">ivus</add>Ioannes Apostolus et Evangelista. (205) In hoc eodem
                 pago est insignis lateraria et calcaria amplissimis cum porticibus in hujus artis
-                usum, ne imbribus aut nivibus opera retardari corrumpive<note place="foot" xml:id="ftn217" n="217"> § 205: corrumpi ne HS 1;
-                        corrumpive HS 2.</note> possent. </p>
-            <p n="71">(206) Mossono relicto si ad dexteram flexeris, Martiniensis Vicus te excipiet. (207)
-                Supra est Cenica prope fere levum Sarce littus<note place="foot" xml:id="ftn218" n="218"> § 207: in margine: Illo Eremitorio
-                        <add resp="editor">ch</add>iesa consacrata an<add resp="editor">no</add> 
-                        II86 Non<add resp="editor">is</add> April<add resp="editor">is</add> ab 
-                        Alex<add resp="editor">andro</add> Epis<add resp="editor">copo</add>
-                        Trid<add resp="editor">entino</add> HS 1.</note> et subinde<note place="foot" xml:id="ftn219" n="219"> § 207: retinde HS 1; subinde HS 2.</note>
-                Drodum se se offert. </p>
-            <p n="72">(208) Hic ad S<add resp="editor">anctorum</add> Sisinij, Martirij et Alexandrj aedem preclarum Sepulchrale
-                monumentum hac<note place="foot" xml:id="ftn220" n="220"> §
-                        208: ac HS 1; hac HS 2.</note> inscripitione leges: </p>
-            <p n="73">(209)<lg>
+                usum, ne imbribus aut nivibus opera retardari corrumpive<note place="foot" xml:id="ftn217" n="217">§ 205: corrumpi ne HS 1;
+                        corrumpive HS 2.</note>possent.</p>
+        <p n="71">(206) Mossono relicto si ad dexteram flexeris, Martiniensis Vicus te excipiet. (207)
+                Supra est Cenica prope fere levum Sarce littus<note place="foot" xml:id="ftn218" n="218">§ 207: in margine: Illo Eremitorio<add resp="editor">ch</add>iesa consacrata an<add resp="editor">no</add>II86 Non<add resp="editor">is</add>April<add resp="editor">is</add>ab 
+                        Alex<add resp="editor">andro</add>Epis<add resp="editor">copo</add>Trid<add resp="editor">entino</add>HS 1.</note>et subinde<note place="foot" xml:id="ftn219" n="219">§ 207: retinde HS 1; subinde HS 2.</note>Drodum se se offert.</p>
+        <p n="72">(208) Hic ad S<add resp="editor">anctorum</add>Sisinij, Martirij et Alexandrj aedem preclarum Sepulchrale
+                monumentum hac<note place="foot" xml:id="ftn220" n="220">§
+                        208: ac HS 1; hac HS 2.</note>inscripitione leges:</p>
+        <p n="73">(209)<lg>
             <l>
               <emph>NONIAE</emph>
             </l>
             <l>
               <emph>EUTHYMIAE</emph>
-              <note place="foot" xml:id="ftn221" n="221"> § 209:
-                        <emph>EUTHYMIAE</emph> HS 1; <emph>EUTHIMIAE</emph> HS 2.</note>
+              <note place="foot" xml:id="ftn221" n="221">§ 209:<emph>EUTHYMIAE</emph>HS 1;<emph>EUTHIMIAE</emph>HS 2.</note>
             </l>
-                <l>
+            <l>
               <emph>UXORI</emph>
             </l>
-                <l>
+            <l>
               <emph>OPTIMAE</emph>
             </l>
-            <l>M<add resp="editor">arcus</add> <emph>NONIUS</emph>
-            </l> 
-                <l>
-              <emph>SYNTROPHUS</emph>.</l>
-            <l>B<add resp="editor">eata</add> <gap/> M<add resp="editor">emoria</add>
+            <l>M<add resp="editor">arcus</add>
+              <emph>NONIUS</emph>
             </l>
-            <l>D<add resp="editor">eo</add> <gap/> M<add resp="editor">agno</add>
+            <l>
+              <emph>SYNTROPHUS</emph>.</l>
+            <l>B<add resp="editor">eata</add>
+              <gap/>M<add resp="editor">emoria</add>
+            </l>
+            <l>D<add resp="editor">eo</add>
+              <gap/>M<add resp="editor">agno</add>
             </l>
           </lg>
         </p>
-            <p n="74">(210) Porro Drodienses suavissimi et gustui omnium gratissimi Vini magnum proventum
+        <p n="74">(210) Porro Drodienses suavissimi et gustui omnium gratissimi Vini magnum proventum
                 percipiunt. (211) Huc certatim turmatimque ea emptum Alpinarum gentium plurimi
                 accurunt. (212) Pago deinde egresso et sinistrorum flectenti, Sarca, ubi lapideo et
                 concamerato ponte continetur, est trajcienda. (213) Hinc ad primum lapidem rotundus
-                collis assurgit querculis undequaque obsitus, cujus in culmine Delubrum D<add resp="editor">ivo</add>
-                Abundio constructum est. </p>
-            <p n="75">(214) Supra ad sextum lapidem ad Alpium radices in via arcta scrupea et paulo
+                collis assurgit querculis undequaque obsitus, cujus in culmine Delubrum D<add resp="editor">ivo</add>Abundio constructum est.</p>
+        <p n="75">(214) Supra ad sextum lapidem ad Alpium radices in via arcta scrupea et paulo
                 eminentiori limites Comitatus Arci, levorsum ingentem videlicet quadratum lapidem
                 reperies, in quo ad Austrum Arcus Arcensium Bogensiumque vetus insigne, ad Boream
-                Episcopi arma sculpta sunt. </p>
-            <p n="76">(215) Imminent huic semite quedam Alpium abrupta et confragosa latera, unde sepissime
+                Episcopi arma sculpta sunt.</p>
+        <p n="76">(215) Imminent huic semite quedam Alpium abrupta et confragosa latera, unde sepissime
                 horrens ruderum strues maximaque ingentium saxorum vis ob nivium molem, assiduos
                 imbres, aliquando etiam ob validos ventos evulsa subditam viam omnemque planitiem
-                usque ad Sarce litus non sine magno viatorum discrimine obruit. </p>
-            <p n="77">(216) Hic ad nostram tempestatem Arcuanorum fines terminantur, qui superioribus annis
+                usque ad Sarce litus non sine magno viatorum discrimine obruit.</p>
+        <p n="77">(216) Hic ad nostram tempestatem Arcuanorum fines terminantur, qui superioribus annis
                 ad mille quingentos passus ulterius explicabantur. (217) Verum iam tandem Drodum
                 recurramus. (218) Unde egresso et in Boream tendenti ad levam relicta Sarca Ramonus
                 piscosus amnis obvius datur: (219) inde fons Albanella, supra Sarraconus occurrit:
                 (220) Sepe aret, aliquando vero tanta aquarum mole exundat, ut dissectis aggeribus,
                 precipitatoque cursu atque lapidibus, equato alveo in inferiorem plagam debacchetur,
-                quam devastatam ingenti ruderum mole obruit. </p>
-            <p n="78">(221) Offertur subinde arduus atque acclivis saltus tam lapidosus, ut scalpro e viva
-                montis rupe videatur excisus, quo superato ad Arcem Dedriam et pagum cognominem<note place="foot" xml:id="ftn222" n="222"> § 221: cognomines
-                        HS 1; cognomines HS 2. Corr.: cognominem.</note> pervenitur. (222) Ea
-                est Ingenuorum à Sejano<note place="foot" xml:id="ftn223" n="223"> § 222: Seiano HS 1; Sejano HS 2.</note>
-                pervertuste fundationis, in qua turris insignis magnitudinis ex quadrato lapide
-                conspicitur. (223) Á Sejanensibus<note place="foot" xml:id="ftn224" n="224"> § 223: Seianensibus HS 1; Sejanensibus HS
-                    2.</note> Arcenses coemerunt an<add resp="editor">no</add> MCLXXV. (224) Habent coloni mire
+                quam devastatam ingenti ruderum mole obruit.</p>
+        <p n="78">(221) Offertur subinde arduus atque acclivis saltus tam lapidosus, ut scalpro e viva
+                montis rupe videatur excisus, quo superato ad Arcem Dedriam et pagum cognominem<note place="foot" xml:id="ftn222" n="222">§ 221: cognomines
+                        HS 1; cognomines HS 2. Corr.: cognominem.</note>pervenitur. (222) Ea
+                est Ingenuorum à Sejano<note place="foot" xml:id="ftn223" n="223">§ 222: Seiano HS 1; Sejano HS 2.</note>pervertuste fundationis, in qua turris insignis magnitudinis ex quadrato lapide
+                conspicitur. (223) Á Sejanensibus<note place="foot" xml:id="ftn224" n="224">§ 223: Seianensibus HS 1; Sejanensibus HS
+                    2.</note>Arcenses coemerunt an<add resp="editor">no</add>MCLXXV. (224) Habent coloni mire
                 magnitudinis castanearum lucrosum satis et prosperum proventum. (225) In hoc pago
-                patrum nostrorum memoria Comes <pb xml:id="F5r"/>
-                SCIPIO Arcensis domum, ad quam animi causa aliquando diverteret, edificavit. (226)
+                patrum nostrorum memoria Comes<pb xml:id="F5r"/>SCIPIO Arcensis domum, ad quam animi causa aliquando diverteret, edificavit. (226)
                 Paulo ulterius excurrit Dedriensis plaga: ubi egressus fueris, in Vallem Cavedini
                 Calavini pagis et populo frequentem atque Madrutium ac subinde superatis vallium
-                angustijs Vicianum pervenies. (227) Hec Cavedini Vallis<note place="foot" xml:id="ftn225" n="225"> § 227: in rasura: vill HS
-                        1.</note> olim Sejanensium fuit, subinde Arcensium Dynastarum<note place="foot" xml:id="ftn226" n="226"> § 227: Dinastarum
+                angustijs Vicianum pervenies. (227) Hec Cavedini Vallis<note place="foot" xml:id="ftn225" n="225">§ 227: in rasura: vill HS
+                        1.</note>olim Sejanensium fuit, subinde Arcensium Dynastarum<note place="foot" xml:id="ftn226" n="226">§ 227: Dinastarum
                         HS 1; Dynastarum HS 2.</note>: (228) Aliquando etiam Scaligeris
-                obsequuta est: postremo Episcopatus Tridenti in ditionem venit. </p>
-            <p n="79">(229) Sed iam ad plagam, que occidenti soli adiacet, atque ad sinistram Sarce oram
+                obsequuta est: postremo Episcopatus Tridenti in ditionem venit.</p>
+        <p n="79">(229) Sed iam ad plagam, que occidenti soli adiacet, atque ad sinistram Sarce oram
                 regrediamur. (230) Ad Meridiem Comitatus ea pars, que inter Brennonium montem et
                 Turbulas interiacet, Benaco, ut diximus, terminatur: (231) cujus accole tantum sibi
                 vendicant, quantum ad montis Angulum superius memoratum profertur: (232) qui ad
-                radices Baldi in lacum aliquanto<note place="foot" xml:id="ftn227" n="227"> § 232: in rasura: aliquando HS 1.</note>
-                producitur. </p>
-            <p n="80">(233) Ea ora à multitudine<note place="foot" xml:id="ftn228" n="228">§ 233: moltitudine HS 1; multitudine HS 2.</note>
-                aquarum Lymphanum<note place="foot" xml:id="ftn229" n="229">
-                        § 233: Lijmphanum HS 1; Lymphanum HS 2.</note> vocatur. </p>
-            <p n="81">(234) Est preterea Arcensium iuris, ut Altimannus<note place="foot" xml:id="ftn230" n="230"> § 234: Altimanus HS 1; Altimannus HS
-                    2.</note> Episcopus Tridentinus anno MCXLIV sententia lata expressit, tota
-                ea montis Brennonij pars à radice ad vertices, que ortum et septentrionem<note place="foot" xml:id="ftn231" n="231"> § 234: septrionem
-                        HS 1; septentrionem HS 2.</note> spectat et in occasum tendit eo
-                    usque<note place="foot" xml:id="ftn232" n="232"> § 234:
+                radices Baldi in lacum aliquanto<note place="foot" xml:id="ftn227" n="227">§ 232: in rasura: aliquando HS 1.</note>producitur.</p>
+        <p n="80">(233) Ea ora à multitudine<note place="foot" xml:id="ftn228" n="228">§ 233: moltitudine HS 1; multitudine HS 2.</note>aquarum Lymphanum<note place="foot" xml:id="ftn229" n="229">§ 233: Lijmphanum HS 1; Lymphanum HS 2.</note>vocatur.</p>
+        <p n="81">(234) Est preterea Arcensium iuris, ut Altimannus<note place="foot" xml:id="ftn230" n="230">§ 234: Altimanus HS 1; Altimannus HS
+                    2.</note>Episcopus Tridentinus anno MCXLIV sententia lata expressit, tota
+                ea montis Brennonij pars à radice ad vertices, que ortum et septentrionem<note place="foot" xml:id="ftn231" n="231">§ 234: septrionem
+                        HS 1; septentrionem HS 2.</note>spectat et in occasum tendit eo
+                    usque<note place="foot" xml:id="ftn232" n="232">§ 234:
                         eousque HS 1; eo usque HS 2.</note>, ubi crux Arcensium et Ripensium
                 potestatis limitanea scalpro in vivo montis saxo est excisa.</p>
-            <p n="82">(235) Locum indigene, quod mons antrorsum promineat, Antrum latine et la Grotta
+        <p n="82">(235) Locum indigene, quod mons antrorsum promineat, Antrum latine et la Grotta
                 italice dictitant. (236) Hinc haud procul priscis temporibus pagus erat nomine
                 Passironum dissidijs combustum atque eversum. (237) Nunc domuncule quedam à posteris
                 restitute. (238) Ea vicinia Sancti Georgij, quem Theutones Iorium vocant et
                 Passironenses colebant, nomen retinet: (239) ibi adhuc veteris delubri vestigia
-                spectantur. </p>
-            <p n="83">(240) Deinde<note place="foot" xml:id="ftn233" n="233"> §
-                        240: Deinceps HS 1; Deinde HS 2.</note> recta fere in occasum tenditur
-                et Arcensium Ripensiumque terminales agros legendo ad Divi Thome Xenodochium<note place="foot" xml:id="ftn234" n="234"> § 240: Xenodochium addendum est, ut sententia recta
-                    sit.</note> aditur. (241) Xenodochium est ab Hudalrico<note place="foot" xml:id="ftn235" n="235"> § 241: Huldalrico HS 1;
-                        Hudalrico HS 2.</note> Alberti Bogensis filio conditum opulentoque
-                proventu ditatum atque à Conrado II Tridentinorum Symmista<note place="foot" xml:id="ftn236" n="236"> § 241: Sijmmista HS 1; Symmista
-                        HS 2.</note> consecratum anno aere Christiane MCXCIV. (242) Deinceps in
-                Boream pergens Monasterium Deipare Virgini sacrum à Comite Francisco Arcensi<note place="foot" xml:id="ftn237" n="237"> § 242: Arcensis HS
-                        1; Arcensi HS 2.</note> coenobitis, quos minoris observantie vocant,
-                constructum ingredi poteris. </p>
-            <p n="84">(243) Laevorsum<note place="foot" xml:id="ftn238" n="238"> §
-                        243: Loevorsum HS 1; Laevorsum HS 2.</note> Castrum Thenni relinquitur
+                spectantur.</p>
+        <p n="83">(240) Deinde<note place="foot" xml:id="ftn233" n="233">§
+                        240: Deinceps HS 1; Deinde HS 2.</note>recta fere in occasum tenditur
+                et Arcensium Ripensiumque terminales agros legendo ad Divi Thome Xenodochium<note place="foot" xml:id="ftn234" n="234">§ 240: Xenodochium addendum est, ut sententia recta
+                    sit.</note>aditur. (241) Xenodochium est ab Hudalrico<note place="foot" xml:id="ftn235" n="235">§ 241: Huldalrico HS 1;
+                        Hudalrico HS 2.</note>Alberti Bogensis filio conditum opulentoque
+                proventu ditatum atque à Conrado II Tridentinorum Symmista<note place="foot" xml:id="ftn236" n="236">§ 241: Sijmmista HS 1; Symmista
+                        HS 2.</note>consecratum anno aere Christiane MCXCIV. (242) Deinceps in
+                Boream pergens Monasterium Deipare Virgini sacrum à Comite Francisco Arcensi<note place="foot" xml:id="ftn237" n="237">§ 242: Arcensis HS
+                        1; Arcensi HS 2.</note>coenobitis, quos minoris observantie vocant,
+                constructum ingredi poteris.</p>
+        <p n="84">(243) Laevorsum<note place="foot" xml:id="ftn238" n="238">§
+                        243: Loevorsum HS 1; Laevorsum HS 2.</note>Castrum Thenni relinquitur
                 Venetorum ac Mediolanensium Vicecomitum bellis et Piccinini, Sfortie ac Gatte Melite
                 virorum armis insignium rebus gestis clarum cum subiectis pagis Colonia, Gavatio et
-                si qui sunt alij Episcopatus Tridentini potestatis. </p>
-            <p n="85">(244) Postquam apud Franciscanos oraveris, ad quingentos passus supra Varenaneum te
-                excipiet, inde Vinetum sive Vinee et mox Claranum pagi. (245) Hic in D<add resp="editor">ivi</add> Antonij
-                delubro lapis hisce incisis litteris repertus est. </p>
-            <p n="86">(246)<lg> <l>I<add resp="editor">ovi</add> O<add resp="editor">ptimo</add> M<add resp="editor">aximo</add>
+                si qui sunt alij Episcopatus Tridentini potestatis.</p>
+        <p n="85">(244) Postquam apud Franciscanos oraveris, ad quingentos passus supra Varenaneum te
+                excipiet, inde Vinetum sive Vinee et mox Claranum pagi. (245) Hic in D<add resp="editor">ivi</add>Antonij
+                delubro lapis hisce incisis litteris repertus est.</p>
+        <p n="86">(246)<lg>
+            <l>I<add resp="editor">ovi</add>O<add resp="editor">ptimo</add>M<add resp="editor">aximo</add>
             </l>
             <l>
               <emph>TIB</emph>
-              <add resp="editor">erius</add> <emph>CLAV</emph>
+              <add resp="editor">erius</add>
+              <emph>CLAV</emph>
               <add resp="editor">dius</add>
             </l>
             <l>
               <emph>PRIM</emph>
-              <add resp="editor">us</add> <emph>LVCR</emph>
+              <add resp="editor">us</add>
+              <emph>LVCR</emph>
               <add resp="editor">ius</add>
             </l>
-            <l>V<add resp="editor">otum</add> S<add resp="editor">olvit</add> 
-                L<add resp="editor">ibens</add> M<add resp="editor">erito</add> </l>
+            <l>V<add resp="editor">otum</add>S<add resp="editor">olvit</add>L<add resp="editor">ibens</add>M<add resp="editor">erito</add>
+            </l>
           </lg>
         </p>
-            <p n="87">(247) Supra inter saltuosos et preruptos alpium tramites<note place="foot" xml:id="ftn239" n="239"> § 247: tromites HS 1; tramites
-                        HS 2.</note> Padarium vicus delitescit.
-                (248) Clarano egresso ad quingentos passus<note place="foot" xml:id="ftn240" n="240"> § 248: in margine: S<add resp="editor">an</add> Gio<add resp="editor">vanni</add> HS 1;
-                        S<add resp="editor">anctus</add> Ioan<add resp="editor">nes</add> HS 2.</note> ARCUS oppidum cum Arce in
-                    editissima<note place="foot" xml:id="ftn241" n="241"> §
-                        248: edittissima HS 1; editissima HS 2.</note> rupe excitata spectatur. </p>
-            <p n="88">(249) Inter Arcum et Claranum Argiletum assurgit, cumulus nempe cretaceus
-                Rhomarceolum dictus: (250) Unde Pagi Varenaneum<note place="foot" xml:id="ftn242" n="242"> § 250: in rasura: Vere HS 1.</note>,
+        <p n="87">(247) Supra inter saltuosos et preruptos alpium tramites<note place="foot" xml:id="ftn239" n="239">§ 247: tromites HS 1; tramites
+                        HS 2.</note>Padarium vicus delitescit.
+                (248) Clarano egresso ad quingentos passus<note place="foot" xml:id="ftn240" n="240">§ 248: in margine: S<add resp="editor">an</add>Gio<add resp="editor">vanni</add>HS 1;
+                        S<add resp="editor">anctus</add>Ioan<add resp="editor">nes</add>HS 2.</note>ARCUS oppidum cum Arce in
+                    editissima<note place="foot" xml:id="ftn241" n="241">§
+                        248: edittissima HS 1; editissima HS 2.</note>rupe excitata spectatur.</p>
+        <p n="88">(249) Inter Arcum et Claranum Argiletum assurgit, cumulus nempe cretaceus
+                Rhomarceolum dictus: (250) Unde Pagi Varenaneum<note place="foot" xml:id="ftn242" n="242">§ 250: in rasura: Vere HS 1.</note>,
                 Vinetum, Claranum atque Padarium Rhomarceolenses compellantur. (251) Hic totus
                 vitibus Rheticis, Appianis et Privernatijs consitus est. (252) Rheticas voco, quas
                 vulgus Schlavas et Politianus Aureolas dicit: (253) Privernatias vero à Priverno
                 urbe Volscorum, Camille patria, ubi olim optima vina proveniebant, que Privernatia
                 dicebantur: (254) Nunc vero corrupta decurtatave voce Vernacia dicuntur. (255) Hanc
-                à Plinio vinaciolam<note place="foot" xml:id="ftn243" n="243"> § 255: Vinaciollam HS 1; vinaciolam HS 2.</note>
-                    appellari<note place="foot" xml:id="ftn244" n="244"> §
-                        255: appelari HS 1; appellari HS 2.</note> censeo. (256) Aureolis et
-                    Privernaciis<note place="foot" xml:id="ftn245" n="245">
-                        § 256: Pirvernatijs HS 1; Privernaciis HS 2.</note>, que ijs collibus
-                feruntur, nil melius, nil sapidius, nil odoratius <pb xml:id="F5v"/>
-                gustari potest. (257) Sunt inter Rheticas uvas tum nigre, tum Albe aureole tenere,
-                molles, flave, predulces, de genere Appianarum<note place="foot" xml:id="ftn246" n="246"> § 257: Appinarum HS 1; Appianarum HS
-                    2.</note>. (258) Vites adminiculo ad acaene<note place="foot" xml:id="ftn247" n="247"> § 258: acoene HS 1; acoenae HS
-                        2. Corr.: acaene. </note> altidtudinem pedantur. (259) Privernates vero,
+                à Plinio vinaciolam<note place="foot" xml:id="ftn243" n="243">§ 255: Vinaciollam HS 1; vinaciolam HS 2.</note>appellari<note place="foot" xml:id="ftn244" n="244">§
+                        255: appelari HS 1; appellari HS 2.</note>censeo. (256) Aureolis et
+                    Privernaciis<note place="foot" xml:id="ftn245" n="245">§ 256: Pirvernatijs HS 1; Privernaciis HS 2.</note>, que ijs collibus
+                feruntur, nil melius, nil sapidius, nil odoratius<pb xml:id="F5v"/>gustari potest. (257) Sunt inter Rheticas uvas tum nigre, tum Albe aureole tenere,
+                molles, flave, predulces, de genere Appianarum<note place="foot" xml:id="ftn246" n="246">§ 257: Appinarum HS 1; Appianarum HS
+                    2.</note>. (258) Vites adminiculo ad acaene<note place="foot" xml:id="ftn247" n="247">§ 258: acoene HS 1; acoenae HS
+                        2. Corr.: acaene.</note>altidtudinem pedantur. (259) Privernates vero,
                 que ad Collis radices ubique assurgunt, ulmis, fraxinis, opulis, olearum
-                castanearumque pedamentis<note place="foot" xml:id="ftn248" n="248"> § 259: in rasura: de HS 1.</note> innixe altius
-                evagantur. (260) Ea sunt vina, que inter Rhetica<note place="foot" xml:id="ftn249" n="249"> § 260: Rherica HS 1; Rhetica HS 2.</note>
-                primum locum tenent. (261) Recensentur etiam inter vina Rhetica, que ex Nigellis
+                castanearumque pedamentis<note place="foot" xml:id="ftn248" n="248">§ 259: in rasura: de HS 1.</note>innixe altius
+                evagantur. (260) Ea sunt vina, que inter Rhetica<note place="foot" xml:id="ftn249" n="249">§ 260: Rherica HS 1; Rhetica HS 2.</note>primum locum tenent. (261) Recensentur etiam inter vina Rhetica, que ex Nigellis
                 Uvis exprimuntur, que vulgo Varodia, Terrodica et Marcimina vocantur: illis
                 Arcenses, hac Vicentini abundant: (262) quam Maroneam à Tibullo, Amineam à Virgilio,
-                Columella et Plinio dici arbitror. (263) Hec ab Athenaeo<note place="foot" xml:id="ftn250" n="250"> § 263: Atheneo HS 1; Atheneo HS
-                        2. Corr.: Athenaeo.</note> Vina Mamertina vocantur suavia et robusta. </p>
-            <p n="89">(264) Porro ARCUS<note place="foot" xml:id="ftn251" n="251">
-                        § 264: in rasura: Arcus HS 1.</note> moenibus<note place="foot" xml:id="ftn252" n="252"> § 264: Menibus HS 1; moenibus
-                        HS 2.</note> cinctus est: quattuor<note place="foot" xml:id="ftn253" n="253"> § 264: quator HS 1; quatuor HS 2. Corr.:
-                        quattuor.</note> habet portas. (265) Ea, que ortum spectat, Pontis
+                Columella et Plinio dici arbitror. (263) Hec ab Athenaeo<note place="foot" xml:id="ftn250" n="250">§ 263: Atheneo HS 1; Atheneo HS
+                        2. Corr.: Athenaeo.</note>Vina Mamertina vocantur suavia et robusta.</p>
+        <p n="89">(264) Porro ARCUS<note place="foot" xml:id="ftn251" n="251">§ 264: in rasura: Arcus HS 1.</note>moenibus<note place="foot" xml:id="ftn252" n="252">§ 264: Menibus HS 1; moenibus
+                        HS 2.</note>cinctus est: quattuor<note place="foot" xml:id="ftn253" n="253">§ 264: quator HS 1; quatuor HS 2. Corr.:
+                        quattuor.</note>habet portas. (265) Ea, que ortum spectat, Pontis
                 nomine dicitur; ibi enim Sarca, ut alibi diximus, quadruplici lapidea testudine
                 conjungitur. (266) Hac egrediuntur, qui per Velanas angustias in Germaniam
                 contendunt.</p>
-            <p n="90">(267) Trans pontem regio est, que Transarcana dicitur, in qua sunt Munium et Canipa
+        <p n="90">(267) Trans pontem regio est, que Transarcana dicitur, in qua sunt Munium et Canipa
                 suburbia, Vincole, Bononianum, Mossonium, Castellinum, Sanctus Martinus, Turris
-                    Ania<note place="foot" xml:id="ftn254" n="254"> § 267:
-                        in rasura: Ana HS 1.</note> sive Trojana et Monasterium<note place="foot" xml:id="ftn255" n="255"> § 267: in margine:
-                        S<add resp="editor">an</add> Lorenzo HS 1.</note> Coenobitarum cucullatorum. </p>
-            <p n="91">(268) Altera S<add resp="editor">ancti</add> Petri nuncupatur, que meridiem respicit atque testudineo ibidem
-                ponte ad Benacum, Ripam videlicet, Turbulas et ad Lymphanum<note place="foot" xml:id="ftn256" n="256"> § 268: Lijmphanum HS 1;
-                        Lymphanum HS 2.</note> deducit. (269) Hac efferuntur, qui Veronam,
-                Mantuam Brixiamque vel alio per Benacum iter parant, quam <emph>NICOLAVS</emph> ab Arco vetustate
+                    Ania<note place="foot" xml:id="ftn254" n="254">§ 267:
+                        in rasura: Ana HS 1.</note>sive Trojana et Monasterium<note place="foot" xml:id="ftn255" n="255">§ 267: in margine:
+                        S<add resp="editor">an</add>Lorenzo HS 1.</note>Coenobitarum cucullatorum.</p>
+        <p n="91">(268) Altera S<add resp="editor">ancti</add>Petri nuncupatur, que meridiem respicit atque testudineo ibidem
+                ponte ad Benacum, Ripam videlicet, Turbulas et ad Lymphanum<note place="foot" xml:id="ftn256" n="256">§ 268: Lijmphanum HS 1;
+                        Lymphanum HS 2.</note>deducit. (269) Hac efferuntur, qui Veronam,
+                Mantuam Brixiamque vel alio per Benacum iter parant, quam<emph>NICOLAVS</emph>ab Arco vetustate
                 labefactatam reficiendam curavit anno redempti orbis 1370:
-                (270) extra hanc, si ad levam flexeris, in Campum venies, quem<note place="foot" xml:id="ftn257" n="257"> § 270: que HS 1; qui HS 2.
-                        Corr.: quem.</note> à vicinis pratis pomis consitis Pomarium dicunt;
-                (271) in hujus capite ad Meridiem olim Circus fuit, ubi ludi exercitationesque<note place="foot" xml:id="ftn258" n="258"> § 271:
-                        exercititionesque HS 1; exercitationesque HS 2.</note> fiebant; (272)
-                nunc autem viridarium est: in eoque marmoreum monumentum<note place="foot" xml:id="ftn259" n="259"> § 272: monumentij HS 1;
-                        monumentum HS 2.</note> rare effossum, quod iniqua murariorum imperitia
-                collisum et confractum paucas tantummodo<note place="foot" xml:id="ftn260" n="260"> § 272: tantumodo HS 1; tantummodo HS 2.</note>
-                litteras easque postremas integras servat L.P.C. (273) cujus latitudine triginta, in
-                longitudine centum viginti passus amplitudo patet. </p>
-            <p n="92">(274) Extra hanc quoque ad quingentos passus olim pagus erat nomine S<add resp="editor">ancti</add>
-                    Sixti<note place="foot" xml:id="ftn261" n="261"> § 274:
+                (270) extra hanc, si ad levam flexeris, in Campum venies, quem<note place="foot" xml:id="ftn257" n="257">§ 270: que HS 1; qui HS 2.
+                        Corr.: quem.</note>à vicinis pratis pomis consitis Pomarium dicunt;
+                (271) in hujus capite ad Meridiem olim Circus fuit, ubi ludi exercitationesque<note place="foot" xml:id="ftn258" n="258">§ 271:
+                        exercititionesque HS 1; exercitationesque HS 2.</note>fiebant; (272)
+                nunc autem viridarium est: in eoque marmoreum monumentum<note place="foot" xml:id="ftn259" n="259">§ 272: monumentij HS 1;
+                        monumentum HS 2.</note>rare effossum, quod iniqua murariorum imperitia
+                collisum et confractum paucas tantummodo<note place="foot" xml:id="ftn260" n="260">§ 272: tantumodo HS 1; tantummodo HS 2.</note>litteras easque postremas integras servat L.P.C. (273) cujus latitudine triginta, in
+                longitudine centum viginti passus amplitudo patet.</p>
+        <p n="92">(274) Extra hanc quoque ad quingentos passus olim pagus erat nomine S<add resp="editor">ancti</add>Sixti<note place="foot" xml:id="ftn261" n="261">§ 274:
                         Sijxti HS 1; Syxti HS 2. Corr.: Sixti.</note>: (275) qui quum de finibus
                 cum Passironensibus decertarent, mutuis vulneribus atque incendio se se afflixerunt:
-                ut suo loco ostendemus. </p>
-            <p n="93">(276) Tertia Australem et Occiduum angulum spectat et Ascarina appellatur, que olim
+                ut suo loco ostendemus.</p>
+        <p n="93">(276) Tertia Australem et Occiduum angulum spectat et Ascarina appellatur, que olim
                 porta pensili premuniebatur. (277) Hec Thennum fert atque in Judicarias aliasque
-                Rheticas Valles. (278) Hanc instauravit <emph>GERARDVS</emph> comes Arcensis anno aerae salutifere
+                Rheticas Valles. (278) Hanc instauravit<emph>GERARDVS</emph>comes Arcensis anno aerae salutifere
                 MCCCXXV, ut litteris ibi excicis cognovimus. (279) Postrema occasum recta intuetur
                 et quoniam est in editiori oppidi parte, nullam planitiei, sed olivetis, vinetis,
                 hortis alijsque collibus et suburbanis agellis operam dicat. (280) Hec quoque latas
-                lapicidinas petentibus iter aperitur. </p>
-            <p n="94">(281) Hac olim ponte versatili erat transitus: Comes autem <emph>FELIX</emph> singulari prudentia
+                lapicidinas petentibus iter aperitur.</p>
+        <p n="94">(281) Hac olim ponte versatili erat transitus: Comes autem<emph>FELIX</emph>singulari prudentia
                 atque bellica virtute clarus nostrorum parentum memoria eam prope ruituram reparavit
                 et solido ponte coniunxit anno MDLVIII. (282) Hec à fontis ibi prope ex arenosis
-                terre salebris emanantis nomine appellatur vel etiam ab Oppidi vicinia Transfora. </p>
-            <p n="95">(283) Moenia<note place="foot" xml:id="ftn262" n="262"> §
-                        283: Moena HS 1; Moenia HS 2.</note> vero à Septentrione montis
+                terre salebris emanantis nomine appellatur vel etiam ab Oppidi vicinia Transfora.</p>
+        <p n="95">(283) Moenia<note place="foot" xml:id="ftn262" n="262">§
+                        283: Moena HS 1; Moenia HS 2.</note>vero à Septentrione montis
                 interpositione, super quo Castrum constitutum est, non connectuntur; Ambitus est
-                circiter mille passuum. (284) <emph>ARX</emph> minax et invicta fabricatio in excelso Alpium
-                iugo, quod Oppido incumbit intraque Moenia complectitur, frondentibus<note place="foot" xml:id="ftn263" n="263"> § 284:
-                        frondensibus HS 1; frondentibus HS 2.</note> oleis, sacris lauris, malis
+                circiter mille passuum. (284)<emph>ARX</emph>minax et invicta fabricatio in excelso Alpium
+                iugo, quod Oppido incumbit intraque Moenia complectitur, frondentibus<note place="foot" xml:id="ftn263" n="263">§ 284:
+                        frondensibus HS 1; frondentibus HS 2.</note>oleis, sacris lauris, malis
                 Punicis alijsque fructicibus iucunde redimito posita est. (285) Huic montes,
-                planities, colles, oliveta, sylvae<note place="foot" xml:id="ftn264" n="264">
-                    § 285: sijlve HS 1; sylvae HS 2.</note>, prata,
+                planities, colles, oliveta, sylvae<note place="foot" xml:id="ftn264" n="264">§ 285: sijlve HS 1; sylvae HS 2.</note>, prata,
                 fontes, flumina, arva lacus, pagi, oppida, castra sunt in prospectu: (286) Huic late
                 aperitur tota plaga, que ortum Austrum et occasum prospectat: (287) Patent hinc et
-                hinc Benaci littora, que Veronensia et Brixensia<note place="foot" xml:id="ftn265" n="265"> § 287: Brixina HS 1; Brixensia HS 2.</note> <pb xml:id="F6r"/>
-                appellantur malorum medicorum sive Aurantiorum, citriorum, quas Dioscorides
-                Citromelos vocat, Limoniorum alijsque Massilicorum, Cydoniorum<note place="foot" xml:id="ftn266" n="266"> § 287: Cijdoniorum HS 1;
-                        Cydoniorum HS 2.</note> Punicorumque insitione celeberrima. (288)
+                hinc Benaci littora, que Veronensia et Brixensia<note place="foot" xml:id="ftn265" n="265">§ 287: Brixina HS 1; Brixensia HS 2.</note>
+          <pb xml:id="F6r"/>appellantur malorum medicorum sive Aurantiorum, citriorum, quas Dioscorides
+                Citromelos vocat, Limoniorum alijsque Massilicorum, Cydoniorum<note place="foot" xml:id="ftn266" n="266">§ 287: Cijdoniorum HS 1;
+                        Cydoniorum HS 2.</note>Punicorumque insitione celeberrima. (288)
                 Celsius montis iugum toti arcis edificio impendet, in cujus vertice edita turris
                 edificata est. (289) Ibi etiam est area, parvis moenibus cincta, quingentorum
                 militum capax, in qua defossa est cisterna, que aquis ex turris tectis per plumbeas
-                fistulas defluentibus impletur. (290) Hic nullus est ingressus, nisi<note place="foot" xml:id="ftn267" n="267"> § 290: in rasura:
-                        m HS 1.</note> emenso prius colle per ligneos gradus, qui facile
+                fistulas defluentibus impletur. (290) Hic nullus est ingressus, nisi<note place="foot" xml:id="ftn267" n="267">§ 290: in rasura:
+                        m HS 1.</note>emenso prius colle per ligneos gradus, qui facile
                 removeri possunt, atque per angustum ostium ab austro, qua parte totum Castrum
                 prospicit. (291) Aliunde aves advolare possunt, homo nequaquam. (292) Hinc totius
                 arcis tectum saxis, tormentis omnique missilium genere verberari, conteri atque
-                omnino contundi potest. </p>
-            <p n="96">(293) Huc ab Hortis Apollinaribus<note place="foot" xml:id="ftn268" n="268">§ 293:  Appolinaribus
+                omnino contundi potest.</p>
+        <p n="96">(293) Huc ab Hortis Apollinaribus<note place="foot" xml:id="ftn268" n="268">§ 293:  Appolinaribus
                 HS 1; Apollinaribus HS 2.</note>, qui ad
                 montis radices extra moenia in subdita planitie iacent et orienti soli patent,
-                prerupte nudeque rupis crepido amplius acenis<note place="foot" xml:id="ftn269" n="269"> § 293 : acenis HS 1; acoenis HS 2.</note>
-                centum quinquaginta alta exurgit. (294) Alie preterea<note place="foot" xml:id="ftn270" n="270"> § 294 : preterea HS 1; preterea
-                        HS 2.</note> turres ibidem quinque constructe sunt. </p>
-            <p n="97">(295) Priusquam in Arcem pervenias, per varios montis anfractus sex porte superande
+                prerupte nudeque rupis crepido amplius acenis<note place="foot" xml:id="ftn269" n="269">§ 293 : acenis HS 1; acoenis HS 2.</note>centum quinquaginta alta exurgit. (294) Alie preterea<note place="foot" xml:id="ftn270" n="270">§ 294 : preterea HS 1; preterea
+                        HS 2.</note>turres ibidem quinque constructe sunt.</p>
+        <p n="97">(295) Priusquam in Arcem pervenias, per varios montis anfractus sex porte superande
                 sunt: quarum valve laminis ferreis fulciuntur. (296) Postrema pendula etiam
                 cataracta ad hostilem impetum eludendum premunitur. (297) Ardua flexuosaque itinera
-                ad singulas deducunt. </p>
-            <p n="98">(298) In eadem arce ad quotidianos usus, preter quam diximus ad turrim in rupis
-                culmine extare, due alie ingentes sunt cisterne, in quos<note place="foot" xml:id="ftn271" n="271"> § 298 : quos HS 1; quas HS
-                        2.</note> per euripos et incilia sub stillicidijs posita<note place="foot" xml:id="ftn272" n="272"> § 298 : posita HS
-                        1; imposita HS 2.</note> aque pluviales deferuntur. (299) Est ibidem
+                ad singulas deducunt.</p>
+        <p n="98">(298) In eadem arce ad quotidianos usus, preter quam diximus ad turrim in rupis
+                culmine extare, due alie ingentes sunt cisterne, in quos<note place="foot" xml:id="ftn271" n="271">§ 298 : quos HS 1; quas HS
+                        2.</note>per euripos et incilia sub stillicidijs posita<note place="foot" xml:id="ftn272" n="272">§ 298 : posita HS
+                        1; imposita HS 2.</note>aque pluviales deferuntur. (299) Est ibidem
                 preterea sacellum, ubi singulis diebus festis res divina peragitur.</p>
-            <p n="99">(300) Non desunt hortuli, Vineta, Oliveta, fruticeta, luculi, pistrinum<note place="foot" xml:id="ftn273" n="273"> § 300 :
-                            Pristinum HS 1; pistrinum HS 2.</note>
-                trusatile, amplum probeque instructum Armentarium<note place="foot" xml:id="ftn274" n="274"> § 300 : Armamentarium HS 1; armentarium HS
+        <p n="99">(300) Non desunt hortuli, Vineta, Oliveta, fruticeta, luculi, pistrinum<note place="foot" xml:id="ftn273" n="273">§ 300 :
+                            Pristinum HS 1; pistrinum HS 2.</note>trusatile, amplum probeque instructum Armentarium<note place="foot" xml:id="ftn274" n="274">§ 300 : Armamentarium HS 1; armentarium HS
                         2.</note>, carceres, cubicula porro, Vaporaria, Penuaria, Coquinas,
-                Cellas vinarias et reliquam arcis structuram<note place="foot" xml:id="ftn275" n="275"> § 300 : structura HS 1; structuram HS
-                    2.</note>, ut alia multa sciens pretereo. </p>
-            <p n="100">(301) Illud autem minime silendum censeo: IO<add resp="editor">annem</add> Vincentium<note place="foot" xml:id="ftn276" n="276"> § 301 : <emph>VINCETIUM</emph> HS 1; Vincentium HS 2.</note>, arci
-                comitem judicii<note place="foot" xml:id="ftn277" n="277"> §
-                        301 : juditij HS 1; judicii HS 2.</note>
-                gravitate et Ingenij acumine Heroem prestantissimum, singulare ornamentum huic Arci
+                Cellas vinarias et reliquam arcis structuram<note place="foot" xml:id="ftn275" n="275">§ 300 : structura HS 1; structuram HS
+                    2.</note>, ut alia multa sciens pretereo.</p>
+        <p n="100">(301) Illud autem minime silendum censeo: IO<add resp="editor">annem</add>Vincentium<note place="foot" xml:id="ftn276" n="276">§ 301 :<emph>VINCETIUM</emph>HS 1; Vincentium HS 2.</note>, arci
+                comitem judicii<note place="foot" xml:id="ftn277" n="277">§
+                        301 : juditij HS 1; judicii HS 2.</note>gravitate et Ingenij acumine Heroem prestantissimum, singulare ornamentum huic Arci
                 eximiumque cultum addidisse, tum picturis, tum Spheristerio, scalis, muris,
-                fenestris, hortis alijsque edificijs<note place="foot" xml:id="ftn278" n="278">
-                    § 301: in rasura: edifitijs HS 1.</note>; tum vero
+                fenestris, hortis alijsque edificijs<note place="foot" xml:id="ftn278" n="278">§ 301: in rasura: edifitijs HS 1.</note>; tum vero
                 Bibliothecae institutione, in quam multorum nummorum libros intulit eosdemque inde
-                auferri testamento vetuit. </p>
-            <p n="101">(302) Sed antiqua Marmoris inscriptione, que in area propugnaculi conspicitur,
-                relata, à Castro abeuntes in Oppidum descendamus: </p>
-            <p n="102">(303)<lg>
-            <l> <emph>SEX</emph>
-              <add resp="editor">tus</add> · <emph>NIGIDIVS</emph>
+                auferri testamento vetuit.</p>
+        <p n="101">(302) Sed antiqua Marmoris inscriptione, que in area propugnaculi conspicitur,
+                relata, à Castro abeuntes in Oppidum descendamus:</p>
+        <p n="102">(303)<lg>
+            <l>
+              <emph>SEX</emph>
+              <add resp="editor">tus</add>·<emph>NIGIDIVS</emph>
             </l>
             <l>
               <emph>FAB</emph>
-              <add resp="editor">ius</add> · <emph>PRIMVS</emph>
+              <add resp="editor">ius</add>·<emph>PRIMVS</emph>
             </l>
             <l>
               <emph>AEDIL</emph>
-              <add resp="editor">is</add> · <emph>BRIX</emph>
-              <add resp="editor">iae</add> · 
-                <emph>DECVR</emph>
-              <add resp="editor">ius</add> ·</l>
+              <add resp="editor">is</add>·<emph>BRIX</emph>
+              <add resp="editor">iae</add>·<emph>DECVR</emph>
+              <add resp="editor">ius</add>·</l>
             <l>
-              <emph>HONORE</emph> <emph>GRAT</emph>
+              <emph>HONORE</emph>
+              <emph>GRAT</emph>
               <add resp="editor">o</add>· 
-                D<add resp="editor">onum</add> · D<add resp="editor">edit</add>·</l>
+                D<add resp="editor">onum</add>· D<add resp="editor">edit</add>·</l>
             <l>
               <emph>EXPOSTVLA</emph>
-              <add resp="editor">n</add>T<add resp="editor">e</add> · <emph>PLEB</emph>
+              <add resp="editor">n</add>T<add resp="editor">e</add>·<emph>PLEB</emph>
               <add resp="editor">i</add>
             </l>
             <l>
-              <emph>ARAM</emph> · <emph>BERGIMO</emph> <emph>RESTIT</emph>
-              <add resp="editor">uit</add> ·</l>
+              <emph>ARAM</emph>·<emph>BERGIMO</emph>
+              <emph>RESTIT</emph>
+              <add resp="editor">uit</add>·</l>
           </lg>
         </p>
-            <p n="103">(304) Aliud quoque ejusdem ibidem extat monumentum in hec Verba: </p>
-            <p n="104">(305)<lg>
+        <p n="103">(304) Aliud quoque ejusdem ibidem extat monumentum in hec Verba:</p>
+        <p n="104">(305)<lg>
             <l>
-              <emph>TVTELAE</emph> <emph>AVG</emph>
-              <add resp="editor">ustae</add> ·</l>
+              <emph>TVTELAE</emph>
+              <emph>AVG</emph>
+              <add resp="editor">ustae</add>·</l>
             <l>
               <emph>SEX</emph>
-              <add resp="editor">tus</add> · <emph>NIGIDIVS</emph> <emph>FAB</emph>
-              <add resp="editor">ius</add> ·</l>
+              <add resp="editor">tus</add>·<emph>NIGIDIVS</emph>
+              <emph>FAB</emph>
+              <add resp="editor">ius</add>·</l>
             <l>
-              <emph>PRIMVS</emph> <emph>IVNIOR</emph>
+              <emph>PRIMVS</emph>
+              <emph>IVNIOR</emph>
             </l>
             <l>
-              <emph>DECVRIO</emph> <emph>BRIX</emph>
-              <add resp="editor">iae</add> ·</l>
-            <l>V<add resp="editor">otum</add> · S<add resp="editor">olvit</add> · 
-                L<add resp="editor">ibens</add> · L<add resp="editor">aetus</add> ·</l>
+              <emph>DECVRIO</emph>
+              <emph>BRIX</emph>
+              <add resp="editor">iae</add>·</l>
+            <l>V<add resp="editor">otum</add>· S<add resp="editor">olvit</add>· 
+                L<add resp="editor">ibens</add>· L<add resp="editor">aetus</add>·</l>
           </lg>
         </p>
-            <p n="105">(306) Oppidum igitur, ut diximus, moenibus cingitur: que ab orientali porta usque ad
-                angulum Sarca alluuntur, hinc vero usque ad Ascarinam<note place="foot" xml:id="ftn279" n="279"> § 306 : Ascariam HS 1;
-                        Ascarinam HS 2.</note> per fossam majori rivo obvallantur; moeniorum,
+        <p n="105">(306) Oppidum igitur, ut diximus, moenibus cingitur: que ab orientali porta usque ad
+                angulum Sarca alluuntur, hinc vero usque ad Ascarinam<note place="foot" xml:id="ftn279" n="279">§ 306 : Ascariam HS 1;
+                        Ascarinam HS 2.</note>per fossam majori rivo obvallantur; moeniorum,
                 quod reliquum est, vallo et fossa communitur: (307) Multe ac varie sunt huic Oppido
                 vie, quarum insigniores precipuis edificijs et Officinis condecorate in Forum
-                deducunt, quod quidem in ipsius Oppidi umbilico commode<note place="foot" xml:id="ftn280" n="280"> § 307 : comode HS 1; commode HS
-                        2.</note> panditur et Palatijs ac<pb xml:id="F6v"/> porticibus aptissime 
+                deducunt, quod quidem in ipsius Oppidi umbilico commode<note place="foot" xml:id="ftn280" n="280">§ 307 : comode HS 1; commode HS
+                        2.</note>panditur et Palatijs ac<pb xml:id="F6v"/>porticibus aptissime 
                 circumplectitur; (308) Turris quedam perantiqua conspicitur,
-                quam non modo ornatui, sed<note place="foot" xml:id="ftn281" n="281"> § 308: in margine: Brotagosto HS 1.</note> etiam
-                munitioni constructam<note place="foot" xml:id="ftn282" n="282"> § 308 : constructa HS 1; constructam HS 2.</note>
-                fuisse affirmes. (309) Ad Forum autem ex Antiquo Marmoris Monumento hanc
-                Inscriptionem inspicere poteris: </p>
-            <p n="106">(310) <lg>
+                quam non modo ornatui, sed<note place="foot" xml:id="ftn281" n="281">§ 308: in margine: Brotagosto HS 1.</note>etiam
+                munitioni constructam<note place="foot" xml:id="ftn282" n="282">§ 308 : constructa HS 1; constructam HS 2.</note>fuisse affirmes. (309) Ad Forum autem ex Antiquo Marmoris Monumento hanc
+                Inscriptionem inspicere poteris:</p>
+        <p n="106">(310)<lg>
             <l>
               <emph>VICTORIAE</emph>
             </l>
-                <l>
-              <emph>AVGUSTAE</emph> <emph>SACR</emph>
-              <add resp="editor">ae</add> ·</l>
-                <l>
-              <emph>AEMILIVS</emph> <emph>SP</emph>
-              <add resp="editor">urii</add> · F<add resp="editor">ilius</add> ·
-                <emph>FAVSTVS</emph>
+            <l>
+              <emph>AVGUSTAE</emph>
+              <emph>SACR</emph>
+              <add resp="editor">ae</add>·</l>
+            <l>
+              <emph>AEMILIVS</emph>
+              <emph>SP</emph>
+              <add resp="editor">urii</add>· F<add resp="editor">ilius</add>·<emph>FAVSTVS</emph>
             </l>
-                <l>
-              <emph>AEMILIVS</emph> · L<add resp="editor">ucius</add> · <emph>ET</emph> <emph>SILII</emph>
+            <l>
+              <emph>AEMILIVS</emph>· L<add resp="editor">ucius</add>·<emph>ET</emph>
+              <emph>SILII</emph>
             </l>
-                <l>
+            <l>
               <emph>PRIMVS</emph>
             </l>
           </lg>
         </p>
-            <p n="107">(311) Arcensium autem Majus Templum, quod Deipare Virgini Assumpte dicatum est,
+        <p n="107">(311) Arcensium autem Majus Templum, quod Deipare Virgini Assumpte dicatum est,
                 medium Oppidum ad Forum occupat fronteque ad Coelum vespertinum vergit, cui sacra
-                Turris ex quadrato lapide ad pedes centum adsurgit; (312) quam quattuor<note place="foot" xml:id="ftn283" n="283"> § 312: quatuor HS
-                        1; quatuor HS 2. Corr.: quattuor.</note> campanarum gravis et acutus cum
-                harmonia sonus commendat et exornat. </p>
-            <p n="108">(313) Quum autem hujusmodi edes, etsi vetustate venerabilis, humilior tamen et
-                incultior esset quam Arcensis Oppidi splendor ac dignitas postulare<note place="foot" xml:id="ftn284" n="284"> § 313: in rasura:
-                        postutale HS 1.</note> videretur, nostratibus tum ad sacrosancta<note place="foot" xml:id="ftn285" n="285"> § 313: Sacrosanta
-                        HS 1; sacrosancta HS 2</note> Mysteria<note place="foot" xml:id="ftn286" n="286"> § 313: Mijsteria HS 1; Mysteria HS
-                    2.</note> sanctius et augustius peragenda, tum ad Divinas Laudes digniùs
+                Turris ex quadrato lapide ad pedes centum adsurgit; (312) quam quattuor<note place="foot" xml:id="ftn283" n="283">§ 312: quatuor HS
+                        1; quatuor HS 2. Corr.: quattuor.</note>campanarum gravis et acutus cum
+                harmonia sonus commendat et exornat.</p>
+        <p n="108">(313) Quum autem hujusmodi edes, etsi vetustate venerabilis, humilior tamen et
+                incultior esset quam Arcensis Oppidi splendor ac dignitas postulare<note place="foot" xml:id="ftn284" n="284">§ 313: in rasura:
+                        postutale HS 1.</note>videretur, nostratibus tum ad sacrosancta<note place="foot" xml:id="ftn285" n="285">§ 313: Sacrosanta
+                        HS 1; sacrosancta HS 2</note>Mysteria<note place="foot" xml:id="ftn286" n="286">§ 313: Mijsteria HS 1; Mysteria HS
+                    2.</note>sanctius et augustius peragenda, tum ad Divinas Laudes digniùs
                 celebrandas, tum etiam ad Populi pietatem religiosiùs excolendam, magnificentiorem
-                Templi edificationem moliri visum est; (314) quod facie sua<note place="foot" xml:id="ftn287" n="287"> § 314: sua <gap/> ipsam
-                        HS1.</note> ipsam ornatiorem<note place="foot" xml:id="ftn288" n="288"> § 314: dinatiorem HS 1; ornatiorem HS
-                    2.</note> et hilariorem redderet; specie, autem admiratione et gratia
+                Templi edificationem moliri visum est; (314) quod facie sua<note place="foot" xml:id="ftn287" n="287">§ 314: sua<gap/>ipsam
+                        HS1.</note>ipsam ornatiorem<note place="foot" xml:id="ftn288" n="288">§ 314: dinatiorem HS 1; ornatiorem HS
+                    2.</note>et hilariorem redderet; specie, autem admiratione et gratia
                 intuentes detineret: Arte et structura, artificum manus operumque laborem
                 extolleret, amplitudine ac mole civium studia liberalitatemque commendaret: (315)
                 Marmoribus ac pilis decorem et elegantiam, nec non stabilitatem perpetuitatemque
-                preseferret. </p>
-            <p n="109">(316) Anno igitur à Virginis partu MDCXIII VII Id<add resp="editor">us</add>: 
-                Novembris IO<add resp="editor">annes</add>: <emph>DOMINICVS</emph>
-                <emph>BORNICVS</emph> Archipresbyter<note place="foot" xml:id="ftn289" n="289"> § 316: Archipresbiter HS 1; Archipresbyter HS
-                    2.</note> Arci magna cleri et Populi frequentia primarium lapidem in Nove
-                Basilicae fundamenta iecit. </p>
-            <p n="110">(317) Est autem Arci antiquitate in primis Nobile ac Venerabile Canonicorum
-                Collegium, quorum caput Archipresbyteri<note place="foot" xml:id="ftn290" n="290"> 
-                    § 317: Archipresbiteri HS 1; Archipresbyteri HS
-                    2.</note> dignitate eminet et omnibus agri Tridentini Sacerdotibus,
-                preterquam ipsius Urbis Divi Vigilij Canonicis, et Abbatiarum Prepositis precedit. </p>
-            <p n="111">(318) Hic cum Canonicis, quibus<note place="foot" xml:id="ftn291" n="291">
-                § 318: quibus solum in HS 2.</note> animarum cura commissa<note place="foot" xml:id="ftn292" n="292"> § 318: comissa HS 1; commissa HS 2.</note>
-                est, et curato universam Paroeciam<note place="foot" xml:id="ftn293" n="293"> § 318: in rasura: Paroeti HS
-                        1.</note> procurat et administrat.</p>
-            <p n="112">(319) Porro Sacramentorum percipiendorum causa non modo Arcuani, sed et Transarcani
-                et Romartioli huc conveniunt: (320) quin et Drodienses<note place="foot" xml:id="ftn294" n="294"> § 320: Drodenses HS 1;
-                        Drodienses HS 2.</note> ad hanc Paroeciam pertinent ejusdemque sunt
+                preseferret.</p>
+        <p n="109">(316) Anno igitur à Virginis partu MDCXIII VII Id<add resp="editor">us</add>: 
+                Novembris IO<add resp="editor">annes</add>:<emph>DOMINICVS</emph>
+          <emph>BORNICVS</emph>Archipresbyter<note place="foot" xml:id="ftn289" n="289">§ 316: Archipresbiter HS 1; Archipresbyter HS
+                    2.</note>Arci magna cleri et Populi frequentia primarium lapidem in Nove
+                Basilicae fundamenta iecit.</p>
+        <p n="110">(317) Est autem Arci antiquitate in primis Nobile ac Venerabile Canonicorum
+                Collegium, quorum caput Archipresbyteri<note place="foot" xml:id="ftn290" n="290">§ 317: Archipresbiteri HS 1; Archipresbyteri HS
+                    2.</note>dignitate eminet et omnibus agri Tridentini Sacerdotibus,
+                preterquam ipsius Urbis Divi Vigilij Canonicis, et Abbatiarum Prepositis precedit.</p>
+        <p n="111">(318) Hic cum Canonicis, quibus<note place="foot" xml:id="ftn291" n="291">§ 318: quibus solum in HS 2.</note>animarum cura commissa<note place="foot" xml:id="ftn292" n="292">§ 318: comissa HS 1; commissa HS 2.</note>est, et curato universam Paroeciam<note place="foot" xml:id="ftn293" n="293">§ 318: in rasura: Paroeti HS
+                        1.</note>procurat et administrat.</p>
+        <p n="112">(319) Porro Sacramentorum percipiendorum causa non modo Arcuani, sed et Transarcani
+                et Romartioli huc conveniunt: (320) quin et Drodienses<note place="foot" xml:id="ftn294" n="294">§ 320: Drodenses HS 1;
+                        Drodienses HS 2.</note>ad hanc Paroeciam pertinent ejusdemque sunt
                 membrum, quibus tamen ob distantiam alius curatus ad Collegij nutum sacramenta
-                    exhibet<note place="foot" xml:id="ftn295" n="295"> §
-                        320: in rasura: exibet HS 1. exitet HS 1; exhibet HS 2.</note>
-                animarumque curam gerit. (321) De hujusmodi Collegij institutione nullum (quod
-                sciam) monumentum extat; attamen abhinc<note place="foot" xml:id="ftn296" n="296">
-                    § 321: in rasura: abhic HS 1.</note> quadrigentos
+                    exhibet<note place="foot" xml:id="ftn295" n="295">§
+                        320: in rasura: exibet HS 1. exitet HS 1; exhibet HS 2.</note>animarumque curam gerit. (321) De hujusmodi Collegij institutione nullum (quod
+                sciam) monumentum extat; attamen abhinc<note place="foot" xml:id="ftn296" n="296">§ 321: in rasura: abhic HS 1.</note>quadrigentos
                 annos et eo amplius de eodem ac Templo in domesticis monumentis mentionem reperio;
                 (322) cujus quidem Templi ara maxima olim Gentilium sepulcrum fuit, quod inversum et
                 sacris ritibus expiatum in altare majus erectum et consecratum fuit: (323) in hujus
-                autem facie aversa hoc Epitaphium<note place="foot" xml:id="ftn297" n="297">
-                    § 323: Epitafium HS 1; Epitaphium HS 2.</note>
-                insculptum legitur: </p>
-            <p n="113">(324) <lg>
+                autem facie aversa hoc Epitaphium<note place="foot" xml:id="ftn297" n="297">§ 323: Epitafium HS 1; Epitaphium HS 2.</note>insculptum legitur:</p>
+        <p n="113">(324)<lg>
             <l>
-              <emph>PVBLICIAE</emph> <emph>PVSINNAE</emph>
+              <emph>PVBLICIAE</emph>
+              <emph>PVSINNAE</emph>
             </l>
-            <l>M<add resp="editor">arcus</add> <emph>NONIVS</emph> <emph>CORNELIANVS</emph>
+            <l>M<add resp="editor">arcus</add>
+              <emph>NONIVS</emph>
+              <emph>CORNELIANVS</emph>
             </l>
             <l>
-              <emph>CONIVGI</emph> <emph>CARISSIMAE</emph>
+              <emph>CONIVGI</emph>
+              <emph>CARISSIMAE</emph>
             </l>
-            <l>D<add resp="editor">iis</add> · M<add resp="editor">anibus</add>
+            <l>D<add resp="editor">iis</add>· M<add resp="editor">anibus</add>
             </l>
           </lg>
         </p>
-            <p n="114">(325) Quin, et illud addam, dum publico universorum<note place="foot" xml:id="ftn298" n="298"> § 325: Universarum HS 1; universorum HS
-                    2.</note> Arcensium consilio novum et operosum hoc Templum consurgit, duo
-                quoque eodem Tempore Fana piorum eleemosinis ac liberalitate<note place="foot" xml:id="ftn299" n="299"> § 325: liberaritate HS 1;
+        <p n="114">(325) Quin, et illud addam, dum publico universorum<note place="foot" xml:id="ftn298" n="298">§ 325: Universarum HS 1; universorum HS
+                    2.</note>Arcensium consilio novum et operosum hoc Templum consurgit, duo
+                quoque eodem Tempore Fana piorum eleemosinis ac liberalitate<note place="foot" xml:id="ftn299" n="299">§ 325: liberaritate HS 1;
                         liberalitate HS 2.</note>, alterum Dive Marie extra Moenia, alterum Divo
                 Bernardino intra Moenia, Utrique Municipij Tutelari constitui: (326) illud ad centum
                 quinquaginta passus extra Portam Divi Petri, ubi, cum olim Ambrosius Francus, Vir
-                cum Pietate insignis tum eruditione clarus, D<add resp="editor">ivam</add> Mariam<note place="foot" xml:id="ftn300" n="300"> § 326: Mariae HS 1; Mariam HS
-                        2.</note> Puerum Jesum recens natum adorantem (quam Iconem Regij Lepidi
+                cum Pietate insignis tum eruditione clarus, D<add resp="editor">ivam</add>Mariam<note place="foot" xml:id="ftn300" n="300">§ 326: Mariae HS 1; Mariam HS
+                        2.</note>Puerum Jesum recens natum adorantem (quam Iconem Regij Lepidi
                 miraculis celebrem universa fere Gallia Cispadana et Transpadana Singulari
                 frequentia colit.) ad Pomarium suum in termino pingendam curasset, tanta Arcuanus
-                Populus ergo eam effigiem<note place="foot" xml:id="ftn301" n="301"> § 326 : non legi potest HS 1; effigiem HS 2.</note>
-            <pb xml:id="F7r"/> est devotione affectus, ut ibidem delubrum ornate extruendum impetraverit. </p>
-            <p n="115">(327) Hujus autem Aedis primarius lapis ab ANDREA THOMaeO Archipresbytero<note place="foot" xml:id="ftn302" n="302"> § 327:
+                Populus ergo eam effigiem<note place="foot" xml:id="ftn301" n="301">§ 326 : non legi potest HS 1; effigiem HS 2.</note>
+          <pb xml:id="F7r"/>est devotione affectus, ut ibidem delubrum ornate extruendum impetraverit.</p>
+        <p n="115">(327) Hujus autem Aedis primarius lapis ab ANDREA THOMaeO Archipresbytero<note place="foot" xml:id="ftn302" n="302">§ 327:
                         Archipresbitero HS 1; Archipresbijtero HS 2. Corr.:
-                    Archipresbytero.</note> Arci anno MDCXXI · V Cal<add resp="editor">endis</add>. Novemb<add resp="editor">ris</add>.
-                impositus fuit. (328) Francorum autem perpetuam memoriam refert distichon<note place="foot" xml:id="ftn303" n="303"> § 327: disticon HS
-                    1; <foreign xml:lang="gr">δισιχον</foreign> HS 2. Corr.: distichon.</note> ab eodemmet Ambrosio conditum
+                    Archipresbytero.</note>Arci anno MDCXXI · V Cal<add resp="editor">endis</add>. Novemb<add resp="editor">ris</add>.
+                impositus fuit. (328) Francorum autem perpetuam memoriam refert distichon<note place="foot" xml:id="ftn303" n="303">§ 327: disticon HS
+                    1;<foreign xml:lang="gr">δισιχον</foreign>HS 2. Corr.: distichon.</note>ab eodemmet Ambrosio conditum
                 ad pedesque Virginis ibidem scriptum</p>
-            <p n="116">suscipe Virgo parens rerum tutelam<note place="foot" xml:id="ftn304" n="304">§ 328: tutela HS 1; tutela HS 2. Corr.:
-                    tutelam.</note> mearum</p>
-            <p n="117">Francorum supplex en tibi trado lares.</p>
-            <p n="118">(329) Divi autem Bernardini Aedicula in regione Transforanea seù Transfora ex
+        <p n="116">suscipe Virgo parens rerum tutelam<note place="foot" xml:id="ftn304" n="304">§ 328: tutela HS 1; tutela HS 2. Corr.:
+                    tutelam.</note>mearum</p>
+        <p n="117">Francorum supplex en tibi trado lares.</p>
+        <p n="118">(329) Divi autem Bernardini Aedicula in regione Transforanea seù Transfora ex
                 Bernardini Bonaurij legato conditur, que quidem toti illi vicinie magnum et
                 ornamentum et commodum affert. (330) Hujus quoque sacelli primario lapide solemniter
-                imposito, initium suscepit aedificatio XIII Cal<add resp="editor">endis</add> Junij MDCXXIV. </p>
-            <p n="119">(331) Est ibidem aedicula Apostolorum Principi Petro dicata, ut fama est a Cane
-                Grande à Scala circa annum secundum et quinquagesimo<note place="foot" xml:id="ftn305" n="305"> § 331: quinquagenum HS 1;
-                        quinquagesimo HS 2.</note> supra ter decies centenum quadrato lapide
+                imposito, initium suscepit aedificatio XIII Cal<add resp="editor">endis</add>Junij MDCXXIV.</p>
+        <p n="119">(331) Est ibidem aedicula Apostolorum Principi Petro dicata, ut fama est a Cane
+                Grande à Scala circa annum secundum et quinquagesimo<note place="foot" xml:id="ftn305" n="305">§ 331: quinquagenum HS 1;
+                        quinquagesimo HS 2.</note>supra ter decies centenum quadrato lapide
                 duplicique columnarum ordine extructa: (332) Hujusmodi fama argumento confirmatur
                 lapidei canis in vestibulo supra fores exculpti: (333) hinc porta (ut diximus)
                 australis Sancti Petri nomen tulit. (334) Apud quam
                 Xenodochium in Peregrinorum et Pauperum usum positum est. (335) Delubrum erat
                 Hospitali continuum Divo Antonio Abbati sacrum, sed, cum nove Ecclesie
-                    edificationi<note place="foot" xml:id="ftn306" n="306">
-                        § 335: edificatione HS 1; edificationi HS 2.</note> impedimento esset,
+                    edificationi<note place="foot" xml:id="ftn306" n="306">§ 335: edificatione HS 1; edificationi HS 2.</note>impedimento esset,
                 dirutum fuit, una cum Archangeli Michaelis Fano, quod olim familia Farina locaverat
-                cum subterranea cripta<note place="foot" xml:id="ftn307" n="307">
-                    § 335: crijpta HS 1; cripta HS 2.</note> sive
-                    sceletrophylacio<note place="foot" xml:id="ftn308" n="308">
-                        § 335: Schelotrophijlacio HS 1; scheletrophilaccio HS
-                        2. Corr.: sceletrophylacio.</note> arcuato opere<note place="foot" xml:id="ftn309" n="309"> § 335: in rasura: lapide HS
-                        1.</note> extructo, ubi purgati Poliandrii<note place="foot" xml:id="ftn310" n="310"> § 335: Polijandrij HS 1;
-                        Poljandrii HS 2. Corr.: Poliandrii.</note> ossa recondebatur. </p>
-            <p n="120">(336) Hoc vetustate atque incuria, tecto protrito excussoque pluvijs arenato
-                    labentem<note place="foot" xml:id="ftn311" n="311"> §
-                        336: labantem HS 1; labentem HS 2.</note> Comes <emph>VINCIGVERRA</emph> anno MDLXXXV
-                à fundamentis<note place="foot" xml:id="ftn312" n="312"> §
+                cum subterranea cripta<note place="foot" xml:id="ftn307" n="307">§ 335: crijpta HS 1; cripta HS 2.</note>sive
+                    sceletrophylacio<note place="foot" xml:id="ftn308" n="308">§ 335: Schelotrophijlacio HS 1; scheletrophilaccio HS
+                        2. Corr.: sceletrophylacio.</note>arcuato opere<note place="foot" xml:id="ftn309" n="309">§ 335: in rasura: lapide HS
+                        1.</note>extructo, ubi purgati Poliandrii<note place="foot" xml:id="ftn310" n="310">§ 335: Polijandrij HS 1;
+                        Poljandrii HS 2. Corr.: Poliandrii.</note>ossa recondebatur.</p>
+        <p n="120">(336) Hoc vetustate atque incuria, tecto protrito excussoque pluvijs arenato
+                    labentem<note place="foot" xml:id="ftn311" n="311">§
+                        336: labantem HS 1; labentem HS 2.</note>Comes<emph>VINCIGVERRA</emph>anno MDLXXXV
+                à fundamentis<note place="foot" xml:id="ftn312" n="312">§
                         336: fundamentij HS 1; fundamentis HS 2.</note>, preter are locum,
                 restituerat. (337) Aliud quoque est Divi Andree Fanum Divo Petro conjunctum, in quo
-                Disciplinatorum sodalitium institutum est, qui Hospitali<note place="foot" xml:id="ftn313" n="313"> § 337: Hospitalis HS 1;
-                        Hospitali HS 2.</note> curam gerunt, Peregrinos suscipiunt atque
+                Disciplinatorum sodalitium institutum est, qui Hospitali<note place="foot" xml:id="ftn313" n="313">§ 337: Hospitalis HS 1;
+                        Hospitali HS 2.</note>curam gerunt, Peregrinos suscipiunt atque
                 Arcensis comitatus pauperibus egrisque summa
-                humanitate succurrunt<note place="foot" xml:id="ftn314" n="314"> § 337: succurunt HS 1; succurrunt HS 2.</note>.
+                humanitate succurrunt<note place="foot" xml:id="ftn314" n="314">§ 337: succurunt HS 1; succurrunt HS 2.</note>.
                 (338) Puellis etiam, quibus ob dotis tenuitatem non
-                est ad Matrimonium contrahendum<note place="foot" xml:id="ftn315" n="315"> § 338: contrhaendum HS 1; contrahendum HS
-                    2.</note> commoda facultas, honestis illis quidem ac pudicis pecunia et
-                linea supellectili<note place="foot" xml:id="ftn316" n="316"> § 338: suppellectili HS 1; suppellectili HS 2. Corr.:
-                    supellectili.</note> dotem augent. </p>
-            <p n="121">(339) In vico pontis prope Moenia Sacellum Divo Josepho B<add resp="editor">eatae</add> Virginis Deipare
-                sponso olim <emph>VINCIGVERRA</emph> Senior, Superioris Pater, construxit: (340) Quod Comes
-                <emph>GVIDOBALDVS</emph> pronepos<note place="foot" xml:id="ftn317" n="317"> § 340: prenepos HS 1; pronepos HS 2.</note>
-                studiose resarcivit et scite ac pie depicta icone exornavit optimisque legatis
-                fundis auxit et locupletavit. </p>
-            <p n="122">(341) Est item alia in Colle intra Moenia inter oleas Divo Martyri<note place="foot" xml:id="ftn318" n="318"> § 341: Martirj HS 1; Martyri HS
-                        2.</note> Stephano pervetusta aedicula, quam Viri pij instaurare<note place="foot" xml:id="ftn319" n="319"> § 341:
-                        instaurandam HS 1; instaurare HS 2.</note> curarunt. </p>
-            <p n="123">(342) Preterea nullus est Pagus in Comitatu<note place="foot" xml:id="ftn320" n="320"> § 342: Commitatu HS 1; Comitatu HS 2.</note>,
-                in quo ad honorem omnipotentis Dei Beateque<note place="foot" xml:id="ftn321" n="321"> § 342: Beateque HS 1; Beateque HS 2.</note>
-                Virginis Marie atque ex Sanctis cujuspiam (ut sepius meminimus) Templum aliquod non
-                sit constructum. </p>
-            <p n="124">(343) In agro item Arcensi ad quingentos passus Ripam versus ad dexteram via regia
+                est ad Matrimonium contrahendum<note place="foot" xml:id="ftn315" n="315">§ 338: contrhaendum HS 1; contrahendum HS
+                    2.</note>commoda facultas, honestis illis quidem ac pudicis pecunia et
+                linea supellectili<note place="foot" xml:id="ftn316" n="316">§ 338: suppellectili HS 1; suppellectili HS 2. Corr.:
+                    supellectili.</note>dotem augent.</p>
+        <p n="121">(339) In vico pontis prope Moenia Sacellum Divo Josepho B<add resp="editor">eatae</add>Virginis Deipare
+                sponso olim<emph>VINCIGVERRA</emph>Senior, Superioris Pater, construxit: (340) Quod Comes<emph>GVIDOBALDVS</emph>pronepos<note place="foot" xml:id="ftn317" n="317">§ 340: prenepos HS 1; pronepos HS 2.</note>studiose resarcivit et scite ac pie depicta icone exornavit optimisque legatis
+                fundis auxit et locupletavit.</p>
+        <p n="122">(341) Est item alia in Colle intra Moenia inter oleas Divo Martyri<note place="foot" xml:id="ftn318" n="318">§ 341: Martirj HS 1; Martyri HS
+                        2.</note>Stephano pervetusta aedicula, quam Viri pij instaurare<note place="foot" xml:id="ftn319" n="319">§ 341:
+                        instaurandam HS 1; instaurare HS 2.</note>curarunt.</p>
+        <p n="123">(342) Preterea nullus est Pagus in Comitatu<note place="foot" xml:id="ftn320" n="320">§ 342: Commitatu HS 1; Comitatu HS 2.</note>,
+                in quo ad honorem omnipotentis Dei Beateque<note place="foot" xml:id="ftn321" n="321">§ 342: Beateque HS 1; Beateque HS 2.</note>Virginis Marie atque ex Sanctis cujuspiam (ut sepius meminimus) Templum aliquod non
+                sit constructum.</p>
+        <p n="124">(343) In agro item Arcensi ad quingentos passus Ripam versus ad dexteram via regia
                 transeuntibus erat olim Monasterium Sacratarum Foeminarum, quod bellis eversum fuit:
                 (344) prisci edificij adhuc rudera et vestigia conspiciuntur atque subinde edes
-                tantum Sancte Catherine Sacra restituta. </p>
-            <p n="125">(345) In Testamento item Hudalrici Arcensis condito anno Salutis MCCX atque in alijs
-                hujusmodi monumentis repperi<note place="foot" xml:id="ftn322" n="322"> § 345: reperi HS 1; reperi HS 2. Corr.:
-                    repperi.</note> ab Arcensibus Dynastis<note place="foot" xml:id="ftn323" n="323"> § 345: Dijnastis HS 1; Dynastis HS
-                    2.</note> in planitie Arci edificatum fuisse Templum Divo Adelpreto<note place="foot" xml:id="ftn324" n="324"> § 345: Adelpreto
-                        HS 1; Adelpreto HS 2. Corr.: Adelpreto.</note> dicatum; locus tamen
+                tantum Sancte Catherine Sacra restituta.</p>
+        <p n="125">(345) In Testamento item Hudalrici Arcensis condito anno Salutis MCCX atque in alijs
+                hujusmodi monumentis repperi<note place="foot" xml:id="ftn322" n="322">§ 345: reperi HS 1; reperi HS 2. Corr.:
+                    repperi.</note>ab Arcensibus Dynastis<note place="foot" xml:id="ftn323" n="323">§ 345: Dijnastis HS 1; Dynastis HS
+                    2.</note>in planitie Arci edificatum fuisse Templum Divo Adelpreto<note place="foot" xml:id="ftn324" n="324">§ 345: Adelpreto
+                        HS 1; Adelpreto HS 2. Corr.: Adelpreto.</note>dicatum; locus tamen
                 precipuus incertus. (346) Sed inter publica Pietatis opera summopere eminet Comitis
                 FRANCISCI studium, quo Montem Pietatis erigi et suo ere institui voluit: (347) ne
                 pauperes in nefarias Hebreorum manus ob egestatem incidentes graviùs usuris quam
-                inopia premerentur. </p>
-            <p n="126">(348) Hoc autem edificium<note place="foot" xml:id="ftn325" n="325"> § 348: Edificium HS 1; edificium HS 2.</note>
-                conspicuo Municipij loco ad Ascarinam situm est annisque superioribus ab illis
-                prefectis resarcitum et sacra pictura Arciadumque Dynastarum<note place="foot" xml:id="ftn326" n="326"> § 348: Dijnastarum HS 1;
-                        Dynastarum HS 2.</note> insignibus ornatum atque hoc elogio
-                condecoratum<pb xml:id="F7v"/> fuit: (349)</p>
-            <p n="127"> <lg>
+                inopia premerentur.</p>
+        <p n="126">(348) Hoc autem edificium<note place="foot" xml:id="ftn325" n="325">§ 348: Edificium HS 1; edificium HS 2.</note>conspicuo Municipij loco ad Ascarinam situm est annisque superioribus ab illis
+                prefectis resarcitum et sacra pictura Arciadumque Dynastarum<note place="foot" xml:id="ftn326" n="326">§ 348: Dijnastarum HS 1;
+                        Dynastarum HS 2.</note>insignibus ornatum atque hoc elogio
+                condecoratum<pb xml:id="F7v"/>fuit: (349)</p>
+        <p n="127">
+          <lg>
             <l>
               <emph>FRANCISCVS COMES ARCI ET PENEDARVM</emph>
             </l>
@@ -1205,14 +1115,14 @@
             <l>
               <emph>TAM EXIMII BENEFICII MEMORES</emph>
             </l>
-            <l>D<add resp="editor">onum</add> D<add resp="editor">edit</add>
+            <l>D<add resp="editor">onum</add>D<add resp="editor">edit</add>
             </l>
             <l>M D C X X I</l>
           </lg>
         </p>
-            <p n="128">(350) Atque hec de Arcensibus regionibus ac populis atque ad hominum religionem
-                ostendendam de Templis dixisse sufficiat. </p>
-            </div>
-        </body>
-    </text>
+        <p n="128">(350) Atque hec de Arcensibus regionibus ac populis atque ad hominum religionem
+                ostendendam de Templis dixisse sufficiat.</p>
+      </div>
+    </body>
+  </text>
 </TEI>

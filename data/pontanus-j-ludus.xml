@@ -1,886 +1,876 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="pontanus-j-ludus">
-            <titleStmt>
-                <title>Ludus de instauratione studiorum, versio electronica</title>
-                <author key="tyrol2196.pontanus01">
-                    <name xml:lang="dt">Pontanus, Jakob</name>
-                    <date precision="high">1542-1626</date>
-                </author>
-                <editor>Tilg, Stefan</editor>
-                <respStmt>
-                    <resp>Hanc versionem electronicam curavit</resp>
-                    <name>Johanna Luggin</name>
-                </respStmt>
-            </titleStmt>
-            
-            <editionStmt>
-                <edition>Digital text provided by the editor</edition>
-            </editionStmt>
-            <extent>591 versus</extent>
-            
-            <publicationStmt>
-                <p>Croatica et Tyrolensia: Tyrolis Latina <date>July 2014</date>
-            </p>
-            </publicationStmt>
-            
-            <sourceDesc>
-                <bibl>Tilg, Stefan: Der Ludus de instauratione studiorum von Jakob Pontanus. Eine Edition, in : Neulateinisches Jahrbuch 8 (2006), 267–292</bibl>
-            </sourceDesc>
-        </fileDesc>
-        
-        <profileDesc>
-            <creation>
-                <date when="1580" precision="high" period="15xx_3_third">1580</date>
-            </creation>
-            <textClass>
-                <keywords scheme="time">
-                    <term>Das 16. Jh. bis zum Tod Erzherzog Ferdinands II. von Tirol (1595)</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>Theater</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        
-        <revisionDesc>
-            <change>
-                <date>2014-07-07</date>
-                <name>Johanna Luggin</name>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    
-    <text>
-        <body>
-           <div>
-               <head>
-               <pb xml:id="F146r"/> Ludus ad instaurationem studiorum</head>
-                <head>Auctore Jacobo Pontano</head>
-           </div>
-                <div>
-               <head>Personae</head>
-                <castList>
-                    <castItem>
-                        <role>Prologus</role>
-                    </castItem>
-                    <castItem>
-                        <role>Flagrio</role>
-                        <role>Typtomenus</role>
-                        <roleDesc>Nequam studiosi</roleDesc>
-                    </castItem>
-                    <castItem>
-                        <role>Soloecista</role>
-                    </castItem>
-                    <castItem>
-                        <role>Sophronius</role>
-                        <roleDesc>Praeceptor</roleDesc>
-                    </castItem> 
-                    <castItem>
-                        <role>Romaeus</role>
-                        <role>Hellenius</role>
-                        <roleDesc>Boni et diligentes discipuli</roleDesc>
-                    </castItem>
-                    <castItem>
-                        <role>Acacius</role>
-                        <roleDesc>Iudex</roleDesc>
-                    </castItem>
-                    <castItem>
-                        <roleDesc>Lorarii tres </roleDesc>
-                        1.<role>Colaphus</role>
-                        2.<role>Cordalio</role>
-                        3.<role>Corax</role>
-                    </castItem>
-                    <castItem>
-                        <role>Gloria cum suis</role>
-                    </castItem>
-                </castList>
-                </div>
-                
-                <div type="prologus">
-                    <head>
-               <pb xml:id="F146v"/>Prologum Germanicum quaere tomo 3. folio 136.</head>
-                    <div>
-                        <head>Prologus</head>
-                        <sp>
-                        <l>Poeta dum nuper aliam in provinciam</l>
-                        <l>Ex hac se transfert ob certum negotium</l>
-                        <l>Invenit maius quam cupiverat ocium.</l>
-                        <l>Quod cum frustra perire non posset pati</l>
-                        <l>Nec tamen insperata agitatum molestia</l>
-                        <l>Ad curas animum graviores adiungere,</l>
-                        <l>Suum quo sibi casum leviorem redderet</l>
-                        <l>Et paulo aerumnam consolaretur suam,</l>
-                        <l>Duxit ludendum, magnos imitatus viros.</l>
-                        <l>Fabellam cudit sane iucundissimam,</l>
-                        <l>Faecundam risus et multo sale gravidam.</l>
-                        <l>Cachinnos autem vobis liquit liberos:</l>
-                        <l>Eos si addideritis, nihil ait abfore</l>
-                        <l>Quin gaudeatis gaudium effusissimum.</l>
-                        <l>Nam is demum est laetus qui cachinnis plus valet.</l>
-                        <l>Comoediam porro haud vult aut tragoediam</l>
-                        <l>Vocari quam commentus est fabellulam</l>
-                        <l>Aequis de caussis, ast lusum dici autumat.</l>
-                        <l>Agemus ludum et vos ludum spectabitis</l>
-                  <pb/>
-                        <l>Cuius dum argumentum refero verbis tribus</l>
-                        <l>Facite vos auritos probe, et soli mihi</l>
-                        <l>Mentem os oculos et frontem et nasum intendite!</l>
-                        <l>Adolescentes duo, Typtomenus et Flagrio,</l>
-                        <l>Perosi litteras, hic Graecas, alter Italas,</l>
-                        <l>Conditionem detestantur miserrimam,</l>
-                        <l>Suae libertatis uterque invenit modum.</l>
-                        <l>
-                     <pb xml:id="F147r"/> Vitae coeunt societatem ac rerum
+  <teiHeader>
+    <fileDesc xml:id="pontanus-j-ludus">
+      <titleStmt>
+        <title>Ludus de instauratione studiorum, versio electronica</title>
+        <author key="pontanus01">
+          <name xml:lang="dt">Pontanus, Jakob</name>
+          <date precision="high">1542-1626</date>
+        </author>
+        <editor>Tilg, Stefan</editor>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Johanna Luggin</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Digital text provided by the editor</edition>
+      </editionStmt>
+      <extent>591 versus</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>July 2014</date>
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Tilg, Stefan: Der Ludus de instauratione studiorum von Jakob Pontanus. Eine Edition, in : Neulateinisches Jahrbuch 8 (2006), 267–292</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1580" precision="high" period="15xx_3_third">1580</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Das 16. Jh. bis zum Tod Erzherzog Ferdinands II. von Tirol (1595)</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Theater</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2014-07-07</date>
+        <name>Johanna Luggin</name>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>
+          <pb xml:id="F146r"/>Ludus ad instaurationem studiorum</head>
+        <head>Auctore Jacobo Pontano</head>
+      </div>
+      <div>
+        <head>Personae</head>
+        <castList>
+          <castItem>
+            <role>Prologus</role>
+          </castItem>
+          <castItem>
+            <role>Flagrio</role>
+            <role>Typtomenus</role>
+            <roleDesc>Nequam studiosi</roleDesc>
+          </castItem>
+          <castItem>
+            <role>Soloecista</role>
+          </castItem>
+          <castItem>
+            <role>Sophronius</role>
+            <roleDesc>Praeceptor</roleDesc>
+          </castItem>
+          <castItem>
+            <role>Romaeus</role>
+            <role>Hellenius</role>
+            <roleDesc>Boni et diligentes discipuli</roleDesc>
+          </castItem>
+          <castItem>
+            <role>Acacius</role>
+            <roleDesc>Iudex</roleDesc>
+          </castItem>
+          <castItem>
+            <roleDesc>Lorarii tres</roleDesc>1.<role>Colaphus</role>2.<role>Cordalio</role>3.<role>Corax</role>
+          </castItem>
+          <castItem>
+            <role>Gloria cum suis</role>
+          </castItem>
+        </castList>
+      </div>
+      <div type="prologus">
+        <head>
+          <pb xml:id="F146v"/>Prologum Germanicum quaere tomo 3. folio 136.</head>
+        <div>
+          <head>Prologus</head>
+          <sp>
+            <l>Poeta dum nuper aliam in provinciam</l>
+            <l>Ex hac se transfert ob certum negotium</l>
+            <l>Invenit maius quam cupiverat ocium.</l>
+            <l>Quod cum frustra perire non posset pati</l>
+            <l>Nec tamen insperata agitatum molestia</l>
+            <l>Ad curas animum graviores adiungere,</l>
+            <l>Suum quo sibi casum leviorem redderet</l>
+            <l>Et paulo aerumnam consolaretur suam,</l>
+            <l>Duxit ludendum, magnos imitatus viros.</l>
+            <l>Fabellam cudit sane iucundissimam,</l>
+            <l>Faecundam risus et multo sale gravidam.</l>
+            <l>Cachinnos autem vobis liquit liberos:</l>
+            <l>Eos si addideritis, nihil ait abfore</l>
+            <l>Quin gaudeatis gaudium effusissimum.</l>
+            <l>Nam is demum est laetus qui cachinnis plus valet.</l>
+            <l>Comoediam porro haud vult aut tragoediam</l>
+            <l>Vocari quam commentus est fabellulam</l>
+            <l>Aequis de caussis, ast lusum dici autumat.</l>
+            <l>Agemus ludum et vos ludum spectabitis</l>
+            <pb/>
+            <l>Cuius dum argumentum refero verbis tribus</l>
+            <l>Facite vos auritos probe, et soli mihi</l>
+            <l>Mentem os oculos et frontem et nasum intendite!</l>
+            <l>Adolescentes duo, Typtomenus et Flagrio,</l>
+            <l>Perosi litteras, hic Graecas, alter Italas,</l>
+            <l>Conditionem detestantur miserrimam,</l>
+            <l>Suae libertatis uterque invenit modum.</l>
+            <l>
+              <pb xml:id="F147r"/>Vitae coeunt societatem ac rerum
                             omnium</l>
-                        <l>Cum de improviso fabulantes opprimens</l>
-                        <l>Didascalus coronat utrunque fustibus.</l>
-                        <l>Quid illi contra? Haud quaquam sese deserunt,</l>
-                        <l>Magistrum dant in terram, pugnos ingerunt,</l>
-                        <l>Et tanquam incudem alternis tundunt ictibus,</l>
-                        <l>Veteres prolixe vindicant iniurias.</l>
-                        <l>Romaeus et Hellenius ferunt opem</l>
-                        <l>Iacenti quos praeceptor ambos diligit</l>
-                        <l>Ob diligentiam. Hi percussores duos</l>
-                        <l>Accusant iudici, vestigat sedulo,</l>
-                        <l>Inventos protrahit, rapit in custodiam.</l>
-                        <l>Illi quasi re praeclare gesta nihil pavent</l>
-                        <l>Quin factum summae gloriae sibi deputant,</l>
-                        <l>Loquuntur intrepide, eos lictor verberat</l>
-                        <l>Et hunc et alium tractans ut nomen sonat.</l>
-                        <l>Multus inerit in hac fabula iocus et lepor.</l>
-                        <l>Adeste, audite! Nunc iam crepuit ostium</l>
-                        <l>A Flagrione. Eccum venit ut nugas serat.</l>
-                        </sp>
-                    </div>
-                    <div>
-                      <sp>
-                        <speaker>Flagrio – Typtomenus ‹et alii›</speaker>
-                        <l>Fl: Haud vidi hominem miseriorem neque
+            <l>Cum de improviso fabulantes opprimens</l>
+            <l>Didascalus coronat utrunque fustibus.</l>
+            <l>Quid illi contra? Haud quaquam sese deserunt,</l>
+            <l>Magistrum dant in terram, pugnos ingerunt,</l>
+            <l>Et tanquam incudem alternis tundunt ictibus,</l>
+            <l>Veteres prolixe vindicant iniurias.</l>
+            <l>Romaeus et Hellenius ferunt opem</l>
+            <l>Iacenti quos praeceptor ambos diligit</l>
+            <l>Ob diligentiam. Hi percussores duos</l>
+            <l>Accusant iudici, vestigat sedulo,</l>
+            <l>Inventos protrahit, rapit in custodiam.</l>
+            <l>Illi quasi re praeclare gesta nihil pavent</l>
+            <l>Quin factum summae gloriae sibi deputant,</l>
+            <l>Loquuntur intrepide, eos lictor verberat</l>
+            <l>Et hunc et alium tractans ut nomen sonat.</l>
+            <l>Multus inerit in hac fabula iocus et lepor.</l>
+            <l>Adeste, audite! Nunc iam crepuit ostium</l>
+            <l>A Flagrione. Eccum venit ut nugas serat.</l>
+          </sp>
+        </div>
+        <div>
+          <sp>
+            <speaker>Flagrio – Typtomenus ‹et alii›</speaker>
+            <l>Fl: Haud vidi hominem miseriorem neque
                             arbitror</l>
-                        <l>Fuisse unquam aut futurum esse ut ego sum miser,</l>
-                        <l>Qui quoties in ludum toties eo in crucem.</l>
-                        <l>Dii male perdant qui primus invenit scholas</l>
-                        <l>Tanto magis eos qui repererunt litteras</l>
-                        <l>Ob quas tot plagis compleor praegnantibus</l>
-                        <l>In corio dum virgae luxuriant meo.</l>
-                          <l>
-                     <pb xml:id="F147v"/> Fio tumidus et lividus saepissime,</l>
-                        <l>Meus magister scit carnificinam optime.</l>
-                        <l>Ibi muliebres cogor ploratus edere</l>
-                        <l>Malo qui multo consuevi ingemiscere.</l>
-                        <l>Patrem appellavi centies: „Hem mi pater,</l>
-                        <l>Iubeam valere studia, mittam nuntium</l>
-                  <pb/>
-                        <l>Artibus istis inertibus“ – impetro nihil,</l>
-                        <l>Non audit. „Fiam mercator, fiam aulicus“ –</l>
-                        <l>Abnuit, haud vult. „Doctor fias“, inquit, „volo“.</l>
-                        <l>„Hui doctor? Quale verbum ore excidit tuo?</l>
-                        <l>Mihi est memoria ut anseri, ingenium ut bovi.</l>
-                        <l>Non queo doctor fieri, ita me amabit Iuppiter.</l>
-                        <l>Non aedepol possum, profecto non volo.“</l>
-                        <l>Ille instat et rigidum minatur carcerem,</l>
-                        <l>Saepe et scutica dorsum conscribillat meum.</l>
-                        <l>Nunc quid coquam consilii, quid agere moliar</l>
-                        <l>Hic edictabo raptim clam meum patrem</l>
-                        <l>(Prius circumspiciam, necubi forte lateat</l>
-                        <l>Senex versutus arcanum hauriens meum):</l>
-                        <l>Dies abhinc paucos peregre abibit pater,</l>
-                        <l>In Gallia quoddam est illi negotium.</l>
-                        <l>Interea me ut alias custodem familiae</l>
-                        <l>Creabit argentum omne concredens mihi.</l>
-                        <l>Vae thesauro, vae scriniis, nam sacculum</l>
-                        <l>Nummis distentum fulgidis reddam approbe.</l>
-                        <l>Faciam ut crumena turgeat pecuniis.</l>
-                        <l>Deinde fugiam usque in Cyprum aut in Macedoniam,</l>
-                        <l>Merces emam vendam lucro effertissumo,</l>
-                          <l>
-                     <pb xml:id="F148r"/> Opes Attalicas spatio congeram brevi,</l>
-                        <l>Evadam – ita spes est – divitum ditissimus.</l>
-                        <l>Mox divitias omnia comitabuntur bona,</l>
-                        <l>Aurum hoc tempore etiam virtus ipsa sequitur.</l>
-                        <l>Sed quisnam est qui egreditur foras? Quem conspicor?</l>
-                        <l>Typtomene, salvus sis! Ty: O salve,
+            <l>Fuisse unquam aut futurum esse ut ego sum miser,</l>
+            <l>Qui quoties in ludum toties eo in crucem.</l>
+            <l>Dii male perdant qui primus invenit scholas</l>
+            <l>Tanto magis eos qui repererunt litteras</l>
+            <l>Ob quas tot plagis compleor praegnantibus</l>
+            <l>In corio dum virgae luxuriant meo.</l>
+            <l>
+              <pb xml:id="F147v"/>Fio tumidus et lividus saepissime,</l>
+            <l>Meus magister scit carnificinam optime.</l>
+            <l>Ibi muliebres cogor ploratus edere</l>
+            <l>Malo qui multo consuevi ingemiscere.</l>
+            <l>Patrem appellavi centies: „Hem mi pater,</l>
+            <l>Iubeam valere studia, mittam nuntium</l>
+            <pb/>
+            <l>Artibus istis inertibus“ – impetro nihil,</l>
+            <l>Non audit. „Fiam mercator, fiam aulicus“ –</l>
+            <l>Abnuit, haud vult. „Doctor fias“, inquit, „volo“.</l>
+            <l>„Hui doctor? Quale verbum ore excidit tuo?</l>
+            <l>Mihi est memoria ut anseri, ingenium ut bovi.</l>
+            <l>Non queo doctor fieri, ita me amabit Iuppiter.</l>
+            <l>Non aedepol possum, profecto non volo.“</l>
+            <l>Ille instat et rigidum minatur carcerem,</l>
+            <l>Saepe et scutica dorsum conscribillat meum.</l>
+            <l>Nunc quid coquam consilii, quid agere moliar</l>
+            <l>Hic edictabo raptim clam meum patrem</l>
+            <l>(Prius circumspiciam, necubi forte lateat</l>
+            <l>Senex versutus arcanum hauriens meum):</l>
+            <l>Dies abhinc paucos peregre abibit pater,</l>
+            <l>In Gallia quoddam est illi negotium.</l>
+            <l>Interea me ut alias custodem familiae</l>
+            <l>Creabit argentum omne concredens mihi.</l>
+            <l>Vae thesauro, vae scriniis, nam sacculum</l>
+            <l>Nummis distentum fulgidis reddam approbe.</l>
+            <l>Faciam ut crumena turgeat pecuniis.</l>
+            <l>Deinde fugiam usque in Cyprum aut in Macedoniam,</l>
+            <l>Merces emam vendam lucro effertissumo,</l>
+            <l>
+              <pb xml:id="F148r"/>Opes Attalicas spatio congeram brevi,</l>
+            <l>Evadam – ita spes est – divitum ditissimus.</l>
+            <l>Mox divitias omnia comitabuntur bona,</l>
+            <l>Aurum hoc tempore etiam virtus ipsa sequitur.</l>
+            <l>Sed quisnam est qui egreditur foras? Quem conspicor?</l>
+            <l>Typtomene, salvus sis! Ty: O salve,
                             Flagrio,</l>
-                        <l>Quid agis? Fl: Festum diem. Ty: Pol magnam ‹ergo› rem agis</l>
-                        <l>Et arduam! Fl: Quam tu tamen non refugias,</l>
-                        <l>Dicone verum? Ty: Forte. Fl: Non tu hodie e schola</l>
-                        <l>Te subduxti? Ty: Fortasse. Fl: Non tu litteras</l>
-                        <l>Odisti Graecas veluti mortem et inferos?</l>
-                        <l>Ty: Fortasse. Fl: Non
+            <l>Quid agis? Fl: Festum diem. Ty: Pol magnam ‹ergo› rem agis</l>
+            <l>Et arduam! Fl: Quam tu tamen non refugias,</l>
+            <l>Dicone verum? Ty: Forte. Fl: Non tu hodie e schola</l>
+            <l>Te subduxti? Ty: Fortasse. Fl: Non tu litteras</l>
+            <l>Odisti Graecas veluti mortem et inferos?</l>
+            <l>Ty: Fortasse. Fl: Non
                             te incursant virgae saepius?</l>
-                        <l>Ty: Fortasse. Fl: Non
+            <l>Ty: Fortasse. Fl: Non
                             tu es adolescens nequissimus?</l>
-                        <l>Ty: Scelus tace, ne in mala pugnus haereat!</l>
-                        <l>Fl: Commovi. Ty: Quod
+            <l>Ty: Scelus tace, ne in mala pugnus haereat!</l>
+            <l>Fl: Commovi. Ty: Quod
                             tu ipsus es hoc de me praedica<add>n</add>s?</l>
-                        <l>Facis nimirum quod homines mali solent,</l>
-                        <l>Enituntur videri alios secum improbos</l>
-                        <l>Ut societas scelerum minuat infamiam.</l>
-                        <l>Ego bonus sum, boni parentis filius.</l>
-                  <pb/>
-                        <l>Verum istaec missa faciamus, narra obsecro:</l>
-                        <l>Quid hic rerum? Quam solus narras fabulam?</l>
-                        <l>Fl: Aerumnas mecum commentabar pristinas,</l>
-                        <l>Felicitatis aliquam meditabar viam.</l>
-                        <l>Certe reperi viam diis bene iuvantibus.</l>
-                        <l>Ty: Ne occultum habeas quicquid animo inclusum
+            <l>Facis nimirum quod homines mali solent,</l>
+            <l>Enituntur videri alios secum improbos</l>
+            <l>Ut societas scelerum minuat infamiam.</l>
+            <l>Ego bonus sum, boni parentis filius.</l>
+            <pb/>
+            <l>Verum istaec missa faciamus, narra obsecro:</l>
+            <l>Quid hic rerum? Quam solus narras fabulam?</l>
+            <l>Fl: Aerumnas mecum commentabar pristinas,</l>
+            <l>Felicitatis aliquam meditabar viam.</l>
+            <l>Certe reperi viam diis bene iuvantibus.</l>
+            <l>Ty: Ne occultum habeas quicquid animo inclusum
                             geris,</l>
-                          <l>
-                     <pb xml:id="F148v"/> Dices fideli. Fl: O ne istuc scire postules:</l>
-                        <l>Alium silere quod voles primus sile!</l>
-                        <l>Ty: Si suspicione attigero rem fatebere?</l>
-                        <l>Fl: Fatebor si modo vera suspicabere.</l>
-                        <l>Ty: Fugam fingis. Fl:
+            <l>
+              <pb xml:id="F148v"/>Dices fideli. Fl: O ne istuc scire postules:</l>
+            <l>Alium silere quod voles primus sile!</l>
+            <l>Ty: Si suspicione attigero rem fatebere?</l>
+            <l>Fl: Fatebor si modo vera suspicabere.</l>
+            <l>Ty: Fugam fingis. Fl:
                             Fugam? Quare? Aut quo ego fugiam?</l>
-                        <l>Ty: Quasi mundus angustus siet. Est domi
+            <l>Ty: Quasi mundus angustus siet. Est domi
                             pater</l>
-                        <l>Durus, noverca est insuper iniustissima:</l>
-                        <l>Satin caussae? Fl: Nunquam. Sed esto ut
+            <l>Durus, noverca est insuper iniustissima:</l>
+            <l>Satin caussae? Fl: Nunquam. Sed esto ut
                             dictitas:</l>
-                        <l>Unde mihi sumptus ad vivendum suppetant?</l>
-                        <l>Censen’ me posse mendicando vivere?</l>
-                        <l>Ty: Argento si patrem circumducere voles</l>
-                        <l>Non deerit occasio, si effringere arculas</l>
-                        <l>Ipso absente haud quaquam deerit occasio.</l>
-                        <l>Mille modi sunt quibus senem emungat patrem</l>
-                        <l>Qui scit se reddere versipellem filius.</l>
-                        <l>Fl: Pro sycophantam graphicum quam probe
+            <l>Unde mihi sumptus ad vivendum suppetant?</l>
+            <l>Censen’ me posse mendicando vivere?</l>
+            <l>Ty: Argento si patrem circumducere voles</l>
+            <l>Non deerit occasio, si effringere arculas</l>
+            <l>Ipso absente haud quaquam deerit occasio.</l>
+            <l>Mille modi sunt quibus senem emungat patrem</l>
+            <l>Qui scit se reddere versipellem filius.</l>
+            <l>Fl: Pro sycophantam graphicum quam probe
                             consulit!</l>
-                        <l>Oportet hunc consilia dedisse regibus.</l>
-                        <l>Furem te oportet Hercle fuisse maximum,</l>
-                        <l>Tam bene qui noveris omnes furandi vias.</l>
-                        <l>Ty: Non equidem serio sed animi gratia</l>
-                        <l>Ita loquebar. Remne tetigi? Fl: Nihil
+            <l>Oportet hunc consilia dedisse regibus.</l>
+            <l>Furem te oportet Hercle fuisse maximum,</l>
+            <l>Tam bene qui noveris omnes furandi vias.</l>
+            <l>Ty: Non equidem serio sed animi gratia</l>
+            <l>Ita loquebar. Remne tetigi? Fl: Nihil
                             minus.</l>
-                        <l>Metiris me tuo pede, homo stultissime,</l>
-                        <l>Quod nunquam cogitavi tute somnias.</l>
-                        <l>Amo parentem et amor parenti plurimum.</l>
-                        <l>Ty: Sciebam te puerum malum, quare malum</l>
-                        <l>Captare te consilium erat probabile.</l>
-                        <l>Nosti verbum vetus: mala mens, malus animus.</l>
-                        <l>Si quippiam dixi secus quam res fuit,</l>
-                        <l>Velim ignoscas. Suspicio saepe fallitur.</l>
-                          <l>
-                     <pb xml:id="F149r"/> Fl: Ignosco.
+            <l>Metiris me tuo pede, homo stultissime,</l>
+            <l>Quod nunquam cogitavi tute somnias.</l>
+            <l>Amo parentem et amor parenti plurimum.</l>
+            <l>Ty: Sciebam te puerum malum, quare malum</l>
+            <l>Captare te consilium erat probabile.</l>
+            <l>Nosti verbum vetus: mala mens, malus animus.</l>
+            <l>Si quippiam dixi secus quam res fuit,</l>
+            <l>Velim ignoscas. Suspicio saepe fallitur.</l>
+            <l>
+              <pb xml:id="F149r"/>Fl: Ignosco.
                             – Graecas cur exosus litteras</l>
-                        <l>Tantopere es? Quibus haud est quicquam elegantius,</l>
-                        <l>Nihil suavius, ornatius, concinnius.</l>
-                        <l>Hac lingua Musas et Phoebum fama est loqui.</l>
-                        <l>Ty: Scilicet hac dii Musaeque lingua usi
+            <l>Tantopere es? Quibus haud est quicquam elegantius,</l>
+            <l>Nihil suavius, ornatius, concinnius.</l>
+            <l>Hac lingua Musas et Phoebum fama est loqui.</l>
+            <l>Ty: Scilicet hac dii Musaeque lingua usi
                             sient!</l>
-                        <l>Aliquis poeta finxit, hoc mendacium</l>
-                  <pb/>
-                        <l>Eorum non est primum nec erit ultimum.</l>
-                        <l>Nullone tandem pacto ab hoc ergastulo</l>
-                        <l>Ab hac calamitate meus me eximet pater?</l>
-                        <l>Quousque linguam discere cogor barbaram?</l>
-                        <l>Verba duo sunt quae belle novi inflectere,</l>
-                        <l>
-                     <foreign xml:lang="gr">Τύπτομαι</foreign> et <foreign xml:lang="gr">βοάω</foreign>, haec inflecto quotidie</l>
-                        <l>Quando inter plagas obstrepo clamoribus.</l>
-                        <l>Pessima lingua, en ut os distorsisti mihi!</l>
-                        <l>Fl: Videam, amabo te, o osculum
+            <l>Aliquis poeta finxit, hoc mendacium</l>
+            <pb/>
+            <l>Eorum non est primum nec erit ultimum.</l>
+            <l>Nullone tandem pacto ab hoc ergastulo</l>
+            <l>Ab hac calamitate meus me eximet pater?</l>
+            <l>Quousque linguam discere cogor barbaram?</l>
+            <l>Verba duo sunt quae belle novi inflectere,</l>
+            <l>
+              <foreign xml:lang="gr">Τύπτομαι</foreign>et<foreign xml:lang="gr">βοάω</foreign>, haec inflecto quotidie</l>
+            <l>Quando inter plagas obstrepo clamoribus.</l>
+            <l>Pessima lingua, en ut os distorsisti mihi!</l>
+            <l>Fl: Videam, amabo te, o osculum
                             pulcherrimum!</l>
-                        <l>Immo etiam dentes aliquot excussit tibi.</l>
-                        <l>Non sensisti? Ty: Imo cerebrum consumpsit
+            <l>Immo etiam dentes aliquot excussit tibi.</l>
+            <l>Non sensisti? Ty: Imo cerebrum consumpsit
                             mihi.</l>
-                        <l>Quid qu‹a›estus si vel ipse sim Demosthenes?</l>
-                        <l>Quis me quid garriam e doctis intelliget?</l>
-                        <l>Nam quo quis est doctior hoc Graece scit minus.</l>
-                        <l>Sunt quidam mendici et nati obscuro loco</l>
-                        <l>Qui ipsi docent mendicos ac ignobiles</l>
-                        <l>Ut aliquid videantur et acquirant pabulum.</l>
-                        <l>Clarus homo aut dives Graece non curat loqui,</l>
-                        <l>Latine dum loquatur bene. At hi nesciunt</l>
-                        <l>Fari Latine dum volunt esse Attici.</l>
-                          <l>
-                     <pb xml:id="F149v"/> Fl: Non male
+            <l>Quid qu‹a›estus si vel ipse sim Demosthenes?</l>
+            <l>Quis me quid garriam e doctis intelliget?</l>
+            <l>Nam quo quis est doctior hoc Graece scit minus.</l>
+            <l>Sunt quidam mendici et nati obscuro loco</l>
+            <l>Qui ipsi docent mendicos ac ignobiles</l>
+            <l>Ut aliquid videantur et acquirant pabulum.</l>
+            <l>Clarus homo aut dives Graece non curat loqui,</l>
+            <l>Latine dum loquatur bene. At hi nesciunt</l>
+            <l>Fari Latine dum volunt esse Attici.</l>
+            <l>
+              <pb xml:id="F149v"/>Fl: Non male
                             narras. Ty: Omnes Latini sunt libri:</l>
-                        <l>Quid Graecis opus est amplius? Fl: Nihil est
+            <l>Quid Graecis opus est amplius? Fl: Nihil est
                             opus.</l>
-                        <l>Ty: Nisi ad focum irritandum ac condendum
+            <l>Ty: Nisi ad focum irritandum ac condendum
                             piper,</l>
-                        <l>Immo Hercle ad tergendum inferiorem gutturem!</l>
-                        <l>Fl: Lepide dictum, nil potuit melius per
+            <l>Immo Hercle ad tergendum inferiorem gutturem!</l>
+            <l>Fl: Lepide dictum, nil potuit melius per
                             Iovem.</l>
-                        <l>Ty: Atque haec ut lingua prosit (quod mendacium
+            <l>Ty: Atque haec ut lingua prosit (quod mendacium
                             est):</l>
-                        <l>Quando discetur? Fl: Forsitan triennio?</l>
-                        <l>Ty: Non. Fl: Sex
+            <l>Quando discetur? Fl: Forsitan triennio?</l>
+            <l>Ty: Non. Fl: Sex
                             annis? Ty: Non. Fl:
                             Undecim? Ty: Non. Fl: Quindecim?</l>
-                        <l>Ty: Nequaquam. Fl:
+            <l>Ty: Nequaquam. Fl:
                             Viginti duobus? Ty: Neutique.</l>
-                        <l>Fl: Triginta? Ty:
+            <l>Fl: Triginta? Ty:
                             Adhuc parum est. Fl: Quinquaginta? Ty: Amplius</l>
-                        <l>Numeres oportet. Fl: Sexaginta, num satis?</l>
-                        <l>Ty: Nondum satis. Fl:
+            <l>Numeres oportet. Fl: Sexaginta, num satis?</l>
+            <l>Ty: Nondum satis. Fl:
                             Ducentis, iamne satis? Ty: Ohe!</l>
-                        <l>Fl: Quin tu cessas illudere mihi furcifer,</l>
-                        <l>Quin ipse dicis? Ty: Dicam si aures
+            <l>Fl: Quin tu cessas illudere mihi furcifer,</l>
+            <l>Quin ipse dicis? Ty: Dicam si aures
                             arrigis.</l>
-                        <l>Fl: Hem. Ty: Numquam,
+            <l>Fl: Hem. Ty: Numquam,
                             numquam, numquam Graece discitur!</l>
-                        <l>Ita ille sermo vagus est, ita variabilis,</l>
-                        <l>Tam difficilis nullique labori pervius.</l>
-                        <l>Citius voles in caelum, pelagus ebibas.</l>
-                        <l>Cur ergo vitam quae data est brevissima</l>
-                        <l>In eo sequendo ponam quod nunquam assequar,</l>
-                  <pb/>
-                        <l>Quo nil sit opus ad ullam rem, quod inutile,</l>
-                        <l>Quod delectationem tantummodo parit</l>
-                        <l>Ignavis hominibus, ociosis ventribus?</l>
-                        <l>Fl: Ergo quid inceptas? Ty: Si tu nunc iures mihi</l>
-                        <l>Non emanaturum, apperiam quid cogitem.</l>
-                        <l>Fl: Non emanabit, per Stygios iuro lacus,</l>
-                        <l>Quorum ne dii quidem audent numen fallere.</l>
-                        <l>Ty: Dies abhinc paucos peregre abibit
+            <l>Ita ille sermo vagus est, ita variabilis,</l>
+            <l>Tam difficilis nullique labori pervius.</l>
+            <l>Citius voles in caelum, pelagus ebibas.</l>
+            <l>Cur ergo vitam quae data est brevissima</l>
+            <l>In eo sequendo ponam quod nunquam assequar,</l>
+            <pb/>
+            <l>Quo nil sit opus ad ullam rem, quod inutile,</l>
+            <l>Quod delectationem tantummodo parit</l>
+            <l>Ignavis hominibus, ociosis ventribus?</l>
+            <l>Fl: Ergo quid inceptas? Ty: Si tu nunc iures mihi</l>
+            <l>Non emanaturum, apperiam quid cogitem.</l>
+            <l>Fl: Non emanabit, per Stygios iuro lacus,</l>
+            <l>Quorum ne dii quidem audent numen fallere.</l>
+            <l>Ty: Dies abhinc paucos peregre abibit
                             pater,</l>
-                        <l>In Italia quoddam est illi negotium.</l>
-                          <l>
-                     <pb xml:id="F150r"/> Interea ut alias me custodem
+            <l>In Italia quoddam est illi negotium.</l>
+            <l>
+              <pb xml:id="F150r"/>Interea ut alias me custodem
                             familiae</l>
-                        <l>Creabit argentum omne concredens mihi.</l>
-                        <l>Vae thesauro, vae scriniis, nam sacculum –</l>
-                        <l>Fl: Dii immortales, sermonem iste edit
+            <l>Creabit argentum omne concredens mihi.</l>
+            <l>Vae thesauro, vae scriniis, nam sacculum –</l>
+            <l>Fl: Dii immortales, sermonem iste edit
                             meum!</l>
-                        <l>‹Ty:› – Nummis distentum fulgidis reddam
+            <l>‹Ty:› – Nummis distentum fulgidis reddam
                             approbe.</l>
-                        <l>Faciam ut crumena turgeat pecuniis.</l>
-                        <l>Deinde fugiam usque in Cyprum aut in Macedoniam, –</l>
-                        <l>Fl: Deinde fugies in patibulum astute
+            <l>Faciam ut crumena turgeat pecuniis.</l>
+            <l>Deinde fugiam usque in Cyprum aut in Macedoniam, –</l>
+            <l>Fl: Deinde fugies in patibulum astute
                             nebulo!</l>
-                        <l>Ty: Merces emam vendam lucro effertissimo,</l>
-                        <l>Opes ingentes spatio congeram brevi,</l>
-                        <l>Evadam – ut spes est – divitum ditissimus.</l>
-                        <l>Aurum hoc tempore etiam virtus ipsa sequitur.</l>
-                        <l>Fl: Totus stupeo, iam scapulae pruriunt
+            <l>Ty: Merces emam vendam lucro effertissimo,</l>
+            <l>Opes ingentes spatio congeram brevi,</l>
+            <l>Evadam – ut spes est – divitum ditissimus.</l>
+            <l>Aurum hoc tempore etiam virtus ipsa sequitur.</l>
+            <l>Fl: Totus stupeo, iam scapulae pruriunt
                             mihi:</l>
-                        <l>Pater procul dubio rescivit, occidi!</l>
-                        <l>Heus tu cur aut unde ista es effatus modo?</l>
-                        <l>Ty: Quia sic volui, sic in corde institui
+            <l>Pater procul dubio rescivit, occidi!</l>
+            <l>Heus tu cur aut unde ista es effatus modo?</l>
+            <l>Ty: Quia sic volui, sic in corde institui
                             meo.</l>
-                        <l>Fl: Non tu alicubi quaeso velut [in] insidiis
+            <l>Fl: Non tu alicubi quaeso velut [in] insidiis
                             latens</l>
-                        <l>Mea captasti verba, scelus? Ty: Haud latui
+            <l>Mea captasti verba, scelus? Ty: Haud latui
                             uspiam,</l>
-                        <l>Huc venio nostris primum egressus aedibus.</l>
-                        <l>Quid tu dixeris ignoro. Fl: Quî fieri
+            <l>Huc venio nostris primum egressus aedibus.</l>
+            <l>Quid tu dixeris ignoro. Fl: Quî fieri
                             potest</l>
-                        <l>Ut disseras eadem iisdem verbis omnia</l>
-                        <l>Quae ego nisi prius loquentem me auscultaveris?</l>
-                        <l>Aut a superis audieris aut cor meum habeas?</l>
-                        <l>Quid horum vis? Ty: Vah tun ista hodie
+            <l>Ut disseras eadem iisdem verbis omnia</l>
+            <l>Quae ego nisi prius loquentem me auscultaveris?</l>
+            <l>Aut a superis audieris aut cor meum habeas?</l>
+            <l>Quid horum vis? Ty: Vah tun ista hodie
                             dixeras?</l>
-                        <l>Fl: Ego. Ty: Flagrio
+            <l>Fl: Ego. Ty: Flagrio
                             cedo manum. Fl: Quid ‹tibi› cum manu?</l>
-                        <l>Ecce manum. Ty: Nihil est horum, sed divina
+            <l>Ecce manum. Ty: Nihil est horum, sed divina
                             vis,</l>
-                        <l>Ut patet, ambos ad sortem meliorem vocat</l>
-                        <l>Utriusque nostrum quando mens idem sapit.</l>
-                          <l>
-                     <pb xml:id="F150v"/> Nunc tu mihi sponde auxilium et opem tuam,</l>
-                        <l>Societatem inter nos futuram arctissimam</l>
-                        <l>Ubique gentium. Fl: Spondeo. Ty: Et ego tibi</l>
-                        <l>Meam fidem et societatem respondeo.</l>
-                  <pb/>
-                        <l>Sed eccum ad nos quis tendit? Fl: Ubi? Ty: Ibi, caecus es?</l>
-                        <l>Fl: Soloecista est. Ty: Heus quo properas, quo te pedes?</l>
-                        <l>Sol: Ad ludum. Ty:
+            <l>Ut patet, ambos ad sortem meliorem vocat</l>
+            <l>Utriusque nostrum quando mens idem sapit.</l>
+            <l>
+              <pb xml:id="F150v"/>Nunc tu mihi sponde auxilium et opem tuam,</l>
+            <l>Societatem inter nos futuram arctissimam</l>
+            <l>Ubique gentium. Fl: Spondeo. Ty: Et ego tibi</l>
+            <l>Meam fidem et societatem respondeo.</l>
+            <pb/>
+            <l>Sed eccum ad nos quis tendit? Fl: Ubi? Ty: Ibi, caecus es?</l>
+            <l>Fl: Soloecista est. Ty: Heus quo properas, quo te pedes?</l>
+            <l>Sol: Ad ludum. Ty:
                             Unde? So: A foro. Ty: Quid, estne hodie ocyum?</l>
-                        <l>Sol: Nequaquam, sed defessus interponium</l>
-                        <l>Facio. Vereo ne vae mihi faciat caput</l>
-                        <l>Et iratus praeceptor ivit e schola</l>
-                        <l>Cum pallio virgam et baculum manu ferens.</l>
-                        <l>Nescio quid ei serpsit super iecur iterum.</l>
-                        <l>Sed vos quid hic, et iam cur tristior obsecro</l>
-                        <l>Est facies vestra? Cur vultus sic pallidi?</l>
-                        <l>Habetisne febrim? Ty: Quid id ad te? Te hoc non
+            <l>Sol: Nequaquam, sed defessus interponium</l>
+            <l>Facio. Vereo ne vae mihi faciat caput</l>
+            <l>Et iratus praeceptor ivit e schola</l>
+            <l>Cum pallio virgam et baculum manu ferens.</l>
+            <l>Nescio quid ei serpsit super iecur iterum.</l>
+            <l>Sed vos quid hic, et iam cur tristior obsecro</l>
+            <l>Est facies vestra? Cur vultus sic pallidi?</l>
+            <l>Habetisne febrim? Ty: Quid id ad te? Te hoc non
                             premit.</l>
-                        <l>Sol: Bona verba, ego tamen bene putavi. Ty: Quin abis?</l>
-                        <l>Sol: Ego dicam praeceptori. Ty: Eas, dic, accipe</l>
-                        <l>Hos interim tibi pugnos pro pignore.</l>
-                        <l>Mercedem post pro eo solvemus debitam.</l>
-                        <l>Sol: Oh oh, quid me verberas? Oh cessa, quid
+            <l>Sol: Bona verba, ego tamen bene putavi. Ty: Quin abis?</l>
+            <l>Sol: Ego dicam praeceptori. Ty: Eas, dic, accipe</l>
+            <l>Hos interim tibi pugnos pro pignore.</l>
+            <l>Mercedem post pro eo solvemus debitam.</l>
+            <l>Sol: Oh oh, quid me verberas? Oh cessa, quid
                             tibi</l>
-                        <l>Feci, nequam, haud mihi hoc feres ad inferos!</l>
-                        <l>Ty: At ad superos. – Fl: Vereor ne hoc ille
+            <l>Feci, nequam, haud mihi hoc feres ad inferos!</l>
+            <l>Ty: At ad superos. – Fl: Vereor ne hoc ille
                             resciat.</l>
-                        <l>Ty: Quid, tun audere eum putas? Nostros
+            <l>Ty: Quid, tun audere eum putas? Nostros
                             timet</l>
-                        <l>Pugnos hic praeceptore iam multo magis.</l>
-                        <l>So: Ubi quaeram istos discipulos
+            <l>Pugnos hic praeceptore iam multo magis.</l>
+            <l>So: Ubi quaeram istos discipulos
                             perditissimos?</l>
-                        <l>Ty: Heus cuia vox hic sonat? Fl: Ah
+            <l>Ty: Heus cuia vox hic sonat? Fl: Ah
                             praeceptoris est!</l>
-                        <l>Ty: Tace, ne metue, nos pulsare si volet</l>
-                          <l>
-                     <pb xml:id="F151r"/> Pulsabitur. Validiores illo sumus.</l>
-                        <l>Fac quod ego facio. So: Hic baculus dorsa
+            <l>Ty: Tace, ne metue, nos pulsare si volet</l>
+            <l>
+              <pb xml:id="F151r"/>Pulsabitur. Validiores illo sumus.</l>
+            <l>Fac quod ego facio. So: Hic baculus dorsa
                             molliet.</l>
-                        <l>Mitem qui nolunt iracundum sentiant.</l>
-                        <l>Scelestiores non vidi adolescentulos,</l>
-                        <l>Quibus erudiendis nihilo plus promoveris</l>
-                        <l>Quam si dealbes Aethiopem aut laterem laves.</l>
-                        <l>Malitia doctrinae omnes praecludit aditus.</l>
-                        <l>Ty: Quantum intelligo hic uterque
+            <l>Mitem qui nolunt iracundum sentiant.</l>
+            <l>Scelestiores non vidi adolescentulos,</l>
+            <l>Quibus erudiendis nihilo plus promoveris</l>
+            <l>Quam si dealbes Aethiopem aut laterem laves.</l>
+            <l>Malitia doctrinae omnes praecludit aditus.</l>
+            <l>Ty: Quantum intelligo hic uterque
                             vapulabimus.</l>
-                        <l>Fl: Tantumne gratis? Ty: Incidet in fossam lupus:</l>
-                        <l>Pugnus meus balista est, et humerus aries.</l>
-                        <l>Fl: Cubitus mihi catapulta. Vae misero
+            <l>Fl: Tantumne gratis? Ty: Incidet in fossam lupus:</l>
+            <l>Pugnus meus balista est, et humerus aries.</l>
+            <l>Fl: Cubitus mihi catapulta. Vae misero
                             tibi,</l>
-                        <l>Mensum remetiar cum magno foenore.</l>
-                        <l>Alienis hinc pedibus abibis, non tuis.</l>
-                        <l>Onustus colaphis et contusus ad necem.</l>
-                        <l>So: Adolescentes ‹dicite› quid hic
+            <l>Mensum remetiar cum magno foenore.</l>
+            <l>Alienis hinc pedibus abibis, non tuis.</l>
+            <l>Onustus colaphis et contusus ad necem.</l>
+            <l>So: Adolescentes ‹dicite› quid hic
                             versamini?</l>
-                        <l>Quis est hic sermo, quas volvitis ineptias?</l>
-                        <l>
-                     <add>Allatos credo nuncios ex Flandria,</add>
-                  </l>
-                        <l>
-                     <add>Super iis vestram postulant sententiam.</add>
-                  </l>
-                  <pb/>
-                        <l>Ty: Quid istam tibi rem interrogando opus est
+            <l>Quis est hic sermo, quas volvitis ineptias?</l>
+            <l>
+              <add>Allatos credo nuncios ex Flandria,</add>
+            </l>
+            <l>
+              <add>Super iis vestram postulant sententiam.</add>
+            </l>
+            <pb/>
+            <l>Ty: Quid istam tibi rem interrogando opus est
                             senex?</l>
-                        <l>Quae te larvae, quae crux, quae intemperiae agitant?</l>
-                        <l>Ne cures nostra! Num curamus nos tua?</l>
-                        <l>So: Eia autem nostra. Siccine loqueris
+            <l>Quae te larvae, quae crux, quae intemperiae agitant?</l>
+            <l>Ne cures nostra! Num curamus nos tua?</l>
+            <l>So: Eia autem nostra. Siccine loqueris
                             mihi,</l>
-                        <l>Pessime? Fl: Nunc iam tonat, brevi fulmen cadet.</l>
-                        <l>Meum tergum dolabit hic bellissime.</l>
-                        <l>So: Non nos meam in disciplinam estis
+            <l>Pessime? Fl: Nunc iam tonat, brevi fulmen cadet.</l>
+            <l>Meum tergum dolabit hic bellissime.</l>
+            <l>So: Non nos meam in disciplinam estis
                             traditi?</l>
-                        <l>Non vos parentes mandarunt fidei meae?</l>
-                          <l>
-                     <pb xml:id="F151v"/> Fl: Fidei
+            <l>Non vos parentes mandarunt fidei meae?</l>
+            <l>
+              <pb xml:id="F151v"/>Fl: Fidei
                             tuae, non virgis, non flagris tuis</l>
-                        <l>Phi carnifex! So: Scelesti. Fl: Au au. Ty: Ah
+            <l>Phi carnifex! So: Scelesti. Fl: Au au. Ty: Ah
                             quid facis?</l>
-                        <l>So: Verbero te. Ty:
+            <l>So: Verbero te. Ty:
                             Cessa, cessa! Fl: Cessa, si potes!</l>
-                        <l>Ut te disperdat Iuppiter invisum caput!</l>
-                        <l>So: Ob istuc vapula magis! Fl: Typtomene, iam</l>
-                        <l>Captam praedam nos capere tempus admonet,</l>
-                        <l>Ergo invola! So: Ne me tene, nunc desino.</l>
-                        <l>Ty: Nunc desinis quando ferire non potes.</l>
-                        <l>So: Quid me raptatis, heu perii interii
+            <l>Ut te disperdat Iuppiter invisum caput!</l>
+            <l>So: Ob istuc vapula magis! Fl: Typtomene, iam</l>
+            <l>Captam praedam nos capere tempus admonet,</l>
+            <l>Ergo invola! So: Ne me tene, nunc desino.</l>
+            <l>Ty: Nunc desinis quando ferire non potes.</l>
+            <l>So: Quid me raptatis, heu perii interii
                             occidi.</l>
-                        <l>Fl: Iam quomodo faciunt qui occumbunt
+            <l>Fl: Iam quomodo faciunt qui occumbunt
                             praelio</l>
-                        <l>Humum ore mordeas. So: O saeva pectora!</l>
-                        <l>Ty: Etiam probra iacis? Incudem nacti
+            <l>Humum ore mordeas. So: O saeva pectora!</l>
+            <l>Ty: Etiam probra iacis? Incudem nacti
                             sumus,</l>
-                        <l>Tundamus Flagrio. So: Eheu me
+            <l>Tundamus Flagrio. So: Eheu me
                             infelicissimum</l>
-                        <l>Quem pro libidine sua afflictunt ut volunt</l>
-                        <l>Adolescentes duo omnium improbissimi</l>
-                        <l>Quos terra sustinet. Fl: Non colaphos
+            <l>Quem pro libidine sua afflictunt ut volunt</l>
+            <l>Adolescentes duo omnium improbissimi</l>
+            <l>Quos terra sustinet. Fl: Non colaphos
                             ingeris?</l>
-                        <l>Ty: Tace, tace, tace! So: Oenipontani incolae,</l>
-                        <l>Me per deos eripite ab his latronibus!</l>
-                        <l>Ro: Helleni audin’? Praeceptor auxilium
+            <l>Ty: Tace, tace, tace! So: Oenipontani incolae,</l>
+            <l>Me per deos eripite ab his latronibus!</l>
+            <l>Ro: Helleni audin’? Praeceptor auxilium
                             petit,</l>
-                        <l>Cingere! He: Cingor, ubi sunt? Ro: Ubi prostratus iacet.</l>
-                        <l>Stringamus enses! Fl: Fugiamus! He: Fuge nebulo!</l>
-                        <l>Ro: Fuge parricida, iam te ad Orcum misero.</l>
-                        <l>Evaserunt. Magistrum adeamus sine mora.</l>
-                        <l>Quid accidit praeceptor tibi, quid passus es?</l>
-                        <l>So: O filii charissimi, vosne video?</l>
-                        <l>He: Nos ipsos pater. Age surge et nobis
+            <l>Cingere! He: Cingor, ubi sunt? Ro: Ubi prostratus iacet.</l>
+            <l>Stringamus enses! Fl: Fugiamus! He: Fuge nebulo!</l>
+            <l>Ro: Fuge parricida, iam te ad Orcum misero.</l>
+            <l>Evaserunt. Magistrum adeamus sine mora.</l>
+            <l>Quid accidit praeceptor tibi, quid passus es?</l>
+            <l>So: O filii charissimi, vosne video?</l>
+            <l>He: Nos ipsos pater. Age surge et nobis
                             expedi</l>
-                        <l>Quid et quare tibi paulo ante evenerit.</l>
-                          <l>
-                     <pb xml:id="F152r"/> So: Sine
+            <l>Quid et quare tibi paulo ante evenerit.</l>
+            <l>
+              <pb xml:id="F152r"/>So: Sine
                             caussa verbera nimis multa pertuli.</l>
-                        <l>Totus sum lassus et pugnis oppido satur,</l>
-                        <l>Pedes labant, artus tremunt, corpus dolet,</l>
-                        <l>Adeo iniquam retulere mihi gratiam</l>
-                        <l>De quibus haud unquam sum meritus quicquam mali.</l>
-                        <l>Ro: Non evitabunt supplicium nequissimi.</l>
-                  <pb/>
-                        <l>Num tantum facinus non ulciscetur deus?</l>
-                        <l>Sed cur tam atrocem in te dederunt impetum?</l>
-                        <l>So: Nocere qui vult facile caussam
+            <l>Totus sum lassus et pugnis oppido satur,</l>
+            <l>Pedes labant, artus tremunt, corpus dolet,</l>
+            <l>Adeo iniquam retulere mihi gratiam</l>
+            <l>De quibus haud unquam sum meritus quicquam mali.</l>
+            <l>Ro: Non evitabunt supplicium nequissimi.</l>
+            <pb/>
+            <l>Num tantum facinus non ulciscetur deus?</l>
+            <l>Sed cur tam atrocem in te dederunt impetum?</l>
+            <l>So: Nocere qui vult facile caussam
                             invenerit.</l>
-                        <l>Absunt a ludo quandocunque ipsis placet,</l>
-                        <l>Vagantur per popinas, potant impigre.</l>
-                        <l>Severe obiurgavi, dixi, feci omnia –</l>
-                        <l>Quid egerim agnosco: flagellavi mortuos.</l>
-                        <l>Postremo me speculandi capit cupiditas</l>
-                        <l>Ubi isti tandem pueri delitescerent,</l>
-                        <l>Quonam lusum quo graecatum concederent,</l>
-                        <l>Quo demum itarent auscultatum fabulas.</l>
-                        <l>Ecce ambos offendo stantes simul in foro.</l>
-                        <l>Iratius paulo sicut me condecet,</l>
-                        <l>Quid rerum –“, inquam, tum hi respondent superbius.</l>
-                        <l>Hic suffusum mihi iecur bile tumuit,</l>
-                        <l>Tango utrumque, illi in me velut facto agmine</l>
-                        <l>Impressionem dant et resupinant solo.</l>
-                        <l>Nec aliter in officina quam calybem fabri</l>
-                        <l>Alternis percurrunt ictibus identidem:</l>
-                        <l>Proinde mollior sum modo quam culcitra.</l>
-                        <l>He: Vide execrandam bestiarum audaciam!</l>
-                        <l>Ro: Nullus profundus satis et foetens carcer
+            <l>Absunt a ludo quandocunque ipsis placet,</l>
+            <l>Vagantur per popinas, potant impigre.</l>
+            <l>Severe obiurgavi, dixi, feci omnia –</l>
+            <l>Quid egerim agnosco: flagellavi mortuos.</l>
+            <l>Postremo me speculandi capit cupiditas</l>
+            <l>Ubi isti tandem pueri delitescerent,</l>
+            <l>Quonam lusum quo graecatum concederent,</l>
+            <l>Quo demum itarent auscultatum fabulas.</l>
+            <l>Ecce ambos offendo stantes simul in foro.</l>
+            <l>Iratius paulo sicut me condecet,</l>
+            <l>Quid rerum –“, inquam, tum hi respondent superbius.</l>
+            <l>Hic suffusum mihi iecur bile tumuit,</l>
+            <l>Tango utrumque, illi in me velut facto agmine</l>
+            <l>Impressionem dant et resupinant solo.</l>
+            <l>Nec aliter in officina quam calybem fabri</l>
+            <l>Alternis percurrunt ictibus identidem:</l>
+            <l>Proinde mollior sum modo quam culcitra.</l>
+            <l>He: Vide execrandam bestiarum audaciam!</l>
+            <l>Ro: Nullus profundus satis et foetens carcer
                             est</l>
-                          <l>
-                     <pb xml:id="F152v"/> Qui recipiat monstra haec longe
+            <l>
+              <pb xml:id="F152v"/>Qui recipiat monstra haec longe
                             immanissima.</l>
-                        <l>Sed te Sophroni iam deducemus domum,</l>
-                        <l>Diebus paucis speramus convalueris.</l>
-                        <l>Nos amborum tenebrionum nomina</l>
-                        <l>Ad iudicem faciemus delata ut sient.</l>
-                        <l>Tu habe bonum animum nec te luctu maceres!</l>
-                        <l>So: Semper cognovi vos mihi fidelissimos,</l>
-                        <l>Meique amantes ut si essem vester parens.</l>
-                        <l>He: Est ut dicis, nec nos amoris poenitet,</l>
-                        <l>Nam si memorem quae erga nos fecisti bene</l>
-                        <l>Nox citius involvat diem. Sapientia</l>
-                        <l>Monitis praeceptis institutionibus</l>
-                        <l>Tuis iterum nati sumus, vitam alteram</l>
-                        <l>Priore multo dulciorem vivimus,</l>
-                        <l>Nam vita sine literis mors est. Is scilicet</l>
-                        <l>Anima fruitur qui se doctrinae dedidit.</l>
-                        <l>So: Sapienter fili loqueris, et viriliter.</l>
-                        <l>Dii tueamini adolescentes hos optimos!</l>
-                        <l>Ro: At nos moramur, abit dies, iam te domum</l>
-                  <pb/>
-                        <l>Oportuit ductum ‹iri›. So: Volupe est non
+            <l>Sed te Sophroni iam deducemus domum,</l>
+            <l>Diebus paucis speramus convalueris.</l>
+            <l>Nos amborum tenebrionum nomina</l>
+            <l>Ad iudicem faciemus delata ut sient.</l>
+            <l>Tu habe bonum animum nec te luctu maceres!</l>
+            <l>So: Semper cognovi vos mihi fidelissimos,</l>
+            <l>Meique amantes ut si essem vester parens.</l>
+            <l>He: Est ut dicis, nec nos amoris poenitet,</l>
+            <l>Nam si memorem quae erga nos fecisti bene</l>
+            <l>Nox citius involvat diem. Sapientia</l>
+            <l>Monitis praeceptis institutionibus</l>
+            <l>Tuis iterum nati sumus, vitam alteram</l>
+            <l>Priore multo dulciorem vivimus,</l>
+            <l>Nam vita sine literis mors est. Is scilicet</l>
+            <l>Anima fruitur qui se doctrinae dedidit.</l>
+            <l>So: Sapienter fili loqueris, et viriliter.</l>
+            <l>Dii tueamini adolescentes hos optimos!</l>
+            <l>Ro: At nos moramur, abit dies, iam te domum</l>
+            <pb/>
+            <l>Oportuit ductum ‹iri›. So: Volupe est non
                             parum</l>
-                        <l>Vobiscum amice ut soleo fabularier</l>
-                        <l>Quamvis in mediis membrorum doloribus.</l>
-                        <l>Ducite et illis nebulonibus date veniam.</l>
-                        <l>Si id non vultis, iustitia si nulla patitur</l>
-                        <l>Cavete tamen ut ne poena superet modum.</l>
-                        <l>Melius duco ut siet aliquanto infra modum.</l>
-                        <l>Regum est virtus iniurias contemnere</l>
-                        <l>Aut certe sine velis et remis persequi.</l>
-                          <l>
-                     <pb xml:id="F153r"/> Ro: Fiet
+            <l>Vobiscum amice ut soleo fabularier</l>
+            <l>Quamvis in mediis membrorum doloribus.</l>
+            <l>Ducite et illis nebulonibus date veniam.</l>
+            <l>Si id non vultis, iustitia si nulla patitur</l>
+            <l>Cavete tamen ut ne poena superet modum.</l>
+            <l>Melius duco ut siet aliquanto infra modum.</l>
+            <l>Regum est virtus iniurias contemnere</l>
+            <l>Aut certe sine velis et remis persequi.</l>
+            <l>
+              <pb xml:id="F153r"/>Ro: Fiet
                             quod oras. – He: At ego fieri non sinam.</l>
-                        <l>Ro: Nec ego Hercle. He: Quid igitur aiebas vah callide?</l>
-                        <l>Ro: Tristitiam afferre dictis asperioribus</l>
-                        <l>Non ausus eram homini omnium mitissimo,</l>
-                        <l>Novos ne dolor ad pristinos accederet.</l>
-                        <l>He: Laudo consilium. Ro: Conditio miserrima est</l>
-                        <l>Docentium, exemplo unus sit Sophronius:</l>
-                        <l>Hi sive paucos numerent sive plurimos</l>
-                        <l>Discentes, semper plures invenias malos</l>
-                        <l>Moribus agrestes, ingenio stupidissimos</l>
-                        <l>Bardos. He: Truncos. Ro: Et stipites. He: Et
+            <l>Ro: Nec ego Hercle. He: Quid igitur aiebas vah callide?</l>
+            <l>Ro: Tristitiam afferre dictis asperioribus</l>
+            <l>Non ausus eram homini omnium mitissimo,</l>
+            <l>Novos ne dolor ad pristinos accederet.</l>
+            <l>He: Laudo consilium. Ro: Conditio miserrima est</l>
+            <l>Docentium, exemplo unus sit Sophronius:</l>
+            <l>Hi sive paucos numerent sive plurimos</l>
+            <l>Discentes, semper plures invenias malos</l>
+            <l>Moribus agrestes, ingenio stupidissimos</l>
+            <l>Bardos. He: Truncos. Ro: Et stipites. He: Et
                             caudices.</l>
-                        <l>Ro: Bobus pascendis aptiores. He: Et asinis.</l>
-                        <l>Ro: Hi praeceptori proh quantum negotii</l>
-                        <l>Facessunt, quam miserandis divexant modis!</l>
-                        <l>Monenti obmurmurant. He: Inviti
+            <l>Ro: Bobus pascendis aptiores. He: Et asinis.</l>
+            <l>Ro: Hi praeceptori proh quantum negotii</l>
+            <l>Facessunt, quam miserandis divexant modis!</l>
+            <l>Monenti obmurmurant. He: Inviti
                             obtemperant.</l>
-                        <l>Ro: Non sunt quieti. He: Fabulantur affatim.</l>
-                        <l>Ro: Carent libris, carent calamis, charta
+            <l>Ro: Non sunt quieti. He: Fabulantur affatim.</l>
+            <l>Ro: Carent libris, carent calamis, charta
                             carent,</l>
-                        <l>He: Omit<add>t</add>is multa: atramento et cerebro
+            <l>He: Omit<add>t</add>is multa: atramento et cerebro
                             carent,</l>
-                        <l>Carent pecuniis quia perdunt alea,</l>
-                        <l>Carent amictu quoniam opponunt pignori</l>
-                        <l>Quando in crumenis nidificant aranei.</l>
-                        <l>Ro: Quam magnus est praeterea doctorum
+            <l>Carent pecuniis quia perdunt alea,</l>
+            <l>Carent amictu quoniam opponunt pignori</l>
+            <l>Quando in crumenis nidificant aranei.</l>
+            <l>Ro: Quam magnus est praeterea doctorum
                             labor,</l>
-                        <l>Ingenia regere tantopere dissimilia,</l>
-                        <l>Maxima inaequalia reddere aequalissima.</l>
-                        <l>Hic celer est satis, at ille apparet tardior,</l>
-                        <l>Ille ingenio, iste iudicio, ille memoria,</l>
-                        <l>Hic diligentia praecellit caeteros,</l>
-                        <l>Delectant hunc Latinae, hunc Graecae litterae.</l>
-                          <l>
-                     <pb xml:id="F153v"/> He: Ita est.
+            <l>Ingenia regere tantopere dissimilia,</l>
+            <l>Maxima inaequalia reddere aequalissima.</l>
+            <l>Hic celer est satis, at ille apparet tardior,</l>
+            <l>Ille ingenio, iste iudicio, ille memoria,</l>
+            <l>Hic diligentia praecellit caeteros,</l>
+            <l>Delectant hunc Latinae, hunc Graecae litterae.</l>
+            <l>
+              <pb xml:id="F153v"/>He: Ita est.
                             Me quoque lingua omnium cultissima</l>
-                        <l>Iam pridem ut sponsa delectavit unice</l>
-                        <l>Quam complector et osculor et amo ad insaniam.</l>
-                        <l>Ergo cuique sua sit sponsa, mihi mea.</l>
-                  <pb/>
-                        <l>Ro: Hic verba sub numeros attentat cogere</l>
-                        <l>Proluit et ora musicis liquoribus.</l>
-                        <l>Poesin horrent alii ut morbum Gallicum.</l>
-                        <l>He: Immo Hercle vero uti fauces
+            <l>Iam pridem ut sponsa delectavit unice</l>
+            <l>Quam complector et osculor et amo ad insaniam.</l>
+            <l>Ergo cuique sua sit sponsa, mihi mea.</l>
+            <pb/>
+            <l>Ro: Hic verba sub numeros attentat cogere</l>
+            <l>Proluit et ora musicis liquoribus.</l>
+            <l>Poesin horrent alii ut morbum Gallicum.</l>
+            <l>He: Immo Hercle vero uti fauces
                             Acherontias.</l>
-                        <l>Ro: Merces plaerunque solvitur tenuissima</l>
-                        <l>Quae vix sufficiat uni alendo servulo.</l>
-                        <l>He: Quae vix sufficiat uni pascendo cani.</l>
-                        <l>Ro: Nemo vigilias reputat quas illi ferunt.</l>
-                        <l>He: Nemo ob beneficia quas debet agit
+            <l>Ro: Merces plaerunque solvitur tenuissima</l>
+            <l>Quae vix sufficiat uni alendo servulo.</l>
+            <l>He: Quae vix sufficiat uni pascendo cani.</l>
+            <l>Ro: Nemo vigilias reputat quas illi ferunt.</l>
+            <l>He: Nemo ob beneficia quas debet agit
                             gratias.</l>
-                        <l>Ro: Quem miserum cernis hunc magistrum
+            <l>Ro: Quem miserum cernis hunc magistrum
                             noveris.</l>
-                        <l>He: Verum quid nos loquendo laceramus diem?</l>
-                        <l>Quando latrones illos accusabimus</l>
-                        <l>Ut polliciti? Nimis reperimur languidi</l>
-                        <l>In caussa doctoris nostri. Quin iudicem</l>
-                        <l>Adimus recta? Ro: Sane adeamus – en fores,</l>
-                        <l>Modo ipse prodit et nobis fit obvius,</l>
-                        <l>Nil potuit opportunius. Acaci bone</l>
-                        <l>Iudex salve! He: Iubeo virum iustissimum</l>
-                        <l>Nostrae urbis! Ac: Et vos salvete
+            <l>He: Verum quid nos loquendo laceramus diem?</l>
+            <l>Quando latrones illos accusabimus</l>
+            <l>Ut polliciti? Nimis reperimur languidi</l>
+            <l>In caussa doctoris nostri. Quin iudicem</l>
+            <l>Adimus recta? Ro: Sane adeamus – en fores,</l>
+            <l>Modo ipse prodit et nobis fit obvius,</l>
+            <l>Nil potuit opportunius. Acaci bone</l>
+            <l>Iudex salve! He: Iubeo virum iustissimum</l>
+            <l>Nostrae urbis! Ac: Et vos salvete
                             humanissimi</l>
-                        <l>Adolescentes! Quo properatis, quo vos pedes?</l>
-                        <l>Ro: Ad te ipsum ibamus. Ac: Ad me? Quae necessitas</l>
-                        <l>Adegit? Nunc mihi exoritur suspectio</l>
-                        <l>Alicui e coetu nostrorum esse datum malum.</l>
-                        <l>Ro: Res magna est Acaci, nec aberravit
+            <l>Adolescentes! Quo properatis, quo vos pedes?</l>
+            <l>Ro: Ad te ipsum ibamus. Ac: Ad me? Quae necessitas</l>
+            <l>Adegit? Nunc mihi exoritur suspectio</l>
+            <l>Alicui e coetu nostrorum esse datum malum.</l>
+            <l>Ro: Res magna est Acaci, nec aberravit
                             procul</l>
-                        <l>Suspicio, nam doctor noster Sophronius</l>
-                        <l>Hodie verberibus est caesus gravissime.</l>
-                          <l>
-                     <pb xml:id="F154r"/> Ac: Verberibus? He: Verberibus. Ac: O rem auditu
+            <l>Suspicio, nam doctor noster Sophronius</l>
+            <l>Hodie verberibus est caesus gravissime.</l>
+            <l>
+              <pb xml:id="F154r"/>Ac: Verberibus? He: Verberibus. Ac: O rem auditu
                             gravem,</l>
-                        <l>Virum eruditum et moribus facillimis</l>
-                        <l>Caedi verberibus! Quis scelus hoc nefarium</l>
-                        <l>Patrare est ausus? Ro: Quos nunquam
+            <l>Virum eruditum et moribus facillimis</l>
+            <l>Caedi verberibus! Quis scelus hoc nefarium</l>
+            <l>Patrare est ausus? Ro: Quos nunquam
                             putaveras</l>
-                        <l>Duo discipuli magistrum ita tractarunt suum.</l>
-                        <l>Ac: Nomina! Ro:
+            <l>Duo discipuli magistrum ita tractarunt suum.</l>
+            <l>Ac: Nomina! Ro:
                             Typtomnus unus, alter Flagrio</l>
-                        <l>Est dictus. Ac: Haec nomina malum
+            <l>Est dictus. Ac: Haec nomina malum
                             praesagiunt</l>
-                        <l>Miseris. At caussa credo intercessit aliqua,</l>
-                        <l>Nam ego fuisse tam dementes non puto</l>
-                        <l>Ut praeceptorem caederent innoxium</l>
-                        <l>Omni ex parte. He: Immo caecidere innoxium!</l>
-                        <l>Ro: Ego historiam ab ipso retexam exordio,</l>
-                        <l>Ausculta sis! Ac: Ausculto. Ro: Isti sane duo</l>
-                        <l>Semper fuerunt omnium nequissimi,</l>
-                        <l>Seseque praebuerunt intractabiles</l>
-                  <pb/>
-                        <l>Magistro eius ridentes iussa libere,</l>
-                        <l>In ludum ventitantes quam rarissime,</l>
-                        <l>Latitantes in tonstrinis et gurgustiis,</l>
-                        <l>Fora obeuntes et ganeas atque balneas.</l>
-                        <l>Paterne increpuit saepe illos Sophronius,</l>
-                        <l>Precibus minas, minis admiscuit preces:</l>
-                        <l>Nihil impetravit. Tandem ceu amissas oves</l>
-                        <l>Bonus quaesit pastor quaesivit impios</l>
-                        <l>Adolescentes. Ecce ambos repperit in foro,</l>
-                        <l>Auctoritate in illos utitur sua:</l>
-                        <l>Reprendit, illi respondent ferocius.</l>
-                        <l>Hic baculo ferit utrumque, illi mox irruunt,</l>
-                          <l>
-                     <pb xml:id="F154v"/> Vellunt barbam, vellunt capillum
+            <l>Miseris. At caussa credo intercessit aliqua,</l>
+            <l>Nam ego fuisse tam dementes non puto</l>
+            <l>Ut praeceptorem caederent innoxium</l>
+            <l>Omni ex parte. He: Immo caecidere innoxium!</l>
+            <l>Ro: Ego historiam ab ipso retexam exordio,</l>
+            <l>Ausculta sis! Ac: Ausculto. Ro: Isti sane duo</l>
+            <l>Semper fuerunt omnium nequissimi,</l>
+            <l>Seseque praebuerunt intractabiles</l>
+            <pb/>
+            <l>Magistro eius ridentes iussa libere,</l>
+            <l>In ludum ventitantes quam rarissime,</l>
+            <l>Latitantes in tonstrinis et gurgustiis,</l>
+            <l>Fora obeuntes et ganeas atque balneas.</l>
+            <l>Paterne increpuit saepe illos Sophronius,</l>
+            <l>Precibus minas, minis admiscuit preces:</l>
+            <l>Nihil impetravit. Tandem ceu amissas oves</l>
+            <l>Bonus quaesit pastor quaesivit impios</l>
+            <l>Adolescentes. Ecce ambos repperit in foro,</l>
+            <l>Auctoritate in illos utitur sua:</l>
+            <l>Reprendit, illi respondent ferocius.</l>
+            <l>Hic baculo ferit utrumque, illi mox irruunt,</l>
+            <l>
+              <pb xml:id="F154v"/>Vellunt barbam, vellunt capillum
                             atrociter,</l>
-                        <l>In faciem grassantur pugnis. Ac:
+            <l>In faciem grassantur pugnis. Ac:
                             Perversitas!</l>
-                        <l>Ro: Posthaec solo affligunt et miserandum in
+            <l>Ro: Posthaec solo affligunt et miserandum in
                             modum</l>
-                        <l>Sputis et colaphis vultum deformant pium.</l>
-                        <l>Ac: Crudele facinus! Ro: Genibus pectus opprimunt,</l>
-                        <l>Et ventrem et tergum concidunt durissime.</l>
-                        <l>Magister opem clamat, nos subito accurrimus:</l>
-                        <l>Depellimus vulturios a cadavere,</l>
-                        <l>Fugientes nudis insequimur mucronibus.</l>
-                        <l>Fortuna sinistra nobis, illis dextera,</l>
-                        <l>Cruentos parricidas servavit. Ac: Age dic</l>
-                        <l>Quo penetraverunt? He: In domum hanc e
+            <l>Sputis et colaphis vultum deformant pium.</l>
+            <l>Ac: Crudele facinus! Ro: Genibus pectus opprimunt,</l>
+            <l>Et ventrem et tergum concidunt durissime.</l>
+            <l>Magister opem clamat, nos subito accurrimus:</l>
+            <l>Depellimus vulturios a cadavere,</l>
+            <l>Fugientes nudis insequimur mucronibus.</l>
+            <l>Fortuna sinistra nobis, illis dextera,</l>
+            <l>Cruentos parricidas servavit. Ac: Age dic</l>
+            <l>Quo penetraverunt? He: In domum hanc e
                             proximo.</l>
-                        <l>Ac: Ingrediar, investigabo latrunculos!</l>
-                        <l>Omnes seras secludam, omnes frangam fores,</l>
-                        <l>Nullus erit quem non perscrutabor angulus.</l>
-                        <l>Ubicunque latuerint, scelestos extraham.</l>
-                        <l>Sequentur me revinctis post terga manibus</l>
-                        <l>In obscurissimum et foedissimum specum.</l>
-                        <l>Ibi illis pro benefactis mercedem dabo.</l>
-                        <l>Valete! Ro: Vale, et quod dixisti re
+            <l>Ac: Ingrediar, investigabo latrunculos!</l>
+            <l>Omnes seras secludam, omnes frangam fores,</l>
+            <l>Nullus erit quem non perscrutabor angulus.</l>
+            <l>Ubicunque latuerint, scelestos extraham.</l>
+            <l>Sequentur me revinctis post terga manibus</l>
+            <l>In obscurissimum et foedissimum specum.</l>
+            <l>Ibi illis pro benefactis mercedem dabo.</l>
+            <l>Valete! Ro: Vale, et quod dixisti re
                             perfice!</l>
-                        <l>Ac: Omnino. Heus vos Lorarii, funes
+            <l>Ac: Omnino. Heus vos Lorarii, funes
                             promite!</l>
-                        <l>Lo: En funes! – Ro:
+            <l>Lo: En funes! – Ro:
                             Hoc hodie operis processit mihi</l>
-                        <l>Tibique Helleni. Quidnam ultra desideras?</l>
-                        <l>He: Mihi optime est si fuerit illis
+            <l>Tibique Helleni. Quidnam ultra desideras?</l>
+            <l>He: Mihi optime est si fuerit illis
                             pessime.</l>
-                        <l>Id quod futurum tanto crediderim magis</l>
-                        <l>Quia novi huius severitatem iudicis</l>
-                        <l>In vindicandis sceleribus, quorum illud est</l>
-                        <l>Sacerrimum et quavis poena dignissimum,</l>
-                          <l>
-                     <pb xml:id="F155r"/> Etiam cruce. Ro: Hoc exemplum terrebit malos</l>
-                  <pb/>
-                        <l>Discipulos et solabitur impense bonos,</l>
-                        <l>Auctoritatem reddet praeceptoribus</l>
-                        <l>Quibus his temporibus haud quicquam est contemptius,</l>
-                        <l>Nihil vilius, abiectius, aut spretum magis.</l>
-                        <l>Quondam profecto nihil venerabilius erat.</l>
-                        <l>Haud mirum illa aurea, ista sunt saecla a‹e›nea:</l>
-                        <l>Non aenea, sed ferrea quibus mores mali</l>
-                        <l>Quasi herba irrigua succrescunt uberrime.</l>
-                        <l>Omnia cum sint pretiosa et magno vaeneant</l>
-                        <l>Mores mali inveniuntur magna copia,</l>
-                        <l>Eorum messes metere maximas licet,</l>
-                        <l>Sine ullo pretio. He: Adde sine ullis
+            <l>Id quod futurum tanto crediderim magis</l>
+            <l>Quia novi huius severitatem iudicis</l>
+            <l>In vindicandis sceleribus, quorum illud est</l>
+            <l>Sacerrimum et quavis poena dignissimum,</l>
+            <l>
+              <pb xml:id="F155r"/>Etiam cruce. Ro: Hoc exemplum terrebit malos</l>
+            <pb/>
+            <l>Discipulos et solabitur impense bonos,</l>
+            <l>Auctoritatem reddet praeceptoribus</l>
+            <l>Quibus his temporibus haud quicquam est contemptius,</l>
+            <l>Nihil vilius, abiectius, aut spretum magis.</l>
+            <l>Quondam profecto nihil venerabilius erat.</l>
+            <l>Haud mirum illa aurea, ista sunt saecla a‹e›nea:</l>
+            <l>Non aenea, sed ferrea quibus mores mali</l>
+            <l>Quasi herba irrigua succrescunt uberrime.</l>
+            <l>Omnia cum sint pretiosa et magno vaeneant</l>
+            <l>Mores mali inveniuntur magna copia,</l>
+            <l>Eorum messes metere maximas licet,</l>
+            <l>Sine ullo pretio. He: Adde sine ullis
                             laboribus!</l>
-                        <l>Ro: Nos, mi Helleni, quem diligo in fratris
+            <l>Ro: Nos, mi Helleni, quem diligo in fratris
                             loco,</l>
-                        <l>Colamus virtutem et colamus litteras!</l>
-                        <l>Bonitatem semper nectamus sapientiae</l>
-                        <l>Ut in patriam sanctis ornati moribus</l>
-                        <l>Et liberalibus instructi scientiis</l>
-                        <l>Parentibus simus laetitiae, civibus</l>
-                        <l>Saluti, amicis ornamento! He: Sic volo,</l>
-                        <l>Huc omnis mea respectat cogitatio.</l>
-                        <l>Ro: Vivamus porro inter nos coniunctissimi,</l>
-                        <l>Amemus, arcte ambos irrupta copula</l>
-                        <l>Constringat donec media se mors inferat!</l>
-                        <l>Meis uteris rebus non secus ac tuis,</l>
-                        <l>Communicabis mecum adversa et prospera.</l>
-                        <l>Atque ut mei tu Helleni pars es altera</l>
-                        <l>Sic me dimidium animae tuae arbitrabere.</l>
-                        <l>He: Romaee libens, quod bene vortat, tecum
+            <l>Colamus virtutem et colamus litteras!</l>
+            <l>Bonitatem semper nectamus sapientiae</l>
+            <l>Ut in patriam sanctis ornati moribus</l>
+            <l>Et liberalibus instructi scientiis</l>
+            <l>Parentibus simus laetitiae, civibus</l>
+            <l>Saluti, amicis ornamento! He: Sic volo,</l>
+            <l>Huc omnis mea respectat cogitatio.</l>
+            <l>Ro: Vivamus porro inter nos coniunctissimi,</l>
+            <l>Amemus, arcte ambos irrupta copula</l>
+            <l>Constringat donec media se mors inferat!</l>
+            <l>Meis uteris rebus non secus ac tuis,</l>
+            <l>Communicabis mecum adversa et prospera.</l>
+            <l>Atque ut mei tu Helleni pars es altera</l>
+            <l>Sic me dimidium animae tuae arbitrabere.</l>
+            <l>He: Romaee libens, quod bene vortat, tecum
                             libens</l>
-                          <l>
-                     <pb xml:id="F155v"/> Amoris foedus ineo et benevolentiae,</l>
-                        <l>Aeternum inquam tecum iam nunc foedus ineo.</l>
-                        <l>Praeter mille alios tu mihi charissimus</l>
-                        <l>Semper eris, tecum vivam, tecumque moriar,</l>
-                        <l>Commune periclum ambobus, communis salus.</l>
-                        <l>Id ut ratum noris iungamus dexteras,</l>
-                        <l>Quin addimus complexus. Ro: Mi frater,
+            <l>
+              <pb xml:id="F155v"/>Amoris foedus ineo et benevolentiae,</l>
+            <l>Aeternum inquam tecum iam nunc foedus ineo.</l>
+            <l>Praeter mille alios tu mihi charissimus</l>
+            <l>Semper eris, tecum vivam, tecumque moriar,</l>
+            <l>Commune periclum ambobus, communis salus.</l>
+            <l>Id ut ratum noris iungamus dexteras,</l>
+            <l>Quin addimus complexus. Ro: Mi frater,
                             decus</l>
-                        <l>Meum. He: Et tu mi pater, grande columen
+            <l>Meum. He: Et tu mi pater, grande columen
                             meum.</l>
-                        <l>Ro: Tu Orestes mihi. He: Tu Pylades mihi. Ro: Tu
+            <l>Ro: Tu Orestes mihi. He: Tu Pylades mihi. Ro: Tu
                             Phintia.</l>
-                        <l>He: Tu Damon. Ro: Tu
+            <l>He: Tu Damon. Ro: Tu
                             Romaeus. He: Et tu Hellenius.</l>
-                        <l>Ro: Ita dii faxint! Nunc tempus redeundi
+            <l>Ro: Ita dii faxint! Nunc tempus redeundi
                             domum.</l>
-                        <l>Quidnam renunciabimus Sophronio?</l>
-                        <l>He: Dicamus actum iri cum illis humaniter</l>
-                  <pb/>
-                        <l>Et nos hoc ipsum contendisse a iudice,</l>
-                        <l>Quamvis id verum non sit quia male metuo</l>
-                        <l>Ne si ut res gesta est et geretur postea</l>
-                        <l>Resciscat, nos vocet crudeles et sibi</l>
-                        <l>Dolorem augeat id quod tu timuisti antea.</l>
-                        <l>Ro: Placet hic astus animo meo. Recte
+            <l>Quidnam renunciabimus Sophronio?</l>
+            <l>He: Dicamus actum iri cum illis humaniter</l>
+            <pb/>
+            <l>Et nos hoc ipsum contendisse a iudice,</l>
+            <l>Quamvis id verum non sit quia male metuo</l>
+            <l>Ne si ut res gesta est et geretur postea</l>
+            <l>Resciscat, nos vocet crudeles et sibi</l>
+            <l>Dolorem augeat id quod tu timuisti antea.</l>
+            <l>Ro: Placet hic astus animo meo. Recte
                             mones.</l>
-                      </sp>
-                    </div>
-                    <div>
-                        <sp>
-                        <speaker>Iudex – Rei – Lorarii</speaker>
-                        <l>
-                     <add>Iu:</add> Nimis edepol hic nasus est sagax
+          </sp>
+        </div>
+        <div>
+          <sp>
+            <speaker>Iudex – Rei – Lorarii</speaker>
+            <l>
+              <add>Iu:</add>Nimis edepol hic nasus est sagax
                             meus,</l>
-                        <l>Nimis odoror sese occultantes bestias.</l>
-                        <l>Insequor omnes, et omnes quas capto capio,</l>
-                        <l>Artes ad unguem calleo venatorias:</l>
-                        <l>Id evidenter senserunt ursi duo</l>
-                        <l>Quos conspicitis. Hos caepi in ista sylvula.</l>
-                        <l>Latratus postquam nostros exaudiverant</l>
-                        <l>Timore exangues totum concursant nemus,</l>
-                        <l>Quaerunt latebras novas et caeca cubilia.</l>
-                            <l>
-                     <pb xml:id="F156r"/> Nos summa vi urgemus et a tergo
+            <l>Nimis odoror sese occultantes bestias.</l>
+            <l>Insequor omnes, et omnes quas capto capio,</l>
+            <l>Artes ad unguem calleo venatorias:</l>
+            <l>Id evidenter senserunt ursi duo</l>
+            <l>Quos conspicitis. Hos caepi in ista sylvula.</l>
+            <l>Latratus postquam nostros exaudiverant</l>
+            <l>Timore exangues totum concursant nemus,</l>
+            <l>Quaerunt latebras novas et caeca cubilia.</l>
+            <l>
+              <pb xml:id="F156r"/>Nos summa vi urgemus et a tergo
                             insistimus</l>
-                        <l>Miserosque contrudimus in obstantes plagas.</l>
-                        <l>Venatio quî placet! Ty: Ut omnes pestes
+            <l>Miserosque contrudimus in obstantes plagas.</l>
+            <l>Venatio quî placet! Ty: Ut omnes pestes
                             tibi!</l>
-                        <l>Ac: Procedite in medium ut melius
+            <l>Ac: Procedite in medium ut melius
                             videamini!</l>
-                        <l>Fl: Nolumus. Ac: Ego
+            <l>Fl: Nolumus. Ac: Ego
                             faxo velitis etiam ingratiis.</l>
-                        <l>Protrudite ambos et colaphos date muneri!</l>
-                        <l>Ty: Cacus appellari debuisti, haud Acacius,</l>
-                        <l>Siquidem ingeris mala plurima innocentibus.</l>
-                        <l>Ac: O innocentes! Quis igitur nocens erit?</l>
-                        <l>Si non alias nostra urbs habet innocentias,</l>
-                        <l>Necesse est omnia plena esse hominibus malis.</l>
-                        <l>Quid ergo praeceptor vester commeruerat?</l>
-                        <l>Qua in re tandem munus non praestitit suum?</l>
-                        <l>Fl: Nimis ille praestitit et plus quam fuerit
+            <l>Protrudite ambos et colaphos date muneri!</l>
+            <l>Ty: Cacus appellari debuisti, haud Acacius,</l>
+            <l>Siquidem ingeris mala plurima innocentibus.</l>
+            <l>Ac: O innocentes! Quis igitur nocens erit?</l>
+            <l>Si non alias nostra urbs habet innocentias,</l>
+            <l>Necesse est omnia plena esse hominibus malis.</l>
+            <l>Quid ergo praeceptor vester commeruerat?</l>
+            <l>Qua in re tandem munus non praestitit suum?</l>
+            <l>Fl: Nimis ille praestitit et plus quam fuerit
                             opus.</l>
-                        <l>Ac: Tibi credam? Fl:
+            <l>Ac: Tibi credam? Fl:
                             Mihi. Ac: Non plus quam ipsi mendacio.</l>
-                        <l>Fl: Vera loqui soleo. 
+            <l>Fl: Vera loqui soleo. 
                                 Ac: Cum mentiri non potes.</l>
-                        <l>Et cur verberibus sic deturpastis hominem?</l>
-                        <l>Ty: Nos vero non deturpavimus ullo modo:</l>
-                        <l>Tundendo aliquantum graciliorem fecimus.</l>
-                        <l>Ac: Pulchra gracilitas! 
+            <l>Et cur verberibus sic deturpastis hominem?</l>
+            <l>Ty: Nos vero non deturpavimus ullo modo:</l>
+            <l>Tundendo aliquantum graciliorem fecimus.</l>
+            <l>Ac: Pulchra gracilitas! 
                                 Ty: Nec adeo callosas manus,</l>
-                        <l>Imo teneras habemus ut habent virgines.</l>
-                        <l>Inspice sis! Lo: Clunesne ostentatis
+            <l>Imo teneras habemus ut habent virgines.</l>
+            <l>Inspice sis! Lo: Clunesne ostentatis
                             iudici,</l>
-                        <l>Male educati? Vapulate! Fl: Non nates,</l>
-                        <l>Verum manus voluimus, quas quare retro</l>
-                  <pb/>
-                        <l>Vinctas geramus quae caussa? An fures sumus?</l>
-                        <l>Ac: Peiores decuplo, et non una digni
+            <l>Male educati? Vapulate! Fl: Non nates,</l>
+            <l>Verum manus voluimus, quas quare retro</l>
+            <pb/>
+            <l>Vinctas geramus quae caussa? An fures sumus?</l>
+            <l>Ac: Peiores decuplo, et non una digni
                             cruce!</l>
-                        <l>Fl: Dixti verum, nec una cruce digni sumus.</l>
-                        <l>Ty: O dii boni, itane magnam noxam
+            <l>Fl: Dixti verum, nec una cruce digni sumus.</l>
+            <l>Ty: O dii boni, itane magnam noxam
                             admisimus?</l>
-                            <l>
-                     <pb xml:id="F156v"/> Ac: Magnam
+            <l>
+              <pb xml:id="F156v"/>Ac: Magnam
                             et vix multo cruciatu expiabilem.</l>
-                        <l>Magistrum caedere est afferre manus patri.</l>
-                        <l>Fl: Stultum et plagosum verberavimus senem,</l>
-                        <l>Tam molli brachio ut vix ictum senserit.</l>
-                        <l>Ac: Cur ergo totus tumuit? Ty: Est hydropicus.</l>
-                        <l>Ac: Et facies cur sputis et sanguine
+            <l>Magistrum caedere est afferre manus patri.</l>
+            <l>Fl: Stultum et plagosum verberavimus senem,</l>
+            <l>Tam molli brachio ut vix ictum senserit.</l>
+            <l>Ac: Cur ergo totus tumuit? Ty: Est hydropicus.</l>
+            <l>Ac: Et facies cur sputis et sanguine
                             oblita?</l>
-                        <l>Ty: Numquam factum est neque fiet quod tu
+            <l>Ty: Numquam factum est neque fiet quod tu
                             praedicas.</l>
-                        <l>Ac: Factum est, nam mihi tota audita est
+            <l>Ac: Factum est, nam mihi tota audita est
                             tragoedia</l>
-                        <l>Usque a principio. Fl: Dixit aliquis
+            <l>Usque a principio. Fl: Dixit aliquis
                             malevolus,</l>
-                        <l>Hellenius et Romaeus finxere hunc dolum,</l>
-                        <l>Hanc fabulam quam incauto obtruderent tibi.</l>
-                        <l>Ac: Illis quidem plus credo quam vobis
+            <l>Hellenius et Romaeus finxere hunc dolum,</l>
+            <l>Hanc fabulam quam incauto obtruderent tibi.</l>
+            <l>Ac: Illis quidem plus credo quam vobis
                             decem.</l>
-                        <l>Fl: At illi mentiuntur plus quam ter decem.</l>
-                        <l>Ac: Mendax haberi mendaces cupit alios.</l>
-                        <l>Venite adolescentes in diversorium</l>
-                        <l>Omni apparatu instructum liberaliter!</l>
-                        <l>Lo.1: Cippo. Lo.2:
+            <l>Fl: At illi mentiuntur plus quam ter decem.</l>
+            <l>Ac: Mendax haberi mendaces cupit alios.</l>
+            <l>Venite adolescentes in diversorium</l>
+            <l>Omni apparatu instructum liberaliter!</l>
+            <l>Lo.1: Cippo. Lo.2:
                             Catenis. Lo.3: Tenebris. Lo.1: Et siti. Lo.2: Et fame.</l>
-                        <l>Ty: Proh quale hospitium narrant hi
+            <l>Ty: Proh quale hospitium narrant hi
                             mastigiae?</l>
-                        <l>Lo.3: Squalore. Lo.1:
+            <l>Lo.3: Squalore. Lo.1:
                             Cimicibus. Lo.2: Horrore. Lo.‹3›: Scuticis.</l>
-                        <l>Fl: Ut vos dii perdant cum isto diversorio!</l>
-                        <l>Nos nolumus profecto hic diversarier.</l>
-                        <l>Lo.3: At pol profecto hic debes
+            <l>Fl: Ut vos dii perdant cum isto diversorio!</l>
+            <l>Nos nolumus profecto hic diversarier.</l>
+            <l>Lo.3: At pol profecto hic debes
                             diversarier.</l>
-                        <l>Certum est profecto, non est arbitrarium.</l>
-                        <l>Ac: Quo pacto nunc tractemini in mea situm
+            <l>Certum est profecto, non est arbitrarium.</l>
+            <l>Ac: Quo pacto nunc tractemini in mea situm
                             est</l>
-                        <l>Potestate, haud in vestra, ego docebo vos</l>
-                        <l>Colere praeceptores honore debito.</l>
-                        <l>In splendorem faxo redigatis compedes</l>
-                        <l>Quas custodire vos oportebit diu.</l>
-                            <l>
-                     <pb xml:id="F157r"/> Fl: Quam
+            <l>Potestate, haud in vestra, ego docebo vos</l>
+            <l>Colere praeceptores honore debito.</l>
+            <l>In splendorem faxo redigatis compedes</l>
+            <l>Quas custodire vos oportebit diu.</l>
+            <l>
+              <pb xml:id="F157r"/>Fl: Quam
                             quaeso diu? Ac: Usque in mensem ab isto
                             septimum.</l>
-                        <l>Ty: Nullane superest misericordia? Ac: Nulla penitus:</l>
-                        <l>Ego vos gracillimos reddam ieiuniis</l>
-                        <l>Ut vos praeceptorem verberibus antea.</l>
-                        <l>Ty: Vae nobis, si facta infecta fieri
+            <l>Ty: Nullane superest misericordia? Ac: Nulla penitus:</l>
+            <l>Ego vos gracillimos reddam ieiuniis</l>
+            <l>Ut vos praeceptorem verberibus antea.</l>
+            <l>Ty: Vae nobis, si facta infecta fieri
                             queant!</l>
-                        <l>Ac: Sero sapiunt Phryges. Hoc si meditatus
+            <l>Ac: Sero sapiunt Phryges. Hoc si meditatus
                             prius</l>
-                        <l>Fuisses, fortuna huc non recidisset tua.</l>
-                        <l>Intrate, quid cunctamini? Viden’ ut pavent?</l>
-                        <l>Ut vultus mutant? Ut‹que› a foribus resiliunt?</l>
-                  <pb/>
-                        <l>Atque resilire decuit a gurgustiis,</l>
-                        <l>Salire studiose in ludum quotidie.</l>
-                        <l>Cito propellite nolentes calcibus. Ty/Fl: Oh o
+            <l>Fuisses, fortuna huc non recidisset tua.</l>
+            <l>Intrate, quid cunctamini? Viden’ ut pavent?</l>
+            <l>Ut vultus mutant? Ut‹que› a foribus resiliunt?</l>
+            <pb/>
+            <l>Atque resilire decuit a gurgustiis,</l>
+            <l>Salire studiose in ludum quotidie.</l>
+            <l>Cito propellite nolentes calcibus. Ty/Fl: Oh o
                             oho!</l>
-                        </sp>
-                        <p>Finis.</p>
-                    </div>
-                </div>
-        </body>
-    </text>
+          </sp>
+          <p>Finis.</p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,0 +1,8 @@
+<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:lattymultiauthor48981">
+  <groupname>
+    <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">Vannetti, Clementino</name>
+    <date xmlns="http://www.tei-c.org/ns/1.0" precision="high">1754-1795</date>
+    <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">Lorenzi, Costantino</name>
+    <date xmlns="http://www.tei-c.org/ns/1.0" precision="high">1754-1821</date>
+  </groupname>
+</ti:textgroup>

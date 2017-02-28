@@ -1,0 +1,1667 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc xml:id="pincio-g-navigatione">
+      <titleStmt>
+        <title>De navigatione Philippi regis in Hispaniam, versio electronica</title>
+        <author key="pincio01">
+          <name>Pincio, Giano Pirro</name>
+          <date>fl. 1500-1546</date>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Clementina Marsico</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>54 paginae</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <imprint>
+              <pubPlace>Mantua</pubPlace>
+              <date>1539</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>BCT, CBT-2-bct-eid-cf-dd</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1539" precision="high">1539</date>
+      </creation>
+      <textClass>
+        <keywords>
+          <term>Das 16. Jh. bis zum Tod Erzherzog Ferdinands II. von Tirol (1595)</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Dichtung</term>
+          <term>Epos</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>corrected teiHeader and body<date>2015-09-16</date>
+        <name>Johanna Luggin</name>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:latty:pincio01.latty2658671.latty-lat1:">
+    <body>
+      <div>
+        <head>Iani Pyrrhi Pincii Mantuani ad Ferdinandum serenissimum Ro. regem de navigatione regis
+                Philippi in Hispaniam libri tres.</head>
+      </div>
+      <div>
+        <pb xml:id="F1v"/>
+        <pb xml:id="F2r"/>
+        <head>Iani Pyrrhi Pincii Mantuani ad Ferdinandum serenissimum Ro. regem de navigatione
+                    regis Philippi in Hispaniam liber primus.</head>
+      </div>
+      <div>
+        <lg>
+          <l>Ut licet aeolios glaciali gurgite motus,</l>
+          <l>Nubiferosque aestus, et vastas aequoris iras</l>
+          <l>Ordior, et classem effrenis aquilonibus actam,<note place="margin" xml:id="ftn1" n="1">
+              <p rend="footnote text">In margine: Propositio.</p>
+            </note>
+          </l>
+          <l>Dum rex germana Rheni digressus ab ora</l>
+          <l>Scindit nocturna liquidos caligine campos,</l>
+          <l>Sevaque in occiduum vehitur per cerula mundum.</l>
+          <l>Et terram petit Hesperiam dotalia regna,</l>
+          <l>Atque hyemem patitur surda iactatus ab unda,</l>
+          <l>Vos, quae Neptuni latices habitatis amaros.<note place="margin" xml:id="ftn2" n="2">
+              <p rend="footnote text">Invocatio.</p>
+            </note>
+          </l>
+          <l>Nereides madidis fudae per colla capillis</l>
+          <l>Nymphae Nereides nostro aspirate labori,</l>
+          <l>Et quos vidistis lugubres nocte sub atra</l>
+          <l>Germani errores, et dura pericula regis</l>
+          <l>Pandite, et ad cantum pedibus properate secundis,</l>
+          <l>Nam cum turbato miscetur harena profunso</l>
+          <l>Sentitis, pelagique altas percurritis undas.</l>
+          <l>Scitis et elisas gemuisse ad saxa carinas,</l>
+          <l>Ergo quae nostis memorate, et adeste canenti,</l>
+          <l>Sed prius Hesperiae narremus funera terrae,<note place="margin" xml:id="ftn3" n="3">
+              <p rend="footnote text">Narratio.</p>
+            </note>
+          </l>
+          <l>Virgo erat armipotens, belloque asperrima terrae</l>
+          <l>Regina occiduae, qua in pontum ex orbe cadenteis</l>
+          <pb xml:id="F2v"/>
+          <l>Solis quadrupedes sera Thetis abluit unda,</l>
+          <l>Quam genere, et forma egregiam multisque petitam</l>
+          <l>
+            <persName>Helisabellam</persName>clari dixere parentes,<note place="margin" xml:id="ftn4" n="4">
+              <p rend="footnote text">
+                <persName>Helisabella</persName>
+                <placeName>Hispaniae</placeName>regina.</p>
+            </note>
+          </l>
+          <l>Haec plenis matura annis, cum nulla virilis</l>
+          <l>Quae regeret populos, superaret regia proles,</l>
+          <l>Sceptra capit, frenatque animos et legibus aequat,</l>
+          <l>Postquam ergo Haesperiae imperio successerat haeres,</l>
+          <l>Quae dicta a magno longe cantatur Ibero,</l>
+          <l>Sola haec in patriis dominatur foemina terris</l>
+          <l>Flagrantem succensa animum, hinc medio aequore Gades,</l>
+          <l>Qua in nostrum tumidis rumpit mare fluctibus orbem,<note place="margin" xml:id="ftn5" n="5">
+              <p rend="footnote text">Latum Helisabellae
+                regnum.</p>
+            </note>
+          </l>
+          <l>Angusto ambitae pelago, accepere tremendi</l>
+          <l>Iura fori, et latis parebant finibus urbes,</l>
+          <l>Oppidaque et nostro semotae e littore gentes,</l>
+          <l>Quae circunfuso posuerunt moenia ponto,</l>
+          <l>Ducebant ferrum Calybes, et forcipe massam</l>
+          <l>Versabant, atque aurifera de rupe colonus</l>
+          <l>Callaicas portabat opes, plenisque sub aulam</l>
+          <l>Gurgitibus flavas Tagus evolvebat harenas,</l>
+          <l>Si vero irrurerent hostes, densa agmina cogunt</l>
+          <l>Turdetana cohors, alacrisque in funera pubes,</l>
+          <l>Vacei bellare feri bellare solebat</l>
+          <l>Carpetana acies fortisque in bella iuventus,</l>
+          <l>Regina Hesperiam, et dotalia regna tenente</l>
+          <l>Collectum posuit robur, flatusque superbos</l>
+          <l>Cantaber, ausaniis qui sero parvit armis,</l>
+          <l>Latum erat imperium, lati confinia regni</l>
+          <l>Terminet Oceanus, qui fertur littora circum,</l>
+          <l>Trisque ambit partes, trisque aequore verbetat oras</l>
+          <pb xml:id="F3r"/>
+          <l>Qua nigris madidas quatit alas imbribus Auster,</l>
+          <l>Pinguit ab herculea tellus colliditur unda,</l>
+          <l>Atque incedente is curvantur littora portus,</l>
+          <l>Verum, ubi in occasum convolvitur Amphitrite,</l>
+          <l>Et fessis iuga soluit equis, secumque ruenteis</l>
+          <l>Praecipitat currus de clivis in aequore Titan,</l>
+          <l>Hic procurrenti fluctus Hispania cornu</l>
+          <l>Discindit, fractaeque oblatrant rupibus irae,</l>
+          <l>Quae latus occidum feriunt, mugitque repulsus</l>
+          <l>Oceanus, tumidisque irrumpere nititur undis,</l>
+          <l>Ora tamen tutos sinuoso littore portus</l>
+          <l>Efficit, et longo veniente is aequore pinus,</l>
+          <l>Ac fessos cursu nautas capit hospita tellus:</l>
+          <l>Extremam claudit surgens mons ultimum oram,</l>
+          <l>Quo currunt gentes effusae in vota, precesque</l>
+          <l>Nam Mariae his celebres adolentur finibus arae,</l>
+          <l>Hinc latus<placeName>Hesperiae</placeName>solis se vertit in ortum,</l>
+          <l>Verum imbrem gelidum, et frigentem sustinet Arcton,<note place="margin" xml:id="ftn6" n="6">
+              <p rend="footnote text">Regni confinia.</p>
+            </note>
+          </l>
+          <l>Illa etenim exposita est diris Aquilonibus ora,</l>
+          <l>Qui ex alio ruit in ripas cavat illa ontus,</l>
+          <l>Et tellus varios metuens sinuatur in arcus,</l>
+          <l>Ut vero longe excurrit se flectit in Austrum,</l>
+          <l>Rumpit ubi terras gelido Neptunus ab axe</l>
+          <l>Se inimitens, cogitque altas secedere ripas,</l>
+          <l>Inque sinum effusus spumoso interfluit aestu,</l>
+          <l>Et medius currens hostilia separat arva,</l>
+          <l>Hinc latus<placeName>Hesperiae</placeName>attingit pelagoque sonanti</l>
+          <l>Blanditur terris, et amico gurgite lambi,</l>
+          <l>Illinc audaces cumulo summittit harenas</l>
+          <pb xml:id="F3v"/>
+          <l>Et Gallos rapidis iratus fluctibus urget.</l>
+          <l>Hinc spectat Phoebi labenteis<placeName>Gallia</placeName>currus.</l>
+          <l>Respicit hinc dives nascentem<placeName>Hispania</placeName>solem,</l>
+          <l>Fronte autem incurrit, fractumque ad saxa remugit</l>
+          <l>Sub Pyreneis feruens radicibus aequor.</l>
+          <l>Vique sua obstante tentans abrumpere cautes</l>
+          <l>Tollitur, et salso conspergit marmora fluctu,</l>
+          <l>Cum vero oppositum nequeat convellere montem</l>
+          <l>Ad Thetidem redeunt revocato cerula cursu,</l>
+          <l>Hanc terram hos fines virgo ditione tenebat.</l>
+          <l>Nonnullas hic tantum arces Fernandus habebat</l>
+          <l>Rex, parvam<placeName>Hesperiae</placeName>partem,<note place="margin" xml:id="ftn7" n="7">
+              <persName>Ferdinandus</persName>
+              <placeName>Hispaniae</placeName>rex.</note>qua
+                vertice Gallos</l>
+          <l>Tarraco pertingens madido latera obicit Austro,</l>
+          <l>Atque etiam irriguas hic<placeName>Lusitania</placeName>terras</l>
+          <l>Versat, ubi effusus nitidas Tagus evomit undas,</l>
+          <l>Caetera virgineo iussu, auspicioque reguntur,</l>
+          <l>Tolluntur signa in Mauros, fera castra moventur,</l>
+          <l>Bello densantur cunei, pellagoque furenti</l>
+          <l>Pandunt vela rates, augusta in tecta vocati</l>
+          <l>Conveniunt patres, et iussi publica curant,</l>
+          <l>Hoc illi studium aut medio residere senatu,</l>
+          <l>Aut glacialem hyemem, et gelidum tolerare Bootem,</l>
+          <l>Et cum virgineo numerosos agmine saltus</l>
+          <l>Lustrare, et peditem ignifero sudare sub astro.<note place="margin" xml:id="ftn8" n="8">honesta exercitatio.</note>
+          </l>
+          <l>Non calathos mollita rudes, non pensa trahebat</l>
+          <l>Foeminea nocturna manu, verum illa solebat</l>
+          <l>Detegere arcanae semota cubilia sylvae:</l>
+          <l>Et canibus stupidos agitare in retia cervos.</l>
+          <l>Nunc auram gelida quae exibat valle petebat</l>
+          <pb xml:id="F4r"/>
+          <l>Venatrix, medioque sinus lenibat in aestu,</l>
+          <l>Summis virgineos exercens montibus annos.</l>
+          <l>Non nunquam illa animum virgo inflamata virilem</l>
+          <l>Audet Amazoniam dextra tractare bipennem,</l>
+          <l>Qualia Bisthonios lustrant densa agmina saltus,</l>
+          <l>Et vaga threicium praetexunt cursibus Ebrum,</l>
+          <l>Cum ludum Hippolyte repetitum flectit in orbem</l>
+          <l>Laevam armata manum lunata in praelia pleta,<note place="foot" xml:id="ftn9" n="9">regina armigera.</note>
+          </l>
+          <l>Et medio in campo pugnam meditatur equestrem</l>
+          <l>Dextrum extra latus Marti, nodoque fluenteis</l>
+          <l>Fertur equo religata sinus, miscetque furenti</l>
+          <l>Bella manu, et toto fusas agit aequore turmas,</l>
+          <l>Talis florentem ducit regina iuventam.</l>
+          <l>At simul eximios virgo heroum hauserit ignes,</l>
+          <l>Atque Numantinos praeclara in bella calores</l>
+          <l>Senserit, haec galeas inter versata turbarum</l>
+          <l>Gaudet terribiles resonere per agmina cantus,</l>
+          <l>Fumanteisque urgen equites compellit anhelum</l>
+          <l>Corvipedem, atque hasta proceres inupta fatigat:</l>
+          <l>Perque aciem, et mediam stipata securibus urbem</l>
+          <l>Fertur, et instabiles regni moderatur habenas.</l>
+          <l>Vix tamen armata virgo confinia dextra</l>
+          <l>Defendit, Numidum praedae, pelagoque sonanti</l>
+          <l>Exposita, hinc Mauros angustum separat aequor</l>
+          <l>Divulsas findens terras, multoque boatu</l>
+          <l>Littore ab Hesperio Getulas summovet urbes.</l>
+          <l>Hinc Pyrrenei scopuli, assidueque ruenteis</l>
+          <l>In regnum hostiles animi, quos<placeName>Gallia</placeName>nurit:</l>
+          <l>Perque apicem, clausamque effundit rupibus oram.</l>
+          <pb xml:id="F4v"/>
+          <l>Parte alta tonat oceanus, creberque procellis</l>
+          <l>Mugit, et abruptos advoluunt cerula fluctus.</l>
+          <l>Felicem hanc terram, hos fines regina tuetur:</l>
+          <l>Et quam iura sinunt fidos custodit iberos;</l>
+          <l>At quos venturi tangunt incommoda saecli,</l>
+          <l>Quos patrius succendit honor, quid fidera versent</l>
+          <l>Incerti, diversa agitant sub pectore quid tum?</l>
+          <l>Si forte exterius arderet Iberia flammis?</l>
+          <l>Ambiguos secum casus, secunque volutant</l>
+          <l>Instabiles populorum animos, curamque regendi</l>
+          <l>Difficilem et quoties magnorum pectora regum</l>
+          <l>Sub sceptris gemuere fuis, ex virgine prolem</l>
+          <l>Exoptant, precibusque petunt, Divosque fatigant</l>
+          <l>Prolem, quae toto factis memoretur in orbe:</l>
+          <l>Quae famama longos virtute extendat in annos.</l>
+          <l>Iamque novos animis, thalamos, tedasque iugales</l>
+          <l>Concipiunt, sic illi augusta in tecta frequentes</l>
+          <l>Se referunt proceres, limenque ex more salutant.<note place="margin" xml:id="ftn10" n="10">reginae convivium.</note>
+          </l>
+          <l>Hinc qua parte domus strepitus praefertur ad aures,</l>
+          <l>Interiora petunt, ubi pinguibus atria licnis</l>
+          <l>Lucent, et cerae redolent, oleeque liquores</l>
+          <l>Pascunt fumosos flammis ardentibus ignes.</l>
+          <l>Nam tum principibus germana a sede profectis</l>
+          <l>Littus ad Hesperium regina paraverat altos</l>
+          <l>Laeta toros, siculo murenas gurite natas,</l>
+          <l>Et ditem oceani praedam, nemorumque latentem</l>
+          <l>Venatum, et variis quaesita animalia terris</l>
+          <l>Iusserat afferri, mediaque onerarat in aula</l>
+          <l>Instructas dapibus mensas, residenque superbis</l>
+          <pb xml:id="F5r"/>
+          <l>Spectata auleis, et multis splendida gemmis</l>
+          <l>Inter convivas strato accumbebat in ostro.</l>
+          <l>Discurrunt famuli, voces plena atria volvunt,</l>
+          <l>Fit strepitus, cumulant epulas, convivia fervent,</l>
+          <l>Spumanteis implent pateras, aurumque coronant.</l>
+          <l>Postquam autem movere dapes, et tecta quierunt,</l>
+          <l>Tentant diversis tempus producere causis,</l>
+          <l>Hic lunae errores, unde imbres, fulmina, et ignes</l>
+          <l>Pulchrum scire putat, quae tardent sidera noctes,<note place="margin" xml:id="ftn11" n="11">sapientes convivarum
+                    sermones.</note>
+          </l>
+          <l>Quid properent hyemis soles, hic praelia tollit:</l>
+          <l>Ille togam, tumidos alter probat aequoris aestus.</l>
+          <l>Ille maritalem cunctis praeponit honorem,</l>
+          <l>Gaudet, et in seram convivas ducere notem:</l>
+          <l>Commendat thalamos, fidum commendat amorem,</l>
+          <l>Foecundusque viri amplexus, primaque iuventa</l>
+          <l>Foedera coniugii castis quaerenda puellis;</l>
+          <l>Vanum esse elabi teneros fine fructibus annos.</l>
+          <l>O quantum est pulchra fieri te prole parentem:</l>
+          <l>Haec inquit vita est hominum spectare nepotes,</l>
+          <l>Spectare aeternos proprio de saguine partus.</l>
+          <l>Haec dum convivae dictis exordia nectunt,</l>
+          <l>Labenteis retinent variis sermonibus horas.</l>
+          <l>Stat tamen, idque animo sedet omnibus, astra maritum</l>
+          <l>Quem primum dederint felici adiungere teda</l>
+          <l>Reginam<placeName>Hesperiae</placeName>heredem, illam hortantur et instant</l>
+          <l>Una omnes dubiam exemplis impellere mentem:</l>
+          <l>Connubium, sociasque faces docuisse deorum</l>
+          <l>Atque hominum regem hoc primos seruasse parentes.</l>
+          <l>Agricolis uires dant pocula laeta maritae.</l>
+          <pb xml:id="F5v"/>
+          <l>Haeret legitimis foecunda amplexibus uxor,</l>
+          <l>Praeponunt superi vacuo sacra foedera lecto</l>
+          <l>Hanc unam veteres vitam dixisse beatam,</l>
+          <l>Fernandum antem omneis regem super astra ferebant</l>
+          <l>Et forma insignem, et proauorum sanguine clarum,</l>
+          <l>Ac bello ardentem iuvenem, cui Tarraco dives</l>
+          <l>Antiquas ostentat opes, arcesque superbas,<note place="margin" xml:id="ftn12" n="12">Ferdinandi regnum.</note>
+          </l>
+          <l>Aeneadum monumenta ducum: illinc iura beatae</l>
+          <l>Accipiunt animae, et reciduae rura Sagunti.</l>
+          <l>Regnum autem pelago, famam rex terminat astris;</l>
+          <l>Quam regni corpus sociis coalesceret armis,</l>
+          <l>Et latem in libicas vires extenderet oras,</l>
+          <l>Attollet quantum iunctis se gloria Septris.</l>
+          <l>His summissa animos dictis regina iugales</l>
+          <l>Non refugit tedas, castum nova nupta cubile</l>
+          <l>Diis rerum auspicibus sanctoque volente senatu</l>
+          <l>Ascendit, iungitquem faces, animumquem marito<note place="margin" xml:id="ftn13" n="13">Helisabella regina nubet Ferdinando.
+                        IoannaFerdinandi filia.</note>:</l>
+          <l>Atque aurum, et terram tradit, fortemque iuventam:</l>
+          <l>Et lati regna oceani, hinc Ioanna sub auras</l>
+          <l>Fatalis virgo egreditur latura penates</l>
+          <l>Sub Rhenum Hesperios sceptrumque habitura paternum,</l>
+          <l>Tot regna et tantas expecat filia sedes.</l>
+          <l>Nanque illa austriaco regi coniuncta Philippo</l>
+          <l>Sacris coniugii vinclis ex Thetios undis</l>
+          <l>Ducitur augustam ad sedem, vehiturque sub orbem</l>
+          <l>Frigentem, et Pelago dotales portat iberos,</l>
+          <l>Rursus ab externo in patriam reditura marito,</l>
+          <l>His autem gemini partus genitoribus orti<note place="margin" xml:id="ftn14" n="14">Carolus, et Ferdinandus fratres.</note>
+          </l>
+          <l>Carolus, et duris sudans Fernandus in armis,</l>
+          <l>Coeli progenies, divumque aeterna propago.</l>
+          <pb xml:id="F6r"/>
+          <l>Dum vero Euganeos validis legionibus agros</l>
+          <l>Vastat Caesar avus, venetosque oppugnat, et hostem</l>
+          <l>Fusum acie insequitur, rapiturque per oppida, et urbes</l>
+          <l>Victor, et obsessas circufert signa paludes,</l>
+          <l>Interit, et cedens fuso Hellisabella relinquit</l>
+          <l>Et natae, et genero, sceptrum dotale Philippo.<note place="margin" xml:id="ftn15" n="15">Maximiliani Imperatoris virtus.
+                        Helisabella regina moritur.</note>
+          </l>
+          <l>Nuntiat exitium, et latas it fama per urbes</l>
+          <l>Suprema occiduum cecidisse in funera regnum,</l>
+          <l>Prostrati in gemitus animi, stygiaque cupressu</l>
+          <l>Velantur postes, intus plangoribus aula</l>
+          <l>Foemineis ululat, tristis ferit aurea luctus</l>
+          <l>Sidera, et infando miscentur cuncta dolore.</l>
+          <l>Sic quae flammiferis aluit secreta medullis</l>
+          <l>Vulnera, et externos labefactis ossibus ignes,<note place="margin" xml:id="ftn16" n="16">Defletur funus re.</note>
+          </l>
+          <l>Collapsam flerunt comites, resonoque boatu,</l>
+          <l>Atque imo gemitu, et concussam planctibus urbem</l>
+          <l>Implerunt atro postquam videre cruore</l>
+          <l>Spumantem gladium, et damnatam vulnere mortem,</l>
+          <l>Utresonant altos, quos reddunt atria fletus</l>
+          <l>Reginam fato raptam lacrymantis Iberi.</l>
+          <l>Tantum intergemitum, planctuque ululantia tecta</l>
+          <l>Exportant corpus proceres, crinesque solutae</l>
+          <l>Et fusae in lacrymas comitantur funera matres,</l>
+          <l>Nocturnae uariis onerantur odoribus arae,</l>
+          <l>Et divum pingues urunt altaria cerae.</l>
+          <l>Cognatos longem sensit<placeName>Germania</placeName>luctus,</l>
+          <l>Hesperios luctus gelidi sensere Triones,</l>
+          <l>Hac fama attonitum longinqua per oppida vulgus</l>
+          <l>Cingunt mortiferis pallentia limina ramis.</l>
+          <pb xml:id="F6v"/>
+          <l>Ingemit Rhenus cari miseratus Iberi<note place="margin" xml:id="ftn17" n="17">Regiae exequiae.</note>
+          </l>
+          <l>Moerorem, et diram cladem, lacrymisque tumentem</l>
+          <l>Auxit aquam, et largis creverunt fletibus undae,</l>
+          <l>Creditur Hercinium nemus illacrimasse sub umbris</l>
+          <l>Occultum densis et mestum frondibus atris</l>
+          <l>Turgenteis tergisse oculos: doluere Batavi.</l>
+          <l>Vindelici, Rhetique et prompti in bella Svevi,</l>
+          <l>Atque olim fama celebres gemuere Tethisci;</l>
+          <l>Quique per innumeras rapit ingens flumina gentes</l>
+          <l>Germanum Ismarias fletum tulit Ister ad urbes.</l>
+          <l>Iam rumor latem populos exivit, in arcem</l>
+          <l>Curritur, ac reboat geminato regia luctu,</l>
+          <l>Tanquam si hostibus ruat ingens<placeName>Austria</placeName>flammis,</l>
+          <l>Atque Euri totis voluant incendia tectis.</l>
+          <l>Maternum amplexa ante omnes Ioanna sepulchrum,</l>
+          <l>Implet caesareas longis plangoribus aedes,</l>
+          <l>Atque haerens duris rumpit singulibus ora</l>
+          <l>Et circum matres crinem pectusque solutae,</l>
+          <l>Collacrimant, vultumque lavant, dominamque vocantes</l>
+          <l>Exululant, et diis constructa manibus ara</l>
+          <l>Clamantes magna supremum voce cierunt.</l>
+          <l>Ut vero meriots umbris augustis honores</l>
+          <l>Reddidit, et casus defleuit tristis acerbos:</l>
+          <l>Quodque aequum est tumulo concessit, atque dolori.</l>
+          <l>Satque datum lacrymis, curas sub pectore versat</l>
+          <l>Ingenteis, videt innumeros superesse labores:</l>
+          <l>Deposci gnatum longinqua in regna Philippum,</l>
+          <l>Tentanda insani ratibus vada salsa profundi</l>
+          <l>Obscuras hyemis noctes, uentosque ruenteis</l>
+          <pb xml:id="F7r"/>
+          <l>Carcere ab aeolio, tempestatumque tremendos</l>
+          <l>Mugitus, maris insidias, tonitrusque ferendos,</l>
+          <l>Totque viros, tantumque auri, natumque, nurumeque,</l>
+          <l>Et tot contextas patrio sub littore puppes,</l>
+          <l>Credendas surdis Austro feriente procellis,</l>
+          <l>Ac saeuam ex alto dominari classibus urlam,</l>
+          <l>Et multa iberno consumi corpora fluctu,</l>
+          <l>haec dum agitat, repetitque animo, rigor occupat artus</l>
+          <l>Frigenteis, carique gemit formidine nati,</l>
+          <l>Sed tamen instantes premit alto corde ruinas,</l>
+          <l>Tum proceres vocat, et placido sic ore perfatur,</l>
+          <l>O, fidi heroes, o uasti lumina mundi,<note place="margin" xml:id="ftn18" n="18">Maxima oratio ad proceres.</note>
+          </l>
+          <l>Qui capere instabiles obversis cornibus auras</l>
+          <l>Nostis, et aeratis dare lintea plena carinis,</l>
+          <l>Amissos reuocate animos, moestumque dolorem</l>
+          <l>Ponite, et occiduas convertite lumina ad oras,</l>
+          <l>Quo nos fata trahunt, rigidum repetenda per altum</l>
+          <l>Sunt regna Hesperiae, atque opulenti frugibus Agri,</l>
+          <l>Qua spumante salo pictos brevis unda britannos,</l>
+          <l>Summovet, ambiguos casus, ventosque sequamur,</l>
+          <l>Quo nos caelorum virtus, quo fidera ducunt,</l>
+          <l>Praeficiam, qui vela regant, et gurgite classem,</l>
+          <l>Qui tutos portus, et saxa latentia norunt,</l>
+          <l>Nunc regnat Boreas furit implacabilis Arctos,</l>
+          <l>Saeuit, et effusis lascivit pontus habenis,</l>
+          <l>Ast ire in vetitum vobis ductoribus ausim</l>
+          <l>Neptuni imperium, et ventos frenare superbos,</l>
+          <l>Adsitis nato proceres rebusque favete,</l>
+          <l>Et quoniam divum fortes, et numina cogunt,</l>
+          <pb xml:id="F7v"/>
+          <l>Et natum, et nostras liceat diis credere puppes,</l>
+          <l>Si quando portus, et pingues filius agros</l>
+          <l>Intrarit, dives urbes possederit haeres</l>
+          <l>Vos mecum officii heroes certasse iuvabir,</l>
+          <l>Nam fidos nati socios cognoscere nostrum est,</l>
+          <l>Tum iubet acciri populos, dant signa canorae</l>
+          <l>Rauca tubae, et toto gelidus tonat axe Bootes,</l>
+          <l>Qui simulac longe vocem audivere, repente</l>
+          <l>Concurrunt, ferventque omnes, stipantque carinas,</l>
+          <l>Volvuntur nemora ex alto, nigra sylva remugit,</l>
+          <l>Dat solitum pinus, dat caela securibus ilex,</l>
+          <l>Remigium, antenneque, ratesque et vela parantur,</l>
+          <l>Pubem autem pelago assuetam, duroque labori,</l>
+          <l>Et qui prossimos natum comitentur in agros</l>
+          <l>Deligit, et patrios dat secum ferre penates,</l>
+          <l>Frugiferae divae donis, fulvoque metallo</l>
+          <l>Ingenteis onerat naves, dulcemque liquorem,</l>
+          <l>Qui reddit corda, et maerentia pectora mulcet</l>
+          <l>Dividit, et turbas Ceasar partitur in omneis,</l>
+          <l>Iam fama acciae longis de finibus urbes</l>
+          <l>Huc ruerant, vulgoque oram stipante coronant,</l>
+          <l>Conversae in littus prorae pulchro ordine terram</l>
+          <l>Aspiciunt, tamquam doleant discedere terra,</l>
+          <l>Ast oculos circumvolvens Palinurus ab alta</l>
+          <l>Explorat ventos puppi, et coelum accipit aure,</l>
+          <l>Quid Notus, atque Euri, quid frigida nunciet Ursa,</l>
+          <l>Iam genitor classem, atque viros, frugesque pararat:</l>
+          <l>Cum natus divum perfect tristis honore</l>
+          <l>Ad naves sese multis comitantibus affert</l>
+          <pb xml:id="F8r"/>
+          <l>Virtute insignis patria: et pietate Philippus,</l>
+          <l>Et magnos secum heroas ad littora ducit,</l>
+          <l>Cum cara consorte tori, patrique coheret,</l>
+          <l>Atque ambo ante rates vario sermone fruuntur,</l>
+          <l>Et cum claudat hyems pontum, tellusque petatur,</l>
+          <l>Ultima, quae lato oceani perfunditur aestu,</l>
+          <l>Multa super regno, super aequore multa loquntur,</l>
+          <l>Complures memorant reges, qui fata secuti</l>
+          <l>Per medias iuvere aeres, mediosque per hostes</l>
+          <l>Invenire viam, et post multa pericla quierunt.</l>
+          <l>Tum qui fatidicos genitor cognouerat orbes,</l>
+          <l>Quaeque Deo plenae cecinerunt carmina vates,</l>
+          <l>Sic fatur, paucis te nate adverte monebo,<note place="margin" xml:id="ftn19" n="19">Max. docet Philippum filium.</note>
+          </l>
+          <l>Quid Dii permittant, terras, urbesque tenebis,</l>
+          <l>Ad quas ire paras, verum gravis imminet imber,</l>
+          <l>Quo te cumque tamen tulerit fortuna, sequare,</l>
+          <l>Et quaecumque tuum revocabunt aequora cursum</l>
+          <l>Vince animo, aduersum luctando vincitur astrum.<note place="margin" xml:id="ftn20" n="20">Max. filium oratione
+                    accendit.</note>
+          </l>
+          <l>Quos cernis portus, atque oris proxima nostris</l>
+          <l>Omnia belligeris habitantur moenia Gallis,</l>
+          <l>Hinc Belgae littus latem custode tuentur,</l>
+          <l>Unde vagi prima nautae prohibentur harena,</l>
+          <l>immites hominum moers, hanc effuge terram,</l>
+          <l>Cernitur hinc nostrum, quae respicit insula mundum.</l>
+          <l>Et circunfusa premitur latem aequoris unda,</l>
+          <l>Dives opum, atque auri tellus, gentem inter utranque</l>
+          <l>Oceanus mugit, geminisque urgetur ab oris,</l>
+          <l>Unde indignantis repressa licentia ponti</l>
+          <l>Tollitur, atque imas fundo trahit aestus harenas,</l>
+          <pb xml:id="F8v"/>
+          <l>Sed quamvis Boreae punget contrarius Auster,</l>
+          <l>Atque alio undarum cumulo mare sidera tangat.</l>
+          <l>Tutior est medius per aperta pericula cursus,</l>
+          <l>Quam laevam petere, et plenis capere hostia velis:</l>
+          <l>Sin te vincet hyems, et monte obstabit aquarum,</l>
+          <l>Quo te ventus aget, pelago da vela secundo;</l>
+          <l>Sed quantum potis est, ad dextram dirrige proram,</l>
+          <l>Unum illud repetens te imprimis nate docebo,</l>
+          <l>Christaparae supplex divae prece numen adora:</l>
+          <l>Sic tandem evades, superisque in vota vocatis</l>
+          <l>Hesperias urbes, et rura beata tenebis:</l>
+          <l>Hic dulcis requies, haec ultima meta laborum,</l>
+          <l>Utque Helenus profuga vectum per cerulam classe</l>
+          <l>Dardanum docet Aenean, qui venerat ora</l>
+          <l>Pulsus ab eoa, et combusto Ilio ab alto</l>
+          <l>Chaonium in portum, et falsi simoentis ad undam</l>
+          <l>Quas fugiat terras, quae navibus aequora lustret</l>
+          <l>Expedit, atque aegrum vates monet omnia Teucrum,</l>
+          <l>Quo possit satio tutus considere portu,</l>
+          <l>Si cum fatidicae nosset responsa Sybillae,</l>
+          <l>Quidve ferant orbis celeri vertigine lapsus,</l>
+          <l>His genitor dictis abeuntem ex littore natum</l>
+          <l>In terram armiferam, et supremam dirigit oram:</l>
+          <l>Quae procul occiduo late perfundit ut aestu,</l>
+          <l>Et multum illacrymans caris hortatibus insit,</l>
+          <l>Vade age nate tuum victor super aethera factis,</l>
+          <l>Olli animum accentus patria virtute Philippus</l>
+          <pb xml:id="F9r"/>
+          <l>Ammovet ex oculis nebulas, vultumque serenat;</l>
+          <l>Atque datos monitus immo sub corde reponit;</l>
+          <l>Et sic ante rates fidos compellat amicos,</l>
+          <l>Qui mecum o socii terra graviora tulistis,</l>
+          <l>Mecum etiam pelagi duros perferte labores,<note place="margin" xml:id="ftn21" n="21">Philippi regis oratio ad suos.</note>
+          </l>
+          <l>Ire sub occiduos sinuosa per aequora soles</l>
+          <l>Nos suadent super, et terras tentare repostas:</l>
+          <l>Tendere ad Hesperiam et felicia regna iubemur:</l>
+          <l>Instructa est nobis classis, (rogo cernite classem)</l>
+          <l>Per dextram hanc oro, per magni facta parentis,</l>
+          <l>Per nati felicem ortum, cui numina, et orbes</l>
+          <l>Dant terrae imperium, per si qua est gratia facti,</l>
+          <l>Audete, ac ducente Deo nil triste timete,</l>
+          <l>O nos promissiis, o sistat Iuppiter agris,</l>
+          <l>O, det cognatas Neptunus cernere terras,</l>
+          <l>Quas cupimus terras, et quos dent sidera portus,</l>
+          <l>Si quando hesperiam, si quando ditita rura</l>
+          <l>Attigero, et divum dono data moenia cernam:</l>
+          <l>Tum dabitur melius socios cognoscere nostros.</l>
+          <l>Per tumidas Neptuni undas, vastuque profundum</l>
+          <l>In patriam, et terras laeti transite beatas,</l>
+          <l>Haec dum inter proceres longo sermone trahuntur,</l>
+          <l>Aura rates, vocat aura viros, vocat Auster in altum</l>
+          <l>Increpitans, ratibusque volens submittitur unda.</l>
+          <l>Placatum maris imperium, coelique secondos</l>
+          <l>Promittunt cursus, ipsique in lintea venti</l>
+          <l>Spirant eoi, et sub classe immurmurat aequor.</l>
+          <l>Tumqui festinant socii per littora naves</l>
+          <pb xml:id="F9v"/>
+          <l>In mare deductas ventis aptare iubentur.</l>
+          <l>Solvuntur funes: obvertunt remige proras</l>
+          <l>Influctus, pontique animas tum gnatus ab ora</l>
+          <l>Digrediens carum rursus sermone parentem</l>
+          <l>Tardat, et invita revocatus detinet aura:</l>
+          <l>Ut nequeat patria tristis discedere terra,</l>
+          <l>Atque illum illacrymans multo compellat honore,</l>
+          <l>Vive inquit felix genitor, viridique senecta<note place="margin" xml:id="ftn22" n="22">Philippus illacrimans patrem
+                        alloquitur.</note>
+          </l>
+          <l>Exerce imperium, totus dum pareat orbis.</l>
+          <l>Iam tibi parta quies, nobis maris aequor arandum est:</l>
+          <l>Belligeros populos, et Dii tibi regna dedere,</l>
+          <l>Et multa ambiguo tibi concessere duello.</l>
+          <l>Quaesitis sapere est Diuum virtute potiri.</l>
+          <l>Nos alias petimus terras alio orbe repostas;</l>
+          <l>Perque alium vecti cognata in sceptra vocamur;</l>
+          <l>Auguriisque agimur semotas quaerere sedes,</l>
+          <l>Ibo ego ad Hesperiam, et si det pia fata, quod optas,</l>
+          <l>Et te, meque feram egregiis sub sidera factis.</l>
+          <l>His miscet fletus, patrisque amplexibus haeret:</l>
+          <l>Et vix extrema lacrimans divellitur ora.</l>
+          <l>Sed iam nubiferes inflatur carbalus austris.<note place="margin" xml:id="ftn23" n="23">Philippus ex amplexu paterno navem
+                        consendit.</note>
+          </l>
+          <l>Conscendit navim. Neptuno in vota vocato,</l>
+          <l>Seque ipsum, et socios infidis credidit Euris,</l>
+          <l>Digrediens portu pelago natat uncta carina:</l>
+          <l>Aere ruit spumas, scindit mare regia puppis,</l>
+          <l>Littoraque, et patriae florenteis deserit agros,</l>
+          <l>Atque omnes laeta Palinurum voce secuntur.</l>
+          <l>Provectus terram rex aspicit, aspicit oram,</l>
+          <pb xml:id="F10r"/>
+          <l>Prospicit excelsa fugientia littora puppi,</l>
+          <l>Et quantum possunt discernere lumina patrem.</l>
+          <l>Nec non germani spectant, oculisque ruentur</l>
+          <l>Hispanum regem, atque abeuntum ex littore classem.</l>
+          <l>Donec ab opposita fugiens absconditur unda.</l>
+        </lg>
+        <p>Finit liber tertius.</p>
+      </div>
+      <div>
+        <pb xml:id="F10v"/>
+        <head>Iani Pyrrhi Pincii Mant. ad Ferdinandum Sereniss. Ro. Regem, de navigatione
+                regis Philippis in Hispaniam, liber secundus.</head>
+      </div>
+      <div>
+        <lg>
+          <l>Clausus erat rabidae polus intractabilis ursae:</l>
+          <l>Et formidatum ventis Borealibus aequor;</l>
+          <l>Cum lenti frigent imbres, astroque cadenti</l>
+          <l>Urget praecipite ventosus aquarius annum,</l>
+          <l>Iam mundi limen clivo ascendebat anhelo</l>
+          <l>Cynthius, et gelidus lucis produxerant horas,</l>
+          <l>Germani Divum soboles turgentia ventis</l>
+          <l>Vela dedere salo, cupidis neptunia nautis</l>
+          <l>Aura favet, pelagoque ratis volat acta secundo,<note place="margin" xml:id="ftn24" n="24">Philippus vehitur fecondo
+                    pelago.</note>
+          </l>
+          <l>Tum fluit oceani ludens foecunda iuventus,</l>
+          <l>Perque altas levibus lascivit curribus undas:</l>
+          <l>Et certat refluum luctando vincere pontum.</l>
+          <l>Discurrit, repetitque orbes, et saepe recurrit</l>
+          <l>Laetus Nereidum chorus, at rex lumina in omnes</l>
+          <l>Convoluit parteis, nec non Palinurus ab alta</l>
+          <l>Se ostendet puppi, fociosque hortatur, et orbem</l>
+          <l>Servat Parrhasium, vigilemque Lycanois Arcton:</l>
+          <l>Fertur et incertas fato ducente per undas,</l>
+          <l>Belgarum hinc tellus laeva protenditur ora:</l>
+          <l>A qua seiunctos arcet brevis unda britannos:</l>
+          <pb xml:id="F11r"/>
+          <l>Illa etenim nostra semota est insula terra:</l>
+          <l>Et longe excurrens sub coelum extendit iniquum</l>
+          <l>Sesese obliqua latus, quam caeca nocte carentem</l>
+          <l>Ambit foecundis vaga fluctibus Amphitrite,</l>
+          <l>Ultra autem undarum campus; fluctuque sonoro</l>
+          <l>Circuit, et sparsas gelidis ferit orchadas undis,</l>
+          <l>Unde audis resonare salum et mugire cavernis</l>
+          <l>Nerea, quem peribent altos habitare recessus,</l>
+          <l>Ast hinc sub tepidum declinat Ibernia solem,</l>
+          <l>Cui prohibet tutos infesta<placeName>Britannia</placeName>portus.</l>
+          <l>Hinc igitur pictae gentes, hic<placeName>Gallia</placeName>saevum</l>
+          <l>Fert pelagi imperium, quod fractum ad saxa reclamat,</l>
+          <l>Collisae oblatrant undae, scopulique fatigant</l>
+          <l>Neptunum, et cedes pulso gemit agmine Protheus,</l>
+          <l>Oblatrat siculo talis sub gurgite pontus</l>
+          <l>Laevum inter dextrumque latus, vorat atra Carybdis</l>
+          <l>Hinc imo naves baratro, vastasque sub auras</l>
+          <l>Alternat fluctus, et coeliferum abluit axem,</l>
+          <l>Et sub sideribu sspumosa abrumpitur unda:</l>
+          <l>Deformem hinc audis Scyllam, et fera monstra ferrarum;</l>
+          <l>Quae retrahunt victas in saxa latentia puppes,</l>
+          <l>Ac mugire cavum variis ululatibus antrum.</l>
+          <l>Ergo seiunctas qua spectat<placeName>Gallia</placeName>terras,</l>
+          <l>Hac classem impellum venti, salsosque per aestus<note place="margin" xml:id="ftn25" n="25">Laeta navigatio.</note>
+          </l>
+          <l>Eurus in occiduum germanos provehit orbem</l>
+          <l>Iam rex letiferum nautis superaverat aequor</l>
+          <l>Vicotr, et infestas gallorum evaserat urbes;</l>
+          <l>Qua laxant frenum spatioso cerula campo:</l>
+          <l>Quae cum se rapiant imi ad confinia mundi,</l>
+          <pb xml:id="F11v"/>
+          <l>Evolvunt canos peregrina ad littora fluctus,</l>
+          <l>Qui implerant ventis cava lintea matutinis.</l>
+          <l>Hic naves lentus ceu fessa deserit aer,</l>
+          <l>Nox ruit, atque horret pontus, violentior urget,</l>
+          <l>Et transversa ferit boreas, caecasque per undas</l>
+          <l>Errant germani diris aquilonibus acti.</l>
+          <l>Ventorum rabiem atrocem, pelagique fruentis</l>
+          <l>Obscuros strepitus, et noctem pertulit atram</l>
+          <l>Quassa mari germana ratis, quae a littore Rheni</l>
+          <l>Et regem, et proceres, et divum sacra vehebat,</l>
+          <l>Consilium fuerat terris advertere proras,<note place="margin" xml:id="ftn26" n="26">Tempestas.</note>
+          </l>
+          <l>Ac portum petere, et fessas subducere naves</l>
+          <l>Quascunque ad gentes, traheret quo ventus, et unda,</l>
+          <l>Sed silet interea boreas, et lenis ab ortu</l>
+          <l>Blanditur ventus, suadent obvertere nautae</l>
+          <l>Antennas, sursumque sequi, Palinurus agebat</l>
+          <l>Hispanus classem, heroes stridente carina</l>
+          <l>Pontum vertebant, et fluctus aere secabant:</l>
+          <l>Dumque regunt pictas nocturna ad lumina pinus,</l>
+          <l>Iam vultum extulerat croceum Tithonia coniux</l>
+          <l>Et rutilis subvecta rotis dimoverat umbram.</l>
+          <l>Tum longe Hispanae rarescunt littora terrae:</l>
+          <l>Agnoscunt nautae portus, alacrique propinquam</l>
+          <l>Hesperiam clamore vocant cunctique secuntur,</l>
+          <l>Et vocem ingeminant atque arva optata salutant.<note place="margin" xml:id="ftn27" n="27">Germani prope<placeName>Hispaniam</placeName>vecti.</note>
+          </l>
+          <l>In ventum cornu obliquant, ac laeva petuntur</l>
+          <l>Aequora, et impulsis spumant vada salsa Carinis.</l>
+          <l>Etiam promissam Hesperiam, portusque tenebant,</l>
+          <l>Cum vela, et segnes non longe a littore naves</l>
+          <pb xml:id="F12r"/>
+          <l>Aeoliae linquunt animae, non spiritus aequor</l>
+          <l>Inclusus, non molem agitat, silet unda, rudentes</l>
+          <l>Laxantur, mollesque sinus vaga deserit aura.</l>
+          <l>At dum cuncantes lustrat pigro aequora fluctu,</l>
+          <l>Et ventos nautae atque undam execrantur inertem,</l>
+          <l>Turbari occiduum solem totum aethera cingi</l>
+          <l>Nocte vident atra, et neptunia regna moveri.</l>
+          <l>Pro rege hispanus vigilat Palinurus, et astra</l>
+          <l>Observans vela in ventos obvertit, et aeger</l>
+          <l>Sic fatur, miseri optata prohibemur harena</l>
+          <l>Rex, o magnanime, heu naves avertere coelo</l>
+          <l>Cogimur hesperio, cognatam attingere terram</l>
+          <l>Haud spero, et portus hoc vento apprendere Iberos:</l>
+          <l>Obscuram in nubem densus convertitur aer,</l>
+          <l>Cerula ab occiduo clades, praesensque ruina</l>
+          <l>Axe frenit, quem torquet Atlas, et vespere ab atro</l>
+          <l>Aura adversa ferit, spirantque a littore venti,</l>
+          <l>Quandoquidem non est Zephyro adversante petitos</l>
+          <l>Vela subire sinus hyememque aquilonibus actam</l>
+          <l>Ferre rates, contraque acres incendere ventos,</l>
+          <l>Quo pontus, quo incerta trahit fortuna secundum</l>
+          <l>Vertamus cursum atque alium tendamus in orbe;</l>
+          <l>Dum revehat Zepyris surgens cedentibus Eurus.<note place="margin" xml:id="ftn28" n="28">Exoritur ingens tempestas.</note>
+          </l>
+          <l>Tunc Heros, timui iam dudum ex aethere nimbos,</l>
+          <l>Pendentemque hyemem, mutadum, ut nomina poscut,</l>
+          <l>Consilium, faciles quo ducunt aequora proras</l>
+          <l>Dirige, vela regant, Germanaque sidera tutos<note place="margin" xml:id="ftn29" n="29">Germani revocantur a conspectu<placeName>Hispaniae</placeName>.</note>.</l>
+          <l>Inveniant portus, nos quo rapit aura sequamur.</l>
+          <l>Tum vertit Palinurus iter, dat puppibus undas,</l>
+          <pb xml:id="F12v"/>
+          <l>Expanditque sinum, et pleno legit aera cornu</l>
+          <l>Provecti linquunt terras, laeta arva recedunt:</l>
+          <l>Hesperiam tristes spectant, tum lintea venti</l>
+          <l>Intendunt, vasto fertur cita gurgite classis,</l>
+          <l>Umbra erat, et nigris horrebant cuncta tenebris,</l>
+          <l>Et sol ad superos ascendens aequore ab imo</l>
+          <l>Quadriugos vertebat equos, mediosque labores</l>
+          <l>Emensa urgebat reliquum nox humida cursum.</l>
+          <l>Iamque altum tenuere rates, secesserat ora,</l>
+          <l>Hinc latebrae, hinc horrent fluctus, pluvioque coruscae</l>
+          <l>Erumpunt coelo flammae, qui decidit ignis</l>
+          <l>Correptos terret nautas, mundique fragores</l>
+          <l>Scythonia de rupe truces, hinc turbidus Auster</l>
+          <l>Evolat, hinc Aquilo gelidis errumpit ab oris,</l>
+          <l>Inque latus pugnat, tonat irati Eurus ab ortu,</l>
+          <l>Occasu Zephyri, evulsa de cardine porta</l>
+          <l>Ventorum boat atra domus, ruit agmen ab antro</l>
+          <l>Huc totum aeolio: vertunt, pelagoque furentes</l>
+          <l>Incumbunt, ferventque animi: miscentur ab imo</l>
+          <l>Stagna refusa, vado, atque elisa remurmurat unda.</l>
+          <l>Evomit, atque atras voluit Neptunus harenas:</l>
+          <l>Debilitant fluctum venti, nimboque remugit</l>
+          <l>Infractum mare praecipiti, ac stridente procella</l>
+          <l>Latrat, et Oceanus cumulo praeruptus in altos</l>
+          <l>Erigitur montes, et fluctibus aethera lambit,</l>
+          <l>Irroratque polum; et sub sydere frangitur unda.</l>
+          <l>Quales, cum sicula troes tellure relicta</l>
+          <l>Italiam peterent, iussi facto agmine venti</l>
+          <l>Aeolia de rupe ruunt, nemoruque fragore</l>
+          <pb xml:id="F13r"/>
+          <l>Aerios populant montes, et clade sonanti</l>
+          <l>Incumbunt pelago, atque ima de sede profundum</l>
+          <l>Invertunt: falsum icta latus ratis accipit imbrem:</l>
+          <l>Talis germanos trahit actos aequore nimbos,</l>
+          <l>Hos inter strepitus, et dura pericula ab alto</l>
+          <l>In puppim (horresco referens) delabitur ignis.</l>
+          <l>Pondera, quae argenti et gemmas, fulvumque metallum,<note place="margin" xml:id="ftn30" n="30">Ignis in navem delapsus.</note>
+          </l>
+          <l>Germanas et opes, Rhenumque ferebat opimum.</l>
+          <l>Obriguere omnes monstro, medio aequore pingues</l>
+          <l>Thedae accenduntur, piceumque sub aetera lumen</l>
+          <l>Volvitur, obscura miseri sub nocte videbant</l>
+          <l>Fumantem crepitare ratem, remosque per omneis</l>
+          <l>Vulcanum furere, et circum tabulata vagaru,</l>
+          <l>Discurrunt, trepidi nautae, clamatur ad ignem,</l>
+          <l>Incanos recidit fluctus, qui incendia fugit.</l>
+          <l>Ecce autem illaeso dilapsam corpore pestem</l>
+          <l>Videre ex oculis densas abisse sub umbras:</l>
+          <l>Hinc alius labor exoritur, nam turbida postquam</l>
+          <l>Tempestas celeres violentius impulit auras,</l>
+          <l>Ac calidi fremuere animi, crevere procellae:</l>
+          <l>Crevere aeriae ventis discordibus irae,</l>
+          <l>Quae concurrentes campo luctantur aperto.</l>
+          <l>Regia praecipiti ratis oppugnata ruina<note place="margin" xml:id="ftn31" n="31">Navis regia laboorat.</note>
+          </l>
+          <l>Dat gemitum, tonat aer nimbo urgente rudentes</l>
+          <l>Cernis diffractos noctis volitare per umbras:</l>
+          <l>Cernis sub fluctus raptas delabi antennas.</l>
+          <l>Vela ruunt absorpta mari, rapit impetus illa,</l>
+          <l>Atque avidus vorat oceanus, tum victa supinum</l>
+          <l>Dat latus, atque aestu ratis inclinata fatiscit,</l>
+          <pb xml:id="F13v"/>
+          <l>Neptunumque bibens, inimicum suscipit imbrem:<note place="margin" xml:id="ftn32" n="32">Absorbuntur
+                        vela.</note>
+          </l>
+          <l>Exultant, raucisque nigras clamoribus auras</l>
+          <l>Exanimes feriunt nautae, creduntque supremam</l>
+          <l>Noctem illam, te regi nullam superesse salutem.</l>
+          <l>Terrarum coelique deos pelgique vocabant:</l>
+          <l>Omnia succurrunt, quae praesunt numina ponto.</l>
+          <l>Tunc animo praestans iuvenis, qui saepius Austrum<note place="margin" xml:id="ftn33" n="33">Hispanus peritus nauta.</note>
+          </l>
+          <l>Adversum tulerat pelago versatus Ibero</l>
+          <l>Adcurrit, superosque rogat, simul impiger omnes</l>
+          <l>Hortatur socios, mediis audete periclis.</l>
+          <l>Qui sperant, poscuntque deos meliora sedentes,</l>
+          <l>Ne quicquam auxilum expectant, nos lintea mergunt,</l>
+          <l>Utendum est manibus prora conclamat ab alta:</l>
+          <l>Tum quae corruerant vela arripit, illa sub undas</l>
+          <l>Luctantem contra immersant raptantque trahentem.</l>
+          <l>Hic instat lora amplectens, et corpore inhaeret,</l>
+          <l>Ac circunfusus sese velut implicat anguis</l>
+          <l>Vela trahens, summasque apprehendens mordicus aras</l>
+          <l>Emergit, gelidumque efflat de noribus aequor:</l>
+          <l>Tum manibus, pedibusque tenax, rorantia torquet</l>
+          <l>Carbasa, et extentos prorae subnectere fines</l>
+          <l>Nititur, et rapidis pugnans colliditur undis,</l>
+          <l>Mox alii trepidant nautae, retrahuntque rudentes,</l>
+          <l>Incumbuntque operi, suppressaque lintea cogunt<note place="margin" xml:id="ftn34" n="34">Hispani virtus. Nox
+                    tempestuosa.</note>
+          </l>
+          <l>Vi summa atque alio iungunt pendentia malo,</l>
+          <l>His ventis proceres, his tempestatibus acti</l>
+          <l>Erravere viri pelago, fatoque deorum</l>
+          <l>Mortiferam evandunt noctem, rigidumque Bootem,</l>
+          <l>Sperabant Phoebo pulsis oriente tenebris</l>
+          <pb xml:id="F14r"/>
+          <l>Si qua rarescant terrae, deflectere cursum,</l>
+          <l>Et portum petere, at solis caligine tectas</l>
+          <l>Quadrupedes vertere rotas, nimbisque latentem</l>
+          <l>Involvere diem, gravius vada caeca superbi</l>
+          <l>Exagitant venti, semperque atrocius unda</l>
+          <l>Insurgit totoque rateis ferit agmine pontus.<note place="margin" xml:id="ftn35" n="35">Mare violentius insurgit.</note>
+          </l>
+          <l>Laetalis fuit ille dies, sed luce secuta est</l>
+          <l>Nox gravior, fando iratus miscetur ab imo</l>
+          <l>Oceanus, spumasque effert, subvolvit harenas</l>
+          <l>Sub coelum steriles, praeruptus ad aethera surgit</l>
+          <l>Mons ferventis aquae, atque invita thethios unda</l>
+          <l>Gurgite ab aequoreo pellex conspergitur arctos:</l>
+          <l>Dum ratis ignotum trahitur germana sub orbem,</l>
+          <l>Perque alios fluctus caeleri volat incita cursu,</l>
+          <l>Et pelago, et tenebris victi cessere magistri,</l>
+          <l>Consilium vero dubiis de rebus agebant:</l>
+          <l>Et tandem huc ventum est, ut puppim mole gravatam<note place="margin" xml:id="ftn36" n="36">Peritia nautarum. Dictis ex puppi
+                        trabibus cursus tardatur.</note>
+          </l>
+          <l>Proiectis premerent trabibus, cursumque retardent,</l>
+          <l>Versa autem ad ventum prora rectore sine ullo,</l>
+          <l>Fortunae, clavumque Deo committere mens est,</l>
+          <l>Et quam desperant coelo adversante salutem</l>
+          <l>Oceani imperio atque infidis credere ventis,</l>
+          <l>Quam gravis illius noctis fuit umbra, procellae</l>
+          <l>Non ante auditae feriunt latera, insilit unda</l>
+          <l>Exuperans, curritque immersa sub aequore classis.</l>
+          <l>Quos maris irati mugitus, quaeque, rudentum</l>
+          <l>Sibila, quos strepitus, quas ponto ardente ruinas.</l>
+          <l>Quos ratis impulsae crepitus, quae murmura, et atra</l>
+          <l>Nocturnae, cladis monstra, audivere frementi</l>
+          <pb xml:id="F14v"/>
+          <l>Neptuno laxis qui invertit cerula habenis:</l>
+          <l>Funestos quoties fluctus, et hiante profundo</l>
+          <l>Absortam videre ratem, videre triformis</l>
+          <l>Ora deae, et tristem cenosi gurguis oram.</l>
+          <l>Heroes metuunt hyemem, noctisque periclum</l>
+          <l>Latrantem horrent pontum, et saxa latentia ponto</l>
+          <l>Incerti quo vela ferant, quas ventus ad oras</l>
+          <l>Errantem retrahat regem, quis sistat in arvis,</l>
+          <l>Quis nam teucrorum stridente Aquilone procellam</l>
+          <l>Per mare germanis tot tempestatibus actis</l>
+          <l>Contulerit? Quamvis praerupta dehisceret unda,</l>
+          <l>Et classem in Libycas contorserit aestus harenas:</l>
+          <l>Nam summum levibus perlabens curribus aequor</l>
+          <l>Neptunus, laevaque rotis dans frena secundis</l>
+          <l>Placavit tumidas magno tridente ruinas,</l>
+          <l>Verum nec pontus, nec summi numina coeli</l>
+          <l>Germanos fluctu oppressos ulla arte levarunt<note place="margin" xml:id="ftn37" n="37">Contumaces procellae.</note>,</l>
+          <l>Cum tantis saevire malis, tantisque procellis</l>
+          <l>Aequoreum flagrare Deum, implacabile numen</l>
+          <l>Germani sub nocte vident, vertuntur ad ortum</l>
+          <l>Exorantque diem, sperant cum lumine vitam,</l>
+          <l>Sed rediit tenebrosa dies, Neptunus, et aer</l>
+          <l>Praesentem intentant mortem, discissa sub aequor</l>
+          <l>Vela ruunt, pelagoque rates tegit unda labenteis,</l>
+          <l>Suspiciunt coleum heroes, gemituque supremo</l>
+          <l>Iam linquunt dulces animas, iam stare videres,</l>
+          <l>Torpenteis nautas, solvique rigoribus artus:</l>
+          <l>Nec peritura quidem, sed iam periisse putares</l>
+          <l>Corpora tot procerum, tot magnae lumina terrae.</l>
+          <pb xml:id="F15r"/>
+          <l>Quod, pelagi pestem, quod, tantam averteret iram,</l>
+          <l>Nullum numen erat, saevis maris impetus omneis</l>
+          <l>Contemuit superos, nam cum imo exestuat alueo</l>
+          <l>Neptunus, vasto mergit pia vota profundo.</l>
+          <l>Tum rex quid morte in media, quid regia coniux?</l>
+          <l>Stabant moesti ambo, et celsa sub puppe suorum</l>
+          <l>Fata gemunt, secum heroas in regna secutos,</l>
+          <l>Tot secum amissos externo in gurgite nautas</l>
+          <l>Deflent pro caris venisse in funera Iberis.</l>
+          <l>Idem concordes alit ingens spiritus ambos,</l>
+          <l>Hoc tantum discordi animo certatur, uterque</l>
+          <l>Alterius proprio redimi vult funere vitam.</l>
+          <l>Quanta fides, si tantum alter superaret, utrunque</l>
+          <l>Credebant illo victurum corpus in uno.</l>
+          <l>Non vult ammissa thalami consorte maritus</l>
+          <l>Starem nec aetheria vesci moestissimus aura,</l>
+          <l>Quam vero mentem? quae veri signa pudoris</l>
+          <l>Ostendit tantis haerens matrona periclis?</l>
+          <l>Sic moritura virum coniux amat Aria Petum,<note place="margin" xml:id="ftn38" n="38">Desperata salus.</note>
+          </l>
+          <l>Iulia sic Magnum, sic victum Portia Brutum.</l>
+          <l>Ut vero nullam miseris restare salutem</l>
+          <l>Rex videt, obriguit stans vultu immotus, et altum</l>
+          <l>Ingemit, atque animo suspiria ducit ab imo</l>
+          <l>Multa movens, secumque alto sub corde volutat.<note place="margin" xml:id="ftn39" n="39">Rex multa secum aniumo
+                    volutat.</note>
+          </l>
+          <l>Spem rerum ingentem oblatam, non regna dedisse</l>
+          <l>Promisisse deum, Hesperiam ostendisse petitam,</l>
+          <l>Neptunum adversis iratum fluctibus ipsam</l>
+          <l>Obruere indignatem anima, partuque sub ipso</l>
+          <l>Nascentem extingui famam, immortalia facta</l>
+          <pb xml:id="F15v"/>
+          <l>Abrumpi, vocat illos terque quaterque beatos,</l>
+          <l>Quis licuit bello oppetere heu quo<placeName>Gallia</placeName>tendat,</l>
+          <l>Quid regna Hesperiae, quos cogitet Adria motus?</l>
+          <l>Quid latium: subeuntque tui<placeName>Germania</placeName>luctus,</l>
+          <l>Stant nati ante oculos, stant cari ante ora parentes.</l>
+          <l>Occurrunt animo, quae longis cuncta lacertis</l>
+          <l>Tellurem circunfusum complectitur aequor,</l>
+          <l>Tum secum haec tacitus, metuam ipso in funere morte?</l>
+          <l>Infestum flammis animae coelestibus aequor</l>
+          <l>Terruerit? Surdi me me vada falsa profundi</l>
+          <l>Obruerint? Patris factis, et sidere nati</l>
+          <l>Servandum quem mundi haeredem oracula poscunt?</l>
+          <l>Non licuit ferro? Aut inimica occumbere dextra?</l>
+          <l>Mortem ipsam oppetere, et cum nos vocat hora perire</l>
+          <l>Egregium est, dolor est virtutem extinguier unda,</l>
+          <l>Felices, quorum in bello latus hauserit ensis.</l>
+          <l>Remigium, classem ingentem, sociosque paravi,</l>
+          <l>Ut regna Hesperiae patria revocatus ab Arcto<note place="margin" xml:id="ftn40" n="40">Imploratur deorum axilium.</note>
+          </l>
+          <l>Quo me fata trahunt, cara cum coniugem adirem:</l>
+          <l>Quod, (si qua est coelo nostrorum cura laborum)</l>
+          <l>Dii nostras audire preces, discrimina regum</l>
+          <l>Aspicite, et quo sim coelo, cursumque docete,</l>
+          <l>Monstrate Hesperios, quos faessi querimus, agros.</l>
+          <l>Sin nulla est speranda salus, hanc tollite saltem,</l>
+          <l>Hanc saltem servate animam tot fluctibus actam,</l>
+          <l>Frangat hyems invicta ratem, quo volverit aestus</l>
+          <l>Corpus eat, corpus ventis rapiatur, et undis,</l>
+          <l>Deferat ignotas fluctu iactatus in oras,</l>
+          <l>Quid si etiam in sicca iaceam intumulatus harena?</l>
+          <pb xml:id="F16r"/>
+          <l>Qua circunducto semotas gurgite terras</l>
+          <l>Separat, et reflua Neptunus verberat unda,</l>
+          <l>At nunquam seiuncta latus regina notavit</l>
+          <l>Deformem pallore virum: fletumque prementem.</l>
+          <l>Tum pectus cari percussa dolore mariti</l>
+          <l>Ecquid perdis ait tristis fera tempora luctus?</l>
+          <l>Flere times, cum flere licet, non cladibus ullae</l>
+          <l>Te mulier foedare queunt gravioribus irae,</l>
+          <l>Teque tuosque virumque una periisse carina<note place="margin" xml:id="ftn41" n="41">Miserae reginae deploratio.</note>
+          </l>
+          <l>Ipsa vides, da frena tuo, da vella furori,</l>
+          <l>Prosiluit, fata incessit, crimenque vocavit</l>
+          <l>Infandum crudele Deum, execratur Iberos,</l>
+          <l>Hesperiosque omnes, et opes, et sceptra, laresque,</l>
+          <l>Iamque ait externas exivit rumor in oras,</l>
+          <l>Et movit lacrymis profusa in gaudia nostris</l>
+          <l>Sauromatum, Thracumque animos, atque auguror inquit</l>
+          <l>Aut aliquam o Belgae vestris illidit harenis,</l>
+          <l>Aut laceram tulit unda ratem, num Gallia nostrae</l>
+          <l>Fecit tam subitae, certam te fama ruinae?</l>
+          <l>Tu, quae fortunam Hesperiae, et Germana timebas</l>
+          <l>Fulgura, ne inferrent domitum vexilla sub indum</l>
+          <l>Gens Christo infesta, et latio saturata cruore,</l>
+          <l>Victrix luctifico exitio laetare, triumpha,</l>
+          <l>Et vide immeritos, quos nunciat<placeName>Austria</placeName>, fletus,</l>
+          <l>Quid me me exagitant superi, qua numinis ira?</l>
+          <l>Sic doluere meos revehat quod navis Iberos,</l>
+          <l>Quod repeto antiquam terram, sceptrumque paternum,</l>
+          <l>In me me saevite unde, saevite procellae,</l>
+          <l>Quid meruere viri qui me comitantur, et istas</l>
+          <pb xml:id="F16v"/>
+          <l>Ascendere rateis, quos nos, quos gratia nostra</l>
+          <l>Sedibus e patriis movit, fluctusque per altos</l>
+          <l>Classe veho mecum, an fortem ut vela viderent</l>
+          <l>Naufraga, et ignota miseri tegerentur harena?</l>
+          <l>Deservere, suos, et opes, et rura, domosque</l>
+          <l>Omnia venturi mecum sub littoris oram</l>
+          <l>Occidui, vobis cives promisimus agros,</l>
+          <l>Oppidaque, et villas, et nostris ocia terris,</l>
+          <l>O regum spectata fides, o nostra potestas,</l>
+          <l>Vos vos in lacrymas, in funera misimus omneis:</l>
+          <l>Et quae presentem levet haec incommoda mortem.</l>
+          <l>O felix, o si nunquam tibi iuncta fuissem</l>
+          <l>Quantus eras coniux, certe germana potestas</l>
+          <l>Spectasset totum ducentem ligna per orbem,</l>
+          <l>Felix Hesperiae si nunquam regna dedissem,</l>
+          <l>Unde ageris mecum per vastos aequoris aestus,</l>
+          <l>Connubio infelix nostro, cecinere volucres</l>
+          <l>Tartarae, cecinit feralia carmina bubo,</l>
+          <l>Cum vent gelidas Rheni nova nupta sub oras:</l>
+          <l>Quod spumas ruat aere ratis, pelagoque feramur<note place="margin" xml:id="ftn42" n="42">Querela in Neptunum.</note>
+          </l>
+          <l>Imperio Neptune tuo, horum ego sola malorum</l>
+          <l>Causa fui, sed cum placidum conscendimus aequor,</l>
+          <l>Tuque imples ventis blanditus vela fecundis,</l>
+          <l>Debueras Neptune tui me ab limine regni,</l>
+          <l>Debueras regem prima cum venit harena</l>
+          <l>Arcere, atque hostem vetito prohibere profundo,</l>
+          <l>Quid nos susceptos prodis? Sub nostra redire</l>
+          <l>Arva iube, aut liceat salva nos classe tenere</l>
+          <l>Quos cupimus portus, cape regia gurgite vasto</l>
+          <pb xml:id="F17r"/>
+          <l>Munera, quicquid opum est, tua sit preciosa supellex,</l>
+          <l>Sed quod mugitus proceres? Strepitusque rudentum?</l>
+          <l>Quos navis crepitus? Da dextram amplectere coniux,</l>
+          <l>Accipiunt aequor puppes, mora nulla, sub umbras</l>
+          <l>Imus, et ad stygias imus cum navibus undas,</l>
+          <l>Sic regina virum moritura, tuetur, et illi</l>
+          <l>Iuncta latus lacrymans prona cervice recumbit<note place="margin" xml:id="ftn43" n="43">Regina nimio dolore
+                collapsa.</note>
+          </l>
+          <l>In solitum collapsa sinum, nimioque dolore</l>
+          <l>Deficit, atque oculos condit sub nocte labenteis.</l>
+          <l>Tum costernatus cruor in praecordia currit,</l>
+          <l>Et pares calor extremus, vultumque relinquit</l>
+          <l>Pallentem, et gelidos sine sanguine deserit artus.</l>
+          <l>Immensos inter strepitus haud territus heros</l>
+          <l>Exanimem fovet uxorem, cui pectore toto</l>
+          <l>Haeret, et afflictum lenit medicamine corpus,</l>
+          <l>Tentat, et in summum trepido revocare cruorem;</l>
+          <l>Exciti incipiunt sensus, et pectus amicas</l>
+          <l>Confortis sentire manus, suspirat, et aegros</l>
+          <l>Attollit revocata oculos, mestamque mariti</l>
+          <l>Paulatim faciem, et superas fert mollius auras?</l>
+          <l>Tum rex, qui ingenteis curarum sustinet aestus,<note place="margin" xml:id="ftn44" n="44">Rex Philippus consolatur
+                    uxorem.</note>
+          </l>
+          <l>Corrigit immodicos dulci sermone furores,</l>
+          <l>Cur mea te coniux laceras? Cur nobile pectus</l>
+          <l>Frangis avos oblita tuos? Qui vulnera, et enses</l>
+          <l>Fortunae vicere feros, stetit agmina contra</l>
+          <l>Et tulit Ausonium generosa Numantia bellum</l>
+          <l>Armata in pugnam dextra, tyriumque Sagunthos</l>
+          <l>Non timuit praeclara ducem, quae invicta per ignes</l>
+          <l>Aeternam invenit famam, si imergier unda</l>
+          <pb xml:id="F17v"/>
+          <l>Fata immota velint, agitat tot corpora pontus,</l>
+          <l>Tot clarae periete animae, et nos fata feramus.</l>
+          <l>Quae veniunt: furor est, quicquid tulit hora dolere</l>
+          <l>Sive tegant tumuli corpus, sive obruat aequor,</l>
+          <l>Sublimis facile vacuo caret umbra sepulchro.</l>
+          <l>Sed nec morte una nigras properatur ad umbras:</l>
+          <l>Hic flamma, hic ferro, hic morbo absumitur, unum</l>
+          <l>Id facito, timidus ne spiritus exeat, et te</l>
+          <l>Contemnas, cur vis uxor vivente marito</l>
+          <l>Sponte mori? Et tanquam nos ultima separet hora,</l>
+          <l>Viventem lugere virum? Lacrymisque rigenteis</l>
+          <l>Deformare oculos, atque unguibus ora, cruenteis?</l>
+          <l>Sat pietas, sat amor, sat honestus coniugis ardor,</l>
+          <l>Sat spectata fides, ea sit non gloria parva</l>
+          <l>Te mecum in pelagus fragilem ascendisse carina,</l>
+          <l>Et dubios tolerasse notos, pia fata secuti</l>
+          <l>Infidum monstrante Deo conscendimus aequor.</l>
+          <l>Quid vero tedas? Quid tu execraris Iberos?</l>
+          <l>Diis nos auspicibus castos accendimus ignes,</l>
+          <l>Dii regna Hesperiae, dotaliaque arva dedere.<note place="margin" xml:id="ftn45" n="45">Vaticinium de Carolo.</note>
+          </l>
+          <l>At nunc qui patriis nutritur filius armis,</l>
+          <l>Invictam<placeName>Ausoniam</placeName>, et lugentem funera Tybrim</l>
+          <l>In<placeName>Latium</placeName>rumpente aditus superabit Ibero,</l>
+          <l>Devictos acie celtas, gallosque superbos</l>
+          <l>Contundet, clypeosque, et fortia corpora volvet,</l>
+          <l>Moestaque sanguineis spumabit Sequana ripis.</l>
+          <l>Nos fedem in vacuam, et felicia Cantaber arva</l>
+          <l>Expectat, qui te subeuntibus ostia velis</l>
+          <l>Excipiens prima venientem occurret harena.</l>
+          <pb xml:id="F18v"/>
+          <l>Haec tecum versare velim, mentem erige, et alto</l>
+          <l>Vive animo, et quaecunque ferent meliora putato</l>
+          <l>Tempora forte suos lenibunt sidera motus.</l>
+          <l>Interea quocunque trahet Neptunus, eamus:</l>
+          <l>Forte aliquos portus, quod tu non reris, amicos</l>
+          <l>Intrabunt nostrae coelo ducente carinae.</l>
+          <l>Voce sui correcta viri regina sub auras</l>
+          <l>Fert occulos, mentemque novo succensa calore</l>
+          <l>Membra pio levat aegra sinu, moestumque timorem</l>
+          <l>Ponit, et iratum videt imperterrita pontum,</l>
+          <l>Hos inter gemitus ruit aer densus, et atra</l>
+          <l>Stridet hyems, feriunt venti cava lintea et urgent,</l>
+          <l>Cedentemque onerant malum, super aethera fluctus</l>
+          <l>Tolluntur, totumque imis, furit aequor harenis,</l>
+          <l>Sub noctem erigitur cumulo Neptunus, et altus</l>
+          <l>Mons sublimis aquae, summis modo fluctibus haeret</l>
+          <l>Suspensae in coelum naves, modo pontus harenas</l>
+          <l>Inter semotas aperit predentibus undas.</l>
+          <l>Tum prora avertit cursum, atque invita procellae</l>
+          <l>Dat latus, et salsum fluit inclinata sub imbrem:</l>
+          <l>Nec cumulum undarum, nec fractos vorticis orbes,</l>
+          <l>Nec totum oceani imperium, coelique supremam</l>
+          <l>Ferre hyemem possunt, sed tempestate dehiscunt,</l>
+          <l>Solvunturque rates, laxis compagibus undam</l>
+          <l>Accipiunt, nautasque irrumpens occupat humor.<note place="margin" xml:id="ftn46" n="46">Solvuntur naves.</note>
+          </l>
+          <l>Tum ruit, et vastos Notus imo a Cardine fluctus</l>
+          <l>Contorquet, rapidoque duas vorat aequore naves</l>
+          <l>Ipsius ante oculos geminas periisse carinas</l>
+          <l>Rex dolet, et tristis miserorum funera deflet.<note place="margin" xml:id="ftn47" n="47">In margine: Duae biremis imerguntur.</note>
+          </l>
+          <pb xml:id="F18v-a"/>
+          <l>Hinc eodem lacrymans disiectam turbine classem</l>
+          <l>Spectat, et in varias ventis agitarier oras:</l>
+          <l>Multa gemit, mortem horrendam, casusque suorum,</l>
+          <l>Et tacitus pressis coelum singultibus orat,</l>
+          <l>Tris noctes totidemque dies sine sole feruntur</l>
+          <l>Per vastum pelagi imperium, modoque sub alto</l>
+          <l>Terrificos tolerant tonitrus, et fulgura et umbras</l>
+          <l>Divis inacessas dirum sensere Bootem,</l>
+          <l>Frigentemque plaga, et rigidos Aquilonibus imbres,</l>
+          <l>Iam vires solvit vigor, aegros spiritus artus</l>
+          <l>Linquit, et exiguis sustentat corpora sanguis,</l>
+          <l>Per navim Hispanus, per transtra recurrere suetus</l>
+          <l>Exanimum infelix corpus, pigrumque trahit crus,</l>
+          <l>Nec vela, et tortos potis est obvertere funes,</l>
+          <l>Malunt ergo mori, atque alta submergier unda;</l>
+          <l>Quam tot mugitus ferre intractabilis ursae,</l>
+          <l>Et tot monstra maris, mediaque in morte vagari</l>
+          <l>Sub nocte, et vastos mundi lustrare recessus.</l>
+          <l>Iamque pati infestas nequeunt viventibus auras,</l>
+          <l>Qui tempestatem, et tumidum expavere profundum,</l>
+          <l>Hunc capiunt, quantoque ardentius aestuat, ipsum</l>
+          <l>Aegri in uota vocant, ipsumque impensius orant,</l>
+          <l>Ut sese attollens nigro sub gurgite pinus</l>
+          <l>Languenteisque animas nuc nunc immergat, et alta</l>
+          <l>Tot iactata virum condat mate corpora harena,</l>
+          <l>Nunc Boream, nunc aequor amant, laudantque ruinas,</l>
+          <l>Mortem orant, lentamque dolent in funera mortem,</l>
+          <l>Mors est quae una placet, mos vita carior ipsa,</l>
+          <pb xml:id="F19r"/>
+          <l>Tormenta, et longos sperant finire labores</l>
+          <l>Morte ipsa, extrema, qua nil praestantius hora est,</l>
+          <l>At quorum mentes tollit vigor altius ingens</l>
+          <l>Turpe viros sine laude mori, miserabile credunt</l>
+          <l>Coelestem extingui liquidis humoribus ignem;</l>
+          <l>Et non spectata proceres virtute perire.</l>
+          <l>Illi ergo ad superos converti in vota precesque</l>
+          <l>Incumbunt, veniamque vocant, det Iuppiter omen,</l>
+          <l>Det pater augurium, det certae signa salutis.</l>
+          <l>Atque, aliquam in tenebris lucem, super omnia claram<note place="margin" xml:id="ftn48" n="48">Imploratur dea clara.</note>
+          </l>
+          <l>Poscunt ore deam, posituros littore primo</l>
+          <l>Promittunt aram votis, et rure calentem,</l>
+          <l>Cui dei more sacris celebretur victima flammis,</l>
+          <l>Extemplo laevum intonuit, coelumque per atrum</l>
+          <l>Divinum emicuit lumen, nigrasque sub auras</l>
+          <l>Elucent altis gemini de puppibus ignes:</l>
+          <l>Nunc summo insistunt malo, nunc carbasa flammae</l>
+          <l>Lambunt summa vagae, nunc circum vela recurrunt,</l>
+          <l>Et captas mutant sedes, iamque aura fugarat</l>
+          <l>Obscuram ex oculis noctem terramque propinquam</l>
+          <l>Ostendit, laeti terram de gurgite summo</l>
+          <l>Aspiciunt nautae, longisque erroribus acti</l>
+          <l>Voce vocant terram, terram clamore salutant.</l>
+          <l>Obvertunt proras, et vela implentibus Austris</l>
+          <l>Tendunt per vastos ignota ad littora fluctus.</l>
+          <l>Paulatim aeriae surgunt super aethea rupes,</l>
+          <l>Crescunt et recta, et nemora attolluntur, et ipsae</l>
+          <l>Rarescunt terrae, pubes Hispana britannos</l>
+          <l>Agnoscunt montes, et divitis oppida regni.</l>
+          <pb xml:id="F19v"/>
+          <l>Germani servente loca proxima cursu</l>
+          <l>Contendunt capere, atque aerata apprehendere<gap/>
+          </l>
+          <l>Consistunt primam, quo fert navem impetus, oram.</l>
+          <l>Tum rex solicitus Palinurum affatur, amicos</l>
+          <l>Ipse vides Palinure finus, huc tende, sub ipsum</l>
+          <l>Tende sinum, dextram pete, clavum ad dextera torque:</l>
+          <l>Ni terram teneas, nobis spes nulla relicta est,</l>
+          <l>Aut in laetiferam Belgarum urgebit harenam</l>
+          <l>Nos Boreas, caeco qua spumant cerula fondo,</l>
+          <l>Aut longe incerum raptos feret unda sub orbe,</l>
+          <l>Sin prohibent venti, quevis in littora verte,</l>
+          <l>Tellurem ut capias, rem omnem salvam esse putato,</l>
+          <l>Ergo age suprema virtus cognoscitur hora,</l>
+          <l>Nec mora, se accigens in dura pericula navim<note place="margin" xml:id="ftn49" n="49">Tris tantum nautes collisae in britaniam
+                        feruntur.</note>
+          </l>
+          <l>Calvo herens Palinurus agit, vincitque Bootem</l>
+          <l>In fluctus proram torquens, ac remige nautae</l>
+          <l>Obnixi in ventum certant, et cornua vertunt.</l>
+          <l>Tum spumante Noto celeri velocius aura</l>
+          <l>In terram fugiens terram premit incita pinus</l>
+          <l>Regia, et increbuit colliso ad littora rostro.</l>
+          <l>Huc omni ex numero tris tantum ex littore naves</l>
+          <l>Servatae tumidis subierunt littora velis</l>
+          <l>Tum nautae prora exiliunt, et granine ponunt</l>
+          <l>Corpora et optata fessi volvuntur harena,</l>
+          <l>Hi dum speluncas, exesaque marmora lustrant,</l>
+          <l>Spectant herboso, quod vestit gramen, ab antro</l>
+          <l>Per scopulos salientis aquae decurrere rivum:</l>
+          <l>Et portant gelidis plenas de fontibus urnas.</l>
+          <l>Hi silicem feriunt, rapiuntque ex vulnere flammam,</l>
+          <pb xml:id="F20r"/>
+          <l>Et circum arentem sylvam, frondesque caducas</l>
+          <l>Addunt festini, solvuntque rigoribus artus.</l>
+          <l>Hinc sese accingunt dapibus, fusique per herbam</l>
+          <l>Ponunt tabentens Cereris per grammina fruges,</l>
+          <l>Restitutuuntque hilari torpentia corpora Iacho,</l>
+          <l>Utque cibo est lenita fames, veterique liquore</l>
+          <l>Amissi rediere animi, rex aggere ab alto</l>
+          <l>Solatus comites, sic tristia pectora mulcet.</l>
+          <l>Vos mare velivolum, o socii, raucosque boatus</l>
+          <l>Experti, atque hominum surda ad vota procellas,</l>
+          <l>Qui mecum gelida Rheni venistis ab ora,</l>
+          <l>Vidistis pigri frigentia palustra Bootae;</l>
+          <l>Dira procellosi vidistis monstra profundi:</l>
+          <l>Atque actas ventis ignoto errare sub orbe</l>
+          <l>Per vada salsa rates, ictaque tonitrua nube</l>
+          <l>Audistis miseri, atque in funera nostra sonanti</l>
+          <l>Mortiferos concha fluctus Tritona vocantem,</l>
+          <l>Atque altum mugire salum, quando unda triremes,</l>
+          <l>Et vela obrueret spumosus naufraga pontus,<note place="margin" xml:id="ftn50" n="50">Rex suovudis servatus
+                consolatur.</note>
+          </l>
+          <l>Solvite corde metum, tristeis secludite curas.</l>
+          <l>His tandem dabitur finis, placataque coeli</l>
+          <l>Astra ferent, et Dii crudelia fata levabunt.</l>
+          <l>Imus ad Hesperiam, laetos properamus ad agros:</l>
+          <l>Illic nostrorum datur ultima meta laborum:</l>
+          <l>Ipse dabit placidis nobis Deus ocia terris,</l>
+          <l>Ferte ergo, et regnis vosmet servate beatis,</l>
+          <l>Campus ubi irriguo dives perfunditur auro.</l>
+        </lg>
+        <p>Finit liber secundus.</p>
+      </div>
+      <pb xml:id="F20v"/>
+      <div>
+        <pb xml:id="F21r"/>
+        <head>Iani Pyrrhi Pincii Mant. ad Ferninandum Sereniss. Ro. Regem, de navigatione
+                regis Philippi in Hispaniam, liber tertius.</head>
+      </div>
+      <div>
+        <lg>
+          <l>Postquam autem imbriferos irati gurgits Austros</l>
+          <l>Evasit, donoque Deum discrimina ponti</l>
+          <l>Vicit, et in siccam paucis cum navibus oram</l>
+          <l>Egressus, pelago disiectos luges amicos:</l>
+          <l>Et lacrymans tacito praemit altos pectore fletus.</l>
+          <l>Et cum secum animo rex tristi multa moveret,</l>
+          <l>Praecipuam fovet uxorem, atque amplectitur aegram,</l>
+          <l>Et moestum dulci lenit sermone timorem.</l>
+          <l>Hinc condit quassas obliquo flumine naves,</l>
+          <l>Namque, hic ut fama est, nullos habet insula portus,</l>
+          <l>Et cum legisset fidum in discrimina Achatem,</l>
+          <l>Tendit in aerias per vasta silentia cautes,</l>
+          <l>Si quos inveniat non longe a littore vicos.</l>
+          <l>Surgebat nemore in medio super aethera rupes,</l>
+          <l>Unde erat in campos montis prospectus ad imum,</l>
+          <l>Huc rex per silices contendens sudat, et altum<note place="margin" xml:id="ftn51" n="51">Rex rupem altam
+                conscendit.</note>
+          </l>
+          <l>Cernit secessum, et palentia sentibus arva:</l>
+          <l>Tectum in conspectu nullum, tantum horrida saxa,</l>
+          <l>Et densae sylvarum umbrae, latebreque ferarum.</l>
+          <l>Hinc summum superat montem rex optimus, unde</l>
+          <pb xml:id="F21v"/>
+          <l>Protendit, longumque excurrit in aequora cornu;</l>
+          <l>Si quas mortifero iactari turbine puppes</l>
+          <l>Prospiciat, sociosque Euris, et fluctibus actos,</l>
+          <l>Nec naves ullae apparent, nec vela, nec arma,</l>
+          <l>Moestus abit, periisse duas ante ora biremes<note place="margin" xml:id="ftn52" n="52">Pius rex.</note>
+          </l>
+          <l>Ingemit, ast alias imum subiisse profundum</l>
+          <l>Nimbis contortas in saxa latentia naves;</l>
+          <l>Quae reliquae fuerant, gravius cruciatur, et atram</l>
+          <l>Per vallem, nigraeque umbrosa silentia sylvae,</l>
+          <l>Suspirans redit, et socios miseratur ademptos.</l>
+          <l>Tot licuit casus, licuit tot adire labores</l>
+          <l>Pro extremo terrae imperio? Longeque repostam</l>
+          <l>Tendere ad Hesperiam, et tanti quaerere dotem,</l>
+          <l>Tot proceres hominumque salus, tam clara iuventus</l>
+          <l>Pluris erant nostro, o superi facienda sub orbe,</l>
+          <l>Quam mundi regna occidui, quam dives Iberus.</l>
+          <l>Quam Tagus, atque aurum rutila quod volvit harena.</l>
+          <l>Dum quaeritur, casumque gemit, graditurque per umbram,</l>
+          <l>Occurit nemore in medio pulcherrima virgo<note place="margin" xml:id="ftn53" n="53">Virgo in sylva regi occurrit.</note>
+          </l>
+          <l>Sideros demissa oculos, vultuque salutem</l>
+          <l>Promittens nodoque sinus colelcta fluenteis:</l>
+          <l>Cui nulla culti radiabant arte capilli,</l>
+          <l>Texunt rara pedes contortis vincula loris,</l>
+          <l>Et nigra ad thalos vestis defluxerat imos.</l>
+          <l>Illa verecundo tunc sic prior ore locuta est.</l>
+          <l>O qui secretas audetis quaerere sylvas,</l>
+          <l>Vidistis si forte meam monstrate sororem</l>
+          <l>Per nigram transire umbram, aut saxa petentem,</l>
+          <l>Et victum ex duris carpentem cornua ramis,</l>
+          <pb xml:id="F22r"/>
+          <l>Vellentemque imis virides radicibus herbas,</l>
+          <l>Confectam macie suprema, dicite quaeso,</l>
+          <l>Nam sola in densam virgo confugit eremum:</l>
+          <l>Non illi gravida depromere tela pharetra</l>
+          <l>Mos est, nec fluvios celeri praevertere cursu,</l>
+          <l>Aut agitare feras succinctae more Dianae,</l>
+          <l>Et premere obliquis ferientem dentibus Aprum,</l>
+          <l>Nuda pedes, supplexque manus ad sidera tendit,</l>
+          <l>Et dextra unguentum redolenti marmore portat,</l>
+          <l>Incomptosque dedit ventis diffundere crines,</l>
+          <l>Hirsuta, et spinis conserta lycaonis ursa</l>
+          <l>Ex humero demissa tegit palentia membra,</l>
+          <l>Mira hominis forma incedit, miserandaque cultu:</l>
+          <l>Si vobis visa est, fessae narrate sorori,</l>
+          <l>Per mare, per terras flentes per inhospita saxa</l>
+          <l>Venimus e Solymis abeuntem quaerere terris,</l>
+          <l>At quaeso, quibus o iuvenes venistis ab oris?</l>
+          <l>Et qui vos? Aut quo soli contenditis inquit?</l>
+          <l>Cogit inacessas quid vos errare per umbras?</l>
+          <l>Tum moerens rex corde trahit suspiria ab imo,</l>
+          <l>Et singulantem ducit de pectore vocem,</l>
+          <l>O divum proles nitidi pars maxima mundi,</l>
+          <l>Si quos pertulimus miseri vacet aequoris aestus<note place="margin" xml:id="ftn54" n="54">Rex narrat virgini suos
+                    casus.</note>
+          </l>
+          <l>Et rabiem oceani atque omneis audire labores.</l>
+          <l>Ante dies serae cedens nos liquerit umbrae,</l>
+          <l>Quam possim irati narrare incomoda ponti,</l>
+          <l>digressi armifero Rheni de littore vastos</l>
+          <l>Venimus in scopulos, patria est<placeName>Germania</placeName>, tellus</l>
+          <l>Dives opum, atque hominum, et duro gens aspera bello,</l>
+          <pb xml:id="F22v"/>
+          <l>Sum pius augusta proavum de sede Philippus,</l>
+          <l>Inter belligeras quem protulit<placeName>Austria</placeName>gentes,</l>
+          <l>Ter denis ratibus patrium conscendimus aequor</l>
+          <l>Fortuna, et coelo classem ducente sub orbem</l>
+          <l>Tendimus occiduum, et dotalia quaerimus arva,</l>
+          <l>Non tua visa soror, nec quae petat arbore victum</l>
+          <l>Quam vero te crediderim sanctissima virgo?</l>
+          <l>Quandoquidem nec vox, nec vultu forma sereno</l>
+          <l>Mortalem referant, quodque unum nemo negarit</l>
+          <l>Irradiant oculi, quibus inspiravit honorem</l>
+          <l>Divum aliquis, nostros coeli dea magna labores</l>
+          <l>Aspicias quaeso, ac doceas quibus orbis in oris</l>
+          <l>Iactentur socii, tris tantum ex aequore naves</l>
+          <l>Mecum deletae in terras sub rupe cavata</l>
+          <l>Conduntur, curvique umbroso fluminis alveo,</l>
+          <l>Et nautae in sicca madidi volvuntur harena:</l>
+          <l>Dum vero ruit oceanus, fluctusque sub auras</l>
+          <l>Erigit alternos, contorto vertice naves</l>
+          <l>Absorbet geminas, reliquas feris unda biremes</l>
+          <l>Quo ventus trahit, aut imum subiere baratrum:</l>
+          <l>Quo circa aerium studui superare cacumen;</l>
+          <l>Actos turbinibus socios si forte viderem,</l>
+          <l>Hinc naves repeto, adsis, o castissima virgo</l>
+          <l>Adsis, virgineas flammis adolebimus aras,</l>
+          <l>Multa ubi nebulis fumabunt thura sabaeis.<note place="margin" xml:id="ftn55" n="55">Virgo salutem promittit
+                Germanis.</note>
+          </l>
+          <l>Sic ille; at contra sic illa est voce locuta.</l>
+          <l>Forti perge animo, pubes, classique relata est</l>
+          <l>In tutum, et socii occulta potiuntur harena,</l>
+          <l>Et quae sunt scopulis convulsae, undisque supersunt,</l>
+          <pb xml:id="F23r"/>
+          <l>Festivi elisas reparant in littore proras,</l>
+          <l>At tu solare uxorem, portuque triremes</l>
+          <l>E duce, et laetus pelago da vela secundo.</l>
+          <l>Occurrent medio sociorum lintea cursu,</l>
+          <l>Fas est per tonitrus, hyemes, fluctusque sequaces</l>
+          <l>Te tandem incolumem terras intrare quietas,</l>
+          <l>Vade, et Neptuni victor te ad littora perfer,</l>
+          <l>Dixit, et in tenuem fulgens evanuit auram,</l>
+          <l>Et lucem latebris, mirumque reliquit odorem.</l>
+          <l>Quam uox, incessus, et circum tempora nimbi<note place="margin" xml:id="ftn56" n="56">Maria virgo beatissima.</note>
+          </l>
+          <l>Esse deam, castam ostendunt ubera matrem.</l>
+          <l>Ut Venus Aneae densis occurrit in umbris,</l>
+          <l>Quae tanquam Harpalice suspensum aptavera arcum</l>
+          <l>Venatrix gelida crines aspersa pruina</l>
+          <l>Edocuit natum phrigios miserata labores:</l>
+          <l>Quonam sub coelo erraret, quas actus ad oras</l>
+          <l>Venerit et Tyria reginam ex urbe profectam,</l>
+          <l>Ac Lybiae ostendit fines, et Agenoris arces,</l>
+          <l>Et classem in tutum mutata nunciat auram;</l>
+          <l>Sic virgo Christi mater, sanctissima Virgo,</l>
+          <l>Diva deum atque hominum regi praedixit Ibero</l>
+          <l>Evasisse salum comites, tutumque tenere</l>
+          <l>Littus, et occiduum iam tendere vela sub orbem.</l>
+          <l>Tum rex ob socios laetus, classemque receptam,</l>
+          <l>Divam suspiciens abeuntum ita voce secutus,</l>
+          <l>Quid tibi pro meritis reddam? Quo te ore canendam</l>
+          <l>Censuerim? Nequeunt quae vellem regna referre:</l>
+          <l>Sed tu nostrorum virgo miserere dolorum,<note place="margin" xml:id="ftn57" n="57">Rex per nemora ad naves redit.</note>
+          </l>
+          <l>Quaque soles inopes nautas pietate tuere.</l>
+          <pb xml:id="F23v"/>
+          <l>His dictis uno graditur comitatus Achate</l>
+          <l>Per sylvam, varioque levat sermone laborem:</l>
+          <l>Atque inter sese de virgine multa locuntur:</l>
+          <l>O rex quae subeunt audi tunc inquit Achates,</l>
+          <l>Haec quondam annales dum parvo intenta sacello</l>
+          <l>Secum animo repetit, dum scire arcana laborat,</l>
+          <l>Plena deo, coelumque rogat rapiturque sub auras,<note place="margin" xml:id="ftn58" n="58">Regis Achates.</note>
+          </l>
+          <l>Nuncius in tectum summo delapsus olympo</l>
+          <l>Ingrediens, niveo qui circunfulsit amictu,</l>
+          <l>Exponit trepidae quae fert mandata puellae,</l>
+          <l>Venturum ex ipsa coelestem ex virgine prolem,</l>
+          <l>Quae reparet mundum, et labentem restituat rem.</l>
+          <l>Illa autem accepta, quae sese infuderat, aura,</l>
+          <l>Sensit concaeptum extemplo sine semine verbum,</l>
+          <l>Virgo tamen, materque dei, virgoque, parensque,</l>
+          <l>Servavit purum sine crimine casta cruorem,</l>
+          <l>Haec nunc Hesperiae longe veneratur in ora,</l>
+          <l>Cui thurem et sertis semperque recentibus halat</l>
+          <l>Quae terrae extremis posita est in finibus ara,</l>
+          <l>Aureaque ex toto portantur munera mundo,</l>
+          <l>Haec est, media se se tulit obuia sylva:</l>
+          <l>Quae nos, quae nostros felix custodit Iberos.</l>
+          <l>Sic rex ad naves fertur, sociosque revisit.</l>
+          <l>Remigium, antennasque parant, stipantque carinas:</l>
+          <l>Et texunt secta dissutas arbore costas.</l>
+          <l>Festini accelerant nemoroso sovere ab amne.<note place="margin" xml:id="ftn59" n="59">Rex in Hispania solvit.</note>
+          </l>
+          <l>Quae vero pubem armiferam, multosque vehebant</l>
+          <l>Heroas, patrio contextas robore pinus</l>
+          <l>Dispulerat, totoque agitaverat aequore turbo,</l>
+          <pb xml:id="F24r"/>
+          <l>Atque actas ventis alias advexerat oras,</l>
+          <l>Postque autem ammonit medias aurora tenebras,</l>
+          <l>Aspiciunt proceres umbrosa cacumina, et ipsum</l>
+          <l>Paulatim surgente die rarescere coelum.</l>
+          <l>Et cum non videant in quem trahat impetus orbem,</l>
+          <l>Intrare est animus quos offert terra, recessus.</l>
+          <l>Obliquos torquent funes, et pectore toto</l>
+          <l>Incumbunt, validisque invertunt cerula remis:</l>
+          <l>Scindunt iratae neptunia regna carinae,</l>
+          <l>Et spumas salis aere ruunt, tande aequora vincunt</l>
+          <l>Germani: et tota subierunt ostia classe,</l>
+          <l>Ac taciti ignoto fluvii conduntur in alveo:</l>
+          <l>Egressi religant puppes, morsuque tenaci</l>
+          <l>Firmat de prora fessas iacta anchora naves.</l>
+          <l>Quod virgo regi luco praedixerat alto,</l>
+          <l>Hoc regni latus est, qua parte Britannia terras</l>
+          <l>Aspicit occiduas, et mundum sole tepentem.</l>
+          <l>At quae dona fuerant, aliis iactantur in undis<note place="margin" xml:id="ftn60" n="60">Naves onerariae vi ventorum
+                    victae.</note>
+          </l>
+          <l>Ignarae socios quo saevum compulit aequor,</l>
+          <l>Quo tulerit fortuna ducem, quid nocte sub atra?</l>
+          <l>Quid coelo ignoto faciant, at frena superbis</l>
+          <l>Dum laxat Neptunus aquis, nec ferre biremes</l>
+          <l>Possint atram hyemem, aut ferientes sidera fluctus:</l>
+          <l>Nec detur liquido tutum capere aere portum.</l>
+          <l>Consilium est, nullam cum sperent arte salutem,</l>
+          <l>Dirigere, et plenis urgere ad littora velis</l>
+          <l>Per vada salsa rates, et quo ferat impetus irae,</l>
+          <l>Illae igitur celeres oram subiere propinquam</l>
+          <pb xml:id="F24v"/>
+          <l>Vela urgente noto, et puppim feriente procella,</l>
+          <l>Dant gemitum, et fractae ad terram periere carinae.<note place="margin" xml:id="ftn61" n="61">Naves ad littus
+                collisae.</note>
+          </l>
+          <l>Cognato natat alma Ceres immersa profundo:</l>
+          <l>Et dulcis Bacchi liquor immiscetur amaro:</l>
+          <l>Servati tamen in sterilem egrediuntur harenam:</l>
+          <l>Et sessi extendunt artus per gramina nautae.</l>
+          <l>Sed miseris victum cum ora importuna negaret,</l>
+          <l>Unam omnes terram incultam fesso amine linquunt,</l>
+          <l>Et sese exhortantes sub iuga montis anhelant.</l>
+          <l>Illi ergo ammissis digressi navibus ibant</l>
+          <l>Per nemora, et solos saltus rerum omnium egeni,<note place="margin" xml:id="ftn62" n="62">Nautae servati per saxa socios
+                        quaerunt.</note>
+          </l>
+          <l>Et regem, et comites et quos habet insula portus</l>
+          <l>Quaerere, et ex alta moesti saepe aequora rupe</l>
+          <l>Prospectant, si quas colliserit unda carinas.</l>
+          <l>Ecce autem dum membra trahunt, saxisque fatigant,</l>
+          <l>Hirsutum videre senem, intonsumque sub altos</l>
+          <l>Inniti scopulos, fessamque anteire catervam,<note place="margin" xml:id="ftn63" n="63">Divus Iacobus.</note>
+          </l>
+          <l>Tosta peregino velarat corpora amictu;</l>
+          <l>Et ieiuna fames tenues confecerat artus.</l>
+          <l>Illa tamen stabili vestigia lubrica passu</l>
+          <l>Firmat, seque agili tollit super ardua saltu:</l>
+          <l>Et faciem vertens alacri vocat agmina vultu,<note place="margin" xml:id="ftn64" n="64">Germani errant per nemora
+                    ignota.</note>
+          </l>
+          <l>Seque viae comitem prestat, perque invia ducit.</l>
+          <l>Germani tanquam misso Diis omine laeti</l>
+          <l>Illum oculis servant, issum per saxa secuntur,</l>
+          <l>Atque animos sermone levant, minuuntque labore.</l>
+          <l>Ut vero ad montis latera, et declivia ventum est.</l>
+          <l>Praecipitis scopuli, nigris se abscondidit umbris,</l>
+          <l>Hispani novere virum, novere Iacobum</l>
+          <pb xml:id="F25r"/>
+          <l>Antiqui Christi comitem super astra
+                relatum</l>
+          <l>Cui voto atque arabum veneratur odoribus arae.</l>
+          <l>Qua longe extremos latum mare pulsat Iberos,</l>
+          <l>Descendunt, montemque trahunt secum ungue tenaci,</l>
+          <l>Et per declives varia in discrimina cautes</l>
+          <l>Labuntur, miserique cadunt ululante ruina,</l>
+          <l>Et saepe aeriis librantur corpora saxis.</l>
+          <l>At qui secreta sedere ad flumina classe,</l>
+          <l>Dum spectant si quas impelleret unda triremes;</l>
+          <l>Aut de rege suo quid fama ad littora ferret,</l>
+          <l>Secum multa gemunt, atque in diversa trahuntur</l>
+          <l>Soliciti heroes, et tristi pectore versant</l>
+          <l>An venti regem exagitent, an liquerit auras</l>
+          <l>Aetherias regni expectatus divitis haeres,</l>
+          <l>Anne aliquo eiectus socios desideret, o Dii</l>
+          <l>Quae tanto fortuna duci? Sub sidera palmas</l>
+          <l>Attollunt vultum erecti, dominumque vocantes</l>
+          <l>Suspirant, largisque humectant imbribus ora.</l>
+          <l>Dum lacrymant, ruere ecce videt ad littora turba</l>
+          <l>Incultam, genibus labentem, atque, aegra trahentem</l>
+          <l>Corpora, mirantur, primisque aspectibus haerent.</l>
+          <l>Ut vero intenti gentem, fusisque tuentur</l>
+          <l>Luminibus, socios norunt, occurritur, illos</l>
+          <l>Suscipiunt, multumque suo de rege locuntur.</l>
+          <l>Progressi ad naves, fusi per transtra replentur</l>
+          <l>Servatae Cereris dono, veterique Lyeo.</l>
+          <l>Postquam autem potu revocatae in pectora vires,</l>
+          <l>Regem iterum miseri multo sermone requirunt,</l>
+          <l>Et quos perturbant infandos aequore casus</l>
+          <pb xml:id="F25v"/>
+          <l>Scire volunt: illi o proceres fortissima pubes</l>
+          <l>Incertum quo rex fato quibus erret in undis.</l>
+          <l>Nos vero obstanteis disiectis navibus Austros</l>
+          <l>Cum nec ferre quidem fas sit, nec tendere contra;</l>
+          <l>Ventus antrox puppes scopulosa in littore torquet,</l>
+          <l>Quas rex in patriis onerarat frugibus oris.</l>
+          <l>Vi maris impulsae periere ad saxa carinae.</l>
+          <l>Res periere omnes, nos divum munere ab atra</l>
+          <l>Nocte atra erepti per lucos quaerere terras</l>
+          <l>Venimus, atque aliquos fessi per saxa recessus,</l>
+          <l>Quo vos credidimus pulsos, fortuna ferebat.</l>
+          <l>Haec illi, heroes miserati incommoda ducunt</l>
+          <l>Divisos aucto per classes ordine nautas,</l>
+          <l>At non inventi stat fixa memoria regis.</l>
+          <l>Nusque illum ad tumulum fortasse audire vocatum<note place="margin" xml:id="ftn65" n="65">Deploratur rex.</note>
+          </l>
+          <l>Diversae subeunt moerentia pectora curae.</l>
+          <l>Tot cum rege viros hisdem iactarier undis,</l>
+          <l>Lumina tot patriae germana carere sepulchro.</l>
+          <l>Haec dum animos alto premit anxia cura dolore;</l>
+          <l>Obriguere omnes immoti lumina, tandem</l>
+          <l>Prosiliunt tristeisque erumpunt pectora voces.</l>
+          <l>Nos igitur portu fruimur? Rex errat in undis?</l>
+          <l>Quid cives? Ecquid magni metuenda potestas</l>
+          <l>Imperii referet? quid Roma? Quid Adria? Nostrae</l>
+          <l>Terra quid Hesperiae? Et quas Rhenus divident urbes?</l>
+          <l>Promisisse suis regem comitarier oris,</l>
+          <l>Nos nullam servasse fidem, regisque labentem</l>
+          <l>Deservisse ratem, et surdos liquisse vocantem</l>
+          <l>Auxilium, et pavidos tuto latuisse sub alveo,</l>
+          <pb xml:id="F26r"/>
+          <l>Non iuvisse ducem, at salso immersisse profundo.</l>
+          <l>O laudem egregiam ferimus spolia amplaque unum</l>
+          <l>Multi prodidimus, patria qui classe receptos</l>
+          <l>Foverat, et placidos festis donaverat agros.</l>
+          <l>Audeat heroes patriae nunc dicere fidos,</l>
+          <l>Nunc incorroptum tollat<placeName>Germania</placeName>amorem:</l>
+          <l>Infandum, tactas ad quas iuravimus aras:</l>
+          <l>Et Diis accensos miseri violavimus ignes.</l>
+          <l>Dum moerent, variosque agitant sub pectore casus:</l>
+          <l>Malunt insanum rursus tentare profundum;</l>
+          <l>Atque iterum infidis sese committere ventis,</l>
+          <l>Et cum rege mori quam regna in nota redire,</l>
+          <l>Quam vitam, et patrios sine rege tenere penates.</l>
+          <l>Haec inter vigil it rumor per transtra Philippum</l>
+          <l>Hesperiae regem, terraeque potentis alumnum</l>
+          <l>Vivere, et aerata pontum sulcare carina:</l>
+          <l>Et quoniam posuere Austri, et iam cederet unda,</l>
+          <l>Felices cursus serum vertisse sub axem.</l>
+          <l>His erecti animi, et longo moerore soluti.</l>
+          <l>Extemplo dare vela Notis, et solvere funes</l>
+          <l>Conclamant, celeresque volant, et littora linquunt.</l>
+          <l>Tendunt incertas, quo vult fortuna per undas,</l>
+          <l>Quove regunt dubios fatalia sidera cursus.</l>
+          <l>Iamque altum secure rates, mediumque tenebant</l>
+          <l>Cum rex, qui rapidis fuerat servatus ab undis</l>
+          <l>Atque importunam, quo torserat impetus, oram</l>
+          <l>Liquierat, ex tumido prospectat gurgite si quem</l>
+          <l>Cernat, et Hesperias recta contendit ad oras,</l>
+          <l>Nec non qui vigilat pupi Palinurus ab alta</l>
+          <pb xml:id="F26v"/>
+          <l>Longe ora intendit rarumque per aera curvas</l>
+          <l>Detegit antennas, et summas prospicit alas.</l>
+          <l>Heroes contra puppis per cerula nantes</l>
+          <l>Et summa aerias per currere lintea nubes</l>
+          <l>Spectant, sed quoniam impedit humor lumina, quae sint</l>
+          <l>Ambigui celerem frenant medio aequore cursum:</l>
+          <l>At iam antennarum cava cornua velatarum</l>
+          <l>Apparent, longeque aperitur regia pinus.</l>
+          <l>Tum laeti proceres canis e fluctibus altae</l>
+          <l>Arma ratis, pictaeque agnoscunt nostra carinae,</l>
+          <l>Ad regem vertunt proras et amica retorquent</l>
+          <l>Carbasa, et evolvunt, lapsasque trahunt antennas.</l>
+          <l>Clamatur, regem clamore, et voce salutant,<note place="margin" xml:id="ftn66" n="66">Heroes in mari occurrunt regi.</note>
+          </l>
+          <l>Tormenta exonerant humana tonitrua, nubesque,</l>
+          <l>Et terrae extremas feriunt mugitibus oras,</l>
+          <l>Accessit calor aeolius, nam ex puppibus ipsis</l>
+          <l>Concrepuit tubicen, sonitumque dedere canoro</l>
+          <l>Aere tubae, et refluas implerunt cantibus undas.</l>
+          <l>Tum circunsulae timuit regnator aquai<note place="margin" xml:id="ftn67" n="67">Ingens laetitia pro rege
+                invento.</note>
+          </l>
+          <l>Credens arma sibi pro tempestate parari.</l>
+          <l>Fama quoque est Glaucum, et concha tritona fonanti</l>
+          <l>Nereaque et Thetidem specubus latuisse sub imis.</l>
+          <l>Rex simulac vidit classem, sociosque receptos,</l>
+          <l>Solvit diis, quales potis est pro tempore, grates.</l>
+          <l>Et quoniam ventus crepitans a puppibus instat</l>
+          <l>Nec pigas patitur naves, imoagmine cucnti<note place="margin" xml:id="ftn68" n="68">Germanicum rege ad Hispaniam
+                    tendunt.</note>
+          </l>
+          <l>Accipiunt Eurum, regemque, et vela vocantem,</l>
+          <l>Neptunum, pelagique deos, auramque precantur</l>
+          <l>Christiparaeque Deae magnum prece numen adorant</l>
+          <pb xml:id="F27r"/>
+          <l>Quemque viae comitem scopulis habuere sub altis.</l>
+          <l>Poscunt in vota, et mediis venerantur in undis.</l>
+          <l>Aeoliae aspirant animae, cava lintea turgent</l>
+          <l>In plenos curvata sinus, secat aequora pinus;</l>
+          <l>Perque altum vehitur fluctu ratis uncta secundo,</l>
+          <l>Una omnes scindunt spumas, pelagoque feruntur</l>
+          <l>Hesperiam ad terram cupidi contingere terram.</l>
+          <l>Tempus erat, nigras quo sol lugentis averni</l>
+          <l>Emensus tenebras curru ascendebat anhelo</l>
+          <l>Lucentis mundi clivum, limenque sub altum</l>
+          <l>Quadriugos urgebat equos, croceumque cubile</l>
+          <l>Liquerat, et dubio spargebat lumine terras</l>
+          <l>Tithoni coniux, vigilique per oppida vultu</l>
+          <l>Excibat segnes herbosa in rura colonos;</l>
+          <l>Cum iam Gallorum ripas, gentemque superba</l>
+          <l>Evadunt, superantque tuos<placeName>Aquitania</placeName>portus,</l>
+          <l>Qua cavat oceanus sinuosa in littora terras:</l>
+          <l>Et Pyreneos cuneato gurgite montes</l>
+          <l>Attingit, fractoque recurrit in aequora cursu.</l>
+          <l>Nanque illic laevum in littus mare rumpit, et atrox</l>
+          <l>Insequitur tumidis fugienteis fluctibus oras.</l>
+          <l>Illinc Cantabricas cogit secedere ripas:</l>
+          <l>Hinc urget Gallos, pulsat sinus ultimus altos</l>
+          <l>Pyrenes scopulos, quae contra ex currit, et aestus</l>
+          <l>Reprimit infestos, salsoque aspergitur imbre,<note place="margin" xml:id="ftn69" n="69">Detegitur nautis<placeName>Hispania</placeName>.</note>
+          </l>
+          <l>Iam vero Hispanae detecta cacumina terrae</l>
+          <l>Cernuntur, longeque apparent ardua saxa,</l>
+          <l>Qua tangit coelum, et procurrit in aequora longo</l>
+          <l>Gabaeum cornu, quod totam ceu angulus oram</l>
+          <pb xml:id="F27v"/>
+          <l>Scindit, et oceani venienteis dividit undas.</l>
+          <l>Huc tendunt cursum, feriunt, pontumque fatigant,</l>
+          <l>Certatim incumbunt, et remis cerula vertunt:</l>
+          <l>Et pariter laetis clamoribus aera complent.</l>
+          <l>Salve bellipotens tellus, materque virorum:<note place="margin" xml:id="ftn70" n="70">Rex Philippus ad<placeName>Hispaniam</placeName>delatus.</note>
+          </l>
+          <l>Salvete Hesperiae gentes, dii, templa, laresque</l>
+          <l>Salvete armiferis amnes qui curritis undis:</l>
+          <l>Et vos sublimes animae, cinersque beati;</l>
+          <l>Qui inter felices delecti vivitis ombras.</l>
+          <l>Ad vos cognatam venientem ex aequore gentem</l>
+          <l>Accipite, atque animis unam faciamus utranque.</l>
+          <l>Clamores inter laetos germana iuventus</l>
+          <l>Hispanos subeunt portus, morsuque tenaci</l>
+          <l>Deiecta in fluctus fessam tenet anchora classem.</l>
+          <l>Hic ubi in arma ferox hyemis, coelique calentis</l>
+          <l>Invictus latam custodit Cantaber oram,</l>
+          <l>Et Lusitanis confinia terminat agris.</l>
+          <l>Egressi, et tandem optata tellure potiti</l>
+          <l>Nudati socii media luctantur harena,</l>
+          <l>Atque oleo nitidis exercent membra palestris.</l>
+        </lg>
+        <p>Finit liber tertius et ultimus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

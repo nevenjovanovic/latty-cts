@@ -1,0 +1,7 @@
+<work groupUrn="urn:cts:latty:flasch01" urn="urn:cts:latty:flasch01.latty2608271" xml:lang="lat">
+  <title xml:lang="lat">Professio catholica</title>
+  <edition workUrn="urn:cts:latty:flasch01.latty2608271" urn="urn:cts:latty:flasch01.latty2608271.latty-lat1:">
+    <label xml:lang="lat">Professio catholica, versio electronica</label>
+    <description xml:lang="eng">test description</description>
+  </edition>
+</work>

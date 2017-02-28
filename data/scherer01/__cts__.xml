@@ -1,0 +1,6 @@
+<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:lattyscherer01">
+  <groupname>
+    <name xmlns="http://www.tei-c.org/ns/1.0">Scherer, Heinrich Michael</name>
+    <date xmlns="http://www.tei-c.org/ns/1.0" precision="low">fl. 1710</date>
+  </groupname>
+</ti:textgroup>

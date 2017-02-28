@@ -1,0 +1,7 @@
+<work groupUrn="urn:cts:latty:aemilianus01" urn="urn:cts:latty:aemilianus01.latty2570222" xml:lang="lat">
+  <title xml:lang="lat">Historia beati Simonis Tridentini</title>
+  <edition workUrn="urn:cts:latty:aemilianus01.latty2570222" urn="urn:cts:latty:aemilianus01.latty2570222.latty-lat1:">
+    <label xml:lang="lat">Historia beati Simonis Tridentini, versio electronica</label>
+    <description xml:lang="eng">test description</description>
+  </edition>
+</work>

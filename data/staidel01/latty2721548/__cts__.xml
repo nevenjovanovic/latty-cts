@@ -1,0 +1,7 @@
+<work groupUrn="urn:cts:latty:staidel01" urn="urn:cts:latty:staidel01.latty2721548" xml:lang="lat">
+  <title xml:lang="lat">Ars magica</title>
+  <edition workUrn="urn:cts:latty:staidel01.latty2721548" urn="urn:cts:latty:staidel01.latty2721548.latty-lat1:">
+    <label xml:lang="lat">Ars magica, versio electronica</label>
+    <description xml:lang="eng">test description</description>
+  </edition>
+</work>

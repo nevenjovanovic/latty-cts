@@ -1,0 +1,6 @@
+<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:lattystaidel01">
+  <groupname>
+    <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="dt">Staidel, Johann Franz</name>
+    <date xmlns="http://www.tei-c.org/ns/1.0" precision="low">floruit 1750</date>
+  </groupname>
+</ti:textgroup>

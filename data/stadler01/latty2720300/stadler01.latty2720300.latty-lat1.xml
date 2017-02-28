@@ -1,0 +1,1125 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc xml:id="stadler-j-de">
+      <titleStmt>
+        <title>De satione dissertatio, versio electronica</title>
+        <author key="stadler01">
+          <name>Stadler, Joseph</name>
+          <date>1735-1788</date>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Johanna Luggin</name>
+        </respStmt>
+        <respStmt>
+          <resp>transcriptionem fecit</resp>
+          <name>Irina Tautschnig</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>63 paginae</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Stadler, Joseph</author>
+            <title>De Satione Dissertatio proposita a Iosepho Stadler, Physices Theoreticae et
+                            Experimentalis in Caesareo-Regia Leopoldina Universitate Professor Publicus
+                            Ordinarius, et a Domino Andrea Aloysio Dipauli Aldinensi Tyrolensi una cum
+                            Positionibus ex Universa Physica propugnata</title>
+            <imprint>
+              <pubPlace>Innsbruck</pubPlace>
+              <date when="1781">1781</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>TLMF, Dip. 248/3</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1781">1781</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Von der Vertreibung der Jesuiten bis zur Revolution 1848</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Naturwissenschaft</term>
+          <term>Dissertation</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2015-09-24</date>
+        <name>Johanna Luggin</name>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:latty:stadler01.latty2720300.latty-lat1:">
+    <body>
+      <div>
+        <head>De Satione Dissertatio proposita a<persName>Iosepho Stadler</persName>, Physices Theoreticae et
+                    Experimentalis in Caesareo-Regia Leopoldina Universitate Professor Publicus
+                    Ordinarius, et a Domino<persName>Andrea Aloysio Dipauli</persName>Aldinensi Tyrolensi una cum
+                    Positionibus ex Universa Physica propugnata</head>
+        <p>
+          <date>Mense Augusto Anno MDCCLXXXI.</date>
+        </p>
+        <p>Superiorum Permissu.</p>
+        <p>Typis Academicis Viduae Wagnerianae et Heredum.</p>
+        <pb/>
+      </div>
+      <div>
+        <head>Excellentissimo ac Illustrissimo Domino Domino Veritati<persName>Zenobio</persName>, Nobili
+                    Patritio et Senatori Veneto, Sacri Romani Imperii Comiti, Domino in<placeName>Enn</placeName>,<placeName>Caldif</placeName>,<placeName>Salurn</placeName>,<placeName>Favogna</placeName>et<placeName>Koenigsberg</placeName>etc. etc., Domino Domino ac Patrono suo
+                    Benignissimo.</head>
+        <pb/>
+        <head>Excellentissime ac Illustrissime Domine, Domine!</head>
+        <p>Ut Te potissimum, Excellentissime ac Illustrissime Domine Domine, concertationis
+                    huiusce philosophicae Patronum atque adeo Auspicem rogarem, multa quidem sunt,
+                    quae me impulerint; illud in primis, quod eo loco natus et educatus sim, qui
+                    Iurisdictioni Tuae mitissimae subesse gloriatur.</p>
+        <p>Gloriatur enimvero: quid enim memorem eximiam illam Tuam vereque paternam
+                    sollicitudinem, qua subditorum Tuorum res per Te Tuosque</p>
+        <pb/>
+        <p>identidem recognoscere, quaeque illis obesse aut prodesse possint, non providere
+                    modo, sed illa quidem ab eorum fortunis et capitibus avertere, haec vero
+                    arcessere ulto, conservare atque augere perpetuo studeas? Quid insignem illam
+                    clementiam atque benignitatem Tuam, quam subditis Tuis omnibus indulgere
+                    munificentissime iisque opem, auxilium omnisque generis beneficia et plurima et
+                    maxima praestare pene ante consuevisti, quam illi Te rogaverint aut rogare etiam
+                    ausi sint.</p>
+        <p>Atque huius rei ego quoque testis locuples ac recens sum: quod enim rogare vix
+                    audebam, ut huius disputationis literariae patrocinium susciperes, id non multo
+                    post ac pene ante me consecutum</p>
+        <pb/>
+        <p>esse intellexi, quam preces meas ad Te delatas esse putaveram.</p>
+        <p>Sit ergo Tua, Excellentissime ac Illustrissime Domine Domine, haec, quae de
+                    Satione scripta est, Dissertatio. Nulla illam quidem aut novitas aut gratia
+                    commendat; argumenti tamen quod tractat, utilitas displicere non poterit.</p>
+        <p>Sint Tuae Positiones philosophicae, tamquam primi fere, quam ex rebus physicis et
+                    mathematicis hausi, scientiae meae fructus, Tibi certe eo iucundiores, quod
+                    literarum omnis generis aestimator et fautor eximius sis nihilque perinde velis
+                    et cupias, quam ut subditi Tui omnes pro suo quisque</p>
+        <pb/>
+        <p>vitae genere, quae e re publica sunt aut esse possunt, condiscant ipsi diligenter
+                    et exerceant.</p>
+        <p>Sit Tua haec concertatio omnis, quae erit eo illustrior profecto mihique
+                    iucundior, quo illustriore Tuo auspicio ac patrocinio suscepta.</p>
+        <p>Sim denique ego quoque Tuus, quem pro singulari Tua benignitate ut ne favoribus
+                    ac gratia Tua indignum iudices, ego demississime rogo unaque pia ad Superos
+                    facio vota, ut Te Reipublicae, Domui avitae, subditis mihique servare incolumem
+                    omnique felicitate florentem quam diutissime velint. Dabam<placeName>Oeniponte</placeName>
+          <date>VII Idus
+                    sextiles</date>.</p>
+        <pb n="1"/>
+      </div>
+      <div>
+        <head>Praefatio.</head>
+        <p>Agricultura scientia est vastissima. Quidquid ad plantarum sive ortus sive
+                    incrementa sive fructus pertinet, id omne suo ambitu complectitur. Quare
+                    scientiam hanc omnem paucis hisce foliis complecti neque animus mihi est neque
+                    vero esse potest. Ex plurimis pauca, immo unum fere delibabo; de praecipua
+                    agriculturae functione, de satione agam; ita agam, ut, quae per docta aliorum,
+                    qui quidem de agricultura scripserunt, monumenta dispersa veluti ac disseminata
+                    sunt, ea ego in unum quasi fasciculum colligam.</p>
+        <p>Atque de satione quidem quatuor potissimum examinanda occurrunt: primum</p>
+        <pb n="2"/>
+        <p>est de seminis delectu; alterum de solo cuivis semini adcommodato; tertium de
+                    sationis modo; quartum denique de sationis tempore. De singulis agam breviter.
+                    Sit igitur</p>
+        <pb n="3"/>
+      </div>
+      <div>
+        <head>Caput I. De Seminis Delectu.</head>
+        <head>§. I.</head>
+        <p>Ut fausta, quaeque colonorum votis respondeat, Satio sit, Seminum in primis
+                    haberi delectum oportet: nam etsi plantarum ortus et incrementa pendeant a rebus
+                    plurimis, pendent tamen a seminibus quoque, idque plurimum. Quale semen, talis
+                    fere solet esse planta, talis fructus. In ipso quippe semine existunt futurae
+                    plantae rudimenta, ut adeo haec quoque eo fere perfectior esse soleat, quo
+                    perfectius</p>
+        <pb n="4"/>
+        <p>illud fuerit. Ea igitur agricolae sit prima et maxima cura, ut seminum, quae
+                    terrae committat, non quaecunque, sed optima, sed perfectissima eligat. Sed enim
+                    quaenam sunt optima et perfectissima semina? Iuvat hac de re pauca
+                    praecipere.</p>
+      </div>
+      <div>
+        <head>§. II.</head>
+        <p>Atque illud, opinor, praecipi ante omnia oportet, ut Semina eligantur non
+                    sterilia et effoeta, sed fecunda. Sane e matre sterili quid tandem fructus
+                    exspectes? Fecunda oportet esse semina. Et vero quam esse causam existimem, cur,
+                    quae inter medios cuiusvis plantae flores fila seu stamina eminent,
+                    subtilissimum quemdam pulverem, farinam aut pollinem contineant?</p>
+        <p>Non aliam certe, quam ut is ex staminum antheris excussus atque ad stigmata
+                    delapsus subtilissimam, qua ipse</p>
+        <pb n="5"/>
+        <p>turget, materiam oleosam, sulfuream et phlogisticam seminibus impertiat, eadem
+                    agitet, diducat atque ad inchoandos primos vegetationis motus cieat.</p>
+        <note place="bottom">Sane faciamus florum stamina ab insectis, a vermibus corrodi; faciamus farinam
+                    aut a pluviis frequentioribus abstergi aut ventorum flatibus avehi; faciamus
+                    pistillos aut repentino frigore aliove casu obstrui aut post lapsam pruinam
+                    solis aestu torreri aut a vermibus perforari: plantae florebunt quidem fortisan;
+                    at genuinos fructus ferent nullos admodum.</note>
+        <note place="bottom">Unde adparet, quarum potissimum rerum ratio sit habenda, ut ne pro fecundis
+                    semina sterilia deligantur.</note>
+      </div>
+      <div>
+        <head>§. III.</head>
+        <p>Ex seminibus fecundis eligantur perfecta, quaeque necessariam iam adepta sint
+                    maturitatem. Profecto semina non subito ac derepente, sed lente et per gradus ad
+                    perfectionem accedunt. Ille integumentorum, quibus semen contegitur, quadruplex
+                    ordo: ille radiculae et</p>
+        <pb n="6"/>
+        <p>plumulae et loborum adparatus, illa corculi ac germinis efformatio, illa partium
+                    singularum structura, plexus, firmitas plusculum temporis requirit nec nisi
+                    sensim ad perfectionem adducitur. Qua quidem si caruerint, seminum plurima fato
+                    praecoci interire aut ortus certe habere non adeo laetos oportet: sunt enim, qui
+                    semina immatura uredini esse obnoxia putent, et sapienter quidem: nam dum, quae
+                    eiusmodi sunt, illam alteram, quae sub terra fit, fermentationem ob delicatiorem
+                    adhuc partium plexum non ferunt, succos corrumpi et abire in putredinem necesse
+                    est.</p>
+        <note place="bottom">Quare consultum omnino est, 1.) ut plantae, ex quibus semina petuntur, diutius
+                    in agro aut terrae insitae aut ex palis erectae relinquantur neque metantur
+                    antea et in horreum inferantur, quam ipsa semina probe maturuerint. 2.) Ut ne
+                    semina e montibus locisque frigidioribus petantur, cum ibi vix unquam, quantum
+                    satis est, maturescant. Ipsi monticolae satius utique fecerint, si sementem non
+                    ex agris suis immaturam, sed</note>
+        <pb n="7"/>
+        <p>maturam ex vallibus locisque depressioribus petant.</p>
+      </div>
+      <div>
+        <head>§. IV.</head>
+        <p>Ex seminibus fecundis et maturis eligantur gradiora, pleniora magisque, ut aiunt,
+                    farinacea: est enim humor ille lacteus, qui ex loborum pulpa emollita exsudat,
+                    primum germinis alimentum. Subit ille per canales illos, qui lobos cum radicula
+                    iungunt, in radiculam primo; inde pars subtilior magisque extenuata in folia
+                    seminalia atque ex his denique ad plumulam et germen penetrat; pars vero
+                    crassior ipsam radiculam alit et auget, ut adeo inde et radiculae et plumulae,
+                    totius etiam germinis et plantae incrementa pendeant. Quis ergo dubitet plantas
+                    eo firmiores et perfectiores fore, quo ipsa semina plus alimenti subministrare
+                    teneris illis germinibus possint, adeoque ipsa quoque maiora fuerint, succique
+                    et farinae pleniora?</p>
+        <pb n="8"/>
+        <note place="bottom">Unde intelligitur, opinor, non ea hoc loco semina intelligi, quae malorum
+                    citreorum instar sub densis crassisque integumentis succi parum contineant.
+                    Habent haec et illud incommodi, quod tenerae illae plumulae et radiculae ea
+                    integumentorum claustra perrumpere difficulter possint, ut adeo germina saepe ne
+                    exeant quidem, sed in semine ipso ceu utero contabescant.</note>
+        <note place="bottom">Intelligitur quoque non satis providos esse illos, qui semina ex solo arenoso
+                    et macilento petunt: nam licet ea puriore fere a loliis sint, sunt tamen
+                    plerumque minora quoque minusque farinacea, utpote succo et alimento copiosiore
+                    destituta.</note>
+        <note place="bottom">Sunt quidem, qui grana frumenti, quo minora, eo meliora ad sationem putent.
+                    Fateor: quo minora illa sunt, eo plura unum in modium coeunt, eo pauciora
+                    conserendo agro sufficiunt. At vereor, ut ne ea parsimonia plus damni quam lucri
+                    adferat. Et quamvis semina deteriora fructus interdum ferant, meliora ferrent et
+                    plures et meliores.</note>
+        <note place="bottom">Vulgo illa semina pleniora et fecundiora censentur esse, quae aquis iniecta
+                    merguntur et digitis pressa dissiliunt; leviora contra et sterilia, quae
+                    supernatant et pressa complanantur.</note>
+        <pb n="9"/>
+      </div>
+      <div>
+        <head>§. V.</head>
+        <p>Sint porro Semina neque humore immodico neque fermentatione nimis incitata
+                    corrupta. Id enim effici fere ab utroque solet, ut germina prorumpant
+                    praepropere rupta vagina aut partes illae interiores iam evolvi et explicari
+                    ante tempus incipiant. Quorum illud utique perniciosissimum est, cum semen
+                    quodvis non nisi semel germinet, non nisi semel evolvatur; hoc vero non minus
+                    fortasse noxium: nam dum illa germina celerius exeunt, solum nacta necdum satis
+                    calidum, in ipso exitu corrumpuntur aut certe alimento illo crasso adhuc
+                    minimeque extenuato obruuntur veluti et suffocantur.</p>
+        <note place="bottom">Quare ne ea eligantur semina, quae, frumento demesso, in culmis adhuc haerentia
+                    caelo humido exponi diutius contigit. Docet sane experientia ea semina saepe,
+                    dum in agris adhuc sunt, germen per manipulos protrudere, aut dubitari certe
+                    iure potest, utrum internarum saltem partium evolutio iam coepta sit necne. Sed</note>
+        <pb n="10"/>
+        <p>eligantur semina, quae eo tempore aut nullum aut perbrevem, eamque exiguam passa
+                    pluviam sint.</p>
+        <note place="bottom">Caveatur praeterea, ut ne, dum frumentum in horrea infertur, siccum cum humido
+                    eodem plaustro una inferatur. Secus, dum eundem in locum utrumque congeritur,
+                    alterum ab altero humorem trahit et neutrum certe discerni potest.</note>
+        <note place="bottom">In ipsis horreis cura seminum sit maxima. Humor quivis in horreis maxime
+                    amplioribus, ubi manipuli acervatim congesti surgunt, suspectus oppido sit: nam
+                    fit saepe, ut humore adlapso quaedam in granis fermentatio oriatur. Neque ex iis
+                    manipulis eligatur semen, qui solo aut stabulo sunt vicini: nam trahit inde
+                    humorem et situ tabescit, ut adeo saepe ne ad panem quidem coquendum satis aptum
+                    sit.</note>
+        <note place="bottom">Cura Seminum ad ipsa usque granaria porrigatur, ubi per hiemem adservari
+                    solent. Sint ea loca neque calida neque frigida admodum; sint aeri quidem
+                    libero, sed sicco exposita. Calor semina extenuat; frigus constringit primo, tum
+                    dilatat; humor emollit et fermentationem creat; custodia nimis arcta calorem et
+                    fermentationem auget, humorem continet. Neque id satis est, Semina praeterea
+                    hiemali quidem tempore quavis hebdomade,</note>
+        <pb n="11"/>
+        <p>verno autem tertio quovis die vertantur cureturque in frumento maxime, ut ne
+                    acervi altitudo dimidium fere cubitum excedat. Secus grana interiora calent
+                    nimium neque ab aere satis perflantur.</p>
+      </div>
+      <div>
+        <head>§. VI.</head>
+        <p>Semina sint partiter neque vetusta neque nova admodum. Sint enim nova et mollia
+                    adhuc: anne tenera illa, quae in semine sunt, plantae rudimenta fortiorem illam,
+                    quae sub solo consequitur, fermentationem ferent, anne adventitium illum terrae
+                    succum sine laesionis aut corruptionis periculo recipient? Sint contra longaeva
+                    et perantiqua: ergo ob fermentationem, quae nunquam tota sistitur, diutius
+                    continuatam alterutrum fere consequi necesse est, ut aut subtilius illud, quod
+                    ex polline seminibus insitum est, fermentum exhalando auferatur aut delicatae
+                    illae germinis partes immodice diducantur et rumpantur denique. Accedit</p>
+        <pb n="12"/>
+        <p>et illud, quod Semina eiusmodi vetusta neque a vermium morsibus defendi neque
+                    verti tam saepe ita molliter possint, ut non eorum denique apices laedantur.</p>
+        <note place="bottom">Id tamen inter semina autumnalia et verna interest, quod his fere liceat esse
+                    recentioribus, illis tunc primum, quando hiems citius ingruit: nam cum semen
+                    vetus quatuordecim et amplius diebus serius quam recens exeat, contingere non
+                    raro solet, ut frigus plantas vix exortas occupet ante, quam firmitatem ac robur
+                    acquisierint ferendae hiemi par.</note>
+        <note place="bottom">Sunt item quaedam frumenti species, uti hordeum et avena, quarum semina,
+                    quamvis recentia, copiosam segetem spondeant. Linum tamen oportet esse
+                    antiquius: nam novum ita degenerat saepe, ut optimum licet post duos tresve
+                    annos discerni iam a vulgari vix possit.</note>
+        <note place="bottom">Semina triticea quoque unius certe anni aetatem ferant: secus uredini
+                    censentur esse obnoxia. Quamquam unde uredo existat, non eadem omnium sit
+                    sententia. Sunt, qui eandem repetant a fermentatione, quam, dum pruina teneris
+                    plantis inhaeret, radii</note>
+        <pb n="13"/>
+        <p>solares illuc forte adlapsi excitant. Sunt item, qui illam proficisci a semine
+                    eiusque succis in fermentationem ac putredinem actis existiment. Sunt denique,
+                    qui eam humori immodico aut soli aut seminis adscribant, idque ex eo maxime
+                    capite, quod calx in aqua soluta et tritico inspersa praestantissimum habeatur
+                    contra uredinem remedium. Sed enim uredo fortisan oriri a caussis pluribus
+                    similibus potest.</p>
+        <note place="bottom">Semina nimis vetusta effoeta ac sterilia esse, id analogia quoque ex
+                    animalibus petita comprobat. Verum quis demum aetatis annus sit, qui seminibus
+                    sterilitatem inducat, id definiri certa lege non potest. Fortasse diversus est
+                    pro diversitate seminum: nam quae partium plexum habent firmiorem, quaeque
+                    fermentum succosque oleosos tenacius stringunt, fecunditatem quoque retinere
+                    diutius possunt. Id fere inter omnes convenit, sterilia esse semina quinque
+                    annos nata. At Reaumurius frumenti grana aliquot, etiam centum et quadraginta
+                    annos adservata, seminavit. Crevere illa feliciter admodum panemque praebuere
+                    sapidum. Verum singularia fortasse isthaec sunt. Argumentum inde duci solidum
+                    non potest.</note>
+        <pb n="14"/>
+      </div>
+      <div>
+        <head>§. VII.</head>
+        <p>Sint denique Semina a loliis aliisque seminibus adventitiis pura. Id nisi sit,
+                    laetam certe segetem non habebimus: nam cum lolia radices suas in alienam
+                    possessionem quaquaversus immittant celerioresque fere quam semina reliqua ortus
+                    habeant, his et spatium, quo sese explicent, et alimentum, quo nutriantur,
+                    subtrahunt. Qua re fieri plane necesse est, ut haec, alimento subtracto,
+                    arescant fere et neque augeri mole, quantum satis est, neque firmiores, quaeque
+                    plantas adultiores sustineant, agere radices possint.</p>
+        <note place="bottom">Hanc in rem excogitata varia sunt instrumenta, uti ventilabra, cribra etc.,
+                    quibus semina maxime non a paleis modo et festucis, sed a loliis quoque eorumque
+                    seminibus secernantur. Utantur his agriculae strenue et saepius quidem.</note>
+        <note place="bottom">Quid vero, si ea inter semina sit loliorum copia, ut secerni omnis nulla
+                    industria possit? Coemantur semina ex aliis agris, atque</note>
+        <pb n="15"/>
+        <p>ut sumtibus parcatur, coemantur totidem, quot uni certe agro conserendo
+                    sufficiant. Illa multiplicata pluribus deinceps agris ac denique omnibus
+                    sufficient.</p>
+        <note place="bottom">Qua quidem in re ut ne agricola peccet, semen ex iis maxime agris petat, qui
+                    spectata soli indole, caeli positione, calore, frigore etc. ab iis, quos
+                    consitos voluerit, non magnopere differant. Sane eorum, qui ex agris
+                    calidissimis semina in plagas admodum frigidas transferunt, probare consilium
+                    nolim. Quod hominibus calidiore aut frigidiore loco natus contingit, ut immodico
+                    soli peregrini aut frigore aut calore non nisi molestissime afficiantur, id,
+                    opinor, contingere seminibus quoque oportet. Quodsi vero alterutrum fieri
+                    necesse sit, ut aut deteriora in locum meliorem aut meliora in deteriorem
+                    transferantur, illud prae hoc malim: nam ita spes est fore, ut mediocriter bona
+                    fructus tamen ferant satis amplos.</note>
+      </div>
+      <div>
+        <head>§. VIII.</head>
+        <p>Sunt denique, qui Semina adhiberi non nisi arte praeparata velint. Stat haec
+                    praeparatio in seminum maceratione, dum illa sive in fluida immerguntur, sive
+                    solidis quibusdam corporibus admiscentur.</p>
+        <pb n="16"/>
+        <p>Habet haec maceratio sua commoda: nam seminis integumenta emoliuntur; dilatantur
+                    pori, ut adeo succus alimentarius penetrare eo facilius et copiosius possit;
+                    hauriuntur ex adiectis corporibus plures particulae oleosae, sulfureae et
+                    phlogisticae; siccitas praeterea et humor immodicus tollitur; fermentatio atque
+                    adeo seminis ortus quoque adceleratur, et quae sunt eiusmodi. Verum habet sua
+                    incommoda quoque: nam ut medicina eiusmodi adhiberi tuto et sine periculo
+                    possit, opus profecto est, ut quis et seminum naturam et soli, cui inferuntur,
+                    indolem et medicinae virtutem, pene dixerim, futurae tempestatis quoque rationem
+                    omnino perspectam habeat, itaque sciat medicinae vim nunc intendere, nunc
+                    temperare, ut neque acrior illa sit unquam neque mitior. Eiusmodi autem
+                    quotusquisque inter agricolas est aut etiam esse potest. Quare</p>
+        <pb n="17"/>
+        <p>multi sane sunt, qui hanc seminum praeparationem omnino reiiciant; plures, qui
+                    illi certae opis inesse nihil existiment; plurimi denique, qui eam rarissime
+                    simulque cautissime neque fere nisi necessitate quadam postulante adhibendam
+                    censeant.</p>
+        <note place="bottom">Sunt autem fluida aeque ac sicca, quibus macerari semina solent, oppido
+                    diversa. Praecipua sunt aqua naturalis frigida, fimus, urina, fuligo, creta,
+                    calx, cineres etc.</note>
+        <note place="bottom">Necessitas id postulare duplici potissimum casu videtur: 1.) dum periculum
+                    est, ne triticum, novum maxime et recens, uredinem ex humore contrahat. Semina
+                    calce aquis soluta aut calce primum contusa,
+                    tum aquis aspergantur. Qua quidem arte frumentum in granariis quoque a vermibus
+                    et inflammatione defendi et ad centum et amplius conservari annos potest, uti D.
+                    de Plouche Metis et D. Abbas de Louvois Sedani contigisse testantur. 2.) Dum
+                    seminum serius satorum ortus est adcelerandus, ut plantae ante hiemem adhuc
+                    demeti et inferri horreo maturae possint. Idque hoc anno, quo pruina frumentum
+                    turcicum ambussit, factitatum a quibusdam agricolis audio: nam semina in aqua,
+                    admixto fimo, macerarunt, itaque eorum ortus adcelerarunt.</note>
+        <pb n="18"/>
+        <note place="bottom">Quodsi vero eiusmodi necessitas absit, uti fere abesse solet, telluris potius
+                    quam seminis praeparationem suaserim: nam haec anceps admodum est; illa certo
+                    salubris, eoque magis, quod illae materiae humo ingestae, orto fermentatione,
+                    magis extenuentur, itaque in alimentum plantis proprium magisque salubre
+                    convertantur ante, quam ad semina penetrent.</note>
+        <note place="bottom">Aut certe maceratio neque sit incitata neque diuturna admodum. Ipsa aqua
+                    naturalis seminibus diutius maceratis alium colorem, alium saporem adfert. Quid
+                    ergo dicam de calce, de cineribus, de salibus, de urina, de fuligine? Alia
+                    acrimonia immodica teneras germinum fibras corrodunt; alia seminum integumenta
+                    indurant; alia fermentationem hebetant etc.</note>
+        <pb n="19"/>
+      </div>
+      <div>
+        <head>Caput II. De Solo cuivis Semini adcommodato.</head>
+      </div>
+      <div>
+        <head>§. I.</head>
+        <p>Non eadem cuiusvis soli est indoles, sed plane diversa. Sunt enim alii agri
+                    macilenti, qui quod seminibus subministrent, alimenti parum, alii pingues, qui
+                    plurimum habent. Sunt alii sicci, qui humoris inopia, alii humidi, qui eiusdem
+                    copia laborant. Sunt item alii calidi sive a radiis solaribus eo facilius et
+                    copiosius penetrantibus sive ab exhalationibus fermentatione subterranea
+                    exortis, alii frigidi sive ob umbrae sive ob aquae ad interiora serpentis
+                    copiam, et ita porro.</p>
+        <note place="bottom">Sane in eodem non longo tractu inveniuntur agri diversae indolis: quid dicam de
+                    tractibus amplioribus?</note>
+        <pb n="20"/>
+        <note place="bottom">Praecipuum agrorum discrimen pendet 1.) ex diversitate terrarum, ex quibus
+                    quivis ager componitur: nam alia terra est nigra hortensis et turfacea, alia
+                    argillacea, alia calcaria, cretacea et margacea, alia arenosa et saxosa etc. 2.)
+                    Ab exhalationibus sive ex gremio nativo sive aliunde haustis. 3.) A fimo
+                    copiosius aut parcius importato. 4.) A positione ad solem sive orientem sive
+                    occidentem sive meridianum; ad silvas et montes vicinos; ad eas plagas, e quibus
+                    spirare venti vehementiores, calidiores aut frigidiores solent; ad fluvios et
+                    lacus circum positos. 5.) A planitie, declivitate et elevatione supra libellam
+                    maris, et quae sunt eiusmodi.</note>
+      </div>
+      <div>
+        <head>§. II.</head>
+        <p>Non omne solum est iaciendo semini aeque opportunum: nam semen ut exeat et
+                    crescat, requirit: 1.) Nutrimentum seu succum alimentarium: quis ergo illud solo
+                    macilento et effaeto inferat? 2.) Iustam caloris et frigoris mediocritatem: quis
+                    ergo illud terrae aut nimis calidae aut nimis frigidae immittat? 3.) Humorem
+                    iusto neque parciorem neque</p>
+        <pb n="21"/>
+        <p>copiosiorem: quis ergo solum aut nimis humidum aut nimis siccum conserat? 4.)
+                    Solum neque spissius neque laxius: quis ergo semen glebae aut constrictae aut
+                    laxae admodum inferat etc.?</p>
+        <note place="bottom">Vix ullum tamen fere solum est, quod non quibusdam certe seminibus recipiendis
+                    aptum sit. Sane erica et genista ex arena etiam sicca et pura, alga marina ex
+                    durissimis saxis, silice inprimis, variae item herbae et plantae ex altissimis
+                    montium iugis enascuntur.</note>
+      </div>
+      <div>
+        <head>§. III.</head>
+        <p>Non quodvis Solum est cuivis Semini adcommodatum: nam seminum diversorum non
+                    eadem, sed diversa indoles est. Quae magis sunt farinacea aut in culmos et
+                    plures et maiores abeunt, agrum exigunt pinguiorem, quique succi et alimenti
+                    plus suppeditet. Quae partibus et fibris constant tenerioribus, fermentationem,
+                    quae quibusdam in agris est, immodico calore incitatam non ferunt.</p>
+        <pb n="22"/>
+        <p>Quae integumenta habent crassiora magisque compacta, solum amant humidum simul ac
+                    calidum: humidum, ut illa emolliantur; calidum, ut alimentum magis
+                    extenuetur.</p>
+        <note place="bottom">Triticum amat solum validum, pingue, magis continuum et cohaerens, loco
+                    depressiore situm: nam quod eiusmodi est, humorem et alimentum copiosius, quod
+                    petit, aut iam habet sinu suo reconditum aut aliunde ex pluviis locisque
+                    editioribus advectum tenacius amplectitur. Hordeum, frumentum illud
+                    delicatissimum, exigit solum validum, humiliore loco situm et pingue quidem, at
+                    minus humidum: nam alimentum quidem saltem aeque copiosum, humorem autem
+                    parciorem petit ac triticum. Frumentum amat solum ex arena et argilla inter se
+                    creta portione commixtis compositum: nam eiusmodi solum dum humorem adlapsum
+                    neque nimis cito neque nimis lente dimittit, immodicum et calorem et humorem,
+                    quibus solis fere frumentum laedi constat, a semine et a radicibus arcet. Linum
+                    affectat terram frigidam, pinguem, laxam, parumper arenosam et fimo maxime ex
+                    stagnis et piscinis eruto stercoratam: nam et pinguedinis et frigoris amans est.
+                    Avena in quovis fere solo crescit, nisi id arenosum et admodum macilentum sit:
+                    nam pinguedinis et humoris quidquam, etsi parum, tamen exigit.</note>
+        <pb n="23"/>
+        <note place="bottom">Quare agricolam seminis cuiusque indolem, quidque ad eius sive ortum sive
+                    incrementum requiratur, nosse oportet, ut suum cuivis maximeque proprium
+                    assignare locum possit.</note>
+      </div>
+      <div>
+        <head>§. IV.</head>
+        <p>Non idem solum eidem Semini per plures deinceps continuos annos est opportunum:
+                    nam 1.) sunt plantae, quae radices, quas habent, perbreves non tam in profundum
+                    quam in latum explicent, uti omnes fere frumenti species; sunt item aliae, quae
+                    radices suas fere in profundum tantummodo demittant, uti olera, sisera, napi,
+                    trifolium etc. Illae, dum glebam radicibus suis ceu uncinis quibusdam firmiter
+                    amplectuntur et continent, illam reddunt spissiorem magisque constrictam; hae
+                    vero, dum terram cunei instar subeunt, dividunt et seiungunt, eam laxant
+                    admodum. 2.) Sunt plantae, quae humorem aeque ac alimentum copiosius exigunt.
+                    Hae</p>
+        <pb n="24"/>
+        <p>terram, cui insitae sunt, exsiccant et emaciant. 3.) Sunt denique plantae, quae
+                    folia angusta et pauca, sunt item aliae, quae et multa et lata habeant. Illae,
+                    dum radios solis facile admittunt, terram exsiccant; hae vero, dum eosdem arcent
+                    et humorem semel conceptum diutius retinent, eamdem humectant.</p>
+        <note place="bottom">Quare errant sane, qui quovis anno eidem agro idem frumenti genus aut etiam non
+                    admodum diversum inferunt. Fiat seminum, fiat agrorum permutatio quaedam; detur
+                    seminum in iisdem agris successio quaedam. Quaenam illa? Ea fortisan, quam<persName>Ioannes Baptista Zallinger</persName>in<bibl>Dissertatione de Incremento
+                        Frugum</bibl>praescribit. Sint, inquit, tres agri A, B, C. Hoc ordine
+                    conserantur:</note>
+        <list>
+          <item>Anno 1781</item>
+          <item>A. Tritico aut frumento;</item>
+          <item>B. Avena aut hordeo;</item>
+          <item>C. Lino, tabaco aut oleribus.</item>
+          <item>Anno 1782</item>
+          <item>A. Avena aut hordeo;</item>
+          <item>B. Lino, rapis, oleribus etc.;</item>
+          <item>C. Frumento hiemali.</item>
+          <pb n="25"/>
+          <item>Anno 1783</item>
+          <item>A. Tabaco, oleribus, rapis etc.;</item>
+          <item>B. Frumento aut tritico;</item>
+          <item>C. Avena, hordeo etc.</item>
+        </list>
+      </div>
+      <div>
+        <head>§. V.</head>
+        <p>Hic quaeri denique potest, an, uti in regionibus fertilioribus fere sit, agris
+                    otium (Annum sabbaticum vocant) concedendum quandoque sit. Sunt ibi certae
+                    annorum periodi, quibus in orbem veluti nunc hi, nunc illi agri vacationem ab
+                    omni satione habent. Est haec res inter oeconomos controversa admodum, aliis
+                    alia opinantibus. Id aio, spectata soli natura, anni huius sabbatici tantam,
+                    quantam vulgo iactitant, necessitatem haud esse, cum quidquid agro conferre
+                    otium possit, id diligens cultura stataque seminum permutatio multo certius
+                    maioreque compendio praestet.</p>
+        <note place="bottom">Sane in<country>Anglia</country>, uti scriptores idonei recensent, in<region>Tyroli</region>aliisque regionibus
+                    quibusdam</note>
+        <pb n="26"/>
+        <p>nihil unquam agris otii conceditur. Et quis unquam questus est agros, solius
+                    negati otii caussa, aut nimium constipari aut emaciari aut loliis obrui? Nemo
+                    ullus, opinor.</p>
+      </div>
+      <div>
+        <head>Caput III. De Sationis Modo.</head>
+        <head>§. I.</head>
+        <p>Duo potissimum hic quaeri possunt: primum est, an sationem oporteat esse
+                    densiorem aut rariorem; alterum est, utrum praestet Semina ad maiorem minoremve
+                    profunditatem sub terra defodi. De utroque pauca, et quantum fere satis est.</p>
+      </div>
+      <div>
+        <head>§. II.</head>
+        <p>Sationem universe oportet esse nec nimis raram nec nimis densam. Non illud: secus
+                    alimenti, quod in agris maxime pinguioribus est, quaedam certe</p>
+        <pb n="27"/>
+        <p>pars semini inutilis solis fere loliis gignendis impenditur; non istud: secus pro
+                    seminum et plantarum numero minus copiosum esse alimentum necesse est: unde
+                    consequitur, ut breves in culmis itidem brevibus aristae, pauca, eaque macra in
+                    aristis grana sint futura.</p>
+        <note place="bottom">Maiores utique nostri sationis densioris erant amantes et studiosi admodum et
+                    fere tunc primum beatos se suosque agros putabant, cum sementem in agros non tam
+                    sparsissent quam effudissent, magna utique seminum iactura. At videant coloni
+                    hodierni, ut ne in semine iaciendo nimis parci et frugales sint. Neque prodigum
+                    hac in re neque parcum esse iuvat, et hoc fortasse minus quam illud, iis maxime
+                    annis, quibus sata tempestas iniquior premit: nam paucis illis seminibus
+                    extinctis, quid erit, quod crescat, quod metatur?</note>
+      </div>
+      <div>
+        <head>§. III.</head>
+        <p>In eodem agro, per omnes partes sibi simili, seminis per terram iacti eadem
+                    ubique sit densitas. Secus certe nulla denique</p>
+        <pb n="28"/>
+        <p>agri pars erit satis sana; nullus ager sibi per omnia constans; hic macies, illic
+                    pinguitudo dominabitur. Quod quidem eo videtur esse perniciosius, quod reparando
+                    eiusmodi agro nulla deinceps ars, nulla industria sufficiat, cum, quod uni parti
+                    prosit, id perinde obsit alteri.</p>
+        <note place="bottom">Hanc in rem variae inventae sunt machinae seminariae, quas, uti aiunt,
+                    complurium provinciarum usus commendat. Duo illae praestare maxime debent:
+                    primum est, ut semina per agros aequabilius distribuantur; alterum, ut id ipsum
+                    maiore colonorum commoditate, temporis item et seminum compendio fiat. At
+                    fortisan iis magnopere opus haud est, cum seminatorum dexteritas ipso usu
+                    acquisita iunctaque dexteritati sollertia fere machinarum omnium instar esse
+                    possit.</note>
+        <note place="bottom">Iuvat hoc loco de satione regulas paucas praescribere. I. Seminator, dum manum
+                    in pugnum contrahit, pollicem manui probe adprimat, ne forte maior inde seminum
+                    copia prorumpat, quae incedentis viam granis adcumulatis signet. II. Digitos
+                    reliquos ita comprimat, ut inter binos quosque aequale intersit intervallum.
+                    III. Iactus ita temperet ac moderetur, ut singulorum eadem perpetuo</note>
+        <pb n="29"/>
+        <p>sit amplitudo: nam si maior aliquando fuerit, rariora alicubi cadent semina, si
+                    minor, densiora. IV. Videat diligenter, quorsum prior quaevis iactuum series
+                    pertineat, ut ne in duarum se proxime consequentium finibus semina aut rariora
+                    aut densiora concidant. V. Praestat iactus facere ampliores, ut duorum iactuum
+                    confinis utrumque aeque participent. VI. Caveat agricola, ne semina aequabiliter
+                    per agrum distributa occando rursus congerantur: quare occatio, gleba admodum
+                    madefacta, aut nulla fiat aut modica, occa aliquoties sursum deorsum leviter
+                    tracta.</p>
+      </div>
+      <div>
+        <head>§. IV.</head>
+        <p>In diversis agris sit iacti seminis diversa raritas aut densitas, idque
+                    necessario: nam solum validum et pingue plantis pluribus, paucioribus alendis
+                    macrum et exile sufficit. Quare satio in solo macilento sit rarior, in pingui
+                    densior. Ita vero, si solius succi alimentarii ratio habeatur, idque eo etiam
+                    magis, quod in solo macro planta quaevis, ut, quantum satis est, alimenti
+                    adtrahat, radices suas fere latius extendat; in pingui et valente</p>
+        <pb n="30"/>
+        <p>non item. Verum tempestatis quoque ducenda ratio est. Quid enim, si illa solo
+                    macilento infesta admodum sit, extinctis paucis illis, quae eidem commissa sunt,
+                    seminibus, quae porro messis supererit? Quare obtinet fere, ut agri macilenti
+                    densius, pingues rarius conserantur, neque id in speciem imprudenter: nam semina
+                    in agris pinguibus rarius sata, siquidem his tempestas prae macris faveat,
+                    radices latius explicant, succum alimentarium copiosius adtrahunt, itaque
+                    segetem spondent uberrimam, cum unum saepe granum decem aut viginti etiam culmos
+                    et aristas praeterea locupletes ferat, ut adeo agrorum exilium mediocritatem
+                    horum abundantia abunde resarciat. Verum quid demum, si his quoque inimica
+                    tempestas sit? Vereor sane, ut seges inde demessa spem coloni impleat. Pauca
+                    exibunt semina, quaeque exitura sunt, a loliis citius</p>
+        <pb n="31"/>
+        <p>invalescentibus opprimentur. Quare auctor fere sum, ut agri pingues, quique ad
+                    gignenda lolia sunt magis proni, uti fere plani, humidi locoque depressiore siti
+                    esse solent, densius conserantur: vel enim his tempestas erit amica vel adversa?
+                    Si primum: erit messis copiosissima; si alterum: erit certe mediocris.</p>
+        <note place="bottom">Huc pertinent agri frigidi quoque: nam et hi pluribus et maioribus solent esse
+                    periculis expositi. Id ipsum quoque de agris iisdem quidem, at sibi dissimilibus
+                    dictum sit.</note>
+      </div>
+      <div>
+        <head>§. V.</head>
+        <p>In iisdem agris seminis diverso tempore iacti sit diversa raritas aut densitas.
+                    Sane semini verno tempore sparso licet esse rariori: nam quae huic pericula
+                    impendent, leviora fere solent esse. Illud vero, quod ante hiemem maxime
+                    praecocem iacitur, oportet esse densius: nam cum plantae iuvenes et imbecilles,
+                    antequam iustam firmitatem ac robur acquisierint,</p>
+        <pb n="32"/>
+        <p>ferendae hiemi pares haud sint, fieri plane consuevit, ut earum plurimae a
+                    frigore occupatae intereant. Quare densior paullo sit satio, ut, aliis intra
+                    terrae sinum emortuis, aliae supersint, quae prodeant, quae fructus ferant.</p>
+      </div>
+      <div>
+        <head>§. VI.</head>
+        <p>In iisdem agris diversi seminis sit diversa raritas aut densitas: Sunt enim
+                    quaedam frumenti species, ut triticum et hordeum, quae se suasque radices latius
+                    explicent pluresque ex uno grano culmos efferant, itaque luxurient. Sunt aliae,
+                    quae intra arctius se spatium contineant neque fecundae adeo ac fertiles sint.
+                    Quid ergo? An eadem utriusque generis semina densitate spargantur? Minime vero.
+                    Illorum satio sit rarior: secus cum eadem alimenti copia aequali, non maiori
+                    culmorum numero alendo sufficiat, seminum fiet dispendium sine segetis uberioris
+                    spe.</p>
+        <pb n="33"/>
+        <note place="bottom">Solent quidem omnes frumenti species, ubi solo valido et pingui committuntur,
+                    se latius propagare; sed nempe aliae prae aliis.</note>
+      </div>
+      <div>
+        <head>§. VII.</head>
+        <p>Eiusdem seminis, at magnitudinis diverso tempore diversae, eodem in agro diversa
+                    non nunquam satio sit. Sane frumenti semina non quovis anno sunt eiusdem
+                    magnitudinis, sed modo maiora, modo minora. Sint minora, ergo parciorem, sint
+                    maiora, ergo largiorem oportet esse sationem.</p>
+        <note place="bottom">Quare opus sane est, ut seminator et soli et temporis et seminis ipsius
+                    rationem habeat. Hanc si habuerit, faciet certe inter seminandum gradus nunc
+                    ampliores, nunc arctiores; nunc minus, nunc plus granorum simul manu prehendet.
+                    Illud si fecerit aut utrumque aut alterutrum, satio erit rarior; si istud,
+                    densior.</note>
+        <note place="bottom">Inde intelligitur quoque seminatores esse oportere neque novos et peregrinos
+                    neque imperitos et negligentes; non novos, quia soli cuiusque indolem ignorant;
+                    non imperitos, quia, quorum inter seminandum artio</note>
+        <pb n="34"/>
+        <p>sit habenda, plane nesciunt; non negligentes, quia, quae sciunt, quaeque scire
+                    possunt, fere negligunt. Opus usu praeterea est; opus exercitatione, eaque non
+                    vulgari et perbrevi, sed egregia et diuturna.</p>
+      </div>
+      <div>
+        <head>§. VIII.</head>
+        <p>Profunditas quoque, ad quam semina intra terram defodiantur, neque sit modica
+                    neque magna admodum; non modica: nam, ut nihil dicam, quod semina ab extima
+                    terrae superficie leviter tecta a tempestatum iniuriis, a caloris et frigoris
+                    acerbitatibus, a ventis item et volucribus patiantur plurimum, inter extimas
+                    illas terrae crustas alimentum inveniunt minus copiosum minusque extenuatum:
+                    unde fit, ut plantae inde ortae non modo graciles et breves fere sint, sed
+                    etiam, uti Illustrissimus D.<persName>Wolfius</persName>in<bibl>Tractatu de Mirabili
+                        Frumenti Multiplicatione</bibl>contendit, paucioribus geniculis ceu gemmis
+                    frugiferis turgeant, quae in</p>
+        <pb n="35"/>
+        <p>totidem deinde culmos et aristas novas exeant. Non magna: nam etsi in
+                    inferioribus terrae stratis succus alimentarius per extimas terrae laxioris
+                    crustas facile transmissus, maiore et copia et praestantia collectus forte sit,
+                    aer tamen penetrare illuc vix potest, sine cuius accessu, uti certis pariter
+                    experimentis compertum est, neque seminis fermentatio neque germinis ortus
+                    succedere feliciter potest.</p>
+        <note place="bottom">Sane Clarissimus D.<persName>du Hamel</persName>in<bibl>Tractatu de Agricultura
+                        Tulliana</bibl>testatur Dominum<persName>Tull</persName>seminum alia ad novem, alia ad sex, alia
+                    denique ad unum alterumve digitos defodisse, eo eventu, ut prima illa per decem
+                    continuos annos mutationis nihil subierint; posteriora, aliquot certe, satis
+                    feliciter creverint; postrema haec omnium optime adoleverint.</note>
+        <note place="bottom">Quod germinum, quorum semina agrorum superficiei fere insperguntur tantum,
+                    radices plus aeris et roris imbibant, et quacunque etiam levissima pluvia
+                    irrigentur, id roboris parum habet: nam plantae aerem, rorem, pluvias etc. non
+                    solis radicibus, sed foliis maxime, ramis, corticibus et integumentis imbibunt
+                    et absorbent.</note>
+        <pb n="36"/>
+        <note place="bottom">Duo maxime insrumenta hanc in rem in usu apud agricolas sunt: aratrum et
+                    occa. Illud terram vertit, laxat, aperit, ut semina germinumque radices
+                    penetrare profundius possint; haec, terra ingesta, semina contegit.</note>
+      </div>
+      <div>
+        <head>§. IX.</head>
+        <p>In diversis agris diversam esse oportet seminis profunditatem. Profecto si solum
+                    laxius fuerit, planta infra superiores terrae crustas neque humoris et alimenti,
+                    quod transmittitur, satis habebit neque in solo satis firmiter consistet, et si
+                    arenosum praeterea sit, arena quovis vento aliorsum devecta, radices germinum et
+                    plantarum denudatae cuivis caeli iniuriae erunt expositae. Contra si densius
+                    illud fuerit magisque constrictum, cuiusmodi argillaceum solet esse, semine ad
+                    maiorem profunditatem defosso, germen per glebam impositam eluctari sursum
+                    difficulter sane poterit, humoris item saepe inopia, non nunquam etiam, ubi</p>
+        <pb n="37"/>
+        <p>ille semel ad interiora pervaserit, copia laborabit.</p>
+      </div>
+      <div>
+        <head>§. X.</head>
+        <p>In iisdem agris diversi seminis diversam oportet esse profunditatem. Sunt semina,
+                    uti triticea, magis voracia suapte natura et sitientia, quaeque ex eodem grano
+                    culmos plures, eosque et altiores et crassiores educant. Sunt alia, uti
+                    avenacea, magis abstemia et sobria, quaeque minus luxurient. Illa, ut succum et
+                    alimentum habeant copiosius radicesque mittere altiores possint, profundius in
+                    terram penetrent. His consistere loco altiore licet.</p>
+        <note place="bottom">Linum, cannabis et milium excipi fere ab hac lege solent, sive quod ad minorem
+                    ultra terram altitudinem sese efferant, sive quod radices per se aut latius
+                    explicent aut terrae profundius immittant.</note>
+        <pb n="38"/>
+      </div>
+      <div>
+        <head>§. XI.</head>
+        <p>In iisdem agris eiusdem seminis, sed diverso tempore sati diversam oportet esse
+                    profunditatem: maiorem, dum verno tempore, minorem, dum in autumno iacitur. Nam
+                    verno tempore laxius fere solet esse solum, succus alimentarius in inferioribus
+                    terrae stratis haeret copiosior, calor item iam profundius penetravit, ut adeo
+                    profundior seminis defossio non innocua modo sit, verum utilis quoque; at in
+                    autumno solum fere frigidius et densius est; semen item altius defossum tardius
+                    exit, ut adeo verendum magnopere sit, ne planta inde enata, uti tenera adhuc et
+                    infirma admodum est, a frigore maturius superveniente occupata intereat.</p>
+        <note place="bottom">Quare agricolam et seminis et soli et temporis habere rationem ex eo etiam
+                    capite oportet, ut sciat, quousque et aratri vomerem et occae dentes immittere
+                    in terram liceat. Universe tamen praestat in agro bene</note>
+        <pb n="39"/>
+        <p>culto sulcos facere exiguos minusque profundos: nam plus fere obest seminis
+                    profunditas iusto maior quam minor.</p>
+      </div>
+      <div>
+        <head>Caput IV. De Sationis Tempore.</head>
+      </div>
+      <div>
+        <head>§. I.</head>
+        <p>Duo potissimum a providentissimo Numine constituta sunt sationis tempora: vernum
+                    alterum, alterum autumnale, idque agricolarum utique totiusque agriculturae
+                    bono. Secus certe si eodem agri omnes tempore essent conserendi, alterutrum
+                    consequi necesse esset, ut aut immensae agrariorum operum uno tempore se
+                    coacervantium moli succumberet non raro laboriosa agricolarum imbecillitas aut
+                    agri etiam optimi necessaria et satione et cultura destituti quovis anno
+                    complures squalerent atque inerti ac vano otio contabescerent. Quare ea</p>
+        <pb n="40"/>
+        <p>quoque diversa diversis seminibus indita natura ac indoles est, ut alia verno,
+                    alia autumnali tempore iaci in terram utiliter atque cum fructu aut possint aut
+                    debeant quoque. De utraque satione, et autumnali et verna, atque de illa quidem
+                    primo, de altera secundo loco breviter et perpaucis agam.</p>
+      </div>
+      <div>
+        <head>§. II.</head>
+        <p>Satio autumnalis neque sit sera neque praecox admodum. Utraque aut damno aut
+                    periculo saltem est obnoxia: illa quidem, quia hieme celerius superveniente
+                    plantae tenerae ita firmari ad illud usque tempus et consolidari nequeunt, ut
+                    hiemem ferant; haec autem, quia eaedem plantae toto illo, eoque diuturniore,
+                    quod sationem inter et hiemem interest, temporis tractu inutilibus fere foliis
+                    et plantis producendis occuptae, deinceps exacta maxime hieme vires</p>
+        <pb n="41"/>
+        <p>haud integras, sed fractas multumque debilitatas ad culmos et aristas et grana,
+                    utiliora utique, educenda adferunt. Accedit, quod autumno humido plantarum
+                    plurimae, immodico humore laedi magnopere et computrescere fere soleant.</p>
+        <note place="bottom">Est tamen satio praematura anteferenda plerumque nimis serae: nam illa
+                    levioribus fere periculis exposita minus incertos habere exitus solet.</note>
+      </div>
+      <div>
+        <head>§. III.</head>
+        <p>Sationis autumnalis tempus sit in diversis agris pariter diversum: nam ut plantae
+                    iustam acquirant firmitatem et soliditatem, longiore tempore opus est in agris
+                    macilentis et frigidis, breviore in calidis et bene habentibus. Sit ergo in
+                    illis satio maturior, in his serior: ita utrobique iam satis valentes plantae et
+                    auctis quodammodo viribus occurrent hiemi.</p>
+        <pb n="42"/>
+      </div>
+      <div>
+        <head>§. IV .</head>
+        <p>Sationis autumnalis tempus sit pro diverso semine pariter diversum. Certe quaedam
+                    semina, uti triticea, sunt tenerioris magisque delicatae naturae; plus
+                    firmitatis, plus item humoris et alimenti exigunt. Contra alia, uti frumentaria,
+                    sunt naturae paullo valentioris, humore et alimento parcius subministrato
+                    contenta sunt. Quare est profecto, cur illa citius, haec tardius solo
+                    inferantur.</p>
+      </div>
+      <div>
+        <head>§. V .</head>
+        <p>Sationis autumnalis tempus sit pro diversa, ad quam Semina intra terram
+                    pertingunt, profunditate pariter diversum. Sint enim quaedam semina altius sub
+                    terra defossa. Tardiores multo ortus habent, ita quidem, ut saepe unius
+                    alteriusve digiti discrimen quatuordecim etiam et amplius dierum moram inducat.
+                    Quare suaserim sane, ut satio eo maturior sit, quo profundior.</p>
+        <pb n="43"/>
+      </div>
+      <div>
+        <head>§. VI.</head>
+        <p>Satio verna fiat aut mature aut sero admodum. Et vero semina verna (paucis
+                    fortasse exceptis) humoris, dum sive oriuntur sive crescunt, aliquanto plus
+                    exigunt: nam siccitate diutius continuata pluviisque raro et parce admodum
+                    delapsis rara solet esse frugum vernarum messis. Quid ergo? Anne eo tempore, quo
+                    terra maxime sitit, isthaec semina conserantur? Sunt autem, opinor, duo maxime
+                    eiusmodi tempora, quibus solum maxime humidum solet esse: alterum est exeunte
+                    Aprili aut ineunte Maio, quo terra omnem illam adhuc humoris et succi
+                    alimentarii copiam continet, quam per hiemem ex nive potissimum ac nebulis
+                    hausit; alterum est medio circiter Iunio, quo e vaporibus iam pridem e terra
+                    elevatis quidem, at eo maxime tempore copiosius collectis atque ex atmosphaera
+                    denuo in terram delapsis</p>
+        <pb n="44"/>
+        <p>magnam rursus et pluviae et roris copiam imbibit. Sit ergo satio aut matura
+                    admodum aut sera. Utrumcunque fuerit, habebit planta succi et humoris plurimum.</p>
+        <note place="bottom">Ob eandem caussam satio maxime verna aut post moderatas pluvias aut nebulas
+                    densiores fiat: nam pluviae nebulaeque terram non modo irrigant, sed multis
+                    praeterea particulis sulfureis, phlogisticis etc. imbuunt, ut adeo inde et
+                    seminis fermentatio et plantarum ortus adceleretur et adiuvetur plurimum.</note>
+      </div>
+      <div>
+        <head>§. VII.</head>
+        <p>Tempus sationis vernae sit in diversis agris similiter diversum. Sunt agri calidi
+                    et frigidi: calidi sive a radiis solaribus illuc citius et copiosius adlapsis
+                    sive ab exhalationibus fermentatione subterranea extricatis; frigidi sive a nive
+                    superficiei aut certis eiusdem partibus diutius inhaerente sive ab aqua intra
+                    terram copiosius collecta. Illi sationem admittunt maturiorem, hi tardiorem.</p>
+        <pb n="45"/>
+        <note place="bottom">Terrae quoque, ex qua agri constant, hac in re habenda ratio est: nam spissior
+                    et calorem et humorem, uti tardius admittit, ita diutius admissum fovet ac
+                    retinet; laxior utrumque cito et concipit et conceptum dimittit.</note>
+      </div>
+      <div>
+        <head>§. VIII.</head>
+        <p>Tempus sationis vernae sit pro diverso semine itidem diversum: nam seminum alia
+                    sunt valentiora frigorisque magis patientia, ut hordeum maius et avena, alia
+                    imbecilliora et caloris quam frigoris amantiora: alia item succi et humoris
+                    plus, alia minus aut exigunt aut ferunt. Quare illa citius, haec serius solo
+                    inferantur: ita solum quaevis nanciscentur sibi suaeque naturae maxime
+                    adcommodatum: illa frigidius et humidius, haec calidius et siccius.</p>
+      </div>
+      <div>
+        <head>§. IX.</head>
+        <p>Iam in eo eram, ut hoc loco et huic capiti et Dissertationi omni finem</p>
+        <pb n="46"/>
+        <p>imponerem, cum nova mihi quaestio in mentem venit, quae huc quoque pertinere visa
+                    est. Quaeritur nempe, utrumne satio seminumque ortus aeque ac plantarum
+                    incrementa a sideribus quoque eorumque situ ac positione pendeant. Atque de Sole
+                    quidem dubitari non potest, cum calore suo, quem quaquaversus diffundit, terram
+                    beet, succum extenuet, fermentationem seminum excitet, plantarum ortus,
+                    incrementa et maturitatem adiuvet. De Luna controversia est. Huic Philosophia
+                    vetus hac in re tribuit omnia; nova nihil aut perparum. At enim in mari aestum
+                    ciet: quidni in atmosphaera quoque? Cieat enimvero. Erit teste Clarissimo D.
+                    Paulo Frisio is aestus oppido exiguus; differentia summae altitudinis erit non
+                    nisi = 1 13/15 ped. Tantula autem differentia quid efficere tandem possit? Erant
+                    tamen et sunt viri quidam eruditissimi, qui pro Luna</p>
+        <pb n="47"/>
+        <p>et dimicarint et dimicent etiamnunc. Inter hos eminent Halleius, Muschenbroekius
+                    et Toaldo astronomus patavinus. Hic observationibus, uti ipse in ea, quam hac de
+                    re scripsit, dissertatione testatur, per quinquaginta annos adcuratissime
+                    institutis invenit denique mutandae in certis Lunae phasibus tempestatis
+                    probabilitatis gradum esse in Novilunio = 6:1; in Plenilunio = 5:1; in
+                    Quadratura prima = 2 ½:1; in Quadratura ultima = 2 ½:1; in Perigaeo = 7:1; in
+                    Apogaeo = 4 ½:1; in Aequinoctio ascendente = 3 ¼:1; in Aequinoctio descendente =
+                    2 ¾:1; in Lunistitio australi = 3:1; in Lunistitio boreali = 2 ¾:1. Observavit
+                    praeterea ex octoginta aquarum eluvionibus quinquaginta et unam accidisse Luna
+                    in Absidibus et Aequinoctio, viginti quinque eadem in Solstitio versante. His
+                    accedunt homines simplices quidem, at hac in re</p>
+        <pb n="48"/>
+        <p>fortisan non omni fide indigni, rustici, pastores, nautae, olitores aliique et
+                    Lunae et tempestatum observatores eo diligentiores, quo caeli sibi suisque
+                    laboribus faventis magis indigentes. Nempe datur fortasse inter Lunae situm et
+                    tempestatum mutationes nexus quidam, quantumvis adhuc incognitus.</p>
+        <pb n="49"/>
+      </div>
+      <div>
+        <head>Positiones ex Physica Generali.</head>
+        <p>I. Physica ceu scientia rerum naturalium corpora potissimum sive totalia sive
+                    particularia eorumque multiplices affectiones et phaenomena contemplatur. Sunt
+                    autem corpora, prouti primo concipiuntur, substantiae impenetrabiles, extensae,
+                    divisibiles, mobiles et inertes.</p>
+        <p>II. Motus simplex oritur ab unica, compositus a pluribus viribus in idem corpus
+                    agentibus; quarum directiones si versus eamdem plagam tendant, corpus movetur vi
+                    aequali summae virium componentium; si sibi oppositae sint, aut quiescit aut
+                    movetur directione fortioris cum celeritate differentiae virium aequali; si sub
+                    certo angulo conspirent, describit diagonalem.</p>
+        <p>III. Motus aequabilis est, si corpori moto eadem usque celeritas insit;
+                    adceleratus vel retardatus, si eadem usque augeatur vel imminuatur.</p>
+        <pb n="50"/>
+        <p>IV. In motu aequabili celeritates sunt in ratione directa spatiorum et inversa
+                    temporum; spatia in ratione composita celeritatum et temporum; tempora in
+                    ratione directa spatiorum et inversa celeritatum.</p>
+        <p>V. In motu uniformiter adcelerato vel retardato crescunt aut decrescunt
+                    celeritates, ut tempora; spatia ab initio motus computata, ut quadrata temporum
+                    vel celeritatum; spatia seorsim accepta, ut numeri impares. Sunt item spatia
+                    utroque motu percursa dimidia illius, quod eodem tempore, motu aequabili, cum
+                    celeritate aut finali aut initiali conficeretur.</p>
+        <p>VI. Ad motum uniformiter adceleratum pertinet motus per plana inclinata; in quo
+                    vis corporis eiusmodi plano impositi absoluta est ad pressionem in planum, uti
+                    longitudo ad basin plani; ad vim comparativam, qua per planum nititur
+                    descendere, uti longitudo ad altitudinem plani. Celeritas tamen in descensu,
+                    sive is per longitudinem sive altitudinem fiat, eadem acquiritur: id, quod etiam
+                    tunc obtinet, quando descensus fit per curvam continuam.</p>
+        <p>VII. In quavis corporum actione datur reactio aequalis et contraria actioni.
+                    Quare si corpora non elastica in se directe incurrant, celeritas communis post
+                    conflictum est ut summa vel differentia quantitatum motus ante conflictum divisa
+                    per summam massarum; si perfecte elastica, effectus duplus est illius, qui
+                    absente elaterio obtinet.</p>
+        <pb n="51"/>
+        <p>VIII. Dum corpus in planum immotum oblique incedit, vel neutrum est elasticum vel
+                    alterutrum perfecte elasticum et alterutrum perfecte durum? Si primum: corpus
+                    progreditur post conflictum directione ad planum parallela cum velocitate, quae
+                    sit ad priorem, uti cosinus anguli incidentiae ad radium; si alterum:
+                    reflectitur ita, ut angulus reflexionis sit aequalis angulo incidentiae.</p>
+        <p>IX. Motus rectilineus est, quo corpus linea recta, curvilineus, quo linea curva
+                    promovetur.</p>
+        <p>X. Ut corpus motu suo lineam curvam describat, non sufficit, ut duae vires
+                    sub angulo quodam conspirent, sed opus quoque est, ut vires ipsae sint diversi
+                    generis: quarum inter se ratio cum diversissima possit esse, species quoque
+                    curvarum hisce viribus descriptarum possunt esse diversissimae.</p>
+        <p>XI. Dum corpus duabus viribus impellitur, quarum altera motum aequabilem, altera
+                    uniformiter adceleratum producat simulque directionibus parallelis agat,
+                    describitur Parabola.</p>
+        <p>XII. Pendulum circa punctum fixum oscillans describit arcum circuli: ubi cum
+                    descensus fiat per vim comparativam, eaque in quovis arcus puncto sit ad
+                    absolutam, uti sinus anguli elevationis ad radium, motus non est uniformiter
+                    adceleratus. Est tamen, uti ex theoria Cycloidis ostenditur, per exiguos arcus
+                    circuli</p>
+        <pb n="52"/>
+        <p>isochronus et durationes oscillationum sunt in ratione subduplicata directa
+                    longitudinis pendulorum et reciproca gravitatis: ex quo colligitur, quomodo
+                    gravitas in diversis terrae locis diversa inveniri per pendula potuerit, cum
+                    gravitates in pendulis quidem isochronis sint, ut pendulorum longitudines;
+                    stante autem eadem pendulorum longitudine, ut quadrata numeri oscillationem.</p>
+        <p>XIII. Si corpus impellatur duplici vi, quarum altera adceleratrix corpus versus
+                    centrum quoddam urgeat, altera idem quavis alia directione motu aequabili
+                    provehat, illud circa hoc in curva revolvitur, ita quidem, ut radius vector
+                    describat areas temporibus proportionales et celeritas in quovis orbitae puncto
+                    sit in ratione reciproca perpendiculi ex centro virium in tangentem demissi.</p>
+        <p>XIV. Si corpus in Ellipsi revolvatur, vis centripeta, mutatis distantiis, mutatur
+                    crescitque in distantia minore a centro virium, quod in alterutro focorum sit;
+                    decrescit in maiore estque in ratione reciproca duplicata distantiarum ab eodem
+                    centro virium. Ipsa vis tangentialis quoque mutatur: nam ubi radius vector cum
+                    tangente efficit angulum acutum, adceleratur; ubi angulum obtusum format,
+                    retardatur: at neque adceleratio neque retardatio est uniformis et constans.</p>
+        <pb n="53"/>
+        <p>XV. Quodvis corpus perseverat in suo statu quietis vel motus uniformis in
+                    directum, donec actione alterius immutare suum statum cogatur.</p>
+        <p>XVI. Si diversis in vecte punctis adplicentur tres potentiae ita comparatae, ut
+                    vis ex duabus composita sit vi tertiae aequalis et directe opposita, datur quies
+                    respectiva seu aequilibrium, sique ex quovis in directione unius e tribus
+                    potentiis accepto puncto perpendicula ad directiones reliquarum demittantur,
+                    sunt binae reliquae potentiae in ratione horum perpendie lorum reciproca
+                    daturque aequilibrium, si pondera inaequalia, hinc et illinc adpensa et
+                    distantiae ponderum a fulcro reciprocent.</p>
+        <p>XVII. In quovis systemate punctorum in se mutuo agentium datur centrum
+                    aequilibrii vel gravitatis, idque unicum, in quo totum systema concipi collectum
+                    potest.</p>
+        <p>XVIII. Atque ex his principiis deducuntur ea, quae pertinent ad aequilibrium in
+                    variis vectibus, in libra, statera, axe peritrochii, trochlea, plano inclinato,
+                    cochlea et cuneo. At enim in usu machinarum etiam motus et impedimenta motus,
+                    quorum praecipuum est frictio, adtendi perinde debent.</p>
+        <p>XIX. Elementa corporum sunt simplicia vi motrice atque adeo activa praedita; qua
+                    pro certa distantiarum lege motum producunt, non in se quidem ipsis, sed in
+                    aliis.</p>
+        <pb n="54"/>
+        <p>XX. In distantiis omnino minimis agere vires repellentes colligitur ex vi, qua
+                    corpora omnia ulteriori compressioni secundum omnem directionem resistunt; item
+                    ex impenetrabilitate et extensione corporum.</p>
+        <p>XXI. Vis adtractiva specialis probatur ex cohaesione corporum; ex operationibus
+                    chemicis, uti ex solutione, praecipitatione, crystallisatione et
+                    fermentationibus; item ex ascensu fluidorum intra tubulos capillares aliisque
+                    phaenomenis analogis.</p>
+        <p>XXII. Vis demum adtractiva generalis seu gravitas omnium corporum mutua et agens
+                    in ratione directa massarum et reciproca duplicata distantiarum infertur ex motu
+                    planetarum eorumque perturbationibus.</p>
+        <p>XXIII. Planetae sunt corpora mundo coaeva, opaca, a Sole illustrata, circa quem
+                    una cum satellitibus suis in orbitis proxime ellipticis rotantur. Ad planetas
+                    Cometae quoque pertinent, quorum caudae probabilius ex vaporibus per
+                    atmosphaeram solarem elevatis oriuntur.</p>
+        <p>XXIV. Sol et stellae fixae sunt corpora lucida et maximam partem inflammata.
+                    Solis maculae quaedam ab ipsius superficie absunt, quaedam eidem adhaerent:
+                    illae verosimilius sunt fuligines et exhalationes corporis solaris, hae partes
+                    fluido igneo destituae. Lumen Zodiacale probabiliter est ipsa solis
+                    atmosphaera</p>
+        <pb n="55"/>
+        <p>circa polos compressa et ad aequatorem expansa.</p>
+        <p>XXV. Eclipsis Lunae et Satellitum contingit, quando illa per umbram a terra, hi a
+                    primariis proiectam transeunt: contra eclipsis terrae datur, quando Luna,
+                    Mercurio aut Venere Solem inter et terram interpositis quidam terrae tractus
+                    umbra ab iis proiecta involvitur.</p>
+        <p>XXVI. Ex vi adtractiva generali et prima proiectili intelligitur ratio physica
+                    motus planetarum circa Solem, Satellitum circa primarios: item rotatio et Solis
+                    et Planetarum circa axes.</p>
+        <p>XXVII. Cum gravitate universali non nisi systema terrae motae convenit indeque
+                    explicatum habent gravitatis in diversis terrae locis anomaliae; eius figura ad
+                    polos compressa et ad aequatorem prominens; aestus denique marini phaenomena
+                    regularia: nam anomala a vario locorum situ et habitudine pendent.</p>
+        <pb n="56"/>
+      </div>
+      <div>
+        <head>Ex Physica Particulari.</head>
+        <p>XXVIII. Aqua est corpus fluidum, diaphanum, modicae compressionis capax, multa
+                    corpora dissolvens, saporis omnis et odoris per se expers, pluribus partibus
+                    heterogeneis plerumque mixtum.</p>
+        <p>XXIX. Et fluiditas quidem aquae aliorumque fluidorum similium habetur praecipue a
+                    materia ignea interlubente: hac magnam partem expulsa, particulae per vires suas
+                    adtractivas ad certos angulos in massam solidam seu glaciem abeunt.</p>
+        <p>XXX. Solutio aquae in vapores, horum elevatio et sustentatio verosimiliter per
+                    vim aeris menstruam explicatur: solutio autem tunc primum consequitur, ubi ea,
+                    quae inter particulas aqueas est, vis adtractiva per calorem fuerit imminuta.</p>
+        <p>XXXI. Vaporum aqueorum ingens est vis expansiva, quae cum a vi elastica ipsius
+                    aquae, tum a vi expansiva materiae igneae et aereae proficiscitur.</p>
+        <pb n="57"/>
+        <p>XXXII. Pressio aquae aliorumque fluidorum similium homogeneorum est in ratione
+                    altitudinis et propagatur in omnem partem.</p>
+        <p>XXXIIII. Pressio in fundum horizontalem est in ratione composita gravitatis
+                    specificae fluidi, basis et altitudinis. Quare in tubis communicantibus non
+                    admodum angustis datur aequilibrium, quando aut fluidorum homogeneorum eaedem
+                    utrinque sunt altitudines aut heterogeneorum altitudines cum gravitatibus
+                    specificis reciprocant.</p>
+        <p>XXXIV. Solidum fluido immersum tantum sui ponderis amittit, quantum est pondus
+                    fluidi loco trusi; mergitur autem eo usque, dum volumen fluidi extrusi pondere
+                    aequet pondus totius solidi. Inde deducitur methodus determinandi gravitates
+                    corporum specificas et merces naufragas ex aquis adtollendi etc.</p>
+        <p>XXXV. Quo minus fluidorum e foramine vasis constanter pleni erumpentium quantitas
+                    sit exacte in ratione simplici foraminis ac temporis et subduplicata
+                    altitudinum; item quo minus iactus aut horizontalis describat parabolam aut
+                    verticalis ad eamdem, ad quam aqua intra vas consistit, altitudinem pertingat,
+                    obstant varia impedimenta.</p>
+        <p>XXXVI. Motus quoque in aqua aliisque fluidis propagatur in omnem partem, et si
+                    illa in obstaculum verticale incurrant, reflectuntur.</p>
+        <pb n="58"/>
+        <p>XXXVII. Aer est corpus valde subtile, pellucidum, grave, elasticum, variorum
+                    corporum exhalationes, a quibus tamen ipse distinguitur, in se continens, in
+                    omnibus corporibus praesens totamque tellurem ad insignem altitudinem ambiens.</p>
+        <p>XXXVIIII. Ex variis particulis cum aere elementari et fluido igneo coniunctis
+                    videntur proficisci variae affectiones aeris phlogistici, dephlogistici, fixi,
+                    nitrosi et inflammabilis.</p>
+        <p>XXXIX. Ascensus mercurii in barometro, ascensus fluidorum in siphonibus et
+                    antliis sugentibus, cohaesio hemisphaeriorum per pressionem potissimum aut
+                    elasticitatem aeris explicantur. Ex observationibus barometri et thermometri
+                    diutius institutis inveniri circiter differentia altitudinis duorum locorum
+                    potest.</p>
+        <p>XL. Ventus oritur ex turbato vehementius aeris aequilibrio; id, quod non solum
+                    per calorem et frigus ac vapores aqueos, sed etiam per aerem vel a corporibus
+                    terrestribus productum vel absorptum fieri potest.</p>
+        <p>XLI. Sonus praecipue per aerem propagatur: consistit autem sonus primitivus in
+                    celerrimis oscillationibus partium corporis sonori; differentia soni acuti et
+                    gravis pendet a numero vibrationum dato tempore factarum, qui in chordis
+                    homogeneis rationem directam</p>
+        <pb n="59"/>
+        <p>subduplicatam ponderis tendentis et reciprocam compositam longitudinis et
+                    diametri chordarum sequitur; differentia denique soni intensi et remissi ab
+                    amplitudine singularum vibrationum repetitur. Explicatur hoc loco vocis humanae
+                    formatio.</p>
+        <p>XLII. Aer a corpore sonoro concitatus oscillationes seu undas concipit ipsis
+                    oscillationibus corporis sonori analogas: unde propagatio cuiuscunque soni per
+                    aerem eiusque reflexio et augmentum in tubis acusticis et stentoreis explicatur.</p>
+        <p>XLIII. Organum auditus praecipuum videntur esse fibrae laminae spiralis tanquam
+                    nervi acustici propagines.</p>
+        <p>XLIV. In quovis fere corpore datur motus quidam intestinus, quo varia effluvia ex
+                    corpore eiiciuntur, quae si a particulis salium volatilium et sulfureis inter se
+                    coniunctis constent et ad organum odoratus, quod praecipue membrana pituitaria
+                    videtur esse, cum inspiratione adtrahantur, efficere sensationem odoris solent.</p>
+        <p>XLV. Datur fluidum quoque igneum subtilissimum, summe elasticum, sine quo
+                    phaenomena caloris et ignis, ut expansio corporum, origo, communicatio caloris
+                    etc., explicari nequeunt.</p>
+        <p>XLVI. Phlogiston seu materia inflammabilis est compositum, cuius pars altera
+                    ignis</p>
+        <pb n="60"/>
+        <p>est, altera particulae quaedam aliae, quae ignem sua adtractione absorbeant et
+                    vinciant. Ut igitur corpus inflammetur, materia illius inflammabilis converti in
+                    vapores ac resolvi in sua principia debet, ad quod novus usque aer instar
+                    menstrui requiritur: inde explicatur flammae intensitas et extinctio, color item
+                    et sonus, fusio quoque, candefactio, calcinatio et vitrificatio.</p>
+        <p>XLVII. Lux ex quovis puncto lucido propagatur proxime per lineas rectas, nisi ab
+                    obstaculo detorqueatur; propagatur item successive, motu aequabili; et stupenda
+                    celeritate aeque ac subtilitate. Intensitas luminis decrescit in ratione
+                    reciproca duplicata distantiarum a puncto lucido.</p>
+        <p>XLVIII. Lumen est tenuissimum effluvium corporum lucentium, quodque a materia,
+                    quae calorem efficit, non differat. Refractio, reflexio et diffractio luminis,
+                    opacitas item vel diaphaneitas corporum pendent a diversis viribus, quas varia
+                    media in particulas luminis exserunt.</p>
+        <p>XLIX. Quivis albus lucis radius componitur ex innumeris aliis diversam, eamque
+                    constantem refrangibilitatem et colorem habentibus. Colores nativi corporum
+                    pendeat a subtilissimis eorum lamellis in superficie dispositis, quae pro varia
+                    sua crassitie certi coloris radios copiosius reflectunt, reliquis potissimum
+                    absorptis.</p>
+        <pb n="61"/>
+        <p>L. Magnitudo adparens aestimata obiectorum pendet ab angulo optico; a distantia
+                    adparante obiecti ab oculo; ab obscuritate, qua aspectui nostro exponitur; a
+                    numero diversorum obiectorum, quae oculum inter et obiectum interesse videmus;
+                    demum ab ipsa experientia, quam de vera obiecti magnitudine et distantia
+                    habemus.</p>
+        <p>LI. Visionis organum praecipuum videtur esse Retina. Claritas visionis pendet a
+                    numero radiorum, quibus obiecti quaelibet pars in oculo depingitur; distinctio
+                    autem et a sensibili angulo optico et a radiorum ab eodem obiecti puncto
+                    venientium in eadem retinae parte collectione: inde declarantur vitia oculorum
+                    et usus perspicillorum.</p>
+        <p>LII. Exponuntur leges reflexionis in speculis concavis, planis, convexis,
+                    cylindricis, parabolicis et ellipiticis; leges item refractionis in lentibus
+                    concavis et convexis.</p>
+        <p>LIII. Phaenomena electrica pendent a turbato aequilibrio et inflammatione fluidi
+                    electrici ceu materiae cuiusdam inflammabilis maximeque elasticae. Electricitas
+                    duplex est, positiva nempe et negativa. Corpora electricitatis homologae se fere
+                    repellunt, electricitatis contrariae se adtrahunt. Corpus in atmosphaera
+                    alterius positum acquirit electricitatem contrariam: inde explicatum habent
+                    phaenomena electrophori vulgaris et aerei.</p>
+        <pb n="62"/>
+        <p>LIV. Laminae aut lagenae vitreae, dum onerantur, in faciebus oppositis acquirunt
+                    electricitates contrarias aequali fere gradu; dum autem exonerantur, fluidum
+                    electricum per viam minimae resistentiae a facie positiva ad negativam abit:
+                    inde declarantur phaenomena concussionis electricae, lusus campanularum et
+                    turmalini.</p>
+        <p>LV. Meteora aquea sunt nebulae, nubes, ros, pruina, nix, grando, quae a vaporibus
+                    ab aere frigefacto dimissis et praecipitatis oriuntur.</p>
+        <p>LVI. Meteora lucida sunt Iris, Halo, Parhelion, Paraselene et Aurora borealis,
+                    quae oriuntur potissimum a refractione et reflexione luminis in guttulis aqueis
+                    et vaporibus, etiam, uti in aurora boreali etc., conglaciatis.</p>
+        <p>LVII. Meteora ignea sunt coruscationes, fulgura, fulmina, tonitrua, quae ab
+                    electricitate atmophaerae naturali proficiscuntur; item ignes fatui, stellae
+                    cadentes, bolides etc., quae eatenus ab electricitate naturali produci possunt,
+                    quatenus vapores inflammabiles per eam adcenduntur. Cum eadem electricitate
+                    exhydriae quoque et grando saepe connecti videntur.</p>
+        <p>LVIII. Origo fontium ac fluminum a pluviis, nivibus aliisque aquis ex atmosphaera
+                    deciduis repetenda est.</p>
+        <pb n="63"/>
+        <p>LIX. Calor et inflammatio subterranea, quae non raro datur, oriri potissimum
+                    videtur ex fermentatione acidorum cum sulfureis, ubi ab aqua accedente subtilius
+                    solvuntur et aer liberiorem illuc accessum invenit: inde explicantur phaenomena
+                    montium ignivomorum, terrae motuum, thermarum et acidularum, camporum et aquarum
+                    ardentium, aurae et ventorum subterraneorum etc.</p>
+        <p>LX. Montes originarii cum ipso mundo conditi sunt; reliqui potissimum ex aquarum
+                    eluvionibus probabiliter coaluerunt.</p>
+        <p>LXI. Quaevis ferri particula videtur esse magnes habetque polum borealem et
+                    australem. Quodsi ergo magnetem intra terram ab austro versus boream fere
+                    positum ferrique particulas subtilissimas ubique diffusas esse admittatur,
+                    phaenomena magnetis non inverosimiliter explicantur; mutationes autem in
+                    declinatione et inclinatione probabilius a fermentationibus fossilibus oriuntur.</p>
+        <p>Finis.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

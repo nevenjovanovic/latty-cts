@@ -1,0 +1,575 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc xml:id="winepacher-m-historia">
+      <titleStmt>
+        <title>Historia Mariae a solatio dictae, quae in vineis Maisensibus dolorosa Christiano populo est propitia, versio electronica</title>
+        <author key="winepacher01">
+          <name xml:lang="dt">Winepacher, Michael</name>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Clementina Marsico</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>19 paginae</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>Historia Mariae a solatio dictae, quae in vineis Maisensibus dolorosa Christiano populo est propitia</title>
+            <imprint>
+              <pubPlace>Augsburg</pubPlace>
+              <date when="1729">1729</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>TLMF, Dip. 467/1</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1729">1729</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens (1773)</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Dichtung</term>
+          <term>Epos</term>
+          <term>Marienepos</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>corrected teiHeader and body<date>2015-09-29</date>
+        <name>Johanna Luggin</name>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:latty:winepacher01.latty2783989.latty-lat1:">
+    <body>
+      <div>
+        <head>Antiquis eruta ex litteris historia Mariae a solatio dictae, quae in Vineis
+                Maisensibus dolorosa christiano populo est propitia. Cum permissu superiorum.</head>
+      </div>
+      <div>
+        <pb n="2"/>
+        <p>Reverendissimo perillustri ac amplissimo domino domino Augustino, sac. ord.
+                cisterc. caesario-archiducalis ex exempti monasterii ad sanctum Joannem Baptistam in
+                Stambs abbati vigilantissimo, sac. ceas. et reg. cathol. maiest. et caetera et
+                caetera consiliario ac Sacellano nato, statuum provincialium deputato, ac Steyrarum
+                comrpomissario domino domino perquam gratioso, et caetera et caetera ad anniversaria
+                Diei onomastici solennia submississime D.D.D.</p>
+      </div>
+      <div>
+        <lg>
+          <pb n="3"/>
+          <l>Eja! Dolorosae celebra primordia maris</l>
+          <l>Dulcisona mea musa chely! Quibus ante quaterna</l>
+          <l>Secula Maiensis iamiam feliciter agros</l>
+          <l>Haec sacra divinae consolatricis imago,</l>
+          <l>Non secus, ac roseo sol immustrissimus ortu,</l>
+          <l>Consolabatur. Tragicis incede cothurnis</l>
+          <l>Subiungens miserum Diva (lachrumabile fatum!)</l>
+          <l>Iconis occasum: querulo fera tempora plectro</l>
+          <l>Exprime, virgineoque diu sine lumine noctis</l>
+          <l>Protractae tenebras funesto carmine deste!</l>
+          <l>Ast demum posito luctu, lachrymisque fugatis</l>
+          <l>Exhilara faciem! Redivivam denuo lucem,</l>
+          <l>(Virginis effigiem) cunctae nova gaudia plebis</l>
+          <l>Et magnos matris meliori sorte favores</l>
+          <l>Applausu percurre novo! Cane laeta triumphum,</l>
+          <l>Virgineique throni nitidum, rarumque decorem,</l>
+          <l>Quo sacram nuper statuam iubilando locabanr,</l>
+          <l>Quantum musa potes, condignis laudibus aqua!</l>
+          <l>Iam vos o superi, coelestia numina, coeptis</l>
+          <l>Quaeso, favete meis! Tenuemque beare laborem!</l>
+          <l>Praecipue pulchri pulcherrima mater amoris</l>
+          <l>Virgo Marta! Dei genitrix sine labe creata!</l>
+          <l>Praecipue mea musa tibi, sanctissima Pallas!</l>
+          <l>Supplicat, auxiliatricem prece supplice dextram,</l>
+          <l>Maternamque implorat opem: succurre potenti!</l>
+          <l>
+            <gap reason="illegible"/>tuo scribet, canet, et sacrabit honori,</l>
+          <l>Suscipe propitio superum regina favore!</l>
+          <pb n="4"/>
+          <l>Virgineo a partu laeta haec cum flux erat aetas,</l>
+          <l>Principium solenne fuit, quo matris imago</l>
+          <l>Ista dolorosae, quo fausto nescio casu,</l>
+          <l>His subsedit agris. Sic nempe Maria colonos</l>
+          <l>Mienses, sic ipse Deus dilexit in aevum.</l>
+          <l>O terra! Aeternis merito dignissima fastis!</l>
+          <l>Cui soli placidae diva haec aurora salutis</l>
+          <l>Extorta est, mitem secum quae traxit Iesum</l>
+          <l>Iustitiae solem: quippe hac in imagine iunctim</l>
+          <l>In gremio matris residet sapientia patris.</l>
+          <l>Exulta! Iubila! Gaude! Laetare! Triumpha</l>
+          <l>Nunc Maiense solum! Nec enim, nisi gaudia pacis</l>
+          <l>Ista tibi fert sacra dies! En dulcis imago</l>
+          <l>Aeterno superum tibi designata favore</l>
+          <l>Consolatricem, matrem, magnamque patronam</l>
+          <l>Exhibet; ignitis propera te sistere votis</l>
+          <l>Huic tantae dominae! Lunato poplite natum,</l>
+          <l>Virgineamque pari cultu venerare parentem</l>
+          <l>Et sic auroram iubilans cum sole saluta!</l>
+          <l>Nec mora: quotquot erant huius felicia terrae</l>
+          <l>Germina, virginei vixdum recreata sereno</l>
+          <l>Sideris aspectu, socio sua gaudia plausu,</l>
+          <l>Et positis genibus condignos laudis honores</l>
+          <l>Signabant, natique simul, matrisque sacratae</l>
+          <l>Ante pedese, teneri pangendo carmen amoris,</l>
+          <l>Exortos lucis radios sine fine futuros,</l>
+          <l>Et gemino semper sese splendore putabant</l>
+          <l>Illustranda. Sed o vanas, multumque caducas</l>
+          <l>Spes hominum! Quam saepe bono frustrantur in ortu!</l>
+          <l>Vix quater in decimum sol se convolverat orbem,</l>
+          <l>En! Sic permittente Deo (miserabile visu)</l>
+          <l>Tempestas male sana furit, ruit arduus aether,</l>
+          <l>Horisonisque feri Boreae comitata procellis</l>
+          <pb n="5"/>
+          <l>Squallida nox nostrae amorae, solique cruentum</l>
+          <l>Occasum, excidiumque parat: Maiensia rura</l>
+          <l>Purpureoque simul vineta decora rubore</l>
+          <l>Cum templo magnae matris vastantibus undis</l>
+          <l>Victa, gemunt, maestoque cadunt collapsa sepulchro</l>
+          <l>Pro dolor! O superi! Quae tantam plangere stragem</l>
+          <l>Condigne nunc Musa queat? Decor omnis in unum</l>
+          <l>Coniectus tumulum: dolet heu! Sine lumine matris</l>
+          <l>Nunc Mais in tenebris: et quod super omne ruinam</l>
+          <l>Luctumque accumulat, modo perdita dulcis imago,</l>
+          <l>Et vastata iacet! Verum hic o sola iaceret!</l>
+          <l>Saevarum (timeo) forsan violentus aquarum</l>
+          <l>Impetus ignotas procul inde abstraxit in oras</l>
+          <l>Virginis hanc statuam, quondam commune levamen.</l>
+          <l>O Deus! Alme Deus! Placido pius aspice vultu</l>
+          <l>Singultus, lachrymas, planctus, lamenta, querelas</l>
+          <l>Afflicti populi! Quin redde petentibus almam</l>
+          <l>Effigiem! Miserosque iterum solare pupillos!</l>
+          <l>Sed frustra: superas quoties mittuntur ad aedes,</l>
+          <l>Irrita vota volant. Centum tenebrosa per annos</l>
+          <l>Iamiam nox erat, aurora cum sole sepulta.</l>
+          <l>Increscunt gemitus iterum, vibrantur in altum</l>
+          <l>Assiduae, pia tela, preces, iterumque relapsae</l>
+          <l>Sed sine vi redeunt. Iterum renovaverat annos</l>
+          <l>Interea centum Tita, sed semper, ut ante,</l>
+          <l>Virginea sine luce, sacri sine lumine solis.</l>
+          <l>Filia maesta Sion! O Mais! Quid denique sani</l>
+          <l>Consilii capies? Num sic tibi semper in aevum</l>
+          <l>Lugendum in tenebris? Animum generosa resume!</l>
+          <l>Ingemina voces, coniunctis viribus omnes</l>
+          <l>Expugna superos! Quid? Forte precatio coelum</l>
+          <l>Importuna, tuis coget subscribere votis.</l>
+          <pb n="6"/>
+          <l>Et dictum, et factum est: tandem post saecula bina,</l>
+          <l>Et prope lustra decem, tristissima noctis imago</l>
+          <l>Solvitur, his expulsa plagis: post nubila Phoebus</l>
+          <l>Gratior, et cunctas magis expectatus in horas</l>
+          <l>Maisenses redivivus, agros illustrat, et ornat.</l>
+          <l>Sic repetita placent, sic tandem vota triumphant.</l>
+          <l>Nempe ubi sacratae renovantur virginis aedes,</l>
+          <l>Et strie longaeva lapidum circumundique felix</l>
+          <l>Expurgatur humus: thesaurus protinus ecce!</l>
+          <l>Maisicolis cuncto longe pretiosior auro</l>
+          <l>Panditur, effigies intactae matris, aquarum</l>
+          <l>Illuvie prostrata quidem, misereque sepulta,</l>
+          <l>Nec tamen asporta loco, quae tempore tanto</l>
+          <l>(Prodigium nunc narro novum) tantisque sub umbris</l>
+          <l>Abdita, et innumeris prope sirdibus obruta, rursus</l>
+          <l>Nunc pulchra, atque statu nihil immutata priore</l>
+          <l>E tumulo surgit: solidi viget integra ligni</l>
+          <l>Materies, rident etiamnum rite colores</l>
+          <l>Nativi, sacraeque prior stat forma figurae.</l>
+          <l>Currite nunc lachrymae! Lachrymae, quae gaudia cordis</l>
+          <l>Eliciant, vestri meritum date pignus amoris</l>
+          <l>Virgineae matri! Dignas persolvite grates</l>
+          <l>Vos o Maisicolae! Magnae, rursumque receptae</l>
+          <l>Consolatrici, vestrae quae viscera terrae</l>
+          <l>Tam longo annorum spatio, sine labe, quiete</l>
+          <l>Hactenus incoluit, maternum ut monstret amorem,</l>
+          <l>Utque suos, ignota licet, patrona clientes</l>
+          <l>Protegat, et duro quondam revelanda sepulchro</l>
+          <l>Immensam fulgore novo transfudat in omnes</l>
+          <l>Laetitiam, famulaeque ferat sacra gaudia plebi.</l>
+          <l>O igitur resonas validis clamoribus auras,</l>
+          <l>Nunc mea musa reple! Cunctos affare precando:</l>
+          <pb n="7"/>
+          <l>Quisquis habes patrios Maiensi in rure penates,</l>
+          <l>Insolitis laetare modis! Iacet impia noctis</l>
+          <l>Sat longae rabies, iterum clarescere vobis</l>
+          <l>Incipit alma dies: divina aurora refulget,</l>
+          <l>Et sol iustitiae Iesus tua denuo tecta</l>
+          <l>Luce nova recreat, radiisque micantibus agros.</l>
+          <l>Sed tibi nunc asceterium Stambsense Mariae</l>
+          <l>Delicium! Magni Bernardi Candida sedes!</l>
+          <l>Oenanae quoque vallis honos! Nostraeque Tyrolis</l>
+          <l>Immortale decus! Famosum, et dulce viretum!</l>
+          <l>In quo percelebres virtus cum Pallade flores</l>
+          <l>Semper habet: tibi prae reliquis nunc matre recepta</l>
+          <l>Illuxit festiva dies: ecclesia quippe</l>
+          <l>Maiensis iam longa tuae per tempora curae</l>
+          <l>Demandata manet: sacro tua pignora plausu</l>
+          <l>Bartholomaeus agat Parochus, cognomine Winter!</l>
+          <l>Hic vir, hic est, magni pridem iam nominis, unus</l>
+          <l>Stambsensi e gremio, cuius vigilantia, virtus,</l>
+          <l>Consilium, labor, et pietas (sic scripta fatetur</l>
+          <l>Littera) digna fuit, pretiosam virginis almae</l>
+          <l>Effigiem reperire iterum, tumulique levatam</l>
+          <l>E tenebris, ad communem proponere cultum.</l>
+          <l>Successit quoque cura viri: nam pristina plebis</l>
+          <l>Erga virgineam crevit veneratio matrem</l>
+          <l>Iam magis, atque magis: teneros hic pastor amores</l>
+          <l>Restituit, certumque suo sic fecti asylum</l>
+          <l>Pro grege, mirificam qui supplex ante figuram</l>
+          <l>Rebus in adversis semper coeleste levamen</l>
+          <l>Expertus, placida nunquam nisi mente recessit.</l>
+          <l>Propitiis posthaec radiis venerabilis icon,</l>
+          <l>Ceu sol, exstructa noviter fulgebat in aede</l>
+          <pb n="8"/>
+          <l>Annis plus centum, modico sub fornice, pone</l>
+          <l>Aram maiorem, donec numerosus ab omni</l>
+          <l>Finitima regione magis concursus in horas</l>
+          <l>Increvit, tandemque prior, meliore suborto</l>
+          <l>Tempore, tam magnae dominae nimis abdita sedes</l>
+          <l>Mutata, et solium fuerat regale paratum.</l>
+          <l>Annus laetitiae fuerat, celebrandus in aevum,</l>
+          <l>Quo tantum bene coepit opus. Si quaerere primum</l>
+          <l>Fors places auctorem, quo clarus nomine? Dicam:</l>
+          <l>Augustinus erat, proavorum a stemmate Castner</l>
+          <l>Si spectes natale solum: flos inclytus urbis</l>
+          <l>Oenipontanae: si propria nomina vitae</l>
+          <l>Bernardi e sociis, e fratribus altior unus</l>
+          <l>Abbast Stambsensis, merito quem tota Tyrolis</l>
+          <l>Suspicit, in cuius sacrato vertice mitra</l>
+          <l>Iamiam per tria lustra nitet; cui numen ab alto</l>
+          <l>Pastorale pedum seros concessit in annos;</l>
+          <l>Qui modo virutum miro splendore suarum,</l>
+          <l>Caetera flammivomos velut inter sidera Titan,</l>
+          <l>Eminet; innumeris cuius quoque laudibus impar</l>
+          <l>Ipsa Minerva foret, nec sat cantaret Apollo.</l>
+          <l>Hic igitur tanti, pridemque ad sidera noti</l>
+          <l>Nominis antistes, magnae sine labe parenti</l>
+          <l>Ut dignas ageret memori de pectore grates</l>
+          <l>Pro variis in se meritis, Maisensia quando</l>
+          <l>Pascua pervigilans animarum pastor obibat,</l>
+          <l>Hancce dolorosa melius producere matris</l>
+          <l>Effigiem sancte statuit, celebrique triumpho</l>
+          <l>Protinus in prima deponere dignius ara.</l>
+          <l>Nec mora quo citius fiant, dat iussa Iacobo</l>
+          <l>Millbeck, Stambsensi qui clara valle sacratus</l>
+          <l>Prodiit huc Parochus, Pylios vir dignus in annos</l>
+          <pb n="9"/>
+          <l>Vivere, et aeterno superum gaudere favore!</l>
+          <l>Hic Augustini imperium iubilando secutus</l>
+          <l>Aggreditur bonus actor opus, noctesque, diesque</l>
+          <l>Ille triumphali ter magnae matris honori</l>
+          <l>Insomnes impendit ovans: pretiosa Piorum</l>
+          <l>Munera, et illustres ad festa colenda patronos</l>
+          <l>Comparat: interea sumptus, vigilesque labores</l>
+          <l>Continuat, sacras assumptae virginis aedes</l>
+          <l>Ornamentorum variis splendoribus implet,</l>
+          <l>Sciteque ad tantum disponit singula festum.</l>
+          <l>Tandem virgineo iamiam praefixa triumpho</l>
+          <l>Exoritur veneranda dies (erat ista volantis</l>
+          <l>Octava Augusti) cum mox velut agmine denso</l>
+          <l>Confluxit devota cohors iuvenumque, senumque,</l>
+          <l>Propitiae veterem statuam visura Mariae.</l>
+          <l>Inferior parochia fuit selecta catervae</l>
+          <l>Iungendae populi, quo dulcis imago colendae</l>
+          <l>Virginis e proprio templo delata priore</l>
+          <l>Vespere, praescitos hic exspectabat honores.</l>
+          <l>Sedes, cui superimpositam spectare dabatur</l>
+          <l>Effigiem, peramaenus erat velut hortulus, arcu</l>
+          <l>Conclusus gemino sed transverso, cameratae</l>
+          <l>More crucis, nitidi quem Buxi viva venustas</l>
+          <l>Et rutilans variis distinctum floribus aurum</l>
+          <l>Condecorabat: ad omne latus, ceu suave ligamen</l>
+          <l>Pendula factarum sic cornucopia frugum</l>
+          <l>Annexa est, ut opus totum circumundique pulchrum</l>
+          <l>Rite triumphalem formare per omnia sedem</l>
+          <l>Sit visum. Sed adhuc speciale, et amabile sertum</l>
+          <l>Ex raro florum cumulo, nexuque colorum</l>
+          <l>Constitit in medio, quibus admirabilis icon</l>
+          <l>Circumplexa, novo, ceu sol, fulgore micabat.</l>
+          <pb n="10"/>
+          <l>Sic cunctis bene dispositis et tempus, et hora</l>
+          <l>Opportuna aderat, quo ter reboante per auras</l>
+          <l>Campana, et celebrem magis exclamante triumphum,</l>
+          <l>Principium sumpsere novi solennia festi.</l>
+          <l>Vix bene facta quies, vix iussa silentia plebi,</l>
+          <l>En! Theodoricus (cuius tunc utpote patris</l>
+          <l>Imperio suberat paupercula turba Merani</l>
+          <l>Capucinorum) magno invitatus honore</l>
+          <l>Conscendit cathedram, cultus, ladumque Mariae</l>
+          <l>Praeco, dolorosae succincto ex ordine matris</l>
+          <l>Effigiem celebrat, res ipsa ab origine gestas,</l>
+          <l>Consolatricis, dominae, dulcisque parentis</l>
+          <l>Innumeros isthaec in tempora sera favores</l>
+          <l>Eloquio suavi recolit, tenerosque suorum</l>
+          <l>Auditorum animos sancto succendit amore.</l>
+          <l>Finito sermone statim plebs tota triumpho</l>
+          <l>Concessit spatium, cui mox modulamine vocum</l>
+          <l>Principium solenne datum. Disponitur ego,</l>
+          <l>Progrediturque agmen supplex ad virginis aedes</l>
+          <l>E parochiali templo; dant tympana plausum,</l>
+          <l>Dulcisonaeque tubae: sequitur lectissima plenis</l>
+          <l>Musica tota choris: vexilla praeambula passim</l>
+          <l>Laeta volant: partita dehinc numerosa coruscant</l>
+          <l>Lumina, flammivomosque inter, grandesque fragores,</l>
+          <l>Et bombardarum, et repetita tonitrua glandum,</l>
+          <l>Campanisque iterum patula resonantibus aura</l>
+          <l>Virgo triumphalis iam deportanda levatur.</l>
+          <l>Substernunt humeros, ceu sacras sacra columnas</l>
+          <l>Pignora Bernardi, quorum veneranda senescant</l>
+          <l>Nomina, mellifluis semper celebrana camoenis!</l>
+          <l>His igitur subnixa viris, placideque quiescens</l>
+          <l>Bis geminis Cherubin alis, mitissima matris</l>
+          <pb n="11"/>
+          <l>Ad propriam properat superis plaudentibus aulam</l>
+          <l>Effigies, tanti primaria gloria festi.</l>
+          <l>Deinde sacerdotum selecta corona subintrae</l>
+          <l>Maiestate gravi, dulcem comitando parentem</l>
+          <l>Regale ad solium: sequitur longo ordine tota</l>
+          <l>Nobilitas, qua Maisensis satis inclyta terra</l>
+          <l>Invidiam merito posset causare Merano.</l>
+          <l>Denique magnificum coelo spectante triumphum</l>
+          <l>Caetera plebs, laeto turmatim subsequa passu</l>
+          <l>Clauserat, in donum magnae terraeque polique</l>
+          <l>Reginae, sua corda ferens, sed nescia labis,</l>
+          <l>Et sancto, quam finxit amor, succensa calore.</l>
+          <l>Interea ad proprias resonis applausibus aedes</l>
+          <l>Appellit divina parens. Attollite portas</l>
+          <l>Coelestes genii! Sacrata palatia templi,</l>
+          <l>Parthenium veluti cunctis venerabile coelum</l>
+          <l>Aurora ingreditur, meliori clara triumpho,</l>
+          <l>Quam quo magnanimum prostratis hostibus olim</l>
+          <l>Hannibalem Carthago suum, vel splendida quondam</l>
+          <l>Roma triumphantes Tarpeiam vidit in arcem</l>
+          <l>Victores, celebri redimitos tempora lauro.</l>
+          <l>Aurora ingreditur, sed quam formaverat omnem</l>
+          <l>Ante creaturam, totique in saecula mundo</l>
+          <l>Contulit ipse Deus: gremio quae divite solem</l>
+          <l>Iustitiae portans, ut inextinguibile lumen</l>
+          <l>Illustat, recreatque simul Maisense viretum.</l>
+          <l>Haec aurora dolorosae celeberrima matris</l>
+          <l>Effigies est, quam vix in sua templa receptam,</l>
+          <l>Atque triumphali placide de sede levatam,</l>
+          <l>Ad solium regale, novo splendore decorum</l>
+          <l>Profunda pietate animi, vultusque nitore</l>
+          <l>Portabat de Zinnenberg et caetera. Vir dignus amari;</l>
+          <pb n="12"/>
+          <l>Quippe perillustri proavorum sanguine natus,</l>
+          <l>Atque Meranensis Deus admirabile cleri</l>
+          <l>Isthaec virginei solennia festa triumphi</l>
+          <l>Eximie ornavit, cuius virtutis odore</l>
+          <l>Brixina capta, suos illum plaudente senatu</l>
+          <l>Inter sacrorum proceser, summosque ministros</l>
+          <l>Adhibuit, prima quondam fors sede beandum.</l>
+          <l>Sic ergo in magna ter magnae virginis ara</l>
+          <l>
+            <unclear/>deposita, medioque deinde locata</l>
+          <l>In solio (quod opus fabrile extollat et ipse</l>
+          <l>Daedalus, et superinductos, suavesque colores,</l>
+          <l>Artificisque manum merito miretur Apelles!</l>
+          <l>Cuius summus apex nomen ter dulce Mariae</l>
+          <l>Exhibet auratis multum spectabile formis,</l>
+          <l>Et labyrinthaeo signorum nobile ductu)</l>
+          <l>Sic ergo in propriam (repeto) sedemque, thronumque</l>
+          <l>Efigie posita, sacrae solennia missae</l>
+          <l>Incipiunt, quae mysta Dei paulo ante relatus</l>
+          <l>Invisibilium licet inspectante caterva</l>
+          <l>Coelituum, famulasque inter bino ordine stantes</l>
+          <l>Angelicas acies, succenso cordis amore</l>
+          <l>Coram divina sancte celebraverat aula.</l>
+          <l>Tota sub hoc actu resonis laetissima plectis</l>
+          <l>Musica conclamat, festivo tympana plausu</l>
+          <l>Increpitat, placido cytharaeque, tubaeque, lyraeque</l>
+          <l>Concordant strepitu, mox garrula murmure suavi</l>
+          <l>Fistula subsequitur, demum speciosa resultant</l>
+          <l>Carmina, dulcisonaeque inter plena organa voces</l>
+          <l>Concertant, ut Apollineos quis credere posset</l>
+          <l>Hinc cantare choros. Plebs intus tota, forisque</l>
+          <l>Circumfusa simul, terraeque afixa salutat</l>
+          <l>Immensos inter iubilos, et gaudia cordis</l>
+          <pb n="13"/>
+          <l>Reginam, matremque suam, quam sorte beata</l>
+          <l>Pastorisque sui magno, sanctoque labore</l>
+          <l>Iam sublimatam noviter, dignoque receptam</l>
+          <l>Conspexit solio: supplex dein numen adorat,</l>
+          <l>Votoque unanimi grates persolvit honoris</l>
+          <l>Triticea sub nube Deo, quos virginis almae</l>
+          <l>Mirificam statuam tanto iam tempore salvam,</l>
+          <l>Incolumemque suis semper servaverit agris,</l>
+          <l>Sicque triumphales clauduntur denique laudes.</l>
+          <l>Haec fuit illa dies, aeterno hucusque statuta</l>
+          <l>Consilio superum, summi qua rector Olympi</l>
+          <l>Terrarum, coelique sator deus ipse, vetustam</l>
+          <l>Effigiem matris, divini pignus amoris</l>
+          <l>Erga Maiensem populum, terrasque propinquas</l>
+          <l>Communi e tenebris iam nunc exponere luci</l>
+          <l>Decrevit, dignoque palam celebrare triumpho.</l>
+          <l>Haec fuit illa dies, qua filia, sponsa, parensque</l>
+          <l>Immaculata Dei, regina, patrona, magistra</l>
+          <l>Et Consolatrix, nostrae hac in imagine vitae</l>
+          <l>Vita, salusque simul, sanctissima virgo Maria,</l>
+          <l>Ceu rediviva novis aurora micare favorum</l>
+          <l>Incepit radiis, Maisensia rura, domosque</l>
+          <l>Laetificare suo semper fulgore parata.</l>
+          <l>Vos o Maisicolae! Quando? Quo cordis amore</l>
+          <l>Tam grave virginei pondus reddetis amoris?</l>
+          <l>Ah! Saltem teneris vos denuo sistite votis</l>
+          <l>Virginis ante thronum! Redamate! Rogate! Tenete</l>
+          <l>Tam dulcem dominam! Donate! Dicate! Vovete</l>
+          <l>Vos illi in famulos! Praebete! Ex asse sacrate</l>
+          <l>Corda, manus, oculos, animas, et corpora tota</l>
+          <l>Consolatrici! Paucis ut singula dicam:</l>
+          <pb n="14"/>
+          <l>Sic omni immunem servate a crimine vitam,</l>
+          <l>Semper ut in matrem possitis habere Mariam!</l>
+          <l>Sed necdum satis est. Properis accingere pennis,</l>
+          <l>Tu modo fama vola! Summas celerando per Alpes</l>
+          <l>In Claram Vallem, medius qua defluit Oenus,</l>
+          <l>Seu Stambsense solum, Bernardi illustre rosetum</l>
+          <l>Mox descende! Veni supplex, et nuntia magno</l>
+          <l>Fer Augustino; meritas ante omnia grates,</l>
+          <l>Missamque a dulci consolatrice salutem</l>
+          <l>Defer, Maiensis dein festa peracta triumphi</l>
+          <l>Scite commemora! Totius gaudia plebis,</l>
+          <l>Virgineae Matris laudes, magnumque decorem</l>
+          <l>Regalis solii dignis ex ordine verbis</l>
+          <l>Exprime, nativoque velut depinge colore!</l>
+          <l>Perge! Vola! Pia fama volat, subitoque levata</l>
+          <l>Ex Athesi ad placidum superatis montibus Oenum,</l>
+          <l>Atque ad Stambsenses delabitur ocius oras.</l>
+          <l>Vix bene planitiem tetigit, vix candida tecta</l>
+          <l>Bernardi subiit, magno suscepta favore</l>
+          <l>Mitrato fratrum capiti mox singula narrat.</l>
+          <l>Augustinus ad haec teneros in pectore motus</l>
+          <l>Laetitiae capiens, pariter devota suorum,</l>
+          <l>Et pro maiori divinae matris honore</l>
+          <l>Fervida corda, novis festiva in gaudia flammis,</l>
+          <l>Rerum gestarum serie felice relata</l>
+          <l>Succendit; mox mille sui suspiria, mille</l>
+          <l>Affectus animi, ceu dignos virginis aula</l>
+          <l>Legatos, sacras Maienses mittit ad aedes,</l>
+          <l>Ut magnae dominae pro se, totoque suorum</l>
+          <l>Mellifluo coetu semper florentis amoris</l>
+          <l>Iusta tributa darent, et munera debita laudis.</l>
+          <pb n="15"/>
+          <l>Queis tamen obsequiis hic zelosissimus abbas</l>
+          <l>Nondum contentus, magis ut cognosceret orbis,</l>
+          <l>Quanta in virgineam suasit dilectio matrem?</l>
+          <l>Ipsemet huc iter aggreditur. Regina Polorum</l>
+          <l>Hoc Augustini viso tentamine multum</l>
+          <l>Oblectata, suos illi de sede superna</l>
+          <l>Submittit genios, qui per salebrosa viarum</l>
+          <l>Solliciti tanquam comites, vigilemque ministri</l>
+          <l>Illaesum, fortisque suo munimine tectum</l>
+          <l>Ad sacra Maisensis producant tecta triumphi</l>
+          <l>Hoc sub praesidio, tantis portatus ab alis</l>
+          <l>Ecce brevi sibi praefixas feliciter oras</l>
+          <l>Attingit praesul iustoque in tempore magnus</l>
+          <l>Augustinus adest, cuius praesentia cunctis</l>
+          <l>Exoptata, marianos renovabat honores.</l>
+          <l>Tempus erat, quo plena suis vineta racemis</l>
+          <l>Purpureoque simul, liquidoque superba rubore</l>
+          <l>Undique florebant; vacuas quo turgida cellas</l>
+          <l>Uvarum messis Baccho promisit ovanti</l>
+          <l>Deliciis replere novis, et nectare multo</l>
+          <l>Exhilarare: dies vero, qua more recepto</l>
+          <l>Sancta ter Augustae natalia festa Mariae</l>
+          <l>Solenni iubilo toto celebrat in orbe</l>
+          <l>Christiadum populus; cum protinus ecce! Quiete</l>
+          <l>Vix modica primae noctis mediante, resurgens</l>
+          <l>Sponsus ut e thalamo, sic Augustinus ad aedes</l>
+          <l>Virginis accelerat, sponsae prae millibus uni</l>
+          <l>Dilectae veteres hic impensurus amores,</l>
+          <l>Et Natalitii dignissima gaudia festi</l>
+          <l>Participaturus. Primum devotus adorat</l>
+          <l>Mirificam matris statuam, quam solis ad instar,</l>
+          <l>Inque novo fulgore throno, radiosque favorum</l>
+          <pb n="16"/>
+          <l>Iam mage propitio cernens diffundere vultu,</l>
+          <l>Partheniam replet tacitis applausibus aulam.</l>
+          <l>Post, ubi virgineas praesul succedit ad aras</l>
+          <l>Eximio ornatu: quassato cardine coeli</l>
+          <l>Panduntur subito postes, longo ordine turmae</l>
+          <l>Coelicolum veniunt, roseis venit ipsa quadrigis</l>
+          <l>Huc superum regina potens, clauditque triumphus,</l>
+          <l>Auro picta sinus, gemmis variata capillos,</l>
+          <l>Splendida tota, velut primo cum mane renata</l>
+          <l>Purpureis aurora comis praenuntia Phoebi</l>
+          <l>Exhilarat mundum, laetisque dat oscula terris.</l>
+          <l>Mox solium subit ipsa suum, stipante corona</l>
+          <l>Magnatum superum, sacrae spectacula pompae</l>
+          <l>Conspectura, suique simul natalis honores.</l>
+          <l>Huius ad imperium iunctis concentibus omnes</l>
+          <l>Siderei caetus (praeter, quos alma Tyrolis</l>
+          <l>Substituit devota choros) famulantur ad aram</l>
+          <l>Magno Augustino, qui tantos inter ephaebos,</l>
+          <l>Nec minus attoniti plena inter gaudia coeli</l>
+          <l>Totus ab ignito natalizantis amore</l>
+          <l>Saucius, et sponsae miranda in imagine fixus</l>
+          <l>Immaculata Deo sacrae libamina mensae</l>
+          <l>Obtulit, oblatisque iterum renovavit in aevum</l>
+          <l>Inclyta cum superis tranquillae foedera pacis</l>
+          <l>Maisicolum, tota populi praesente caterva</l>
+          <l>Sicque coronabat protracti hucusque triumphi</l>
+          <l>Laetitiam, augustosque dies augustus et ipse</l>
+          <l>Augustinus, et empyrea pretiosus in aula.</l>
+          <l>Huic modo pro celebri solio, celebrique triumpho</l>
+          <l>Condignas reddendo vices, sua sponsa Maria</l>
+          <l>Magnificum parat ipsa thronum, quo raptus ab orbe</l>
+          <l>Fulgeat aeternis quondam ceu Lucifer annis.</l>
+          <pb n="17"/>
+          <l>Tu quoque sancte Joseph! Felix nutritie Christi!</l>
+          <l>Tu quoque redde vices! Hic enim vere aureus abbas</l>
+          <l>(Nosti dive!) Tuis hic nuper honoribus aram</l>
+          <l>Funditus erexit, quae sacras virginis aedes</l>
+          <l>E laevo cornu miro splendore decorat.</l>
+          <l>Sancte! Quid ergo dabis? Sanos da Nestoris annos</l>
+          <l>Hic Augustino! Regimen da suave, quietum,</l>
+          <l>Et tandem in patria dignam superadde coronam!</l>
+          <l>Nunc mea musa satis! Fixam tua carmine metam</l>
+          <l>Hic tetigere: tui pro matris honore labores</l>
+          <l>Finis adest. Placida nunc ergo quiesce sub umbra</l>
+          <l>Maisensis domine! Ne forsan fracta canendo</l>
+          <l>Succumbas penitus: tenues rex maxima vires</l>
+          <l>Immensum superat. Parcet, mihi crede, rogavit</l>
+          <l>Virgo, parens: igitur sancto suffusa rubore</l>
+          <l>Propitiae nitidam consolatricis ad aram</l>
+          <l>Accelera! Depone chelyn, tua plectra, fidesque</l>
+          <l>Virgineo suppone throno! Prostrata precare</l>
+          <l>Profusis veniam lachrymis, gratesque refunde!</l>
+          <l>O igitur divina parens! O regia virgo!</l>
+          <l>Terrarum, coelique decus! Spex maxima mundi!</l>
+          <l>Vita, salusque hominum! Maisensis gloria terrae,</l>
+          <l>Et consolatrix! Cuius venerabile nomen</l>
+          <l>Angelico tantum digne profertur ab ore.</l>
+          <l>En pedibus subiecta tuis, sanctissima Pallas!</l>
+          <l>Rauca cicada, sacrae praeclaro nomine Musae,</l>
+          <l>Pieridumque indigna choro, prece supplice poscit</l>
+          <l>Ah! Poscit veniam, quidquid regina! Canendo</l>
+          <l>Erravi, quidquid iusto sine pondere vocum</l>
+          <l>Peccavi, dimitte rudi patrona clienti!</l>
+          <pb n="18"/>
+          <l>Si tamen et modicum forsan modulamine recto</l>
+          <l>Audisses pia virgo boni, tibi protinus omne,</l>
+          <l>Utpote qua proprio tanquam de fonte fluebat,</l>
+          <l>Reddo, dico, voveo: tua sunt, purissima mater!</l>
+          <l>Singula verba, tibi quaevis quoque syllaba, quaevis</l>
+          <l>Littera consecrata manet: quind suscipe totum</l>
+          <l>Hoc ut amoris opus, dulcique favore receptum</l>
+          <l>Adversus Zoilos defende! Tuere!</l>
+          <l>Maria!</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

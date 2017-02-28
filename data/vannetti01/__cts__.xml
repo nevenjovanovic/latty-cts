@@ -1,0 +1,6 @@
+<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:lattyvannetti01">
+  <groupname>
+    <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="dt">Vannetti, Clementino</name>
+    <date xmlns="http://www.tei-c.org/ns/1.0" precision="high">1754–1795</date>
+  </groupname>
+</ti:textgroup>

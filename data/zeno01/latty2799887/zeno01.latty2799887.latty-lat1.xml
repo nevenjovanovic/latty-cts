@@ -1,0 +1,122 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc xml:id="zeno-a-elogium">
+      <titleStmt>
+        <title>Praeclarissimo et excellentissimo domino Antonio Mariae Levrio [...] elogium, versio electronica</title>
+        <author key="zeno01">
+          <name xml:lang="it">Zeno, Antonio</name>
+          <date>fl. 1687</date>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Johanna Luggin</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>1 pagina</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>September 2015</date>
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Zeno, Antonio</author>
+            <title>Praeclarissimo et excellentissimo domino Antonio Mariae Levrio nobili Tridentino in
+                            utraque legre laureato dominus Antonius Zeno D.T. coll. Rector S. Cantiani in
+                            obsequii et cognationis argumentum dicebat elogium et dicabat reverendissimo domino
+                            Firmo Abbati Levrio eius patruo S.T.D. coll. SS. firmi et rustici rectori
+                            vigilantissimo, et ven. congreg. parochorum primicerio emeritissimo</title>
+            <imprint>
+              <pubPlace>Padua</pubPlace>
+              <date when="1687">1687</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>TLMF, FB 1677</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1687">1687</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens (1773)</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Dichtung</term>
+          <term>Promotionspanegyrik</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2015-09-28</date>
+        <name>Johanna Luggin</name>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:latty:zeno01.latty2799887.latty-lat1:">
+    <body>
+      <div>
+        <head>Praeclarissimo et excellentissimo domino<persName>Antonio Mariae Levrio</persName>nobili Tridentino in
+                utraque legre laureato dominus<persName>Antonius Zeno</persName>D.T. coll. Rector S. Cantiani in
+                obsequii et cognationis argumentum dicebat elogium et dicabat reverendissimo domino<persName>Firmo Abbati Levrio</persName>eius patruo S.T.D. coll. SS. firmi et rustici rectori
+                vigilantissimo, et ven. congreg. parochorum primicerio emeritissimo.</head>
+      </div>
+      <div>
+        <lg>
+          <l n="1">Ne clangite tubae venaticae, ne buccinate cornua sylvestria,</l>
+          <l n="2">Palladio legalis collegii in venatorio lepida<emph>LEPORIS</emph>iam est celebrata venatio.</l>
+          <l n="3">Sollicito gressu ad currendam viam suam lepus exultavit velocipes,</l>
+          <l n="4">Ut caperetur ut caperet,</l>
+          <l n="5">Captus est ab omnibus plausu virtutis suae, cepit omnes virtute sui ingenii,</l>
+          <l n="6">Canibus insecutus venaticis, amore sapientiae, ardore gloriae,</l>
+          <l n="7">Ad studium ab otio fugam arripuit, a studio pervenit ad stadium,</l>
+          <l n="8">Ad quod, qui currunt, non omnes adveniunt.</l>
+          <l n="9">Laurigera auorum vestigia secutus et patruum,</l>
+          <l n="10">Assecutus est lauream facturus in suo capite florentiorem,</l>
+          <l n="11">Quam ut acciperet</l>
+          <l n="12">Insueto<emph>LEPORUM</emph>more, invitavit venatores, non devitavit.</l>
+          <l n="13">Iuris utriusque senatus</l>
+          <l n="14">Leones quandoque demiratus est<emph>LEPORES</emph>effectos timore,</l>
+          <l n="15">
+            <emph>LEPOREM</emph>hodie admiratus est factum animositate leonem.</l>
+          <l n="16">Qui vicit ut leo, ut victor est coronatus.</l>
+          <l n="17">
+            <emph>CERTANTI BONUM CERTAMEN, CONSUMANTI CURSUM SUUM</emph>
+          </l>
+          <l n="18">
+            <emph>REPOSITA EST CORONA IUSTITIAE</emph>.</l>
+          <l n="19">
+            <emph>
+              <persName>ANTONIO</persName>
+            </emph>victori,<emph>
+              <persName>LEVRIO</persName>
+            </emph>coronato</l>
+          <l n="20">Plaudit<emph>
+              <placeName>PATAVIUM</placeName>
+            </emph>, respondet plausibus<emph>
+              <placeName>TRIDENTUM</placeName>
+            </emph>,</l>
+          <l n="21">Non triplici dente, ut strideat in<emph>LEPOREM</emph>suum,</l>
+          <l n="22">Sed civem ut commendet ore multiplici.</l>
+          <l n="23">Malignitas livida strideat, alieno ornamento semper assueta stridere;</l>
+          <l n="24">Festivo rideat iubilo<emph>
+              <persName>LEVRIA</persName>
+            </emph>familia</l>
+          <l n="25">Et sui et aliorum amica fausta decoris,</l>
+          <l n="26">Ipsum propitio favore in doctore suo semper adauctura,</l>
+          <l n="27">Qui</l>
+          <l n="28">Ita caute cucurrit, ut secure comprehenderet.</l>
+        </lg>
+      </div>
+      <div>
+        <p>Patavii ex typographia Pasquati. Superiorum permissu 1687.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

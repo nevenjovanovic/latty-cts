@@ -1,0 +1,937 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc xml:id="staudacher-m-mundus">
+      <titleStmt>
+        <title>Mundus novus, versio electronica</title>
+        <author key="staudacher01">
+          <name xml:lang="dt">Staudacher, Michael</name>
+          <date precision="high">1613-1672</date>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Irina Tautschnig</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>29 paginae</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>April 2015</date>
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Michael Staudacher</author>
+            <title>Mundus Novus. Christina Serenissima Sueciae Regina In Sinum Ecclesiae
+                            Catholicae Romanae Oeniponti recepta, et A Serenissimo Principe
+                            Ferdinando Carolo Austriae Archiduce Ibidem excepta</title>
+            <imprint>
+              <pubPlace>Innsbruck</pubPlace>
+              <date when="1655">1655</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>ULBT, 21583</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1655">1655</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Das 17. Jh. bis zum Aussterben der Tiroler Linie der Habsburger (1665) und
+                        zur Gründung der Universität (1669)</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Historiographie</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>corrected TeiHeader and body<date>2015-08-20</date>
+        <name>Johanna Luggin</name>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:latty:staudacher01.latty2741833.latty-lat1:">
+    <body>
+      <div>
+        <head>Mundus novus. Christina Serenissima Sueciae Regina in sinum Ecclesiae
+                    Catholicae Romanae Oeniponti recepta et a Serenissimo Principe Ferdinando Carolo
+                    Austriae Archiduce ibidem excepta anno, quem ipsamet exhibet<hi rend="italic">C</hi>HR<hi rend="italic">I</hi>ST<hi rend="italic">I</hi>NA A<hi rend="italic">DMI</hi>RAB<hi rend="italic">ILI</hi>S.<placeName>Oeniponti</placeName>, typis Michaelis Wagneri.</head>
+      </div>
+      <pb/>
+      <div>
+        <head>LECTORI.</head>
+        <p>Advenerat Oenipontum, celebrem Provinciae Tirolis Urbem,<persName>CHRISTINA</persName>, Serenissima
+                    Regina Sueciae, illa, quae Nominis sui non minus Admiratione quam Claritudine
+                    Europam implevit. Ibi vero, cum ex itinere, quo Romam ibat, subsisteret, erupit
+                    tandem in Orbis notitiam, quid consilii haec ingentis animae Heroina et regnorum
+                    contemptrix secuta sit, tunc, quando in primo Imperii et Juventae flore, corona
+                    se ac Sceptro sponte exuit: major utique et admirabilior spreto quam gesto
+                    dominatu. Nam cum III. Non. Novemb. labentis anni ad aulicum Templum
+                    Reverendorum Patrum Franciscanorum magnanima Regina nobilissimo stipata comitatu
+                    processisset, ibidem ante summam Templi aram in genua provoluta Catholicam
+                    Romanam Religionem Fidemque solemni formula palam professa est. Circumstabant
+                    Serenissimi Principes Ferdinandus Carolus, Anna Medicaea et Sigismundus
+                    Franciscus, Austriae Archiduces; Legatus item Catholici Regis Excellentissimus
+                    Dominus Antonius de Pimentel et Prado; atque alia magno numero et spectabili
+                    pompa Nobilitas.</p>
+        <p>Reliquus vero populus per inferius templi spatium se diffuderat. Summi
+                    Pontificis, Beatissimi Patris Nostri,<persName>Alexandri VII.</persName>vices agebat missus ab Urbe
+                    ad tanti negotii curas Reverendissimus et Illustrissimus Dominus Lucas
+                    Holstenius Basilicae Sancti Petri in Urbe Canonicus, SANCTITATIS SUAE familiaris
+                    domesticus et Bibliothecae vaticanae custos etc., qui Serenissimam Reginam in
+                    sanctae Matris Ecclesiae Romanae gremium recepit. Ex hoc igitur tam rari operis
+                    tamque excelsae Virtutis exemplo ingens omnium animis laetitia oborta est: quae
+                    et in publica gestientis gaudii signa ubique se protulit. Inter haec vero
+                    Inventio quoque comparuit Novi MUNDI properantis pennae remigio detecti: Ubi
+                    lineamenta<persName>CHRISTINAE</persName>Reginae angustae scriptionis arctata limite velut in
+                    Tabella geographica Regnorum spatia consignantur. Et argumentum quidem depositi
+                    ab ipsa Imperii factique ad Catholicam fidem transitus parce attingitur: nempe
+                    Opus, quod grandioribus machinis majorique stilo quam festinantis scriptionis
+                    fluxu est evehendum. Interea tamen, quia ex Novo hoc Mundo, etiam tenuiter
+                    adumbrato, facilis conjectura capi potest, quantum Virtutis Orbem una<persName>CHRISTINA</persName>adimpleat quantaque Romanae Ecclesiae per ipsius in eam transitum facta sit
+                    accessio; hinc Serenissimi<persName>FERDINANDI CAROLI</persName>, AUSTRIAE Archiducis voluntate
+                    Novum istum Mundum publicae Mundi notitiae committit eumque Regiae Majestati
+                    Serenissimae<persName>CHRISTINAE</persName>inter Romani Orbis plausus devotissime consecrat EIDEM
+                    REGIAE MAJESTATI Addictissimum Collegium Societatis Jesu Oenipontanum</p>
+      </div>
+      <pb n="1"/>
+      <div>
+        <p>Coelo nox vertebatur et Somnus me occupaverat, Europae Principes, viros
+                    feminasque animo volventem, cum mihi, ut sopore devinctus jacebam,
+                        Virgo<corr>Virago</corr>adstitit optimi vultus, quam ex corporis habitu
+                    vestiumque cultu agnitam illico non dubitavi Serenissimi Principis<persName>FERDINANDI
+                    CAROLI</persName>Divam TIROLIM esse.</p>
+        <p>Haerebam vero in sidereo Heroinae aspectu et clausis oculis speciem humana
+                    augustiorem intuebar, qualem apertis nunquam conspicere possem: interim non
+                    horrore, ut in subitis visis solet, sed blandiente voluptate animum
+                    perfusus.</p>
+        <p>At Diva propius admota, ubi etiam niveo pollice somnum mihi ab oculis detergere
+                    visa est, ad Currum me perduxit, quo vecta advenerat. Is eburneus erat et
+                    bijugis junctus Aquilis trahebatur. Jamque in currum compositus eram, cum Diva
+                    leni manu purpurea lora quatiens volucres ad iter capescendum admonuit, quae
+                    etiam intellecto Dominae Imperio sine mora obsequiosae pernici per ventos
+                    tranatu in valle nos stiterunt ad omnem horti amoenitatem expolita.</p>
+        <p>Hic ego exscensione facta Duce Diva mea venustissimam exporrectae vallis
+                    planitiem et immensis circa montium jugis coronatam cunctante gressu metiri
+                    caepi, carpens non tam manibus (etsi neque his temperabam) quam oculis
+                    multiplicem germinum venerem; quorum alia cernebam aeterno veris Dominio in
+                    primam emicare herbam et summis etiamnum labris inhaerere solo, alia attolli in
+                    stilum et pubescere, alia foliosam dispandere Comam, alia calyculos effingere et
+                    caulem, alia rudes Colores<pb n="2"/>ducere, alia expictis in plenum radiare
+                    floribus, alia denique ematurari et turgescere in semina, oblectabili nec minus
+                    mira ad oculos varietate. Inter has luxuriantis loci illecebras indulgente
+                    Curiositati meae passu ad Antrum suum me Nympha promoverat.</p>
+        <p>Facturus autem operae pretium videor, si antequam alia referre pergo, antri
+                    formam verborum coloribus et quodam quasi orationis penicillo expinxero.
+                    Scopulus igitur ascensu mox a radicibus praerupto ex ipsa campi et aequati soli
+                    planitie in vastam molem editur: sic tamen, ut magnitudinis Iudicium ex
+                    comparatione circumjacentis terrae, cui incumbit, capiatur. Nam si Atlantaea
+                    montium dorsa, quae Provinciam nostram nunquam intermissa Corona cingunt, quis
+                    spectet atque cum illis campestrem istum, de quo loquor, scopulum conferat,
+                    Nanum hunc esse deprehendet et verrucam exiguam, quae saxeis illis et immanis
+                    staturae Gigantibus ne extremum quidem minimi digiti articulum explere
+                    queat.</p>
+        <p>Igitur tellus, quae veluti indignata ad infimum inter elementa locum se devolutam
+                    esse, super aquam et aerem ingentibus montium verticibus alibi assurgit et tanto
+                    fastu tumida ipsis prope stellis minas intentat, hic loci remissius se extulit
+                    et effuso ex visceribus scopulo minus quoddam tumoris sui atque superbiae
+                    vestigium reliquit: sive quia tot jam jugis in auram lucemque elatis lassa
+                    denique et viribus imminuta in hoc suo partu defecit; sive potius istum ipsum
+                    tanquam rude et primum valentiae suae tentamentum protrusit illisque jugis ac
+                    scopulis praeludere voluit, quos mox ingenti nixu supra nubes evectura erat.</p>
+        <p>Interim eadem rupes, si intra vallis septa spectetur, digna prorsus magnitudinis
+                    specie oculos implet, pumilis circumquaque in prasino et picturato solo floribus
+                    tanquam Satyris circa Timantis Cyclopem ludentibus. Inter quos pulcherrime et
+                    supra Salomonis opulentiam a Natura indutos ipse scopulus capite squalens, dorso
+                    nudus<pb n="3"/>nulloque frondentium arborum vestitu amoenus eminet, ita ut
+                    lasciviens toto Campo florum turba non tam ad geniale aurei solis jubar
+                    purpureis labellis ridere, quam informem calvi scopuli molem effuso cachinno
+                    irridere videatur.</p>
+        <p>Quamquam haec ipsa nudi saxi impolita facies, ad non modicam loci commendationem
+                    pertinet; et vel ideo quia ornatu caret, vallem ornat. Quippe oculi, quos
+                    satietas etiam blandissimi coloris, cum perpetuus est, cito capit et formarum
+                    mixtura praecipue in voluptate retinet, aspectu illo interruptae per horrentem
+                    petram amoenitatis magis in laetitiam evocantur, quam si gramineam vernantis
+                    soli telam continuis florum splendoribus natura texuisset.</p>
+        <p>Porro ingens in scopulo specus hiantes fauces aperit et exeso late saxo cavam
+                    rupem suspendit. Os amplo satis ingressu patens in arcuatae portae modum, sed
+                    rudi nec ad circinum erotundato orbe curvatur, statimque ab imo se flectens
+                    sinuansque quasi Iris consurgit: certe aquas non procul abesse nuntiat. Ante
+                    ostium, terreno mox solo petram excipiente, amoenissimae platani ab utroque
+                    latere rectis lineis procurrunt, quae frondentibus ramis, tum supra os antri
+                    exporrectis, tum inter sese implicitis umbrosum et pulchre fuscum in speluncam
+                    ingressum reddunt: sic nempe ut flagrantior quidem solis illapsus, non autem
+                    mitior diei lucisque claritas ab accessu arceatur. In limine hinc serpens per
+                    humum muscus virentem lanuginem, inde apium vivacia folia explicat et molles in
+                    interiorem specum aditus sternit. Ea vero a contracto faucium hiatu mox
+                    spatiosius utrimque panditur, solo firmo et in planitiem aequato. Hoc velut
+                    atrium est Speluncae in eoque Scamna, Sellae, Thoruli, abacus crystallinis
+                    instructus vasis et geminae mensae ex nigro marmore, quas aerei Atlantes
+                    fulciunt, sunt collocata. Intimus antri recessus in sinum per amplum laxatur,
+                    fundo in alveum excavato, in quo consociatae undae, sed non longam tracturae
+                    moram recumbunt.</p>
+        <pb n="4"/>
+        <p>Haec igitur Provinciae, cui Princeps meus Serenissimus Ferdinandus Carolus
+                    imperat, sedes erat atque huc Nympha ipsa me comitante perveneram: cujus mox
+                    etiam imperio ignotum hactenus antrum novus hospes subire non timui: nisi quod
+                    religiosa quadam veneratione ut in Deae Domicilio animum adstringi sentirem. At
+                    Diva Comes, cum jam in Vicinia undantis alvei consisterem, libatum inde cava
+                    manu liquorem capiti meo ac vestibus irrorare festinabat: quasi suis me
+                    initiatura mysteriis, et ut hoc lustrico purgatus fonte sublimes, quos fundere
+                    parabat, Sermones aure non dejecta aut profana imbiberem.</p>
+        <p>Sic ergo ablutum ad latus atri me Nympha seduxit; clavique aurea, quam cingulo
+                    suspensam gestabat, occultum et inobservabile ostium a postibus laxavit, quod me
+                    denique, ipsa rursus Dea praevia, in angustum, sed infinitis divitiis opulentum
+                    conclave admisit, ut prolixum foret ejus opes vel numero vel narratione
+                    complecti.</p>
+        <p>Picturas igitur hujus Sedis floridissimas, gemmarum tum copiam, tum discrimina,
+                    monilium pretiosas venustates, opera alia, in quibus Ars Materiae praestantiam
+                    contendebat, non describo nec recenseo, sed in summa tetigisse satis habeo.</p>
+        <p>Haerebam vero attonito similis et quasi hebescente luminum acie tantarum opum
+                    collucentes undique radios excipiebam, cum Nympha leni risu vultum diducens
+                    serenansque: Hae, inquit, Copiae sunt, quas Indulgentis coeli providentia<persName>CHRISTINAE</persName>Serenissimae Sueciae Reginae destinat, quae nostris proxime tectis
+                    magnanima hospes succedet. Huic ergo istum, quem cernis, cultum istasque Gemmas
+                    et opes seponi placuit.</p>
+        <p>At ipsamet Regina, ne nescias, inter Gemmas est, quod in gemmis Carbunculus, quod
+                    in Nymphis Diana; quod in sideribus Luna, quod in floribus Rosa, quod in
+                    coloribus lux, quae anima est colorum et sine qua colores tantumdem atque umbrae
+                    lucent.</p>
+        <pb n="5"/>
+        <p>Non autem his comparationibus illa jam attollo, quae minus Sapientium animos
+                    extra se rapiunt, oculorum delinimenta: pupillas nempe oculorum ebeninas, comam
+                    capitis citrinam, Cervicem alabastrinam, labra corallina, dentes eburneos,
+                    linguam roseam, halitum nectareum et caetera corporum lumina, quae improvidi
+                    mortales insanientium saepe affectuum<corr>affectum</corr>habent irritamenta.
+                    Diviniores dotes mea laudatio intuetur, quas Nobilissimae Reginae Ingenium,
+                    Prudentia, Cor, Pietas, Celsitudo animi, Constantia, Comitas, Eloquentia, Pudor,
+                    Modestia et pulcherrima quaeque virtus Sapienti aestimatori suspiciendas
+                    objicit. Sed nos jam hinc ad alia Conclavia pergamus, ut in iis, quae de aliis
+                    Regibus Reginisque nosse cupis, addiscas.</p>
+        <p>Quae cum diceret, manu me prehendens gressum alio moliebatur. At ego, quantum
+                    modestia sinebat, reluctatus: Mihi vero, inquam, gradum hic figere potior est
+                    lubentia, si sinis, O Dea. Retinet enim me Claritudo Reginae, quam menti meae
+                    admoves, neque animum tam raptim abducere possum a voluptate, quam utique
+                    digniorem percipio ex hac scena muliebris virtutis a te retegi caepta; quam a
+                    pompa corporis, qua sola Nonnullae delitias oculis facere student, quasi prima
+                    ipsarum laus foret ultimumque Bonum Oculorum judicio probari. Fallit enimvero
+                    vel Te Judice male sani Anacreontis sententia, cum caeteris submotis laudibus
+                    solam pulchritudinem velut unicam feminis gloriam reliquit. Versus ejus Romano
+                    sono redditos nosti:</p>
+        <quote>
+          <lg>
+            <l>Tauro ferire cornu, equo ferire calce,</l>
+            <l>Lepori valere cursu Natura dat; Leoni</l>
+            <l>Dentes hiante rictu. Pisces docet natare,</l>
+            <l>Aves docet volare: Prudentiam viris dat:</l>
+            <l>At feminis nequivit. Quid ergo donat illis?</l>
+            <l>Decoram habere formam, Pro parmulisque cunctis,</l>
+            <l>Pro lanceisque cunctis. Quin flamma cedat illis</l>
+            <l>Ferrumque, si qua pulchra est.</l>
+          </lg>
+        </quote>
+        <pb n="6"/>
+        <p>Quam procul autem a vero hoc Teii Poetae Judicium recedat, vel Regina, quam
+                    memoras, omnem fidem evincit, cui tam praecellentes animi dotes tuus modo Sermo
+                    adstruxit. Sed enim tantus tuus cursus verborum fuit et sic evolavit oratio, ut
+                    virtutes et decora Clarissimae Principis quasi raptim ante oculos traducta
+                    amiserim potius quam aspexerim vixque ea celeri luminum radio libare potestas
+                    fuerit, cum contemplari atque expendere otiose vellem. Quin ergo exorari te
+                    sinis, Virgo, ut eam copiam ornamentorum, quam constructam coacervatamque unum
+                    in cumulum quasi per transennam strictim aspexi, in lucem evolute distincteque
+                    proferas et cortina, quam modice distrinxisti, penitus dimota pulcherrimam
+                    femineae virtutis scenam integre reveles et plenae oculorum voluptati indulgeas.
+                    Nec vero discrucior Curiositatem meam in reliqua, quam polliceris, Principum
+                    cognitione interim suspendi: Quin lubet potius, ita se ferente casu, amoenitati
+                    subito enatae immorari paulisper, ut viatorum mos est, quos obvia vel laetae
+                    arboris opacitas vel vernantis loci venustas a progressu viaque profliganda
+                    tantisper sistit, donec oblata voluptate animum etiam longiuscule sibi
+                    indulgentes refrigerarint. Et velut, qui Romam proficiscuntur, quamquam extra
+                    iter sint Venetiae, urbis tamen inter undas natantis fama illecti ad eam solent
+                    deflectere, sic indulge mihi, Virgo, quamvis aliorsum mihi iter destinas, ut
+                    tamen ad hoc femineorum decorum Emporium et quasdam veluti virtutis Venetias non
+                    magno flexu divertam atque perlustrem Te Duce hunc, quem retegere caepisti,
+                    novum Mundum Muliebrem.</p>
+        <p>Haec cum elocutus essem, Nympha miti luminum in me conjectu jam votis meis
+                    favorem suum adpromittens: Opportune, inquit, hoc de mundo adjungis, non enim me
+                    quasi ex Romano Itinere ad propinquas visendas Venetias accersis, cum me
+                    hortaris a destinata orbita ad<persName>CHRISTINAE</persName>Principis retegendam gloriam orationis
+                    Cursu evehi, sed plane postulas, ut tamquam ad novum quendam<pb n="7"/>orbem
+                    meditati sermonis vela detorqueam. Nam citius terrarum ultimam et ad ipsum
+                    Aurorae limen submotam Japoniam navigando tenere confiderem, quam laudes, quas
+                    poscis, celebrando absolvere. Nec amplum magis opus a me exigeres, si
+                    postulares, ut omnium Marium et universae Telluris imaginem in tabulis
+                    expingerem, quam cum flagitas, ut muliebrem hunc, quem ais, Mundum suis
+                    lineamentis consignem. Ita non solum aedes aliquas opulentas aut regale palatium
+                    ac ne urbem quidem nobilem visere gestis, sed, ut dixisti, Mundum plane. Quare,
+                    ut non tam ad retegendum hunc Orbem tibi instar Columbi inserviam quam ad
+                    depingendum instar Ortelii, huc conside et in Tabella Mundum tamquam in Nuce
+                    Iliadem specta. Haec prolocuta ad mensam e Jaspide laboratam in purpurea sella
+                    me collocat et Cosmographicam Orbis terrarum tabulam aureis radiatam lineis, ceu
+                    Mappam intextam auro supra mensae planitiem expandit; simul et ipsa juxta me
+                    considet. Tum renovato sermone: Mundum ergo, inquit, eumque novum et muliebrem
+                    cognitioni tuae subjiciam, nunc quidem angustis contractum spatiis, olim autem
+                    diffuso ambitu a te, si voles, explicandum. Oculos atque animum adverte.</p>
+      </div>
+      <div>
+        <p>Generalem inprimis orbis partitionem hic vides (quod dicens teretem ex ebore
+                    stilum per exporrectam Tabulam Nympha circumduxit), unde ille in quattuor Terras
+                    Principes, Europam, Asiam et cum Africa Americam dirimitur. Sic autem CHRISTINAE
+                    REGINAE Animum discreta in quattuor fontes virtus universim occupat. Ibi ergo
+                    virtutum Antistes Prudentia velut Terrarum Regina Europa in amplissima plenaque
+                    lucis et fulgoris Regia considet. Ibi rerum dispensatrix Justitia aureas duas
+                    lances ex gracili medii axis linea suspendit; et est tamquam America, quae bina
+                    aurifera telluris suae latera in Boream Austrumque diffusa media Mexicani Isthmi
+                    gracilitate colligens quandam Librae similitudinem induit.</p>
+        <p>Ibi duris exultans casibus solique ac pulveris patiens<pb n="8"/>fortitudo
+                    contra fortunae incendia magnanimo se vultu expandit velut Africa subjecta
+                    ardoribus siderum et fortissimarum belluarum, Leonis ac Elephanti parens. Ibi
+                    demum Extremitatum Correctrix Temperantia, ceu amoenissima atque inter Persicos
+                    luxus et Scythicos rigores mediae laudis Asia efflorescit.</p>
+        <p>His generibus rudiori velut penicillo adumbratis, accuratione nunc paullum majore
+                    tanquam particulares Provincias<persName>CHRISTINAE</persName>Principis decora obeamus. Vides hic
+                    ingeniorum altricem Graeciam (eburneo stilo Dea Graeciam monstrabat)? Huic
+                    respondet dignissimum Atticis Musis<persName>CHRISTINAE</persName>Ingenium, quod a Natura
+                    perelegans et floridum tanquam delitiosa Hellas pulcherrimarum praeterea
+                    cognitionum et apparatu et frequentia velut clarissimis urbibus ac arcibus
+                    distinguitur; erudita vero librorum lectione, ceu fluminum interlapsu irrigatur
+                    et perennem retinet virorem, Universas autem has opes quasi circumfusum Graecis
+                    littoribus pelagus sic<persName>CHRISTINAE</persName>memoria circummunit, ut quae in parem cum
+                    aequore immensitatem se explicat.</p>
+        <p>In hoc igitur praecellentis, quam dico, memoriae sinu scientiarum quandam penum
+                    et firmissimam veluti Arcem Regina constituit: ubi illustrium imaginum tantae
+                    tamque in obsequia advolantes Copiae se colligunt, ut multitudine quidem non
+                    solum internitentes Hellespontum Cycladas, sed interludentes Oceano Philippinas
+                    superent; agilitate vero Asterien et Cyaneas imitentur. Parum loquor et
+                    inferiori nec aequa comparatione variarum in<persName>CHRISTINA</persName>cognitionum laudem
+                    detero. Quippe cum illae numero, mobilitate, praestantia non Insulis, sed ipsis
+                    fluctibus pares sint: in quorum tamen singulis gremmiparam fluitare concham
+                    cogites, ut pretium quoque dignum adsit in re, ad quam comparatio est instituta.
+                    Igitur in memoriae hoc aequore quasi Atlantico variae cognitionis imagines,
+                    multorum millium numero, circumnatant, omnes paratae et agiles ad primum
+                    Principis<persName>CHRISTINAE</persName>
+          <pb n="9"/>sibilum linguae ostia velivolo Cursu subire.</p>
+        <p>Sed Hispaniam aspice (hanc stilo Nympha signabat) Consiliorum sapientia et
+                    Judiciorum maturitate laudatam. Hanc Ibericae Telluris commendationem CHRISTINAE
+                    animus summa cum dignitate adaequat: ut qui admirabiliter consiliarius maximis
+                    in causis esse solet et Judicio etiam supra aetatem feminamque praepollet. Nihil
+                    hanc mentem fugit, rerum agendarum modos, negotiorum momenta, causarum
+                    Concatenationes et ex horum praesentia futura eventuum divina quadam
+                    perspicacitate intuetur. Compendio dicam, instar Madriti est<persName>CHRISTINA</persName>, unde in
+                    utrumque Solis cubile, qua surgit et qua conditur, Jura, Leges, Imperia
+                    moderando orbi exire queant.</p>
+        <p>Nunc ad Judaeam (et hanc Nympha monstrabat) oculos converte; illam Dei vestigiis
+                    impressam et Sanctissimam Terrarum. Vel contiguam quoque Aegyptum respice, non
+                    illam superstitionum insaniis addictam et Numina in hortis serentem, sed castae
+                    Religionis cultricem et supremo Numini in solitudinum vastitate integerrimis
+                    moribus sacrificantem. Nimirum hanc Reginae<persName>CHRISTINAE</persName>Pietas praestat et
+                    purissimi erga Deum Amoris sacrificium, quo omnes sui pectoris inclinationes
+                    ejus Majestati submittit usque ad carissimarum rerum orbitatem: quibus cum nihil
+                    dulcius Mortales possideant, eas tamen Ipsamet ultro generosissimo contemptu et
+                    gradu non sane puellari, quin etiam plusquam virili transiliit, eo solum ducta
+                    consilio, ut celeberrimum illud Graecae sapientiae effatum impleret: SEQUERE
+                    DEUM. Qua in re, fidenter dicam, magnanimae et regiae puellae magnus ipse
+                    Abrahamus palmam concesserit: qui etsi, ut Deum sequeretur, patriam deseruit,
+                    nullo tamen seipsum Regno spoliavit. Ante omnia igitur cara et amata apud
+                    CHRISTINAM Deus habetur. Hujus unius aestimationem omnibus affectibus et pretiis
+                    potiorem ducit. In divinae Providentiae lineam, utcunque<pb n="10"/>Fortuna
+                    mobilis axem rotaverit, ejus animus tandem tranquillus et sine deflexu
+                    conformius quam Magnes in Septentrionis lineam incumbit. Universim autem
+                    virtutum venustate in tantum Regina capitur, quasi ipsam virtutis pulchritudinem
+                    oculis usurpasset et inde in tam mirificos erga illam Amores exarsisset. Dicam
+                    breviter: Omnis actionum ejus latitudo tandem in virtutis punctum tanquam
+                    Aegyptia Pyramis in cuspidem se colligit et fastigium inserit coelo.</p>
+        <p>Necdum tamen Aegyptum desero, in qua Hammonium signari Nemus hic vides: quod
+                    inter vastos arenarum campos et fervidissimo circum coelo laetissimis tamen et
+                    frondibus et fontibus aeternum viret: ita hinc diffusis undique ramis, ut vix in
+                    densam umbram sol cadat; et inde tanta exuberantis humoris copia, ut manantibus
+                    passim rivis totum, quam late patet, Nemus totque in illo consiti arborei
+                    Gigantes largissima hac et nunquam deficiente annona nutriantur. Perinde autem
+                    Serenissimae Christinae Constantia enitescit, qua ita animum obfirmavit et
+                    emunivit, ut vel inter medios omnia urentis Fortunae ignes intaminatis ipsa
+                    honoribus sit vernatura. Non virtus ejus rerum adversarum ardoribus unquam
+                    exarescet, utcunque gravi coelo vicina et proxima torreantur, sed suo semper
+                    succo vegeta laeto perenniter virore fulgebit. Quin etiam, si forte tanquam
+                    aestu quodam fulminis, sic funesta quadam acerbitate afflabitur, virebit tamen
+                    ut Byzantina oliva, quae igne e nubibus<corr>nubibns</corr>delapso tacta
+                    fronduit. Similis ergo<persName>CHRISTINAE</persName>animus Hammonis fonti spectabitur, cujus aqua,
+                    cum sub alborem orientis lucis, tepida exundet, medio subinde die, cum aether
+                    maxime fervore candescit, frigida manat, at prono in vesperum sole, rursus
+                    calore se temperat et concubia tandem nocte exaestuans fervescit. Pari enim modo
+                    Regina in contrarium ab illo, quo Sors impellet, impetum suos affectus adducet
+                    et minaci fortunae hilarem, blandienti severam frontem objiciet: At mediocriter
+                    agenti itidem<pb n="11"/>se mediam praestabit, ut ea ratione mutabilis Numinis
+                    (si fas sic loqui) vel exultantia vel dejectio nixu in contrarium emendata ad
+                    salutarem modum cogatur: ferente fortunam<persName>CHRISTINA</persName>, non<persName>CHRISTINAM</persName>fortuna.</p>
+        <p>A Nilo ad Gangem et matutini Solis Indos transilio. Cernis
+                        Provinciam<corr>Povinciam</corr>(Indiam Nympha stilo indicabat)? In qua
+                    meminisse te volo Amoris feminarum, quae viva sua corpora una cum exanimis
+                    maritorum corporibus sponte in rogum praecipites cremarunt; ut, cum quibus
+                    hactenus vitae munia conjunxerant, cum iisdem ad extremum coniugales quoque
+                    Cineres sociarent. Geminam autem rem advertere hic potes: furialem nempe in
+                    viros Amorem et impavidam lethi etiam in corpore femineo animam. Qualis item in
+                    masculo<persName>CHRISTINAE</persName>pectore consedit et quamvis non magnis artubus, tamen ingens
+                    se miscuit. Illa autem mentis amenter amantis impotentia tam longe a Reginae
+                    affectibus quam a Gange Albis recessit. Indis, quas dixi, Matronis extra
+                    maritalem thorum ne vivere quidem libuit: At Sueciae
+                        Virgini<corr>Viragini</corr>vita haec jugalis vinculi expers beata in
+                    terris vita est. Cum interim quoque ad inevitabile mortis telum tam non
+                    trepidet, tam non expalleat, ut etiam dicere audita sit tam placide se in mortem
+                    quam in somnum oculos composituram.</p>
+        <p>Ab Indis ad Japones transi (Iaponiae trajecto mari stilum Diva adverterat).
+                    Gentem nosti tam militarem quam alienam a Verborum contentione; et quam
+                    impavidam praeliorum, quae manu, tam fugientem certaminum, quae lingua
+                    conferuntur: adeo ut controversias etiam parentes cum liberis non coram verbis,
+                    sed in absentia litteris persequantur, quo evitent irritamenta jurgiorum. Eadem
+                    in<persName>CHRISTINA</persName>Indoles probatissimis argumentis enitescit: ut adeo verborum pugnas
+                    neque ore neque calamo nisi ad victoriam modestiae sit editura. Quin si qua
+                    fiet, ut canino malevolentiae Invidiaeque latratu aliquando appetatur (quod enim<pb n="12"/>fastigium ab his dentibus immune), non tantum velut leaena
+                    magnanima, aut potius ceu generosa Hippolyte neglectu transmittet baubantes
+                    catellos, sed tanquam urbanissimi oris Nympha, quod reddet responsum, nectareis
+                    etiam verbis et ambrosia humanitate condiet. Quae linguae gratia etiam in vultum
+                    ibit; cum<persName>CHRISTINA</persName>non modo bellicrepam nullam vocem ab ore, sed ne ferociorem
+                    quidem obtutum ab oculis passura sit evolare. Sermonis sereno luminum
+                    tranquillitas consentiet: et mirificam ubique vultus et orationis comitatem
+                    consocians nihil sibi ad summa urbanitatis officia reliquum faciet. Japoniam non
+                    tam abruptam ab reliquo mundo cernis, quantum<persName>CHRISTINAE</persName>Sapientia a plurium
+                    feminarum moribus abjungitur.</p>
+        <p>Sed hac relicta Insula ad Sinas non magnum emensi aequor trajiciamus. Gentem hanc
+                    vides (digitum Nympha Paquino intendebat), quam muri et custodiae a reliqui
+                    Orbis commercio etiam magis disociaverant, quam Oceanus Japones a Terris
+                    abscindit. Simile autem apud<persName>CHRISTINAM</persName>Principem Honestatis Regnum fundatur.
+                    Non enim firmioribus munimentis China olim vallata fuit, ut Serenissimae Reginae
+                    pectus alienis a recto affectibus impervium consistit. Neque tam Chinensis ille
+                    populus se quondam sincerum atque impermixtum ab exteris gentibus conservavit,
+                    uti<persName>CHRISTINAE</persName>Fama olorinis ubique pennis intaminata circumvolat et veluti
+                    lactae siderum orbitae inambulans effulget. Quin verba quoque, quae non ad omne
+                    se decus componunt, in aurium ejus littore omni portu et hospitio, uti exterae a
+                    Sinicis ostiis naves, arcentur. Atque ut rursus Chinensium murorum aggeres
+                    Tartarorum inundationes reverberaverant, qui eo usque vagi procurrentesque equis
+                    ad illum limitem frena reflectere cogebantur; sic evagantis linguae licentia ad
+                    primum Reginae occursum retro se vertet et in guttur absorpta redibit.</p>
+        <p>Atque hic ego quoque iter relego et in Persidem me<pb n="13"/>reduco (linguam
+                    manus comitabatur), cujus olim populus (quod ex Curtio non ignoras) tenacissimus
+                    secreti arcana Regum mira fide celabat. Non metus, non spes elicere vocem
+                    poterat, qua proderentur occulta. Lingua gravius castigabatur quam ullum
+                    probrum: nec magnam rem sustineri posse credebant ab eo, cui tacere grave
+                    fuisset, quod homini facillimum voluerit esse Natura. Non minus autem exactam et
+                    religiosam silentii fidem<persName>CHRISTINA</persName>tuetur: celans ut maxime arcanorum et tam
+                    perfecta dissimulatrix, quasi nec conscia rerum sit, quas claudi interest, nec
+                    earum suspicione tangatur. Nunquam in consiliis, quae occultari oporteat, per
+                    linguae imprudentiam ab illa peccatur. Quod ejus auribus creditum commissumque
+                    fuerit, quasi post Caspias portas abditur, nunquam erupturum in notitiam vulgi.
+                    Sibi potius quam alteri infida erit; nec unquam, etiam pericula sua et damna
+                    silentii violatione redempta volet, aptissima, quae in Cereris Sacris, Antistes
+                    foret.</p>
+        <p>Sed et Apellem imitatur, qui Antigonum altero lumine orbum dimidia facie, quae
+                    vitio carebat, in tabella pictum proposuit. Sic enim<persName>CHRISTINA</persName>quoque id, quod
+                    maxime in unoquoque eminet, producere in lucem studet; ea vero abdere et a
+                    publica notitia removere, quae non nisi dedecus et illaudatam famam pariunt.
+                    Quare in odium apud illam ii homines incurrunt, qui usum linguae sic exercent,
+                    ut nihil pensi habeant quidvis de aliorum moribus vulgare. Unde hi tales in
+                    aliena infamia eloquentes procul ab ejus consuetudine submovebuntur. At illos
+                    contra in aestimatione et pretio ponit, qui nec consiliorum tenebras, quarum
+                    occulte sunt conscii, patulis sermonibus illuminant nec alienae famae
+                    claritatem, quae hactenus in publicum fulserat, maledicentiae umbris obfuscant;
+                    quique lingua sua aliorum potius honoribus quam dehonestamento velificant. Sic
+                    igitur<persName>CHRISTINAM</persName>tanquam Persidem admirare secreti tenacitate praestantem: quin
+                    etiam tanquam Cretam aut<pb n="14"/>Hiberniam; quod, ut in his Insulis nulla
+                    serpentum, ita in ore<persName>CHRISTINAE</persName>nulla verborum venena nascantur: et labia ejus
+                    quasi aromatiferae Indorum Insulae sint sacchari atque balsamei liquoris
+                    feracia.</p>
+        <p>Nunc vero Thraciam aspice, Martis natale solum (eo digitum Nympha produxerat), et
+                    cognosce Militaris etiam Vitae in<persName>CHRISTINA</persName>tolerantiam: cujus nempe animus
+                    belli quoque tumultuum patiens exsurgit nec pro teneritudine corporis mollis est
+                    sub tentoriis cubare. Nunquam illa, cum casus se obtulerit, campi et pulveris et
+                    inquietae militiae pertaesa mente succumbet: quin potius in hoc etiam Regno
+                    Martis, ut Austriacae Belgii Gubernatrices, vitam non pavide nec indecore aget.
+                    Et adverte sis, tunc cum advenerit, quanta in Equo quamque Generosa emineat.
+                    Occuret tibi mox illud:</p>
+        <quote>
+          <lg>
+            <l>Quales Threiciae, cum flumina Thermodontis</l>
+            <l>Pulsant et pictis bellantur Amazones armis.</l>
+            <l>Seu circum Hippolyten, seu cum se Martia curru</l>
+            <l>Penthesilea refert: magnoque ululante tumultu</l>
+            <l>Feminea exultant lunatis agmina peltis.</l>
+          </lg>
+        </quote>
+        <p>Sed ex Thracia mare ingrediamur et circumflectentes Atticam, utpote quam ante jam
+                    lustravimus, Italiam teneamus (Jamque eam Diva manu contigerat). Italiam, ajo,
+                    amoenissimam Provinciarum, Vitae politioris Magistram, Morum et Civilitatis
+                    formatricem. Qualem autem<persName>CHRISTINAM</persName>hic esse dicam? Vereor equidem, ne
+                    consultius sit et prope mihi necessitudo incumbat, ut Timantis ingenio utar et
+                    Silentii velum vultui Reginae oppandam, quando in desperatis habeo oris ejus non
+                    maestitiam, sed Comitatem properantium verborum coloribus pro dignitate
+                    adumbrari posse. Ne sileam tamen, haec accipe: Nihil<persName>CHRISTINA</persName>comius fieri
+                    potest, nihil humanius. Si Urbanitas pingenda fuerit, non opus erit tanquam in
+                    Zeuxis Helena ex lectissimis quinque corporibus, rursus quod in singulis
+                    praestantissimum eminet, deligere: Universa picturae membra ex unius<pb n="15"/>
+          <persName>CHRISTINAE</persName>imitatione absolutissimam et supremam decentiam adipiscentur. Omnis
+                    namque membrorum ejus motus ac habitus tam ad Civilitatis veluti perpendiculum
+                    et normam exactus est, ut si quis Humanitatis quandam Idaeam perfectissimam
+                    animo prius effinxerit, eam postea in Christina reipsa comparatam indubitabili
+                    oculorum judicio sit reperturus. Omnium gestuum ejus quaedam quasi Harmonia
+                    emergit; ita aptis intervallis, proportionibus, concordi denique discordia
+                    singuli temperantur. Caput, oculi, lingua, humeri, brachia, digiti, pedes velut
+                    sidera suis adstricta legibus incedunt, non ut fixa tamen, quorum aequalitas et
+                    constans tenor est notabilis, sed tanquam Errantia, quorum meatus fere sunt
+                    inobservabiles et temerariis volvi flexibus videntur, cum summo interim consilio
+                    ferantur. Similiter in<persName>CHRISTINA</persName>, corporis et oris ejus regimen cum nullum
+                    habere studium putaveris, summa tamen disciplina gubernatur. Cumque membrorum
+                    ejus motio legis et artificii expers credetur, utique tamen tam nusquam peccans
+                    actio non sine eximia quadam sive Natura artis, sive Arte Naturae consistit.
+                    Spectatur ergo in Regina concinnitas et aptitudo: cura et diligentia non
+                    advertitur. Ordinat cuncta quasi sine ordine; cumque omnia apud ipsam sint
+                    exquisita, nihil tamen quaesitum apparet. Hic ipse vero elegantiae Morum
+                    probatissimus in<persName>CHRISTINA</persName>color est, quod nempe tota eius amoenitas non fieri,
+                    sed nasci videtur. Quippe cum gratia urbanitatis, quando eam sectari
+                    cognosceris, fugiat; et ob hoc ipsum, quod quaeritur, non inveniatur. Apud<persName>CHRISTINAM</persName>igitur, quoniam nihil agit per blanditias, omnia cernuntur esse
+                    blanda; quoniam nihil per laborem, omnia esse elaborata, quoniam nihil per
+                    fucum, omnia esse expicta. Quid porro de Affabilitate adjungam? In hoc itidem
+                    CHRISTINAM quandam amoenissimi oris Heroidem esse. Cum morum ejus summa sit
+                    suavitas, lingua illius super ipsam suavitatem dulcescit. Apes adeo legere ab
+                    ejus labris<pb n="16"/>mella expetent: in quibus etiam non una duntaxat Suada
+                    (quod de Pericle dixit Eupolis), sed Charites et Gratiae, quotquot sunt, omnes
+                    consedere. Nihil ergo verborum ejus comitate amabilius, nihil quoque potentius
+                    occurrit. Quibus tandem viribus amplissimam in animos Dominationem exercet
+                    eosque licet indomitos ad omne obsequium inclinat, ut Orpheus, ut Amphion. Unde
+                    et jure Regina audit:</p>
+        <quote>
+          <lg>
+            <l>... Flexanimos potens</l>
+            <l>Intentare sonos et, Violentiam</l>
+            <l>Vocis blandiloquae promere cum lubet,</l>
+            <l>Auditorum animos fortis amabili</l>
+            <l>Expugnare Tyrannide.</l>
+          </lg>
+        </quote>
+        <p>Praecipue cum ista itidem linguae ejus dulcedo non ut vinum aromatites decocta
+                    sit et affectatis aularum condita illecebris, sed tanquam vinum Chium, nativa et
+                    a radice talis. Non quae agit solum, sed etiam quae dicit<persName>CHRISTINA</persName>, raro illo
+                    et difficili Decoro imbuuntur, cujus tam cupidus amator est humanus Animus quam
+                    aestimator acer. Quare ut Italiam humanae Tibiae quoddam vestigium efformare
+                    vides, in quo Alpes et Cisalpina Gallia genu efficiunt; suram Umbri, Peligni,
+                    Ferentani, Cruris partem anteriorem Tusci, Latini, Campani; Talos Hirpini,
+                    Picentini et Apuli; plantam Lucani; extremum calcem Locri et Calabri (quos omnes
+                    populos stilo interim Nympha obibat), sic Decorum, alicubi tam infrequens, ut
+                    inde cum Astraea aufugisse videatur, in<persName>CHRISTINA</persName>impressum sui vestigium
+                    reliquit. Itaque ut Italia Hominis, ita Christina Humanitatis est vestigium: Ut
+                    Italia Hortus est Provinciarum; ita<persName>CHRISTINA</persName>campus est Gratiarum.</p>
+        <p>Sed transcendamus etiam hoc, quod modo dixi, Alpium genu et in Galliam
+                    descendamus (jam hic Divae manus erat) linguae politae et eloquentiae hoc aevo
+                    parentem. Quid enim ejus sermone tersius, floridius, copiosius, dulcius? At non
+                    hic repetam, quae jam ante de<persName>CHRISTINAE</persName>
+          <pb n="17"/>Affabilitate in medium
+                    protuli: Eloquentiae ejus opes aperiam. Haec enim ita duo sunt et abjuncta, ut
+                    affabilis aliquis esse possit, quem Eloquentia destituat; perfecte autem
+                    eloquens sine Affabilitate dici nemo possit. Igitur Affabilitas in<persName>CHRISTINA</persName>ejus facundiae quaedam pars est; insignis sane et magnarum virium, sed pars
+                    tamen. Huic autem illa omnem reliquum Eloquentiae apparatum copulat; rerum
+                    videlicet dicendarum silvam, dicendi ubertatem, sermonis tum puritatem, tum
+                    effluentiam, verborum nitorem, sententiarum faces, urbanitatis salem, actionis
+                    dignitatem, pronuntiationis elegantiam, omnem denique facundae orationis
+                    commendationem. Quare in congressibus nunquam illam laudati et conspicui
+                    sermonis copia destituit. Ejus animus fons est velut jugium aquarum, unde semper
+                    lingua haurire possit, quod eloquio profundat in audientium voluptatem. Quae
+                    tamen non sic fiunt ut apud illos, quorum inepta est garrulitas quique pauciora
+                    cogitant, quam dicunt. Diserta<persName>CHRISTINA</persName>est, non loquax, nec linguam et verba
+                    promptiora habet quam mentem et cogitationes. Cum oratione polleat, praestat
+                    tamen ingenio: Et cum sermones varii argumenti depromat, ii tamen omnes ex
+                    cogitato profluunt: atque interim longe adhuc plura secretis cogitationibus
+                    abdit, quam emanare Sinat.</p>
+        <p>Homines videbis, in quorum colloquiis decem illorum dicta<add>unius</add>rei
+                    significationem complectuntur. At in<persName>CHRISTINAE</persName>dicto unico res decem eminent:
+                    cumque apud illos res ipsa, quam mille verbis amplificant, vix digna sit una
+                    sententia comprehendi, apud Reginam contra res, quae uni sententiae ab illa
+                    inseritur, digna est per mille verba expandi. Conversatione igitur cum hominibus
+                    delectabiliter afficitur, sed non rudi, imperita, inani et cujus omnis laus in
+                    sono evanescit. Quae talis est, ad Reginae aures non facit: quibus illae solum
+                    voces dulce tinniunt, quae mentem adjunctam habent. Nunquam autem illi non
+                    promptum est, quod simul in medium conferat, utcunque<pb n="18"/>varii sermones
+                    texantur, parata in omni argumento<corr>argomento</corr>verba habet: ita ut
+                    copiose loqui sciat<corr>scat</corr>de rebus gestis et historiis, de carminibus
+                    et poetis, de libris et scriptoribus, de venustate stili et sermonis, de
+                    principibus et aulis, de regnis et rebuspublicis, de bellis et ducibus, de
+                    casibus et fato, de fortunae inconstantia et constantia pectoris, de virtute et
+                    sapientia, de animi magnitudine et tolerantia rerum adversarum, de honestate et
+                    decoro, de Turpi et Pulchro, de divitiis et paupertate, de populis et moribus,
+                    de aedificiis et templis, de picturis et gemmis, de viribus herbarum et lapidum,
+                    de arcanorum scientia et magia, de astris et efficacitate planetarum, de scenis
+                    et theatris, de fidibus et Musica, de lusibus et jocis, de venatione et canibus,
+                    de floribus et herbis, de natura et arte, de vita et morte, de rebus Divinis et
+                    humanis, de omni denique liberali rerum cognitione. In his omnibus et pluribus
+                    praeterea sermonum argumentis nunquam non rerum dicendarum copia<persName>CHRISTINAE</persName>praesto est: Eaque ipsa, quae profert, ut recentia adhuc sint et indelibata,
+                    attendit. Unde et jure dicere potest:<quote>Lac mihi non aestate novum, non
+                        frigore defit.</quote>Utique cum sermo illius etiam lacti dulcedinem
+                    contendat. Enimvero in oratione ejus tanta inest tum suavitas, tum puritas et
+                    profluentia tamque expolita elocutio, ut ultra ejus meritum non sit, si Musarum
+                    choro velut olim Sappho in augmentum numeri adjungatur.</p>
+        <p>Ex Gallia non jam Pyrenaeos montes transgredior Hispaniam accessura, ut quam jam
+                    ante oratione distrinxi, sed a Caletano portu ad Britannos transilio (idque
+                    digito Nympha faciebat), qui in arte Musica Principes habentur. Nimirum (ut
+                    partem hanc breviter componam) de sonis etiam peritum ferre judicium<persName>CHRISTINA</persName>novit: neque nescit, quibus spatiis et nominibus testudo distinguatur: ita ut
+                    Musicos supra communem aurium voluptatem intelligat.</p>
+        <p>A Britannis ad Germanos me confero (Germaniam stilus Divae indicabat), quorum
+                    fides et agendi sinceritas<pb n="19"/>etiam supra militarem eorum fortitudinem
+                    celebratur. Qua ipsa tamen sic pollent, ut contra omnem gentium exterarum
+                    impetum, si animis viribusque concordent, sint invicti; atque adeo solum secum
+                    ipsi collisi frangantur. Quare, quod de Hercule Juno dixit:<quote>Quaeris
+                        Alcidae parem? Nemo est, nisi ipse bella jam secum gerat</quote>: hoc ego de
+                    popularibus tuis ita pronuncio: Quaeris Germanis parem? Nemo est, nisi ipsi
+                    bella jam secum gerant. Sed eorum fides, quam dixi, et sinceritas in<persName>CHRISTINAE</persName>quoque moribus resplendet. Exporrectae mentis indole Germana est. Unde et
+                    illorum hominum consuetudinem sibi optat, qui quidem non sint impoliti et rudes,
+                    sic tamen cum civilitate ingenui et cum reverentia liberales, ut coram illis
+                    incuriosius et apertius atque adeo familiarius agere sibi liceat. Hinc et in
+                    primae ac praecipuae voluptatis loco constituet, quando hominum, quos innui,
+                    civilium atque Sapientium Societate animo exporrecto et libero sine anxiis
+                    circumspectionibus uti poterit: ita ut nec simulandi nec dissimulandi aliqua
+                    necessitudo incumbat. Et sic quidem ab illa sinceritas colitur; ita autem Fides,
+                    ut tam execrabilis apud eam sit quibuscunque in rebus animi verborumque
+                    inconstantia et in amicitiis levitas, quam magni flagitii locum olim apud
+                    Germanos obtinuit temerasse thorum et pudicitiam levem vagamque habuisse.</p>
+        <p>Denique quam nunc extremo loco assignabo Virtutem, eam vel eidem Germaniae
+                    componam, vel Telluri, quam humanae adhuc subductam notitiae Auster celat. Haec
+                    igitur Virtus animi Modestia est atque submissio, non numquam incognita
+                    illustribus Mortalibus gemma: neque illis tantum, qui ab ortu Natalium fulgent,
+                    sed iis etiam, qui in aliqua naturae vel ingenii aut artis luce supra vulgus
+                    eminent. Simul quispiam excellentia quadam ultra caeteros attollitur, illico
+                    subinde ad eorundem despicientiam mentem erigit nec committendum sibi putat, ut
+                    cum illis modestia aequetur, quos quacunque nobilitate exsuperat. Non sic autem<persName>CHRISTINA</persName>effertur. Quam clarum a Natura<pb n="20"/>atque Fortuna locum obtinet,
+                    tam modesta ab animo spectatur. Cumque caeteris rebus in sublime contendat, una
+                    caret elatione superbiae et hoc fastigium ipsius vitae subducitur. Itaque illa
+                    ipsa excelsa opum, virtutum, generis et dignitatis, quae nonnulli per fastum sic
+                    evehunt, ut aegris lividisque humiliorum oculis aspiciantur,<persName>CHRISTINA</persName>ex
+                    adverso per Modestiam ita inclinat, ut aspectum passim amoenum praebeant et
+                    aequis faventibusque omnium oculis cernantur. Quin quae res aliis in eam
+                    intuentibus admirationes commovent, illae ipsius Reginae aciem oculosque
+                    fugiunt, utpote Modestiae velo obductos. Non utitur<persName>CHRISTINA</persName>Speculo, quo, ut
+                    corporis sui lineamenta, ita virtutum suarum decora contempletur: nec in
+                    proprium splendorem advertentiam cogitationum defigit. Non se circumspicit: non
+                    se miratur: quin in contrariam de suis moribus sententiam ab aliorum judicio
+                    discedit. Denique qualis et quam prope inimitabilis haec est Modestia a regio
+                    throno sponte descendere. Sic ergo Magnitudo<persName>CHRISTINAE</persName>ab omni arrogantia et
+                    fastu immunis eminet: conspicuo, sed interim raro moderatissimi animi in tam
+                    eminenti nobilitate exemplo. Nam velut Tellus, quam indicavi, Magellanica hiemis
+                    in nostra aestate conscia latere navigantes non potuit, crebris ignibus
+                    collucens, a quibus et nomen traxit; adita tamen nondum est nec occupata,
+                    intentis potius Europaeorum studiis ad sua evertenda imperia quam ad nova
+                    paranda; ita etiam Modestiae virtus tam radians in<persName>CHRISTINA</persName>tamque omnium
+                    luminibus sese infundens, utique cernitur ad<corr>ab</corr>Claritudinem; quis
+                    autem eam sibi sequendam putabit, non retentus ob diversam animi inclinationem?
+                    At vel ideo ejus dignitas in majori aestimatione habenda est, quia raritas
+                    gemmarum pretia accendit.</p>
+        <p>Finio: Tu autem Chaos quoddam vides novi, quem evolvi cupiebas, Mundi: Chaos,
+                    inquam; in quo nempe praeclarissimas Reginae<persName>CHRISTINAE</persName>dotes non tam ordine
+                    disposui, quam in cumulum acervata confudi. Nec<pb n="21"/>ambigo tamen, quin
+                    Mundus iste Virtutum etiam sic indigestus emicantibus quibusdam pulchritudinis
+                    radiis te pellexerit. Habes ergo non fere aliud quam velut
+                        Ichnographiam<corr>Ichonographiam</corr>quandam rudioribus duntaxat
+                    divisionibus adumbratam, eamque non aedium palatinarum, sed, quem pluries jam
+                    nomino, Novi Mundi in Regina signati. Hunc vero tu quondam justa scriptionis
+                    amplitudine diductum publicae hominum notitiae trades et mirantibus ejus
+                    opulentiam populis vulgabis.</p>
+        <p>His dictis TIROLIS conticuit pictamque orbis terrarum tabulam ad mensae oram
+                    removit: necdum tamen e sella se extulit, sed paullulum velle respirare visa
+                    est, cum caput supra cubitum leniter acclinaret.</p>
+      </div>
+      <div>
+        <p>Quare ego loqui exorsus: Prorsus, inquam, o Nympha, vestigium pulcherrimae
+                    fabricae signasti. Et quidem non tantum Bellerophontis instar tam immensam
+                    provinciarum vastitatem pernici lapsu emensa es, sed et arte velut Archimedaea
+                    Mundum tam illustrem tamque opulentum et grandem non magnae orationis gyro
+                    inclusisti. In quo ipso tamen non minus aeternam et conspicuam Virtutum facem<persName>CHRISTINA</persName>accendit quam stellifero infinitae magnitudinis orbi inserta
+                    Cassiopaea. Mirifica enim orationis tuae architectura effulsit: nam cum solum
+                    prima veluti fundamenta ad famam CHRISTINAE jacere velle videreris, sic tamen
+                    jam nunc eam laudibus ornasti, ut cumulatius posthac de illa dici possit,
+                    praestantius non queat: pluraque fas sit, sed non majora depromere. Cumque
+                    apparere posset te velut per tumultuariam convasationem omnia miscere raptimque
+                    transcurrere, sic partite tamen singula collocasti, sic leniter et sine sensu in
+                    partibus institisti, ut quasi praeter advertentiam et absque consilio ac arte
+                    temerario quodam casu aut sermonis impetu absolutissimam laudationem profudisse
+                    mihi videaris. Quasi in Achate Pyrrhi, sic in tua oratione omnes cum Apolline
+                    Musas fortuito consedisse arbitror, ut sociatis vocibus<persName>CHRISTINAE</persName>Reginae
+                    excellentiam praedicarent.</p>
+        <pb n="22"/>
+        <p>At non ideo quasi satis dictum jam sit, jussionis tuae olim immemor ero: sed si
+                    hunc mihi successum fortuna indulserit, ut Mundum, quem monstrasti, tam
+                    illustrem stilo meo ac penna distinguere possim, omnem profecto ab ingenio meo
+                    conatum exigam omnemque experiar artem, ut in formam, quam a me fingi poterit,
+                    aptissimam dignissimamque effulgeat. Nec planos duntaxat Historiae campos in
+                    memorandis<persName>CHRISTINAE</persName>virtutibus scribentis penna superlabetur; sed Musarum
+                    etiam collibus se immittet et Castaliis irrigata lymphis latino patrioque
+                    carmine Famam Reginae orbi vulgabit. Vivet digna aeternitate Princeps in
+                    nostrarum monumentis litterarum; et si non ab harum splendore, propriis certe
+                    illustrata meritis inclarescet.</p>
+        <p>Quod si etiam in tanto ferendo Mundo humeris viribusque defecero atque inutilis
+                    auriga ero ad vehendam Sueciae Reginam in Curru Gloriae, solabor me tamen
+                    Phaethontis Epitaphio: quoniam spero fore, qui de me quoque dicat:</p>
+        <quote>
+          <lg>
+            <l>...Currum</l>
+            <l>Etsi non tenuit, magnis tamen excidit ausis.</l>
+          </lg>
+        </quote>
+        <p>Neque ideo tamen mei culpa ingenii<persName>CHRISTINAE</persName>fulgor in obscuro erit: Sed si vel
+                    integre istud mihi filum sors abruperit, ne grandiori tela clarissimae Reginae
+                    virtutes pertexere ac dilatare queam, hoc ipsum tamen, quod a te signatum est,
+                    Novi Mundi vestigium ad<persName>CHRISTINAE</persName>famam aeternandam sufficiet. Jam sic
+                    perpetuae hominum memoriae tuis consecrata oraculis Regina vivet illustrius
+                    multo quam ulla feminarum, quae ob corporis praestantiam Poetarum celebrata
+                    ingeniis orbi innotuit. Inter quas non tam alienae scriptionis merito quam
+                    propriae virtutis celsitudine tam alte caput efferet:</p>
+        <quote>
+          <l>Quantum lenta solent inter viburna Cupressi.</l>
+        </quote>
+        <quote>Nam formae gloria fluxa atque fragilis est: Virtus clara aeternaque
+                    habetur.</quote>
+        <pb n="23"/>
+        <quote>
+          <l>Et ... formam populabitur aetas,</l>
+        </quote>
+        <quote>
+          <lg>
+            <l>Sed locum virtus habet inter astra,</l>
+            <l>Vere dum flores venient tepenti</l>
+            <l>Et comam silvis hiemes recident,</l>
+            <l>Vel comam Silvis revocabit aestas</l>
+            <l>Pomaque Autumno fugiente cedent.</l>
+            <l>Haec comes Phaebo, comes ibit astris.</l>
+          </lg>
+        </quote>
+        <div>
+          <p>Silentio haec verba clauseram, cum rursus Nympha: Bene, inquit, ad Virtutem
+                        Serenissimae Reginae ante omnia respicis: nam et Ista sic unice Virtutem in
+                        oculis et amoribus gerit, ut juxta hanc Sceptra et coronae et omnis alia
+                        humana claritudo in eius aestimatione evilescant. Nullum itaque mortalis
+                        gloriae studium eius mentem tangit. Non litteris, non marmoribus se
+                        celebrari neque aliis monumentis ambit: contemptrix famae, quae machinis
+                        perituris superstruitur, et utcunque erigatur, a solo tamen abjungi non
+                        potest. Illa<persName>CHRISTINAE</persName>Gloria arridet, quae supra stellas totamque casuri
+                        mundi molem elata in extimi coeli immutabili Sereno sedes nullis annis
+                        ruituras incolit. Illuc eius sese ambitio attollit. Illuc suum transmittere
+                        nomen inardescit in adamantinas beatae aeternitatis tabulas referendum. Non
+                        expingi coloribus, non sculpi in gemma, non celari in auro, non fundi in
+                        aere, non statui in marmore, non celebrari in litteris<persName>CHRISTINA</persName>desiderat,
+                        sed in id duntaxat omnis eius amor enititur, ut ab immortali Numine illo
+                        libro inscribatur, qui VITAE nomen gerit; et cui inseri est in censu
+                        Beatorum collocari. Haec unica illius animum cura mordet. In hoc punctum
+                        totius vitae suae vota colligit. Atque ut planius intelligas, quibus
+                        CHRISTINA cogitationibus se pascat, hi animi illius affectus sunt, hae voces
+                        ab eius ad me Genio perlatae:</p>
+          <lg>
+            <l>Quae DEXTRA astriferis signat iter globis,</l>
+            <l>Quae Mundum varia caelat imagine,</l>
+            <l>Quae Phoebo rapidam circinat orbitam,</l>
+            <l>Quae florum in foliis non imitabiles</l>
+            <l>Picturas animat mille coloribus,</l>
+            <pb n="24"/>
+            <l>Hac<persName>CHRISTINA</persName>velim scripta legi Manu.</l>
+            <l>Felix ille nimis terque beatior</l>
+            <l>Cunctis, quos aluit Purpura, Regibus,</l>
+            <l>Quem Divina manus, quae revolubilem</l>
+            <l>Mundanae fabricae composuit Librum,</l>
+            <l>Signans mirificis sidera lineis,</l>
+            <l>In LIBRUM retulit semper Amantium.</l>
+            <l>Felix o iterum, quinter et amplius</l>
+            <l>Felix, quem memori tradere posteris</l>
+            <l>Scriptorum populus deseruit stilo;</l>
+            <l>Cuius fama libris omnibus excidit;</l>
+            <l>Cuius nulla nitet Nomine linea.</l>
+            <l>Qui Mundo periit plus obitu unico,</l>
+            <l>Nullis post cineres atraque funera</l>
+            <l>Vivens historiis; et tenebris semel</l>
+            <l>Demersus tumuli, non saliit retro</l>
+            <l>In chartae niveae mundivagam diem,</l>
+            <l>Bina nocte latens; si tamen in LIBRO</l>
+            <l>VITAE, qui foliis in spatium patet</l>
+            <l>Angustum brevibus, Nomen habet suum,</l>
+            <l>O detur mihi vel margine in ultimo</l>
+            <l>LIBRI vivifici linea perbrevis,</l>
+            <l>In qua rite meum nomen inhaereat:</l>
+            <l>Ut, cum Mors aderit, tandem etiam meus</l>
+            <l>Divina in Facie vultus inhaereat.</l>
+            <l>Non pictrice manu Parrhasius mihi</l>
+            <l>Nomen de capuli pulvere vendicet.</l>
+            <l>Non illa e variis massa coloribus,</l>
+            <l>Quae confusa jacet, congeries rudis</l>
+            <l>Picturaeque Chaos disposita in meam</l>
+            <l>Zeuxeaeis digitis surgat imaginem.</l>
+            <l>Non Umbrae gracili lumine perlitae,</l>
+            <l>Non umbra socia lumen amoenius.</l>
+            <l>Non terrae cinerem qui Color exprimit,</l>
+            <l>Non, qui se assimilat purior aeri,</l>
+            <l>Non, qui perspicuis aemulus est aquis,</l>
+            <pb n="25"/>
+            <l>Non, qui purpureis par rubet ignibus,</l>
+            <l>Non, qui nil prasinis invidet arbutis,</l>
+            <l>Non, qui caeruleum provocat aethera,</l>
+            <l>Non, qui Memnonia Matre serenior</l>
+            <l>Miscet cana rubris lilia cum rosis;</l>
+            <l>Non de mille aliis ulla Coloribus</l>
+            <l>Illustris species venaque limpida</l>
+            <l>Plusquam Daedalea Protogenis manu</l>
+            <l>Digesta in tabulas me ferat et sua</l>
+            <l>In nostram effigiem lumina prodigat.</l>
+            <l>Non pictura meum nomen in advenam</l>
+            <l>Divulget sobolem, dum tacet, eloquens.</l>
+            <l>Haud me vitae adeo dirus amor tenet,</l>
+            <l>Ut, cum vera mihi vita profugerit,</l>
+            <l>Vitam pictam aveam postea vivere.</l>
+            <l>Quo fructu? Nisi quod larva forem duplex,</l>
+            <l>Prostans in tabulis, in tumolo jacens:</l>
+            <l>Utrobique cinis formaque frigida</l>
+            <l>Et glebae tenuis massa levissima.</l>
+            <l>Demum, quamlibet haec picta renideat,</l>
+            <l>Illectrix oculi lux imitataque</l>
+            <l>Florenti specie membra reverberet</l>
+            <l>Et puris poliat singula lineis;</l>
+            <l>Et vitam tribuat ducere posthumam;</l>
+            <l>Omnis Pompa tamen stat trepido loco</l>
+            <l>Impressumque gradum sistere lubrico,</l>
+            <l>Telae cannabinae credita stamini</l>
+            <l>Aut chartae fragilis tradita paginae.</l>
+            <l>Quae mox in cineres et celeres Notos</l>
+            <l>Vanescet, simul ac fumifer igneae</l>
+            <l>Regnator Liparae corripiet domum</l>
+            <l>Flammantique lares disjiciet manu</l>
+            <l>Et tectum rutilo cuspide deruet.</l>
+            <l>Ergo Pictor abi: Conspicua et nitens</l>
+            <l>
+              <persName>CHRISTINA</persName>ET SINE TE,<note place="margin">Serenissima Regina, cum regno
+                                decederet, monetam exhibuit, in cuius una facie eius effigies erat
+                                nomenque CHRISTINA. In altera facie Corona regia cernebatur cum his
+                                solum verbis: ET SINE TE.</note>Protogenes, ero.</l>
+            <l>At nec solicitor firmius erigi.</l>
+            <pb n="26"/>
+            <l>Non, quae stat solidis visceribus tenax</l>
+            <l>Et longas valet evincere temporum</l>
+            <l>Saturnique moras materia, in mei</l>
+            <l>Tutelam subeat Nominis et vetet</l>
+            <l>Nostri non memores vivere posteros.</l>
+            <l>Non marmor Pariis fossile montibus,</l>
+            <l>Non, quod Sinadicis eruitur jugis,</l>
+            <l>Non, quod progenerant Saxa Carystia</l>
+            <l>Aut Lunae gravidis montibus editur;</l>
+            <l>Non, quod Caucasea candidius nive</l>
+            <l>Mirantur Numidae, turba nigerrima,</l>
+            <l>Nil quidquam Libycis cedere dentibus;</l>
+            <l>Non venis radians crusta smaragdinis;</l>
+            <l>Non venis radians crusta hyacinthinis;</l>
+            <l>Non quicunque alius nobilior lapis</l>
+            <l>Nostri se specie corporis induat:</l>
+            <l>Ut multis rapidi circuitum poli</l>
+            <l>Edurem spatiis; contra hiemes Capri</l>
+            <l>Ardoresque Canis saxea conspici.</l>
+            <l>Non me tangit Amor curaque Marmorum.</l>
+            <l>Non opto in statuis ardua surgere;</l>
+            <l>Aut templo in medio Basi alabastrina</l>
+            <l>Gemmantes oculos Gemmea tollere.</l>
+            <l>Nullis me stimulis ambitio fodit</l>
+            <l>Nec desideriis urget hiantibus,</l>
+            <l>Sculpta ut progrediar visere Publicum:</l>
+            <l>Etsi me studeat fingere Dextera,</l>
+            <l>Qua sola fieri Rex Macedo Lapis</l>
+            <l>Mansuetus voluit, tardus et ingredi,</l>
+            <l>Cum per Regna Asiae perque cubilia</l>
+            <l>Aurorae rueret, fulminis ocyor</l>
+            <l>Labentis jaculo, Tigride torvior</l>
+            <l>Orbata catulis. Sed neque torqueat</l>
+            <l>Me formare parans dextera Circinum,</l>
+            <l>Qua formata stetit Bucula vel Bovem,</l>
+            <l>Armento in medio fallere idonea,</l>
+            <pb n="27"/>
+            <l>Mugitu ut tenero diceret: o Soror.</l>
+            <l>Aut qua nobilibus se quoque in Urbibus</l>
+            <l>Cous constitui jactitat et Cnidus</l>
+            <l>Ornatae statua puniceis genis,</l>
+            <l>Corvinis oculis, gutture lacteo</l>
+            <l>Splendentis Veneris: cui statuae suae</l>
+            <l>Pomum praeripiat num Venus ipsamet,</l>
+            <l>Prompto judicio non dirimat Paris.</l>
+            <l>Non me Praxitelis lima morosior</l>
+            <l>Concinnet minimis sedula lineis.</l>
+            <l>Mittat Phidiacus notitiam mei</l>
+            <l>Tutari Clypeus. Mittat in arduam</l>
+            <l>Ventorum patriam tollere Pyramis</l>
+            <l>Nostram cum proprio vertice gloriam.</l>
+            <l>Non Carum Dominae me decoret Labor,</l>
+            <l>Moles funereae cassa superbiae.</l>
+            <l>Non tandem leporum faetibus inclitus</l>
+            <l>Et Medis patulus navigiis Athos,</l>
+            <l>Quanta mole secat concava nubium,</l>
+            <l>Crebro saxifragi verbere mallei</l>
+            <l>In nostram domitus migret imaginem.</l>
+            <l>Nulli Dinochari sim labor improbus.</l>
+            <l>Non Mons aut Tumulus, Pyramis aut Lapis</l>
+            <l>Seris me cupiat prodere saeculis.</l>
+            <l>Montes praecipitat fax vaga fulminis:</l>
+            <l>Ipse in se Tumulus denique conditur:</l>
+            <l>Pulsant deciduae Pyramides humum:</l>
+            <l>Saxum dens avidi temporis exedit.</l>
+            <l>Ergo sculptor abi: namque perenniter</l>
+            <l>
+              <persName>CHRISTINA</persName>ET SINE TE, Praxiteles, ero.</l>
+            <l>Forsan, quod tabulas et statuas queat</l>
+            <l>Durandi spatiis antegredi, volo,</l>
+            <l>Ut condatur opus grandiloquum mihi?</l>
+            <l>Excelsique decus Nominis adpetens</l>
+            <l>Musarum cupio cantibus evehi;</l>
+            <l>Ut doctis calamis edita in omnium</l>
+            <pb n="28"/>
+            <l>Incedam digitis oreque gentium?</l>
+            <l>Ah non mens rapitur nostra Cupidine</l>
+            <l>Pellaei Juvenis. Non furias feri</l>
+            <l>Pelidae ac animos Maeonii senis</l>
+            <l>Cantari numeris livida inaudio.</l>
+            <l>Non ullus celebret me fremitus Tubae,</l>
+            <l>Non ullus celebret me strepitus Lyrae.</l>
+            <l>Nullius folio nobiliter libri.</l>
+            <l>Tandem Calce terit Mors quoque litteras,</l>
+            <l>Quamvis compositas Calliopes manu.</l>
+            <l>Ergo scriptor abi: Nobilis, Inclita</l>
+            <l>
+              <persName>CHRISTINA</persName>ET SINE TE, Maeonides, ero.</l>
+            <l>Forsan sideribus morte carentibus</l>
+            <l>Immiscere meum Nomen inardeo?</l>
+            <l>Ah non invideo sidera Perseo:</l>
+            <l>Nec nixa astrigero Cassiopes throno</l>
+            <l>Stellantis fieri pars cupio Chori.</l>
+            <l>Non me ceu Dominae Niliacae comam</l>
+            <l>Puro Callimachus fingat in aethere.</l>
+            <l>Tandem siderae deficient faces</l>
+            <l>Et Coelum solitis cursibus excidet</l>
+            <l>Mundanaeque ruet fabrica Machinae.</l>
+            <l>Ergo Turba vale conscia siderum:</l>
+            <l>
+              <persName>CHRISTINA</persName>ET SINE TE sideribus fruar.</l>
+            <l>Tandem non alibi stem, videar, legar,</l>
+            <l>Nullus me penitus noverit angulus,</l>
+            <l>Dum VITAE modico ducta sit in LIBRO</l>
+            <l>Non delenda mei linea Nominis.</l>
+            <l>His ah in tabulis stem, videar, legar!</l>
+            <l>Aeterni spatio temporis haud potest</l>
+            <l>Exaequari aliis Gloria machinis.</l>
+          </lg>
+        </div>
+        <div>
+          <p>Haec igitur Vota, hi affectus sunt, quibus<persName>CHRISTINA</persName>nutritur. Quod cum
+                        Nympha mea dixisset, ego repente mihi redditus sopore solvor disclusisque
+                        oculis jam prima luce albescentem pingi diem cerno. Surgo igitur laetus iis,
+                        quas videram audieramque, rebus. Et mox vesperi ipsamet Serenissima Sueciae
+                        Regina<persName>CHRISTINA</persName>adfuit:<pb n="29"/>atque Oenipontum ingressa meos subinde
+                        oculos, ut ante animum, in sui admiratione defixit. Cui demum venerabundo
+                        erga Regiam eius Maiestatem calamo hoc votum adscribo:</p>
+          <p>VIVAT AETERNUM<persName>CHRISTINA</persName>VERE REGINA, quae, ut Regno Christi potiretur,
+                        Sueciae Regnum Animo plusquam Regio dimisit. VIVAT AETERNUM<persName>CHRISTINA</persName>: Ita
+                        vovet Novi Mundi in Majestate eius relucentis si non felix Scriptor, at
+                        felix Inventor. Cum Permissu Superiorum.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

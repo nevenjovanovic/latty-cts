@@ -1,0 +1,482 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc xml:id="migazzi-c-oratio">
+      <titleStmt>
+        <title>Oratio in Funere Caroli VI. Imperatoris ad Mariam Theresiam Hungariae et
+                    Bohemiae Reginam, versio electronica</title>
+        <author key="migazzi01">
+          <name xml:lang="dt">Migazzi, Christoph Anton von</name>
+          <date>1714-1803</date>
+        </author>
+        <respStmt>
+          <resp>Hanc versionem electronicam curavit</resp>
+          <name>Irina Tautschnig</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Transcribed from the printed text</edition>
+      </editionStmt>
+      <extent>11 paginae</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>August 2015</date>
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Cristoforo Migazzi</author>
+            <title>Oratio in Funere Caroli VI. Imperatoris ad Mariam Theresiam Hungariae
+                            et Bohemiae Reginam</title>
+            <imprint>
+              <pubPlace>Rome</pubPlace>
+              <date>1741</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1741">1741</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens
+                        (1773)</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Beredsamkeit</term>
+          <term>Leichenrede</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>corrected teiHeader and body<date>2015-09-02</date>
+        <name>Johanna Luggin</name>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:latty:migazzi01.latty2638644.latty-lat1:">
+    <body>
+      <div>
+        <p>
+          <foreign xml:lang="italian">PROTESTA.</foreign>
+        </p>
+        <p>
+          <foreign xml:lang="italian">Altr’ ordine non si è tenuto nella disposizione dei
+                        Poetici Componimenti, che quello del tempo, in cui trasmessi dagli Autori ci
+                        giunsero alle mani, ed abbiano loco le solite Proteste riguardo a’
+                        sentimenti de’ loro Autori.</foreign>
+        </p>
+        <p>
+          <foreign xml:lang="italian">IL FINE.</foreign>
+        </p>
+      </div>
+      <pb/>
+      <div>
+        <head>Cristophori Comitis Migazzii Canonici Brixinensis Oratio in Funere Caroli VI.
+                    Imperatoris ad Mariam Theresiam Hungariae et Bohemiae Reginam.</head>
+        <p>
+          <placeName>Romae</placeName>, MDCCXLI.</p>
+        <p>Ex Typographia Komarek in Via Cursus.</p>
+        <p>Superiorum Permissu.</p>
+      </div>
+      <pb/>
+      <div>
+        <head>
+          <persName>Mariae Theresiae</persName>Hungariae et Bohemiae Reginae potentissimae Christophorus
+                    Migazzius felicitatem.</head>
+        <p>Diu est, quod ego statueram, Regina Hungariae ac Boemiae Augusta, quam Orationem<persName>Josephus Comes a Thun</persName>, Orator apud Summum Pontificem tuus, mihi habendam
+                    demandaverat in funere, quod Romae Germanam Gentem<persName>CAROLO VI.</persName>Imperatori,
+                    Clarissimo Patri tuo, curaturam non dubitabat eandem ipsam ad Majestatem<pb/>tuam deferre tuoque gloriosissimo nomine inscriptam edere. Sed illud profecto me
+                    retardavit, quod verebar, ne, dum tam recenti vulneri mederi vellem,
+                    acerbissimum ejusdem sensum tractando recruderescet dolor. Nunc autem, postquam
+                    Dei immortalis beneficio abs Te suscepta Virilis Proles tantam jacturam aliqua
+                    ex parte sarcivit communemque omnium et tuum praecipue moerorem haud leviter
+                    sedavit, adhortatus sum ipse me ac tandem existimavi non posse tibi non jucundam
+                    accidere earum rerum commemorationem, quae etsi Maximi Patris Tui desiderium
+                    movent, sunt tamen veluti domesticum exemplum, unde Filium modo ad regnandum
+                    natum fingere et formare ad omnem excellentiam queas. Quod si illas quidem non
+                    pro dignitate persequutus sum, id non minus mearum virium tenuitati quam earum
+                    amplitudini tribuas velim. Hanc igitur rudem licet exilemque lucubrationem Te
+                    magnopere rogo atque obtestor, ut perbenigne excipias, hoc saltem nomine, quod
+                    testimonium exstare volui singularis erga Majestatem tuam animi, studii atque
+                    observantiae meae. Deus Majestatem tuam ac Regium Infantem nobis incolumes
+                    conservet vobisque omnia fortunet.<placeName>Romae</placeName>
+          <date>sexto Calend. Junii M.D.CC.XLI.</date>
+        </p>
+      </div>
+      <pb n="1"/>
+      <div>
+        <head>Oratio.</head>
+        <p>Si, quantum doloris universae Christianae Reipublicae et Vobis, Germani Viri,
+                    intempestiva<persName>CAROLI VI.</persName>Imperatoris mors attulit, tantum ego eloquentiae ad ejus
+                    funus celebrandum afferre possem, sperarem profecto talem me apud vos hodie
+                    Orationem publice habiturum, qua si non omni, aliqua tamen ex parte vestrum
+                    luctum maestitiamque deponeretis. Sed quum mihi communem hanc jacturam ante
+                    oculos propono, quum rerum vestrarum conversionem animadverto, quum earum
+                    denique calamitatum venit in mentem, quas ex acerbissimo illius interitu aut jam
+                    accepimus aut certe pertimescimus, tunc enimvero intelligo planeque sentio non
+                    solum meam, quae nulla est, sed neque cujusquam eloquentissimi hominis tantam
+                    dicendi copiam existere, quae non se hujusce doloris amplitudine victam
+                    superatamque fateatur. O nos miseros perditosque! Huncine Principem vel Patrem
+                    potius tam cito, tam inopinato, tam alieno tempore nobis fuisse praereptum?
+                    Austriacae gloriosissimae domus, Germanci Imperii, Religionis columen atque
+                    praesidium cecidisse? Lumen virtutum omnium extinctum esse? Quis est, qui quum
+                    haec secum ipse animo repetat, non magnopere commoveatur? Rursus autem quis est,
+                    qui tam justum fletum abstergere et quandam vobis a dolore quasi aberrationem
+                    quaerere dicendo possit? Praesertim quum, quocumque se vertant oculi, nihil nisi
+                    miserum, acerbum atque luctuosum circumspiciant. Vos enim hisce sordibus, Vos
+                    hac tanta funeris pompa publici mali quasi formam plenam<pb n="2"/>moestitiae
+                    atque lacrymarum in conspectu omnium posuistis, ut miserabilis haec rerum facies
+                    non modo quidquam detraheret, sed plurimum etiam adderet ad doloris acerbitatem.
+                    Quamobrem has unas ego arbitror meas partes esse, non ut sanem aegritudinem
+                    vestram, quae certe sanari non potest, sed ut ostendam potius hodierno die, quam
+                    justis de causis Vobis in tanta jactura dolendum lugendumque sit. Quod si forte
+                    iniquum esse censuistis, quum summi vestri Principis laudes in hac potissimum
+                    Urbe tanto humanitatis et eloquentiae studio ab exteris et quidem doctissimis
+                    viris fuerint usurpatae, eas a nullo Germano homine commemorari ac propterea hoc
+                    tam egregrium atque honestum laudandi munus mihi demandastis; illud quidem
+                    (quantum ego conjicio) voluistis, ut quo minus in hoc officio eloquentia mea, eo
+                    magis vestra haec pietas gratique animi testificatio eminere videretur. Vel
+                    dolori igitur vel pietati vestrae vel utrique simul obsecundabo eamque de<persName>Caroli</persName>laudibus Orationem instituam, quae quo minus erit artis luminibus lita, eo erit
+                    vestra solitudini ac tenebris accomodatior.</p>
+        <p>Ac mihi quidem, quae de laudabilium officiorum generibus sapientissimi viri
+                    tradiderunt, diligenter consideranti ii demum dignis laudibus celebrandi
+                    videntur, qui ita vivunt, nihil ut eorum, quae ad se, quae ad alios, quae ad
+                    Deum pertinent, praetermittant. Ad quae sane praestanda adsunt pulcherrimae
+                    illae virtutes reliquarum quasi magistrae ac Duces, Temperantia, Justitia atque
+                    Religio: quae profecto, quamvis in unoquoque homine, qui honeste vivere cupiat,
+                    vigeant necesse est, illas tamen summas iis inesse oportere arbitror, qui tantum
+                    aliis virtute praestare debent, quantum praestant dignitate. Praeclare igitur
+                    omnium<persName>CAROLI</persName>laudum quasi fundamenta jecisse videbor, si ostendero, quam
+                    brevissime planissimeque potero, ita illum in se se moderatum, ita in alios
+                    justum, ita adversus Deum pium ac religiosum fuisse, ut nullus aut pauci omnino
+                    memorari Principes possit, qui illum aequaverint. Et quidem quum reliquae
+                    virtutes omnes, ubi a privatis hominibus ad eos transferuntur, qui reipublicae
+                    administrandae praepositi sunt, longe excellentiorem naturam induunt, quam
+                    privata conditio requirat, tum ea, de qua priore loco dicendum est, temperantia,
+                    si ad Principem virum referatur, tantum a privato hujus virtutis genere abest,
+                    ut nihil non summum, nihil non excelsum atque absolutum complectatur. Est autem
+                    hujusmodi temperantia animi moderatrix et actionum in omni vita, earum
+                    praesertim, quae ad Rempublicam pertinent et commune bonum. Sed quis<persName>CAROLO</persName>continentior, quis temperantior fuit? Qui vix primam ingressus aetatem factus
+                    florentissimi Exercitus Imperator in ea vitae ratione, quae inimica temperantiae
+                    videtur esse juventutisque corruptrix, nihil non fecit modeste, continenter,
+                    temperate. Qui in summo deinde rerum Germanicarum gradu collocatus factaque
+                    plurium regnorum accessione, an quidquam de tanta illa animi moderatione
+                    detraxit? Quum probe intelligeret, qui praefecti<pb n="3"/>sunt aliis regendis,
+                    eos imprimis omni vitio carere oportere, quod quales sunt in Republica
+                    Principes, tales sunt reliqui Cives. Quantam in rebus omnibus modestiam, quam
+                    incredibilem, quam<corr>Christiano</corr>Principe dignam adhibuit! Quam non
+                    sibi legem dixit innocentiae, continentiae virtutumque omnium! Nihil in eo
+                    avaritia, nihil ira, nihil libido habuit loci; quas animi perturbationes alte in
+                    hominum visceribus haerentes siquis coercet ac reprimit, is denique veram ac
+                    singularem temperantiae laudem assequutus esse videtur. Sunt haec quidem ampla
+                    atque praeclara; at vero, quod in<persName>CAROLO</persName>fuerint, plus etiam obtinuerunt
+                    splendoris et dignitatis. Nam hominum conditionem, qui ubi sunt rerum summam
+                    adepti, nullam in orbe terrarum majorem sua potestatem agnoscunt. Hos quippe
+                    nisi excellentes animo atque virtute esse videas et naturae habitu prope divino
+                    per se ipsos moderatos et graves, difficile admodum est, addo etiam rarum,
+                    cupiditates illas comprimere, quae nactae facultatem et copiam rerum omnium
+                    projiciunt se se ac subito erumpunt universae. Atqui nego in hac privata vivendi
+                    ratione, quam et inopiae necessitas et legum constringit metus, quemquam fuisse
+                    tanta temperantia hominem, quanta mehercule in summa et rerum affluentia et
+                    potestate impune omnia faciendi<persName>CAROLUS</persName>fuit. Nego ullum commemorari posse
+                    illius dictum vel factum, quod, si sapientissimi cujusque ac diligentissime
+                    momenta officiorum omnium perpendentis judicio aestimetur, ad certam rationis
+                    normam exactum non fuisse reperiatur. Nego voluptatem temerariam illam,
+                    plerumque Regum dominatricem ac multarum deliciarum comitem, umquam ad CAROLI
+                    animum fortem, non dicam irrepere ac pervadere, sed accedere aut aspirare
+                    potuisse. Nego infinitas inter amplissimi Imperii curas atque solicitudines
+                    ullum oblectamenti genus admisisse<persName>CAROLUM</persName>, nisi a culpa, atque etiam ab omni
+                    culpae suspicione quam longissime remotum. Deus immortalis! Nihil igitur in
+                    vitam<persName>CAROLI</persName>felicissimi Imperatoris dici potest? Nihil inquam omnino,
+                    Auditores. Quam quidem in tantis opibus tantaque fortuna animi moderationem (de
+                    judicio animi mei, ut vult, quisque sentiat) ego reliquis ab eo praeclare gestis
+                    rebus omnibus antepono. Multae quidem hae sunt, magnae, incredibiles: Pueritiae
+                    tempus extremum principium habuisse bellorum atque Imperiorum maximorum; multas
+                    Provincias, multa Regna victoriis atque triumphis peragrasse; immanissimum
+                    Turcarum tyranum antea insolescentem compressisse atque, ut a se leges pacis
+                    acciperet, coegisse; Belgium, Serviam, Italiam atquae Hungariae partem suo
+                    Imperio adjunxisse; totum denique Orbem terrarum sui nominis gloria implevisse.
+                    Sunt haec magna, inquam, et sunt majoribus quasi theatris proposita. At
+                    Christiani Principis non ea certe popularis atque plausibilis, sed vera, solida
+                    ac prudentum judicio expensa laus est, in tam secundo rerum cursu atque in ea
+                    praesertim aetate, quae<pb n="4"/>facilius ferri quam regi potest, maximam
+                    animi aequabilitatem constantiamque sic tenuisse, ut rationis quasi luminibus
+                    nihil officeret altitudo fortunae et gloriae. Atque hic vereor, Auditores, haec
+                    ne a me ornatius dici putetis quam verius. Sed vestram, vestram, inquam, fidem
+                    imploro: num in tanta Imperii potestate, quantam vix in quoquam alio ex
+                    historiarum monummentis fuisse legimus, aliquid fecit superbe, violenter,
+                    potentia non ferrenda? Quod bellum umquam suscepit nisi lacessitus?<corr>Quandonam</corr>arma arripuit, nisi cum pro majestate Imperii fuit
+                    dimicandum? Non illum ulla commodi ratio, non odium, non regni fines proferendi
+                    cupiditas extimulabat. Non molestus vicinis, non implacabilis hostibus, non
+                    crudelis in captivos, sed summa in omnes moderatione fuit.</p>
+        <p>Jam vero si hujus virtutis splendor in adversis praesertim rebus quasi in
+                    tenebris maxime lucet, cogitate, quot quantasque procellas jactationesque ab
+                    inimica fortuna perpessus fuerit, ut altissimis eam radicibus in<persName>CAROLI</persName>animo
+                    defixam fuisse intelligatis. Fuit felix diu multumque Optimus Imperator, fuit
+                    etiam aliquando infelix (si tamen ulla in tantum Virum cadere infelicitas
+                    potuit), at in utraque fortuna idem semper fuit, suique omnino similis. Hic
+                    autem video, si ex ceteris ejus calamitatibus tristissimum filii funus
+                    commemorem, quam sit praesentis vulneris sensum mea haec Oratio amplificatura.
+                    Serviam tamen laudi<persName>CAROLI</persName>potius, quam parcam dolori meo ac vestro. Revocate
+                    igitur in memoriam funestissimi illius temporis acerbitatem, quo puer ille,
+                    parentum spes atque deliciae, tot Regnorum haeres, tot populorum Princeps
+                    designatus, importunissima morte extinctus est. O illius diei vel memoriam nobis
+                    omnibus gravem ac luctuosam! Vidimus in tanta jactura<country>Austriae</country>
+          <placeName>Viennam</placeName>lacrymis
+                    ac moerore confectam, vidimus Regiam Domum, quae antea florentissima ac omni
+                    laetitiae genere abundantissima fuerat, miserandum in modum deformatam, vidimus<region>Europam</region>omnem trepidatione, luctu ac dolore plenam: at tam adverso fortunae
+                    impetu dejectum<persName>Carolum</persName>profecto non vidimus. Quod si nemo fuit, quin tanta
+                    acerbitate commoveretur, quid funestius, quid gravius Imperatori et Patri<placeName>CAROLO</placeName>accidere potuit? Tamen hujus tantae calamitatis magnitudo illius animi
+                    magnitudinem moderationemque declaravit. Quid? Cum<region>Europa</region>fere universa ejus
+                    potentiae invidens aut sibi timens contra unum<persName>CAROLUM</persName>rueret armata, cum
+                    undique se ille hostium copiis premi videret, cum plures exercitus rebus omnibus
+                    instructos atque ornatos partim morbo, partim ferro absumptos, cum Urbes
+                    expugnatas, Regna direpta intelligeret, an non in tenebricosa illa caligine
+                    eluxit<persName>CAROLI</persName>virtus, animi moderatio et a Christianae Philosophiae fontibus<corr>deducta</corr>despicientia rerum humanarum? Ecquid judicatis,
+                    Auditores? Qui sensus est animorum vestrorum? An non vobis laudare videor
+                    principem post hominum memoriam summum aut potius e coelo ad nos usque delapsum?
+                    Neque alia profecto fuit omnium populorum<pb n="5"/>mens et opinio, qui, quod
+                    hujusmodi Princeps sibi contigisset, sese quam beatissimos esse arbitrabantur;
+                    et prorsus mehercule erant. Neque enim qui se, is bene alios regere ac temperare
+                    non potest, quod fracto impetu cupiditatum omnium suum facile locum obtinet una
+                    illa regum alumna et<corr>publicae</corr>utilitatis effectrix Justitia.</p>
+        <p>De qua etiam eximia<persName>CAROLI</persName>virtute, cum perpauca mihi dicenda proposuerim, nolite
+                    putare ea me velle dicere, quae in communi quadam ac usitata Principis laude
+                    versantur. Intelligo enim vos maxima quaeque ac singularia de<persName>CAROLO</persName>expectare.
+                    Sed habeo, in quo vestro huic desiderio expectationique respondeam. Itaque non
+                    commemorabo pulcherrimas ab eo latas leges ad communem populorum utilitatem, non
+                    severissimis poenis refrenatam hominum licentiam, concussam audaciam, vitia
+                    profligata; non dicam ad lites controversiasque dirimendas optima judicia
+                    constituta, ad Regna Tetrarchias Provincias sanctissime administrandas delectos
+                    summa integritate atque innoccentia viros; neque vero exsequar, quam facilem se
+                    in rebus cognoscendis, in hominibus audiendis admittendisque praebuerit (quod
+                    quidem quantum ad injustitiae malum avertendum valeat, dici vix potest). Haec
+                    autem omnia non idcirco missa esse facienda putavi, quod magna atque adeo in
+                    Principe laudanda non sint, sed quod ad majora quaedam minusque communia
+                    festinet oratio. Nam si fundamentum justitiae fides est, quanta, Deus
+                    immortalis,<persName>CAROLO</persName>fuit dictorum conventorumque constantia et veritas, quam
+                    firma, quam omnium sermone celebrata! Testis est potentissima Russorum
+                    Imperatrix, cum qua foedus ille pepigerat mutua salutis et periculi, pacis et
+                    armorum societate conjunctum. Etenim Russiam inter et magnum Turcarum Ducem
+                    exorto durissimo bello, posteaquam vidit hunc ipsum neque monitis neque
+                    denunciationibus interpositis neque legatis missis ab inferendis injuriis
+                    coerceri posse, meminit officii sui, non neglexit fidem, ad arma descendit; eo
+                    autem tempore descendit, quo Italici belli nondum obducto vulnere Austriacae res
+                    male habebant, ut, si in periculosis atque asperis temporibus a bello
+                    abstinuisset, facile hoc suum factum probari cuiquam posse videretur. At<persName>CAROLO</persName>,
+                    qui non utilitate, sed honestate omnia metiebatur, tanta pactorum custodiendorum
+                    religio fuit, ut in extremum potius maluerit se adduci discrimen quam a data
+                    fide revocari. Habuit quidem in eo bello gravissimas offensiones; sensit totum
+                    in se Turcarum impetum furoremque conversum; vidit vastatos agros ab hostibus,
+                    dissipatos exercitus, captas Urbes; sed in hac tanta malorum oppugnatione eo
+                    ampliorem fidei laudem accepit, quo indigniorem hausit inde calamitatem; nisi
+                    forte quod res male cecidit, minus propterea sapienter, juste recteque factam
+                    existimatis, perinde quasi virtus non a se ipsa pendeat, sed ab eventis et
+                    temeritate fortunae.</p>
+        <p>Jam vero qua<persName>CAROLUM</persName>erga suos justitia et aequitate fuisse putandum<pb n="6"/>est, qui tanta erga exteros fuit! Neque ego, cum justitiam dico, eam solum
+                    vulgarem et communem intelligi volo, quae in privato vitae genere et quasi in
+                    tenebris delitescit, quae suis contenta rebus aliena non appetit, quae summam
+                    fidei rationem habet, quae nocet nemini; illam, illam dico, quae praesertim in
+                    regibus non modo afficit animos ut ceterae virtutes, sed erumpit quodammodo et
+                    se ipsam prodit accensam atque inflammatam desiderio communis boni. Quo ardenti
+                    ac fere incredibili studio flagrantem<persName>CAROLUM</persName>quid miramur eo cogitationes,
+                    curas, vigilias, eo ingenii industriaeque nervos omnes intendisse, ut suorum
+                    felicitati consuleret populorum? Quid enim esse aut excogitari potest ad
+                    reipublicae utilitatem pertinens, quod non maxima ille diligentia arriperet,
+                    alacritate susciperet, virtute expediret? Quae regna, quae Urbes, quae civitates
+                    sunt, quibus ille cum Imperio praefuit, ubi non plurima extent hujus praeclarae
+                    voluntatis alte ad memoriam temporis sempiternam impressa vestigia? Ille
+                    commercium terrae marique propagaverat, ille nova itinera patefecerat atque
+                    muniverat, ille novas artes, easdemque maxime utiles, in sua regna invexerat,
+                    ille scientiis, ille liberalibus studiis pristinum decus restituerat, nihil
+                    denique reliquum esse videbatur, quo apertius demonstrare posset se aliorum bono
+                    regnare, non suo. Sed haec clariora sunt, quam ut mea commemoratione indigeant.
+                    Illud autem imprimis rarum et admirabile, quod unam semper atque eamdem suam
+                    esse fortunam voluerit, quae esset universorum. Invaserat<country>Austriae</country>
+          <placeName>Viennam</placeName>teterrima pestilentiae lues, quae cum latius in dies serperet atque manaret,
+                    multas civibus clades afferebat multoque etiam majores allatura videbatur.
+                    Familiares, domestici, optimates, Civitas omnis monere<persName>CAROLUM</persName>, sibi ut in tanto
+                    ac tam praesenti periculo caveat fuga. Hoc ab illo summis precibus unum petere
+                    omnes, hoc exorare: cogitaret suam cautionem communem omnium cautionem esse,
+                    meminisset in sua unius tot regnorum populorumque salutem contineri: si quid
+                    illi humanitus accideret, actum esse de Austriacae gentis dignitate, de
+                    majestate Imperii, de Republica universa. At<persName>CAROLUS</persName>, qui ita natus erat, non ut
+                    sibi, sed ut aliis se natum arbitraretur, negavit esse optimi justissimique
+                    Principis, quos in fidem recepisset, eos in gravissima temporis procella
+                    desertos relinquere. Itaque non modo a proposito non discessit, sed tum maxime
+                    ad Urbem curandam, purgandam tuendamque adesse animo, excubare, consilio
+                    providere non dubitavit. Et sunt, qui vetera omnia, non recentissima haec
+                    maximaque admirentur exempla virtutis? An<persName>Cyro</persName>illi a<persName>Xenophonte</persName>non ad
+                    Historiae veritatem, sed ad effigiem justi imperii descripto affingi poterat
+                    quidquam praestantius, gloriosius magisque commendandum memoriae hominum
+                    sempiternae? Qua incredibili erga suos caritate cum fuerit, mirari utique
+                    desinam, si tanta in eo inerat, tamque liberalis aliis gratificandi voluntas.
+                    Quid ego enim nunc praemia, quid munera, quid beneficia commemorem, quibus
+                    affecit homines bene de<pb n="7"/>se aliquando meritos, quid amplissimas aedes
+                    ad milites sive senio sive vulneribus confectos excipiendos atque alendos
+                    instructas, amplificatas, ornatas, quid familias plurimas, quas in perturbata
+                    rerum vicissitudine ad se confugientes benigne accepit, fulsit auctoritate, re
+                    sustentavit, quid permagna et copiosa stipendia sive doctissimis viris sive
+                    veteranis constituta? Est, est enim justitiae pars liberalitas praesertim ea,
+                    quae munera, quae honores, quae magistratus distribuit pro meritis et dignitate
+                    personarum. Cujus ego rei Te locupletissimum testem volo, Te, inquam,<persName>FRANCISCE</persName>Lotharingiae atque Etruriae Magne Dux appello, cum Te ille potissimum, neglectis
+                    aliis affinitatibus, suum delegit Generum et pene alterum Filium; an non maximam
+                    rationem habuit, quid clarissimi Majores, quid avus ille tuus, de cujus laudibus
+                    nulla umquam aetas conticescet, quid Tu ipse pro Augustae Familiae suae
+                    dignitate, pro sanctissima Religione, pro Christiana Republica fortiter
+                    strenueque fecisti? O diem illum<persName>CAROLO</persName>gloriosum, Tibi prosperum et universae<region>Europae</region>salutarem, cum Deo sane auctore, magnis auspiciis, faustis omnibus
+                    omnium, potentissimi Imperatoris carissima Filia et plurimorum Regnorum haeres<persName>MARIA THERESIA</persName>nupsit Tibi! Quo tum Parens gaudio perfusus! Quae Germaniae spes,
+                    quae populorum laetitia et gratulatio! Nihil enim vero nuptiis illis felicius,
+                    nihil nobilius fuit, in quibus tot simul tantaque cohaesisse bona videbantur.
+                    Digno enim virtus affecta praemio: utriusque propagatum Familiae decus; et quod
+                    caput est, communi Europae quieti et tranquilitati consultum. Mandate hoc
+                    memoriae, qui<country>Germaniam</country>, qui<country>Bohemiam</country>, qui<country>Hungariam</country>,<corr>quique</corr>
+          <country>Austriacae</country>ditionis provincias incolitis! Spero duorum Maximorum Principum
+                    sanguine in unum genus unamque prolem derivato perplura ad vos liberosque
+                    vestros bona esse perventura. Spero evulsis radicibus caussis omnium, etiam
+                    futurarum offensionum immotam pacem, securum otium, animorum concordiam in<region>Europa</region>et ubique gentium stabile fore ac sempiternam. Hoc ego Vobis humanae et
+                    divinae spei plenus auguror; hoc ante praedico atque denuncio. Sed illud etiam
+                    contendo tot tantorumque benificiorum gratiam referri<persName>CAROLO</persName>oportere, qui
+                    hujusmodi nuptiis singulari consilio atque incredibili sapientia conjunctis, non
+                    eorum modo qui sunt, neque unius aetatis bono consultum voluit, sed futura
+                    tempora longissime prospiciens beneficentiam suam ad omnem posteritatis memoriam
+                    commoditatemque traduxit. Quae autem perfecta, quae germana, quae vere regia
+                    justitia est, nisi haec est?</p>
+        <p>Satis multa de justitia: Dicam deinceps, ut proposui, de Religione, cui ipsamet
+                    conjuncta est justitia reliquaeque virtutes. Hanc autem religionem, etsi in
+                    Augusta Austriacorum gente clarissimam semper fuisse compertum est, haud falso
+                    tamen dicere posse videor eam in<persName>CAROLO</persName>divinam quodammodo ac prope coelestem
+                    enituisse. Nam quae ille praetermisit sanctissimae religionis officia, quae non
+                    reliquit solidae pietatis documenta? Si in eo virtutis<pb n="8"/>genere illa
+                    plurimum laudis atque admirationis habent statis cujusque diei horis castissimas
+                    Deo preces adhibere, sacris divinisque ceremoniis summa gravitate modestiae
+                    interesse, supplicationibus decretis obire divum aras ac templa, templa ipsa ad
+                    Divinum cultum propagandum exaedificare, curare denique, ut iis Ecclesiarum
+                    procuratio committeretur, quos morum sanctitas, quos doctrinae fama, quos rerum
+                    sacrarum prudentia commendabat: Haec quidem omnia praestitit<persName>CAROLUS</persName>, atque ita
+                    praestitit, ut ex illius factis ac dictis omnibus, ex ipso etiam oris habitu
+                    quasi imago quaedam religionis exprimi posse videretur. Verum haec licet
+                    magnopere in Principe viro laudanda censeam, vel quod ipsius animum afficiunt
+                    atque exornant, vel quod in eos, quibus<corr>praeest</corr>, pietatis amorem ac
+                    studium inducunt; tamen si recte judicare velimus, non eam religionis laudem
+                    conficiunt, quae sit numeris omnibus absoluta, quae digna Principe, digna Rege,
+                    digna Imperatore<persName>CAROLO</persName>fuerit. Longe majus est aliquid, magisque solidum, in
+                    quo nulla inesse potest simulatio, fraus nulla, quod splendore suo cetera
+                    obruit, et quod Religio ipsa a Christiani nominis Principe praecipuo quodam jure
+                    repetere ac flagitare videtur. Quid autem hoc est, nisi ut veram atque
+                    incorruptam Fidem suis ille opibus atque potentia tueatur, Ecclesiae dignitatem
+                    vindicet, improborum hostium conatus ac vim nefariam infringat atque repellat?
+                    Age vero, numquid horum quidquam a<persName>CAROLO</persName>Religio non impetravit, quem vere
+                    habuit tutorem, patronum, vindicem ac statorum suum? Jam non ex Annalibus, sed
+                    ex imminentium malorum metu meministis periculosissimi illius temporis, quo
+                    immanissimus Christiani nominis hostis ingentem classem repente ex Apollonia
+                    eductam effudit in Corcyram Insulam, ut eo quasi propugnaculo dejecto in
+                    Italiam, in Italiam, inquam, ad delendum Jesu Christi nomen irrumperet. Qui tunc
+                    Christiani populi sibi non extimuerunt? Quae Civitates non trepidarunt? Quis non
+                    vidit res nostras in illud adductas fuisse discrimen, ut jam non de proferendis
+                    Imperii finibus, sed de totius Christianae Reipublicae salute, de nostris hisce
+                    aris focisque certaretur? At Imperator fortissimus et majoribus suis dignissimus
+                    in tanta rerum perturbatione trepidantibus omnibus praesto fuit ad religionis
+                    defensionem invicto ac forti animo, eamdemque jam pene labentem excepit, ruere
+                    non sivit, fulsit, sustinuit. Nam belli tam periculosi tamque difficilis
+                    tempestatem in se suscipiens opes ingentes exercitus florentissimos, fortissimos
+                    quosque duces Turcarum multitudini scelere ac furore concitatae opposuit. Hic
+                    vero, ut tanti adversus Sanctissimam Religionem meriti vim ac magnitudinem
+                    aestimare possitis, facite vobis veniat in mentem, qui status totius Christianae
+                    Reipublicae fuisset, nisi parato Caesar exercitu furentium barbarorum impetus
+                    crudelissimosque conatus a vestris cervicibus avertisset. Sic enim percipietis,
+                    sic judicabitis Corcyra capta atque expugnata facilem illis et apertum ad omnes
+                    Adriatici maris oras, ad vestra<pb n="9"/>haec littora, ad agros, ad regiones
+                    vestras et (quod refugit animus cogitare) ad hanc ipsam pulcherrimam Urbem,
+                    Sanctitatis domicilium, hospitium omnium gentium, lucem Orbis terrarum aditum
+                    atque incursionem futuram fuisse. Haec ne acciderent, prohibuit nostrae
+                    Religionis Auctor, Moderator, Servator Deus, qui<persName>CAROLUM</persName>ad ejusdem praesidium
+                    defensionemque ita excitavit, ut tanti periculi metus magna fuerit optatissimi
+                    auxilii celeritate dissipatus. Sed vos, Auditores, quae vestra sapientia est,
+                    videtis tot tantaque adversus sanctissimam Religionem, adversus vos ipsos<persName>CAROLI</persName>merita ac beneficia extitisse, quot quantaque mala erant in caliginosa illa
+                    tempestate pertimescenda.</p>
+        <p>Satisne vobis<persName>CAROLUS</persName>sollidam illam atque, ut ita dicam, Imperatoriam pietatem
+                    hoc suo praeclaro facto declarasse videtur? Quod si eas quoque Christiani
+                    Principis praecipuas partes putatis esse videre, ne ab haereticorum insidiis ac
+                    machinationibus ullum religio capiat detrimentum, utrum hoc etiam laudis genere
+                    floruerit, judicate: Nam cum ejecti undique et fuga trepidi se in Belgium
+                    recipissent, qui falsas quasdem de Divinis rebus opiniones dissimulabant,
+                    turbulenti homines ac studiosi rerum novarum, cumque ab eo peterent, sibi ut in
+                    florentissima Provincia tuto liceret esse, meministis, quam pie, quam fortiter
+                    impudentissimam illorum petitionem repudiaverit. Neque vero defuerant, qui
+                    religionis bonum, a Reipublicae commodo utilitateque disjungentes, magna
+                    contentione affirmarent satis commode inque rem suam facturum Casarem, si genus
+                    illud hominum, iis praesertim temporibus, non modo admitteret, sed foveret
+                    etiam, tueretur suisque rationibus adjungi pateretur. Incendium, quo ardeant
+                    hostes, utcumque natum ali oportere, nullam Imperii sive constabiliendi sive
+                    propagandi occasionem non arripiendam. Sed audite, audite, quid ad haec inimica
+                    pietatis consilia respondit Religiosissimus Imperator: Turpe est, inquit,
+                    Christiano Principi, quod Imperium ad Religionis tutelam sibi divinitus datum
+                    est, illud ipsum augere damno Religionis. O vocem magni indicem animi ac eximiae
+                    testem pietatis, quae Sanctissimam Religionem maximi esse faciendam, cetera
+                    omnia contemnenda arbitrabatur! Neque vero, quod praeclare dixit, factis non
+                    comprobavit. Ille ad eosdem pestilentissimos errores eorumque magistros
+                    profligandos omnem operam, curam, auctoritatem contulit; ille exilio, ille
+                    suarum legum severitate nefariorum hominum audaciam importunitatemque coercuit,
+                    ille denique palam ostendit nihil sibi antiquius fuisse, nihil carius, quam ut
+                    Romanam, hoc est puram, castam et sinceram de Divinis rebus doctrinam tueretur,
+                    ac quoad ejus fieri poterat, propagaret. Quid? Cum perversa illa haereticorum
+                    natio nihil non ageret, nihil non moliretur atque contenderet, ut in Catholicae
+                    Religionis perniciem quartus Risvicensis pacis Articulus aboleretur, nonne
+                    eamdem et ab eodem pietatis fonte ductam constantiam animique firmitatem
+                    praesetulit? Sed quid ego plura haec persequor? His ipsis<pb n="10"/>temporibus
+                    apparet, quantum in<persName>CAROLO</persName>praesidium, quam firmum, quam tutum habuerit
+                    Christiana Religio, dum se illo tam repente ac misere nudatam sentit ac dolet.
+                    Nam sublato<persName>CAROLO</persName>, quem habuit semper maxime fidelem et minime timidum
+                    defensorem dignitatis suae, quis non videt, quanta Religioni malorum moles
+                    impendeat? Circumstant eam undique pericula, jam haeretici turbas faciunt, jam
+                    sunt in armis, jam Templa, Ecclesiae patrimonia, res humanas<corr>omnesque</corr>divinas polluunt, vexant, perturbant. Ubi, ubi es,<persName>CAROLE</persName>, Imperator optime? Quo evanuisti, Ecclesiae custos ac vindex fortissime?
+                    Scimus quidem praeclare Tecum actum, quod ex hac jactatione vitae fueris
+                    ereptus, et speramus, quod ita temperate, juste ac Religiose vixeris, quod Tibi
+                    pacatus semper ac constans, quod aliis fructuosus, quod Deo carus fueris, quod
+                    demum mortem pie fortiterque obieris, speramus, inquam, ex hoc veluti carcere
+                    emissum in beatissimum illud ac aeternum piorum domicilium emigrasse. Verum
+                    Christianam Rempublicam in sordibus, in luctu, in moerore, in solitudine, in
+                    maxima rerum perturbatione deseruisti. O miseram ac lacrymabilem conditionem
+                    nostram! O acerbam rerum harum omnium recordationem! Hoc fuit, quod Maximus ille
+                    ac sapientissimus Religionis moderator et Pontifex Optimus, quem honoris caussa
+                    nomino,<persName>BENEDICTUS XIV.</persName>tristissimo hujusce interitus nuncio, quasi repentino
+                    aliquo ictu perculsus collacrimasse dicitur, ac manus ad Deum supplices
+                    substulisse, ut cum Ecclesiae suae placatum ac propitium redderet. Videbat
+                    prudentissimus Pontifex, in quot quantaque mala Religio incidisset, et, quo est
+                    in eamdem sensu, non potuit non maximopere commoveri. Sed opportune accidit, ut
+                    de<persName>BENEDICTO XIV.</persName>mentionem facerem, unde aliquod in tam gravi acerboque casu
+                    solatii genus peti debet. Nam consideranti mihi hunc Christianae Reipublicae
+                    statum, qui nunc est, ac temporum conditionem intuenti supremo quodam ac
+                    singulari Dei consilio factum esse videtur, ut<persName>CAROLI</persName>mors eveniret, quando ad
+                    Ecclesiae puppim sedet is Pontifex, qui in maximis turbinibus ac fluctibus
+                    maximam scientiam ac virtutem suam ostendit. Quid enim reliqui facit, quo
+                    imminentia mala avertat, Principum voluntates conjungat, Religionam, cujus ipse
+                    Antistes Maximus, sartam tectamque conservet? Quamobrem, ut aliquem dolori
+                    nostro modum adhibeamus, si quis adhiberi potest, quoties tantae calamitatis
+                    cogitatio subit animum, toties ad hunc Pontificem oculos ac mentem
+                    convertamus.</p>
+        <p>Vos autem, Germani Viri, habetis aliud quidem neque mediocre consolationis
+                    argumentum, quod<persName>CAROLI</persName>Filia et Haeres<persName>MARIA THERESIA</persName>, Regina<country>Hungariae</country>ac<country>Bohemiae</country>Augusta, (quod illi nobisque omnibus felix faustum fortunatumque sit)
+                    regnat, atque ita regnat, ut Patris imaginem ac vitam exprimens virtutibus suis
+                    tam moderati, tam justi, tam Religiosi Principis mitigare quodammodo ac lenire
+                    posse videatur.</p>
+      </div>
+      <pb/>
+      <div>
+        <p>IMPRIMATUR. Si videbitur Reverendissimo Patri Sacri Palatii Apostolici
+                    Magistro.</p>
+        <p>Ph. Spada, Archiepiscopi Theodosiae Vicesgerens.</p>
+      </div>
+      <div>
+        <p>IMPRIMATUR.</p>
+        <p>Frater Nicolaus Ridolfi Ordinis Praedicatorum, Sacri Palatii Apostolici
+                    Magister.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

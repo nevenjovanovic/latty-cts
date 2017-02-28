@@ -1,0 +1,7 @@
+<work groupUrn="urn:cts:latty:scherer01" urn="urn:cts:latty:scherer01.latty2700726" xml:lang="lat">
+  <title xml:lang="lat">Ode sapphica iuris defensori dicata</title>
+  <edition workUrn="urn:cts:latty:scherer01.latty2700726" urn="urn:cts:latty:scherer01.latty2700726.latty-lat1:">
+    <label xml:lang="lat">Ode sapphica iuris defensori dicata, versio electronica</label>
+    <description xml:lang="eng">test description</description>
+  </edition>
+</work>

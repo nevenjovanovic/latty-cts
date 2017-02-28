@@ -1,0 +1,7 @@
+<work groupUrn="urn:cts:latty:sonhovius01" urn="urn:cts:latty:sonhovius01.latty2712189" xml:lang="lat">
+  <title xml:lang="lat">Catharinias</title>
+  <edition workUrn="urn:cts:latty:sonhovius01.latty2712189" urn="urn:cts:latty:sonhovius01.latty2712189.latty-lat1:">
+    <label xml:lang="lat">Catharinias, versio electronica</label>
+    <description xml:lang="eng">test description</description>
+  </edition>
+</work>

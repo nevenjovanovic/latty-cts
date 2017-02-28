@@ -1,0 +1,7 @@
+<work groupUrn="urn:cts:latty:brunelli01" urn="urn:cts:latty:brunelli01.latty2597168" xml:lang="lat">
+  <title xml:lang="lat">Oratio genethliaca</title>
+  <edition workUrn="urn:cts:latty:brunelli01.latty2597168" urn="urn:cts:latty:brunelli01.latty2597168.latty-lat1:">
+    <label xml:lang="lat">Oratio genethliaca, versio electronica</label>
+    <description xml:lang="eng">test description</description>
+  </edition>
+</work>

@@ -1,0 +1,828 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc xml:id="anonymus-helicon">
+      <titleStmt>
+        <title xml:id="Anonymus52303">Helicon Oenipontanus advenienti serneissimae reginae Ailhelminae Ameliae
+                    obvius, sive Universitas Oenipontana serinissimam reginam Wilhellminam Aemiliam excipiens anno 1699, 
+                    versio electronica</title>
+        <author key="#anonymus">Anonymus</author>
+        <editor>Kofler, Wolfgang</editor>
+        <editor>Schaffenrath, Florian</editor>
+        <editor>Tilg, Stefan</editor>
+        <respStmt>
+          <resp>Hanc editionem electronicam curavit</resp>
+          <name>Luggin, Johanna</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Digital text provided by the editor</edition>
+      </editionStmt>
+      <extent>5 folia</extent>
+      <publicationStmt>
+        <p>Croatica et Tyrolensia: Tyrolis Latina<date>July 2014</date>
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author key="#anonymus">Anonymus</author>
+            <title>Helicon Oenipontanus advenienti serneissimae reginae Ailhelminae Ameliae
+                            obvius, sive Universitas Oenipontana serinissimam reginam Wilhellminam Aemiliam excipiens anno 1699</title>
+            <imprint>
+              <pubPlace>Innsbruck</pubPlace>
+              <date when="1699">1699</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>Kofler, Wolfgang/Schaffenrath, Florian/Tilg, Stefan: Eine Musentravestie an der Universität. 
+                    Der Helicon Oenipontanus für
+                    Prinzessin Amalia Wilhelmine von Braunschweig-Lüneburg, in : Gastgeber, Christian/Klecker, Elisabeth (Hg.) : 
+                    Neulatein an der Universität Wien. Ein literarischer Streifzug, Wien 2008, 319–346.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1699" period="16xx_3_third">1699</date>
+      </creation>
+      <textClass>
+        <keywords scheme="time">
+          <term>Von der Gründung der Universität bis zur Aufhebung des Jesuitenordens (1773)</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>Dichtung</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2014-07-29</date>
+        <name>Luggin, Johanna</name>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:latty:anonymus52303.latty2810362.latty-lat1:">
+    <front>
+      <titlePage>
+        <titlePart>Helicon Oenipontanus advenienti serenissimae reginae Wilhelminae Ameliae obvius, sive Universitas
+                    Oenipontana serenissimam reginam Wilhellminam Aemiliam excipiens anno 
+                    qVo renoVatVr Instar aqVILae IVVentVS DoMVs aVstrIaCae (1699)</titlePart>
+        <titlePart>cum permissu superiorum</titlePart>
+        <docImprint>Typis Benedicti Caroli Reisacher Typographi Academici</docImprint>
+      </titlePage>
+    </front>
+    <body>
+      <div n="I">
+        <p>
+          <pb/>I Quod dudum desiderabat Hungaria, tamdiu sperabat Bohemia, avidissime
+                suspirabat Austria, iam pridem exspectabat Silesia, numquam non exoptabat Styria,
+                continuo ingeminabat Carinthia, sana ardentissime precabatur, Lunatica vero cane
+                peius et angue aversabatur Dalmatia, observabat vigilanter Burgundia, identidem a
+                Deo T. O. M. enixe flagitabat Tyrolis, etsi fors dignitate minima, nequaquam tamen
+                suo in te, o regina, affectu ultima, quod sacrum Romanum imperium et Christianitas
+                universa unanimi semper eoque ardentissimo expetebat voto, hostes vero malique
+                omnes, veluti certissimum exitii sui terminum, constanter pertimescebant, regiarum
+                nuptiarum tempus exoptatissimum aureis illustrissimi Phoebi quadrigis mundo
+                inferendum, iam iam instare per vicos et pagos, urbes et compita, provincias et
+                regna, Europam totam nec non et reliqui orbis partes potissimas in omnium ore et cum
+                tenerrimo animorum motu certissima</p>
+        <l>Fama volat pigrumque manu seponere pedum<note place="foot" xml:id="ftn1" n="1">pedum, -i.: Hirtenstab, bei Vergil jedoch kurzes
+                            e!</note>
+        </l>
+        <l>iussus Apollo putres et iamiam fidibus orbas</l>
+        <l>cum plectris repetit citharas artemque priorem.</l>
+        <l>Iamque minus promptos desuetum cogit in usum</l>
+        <l n="5">Parnassi praeses digitos falluntque petitae</l>
+        <l>non raro chordae. Media nunc haeret in oda</l>
+        <l>principium repetens. Reliquum pertexere nescit.</l>
+        <l>Iam primum advertens, quantum desueverit usus</l>
+        <l>pastores inter, ruri indignatur et agnis.</l>
+        <l n="10">„Pascua proh!“ ait et coram Cyllenius adstans</l>
+        <l>abrumpit subito necdum perfecta loquentis</l>
+        <l>verba refertque Deus mendax non falsa stupenti</l>
+        <l>nuntia post paucos his montibus adfore soles</l>
+        <l>reginam Wilhellminam et iam proxime abesse.</l>
+        <l n="15">Obstupuit subito adventu tantae hospitis et, quid</l>
+        <l>redderet, ignorans „Quid sic, fur subdole, nostris</l>
+        <l>obstrepis importune sonis?“ prorumpit Apollo.</l>
+        <l>„I potius Musasque voca plaususque parare</l>
+        <l>et citharas reparare suas fac nomine nostro</l>
+        <l n="20">praecipe pernicesque ad me contendere gressus!“</l>
+        <l>Has facie ridenti excepit Apollinis iras</l>
+        <l>Maia natus eique nihil turbatus in istas</l>
+        <l>respondit voces: „Tantum ne furta revolve</l>
+        <l>pristina continuoque lubens praestabo cupitum,</l>
+        <l n="25">o pater, obsequium. Accipient tua iussa sorores,</l>
+        <l>si tamen ulla meis praesumat credere dictis.“</l>
+        <l>Haec ubi dicta dedit, veluti si Protheus alter</l>
+        <l>continuo cultus alios mentitus, et ora,</l>
+        <l>inde volans Helicona petit iussasque sorores</l>
+        <l n="30">advocat, excipiant ut coram iussa parentis.</l>
+        <l>Delius interea secum diversa volutans</l>
+        <l>pectore sollicito, curis ingentibus haesit</l>
+        <l>implicitus partesque animum distraxit in omnes.</l>
+        <l>
+          <pb/>Nunc quibus excipiat venientem plausibus orbis</l>
+        <l n="35">Romani dominam, nunc qualia carmina Musas</l>
+        <l>accinere, et qualem variis inflectere metris</l>
+        <l>materiam placeat, nunc quo sermone canendum.</l>
+        <l>Nunc hi, nunc illi ac alii sub pectore sensus</l>
+        <l>surgunt, quaeque prius veluti selecta placebant</l>
+        <l n="40">plausibus, inde iterum spernit, fastidit, omittit</l>
+        <l>consiliique inopem vastissima copia fecit.</l>
+        <l>Iamque noveni adsunt deserti Heliconis olores,</l>
+        <l>Musarum chorus explorans, quae sit praestanda voluntas,</l>
+        <l>quod Phoebi imperium ad Pindum custode relicto</l>
+        <l n="45">Pegaso, at excubiis pariter fugit ille relictis</l>
+        <l>et sequitur Musas vestigia nota premendo.</l>
+        <l>Quas ubi conspexit pater, indignatio vultum</l>
+        <l>ante alacrem perturbat carminaque interrumpit.</l>
+      </div>
+      <div n="II">
+        <p>II Et „Vah coeli terraeque pudor! proh insolitum Heliconis probrum!“ exclamat
+                increpitans „Adeone luridae incultaeque in tanta orbis paene universi solemnitate et
+                communi bonorum laetitia, ubi studiosis ingeniis excultae Veneres et multicoloribus
+                quodam modo pavonum spoliis superbae Iunones, immo et Pulchritudo ipsa vix non
+                humilis nimium ac merito rugosa videtur, inconsulto temerarioque ausu comparere
+                attentent Parnassides nostrae? Quid ad haec longe lateque suis excita sedibus eaque
+                insolita hominum multitudo? Quid sanctis plene inundata affectibus subditorum
+                pectora? Quid quaterna, cuius vices agetis modo, facultas academica? Quid
+                illustrissimus comitatus reginae serenissimae? Quid ipsa demum plus sordida
+                humilitate et incompto vestro habitu offensa, quam cantu recreata regina
+                serenissima?</p>
+        <l>„Et tibi Calliope“ multum iam mitior inquit</l>
+        <l>vultumque emendans „quaeso, quos afferet usus</l>
+        <l>ruralis soccus? Vah! Ocyus exue sordes!</l>
+        <l>Non tales equidem volui talemque decorem,</l>
+        <l n="5">sed veluti incedit fucata superbia luxus</l>
+        <l>feminei, alta et multicolor turritaque moles</l>
+        <l>verticibus stans emineat, quae culmine coelum</l>
+        <l>iam prope contingat, phalerata superbia iustum</l>
+        <l>hoc festo reperit titulum, cum Cynthius ipse</l>
+        <l n="10">pluribus assumptis illustrior ignibus orbi</l>
+        <l>invehitur radiosque novos cum naribus efflat</l>
+        <l>Eous Pyroisque Phlegonque et flammiger Aethon.“</l>
+        <l>Dixerat et reliquas pariter conversus Apollo</l>
+        <l>talibus affatur dictis.“Labor inclytus“ inquit</l>
+        <l n="15">„vos vocat, o Musae! Cunctos intendite nervos!</l>
+        <l>In vultu Charites reliquoque in corpore luxus</l>
+        <l>emineat, quo non maiorem viderat orbis.</l>
+        <l>Purpureis alte suras vincire cothurnis</l>
+        <l>convenit et vestis Tyrio sit murice tincta.</l>
+        <l n="20">Quidquid acus Phrygiae, quidquid sollertia novit</l>
+        <l>
+          <pb/>humana et quidquid non novit texere, id omne</l>
+        <l>induite! Ingenium totamque exhauriat artem</l>
+        <l>ornatus vester. Gangis collecta supellex</l>
+        <l>gemmea et auriferis fluvii famulentur arenis.</l>
+        <l n="25">Promite regales et purpurae et oris honores</l>
+        <l>purpureos! Amplam segetem sapientia laudis</l>
+        <l>suggeret excelsusque animus, dignissima sceptro</l>
+        <l>munera ad excelsae natas fastigia sortis</l>
+        <l>dotes, quid promittat Hymen quidve omnia prodant</l>
+        <l n="30">et quae dictabit plectri longissima praxis.“</l>
+        <l>At contra modicos soles et curta queruntur</l>
+        <l>tempora Pierides nec tantis plausibus aequum</l>
+        <l>concedi spatium. „Non nos“ audacior inquit</l>
+        <l>Calliope „non nos patulis depromimus odas,</l>
+        <l n="35">o genitor, manicis. Opus est sudare Camoenas.</l>
+        <l>Praecipiti nec enim pulsatum pectine plectrum</l>
+        <l>dulcisonos cantus et dignas insonat odas.</l>
+        <l>Praestaret penitus tacitis secedere avenis,</l>
+        <l>quam minus accinctas discrimen adire ruboris.“</l>
+        <l n="40">Haec illa. At Phoebus Musas ubi senserat esse</l>
+        <l>difficiles, iterum atque iterum placido ore renidens</l>
+        <l>aggreditur dictis multum diversus ab illo:</l>
+        <l>„Charae animae, novi faciles in carmina vires“</l>
+        <l>inquit „et ingenium vestrum. Prensate laborem!“</l>
+        <l n="45">Persuasitque brevi, longo sermone quod ante</l>
+        <l>non valuit. Primasque sibi iam quaelibet optat.</l>
+        <l>Accingunt igitur se operi minuitque laborem</l>
+        <l>pulcher honoris amor personaque tanta canendi</l>
+        <l>materies. Adeo quaevis vincuntur amori.</l>
+        <l n="50">Vix promptis patrem studiis recreare sorores,</l>
+        <l>altera continuo rediens Cyllenius affert</l>
+        <l>nuntia et adventum reginae ex more disertus</l>
+        <l>pluribus extollit iamiam digito indice monstrans:</l>
+        <l>„Garrule, solve moras!“ alio distractus Apollo</l>
+        <l n="55">sensibus hic infert „Ne nostra negotia turbas!“</l>
+        <l>Reginae adventu iam compita quaeque viarum</l>
+        <l>perstrepere, ac veluti subitus cum Mulciber aedes</l>
+        <l>corripuit, sic se portis effundere turba</l>
+        <l>omnis in occursum reginae. Haec publica fama</l>
+        <l n="60">ad Musas etiam cito pertigit. Ocius ergo</l>
+        <l>sollicitae Phoebum repetunt et agenda requirunt.</l>
+        <l>Ista manu citharam, plectrum gerit altera, avenam</l>
+        <l>illa ac exiguis pertentant cantibus artem.</l>
+        <l>Extemplo pater alatum, quem provida Clio</l>
+        <l n="65">cornipedem auratis phaleris multoque superbum</l>
+        <l>ornatu instruxit, rapidus conscendit et illas</l>
+        <l>pone sequi pedites iubet. Ipse effectus equestris</l>
+        <l>
+          <pb/>ordinis, ante dies aliquot pastor qui paverat agnos,</l>
+        <l>iam vehitur sublimis equo per aperta viarum.</l>
+        <l n="70">Itur in occursum, qua proxima semita ducit.</l>
+        <l>Vix cum virgineo comitatu excesserat urbe,</l>
+        <l>cum subito geminus se iungit Anacreon. Illum</l>
+        <l>Ausonia, hunc genuit studiosa Alemannia vatem.</l>
+        <l>Hi veniam a Phoebo rogitant sociasque Camoenas</l>
+        <l n="75">iungere deposcunt. Indulsit laetus honorem</l>
+        <l>vatibus et pariter comitari iusserat ambos.</l>
+        <l>Iam per consertos cuneos populosque frequentes</l>
+        <l>angustum molitus iter, penetravit ad ipsam</l>
+        <l>doctus eques dominam vocesque erupit in istas:</l>
+        <l n="80">„Salve, puniceis veluti rediviva quadrigis,</l>
+        <l>post atras tenebras et maesta silentia noctis</l>
+        <l>Lucifero praeeunte viam cum sidere multo</l>
+        <l>aurora invehitur caelo recreatque iacentes</l>
+        <l>spissis in tenebris rubicundo lumine terras:</l>
+        <l n="85">haud aliter forma pulcherrima Tyndaris, Oeno</l>
+        <l>affinem, innumera peditumque equitumque cohorte</l>
+        <l>hinc atque hinc stipata hanc nostram tendis ad urbem</l>
+        <l>latura hic cunctae solacia maxima genti.</l>
+        <l>O quam formosas Charites quantumque decorem!</l>
+        <l n="90">Quas cerno ex oculis nivibusque rosisque genarum</l>
+        <l>evibrare faces nil claro sole minores!</l>
+        <l>Accipe elementer tenues Heliconis honores</l>
+        <l>et, regina, fave. Mox vates tangere chordas</l>
+        <l>Pieridesque iubet. Iuncta ergo voce salutant.</l>
+      </div>
+      <div n="III">
+        <p>III</p>
+        <l>Igneos Cancros habitante Phoebo</l>
+        <l>et polo optatas pluvias negante,</l>
+        <l>ut graves Tellus nebulas ovanti</l>
+        <l>excipit ore,</l>
+        <l n="5">ut feras post insidias procorum</l>
+        <l>et tot elapsas segetes reversum</l>
+        <l>fida coniunx Penelope maritum</l>
+        <l>laeta recepit,</l>
+        <l>ut suam Alcides iaculo peremptam</l>
+        <l n="10">invidae mortis Phlegetonte ab imo</l>
+        <l>coniugem votis cytharaque flexo</l>
+        <l>Dite reduxit,</l>
+        <l>
+          <pb/>ut senex quondam genitor Tobiam</l>
+        <l>ex peregrina regione salvum,</l>
+        <l n="15">ceu pigrae dulcem baculum senectae,</l>
+        <l>auspice coelo,</l>
+        <l>non secus te, regia sponsa, clarum</l>
+        <l>imperi sacri columen, futuros</l>
+        <l>Caesares mater paritura, nostrum</l>
+        <l n="20">excipit agmen.</l>
+      </div>
+      <div n="IV">
+        <l>IV Dicto respirare hymno et, ceu posceret ordo,</l>
+        <l>clamat ovans populus vocemque ad sidera tollit:</l>
+        <l>„Iupiter (hospitibus nam te dare iura loquuntur),</l>
+        <l>hunc laetum sponsaeve diem sponsoque precamur</l>
+        <l n="5">esse velis nostrosque huius meminisse minores.</l>
+        <l>Adsit laetitiae Bacchus dator et bona Iuno!“</l>
+        <l>Iam signum dederat Phoebus iussitque tacere.</l>
+        <l>Ergo invitatus canit hospes Anacreon oden.</l>
+      </div>
+      <div n="V">
+        <p>V</p>
+        <l>Formosa salve Tyndaris</l>
+        <l>in regiis Latinis,</l>
+        <l>quod illa quondam Doricis</l>
+        <l>aulisque Dardanorum.</l>
+        <l n="5">Haud altero decennio</l>
+        <l>indigna tertiove</l>
+        <l>sub Marte Graio Pergamum</l>
+        <l>pro qua periclitetur.</l>
+      </div>
+      <div n="VI">
+        <p>VI</p>
+        <l xml:lang="dt">Die fein Lacedaemonierin</l>
+        <l xml:lang="dt">Zur lieb mag nit mehr daugen /</l>
+        <l xml:lang="dt">Der Dich anblickt / O Königin /</l>
+        <l xml:lang="dt">Du Liecht / und Trost der Augen.</l>
+        <l xml:lang="dt">Du werst ja werth / ein neues pferdt /</l>
+        <l xml:lang="dt">Das Troiam möcht verbrennen?</l>
+        <l xml:lang="dt">Dies neue feur / wär nit zu theur</l>
+        <l xml:lang="dt">Umb Dich / ich muß bekennen.</l>
+      </div>
+      <div n="VII">
+        <p>
+          <pb/>VII</p>
+        <l>Olim decorem Cypridis</l>
+        <l>auxit colore pictor</l>
+        <l>sacrosque veri terminos</l>
+        <l>excessit infidelis.</l>
+        <l n="5">Quid profuit? Ne compara</l>
+        <l>Decore nostra vincit,</l>
+        <l>rugaeque turpis arguit</l>
+        <l>pictam deamque veram.</l>
+      </div>
+      <div n="VIII">
+        <p>VIII</p>
+        <l xml:lang="dt">Was hilft es / wann schon streicht herfür</l>
+        <l xml:lang="dt">Apelles mit den Farben</l>
+        <l xml:lang="dt">Die venus über die gebühr</l>
+        <l xml:lang="dt">Muß sich selbst ihr erbarmen.</l>
+        <l xml:lang="dt" n="5">Ich sag / was recht / sie ist zu schlecht /</l>
+        <l xml:lang="dt">Magst / wie du willst / sie malen /</l>
+        <l xml:lang="dt">Der runzeln voll. ders sagen soll /</l>
+        <l xml:lang="dt">Ich mein / sie wurd ihn zahlen.</l>
+      </div>
+      <div n="IX">
+        <p>IX</p>
+        <l>Videre formam numina</l>
+        <l>deabus eminentem</l>
+        <l>flammasque mentem blandulas</l>
+        <l>mox sentiunt subire.</l>
+        <l n="5">Instar procorum affectibus</l>
+        <l>certant dii minores.</l>
+        <l>Sed hanc supremus Iupiter</l>
+        <l>de iure vendicabit..</l>
+      </div>
+      <div n="X">
+        <p>X</p>
+        <l xml:lang="dt">Und wer weiß nit / was offt vermag</l>
+        <l xml:lang="dt">Die Schönheit einer Damen?</l>
+        <l xml:lang="dt">Die Götter selbst wie manchen tag</l>
+        <l xml:lang="dt">zwey / drey mahl zu Ihr kamen.</l>
+        <l xml:lang="dt" n="5">Sie streitten drum / wer Sie bekom /</l>
+        <l xml:lang="dt">Die Lieb kriegt in dem Himmel /</l>
+        <l xml:lang="dt">Da ungefehr kombt Jupiter</l>
+        <l xml:lang="dt">Und stillet das gedümmel.</l>
+      </div>
+      <div n="XI">
+        <p>
+          <pb/>XI</p>
+        <l>Has appetebant nuptias</l>
+        <l>pulcherrimae dearum</l>
+        <l>et tarda grati nuntii</l>
+        <l>momenta computabant.</l>
+        <l n="5">Quid afferat Cyllenius</l>
+        <l>et nuntius novorum,</l>
+        <l>quid fama dicat garrula,</l>
+        <l>quid litterae, requirunt.</l>
+      </div>
+      <div n="XII">
+        <p>XII</p>
+        <l xml:lang="dt">Will warten auf die liebe Stundt /</l>
+        <l xml:lang="dt">Ob man möcht umb sie kommen.</l>
+        <l xml:lang="dt">Nichts anders weiß sonst Herz / und Mundt /</l>
+        <l xml:lang="dt">Die Lieb hats ganz eingnommen.</l>
+        <l xml:lang="dt" n="5">Mit sorg man fragt / was man doch sagt /</l>
+        <l xml:lang="dt">wer möchte wohl obsiegen?</l>
+        <l xml:lang="dt">Förcht immerdar / man stehe in gfahr /</l>
+        <l xml:lang="dt">und därffte unterliegen.</l>
+      </div>
+      <div n="XIII">
+        <p>XIII</p>
+        <l>Certant decore singulae</l>
+        <l>victoriamque sperant.</l>
+        <l>Non foetus unus arboris</l>
+        <l>victoriae paratur.</l>
+        <l n="5">Nec est Paris nunc arbiter,</l>
+        <l>sed Iupiter supremus.</l>
+        <l>Tu sola cunctis dignior</l>
+        <l>es gratiis reperta.</l>
+      </div>
+      <div n="XIV">
+        <p>XIV</p>
+        <l xml:lang="dt">Die gstaldt man schauet in dem glass /</l>
+        <l xml:lang="dt">Pflegt offt zum Spiegel z´lauffen.</l>
+        <l xml:lang="dt">Man fehlt das gwicht / man fehlt die maaß /</l>
+        <l xml:lang="dt">kan man sie nit erkauffen.</l>
+        <l xml:lang="dt" n="5">Es ist umsunst, der ehren-dunst</l>
+        <l xml:lang="dt">hat all auff d´seiten gschlagen /</l>
+        <l xml:lang="dt">Weil Jupiter, der grosse Herr /</l>
+        <l xml:lang="dt">Zu ihnen hat kein magen.</l>
+      </div>
+      <div n="XV">
+        <p>
+          <pb/>XV</p>
+        <l>Nec quaero pulchritudinem.</l>
+        <l>Iam sufficit liquere,</l>
+        <l>quod forma selectissima</l>
+        <l>arriserit Tonanti,</l>
+        <l>sed dignitatem gratulor</l>
+        <l>et regiam coronam.</l>
+        <l>Ad summa fortis essedo</l>
+        <l>evecta pertigisti.</l>
+      </div>
+      <div n="XVI">
+        <p>XVI</p>
+        <l xml:lang="dt">Man sing / und sag / was man nur will</l>
+        <l xml:lang="dt">von deiner gstaldt / und schenheit /</l>
+        <l xml:lang="dt">Hett schier gesagt / sie hab kein zihl /</l>
+        <l xml:lang="dt">Sey ein vergebne arbeit.</l>
+        <l xml:lang="dt" n="5">Schön ist dein gstaldt / so da gefalt</l>
+        <l xml:lang="dt">dem Größten der Monarchen:</l>
+        <l xml:lang="dt">Schen, weil an ihr kein ungebühr /</l>
+        <l xml:lang="dt">Die man nur könt beschnarchen.</l>
+      </div>
+      <div n="XVII">
+        <p>XVII</p>
+        <l>Quod Salomonis filiae</l>
+        <l>haereditate carnis</l>
+        <l>sacrum paterni spiritus</l>
+        <l>sunt munus assecutae,</l>
+        <l n="5">Ameliae si comparo,</l>
+        <l>exilis est supellex.</l>
+        <l>Haec anteit Tritoniam</l>
+        <l>longissime Minervam.</l>
+      </div>
+      <div n="XVIII">
+        <p>XVIII</p>
+        <l xml:lang="dt">Ganz weiße Döchter / glaub ich wohl /</l>
+        <l xml:lang="dt">Hab Salomon geboren /</l>
+        <l xml:lang="dt">Des Vatters weisen erbschafft voll /</l>
+        <l xml:lang="dt">An Weißheit auserkoren.</l>
+        <l xml:lang="dt">Ich glaub doch schwer / das sie noch mehr /</l>
+        <l xml:lang="dt">Als Wilhellmina / hatten /</l>
+        <l xml:lang="dt">Dan Mund und Hand lautter Verstand /</l>
+        <l xml:lang="dt">Weiß nichts / als weise thatten.</l>
+      </div>
+      <div n="XIX">
+        <p>
+          <pb/>XIX</p>
+        <l>Davidis ille filius</l>
+        <l>quod sexui virili,</l>
+        <l>nostras id inter feminas</l>
+        <l>haec iam videtur esse.</l>
+        <l n="5">An eius est ex sanguine</l>
+        <l>soror vel est propinqua?</l>
+        <l>Quod si negas de sanguine,</l>
+        <l>ex spiritu probatur.</l>
+      </div>
+      <div n="XX">
+        <p>XX</p>
+        <l xml:lang="dt">Der weißist aus den Mäneren</l>
+        <l xml:lang="dt">Wie Salomon gewesen /</l>
+        <l xml:lang="dt">Nit anderst aus den Weiberen</l>
+        <l xml:lang="dt">Scheint dise auserlesen /</l>
+        <l xml:lang="dt" n="5">Ob Sie vileicht / weils Ihm ganz gleicht /</l>
+        <l xml:lang="dt">Ist aus sein bluts-verwandten?</l>
+        <l xml:lang="dt">Gwiß Beede seindt der Weisheit Freindt /</l>
+        <l xml:lang="dt">Und gar gutte Bekanten.</l>
+      </div>
+      <div n="XXI">
+        <p>XXI</p>
+        <l>Pandora dives omnium</l>
+        <l>ornatibus dearum,</l>
+        <l>in qua Venus cum Palade</l>
+        <l>sudavit excolenda,</l>
+        <l n="5">ab hac recedit plurimum.</l>
+        <l>Ne vel require causam.</l>
+        <l>Est illa cunctis noxia.</l>
+        <l>Haec omnibus salubris.</l>
+      </div>
+      <div n="XXII">
+        <p>XXII</p>
+        <l xml:lang="dt">Göttlich Pandora aufgebußt /</l>
+        <l xml:lang="dt">War schlimm in den gedancken.</l>
+        <l xml:lang="dt">Sie hat der Welt wohl schen genutzt.</l>
+        <l xml:lang="dt">der Teuffel soll ihrs dancken.</l>
+        <l xml:lang="dt" n="5">Fort / fort mit ihr / hinauß zur thür.</l>
+        <l xml:lang="dt">Man hat genug der Büren.</l>
+        <l xml:lang="dt">Ein anders gsang! / ganz andren klang</l>
+        <l xml:lang="dt">Die Unser last verspiren.</l>
+      </div>
+      <div n="XXIII">
+        <p>
+          <pb/>XXIII</p>
+        <l>Abrumpunt cantus. Idem ne forte facessat</l>
+        <l>taedium et ut faciem casto suffusa pudore</l>
+        <l>reginae solitum submisso poplite honorem</l>
+        <l>exhibuit, cantu sic Pieridum incipit una:</l>
+        <l n="5">„Ergo Wilhellmina neo-regina cananda est?</l>
+        <l>Cui vix terra parem, nullam Lucina fatetur</l>
+        <l>sustinuisse magis claram. Hic tibi summa maritat</l>
+        <l>maiestas formam, qua non praestantior ulla,</l>
+        <l>qualem nec tabulis vivisque coloribus umquam,</l>
+        <l n="10">vincentem Charites Cous depinxit Apelles,</l>
+        <l>qualem nec Xeuxis. Primam sapientia laudem</l>
+        <l>vendicat et quosvis manuum moderatur et oris</l>
+        <l>motus, hac veluti patria resideret arce.</l>
+        <l>Nil miror Wilhellminae sacra sceptra, coronas.</l>
+        <l n="15">Obtinuit grandes superum sortisque favores,</l>
+        <l>regalem thalamum, solium cum purpura et omnem,</l>
+        <l>qua magis excelsam nescit promittere sortem</l>
+        <l>tellus ambitiove sibi praefigere metam.</l>
+        <l>O forte sane diis ipsis atque deabus</l>
+        <l n="20">haud contemnendam! Haec omni dominabitur orbi,</l>
+        <l>Matutinus ubi Titan rursum urget in auras</l>
+        <l>cornipedes et ubi fessum caput aequore condit.</l>
+        <l>Pro quales, superi! Tantam genuere parentes?</l>
+        <l>Verum has naturae dotes haud sorte minori</l>
+        <l n="25">contentas, ipso vel naturae ordine clare</l>
+        <l>invenies, formoso animo nil maius et ore</l>
+        <l>offerri liquidum est, proportio iusta videtur.</l>
+        <l>Succedit (vulto tragico positoque dolore)</l>
+        <l>Melpomene admittens alios in pectore motus</l>
+        <l n="30">surgere, reginae festivo carmine plaudit.</l>
+      </div>
+      <div n="XXIV">
+        <p>XXIV</p>
+        <l>Sit tua forma aliis, aliis sapientia laudis</l>
+        <l>materies. Laudis non nego digna suae.</l>
+        <l>Non tamen haec placuit nostris inflectere chordis.</l>
+        <l>Omnia prae reliquis haec mea plectra legunt.</l>
+        <l n="5">Dic, quid hymen thalamique habiti sub tempora pacis</l>
+        <l>promittent! Pacem pax paritura feret.</l>
+      </div>
+      <div n="XXV">
+        <p>
+          <pb/>XXV</p>
+        <l>Proxima Terpsichore pergit coepta omina avena:</l>
+        <l>Fert insignia equum futura sponsa.</l>
+        <l>O fausta omina, nuptias secundas!</l>
+        <l>Primas utraque pars licet celebret.</l>
+        <l n="5">Cunctae applaudite, laeta regna, gentes!</l>
+        <l>Luso Pygmalione fratre parva</l>
+        <l>Carthago Tyriis profecta regnis,</l>
+        <l>primum turbine Nereoque pressa,</l>
+        <l>verum mox melius Noto favente</l>
+        <l n="10">terras deveniens dea edocente</l>
+        <l>defossum acris equi caput<note place="foot" xml:id="ftn4" n="4">Anspielung auf Virg. Aen. I 441-444: Mitten in
+                        Karthago befindet sich ein Hain (lucus). An diesem
+                        Ort haben die Punier, als sie aus ihrer Heimat geflohen waren, den Schädel
+                        eines gewaltigen Pferdes (caput acris equi, 444)
+                        ausgegraben. Dieses Zeichen bedeutete, daß Karthago großen Kriegsruhm
+                        erfechten werde, außerdem daß das Volk leicht zu ernähren sein werde.</note>secundis</l>
+        <l>tollit auguriis ovante Poeno.</l>
+        <l>Quippe sic fore regna Marte et armis</l>
+        <l>pro<add resp="editors">r</add>sus egregia, omnibus tremenda.</l>
+        <l n="15">Caesisque hostibus et novis trophaeis</l>
+        <l>quercus innumeras Iovi datura.</l>
+        <l>Sic gentem fore proferente terra</l>
+        <l>divitem Cererem sacrosque fructus</l>
+        <l>et victu facilem et diis secundis</l>
+        <l n="20">adversus rabidos nefariae ausus</l>
+        <l>sortis saecula fera perstituram</l>
+        <l>effosso omine fata praemonebant.</l>
+        <l>Io! Io! Populi insonate laeti!</l>
+        <l>Vos manent eadem beata fata.</l>
+        <l n="25">Sic felix Hymenaeus iste spondet.</l>
+        <l>Hoc tibi Austria laeta corde toto,</l>
+        <l>vobis regie sponse, rex Joseph,</l>
+        <l>sponsa regia clare fons bonorum,</l>
+        <l>hoc tibi, o benedicta gratulamur</l>
+        <l n="30">tellus, quae Ausoniis subesse digna</l>
+        <l>signis, sub geminae volucris ala</l>
+        <l>omni functa periculo quiescis!</l>
+      </div>
+      <div n="XXVI">
+        <p>XXVI</p>
+        <l>Calliope insequitur, veluti consueverat, usa</l>
+        <l>belligero clangore tubae, ne mascula virgo!</l>
+        <l>„Muneribus certatum olim, quis nomen Athenis</l>
+        <l>inderet, an Pallas producta pacis oliva</l>
+        <l n="5">utilis, an contra Neptunus clarior urbem</l>
+        <l>
+          <pb/>insigniret equo.<note place="foot" xml:id="ftn5" n="5">Bei Herodot (VIII 55) wird die Sage im Rahmen der Beschreibung des
+                        Erechtheions auf der Akropolis anders erzählt: Athena gab einen Ölbaum,
+                        Poseidon aber eine Quelle mit Meerwasser (θάλασσα), zu Poseidon als
+                        Pferdegott cf. Pötscher, W. in: RhM 104 (1961) 317.</note>Placuerunt
+                munus utrumque.</l>
+        <l>Attamen utilior Pallas Neptunia vicit</l>
+        <l>dona urbemque suo de nomine dixit Athenas.</l>
+        <l>Structuram cerasque novas molitur avita</l>
+        <l n="10">Austria. Quis domui praeclarae nomina ponet?</l>
+        <l>Regius an sponsus gemina vestitus oliva,</l>
+        <l>quam victis supplex cum Gallis Turca ministrat?</l>
+        <l>An contra tantae structurae insignis Amazon</l>
+        <l>indat equo nomen? Sacra omina percipe vatis!</l>
+        <l n="15">Sic Iovis arbitrio decisum est, sic sacra fata</l>
+        <l>disposuit pater, ut lustris labentibus aetas</l>
+        <l>incluta succedat, qua pars feret utraque nomen</l>
+        <l>perpetuum Austriacae dumui reddetque quietae</l>
+        <l>non minus optatam praeclaram pacis olivam,</l>
+        <l n="20">quam crebris palmis victricem et Marte secundo</l>
+        <l>hostibus exhaustis summum super aetera notam.</l>
+        <l>Victoris signata premet vestigia patris</l>
+        <l>(Contrepidate hostes!) suboles non degener armis</l>
+        <l>nec metuenda vagae venit inconstantia sortis.</l>
+        <l n="25">Subnectet patriis Mars crebra trophaea triumphis</l>
+        <l>Talia coniugio summus pater omina finxit.</l>
+        <l>Gratulor ergo tibi tanta dignissime sponsa,</l>
+        <l>regie sponse, tibique simul dignissima sponso,</l>
+        <l>regia sponsa, tuo! Ah clemens vota audiat aether!</l>
+        <l n="30">Vosque velit vitam in seras protendere aristas.“</l>
+        <l>Finit at incultis invita silentia Musis</l>
+        <l>indicit multumque indignabundus Apollo</l>
+        <l>erubuit segnes Musas veniamque precatus:</l>
+        <l>„Ignosce exiguos, regina, Heliconis honores!“</l>
+        <l n="35">inquit „nam sunt insuetae timidaeque puellae,</l>
+        <l>ut tanta coram et cum maiestate loquantur.“</l>
+        <l>Haec ubi dicta dedit, conversus amica bilinguis</l>
+        <l>hospitis implorat repetito carmine plectra.</l>
+        <l>Auscultant illi dictis plectrumque resumunt.</l>
+      </div>
+      <div n="XXVII">
+        <p>
+          <pb/>XXVII</p>
+        <l>Dedere iam Parnassides</l>
+        <l>et augurum Camoenae</l>
+        <l>futura sponsis omina</l>
+        <l>et omnium favores,</l>
+        <l n="5">queis omnibus subscribimus,</l>
+        <l>et annotamus auro</l>
+        <l>argentoque calculo,</l>
+        <l>sed multa adhuc supersunt.</l>
+      </div>
+      <div n="XXVIII">
+        <p>XXVIII</p>
+        <l xml:lang="dt">Gesungen hat man zwar von Dir</l>
+        <l xml:lang="dt">Groß / und trostreiche Zeichen /</l>
+        <l xml:lang="dt">Von deren fussstapfen auch wür</l>
+        <l xml:lang="dt">Trauen uns nit zu weichen.</l>
+        <l xml:lang="dt" n="5">Doch was anlangt / und mir bekant /</l>
+        <l xml:lang="dt">Hett ich noch vil Zu singen</l>
+        <l xml:lang="dt">Von Deiner Frucht / und Edlen Zucht /</l>
+        <l xml:lang="dt">So Du Zur welt wirst bringen.</l>
+      </div>
+      <div n="XXIX">
+        <p>XXIX</p>
+        <l>Leaena mater dissonas</l>
+        <l>non educat columbas,</l>
+        <l>velut columba Martios</l>
+        <l>nec parturit leones.</l>
+        <l n="5">Natura certis terminis</l>
+        <l>luctatur et quiescit</l>
+        <l>fixos nec ultra limites</l>
+        <l>fert Nereus tridentem.</l>
+      </div>
+      <div n="XXX">
+        <p>XXX</p>
+        <l xml:lang="dt">Es hat schon alls sein gwises Zihl /</l>
+        <l xml:lang="dt">Laßt sich nit darvon weichen.</l>
+        <l xml:lang="dt">Die Natur treibt ihr altes spihl /</l>
+        <l xml:lang="dt">Der Lew bringt halt seins gleichen.</l>
+        <l xml:lang="dt" n="5">Der schwache Zwerg ertragt kein berg /</l>
+        <l xml:lang="dt">Der Lew erzieht kein dauben.</l>
+        <l xml:lang="dt">Der rebenstock macht auch kein bock /</l>
+        <l xml:lang="dt">Bringt allzeit seine trauben.</l>
+      </div>
+      <div n="XXXI">
+        <p>
+          <pb/>XXXI</p>
+        <l>Quas mater ergo mascula</l>
+        <l>est redditura proles?</l>
+        <l>Fidelis index pectoris</l>
+        <l>si vultus est habendus,</l>
+        <l n="5">multo calescens spiritu</l>
+        <l>et Martio vigore</l>
+        <l>satis superque clamitat,</l>
+        <l>qui pectori geratur.</l>
+      </div>
+      <div n="XXXII">
+        <p>XXXII</p>
+        <l xml:lang="dt">Man sicht es eim bald an am gsicht /</l>
+        <l xml:lang="dt">Wie vil es hab geschlagen.</l>
+        <l xml:lang="dt">Ein jeder pflegt gewisen bricht /</l>
+        <l xml:lang="dt">Ja s´herz im angsicht z´tragen.</l>
+        <l xml:lang="dt" n="5">Der Sie sicht an / einen kriegsman</l>
+        <l xml:lang="dt">Vermeint / das er gesehen.</l>
+        <l xml:lang="dt">Wan ich schon sag / das Martem trag /</l>
+        <l xml:lang="dt">Wirdt ich mich nit vergehen.</l>
+      </div>
+      <div n="XXXIII">
+        <p>XXXIII</p>
+        <l>Cantare pulchram fabulam</l>
+        <l>iuraverim Maronem</l>
+        <l>et ficta veris ludicro</l>
+        <l>miscere more vatum,</l>
+        <l n="5">cum proeliantem Amazonem</l>
+        <l>ad Ilion recenset,</l>
+        <l>at nostra talem tempora</l>
+        <l>Amazonem tulerunt.</l>
+      </div>
+      <div n="XXXIV">
+        <p>XXXIV</p>
+        <l xml:lang="dt">Obwohlen ich der Meinung bin /</l>
+        <l xml:lang="dt">das gar zu keinen Zeiten /</l>
+        <l xml:lang="dt">Aufgnommen in Maronis sin /</l>
+        <l xml:lang="dt">Amazones umbreithen /</l>
+        <l xml:lang="dt" n="5">Bogen / und pfeil in höchster eil /</l>
+        <l xml:lang="dt">Ja auch die Lanzen schwingen /</l>
+        <l xml:lang="dt">Vermein ich doch / es kunten noch</l>
+        <l xml:lang="dt">Von Dir etwan entspringen.</l>
+      </div>
+      <div n="XXXV">
+        <p>
+          <pb/>XXXV</p>
+        <l>Equumne nescis Dardanum,</l>
+        <l>quem struxerant Iones?</l>
+        <l>Insigne donum Palladis</l>
+        <l>armariumque Martis</l>
+        <l n="5">quot condidit Machaones</l>
+        <l>fortissimosque Graium,</l>
+        <l>praesagiunt insignia</l>
+        <l>tot Martios Ulysses.</l>
+      </div>
+      <div n="XXXVI">
+        <p>XXXVI</p>
+        <l xml:lang="dt">Das Pferdt / so hat Epeus gmacht /</l>
+        <l xml:lang="dt">Hat Troiam ganz zertretten.</l>
+        <l xml:lang="dt">Gelt die in ihm Verborgne Macht</l>
+        <l xml:lang="dt">hat Troiam lehren betten.</l>
+        <l xml:lang="dt" n="5">Dein Wappen-Pferdt bedeith die Herdt</l>
+        <l xml:lang="dt">Der Dapferisten Helden /</l>
+        <l xml:lang="dt">So Du der Welt wirst in das feld</l>
+        <l xml:lang="dt">Stellen. Will nur diß melden.</l>
+      </div>
+      <div n="XXXVII">
+        <p>XXXVII</p>
+        <l>Vae barbaro Borystheni!</l>
+        <l>Vae Graeciae propinquae!</l>
+        <l>Nigri coloris Nereus</l>
+        <l>vertetur in cruorem!</l>
+        <l n="5">Cornuta ponet Cynthia</l>
+        <l>superbiam sub ense.</l>
+        <l>Falcata saevis falcibus</l>
+        <l>et ipsa subiacebit.</l>
+      </div>
+      <div n="XXXVIII">
+        <p>XXXVIII</p>
+        <l xml:lang="dt">Die werden bluttig mit dem Mon</l>
+        <l xml:lang="dt">Zu jeder zeit verfahren /</l>
+        <l xml:lang="dt">Und werden scheinen wie die Son</l>
+        <l xml:lang="dt">Under deß Martis Schaaren.</l>
+        <l xml:lang="dt" n="5">Das Schwarze Meer alsdann nit mehr</l>
+        <l xml:lang="dt">Sein namen wirdt erhalten.</l>
+        <l xml:lang="dt">Es wirdt bluttroth miessen mit spott</l>
+        <l xml:lang="dt">Die Adler lassen walten.</l>
+      </div>
+      <div n="XXXIX">
+        <p>
+          <pb/>XXXIX</p>
+        <l>Nec parcet ista liliis</l>
+        <l>ignita Marte proles,</l>
+        <l>stirpes virentes auferet</l>
+        <l>et liliis decorem.</l>
+        <l n="5">Haec Gallicas victorias</l>
+        <l>floresque liliorum</l>
+        <l>suae superba laureae</l>
+        <l>intexet et coronae.</l>
+      </div>
+      <div n="XL">
+        <p>XL</p>
+        <l xml:lang="dt">Wehe euch ihr schenen Lilien!</l>
+        <l xml:lang="dt">Wehe euch ihr liebe bluemen!</l>
+        <l xml:lang="dt">Wehe Dir / Du stolzes Gallien!</l>
+        <l xml:lang="dt">Ist aus / lass ab von Ruehmen.</l>
+        <l xml:lang="dt" n="5">Des Adlers Ehr / mit seiner Schär</l>
+        <l xml:lang="dt">Dem Hanen stutzt die fligel.</l>
+        <l xml:lang="dt">Fliegt nit empor / als wie zuvor</l>
+        <l xml:lang="dt">Gethan der Alte Dügel.</l>
+      </div>
+      <div n="XLI">
+        <p>XLI</p>
+        <l>Totus pavebit occidens</l>
+        <l>ortusque contremescet.</l>
+        <l>Iam cerno gentes supplices</l>
+        <l>et dexteram levantes</l>
+        <l n="5">vitaeque saltem copiam</l>
+        <l>sibi dari precantes.</l>
+        <l>O plus viris Mavortias</l>
+        <l>natasque Marte proles!</l>
+      </div>
+      <div n="XLII">
+        <p>XLII</p>
+        <l xml:lang="dt">Eß wirdt anhalten umb pardon</l>
+        <l xml:lang="dt">Die welt auffs haubt geschlagen.</l>
+        <l xml:lang="dt">Man wirdt fro sein / wan man darvon</l>
+        <l xml:lang="dt">Noch kan daß leben tragen.</l>
+        <l xml:lang="dt" n="5">Man wirdt sagen / Götter schlagen</l>
+        <l xml:lang="dt">Seyen in d´harmonisch gschlossen.</l>
+        <l xml:lang="dt">Es werden gleich Länder / und Reich</l>
+        <l xml:lang="dt">In angel stehen offen.</l>
+      </div>
+      <div n="XLIII">
+        <p>
+          <pb/>XLIII</p>
+        <l>„Cantatum satis est, vates, suspendite plectrum!“</l>
+        <l>veste trahens modicum et tacitus tandem inquit Apollo:</l>
+        <l>„Rumpimus indignos cantus tanta hospite. Nostro,</l>
+        <l>o regina, alio properanti ne mora cantu</l>
+        <l n="5">iniciatur iterque et tempora fausta precamur</l>
+        <l>pergenti ad sponsum, sine quo tibi temporis horae</l>
+        <l>stelliferis oris procedunt tardius aequo.</l>
+        <l>Exspectat pariter sponsus iam bracchia sponsae</l>
+        <l>obvia in implexum stringens iamque ora requirit.</l>
+        <l n="10">I, propera nec enim credis, Lucina Viennae</l>
+        <l>quos quantosque tibi thalamos instruxerit! Imple</l>
+        <l>spem populi recreaque novo cito principe gentes!“</l>
+        <l>Hactenus occulta sub veste canebat Apollo.</l>
+        <l>At nunc seposito velo, o regina, precatur,</l>
+        <l n="15">ante sub ignota fuerat quae veste precatus,</l>
+        <l>rector magnificus, quem hinc antque hinc bina facultas</l>
+        <l>circumdat. Quarum solo de numine novit</l>
+        <l>prima loqui. Sequitur Galenus et ipsius agmen.</l>
+        <l>Hinc, quae de sacrae Themidis sortita bilance</l>
+        <l n="20">nomen. Quaeque Stagiritam sub gurgitis undas</l>
+        <l>Euripi<note place="foot" xml:id="ftn6" n="6">Am Ende seines
+                        Lebens ging Aristoteles nach Euböa jenseits der Meerenge Euripos, wo seine
+                        Mutter ein Gut besaß, um einem Prozeß in Athen zu entgehen.</note>usque ducem sequitur. Pia suscipe vota!</l>
+        <l>Sic vale et exiguo Musarum ignosce labori!</l>
+        <l>cecinit</l>
+        <l>Universitas Oenipontana</l>
+      </div>
+    </body>
+  </text>
+</TEI>

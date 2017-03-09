@@ -11,6 +11,10 @@ We are following the model in [capitains.github.io/pages/guidelines](http://capi
 + [addXMLbaseAttributeForComplexCases](https://github.com/nevenjovanovic/latty-cts/blob/master/scripts/addXMLbaseAttributeForComplexCases.xq) Creates an xml:base attribute and adds it to the text element for complex cases (i.e. works by anonymous or multiple authors)
 + [makeXMLbaseLowerCase](https://github.com/nevenjovanovic/latty-cts/blob/master/scripts/makeXMLbaseLowerCase.xq) Makes the xml:base attribute uniform by converting all letters to lower case
 + [removeIDfromXMLbase](https://github.com/nevenjovanovic/latty-cts/blob/master/scripts/removeIDfromXMLbase.xq) Makes the xml:base look better by removing 'id' from the work urn
++ [deleteEncodingDesc](https://github.com/nevenjovanovic/latty-cts/blob/master/scripts/deleteEncodingDeskElement.xq) Deletes existing Encoding elements from the database
++ [insertEncodingDesc](https://github.com/nevenjovanovic/latty-cts/blob/master/scripts/insertEncodingDesc.xq) Creates an encodingDesc element for each edition
++ [deleteExistingNattributes](https://github.com/nevenjovanovic/latty-cts/blob/master/scripts/deleteExistingNattributes.xq) Deletes existing n attributes from the database
++ [insertNattribute](https://github.com/nevenjovanovic/latty-cts/blob/master/scripts/insertNattribute.xq) Creats n attributes for all descendants of the text element
 
 ## Scripts for creating textgroup directories:
 + [textgroup](https://github.com/nevenjovanovic/latty-cts/blob/master/scripts/textgroup.xq) Declares the 'ti' namespace for textgroups

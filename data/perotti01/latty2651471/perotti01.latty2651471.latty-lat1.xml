@@ -31,6 +31,25 @@
         <bibl>TLMF, FB 1487</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1666">1666</date>
@@ -53,17 +72,17 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:perotti01.latty2651471.latty-lat1:">
-    <body>
-      <div>
-        <head>Hospitis Alexii principis romani gesta sacrosancta, mixtis poematibus exposita
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">Hospitis Alexii principis romani gesta sacrosancta, mixtis poematibus exposita
                 illustrissimo ac reverendissimo D. D.Carolo De Castro Barco S. R. I. Co.
                 Can. salisburgensi, sacrata. Auctore Iulio Perotto Bernabita, F. R. Ser. Ferdinandi
                 Caroli Arch. Aust. The. et caetera.</head>
       </div>
-      <pb xml:id="F2"/>
-      <div>
-        <pb xml:id="F3"/>
-        <p>Illustrissime vir, ac amplissime praesul prodeunt in lucem, nec sine luce hae
+      <pb n="pb2" xml:id="F2"/>
+      <div n="div3">
+        <pb n="pb1" xml:id="F3"/>
+        <p n="p2">Illustrissime vir, ac amplissime praesul prodeunt in lucem, nec sine luce hae
                 mixtorum poematum pagellae, lucem indidem nactae, quo natae; luce ipsa forsan
                 maiores, quo gravidae divi Alexii principis romani, qui rore lucis irriguus ipsam
                 lucem incrementat. At in tanta lucis, qua lucent, exuberantia, tua, quam
@@ -74,789 +93,789 @@
                 illustrissime vir ad nestoreos annos eosque faeliciter transigendos P.O. Tibi
                 addictissimus et obsequentissimus ex animo dominus Iulus Perottus.</p>
       </div>
-      <div>
-        <pb xml:id="F5"/>
-        <head>Divi Alexii gesta. De superno afflatu Alexii ad patrium domicilium cum sponsa,
+      <div n="div4">
+        <pb n="pb1" xml:id="F5"/>
+        <head n="head2">Divi Alexii gesta. De superno afflatu Alexii ad patrium domicilium cum sponsa,
                 rebusque omnibus deserendum. Elegia.</head>
       </div>
-      <div>
-        <lg>
-          <l>Auro tota domus, paries ostroque nitebat,</l>
-          <l>Reddebat dulces tibia docta modos.</l>
-          <l>Sublatis dapibus thalami penetralis taedae</l>
-          <l>Lustrarant, plumas straverat almus hymen.</l>
-          <l>Haec inter genius celsa delapsus ab arce</l>
-          <l>Alloquitur iuvenem talia verba ferens.</l>
-          <l>Ingenua proles, flos illibatus, amorque</l>
-          <l>Principis aethereae, caelitibusque decus,</l>
-          <l>Nuncius excelsi rutilo sum missus olympo,</l>
-          <l>Ut referam cordi gaudia vera tuo.</l>
-          <l>Non hominem terris terrenum te astra tulere,</l>
-          <l>Nec temente ut reliquos progenuere patres.</l>
-          <l>Lumine se blando respexit numen ab axe,</l>
-          <l>Proque piis precibus fudit in orbe pium</l>
-          <pb xml:id="F6"/>
-          <l>Te lachrymae emerunt, gemitus, suspiria cordis,</l>
-          <l>Te peperere orbi fervida vota patrum.</l>
-          <l>Te maior fortuna manet, te gazaque maior,</l>
-          <l>Invidiae quam vis tollere nulla queat.</l>
-          <l>Haeccine forte putas quae dat regnator olympi</l>
-          <l>Praemia dilectis, quos fovet ipse sinu!</l>
-          <l>Haec terris, optata homini quae, comoda, cernis,</l>
-          <l>Aura levis, fumus, pondus inane, nihil.</l>
-          <l>Quid nisi gleba rudis sunt praedia culta? Quid agri</l>
-          <l>Quidve greges ovium? Spiritus aethre vagus.</l>
-          <l>Congeris lapidum domus est, celeresque quadrigae</l>
-          <l>Tarda strues nemoris, quam fera caeca trahit!</l>
-          <l>Multa cohors servorum, acies hostilis. Amicus</l>
-          <l>Blandam dat frontem corda inimica tegit.</l>
-          <l>Quid clamys effulgens, nisi succisa lana bidentum?</l>
-          <l>Villosae et pelles ni spoliata pecus?</l>
-          <l>Serica nil, praeter quam sordes bombycis! Altis</l>
-          <l>Crystallum glacies alpibus aucta nive.</l>
-          <l>Coralium rudis herba oriens in gurgitis alvo,</l>
-          <l>Datque Indam gemmam conchula gluten alens.</l>
-          <l>Aurumque argentumque atro nam sulphure cretum est,</l>
-          <l>Sacra fames hominum, sacra hominumque sitis.</l>
-          <l>Mercurium terrae faecem penetralia tundunt,</l>
-          <l>Aera rotunda fluunt ut rota fluxa deae</l>
-          <pb xml:id="F7"/>
-          <l>Flagrans unguentum sylvestris bellua praebet:</l>
-          <l>Et sylvae electrum collacrymantis opus.</l>
-          <l>Nexibus auratis torques commissa decenter</l>
-          <l>Sunt quae dementes vincula iuncta ligant.</l>
-          <l>Anulus, impediens digitos saturata colore,</l>
-          <l>Sidonio vestis moribus interitus.</l>
-          <l>Quid cytharae sonitus, fidium modulamina, cantus?</l>
-          <l>Haec sumit ventus, tollit et aura levis.</l>
-          <l>Improba congestis dapibus convivia perdunt,</l>
-          <l>Vires, cumque animo robora firma virum.</l>
-          <l>Surge age blande Puer, tende et pia lumina Caelo,</l>
-          <l>Despice fluxa soli; suspice firma poli.</l>
-          <l>Illic vera manent animi ornamenta decori,</l>
-          <l>Pectora langentum gaudia laeta beant.</l>
-          <l>Ambrosia et nectar pateras, gemmasque coruscas</l>
-          <l>Impleat, queis Caeli mensa superba nitet.</l>
-          <l>Concinit aurata cythara fidibusque sonoris,</l>
-          <l>Aliger, et dirimit tibia docta modos.</l>
-          <l>Haec patria hospitibus dulcis, portusque quietus</l>
-          <l>Iactatis, pellit quos tenet orbis amor.</l>
-          <l>Ah ne te exilis teneat domus ista revinctum</l>
-          <l>Nec capiant animos pocula blanda tuos.</l>
-          <l>Carpe viam, mox, carpe fugam, cunctisque solutus</l>
-          <l>Festino cursu calica regna pete.</l>
-          <pb xml:id="F8"/>
-          <l>Aspera sectari terrarum, et inania stultum est</l>
-          <l>Utile cum dulci miscet in aethre Deus.</l>
+      <div n="div5">
+        <lg n="lg1">
+          <l n="l1">Auro tota domus, paries ostroque nitebat,</l>
+          <l n="l2">Reddebat dulces tibia docta modos.</l>
+          <l n="l3">Sublatis dapibus thalami penetralis taedae</l>
+          <l n="l4">Lustrarant, plumas straverat almus hymen.</l>
+          <l n="l5">Haec inter genius celsa delapsus ab arce</l>
+          <l n="l6">Alloquitur iuvenem talia verba ferens.</l>
+          <l n="l7">Ingenua proles, flos illibatus, amorque</l>
+          <l n="l8">Principis aethereae, caelitibusque decus,</l>
+          <l n="l9">Nuncius excelsi rutilo sum missus olympo,</l>
+          <l n="l10">Ut referam cordi gaudia vera tuo.</l>
+          <l n="l11">Non hominem terris terrenum te astra tulere,</l>
+          <l n="l12">Nec temente ut reliquos progenuere patres.</l>
+          <l n="l13">Lumine se blando respexit numen ab axe,</l>
+          <l n="l14">Proque piis precibus fudit in orbe pium</l>
+          <pb n="pb15" xml:id="F6"/>
+          <l n="l16">Te lachrymae emerunt, gemitus, suspiria cordis,</l>
+          <l n="l17">Te peperere orbi fervida vota patrum.</l>
+          <l n="l18">Te maior fortuna manet, te gazaque maior,</l>
+          <l n="l19">Invidiae quam vis tollere nulla queat.</l>
+          <l n="l20">Haeccine forte putas quae dat regnator olympi</l>
+          <l n="l21">Praemia dilectis, quos fovet ipse sinu!</l>
+          <l n="l22">Haec terris, optata homini quae, comoda, cernis,</l>
+          <l n="l23">Aura levis, fumus, pondus inane, nihil.</l>
+          <l n="l24">Quid nisi gleba rudis sunt praedia culta? Quid agri</l>
+          <l n="l25">Quidve greges ovium? Spiritus aethre vagus.</l>
+          <l n="l26">Congeris lapidum domus est, celeresque quadrigae</l>
+          <l n="l27">Tarda strues nemoris, quam fera caeca trahit!</l>
+          <l n="l28">Multa cohors servorum, acies hostilis. Amicus</l>
+          <l n="l29">Blandam dat frontem corda inimica tegit.</l>
+          <l n="l30">Quid clamys effulgens, nisi succisa lana bidentum?</l>
+          <l n="l31">Villosae et pelles ni spoliata pecus?</l>
+          <l n="l32">Serica nil, praeter quam sordes bombycis! Altis</l>
+          <l n="l33">Crystallum glacies alpibus aucta nive.</l>
+          <l n="l34">Coralium rudis herba oriens in gurgitis alvo,</l>
+          <l n="l35">Datque Indam gemmam conchula gluten alens.</l>
+          <l n="l36">Aurumque argentumque atro nam sulphure cretum est,</l>
+          <l n="l37">Sacra fames hominum, sacra hominumque sitis.</l>
+          <l n="l38">Mercurium terrae faecem penetralia tundunt,</l>
+          <l n="l39">Aera rotunda fluunt ut rota fluxa deae</l>
+          <pb n="pb40" xml:id="F7"/>
+          <l n="l41">Flagrans unguentum sylvestris bellua praebet:</l>
+          <l n="l42">Et sylvae electrum collacrymantis opus.</l>
+          <l n="l43">Nexibus auratis torques commissa decenter</l>
+          <l n="l44">Sunt quae dementes vincula iuncta ligant.</l>
+          <l n="l45">Anulus, impediens digitos saturata colore,</l>
+          <l n="l46">Sidonio vestis moribus interitus.</l>
+          <l n="l47">Quid cytharae sonitus, fidium modulamina, cantus?</l>
+          <l n="l48">Haec sumit ventus, tollit et aura levis.</l>
+          <l n="l49">Improba congestis dapibus convivia perdunt,</l>
+          <l n="l50">Vires, cumque animo robora firma virum.</l>
+          <l n="l51">Surge age blande Puer, tende et pia lumina Caelo,</l>
+          <l n="l52">Despice fluxa soli; suspice firma poli.</l>
+          <l n="l53">Illic vera manent animi ornamenta decori,</l>
+          <l n="l54">Pectora langentum gaudia laeta beant.</l>
+          <l n="l55">Ambrosia et nectar pateras, gemmasque coruscas</l>
+          <l n="l56">Impleat, queis Caeli mensa superba nitet.</l>
+          <l n="l57">Concinit aurata cythara fidibusque sonoris,</l>
+          <l n="l58">Aliger, et dirimit tibia docta modos.</l>
+          <l n="l59">Haec patria hospitibus dulcis, portusque quietus</l>
+          <l n="l60">Iactatis, pellit quos tenet orbis amor.</l>
+          <l n="l61">Ah ne te exilis teneat domus ista revinctum</l>
+          <l n="l62">Nec capiant animos pocula blanda tuos.</l>
+          <l n="l63">Carpe viam, mox, carpe fugam, cunctisque solutus</l>
+          <l n="l64">Festino cursu calica regna pete.</l>
+          <pb n="pb65" xml:id="F8"/>
+          <l n="l66">Aspera sectari terrarum, et inania stultum est</l>
+          <l n="l67">Utile cum dulci miscet in aethre Deus.</l>
         </lg>
       </div>
-      <div>
-        <head>Alexii consilium de abdicatione Parentum. Epigramma.</head>
+      <div n="div6">
+        <head n="head1">Alexii consilium de abdicatione Parentum. Epigramma.</head>
       </div>
-      <div>
-        <lg>
-          <l>Et Deus, et genitor certant, sit Alexius haeres:</l>
-          <l>Hic terrae, ille poli munera uterque parat.</l>
-          <l>Hinc patet ornatum distento murice tectum</l>
-          <l>Quaeritur et thalami splendida nympha comes.</l>
-          <l>Proximus ecce thoro est, genius cum lapsus ab alto</l>
-          <l>Linque (vocat numen) tecta paterna celer.</l>
-          <l>Quantus (Roma) fuit tibi Vir demissus ab axe,</l>
-          <l>Deliciaeque hominum, Deliciaeque Dei!</l>
+      <div n="div7">
+        <lg n="lg1">
+          <l n="l1">Et Deus, et genitor certant, sit Alexius haeres:</l>
+          <l n="l2">Hic terrae, ille poli munera uterque parat.</l>
+          <l n="l3">Hinc patet ornatum distento murice tectum</l>
+          <l n="l4">Quaeritur et thalami splendida nympha comes.</l>
+          <l n="l5">Proximus ecce thoro est, genius cum lapsus ab alto</l>
+          <l n="l6">Linque (vocat numen) tecta paterna celer.</l>
+          <l n="l7">Quantus (Roma) fuit tibi Vir demissus ab axe,</l>
+          <l n="l8">Deliciaeque hominum, Deliciaeque Dei!</l>
         </lg>
       </div>
-      <div>
-        <head>Euphemianus Alexii fugam plorat. Elegia.</head>
+      <div n="div8">
+        <head n="head1">Euphemianus Alexii fugam plorat. Elegia.</head>
       </div>
-      <div>
-        <lg>
-          <l>Ille ego perspicua regum de stirpe creatus,</l>
-          <l>Plurima cui sertum laurus in urbe facit.</l>
-          <l>En, quem dilectum mea viscera corde ferebant,</l>
-          <l>Nunc viduatus ago tristis, et exanimis.</l>
-          <l>Quem bona, quem gazae, quem praedia multa manebant,</l>
-          <l>Haeres ut fieret, spes columenque domi.</l>
-          <l>Quem coniux mecum lectissima dulce fovebat,</l>
-          <l>Ut fieret nostri pignus amoris amor</l>
-          <pb xml:id="F9"/>
-          <l>Quem dederant nostris lachrymis, gemituque frequenti,</l>
-          <l>Vocibus, et querulis sidera fessa notis.</l>
-          <l>Quem dapibus largis, auroque, opibusque profusis,</l>
-          <l>Emimus et guttis, queis maduere genae.</l>
-          <l>Quem generosa colens stirps, observansque propago,</l>
-          <l>Lumina pascebat, pectora amore beans.</l>
-          <l>Quo fugis, o nate, heu, o quo fugis unica patris</l>
-          <l>Spes, et vota patris, lux, oculusque patris?</l>
-          <l>Quo fugis o sidus, quo noster Phaebe coruscans</l>
-          <l>Occidis, et tenebras dum cadis ecce refers?</l>
-          <l>Quo fugis o tristis bacule, o columenque senectae,</l>
-          <l>O et praesidium, dulce decusque fugis?</l>
-          <l>Ah mihi cum faciem subducis, Nate, decoram</l>
-          <l>Subtrahis et vitae gaudia cuncta meae.</l>
-          <l>Omnia sacrara, nobis quae larga dedere</l>
-          <l>Numina; nunc pereunt te pereunte bona.</l>
-          <l>Quo mihi tot pinguis florentia iugera ruris</l>
-          <l>Multus et obtuso vomere cultus ager?</l>
-          <l>Quo flavi colles, ridentia prata, fluentes</l>
-          <l>Lymohae, arvis longis, laetaque sole sata?</l>
-          <l>Dispositits bene porticibus fons rumpit amaenus</l>
-          <l>Ars ubi pictoris lusit amaena diu.</l>
-          <l>Hic horti irrigui, et beneolentia prata patescunt,</l>
-          <l>Hic legere et ramis pendula poma licet.</l>
-          <pb xml:id="F10"/>
-          <l>Mille greges ovium nostris in montibus errant,</l>
-          <l>Mille greges ovium pascua nota petunt.</l>
-          <l>Reddit ager flavens ingentia pondera aristae</l>
-          <l>Effunditi cornu copia larga mihi</l>
-          <l>Alta domus surgit centenis fulta columnis</l>
-          <l>Trabs nitida est minio; marmoreumque solum.</l>
-          <l>Labitur unda auri, argenti fluit algida vena,</l>
-          <l>Quam pandit largo lydia fonte mihi.</l>
-          <l>Tota nitetque domi sine pondere lauta supellex,</l>
-          <l>Nostris et dapibus sectile dubstat ebur.</l>
-          <l>Undique sydoniae pendent de parietae lanae,</l>
-          <l>Extinguit trabidam fulgida gemma sitim.</l>
-          <l>Haec cui servantur? Recolet quis tecta, laresque</l>
-          <l>Si tu Nate fugis quem bona cuncta manent:</l>
-          <l>Ergo haec diripient alii, nomenque penatum</l>
-          <l>Exterus invadens limina nostra teret?</l>
-          <l>Siccine clara mei generis scintilla peribit</l>
-          <l>Cum cinere et nomen marmora dura tegent?</l>
-          <l>Tu saltem tumulum cernens dic (quaeso) viator</l>
-          <l>Quem liquit proles haec tenet urna patrem</l>
-          <l>Manibus haec saltem fuerint solamina nostris</l>
-          <l>Nulla potest ista carior esse salus.</l>
+      <div n="div9">
+        <lg n="lg1">
+          <l n="l1">Ille ego perspicua regum de stirpe creatus,</l>
+          <l n="l2">Plurima cui sertum laurus in urbe facit.</l>
+          <l n="l3">En, quem dilectum mea viscera corde ferebant,</l>
+          <l n="l4">Nunc viduatus ago tristis, et exanimis.</l>
+          <l n="l5">Quem bona, quem gazae, quem praedia multa manebant,</l>
+          <l n="l6">Haeres ut fieret, spes columenque domi.</l>
+          <l n="l7">Quem coniux mecum lectissima dulce fovebat,</l>
+          <l n="l8">Ut fieret nostri pignus amoris amor</l>
+          <pb n="pb9" xml:id="F9"/>
+          <l n="l10">Quem dederant nostris lachrymis, gemituque frequenti,</l>
+          <l n="l11">Vocibus, et querulis sidera fessa notis.</l>
+          <l n="l12">Quem dapibus largis, auroque, opibusque profusis,</l>
+          <l n="l13">Emimus et guttis, queis maduere genae.</l>
+          <l n="l14">Quem generosa colens stirps, observansque propago,</l>
+          <l n="l15">Lumina pascebat, pectora amore beans.</l>
+          <l n="l16">Quo fugis, o nate, heu, o quo fugis unica patris</l>
+          <l n="l17">Spes, et vota patris, lux, oculusque patris?</l>
+          <l n="l18">Quo fugis o sidus, quo noster Phaebe coruscans</l>
+          <l n="l19">Occidis, et tenebras dum cadis ecce refers?</l>
+          <l n="l20">Quo fugis o tristis bacule, o columenque senectae,</l>
+          <l n="l21">O et praesidium, dulce decusque fugis?</l>
+          <l n="l22">Ah mihi cum faciem subducis, Nate, decoram</l>
+          <l n="l23">Subtrahis et vitae gaudia cuncta meae.</l>
+          <l n="l24">Omnia sacrara, nobis quae larga dedere</l>
+          <l n="l25">Numina; nunc pereunt te pereunte bona.</l>
+          <l n="l26">Quo mihi tot pinguis florentia iugera ruris</l>
+          <l n="l27">Multus et obtuso vomere cultus ager?</l>
+          <l n="l28">Quo flavi colles, ridentia prata, fluentes</l>
+          <l n="l29">Lymohae, arvis longis, laetaque sole sata?</l>
+          <l n="l30">Dispositits bene porticibus fons rumpit amaenus</l>
+          <l n="l31">Ars ubi pictoris lusit amaena diu.</l>
+          <l n="l32">Hic horti irrigui, et beneolentia prata patescunt,</l>
+          <l n="l33">Hic legere et ramis pendula poma licet.</l>
+          <pb n="pb34" xml:id="F10"/>
+          <l n="l35">Mille greges ovium nostris in montibus errant,</l>
+          <l n="l36">Mille greges ovium pascua nota petunt.</l>
+          <l n="l37">Reddit ager flavens ingentia pondera aristae</l>
+          <l n="l38">Effunditi cornu copia larga mihi</l>
+          <l n="l39">Alta domus surgit centenis fulta columnis</l>
+          <l n="l40">Trabs nitida est minio; marmoreumque solum.</l>
+          <l n="l41">Labitur unda auri, argenti fluit algida vena,</l>
+          <l n="l42">Quam pandit largo lydia fonte mihi.</l>
+          <l n="l43">Tota nitetque domi sine pondere lauta supellex,</l>
+          <l n="l44">Nostris et dapibus sectile dubstat ebur.</l>
+          <l n="l45">Undique sydoniae pendent de parietae lanae,</l>
+          <l n="l46">Extinguit trabidam fulgida gemma sitim.</l>
+          <l n="l47">Haec cui servantur? Recolet quis tecta, laresque</l>
+          <l n="l48">Si tu Nate fugis quem bona cuncta manent:</l>
+          <l n="l49">Ergo haec diripient alii, nomenque penatum</l>
+          <l n="l50">Exterus invadens limina nostra teret?</l>
+          <l n="l51">Siccine clara mei generis scintilla peribit</l>
+          <l n="l52">Cum cinere et nomen marmora dura tegent?</l>
+          <l n="l53">Tu saltem tumulum cernens dic (quaeso) viator</l>
+          <l n="l54">Quem liquit proles haec tenet urna patrem</l>
+          <l n="l55">Manibus haec saltem fuerint solamina nostris</l>
+          <l n="l56">Nulla potest ista carior esse salus.</l>
         </lg>
       </div>
-      <div>
-        <pb xml:id="F11"/>
-        <head>Euphemianus pater Alexii filii discessum plorat. Epigramma.</head>
+      <div n="div10">
+        <pb n="pb1" xml:id="F11"/>
+        <head n="head2">Euphemianus pater Alexii filii discessum plorat. Epigramma.</head>
       </div>
-      <div>
-        <lg>
-          <l>Proh divum, natumque fidem: medeserit ille</l>
-          <l>Quem fudi in lucem, lux mea, solque meus.</l>
-          <l>Quid non, moerenti ut donarent sydera natum</l>
-          <l>Praestiti hic oculus, praestitit ista manus?</l>
-          <l>Parce precor pater, heu, lachrymis, heu parce dolori</l>
-          <l>Ne cadat incassum gutta sacrata genis.</l>
-          <l>Non tua gutta fuit vilis, mihi crede, tonanti</l>
-          <l>Ipsa emit nato regna beata poli.</l>
+      <div n="div11">
+        <lg n="lg1">
+          <l n="l1">Proh divum, natumque fidem: medeserit ille</l>
+          <l n="l2">Quem fudi in lucem, lux mea, solque meus.</l>
+          <l n="l3">Quid non, moerenti ut donarent sydera natum</l>
+          <l n="l4">Praestiti hic oculus, praestitit ista manus?</l>
+          <l n="l5">Parce precor pater, heu, lachrymis, heu parce dolori</l>
+          <l n="l6">Ne cadat incassum gutta sacrata genis.</l>
+          <l n="l7">Non tua gutta fuit vilis, mihi crede, tonanti</l>
+          <l n="l8">Ipsa emit nato regna beata poli.</l>
         </lg>
       </div>
-      <div>
-        <head>Alexii discessum Sponsa deplorat, Alexius solatur. Epigramma.</head>
+      <div n="div12">
+        <head n="head1">Alexii discessum Sponsa deplorat, Alexius solatur. Epigramma.</head>
       </div>
-      <div>
-        <lg>
-          <l>Cur me desponsam formaque auroque nitentem</l>
-          <l>Negligis atque ultro tristia fata subis?</l>
-          <l>Cur profugus laribus terrarum incerta pererras,</l>
-          <l>Sordidus et pauper ducis in orbe dies?</l>
-          <l>Desine sponsa mihi pectus pulsare querelis</l>
-          <l>Iudicium formae non Paris ipse fero.</l>
+      <div n="div13">
+        <lg n="lg1">
+          <l n="l1">Cur me desponsam formaque auroque nitentem</l>
+          <l n="l2">Negligis atque ultro tristia fata subis?</l>
+          <l n="l3">Cur profugus laribus terrarum incerta pererras,</l>
+          <l n="l4">Sordidus et pauper ducis in orbe dies?</l>
+          <l n="l5">Desine sponsa mihi pectus pulsare querelis</l>
+          <l n="l6">Iudicium formae non Paris ipse fero.</l>
         </lg>
       </div>
-      <div>
-        <head>De parentibus Alexii distichus serpentinum.</head>
+      <div n="div14">
+        <head n="head1">De parentibus Alexii distichus serpentinum.</head>
       </div>
-      <div>
-        <lg>
-          <l>Fletibus ora rignat, natum quo sidera reddant:</l>
-          <l>Natum quo reddant, fletibus ora rigant.</l>
+      <div n="div15">
+        <lg n="lg1">
+          <l n="l1">Fletibus ora rignat, natum quo sidera reddant:</l>
+          <l n="l2">Natum quo reddant, fletibus ora rigant.</l>
         </lg>
       </div>
-      <div>
-        <pb xml:id="F12"/>
-        <head>In Euphemianum de Filii discessu merente. Epigramma.</head>
+      <div n="div16">
+        <pb n="pb1" xml:id="F12"/>
+        <head n="head2">In Euphemianum de Filii discessu merente. Epigramma.</head>
       </div>
-      <div>
-        <lg>
-          <l>Ignarus me dum reputas noctesque diesque</l>
-          <l>Vivo tuo, et morior pectore, meste parens.</l>
-          <l>Dumque domi vivo, ignotis velut hospes ab oris</l>
-          <l>Vivo tuo, et morior pectore, meste parens.</l>
-          <l>Vita sed haec, mors est tibi, mors haec est, tibi vita.</l>
-          <l>Dum vivo, moreris, vivoque dum moreris.</l>
+      <div n="div17">
+        <lg n="lg1">
+          <l n="l1">Ignarus me dum reputas noctesque diesque</l>
+          <l n="l2">Vivo tuo, et morior pectore, meste parens.</l>
+          <l n="l3">Dumque domi vivo, ignotis velut hospes ab oris</l>
+          <l n="l4">Vivo tuo, et morior pectore, meste parens.</l>
+          <l n="l5">Vita sed haec, mors est tibi, mors haec est, tibi vita.</l>
+          <l n="l6">Dum vivo, moreris, vivoque dum moreris.</l>
         </lg>
       </div>
-      <div>
-        <head>Sponsae querela de Alexii discessu. Carmina fistulati.</head>
+      <div n="div18">
+        <head n="head1">Sponsae querela de Alexii discessu. Carmina fistulati.</head>
       </div>
-      <div>
-        <lg>
-          <l>Te cepi iuvenem, connubia splendidiora:</l>
-          <l>Heu sponsam iuvenis viduatam destituisti.</l>
+      <div n="div19">
+        <lg n="lg1">
+          <l n="l1">Te cepi iuvenem, connubia splendidiora:</l>
+          <l n="l2">Heu sponsam iuvenis viduatam destituisti.</l>
         </lg>
       </div>
-      <div>
-        <head>Patris querela de Alexii discessu. Disthicum.</head>
+      <div n="div20">
+        <head n="head1">Patris querela de Alexii discessu. Disthicum.</head>
       </div>
-      <div>
-        <lg>
-          <l>Quaesieram haeredem, possem cui credere cuncta;</l>
-          <l>En fugit, et fugiunt heu bona cuncta simul.</l>
+      <div n="div21">
+        <lg n="lg1">
+          <l n="l1">Quaesieram haeredem, possem cui credere cuncta;</l>
+          <l n="l2">En fugit, et fugiunt heu bona cuncta simul.</l>
         </lg>
       </div>
-      <div>
-        <head>In dominum Alexium fortunis patriis se abdicantem. Epigramma.</head>
+      <div n="div22">
+        <head n="head1">In dominum Alexium fortunis patriis se abdicantem. Epigramma.</head>
       </div>
-      <div>
-        <lg>
-          <l>Si quis adest alto deductus sanguine avorum</l>
-          <l>Cedat qui nulli nobilitate minor.</l>
-          <l>Si quis adest Arabum gazis honoribus auctus</l>
-          <pb xml:id="F13"/>
-          <l>Cuius sit celebris fama per ora domus.</l>
-          <l>Siquis adest facie pulcher, verecundia frontem</l>
-          <l>Cui pingat viridis flore inventa genas.</l>
-          <l>Si quis adest placidis decoratus moribus, atque</l>
-          <l>Cui populi spirent aura favorque sui.</l>
-          <l>Haec quos qui cogens celebratur in urbe beatus</l>
-          <l>Sed magis haec spernens clarus Alexis ovat.</l>
+      <div n="div23">
+        <lg n="lg1">
+          <l n="l1">Si quis adest alto deductus sanguine avorum</l>
+          <l n="l2">Cedat qui nulli nobilitate minor.</l>
+          <l n="l3">Si quis adest Arabum gazis honoribus auctus</l>
+          <pb n="pb4" xml:id="F13"/>
+          <l n="l5">Cuius sit celebris fama per ora domus.</l>
+          <l n="l6">Siquis adest facie pulcher, verecundia frontem</l>
+          <l n="l7">Cui pingat viridis flore inventa genas.</l>
+          <l n="l8">Si quis adest placidis decoratus moribus, atque</l>
+          <l n="l9">Cui populi spirent aura favorque sui.</l>
+          <l n="l10">Haec quos qui cogens celebratur in urbe beatus</l>
+          <l n="l11">Sed magis haec spernens clarus Alexis ovat.</l>
         </lg>
       </div>
-      <div>
-        <head>Aliud disthicum.</head>
+      <div n="div24">
+        <head n="head1">Aliud disthicum.</head>
       </div>
-      <div>
-        <lg>
-          <l>Nolo redire Pater, nequeo tibi dicere causam:</l>
-          <l>Hoc tantum dico: nolo redire Pater.</l>
+      <div n="div25">
+        <lg n="lg1">
+          <l n="l1">Nolo redire Pater, nequeo tibi dicere causam:</l>
+          <l n="l2">Hoc tantum dico: nolo redire Pater.</l>
         </lg>
       </div>
-      <div>
-        <head>In fugam Alexii, et sponsae solitudinem.</head>
+      <div n="div26">
+        <head n="head1">In fugam Alexii, et sponsae solitudinem.</head>
       </div>
-      <div>
-        <lg>
-          <l>Castus Alexi, magis, magis an coniux tua casta?</l>
-          <l>Casta quidem coniux, sed tu mage castus Alexis.</l>
+      <div n="div27">
+        <lg n="lg1">
+          <l n="l1">Castus Alexi, magis, magis an coniux tua casta?</l>
+          <l n="l2">Casta quidem coniux, sed tu mage castus Alexis.</l>
         </lg>
       </div>
-      <div>
-        <head>De Domino Alexio victore fugitivo.</head>
+      <div n="div28">
+        <head n="head1">De Domino Alexio victore fugitivo.</head>
       </div>
-      <div>
-        <lg>
-          <l>Et fugit, et blande fugiendo vincit Alexis</l>
-          <l>Mille voluptatis retia, mille dolos</l>
-          <l>Communis, belli ducibus cum milite, palma est:</l>
-          <l>Quae datur ex bello hoc, laurea tota tua est.</l>
-          <pb xml:id="F14"/>
-          <l>At maior sequitur multos quaesita per annos</l>
-          <l>Qualis erit? Talem si fuga sola parat.</l>
+      <div n="div29">
+        <lg n="lg1">
+          <l n="l1">Et fugit, et blande fugiendo vincit Alexis</l>
+          <l n="l2">Mille voluptatis retia, mille dolos</l>
+          <l n="l3">Communis, belli ducibus cum milite, palma est:</l>
+          <l n="l4">Quae datur ex bello hoc, laurea tota tua est.</l>
+          <pb n="pb5" xml:id="F14"/>
+          <l n="l6">At maior sequitur multos quaesita per annos</l>
+          <l n="l7">Qualis erit? Talem si fuga sola parat.</l>
         </lg>
       </div>
-      <div>
-        <head>De Alexii abdicatione. Aliud.</head>
+      <div n="div30">
+        <head n="head1">De Alexii abdicatione. Aliud.</head>
       </div>
-      <div>
-        <lg>
-          <l>Magnus Alexander, populos quos propulit armis</l>
-          <l>Et fama et grandis dictio prisca monet.</l>
-          <l>Maior Alexis adest, vox quamvis ipsa minor sit:</l>
-          <l>Is populos armis propulit, iste fuga</l>
-          <l>Cernito quo maius se ipsum est, quam vincere gentes:</l>
-          <l>Crescit vox maior nomine parta suo.</l>
+      <div n="div31">
+        <lg n="lg1">
+          <l n="l1">Magnus Alexander, populos quos propulit armis</l>
+          <l n="l2">Et fama et grandis dictio prisca monet.</l>
+          <l n="l3">Maior Alexis adest, vox quamvis ipsa minor sit:</l>
+          <l n="l4">Is populos armis propulit, iste fuga</l>
+          <l n="l5">Cernito quo maius se ipsum est, quam vincere gentes:</l>
+          <l n="l6">Crescit vox maior nomine parta suo.</l>
         </lg>
       </div>
-      <div>
-        <head>Sponsa deplorat absentiam Alexii. Ode. Dicolos Tetrastrophos.</head>
+      <div n="div32">
+        <head n="head1">Sponsa deplorat absentiam Alexii. Ode. Dicolos Tetrastrophos.</head>
       </div>
-      <div>
-        <lg>
-          <l>Quis fletu misero sit pudor, aut modus</l>
-          <l>Sponsae orbe, modulos suggere lugubres</l>
-          <l>Maerens Melpomene diva tragoediis</l>
-          <l>Quas fudit tua tibia.</l>
-          <l>Ergo fata mihi diripient procul</l>
-          <l>Sponsum, cui pudor est ingenii comes</l>
-          <l>Cui oris species, formaque nobilis</l>
-          <l>Quando ullum invenient parem?</l>
-          <l>Cunctis ipse quidem lugubris exiit</l>
-          <pb xml:id="F15"/>
-          <l>Nulli lugubrior quam mihi coniugi</l>
-          <l>An frustra lachrymis et quaerimoniis</l>
-          <l>Contendam, ut repetat lares?</l>
-          <l>Quod si vox trucior, quam fera punica</l>
-          <l>Natis orba suis, aethera compleat</l>
-          <l>Et sylvas strepitu, non reditum putet</l>
-          <l>Surdus pectore et auribus.</l>
-          <l>Qui sacrata scidit foedera coniugi</l>
-          <l>Quam sponsam, viduam reddidit et prius:</l>
-          <l>Heu vivens moriar coniuge perfuga</l>
-          <l>Vivam sed mage mortua.</l>
+      <div n="div33">
+        <lg n="lg1">
+          <l n="l1">Quis fletu misero sit pudor, aut modus</l>
+          <l n="l2">Sponsae orbe, modulos suggere lugubres</l>
+          <l n="l3">Maerens Melpomene diva tragoediis</l>
+          <l n="l4">Quas fudit tua tibia.</l>
+          <l n="l5">Ergo fata mihi diripient procul</l>
+          <l n="l6">Sponsum, cui pudor est ingenii comes</l>
+          <l n="l7">Cui oris species, formaque nobilis</l>
+          <l n="l8">Quando ullum invenient parem?</l>
+          <l n="l9">Cunctis ipse quidem lugubris exiit</l>
+          <pb n="pb10" xml:id="F15"/>
+          <l n="l11">Nulli lugubrior quam mihi coniugi</l>
+          <l n="l12">An frustra lachrymis et quaerimoniis</l>
+          <l n="l13">Contendam, ut repetat lares?</l>
+          <l n="l14">Quod si vox trucior, quam fera punica</l>
+          <l n="l15">Natis orba suis, aethera compleat</l>
+          <l n="l16">Et sylvas strepitu, non reditum putet</l>
+          <l n="l17">Surdus pectore et auribus.</l>
+          <l n="l18">Qui sacrata scidit foedera coniugi</l>
+          <l n="l19">Quam sponsam, viduam reddidit et prius:</l>
+          <l n="l20">Heu vivens moriar coniuge perfuga</l>
+          <l n="l21">Vivam sed mage mortua.</l>
         </lg>
       </div>
-      <div>
-        <head>Alexius Divorum Romanorum gemma. Dicolos tetrastichos.</head>
+      <div n="div34">
+        <head n="head1">Alexius Divorum Romanorum gemma. Dicolos tetrastichos.</head>
       </div>
-      <div>
-        <lg>
-          <l>Quem canet divum super astra Olympi</l>
-          <l>
-            <placeName>Roma</placeName>sublatum trabea decorum</l>
-          <l>Ense, vel docto, roseo vel ore</l>
-          <l>Praecipe Clio.</l>
-          <l>Sacra compello soros haud profana</l>
-          <l>Te, choro celsi sociata Phaebi</l>
-          <l>Numinis sancti comes atque castra</l>
-          <l>Praecipe cantum.</l>
-          <l>Praecipe et plectrum quod in urbis aula</l>
-          <pb xml:id="F16"/>
-          <l>Sit Quirinalis dominantis orbi</l>
-          <l>Collibus septem placitum tonanti</l>
-          <l>Aethre sedenti.</l>
-          <l>Quem prius tollet lyra sacra? Patrem</l>
-          <l>Caeca quem cori rabies ab alto</l>
-          <l>Vidit ad clavum fugiens tenendum</l>
-          <l>Rite repostum.</l>
-          <l>Ille sylvarum nemorumque tutus</l>
-          <l>Frondibus, nomen cui cessit altum</l>
-          <l>Cultus in sylvis domuit feroces</l>
-          <l>Urbe leones.</l>
-          <l>Blandam et Agnetem venerare castam</l>
-          <l>Mente servato niveo pudore</l>
-          <l>Quem lupus tentans violare, mitis</l>
-          <l>Redditus Agnus.</l>
-          <l>Martyrem dicas, cui laurus addit</l>
-          <l>Sacra fulgenti sociata palmae</l>
-          <l>Orbis aeternum decus et levitae</l>
-          <l>Serta decori.</l>
-          <l>Iunge confertam pia musa turbam</l>
-          <l>Urbus evectam liquidum per arthra</l>
-          <l>Auge praeclarum populo Quiritis</l>
-          <l>Nomen ovantis</l>
-          <l>Unus hoc vincet velut astra Phaebus</l>
-          <pb xml:id="F17"/>
-          <l>Luminis pandens radios Alexis</l>
-          <l>Aureos: gestis novus ac triumphis</l>
-          <l>Clarus avitis.</l>
-          <l>Divequi fluctus pelagi minacis</l>
-          <l>Laetus excedis fruiturus aevo</l>
-          <l>Lucis: e puro placide ladentes</l>
-          <l>Respice olympo.</l>
+      <div n="div35">
+        <lg n="lg1">
+          <l n="l1">Quem canet divum super astra Olympi</l>
+          <l n="l2">
+            <placeName n="placeName1">Roma</placeName>sublatum trabea decorum</l>
+          <l n="l3">Ense, vel docto, roseo vel ore</l>
+          <l n="l4">Praecipe Clio.</l>
+          <l n="l5">Sacra compello soros haud profana</l>
+          <l n="l6">Te, choro celsi sociata Phaebi</l>
+          <l n="l7">Numinis sancti comes atque castra</l>
+          <l n="l8">Praecipe cantum.</l>
+          <l n="l9">Praecipe et plectrum quod in urbis aula</l>
+          <pb n="pb10" xml:id="F16"/>
+          <l n="l11">Sit Quirinalis dominantis orbi</l>
+          <l n="l12">Collibus septem placitum tonanti</l>
+          <l n="l13">Aethre sedenti.</l>
+          <l n="l14">Quem prius tollet lyra sacra? Patrem</l>
+          <l n="l15">Caeca quem cori rabies ab alto</l>
+          <l n="l16">Vidit ad clavum fugiens tenendum</l>
+          <l n="l17">Rite repostum.</l>
+          <l n="l18">Ille sylvarum nemorumque tutus</l>
+          <l n="l19">Frondibus, nomen cui cessit altum</l>
+          <l n="l20">Cultus in sylvis domuit feroces</l>
+          <l n="l21">Urbe leones.</l>
+          <l n="l22">Blandam et Agnetem venerare castam</l>
+          <l n="l23">Mente servato niveo pudore</l>
+          <l n="l24">Quem lupus tentans violare, mitis</l>
+          <l n="l25">Redditus Agnus.</l>
+          <l n="l26">Martyrem dicas, cui laurus addit</l>
+          <l n="l27">Sacra fulgenti sociata palmae</l>
+          <l n="l28">Orbis aeternum decus et levitae</l>
+          <l n="l29">Serta decori.</l>
+          <l n="l30">Iunge confertam pia musa turbam</l>
+          <l n="l31">Urbus evectam liquidum per arthra</l>
+          <l n="l32">Auge praeclarum populo Quiritis</l>
+          <l n="l33">Nomen ovantis</l>
+          <l n="l34">Unus hoc vincet velut astra Phaebus</l>
+          <pb n="pb35" xml:id="F17"/>
+          <l n="l36">Luminis pandens radios Alexis</l>
+          <l n="l37">Aureos: gestis novus ac triumphis</l>
+          <l n="l38">Clarus avitis.</l>
+          <l n="l39">Divequi fluctus pelagi minacis</l>
+          <l n="l40">Laetus excedis fruiturus aevo</l>
+          <l n="l41">Lucis: e puro placide ladentes</l>
+          <l n="l42">Respice olympo.</l>
         </lg>
       </div>
-      <div>
-        <head>Divus Alexius domum repetit in peregrini specie. Disthicum.</head>
+      <div n="div36">
+        <head n="head1">Divus Alexius domum repetit in peregrini specie. Disthicum.</head>
       </div>
-      <div>
-        <lg>
-          <l>Tectus abit tecto iuvenis: sed cautior inquit</l>
-          <l>Tectum si repeto, tum mage tectus eo.</l>
+      <div n="div37">
+        <lg n="lg1">
+          <l n="l1">Tectus abit tecto iuvenis: sed cautior inquit</l>
+          <l n="l2">Tectum si repeto, tum mage tectus eo.</l>
         </lg>
       </div>
-      <div>
-        <head>Divus Alexius in patria domo latitans. Disthicum.</head>
+      <div n="div38">
+        <head n="head1">Divus Alexius in patria domo latitans. Disthicum.</head>
       </div>
-      <div>
-        <lg>
-          <l>Regius obscuro tecti sedet hospes in antro</l>
-          <l>Clauditur in modico gemma superba loco.</l>
+      <div n="div39">
+        <lg n="lg1">
+          <l n="l1">Regius obscuro tecti sedet hospes in antro</l>
+          <l n="l2">Clauditur in modico gemma superba loco.</l>
         </lg>
       </div>
-      <div>
-        <head>Alexius obscuro in angulo paternae domus sedet. Icon.</head>
+      <div n="div40">
+        <head n="head1">Alexius obscuro in angulo paternae domus sedet. Icon.</head>
       </div>
-      <div>
-        <lg>
-          <l>Si cupis ad vivum speciem depingere Alexis</l>
-          <l>Quam finxit pietas, fingat et ipsa manus</l>
-          <pb xml:id="F18"/>
-          <l>Abditus obscuro sedeat vir dius in antro</l>
-          <l>Arentesque artus penula fracta tegat.</l>
-          <l>Frons contracta rugis, squalens sit pallor in ore</l>
-          <l>Dit tenuis victus, pulvere nigra Ceres</l>
-          <l>Oblitusque sui tendat pia lumina caelo</l>
-          <l>Vel cum tarda capit languida membra quiescat</l>
-          <l>Vincula iunge, Petrus carcere trusus erit.</l>
-          <l>Cernite vincentem iuvenem miracla virorum</l>
-          <l>Humana in specie et visus adesse Deus.</l>
-          <l>Staminadum texunt parcae iuvenilia Alexis,</l>
-          <l>Ipse secat nuptae stamina texta sibi.</l>
-          <l>Perquirunt iuveni blandae consortia sponsae</l>
-          <l>Dirus mente fugit, pectore durus abit.</l>
-          <l>Dum Cybeles opibus, patris domus alta redundat</l>
-          <l>Vivit inops, pedibus regia strata terens.</l>
-          <l>Muriceas inter vestes, ostrumque superbum</l>
-          <l>Sordescit, flocci rubra venena putans,</l>
-          <l>Statque dapes inter lautas ieiunus, et arctus</l>
-          <l>Praebent vix modicum tecta superba sinum.</l>
-          <l>Illudit Domino servorum turba proterva</l>
-          <l>Sustinet is verbis verbera iuncta libens.</l>
-          <l>Oh quid agit divinus amor cum pectus adiissit?</l>
-          <l>Terrenos terris arcet, humoque homines</l>
+      <div n="div41">
+        <lg n="lg1">
+          <l n="l1">Si cupis ad vivum speciem depingere Alexis</l>
+          <l n="l2">Quam finxit pietas, fingat et ipsa manus</l>
+          <pb n="pb3" xml:id="F18"/>
+          <l n="l4">Abditus obscuro sedeat vir dius in antro</l>
+          <l n="l5">Arentesque artus penula fracta tegat.</l>
+          <l n="l6">Frons contracta rugis, squalens sit pallor in ore</l>
+          <l n="l7">Dit tenuis victus, pulvere nigra Ceres</l>
+          <l n="l8">Oblitusque sui tendat pia lumina caelo</l>
+          <l n="l9">Vel cum tarda capit languida membra quiescat</l>
+          <l n="l10">Vincula iunge, Petrus carcere trusus erit.</l>
+          <l n="l11">Cernite vincentem iuvenem miracla virorum</l>
+          <l n="l12">Humana in specie et visus adesse Deus.</l>
+          <l n="l13">Staminadum texunt parcae iuvenilia Alexis,</l>
+          <l n="l14">Ipse secat nuptae stamina texta sibi.</l>
+          <l n="l15">Perquirunt iuveni blandae consortia sponsae</l>
+          <l n="l16">Dirus mente fugit, pectore durus abit.</l>
+          <l n="l17">Dum Cybeles opibus, patris domus alta redundat</l>
+          <l n="l18">Vivit inops, pedibus regia strata terens.</l>
+          <l n="l19">Muriceas inter vestes, ostrumque superbum</l>
+          <l n="l20">Sordescit, flocci rubra venena putans,</l>
+          <l n="l21">Statque dapes inter lautas ieiunus, et arctus</l>
+          <l n="l22">Praebent vix modicum tecta superba sinum.</l>
+          <l n="l23">Illudit Domino servorum turba proterva</l>
+          <l n="l24">Sustinet is verbis verbera iuncta libens.</l>
+          <l n="l25">Oh quid agit divinus amor cum pectus adiissit?</l>
+          <l n="l26">Terrenos terris arcet, humoque homines</l>
         </lg>
       </div>
-      <div>
-        <pb xml:id="F19"/>
-        <head>De Alexio in patria domo latente. Epigramma.</head>
+      <div n="div42">
+        <pb n="pb1" xml:id="F19"/>
+        <head n="head2">De Alexio in patria domo latente. Epigramma.</head>
       </div>
-      <div>
-        <lg>
-          <l>Fida thori fueras blandae consortia nymphae</l>
-          <l>Pollicitus prima tu fugis ecce face.</l>
-          <l>Tu Christi, illa tui causa tenet orba penates</l>
-          <l>Pacta fides igitur rite soluta manet.</l>
+      <div n="div43">
+        <lg n="lg1">
+          <l n="l1">Fida thori fueras blandae consortia nymphae</l>
+          <l n="l2">Pollicitus prima tu fugis ecce face.</l>
+          <l n="l3">Tu Christi, illa tui causa tenet orba penates</l>
+          <l n="l4">Pacta fides igitur rite soluta manet.</l>
         </lg>
       </div>
-      <div>
-        <head>De Alexio domi abiecto. Epigramma.</head>
+      <div n="div44">
+        <head n="head1">De Alexio domi abiecto. Epigramma.</head>
       </div>
-      <div>
-        <lg>
-          <l>Indue tu panno Pater, ostroque exue Alexim</l>
-          <l>Hic tibi Divus erit, qui tibi natus erat.</l>
-          <l>Exue tu panno, pater, ostroque indue Alexim</l>
-          <l>Hic tibi natus erit qui tibi divus erat.</l>
-          <l>Quid non pauperies valet, huius si omine pauper</l>
-          <l>Est potis in terris filius esse Dei?</l>
+      <div n="div45">
+        <lg n="lg1">
+          <l n="l1">Indue tu panno Pater, ostroque exue Alexim</l>
+          <l n="l2">Hic tibi Divus erit, qui tibi natus erat.</l>
+          <l n="l3">Exue tu panno, pater, ostroque indue Alexim</l>
+          <l n="l4">Hic tibi natus erit qui tibi divus erat.</l>
+          <l n="l5">Quid non pauperies valet, huius si omine pauper</l>
+          <l n="l6">Est potis in terris filius esse Dei?</l>
         </lg>
       </div>
-      <div>
-        <head>De Alexio domi hospitante. Epigramma.</head>
+      <div n="div46">
+        <head n="head1">De Alexio domi hospitante. Epigramma.</head>
       </div>
-      <div>
-        <lg>
-          <l>Aedibus in propriis humilis deseruit Alexis</l>
-          <l>Et sedet obscuro pulvere dives opum.</l>
-          <l>Clarior ipse tamen surgit, caeloque propinquat</l>
-          <l>Sordibus in mediis ditior orbe nitet.</l>
-          <l>Discito quod certum sit iter, si culmina honoris</l>
-          <l>Expetis. In caeca fax mage nocte micat.</l>
+      <div n="div47">
+        <lg n="lg1">
+          <l n="l1">Aedibus in propriis humilis deseruit Alexis</l>
+          <l n="l2">Et sedet obscuro pulvere dives opum.</l>
+          <l n="l3">Clarior ipse tamen surgit, caeloque propinquat</l>
+          <l n="l4">Sordibus in mediis ditior orbe nitet.</l>
+          <l n="l5">Discito quod certum sit iter, si culmina honoris</l>
+          <l n="l6">Expetis. In caeca fax mage nocte micat.</l>
         </lg>
       </div>
-      <div>
-        <pb xml:id="F20"/>
-        <head>Patria hospitalitas Alexii parentibus obscura, symbolo lunae deficientis ob
+      <div n="div48">
+        <pb n="pb1" xml:id="F20"/>
+        <head n="head2">Patria hospitalitas Alexii parentibus obscura, symbolo lunae deficientis ob
                 interpositas terras, inter ipsam et sole, exprossa, cum lemmate.</head>
       </div>
-      <div>
-        <lg>
-          <l>Terra vetat.</l>
-          <l>Deficit in solis subtracto lumine luna</l>
-          <l>Quod media obscuro pondere terra vetat.</l>
-          <l>Talia Roma videt, patrios repetente penates</l>
-          <l>Hospite Alexi: virum noscere sponsa nequit.</l>
-          <l>Terra vetat, terris defixaque lumina sponsae,</l>
-          <l>Ne dium videat, quem tenet ante, virum.</l>
+      <div n="div49">
+        <lg n="lg1">
+          <l n="l1">Terra vetat.</l>
+          <l n="l2">Deficit in solis subtracto lumine luna</l>
+          <l n="l3">Quod media obscuro pondere terra vetat.</l>
+          <l n="l4">Talia Roma videt, patrios repetente penates</l>
+          <l n="l5">Hospite Alexi: virum noscere sponsa nequit.</l>
+          <l n="l6">Terra vetat, terris defixaque lumina sponsae,</l>
+          <l n="l7">Ne dium videat, quem tenet ante, virum.</l>
         </lg>
       </div>
-      <div>
-        <head>Immutabilitas ferri candentis inter flammas, Alexii symbolum, cum lemmate.</head>
+      <div n="div50">
+        <head n="head1">Immutabilitas ferri candentis inter flammas, Alexii symbolum, cum lemmate.</head>
       </div>
-      <div>
-        <lg>
-          <l>Candescens non immutor.</l>
-          <l>Iniicitur prunis ferrum, flammaeque voraces</l>
-          <l>Non mutant quanvis candeat igne rubens.</l>
-          <l>Ingreditur patrium tectum peregrinus Alexis</l>
-          <l>Et veluti ferrum creditur ecce focis.</l>
-          <l>Exsibilitant aurae plorantum, saevit et ignis,</l>
-          <l>Pectora qui cruciet, non violare queat.</l>
+      <div n="div51">
+        <lg n="lg1">
+          <l n="l1">Candescens non immutor.</l>
+          <l n="l2">Iniicitur prunis ferrum, flammaeque voraces</l>
+          <l n="l3">Non mutant quanvis candeat igne rubens.</l>
+          <l n="l4">Ingreditur patrium tectum peregrinus Alexis</l>
+          <l n="l5">Et veluti ferrum creditur ecce focis.</l>
+          <l n="l6">Exsibilitant aurae plorantum, saevit et ignis,</l>
+          <l n="l7">Pectora qui cruciet, non violare queat.</l>
         </lg>
       </div>
-      <div>
-        <pb xml:id="F21"/>
-        <head>Inflexibilitas Alexii ensi chalybeo in petram intorto equiparata, cum
+      <div n="div52">
+        <pb n="pb1" xml:id="F21"/>
+        <head n="head2">Inflexibilitas Alexii ensi chalybeo in petram intorto equiparata, cum
                 lemmate.</head>
       </div>
-      <div>
-        <lg>
-          <l>Frangi quam flecti.</l>
-          <l>Stat rigidus mucro vibratus in aspera saxa:</l>
-          <l>Frangere vis potis est; flectere nulla potest.</l>
-          <l>Crebris contendant lachrymis: nam pectus Alexis</l>
-          <l>Flectere non patres; frangere forte queunt.</l>
+      <div n="div53">
+        <lg n="lg1">
+          <l n="l1">Frangi quam flecti.</l>
+          <l n="l2">Stat rigidus mucro vibratus in aspera saxa:</l>
+          <l n="l3">Frangere vis potis est; flectere nulla potest.</l>
+          <l n="l4">Crebris contendant lachrymis: nam pectus Alexis</l>
+          <l n="l5">Flectere non patres; frangere forte queunt.</l>
         </lg>
       </div>
-      <div>
-        <head>Constantia Alexii audientis sponsae suspiria, similis crystallo ex glacie
+      <div n="div54">
+        <head n="head1">Constantia Alexii audientis sponsae suspiria, similis crystallo ex glacie
                 coalescenti, a sole percusso sed incolumi, cum lemmate.</head>
       </div>
-      <div>
-        <lg>
-          <l>Solidatur non solvitur.</l>
-          <l>Percutit ex alto radiis sol cardin ecretum</l>
-          <l>Crystallum ex glacie, solvere nec potis est</l>
-          <l>Sic feriunt sponsae suspiria fervida Alexim</l>
-          <l>Nec solvunt; solidant sed mage corda viri.</l>
+      <div n="div55">
+        <lg n="lg1">
+          <l n="l1">Solidatur non solvitur.</l>
+          <l n="l2">Percutit ex alto radiis sol cardin ecretum</l>
+          <l n="l3">Crystallum ex glacie, solvere nec potis est</l>
+          <l n="l4">Sic feriunt sponsae suspiria fervida Alexim</l>
+          <l n="l5">Nec solvunt; solidant sed mage corda viri.</l>
         </lg>
       </div>
-      <div>
-        <head>De divi Alexii vita admirabili. Ode. Dicolos Distrophos.</head>
+      <div n="div56">
+        <head n="head1">De divi Alexii vita admirabili. Ode. Dicolos Distrophos.</head>
       </div>
-      <div>
-        <lg>
-          <l>Quam tu magnificus poli</l>
-          <l>Regnator triplici lumine praeditus</l>
-          <pb xml:id="F22"/>
-          <l>Patrum muneribus piis</l>
-          <l>Defessus sobolem fuderis aethere</l>
-          <l>Non illam stimulis agent</l>
-          <l>Gemmati latices fluminis Indici</l>
-          <l>Non conferta nitentium</l>
-          <l>Deduce tue foro turba satellitum</l>
-          <l>Auratis sacra nec Cypris</l>
-          <l>Telis perfodiet corda calentia</l>
-          <l>Prolis non trahet anxia</l>
-          <l>Spes dulcis, generis praesidium et decus</l>
-          <l>Erectos sed amaenitas</l>
-          <l>Vultus pelliciet siderae domus</l>
-          <l>Felix et requies poli</l>
-          <l>Duratura dabit spicula fervida</l>
-          <l>Nil formosius accidet</l>
-          <l>Tristi pauperie: ut regia nobilis</l>
-          <l>Tectum stramine sordidum</l>
-          <l>Clarescet: tyrio rubra videbitur</l>
-          <l>Vestis murice, quam dabit</l>
-          <l>Hirsutus rigido vellere pannulus.</l>
-          <l>Dio canities patens</l>
-          <l>Auratas superat principis insulas</l>
-          <l>In terris nihil obtinens</l>
-          <l>Terrarum dominus possidet omnia.</l>
+      <div n="div57">
+        <lg n="lg1">
+          <l n="l1">Quam tu magnificus poli</l>
+          <l n="l2">Regnator triplici lumine praeditus</l>
+          <pb n="pb3" xml:id="F22"/>
+          <l n="l4">Patrum muneribus piis</l>
+          <l n="l5">Defessus sobolem fuderis aethere</l>
+          <l n="l6">Non illam stimulis agent</l>
+          <l n="l7">Gemmati latices fluminis Indici</l>
+          <l n="l8">Non conferta nitentium</l>
+          <l n="l9">Deduce tue foro turba satellitum</l>
+          <l n="l10">Auratis sacra nec Cypris</l>
+          <l n="l11">Telis perfodiet corda calentia</l>
+          <l n="l12">Prolis non trahet anxia</l>
+          <l n="l13">Spes dulcis, generis praesidium et decus</l>
+          <l n="l14">Erectos sed amaenitas</l>
+          <l n="l15">Vultus pelliciet siderae domus</l>
+          <l n="l16">Felix et requies poli</l>
+          <l n="l17">Duratura dabit spicula fervida</l>
+          <l n="l18">Nil formosius accidet</l>
+          <l n="l19">Tristi pauperie: ut regia nobilis</l>
+          <l n="l20">Tectum stramine sordidum</l>
+          <l n="l21">Clarescet: tyrio rubra videbitur</l>
+          <l n="l22">Vestis murice, quam dabit</l>
+          <l n="l23">Hirsutus rigido vellere pannulus.</l>
+          <l n="l24">Dio canities patens</l>
+          <l n="l25">Auratas superat principis insulas</l>
+          <l n="l26">In terris nihil obtinens</l>
+          <l n="l27">Terrarum dominus possidet omnia.</l>
         </lg>
       </div>
-      <div>
-        <pb xml:id="F23"/>
-        <head>Syngrapha quam reliquit moriturus divus Alexius suis parentibus, vitae suae
+      <div n="div58">
+        <pb n="pb1" xml:id="F23"/>
+        <head n="head2">Syngrapha quam reliquit moriturus divus Alexius suis parentibus, vitae suae
                 testimonium. Elegiace scripta.</head>
       </div>
-      <div>
-        <lg>
-          <l>Haec tibi ego moriens credo, pagella supestes</l>
-          <l>Esto secreti nuncia fida mei</l>
-          <l>Ille ego (dic) iaceo qui nuper morte peremptus</l>
-          <l>Quem versa in tumulum cellula caeca tegit</l>
-          <l>Clarus sum celebri deductus origine in Urbe</l>
-          <l>Surgit nulla domus maior in astra, mea</l>
-          <l>Hic sociam thalami Aglen Euphimianus adeptus</l>
-          <l>Iactabat sterili corpora Iessa thoro.</l>
-          <l>Numina solicitans precibus, votisque fatigans</l>
-          <l>Me tandem pignus gestiit esse thori</l>
-          <l>Ipse ego spes gentis sum nomine dictus Alexis</l>
-          <l>Quod repuli a patribus tristia fata procul</l>
-          <l>Ut pubem subii, et prolis spectata potestas</l>
-          <l>Quaesita est parilis clara puella mihi</l>
-          <l>Hanc genitoris amor, non mens mea fecit amicam</l>
-          <l>Nobilis et pepigit foedera coniugii.</l>
-          <l>Et cantatus hymen, et lampades igne micarunt,</l>
-          <l>Distinxere epulas carmina laeta meas.</l>
-          <l>Iamque thorus stratus: genii subito ecce monet vox</l>
-          <pb xml:id="F24"/>
-          <l>Uxorem ut linquam, solus et orbe vager.</l>
-          <l>Sic thalamum subeo, fulgentem porrigo nuptae</l>
-          <l>Gemmam, do digito pugnus hymene sacrum.</l>
-          <l>Torque etiam cumulo gemmis auroque nitenti</l>
-          <l>Quam docta aurificis finxerat arte manus.</l>
-          <l>Hanc trado, et reditum simulans, ut pignora servet</l>
-          <l>Admoneo, admoneant fata quousque secus.</l>
-          <l>Inde alio sumens argentum limine palam</l>
-          <l>Sumo peregrinam, digrediorque domo.</l>
-          <l>Ostia ubi Tyberis pelago devolvitur unda</l>
-          <l>Vix tero, cum volucris littore puppis adest</l>
-          <l>Solvitur, et placidis aequor depulsa rescindet</l>
-          <l>Auris, lardicen Carbasa laxa tenet.</l>
-          <l>Aedessam pedibus tendo, promptosque lapillos</l>
-          <l>Distribuo miseris redditus ipse miser.</l>
-          <l>Porticus errantem templi spatiosa recepit</l>
-          <l>Vota ubi Christiparae picta tabella tenet</l>
-          <l>Messes bis septem hic sedi: manibusque piorum</l>
-          <l>Sum pastus, famuli dona dedere mei.</l>
-          <l>Sed me Praeposito fani detexit imago</l>
-          <l>Et celerem populi praebuit aura fugam.</l>
-          <l>Vela dedi incertus, flatu spirante superno</l>
-          <l>Appulit ad latium litus ad acta ratis</l>
-          <l>Suggessit pietas lustrare et limina sanctae</l>
-          <pb xml:id="F25"/>
-          <l>Urbis et ad patrios hospitem abdire lares</l>
-          <l>Post pia vota pedem referens per compita; patri</l>
-          <l>Occurro suplex ut detin aede sinum</l>
-          <l>Excipior: loculum scalae mihi concava paebent</l>
-          <l>Hic quoque bis septem messibus hospes ago</l>
-          <l>Sic Deus, genitor, large tibi cuncta rependat</l>
-          <l>Reddat ut ignotum pignus in aethre scias.</l>
-          <l>Ista tibi, matri, sponsae sit litera vitae</l>
-          <l>Nuncia certa meae, perpetuumque Vale.</l>
+      <div n="div59">
+        <lg n="lg1">
+          <l n="l1">Haec tibi ego moriens credo, pagella supestes</l>
+          <l n="l2">Esto secreti nuncia fida mei</l>
+          <l n="l3">Ille ego (dic) iaceo qui nuper morte peremptus</l>
+          <l n="l4">Quem versa in tumulum cellula caeca tegit</l>
+          <l n="l5">Clarus sum celebri deductus origine in Urbe</l>
+          <l n="l6">Surgit nulla domus maior in astra, mea</l>
+          <l n="l7">Hic sociam thalami Aglen Euphimianus adeptus</l>
+          <l n="l8">Iactabat sterili corpora Iessa thoro.</l>
+          <l n="l9">Numina solicitans precibus, votisque fatigans</l>
+          <l n="l10">Me tandem pignus gestiit esse thori</l>
+          <l n="l11">Ipse ego spes gentis sum nomine dictus Alexis</l>
+          <l n="l12">Quod repuli a patribus tristia fata procul</l>
+          <l n="l13">Ut pubem subii, et prolis spectata potestas</l>
+          <l n="l14">Quaesita est parilis clara puella mihi</l>
+          <l n="l15">Hanc genitoris amor, non mens mea fecit amicam</l>
+          <l n="l16">Nobilis et pepigit foedera coniugii.</l>
+          <l n="l17">Et cantatus hymen, et lampades igne micarunt,</l>
+          <l n="l18">Distinxere epulas carmina laeta meas.</l>
+          <l n="l19">Iamque thorus stratus: genii subito ecce monet vox</l>
+          <pb n="pb20" xml:id="F24"/>
+          <l n="l21">Uxorem ut linquam, solus et orbe vager.</l>
+          <l n="l22">Sic thalamum subeo, fulgentem porrigo nuptae</l>
+          <l n="l23">Gemmam, do digito pugnus hymene sacrum.</l>
+          <l n="l24">Torque etiam cumulo gemmis auroque nitenti</l>
+          <l n="l25">Quam docta aurificis finxerat arte manus.</l>
+          <l n="l26">Hanc trado, et reditum simulans, ut pignora servet</l>
+          <l n="l27">Admoneo, admoneant fata quousque secus.</l>
+          <l n="l28">Inde alio sumens argentum limine palam</l>
+          <l n="l29">Sumo peregrinam, digrediorque domo.</l>
+          <l n="l30">Ostia ubi Tyberis pelago devolvitur unda</l>
+          <l n="l31">Vix tero, cum volucris littore puppis adest</l>
+          <l n="l32">Solvitur, et placidis aequor depulsa rescindet</l>
+          <l n="l33">Auris, lardicen Carbasa laxa tenet.</l>
+          <l n="l34">Aedessam pedibus tendo, promptosque lapillos</l>
+          <l n="l35">Distribuo miseris redditus ipse miser.</l>
+          <l n="l36">Porticus errantem templi spatiosa recepit</l>
+          <l n="l37">Vota ubi Christiparae picta tabella tenet</l>
+          <l n="l38">Messes bis septem hic sedi: manibusque piorum</l>
+          <l n="l39">Sum pastus, famuli dona dedere mei.</l>
+          <l n="l40">Sed me Praeposito fani detexit imago</l>
+          <l n="l41">Et celerem populi praebuit aura fugam.</l>
+          <l n="l42">Vela dedi incertus, flatu spirante superno</l>
+          <l n="l43">Appulit ad latium litus ad acta ratis</l>
+          <l n="l44">Suggessit pietas lustrare et limina sanctae</l>
+          <pb n="pb45" xml:id="F25"/>
+          <l n="l46">Urbis et ad patrios hospitem abdire lares</l>
+          <l n="l47">Post pia vota pedem referens per compita; patri</l>
+          <l n="l48">Occurro suplex ut detin aede sinum</l>
+          <l n="l49">Excipior: loculum scalae mihi concava paebent</l>
+          <l n="l50">Hic quoque bis septem messibus hospes ago</l>
+          <l n="l51">Sic Deus, genitor, large tibi cuncta rependat</l>
+          <l n="l52">Reddat ut ignotum pignus in aethre scias.</l>
+          <l n="l53">Ista tibi, matri, sponsae sit litera vitae</l>
+          <l n="l54">Nuncia certa meae, perpetuumque Vale.</l>
         </lg>
       </div>
-      <div>
-        <head>Suadetur Eupheminao, ut a lachrymis se contineat agnito post mortem filio. Oda.
+      <div n="div60">
+        <head n="head1">Suadetur Eupheminao, ut a lachrymis se contineat agnito post mortem filio. Oda.
                 Dicolos Distrophos.</head>
       </div>
-      <div>
-        <lg>
-          <l>Conticuere graves disiecto murmure flatus</l>
-          <l>Nubila caeca fluunt:</l>
-          <l>Aether purpureum recludit sudus olympum</l>
-          <l>Lux redit alma poli.</l>
-          <l>Iamque sinum pandit radianti sidere terra</l>
-          <l>Diffugit imber agris</l>
-          <l>Pinguesque ignavo pecudes maerore solutae</l>
-          <l>Pascua laeta petunt.</l>
-          <l>Pone modum lachrymis, genitor, monet integra cani,</l>
-          <l>Mens senis ore gravis.</l>
-          <pb xml:id="F26"/>
-          <l>Pubes cum sociae perstringit faedera, temnit</l>
-          <l>Viscera sacra patrum.</l>
-          <l>Oblita et nidum genialem picta volucris</l>
-          <l>Aethera laeta petit.</l>
-          <l>Inclyta nec pullos ales fovet usque nec ater.</l>
-          <l>Pignora corvus amat.</l>
-          <l>Sic rota perpetuo convertitur orbe potentis</l>
-          <l>Numinis acta manu.</l>
-          <l>Quod te deseruit pignus, quod Natus abivit</l>
-          <l>Tectus ab aede tuus.</l>
-          <l>Hospes quod rediit, vixitque obiitque sub antro</l>
-          <l>Sic tua Fata ferunt.</l>
+      <div n="div61">
+        <lg n="lg1">
+          <l n="l1">Conticuere graves disiecto murmure flatus</l>
+          <l n="l2">Nubila caeca fluunt:</l>
+          <l n="l3">Aether purpureum recludit sudus olympum</l>
+          <l n="l4">Lux redit alma poli.</l>
+          <l n="l5">Iamque sinum pandit radianti sidere terra</l>
+          <l n="l6">Diffugit imber agris</l>
+          <l n="l7">Pinguesque ignavo pecudes maerore solutae</l>
+          <l n="l8">Pascua laeta petunt.</l>
+          <l n="l9">Pone modum lachrymis, genitor, monet integra cani,</l>
+          <l n="l10">Mens senis ore gravis.</l>
+          <pb n="pb11" xml:id="F26"/>
+          <l n="l12">Pubes cum sociae perstringit faedera, temnit</l>
+          <l n="l13">Viscera sacra patrum.</l>
+          <l n="l14">Oblita et nidum genialem picta volucris</l>
+          <l n="l15">Aethera laeta petit.</l>
+          <l n="l16">Inclyta nec pullos ales fovet usque nec ater.</l>
+          <l n="l17">Pignora corvus amat.</l>
+          <l n="l18">Sic rota perpetuo convertitur orbe potentis</l>
+          <l n="l19">Numinis acta manu.</l>
+          <l n="l20">Quod te deseruit pignus, quod Natus abivit</l>
+          <l n="l21">Tectus ab aede tuus.</l>
+          <l n="l22">Hospes quod rediit, vixitque obiitque sub antro</l>
+          <l n="l23">Sic tua Fata ferunt.</l>
         </lg>
       </div>
-      <div>
-        <head>In parentes domini Alexii de ipsius morte moerentes. Ode. Tricolos Tetrastrophos.</head>
+      <div n="div62">
+        <head n="head1">In parentes domini Alexii de ipsius morte moerentes. Ode. Tricolos Tetrastrophos.</head>
       </div>
-      <div>
-        <lg>
-          <l>Tristem, O, Euphemion plangite nobiles</l>
-          <l>Aglen, O, miseram plangite Virgines</l>
-          <l>Orbos pignore dulci</l>
-          <l>Stirpis luce superstite.</l>
-          <l>Hunc quondam przecibus victa calentibus</l>
-          <l>Et largis opibus sidera proditis</l>
-          <l>Fudere unica patrum</l>
-          <l>Clari gaudia sanguinis.</l>
-          <pb xml:id="F27"/>
-          <l>Admirans speciem turba Quiritium</l>
-          <l>Certabat Iuvenem tollere honoribus</l>
-          <l>Cui prudentia prisca</l>
-          <l>Fronti iuncta comes fuit.</l>
-          <l>Oris dorma decens, verbaque mellea</l>
-          <l>Stringebant placide corda sodalibus</l>
-          <l>Queis non Hercule blandi</l>
-          <l>Nexus prodierant magis.</l>
-          <l>Non pes liberior, palma solutior</l>
-          <l>Mores compositi, candida lumina</l>
-          <l>Non sic pellicit Orpheus</l>
-          <l>Plectro dulci sono feras.</l>
-          <l>Siste, heu, Terpsichore, tendere barbiton</l>
-          <l>Lesbbum, rapiat naenia lugubris</l>
-          <l>Cantum tu Lacedaemon</l>
-          <l>Iambos praecipias truces.</l>
+      <div n="div63">
+        <lg n="lg1">
+          <l n="l1">Tristem, O, Euphemion plangite nobiles</l>
+          <l n="l2">Aglen, O, miseram plangite Virgines</l>
+          <l n="l3">Orbos pignore dulci</l>
+          <l n="l4">Stirpis luce superstite.</l>
+          <l n="l5">Hunc quondam przecibus victa calentibus</l>
+          <l n="l6">Et largis opibus sidera proditis</l>
+          <l n="l7">Fudere unica patrum</l>
+          <l n="l8">Clari gaudia sanguinis.</l>
+          <pb n="pb9" xml:id="F27"/>
+          <l n="l10">Admirans speciem turba Quiritium</l>
+          <l n="l11">Certabat Iuvenem tollere honoribus</l>
+          <l n="l12">Cui prudentia prisca</l>
+          <l n="l13">Fronti iuncta comes fuit.</l>
+          <l n="l14">Oris dorma decens, verbaque mellea</l>
+          <l n="l15">Stringebant placide corda sodalibus</l>
+          <l n="l16">Queis non Hercule blandi</l>
+          <l n="l17">Nexus prodierant magis.</l>
+          <l n="l18">Non pes liberior, palma solutior</l>
+          <l n="l19">Mores compositi, candida lumina</l>
+          <l n="l20">Non sic pellicit Orpheus</l>
+          <l n="l21">Plectro dulci sono feras.</l>
+          <l n="l22">Siste, heu, Terpsichore, tendere barbiton</l>
+          <l n="l23">Lesbbum, rapiat naenia lugubris</l>
+          <l n="l24">Cantum tu Lacedaemon</l>
+          <l n="l25">Iambos praecipias truces.</l>
         </lg>
       </div>
-      <div>
-        <head>De Divo Alexio defuncto. Epigramma.</head>
+      <div n="div64">
+        <head n="head1">De Divo Alexio defuncto. Epigramma.</head>
       </div>
-      <div>
-        <lg>
-          <l>Quae nova solvuntur viventi funera functo?</l>
-          <l>Plurima cur risu lachryma mixta fluit?</l>
-          <l>Caelum cur plaudit, maeret cur Terra, simulque?</l>
-          <l>Carmine cur caelum naenia iuncta replent?</l>
-          <pb xml:id="F28"/>
-          <l>Una eademque simul laetandi et causa dolendi est</l>
-          <l>Quod rapitur terris, fertus ad astra bonum.</l>
+      <div n="div65">
+        <lg n="lg1">
+          <l n="l1">Quae nova solvuntur viventi funera functo?</l>
+          <l n="l2">Plurima cur risu lachryma mixta fluit?</l>
+          <l n="l3">Caelum cur plaudit, maeret cur Terra, simulque?</l>
+          <l n="l4">Carmine cur caelum naenia iuncta replent?</l>
+          <pb n="pb5" xml:id="F28"/>
+          <l n="l6">Una eademque simul laetandi et causa dolendi est</l>
+          <l n="l7">Quod rapitur terris, fertus ad astra bonum.</l>
         </lg>
       </div>
-      <div>
-        <head>De Eodem. Aliud.</head>
+      <div n="div66">
+        <head n="head1">De Eodem. Aliud.</head>
       </div>
-      <div>
-        <lg>
-          <l>Septima bis messis rediit, bis septimus et sol</l>
-          <l>Romae cum iuvenem taecta paterna tenet.</l>
-          <l>Non potis hic nosci, donec mors saeva sagittis</l>
-          <l>Haec pandens mundo languida membra petit.</l>
-          <l>Accurrunt laceri vestes, vultumque parentes</l>
-          <l>Et faedant gemitu frigia membra gravi</l>
-          <l>Sic prudens Thisbe lybicum Babylone leonem</l>
-          <l>Eludit iaciens carbasa in ora ferae.</l>
+      <div n="div67">
+        <lg n="lg1">
+          <l n="l1">Septima bis messis rediit, bis septimus et sol</l>
+          <l n="l2">Romae cum iuvenem taecta paterna tenet.</l>
+          <l n="l3">Non potis hic nosci, donec mors saeva sagittis</l>
+          <l n="l4">Haec pandens mundo languida membra petit.</l>
+          <l n="l5">Accurrunt laceri vestes, vultumque parentes</l>
+          <l n="l6">Et faedant gemitu frigia membra gravi</l>
+          <l n="l7">Sic prudens Thisbe lybicum Babylone leonem</l>
+          <l n="l8">Eludit iaciens carbasa in ora ferae.</l>
         </lg>
       </div>
-      <div>
-        <head>Ad sponsam de Alexio post mortem agnito squalentem. Epigramma.</head>
+      <div n="div68">
+        <head n="head1">Ad sponsam de Alexio post mortem agnito squalentem. Epigramma.</head>
       </div>
-      <div>
-        <lg>
-          <l>Cur quaereris tanto ignotum (dic) tempore, coniux</l>
-          <l>Hospitis in specie me latuisse domi?</l>
-          <l>Hospes eram terris, coelum cursuque petebam</l>
-          <l>Horrebat terris mens retinere pedem.</l>
-          <l>Est hospes mortalis homo: hospes tu nisi noscis</l>
-          <l>Me hospitis in specie: scis nec, an ipsa homo sis.</l>
+      <div n="div69">
+        <lg n="lg1">
+          <l n="l1">Cur quaereris tanto ignotum (dic) tempore, coniux</l>
+          <l n="l2">Hospitis in specie me latuisse domi?</l>
+          <l n="l3">Hospes eram terris, coelum cursuque petebam</l>
+          <l n="l4">Horrebat terris mens retinere pedem.</l>
+          <l n="l5">Est hospes mortalis homo: hospes tu nisi noscis</l>
+          <l n="l6">Me hospitis in specie: scis nec, an ipsa homo sis.</l>
         </lg>
       </div>
-      <div>
-        <pb xml:id="F29"/>
-        <head>In parentum lachrymas post obitum Alexii. Epigramma.</head>
+      <div n="div70">
+        <pb n="pb1" xml:id="F29"/>
+        <head n="head2">In parentum lachrymas post obitum Alexii. Epigramma.</head>
       </div>
-      <div>
-        <lg>
-          <l>Post habitum genitor natum ploravit et ante</l>
-          <l>Ante et post queruli causa solori adest</l>
-          <l>Six fax fonte Iovis demersa extinguitur: inde</l>
-          <l>Collucens iterum mersa resurgit aquis.</l>
+      <div n="div71">
+        <lg n="lg1">
+          <l n="l1">Post habitum genitor natum ploravit et ante</l>
+          <l n="l2">Ante et post queruli causa solori adest</l>
+          <l n="l3">Six fax fonte Iovis demersa extinguitur: inde</l>
+          <l n="l4">Collucens iterum mersa resurgit aquis.</l>
         </lg>
       </div>
-      <div>
-        <head>Luctus sponsae post mortem Alexii Epigramma.</head>
+      <div n="div72">
+        <head n="head1">Luctus sponsae post mortem Alexii Epigramma.</head>
       </div>
-      <div>
-        <lg>
-          <l>Errores scribe, heu, sponsi, mea musa, quot annos</l>
-          <l>Seu vagus orbe fuit, seu domi in urbe latens.</l>
-          <l>Me miseram quantum vexarint fata, docebit</l>
-          <l>Iuncta meis fatis Ilias aucta malis.</l>
+      <div n="div73">
+        <lg n="lg1">
+          <l n="l1">Errores scribe, heu, sponsi, mea musa, quot annos</l>
+          <l n="l2">Seu vagus orbe fuit, seu domi in urbe latens.</l>
+          <l n="l3">Me miseram quantum vexarint fata, docebit</l>
+          <l n="l4">Iuncta meis fatis Ilias aucta malis.</l>
         </lg>
       </div>
-      <div>
-        <head>In patrem de Alexii ilii morte lamentantem. Epigramma.</head>
+      <div n="div74">
+        <head n="head1">In patrem de Alexii ilii morte lamentantem. Epigramma.</head>
       </div>
-      <div>
-        <lg>
-          <l>Natum corporeo resolutum carcere quid fles?</l>
-          <l>Quem nemus Elysium, sylvaque sacra tenet</l>
-          <l>Demens o pietas: fletum pro carmine solvis?</l>
-          <l>Ast aliis carmen fletus hic ipse ciet.</l>
+      <div n="div75">
+        <lg n="lg1">
+          <l n="l1">Natum corporeo resolutum carcere quid fles?</l>
+          <l n="l2">Quem nemus Elysium, sylvaque sacra tenet</l>
+          <l n="l3">Demens o pietas: fletum pro carmine solvis?</l>
+          <l n="l4">Ast aliis carmen fletus hic ipse ciet.</l>
         </lg>
       </div>
-      <div>
-        <pb xml:id="F30"/>
-        <head>Responsio Patris.</head>
+      <div n="div76">
+        <pb n="pb1" xml:id="F30"/>
+        <head n="head2">Responsio Patris.</head>
       </div>
-      <div>
-        <lg>
-          <l>Desine quaeso meas probris urgere quaerelas</l>
-          <l>Non ploro immerito pignus abisse meum.</l>
-          <l>Pars ego sum mundi, mundi ploro arma subacta</l>
-          <l>Hic igitur fletus parta trophaea canit.</l>
+      <div n="div77">
+        <lg n="lg1">
+          <l n="l1">Desine quaeso meas probris urgere quaerelas</l>
+          <l n="l2">Non ploro immerito pignus abisse meum.</l>
+          <l n="l3">Pars ego sum mundi, mundi ploro arma subacta</l>
+          <l n="l4">Hic igitur fletus parta trophaea canit.</l>
         </lg>
       </div>
-      <div>
-        <head>Ad Euphemianum de Alexio filio defuncto.</head>
+      <div n="div78">
+        <head n="head1">Ad Euphemianum de Alexio filio defuncto.</head>
       </div>
-      <div>
-        <lg>
-          <l>Dum iacet exanimis turba stipatus Alexis</l>
-          <l>Pontifici scriptum dat prece laxa manus.</l>
-          <l>Heu genitor fuge: cor feriet data dolore</l>
-          <l>Est amor iste tuus, spicula fertque manu.</l>
+      <div n="div79">
+        <lg n="lg1">
+          <l n="l1">Dum iacet exanimis turba stipatus Alexis</l>
+          <l n="l2">Pontifici scriptum dat prece laxa manus.</l>
+          <l n="l3">Heu genitor fuge: cor feriet data dolore</l>
+          <l n="l4">Est amor iste tuus, spicula fertque manu.</l>
         </lg>
       </div>
-      <div>
-        <head>In radios ex Alexii cadavere promicantes. Tetrastrophos.</head>
+      <div n="div80">
+        <head n="head1">In radios ex Alexii cadavere promicantes. Tetrastrophos.</head>
       </div>
-      <div>
-        <lg>
-          <l>Aurea lux prodit perfuncto e corpore Alexis</l>
-          <l>Caecaque fit Caelum cellula sole micans.</l>
-          <l>Qualis in aetherea exoriens regione micabit.</l>
-          <l>Occumbens tantos si dedit hic radios?</l>
+      <div n="div81">
+        <lg n="lg1">
+          <l n="l1">Aurea lux prodit perfuncto e corpore Alexis</l>
+          <l n="l2">Caecaque fit Caelum cellula sole micans.</l>
+          <l n="l3">Qualis in aetherea exoriens regione micabit.</l>
+          <l n="l4">Occumbens tantos si dedit hic radios?</l>
         </lg>
       </div>
-      <div>
-        <p>Laus Deo.</p>
+      <div n="div82">
+        <p n="p1">Laus Deo.</p>
       </div>
     </body>
   </text>

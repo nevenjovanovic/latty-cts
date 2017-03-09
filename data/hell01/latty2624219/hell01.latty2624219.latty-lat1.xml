@@ -32,6 +32,31 @@
         <bibl>ULBT, 24.605</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1768" precision="high">1768</date>
@@ -55,20 +80,20 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:hell01.latty2624219.latty-lat1:">
-    <body>
-      <div>
-        <head>Elogium rustici Tyrolensis celeberrimi<persName>Petri Anich</persName>Oberperfussensis coloni,
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">Elogium rustici Tyrolensis celeberrimi<persName n="persName1">Petri Anich</persName>Oberperfussensis coloni,
                 tornatoris, chalcographi, mechanicarum artium magistri, geodetae, geographi, et
-                astrophili ad prodigium excellentis. Ex relationibus authenticis manuscriptis p.<persName>Ignatii Weinhart</persName>, Societatis Jesu Anichii
-                    professoris et directoris concinnatum, et adnotationibus illustatrum a r.p.<persName>Maximiliano Hell</persName>, Societatis Jesu astronomo caesareo – regio universitatis Vindobonensis.</head>
+                astrophili ad prodigium excellentis. Ex relationibus authenticis manuscriptis p.<persName n="persName2">Ignatii Weinhart</persName>, Societatis Jesu Anichii
+                    professoris et directoris concinnatum, et adnotationibus illustatrum a r.p.<persName n="persName3">Maximiliano Hell</persName>, Societatis Jesu astronomo caesareo – regio universitatis Vindobonensis.</head>
       </div>
-      <pb xml:id="F2"/>
-      <pb xml:id="F3"/>
-      <div>
-        <head>Praefatio.</head>
+      <pb n="pb2" xml:id="F2"/>
+      <pb n="pb3" xml:id="F3"/>
+      <div n="div4">
+        <head n="head1">Praefatio.</head>
       </div>
-      <div>
-        <p>Ne mirere lector, officium hoc meum in celebrando rustico mihi, dum viveret, fama
+      <div n="div5">
+        <p n="p1">Ne mirere lector, officium hoc meum in celebrando rustico mihi, dum viveret, fama
                 solum noto a me impensum; mirare potius, atque divinam in largiendis naturae donis
                 providentiam adora, quae ut olim litterarum quidem rudes, sed donis supernis
                 instructissimos elegit novae legis promulgatores; infirma nempe, ut confunderet
@@ -77,17 +102,17 @@
                 celebrando anichio susceptum laborem, si ea intellexeris, quae me ad scribendum
                 impulere. Primum itaque sic habe: Anichium rusticum, romano catholicae fidei
                 cultorem fuisse eximium, ac propterea meritissimum testem, qui illustissimi ac
-                celeberrimi d.d. C.g.h. in praefatione sua ad relationem actorum rustici Saxonis<persName>Joannis Ludewig</persName>Cossebaudensis refellat sententiam, asserentis: “Saxoniam Martino
+                celeberrimi d.d. C.g.h. in praefatione sua ad relationem actorum rustici Saxonis<persName n="persName1">Joannis Ludewig</persName>Cossebaudensis refellat sententiam, asserentis: “Saxoniam Martino
                 Luthero libertatem sentiendi, et agendi suis sectatoribus indulgenti in acceptis
                 habere debere suum in scientiis progressum, adeo per omnes hominum conditiones
                 propagatum, ut ipsi rustici Saxones et philosopharentur, et mathematicas, aliasque
-                severissimas profiterentur scientias”. Qua quidem<pb xml:id="F4"/>sententia quae magis falsa
+                severissimas profiterentur scientias”. Qua quidem<pb n="pb2" xml:id="F4"/>sententia quae magis falsa
                 cogitari? Quae magis in religionem romano-catholicam iniuriosa, ne dicam
                 contumeliosa proferri potuit? An religio romana catholica causa, ac veluti fons, et
                 origo est omnis ruditatis, omiumque scientiarum naturalium expultrix? Num omnis
                 lutheri assecla doctus? Num omnis romano – catholicus hebes? At rusticus lutheranus
                 Ludewigius Cossebaudensis philosophatus est? Sed philosophatus quoque est rusticus
-                oberperfussensis<persName>Petrus Anichius</persName>romano – catholicus, et cum hoc philosophantur et
+                oberperfussensis<persName n="persName3">Petrus Anichius</persName>romano – catholicus, et cum hoc philosophantur et
                 alii romano – catholici ruricolae, quorum magnum sane recensere possem elenchum.
                 Ludewigio Saxoni ingenium fuisse ad severiora intelligenda aptum, eumque e lectione
                 operim cumprimis celebri Wolffii notitiam metaphysicae sibi comparasse aliquam,
@@ -96,13 +121,13 @@
                 facile intelligitur: Anichium tantum praestare Ludewigio, quantum stellae primi
                 ordinis splendore suo vincunt fixas, quas a lucis debilitate nebulosas dicimus. Hoc
                 primum.</p>
-        <p>Alterum: Anichium astronomiae fuisse amatorem ardentissimum: huius sui amoris
+        <p n="p2">Alterum: Anichium astronomiae fuisse amatorem ardentissimum: huius sui amoris
                 testimonium reliquit in globo coelesti pedum trium diametri ad omnem artem a se
                 elaborato, et in musaeo physico mathematico Oenipontano spectatoribus
                 intelligentibus ad prodigium artificii huius exposito; an non igitur posthumam
                 suorum laborum ab astronomiae cultoribus mertur celebritatem?</p>
-        <p>
-          <pb xml:id="F5"/>Tertium denique nova Anichii regiones montanas ad omnem geodesiae rigorem
+        <p n="p3">
+          <pb n="pb1" xml:id="F5"/>Tertium denique nova Anichii regiones montanas ad omnem geodesiae rigorem
                 metiendi methodus accuratissima, facillima, et maxime compendiosa, qua (emendata a
                 se dioptra) obiectorum quocunque modo seu infra, seu supra horizontalem instrumenti
                 mensorii situm positorum loca, ita illico (sine ulla nova operatione) ad horizontem
@@ -110,7 +135,7 @@
                 publicam cum laude Anichii ad usus publicos meretur divulgationem? Haec, ut caetera
                 eius mira artefacta, quae inferius recensebuntur, eiusque in delineando, sculpendo,
                 instrumenta varia conficiendo dexteritatem silentio praeteream, haec inquam erant,
-                quae ut augustissimae nostrae imperatricis ac reginae<persName>Mariae Theresiae</persName>bonarum
+                quae ut augustissimae nostrae imperatricis ac reginae<persName n="persName2">Mariae Theresiae</persName>bonarum
                 artium et scientiarum matris atque promotricis liberalitatem et protectionem Anichio
                 promeruere, ita tanti viri singularia naturae dona, quibus eruditos omnes in sui
                 admirationem meritissime rapuit, me quoque permoverunt, ut ad dei gloriam maiorem
@@ -121,27 +146,27 @@
                 geodetam, astophilum, geographum, omniumque artium mechanicarum magistrum ad
                 prodigium usque excellentissimum.</p>
       </div>
-      <pb xml:id="F6"/>
-      <div>
-        <head>Compendium relationis historicae.
-                De<persName>Petri Anich</persName>natalibus, et artium, quas callebat, initiis, progressibus,
+      <pb n="pb6" xml:id="F6"/>
+      <div n="div7">
+        <head n="head1">Compendium relationis historicae.
+                De<persName n="persName1">Petri Anich</persName>natalibus, et artium, quas callebat, initiis, progressibus,
                 praestantia, praxibus, effectis et caetera ac de eius morte.</head>
       </div>
-      <div>
-        <p>
-          <persName>Petrus Anich</persName>natus<date>22 februarius 1723</date>prope Oberperfuss (pagus hic 3 horis Oeniponto
-                distat in monte situs). Patrem habuit<persName>Ingenuinum Anich</persName>, qui anni 5 sartoriam, altero
+      <div n="div8">
+        <p n="p1">
+          <persName n="persName1">Petrus Anich</persName>natus<date n="date2">22 februarius 1723</date>prope Oberperfuss (pagus hic 3 horis Oeniponto
+                distat in monte situs). Patrem habuit<persName n="persName3">Ingenuinum Anich</persName>, qui anni 5 sartoriam, altero
                 quinquennio pecuariam, triennio carbonariam, alio rursus quinquennio et amplius
                 tornatoriam sumul ac rusticam exercuit artem. Quamvis nonnisi 10 fl. Ac uxor eius,
-                mater Petri,<persName>Gertudis hammerin</persName>7 fl. pro fundo et auspicio oeconomiae suae in
+                mater Petri,<persName n="persName4">Gertudis hammerin</persName>7 fl. pro fundo et auspicio oeconomiae suae in
                 commune contulerint, sua tamen industria, et parsimonia rem domesticam ita auxerunt,
                 ut casam rusticam cum agello coemerint 1211 fl. Quem dein una cum prolibus suarummet
                 manuum labore coluerunt. Petrus duas ex tribus suis sororibus antegressus, patrem,
                 dum viveret, in laboribus partim rusticis, partim tornatoriis iuvit. Ab eius morte,
-                quae in annum 1742 incidebat, per tria ferme lustra<pb xml:id="F7"/>easdem, quas pater,
+                quae in annum 1742 incidebat, per tria ferme lustra<pb n="pb5" xml:id="F7"/>easdem, quas pater,
                 tornatoris iuxta, ac rustici partes potissimum egit, semper caelebs.</p>
-        <p>Anno<date>1751</date>professori matheseos<note place="foot" xml:id="ftn1" n="1">
-            <p>Erat is pater<persName>Ignatius Weinhart</persName>Societatis Jesu qui in celebre Universitate Oenipontana
+        <p n="p2">Anno<date n="date1">1751</date>professori matheseos<note n="note2" place="foot" xml:id="ftn1">
+            <p n="p1">Erat is pater<persName n="persName1">Ignatius Weinhart</persName>Societatis Jesu qui in celebre Universitate Oenipontana
                         iam in annum 25 munus professoris matheseos obit, et in annum 16 professorem
                         physices et mechanices experimentalis agit clarissimum, cuius etiam opera
                         ante annos 16 Musaeum experimentale instructum adornatumque est, ipse vero
@@ -150,7 +175,7 @@
                         elementorum magister, et instructor, in rebus omnibus consiliarius,
                         director, quaestor, et procurator, nec ullum habuit Anichius, cui plus
                         debuerit, plus confiderit, plus commiserit, plus amoris, atque obsequii
-                        exhibuerit, atque patri<persName>Ignatio Weinhart</persName>, ut per literas ab eodem patre
+                        exhibuerit, atque patri<persName n="persName2">Ignatio Weinhart</persName>, ut per literas ab eodem patre
                         edoctus sum, qui ad commendationem Anichii, in iisdem literis profitetur:
                         His non obstantibus in iis, quae praestitit Anichius, longe plus debet
                         sibimetipsi, talento suo, et industriae propriae, quam mihi.</p>
@@ -159,24 +184,24 @@
                 tune es, qui coelum et astra ex officio observas? Eccur hoc rescire cuperet,
                 vicissim interroganti reposuit; nam et semet astrorum cursum condiscere velle,
                 utpote quem saepius, dum puer gregem pasceret, observasset.</p>
-        <p>Professor vero, postquam vires intellectu eius probe explorans comperisset, nullum
+        <p n="p3">Professor vero, postquam vires intellectu eius probe explorans comperisset, nullum
                 sibi unquam obtigisse hominem, qui res sibi propositas facilius caperet, et
                 perceptas fidelius retineret, ei facile persuasit, ut prius alia condiscat sibi
                 maiori usui futura; ad quae etiam ei professor operam suam obtulit.</p>
-        <p>Itaque plerisque diebus festis ex monte suo ad se sat longo itinere venientem docuit
-                primo arithmeticam, tum geometriam practicam et mechanicam. Ostendit dein ei<pb xml:id="F8"/>varia instrumenta, quibus alter mox similia confecit: commendavit libros nonnullos,
+        <p n="p4">Itaque plerisque diebus festis ex monte suo ad se sat longo itinere venientem docuit
+                primo arithmeticam, tum geometriam practicam et mechanicam. Ostendit dein ei<pb n="pb1" xml:id="F8"/>varia instrumenta, quibus alter mox similia confecit: commendavit libros nonnullos,
                 qui usui esse hac in re possent: quorum aliquos sibi discipuli emit, et partim eorum
                 lectione, partim suomet studio (professore nonnunquam eius dubia resolvente, eumque
                 dirigente) mirum in modum se se, et varias matheseos disciplinas exercuit. Cumque
                 elapso quadriennio idem professor observasset, Tyronis sui genium denuo propendere
                 in astronomiam practicam; globum astronomicum maiorem ei pro musaeo academico
-                conficiendum dictavit. Confecit illum Petrus<date>1756</date>, quem omnes ob multiplex eius, nec
+                conficiendum dictavit. Confecit illum Petrus<date n="date2">1756</date>, quem omnes ob multiplex eius, nec
                 vulgare artificium mirantur, et fusiore calamo hic describerem, nisi ea descritpio
                 eodem anno augustissimae nostrae per manus excellenti comitis de enzenberg una cum
                 dedicatione fuisset oblata, quam utramque eadem augustissima clementissimo oculo
-                perlustratam paulo post illustrissimo D.L.B. De van Swieten in manus tradidit<note place="foot" xml:id="ftn2" n="2">
-            <p>Illud hic minime silentio praetereundum
-                        (scribit pater<persName>Weinhart</persName>) quod in Anichio asterismos quosdam per punctula minuta
+                perlustratam paulo post illustrissimo D.L.B. De van Swieten in manus tradidit<note n="note3" place="foot" xml:id="ftn2">
+            <p n="p1">Illud hic minime silentio praetereundum
+                        (scribit pater<persName n="persName1">Weinhart</persName>) quod in Anichio asterismos quosdam per punctula minuta
                         adumbrante ipsus vidi, de nullo autem vel delineatore, vel pictore unquam
                         audivi: postquam stellae cuivis constellatione sua suum locum per colon
                         signaverat, statim antequam vel minimum sibi alterius delineationis
@@ -191,7 +216,7 @@
                         cancrum. Risit Professor animalis notissimi tam rudem, et mox ei cancrum
                         vivum adferens, eius idem, quam necdum animo perceperat, ipsismet oculis
                         obiecit.</p>
-          </note>.<pb xml:id="F9"/>sed nihil est, quod petri notitiam
+          </note>.<pb n="pb4" xml:id="F9"/>sed nihil est, quod petri notitiam
                 mechanicam magis commendet, quam artificium illud, quod globo astronomico maiori
                 exterius adiecit tum per horologium horizonti adnexum, quod globum movet motu primi
                 mobilis, tum per octo rotulas intra circulum horarium prope polum tribus indicibus
@@ -202,11 +227,11 @@
                 periti, an maior rigor astronomicus in alio automate astronomico per quemcunque
                 confecto facile inveniatur, aut inveniri possit? Et vel ideo an maius uranicum in
                 hoc genere artificium?</p>
-        <p>Re prospere gesta dolendum fuerat, nisi et globum terrestrem, qui astronomico ad
+        <p n="p5">Re prospere gesta dolendum fuerat, nisi et globum terrestrem, qui astronomico ad
                 amussim responderet, idem Petrus efficeret. Sed consilio huic obstabat characterum
                 formandorum imperitia, quos hactenus ducebat tam fluentes et ambiguos, ut vix legi
                 possent. Vix eidem mentem suam professor hac de re aperuerat, cum ecce! Clam eodem
-                sine dispendio reliquorum suorum laborum temporibus<pb xml:id="F10"/>subsecivis citra
+                sine dispendio reliquorum suorum laborum temporibus<pb n="pb1" xml:id="F10"/>subsecivis citra
                 magistrum scribendo se exercet, et intra tres anni quadrantes solo suomet marte
                 didicit omnia literarum alphabeta ad omnes legum apices tam perfecte efformare, ut
                 iam in scribendi quoque arte excelleret. Periculum itaque facturus professor, num
@@ -217,11 +242,11 @@
                 referrent. Intra 17 dies confecit quinque pedibus longam, et tribus circiter altam
                 tam accurata, ut typis cusa videri posset, et a magnis etiam rerum militarium
                 praefectis magnopere fuerit dilaudata.</p>
-        <p>Itaque non iam dubius professor Petrum spes suas impleturum, globum etiam terraqueum
+        <p n="p6">Itaque non iam dubius professor Petrum spes suas impleturum, globum etiam terraqueum
                 eiusdem cum astronomico tripedalis diametri eidem conficiendum, et describendum
-                dictavit. Anni<date>1759</date>mensis aprilis nondum effluxerat, cum ultimam ei manum imposuit,
-                omniumque expectationem longissime superavit.<note place="foot" xml:id="ftn3" n="3">
-            <p>Uterque hic globus, coelestis nempe et terraqueus, insignem artis
+                dictavit. Anni<date n="date1">1759</date>mensis aprilis nondum effluxerat, cum ultimam ei manum imposuit,
+                omniumque expectationem longissime superavit.<note n="note2" place="foot" xml:id="ftn3">
+            <p n="p1">Uterque hic globus, coelestis nempe et terraqueus, insignem artis
                         tornatoriae magistrum fuisse Anichium, omnino demonstrat; utrumque enim hunc
                         globum diametri pedum trium ex praedensis lignis artificiose inter se
                         compaginatis non alio in scamno tornatorio, quam ipsorummet horizonte
@@ -241,10 +266,10 @@
                         cubiculi, sed et domus ianua diametro globi angustior reperta fuerit; hinc
                         utriusque ianuae postes cum muro perfringendi erant.</p>
           </note>Huic
-                praeclaro<pb xml:id="F11"/>operi praecedente iam anno mappas globorum minorum astronomici, et
+                praeclaro<pb n="pb3" xml:id="F11"/>operi praecedente iam anno mappas globorum minorum astronomici, et
                 terraquei praemiserat, quas ipsmet cupro insculpsit, et excudit tam elegantes, ut et
                 augustanas praestantia vincant, et norimbergensibus neutiquam cedant.</p>
-        <p>Hactenus memorata in se magna quidem, tanti tamen aestimanda non erant, quanti
+        <p n="p7">Hactenus memorata in se magna quidem, tanti tamen aestimanda non erant, quanti
                 hominis huius dexteritas singularis in dimensionibus, et delineationibus geodeticis
                 cum to-tum chorographicis, in quibus eum plane excellere professor deprehenderat.
                 Igitur in omnem occasionem intentus hic erat, qua hoc eius talentum in patriae
@@ -252,18 +277,18 @@
                 protectori suo senatus academicus gratularetur auspicia vicarii praesidii in
                 repraesentatione caesareo regia eo die sucepti, delato ad mathesim sermone, huiusce
                 professor eidem excellentissimo simul hominem hunc commendaret ad accuratiorem
-                quandam map<pb xml:id="F12"/>pam Tyroleos conscribendam, utpote qualis iam diu ab omnibus bonis
+                quandam map<pb n="pb1" xml:id="F12"/>pam Tyroleos conscribendam, utpote qualis iam diu ab omnibus bonis
                 nec quicquam desideraretur. Retulit rem excellentissimus ad aulam viennensem, ibique
                 pro suo in patriam studio consilium tam salubre urgebat.</p>
-        <p>Interea vero Anichius geodesiae suae egregium specimen dedit, dum pro mappa australis
-                Tyroleos, a gratioso domino De spergs postmodum luci publicae data<note place="foot" xml:id="ftn4" n="4">
-            <p>Exemplar mappae huius accuratissimae in quatuor
+        <p n="p8">Interea vero Anichius geodesiae suae egregium specimen dedit, dum pro mappa australis
+                Tyroleos, a gratioso domino De spergs postmodum luci publicae data<note n="note1" place="foot" xml:id="ftn4">
+            <p n="p1">Exemplar mappae huius accuratissimae in quatuor
                         maioribus paginis typis expressae benivolentia et liberalitate ipsiusmet
-                        illustissimi, doctissimi, ac celeberrimi autoris et delineatoris D. D.<persName>Josephi de Spergs</persName>dono datum prae manibus habeo, cuius haec est inscriptio.
+                        illustissimi, doctissimi, ac celeberrimi autoris et delineatoris D. D.<persName n="persName1">Josephi de Spergs</persName>dono datum prae manibus habeo, cuius haec est inscriptio.
                         Tyrolis pars meridionalis, episcopatum Tridentinum (olim ducatum, et
                         Marchiam) finitimasque valles complexa, una cum Limitibus Venetis publica
-                        authoritate lustratis accurate descripta a<persName>Josepho de Spergs</persName>a Palenz, et
-                        Reisedorf Oenipontino.<date>Anno 1762</date>. Quanto haec labore, quam diuturno,
+                        authoritate lustratis accurate descripta a<persName n="persName2">Josepho de Spergs</persName>a Palenz, et
+                        Reisedorf Oenipontino.<date n="date3">Anno 1762</date>. Quanto haec labore, quam diuturno,
                         quantave diligentia, et accuratione, quantis itineribus, et minutissimorum
                         locorum, montium, et rivorum et caetera lustrationibus perfecta sit, ii
                         intelligunt, qui mappam hanc oculo non currente inspexerint; adeo imago haec
@@ -275,33 +300,33 @@
                 satis frigido novembri, et decembri intra quinque hebdomadarum angustias vallem
                 athesinam, eisackianam, et talferanam, sive totam illam regionem, quam clusina,
                 bolsanum, meranum, et sarenthalium intercipit, accurate dimensam eleganti
-                delineatione ad omnes artis regulas adumbravit.<note place="foot" xml:id="ftn5" n="5">
-            <p>Loca ab Anichio dimensa in mappa illustris domini<persName>de Spergs</persName>limites
+                delineatione ad omnes artis regulas adumbravit.<note n="note2" place="foot" xml:id="ftn5">
+            <p n="p1">Loca ab Anichio dimensa in mappa illustris domini<persName n="persName1">de Spergs</persName>limites
                         solum sunt Tyroleos Meridionalis septemtrionem versus spectantes.</p>
           </note>
-          <pb xml:id="F13"/>labor hic prodromus fuit expeditionis longe diuturnioris; anno enim
-                insequente nempe<date>1760</date>Anichio ab aula viennesi demandata fuit provincia totam
+          <pb n="pb3" xml:id="F13"/>labor hic prodromus fuit expeditionis longe diuturnioris; anno enim
+                insequente nempe<date n="date4">1760</date>Anichio ab aula viennesi demandata fuit provincia totam
                 Tyrolim septemtrionalem metiendi, et in amplissima mappa delineandi, minutis
                 quibusvis discriminibus ac notis diligenter in ea expressis.</p>
-        <p>Enim vero non magno solum animo, sed et mira alacritate negotium hoc suscepit, et
+        <p n="p9">Enim vero non magno solum animo, sed et mira alacritate negotium hoc suscepit, et
                 prosecutus est, utut mille se obstacula eidem opponerent; inter praecipua erant cum
                 suspiciones hominum ex praeconceptis quibusdam opinionibus nescio quid sinistri de
                 hisce dimensionibus perperam sibi ominantium, quos dein suis laboribus clam palamque
                 adversantes habuit; tum morbi et aegritudines, quas in perarduis suis itineribus
                 inter tor aeris iniurias, viarum difficultates, et perpetuas virium conteniones sibi
                 non semel conscivit, vir vere indefessus et robustae patientiae.</p>
-        <p>Quibus non obstantibus elapso vix triennio iam eo processerat labor, ut non
+        <p n="p10">Quibus non obstantibus elapso vix triennio iam eo processerat labor, ut non
                 tantummodo potiorem Tyroleos septemtrionalis partem metiendo absolverit, sed etiam
                 quidquid mensus fuisset, in mappa 4 ½ pedibuls alta et 7 longa non tam adumbraverit,
                 quam minutim expresserit; amoenissimum sane intuentibus spectaculum , in quo
                 characterum nitor cum figuram elegantia de palma decertet. Nullus est in Tyroli
                 septemtrionali locus tam exiguus, aut neglectus, cuius non genuinum vestigium, et
-                nomen ibidem reperiatur; interiora tot vallium abdita, montium ac iugo<pb xml:id="F14"/>rum
+                nomen ibidem reperiatur; interiora tot vallium abdita, montium ac iugo<pb n="pb1" xml:id="F14"/>rum
                 anfractus, scrupei ac salebrosi aditus, alpes perpetua glacie horridae, et quidquid
                 demum sive visu sive memoratu dignum pars haec Tyroleos complectitur, cum suis
                 singulis notis, notarumque discriminibus miranti oculo sub uno velut obtutu se se
                 repraesentant.</p>
-        <p>Nec deerant iam nisi paucula supplementa eorum locorum, quae interdum metiri per
+        <p n="p11">Nec deerant iam nisi paucula supplementa eorum locorum, quae interdum metiri per
                 varia impedimenta integrum non erat, opportuniori tempore facile metienda. Cum ecce!
                 Adest mandatum Viennense, ut quaecunque anichius in ampla mensura, ac maiori forma
                 de Tyroli septemtrionali hactenus delineasset, eadem sub longe minoribus
@@ -312,21 +337,21 @@
                 metuebat, ne, cum niva delineatio iniuncta haud sit opus unius duntaxat anni, res in
                 longum trahatur, spesque amplissimae exponantur periculo, in quo easdem tempus,
                 vires, vita destituerent et caetera. Vicit tamen se ipsum Petrus, et gloriam
-                obedientiae sua potiorem ducens, exeunte vere anni<date>1765</date>plus quam dimidiam partem
+                obedientiae sua potiorem ducens, exeunte vere anni<date n="date1">1765</date>plus quam dimidiam partem
                 Tyroleos septemtrionalis, quantum nempe tres tabellae cupreae caperent, in minorem
                 formam iam transposuerat eadem, qua priores mappas elegantia; inde ad dimensiones
                 ulteriores profecuts.</p>
-        <pb xml:id="F15"/>
-        <p>Cum de mappis Anichianis prolixior hic nobis sermo fuerit, nequaquam
+        <pb n="pb12" xml:id="F15"/>
+        <p n="p13">Cum de mappis Anichianis prolixior hic nobis sermo fuerit, nequaquam
                 praetereunda, sed fusius pertractanda forent methodus, praxis, et instrumenta, quae
                 ad ichnographicas has montanae huius patriae dimensiones rusticus hic geodeta
-                adhibuit. Sed hisce suas ob causas dissimulatis et in alium locum reservatis<note place="foot" xml:id="ftn6" n="6">
-            <p>Huius instrumenti descriptionem adiungo in
+                adhibuit. Sed hisce suas ob causas dissimulatis et in alium locum reservatis<note n="note1" place="foot" xml:id="ftn6">
+            <p n="p1">Huius instrumenti descriptionem adiungo in
                         supplemento.</p>
           </note>dixisse sufficiat, plurimis locorum, temporum,
                 itinerum, laborumque compendiis et commodis servire Anichianum illum montanas
                 regiones metiendi modum. Id ipsum credo permoverit celsissimum archiepiscopum
-                Salisburgensem, ut<date>1763</date>requisita et obtenta ab huiate repraesentatione caesareo
+                Salisburgensem, ut<date n="date2">1763</date>requisita et obtenta ab huiate repraesentatione caesareo
                 regia facultate, iuvenem quemdam iam Vindobonae per annum in praxi geometriae bene
                 versatum Anichio in suis expeditionibus, et laboribus geodeticis in tertium mensem
                 adiungi atque associari voluerit, ut hoc magistro etiam hanc, de qua hactenus sermo
@@ -334,8 +359,8 @@
                 salisburgensi quoque territorio metiendo quondam servituram. Quod obsequium
                 celsissimus petro nostro honorifice remuneratus est misso ei aureo numismate suam
                 referente effigiem, quinque auros aequilibrante.</p>
-        <p>Praeter hanc singularem geometriae practicae peritiam, aliud pariter idque multiplex
-                decus Anichium exornavit:<pb xml:id="F16"/>rara nempe decteritas diversissima alia
+        <p n="p14">Praeter hanc singularem geometriae practicae peritiam, aliud pariter idque multiplex
+                decus Anichium exornavit:<pb n="pb1" xml:id="F16"/>rara nempe decteritas diversissima alia
                 conficiendi artium instrumenta. Confecit enim praeter iam dicta sphaeras armillares
                 etiam maiores pro cosmographia, sextantes et micrometra pro astronomia practica, cui
                 haud mediocriter affectus, non semel cometas primus detexit, et quam plurimis,
@@ -349,8 +374,8 @@
                 mirum hoc cuiquam videatur, tot diversi generis artefacta ab illo artifice
                 prodiisse, qui (id quod ab homine, qui rus colit; adeo nemo expectet, ut pro
                 temporis nostri prodigio haberi possit) ipsas plerasque artium mechanicarum species
-                in gradu sublimi videtur possedisse.<note place="foot" xml:id="ftn7" n="7">
-            <p>Demonstrat praeter caetera singularem eius in arte mechanica peritiam,
+                in gradu sublimi videtur possedisse.<note n="note2" place="foot" xml:id="ftn7">
+            <p n="p1">Demonstrat praeter caetera singularem eius in arte mechanica peritiam,
                         circulus meridianus globi terraquei ferreus, quem totum laminis
                         aurichalcinis ita obduxit, ut, tametsi nulla stanni intercedentis fusione
                         conglutinatae sint, sed solis cochleis aurichalcinis per ferrum
@@ -358,28 +383,28 @@
                         compaginentur, videantur tamen cuivis inspicienti simul omnes absque
                         discretione partium conficere unum meridianum integrum ex aurichalco fusum,
                         nec facile possit inveniri ullius iuncturae vel minimum vestigium, ut
-                        scribit pater<persName>Weinhart</persName>Societatis Jesu sub cuius cura globus hic in Musaeo
+                        scribit pater<persName n="persName1">Weinhart</persName>Societatis Jesu sub cuius cura globus hic in Musaeo
                     Physico Mathematico Oeniponti positus habetur.</p>
-          </note>Rarus enim<pb xml:id="F17"/>invenietur, qui simul tornare, sculpere, delineare, calamo pingere etiam per minutiora punctula, elegantissimos, et ad omnem legum normam exactos omnis generis
+          </note>Rarus enim<pb n="pb3" xml:id="F17"/>invenietur, qui simul tornare, sculpere, delineare, calamo pingere etiam per minutiora punctula, elegantissimos, et ad omnem legum normam exactos omnis generis
                 characteres formare, eosdem cupro, ferro, aurichalco insculpere, excudere, et quid
                 denique non? Efficere novit. Quotus quisque autem est, qui omnes et singulas has
                 ipsas artes nullo docente magistro, suomet tantum improbo studio, et naturae
                 admonitu didicit? (excepta sola tornatoria, quam puer in patre vidit, et ab eodem
                 excepit tunc quidem satis rudem et imperfectam).</p>
-        <p>His artibus simul instructus, si per tempus et oculorum aciem, cui Anichius parcebat,
+        <p n="p15">His artibus simul instructus, si per tempus et oculorum aciem, cui Anichius parcebat,
                 ipsi licuisset, nae ille praegrandem Tyroleos mappam suis numeris absolutissimam in
                 tabulis cupreis elegantissima sculptura edidisset in publicum, idem simul mensor,
                 delineator, sculptor et excusor: idem geographus et chaclographus, idem in omnibus
                 petrus anich. Et talem ac tantum casa rustica tulit.</p>
-        <p>Fatendum tamen et dolendum, tantis animi viribus per ultima tempora non aeque ut olim
+        <p n="p16">Fatendum tamen et dolendum, tantis animi viribus per ultima tempora non aeque ut olim
                 vires corporis respondisse. Non enim tantummodo audiendi facultas a decennio ferme
                 deficiens, nullis quidquam proficientibus mediis, adeo habetata et obtusa fuit, ut
-                vociferandum potius, quam clamandum, et verba articulatim auribus adnumera<pb xml:id="F18"/>re
+                vociferandum potius, quam clamandum, et verba articulatim auribus adnumera<pb n="pb1" xml:id="F18"/>re
                 necesse fuerit; sed etiam, quod superius iam memoratum fuit, morbis sat diuturnis et
                 gravibus, quos ex nimia virium contentione et quotidiana in conscendendis altissimis
                 montibus defatigatione, aliisque officii sui perarduis laboribus et incommodis
                 iterato contraxerat, valetudo eius penitus prostrata fuit.</p>
-        <p>Anni abhinc elapsi<date>1765 augusto ineunte</date>Anichius prope Bulsanum in paludosa planitie
+        <p n="p17">Anni abhinc elapsi<date n="date1">1765 augusto ineunte</date>Anichius prope Bulsanum in paludosa planitie
                 lineam longiorem, utpote operationibus suis peropportunam ac necessariam dimetiens,
                 et per 5 circiter horas inter summos aestatis calores pedibus aquae immersis
                 persistens, ipse ac socius eius (qui nunc quoque dimensionem tyroleos prosequitur)
@@ -392,16 +417,16 @@
                 liberam, dolorum lenimen et quietem capturus; mox domum repetens, ac dolores
                 ingravescere, seque paulo post omn aurium, tum et pedum ac denique oculorum usu
                 destitui ingeminans, paulo post brevi agone extinguitur, sat probabili indicio
-                causam mortis fuisse convulsiones. Exe<pb xml:id="F19"/>git vitae suae annos 43 et
+                causam mortis fuisse convulsiones. Exe<pb n="pb2" xml:id="F19"/>git vitae suae annos 43 et
                 dimidium, in obsequio vero augustissimae integrum sexennium; propterea ab eadem
                 clementissima domina nostra aureo numismate, et annua 200 fl. pensione (deinceps si
                 superis placuisset percipienda) altero abhinc mense donatus; cuius munificentiae
                 grata memoria tam tenero eundem afficiebat sensu, ut aspectu aurei huius doni non
                 satiandus illud identidem manu versaret. Et tam externis, quam domesticis frequenter
-                ostentans, prae gaudio nonnunquam suaviter cantillaret.<note place="foot" xml:id="ftn8" n="8">
-            <p>Moneta haec honoraria aurea effigiem Augustissimae
+                ostentans, prae gaudio nonnunquam suaviter cantillaret.<note n="note3" place="foot" xml:id="ftn8">
+            <p n="p1">Moneta haec honoraria aurea effigiem Augustissimae
                         referens Vienna per illustrissimum ac reverendissimum abbatem Marci, Anichio
-                        transmissa, ab eius directore patre<persName>Weinhart</persName>eleganti collari sericeo innexa,
+                        transmissa, ab eius directore patre<persName n="persName1">Weinhart</persName>eleganti collari sericeo innexa,
                         et 13 Augusti in domo Anichii non sine aliqua solemnitate coram testibus
                         collo Anichii iniecta fuit, simulque exposita mens augustissimae, quam in
                         epistola viennensi haec verba exprimunt: numum hunc Anichius gestare potest
@@ -410,8 +435,8 @@
                         et utilitate patriae.</p>
           </note>Sed nec posthuma geodetae huic remineratio
                 ab augustissima defuit; nam intuitu meritorum eius sorori pensio annua 50 fl.
-                assignata, et sepulchrum Anichii epitaphio marmori insculpto condecoratum.<note place="foot" xml:id="ftn9" n="9">
-            <p>Author in prima editione in epitaphii locum
+                assignata, et sepulchrum Anichii epitaphio marmori insculpto condecoratum.<note n="note4" place="foot" xml:id="ftn9">
+            <p n="p1">Author in prima editione in epitaphii locum
                         substituit inscriptionem honorariam, quae ad Anichianam effigiem in museo
                         academico affixa est; subveritus nempe, ne appellationes quaedam in illo
                         epitaphio contentae, et in eo sensu, in quo nunc inter eruditos usurpantur,
@@ -424,14 +449,14 @@
                         in aede sacra pagi Oberperfussensis ante aram Beatae Virginis quo funus
                         eiusdem, quod sub Iove libero in caemeterio publico primum tumulo illatum
                         fuerat, subinde post tres menses cum facultate Reverendissimi Consistorii
-                        Brixinensis actore patre<persName>Weinhart</persName>Societatis Jesu Anichii professore sonantibus
+                        Brixinensis actore patre<persName n="persName1">Weinhart</persName>Societatis Jesu Anichii professore sonantibus
                         omnibus campanis, et frequente concursu populi solemniter translatum atque
                         honorificentius tumulatum est.</p>
           </note>
-          <pb xml:id="F20"/>hic iacet<persName>Petrus Anich</persName>Oberperfussensis sui temporis, conditionis, ac gentis prodigium, rusticus idem ac
+          <pb n="pb5" xml:id="F20"/>hic iacet<persName n="persName6">Petrus Anich</persName>Oberperfussensis sui temporis, conditionis, ac gentis prodigium, rusticus idem ac
                 tornator, cosmographus, astronomus, geographus, geometra, chalcographus, mechanicus
-                et caetera per omnia excellens; quas artes<note place="foot" xml:id="ftn10" n="10">
-            <p>Per haec vocabula quas artes satis cautum videtur, speciosos hos
+                et caetera per omnia excellens; quas artes<note n="note7" place="foot" xml:id="ftn10">
+            <p n="p1">Per haec vocabula quas artes satis cautum videtur, speciosos hos
                         titulos utique non tam ad speculativas et sublimes scientias, quam ad
                         exercitationes practicas esse referendos.</p>
           </note>non tam didicit, quam
@@ -441,33 +466,33 @@
                 huius. Obiit caelebs 1 septembris anno christi 1766, aetate 43, me. 70. Cuius memoriae
                 monumentum hoc posuit excellentissimum Austriae sup. gubernium.</p>
       </div>
-      <div>
-        <lg>
-          <l>
-            <foreign xml:lang="dt">Das wunder dieser zeit, der schatz so vieler gaben,</foreign>
+      <div n="div9">
+        <lg n="lg1">
+          <l n="l1">
+            <foreign n="foreign1" xml:lang="dt">Das wunder dieser zeit, der schatz so vieler gaben,</foreign>
           </l>
-          <l>
-            <foreign xml:lang="dt">Die zier des bauernstands ist leider hier begraben.</foreign>
+          <l n="l2">
+            <foreign n="foreign1" xml:lang="dt">Die zier des bauernstands ist leider hier begraben.</foreign>
           </l>
-          <l>
-            <foreign xml:lang="dt">Gedenk an seine muh, von ihm gemessnes land!</foreign>
+          <l n="l3">
+            <foreign n="foreign1" xml:lang="dt">Gedenk an seine muh, von ihm gemessnes land!</foreign>
           </l>
-          <l>
-            <foreign xml:lang="dt">Der himmel war sein werk;<note place="foot" xml:id="ftn11" n="11">
-                <p>Nempe ob
+          <l n="l4">
+            <foreign n="foreign1" xml:lang="dt">Der himmel war sein werk;<note n="note1" place="foot" xml:id="ftn11">
+                <p n="p1">Nempe ob
                         insignem erga superos religionem, et ob globum astronomicum, aliaque eius
                         artefacta Uranica.</p>
               </note>er lohne seiner hand!</foreign>
           </l>
         </lg>
       </div>
-      <div>
-        <pb xml:id="F21"/>
-        <head>
-          <persName>Petri Anich</persName>habitus corporis.</head>
+      <div n="div10">
+        <pb n="pb1" xml:id="F21"/>
+        <head n="head2">
+          <persName n="persName1">Petri Anich</persName>habitus corporis.</head>
       </div>
-      <div>
-        <p>Vir erat<persName>Petrus Anich</persName>statura vix mediocri, facie vivida quidem, se, nisi seria
+      <div n="div11">
+        <p n="p1">Vir erat<persName n="persName1">Petrus Anich</persName>statura vix mediocri, facie vivida quidem, se, nisi seria
                 tractaret, aut studia, tam parum dotibus animi sui respondente, ut idiotam potius
                 sapere, quam doctum, et plerumque ore ad risum composito hiare videretur. Quando
                 autem suis se impendebat laboribus, aut intenta mentis acie suis vacabuat studiis,
@@ -483,18 +508,18 @@
                 cubiculum satis commodum in suprema domunculae suae parte. Sed vitium auribus
                 pertinacius iam insederat, quam ut illis remediis corrigeretur. Corpore et membris
                 erat non obesis quidem aut corpulentis, vegetis tamen, nervosis et quae duris
-                ferendis apta forent. Singulari gaudebat agi<pb xml:id="F22"/>litate in montes eluctandi, quo
+                ferendis apta forent. Singulari gaudebat agi<pb n="pb2" xml:id="F22"/>litate in montes eluctandi, quo
                 eum neque celeritate, neque constantia scandendi assequebantur vel robustissimi
                 quique, etiam ad longa itinera in plano pedibus conficienda satis expeditum. Ita eum
                 natura comparaverat ad perardua illa itinera et expeditiones difficillimas, quas
                 quotidiana officii sui ratio eidem postmodum iniunxerat. Sed virtus et gratia qualem
                 formaverint, haud iniucundum erit intelligere.</p>
       </div>
-      <div>
-        <head>Anichii virtutes animi.</head>
+      <div n="div12">
+        <head n="head1">Anichii virtutes animi.</head>
       </div>
-      <div>
-        <p>Quanta esset in superos religione, testabatur frequens orationis studium, et tenera
+      <div n="div13">
+        <p n="p1">Quanta esset in superos religione, testabatur frequens orationis studium, et tenera
                 eius conscientia, quam a labeculis crebra expiabat exhomologesi, sacrae mensae
                 frequens pariter hospes. Librorum asceticorum lectione multum delectabatur.
                 Peregrinationes quasdam sacras ad templa praesertim thaumaturga etiam in exteras
@@ -504,7 +529,7 @@
                 meliorem in spiritualibus subditum inter omnes sibi commissas oviculas, prater hunc
                 petrum, utpore inculpatae vitae, et optimi exempli. Sobrietatem, praeclaris
                 artificibus non semper familiare, constanter coluit, victu aspero, et modico usus
-                potu. Erga alios animi erat candidissimi et sincerissimi, fidelitatis integerri<pb xml:id="F23"/>mae, omnis fuci et fraudis expers. Omnibus se exhibebat affabilem, et ad obsequia promptum. Nihil aegrius ipsum habuit, quam aliorum erga se invidia. Hanc
+                potu. Erga alios animi erat candidissimi et sincerissimi, fidelitatis integerri<pb n="pb1" xml:id="F23"/>mae, omnis fuci et fraudis expers. Omnibus se exhibebat affabilem, et ad obsequia promptum. Nihil aegrius ipsum habuit, quam aliorum erga se invidia. Hanc
                 quo facilius declinaret, adduci non potuit, ut relicto suo pago, habitaret prope
                 urbem, ne videlicet opifices et artifices in ea habitantes, si praesentem cernerent,
                 quem suis laboribus assequi non possent, quandam in eum conciperent, foverentque
@@ -521,7 +546,7 @@
                 exponi spectaculum mundo et hominibus. Lepidae et propemodum ridiculae erant illae
                 honoris ceremoniae, quibus reverebatur primae nobilitatis viros, si quando iis
                 colloqui eum oportuit, ita ut dubium nobis reliquerit, an eadem a simplicitate
-                rustica,<pb xml:id="F24"/>an vero a sanctiore quadam et studiose affectata se et mundum
+                rustica,<pb n="pb2" xml:id="F24"/>an vero a sanctiore quadam et studiose affectata se et mundum
                 contemnendi ratione prodierint. Urgebatur a professore, ut, sicut multas alias
                 figuras minutis punctulis adumbrabat, sic iisdem suammet ipsius effigiem e speculo
                 reflexam pingeret. Diu tergiversatus et cunctatus tandem cogebatur opportune
@@ -537,9 +562,9 @@
                 Sanctam inquam, non enim erat vilis quaedam animi abiecti aut pusilli ignavia, quae
                 talia ipsi imperabat, sed vera virtutis mundana omnia spernentis magnanimitas et
                 genuina fortitudo.</p>
-        <p>Quam fortis autem animi fuerit Anichius, ex multis patet. Et in primis quidem magnas
+        <p n="p2">Quam fortis autem animi fuerit Anichius, ex multis patet. Et in primis quidem magnas
                 res et difficillimas, quae primo statim magnitudinis suae obtutu abstervissent
-                alios, aut certe horrore perculissent, petrus alacritate magna ul<pb xml:id="F25"/>tro in
+                alios, aut certe horrore perculissent, petrus alacritate magna ul<pb n="pb1" xml:id="F25"/>tro in
                 re suscepit: quas alii ad exitum perducere millies desperassent, ille ambabus
                 manibus amplexus est, et quo maiora se se opponebant obstacula, eo audentiorem
                 reddebant Anichium. De contemtu magnanimo periculorum quid dicam, quae ipsi in
@@ -555,9 +580,9 @@
                 hominum dumtaxat, sed et locorum iniquitate imminebant petro pericula. Adeunda erant
                 praecipitia montium, in quibus de vita non raro periclitabatur. Contigit, ut manibus
                 pedibusque reptando eluctaretur quidem in praeruptae rupis verticem; sed vix illuc
-                pertigerat, cum idem expertus, quod<persName>Maximiliano I</persName>in venatione damarum non procul a
+                pertigerat, cum idem expertus, quod<persName n="persName2">Maximiliano I</persName>in venatione damarum non procul a
                 suo pago (non ultra horae spatium) evenisse traditur; nec promovere iam pedem, nec
-                retrahere poterat; vix se se continuit,<pb xml:id="F26"/>quin actus vertigine in
+                retrahere poterat; vix se se continuit,<pb n="pb3" xml:id="F26"/>quin actus vertigine in
                 profundissimum rueret barathrum. A socio ibidem eminus visus iam pro deplorato
                 habebatur. Ex quo discrimine aliisque, non nisi voti, aut saltem pii propositi
                 religione evasit. Vicissitudo quoque temporum ac tempestatum quantas difficultates
@@ -574,10 +599,10 @@
                 horrore vident a tergo in eandem arborem ferale vibrari fulme, quod tres vaccas
                 illuc confugientes sub ea exanimavit, tanquam succedaneam pro hac geodetarum triade
                 victimam.</p>
-        <pb xml:id="F27"/>
-        <p>Hae, et plura his similia Anichium non absterrebant, quo minus ad dimensionis
+        <pb n="pb3" xml:id="F27"/>
+        <p n="p4">Hae, et plura his similia Anichium non absterrebant, quo minus ad dimensionis
                 susceptae negotium pro viribus urgendum nulli parceret periculo, nulli labori.</p>
-        <p>Et laboris quidem sedulitas si penitus in eo inspiciatur, otii osor fuit acerrimus,
+        <p n="p5">Et laboris quidem sedulitas si penitus in eo inspiciatur, otii osor fuit acerrimus,
                 cui, quoad aegritudines permitterent, adeo ne per momentum quidem indulsisse visus
                 est, ut tota ipsius vita perpetuus fuerit labor. Si autem magnum est laborare
                 multum, maius certe fuit, agere simul, et pati fortia; ab ea inquam laborum
@@ -592,7 +617,7 @@
                 attererentur, vespere si bona sors tulerit, vel sera nocte lassos repedare ad
                 hospitium, ibi tunc primo sumere prandium simul cum coena; prandium inquam, quod
                 plerumque sola condiebat fames, quod malignitas domesticorum, parce licet, ac male
-                paratum, saepe tamen non nisi pro pretio satis iniquo ministrabat; denique pro ca<pb xml:id="F28"/>piendo somno non exutos vestibus, in stramen non tam se prosternere, quam prae
+                paratum, saepe tamen non nisi pro pretio satis iniquo ministrabat; denique pro ca<pb n="pb1" xml:id="F28"/>piendo somno non exutos vestibus, in stramen non tam se prosternere, quam prae
                 lassitudine prolabi. Hic erat ordo diei, haec actionum, sive, ut modeste loquar,
                 simul molestiarum series, in quibus a tempore verno usque in serum autumnum per
                 continuum prope sexennium perduravit Petrus. Comparet iam lector benevolus ista cum
@@ -610,10 +635,10 @@
                 valetudinem, vitamque ipsam in florentissimo virilis aetatis vigore immolavit, vere
                 de illis omnibus et singulis praeclare meritus. Dignissimus proin, cuius merita
                 saltem post mortem et agnoscerentur clarius, et coronarentur uberius in coelesti
-                patria,<pb xml:id="F29"/>ad quam Anichium per labores virtutesque suas, praeprimis vero per
+                patria,<pb n="pb2" xml:id="F29"/>ad quam Anichium per labores virtutesque suas, praeprimis vero per
                 animi sui cum singularem modestiam, tum heroicam fortitudinem feliciter pervenisse
                 confidimus.</p>
-        <p>Ut suum talentum non esset otiosum, simul tamen una secum mundo absconditum in
+        <p n="p6">Ut suum talentum non esset otiosum, simul tamen una secum mundo absconditum in
                 Christo, erat Anichius fervens olim Societatis Jesu pro Indiis candidatus, iam iam
                 in eam inter coadiutores temporales suscipiendus, sed partim importunitati sororum,
                 eum mordicus sibimet vendicantium, partim timori, ne auris vitium, cuius prodromum
@@ -622,17 +647,17 @@
                 supervenientem paulo post surditatem necessario remittendus ad suos ex
                 tyrocinio.</p>
       </div>
-      <div>
-        <head>Supplementum.
+      <div n="div14">
+        <head n="head1">Supplementum.
                 De instrumento geodetico anichiano.</head>
       </div>
-      <div>
-        <p>Cum de dimensionibus, et mappis Anichianis nobis sermo fuerit, iuvat hic in medium
+      <div n="div15">
+        <p n="p1">Cum de dimensionibus, et mappis Anichianis nobis sermo fuerit, iuvat hic in medium
                 afferre, ac nonnihil fusius describere instrumentum, methodum, et praxin, quibus ad
                 geodeticas has Tyroleos dimensiones et ichnographicas delineationes Anichius usus
-                    est.<note place="foot" xml:id="ftn12" n="12">
-            <p>Descriptio huius instrumenti
-                        Anichiani, quod ipsus non vidi, mihi transmissa est a patre<persName>Weinhart</persName>Societatis
+                    est.<note n="note1" place="foot" xml:id="ftn12">
+            <p n="p1">Descriptio huius instrumenti
+                        Anichiani, quod ipsus non vidi, mihi transmissa est a patre<persName n="persName1">Weinhart</persName>Societatis
                         Jesu Anichii professore. Haec descriptio figura ideam instrumenti exprimente
                         haud opus habet; totum enim artificium in dioptris positum, quarum illam
                         oculo proximam in crena horizontaliter ita mobilem fecit, ut alteri fixae
@@ -641,23 +666,23 @@
                         loca profundissima (mensula in situ horizontali manente) collimare possit,
                         eorumque loca horizontalia designare.</p>
           </note>
-          <pb xml:id="F30"/>paravit sibimet
+          <pb n="pb2" xml:id="F30"/>paravit sibimet
                 instrumentum mensorium, quod quidem a circulo plerisque aliis geodetis usitato in
                 reliquis capitibus non differt, estque annulus aurichalcunus, in planam superficiem
                 contusus, in gradus et minuta divisus, ac regula circa centrum versatili, cui
                 praealtae insistun dioptrae, instructus; addidit tamen quidpiam ei Anichius suomet
                 ingenio, quod a nullo geodeta observatum, nunc quidem novi, idque eo melius, quo
                 simplicius.</p>
-        <p>Regulam nempe illam, de qua paulo ante, pertudit, et per medietatem filum tetendit.
+        <p n="p2">Regulam nempe illam, de qua paulo ante, pertudit, et per medietatem filum tetendit.
                 Regula haec circa centrum in circuli axe mobilis, in qua tota res consisti (nam
                 circulus ipse est ordinarius) constructa est hoc modo: ex ea parte, quae respicit
                 regionem metiendam, sive remotiore ab oculo geodetae observantis, regula est
                 nonnihil longior, et in medio pertusa, habetque per mediam longitudinem spatii
                 excisi filum tensum. In extremitate vero est dioptra praealta pariter pertusa cum
-                fulo tenso, quae verticaliter erigi possit, et iterum horizontaliter demitti (<foreign xml:lang="dt">in dem
+                fulo tenso, quae verticaliter erigi possit, et iterum horizontaliter demitti (<foreign n="foreign1" xml:lang="dt">in dem
                     scharnier</foreign>.) In altera autem regulae parte quae, observanti est vicina, sit dioptra
                 pariter alta verticalis, sed mobilis per modum cursoris, ita ut basis huius dioptrae
-                in<pb xml:id="F31"/>tra crenas, quae utrumque marginem regulae teminent (<foreign xml:lang="dt">zwischen zwey
+                in<pb n="pb2" xml:id="F31"/>tra crenas, quae utrumque marginem regulae teminent (<foreign n="foreign3" xml:lang="dt">zwischen zwey
                 aufgestilfte rüth</foreign>) pro arbitrio promoveri possit proprius versus centrum, vel iterum
                 ad extremitatem circuli retrahi. Retracta servit pro observandis illis obiectis,
                 quae vel sunt in plano horizontali, vel saltem non admodum altum aut profundum
@@ -675,7 +700,7 @@
                 praestitit regionibus montanis; nam si hoc instrumentum anichiano hoc appendice
                 instructum, horizontali semper situ statuatur, perinde geodetae, (pro mappis
                 chorographicis) eodem metiri poterunt quantumcunque alta, vel humilia obiecta, et ex
-                quacunque gemina statio<pb xml:id="F32"/>ne, etiam inaequaliter alta, ac si forent in eadem
+                quacunque gemina statio<pb n="pb4" xml:id="F32"/>ne, etiam inaequaliter alta, ac si forent in eadem
                 planitie, et tanquam ex stationibus eandem altitudinem habentibus dimensa. Nam in
                 quocunque horum casuum semper idem consequi necesse est, quod consequeretur, quando
                 ipsamet loca, quae metienda sunt, ad planum horizontale observantis adscenderent
@@ -690,34 +715,34 @@
                 transferuntur ope hemicycli in chartam, et genuinae linearum decussationes assignant
                 cuique obiecto verum suum locum, dum interim obvia quaelibet linea in plano pratice
                 simenda servire potest pro fundamento scalae geometricae.</p>
-        <p>Genuinam hanc esse praxin, solidam et geometrice demonstandam, ut professori anichius
+        <p n="p3">Genuinam hanc esse praxin, solidam et geometrice demonstandam, ut professori anichius
                 exhiberet, raptim construxit machinulam ex tribus planis asserculis paucolos digitos
-                longis latisque, et quatuor filis. Hac ad oculum<pb xml:id="F33"/>demonstratur, quantum
+                longis latisque, et quatuor filis. Hac ad oculum<pb n="pb1" xml:id="F33"/>demonstratur, quantum
                 fallat mensula geodetica, nisi horizontaliter ponatur etiam in editioribus
                 stationibus; cum angulus a binis filis deorsum formatus, sit longe diversus ab illo,
                 qui formatur per alia duo fila ex eodem puncto horizontaliter excurrentia, et
                 terminata in iisdem perpendicularibus; eoquod hypothenusa sit maior quovis latere.
                 Haec cum professori petrus ostenderet, ridebat ille simplicitatem machinulae, sed et
                 stupebat ingenium hominis.</p>
-        <p>Porro, tametsi circulum suum ubivis quidem collocare posset, et eodem in
+        <p n="p4">Porro, tametsi circulum suum ubivis quidem collocare posset, et eodem in
                 diversissimarum acclivitatum altitudine suas observationes instituere, anichius
                 tamen easdem fere non nisi in verticibus altissimorum montium institui. Qui labor,
                 quamvis sit arduus, et ferme quotidianus, gemina tamen eaque gravissima ratione
                 suadetur.</p>
-        <p>Prima est, ut ex eodem vertice in omnes cirumquaque subiectas valles et in singula
+        <p n="p5">Prima est, ut ex eodem vertice in omnes cirumquaque subiectas valles et in singula
                 loca eis contenta collineationes suas geodeta extendere simul possit. Per quam
                 quidem industriam lucratur plurima locorum, temporum, itinerum et laborum compendia;
                 dum eodem velut obtutu simul omnia perficiuntur, quorum dimensio alioquin seorsim ex
                 totidem stationum differentiis foret determinanda; eoquod diversae valles eundem
                 supremi montis verticem coronent.</p>
-        <p>Nec minoris momenti altera est ratio, quae non tam ad singularem vallium; locorumque
-                iis contentorum ichnographiam, quam ad totam connexionem al<pb xml:id="F34"/>tissimorum montium
+        <p n="p6">Nec minoris momenti altera est ratio, quae non tam ad singularem vallium; locorumque
+                iis contentorum ichnographiam, quam ad totam connexionem al<pb n="pb1" xml:id="F34"/>tissimorum montium
                 in mappa chorographica accurate designandam pertinet. Quomodo enim alioquin montium
                 singulorum vertices ichnographicum suum locum obtinerent, et tota catena seriesve
                 sibi cohaerentium iugorum suis rite punctis in mappa determinaretur, nis ab uno
                 vertice prospectu libero collimaretur ad plures alios, aut saltem ad alterum et ab
                 hoc altero ad tertium, ad quartum, et sic deinceps?</p>
-        <p>Qua simul praxi obtinetur et aliud emolumentum longe maximum: dum nempe sic
+        <p n="p7">Qua simul praxi obtinetur et aliud emolumentum longe maximum: dum nempe sic
                 operationes hae geodeticae inter se mutuo et multiplici quidem comprobantur examine;
                 cum ad se se stabiliendas mutuis sibimet serviant obsequiis. Si enim e tot montium
                 verticibus ultro citroque collineationes reciprocae instituantur, facillime et per
@@ -726,28 +751,28 @@
                 locorum dimensione, aut in nominum permutatione fuerit commissus; ex quibus omnibus
                 facile colligitur, quantis compendiis et commodis serviat anichianus hic montanas
                 regiones metiendi modus, a simplicitate etiam, ac inventore commendandus.</p>
-        <p>Hucusque r.p.<persName>Maximilianus Hell</persName>Societatis jesu.</p>
+        <p n="p8">Hucusque r.p.<persName n="persName1">Maximilianus Hell</persName>Societatis jesu.</p>
       </div>
-      <pb xml:id="F35"/>
-      <div>
-        <head>Supplementum II sive appendix de Anichii successore, et utriusque mappa
+      <pb n="pb16" xml:id="F35"/>
+      <div n="div17">
+        <head n="head1">Supplementum II sive appendix de Anichii successore, et utriusque mappa
                 chorographica Tyroleos.</head>
       </div>
-      <div>
-        <p>Instrumenti Anichiani usum simi familiarem, et patriae perutilem reddidit, qui in
+      <div n="div18">
+        <p n="p1">Instrumenti Anichiani usum simi familiarem, et patriae perutilem reddidit, qui in
                 mappa chorographica Tyroleos elaboranda, Anichii primo quidem discipulus, tum etiam
-                successor extitit<persName>Blasius Hueber</persName>, eiusdem cum Anichio patriae, eiusdem conditionis,
+                successor extitit<persName n="persName1">Blasius Hueber</persName>, eiusdem cum Anichio patriae, eiusdem conditionis,
                 utpote colonus pariter Oberperfussensis, eiusdem ferme, qua Anichius res
                 mathematicas tractare caeperat, aetatis, annorum prope triginta.</p>
-        <p>Hic anno<date>1765</date>ab Anichio in socium selectus, nec nisi in tertium mensem eiusdem in
-                    itineribus sibi<pb xml:id="F36"/>praesentis magisterio usus, cum eo pariter aegrotare caepit,
+        <p n="p2">Hic anno<date n="date1">1765</date>ab Anichio in socium selectus, nec nisi in tertium mensem eiusdem in
+                    itineribus sibi<pb n="pb2" xml:id="F36"/>praesentis magisterio usus, cum eo pariter aegrotare caepit,
                 postquam haud procul Bolsano per 5 horas ex humo palustri, per quam dimensiones suas
                 prosequebantur, vitiatos humores urente sirio attraerant. Sat diu videbatur maius
                 mortis periculum imminere Blasio quam Petro. Ast ubi Blasius post semestre
                 convaluit, non solas decumbentis adhuc dum Petri per reliquam anni illius partem, sed
                 et reliquas postmodum defuncti vices in dimetienda Tyroli hactenus egregie implevit,
                 discipulus (si geodesiam spectemus) magistro suo vel par, vel suppar.</p>
-        <p>Nec minor est in eo delineandi, scribendi, calamoque regiones ipsas more
+        <p n="p3">Nec minor est in eo delineandi, scribendi, calamoque regiones ipsas more
                 chalcographorum adumbrandi peritia, qua mappas suas chorographicas amaenissumum in
                 modum exornat; dignissimus, quem non excellentissimum huias gubernium in commissione
                 solemni finium regundorum inter Tyrolensem et Werdenfelsensem comitatus geodetam
@@ -755,29 +780,29 @@
                 extra tyrolim in sueviam sese exporrigentibus ditionibus Austriacis suo tempore
                 metiendis iam designarit, quin etiam, ut idem alios hac in arte metiendi et
                 delineandi instruat, clementissime simul ac providentissime demandarit.</p>
-        <p>Interea<persName>Blasius Hueber</persName>labore improbo, sed tamen minime fesso, et, ut speramus, cum
-                    anno<date>1796</date>finiendo pergit quod reliquum est Tyroleos metiri et delineare; cuius
+        <p n="p4">Interea<persName n="persName1">Blasius Hueber</persName>labore improbo, sed tamen minime fesso, et, ut speramus, cum
+                    anno<date n="date2">1796</date>finiendo pergit quod reliquum est Tyroleos metiri et delineare; cuius
                 partes prorotypas in forma maiore a blasio elegantissime adumbratas.</p>
-        <pb xml:id="F37"/>
-        <p>
-          <persName>Jacobus Renn</persName>excelsi gubernii cancellista et insignis delineator in
+        <pb n="pb5" xml:id="F37"/>
+        <p n="p6">
+          <persName n="persName1">Jacobus Renn</persName>excelsi gubernii cancellista et insignis delineator in
                 accuratissima transfert ectypa, quae Viennam partim iam missa, partim mittenda,
                 ibidem a praestantissimis chalcographis cupro inciduntur, haud dubie universalem
                 omnium approbationem latura.</p>
-        <p>Atque haec omnia et singula, quae in toto hoc opusculo memorabantur, genuina sunt
+        <p n="p7">Atque haec omnia et singula, quae in toto hoc opusculo memorabantur, genuina sunt
                 p.i.w. documenta de Petro Anichio, nullis fucis, nullis erroribus adulterata; secus
                 longe ac alia nonnulla cum germanico tum gallico idiomate conscripta ac nominatim
-                illa, quae titulum praeferunt: Journal encyclopedique de Bouillon,<date>15 jullet 1767</date>tome v deuxieme partie pagina 107. Quamvis enim ea in titulo paragraphi, qui de
+                illa, quae titulum praeferunt: Journal encyclopedique de Bouillon,<date n="date1">15 jullet 1767</date>tome v deuxieme partie pagina 107. Quamvis enim ea in titulo paragraphi, qui de
                 Anichio agit, scribantur esse traducta ex ephemeridibus astronomicis viennensibus
-                (nempe r.p.<persName>Maximiliani Hell</persName>Societatis Jesu) quisquis tamen transtulit, perperam
+                (nempe r.p.<persName n="persName2">Maximiliani Hell</persName>Societatis Jesu) quisquis tamen transtulit, perperam
                 transtulit; praeterquam enim quod et alia quaedam misceat veris minus consentanea,
-                ridulo errore eoque gemino, quidquid in ea scena gessit pater<persName>Ignatius Weinhart</persName>,
-                adscribere non dubitat pater<persName>Maximiliano Hell</persName>(quem mutato vocabulo patrem Hill
+                ridulo errore eoque gemino, quidquid in ea scena gessit pater<persName n="persName3">Ignatius Weinhart</persName>,
+                adscribere non dubitat pater<persName n="persName4">Maximiliano Hell</persName>(quem mutato vocabulo patrem Hill
                 identidem nominat, suummet vel nesciens vel corrumpens fontem) et vicissim in locum
                 patris Hell patrem Winhart substituit, hunc Viennae, illum Oeniponti degentem
                 fingens. Cuiusmodi apocryphorum sphalmata non penitus dissimulanda hoc loco duximus;
                 partim ne ista, quae nun apud nos quidem notorie falsa cognoscuntur, saltem
-                lectoribus aliis, loco et tempore remotis, illudant; partim<pb xml:id="F38"/>ne tota haec
+                lectoribus aliis, loco et tempore remotis, illudant; partim<pb n="pb5" xml:id="F38"/>ne tota haec
                 rerum memorabilium Anichianarum genuina historia cum tempore penitus obliteretur,
                 vel sublestam saltem inveniat fidem, si, quae in ea falsis corrumpuntur aut
                 miscentur, per testes synchronos ab erroribus non vindicentur.</p>

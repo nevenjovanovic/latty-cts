@@ -23,6 +23,25 @@
         <bibl>Korenjak, Martin: Applausus ad Principem Eugenium. Ein neulateinisches Ereignislied, in: Neulateinisches Jahrbuch 10 (2008), 177–194</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date notBefore="1669" notAfter="1773" period="17xx_3_third">c. 1669-1773</date>
@@ -46,206 +65,206 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:anonymus52276.latty2810357.latty-lat1:">
-    <body>
-      <div>
-        <head>Applausus ad Principem Eugenium</head>
-        <lg n="1" type="stanza">
-          <l>Nova laeta</l>
-          <l>perfaceta</l>
-          <l>cursor attulit,</l>
-          <l>qui Cremona</l>
-          <l>sorte bona</l>
-          <l>recens appulit:</l>
-          <l>Gallos noctis medio</l>
-          <l>indulgentes genio</l>
-          <l>esse pressos</l>
-          <l>et oppressos</l>
-          <l>ab Eugenio.</l>
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">Applausus ad Principem Eugenium</head>
+        <lg n="lg2" type="stanza">
+          <l n="l1">Nova laeta</l>
+          <l n="l2">perfaceta</l>
+          <l n="l3">cursor attulit,</l>
+          <l n="l4">qui Cremona</l>
+          <l n="l5">sorte bona</l>
+          <l n="l6">recens appulit:</l>
+          <l n="l7">Gallos noctis medio</l>
+          <l n="l8">indulgentes genio</l>
+          <l n="l9">esse pressos</l>
+          <l n="l10">et oppressos</l>
+          <l n="l11">ab Eugenio.</l>
         </lg>
-        <lg n="2" type="stanza">
-          <l>Iam in undas</l>
-          <l>Sol profundas</l>
-          <l>caput abdidit,</l>
-          <l>iam in atro</l>
-          <l>se theatro</l>
-          <l>Luna prodidit</l>
-          <l>spectatura eminus,</l>
-          <l>quod parabat cominus</l>
-          <l>stratagema</l>
-          <l>laudis thema</l>
-          <l>Ducis animus.</l>
+        <lg n="lg3" type="stanza">
+          <l n="l1">Iam in undas</l>
+          <l n="l2">Sol profundas</l>
+          <l n="l3">caput abdidit,</l>
+          <l n="l4">iam in atro</l>
+          <l n="l5">se theatro</l>
+          <l n="l6">Luna prodidit</l>
+          <l n="l7">spectatura eminus,</l>
+          <l n="l8">quod parabat cominus</l>
+          <l n="l9">stratagema</l>
+          <l n="l10">laudis thema</l>
+          <l n="l11">Ducis animus.</l>
         </lg>
-        <lg n="3" type="stanza">
-          <l>Ergo fido</l>
-          <l>dum in nido</l>
-          <l>Galli recubant,</l>
-          <l>dum in urbe</l>
-          <l>loco turbae</l>
-          <l>cives excubant,</l>
-          <l>Orbi in memoriam,</l>
-          <l>Caesari in gloriam</l>
-          <l>hostes egit,</l>
-          <l>mox subegit</l>
-          <l>in victoriam.</l>
+        <lg n="lg4" type="stanza">
+          <l n="l1">Ergo fido</l>
+          <l n="l2">dum in nido</l>
+          <l n="l3">Galli recubant,</l>
+          <l n="l4">dum in urbe</l>
+          <l n="l5">loco turbae</l>
+          <l n="l6">cives excubant,</l>
+          <l n="l7">Orbi in memoriam,</l>
+          <l n="l8">Caesari in gloriam</l>
+          <l n="l9">hostes egit,</l>
+          <l n="l10">mox subegit</l>
+          <l n="l11">in victoriam.</l>
         </lg>
-        <lg n="4" type="stanza">
-          <l>Tria<unclear>horum</unclear>
+        <lg n="lg5" type="stanza">
+          <l n="l1">Tria<unclear n="unclear1">horum</unclear>
           </l>
-          <l>Germanorum</l>
-          <l>ibant millia,</l>
-          <l>serunt mortem</l>
-          <l>in cohortem</l>
-          <l>nocte media:</l>
-          <l>viri pleni ausibus,</l>
-          <l>irrupturi maenibus</l>
-          <l>arte multa</l>
-          <l>sed occulta</l>
-          <l>clausis foribus.</l>
+          <l n="l2">Germanorum</l>
+          <l n="l3">ibant millia,</l>
+          <l n="l4">serunt mortem</l>
+          <l n="l5">in cohortem</l>
+          <l n="l6">nocte media:</l>
+          <l n="l7">viri pleni ausibus,</l>
+          <l n="l8">irrupturi maenibus</l>
+          <l n="l9">arte multa</l>
+          <l n="l10">sed occulta</l>
+          <l n="l11">clausis foribus.</l>
         </lg>
-        <lg n="5" type="stanza">
-          <l>Pars armata</l>
-          <l>plus cordata</l>
-          <l>agmen praeiit,</l>
-          <l>Marte freta,</l>
-          <l>morte spreta</l>
-          <l>muros subiit.</l>
-          <l>Dumque somno debiles</l>
-          <l>Vidit urbis vigiles,</l>
-          <l>prendit, secat,</l>
-          <l>sternit, necat</l>
-          <l>miserabiles.</l>
+        <lg n="lg6" type="stanza">
+          <l n="l1">Pars armata</l>
+          <l n="l2">plus cordata</l>
+          <l n="l3">agmen praeiit,</l>
+          <l n="l4">Marte freta,</l>
+          <l n="l5">morte spreta</l>
+          <l n="l6">muros subiit.</l>
+          <l n="l7">Dumque somno debiles</l>
+          <l n="l8">Vidit urbis vigiles,</l>
+          <l n="l9">prendit, secat,</l>
+          <l n="l10">sternit, necat</l>
+          <l n="l11">miserabiles.</l>
         </lg>
-        <lg n="6" type="stanza">
-          <l>Postquam factae</l>
-          <l>nec olfactae</l>
-          <l>sunt insidiae,</l>
-          <l>postquam stratae,</l>
-          <l>neci datae</l>
-          <l>sunt excubiae,</l>
-          <l>scandunt viri maenia,</l>
-          <l>pandunt urbis ostia,</l>
-          <l>fitque forti</l>
-          <l>sic cohorti</l>
-          <l>via pervia.</l>
+        <lg n="lg7" type="stanza">
+          <l n="l1">Postquam factae</l>
+          <l n="l2">nec olfactae</l>
+          <l n="l3">sunt insidiae,</l>
+          <l n="l4">postquam stratae,</l>
+          <l n="l5">neci datae</l>
+          <l n="l6">sunt excubiae,</l>
+          <l n="l7">scandunt viri maenia,</l>
+          <l n="l8">pandunt urbis ostia,</l>
+          <l n="l9">fitque forti</l>
+          <l n="l10">sic cohorti</l>
+          <l n="l11">via pervia.</l>
         </lg>
-        <lg n="7" type="stanza">
-          <l>Mox qua data</l>
-          <l>porta lata,</l>
-          <l>miles irruit,</l>
-          <l>hos graecantes,</l>
-          <l>hos cubantes</l>
-          <l>armis obruit.</l>
-          <l>Imperat Eugenius,</l>
-          <l>belli Dux egregius:</l>
-          <l>„Opprimatur</l>
-          <l>somno satur</l>
-          <l>Villaregius!“</l>
+        <lg n="lg8" type="stanza">
+          <l n="l1">Mox qua data</l>
+          <l n="l2">porta lata,</l>
+          <l n="l3">miles irruit,</l>
+          <l n="l4">hos graecantes,</l>
+          <l n="l5">hos cubantes</l>
+          <l n="l6">armis obruit.</l>
+          <l n="l7">Imperat Eugenius,</l>
+          <l n="l8">belli Dux egregius:</l>
+          <l n="l9">„Opprimatur</l>
+          <l n="l10">somno satur</l>
+          <l n="l11">Villaregius!“</l>
         </lg>
-        <lg n="8" type="stanza">
-          <l>Ducis iussa</l>
-          <l>inconcussa</l>
-          <l>cohors excipit:</l>
-          <l>somno pressos,</l>
-          <l>mero fessos</l>
-          <l>miles corripit.</l>
-          <l>Hostes miscent hostibus,</l>
-          <l>enses strident ensibus:</l>
-          <l>sic amaenam</l>
-          <l>ludit scenam</l>
-          <l>Cremonensibus.</l>
+        <lg n="lg9" type="stanza">
+          <l n="l1">Ducis iussa</l>
+          <l n="l2">inconcussa</l>
+          <l n="l3">cohors excipit:</l>
+          <l n="l4">somno pressos,</l>
+          <l n="l5">mero fessos</l>
+          <l n="l6">miles corripit.</l>
+          <l n="l7">Hostes miscent hostibus,</l>
+          <l n="l8">enses strident ensibus:</l>
+          <l n="l9">sic amaenam</l>
+          <l n="l10">ludit scenam</l>
+          <l n="l11">Cremonensibus.</l>
         </lg>
-        <lg n="9" type="stanza">
-          <l>Dum ad postes</l>
-          <l>mittunt hostes</l>
-          <l>aeris fulmina,</l>
-          <l>iam ad ima</l>
-          <l>volant prima</l>
-          <l>passim agmina.</l>
-          <l>Caeteri evigilant,</l>
-          <l>Galli Gallos invocant:</l>
-          <l>„Villaroi,</l>
-          <l>Villaroi!“</l>
-          <l>maesti clamitant.</l>
+        <lg n="lg10" type="stanza">
+          <l n="l1">Dum ad postes</l>
+          <l n="l2">mittunt hostes</l>
+          <l n="l3">aeris fulmina,</l>
+          <l n="l4">iam ad ima</l>
+          <l n="l5">volant prima</l>
+          <l n="l6">passim agmina.</l>
+          <l n="l7">Caeteri evigilant,</l>
+          <l n="l8">Galli Gallos invocant:</l>
+          <l n="l9">„Villaroi,</l>
+          <l n="l10">Villaroi!“</l>
+          <l n="l11">maesti clamitant.</l>
         </lg>
-        <lg n="10" type="stanza">
-          <l>Necdum lecto</l>
-          <l>ex dilecto</l>
-          <l>dux prosiluit.</l>
-          <l>„Quis hic ludus?“</l>
-          <l>pene nudus</l>
-          <l>tremens petiit.</l>
-          <l>Stabat iam in postibus</l>
-          <l>Teuto caesis hostibus,</l>
-          <l>ducem capit,</l>
-          <l>captum rapit,</l>
-          <l>effert maenibus.</l>
+        <lg n="lg11" type="stanza">
+          <l n="l1">Necdum lecto</l>
+          <l n="l2">ex dilecto</l>
+          <l n="l3">dux prosiluit.</l>
+          <l n="l4">„Quis hic ludus?“</l>
+          <l n="l5">pene nudus</l>
+          <l n="l6">tremens petiit.</l>
+          <l n="l7">Stabat iam in postibus</l>
+          <l n="l8">Teuto caesis hostibus,</l>
+          <l n="l9">ducem capit,</l>
+          <l n="l10">captum rapit,</l>
+          <l n="l11">effert maenibus.</l>
         </lg>
-        <lg n="12" type="stanza">
-          <l>„Mihi solum</l>
-          <l>pando dolum,</l>
-          <l>ne quis audiat.</l>
-          <l>Mihi fido</l>
-          <l>quod est nido</l>
-          <l>nullus videat.</l>
-          <l>Magnum nomen Gallis</l>
-          <l>nemo dicat aliis.</l>
-          <l>Villarous</l>
-          <l>sit ablatus</l>
-          <l>sine caligis.“</l>
+        <lg n="lg12" type="stanza">
+          <l n="l1">„Mihi solum</l>
+          <l n="l2">pando dolum,</l>
+          <l n="l3">ne quis audiat.</l>
+          <l n="l4">Mihi fido</l>
+          <l n="l5">quod est nido</l>
+          <l n="l6">nullus videat.</l>
+          <l n="l7">Magnum nomen Gallis</l>
+          <l n="l8">nemo dicat aliis.</l>
+          <l n="l9">Villarous</l>
+          <l n="l10">sit ablatus</l>
+          <l n="l11">sine caligis.“</l>
         </lg>
-        <lg n="12" type="stanza">
-          <l>Sine mora</l>
-          <l>illa hora</l>
-          <l>dux a<add>d</add>vectus est</l>
-          <l>et in urbe</l>
-          <l>datus turbae</l>
-          <l>maior campus est.</l>
-          <l>Terna nostrum millia</l>
-          <l>saeviunt in lylia,</l>
-          <l>laedunt, secant,</l>
-          <l>sternunt, necant</l>
-          <l>plura millia.</l>
+        <lg n="lg13" type="stanza">
+          <l n="l1">Sine mora</l>
+          <l n="l2">illa hora</l>
+          <l n="l3">dux a<add n="add1">d</add>vectus est</l>
+          <l n="l4">et in urbe</l>
+          <l n="l5">datus turbae</l>
+          <l n="l6">maior campus est.</l>
+          <l n="l7">Terna nostrum millia</l>
+          <l n="l8">saeviunt in lylia,</l>
+          <l n="l9">laedunt, secant,</l>
+          <l n="l10">sternunt, necant</l>
+          <l n="l11">plura millia.</l>
         </lg>
-        <lg n="13" type="stanza">
-          <l>Iste laesus,</l>
-          <l>ille caesus,</l>
-          <l>hic ut pusio</l>
-          <l>lecto raptus,</l>
-          <l>nudus captus</l>
-          <l>in indusio.</l>
-          <l>Centum de primariis,</l>
-          <l>ter tot e gregariis</l>
-          <l>foras acti,</l>
-          <l>praeda facti</l>
-          <l>sunt Caesareis.</l>
+        <lg n="lg14" type="stanza">
+          <l n="l1">Iste laesus,</l>
+          <l n="l2">ille caesus,</l>
+          <l n="l3">hic ut pusio</l>
+          <l n="l4">lecto raptus,</l>
+          <l n="l5">nudus captus</l>
+          <l n="l6">in indusio.</l>
+          <l n="l7">Centum de primariis,</l>
+          <l n="l8">ter tot e gregariis</l>
+          <l n="l9">foras acti,</l>
+          <l n="l10">praeda facti</l>
+          <l n="l11">sunt Caesareis.</l>
         </lg>
-        <lg n="14" type="stanza">
-          <l>Tandem lenti,</l>
-          <l>sed contenti</l>
-          <l>nostri coeunt.</l>
-          <l>Ordinati</l>
-          <l>et ditati</l>
-          <l>portis exeunt</l>
-          <l>inter mille spolia</l>
-          <l>laeti de victoria</l>
-          <l>comitante</l>
-          <l>et stipante</l>
-          <l>sola gloria.</l>
+        <lg n="lg15" type="stanza">
+          <l n="l1">Tandem lenti,</l>
+          <l n="l2">sed contenti</l>
+          <l n="l3">nostri coeunt.</l>
+          <l n="l4">Ordinati</l>
+          <l n="l5">et ditati</l>
+          <l n="l6">portis exeunt</l>
+          <l n="l7">inter mille spolia</l>
+          <l n="l8">laeti de victoria</l>
+          <l n="l9">comitante</l>
+          <l n="l10">et stipante</l>
+          <l n="l11">sola gloria.</l>
         </lg>
-        <lg n="15" type="stanza">
-          <l>Hos reversus</l>
-          <l>scripsit versus</l>
-          <l>a certamine</l>
-          <l>adhuc calens</l>
-          <l>prope madens</l>
-          <l>heros sanguine.</l>
-          <l>Venimus et vidimus,</l>
-          <l>hostes nostros vicimus.</l>
-          <l>Vigilate</l>
-          <l>et orate:</l>
-          <l>mox redibimus.</l>
+        <lg n="lg16" type="stanza">
+          <l n="l1">Hos reversus</l>
+          <l n="l2">scripsit versus</l>
+          <l n="l3">a certamine</l>
+          <l n="l4">adhuc calens</l>
+          <l n="l5">prope madens</l>
+          <l n="l6">heros sanguine.</l>
+          <l n="l7">Venimus et vidimus,</l>
+          <l n="l8">hostes nostros vicimus.</l>
+          <l n="l9">Vigilate</l>
+          <l n="l10">et orate:</l>
+          <l n="l11">mox redibimus.</l>
         </lg>
-        <l>Finis</l>
+        <l n="l17">Finis</l>
       </div>
     </body>
   </text>

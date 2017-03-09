@@ -32,6 +32,25 @@
         <bibl>BSB, 4 P.o.lat. 749,50</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1557">1557</date>
@@ -53,225 +72,225 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:otthenthaler01.latty2645875.latty-lat1:">
-    <body>
-      <div>
-        <head>Palaemon, aegloga heroico carmine conscripta<persName>M. Paulo Otthenthalero</persName>authore.
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">Palaemon, aegloga heroico carmine conscripta<persName n="persName1">M. Paulo Otthenthalero</persName>authore.
              Historia pentecostes elegiacis versibus reddita per eundem.</head>
       </div>
-      <div>
-        <p>Ad reverendum in Christo patrem ac doctor divini<persName>Georgium Montivillanum</persName>monasterii<placeName>Stambs</placeName>praepositum iambicum haec decastichon.</p>
+      <div n="div2">
+        <p n="p1">Ad reverendum in Christo patrem ac doctor divini<persName n="persName1">Georgium Montivillanum</persName>monasterii<placeName n="placeName2">Stambs</placeName>praepositum iambicum haec decastichon.</p>
       </div>
-      <div>
-        <lg>
-          <l>En prodit in lucem Palaemon parvulus,</l>
-          <l>Plures habebit forsitan qui Zoilos.</l>
-          <l>Quapropter hunc tibi vir o clarissime</l>
-          <l>mitto: decore quem potes defendere.</l>
-          <l>Iniuriis ab omnibus calumniae,</l>
-          <l>Nasutulorum et a nocivis dentibus.</l>
-          <l>Nam nominis tui timebunt hic decus,</l>
-          <l>Nostrosque versus te tuente mitius</l>
-          <l>Carpent. Utrosque si tamen neglexerint,</l>
-          <l>Pauloque Musam turpius laedant meam:</l>
-          <l>Apollinem iuro, deosque coeteros,</l>
-          <l>Inulta non erit seipsa vindice.</l>
-          <l>Praefarer ut deceret ad te longius</l>
-          <l>Voluminis statura si concederet,</l>
-          <l>Contentus his paucis vale vir candide,</l>
-          <l>Et ut soles Musis favere pergito.</l>
+      <div n="div3">
+        <lg n="lg1">
+          <l n="l1">En prodit in lucem Palaemon parvulus,</l>
+          <l n="l2">Plures habebit forsitan qui Zoilos.</l>
+          <l n="l3">Quapropter hunc tibi vir o clarissime</l>
+          <l n="l4">mitto: decore quem potes defendere.</l>
+          <l n="l5">Iniuriis ab omnibus calumniae,</l>
+          <l n="l6">Nasutulorum et a nocivis dentibus.</l>
+          <l n="l7">Nam nominis tui timebunt hic decus,</l>
+          <l n="l8">Nostrosque versus te tuente mitius</l>
+          <l n="l9">Carpent. Utrosque si tamen neglexerint,</l>
+          <l n="l10">Pauloque Musam turpius laedant meam:</l>
+          <l n="l11">Apollinem iuro, deosque coeteros,</l>
+          <l n="l12">Inulta non erit seipsa vindice.</l>
+          <l n="l13">Praefarer ut deceret ad te longius</l>
+          <l n="l14">Voluminis statura si concederet,</l>
+          <l n="l15">Contentus his paucis vale vir candide,</l>
+          <l n="l16">Et ut soles Musis favere pergito.</l>
         </lg>
       </div>
-      <div>
-        <head>Ad eundem.</head>
+      <div n="div4">
+        <head n="head1">Ad eundem.</head>
       </div>
-      <div>
-        <lg>
-          <l>Carmen conscripsi sacri de pneumatis olim</l>
-          <l>Historia, misi quod scis ut ante tibi.</l>
-          <l>Cum velit impresum ad vestros remeare penates,</l>
-          <l>Hoc aequa pariter suscipe mente precor.</l>
+      <div n="div5">
+        <lg n="lg1">
+          <l n="l1">Carmen conscripsi sacri de pneumatis olim</l>
+          <l n="l2">Historia, misi quod scis ut ante tibi.</l>
+          <l n="l3">Cum velit impresum ad vestros remeare penates,</l>
+          <l n="l4">Hoc aequa pariter suscipe mente precor.</l>
         </lg>
       </div>
-      <div>
-        <pb xml:id="FA2r"/>
-        <head>Palaemon.</head>
+      <div n="div6">
+        <pb n="pb1" xml:id="FA2r"/>
+        <head n="head2">Palaemon.</head>
       </div>
-      <div>
-        <lg>
-          <l>Tityrus. Damoetas.</l>
-          <l>Da. Tityre quid pinus patulae requiescis in umbra,</l>
-          <l>Et gracilem tenui meditaris arundine Musam?</l>
-          <l>Nonne vides agnos per devia lustra vagantes</l>
-          <l>Destitui solito custode Palaemone? non est</l>
-          <l>ullus ovile regat nostris qui pastor in oris.</l>
-          <l>Hinc gregis omne perit decus, et spes maxima prolis,</l>
-          <l>Amissoque dolent prisco pastore bidentes,</l>
-          <l>Et pars summa perit montis, pars valle vagatur.</l>
-          <l>Altera pars campis, pars in sylvestribus errat.</l>
-          <l>Ti. Quorsum migravit quaeso bonus ille Palaemon</l>
-          <l>Quondam ovium custos, gregis et rex optimus: haud est</l>
-          <l>Partibus in nostris, nostrumque gubernat ovilem?</l>
-          <l>Da. Non est crede mihi charissime Tytire, longe</l>
-          <l>Secedens alia nunc in regione moratur.</l>
-          <l>Ti. Dic mihi Damoeta, quo fato motus is autem</l>
-          <l>Quod tam longinquus peregrinis vivat in oris?</l>
-          <l>Tanta sui gregis hunc quod sic oblivio coepit</l>
-          <l>Miror: cum nullus quondam vigilantior illo</l>
-          <l>Aut pastor fuerit quisque nec amantior aequi.</l>
-          <l>Nullus eo melius lites componere doctus,</l>
-          <l>Exortae in nostro quae grassabantur ovili.</l>
-          <l>Doctius ipse lupos a nostris arcuit agnis,</l>
-          <l>Non mala vicini pecoris contagia passus,</l>
-          <l>Praefuit hoc ovibusque modo, quoque ponere ut ipsam</l>
-          <l>Non dubitans animam subiisset grege mortem.</l>
-          <l>Da. Quid quis non faciat si cogant Tytire fata?</l>
-          <l>Dira lues ipsum vexat, morbusque nocivus.</l>
-          <pb xml:id="FA2v"/>
-          <l>Qui crucians misere, nunquam sinit esse quietum:</l>
-          <l>Expertus tandem quoque plurima, sensit idipsum,</l>
-          <l>Solvere quae queat hunc non sit medicina dolorem.</l>
-          <l>Propterea penitus sic stat sententia mentis:</l>
-          <l>Omnia seu tentare simul, meliusque valere,</l>
-          <l>Aut si Fata velinti tristi succumbere morti.</l>
-          <l>Hinc certis ductus rationibus, aeris ipsa</l>
-          <l>Persentire volens quantum mutatio possit</l>
-          <l>Discessit peregrem iubeant hoc fata Palaemon</l>
-          <l>Ad nostras redeat quo rursus sanior oras.</l>
-          <l>Nam de me meritus sic est, audacter ut inquam.</l>
-          <l>Dum fluvios pisces, et apri iuga montis amabunt,</l>
-          <l>Magnaque pascentur latos armenta per agros,</l>
-          <l>Illius in nostro remanebit pectore vultus.</l>
-          <l>Ti. Non perspecta prius Damoeta, aut cognita narras</l>
-          <l>Tristis fama meas sed postquam perculit aures</l>
-          <l>Tartareos manes, tenebrosaque numina testor:</l>
-          <l>Posthac non unquam viridi proiectus in antro</l>
-          <l>Agrestem tenui meditabor arundine Musam.</l>
-          <l>Carmina nullam canam, nec me pascente capellae</l>
-          <l>Florentem cythisum, salices et gramina carpent,</l>
-          <l>Donec convaleat pecoris dux, atque Magister.</l>
-          <l>Ante graves etenim pascentur in aethere vaccae,</l>
-          <l>Adque suos current remeantia flumina fontes,</l>
-          <l>Praeter et excelsae labetur moenia Romae</l>
-          <l>Oenus, et has valles Tyberis, camposque rigabit,</l>
-          <l>Quam bonus ille meo discedat corde Palaemon.</l>
-          <l>Da. Ad miranda patris sunt haec mysteria summi,</l>
-          <l>Quod plerumque bonos, et charos quos habet omnes</l>
-          <pb xml:id="FA3r"/>
-          <l>Urgeri patitur velut aurum saepe probatur</l>
-          <l>In flammis, probat hic sic per discrimina iustos.</l>
-          <l>Haec sunt dicta prius tamen omnia Tityre nobis,</l>
-          <l>cum Christus mundi Salvator carne gravatus</l>
-          <l>Humana rebus mortalibus adfuit olim.</l>
-          <l>Propterea perfert animo qui talia forti,</l>
-          <l>Ut solet hic noster celebrandus saepe Palaemon,</l>
-          <l>Praemia digna capit mercedis tempore tandem.</l>
-          <l>Ti. Non me plura loqui tenebrae patiuntur, at ipse</l>
-          <l>Si placet hac mecum poteris requiescere nocte</l>
-          <l>Fronde super viridi, satis ampla est copia lactis,</l>
-          <l>Et panis noviter pistus, sunt mitia poma.</l>
-          <l>Hesperus exoriens tenebras annunciat, atque</l>
-          <l>Nox terram nigris iam, iam complectitur alis.</l>
+      <div n="div7">
+        <lg n="lg1">
+          <l n="l1">Tityrus. Damoetas.</l>
+          <l n="l2">Da. Tityre quid pinus patulae requiescis in umbra,</l>
+          <l n="l3">Et gracilem tenui meditaris arundine Musam?</l>
+          <l n="l4">Nonne vides agnos per devia lustra vagantes</l>
+          <l n="l5">Destitui solito custode Palaemone? non est</l>
+          <l n="l6">ullus ovile regat nostris qui pastor in oris.</l>
+          <l n="l7">Hinc gregis omne perit decus, et spes maxima prolis,</l>
+          <l n="l8">Amissoque dolent prisco pastore bidentes,</l>
+          <l n="l9">Et pars summa perit montis, pars valle vagatur.</l>
+          <l n="l10">Altera pars campis, pars in sylvestribus errat.</l>
+          <l n="l11">Ti. Quorsum migravit quaeso bonus ille Palaemon</l>
+          <l n="l12">Quondam ovium custos, gregis et rex optimus: haud est</l>
+          <l n="l13">Partibus in nostris, nostrumque gubernat ovilem?</l>
+          <l n="l14">Da. Non est crede mihi charissime Tytire, longe</l>
+          <l n="l15">Secedens alia nunc in regione moratur.</l>
+          <l n="l16">Ti. Dic mihi Damoeta, quo fato motus is autem</l>
+          <l n="l17">Quod tam longinquus peregrinis vivat in oris?</l>
+          <l n="l18">Tanta sui gregis hunc quod sic oblivio coepit</l>
+          <l n="l19">Miror: cum nullus quondam vigilantior illo</l>
+          <l n="l20">Aut pastor fuerit quisque nec amantior aequi.</l>
+          <l n="l21">Nullus eo melius lites componere doctus,</l>
+          <l n="l22">Exortae in nostro quae grassabantur ovili.</l>
+          <l n="l23">Doctius ipse lupos a nostris arcuit agnis,</l>
+          <l n="l24">Non mala vicini pecoris contagia passus,</l>
+          <l n="l25">Praefuit hoc ovibusque modo, quoque ponere ut ipsam</l>
+          <l n="l26">Non dubitans animam subiisset grege mortem.</l>
+          <l n="l27">Da. Quid quis non faciat si cogant Tytire fata?</l>
+          <l n="l28">Dira lues ipsum vexat, morbusque nocivus.</l>
+          <pb n="pb29" xml:id="FA2v"/>
+          <l n="l30">Qui crucians misere, nunquam sinit esse quietum:</l>
+          <l n="l31">Expertus tandem quoque plurima, sensit idipsum,</l>
+          <l n="l32">Solvere quae queat hunc non sit medicina dolorem.</l>
+          <l n="l33">Propterea penitus sic stat sententia mentis:</l>
+          <l n="l34">Omnia seu tentare simul, meliusque valere,</l>
+          <l n="l35">Aut si Fata velinti tristi succumbere morti.</l>
+          <l n="l36">Hinc certis ductus rationibus, aeris ipsa</l>
+          <l n="l37">Persentire volens quantum mutatio possit</l>
+          <l n="l38">Discessit peregrem iubeant hoc fata Palaemon</l>
+          <l n="l39">Ad nostras redeat quo rursus sanior oras.</l>
+          <l n="l40">Nam de me meritus sic est, audacter ut inquam.</l>
+          <l n="l41">Dum fluvios pisces, et apri iuga montis amabunt,</l>
+          <l n="l42">Magnaque pascentur latos armenta per agros,</l>
+          <l n="l43">Illius in nostro remanebit pectore vultus.</l>
+          <l n="l44">Ti. Non perspecta prius Damoeta, aut cognita narras</l>
+          <l n="l45">Tristis fama meas sed postquam perculit aures</l>
+          <l n="l46">Tartareos manes, tenebrosaque numina testor:</l>
+          <l n="l47">Posthac non unquam viridi proiectus in antro</l>
+          <l n="l48">Agrestem tenui meditabor arundine Musam.</l>
+          <l n="l49">Carmina nullam canam, nec me pascente capellae</l>
+          <l n="l50">Florentem cythisum, salices et gramina carpent,</l>
+          <l n="l51">Donec convaleat pecoris dux, atque Magister.</l>
+          <l n="l52">Ante graves etenim pascentur in aethere vaccae,</l>
+          <l n="l53">Adque suos current remeantia flumina fontes,</l>
+          <l n="l54">Praeter et excelsae labetur moenia Romae</l>
+          <l n="l55">Oenus, et has valles Tyberis, camposque rigabit,</l>
+          <l n="l56">Quam bonus ille meo discedat corde Palaemon.</l>
+          <l n="l57">Da. Ad miranda patris sunt haec mysteria summi,</l>
+          <l n="l58">Quod plerumque bonos, et charos quos habet omnes</l>
+          <pb n="pb59" xml:id="FA3r"/>
+          <l n="l60">Urgeri patitur velut aurum saepe probatur</l>
+          <l n="l61">In flammis, probat hic sic per discrimina iustos.</l>
+          <l n="l62">Haec sunt dicta prius tamen omnia Tityre nobis,</l>
+          <l n="l63">cum Christus mundi Salvator carne gravatus</l>
+          <l n="l64">Humana rebus mortalibus adfuit olim.</l>
+          <l n="l65">Propterea perfert animo qui talia forti,</l>
+          <l n="l66">Ut solet hic noster celebrandus saepe Palaemon,</l>
+          <l n="l67">Praemia digna capit mercedis tempore tandem.</l>
+          <l n="l68">Ti. Non me plura loqui tenebrae patiuntur, at ipse</l>
+          <l n="l69">Si placet hac mecum poteris requiescere nocte</l>
+          <l n="l70">Fronde super viridi, satis ampla est copia lactis,</l>
+          <l n="l71">Et panis noviter pistus, sunt mitia poma.</l>
+          <l n="l72">Hesperus exoriens tenebras annunciat, atque</l>
+          <l n="l73">Nox terram nigris iam, iam complectitur alis.</l>
         </lg>
       </div>
-      <div>
-        <head>Historia pentecostes elegiis redita.</head>
+      <div n="div8">
+        <head n="head1">Historia pentecostes elegiis redita.</head>
       </div>
-      <div>
-        <lg>
-          <l>Omnipotens mundi rector cui summa potestas,</l>
-          <l>Finem qui rerum, principiumque tenes.</l>
-          <l>Cantanti largire mihi tua munera: vires</l>
-          <l>Coelitus accipiat nostra camoena suas.</l>
-          <l>Veridicam praebe scribenti carmina venam,</l>
-          <l>Propitius ceptis, aequus et esto meis:</l>
-          <l>Quo pacto dicam nati demiseris olim</l>
-          <l>Munera discipulis pneumatis alma tui.</l>
-          <l>Quod sacris donis homines illuminat omnes,</l>
-          <l>Queis spes in Christo est firma reposta Deo.</l>
-          <pb xml:id="FA3v"/>
-          <l>Christus tartareis rediit cum victor ab oris.</l>
-          <l>Unica supremi, spesque decusque patris:</l>
-          <l>Humanam rursus speciem cum carne resumsit</l>
-          <l>Accedens socios, discipulosque suos.</l>
-          <l>His se promisit missurum pneuma salutis,</l>
-          <l>Quod vera monstret cum pietare fidem,</l>
-          <l>Per bis vicenosque dies apparuit illis,</l>
-          <l>Et sacrum corpus saepe videre dedit.</l>
-          <l>Quo testes aliquando forent et dicere possent.</l>
-          <l>Christus surrexit qui ante sepultus erat.</l>
-          <l>Mortales ideo cuncti tellure sepulti,</l>
-          <l>Ibunt in vitam, tempore quisuqe suo.</l>
-          <l>Hora sed ut venit celsum quae iussit Olympum</l>
-          <l>Scandere, et aethereum rursus adire patrem.</l>
-          <l>Nubibus obtectus subito sublatus in altum</l>
-          <l>Ivit ad excelsi regna suprem a poli.</l>
-          <l>Sed decies quinti successit ut hora diei,</l>
-          <l>Protulit et radios flacuus Appollo suos,</l>
-          <l>Unanimes cuncti Christo gratissima turba</l>
-          <l>Unum discipuli tum tenuere locum.</l>
-          <l>Votis ac precibus mulcentes omnipotentem</l>
-          <l>Undique qui regnat, cuncta tenetque deum.</l>
-          <l>Optantes tribui sibi spiritualia dona,</l>
-          <l>Ipsis pollicitus quae ante magister erat.</l>
-          <l>Ecce autem subitae velut ingens turbo procellae,</l>
-          <l>Ceu venti gravior, visque venire solet.</l>
-          <l>Aut veluti Boreas Thracum super aequore magno</l>
-          <l>Impulsu resonans horridiore boat.</l>
-          <l>Aut veluti quando ventorum praelia miscens</l>
-          <l>In magnos saltus saeva procella cadit.</l>
-          <pb xml:id="FA4r"/>
-          <l>In quibus ingentem sonitum ciet, atque fragerem,</l>
-          <l>Concutiens motu proxima quaeque suo.</l>
-          <l>Sic etiam celsa coeli descendit ab arce</l>
-          <l>Ex alto missus spiritus ille Dei,</l>
-          <l>Concussitque domum totam, quatiensque fenestras</l>
-          <l>Finitima implevit cuncta tremore loca.</l>
-          <l>Tunc variae linguae visae velut igne micantes.</l>
-          <l>Res mira, et nullo tempore visa prius.</l>
-          <l>Talia non cuivis contingit gesta videre:</l>
-          <l>Nec, nisi cui Christi gratia summa dedit.</l>
-          <l>Illorum quemvis sed tunc incessit et illic</l>
-          <l>Impleta est sacro numine tota cohors.</l>
-          <l>Hinc variis linguis usi sunt atque locuti:</l>
-          <l>Ut dabat hoc cuivis spiritus ille loqui.</l>
-          <l>Vivebant sacra Solymorum tunc sed in urbe</l>
-          <l>Multi, et sanctorum magna caterva virum.</l>
-          <l>Venerat haec orta ex variis regionibus illuc:</l>
-          <l>Pars erat Haebreo sanguine creta tamen.</l>
-          <l>Quae pietatis amans syncero corde colebat,</l>
-          <l>Non sine ferventi relligione deum.</l>
-          <l>Haec postquam coram contingere talia vidit,</l>
-          <l>Pectore mirata est, obstupuitque suo.</l>
-          <l>Dicens, presentes an non hi sunt Galilaei?</l>
-          <l>Patria non illos num<placeName>Galilaea</placeName>tulit?</l>
-          <l>Qui fit quo quivis nostrum sic audiat ipsos</l>
-          <l>In nostra lingua congrua verba loqui?</l>
-          <l>Cum simus Parthi, Medi, simul atque Elamitae,</l>
-          <l>Iudaei, Phrygii, Cappadocesque viri?</l>
-          <l>Cultores<placeName>Ponti</placeName>,<placeName>Mesopottamiaque</placeName>viri?</l>
-          <l>
-            <placeName>Aegypti</placeName>,<placeName>Libyae</placeName>, Pamphyliaeque simul.</l>
-          <pb xml:id="FA4v"/>
-          <l>Romani atque Arabes, nonnullos alta Cyrene,</l>
-          <l>Patria nonnullos insula<placeName>Creta</placeName>tulit.</l>
-          <l>Sic dixere simul mirantes, discipulosque</l>
-          <l>Spectantes magis, ac obstupuere magis.</l>
-          <l>Nec mirum quis non miretur talia cernens?</l>
-          <l>Quis non suspiciat talia dona dei?</l>
-          <l>Quocirca o homines quibus haec est cura salutis,</l>
-          <l>Ut cupiant animas vivificare sua.</l>
-          <l>Unanimi Christum rogitemus voce, petentes</l>
-          <l>Quo sacrum et nobis mittere pneuma velit.</l>
-          <l>Nos ut amore sui succendat, monstret et illam</l>
-          <l>Quae vera iuncta est cum pietate viam.</l>
-          <l>Coelesti patria tandem possimus et ipsi</l>
-          <l>Ut iuncti Christo, laeticiaque frui.</l>
+      <div n="div9">
+        <lg n="lg1">
+          <l n="l1">Omnipotens mundi rector cui summa potestas,</l>
+          <l n="l2">Finem qui rerum, principiumque tenes.</l>
+          <l n="l3">Cantanti largire mihi tua munera: vires</l>
+          <l n="l4">Coelitus accipiat nostra camoena suas.</l>
+          <l n="l5">Veridicam praebe scribenti carmina venam,</l>
+          <l n="l6">Propitius ceptis, aequus et esto meis:</l>
+          <l n="l7">Quo pacto dicam nati demiseris olim</l>
+          <l n="l8">Munera discipulis pneumatis alma tui.</l>
+          <l n="l9">Quod sacris donis homines illuminat omnes,</l>
+          <l n="l10">Queis spes in Christo est firma reposta Deo.</l>
+          <pb n="pb11" xml:id="FA3v"/>
+          <l n="l12">Christus tartareis rediit cum victor ab oris.</l>
+          <l n="l13">Unica supremi, spesque decusque patris:</l>
+          <l n="l14">Humanam rursus speciem cum carne resumsit</l>
+          <l n="l15">Accedens socios, discipulosque suos.</l>
+          <l n="l16">His se promisit missurum pneuma salutis,</l>
+          <l n="l17">Quod vera monstret cum pietare fidem,</l>
+          <l n="l18">Per bis vicenosque dies apparuit illis,</l>
+          <l n="l19">Et sacrum corpus saepe videre dedit.</l>
+          <l n="l20">Quo testes aliquando forent et dicere possent.</l>
+          <l n="l21">Christus surrexit qui ante sepultus erat.</l>
+          <l n="l22">Mortales ideo cuncti tellure sepulti,</l>
+          <l n="l23">Ibunt in vitam, tempore quisuqe suo.</l>
+          <l n="l24">Hora sed ut venit celsum quae iussit Olympum</l>
+          <l n="l25">Scandere, et aethereum rursus adire patrem.</l>
+          <l n="l26">Nubibus obtectus subito sublatus in altum</l>
+          <l n="l27">Ivit ad excelsi regna suprem a poli.</l>
+          <l n="l28">Sed decies quinti successit ut hora diei,</l>
+          <l n="l29">Protulit et radios flacuus Appollo suos,</l>
+          <l n="l30">Unanimes cuncti Christo gratissima turba</l>
+          <l n="l31">Unum discipuli tum tenuere locum.</l>
+          <l n="l32">Votis ac precibus mulcentes omnipotentem</l>
+          <l n="l33">Undique qui regnat, cuncta tenetque deum.</l>
+          <l n="l34">Optantes tribui sibi spiritualia dona,</l>
+          <l n="l35">Ipsis pollicitus quae ante magister erat.</l>
+          <l n="l36">Ecce autem subitae velut ingens turbo procellae,</l>
+          <l n="l37">Ceu venti gravior, visque venire solet.</l>
+          <l n="l38">Aut veluti Boreas Thracum super aequore magno</l>
+          <l n="l39">Impulsu resonans horridiore boat.</l>
+          <l n="l40">Aut veluti quando ventorum praelia miscens</l>
+          <l n="l41">In magnos saltus saeva procella cadit.</l>
+          <pb n="pb42" xml:id="FA4r"/>
+          <l n="l43">In quibus ingentem sonitum ciet, atque fragerem,</l>
+          <l n="l44">Concutiens motu proxima quaeque suo.</l>
+          <l n="l45">Sic etiam celsa coeli descendit ab arce</l>
+          <l n="l46">Ex alto missus spiritus ille Dei,</l>
+          <l n="l47">Concussitque domum totam, quatiensque fenestras</l>
+          <l n="l48">Finitima implevit cuncta tremore loca.</l>
+          <l n="l49">Tunc variae linguae visae velut igne micantes.</l>
+          <l n="l50">Res mira, et nullo tempore visa prius.</l>
+          <l n="l51">Talia non cuivis contingit gesta videre:</l>
+          <l n="l52">Nec, nisi cui Christi gratia summa dedit.</l>
+          <l n="l53">Illorum quemvis sed tunc incessit et illic</l>
+          <l n="l54">Impleta est sacro numine tota cohors.</l>
+          <l n="l55">Hinc variis linguis usi sunt atque locuti:</l>
+          <l n="l56">Ut dabat hoc cuivis spiritus ille loqui.</l>
+          <l n="l57">Vivebant sacra Solymorum tunc sed in urbe</l>
+          <l n="l58">Multi, et sanctorum magna caterva virum.</l>
+          <l n="l59">Venerat haec orta ex variis regionibus illuc:</l>
+          <l n="l60">Pars erat Haebreo sanguine creta tamen.</l>
+          <l n="l61">Quae pietatis amans syncero corde colebat,</l>
+          <l n="l62">Non sine ferventi relligione deum.</l>
+          <l n="l63">Haec postquam coram contingere talia vidit,</l>
+          <l n="l64">Pectore mirata est, obstupuitque suo.</l>
+          <l n="l65">Dicens, presentes an non hi sunt Galilaei?</l>
+          <l n="l66">Patria non illos num<placeName n="placeName1">Galilaea</placeName>tulit?</l>
+          <l n="l67">Qui fit quo quivis nostrum sic audiat ipsos</l>
+          <l n="l68">In nostra lingua congrua verba loqui?</l>
+          <l n="l69">Cum simus Parthi, Medi, simul atque Elamitae,</l>
+          <l n="l70">Iudaei, Phrygii, Cappadocesque viri?</l>
+          <l n="l71">Cultores<placeName n="placeName1">Ponti</placeName>,<placeName n="placeName2">Mesopottamiaque</placeName>viri?</l>
+          <l n="l72">
+            <placeName n="placeName1">Aegypti</placeName>,<placeName n="placeName2">Libyae</placeName>, Pamphyliaeque simul.</l>
+          <pb n="pb73" xml:id="FA4v"/>
+          <l n="l74">Romani atque Arabes, nonnullos alta Cyrene,</l>
+          <l n="l75">Patria nonnullos insula<placeName n="placeName1">Creta</placeName>tulit.</l>
+          <l n="l76">Sic dixere simul mirantes, discipulosque</l>
+          <l n="l77">Spectantes magis, ac obstupuere magis.</l>
+          <l n="l78">Nec mirum quis non miretur talia cernens?</l>
+          <l n="l79">Quis non suspiciat talia dona dei?</l>
+          <l n="l80">Quocirca o homines quibus haec est cura salutis,</l>
+          <l n="l81">Ut cupiant animas vivificare sua.</l>
+          <l n="l82">Unanimi Christum rogitemus voce, petentes</l>
+          <l n="l83">Quo sacrum et nobis mittere pneuma velit.</l>
+          <l n="l84">Nos ut amore sui succendat, monstret et illam</l>
+          <l n="l85">Quae vera iuncta est cum pietate viam.</l>
+          <l n="l86">Coelesti patria tandem possimus et ipsi</l>
+          <l n="l87">Ut iuncti Christo, laeticiaque frui.</l>
         </lg>
       </div>
-      <div>
-        <p>Finis.</p>
-        <p>
-          <placeName>Oeniponti</placeName>excudebat Rupertus Holler. Anno<date>1557</date>.</p>
+      <div n="div10">
+        <p n="p1">Finis.</p>
+        <p n="p2">
+          <placeName n="placeName1">Oeniponti</placeName>excudebat Rupertus Holler. Anno<date n="date2">1557</date>.</p>
       </div>
     </body>
   </text>

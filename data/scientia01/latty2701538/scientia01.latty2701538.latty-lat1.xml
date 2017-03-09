@@ -35,6 +35,28 @@
         <bibl>TLMF, Dip. 651/7</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1626">1626</date>
@@ -59,209 +81,209 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:scientia01.latty2701538.latty-lat1:">
-    <body>
-      <div>
-        <head>Panegyrica ode quam illustrissimo et reverendissimo domino domino<persName>Carolo Madrutio</persName>
-          <placeName>Tridenti</placeName>episcopo consecrato accinebat<persName>J.B. Scientia</persName>.</head>
-        <p>
-          <placeName>Tridenti</placeName>, apud<persName>Iohannem Albertum</persName>.<date>MDCXXVI</date>.</p>
-        <p>Superiorum Permissu.<pb n="1"/>
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">Panegyrica ode quam illustrissimo et reverendissimo domino domino<persName n="persName1">Carolo Madrutio</persName>
+          <placeName n="placeName2">Tridenti</placeName>episcopo consecrato accinebat<persName n="persName3">J.B. Scientia</persName>.</head>
+        <p n="p2">
+          <placeName n="placeName1">Tridenti</placeName>, apud<persName n="persName2">Iohannem Albertum</persName>.<date n="date3">MDCXXVI</date>.</p>
+        <p n="p3">Superiorum Permissu.<pb n="pb1"/>
         </p>
       </div>
-      <div>
-        <head>Tricolos pentastrophos.</head>
-        <lg>
-          <lg type="stanza">
-            <l>Felix o superum munere civitas,</l>
-            <l>O felix iterum, cui Deus altior</l>
-            <l>Fortuna dominus praeficit, et suo</l>
-            <l>Decretum fato</l>
-            <l>Vult imperare<persName>CAROLUM</persName>.</l>
+      <div n="div2">
+        <head n="head1">Tricolos pentastrophos.</head>
+        <lg n="lg2">
+          <lg n="lg1" type="stanza">
+            <l n="l1">Felix o superum munere civitas,</l>
+            <l n="l2">O felix iterum, cui Deus altior</l>
+            <l n="l3">Fortuna dominus praeficit, et suo</l>
+            <l n="l4">Decretum fato</l>
+            <l n="l5">Vult imperare<persName n="persName1">CAROLUM</persName>.</l>
           </lg>
-          <lg type="stanza">
-            <l>Non illo pietas, et meritis satis</l>
-            <l>Virtus facta suis, quae vetat emori</l>
-            <l>Iam functos homines: non amor, et boni</l>
-            <l>Communis cura</l>
-            <l>Possunt abesse, sospite.</l>
+          <lg n="lg2" type="stanza">
+            <l n="l1">Non illo pietas, et meritis satis</l>
+            <l n="l2">Virtus facta suis, quae vetat emori</l>
+            <l n="l3">Iam functos homines: non amor, et boni</l>
+            <l n="l4">Communis cura</l>
+            <l n="l5">Possunt abesse, sospite.</l>
           </lg>
-          <lg type="stanza">
-            <l>Pendet crimina, grex perstrepat ilicet,</l>
-            <l>Aequum iustitiae, Pricipe dignior</l>
-            <l>Virtus, rara tamen, sed tamen omnibus</l>
-            <l>Omni sub saeclo,</l>
-            <l>Virtutibus sublimior.</l>
+          <lg n="lg3" type="stanza">
+            <l n="l1">Pendet crimina, grex perstrepat ilicet,</l>
+            <l n="l2">Aequum iustitiae, Pricipe dignior</l>
+            <l n="l3">Virtus, rara tamen, sed tamen omnibus</l>
+            <l n="l4">Omni sub saeclo,</l>
+            <l n="l5">Virtutibus sublimior.</l>
           </lg>
-          <lg type="stanza">
-            <l>Sive urbem deceat quis decor, adferet,</l>
-            <l>Seu civem status: usquam mala (sedulus</l>
-            <l>Aeternis vicibus in bona subditi)</l>
-            <l>Admittet nunquam,</l>
-            <l>Regnare doctus a suis.</l>
+          <lg n="lg4" type="stanza">
+            <l n="l1">Sive urbem deceat quis decor, adferet,</l>
+            <l n="l2">Seu civem status: usquam mala (sedulus</l>
+            <l n="l3">Aeternis vicibus in bona subditi)</l>
+            <l n="l4">Admittet nunquam,</l>
+            <l n="l5">Regnare doctus a suis.</l>
           </lg>
-          <lg type="stanza">
-            <l>Dic o dic patria, cui domino mage</l>
-            <l>Optasti eximio vivere sub iugo?</l>
-            <l>Non sic Romuleo nomine septimons</l>
-            <l>Plebes Romana</l>
-            <l>Digne superbiat modo.</l>
+          <lg n="lg5" type="stanza">
+            <l n="l1">Dic o dic patria, cui domino mage</l>
+            <l n="l2">Optasti eximio vivere sub iugo?</l>
+            <l n="l3">Non sic Romuleo nomine septimons</l>
+            <l n="l4">Plebes Romana</l>
+            <l n="l5">Digne superbiat modo.</l>
           </lg>
-          <pb n="2"/>
-          <lg type="stanza">
-            <l>Non Spartana suis, Graecia non suis,</l>
-            <l>Non digne Priamo gaudeat Ilion,</l>
-            <l>Nec Thebe Hercule, nec Persia nobilis</l>
-            <l>Legislatore,</l>
-            <l>Se nulla praeferat tibi;</l>
+          <pb n="pb6"/>
+          <lg n="lg7" type="stanza">
+            <l n="l1">Non Spartana suis, Graecia non suis,</l>
+            <l n="l2">Non digne Priamo gaudeat Ilion,</l>
+            <l n="l3">Nec Thebe Hercule, nec Persia nobilis</l>
+            <l n="l4">Legislatore,</l>
+            <l n="l5">Se nulla praeferat tibi;</l>
           </lg>
-          <lg type="stanza">
-            <l>Cui MADRUTIA reddit Domus arbitra</l>
-            <l>Sub miti imperio iura, sibi et suis</l>
-            <l>Vel solo hoc similis: credite posteri,</l>
-            <l>Se virtus laudat</l>
-            <l>Legata norma posteris.</l>
+          <lg n="lg8" type="stanza">
+            <l n="l1">Cui MADRUTIA reddit Domus arbitra</l>
+            <l n="l2">Sub miti imperio iura, sibi et suis</l>
+            <l n="l3">Vel solo hoc similis: credite posteri,</l>
+            <l n="l4">Se virtus laudat</l>
+            <l n="l5">Legata norma posteris.</l>
           </lg>
-          <lg type="stanza">
-            <l>Hanc qui Nile caput contegis, Ister hanc,</l>
-            <l>Et Tigris rapidus suspicitis domum:</l>
-            <l>Hanc ipse Oceanus dissitus, ultimo,</l>
-            <l>Exornamentum</l>
-            <l>Europae inaudit Hespero.</l>
+          <lg n="lg9" type="stanza">
+            <l n="l1">Hanc qui Nile caput contegis, Ister hanc,</l>
+            <l n="l2">Et Tigris rapidus suspicitis domum:</l>
+            <l n="l3">Hanc ipse Oceanus dissitus, ultimo,</l>
+            <l n="l4">Exornamentum</l>
+            <l n="l5">Europae inaudit Hespero.</l>
           </lg>
-          <lg type="stanza">
-            <l>Huis venit meritis gloria quaelibet</l>
-            <l>Par nunquam: titulus insuper inclitus,</l>
-            <l>Subiectorum animis addere fortius</l>
-            <l>Ad mores calcar,</l>
-            <l>Ad recta, ad aequa pergere.</l>
+          <lg n="lg10" type="stanza">
+            <l n="l1">Huis venit meritis gloria quaelibet</l>
+            <l n="l2">Par nunquam: titulus insuper inclitus,</l>
+            <l n="l3">Subiectorum animis addere fortius</l>
+            <l n="l4">Ad mores calcar,</l>
+            <l n="l5">Ad recta, ad aequa pergere.</l>
           </lg>
-          <lg type="stanza">
-            <l>Ut possint placidis lumina condere</l>
-            <l>In somnis alii, sic vigilabitur</l>
-            <l>Tanto a Principe. Non vixeris ancium</l>
-            <l>Rerum Tridentum,</l>
-            <l>Est qui pericla submovet.</l>
+          <lg n="lg11" type="stanza">
+            <l n="l1">Ut possint placidis lumina condere</l>
+            <l n="l2">In somnis alii, sic vigilabitur</l>
+            <l n="l3">Tanto a Principe. Non vixeris ancium</l>
+            <l n="l4">Rerum Tridentum,</l>
+            <l n="l5">Est qui pericla submovet.</l>
           </lg>
-          <pb n="3"/>
-          <lg type="stanza">
-            <l>Erranti iniiciet frena licentiae,</l>
-            <l>Artes ut veteres inuehat, a quibus</l>
-            <l>Augetur decus, et crescit honor suo</l>
-            <l>Porrectus cursu</l>
-            <l>Qua nascitur caditque sol.</l>
+          <pb n="pb12"/>
+          <lg n="lg13" type="stanza">
+            <l n="l1">Erranti iniiciet frena licentiae,</l>
+            <l n="l2">Artes ut veteres inuehat, a quibus</l>
+            <l n="l3">Augetur decus, et crescit honor suo</l>
+            <l n="l4">Porrectus cursu</l>
+            <l n="l5">Qua nascitur caditque sol.</l>
           </lg>
-          <lg type="stanza">
-            <l>Virtus his animo crescit, et amplior</l>
-            <l>Ad summum decus extenditur his via,</l>
-            <l>Formavere rudes protinus insciam</l>
-            <l>His anni mentem,</l>
-            <l>Grassatur his ad gloriam.</l>
+          <lg n="lg14" type="stanza">
+            <l n="l1">Virtus his animo crescit, et amplior</l>
+            <l n="l2">Ad summum decus extenditur his via,</l>
+            <l n="l3">Formavere rudes protinus insciam</l>
+            <l n="l4">His anni mentem,</l>
+            <l n="l5">Grassatur his ad gloriam.</l>
           </lg>
-          <lg type="stanza">
-            <l>Quis nunc egregio sub domino timens</l>
-            <l>Credit fervitium? Fallitur: alterum</l>
-            <l>Non est praesidium tutius aprius</l>
-            <l>Nostro, cui praesto</l>
-            <l>Iustus piusque CAROLUS.</l>
+          <lg n="lg15" type="stanza">
+            <l n="l1">Quis nunc egregio sub domino timens</l>
+            <l n="l2">Credit fervitium? Fallitur: alterum</l>
+            <l n="l3">Non est praesidium tutius aprius</l>
+            <l n="l4">Nostro, cui praesto</l>
+            <l n="l5">Iustus piusque CAROLUS.</l>
           </lg>
-          <lg type="stanza">
-            <l>Quo custode, furor civicus, exterus</l>
-            <l>Nullis temporibus conteret otium,</l>
-            <l>Nec quae sic gladios ira acuit truces,</l>
-            <l>Urbes ut cive,</l>
-            <l>Civesque privet urbibus.</l>
+          <lg n="lg16" type="stanza">
+            <l n="l1">Quo custode, furor civicus, exterus</l>
+            <l n="l2">Nullis temporibus conteret otium,</l>
+            <l n="l3">Nec quae sic gladios ira acuit truces,</l>
+            <l n="l4">Urbes ut cive,</l>
+            <l n="l5">Civesque privet urbibus.</l>
           </lg>
-          <lg type="stanza">
-            <l>Hospes Thrax etiamsi foret, aut novo</l>
-            <l>Ex orbe adveniens Cantaber, annuet</l>
-            <l>Laudatum Patriae promerito patris</l>
-            <l>Nomen; dicetque:</l>
-            <l>Sic civitas beata fit.</l>
+          <lg n="lg17" type="stanza">
+            <l n="l1">Hospes Thrax etiamsi foret, aut novo</l>
+            <l n="l2">Ex orbe adveniens Cantaber, annuet</l>
+            <l n="l3">Laudatum Patriae promerito patris</l>
+            <l n="l4">Nomen; dicetque:</l>
+            <l n="l5">Sic civitas beata fit.</l>
           </lg>
-          <pb n="4"/>
-          <lg type="stanza">
-            <l>Quorsum Musa? Tuo non opus his sono</l>
-            <l>Quae sunt clara suo: laudibus abstine.</l>
-            <l>Queis per digna labor facta mererier</l>
-            <l>Laudes, cur curent</l>
-            <l>Audire laudis omnia?</l>
+          <pb n="pb18"/>
+          <lg n="lg19" type="stanza">
+            <l n="l1">Quorsum Musa? Tuo non opus his sono</l>
+            <l n="l2">Quae sunt clara suo: laudibus abstine.</l>
+            <l n="l3">Queis per digna labor facta mererier</l>
+            <l n="l4">Laudes, cur curent</l>
+            <l n="l5">Audire laudis omnia?</l>
           </lg>
-          <lg type="stanza">
-            <l>Ergo dum propriis fontibus invicem</l>
-            <l>Distabunt Athesis, Cydnus, et Albula,</l>
-            <l>Vivat MADRUTIO sanguine nobilis</l>
-            <l>Aeternum aeternum</l>
-            <l>Orbi precemur ut Domus.</l>
+          <lg n="lg20" type="stanza">
+            <l n="l1">Ergo dum propriis fontibus invicem</l>
+            <l n="l2">Distabunt Athesis, Cydnus, et Albula,</l>
+            <l n="l3">Vivat MADRUTIO sanguine nobilis</l>
+            <l n="l4">Aeternum aeternum</l>
+            <l n="l5">Orbi precemur ut Domus.</l>
           </lg>
         </lg>
       </div>
-      <div>
-        <head>Tradita illustrissimo et reverendissimo domino domino Carolo Madrutio Episcopatus
+      <div n="div3">
+        <head n="head1">Tradita illustrissimo et reverendissimo domino domino Carolo Madrutio Episcopatus
                 insignia</head>
-        <lg>
-          <l>In pennas allapsa suas cur Fama sereno</l>
-          <l>Aethere devehitur? Fallor, an ipsa Dea est?</l>
-          <l>Laeta Tridentinus per compita fertur ovanti</l>
-          <l>Nereus adsimilis: stat sine nube polus.</l>
-          <l n="5">Insolito micat orbe dies nitidissima: quid si</l>
-          <l>Prisca novis revebat saecula Phoebus equis?</l>
-          <l>Ah revehet, non ille quidem qui temperat annum,</l>
-          <l>Sed qui sacra novo nomine frena regit.</l>
-          <l>Ecce manu Mitram praetedens Fama, superni</l>
-          <l n="10">Doni tibi Mitram, sic tulit orsa, Iovis.</l>
-          <pb n="5"/>
-          <l>O quonda-<emph>M AD RUTI</emph>-lum trino diademate peplum</l>
-          <l>Quem genus, et pietas, quem tua fata vocant:</l>
-          <l>Accipe nunc certo maioribus omine nomen</l>
-          <l>Fascibus auspicium, dignior ipse datis:</l>
-          <l n="15">Post meriti venient fasces. Tanto incipe, pondus</l>
-          <l>Assuetis humeris ne grave Mundus eat.</l>
-          <l>Intonuit faustum Deus his, votoque frequenti</l>
-          <l>Emeritae imposita est Insula sacra comae.</l>
-          <l>Aeternos sperare potes tibi frontis honores;</l>
-          <l n="20">Si tibi quae data sunt, sunt data teste Deo.</l>
+        <lg n="lg2">
+          <l n="l1">In pennas allapsa suas cur Fama sereno</l>
+          <l n="l2">Aethere devehitur? Fallor, an ipsa Dea est?</l>
+          <l n="l3">Laeta Tridentinus per compita fertur ovanti</l>
+          <l n="l4">Nereus adsimilis: stat sine nube polus.</l>
+          <l n="l5">Insolito micat orbe dies nitidissima: quid si</l>
+          <l n="l6">Prisca novis revebat saecula Phoebus equis?</l>
+          <l n="l7">Ah revehet, non ille quidem qui temperat annum,</l>
+          <l n="l8">Sed qui sacra novo nomine frena regit.</l>
+          <l n="l9">Ecce manu Mitram praetedens Fama, superni</l>
+          <l n="l10">Doni tibi Mitram, sic tulit orsa, Iovis.</l>
+          <pb n="pb11"/>
+          <l n="l12">O quonda-<emph n="emph1">M AD RUTI</emph>-lum trino diademate peplum</l>
+          <l n="l13">Quem genus, et pietas, quem tua fata vocant:</l>
+          <l n="l14">Accipe nunc certo maioribus omine nomen</l>
+          <l n="l15">Fascibus auspicium, dignior ipse datis:</l>
+          <l n="l16">Post meriti venient fasces. Tanto incipe, pondus</l>
+          <l n="l17">Assuetis humeris ne grave Mundus eat.</l>
+          <l n="l18">Intonuit faustum Deus his, votoque frequenti</l>
+          <l n="l19">Emeritae imposita est Insula sacra comae.</l>
+          <l n="l20">Aeternos sperare potes tibi frontis honores;</l>
+          <l n="l21">Si tibi quae data sunt, sunt data teste Deo.</l>
         </lg>
       </div>
-      <div>
-        <head>Idem illustrissimus et reverendissimus CAROLUS EPISCOPUS</head>
-        <head>Per anagramma.</head>
-        <head>SIC POPULO CARUS ES</head>
-        <lg>
-          <l>Iam lugent inhorora suum decus arva pruinis</l>
-          <l>Iam nemus albescit, iam iuga cana rigent.</l>
-          <l>Nec nemoris luctum, nec supputat arva Tridentum</l>
-          <l>Veris dissimiles explicuisse comas.</l>
-          <l n="5">Vere novo gaudens petit undique et undique; festos</l>
-          <l>Quo celebres sacro signet honore dies.</l>
-          <pb n="6"/>
-          <l>Sed quid Io? Cessit ne alii sua iura Bootes</l>
-          <l>Hinc ne Tridentini gaudia tanta fori?</l>
-          <l>Tempora nimirum te Praeside dura recedunt,</l>
-          <l n="10">Carole,<emph>SIC POPULO CARUS ES</emph>, ille tibi.</l>
+      <div n="div4">
+        <head n="head1">Idem illustrissimus et reverendissimus CAROLUS EPISCOPUS</head>
+        <head n="head2">Per anagramma.</head>
+        <head n="head3">SIC POPULO CARUS ES</head>
+        <lg n="lg4">
+          <l n="l1">Iam lugent inhorora suum decus arva pruinis</l>
+          <l n="l2">Iam nemus albescit, iam iuga cana rigent.</l>
+          <l n="l3">Nec nemoris luctum, nec supputat arva Tridentum</l>
+          <l n="l4">Veris dissimiles explicuisse comas.</l>
+          <l n="l5">Vere novo gaudens petit undique et undique; festos</l>
+          <l n="l6">Quo celebres sacro signet honore dies.</l>
+          <pb n="pb7"/>
+          <l n="l8">Sed quid Io? Cessit ne alii sua iura Bootes</l>
+          <l n="l9">Hinc ne Tridentini gaudia tanta fori?</l>
+          <l n="l10">Tempora nimirum te Praeside dura recedunt,</l>
+          <l n="l11">Carole,<emph n="emph1">SIC POPULO CARUS ES</emph>, ille tibi.</l>
         </lg>
       </div>
-      <div>
-        <head>Anni praelagium.
+      <div n="div5">
+        <head n="head1">Anni praelagium.
             Quo illustrissimus et reverendissimus Carolus Madrucius 
             Episcopus est renunciandus.
             Ex nomine per Cabalisticos numeros deductum.</head>
-        <p>304. 387 417 110</p>
-        <p>
-          <persName>Carolus Madrucius</persName>Episcopus fiet.</p>
-        <p>101 3 161 143</p>
-        <p>Anno ab nato Domino.</p>
-        <p>
-          <date>M. DC. XXVI.</date>
+        <p n="p2">304. 387 417 110</p>
+        <p n="p3">
+          <persName n="persName1">Carolus Madrucius</persName>Episcopus fiet.</p>
+        <p n="p4">101 3 161 143</p>
+        <p n="p5">Anno ab nato Domino.</p>
+        <p n="p6">
+          <date n="date1">M. DC. XXVI.</date>
         </p>
-        <p>304</p>
-        <p>387</p>
-        <p>417</p>
-        <p>110</p>
-        <p>101</p>
-        <p>3</p>
-        <p>161</p>
-        <p>143</p>
-        <p>1626</p>
+        <p n="p7">304</p>
+        <p n="p8">387</p>
+        <p n="p9">417</p>
+        <p n="p10">110</p>
+        <p n="p11">101</p>
+        <p n="p12">3</p>
+        <p n="p13">161</p>
+        <p n="p14">143</p>
+        <p n="p15">1626</p>
       </div>
     </body>
   </text>

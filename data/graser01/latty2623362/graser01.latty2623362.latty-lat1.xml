@@ -26,6 +26,22 @@
         <bibl>Walser, Isabella (Hg.): Im theresianischen Zeitalter der Vernunft. Giovanni Battista Graser: De prestantia logicae (Tirolensia Latina 8), Innsbruck 2013</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1756" precision="high" period="17xx_2_third">1756</date>
@@ -48,552 +64,552 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:graser01.latty2623362.latty-lat1:">
-    <body>
-      <div>
-        <head>Ad Mariam Theresiam, Romanorum Imperatricem, Hungariae
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">Ad Mariam Theresiam, Romanorum Imperatricem, Hungariae
                         ac Bohemiae Reginam etc. etc. etc., Litterarum Patronam
                     Clementissimam De praestantia Logicae Carmen</head>
-        <l>Quo mutis homines praestent animantibus et qua</l>
-        <l>mentibus aethereis similes in carcere caeco</l>
-        <l>confieri possint, arte et ratione canamus.</l>
-        <l>Tu mihi, Musa, modos dulces, tu verba ministra,</l>
-        <l n="5">munera summa Dei dignis ut laudibus ornem.</l>
-        <l>Tuque ades et nostris, o Clementissima, coeptis</l>
-        <l>adspira, Austriadum genus alto a sanguine regum,</l>
-        <l>Theresia, atque aurem patiens intende canenti!</l>
-        <l>Nam cui sit potius sacrum hoc quodcumque libelli,</l>
-        <l n="10">quam Tibi, cui debet, quod nunc rediviva resurgit</l>
-        <l>aetas Graiorum doctas exculta per artes?</l>
-        <l>Per Te nunc priscae agnoscit vestigia formae</l>
-        <l>terra suae et gaudens se hominum natura revisit.</l>
-        <l>Per Te iam redeunt nunc aurea saecula mundo:</l>
-        <l n="15">Cana Fides Pietasque Pudorque et Pacis amica</l>
-        <l>Iustitia in pulchro coniunctae foedere regnant.</l>
-        <l>Scilicet illius sunt Artis germina, quae, seu</l>
-        <l>caelitus immissa, assiduo seu parta labore,</l>
-        <l>Te regit ac tenebras nigrae et caliginis umbras</l>
-        <l n="20">discutiens mentem caelesti lumine complet.</l>
-        <note>1–2 cf. Verg. georg. 1, 1–5 || 6–8 cf. Verg. Aen. 9, 525; Verg. georg. 1, 40; Ov.
+        <l n="l2">Quo mutis homines praestent animantibus et qua</l>
+        <l n="l3">mentibus aethereis similes in carcere caeco</l>
+        <l n="l4">confieri possint, arte et ratione canamus.</l>
+        <l n="l5">Tu mihi, Musa, modos dulces, tu verba ministra,</l>
+        <l n="l6">munera summa Dei dignis ut laudibus ornem.</l>
+        <l n="l7">Tuque ades et nostris, o Clementissima, coeptis</l>
+        <l n="l8">adspira, Austriadum genus alto a sanguine regum,</l>
+        <l n="l9">Theresia, atque aurem patiens intende canenti!</l>
+        <l n="l10">Nam cui sit potius sacrum hoc quodcumque libelli,</l>
+        <l n="l11">quam Tibi, cui debet, quod nunc rediviva resurgit</l>
+        <l n="l12">aetas Graiorum doctas exculta per artes?</l>
+        <l n="l13">Per Te nunc priscae agnoscit vestigia formae</l>
+        <l n="l14">terra suae et gaudens se hominum natura revisit.</l>
+        <l n="l15">Per Te iam redeunt nunc aurea saecula mundo:</l>
+        <l n="l16">Cana Fides Pietasque Pudorque et Pacis amica</l>
+        <l n="l17">Iustitia in pulchro coniunctae foedere regnant.</l>
+        <l n="l18">Scilicet illius sunt Artis germina, quae, seu</l>
+        <l n="l19">caelitus immissa, assiduo seu parta labore,</l>
+        <l n="l20">Te regit ac tenebras nigrae et caliginis umbras</l>
+        <l n="l21">discutiens mentem caelesti lumine complet.</l>
+        <note n="note22">1–2 cf. Verg. georg. 1, 1–5 || 6–8 cf. Verg. Aen. 9, 525; Verg. georg. 1, 40; Ov.
                     met. 1, 2–3 || 7 cf. Prop. 3, 9, 1 || 14 cf. Verg. ecl. 4, 6 || 19–20 cf. Lucr.
                     4, 312–317; Verg. georg. 3, 357</note>
-        <note>8 Theresia] Theresa AI || 13 et gaudens se hominum] atque hominum se se AI</note>
-        <pb/>
-        <l>Principio rerum Genitor quum ducere in auras</l>
-        <l>exemplum vellet mundi, quem mente gerebat,</l>
-        <l>principium quoddam posuit, quo clauderet uno</l>
-        <l>quove uno exirent cunctarum exordia rerum.</l>
-        <l n="25">Inde mare ac terrae, inde ignis ventique volucres</l>
-        <l>prodierunt nubesque leves atque aurea caeli</l>
-        <l>sidera, tum stirpes plantaeque ac saecla ferarum.</l>
-        <l>Tum plerisque harum rerum – mirabile prorsus</l>
-        <l>divinae virtutis opus, licet inscia turba</l>
-        <l n="30">non admiretur iam dudum adsueta videndo! –</l>
-        <l>semina virtutemque dedit, qua crescere parvo</l>
-        <l>de numero immensum posset genus omne creatum.</l>
-        <l>Namque unum farris granum committere sulco</l>
-        <l>si incipias, centum pariet, quae singula centum</l>
-        <l n="35">terrae iterum mandata dabunt; ita pergito porro,</l>
-        <l>septima quum caelo volvente rediverit aestas,</l>
-        <l>quantum oculus longe ac late prospectat apertam</l>
-        <l>planitiem, flavis vestitam cernet aristis!</l>
-        <l>Et vento curvata seges velut unda resurget</l>
-        <l n="40">subsidetque iterum pelagusque imitabitur altum.</l>
-        <l>Non illam centum messores caedere falce</l>
-        <l>iam valeant curva; disrumpent horrea messes!</l>
-        <l>Singula quid memorem, foecunda ut quaeque propagent</l>
-        <l>aetatem numerumque suum Naturaque gaudens</l>
-        <l n="45">sit mirata sua se iam tum prole parentem?</l>
-        <l>Sed quoniam soli sibi noluit esse beatus</l>
-        <l>aeternus rerum Sator atque hanc ducere molem</l>
-        <note>24 cf. Lucr. 2, 333; 2, 1062; 3, 31; 4, 45; 4, 114; 5,430 || 25–26 cf. Ov. met.
+        <note n="note23">8 Theresia] Theresa AI || 13 et gaudens se hominum] atque hominum se se AI</note>
+        <pb n="pb24"/>
+        <l n="l25">Principio rerum Genitor quum ducere in auras</l>
+        <l n="l26">exemplum vellet mundi, quem mente gerebat,</l>
+        <l n="l27">principium quoddam posuit, quo clauderet uno</l>
+        <l n="l28">quove uno exirent cunctarum exordia rerum.</l>
+        <l n="l29">Inde mare ac terrae, inde ignis ventique volucres</l>
+        <l n="l30">prodierunt nubesque leves atque aurea caeli</l>
+        <l n="l31">sidera, tum stirpes plantaeque ac saecla ferarum.</l>
+        <l n="l32">Tum plerisque harum rerum – mirabile prorsus</l>
+        <l n="l33">divinae virtutis opus, licet inscia turba</l>
+        <l n="l34">non admiretur iam dudum adsueta videndo! –</l>
+        <l n="l35">semina virtutemque dedit, qua crescere parvo</l>
+        <l n="l36">de numero immensum posset genus omne creatum.</l>
+        <l n="l37">Namque unum farris granum committere sulco</l>
+        <l n="l38">si incipias, centum pariet, quae singula centum</l>
+        <l n="l39">terrae iterum mandata dabunt; ita pergito porro,</l>
+        <l n="l40">septima quum caelo volvente rediverit aestas,</l>
+        <l n="l41">quantum oculus longe ac late prospectat apertam</l>
+        <l n="l42">planitiem, flavis vestitam cernet aristis!</l>
+        <l n="l43">Et vento curvata seges velut unda resurget</l>
+        <l n="l44">subsidetque iterum pelagusque imitabitur altum.</l>
+        <l n="l45">Non illam centum messores caedere falce</l>
+        <l n="l46">iam valeant curva; disrumpent horrea messes!</l>
+        <l n="l47">Singula quid memorem, foecunda ut quaeque propagent</l>
+        <l n="l48">aetatem numerumque suum Naturaque gaudens</l>
+        <l n="l49">sit mirata sua se iam tum prole parentem?</l>
+        <l n="l50">Sed quoniam soli sibi noluit esse beatus</l>
+        <l n="l51">aeternus rerum Sator atque hanc ducere molem</l>
+        <note n="note52">24 cf. Lucr. 2, 333; 2, 1062; 3, 31; 4, 45; 4, 114; 5,430 || 25–26 cf. Ov. met.
                     1, 72–75 || 27 cf. Lucr. 2, 995 || 35 cf. Verg. Aen. 6, 116; 9, 312; Ov. met. 9,
                     680; Ov. Pont. 3, 2, 91; Ov. trist. 3, 3, 43; Prop. 4, 7, 71; Plaut. Amph. 803;
                     Plaut Asin. 472; Plaut. Cist. 754; Plaut. Mil. 386; Plaut. Most. 63; 545; 963;
                     Plaut. Stich. 544; Plaut. Trin. 162; 777; Ter. Haut. 345; Ter. Phorm. 937 || 42
                     cf. Verg. georg. 1, 49</note>
-        <note>26 prodierunt] exierunt AI || 44 aetatem] progeniem AI</note>
-        <pb/>
-        <l>de caecis nihili latebris tenebrisque profundis</l>
-        <l>nil ipsum iuvit – namque omnia viderat ante –,</l>
-        <l n="50">nobilius molitus opus mentesque creavit,</l>
-        <l>quas partim caelo invectas omnique solutas</l>
-        <l>pondere corporeo caelestia templa tueri</l>
-        <l>iussit et aeterno mirantes lumine pasci;</l>
-        <l>partim corporibus, mira quae condidit arte,</l>
-        <l n="55">inclusit dominasque dedit, quae foedere certo</l>
-        <l>sensibus utentes famulis fidisque ministris</l>
-        <l>iusto hos imperio regerent vitaque beata</l>
-        <l>omni tentarent arte ac ratione potiri.</l>
-        <l>Neve foret vanus labor atque incerta cupido</l>
-        <l n="60">huc illuc propriis errans a finibus exul</l>
-        <l>delusa ingemeret cursum se tendere frustra,</l>
-        <l>certam proposuit metam, verique bonique</l>
-        <l>nosse dedit pulchras species, quibus indita porro est</l>
-        <l>dulcis, quae mentem alliceret raperetque, voluptas.</l>
-        <l n="65">Et quoniam sibi semper amat natura videri</l>
-        <l>omnibus in rebus similis diversaque quum sint</l>
-        <l>omnia, consimili procedunt ordine, quantum</l>
-        <l>cuique decet, pulchrum quoniam consistit in uno:</l>
-        <l>Non secus ac terrae sunt indita semina quondam</l>
-        <l n="70">primigena, unde seges floresque et gramina surgunt,</l>
-        <l>et data fertilitas, nova semper ut inde propago</l>
-        <l>germinet et parvis ingens exsurgat acervus,</l>
-        <l>sic data foecunda est homini mens aptaque foetus</l>
-        <l>ferre novos atque innumeros ex semine pauco:</l>
-        <l n="75">Namque simul non posse duo contraria vero</l>
-        <note>50 cf. Ov. met. 1, 77–78 || 52 cf. Lucr. 6, 1228 || 55 cf. Verg. Aen. 1, 62 ||
+        <note n="note53">26 prodierunt] exierunt AI || 44 aetatem] progeniem AI</note>
+        <pb n="pb54"/>
+        <l n="l55">de caecis nihili latebris tenebrisque profundis</l>
+        <l n="l56">nil ipsum iuvit – namque omnia viderat ante –,</l>
+        <l n="l57">nobilius molitus opus mentesque creavit,</l>
+        <l n="l58">quas partim caelo invectas omnique solutas</l>
+        <l n="l59">pondere corporeo caelestia templa tueri</l>
+        <l n="l60">iussit et aeterno mirantes lumine pasci;</l>
+        <l n="l61">partim corporibus, mira quae condidit arte,</l>
+        <l n="l62">inclusit dominasque dedit, quae foedere certo</l>
+        <l n="l63">sensibus utentes famulis fidisque ministris</l>
+        <l n="l64">iusto hos imperio regerent vitaque beata</l>
+        <l n="l65">omni tentarent arte ac ratione potiri.</l>
+        <l n="l66">Neve foret vanus labor atque incerta cupido</l>
+        <l n="l67">huc illuc propriis errans a finibus exul</l>
+        <l n="l68">delusa ingemeret cursum se tendere frustra,</l>
+        <l n="l69">certam proposuit metam, verique bonique</l>
+        <l n="l70">nosse dedit pulchras species, quibus indita porro est</l>
+        <l n="l71">dulcis, quae mentem alliceret raperetque, voluptas.</l>
+        <l n="l72">Et quoniam sibi semper amat natura videri</l>
+        <l n="l73">omnibus in rebus similis diversaque quum sint</l>
+        <l n="l74">omnia, consimili procedunt ordine, quantum</l>
+        <l n="l75">cuique decet, pulchrum quoniam consistit in uno:</l>
+        <l n="l76">Non secus ac terrae sunt indita semina quondam</l>
+        <l n="l77">primigena, unde seges floresque et gramina surgunt,</l>
+        <l n="l78">et data fertilitas, nova semper ut inde propago</l>
+        <l n="l79">germinet et parvis ingens exsurgat acervus,</l>
+        <l n="l80">sic data foecunda est homini mens aptaque foetus</l>
+        <l n="l81">ferre novos atque innumeros ex semine pauco:</l>
+        <l n="l82">Namque simul non posse duo contraria vero</l>
+        <note n="note83">50 cf. Ov. met. 1, 77–78 || 52 cf. Lucr. 6, 1228 || 55 cf. Verg. Aen. 1, 62 ||
                     71–72 cf. Boeth. cons. 3 pr 11, 23</note>
-        <note>55 inclusit] coniunxit AI</note>
-        <pb/>
-        <l>componi, summa quod vi sibi iuncta vicissim</l>
-        <l>dissiliant semper iungique adversa repugnent,</l>
-        <l>aut duo si quadrent uni coniuncta seorsim</l>
-        <l>vel paria aut eadem fiant, paria aut eadem esse</l>
-        <l n="80">ipsa sibi pariterque inter se iuncta quadrare,</l>
-        <l>aut totum quodvis mensura ac pondere partes</l>
-        <l>divisim superare suas, quibus omnibus aequum est,</l>
-        <l>aut nihili vires nullas exsistere et omnia</l>
-        <l>esse prius quam quidquid agant, ni tempore, certe</l>
-        <l n="85">ordine naturae, aut aequas si adiunxeris aequis</l>
-        <l>partes, confieri composta aequalia tota,</l>
-        <l>de paribus paribus rationibus esse loquendum,</l>
-        <l>opposita oppositis contraria gignere rursum,</l>
-        <l>haec, inquam, aut certe his non multo plura, feraci</l>
-        <l n="90">foecundaeque hominum menti sive indita ab ortu</l>
-        <l>sive animo sint per sensus immissa fideles</l>
-        <l>semina, quam largam dent multiplicata colonis</l>
-        <l>messem et quae rursum surgant nova germina ab illa</l>
-        <l>surgere vel possint olim labentibus annis,</l>
-        <l n="95">non alius norit quam cuius mente reposta</l>
-        <l>omnia sunt atque inde fluunt, cui nempe futurum</l>
-        <l>praeteritumque nihil. Nec linguae si mihi centum</l>
-        <l>oraque sint centum, minimam descripsero partem!</l>
-        <l>His nam principiis vires causaeque latentes</l>
-        <l n="100">rerum quaesitae haud frustra naturaque nostros</l>
-        <l>obtutus fugitans clara est in luce locata.</l>
-        <l>Legibus hinc quibus eveniant in corpore quovis</l>
-        <l>succedantque aliis alii quove ordine motus,</l>
-        <l>qui sit cunctarum interitus genituraque rerum,</l>
-        <note>101 cf. Lucr. 5, 12</note>
-        <note>93 rursum] AIII<hi rend="superscript">2</hi>: rursus AI AII AIII || 98
+        <note n="note84">55 inclusit] coniunxit AI</note>
+        <pb n="pb85"/>
+        <l n="l86">componi, summa quod vi sibi iuncta vicissim</l>
+        <l n="l87">dissiliant semper iungique adversa repugnent,</l>
+        <l n="l88">aut duo si quadrent uni coniuncta seorsim</l>
+        <l n="l89">vel paria aut eadem fiant, paria aut eadem esse</l>
+        <l n="l90">ipsa sibi pariterque inter se iuncta quadrare,</l>
+        <l n="l91">aut totum quodvis mensura ac pondere partes</l>
+        <l n="l92">divisim superare suas, quibus omnibus aequum est,</l>
+        <l n="l93">aut nihili vires nullas exsistere et omnia</l>
+        <l n="l94">esse prius quam quidquid agant, ni tempore, certe</l>
+        <l n="l95">ordine naturae, aut aequas si adiunxeris aequis</l>
+        <l n="l96">partes, confieri composta aequalia tota,</l>
+        <l n="l97">de paribus paribus rationibus esse loquendum,</l>
+        <l n="l98">opposita oppositis contraria gignere rursum,</l>
+        <l n="l99">haec, inquam, aut certe his non multo plura, feraci</l>
+        <l n="l100">foecundaeque hominum menti sive indita ab ortu</l>
+        <l n="l101">sive animo sint per sensus immissa fideles</l>
+        <l n="l102">semina, quam largam dent multiplicata colonis</l>
+        <l n="l103">messem et quae rursum surgant nova germina ab illa</l>
+        <l n="l104">surgere vel possint olim labentibus annis,</l>
+        <l n="l105">non alius norit quam cuius mente reposta</l>
+        <l n="l106">omnia sunt atque inde fluunt, cui nempe futurum</l>
+        <l n="l107">praeteritumque nihil. Nec linguae si mihi centum</l>
+        <l n="l108">oraque sint centum, minimam descripsero partem!</l>
+        <l n="l109">His nam principiis vires causaeque latentes</l>
+        <l n="l110">rerum quaesitae haud frustra naturaque nostros</l>
+        <l n="l111">obtutus fugitans clara est in luce locata.</l>
+        <l n="l112">Legibus hinc quibus eveniant in corpore quovis</l>
+        <l n="l113">succedantque aliis alii quove ordine motus,</l>
+        <l n="l114">qui sit cunctarum interitus genituraque rerum,</l>
+        <note n="note115">101 cf. Lucr. 5, 12</note>
+        <note n="note116">93 rursum] AIII<hi n="hi1" rend="superscript">2</hi>: rursus AI AII AIII || 98
                     descripsero] Tibi dixero AI</note>
-        <pb/>
-        <l n="105">nosse datum et quisnam his insit pulcherrimus ordo.</l>
-        <l>Motibus his rursus quaenam sint apta iuvandis,</l>
-        <l>quaenam perturbent cursumque inimica retardent,</l>
-        <l>his venata est indiciis industria sollers.</l>
-        <l>E paribusque pares cernens procedere causis</l>
-        <l n="110">effectus artem reperit methodumque medendi.</l>
-        <l>Quin nullo loca trita pede inque accessa volucri</l>
-        <l>remigio non alarum, ceu Daedalus olim,</l>
-        <l>sed mente adscendit volucri fidensque pererrat</l>
-        <l>a lapsu securus homo (mirabile dictu)</l>
-        <l n="115">ingrediturque solo et caput inter sidera condit.</l>
-        <l>Indeque concilio velut ac statione Deorum</l>
-        <l>delapsus certa ostendit ratione docetque,</l>
-        <l>quam longo a terra atque inter sese astra recedant</l>
-        <l>convexi caeli spatio, quot millia currant</l>
-        <l n="120">solis equi rapidi, teneat quem Cynthia cursum,</l>
-        <l>quem tristes Hyades, gelidi Septemque triones.</l>
-        <l>Hinc a tam pulchra structura atque ordine rerum,</l>
-        <l>vocibus unde velut variis symphonia surgit,</l>
-        <l>quum sapienter agi, nisi sit sapientia, constet</l>
-        <l n="125">nil posse aut ratione regi, quin certa priorque</l>
-        <l>exsistat ratio, mentem novere supremam</l>
-        <l>mortales gratique animo statuere colendam.</l>
-        <l>Praeterea quod mens, mentem quum cogitat ipsam,</l>
-        <l>extensum solidumque nihil sibi fingit et omni</l>
-        <l n="130">absque colore, sono, positu, gravitate, figura</l>
-        <l>se tamen ipsa videt, sine quis neque corpora fingi</l>
-        <note>112 cf. Verg. Aen. 1, 301 || 114 cf. Verg. Aen. 1, 439; 2, 174; 4, 178; 7, 64; 8,
+        <pb n="pb117"/>
+        <l n="l118">nosse datum et quisnam his insit pulcherrimus ordo.</l>
+        <l n="l119">Motibus his rursus quaenam sint apta iuvandis,</l>
+        <l n="l120">quaenam perturbent cursumque inimica retardent,</l>
+        <l n="l121">his venata est indiciis industria sollers.</l>
+        <l n="l122">E paribusque pares cernens procedere causis</l>
+        <l n="l123">effectus artem reperit methodumque medendi.</l>
+        <l n="l124">Quin nullo loca trita pede inque accessa volucri</l>
+        <l n="l125">remigio non alarum, ceu Daedalus olim,</l>
+        <l n="l126">sed mente adscendit volucri fidensque pererrat</l>
+        <l n="l127">a lapsu securus homo (mirabile dictu)</l>
+        <l n="l128">ingrediturque solo et caput inter sidera condit.</l>
+        <l n="l129">Indeque concilio velut ac statione Deorum</l>
+        <l n="l130">delapsus certa ostendit ratione docetque,</l>
+        <l n="l131">quam longo a terra atque inter sese astra recedant</l>
+        <l n="l132">convexi caeli spatio, quot millia currant</l>
+        <l n="l133">solis equi rapidi, teneat quem Cynthia cursum,</l>
+        <l n="l134">quem tristes Hyades, gelidi Septemque triones.</l>
+        <l n="l135">Hinc a tam pulchra structura atque ordine rerum,</l>
+        <l n="l136">vocibus unde velut variis symphonia surgit,</l>
+        <l n="l137">quum sapienter agi, nisi sit sapientia, constet</l>
+        <l n="l138">nil posse aut ratione regi, quin certa priorque</l>
+        <l n="l139">exsistat ratio, mentem novere supremam</l>
+        <l n="l140">mortales gratique animo statuere colendam.</l>
+        <l n="l141">Praeterea quod mens, mentem quum cogitat ipsam,</l>
+        <l n="l142">extensum solidumque nihil sibi fingit et omni</l>
+        <l n="l143">absque colore, sono, positu, gravitate, figura</l>
+        <l n="l144">se tamen ipsa videt, sine quis neque corpora fingi</l>
+        <note n="note145">112 cf. Verg. Aen. 1, 301 || 114 cf. Verg. Aen. 1, 439; 2, 174; 4, 178; 7, 64; 8,
                     251; Verg. georg. 2, 30; 3, 271 || 115 cf. Verg. Aen. 4, 177; 10, 767 || 119–120
                     cf. Verg. georg. 1, 250 || 130 cf. Plat. Phaidr. 247c</note>
-        <note>122 hinc] inde AI || 129 solidumque] solidumve AII</note>
-        <pb/>
-        <l>ulla quidem possunt, se partibus esse carentem</l>
-        <l>omnino, ut corpus non possit dicier unquam,</l>
-        <l>percipit et certo affirmat testante perenni</l>
-        <l n="135">illius assidue, qui permeat intima, sensu,</l>
-        <l>nec mora: vix hoc concepit, foecunda propagat</l>
-        <l>et foetus exinde novos progignere pergit.</l>
-        <l>Namque ubi se in partes nunquam dissolvier ullas</l>
-        <l>posse capit, nullum sibi colligit esse timendum</l>
-        <l n="140">interitum, quoniam dispersis disque sipatis</l>
-        <l>partibus interitus (mortem quem dicimus) omnis</l>
-        <l>corporis eveniat, iunctis quibus ante vigebat.</l>
-        <l>Quapropter quae res caret omni parte, necesse est,</l>
-        <l>causae si maneat virtus eademque voluntas,</l>
-        <l n="145">aeternum duret nulloque solubilis aevo.</l>
-        <l>Iam vero quae progenies exinde novarum</l>
-        <l>exsurgat rerum quamve haec nova germina rursus</l>
-        <l>multiplicata ferant sobolem, quid persequar ultra?</l>
-        <l>Quo pacto, postquam ratione atque ordine mundum</l>
-        <l n="150">stare videt certo numerisque ac lege moveri,</l>
-        <l>quaeve plagas caeli superas fulgentibus ornant</l>
-        <l>luminibus quaeve in gremio telluris et alto</l>
-        <l>aequore nascuntur, se partem totius esse</l>
-        <l>quum videt orbis homo, reliquas quae praestet honore,</l>
-        <l n="155">se quoque comprensum divina hac lege teneri</l>
-        <l>sentit et assidua rationis voce monetur,</l>
-        <l>indignum reputans, quae pars supereminet omnes</l>
-        <l>nobilitate sua mundique sit ornamentum,</l>
-        <l>turpiter a proprio deflectere fine rebellem</l>
-        <l n="160">harmonicumque sonum in rebus turbare creatis.</l>
-        <l>Nam velut in cithara, quae cantu ac voce sonora</l>
-        <note>147 rursus] rursum AI</note>
-        <pb/>
-        <l>prae reliquis, magis offendit, si dissona chorda est.</l>
-        <l>Hinc igitur iuris manant elementa priora,</l>
-        <l>hinc petitur constans aequi mensura bonique,</l>
-        <l n="165">quo ratio foecunda parens fit semine legum.</l>
-        <l>Neque etenim utilitas est iusti mater et aequi,</l>
-        <l>quippe cui nimis affinis sit caeca cupido,</l>
-        <l>cui ratio obsistit tam saepe altumque reclamat.</l>
-        <l>Atque utinam sola imperium regnumque teneret</l>
-        <l n="170">in nobis ratio, victis domitisque tyrannis,</l>
-        <l>omnia qui turbant, affectibus, ordine rupto</l>
-        <l>et nati parere iubent regnantque superbi!</l>
-        <l>Tunc nec opus patrum natumque incidere ligno</l>
-        <l>officia aut quae sint civi tribuenda vel hosti;</l>
-        <l n="175">non opus immensis leges de fine regundo</l>
-        <l>scribere codicibus vel quae praestare tenello</l>
-        <l>curator debet pupillo uxorve marito;</l>
-        <l>non quisquam voce elata praeconis egeret</l>
-        <l>propositave palam tabula peccare vetante;</l>
-        <l n="180">nec Te, cui mentem finxit natura benignam</l>
-        <l>clementemque adeo, Regina, ut grata voluptas</l>
-        <l>sit Tibi nulla magis quam praemia reddere dignis,</l>
-        <l>iustitia invitam distringere cogeret ensem,</l>
-        <l>intentare minas, poenisque affligere sontes,</l>
-        <l n="185">sola sed imperium Tecum clementia dulcis</l>
-        <l>divideret, Tibi quam divi ingenuere parentes.</l>
-        <l>Non tamen humani sola haec erroris origo</l>
-        <l>nec soli affectus rationis semina et inde</l>
-        <l>enatam segetem suffocant, sed velut arva</l>
-        <l n="190">nunc subito exsurgens magno stridore procella</l>
-        <l>verberat et fruges ingenti grandine tundit</l>
-        <note>166–167 cf. Lucr. 3, 59–64 || 173 cf. Hor. ars 396–399 || 179 cf. Hor. epist. 2,
+        <note n="note146">122 hinc] inde AI || 129 solidumque] solidumve AII</note>
+        <pb n="pb147"/>
+        <l n="l148">ulla quidem possunt, se partibus esse carentem</l>
+        <l n="l149">omnino, ut corpus non possit dicier unquam,</l>
+        <l n="l150">percipit et certo affirmat testante perenni</l>
+        <l n="l151">illius assidue, qui permeat intima, sensu,</l>
+        <l n="l152">nec mora: vix hoc concepit, foecunda propagat</l>
+        <l n="l153">et foetus exinde novos progignere pergit.</l>
+        <l n="l154">Namque ubi se in partes nunquam dissolvier ullas</l>
+        <l n="l155">posse capit, nullum sibi colligit esse timendum</l>
+        <l n="l156">interitum, quoniam dispersis disque sipatis</l>
+        <l n="l157">partibus interitus (mortem quem dicimus) omnis</l>
+        <l n="l158">corporis eveniat, iunctis quibus ante vigebat.</l>
+        <l n="l159">Quapropter quae res caret omni parte, necesse est,</l>
+        <l n="l160">causae si maneat virtus eademque voluntas,</l>
+        <l n="l161">aeternum duret nulloque solubilis aevo.</l>
+        <l n="l162">Iam vero quae progenies exinde novarum</l>
+        <l n="l163">exsurgat rerum quamve haec nova germina rursus</l>
+        <l n="l164">multiplicata ferant sobolem, quid persequar ultra?</l>
+        <l n="l165">Quo pacto, postquam ratione atque ordine mundum</l>
+        <l n="l166">stare videt certo numerisque ac lege moveri,</l>
+        <l n="l167">quaeve plagas caeli superas fulgentibus ornant</l>
+        <l n="l168">luminibus quaeve in gremio telluris et alto</l>
+        <l n="l169">aequore nascuntur, se partem totius esse</l>
+        <l n="l170">quum videt orbis homo, reliquas quae praestet honore,</l>
+        <l n="l171">se quoque comprensum divina hac lege teneri</l>
+        <l n="l172">sentit et assidua rationis voce monetur,</l>
+        <l n="l173">indignum reputans, quae pars supereminet omnes</l>
+        <l n="l174">nobilitate sua mundique sit ornamentum,</l>
+        <l n="l175">turpiter a proprio deflectere fine rebellem</l>
+        <l n="l176">harmonicumque sonum in rebus turbare creatis.</l>
+        <l n="l177">Nam velut in cithara, quae cantu ac voce sonora</l>
+        <note n="note178">147 rursus] rursum AI</note>
+        <pb n="pb179"/>
+        <l n="l180">prae reliquis, magis offendit, si dissona chorda est.</l>
+        <l n="l181">Hinc igitur iuris manant elementa priora,</l>
+        <l n="l182">hinc petitur constans aequi mensura bonique,</l>
+        <l n="l183">quo ratio foecunda parens fit semine legum.</l>
+        <l n="l184">Neque etenim utilitas est iusti mater et aequi,</l>
+        <l n="l185">quippe cui nimis affinis sit caeca cupido,</l>
+        <l n="l186">cui ratio obsistit tam saepe altumque reclamat.</l>
+        <l n="l187">Atque utinam sola imperium regnumque teneret</l>
+        <l n="l188">in nobis ratio, victis domitisque tyrannis,</l>
+        <l n="l189">omnia qui turbant, affectibus, ordine rupto</l>
+        <l n="l190">et nati parere iubent regnantque superbi!</l>
+        <l n="l191">Tunc nec opus patrum natumque incidere ligno</l>
+        <l n="l192">officia aut quae sint civi tribuenda vel hosti;</l>
+        <l n="l193">non opus immensis leges de fine regundo</l>
+        <l n="l194">scribere codicibus vel quae praestare tenello</l>
+        <l n="l195">curator debet pupillo uxorve marito;</l>
+        <l n="l196">non quisquam voce elata praeconis egeret</l>
+        <l n="l197">propositave palam tabula peccare vetante;</l>
+        <l n="l198">nec Te, cui mentem finxit natura benignam</l>
+        <l n="l199">clementemque adeo, Regina, ut grata voluptas</l>
+        <l n="l200">sit Tibi nulla magis quam praemia reddere dignis,</l>
+        <l n="l201">iustitia invitam distringere cogeret ensem,</l>
+        <l n="l202">intentare minas, poenisque affligere sontes,</l>
+        <l n="l203">sola sed imperium Tecum clementia dulcis</l>
+        <l n="l204">divideret, Tibi quam divi ingenuere parentes.</l>
+        <l n="l205">Non tamen humani sola haec erroris origo</l>
+        <l n="l206">nec soli affectus rationis semina et inde</l>
+        <l n="l207">enatam segetem suffocant, sed velut arva</l>
+        <l n="l208">nunc subito exsurgens magno stridore procella</l>
+        <l n="l209">verberat et fruges ingenti grandine tundit</l>
+        <note n="note210">166–167 cf. Lucr. 3, 59–64 || 173 cf. Hor. ars 396–399 || 179 cf. Hor. epist. 2,
                     1, 23</note>
-        <note>176 vel] aut AI || 180 finxit] AIII<hi rend="superscript">2</hi>: tribuit AII
+        <note n="note211">176 vel] aut AI || 180 finxit] AIII<hi n="hi1" rend="superscript">2</hi>: tribuit AII
                     AIII</note>
-        <pb/>
-        <l>aut, praeceps toto quum perstrepit aethere nimbus</l>
-        <l>nec guttae pluviaeque cadunt, sed stagna lacusque,</l>
-        <l>fit rapidus torrens, qui ingentia saxa revolvens</l>
-        <l n="195">momento agricolae everrit deletque labores,</l>
-        <l>nunc contra (quamvis faveant imbresque calorque),</l>
-        <l>saepe tamen vitio ignavi ignarique coloni</l>
-        <l>semina nil reddunt tellusque videtur avara,</l>
-        <l>oppressis nam seminibus pro frugibus aureis</l>
-        <l n="200">infelix lolium et steriles dominantur avenae</l>
-        <l>(nimirum quia luxurians vel vomere tellus</l>
-        <l>non alte effossa est satis, ut radicibus imis</l>
-        <l>omnia vellantur prorsum mala gramina, vel quod</l>
-        <l>saepe latent falluntque oculos in semine mixta,</l>
-        <l n="205">quae removenda prius fuerant cernendaque cribro),</l>
-        <l>sic modo percutitur mens tempestate coorta,</l>
-        <l>surgunt nam caeci affectus velut agmine facto</l>
-        <l>atque ferunt rapidi secum verruntque per auras,</l>
-        <l>quoscumque enixa est non parvo tempore fructus,</l>
-        <l n="210">at modo (quae nostra est plerumque incuria socors,</l>
-        <l>saepe tamen quoque doctoris vel culpa vel error)</l>
-        <l>falsis principiis imbuta prioribus annis.</l>
-        <l>Si sit vel paucis, heu quantam surgere cernas</l>
-        <l>errorum silvam, tribulos sentesque rubosque!</l>
-        <l n="215">Qui quoniam citius crescunt melioribus herbis,</l>
-        <l>omnia vix non suffocant bona consita grana</l>
-        <l>aut adeo superant numero, ut secernere falsis</l>
-        <l>iam nequeas, purum quod possis dicere verum.</l>
-        <l>Ac veluti non tam late nocet impete saeva</l>
-        <l n="220">tempestas, ut quae non omnia verberat arva</l>
-        <note>190–195 cf. Verg. georg. 1, 316–334 || 200 cf. Verg. ecl. 5, 37; Verg. georg. 1,
+        <pb n="pb212"/>
+        <l n="l213">aut, praeceps toto quum perstrepit aethere nimbus</l>
+        <l n="l214">nec guttae pluviaeque cadunt, sed stagna lacusque,</l>
+        <l n="l215">fit rapidus torrens, qui ingentia saxa revolvens</l>
+        <l n="l216">momento agricolae everrit deletque labores,</l>
+        <l n="l217">nunc contra (quamvis faveant imbresque calorque),</l>
+        <l n="l218">saepe tamen vitio ignavi ignarique coloni</l>
+        <l n="l219">semina nil reddunt tellusque videtur avara,</l>
+        <l n="l220">oppressis nam seminibus pro frugibus aureis</l>
+        <l n="l221">infelix lolium et steriles dominantur avenae</l>
+        <l n="l222">(nimirum quia luxurians vel vomere tellus</l>
+        <l n="l223">non alte effossa est satis, ut radicibus imis</l>
+        <l n="l224">omnia vellantur prorsum mala gramina, vel quod</l>
+        <l n="l225">saepe latent falluntque oculos in semine mixta,</l>
+        <l n="l226">quae removenda prius fuerant cernendaque cribro),</l>
+        <l n="l227">sic modo percutitur mens tempestate coorta,</l>
+        <l n="l228">surgunt nam caeci affectus velut agmine facto</l>
+        <l n="l229">atque ferunt rapidi secum verruntque per auras,</l>
+        <l n="l230">quoscumque enixa est non parvo tempore fructus,</l>
+        <l n="l231">at modo (quae nostra est plerumque incuria socors,</l>
+        <l n="l232">saepe tamen quoque doctoris vel culpa vel error)</l>
+        <l n="l233">falsis principiis imbuta prioribus annis.</l>
+        <l n="l234">Si sit vel paucis, heu quantam surgere cernas</l>
+        <l n="l235">errorum silvam, tribulos sentesque rubosque!</l>
+        <l n="l236">Qui quoniam citius crescunt melioribus herbis,</l>
+        <l n="l237">omnia vix non suffocant bona consita grana</l>
+        <l n="l238">aut adeo superant numero, ut secernere falsis</l>
+        <l n="l239">iam nequeas, purum quod possis dicere verum.</l>
+        <l n="l240">Ac veluti non tam late nocet impete saeva</l>
+        <l n="l241">tempestas, ut quae non omnia verberat arva</l>
+        <note n="note242">190–195 cf. Verg. georg. 1, 316–334 || 200 cf. Verg. ecl. 5, 37; Verg. georg. 1,
                     154; Lucr. 6, 196 || 202</note>
-        <note>cf. Verg. georg. 1, 319 || 204 cf. Manil. 1, 873 || 207 cf. Verg. Aen. 1, 82 ||
+        <note n="note243">cf. Verg. georg. 1, 319 || 204 cf. Manil. 1, 873 || 207 cf. Verg. Aen. 1, 82 ||
                     208 cf. Verg. Aen. 1, 59</note>
-        <note>197 ignavi ignarique] ignari ignavique AI hic v. omissus est in AIII, sed ins.
+        <note n="note244">197 ignavi ignarique] ignari ignavique AI hic v. omissus est in AIII, sed ins.
                     Graserius inter l. || 203 prorsum] prorsus AI || 216 consita] germina AI exp.
                     Graserius et suprascr. Consita</note>
-        <pb/>
-        <l>nec regionis opes omnes populatur et aufert,</l>
-        <l>sed modo Damoetae, Mopsi modo laedit agellum,</l>
-        <l>quam mala cultura agricolum, qua pinguia rura</l>
-        <l>nil praeter vicias reddunt tristesque lupinos,</l>
-        <l n="225">ex quo dira fames pagos consumit et urbem,</l>
-        <l>sic etiam non mentis opes tam sternere late</l>
-        <l>ira solet vel lascivi furiosa procella</l>
-        <l>ardoris nummive fames, nam singula quemque</l>
-        <l>tentant nec semper feriunt, quodcumque minantur.</l>
-        <l n="230">At vero incultae nulloque labore subactae</l>
-        <l>si mentes iaceant, rationis semina prima</l>
-        <l>occupat aerugo infelix: Inscitia passim,</l>
-        <l>Error, Stultitia ac Vitium dominantur in urbe.</l>
-        <l>Exsulat aequarum mater Sapientia legum</l>
-        <l n="235">Et pulchrae virtutis Amor laudisque Cupido,</l>
-        <l>Artes unde bonae nascuntur et inclita facta.</l>
-        <l>Omnia stultorum Dea tunc Fortuna gubernat</l>
-        <l>aut insana Superstitio vanique Timores</l>
-        <l>aut irae indomitus Furor et vesana Libido.</l>
-        <l n="240">Sic quos aethereis Deus olim condidit aptos</l>
-        <l>spiritibus fieri similes, quorum ordine pulchro</l>
-        <l>harmonice tellus celso respondet Olympo,</l>
-        <l>exstincta penitus rationis lampade caeco</l>
-        <l>impete praecipites per devia quaeque feruntur,</l>
-        <l n="245">non animo solum miseri, sed corpora cunctis</l>
-        <l>indefensa exponentes et inulta periclis,</l>
-        <l>pulchrior ut multo sit mos ac vita ferarum.</l>
-        <l>Tantum mentis habet sollers cultura bonorum,</l>
-        <l>tantum inculta mali res optima gignit alitque.</l>
-        <note>224 cf. Verg. georg. 1, 75 || 233 cf. Verg. Aen. 2, 327</note>
-        <pb/>
-        <l n="250">Ergo divino qui nacti munere mentem</l>
-        <l>prae reliquis nitidam et pulchrae virtutis amicam,</l>
-        <l>incultas hominum mentes sterilesque miserti</l>
-        <l>nullo se melius consultum civibus ire</l>
-        <l>pacto posse rati quam de ratione colenda</l>
-        <l n="255">si praecepta darent cunctis artemque docerent.</l>
-        <l>Hanc patrio Graii Logicen sermone vocarunt,</l>
-        <l>nam logos est illis ipsum, quod sermo Latinis:</l>
-        <l>Non quod praeceptis linguam formare loquendi</l>
-        <l>cura sit illius, sed quod nil ducit in actum</l>
-        <l n="260">sanus homo, nil incoeptat, nil ore profatur,</l>
-        <l>ni quaedam secum sit mente animoque loquutus.</l>
-        <l>Quare, si liceat magnis componere parva</l>
-        <l>(quidni autem liceat, divinae mentis imago</l>
-        <l>quum sit homo, ut natus forma est specimenque parentis?):</l>
-        <l n="265">ut summus rerum Genitor quidquid facit extra,</l>
-        <l>mente gerit verboque creat, foecunda quod ante</l>
-        <l>omne aevum parit immensae vis intima mentis,</l>
-        <l>sic homines ita compositi sunt conque parati,</l>
-        <l>ut summae speciem referant Deitatis et actus</l>
-        <l n="270">quilibet humanus per verbum mente retentum</l>
-        <l>exeat et taciti quaedam sit dictio verbi.</l>
-        <l>Cuncta ut si quis agat secum nihil ante loquutus,</l>
-        <l>iure neges hominem et quamvis sublime ferentem</l>
-        <l>ad caelum os videas, quamvis vox atque loquela</l>
-        <l n="275">blanda hominem sonet, hunc recta amandare rudentes</l>
-        <l>auritos inter sit ius et pascere faeno,</l>
-        <l>aut velut ursus sit vinclis caveaque domandus.</l>
-        <l>Sed quia vix quidquam distat seu prava loquatur</l>
-        <note>250–255 cf. Lucr. 2, 14; 3, 14–15 || 271 cf. Plat. Tht. 189e; Plat. soph. 263e ||
+        <pb n="pb245"/>
+        <l n="l246">nec regionis opes omnes populatur et aufert,</l>
+        <l n="l247">sed modo Damoetae, Mopsi modo laedit agellum,</l>
+        <l n="l248">quam mala cultura agricolum, qua pinguia rura</l>
+        <l n="l249">nil praeter vicias reddunt tristesque lupinos,</l>
+        <l n="l250">ex quo dira fames pagos consumit et urbem,</l>
+        <l n="l251">sic etiam non mentis opes tam sternere late</l>
+        <l n="l252">ira solet vel lascivi furiosa procella</l>
+        <l n="l253">ardoris nummive fames, nam singula quemque</l>
+        <l n="l254">tentant nec semper feriunt, quodcumque minantur.</l>
+        <l n="l255">At vero incultae nulloque labore subactae</l>
+        <l n="l256">si mentes iaceant, rationis semina prima</l>
+        <l n="l257">occupat aerugo infelix: Inscitia passim,</l>
+        <l n="l258">Error, Stultitia ac Vitium dominantur in urbe.</l>
+        <l n="l259">Exsulat aequarum mater Sapientia legum</l>
+        <l n="l260">Et pulchrae virtutis Amor laudisque Cupido,</l>
+        <l n="l261">Artes unde bonae nascuntur et inclita facta.</l>
+        <l n="l262">Omnia stultorum Dea tunc Fortuna gubernat</l>
+        <l n="l263">aut insana Superstitio vanique Timores</l>
+        <l n="l264">aut irae indomitus Furor et vesana Libido.</l>
+        <l n="l265">Sic quos aethereis Deus olim condidit aptos</l>
+        <l n="l266">spiritibus fieri similes, quorum ordine pulchro</l>
+        <l n="l267">harmonice tellus celso respondet Olympo,</l>
+        <l n="l268">exstincta penitus rationis lampade caeco</l>
+        <l n="l269">impete praecipites per devia quaeque feruntur,</l>
+        <l n="l270">non animo solum miseri, sed corpora cunctis</l>
+        <l n="l271">indefensa exponentes et inulta periclis,</l>
+        <l n="l272">pulchrior ut multo sit mos ac vita ferarum.</l>
+        <l n="l273">Tantum mentis habet sollers cultura bonorum,</l>
+        <l n="l274">tantum inculta mali res optima gignit alitque.</l>
+        <note n="note275">224 cf. Verg. georg. 1, 75 || 233 cf. Verg. Aen. 2, 327</note>
+        <pb n="pb276"/>
+        <l n="l277">Ergo divino qui nacti munere mentem</l>
+        <l n="l278">prae reliquis nitidam et pulchrae virtutis amicam,</l>
+        <l n="l279">incultas hominum mentes sterilesque miserti</l>
+        <l n="l280">nullo se melius consultum civibus ire</l>
+        <l n="l281">pacto posse rati quam de ratione colenda</l>
+        <l n="l282">si praecepta darent cunctis artemque docerent.</l>
+        <l n="l283">Hanc patrio Graii Logicen sermone vocarunt,</l>
+        <l n="l284">nam logos est illis ipsum, quod sermo Latinis:</l>
+        <l n="l285">Non quod praeceptis linguam formare loquendi</l>
+        <l n="l286">cura sit illius, sed quod nil ducit in actum</l>
+        <l n="l287">sanus homo, nil incoeptat, nil ore profatur,</l>
+        <l n="l288">ni quaedam secum sit mente animoque loquutus.</l>
+        <l n="l289">Quare, si liceat magnis componere parva</l>
+        <l n="l290">(quidni autem liceat, divinae mentis imago</l>
+        <l n="l291">quum sit homo, ut natus forma est specimenque parentis?):</l>
+        <l n="l292">ut summus rerum Genitor quidquid facit extra,</l>
+        <l n="l293">mente gerit verboque creat, foecunda quod ante</l>
+        <l n="l294">omne aevum parit immensae vis intima mentis,</l>
+        <l n="l295">sic homines ita compositi sunt conque parati,</l>
+        <l n="l296">ut summae speciem referant Deitatis et actus</l>
+        <l n="l297">quilibet humanus per verbum mente retentum</l>
+        <l n="l298">exeat et taciti quaedam sit dictio verbi.</l>
+        <l n="l299">Cuncta ut si quis agat secum nihil ante loquutus,</l>
+        <l n="l300">iure neges hominem et quamvis sublime ferentem</l>
+        <l n="l301">ad caelum os videas, quamvis vox atque loquela</l>
+        <l n="l302">blanda hominem sonet, hunc recta amandare rudentes</l>
+        <l n="l303">auritos inter sit ius et pascere faeno,</l>
+        <l n="l304">aut velut ursus sit vinclis caveaque domandus.</l>
+        <l n="l305">Sed quia vix quidquam distat seu prava loquatur</l>
+        <note n="note306">250–255 cf. Lucr. 2, 14; 3, 14–15 || 271 cf. Plat. Tht. 189e; Plat. soph. 263e ||
                     273–274 cf. Ov. met. 1,</note>
-        <note>85–86</note>
-        <note>257 nam] AIII<hi rend="superscript">2</hi>: quippe AII AIII || est illis ipsum]
-                        AIII<hi rend="superscript">2</hi>: illis hoc est AII AIII || 262 quare] ac
+        <note n="note307">85–86</note>
+        <note n="note308">257 nam] AIII<hi n="hi1" rend="superscript">2</hi>: quippe AII AIII || est illis ipsum]
+                        AIII<hi n="hi2" rend="superscript">2</hi>: illis hoc est AII AIII || 262 quare] ac
                     mihi AI</note>
-        <pb/>
-        <l>seu nihil, erroris quoniam partitur ubique</l>
-        <l n="280">in plures calles via, quae patet unica veri,</l>
-        <l>idcirco ratio inventa est ac norma fidelis,</l>
-        <l>qua neque mens falsum neque quid loqueretur iniustum.</l>
-        <l>Nunc mihi, nunc memora clarorum, Musa, virorum</l>
-        <l>nomina longaevo servari digna cupresso,</l>
-        <l n="285">quin et marmoreis tabulis auroque notanda,</l>
-        <l>qui primi occultas animi caecasque latebras</l>
-        <l>ingressi loca caeca oculisque impervia prorsus</l>
-        <l>abditaque a nostris obtutibus intima acute</l>
-        <l>perspexere hominum atque oculos patefacta sub ipsos</l>
-        <l n="290">traxerunt, quae sunt veri, quae semina falsi,</l>
-        <l>unde bona exsistit ratio, vel gignitur error,</l>
-        <l>quo vellenda modo sint haec, quove illa fovenda,</l>
-        <l>ut quondam possint in plures crescere fructus.</l>
-        <l>Prima tulit Logices claros Elea parentes,</l>
-        <l n="295">prisca ut scripta ferunt, Zenonem Democritumque:</l>
-        <l>Quorum hic sollerter vestigia Pythagorea</l>
-        <l>ingressus, quantum geometrica praebeat usum</l>
-        <l>singula monstrandi ratio tentavit; at ille</l>
-        <l>cuncta, probabilibus quae sint rationibus apta,</l>
-        <l n="300">disseri in utramvis partem quaesivit acutus,</l>
-        <l>unde ars invenit iam tum Dialectica nomen.</l>
-        <l>Artis principia haec tamen imperfecta fuere,</l>
-        <l>perficit ut natura nihil conamine primo.</l>
-        <l>Quam nisi posterior purgasset cura sophorum,</l>
-        <l n="305">degener in vitium cecidisset, pessima namque</l>
-        <note>283 cf. Hom. Od. 1, 1; Verg. Aen. 1, 8 || 284 cf. Hor. ars 330–332</note>
-        <note>286 caecasque] obscurasque AI || 292 quove] quoque AI || 298 tentavit] monstravit
+        <pb n="pb309"/>
+        <l n="l310">seu nihil, erroris quoniam partitur ubique</l>
+        <l n="l311">in plures calles via, quae patet unica veri,</l>
+        <l n="l312">idcirco ratio inventa est ac norma fidelis,</l>
+        <l n="l313">qua neque mens falsum neque quid loqueretur iniustum.</l>
+        <l n="l314">Nunc mihi, nunc memora clarorum, Musa, virorum</l>
+        <l n="l315">nomina longaevo servari digna cupresso,</l>
+        <l n="l316">quin et marmoreis tabulis auroque notanda,</l>
+        <l n="l317">qui primi occultas animi caecasque latebras</l>
+        <l n="l318">ingressi loca caeca oculisque impervia prorsus</l>
+        <l n="l319">abditaque a nostris obtutibus intima acute</l>
+        <l n="l320">perspexere hominum atque oculos patefacta sub ipsos</l>
+        <l n="l321">traxerunt, quae sunt veri, quae semina falsi,</l>
+        <l n="l322">unde bona exsistit ratio, vel gignitur error,</l>
+        <l n="l323">quo vellenda modo sint haec, quove illa fovenda,</l>
+        <l n="l324">ut quondam possint in plures crescere fructus.</l>
+        <l n="l325">Prima tulit Logices claros Elea parentes,</l>
+        <l n="l326">prisca ut scripta ferunt, Zenonem Democritumque:</l>
+        <l n="l327">Quorum hic sollerter vestigia Pythagorea</l>
+        <l n="l328">ingressus, quantum geometrica praebeat usum</l>
+        <l n="l329">singula monstrandi ratio tentavit; at ille</l>
+        <l n="l330">cuncta, probabilibus quae sint rationibus apta,</l>
+        <l n="l331">disseri in utramvis partem quaesivit acutus,</l>
+        <l n="l332">unde ars invenit iam tum Dialectica nomen.</l>
+        <l n="l333">Artis principia haec tamen imperfecta fuere,</l>
+        <l n="l334">perficit ut natura nihil conamine primo.</l>
+        <l n="l335">Quam nisi posterior purgasset cura sophorum,</l>
+        <l n="l336">degener in vitium cecidisset, pessima namque</l>
+        <note n="note337">283 cf. Hom. Od. 1, 1; Verg. Aen. 1, 8 || 284 cf. Hor. ars 330–332</note>
+        <note n="note338">286 caecasque] obscurasque AI || 292 quove] quoque AI || 298 tentavit] monstravit
                     AI</note>
-        <l>orta sophistarum soboles, genus Harpyarum,</l>
-        <l>immundo ore dapes puras foedabat et ungue.</l>
-        <l>Socratis hic vero eluxit celebrata facultas,</l>
-        <l>ingenii comitem cui se prudentia iunxit</l>
-        <l n="310">pacatusque animus lenti patiensque laboris.</l>
-        <l>Emuncta nam nare senex permulta rogando</l>
-        <l>ignarum simulans sensim capiebat ineptos</l>
-        <l>vano conantes posthac evadere nisu,</l>
-        <l>crinibus ut quondam suspensum piscis equinis</l>
-        <l n="315">ore capit manditque vorax improvidus hamum,</l>
-        <l>quem simul ac sentit, frustra demittere ab ore</l>
-        <l>nititur aut undis rapto se mergere filo.</l>
-        <l>Hunc piscator enim delassat arundine curva,</l>
-        <l>quae molli cedit flexu sequiturque trahentem,</l>
-        <l n="320">ut nullo sese possit dissolvere pacto.</l>
-        <l>Exit enim, gyros describit, terga revolvit,</l>
-        <l>volvitur in caput et cauda diverberat undas,</l>
-        <l>sed lassus tandem in siccam raptatur arenam.</l>
-        <l>Socratis excipiunt finem divina Platonis</l>
-        <l n="325">scripta satis nunquam laudanda satisque legenda,</l>
-        <l>fama quibus merito parta est aeterna magistro.</l>
-        <l>His voces definire et dubitare modeste</l>
-        <l>sollemne ante fuit quam certum dicere quidquam.</l>
-        <l>Quidque sagax exploratrix Inductio veri</l>
-        <l n="330">viribus invictis possit, docuere minores.</l>
-        <l>Post hos iudicio nulli ingenioque secundus</l>
-        <l>scripsit Aristoteles iustamque redegit in artem</l>
-        <l>singula quae dederant sparsim praecepta priores.</l>
-        <note>307 cf. Verg. Aen. 3, 227–228; 3, 234 || 311 cf. Phaedr. 3, 3, 14 || 322 cf.
+        <l n="l339">orta sophistarum soboles, genus Harpyarum,</l>
+        <l n="l340">immundo ore dapes puras foedabat et ungue.</l>
+        <l n="l341">Socratis hic vero eluxit celebrata facultas,</l>
+        <l n="l342">ingenii comitem cui se prudentia iunxit</l>
+        <l n="l343">pacatusque animus lenti patiensque laboris.</l>
+        <l n="l344">Emuncta nam nare senex permulta rogando</l>
+        <l n="l345">ignarum simulans sensim capiebat ineptos</l>
+        <l n="l346">vano conantes posthac evadere nisu,</l>
+        <l n="l347">crinibus ut quondam suspensum piscis equinis</l>
+        <l n="l348">ore capit manditque vorax improvidus hamum,</l>
+        <l n="l349">quem simul ac sentit, frustra demittere ab ore</l>
+        <l n="l350">nititur aut undis rapto se mergere filo.</l>
+        <l n="l351">Hunc piscator enim delassat arundine curva,</l>
+        <l n="l352">quae molli cedit flexu sequiturque trahentem,</l>
+        <l n="l353">ut nullo sese possit dissolvere pacto.</l>
+        <l n="l354">Exit enim, gyros describit, terga revolvit,</l>
+        <l n="l355">volvitur in caput et cauda diverberat undas,</l>
+        <l n="l356">sed lassus tandem in siccam raptatur arenam.</l>
+        <l n="l357">Socratis excipiunt finem divina Platonis</l>
+        <l n="l358">scripta satis nunquam laudanda satisque legenda,</l>
+        <l n="l359">fama quibus merito parta est aeterna magistro.</l>
+        <l n="l360">His voces definire et dubitare modeste</l>
+        <l n="l361">sollemne ante fuit quam certum dicere quidquam.</l>
+        <l n="l362">Quidque sagax exploratrix Inductio veri</l>
+        <l n="l363">viribus invictis possit, docuere minores.</l>
+        <l n="l364">Post hos iudicio nulli ingenioque secundus</l>
+        <l n="l365">scripsit Aristoteles iustamque redegit in artem</l>
+        <l n="l366">singula quae dederant sparsim praecepta priores.</l>
+        <note n="note367">307 cf. Verg. Aen. 3, 227–228; 3, 234 || 311 cf. Phaedr. 3, 3, 14 || 322 cf.
                     Lucr. 2, 152</note>
-        <note>329 quidque] R : quidve mss.</note>
-        <l>Cuius ni libros temerassent barbara saecla,</l>
-        <l n="335">si capiendo pares habuisset semper alumnos</l>
-        <l>nec quidam illius decoratas nomine nugas</l>
-        <l>vendere pro dictis eius sapientibus olim</l>
-        <l>consuessent, iam tot mala non audiret ab annis</l>
-        <l>vir, cuius digne immensum sit dicere laudes.</l>
-        <l n="340">Nec sua Zenoni laus deficit atque Chrysippo,</l>
-        <l>Stoica quos iactat doctores secta severa.</l>
-        <l>Quae tamen interdum gravitati non bene servit,</l>
-        <l>ipsa suae, quum pro solidis exilia quaerit.</l>
-        <l>Definit tamen accurate ac dividit, ex quo</l>
-        <l n="354">ducta per extentum currit conclusio filum.</l>
-        <l>Nunc age, iam laudum locus est, Epicure, tuarum:</l>
-        <l>Cui tua si Logices praesto praecepta fuissent</l>
-        <l>semper nec nimium tribuisses sensibus et quae</l>
-        <l>mente capi debent, oculo non iudice et aure</l>
-        <l n="350">dignosci aut tactu velles, non verba dedisset</l>
-        <l>saepe sagax natura tibi neque te foret alter</l>
-        <l>aut prior aut melior. Tu nam discernere verba</l>
-        <l>a rebus nosti vanasque recidere lites;</l>
-        <l>tu, quaenam sint in sensus ditione locata,</l>
-        <l n="355">quaeve affectus iudicio, quae subdita menti,</l>
-        <l>nosse iubes illum, cui turpe sit, et grave falli.</l>
-        <l>Quisquis enim de re profert ex nomine solo</l>
-        <l>iudicium, solido cum corpore comparat umbram</l>
-        <l>sensibus et qui inconsultis rationis acumen</l>
-        <l n="360">solum ad materiam noscendaque corpora confert,</l>
-        <note>346 cf. Lucr. 1, 265; 1, 921; 1, 953; 2, 62; 2, 333; 2, 730; 3, 417; 4, 110; 4,
+        <note n="note368">329 quidque] R : quidve mss.</note>
+        <l n="l369">Cuius ni libros temerassent barbara saecla,</l>
+        <l n="l370">si capiendo pares habuisset semper alumnos</l>
+        <l n="l371">nec quidam illius decoratas nomine nugas</l>
+        <l n="l372">vendere pro dictis eius sapientibus olim</l>
+        <l n="l373">consuessent, iam tot mala non audiret ab annis</l>
+        <l n="l374">vir, cuius digne immensum sit dicere laudes.</l>
+        <l n="l375">Nec sua Zenoni laus deficit atque Chrysippo,</l>
+        <l n="l376">Stoica quos iactat doctores secta severa.</l>
+        <l n="l377">Quae tamen interdum gravitati non bene servit,</l>
+        <l n="l378">ipsa suae, quum pro solidis exilia quaerit.</l>
+        <l n="l379">Definit tamen accurate ac dividit, ex quo</l>
+        <l n="l380">ducta per extentum currit conclusio filum.</l>
+        <l n="l381">Nunc age, iam laudum locus est, Epicure, tuarum:</l>
+        <l n="l382">Cui tua si Logices praesto praecepta fuissent</l>
+        <l n="l383">semper nec nimium tribuisses sensibus et quae</l>
+        <l n="l384">mente capi debent, oculo non iudice et aure</l>
+        <l n="l385">dignosci aut tactu velles, non verba dedisset</l>
+        <l n="l386">saepe sagax natura tibi neque te foret alter</l>
+        <l n="l387">aut prior aut melior. Tu nam discernere verba</l>
+        <l n="l388">a rebus nosti vanasque recidere lites;</l>
+        <l n="l389">tu, quaenam sint in sensus ditione locata,</l>
+        <l n="l390">quaeve affectus iudicio, quae subdita menti,</l>
+        <l n="l391">nosse iubes illum, cui turpe sit, et grave falli.</l>
+        <l n="l392">Quisquis enim de re profert ex nomine solo</l>
+        <l n="l393">iudicium, solido cum corpore comparat umbram</l>
+        <l n="l394">sensibus et qui inconsultis rationis acumen</l>
+        <l n="l395">solum ad materiam noscendaque corpora confert,</l>
+        <note n="note396">346 cf. Lucr. 1, 265; 1, 921; 1, 953; 2, 62; 2, 333; 2, 730; 3, 417; 4, 110; 4,
                     176; 4, 269; 4, 673; 4, 722;</note>
-        <note>6, 495; 6, 535; 6, 738 || 348–350 cf. Lucr. 4, 384–385</note>
-        <note>338 mala] AI AII : male AIII<hi rend="superscript"/>|| 340 ab hoc v.
-                    deficit AI usque ad v. 346 || 342 servit] AIII<hi rend="superscript">2</hi>:
+        <note n="note397">6, 495; 6, 535; 6, 738 || 348–350 cf. Lucr. 4, 384–385</note>
+        <note n="note398">338 mala] AI AII : male AIII<hi n="hi1" rend="superscript"/>|| 340 ab hoc v.
+                    deficit AI usque ad v. 346 || 342 servit] AIII<hi n="hi2" rend="superscript">2</hi>:
                     constat AII AIII</note>
-        <pb/>
-        <l>iudice vel solo sensu vult noscere mentis</l>
-        <l>naturam, audire ille oculis cupit, aure videre.</l>
-        <l>Iam quis dinumeret, digno quis carmine claros</l>
-        <l>scripserit egregiosque viros, quibus horrida cessit</l>
-        <l n="365">barbaries tandem, cunctas quae invaserat oras,</l>
-        <l>quique vel a tenebris revocarunt scripta priorum</l>
-        <l>pulveris et veteris maculis detersa dedere</l>
-        <l>vel nova protulerunt atque intentata vetustis?</l>
-        <l>Quos inter primus, velut inter nubila Phoebus,</l>
-        <l n="370">emicat, ingenii portentum, Magnus Aquinas,</l>
-        <l>cui non tam vitio tribuendum pauca videre</l>
-        <l>non potuisse satis, quam tanta in nocte nec ullo</l>
-        <l>tum monstrante facem tam multa extraxe tenebris;</l>
-        <l>scilicet et Titan, radios ubi densa retundit</l>
-        <l n="375">caligo, totam haud potis est effundere lucem.</l>
-        <l>nec tibi, Valla, tuisque parum debere coaevis</l>
-        <l>dicemus Logicen vires Ramaeque polito</l>
-        <l>et docto Agricolae: vos namque indicere primi</l>
-        <l>indoctis ausi bellum vanisque sophistis</l>
-        <l n="380">et sapere et fatuas docuistis spernere nugas.</l>
-        <l>post hos ingenio magno Verulamius Anglus</l>
-        <l>claruit, errorum causas qui vidit acute</l>
-        <l>atque dolos caute docuit vitare latentes.</l>
-        <l>Nec te, Cartesi, nec te, Gassende, silebo,</l>
-        <l n="385">quos nulla eximiis fraudabit laudibus aetas.</l>
-        <l>Tu quoque iure loco illustri dignoque potiris,</l>
-        <l>Arnalde, ob solidam atque adscriptam pluribus artem,</l>
-        <l>quam nec Aristoteli fuerit scripsisse pudori.</l>
-        <note>372–373 cf. Lucr. 5, 11–12 || 384 cf. Verg. Aen. 10, 791–793 || 389 cf. Claud.
+        <pb n="pb399"/>
+        <l n="l400">iudice vel solo sensu vult noscere mentis</l>
+        <l n="l401">naturam, audire ille oculis cupit, aure videre.</l>
+        <l n="l402">Iam quis dinumeret, digno quis carmine claros</l>
+        <l n="l403">scripserit egregiosque viros, quibus horrida cessit</l>
+        <l n="l404">barbaries tandem, cunctas quae invaserat oras,</l>
+        <l n="l405">quique vel a tenebris revocarunt scripta priorum</l>
+        <l n="l406">pulveris et veteris maculis detersa dedere</l>
+        <l n="l407">vel nova protulerunt atque intentata vetustis?</l>
+        <l n="l408">Quos inter primus, velut inter nubila Phoebus,</l>
+        <l n="l409">emicat, ingenii portentum, Magnus Aquinas,</l>
+        <l n="l410">cui non tam vitio tribuendum pauca videre</l>
+        <l n="l411">non potuisse satis, quam tanta in nocte nec ullo</l>
+        <l n="l412">tum monstrante facem tam multa extraxe tenebris;</l>
+        <l n="l413">scilicet et Titan, radios ubi densa retundit</l>
+        <l n="l414">caligo, totam haud potis est effundere lucem.</l>
+        <l n="l415">nec tibi, Valla, tuisque parum debere coaevis</l>
+        <l n="l416">dicemus Logicen vires Ramaeque polito</l>
+        <l n="l417">et docto Agricolae: vos namque indicere primi</l>
+        <l n="l418">indoctis ausi bellum vanisque sophistis</l>
+        <l n="l419">et sapere et fatuas docuistis spernere nugas.</l>
+        <l n="l420">post hos ingenio magno Verulamius Anglus</l>
+        <l n="l421">claruit, errorum causas qui vidit acute</l>
+        <l n="l422">atque dolos caute docuit vitare latentes.</l>
+        <l n="l423">Nec te, Cartesi, nec te, Gassende, silebo,</l>
+        <l n="l424">quos nulla eximiis fraudabit laudibus aetas.</l>
+        <l n="l425">Tu quoque iure loco illustri dignoque potiris,</l>
+        <l n="l426">Arnalde, ob solidam atque adscriptam pluribus artem,</l>
+        <l n="l427">quam nec Aristoteli fuerit scripsisse pudori.</l>
+        <note n="note428">372–373 cf. Lucr. 5, 11–12 || 384 cf. Verg. Aen. 10, 791–793 || 389 cf. Claud.
                     rapt. Pros. 3, 349</note>
-        <note>362 oculis] oculo AI || 372 tanta] laudi AI || 375 ab hoc loco deficit AI || 387
-                    atque adscriptam] AIII<hi rend="superscript">2</hi>:</note>
-        <note>ac tributam AII AIII</note>
-        <pb/>
-        <l>Altior at cunctis surgit Malebranchius ingens,</l>
-        <l n="390">cui pariunt decus errorum detecta pericla,</l>
-        <l>quos faciant ludos sensus fidentibus et quam</l>
-        <l>crebro mens vana fallatur imagine rerum.</l>
-        <l>Lockius et Clericus Logicen criticenque sagaci</l>
-        <l>mente oculoque sua quaerunt ab origine, mentis</l>
-        <l n="395">excussa penitus natura et limite fixo,</l>
-        <l>in quo consistat nec vires exserat ultra.</l>
-        <l>Non tamen ignaro dormitantique legendi,</l>
-        <l>ut saepe a propriis transversum affectibus acti.</l>
-        <l>Nempe aliud facere est quidvis aliudque docere,</l>
-        <l n="400">nec virtus eadem servare et dicere leges.</l>
-        <l>Singula quid referam? Aut quisnam tua, docte Thomasi,</l>
-        <l>quis merita aut, Rudigere, tua aut tua, maxime Wolfi,</l>
-        <l>dignis describat verbis aut vocibus unquam?</l>
-        <l>Nec tu, Crusati, nec tu, Poirete, silendus,</l>
-        <l n="405">quem tamen in multis vexat fanaticus error.</l>
-        <l>Hoc agmen claudit clarus Genuensis, honori</l>
-        <l>quem tibi, Parthenope, nunc ducis habere magistrum.</l>
-        <l>Hoc monstrante, decem quam certo quinque bis aequat,</l>
-        <l>tam clare videas mentem mentisque recessus</l>
-        <l n="410">et quidquid spectare oculis natura negavit:</l>
-        <l>Omnia tam recto ducit theoremata filo.</l>
-        <l>His ratio debet cultoribus, ubere foetu</l>
-        <l>quod foecunda magis divulsis stirpibus amplam</l>
-        <l>producit rerum segetem doctaeque resurgunt</l>
-        <l n="415">artes, quae quondam misere iacuere, vigentque.</l>
-        <l>Quis tantam meritis nunc laudibus efferat artem,</l>
-        <note>393 cf. Lucr. 1, 1022; 5, 420 || 401 cf. Ov. am. 1, 5, 23; Ov. trist. 3, 7, 43</note>
-        <note>402 Wolfi] AII : Vuoffi AI AIII || 407 ducis] conieci : ducit mss.|| 416 tantam
-                    meritis nunc laudibus efferat artem] AIII<hi rend="superscript">2</hi>: nunc
+        <note n="note429">362 oculis] oculo AI || 372 tanta] laudi AI || 375 ab hoc loco deficit AI || 387
+                    atque adscriptam] AIII<hi n="hi1" rend="superscript">2</hi>:</note>
+        <note n="note430">ac tributam AII AIII</note>
+        <pb n="pb431"/>
+        <l n="l432">Altior at cunctis surgit Malebranchius ingens,</l>
+        <l n="l433">cui pariunt decus errorum detecta pericla,</l>
+        <l n="l434">quos faciant ludos sensus fidentibus et quam</l>
+        <l n="l435">crebro mens vana fallatur imagine rerum.</l>
+        <l n="l436">Lockius et Clericus Logicen criticenque sagaci</l>
+        <l n="l437">mente oculoque sua quaerunt ab origine, mentis</l>
+        <l n="l438">excussa penitus natura et limite fixo,</l>
+        <l n="l439">in quo consistat nec vires exserat ultra.</l>
+        <l n="l440">Non tamen ignaro dormitantique legendi,</l>
+        <l n="l441">ut saepe a propriis transversum affectibus acti.</l>
+        <l n="l442">Nempe aliud facere est quidvis aliudque docere,</l>
+        <l n="l443">nec virtus eadem servare et dicere leges.</l>
+        <l n="l444">Singula quid referam? Aut quisnam tua, docte Thomasi,</l>
+        <l n="l445">quis merita aut, Rudigere, tua aut tua, maxime Wolfi,</l>
+        <l n="l446">dignis describat verbis aut vocibus unquam?</l>
+        <l n="l447">Nec tu, Crusati, nec tu, Poirete, silendus,</l>
+        <l n="l448">quem tamen in multis vexat fanaticus error.</l>
+        <l n="l449">Hoc agmen claudit clarus Genuensis, honori</l>
+        <l n="l450">quem tibi, Parthenope, nunc ducis habere magistrum.</l>
+        <l n="l451">Hoc monstrante, decem quam certo quinque bis aequat,</l>
+        <l n="l452">tam clare videas mentem mentisque recessus</l>
+        <l n="l453">et quidquid spectare oculis natura negavit:</l>
+        <l n="l454">Omnia tam recto ducit theoremata filo.</l>
+        <l n="l455">His ratio debet cultoribus, ubere foetu</l>
+        <l n="l456">quod foecunda magis divulsis stirpibus amplam</l>
+        <l n="l457">producit rerum segetem doctaeque resurgunt</l>
+        <l n="l458">artes, quae quondam misere iacuere, vigentque.</l>
+        <l n="l459">Quis tantam meritis nunc laudibus efferat artem,</l>
+        <note n="note460">393 cf. Lucr. 1, 1022; 5, 420 || 401 cf. Ov. am. 1, 5, 23; Ov. trist. 3, 7, 43</note>
+        <note n="note461">402 Wolfi] AII : Vuoffi AI AIII || 407 ducis] conieci : ducit mss.|| 416 tantam
+                    meritis nunc laudibus efferat artem] AIII<hi n="hi1" rend="superscript">2</hi>: nunc
                     encomiis meritis hanc efferat artem AII AIII</note>
-        <pb/>
-        <l>qua quantum beluas homo praestat mente carentes,</l>
-        <l>indoctos tantum praecellit doctus et ipsis</l>
-        <l>aethereis similem reddit se mentibus usque?</l>
-        <l n="420">Hac sine progreditur non ulla scientia longe,</l>
-        <l>si tamen ulla datur: nam Stoica vera videtur,</l>
-        <l>accipiat modo quis recte, sententia prisca.</l>
-        <l>Namque nihil certo haec docet ars proferre, priusquam</l>
-        <l>videris, an de quo affirmas, hoc idea claudat.</l>
-        <l n="425">Pareat huic monito, qui dat responsa clienti,</l>
-        <l>optimus ille mihi consultus iuris habetor.</l>
-        <l>Pareat, aegroti qui curat pellere morbum,</l>
-        <l>Hippocratique nihil concedat, nilque Galeno.</l>
-        <l>Quique cupit veras rerum cognoscere causas,</l>
-        <l n="430">effectus, fines, positus, discrimina, quidvis,</l>
-        <l>denique seu mentem, seu corpus spectet iisque</l>
-        <l>quid sit natura proprium quidve accidat extra,</l>
-        <l>qui vel naturae naturam nosse supremae,</l>
-        <l>(quantum nosse licet lippis mortalibus) hunc si</l>
-        <l n="435">regula firma regat, qua quid proferre vetamus</l>
-        <l>de re, quod non clara rei distinctaque clausum</l>
-        <l>idea contineat, princeps erit ille sophorum.</l>
-        <l>Ille vel erratis veterum parere recuset</l>
-        <l>vel fines positos feliciter audeat ultra</l>
-        <l n="440">progredier vel, si minus id contingat, habebit,</l>
-        <l>quo certe doceat, cur hoc sit scire negatum,</l>
-        <l>audiat et sapiens, quia scit nescire fateri.</l>
-        <l>O Lux alma, Dei quae munera cetera vincis</l>
-        <l>omnia, quum sine te valeat nihil, en erit unquam</l>
-        <l n="445">ille dies, quum te propius spectare queamus</l>
-        <note>429 cf. Verg. georg. 2, 490 || 443–444 cf. Verg. ecl. 10, 69; Verg. georg. 1, 145</note>
-        <note>446 splendore] fulgore AII</note>
-        <l>et nostras etiam valles splendore sereno</l>
-        <l>collustres, caeci saxis ubi claudimur altis?</l>
-        <l>Vos, o felices, o terque quaterque beati,</l>
-        <l>quos inter placuit sedem posuisse Minervae –</l>
-        <l n="450">quidni autem placeat? –, sublimibus alta columnis</l>
-        <l>huic ubi Theresiae iussuque auroque dicatur,</l>
-        <l>quae non invideat regum penetralibus aedes,</l>
-        <l>digna Dea atque animi donantis munere digna!</l>
-        <l>Vos, ea qui teritis pede limina sacra frequentes,</l>
-        <l n="455">dulcius eloquium vos diva magistra docebit,</l>
-        <l>illius ut digne possitis dicere laudes,</l>
-        <l>quas canat et praesens aetas et sera nepotum.</l>
-        <l>Atque utinam tales modulos mihi Musa dedisset,</l>
-        <l>ut vestro saltem possem adspirare canori!</l>
-        <l n="460">Sed me Musa monet: „Tacitus venerabere, quod non</l>
-        <l>fata tibi dederunt satis alta voce sonare</l>
-        <l>nec cuiquam fortasse dabunt hanc tangere metam.”</l>
-        <closer>Finis</closer>
-        <closer>
-          <date>1756</date>
+        <pb n="pb462"/>
+        <l n="l463">qua quantum beluas homo praestat mente carentes,</l>
+        <l n="l464">indoctos tantum praecellit doctus et ipsis</l>
+        <l n="l465">aethereis similem reddit se mentibus usque?</l>
+        <l n="l466">Hac sine progreditur non ulla scientia longe,</l>
+        <l n="l467">si tamen ulla datur: nam Stoica vera videtur,</l>
+        <l n="l468">accipiat modo quis recte, sententia prisca.</l>
+        <l n="l469">Namque nihil certo haec docet ars proferre, priusquam</l>
+        <l n="l470">videris, an de quo affirmas, hoc idea claudat.</l>
+        <l n="l471">Pareat huic monito, qui dat responsa clienti,</l>
+        <l n="l472">optimus ille mihi consultus iuris habetor.</l>
+        <l n="l473">Pareat, aegroti qui curat pellere morbum,</l>
+        <l n="l474">Hippocratique nihil concedat, nilque Galeno.</l>
+        <l n="l475">Quique cupit veras rerum cognoscere causas,</l>
+        <l n="l476">effectus, fines, positus, discrimina, quidvis,</l>
+        <l n="l477">denique seu mentem, seu corpus spectet iisque</l>
+        <l n="l478">quid sit natura proprium quidve accidat extra,</l>
+        <l n="l479">qui vel naturae naturam nosse supremae,</l>
+        <l n="l480">(quantum nosse licet lippis mortalibus) hunc si</l>
+        <l n="l481">regula firma regat, qua quid proferre vetamus</l>
+        <l n="l482">de re, quod non clara rei distinctaque clausum</l>
+        <l n="l483">idea contineat, princeps erit ille sophorum.</l>
+        <l n="l484">Ille vel erratis veterum parere recuset</l>
+        <l n="l485">vel fines positos feliciter audeat ultra</l>
+        <l n="l486">progredier vel, si minus id contingat, habebit,</l>
+        <l n="l487">quo certe doceat, cur hoc sit scire negatum,</l>
+        <l n="l488">audiat et sapiens, quia scit nescire fateri.</l>
+        <l n="l489">O Lux alma, Dei quae munera cetera vincis</l>
+        <l n="l490">omnia, quum sine te valeat nihil, en erit unquam</l>
+        <l n="l491">ille dies, quum te propius spectare queamus</l>
+        <note n="note492">429 cf. Verg. georg. 2, 490 || 443–444 cf. Verg. ecl. 10, 69; Verg. georg. 1, 145</note>
+        <note n="note493">446 splendore] fulgore AII</note>
+        <l n="l494">et nostras etiam valles splendore sereno</l>
+        <l n="l495">collustres, caeci saxis ubi claudimur altis?</l>
+        <l n="l496">Vos, o felices, o terque quaterque beati,</l>
+        <l n="l497">quos inter placuit sedem posuisse Minervae –</l>
+        <l n="l498">quidni autem placeat? –, sublimibus alta columnis</l>
+        <l n="l499">huic ubi Theresiae iussuque auroque dicatur,</l>
+        <l n="l500">quae non invideat regum penetralibus aedes,</l>
+        <l n="l501">digna Dea atque animi donantis munere digna!</l>
+        <l n="l502">Vos, ea qui teritis pede limina sacra frequentes,</l>
+        <l n="l503">dulcius eloquium vos diva magistra docebit,</l>
+        <l n="l504">illius ut digne possitis dicere laudes,</l>
+        <l n="l505">quas canat et praesens aetas et sera nepotum.</l>
+        <l n="l506">Atque utinam tales modulos mihi Musa dedisset,</l>
+        <l n="l507">ut vestro saltem possem adspirare canori!</l>
+        <l n="l508">Sed me Musa monet: „Tacitus venerabere, quod non</l>
+        <l n="l509">fata tibi dederunt satis alta voce sonare</l>
+        <l n="l510">nec cuiquam fortasse dabunt hanc tangere metam.”</l>
+        <closer n="closer511">Finis</closer>
+        <closer n="closer512">
+          <date n="date1">1756</date>
         </closer>
       </div>
     </body>

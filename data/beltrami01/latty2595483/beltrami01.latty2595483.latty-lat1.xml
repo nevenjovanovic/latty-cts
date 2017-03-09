@@ -32,6 +32,22 @@
         <bibl>ULBT, 34120</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1836">1836</date>
@@ -52,138 +68,138 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:beltrami01.latty2595483.latty-lat1:">
-    <body>
-      <div>
-        <head>Specimen fastorum ecclesie Roboretanae.</head>
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">Specimen fastorum ecclesie Roboretanae.</head>
       </div>
-      <div>
-        <pb xml:id="F1v"/>
-        <l>Forsan et haec olim meminisse iuvabit.</l>
-        <p>Virgilius Aeneid. libro I verso 29.</p>
+      <div n="div2">
+        <pb n="pb1" xml:id="F1v"/>
+        <l n="l2">Forsan et haec olim meminisse iuvabit.</l>
+        <p n="p3">Virgilius Aeneid. libro I verso 29.</p>
       </div>
-      <div>
-        <pb xml:id="F2"/>
-        <p>Viro reverendissimo Ignatio Sardagnae patricia nobilitate domo Tridento
+      <div n="div3">
+        <pb n="pb1" xml:id="F2"/>
+        <p n="p2">Viro reverendissimo Ignatio Sardagnae patricia nobilitate domo Tridento
                 archipresbytero ad divi Marci Roboreti a Trid. Pont. designato honorem suum deiparae
-                auspicio nonis augusti anno Christi<date>1836</date>auspicanti sacerdotes Roboretani adventu
+                auspicio nonis augusti anno Christi<date n="date1">1836</date>auspicanti sacerdotes Roboretani adventu
                 viri ingenio, doctrina, studio religionis praeclari laetitia gestientes specimen
                 fastorum Roboretanae ecclesiae quorum ille nunc desiderio tenetur obsequii
                 honorisque gratia obferunt seque dedicant patrono optimo desideratissimo.</p>
       </div>
-      <div>
-        <pb xml:id="F5"/>
-        <head>Specimen fastorum ecclesiae Roboretanae.</head>
+      <div n="div4">
+        <pb n="pb1" xml:id="F5"/>
+        <head n="head2">Specimen fastorum ecclesiae Roboretanae.</head>
       </div>
-      <div>
-        <p>Saeculo XII.</p>
-        <p>Sub finem saeculi christiani XII oppidi Roboretani ad utraque Leni fluminis littora
+      <div n="div5">
+        <p n="p1">Saeculo XII.</p>
+        <p n="p2">Sub finem saeculi christiani XII oppidi Roboretani ad utraque Leni fluminis littora
                 initium fuisse fertur. Oppidani primi, sacrorum causa, antiquae curiae Licianensi
                 Floriani sancti adsciti erant.</p>
-        <p>Anno Christi<date>1597</date>templum intra fines Roboretanos primum, Hilarii sancti
+        <p n="p3">Anno Christi<date n="date1">1597</date>templum intra fines Roboretanos primum, Hilarii sancti
                 Pictaviensium pontificis honori extructum, vir reverendissimisus Conradus
                 Tridentinorum pontif. sollemnnibus caeremoniis consecravit. Ibi erat monachorum
                 caenobium, et peregrinorum hospitium.</p>
-        <p>Saeculo XIII.</p>
-        <p>Anno Christi<date>1250</date>. Honori Thomae sancti Cantuariensium pontificis Mart. templum secus
-                Lenum ad<pb xml:id="F6"/>laevum litus Castobarcenses regionis nostrae dynastae circa haec
+        <p n="p4">Saeculo XIII.</p>
+        <p n="p5">Anno Christi<date n="date1">1250</date>. Honori Thomae sancti Cantuariensium pontificis Mart. templum secus
+                Lenum ad<pb n="pb2" xml:id="F6"/>laevum litus Castobarcenses regionis nostrae dynastae circa haec
                 tempora dedicavere; ut in eo curio maior Lizzanensium, Roboretanorum commodo,
                 operaretur.</p>
-        <p>
-          <date>1290</date>. Mariae Karmelit. honori aedes prima, ubi nunc templi novi eiusdem virginis
+        <p n="p6">
+          <date n="date1">1290</date>. Mariae Karmelit. honori aedes prima, ubi nunc templi novi eiusdem virginis
                 sacrarium est, aedificata fuit.</p>
-        <p>Saeculo XIIII.</p>
-        <p>Anno Christi<date>1301</date>. Aedes binae hoc anno, vel paulo post eum, a solo excitatae sunt:
+        <p n="p7">Saeculo XIIII.</p>
+        <p n="p8">Anno Christi<date n="date1">1301</date>. Aedes binae hoc anno, vel paulo post eum, a solo excitatae sunt:
                 altera honori Catharinae sanctae virginis et Mart. extra septentrionalem oppidi
                 portam iuxta propugnaculum, cui a Basadonna nomen est; altera honori Georgii Mart.
                 in agro.</p>
-        <p>
-          <date>1316</date>. Eidem aedi Georgianae Guilielmus Castobarcus vir clarissimus libellos
+        <p n="p9">
+          <date n="date1">1316</date>. Eidem aedi Georgianae Guilielmus Castobarcus vir clarissimus libellos
                 veronenses 25 et emendos libros legavit testamento suo.</p>
-        <p>
-          <date>1333</date>. Aedis primae Mariae Karmelit. dedicatio fuit.</p>
-        <p>
-          <date>138</date>0. Honori Mariae sanctae, et Elisabethae aedes ad arcis pedem dedicata est:
+        <p n="p10">
+          <date n="date1">1333</date>. Aedis primae Mariae Karmelit. dedicatio fuit.</p>
+        <p n="p11">
+          <date n="date1">138</date>0. Honori Mariae sanctae, et Elisabethae aedes ad arcis pedem dedicata est:
                 adiectumque hospitium aegris ac peregrinis excipiendis.</p>
-        <p>
-          <date>1400</date>. Barbarae virginis et Mart. honori aedem prope templum Thomae sancti, Ioannes
+        <p n="p12">
+          <date n="date1">1400</date>. Barbarae virginis et Mart. honori aedem prope templum Thomae sancti, Ioannes
                 domo Parma curio maior Lizzanensium de suo aedificavit.</p>
-        <pb xml:id="F7"/>
-        <p>Saeculo XV.</p>
-        <p>Anno Christi<date>1446</date>. Templum divi Marci, Venetis ab annis 30 heic imperantibus, angusta
+        <pb n="pb13" xml:id="F7"/>
+        <p n="p14">Saeculo XV.</p>
+        <p n="p15">Anno Christi<date n="date1">1446</date>. Templum divi Marci, Venetis ab annis 30 heic imperantibus, angusta
                 primum forma aedificari caeptum est.</p>
-        <p>
-          <date>1462</date>. Templi Marciani operibus absolutis, eodemque rite lustrato, curatores rei
+        <p n="p16">
+          <date n="date1">1462</date>. Templi Marciani operibus absolutis, eodemque rite lustrato, curatores rei
                 municipalis, eiusdemque templi patroni, dote pro curione constituta, Trident.
                 pontifice adprobante, Petrum sacerdotem Roboretanum curionem minorem primum
                 designaverunt; qui ibi ex auctoritate curionis maioris Lizzanensium faceret.</p>
-        <p>
-          <date>1464</date>.<persName>Bessarion</persName>cardinalis episcopus tusculanus, patriarcha<placeName>Costantinopolis</placeName>, ad
+        <p n="p17">
+          <date n="date1">1464</date>.<persName n="persName2">Bessarion</persName>cardinalis episcopus tusculanus, patriarcha<placeName n="placeName3">Costantinopolis</placeName>, ad
                 venetos patres legatus pont. max. curiam ad divi Marci constitutam litteris publicis
                 probavit, et patronatum eius Roboretanis adseruit adtribuit.</p>
-        <p>
-          <date>1467</date>. Petro curioni minori successit Ioannes ab Organis domo Venetiis. Hoc curione
+        <p n="p18">
+          <date n="date1">1467</date>. Petro curioni minori successit Ioannes ab Organis domo Venetiis. Hoc curione
                 datum est a pontifice Tridentino, ut in templo divi Marci fons salutaris lavacri
                 licite possit esse, aqua ab Lizzanensium templo recepta.</p>
-        <p>
-          <date>1472</date>. Post Ioannem Venetum Antonellus domo Parma curio minor tertius fuit.</p>
-        <pb xml:id="F8"/>
-        <p>
-          <date>1478</date>. Antonello successit Iacobus domo Corrigio regiensium in Gallia
+        <p n="p19">
+          <date n="date1">1472</date>. Post Ioannem Venetum Antonellus domo Parma curio minor tertius fuit.</p>
+        <pb n="pb20" xml:id="F8"/>
+        <p n="p21">
+          <date n="date1">1478</date>. Antonello successit Iacobus domo Corrigio regiensium in Gallia
                 Cisalpina.</p>
-        <p>
-          <date>1488</date>. Veneti patres, quum obsidionis timore, circa oppidum fossam perducerent, aedem
+        <p n="p22">
+          <date n="date1">1488</date>. Veneti patres, quum obsidionis timore, circa oppidum fossam perducerent, aedem
                 Catharinae sanctae demoliti sunt; polliciti, se eam, finito bello, iterum
                 aedificaturos.</p>
-        <p>
-          <date>1490</date>. Sodalitas a Cereis nuncupata constituta est; quae, templo divi Marci commodo,
+        <p n="p23">
+          <date n="date1">1490</date>. Sodalitas a Cereis nuncupata constituta est; quae, templo divi Marci commodo,
                 cereos, oleum, vinum, thus conferebat.</p>
-        <p>
-          <date>1495</date>. Iacobo domo Corrigio Stephanus de Conzata Parmensium suffectus est. Eo curione
+        <p n="p24">
+          <date n="date1">1495</date>. Iacobo domo Corrigio Stephanus de Conzata Parmensium suffectus est. Eo curione
                 organum musicum parvum in templo divi Marci dedicatum.</p>
-        <p>Saeculo XVI.</p>
-        <p>Anno Christi<date>1503</date>. Sodalitas SS. Sebastiani et Rochi constituta est. Hoc eodem anno,
+        <p n="p25">Saeculo XVI.</p>
+        <p n="p26">Anno Christi<date n="date1">1503</date>. Sodalitas SS. Sebastiani et Rochi constituta est. Hoc eodem anno,
                 bellicis ebus compositis, patres veneti steterun promissis, templumque honori
                 Catharinae virginis et Mart. iterum ab inchoato aedificarunt instruxerunt; hoc autem
                 in fine suburbii, ubi nunc est.</p>
-        <p>
-          <date>1518</date>. Novum Catharinae sanctae templum virginibus sacris Benedictinis adtributum
+        <p n="p27">
+          <date n="date1">1518</date>. Novum Catharinae sanctae templum virginibus sacris Benedictinis adtributum
                 fuit.</p>
-        <p>
-          <date>1528</date>. Zacharias Rosminius Roboretanus, post Stephanum de Conzata, curio minor fuit,
+        <p n="p28">
+          <date n="date1">1528</date>. Zacharias Rosminius Roboretanus, post Stephanum de Conzata, curio minor fuit,
                 isque ordine sextus.</p>
-        <pb xml:id="F9"/>
-        <p>
-          <date>1541</date>. Consilio et cura viri reverendi Antonii domo Valdaneo Franciscalium
+        <pb n="pb29" xml:id="F9"/>
+        <p n="p30">
+          <date n="date1">1541</date>. Consilio et cura viri reverendi Antonii domo Valdaneo Franciscalium
                 reformator. Sacerdotis, et hoc anno ad divi Marci concionatoris mensa pignoraticia,
                 magno egentium commodo, aperta est: eaque ad arcis pedes ubi erat Valetudinarium et
                 hospitium Mariae et Elisabethae, quod deinceps ad divi Thomae translatum fuit.</p>
-        <p>
-          <date>1545</date>. Honor et cultus sacramenti augusti amplificari caepit. Idem, quod ad Marci in
+        <p n="p31">
+          <date n="date1">1545</date>. Honor et cultus sacramenti augusti amplificari caepit. Idem, quod ad Marci in
                 angulo altaris Christi crucifixi conditum erat, in altare maximum rite translatum
                 est. Hoc eodem anno aedes honori Mariae virginis a Lilio nuncupatae in foro cui
                 nomen nunc a Karolo sancto, aedificari caepit.</p>
-        <p>
-          <date>1556</date>. Rosminio curione, cura et studio rei municipalis curatorum , hebraei Roboreto
+        <p n="p32">
+          <date n="date1">1556</date>. Rosminio curione, cura et studio rei municipalis curatorum , hebraei Roboreto
                 exturbati et expulsi.</p>
-        <p>
-          <date>1559</date>. Rosminio curioni, qui se abdicavit munere suo, Iacobus Campanella Rob.
+        <p n="p33">
+          <date n="date1">1559</date>. Rosminio curioni, qui se abdicavit munere suo, Iacobus Campanella Rob.
                 successit. Eo curione ab Tridentinor. pontefice datum est, ut in templo divi Marci
                 aqua salutaris lavacri sabbato sancto ritu sollemni lustrari posset.</p>
-        <p>
-          <date>1565</date>. Post Iacobum Campanellam Lizzanensium curionem maiorem designatum electus fuit
+        <p n="p34">
+          <date n="date1">1565</date>. Post Iacobum Campanellam Lizzanensium curionem maiorem designatum electus fuit
                 Barptolemaeus Meneghettus Avolanensis.</p>
-        <p>
-          <date>1566</date>. Franciscus Rosminius Rob. Barptolomaeo Meneghetto curioni suffectus est.</p>
-        <pb xml:id="F10"/>
-        <p>
-          <date>1573</date>. Francisco Rosminio, qui se abdicavit munere suo Andreas Monticolus
+        <p n="p35">
+          <date n="date1">1566</date>. Franciscus Rosminius Rob. Barptolomaeo Meneghetto curioni suffectus est.</p>
+        <pb n="pb36" xml:id="F10"/>
+        <p n="p37">
+          <date n="date1">1573</date>. Francisco Rosminio, qui se abdicavit munere suo Andreas Monticolus
                 Veronensis curio minor, ordine decimus et ultimus, successit.</p>
-        <p>
-          <date>1576</date>. Templum Catharinae sanctae, quod sacrae virgines Benedictinae reliquerunt,
+        <p n="p38">
+          <date n="date1">1576</date>. Templum Catharinae sanctae, quod sacrae virgines Benedictinae reliquerunt,
                 sodalibus Frciscalibus capulatis adtributum; ibique caenobium pro iisdem
                 conditum.</p>
-        <p>
-          <date>1576</date>. Contentiones multae de iure et ratione sacrorum inter curiam Thomae sancti, et
+        <p n="p39">
+          <date n="date1">1576</date>. Contentiones multae de iure et ratione sacrorum inter curiam Thomae sancti, et
                 divi Marci. Gabriel Alexandreus pontif. Gallesanus vice sacra pontificis
                 Tridentinor. easdem diremit; idemque cavit, ut translato e templo Thomae sancti
                 sacramento augusto ad templum divi Marci, in hoc Roboretanorum commodo, a
@@ -191,89 +207,89 @@
                 templum divi Marci, commutato nomine, divi Thomae templum nuncuparetur. Anno eodem
                 post templum divi Marci extra oppidi maenia Cinerarium constitutum est; pontifex
                 Gallesanus ritu sacro idem dedicavit.</p>
-        <p>
-          <date>1577</date>. Contentiones ante annos tres compositae iterum motae fuere. Templum Thomae
+        <p n="p40">
+          <date n="date1">1577</date>. Contentiones ante annos tres compositae iterum motae fuere. Templum Thomae
                 sancti, quod clausum fuerat denuo apertum est; cultoresque eius more veteri idem
                 celebraverunt. Item ad divi Marci, Marciano nomine restituto, sacra omnia ut in
-                praeteritum tempus facta sunt. Idque ex decreto patriarchae<placeName>Aquileiensis</placeName>.</p>
-        <p>
-          <date>1582</date>. Hludovicus Madruzzius presb. card. titulo Onuphrio Pont. Trident. Gregorii XIII<pb xml:id="F11"/>pontificis maximi legatus, antiquam et satis amplam Lizzanianam divi Floriani
+                praeteritum tempus facta sunt. Idque ex decreto patriarchae<placeName n="placeName2">Aquileiensis</placeName>.</p>
+        <p n="p41">
+          <date n="date1">1582</date>. Hludovicus Madruzzius presb. card. titulo Onuphrio Pont. Trident. Gregorii XIII<pb n="pb2" xml:id="F11"/>pontificis maximi legatus, antiquam et satis amplam Lizzanianam divi Floriani
                 curiam secrevit bifariam. Curianos ad sinistrum Leni fluminis litus eidem reliquit;
                 ad dexterum commorantes a iuribus eiusdem curiae amovit; ecclesiae divi Marci
                 archipresbyterum dedit, qui deinceps ageret iure suo, quique curiae Saccensium,
                 Norilensium, Terragnolensium praeesset; decrevitque, ut donaria Floriano sancto
                 honoris gratia semel in anno offerret; utique Iacobus Campanella Roboretanus
                 Lizzanensium curio maior idem et divi Marci Archipresbyter primum esset.</p>
-        <p>
-          <date>1591</date>. Sodales cognomento a caritate, Stephano domo Mediolano Franciscalium
+        <p n="p42">
+          <date n="date1">1591</date>. Sodales cognomento a caritate, Stephano domo Mediolano Franciscalium
                 Capulatorum sacerdote auctore, constituti sunt. Iidem aedis Barbarae sanctae primum,
                 tum Thomae sancti cultores fuere. Hoc eodem anno, eiusdemque Stephani admonitu et
                 cura, sodalitas rosariana ad divi Marci esse caepit.</p>
-        <p>
-          <date>1592</date>. Iacobus Campanella archipresbyter mortuus est. Pontifex Trident., cui nostri
+        <p n="p43">
+          <date n="date1">1592</date>. Iacobus Campanella archipresbyter mortuus est. Pontifex Trident., cui nostri
                 archipresbyteri designandi stat potestas, Iacobum Lizzinium Roboretanum eidem
                 suffecit.</p>
-        <p>
-          <date>1600</date>. Templum divi Marci, ob loci angustiam statis conventibus inopportunum, in
+        <p n="p44">
+          <date n="date1">1600</date>. Templum divi Marci, ob loci angustiam statis conventibus inopportunum, in
                 ampliorem formam intra annos 30 restitutum est.</p>
-        <pb xml:id="F12"/>
-        <p>Saeculo XVII.</p>
-        <p>
-          <date>1602</date>. Sebastianus Cattaneus pontifex Chiemensis Bavariorum templum Marci Sancti
+        <pb n="pb45" xml:id="F12"/>
+        <p n="p46">Saeculo XVII.</p>
+        <p n="p47">
+          <date n="date1">1602</date>. Sebastianus Cattaneus pontifex Chiemensis Bavariorum templum Marci Sancti
                 sollemnibus caeremoniis dedicavit.</p>
-        <p>
-          <date>1606</date>. Aloisius Gonzaga ab annis 15, sanctissime vita functus heic a multis ritu
+        <p n="p48">
+          <date n="date1">1606</date>. Aloisius Gonzaga ab annis 15, sanctissime vita functus heic a multis ritu
                 privato coli caepit: huius rei testimonium scripto rite traditum Romam missum est;
                 patribusque cardinalibus, qui de caelestibus honoribus eidem tribuendis quaerebant,
                 exhibitum. Valetudinarium et hospitium, quod erat as Mariae et Elisabethae, ad divi
                 Thomae translatum.</p>
-        <p>
-          <date>1619</date>. Deleta aede Mariae sanctae a Lilio nuncupatae, templum honori Karoli sancti
+        <p n="p49">
+          <date n="date1">1619</date>. Deleta aede Mariae sanctae a Lilio nuncupatae, templum honori Karoli sancti
                 mediolanensium pont. maioris in eius loco aedificatum est; operibusque hoc anno
                 completis ritu sollemni dedicatum.</p>
-        <p>
-          <date>1629</date>. Urbanus VIII pontifex maximus, petentibus rei municipalis curatoribus, mensae
+        <p n="p50">
+          <date n="date1">1629</date>. Urbanus VIII pontifex maximus, petentibus rei municipalis curatoribus, mensae
                 pignoraticiae dedit indulsit, ut creditae pecuniae causa, quotannis quinos nummos in
                 centenos, fenoris gratia, eadem possit a mutuatis recipere.</p>
-        <p>
-          <date>1631</date>. Gravis pestilentia, praeterito praesertim anno, regionem nostram conflictavit.
+        <p n="p51">
+          <date n="date1">1631</date>. Gravis pestilentia, praeterito praesertim anno, regionem nostram conflictavit.
                 Ea multos ad meliorem frugem revocavit, et sacra multa in honorem Dei caelitumque
                 sanctorum ex ea initiata sunt. Templum honori Rochi sancti pestilentiae
                 propulsatoris ex decreto ordinis, votis publice suceptis, ab inchoato aedificari
                 caeptum est.</p>
-        <pb xml:id="F13"/>
-        <p>Eodem anno Thomas domo Bergomo Franciscalium Capulatorum sodalis laicus non
+        <pb n="pb52" xml:id="F13"/>
+        <p n="p53">Eodem anno Thomas domo Bergomo Franciscalium Capulatorum sodalis laicus non
                 modicam sacrosanctae crucis particulam, ab Elisabetha Bavariorum duce acceptam,
                 Roboretanis donum dedit, temploque divi Marci sddixit adtribuit.</p>
-        <p>
-          <date>1636</date>. Carolus Emmanuel Madruzzius Trid. pontifex ritus ollemni dedicavit templum,
+        <p n="p54">
+          <date n="date1">1636</date>. Carolus Emmanuel Madruzzius Trid. pontifex ritus ollemni dedicavit templum,
                 quod honori deiparae virgini in Monte supra Thomae santi Lizzanensium curio maior,
                 et Silvius Pratus domo Tridento circa prodigialem imaginem eius ibi rudi in pariete
                 pictam de suo aedificarunt instruxerunt.</p>
-        <p>
-          <date>1637</date>. Iacobus Lizzinius archipresbyter, anno honoris sui 43, se muneri suo subtraxit:
+        <p n="p55">
+          <date n="date1">1637</date>. Iacobus Lizzinius archipresbyter, anno honoris sui 43, se muneri suo subtraxit:
                 exinde curionalis dignitatis aemulationes multae, et de ea contentiones agitatae
                 diu.</p>
-        <p>
-          <date>1638</date>, caenobio ad d. Rochi aedificato, idem adtributum fuit patribus Franciscalibrus
+        <p n="p56">
+          <date n="date1">1638</date>, caenobio ad d. Rochi aedificato, idem adtributum fuit patribus Franciscalibrus
                 reformatis, qui in exemplum pietatis ac religonis, huc tempore pestilentiae ultro
                 venerant in aegrorum subsidium.</p>
-        <p>
-          <date>1640</date>. Organum musicum ad d. Marci operibus additis, in ampliorem formam
+        <p n="p57">
+          <date n="date1">1640</date>. Organum musicum ad d. Marci operibus additis, in ampliorem formam
                 restitutum.</p>
-        <p>
-          <date>1642</date>. Divi Karoli templo caenobium adiectum est; idemque Bernardinae Florianiae
+        <p n="p58">
+          <date n="date1">1642</date>. Divi Karoli templo caenobium adiectum est; idemque Bernardinae Florianiae
                 Robor. adtributum, quae deinceps Ioanna Maria a cruce nuncupata collegium sacrarum
                 virginum Claralium constituit.</p>
-        <pb xml:id="F14"/>
-        <p>
-          <date>1648</date>. Iacobo Lizzinio (qui fuerat archipresbyter) hoc anno diem suum functo,
+        <pb n="pb59" xml:id="F14"/>
+        <p n="p60">
+          <date n="date1">1648</date>. Iacobo Lizzinio (qui fuerat archipresbyter) hoc anno diem suum functo,
                 discordiisque et controversiis compositis, Barptolomaeus Karoli f. Gamba Roboret.,
                 curiae divi Marci ab annis 12 vacantis, archipresbyter rite designatus est. Honori
                 Blasii sancti aedes hunc circa annum in colle Pipelliano pecunia publica et
                 collaticia condita est.</p>
-        <p>
-          <date>1650</date>. Rei municipalis curatorum religio enituis. Iidem, votis publice susceptis,
+        <p n="p61">
+          <date n="date1">1650</date>. Rei municipalis curatorum religio enituis. Iidem, votis publice susceptis,
                 indixerunt pompas et sacra, ad caelitum sanctorum patrocinium pro salute publica
                 implorandum, feriatis civibus facienda in posterum tempus: honori SS. Fabiani et
                 Sebastiani, Antonii sancti Patavini, Rochi sancti, Karoli sancti, die unicuique
@@ -288,22 +304,22 @@
                 Gamba archipresbyter, quippe qui inter patres canonicos Brixinenses adlectus fuerat,
                 se abdicavit munere suo: eidem Hieronymus Baldovinus domo Tridento suffectus
                 est.</p>
-        <pb xml:id="F15"/>
-        <p>
-          <date>1657</date>. Sodalitas albatorum Christi corporis comitando, ab annis 27 in curia divi
+        <pb n="pb62" xml:id="F15"/>
+        <p n="p63">
+          <date n="date1">1657</date>. Sodalitas albatorum Christi corporis comitando, ab annis 27 in curia divi
                 Marci constituta, aedem novam Christo Jesu redemptori pecunia propria et collaticia
                 dedicavit.</p>
-        <p>
-          <date>1659</date>. Turri sacra veteri ad divi Marci deleta, altera altrior altera aedificata
+        <p n="p64">
+          <date n="date1">1659</date>. Turri sacra veteri ad divi Marci deleta, altera altrior altera aedificata
                 est.</p>
-        <p>
-          <date>1662</date>. Hieonymo Baldovino, qui archipresbyteri munere se abdicavit, Ioannis Baptista
+        <p n="p65">
+          <date n="date1">1662</date>. Hieonymo Baldovino, qui archipresbyteri munere se abdicavit, Ioannis Baptista
                 Camellius doctor tehologiae domo Calliano suffectus.</p>
-        <p>
-          <date>1668</date>. Templum divi Rochi ad caenobium Franciscalium reformatorum solemnibus
+        <p n="p66">
+          <date n="date1">1668</date>. Templum divi Rochi ad caenobium Franciscalium reformatorum solemnibus
                 caeremoniis consecratum.</p>
-        <p>
-          <date>1670</date>. Ferdinandus Orefices sacerdos Roboretanus in collegio patrum canonicorum ad
+        <p n="p67">
+          <date n="date1">1670</date>. Ferdinandus Orefices sacerdos Roboretanus in collegio patrum canonicorum ad
                 Mariae sanctae nivalis Salisburgensium cooptatus, egregio munificentiae exemplo,
                 heic in patria sua gymnasium pueris grammaticae disciplinis et humanioribus litteris
                 instituendis extruxit. Sacerdotes magistros quique, mercede constituta, eidem
@@ -311,192 +327,192 @@
                 iisdemque magistris archipresb. noster praesit. Ferdinandi Orefices exemplum sequuti
                 sunt Paulus Valter Roboretanus, Franciscus Piamarta Roboretanus, Barptolemaus Betta
                 sac. Roboretanus, qui subsequentibus annis pecuniam non paucam eidem legavere.</p>
-        <p>
-          <date>1673</date>. Maria Ioanna a cruce sacra virgo, quae claralum virginum caenobium ad divi
-                Karoli contituit, sanctissime ibi diem obiit supremum.<pb xml:id="F16"/>Eamdem virtutibus,<gap/>, multisque prodigiis claram, in prudentum virginum chorum exceptam esse omnium
+        <p n="p68">
+          <date n="date1">1673</date>. Maria Ioanna a cruce sacra virgo, quae claralum virginum caenobium ad divi
+                Karoli contituit, sanctissime ibi diem obiit supremum.<pb n="pb2" xml:id="F16"/>Eamdem virtutibus,<gap n="gap3"/>, multisque prodigiis claram, in prudentum virginum chorum exceptam esse omnium
                 ordinum homines uno ore praedicaverunt.</p>
-        <p>
-          <date>1674</date>. Sanctorum Sebastiani et Rochi sodales templum Catharinae sanctae hoc anno
+        <p n="p69">
+          <date n="date1">1674</date>. Sanctorum Sebastiani et Rochi sodales templum Catharinae sanctae hoc anno
                 primum celebravere, et in adiectam eorum commodo cellam, diebus festis ad sacra, et
                 ad sollemnes precationes convenerunt. Templum novum honori Mariae Karmelit., deleto
                 veteri quod ibi erat, aedificari caeptum est; cura et impensa patrum Karmelit.</p>
-        <p>
-          <date>1681</date>. Templum in vico, cui a Portis nomen est, uni ac trino Deo sacrum, ab annis
+        <p n="p70">
+          <date n="date1">1681</date>. Templum in vico, cui a Portis nomen est, uni ac trino Deo sacrum, ab annis
                 multis conditum, vetustate fatiscens, Ioannes Pizzinius domo Praga, quod tempore
                 pestilentiae illuc secedens e morbo omnino evaserit, grati animi ergo idem
                 restituit, omnique cultu exornavit.</p>
-        <p>
-          <date>1688</date>. Mariae sanctae Lauretanae honori aedem primam, collaticia stipe, cultores eius
+        <p n="p71">
+          <date n="date1">1688</date>. Mariae sanctae Lauretanae honori aedem primam, collaticia stipe, cultores eius
                 exaedificarunt instruxerunt.</p>
-        <p>
-          <date>1695</date>. Imago prodigialis deiparae adiutricis, cura et consilio Balthassaris Crineri
+        <p n="p72">
+          <date n="date1">1695</date>. Imago prodigialis deiparae adiutricis, cura et consilio Balthassaris Crineri
                 domo Monachio, incola Roboretanus, ad divi Marci in alt. Cosmae et Daminao
                 martyribus sacro posita est: quae exinde Roboretanorum pietatem et religionem in
                 virginem morborum et bellorum potentem fovit amplificavit.</p>
-        <p>
-          <date>1700</date>. In templum Mariae sanctae Lauretanae sodalitas SS. Sebastiani et Rochi
+        <p n="p73">
+          <date n="date1">1700</date>. In templum Mariae sanctae Lauretanae sodalitas SS. Sebastiani et Rochi
                 translata rite fuit.</p>
-        <p>
-          <pb xml:id="F17"/>Saeculo XVIII.</p>
-        <p>Anno Christi<date>1705</date>. Roboretani, magno Mariae virginis adiutricis beneficio, ab hostium
+        <p n="p74">
+          <pb n="pb1" xml:id="F17"/>Saeculo XVIII.</p>
+        <p n="p75">Anno Christi<date n="date1">1705</date>. Roboretani, magno Mariae virginis adiutricis beneficio, ab hostium
                 incursione tutati, et a bellorum terroribus prohibiti, votum suscepere diem festum
                 honori eiusdem patronae coelestis, nonis Augusti singulis annis colendi.</p>
-        <p>
-          <date>1708</date>. Aedes prima Mariae virginis Lauretanae sollemnibus caeremoniis dedicata.</p>
-        <p>
-          <date>1713</date>. Valetudinarium ad Mariae sanctae Lauretanae, cura et impensa sodalium S.S.
+        <p n="p76">
+          <date n="date1">1708</date>. Aedes prima Mariae virginis Lauretanae sollemnibus caeremoniis dedicata.</p>
+        <p n="p77">
+          <date n="date1">1713</date>. Valetudinarium ad Mariae sanctae Lauretanae, cura et impensa sodalium S.S.
                 Sebastiani ac Rochi excitatum: illuc aegroti qui erant ad divi Thomae translati
                 sunt.</p>
-        <p>
-          <date>1714</date>. Ioannes Baptista Camellius archipresbyter, anno honoris sui 52 diem suum
+        <p n="p78">
+          <date n="date1">1714</date>. Ioannes Baptista Camellius archipresbyter, anno honoris sui 52 diem suum
                 functus est: in eius locum fuit electus Balthassar Martinius domo Ripa Trident.
                 doctor theologiae, tunc Roma in patriam rediturs. Hic primus probatissimam sacrorum
                 disciplina, rerumque divinarum maiestatem in templo nostro induxit.</p>
-        <p>
-          <date>1715</date>. Ordo Roboretanus portam urbis secus Leni dexteram pecunia publica restituie
+        <p n="p79">
+          <date n="date1">1715</date>. Ordo Roboretanus portam urbis secus Leni dexteram pecunia publica restituie
                 exornavit; idemque, pro sua in Mariam Adiutricem pietate, prodigialem eius imaginem
                 pinxit, hac inscriptione subiecta:</p>
       </div>
-      <div>
-        <lg>
-          <l>patris ave genitrix, nati quoque filia salve:</l>
-          <l>hanc urbem virgo cerne tuere beata.</l>
+      <div n="div6">
+        <lg n="lg1">
+          <l n="l1">patris ave genitrix, nati quoque filia salve:</l>
+          <l n="l2">hanc urbem virgo cerne tuere beata.</l>
         </lg>
       </div>
-      <div>
-        <pb xml:id="F18"/>
-        <p>
-          <date>1717</date>. Cruces ligneae 13 in via Mariae montanae ad supremos D.N. Jesu cruciatus
+      <div n="div7">
+        <pb n="pb1" xml:id="F18"/>
+        <p n="p2">
+          <date n="date1">1717</date>. Cruces ligneae 13 in via Mariae montanae ad supremos D.N. Jesu cruciatus
                 recolendos hoc anno primum positae sunt; easdem archangelus Veronensis
                 Fransciscalium reformatorum sacerdos rite dedicavit. Iisdem cruucibus, nonnullos
                 post annos, imagines eorundem cruciatuum in parentibus 13 pictae suffectae sunt.</p>
-        <p>
-          <date>1722</date>. Martinio archipresbytero sacerdotum sodalitas constituta est; quae hoc sibi
+        <p n="p3">
+          <date n="date1">1722</date>. Martinio archipresbytero sacerdotum sodalitas constituta est; quae hoc sibi
                 propositum habet, ut sodalibus egenis infirmis ipsa opituletur; utique sodalibus in
                 pace Christi vita functis, precibus et hostiis lucem perpetuam adprecetur. Ad divi
                 Marci cinerarii fines prolati sunt. Ad divae Catharinae tribunalia admissis
                 poenitentium expiandis prostiterunt; et patres Franciscales Capulati hoc anno primum
                 eidem muneri sancto incubiere.</p>
-        <p>
-          <date>1724</date>. Ad divi Marci altari maximo ligneo alterum marmoreum, collaticia stipe,
+        <p n="p4">
+          <date n="date1">1724</date>. Ad divi Marci altari maximo ligneo alterum marmoreum, collaticia stipe,
                 suffectum est. Aedes Curialones prope templum SS. Redemptoris cum adiacenti
                 viridario pecunia publica archipresbytero adtributae sunt. Eodem anno aediculam
                 honori deiparae virginis in foro novo Pizzinia domus dedicavit: eadem sub huius anni
                 finem statis precibus lustrata est.</p>
-        <p>
-          <date>1725</date>. Sacrarium novum ad divi Marci conlata pecunia ab archipresbytero, a
+        <p n="p5">
+          <date n="date1">1725</date>. Sacrarium novum ad divi Marci conlata pecunia ab archipresbytero, a
                 sacerdotibus, ab ordine Roboretano, a corpore negotiatorum Bulsanensium, a civibus
                 multis, ante annos 10 coeptum, operibus absolutis dedicatum est.</p>
-        <pb xml:id="F19"/>
-        <p>
-          <date>1726</date>. Sodalitas cultorum deiparae perdolentis in aede Mariae sanctae Lauretanae
+        <pb n="pb6" xml:id="F19"/>
+        <p n="p7">
+          <date n="date1">1726</date>. Sodalitas cultorum deiparae perdolentis in aede Mariae sanctae Lauretanae
                 constituta.</p>
-        <p>
-          <date>1733</date>. Quaestionibus rite institutis de vita Ioannae Mariae a cruce virginis sacrae
+        <p n="p8">
+          <date n="date1">1733</date>. Quaestionibus rite institutis de vita Ioannae Mariae a cruce virginis sacrae
                 sanctissimo exitu defunctae, iisdemque ab annis 43 sacro consilio legitimis ritibus
                 cognoscendis exhibitis propositis, Clemens XII pontifex maximus decrevit, eamdem
                 dignam esse de cuius sanctitate quaeratur: exinde eadem virgo venerabilis dicta
                 fuit.</p>
-        <p>
-          <date>1735</date>. Balthassari Martinio archipresbytero, annorum 45 tantum, magno ecclesiae damno
+        <p n="p9">
+          <date n="date1">1735</date>. Balthassari Martinio archipresbytero, annorum 45 tantum, magno ecclesiae damno
                 praerepto, Felix Ios. Betta doctor thelogiae Roboretanus tunc Roma et ipse in
                 patriam reditus suffectus est.</p>
-        <p>
-          <date>1736</date>. Sacrae virgines Salesianae privata un domo porpoe forum anserum hoc anno primum
+        <p n="p10">
+          <date n="date1">1736</date>. Sacrae virgines Salesianae privata un domo porpoe forum anserum hoc anno primum
                 coaluere.</p>
-        <p>
-          <date>1738</date>. Aedem Mariae sanctae adiutrici in Vallelonga Graserii fratres Roboretani
+        <p n="p11">
+          <date n="date1">1738</date>. Aedem Mariae sanctae adiutrici in Vallelonga Graserii fratres Roboretani
                 dedicavere; eamdem Iosephus Rinaldius sac. Roboretanus ex auctoritate pont. Tride.
                 statis ritibus lustravit.</p>
-        <p>
-          <date>1739</date>. Honori Mariae sanctae ab suffragio templum aedificari caeptum est, solo a
+        <p n="p12">
+          <date n="date1">1739</date>. Honori Mariae sanctae ab suffragio templum aedificari caeptum est, solo a
                 Balthassare Nicolao Lindego adtributo, Felice Ios. Betta archipr. lapidem auspicalem
                 rite ponente: idque cura et impensa sodalium multorum, qui divi Thomae templi
                 cultores erant, ut in templo hoc novo sodalitas piorum manium admissis expiandis
                 esset.</p>
-        <pb xml:id="F20"/>
-        <p>
-          <date>1740</date>. Sodales SS. Sebastiani et Rochi, destructa funditus aede prima virginis
+        <pb n="pb13" xml:id="F20"/>
+        <p n="p14">
+          <date n="date1">1740</date>. Sodales SS. Sebastiani et Rochi, destructa funditus aede prima virginis
                 Mariae Lauretanae, et area facta, templum duplo maius quam aedis primae ibi prope ab
                 inchoato instruzerunt, eidemque virgini dedicavere. Ad divi Marci tintinnabula
                 quatuor reconflata sunt.</p>
-        <p>
-          <date>1741</date>. Incolae germani, ut rebus divinis eorum lingua imbuerentur in templum Mariae
+        <p n="p15">
+          <date n="date1">1741</date>. Incolae germani, ut rebus divinis eorum lingua imbuerentur in templum Mariae
                 sanctae gratiarum, ab annis 13 ab Andrea Vannetto sac. Roboretano aedificatum,
                 convenire coeperunt.</p>
-        <p>
-          <date>1743</date>. Templum Maria sanctae ad suffragio, operibus feliciter absolutis, Felix Ios.
+        <p n="p16">
+          <date n="date1">1743</date>. Templum Maria sanctae ad suffragio, operibus feliciter absolutis, Felix Ios.
                 Betta archipr. sollemni ritu lustravit: eidem templo nova sodalitas, piorum manium
                 admissis expiandis rite addicta est, quae vestes atratas induit.</p>
-        <p>
-          <date>1746</date>. Aedificato templo honori virginis hospitae in domo Elisabethae, et coenobio
+        <p n="p17">
+          <date n="date1">1746</date>. Aedificato templo honori virginis hospitae in domo Elisabethae, et coenobio
                 eidem adiecto, Ioannae Furloniae Pizziniae impensa, Angelo Antonio Rosminio sacerd.
                 Rob. auctore, Salesianae virgines collegium rite hoc anno constituerunt; puellisque
                 instituendis incubuere.</p>
-        <p>
-          <date>1747</date>. Corpus incolarum germanorum ex templo Mariae sanctae gratiarum ad Mariae
+        <p n="p18">
+          <date n="date1">1747</date>. Corpus incolarum germanorum ex templo Mariae sanctae gratiarum ad Mariae
                 virginis ab suffragio, sodalibus atratis probantibus, translatum est. Ibi sacerdos
                 praesto fuit, qui eorum lingua confessiones sacras audiret, iisdemque doctrinam
                 catholicam traderet.</p>
-        <pb xml:id="F21"/>
-        <p>
-          <date>1750</date>. Controversia magna fuit, eademque auditu incredibilis. Sodales albati
+        <pb n="pb19" xml:id="F21"/>
+        <p n="p20">
+          <date n="date1">1750</date>. Controversia magna fuit, eademque auditu incredibilis. Sodales albati
                 Christi corpori comitando ius sedendi in summo templi Marciani subsellario,
                 sacerdotibus posthabitis, sibi vindicare conati sunt. Trident. pontifex litem
                 diremit, iuraque sacerdotum adservit: eius sententiam Io. Bapt. Graser saccerd. Rob.
                 doctissima commentatione illustravit. Haec circa tempora, cura et studio Felicis
                 Bettae archipresb. subsellia nova pro clero et populo ad divi Marci facta sunt; et
                 altaribus quatuor ligneis altaria quatuor marmorea suffecta.</p>
-        <p>
-          <date>1759</date>. Aedes valetudinarii ad Mariae sanctae Lauretanae prolatae duere. Ad divi Marci
+        <p n="p21">
+          <date n="date1">1759</date>. Aedes valetudinarii ad Mariae sanctae Lauretanae prolatae duere. Ad divi Marci
                 tabulam pictam Rosminii fratres pecunia propria Marco sancto dedicaverunt: eademque
                 circumcirca opere marmoreo, pecunia publica et collaticia exculta est.</p>
-        <p>
-          <date>1760</date>. Marmoream aediculam Christi corpori servando Thomas Bilienus Roboretanus eidem
+        <p n="p22">
+          <date n="date1">1760</date>. Marmoream aediculam Christi corpori servando Thomas Bilienus Roboretanus eidem
                 altari dedicavit.</p>
-        <p>
-          <date>1762</date>. Hieronymo Tartarotto Serbato Roboretano, philologo, poetae, scritpis claro, in
+        <p n="p23">
+          <date n="date1">1762</date>. Hieronymo Tartarotto Serbato Roboretano, philologo, poetae, scritpis claro, in
                 pace Christi vita functo, ordo Roboretanus, tertio ab eius obitus mense, funus cultu
                 splendidissimo, instauravit; et honoris gratia in templo divi Marci hermam eius
                 iconicam posuit, inscriptione subiecta: huius rei causa ex decreto pont. Trid. idem
                 templum iure sacrorum privatum est; nec nisi post nonum mensem (heram ablat eademque
                 in curia magistratus urbani posita) idem ius restitutum fuit.</p>
-        <pb xml:id="F22"/>
-        <p>
-          <date>1763</date>. Hagna Christiani filia Faita Francisci Vangheri uxor, sine liberis,
+        <pb n="pb24" xml:id="F22"/>
+        <p n="p25">
+          <date n="date1">1763</date>. Hagna Christiani filia Faita Francisci Vangheri uxor, sine liberis,
                 fratribus undecim superstes unica, collegio virginum sacrarum Karmelitarum sua
                 pecunia ab annis 8 constituto, eadem pro iisdem templum in honore sacrosanctae
                 crucis dominu nostri Jesu de suo vivens dedicavit. Curatores rei municiplais
                 bibliothecam publicam instituerunt: eamdem clerus, cum litteraria Lentorum
                 sodalitate ab annis 13 condita, curare coepit; addito tempore amplificavit.</p>
-        <p>
-          <date>1765</date>. Felix Jos. Betta archipresb. anno honoris sui 30, lugentibus bonis omnibus,
+        <p n="p26">
+          <date n="date1">1765</date>. Felix Jos. Betta archipresb. anno honoris sui 30, lugentibus bonis omnibus,
                 vita functus est: in eius locum electus fuit Antonius Ios. Gasperinius
                 Roboretanus.</p>
-        <p>
-          <date>1768</date>. Christophorus Sizzu Trident. pont. templum novum honori Mariae sanctae
+        <p n="p27">
+          <date n="date1">1768</date>. Christophorus Sizzu Trident. pont. templum novum honori Mariae sanctae
                 Lauretanae ritu sollemni dedicavit.</p>
-        <p>
-          <date>1769</date>. Gasperinius archipresb. anno tertio tantum postquam honorem suum auspicatus
+        <p n="p28">
+          <date n="date1">1769</date>. Gasperinius archipresb. anno tertio tantum postquam honorem suum auspicatus
                 fuerat, obiit diem suum: eidem Balthassar Astes Rob. suffectus est.</p>
-        <p>
-          <date>1770</date>. Ex indulgentia Clementis XIV pontificis maximi datum est, ut in templo divi
+        <p n="p29">
+          <date n="date1">1770</date>. Ex indulgentia Clementis XIV pontificis maximi datum est, ut in templo divi
                 Marci sacra nocturna natali D.N. Jesu recolendo ante mediam noctem fieri possent</p>
-        <p>
-          <date>1775</date>. Pueris, litteris bonisque moribus informandis, et catechesibus christianis
-                instituendis, munificentia Mariae Theresiae augustae ludus lit<pb xml:id="F23"/>terarius apertus
+        <p n="p30">
+          <date n="date1">1775</date>. Pueris, litteris bonisque moribus informandis, et catechesibus christianis
+                instituendis, munificentia Mariae Theresiae augustae ludus lit<pb n="pb2" xml:id="F23"/>terarius apertus
                 est. Nonnullis post annis imp. caes. Franciscus archipresbyterum divi Marci eidem
                 ludo praefecit.</p>
-        <p>
-          <date>1777</date>. Sorores ab Jesu nomine nuncupatae, quae iam annis 61, ritu quodam privato, in
+        <p n="p31">
+          <date n="date1">1777</date>. Sorores ab Jesu nomine nuncupatae, quae iam annis 61, ritu quodam privato, in
                 curia nostra initium habuere, hoc anno ad SS. redemptoris in sodalitatem legitimam
                 coaluerunt.</p>
-        <p>
-          <date>1778</date>. Pecunia ab Adamo Pedronio comite sodalibus SS. Sebastiani et Rochi,
+        <p n="p32">
+          <date n="date1">1778</date>. Pecunia ab Adamo Pedronio comite sodalibus SS. Sebastiani et Rochi,
                 sodalibusque a caritate, legata, iisdem curantibus, valetudinario ad Mariae sanctae
                 Lauretanae accessio magna adiuncta est.</p>
-        <p>
-          <date>1782</date>. Pius VI pontifex maximus Vienna urbem repetens Roboretum fausto adventu
+        <p n="p33">
+          <date n="date1">1782</date>. Pius VI pontifex maximus Vienna urbem repetens Roboretum fausto adventu
                 exhilaravit; in aedibus Pizzinorum noctem peregit; magistratui, otpimatibus,
                 sacerdotibus manum ad osculum praebuit, populoque frequentissimo pacem rite
                 precatus, sacro ad divi Marci adfuit. Idem Romam reversus, urbem nostram observantia
@@ -504,82 +520,82 @@
                 s. Crucis, dissoluto collegio sacrarum virginum, quae tertiano Karmelitar. ordini
                 adscitae erant, eadem ex auctoritate pont. trid., virginibus sacris Anglicanis
                 nomine dato, coenobium retinuerunt; puellisque instituendis incubuere.</p>
-        <p>
-          <date>1785</date>. Corpus musicorum, qui fidibus et tubis et concentibus loco sacro minus aptis,
-                res divinas ab annis multis perturbabant, et templo<pb xml:id="F24"/>divi Marci, ex decreto
+        <p n="p34">
+          <date n="date1">1785</date>. Corpus musicorum, qui fidibus et tubis et concentibus loco sacro minus aptis,
+                res divinas ab annis multis perturbabant, et templo<pb n="pb2" xml:id="F24"/>divi Marci, ex decreto
                 ordinis Rob., multis plaudentibus submotum est. Per haec tempora advenerunt tristia.
                 Exaugurata templa Barbarae sanctae et Thomae sancti; deletum hospitium quod ibi
                 erat; disoolutum coenobium sodalium Karmelitar. ac coenobium virginum Claralium;
                 earumque templum divino Karolo sacrum expoliatum; templum Mariae sanctae in monte
                 occlusum; sacrae sodalitates dissolutae; sanctorum ritum ratio immutata; aliaque
                 huius generis multa acta sunt.</p>
-        <p>
-          <date>1787</date>. In suburbio, quod a Thoma sancto nomen habuit, Caesar augustus curiam
+        <p n="p35">
+          <date n="date1">1787</date>. In suburbio, quod a Thoma sancto nomen habuit, Caesar augustus curiam
                 constituit, templum Mariae Karmelit. adtribuit novo curioni maiori, qui iure suo
                 ageret; hoc unico pacto adiecto, quod ipse et sacerdotes curiani supplicationem die
                 festo Marci sancti una cum clero divi Marci faciant, utique cum eodem pompae
                 ducendea die festo corporis Christi conveniant. Philippus Chiusole Rob. curio maior
-                primus fuit. Eidem anno<date>1793</date>Sigismundus Calpestrius sacerdos domo Ticino successit.
-                Huic vita functo Ioann. Vincentius Lutzius Rob. suffectus est anno<date>1797</date>Ioannes
-                Baptista Pola Ausugiensis anno<date>1819</date>curio maior quartus fuit, qui sexto honoris sui
+                primus fuit. Eidem anno<date n="date2">1793</date>Sigismundus Calpestrius sacerdos domo Ticino successit.
+                Huic vita functo Ioann. Vincentius Lutzius Rob. suffectus est anno<date n="date3">1797</date>Ioannes
+                Baptista Pola Ausugiensis anno<date n="date4">1819</date>curio maior quartus fuit, qui sexto honoris sui
                 mense decessit. In eius locum electus est Barptolemaeus Oliarius domo Tilliarno
-                Leudriano anno<date>1820</date>. Huic praerepto suffectus est anno 1834 Franciscus Guella domo
+                Leudriano anno<date n="date5">1820</date>. Huic praerepto suffectus est anno 1834 Franciscus Guella domo
                 Pranso Iudicariensium.</p>
-        <p>
-          <date>1788</date>. Balthassari Aste archipresbytero diem suum functo Iosephus Ioann. Bapt. f.
+        <p n="p36">
+          <date n="date1">1788</date>. Balthassari Aste archipresbytero diem suum functo Iosephus Ioann. Bapt. f.
                 Baronius Rob. iudex clericis probandis suffectus est.</p>
-        <pb xml:id="F25"/>
-        <p>Dissolutis ad Mariae sanctae ab suffragio sodalibus atratis, incolae germani
+        <pb n="pb37" xml:id="F25"/>
+        <p n="p38">Dissolutis ad Mariae sanctae ab suffragio sodalibus atratis, incolae germani
                 illius templi cultores fuere: eidem templo a pont. Trid. indultum est ut sacramenti
                 sanctissimi quotidie adservandi iure in posterum potiatur.</p>
-        <p>
-          <date>1790</date>. Deletis templis Thomae et Barbarae, Osvaldus Andreae f. Candelpergher aedem
+        <p n="p39">
+          <date n="date1">1790</date>. Deletis templis Thomae et Barbarae, Osvaldus Andreae f. Candelpergher aedem
                 honori Osvaldi martyris in eorundem loco sua pecunia aedificavit, eidemque dotem
                 instruxit. Anno eodem templum magnae matris Dei in monte, quod occlusum, non sine
                 eius numine integrum steterat, cultores eius, eadem ipsis propitia, noctu vi illata
                 recluserunt, rebusque divinis, nemine oppugnate, idem restituere. Addito tempore
                 Ioannes Baptista Caietani f. Tacchius Rob. negotiator sericarius templum idem sua
                 pecunia redemit, excoluit, cultumque eius adseruit amplificavit.</p>
-        <p>
-          <date>1791</date>. Ios. Baronius archipresb. ex auctoritate pont. Trid. aedem Osvaldi, cui
+        <p n="p40">
+          <date n="date1">1791</date>. Ios. Baronius archipresb. ex auctoritate pont. Trid. aedem Osvaldi, cui
                 auspicalem lapidem posuerat, ritu sacro lustravit. Idem alteram Marciani cinerarii
                 accessionem statis precibus dedicavit.</p>
-        <p>
-          <date>1792</date>. Ad divi Marci honori corporis Christi amplificando cella eidem dedicata est;
+        <p n="p41">
+          <date n="date1">1792</date>. Ad divi Marci honori corporis Christi amplificando cella eidem dedicata est;
                 cura et studio Francisci et Gaspari fratrum Telaniorum sacerdotum, impensa praecipua
                 Iosephi Hyacinthi f. Torelli sac. Rob. et collaticia stipe.</p>
-        <p>
-          <date>1794</date>. Bellorum timore, et populorum seditionibus Deus multorum faciem ignominia<pb xml:id="F26"/>implevit; multique nomen eius quaesierunt. Sacra, quae ad virginis adiutricis
+        <p n="p42">
+          <date n="date1">1794</date>. Bellorum timore, et populorum seditionibus Deus multorum faciem ignominia<pb n="pb2" xml:id="F26"/>implevit; multique nomen eius quaesierunt. Sacra, quae ad virginis adiutricis
                 patrocinium implorandum, ex voto suscepto, constituta erant, et ab annis nonnullis
                 fiebant languore multo, Roboretani nonis Augusti ritu sollemni splendidoque cultu
                 instauravere.</p>
-        <p>
-          <date>1796</date>. Ad divi Marci, tabulae inter D.N. Jesu ad crucem referentes a Fransciscalium
+        <p n="p43">
+          <date n="date1">1796</date>. Ad divi Marci, tabulae inter D.N. Jesu ad crucem referentes a Fransciscalium
                 reformatorum praefecto ritu legitimo dedicatae sunt.</p>
-        <p>
-          <date>1798</date>. Valetudinario ad Mariae Lauretanae sacerdos adtributus est, qui in diaeta ibi
+        <p n="p44">
+          <date n="date1">1798</date>. Valetudinario ad Mariae Lauretanae sacerdos adtributus est, qui in diaeta ibi
                 eidem designata aegrorum commodo moraretur.</p>
-        <p>Saeculo XIX.</p>
-        <p>Anno Christi<date>1801</date>. Templum Mariae sanctae Lauretanae (cuius post sodalitatem SS.
+        <p n="p45">Saeculo XIX.</p>
+        <p n="p46">Anno Christi<date n="date1">1801</date>. Templum Mariae sanctae Lauretanae (cuius post sodalitatem SS.
                 Sebastiani et Rochi dissolutam, sacerdotes accolae ultro cultores fuerunt, sunt) hoc
                 anno primum sollemnibus quoque conventibus diebus festis, adoratione publica
                 sacramenti Augusti, et sermonibus audiendis populus celebrare caepit: idque Iacobo
                 Norilleto Roboretano auctore, qui huius rei gratia pecuniam vivens legavit.</p>
-        <p>
-          <date>1802</date>. Iosephus Baronius archipresb. annorum 47 tantum, diem non suum functus est; in
+        <p n="p47">
+          <date n="date1">1802</date>. Iosephus Baronius archipresb. annorum 47 tantum, diem non suum functus est; in
                 eius locum electus fuit Iacobus Tabarellius Roboretanus iudex clericirs probandis.
                 Hic theologiae egregius magister fuerat in seminario sacro Tridentino, eiusdemque
                 rector; postea Muriensium curio maior; quo munere, adventante senecta, abdicato,
-                paucos<pb xml:id="F27"/>post annos, patria ductus caritate, curionale onus iterum suscepit.
+                paucos<pb n="pb2" xml:id="F27"/>post annos, patria ductus caritate, curionale onus iterum suscepit.
                 Sodales albati Christi corpori comitando, iam ab annis 16 dissoluti, pallio brevi
                 rubro assumpto, revixerunt, Balthassare Gasparis f. Bonfiolio, et Iosepho Antonii f.
                 Bridio auctorius. Iidem sodales, addito tempore, aptam peciniae summam erogaverunt,
                 condixerunt, ut ex fenore eius sodales mendici et aegri sustenentur.</p>
-        <p>Sodalitas quoque atratorum ad Mariae sanctae ab suffragio, ab annis 16 plus minus,
+        <p n="p48">Sodalitas quoque atratorum ad Mariae sanctae ab suffragio, ab annis 16 plus minus,
                 dissoluta, ipsius templi commodo rite restituta est. Ibi subinde et sorores eiusdem
                 sodalitatis coalurere.</p>
-        <p>
-          <date>1803</date>. Sacra, quae triduo ante sollemne ieiunium intermissa fuerant, curantibus
+        <p n="p49">
+          <date n="date1">1803</date>. Sacra, quae triduo ante sollemne ieiunium intermissa fuerant, curantibus
                 sodalibus tempus sorores ab Iesu nomine nuncupatae, Sevriano Trennero sac. Rob.
                 auctore, ad SS. redemptoris restitutae sunt. Eadem hoc sibi propositum habent, ut
                 cultu praecipuo Iesum, Mairam, Angelos, Iosephum Sanctum colant; ut salutaribus
@@ -587,100 +603,100 @@
                 Christi vita functis veniam sacrificiis a Deo appetant; utique piis manibus egenorum
                 curiae nostrae, qui nihil quo efferantur relinquunt, piaculari hostia in
                 uniuscuiusque funere lucem perpetuam adprecentur.</p>
-        <p>
-          <date>1806</date>. Aedem Georgii Mart. in agro vetustate fatiscentem, et a militibus pollutam
+        <p n="p50">
+          <date n="date1">1806</date>. Aedem Georgii Mart. in agro vetustate fatiscentem, et a militibus pollutam
                 violata, Gasp. Ant. Iosephi Antonii f. Bonfiolius sac. Rob. impensa sua et
                 collaticia stipe refecit, sacraque turri excoluit. Eandem Iac. Tabarellius
-                archipresb.,<pb xml:id="F28"/>ex auctoritate pont. trid., sollemnibus caeremoniis expiavit.</p>
-        <p>
-          <date>1810</date>. Iterum clades et calamitates. Templum divi Rochi profanatum est. Patres
+                archipresb.,<pb n="pb2" xml:id="F28"/>ex auctoritate pont. trid., sollemnibus caeremoniis expiavit.</p>
+        <p n="p51">
+          <date n="date1">1810</date>. Iterum clades et calamitates. Templum divi Rochi profanatum est. Patres
                 Franciscales reformati, patres quoque Franciscales Capulati eorum collegio
                 dissoluto, Galliae imperatoris et regis Italiae decreto, ex eorum coenobio migrare
                 iussi sunt.</p>
-        <p>
-          <date>1811</date>. Rei beneficiariae administrandae, cui olim incumbebant vel sodales a caritate,
+        <p n="p52">
+          <date n="date1">1811</date>. Rei beneficiariae administrandae, cui olim incumbebant vel sodales a caritate,
                 vel sodales SS. Sebastiani et Rochi, vel magistratus urbanus, Seviri ex ordine
                 civium, una cum archipresbytero divi Marci hoc anno primum constituti sunt.</p>
-        <p>
-          <date>1812</date>. In templo Catharinae virginis et Mart. diebus festis adoratio publica
+        <p n="p53">
+          <date n="date1">1812</date>. In templo Catharinae virginis et Mart. diebus festis adoratio publica
                 sacramenti Augusti in frequenti populorum conventu, bonis omnibus probantibus, fieri
                 coepit. Virginum Salesianarum collegium Galliae imperatoris et Italiae regis
                 decreto, dissolutum fuit; earum coenobium ac templum execratum, militumque
                 contunbernio adtributum. Eadem, ante annos 30 plus minus, virginum Claralium
                 coenobium adiectumque templum dono a Caesare augusto acceperunt, acceptaque dona
                 vendiderunt, et in profanos usus ea converti passae sunt.</p>
-        <p>
-          <date>1814</date>. Iacobo Tabarellio archipresb. diem suum functo Ioannes Bapt. Locatellius Rob.
+        <p n="p54">
+          <date n="date1">1814</date>. Iacobo Tabarellio archipresb. diem suum functo Ioannes Bapt. Locatellius Rob.
                 suffectus est. Hic primus fuit, qui, ex auctoritate pont. Trid. vicarii for. munere
-                fungens, praefuit tantum curiae Mariae Karmelit., Floriani sancti Liz<pb xml:id="F29"/>zanensium,
+                fungens, praefuit tantum curiae Mariae Karmelit., Floriani sancti Liz<pb n="pb2" xml:id="F29"/>zanensium,
                 Antonii sancti Licianulorum, sancti Vigilii Vallisarsianorum, SS. Petri et Pauli
                 Terragnolensium, Mariae sanctae Avolanensium, sanctae Agathae Bisinellianorum, et
                 sancti Laurentii Fulgaridensium. Archipresbyteri divi Marci, qui antea fuerunt, ab
                 anni 200 plus munus vicar. for. munere fungentes, praeerant curiae quoque Alanae,
                 Muriensi, Gardumensi, Iserianae, villensi Lagarinor. et Pomarolianae.</p>
-        <p>
-          <date>1815</date>. Ad divi Marci tintinnabula sex collaticia stipe reconflata sunt. Eodem hoc
-                anno, reddita<placeName>Europae</placeName>pace, Franciscales patres Capulati in eorum coenobium ad divae
+        <p n="p55">
+          <date n="date1">1815</date>. Ad divi Marci tintinnabula sex collaticia stipe reconflata sunt. Eodem hoc
+                anno, reddita<placeName n="placeName2">Europae</placeName>pace, Franciscales patres Capulati in eorum coenobium ad divae
                 Catharinae, patresque Franciscales reformati ad divi Rochi, bonis plaudentibus,
                 magno rei Christianae commodo, reversi sunt; et votorum compotes, vestibus
                 resumptis, disciplinam veterem repetiere.</p>
-        <p>
-          <date>1818</date>. Clericis cantoribus hoc tempore imminutis, cantorum laicorum schola ad divi
+        <p n="p56">
+          <date n="date1">1818</date>. Clericis cantoribus hoc tempore imminutis, cantorum laicorum schola ad divi
                 Marci constituta est.</p>
-        <p>
-          <date>1820</date>. Templum sanctae crucis ad collegium sacrarum virginum Anglicarum ab Iosepho
+        <p n="p57">
+          <date n="date1">1820</date>. Templum sanctae crucis ad collegium sacrarum virginum Anglicarum ab Iosepho
                 Provedio Manfrinio Clodiensium pontefice sollemnibus caeremoniis dedicatum est.</p>
-        <p>Eodem anno idem pontifex templum Mariae sanctae Karmelit. ab anni 50 perfectum
+        <p n="p58">Eodem anno idem pontifex templum Mariae sanctae Karmelit. ab anni 50 perfectum
                 excultum, statis ritibus sollemniter consecravit. Domus puellis ab Andrea Vannetto
                 sac. Roboretano, et Margarita Fogolaria legata, aperta est.</p>
-        <pb xml:id="F30"/>
-        <p>
-          <date>1823</date>. Potiorem in catechesibus tradendis rationem Locatellius archipresbyter
+        <pb n="pb59" xml:id="F30"/>
+        <p n="p60">
+          <date n="date1">1823</date>. Potiorem in catechesibus tradendis rationem Locatellius archipresbyter
                 revocavit induxit: pueris ac puellis diligentioribus, praemia seu munuscula, Ioanne
                 Battistio sac. Roboretano auctore, iterum tribuere, more veteri, coeptum est.</p>
-        <p>
-          <date>1827</date>. Templum Mariae sanctae ab suffragio nuper operibus perfectum a Francisco Xaver.
+        <p n="p61">
+          <date n="date1">1827</date>. Templum Mariae sanctae ab suffragio nuper operibus perfectum a Francisco Xaver.
                 Luschinio Trid. pont. sollemnibus ritibus consecratum est.</p>
-        <p>
-          <date>1831</date>. Aediculam, quam Iosephus Antonius Iosephi filius Bridius Rob. in cilla sua
+        <p n="p62">
+          <date n="date1">1831</date>. Aediculam, quam Iosephus Antonius Iosephi filius Bridius Rob. in cilla sua
                 nuperrime honori Mariae sanctae peccatorum perfugii ab inchoato aedificavit, omnique
                 cultu exornavit, Ioannes Bapt. Locatellius archipresb. eamdem cum adiacenti
                 Cinerario statis ritibus sollemniter ex auctoritate pont. Trid. lustravit.</p>
-        <p>
-          <date>1832</date>. Pueris ac puellis mystici epuli expertibus hoc anno primum, pontificis Trid.
+        <p n="p63">
+          <date n="date1">1832</date>. Pueris ac puellis mystici epuli expertibus hoc anno primum, pontificis Trid.
                 admonitu, prout ab annis multis in votis multorum erat, apto ritu sollemni corpus
                 Domini datum est.</p>
-        <p>
-          <date>1833</date>. In arce Roboretana ante anno 50 plus minus condita, ab annis 36 a militibus,
+        <p n="p64">
+          <date n="date1">1833</date>. In arce Roboretana ante anno 50 plus minus condita, ab annis 36 a militibus,
                 incendii causa, deserta, ex pecunia legata, et collaticia stipe, domus hospitalis
                 mendicis excipiendis sustentandis, improbisque custodiendis, cura et studio
                 curatorum rei beneficiariae, Deo auspice aperta est. Archipresb. noster ex
-                auctoritate pontificis Trid. aediculam annae sanctae ibi restitutam sollem<pb xml:id="F31"/>nibus
+                auctoritate pontificis Trid. aediculam annae sanctae ibi restitutam sollem<pb n="pb2" xml:id="F31"/>nibus
                 caeremoniis lustravit, ac iu sacrorum eidem iterum reddidit.</p>
-        <p>
-          <date>1834</date>. In templo divi Marci, sollemnibus conventibus angusto, cellae binae, solo a
+        <p n="p65">
+          <date n="date1">1834</date>. In templo divi Marci, sollemnibus conventibus angusto, cellae binae, solo a
                 magistratu urbano adtributo, Locatellio archipresbytero auctore, cleri ac populi
                 impensa, per curatores eiusdem templi aedificatae sunt: in alteram earum altare
                 Hieronymi sancti translatum est; in alteram illud divi Ioannis Baptistae.</p>
-        <p>Ioanni Bapt. Locatellio archipresb. de mensa pignoraticia bene merenti, anno hnoris
+        <p n="p66">Ioanni Bapt. Locatellio archipresb. de mensa pignoraticia bene merenti, anno hnoris
                 sui 20, vita functo, Antonius Modesti f. Rosminius Serbatus Rob. doct. theologiae
                 iudex clericis probandis suffectus est.</p>
-        <p>Aedibus redemptis ubi erat aedes divo Iosepho sacra, aedes curionales, aperto ex eis
+        <p n="p67">Aedibus redemptis ubi erat aedes divo Iosepho sacra, aedes curionales, aperto ex eis
                 ad templum maximum adito, constitutae sunt: in earum parte inferiori Asceterion in
                 honorem Iosephi sancti pueris catechesibus informandis dedicatum.</p>
-        <p>Hoc anno primum, ex decreto Sevirum rei beneficiariae administrandae, re ab
+        <p n="p68">Hoc anno primum, ex decreto Sevirum rei beneficiariae administrandae, re ab
                 Locatellio archipresbytero iam concepta, in grati animi exemplum, parentalia
                 sollemnia piis manibus maiorum nostrorum, quorum pietate ac benedicentia egeni,
                 aegroti, mendici, puellae parentibus orbae sustentantur, cunctis plaudentibus, semel
                 in anno fieri coeperunt.</p>
-        <p>Templo Mariae sanctae in monte (cui ab annis 10 Ioannes Bapt. Tacchius de suo, et
+        <p n="p69">Templo Mariae sanctae in monte (cui ab annis 10 Ioannes Bapt. Tacchius de suo, et
                 pecunia a Caietano eius fratre legata, sacredotem adtribuit, riteque designavit, ut
                 in subsidium curionis maioris ibidem sacris operetur) pont. Trid. dedit indulsit ius
                 sacramenti sanctissimi quotidie adservandi, idemque statis diebus adorationis causa
                 populo proponendi.</p>
-        <pb xml:id="F32"/>
-        <p>
-          <date>1835</date>. Aediculm ab annis 100 pl. min. Mariae Sanctae in colle septentrionali
+        <pb n="pb70" xml:id="F32"/>
+        <p n="p71">
+          <date n="date1">1835</date>. Aediculm ab annis 100 pl. min. Mariae Sanctae in colle septentrionali
                 conditam (quam labefactam Vicentius Antonii f. Tambosius novus agri ibi circumpositi
                 dominus nuper agricolarum commodo restauravit excoluit) Rosminius Serbatus
                 archipresb. ex auctorit. pont. trid. statis ritibus sollemniter lustravit. Idem
@@ -688,8 +704,8 @@
                 Cinerario veteri posthabito, quod octo circiter passibus ab eodem templo quinfentis
                 passibus distans constitutum fuit: idem iussu pont. Trid. Gasparus Zandonatus Rob.
                 curiae vacantis curator sub huius anni finem ritu sollemni dedicavit.</p>
-        <p>
-          <date>1836</date>. Antonio Rosminio Serbato archipresb. suffectus est Ignatius Sardagna
+        <p n="p72">
+          <date n="date1">1836</date>. Antonio Rosminio Serbato archipresb. suffectus est Ignatius Sardagna
                 Tridentinus, cui, propitio numine aeterno, fausta et felicia cuncta in annos multos
                 succedant.</p>
       </div>

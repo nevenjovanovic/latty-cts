@@ -25,6 +25,28 @@
                     Ferdinand Karls mit Anna von Medici (1646), Innsbruck 2002.</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1646" period="16xx_2_third">1646</date>
@@ -49,108 +71,108 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:anonymus52492.latty2810397.latty-lat1:">
-    <body>
-      <div>
-        <head>Spes aurei saeculi In auspicatissimis Ferdinandi Caroli Austriaci, Annae Mediceae, Serenissimorum Austriae Archiducum Nuptijs Musico enthusiasmo concepta et in theatro cantata a Musis Oenipontanis. Anno M. DC. XLVI. Jun.</head>
-        <p>Domi nobis honorarij huius spectaculi argumentum est
-                    natum,<emph>Ferdinande Carole</emph>, Archidux et
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">Spes aurei saeculi In auspicatissimis Ferdinandi Caroli Austriaci, Annae Mediceae, Serenissimorum Austriae Archiducum Nuptijs Musico enthusiasmo concepta et in theatro cantata a Musis Oenipontanis. Anno M. DC. XLVI. Jun.</head>
+        <p n="p2">Domi nobis honorarij huius spectaculi argumentum est
+                    natum,<emph n="emph1">Ferdinande Carole</emph>, Archidux et
                     Sponse Serenissime. Amabilem Patriae Pacem, quam supremi Numinis favore et
-                    bonorum caelitum patrocinio Serenissimus Parens tuus<emph>Leopoldus</emph>gloriosissimae memoriae pietate
+                    bonorum caelitum patrocinio Serenissimus Parens tuus<emph n="emph2">Leopoldus</emph>gloriosissimae memoriae pietate
                     et fortitudine sua inter vicinum armorum strepitum fundavit et Serenissima Mater
-                    tua<emph>Claudia</emph>indefessa vigilantia et
+                    tua<emph n="emph3">Claudia</emph>indefessa vigilantia et
                     prudentia conservavit tuque Patriae aeternam stabilies, spectandam damus.</p>
       </div>
-      <div>
-        <head>Tragico – comoedia Tyrolis pacifica</head>
+      <div n="div2">
+        <head n="head1">Tragico – comoedia Tyrolis pacifica</head>
       </div>
-      <div type="prologus">
-        <head>
-          <pb xml:id="F3r"/>Prologus</head>
-        <stage>Periocha: Sophronius et
+      <div n="div3" type="prologus">
+        <head n="head1">
+          <pb n="pb1" xml:id="F3r"/>Prologus</head>
+        <stage n="stage2">Periocha: Sophronius et
                             Eulalius Sophi corrumpendam vastandae Germaniae formam coniciunt e
                             fluctuante et fugiente Romani Imperij pomo, mole sua vitioque intestino
                             laborante, non obscuris facis bellicae mox erupturae argumentis. –
                             Theatrum: Urbs, e cuius ultimo recessu globus Romani Imperij in primam
                             proscenij frontem promovetur, caelo sereno.</stage>
-        <stage>(Symphonia – Prologus
+        <stage n="stage3">(Symphonia – Prologus
                             canitur)</stage>
-        <sp>
-          <speaker>Sophronius – Eulalius: Sophi</speaker>
-          <p>Sophronius,
+        <sp n="sp4">
+          <speaker n="speaker1">Sophronius – Eulalius: Sophi</speaker>
+          <p n="p2">Sophronius,
                             Eulalius: Dignum oculis theatrum!
                         Romanum in compendio orbem spectabimus una.</p>
-          <p>Sophronius:
+          <p n="p3">Sophronius:
                         Orexim suscitat decumanum tot saeculorum hoc pomum –</p>
-          <p>Eulalius:
+          <p n="p4">Eulalius:
                         Aureum! Aetatem tulit – ut porro ferat, timeo! Iam fugit.</p>
-          <p>Sophronius:
+          <p n="p5">Sophronius:
                         Quam teres atque rotundum! Quam exactum ad unguem!</p>
-          <p>Eulalius:
+          <p n="p6">Eulalius:
                         Turgens ambitioso cortice placet, ni vitium intus alit !</p>
-          <p>Uterque<stage>(pulsans)</stage>: Ventosa
+          <p n="p7">Uterque<stage n="stage1">(pulsans)</stage>: Ventosa
                         cucurbita! Nil intus est nisi magnum inane. Cadaver elegans! Sine succo,
                         sine sanguine, sine anima!</p>
-          <p>Sophronius: Si
+          <p n="p8">Sophronius: Si
                         hiet, in magnum fatiscat pulverem, ut solent, quae Gomorrhaea Pomona
                         educat.</p>
-          <stage>(Vox in pomo: eheu!)</stage>
-          <p>Eulalius: At
+          <stage n="stage9">(Vox in pomo: eheu!)</stage>
+          <p n="p10">Eulalius: At
                         enim, vocale gemit!</p>
-          <stage>(Vox: eheu! ah!
+          <stage n="stage11">(Vox: eheu! ah!
                         vae!)</stage>
-          <p>Eulalius:
+          <p n="p12">Eulalius:
                         Altius canit naeniam.</p>
-          <stage>(Movetur varie)</stage>
-          <p>Uterque:
-                        Movetur! Nutat! Fluctuat! Plenum sui<pb xml:id="F3v"/>et ebrium malis sit malum.</p>
-          <stage>(Vox: arma, arma
+          <stage n="stage13">(Movetur varie)</stage>
+          <p n="p14">Uterque:
+                        Movetur! Nutat! Fluctuat! Plenum sui<pb n="pb1" xml:id="F3v"/>et ebrium malis sit malum.</p>
+          <stage n="stage15">(Vox: arma, arma
                         viri!)</stage>
-          <note>1 Pars jma. D; cf. 62,1. – 11 Soph Phronius D. – 13
+          <note n="note16">1 Pars jma. D; cf. 62,1. – 11 Soph Phronius D. – 13
                         incompendio D. – 18 victium D. – 19 Cataver D.</note>
-          <p>Quis novus Enceladus in latus se vertit? Casum portendit
+          <p n="p17">Quis novus Enceladus in latus se vertit? Casum portendit
                     fluctuatio.</p>
-          <stage>(Gyratur)</stage>
-          <p>Eulalius: Volvitur
+          <stage n="stage18">(Gyratur)</stage>
+          <p n="p19">Eulalius: Volvitur
                     in gyros et sequendo se noxium fugit.</p>
-          <stage>(Pulsatur tympanum)</stage>
-          <p>Sophronius: Civile
+          <stage n="stage20">(Pulsatur tympanum)</stage>
+          <p n="p21">Sophronius: Civile
                     bellum gliscit! O grande vulnus Reipublicae!</p>
-          <p>Eulalius:
+          <p n="p22">Eulalius:
                     Tempestas intra viscera murmurat. Pronus orbis impetu latente ruit.</p>
-          <stage>(Fluctuat)</stage>
-          <p>Uterque: Quin
+          <stage n="stage23">(Fluctuat)</stage>
+          <p n="p24">Uterque: Quin
                     Eridis pomum fugimus? In aspidis ovum degenerat. O pullum orbi pessimum: multis
                     scelus excoctum saeculis parturit ovum. Vae Romano imperio, si pariat!</p>
-          <stage>(In orbem agitur)</stage>
-          <p>Ut trochus potenti manu crebro verbere in orbem
+          <stage n="stage25">(In orbem agitur)</stage>
+          <p n="p26">Ut trochus potenti manu crebro verbere in orbem
                     fatigatur.</p>
-          <stage>(Subsilit)</stage>
-          <p>Ut pila absilit. Forte an datatim ludent Reges – o ludum
+          <stage n="stage27">(Subsilit)</stage>
+          <p n="p28">Ut pila absilit. Forte an datatim ludent Reges – o ludum
                     tragicum!</p>
-          <stage>(Pulsatur tympanum)</stage>
-          <p>Quam ferum mugit taurus! Europam semel nobis abstulisse,
-                    satis,<add resp="editor">vae</add>satis est!</p>
-          <stage>(Ictus ad incudem
+          <stage n="stage29">(Pulsatur tympanum)</stage>
+          <p n="p30">Quam ferum mugit taurus! Europam semel nobis abstulisse,
+                    satis,<add n="add1" resp="editor">vae</add>satis est!</p>
+          <stage n="stage31">(Ictus ad incudem
                         continuantur)</stage>
-          <p>Ergo ferreum in incude saeculum calet?</p>
-          <stage>(Tympanum. Incus pulsant.
+          <p n="p32">Ergo ferreum in incude saeculum calet?</p>
+          <stage n="stage33">(Tympanum. Incus pulsant.
                         Piroboli ex orbe eminent. Voces eiulantium, formam explodunt)</stage>
-          <note>28 ach D. – 36 exploduntur D.</note>
+          <note n="note34">28 ach D. – 36 exploduntur D.</note>
         </sp>
       </div>
-      <div type="pars" n="1">
-        <head>Pars prima</head>
-        <div type="scena" n="1">
-          <head>Scena prima</head>
-          <p>Periocha: Astraea aequissimam
+      <div n="div4" type="pars">
+        <head n="head1">Pars prima</head>
+        <div n="div2" type="scena">
+          <head n="head1">Scena prima</head>
+          <p n="p2">Periocha: Astraea aequissimam
                         Numinis iram ruenti certatim in scelera Germaniae et novis quotidie haeresum
                         factionibus distractae denunciat. Bellum bellique appendices, miserias et
                         flebiles catastrophas divina canit. Bello, singulari Numinis favore, eximios
                         fore promittit Tirolensis et Austriacae aquilae montes. – Theatrum: Prodit e
                         medio caelo Astraea, inter coëuntes sensim nubes.</p>
-          <sp>
-            <speaker>Astraea</speaker>
-            <p>Quousque Coelo insultas, o impietas? Ergone nascentur
+          <sp n="sp3">
+            <speaker n="speaker1">Astraea</speaker>
+            <p n="p2">Quousque Coelo insultas, o impietas? Ergone nascentur
                     etiam nec fient tantum scelerati faecundo in scelera hoc saeculo? Non serpunt
                     iam, sed volant mala, dieque fit deterior hesterno dies praesens. Vis et ius
                     iuxta habentur. Ite, catenata mala: poenas dant improbi, Mars et Mors exigant!
@@ -158,7 +180,7 @@
                     aequa solo! Albescant ossibus campi, metantur immaturi bello! Funera senum ac
                     iuvenum condensentur, nec parcatur imbelli senui! Bellum e bello feratur,
                     senescente uno malo, nascantur alia cum faenore: ferax Hydra bellum
-                    iuvenescentia iactet capita!<pb xml:id="F4v"/>Inchoatam a lacrymis vitam cum lacrymis
+                    iuvenescentia iactet capita!<pb n="pb1" xml:id="F4v"/>Inchoatam a lacrymis vitam cum lacrymis
                     finiant mortales: pueri inter arma senescant immemores ignari pacis, nec senes
                     meminerint, quae Patriae olim pacatae fuerit facies, tam miseri plurimi, ut
                     morte careant. Nec vilibus tantum capitibus et infleta turba litabitur vindici
@@ -168,9 +190,9 @@
                     victorijs et felicitate antiqua modo ebria Germania prodit, nunc scenam
                     spectatura extimam suarum cladium, dum agatur, aut ipsa agat ad quintum usque
                     actum, quam orchestra dedit et Deus personam. Corona fessum, erige!</p>
-            <note>19 contenscentur D, cf. app. sim. – 20sq. Iactet capita bis
+            <note n="note3">19 contenscentur D, cf. app. sim. – 20sq. Iactet capita bis
                     ante correctionem D. – 26 est] sunt D.</note>
-            <note>14 Hor. carm. 3,6,17 fecunda culpae saecula. – 17 Verg. Aen.
+            <note n="note4">14 Hor. carm. 3,6,17 fecunda culpae saecula. – 17 Verg. Aen.
                     12,569 aequa solo fumantia culmina ponam. – 17sq. Verg. Aen. 12,36 campique
                     ingentes ossibus albent. – 18sq. Hor. carm. 1,28,19sq. mixta senum ac iuvenum
                     densentur funera. – 19 Hor. carm. 3,2,15sq. nec parcit imbellis iuventae /
@@ -178,59 +200,59 @@
                     turba.</note>
           </sp>
         </div>
-        <div type="scena" n="2">
-          <head>Scena secunda</head>
-          <p>Periocha: Assueta triumphis
+        <div n="div3" type="scena">
+          <head n="head1">Scena secunda</head>
+          <p n="p2">Periocha: Assueta triumphis
                             Germania, curru superbo sublimis, victis insultans, inter suorum
                             acclamationes exultat. Sed nubila caeli facies, et cometes bellicae
                             tempestatis nuncius gaudium omne decollat. – Theatrum: Ad currum
                             Germaniae triumphalem hostes vincti trahuntur, herbam porrigunt. Caelum
                             nubibus asperatur, fulgurat, tonat. Cometes futuri fax belli
                         micat.</p>
-          <sp>
-            <speaker>Germania – Duo Genij<add resp="editor">Germania</add>
+          <sp n="sp3">
+            <speaker n="speaker1">Germania – Duo Genij<add n="add1" resp="editor">Germania</add>
             </speaker>
-            <p>Gloria laxis mihi frenis inequitat. His auspicijs
+            <p n="p2">Gloria laxis mihi frenis inequitat. His auspicijs
                         pergite, Germani heroes, facinora equestri statua digna facere! Triumphos
                         augere meos! Herbam porrigant et laurum victi: discant dominam pati et
                         fasces vereri Germanicos, iubente sic aequo bellorum arbitro. O utinam
                         nunquam desit, quod invideant hostes mihi! Vincula mordeant, et se laedant
                         catenata turba, indignatio in tormentum suum proficiat, vulnus iactatione
                         fiet gravius!</p>
-            <stage>(Rittornello laetum)</stage>
+            <stage n="stage3">(Rittornello laetum)</stage>
           </sp>
-          <sp>
-            <speaker>Duo genij</speaker>
-            <l>Germanas Aquila</l>
-            <l>Inter victorias</l>
-            <l>
-              <add resp="editor">Alta coelo sedit</add>,</l>
-            <l>
-              <add resp="editor">Signum regale</add>.</l>
-            <stage>
-              <pb xml:id="F5r"/>(Rittornello
+          <sp n="sp4">
+            <speaker n="speaker1">Duo genij</speaker>
+            <l n="l2">Germanas Aquila</l>
+            <l n="l3">Inter victorias</l>
+            <l n="l4">
+              <add n="add1" resp="editor">Alta coelo sedit</add>,</l>
+            <l n="l5">
+              <add n="add1" resp="editor">Signum regale</add>.</l>
+            <stage n="stage6">
+              <pb n="pb1" xml:id="F5r"/>(Rittornello
                             repetitur)</stage>
-            <l>Qua patet oriens,</l>
-            <l>Qua latet Occidens:</l>
-            <l>Volitantis famae</l>
-            <l>Gloria clara est.</l>
-            <stage>(Rittornello
+            <l n="l7">Qua patet oriens,</l>
+            <l n="l8">Qua latet Occidens:</l>
+            <l n="l9">Volitantis famae</l>
+            <l n="l10">Gloria clara est.</l>
+            <stage n="stage11">(Rittornello
                         repetitur)</stage>
-            <note>16 arbritro D. – 25 post victorias versus ultimi recisi
+            <note n="note12">16 arbritro D. – 25 post victorias versus ultimi recisi
                         sunt, suppl. exempli gratia.</note>
-            <note>18 Sen. epist. 28,3 insidens pondus quod ipsa iactatione
+            <note n="note13">18 Sen. epist. 28,3 insidens pondus quod ipsa iactatione
                         incommodius fit.</note>
-            <stage>(Tenebrescit)</stage>
-            <l>Germana laureae</l>
-            <l>Corollae tempora</l>
-            <l>Cingunt, praefert dextra</l>
-            <l>Bellica palmam.</l>
-            <stage>(Rittornello
+            <stage n="stage14">(Tenebrescit)</stage>
+            <l n="l15">Germana laureae</l>
+            <l n="l16">Corollae tempora</l>
+            <l n="l17">Cingunt, praefert dextra</l>
+            <l n="l18">Bellica palmam.</l>
+            <stage n="stage19">(Rittornello
                         repetitur)</stage>
           </sp>
-          <sp>
-            <speaker>Germania</speaker>
-            <p>Et quis mihi casus, quis occasus eripit diem!
+          <sp n="sp5">
+            <speaker n="speaker1">Germania</speaker>
+            <p n="p2">Et quis mihi casus, quis occasus eripit diem!
                         Ferruginea palla Coelum insortescit! Quae lucem tenebrae sepeliunt amabilem!
                         Heu, miseram me Germaniam! Subtexit nox atra polos! Maestae nubes faciem
                         asperant, et riget Coeli inclementia. Iracundo schemate ignes maligni futura
@@ -238,115 +260,115 @@
                         motus! Et Martem et Mortem capillis post se trahit infaustum sidus! Quam
                         triste rutilat! Iam oculi dolent. Vestram fidem, o stellae, posthuma solis
                         semina!</p>
-            <stage>
-              <pb xml:id="F5v"/>(Rittornello
+            <stage n="stage3">
+              <pb n="pb1" xml:id="F5v"/>(Rittornello
                             triste)</stage>
           </sp>
-          <sp>
-            <speaker>Duo Genij</speaker>
-            <l>Vae, vae Reginae,</l>
-            <l>Te spectant minae!</l>
-            <l>Dolo, Germania,</l>
-            <l>Torve te lumina</l>
-            <l>Fixa tuentur.</l>
-            <stage>(Rittornello
+          <sp n="sp6">
+            <speaker n="speaker1">Duo Genij</speaker>
+            <l n="l2">Vae, vae Reginae,</l>
+            <l n="l3">Te spectant minae!</l>
+            <l n="l4">Dolo, Germania,</l>
+            <l n="l5">Torve te lumina</l>
+            <l n="l6">Fixa tuentur.</l>
+            <stage n="stage7">(Rittornello
                         repetitur)</stage>
-            <l>Eheu, maerores!</l>
-            <l>Tristis cometes</l>
-            <l>Crinito fulmine,</l>
-            <l>Fatali syrmate</l>
-            <l>Fata minatur.</l>
-            <note>1 Tenebresci<add resp="editor">t</add>(recisum) in marg. add. man. al. plumbo
+            <l n="l8">Eheu, maerores!</l>
+            <l n="l9">Tristis cometes</l>
+            <l n="l10">Crinito fulmine,</l>
+            <l n="l11">Fatali syrmate</l>
+            <l n="l12">Fata minatur.</l>
+            <note n="note13">1 Tenebresci<add n="add1" resp="editor">t</add>(recisum) in marg. add. man. al. plumbo
                         D. – 24sq.Vae, vae, Reginae, te spectant minae uno versu D.</note>
-            <note>12 Verg. Aen. 1,88 eripiunt subito nubes caelumque
+            <note n="note14">12 Verg. Aen. 1,88 eripiunt subito nubes caelumque
                         diemque. – 14 Subtexit…polos] Stat. Theb. 1,346. – 17 Vulg. Matth. 16,3
                         rutilat enim triste caelum.</note>
-            <stage>(Rittornello
+            <stage n="stage15">(Rittornello
                         repetitur)</stage>
-            <l>Quis hanc caesariem</l>
-            <l>Alcides nobis</l>
-            <l>Tondebit forfice</l>
-            <l>Crinita Gorgone</l>
-            <l>Magis impexam?</l>
-            <stage>(Rittornello
+            <l n="l16">Quis hanc caesariem</l>
+            <l n="l17">Alcides nobis</l>
+            <l n="l18">Tondebit forfice</l>
+            <l n="l19">Crinita Gorgone</l>
+            <l n="l20">Magis impexam?</l>
+            <stage n="stage21">(Rittornello
                         repetitur)</stage>
           </sp>
-          <sp>
-            <speaker>Germania</speaker>
-            <p>O tristes lessi! O funebres naeniae! Undae
-                        fleant, antra gemant, suspirent<pb xml:id="F6r"/>sylvae, querantur arbores! Horreat
+          <sp n="sp7">
+            <speaker n="speaker1">Germania</speaker>
+            <p n="p2">O tristes lessi! O funebres naeniae! Undae
+                        fleant, antra gemant, suspirent<pb n="pb1" xml:id="F6r"/>sylvae, querantur arbores! Horreat
                         tellus attonita! I, fide ceratis fortunae alis! I, vitream adora Deam
                         consistere loco nesciam. Agnosco supremi Numinis in tergum flagrantes meum
                         fasces.</p>
-            <stage>(Fulgura)</stage>
-            <p>Trifida lingua polus micat et clare irascitur
+            <stage n="stage3">(Fulgura)</stage>
+            <p n="p4">Trifida lingua polus micat et clare irascitur
                         Coelum: me petunt repetita fulmina! Tempestas non perfunctoria tibi imminet
                         Germania, nec nubes tantum in conflictum coëunt: acies adversas specto,
                         spissantur ordines, campo in sidereo proelia miscentur. Abvertite omen, boni
                         Coelites! Serijs vulneribus tragoediae nostrae praeluditur!</p>
           </sp>
         </div>
-        <div type="scena" n="3">
-          <head>Scena tertia</head>
-          <p>Periocha: Augent imminentium
+        <div n="div4" type="scena">
+          <head n="head1">Scena tertia</head>
+          <p n="p2">Periocha: Augent imminentium
                             calamitatum Germaniae omina: praeludit iratum Caelum infelicibus armis
                             lacrymabili Germaniae theatro. – Theatrum: Adversae inter nubes
                             congrediuntur acies.</p>
-          <stage>(Musica instrumentalis Martia
+          <stage n="stage3">(Musica instrumentalis Martia
                             subtristis. Coëunt acies adversae in Coelo. Chorus plenus, cui concinent
                             duo Genij)</stage>
-          <note>18 in marg. add. man. al. plumbo D. – 22 insidereo D.</note>
-          <sp>
-            <speaker>Duo Cantus,<add resp="editor">Chorus</add>
+          <note n="note4">18 in marg. add. man. al. plumbo D. – 22 insidereo D.</note>
+          <sp n="sp5">
+            <speaker n="speaker1">Duo Cantus,<add n="add1" resp="editor">Chorus</add>
             </speaker>
-            <l>Horrida facies, Martis effigies,</l>
-            <l>Efferi pedites, celeres equites,</l>
-            <l>Singuli praepetes ruunt in acies!</l>
-            <stage>(Musica instrumentalis
+            <l n="l2">Horrida facies, Martis effigies,</l>
+            <l n="l3">Efferi pedites, celeres equites,</l>
+            <l n="l4">Singuli praepetes ruunt in acies!</l>
+            <stage n="stage5">(Musica instrumentalis
                             repetitur)</stage>
-            <p>
-              <pb xml:id="F6v"/>Reboant tympana, resonant classica,</p>
-            <l>Accinit fistula, buccinat buccina,</l>
-            <l>Infremunt agmina, tarara tantara!</l>
-            <stage>(Musica instrumentalis
+            <p n="p6">
+              <pb n="pb1" xml:id="F6v"/>Reboant tympana, resonant classica,</p>
+            <l n="l7">Accinit fistula, buccinat buccina,</l>
+            <l n="l8">Infremunt agmina, tarara tantara!</l>
+            <stage n="stage9">(Musica instrumentalis
                             repetitur)</stage>
-            <l>Solvitur acies, rupti sunt ordines,</l>
-            <l>Incitant comites, ingruunt turbines,</l>
-            <l>Fugiunt milites, Duces et Principes.</l>
-            <stage>(Musica instrumentalis
+            <l n="l10">Solvitur acies, rupti sunt ordines,</l>
+            <l n="l11">Incitant comites, ingruunt turbines,</l>
+            <l n="l12">Fugiunt milites, Duces et Principes.</l>
+            <stage n="stage13">(Musica instrumentalis
                             repetitur)</stage>
-            <l>Avolant aquilae fusae Germaniae,</l>
-            <l>Currite, currite, fugite, fugite,</l>
-            <l>O vae vae miserae, perditae Patriae!</l>
-            <stage>(Musica instrumentalis
+            <l n="l14">Avolant aquilae fusae Germaniae,</l>
+            <l n="l15">Currite, currite, fugite, fugite,</l>
+            <l n="l16">O vae vae miserae, perditae Patriae!</l>
+            <stage n="stage17">(Musica instrumentalis
                             repetitur)</stage>
-            <l>Clamitant: caedite, tundite, quatite,</l>
-            <l>Agite, volvite, vertite, fundite:</l>
-            <l>O quae sunt lacrimae tristis Germaniae!</l>
-            <stage>(Musica instrumentalis
+            <l n="l18">Clamitant: caedite, tundite, quatite,</l>
+            <l n="l19">Agite, volvite, vertite, fundite:</l>
+            <l n="l20">O quae sunt lacrimae tristis Germaniae!</l>
+            <stage n="stage21">(Musica instrumentalis
                             repetitur)</stage>
           </sp>
-          <sp>
-            <speaker>Germania</speaker>
-            <p>Eheu, unicus telorum scopus Germania! Nil
+          <sp n="sp6">
+            <speaker n="speaker1">Germania</speaker>
+            <p n="p2">Eheu, unicus telorum scopus Germania! Nil
                         constantius fortunae inconstantia! In curru, rota Magistra, sortem disco
                         meam!</p>
-            <note>11 Enn. ann. 140 At tuba terribili sonitu taratantara
+            <note n="note3">11 Enn. ann. 140 At tuba terribili sonitu taratantara
                         dixit.</note>
           </sp>
         </div>
-        <div type="scena" n="4">
-          <head>Scena quarta</head>
-          <p>Periocha: Quinque Martis
+        <div n="div5" type="scena">
+          <head n="head1">Scena quarta</head>
+          <p n="p2">Periocha: Quinque Martis
                             Feciales caelitus conspicui Germaniae bellum indicunt et, ut perire se
                             sentiat, ipsos ad arma Germanos tubarum classico vocant. – Theatrum:
                             Quinque inter nubes Martis Genij, quorum unus in Pegaso, reliqui in
                             nubibus volant tubas bellicas inflantes.</p>
-          <sp>
-            <speaker>
-              <pb xml:id="F7r"/>Genij Martis quinque inter nubes
+          <sp n="sp3">
+            <speaker n="speaker1">
+              <pb n="pb1" xml:id="F7r"/>Genij Martis quinque inter nubes
                         Genius primus:</speaker>
-            <p>Ut accepi imperium, in Pegasum hunc strenuo receptus sum saltu, et ne moram
+            <p n="p2">Ut accepi imperium, in Pegasum hunc strenuo receptus sum saltu, et ne moram
                         faceret, suggessi calcaria, curriculo fuit opus: et volucri equo urgent
                         Martis iussa. Cum primum tubae clangorem exaudiet Pegasus, circum praecordia
                         sanguis gliscet, et aures cacuminabit hinniens. Bellum fero a iustissimo
@@ -357,86 +379,86 @@
                         paulatim) Quidquid belli est, ad arma cogendum est! (inflat, sequuntur
                         omnes) Agite, pubes Martia, animose!</p>
           </sp>
-          <sp>
-            <speaker>Omnes:</speaker>
-            <p>Ad arma
+          <sp n="sp4">
+            <speaker n="speaker1">Omnes:</speaker>
+            <p n="p2">Ad arma
                         fortiter!</p>
           </sp>
-          <sp>
-            <p>Genius primus:
+          <sp n="sp5">
+            <p n="p1">Genius primus:
                         Date signum, aeneatores: armis res disceptabitur!</p>
           </sp>
-          <sp>
-            <p>Omnes:
+          <sp n="sp6">
+            <p n="p1">Omnes:
                         Frementi rictu raucaque voce tuba bellum vomat.</p>
           </sp>
-          <sp>
-            <p>Genius primus:
+          <sp n="sp7">
+            <p n="p1">Genius primus:
                         Heus miles, campos caedibus sepeli!</p>
           </sp>
-          <sp>
-            <p>Genius
-                            secundus: Cadaveribus<pb xml:id="F7v"/>flumina sterne!</p>
+          <sp n="sp8">
+            <p n="p1">Genius
+                            secundus: Cadaveribus<pb n="pb1" xml:id="F7v"/>flumina sterne!</p>
           </sp>
-          <sp>
-            <p>Genius
+          <sp n="sp9">
+            <p n="p1">Genius
                         tertius: Tot funeribus Germaniam tumula, ita preme, ut vix spiritum
                         trahat!</p>
           </sp>
-          <sp>
-            <p>Genius
+          <sp n="sp10">
+            <p n="p1">Genius
                         quartus: Ferrea malorum eluvies agros mergat!</p>
           </sp>
-          <sp>
-            <p>Genius
+          <sp n="sp11">
+            <p n="p1">Genius
                         quintus: Necessitudinis foedera civili disrumpe tuba!</p>
           </sp>
-          <sp>
-            <p>Genius
+          <sp n="sp12">
+            <p n="p1">Genius
                         quartus: Odijs intestinis fratres committe!</p>
           </sp>
-          <sp>
-            <p>Genius
+          <sp n="sp13">
+            <p n="p1">Genius
                         tertius: Nullum ius sit sanguini!</p>
           </sp>
-          <sp>
-            <p>Genius
+          <sp n="sp14">
+            <p n="p1">Genius
                             secundus: Exempla ede, quae cothurni luctum superent!</p>
           </sp>
-          <sp>
-            <p>Genius primus:
+          <sp n="sp15">
+            <p n="p1">Genius primus:
                         Arma, ferrum, tela expedi! Relinquenda veteris malitiae militiaeque
                         tirocinia. Grassandum est palmaribus facinoribus!</p>
           </sp>
-          <sp>
-            <p>Genius
+          <sp n="sp16">
+            <p n="p1">Genius
                             secundus: Cruorem non leviter, libet ex asse, fundat mucro!</p>
           </sp>
-          <note>11 suggressi D. – 18 Quid quid D. – 34 exasse D.</note>
-          <note>28 Cic. fam. 6,12,3 quem illi appellant ‘tubam belli
+          <note n="note17">11 suggressi D. – 18 Quid quid D. – 34 exasse D.</note>
+          <note n="note18">28 Cic. fam. 6,12,3 quem illi appellant ‘tubam belli
                         civilis’.</note>
-          <sp>
-            <p>Genius
+          <sp n="sp19">
+            <p n="p1">Genius
                         quintus: Nec aetati nec sexui parcatur!</p>
           </sp>
-          <sp>
-            <speaker>Genius tertius:</speaker>
-            <p>Hoc supersit solatij, malorum habere socios.</p>
+          <sp n="sp20">
+            <speaker n="speaker1">Genius tertius:</speaker>
+            <p n="p2">Hoc supersit solatij, malorum habere socios.</p>
           </sp>
-          <sp>
-            <speaker>Genius quartus:</speaker>
-            <p>Nec sic tamen belli erit satis.</p>
+          <sp n="sp21">
+            <speaker n="speaker1">Genius quartus:</speaker>
+            <p n="p2">Nec sic tamen belli erit satis.</p>
           </sp>
-          <sp>
-            <speaker>Genius primus:</speaker>
-            <p>Ad hos modos salta, Germania! Perculsa tellure echo redeat!<stage>(Inflant omnes,
+          <sp n="sp22">
+            <speaker n="speaker1">Genius primus:</speaker>
+            <p n="p2">Ad hos modos salta, Germania! Perculsa tellure echo redeat!<stage n="stage1">(Inflant omnes,
                         imitantur instrumenta)</stage>Iam tandem, Furiae, Iani fores refringite: Ianus fiat
                         Proteus!</p>
           </sp>
         </div>
-        <div type="scena" n="5">
-          <head>Scena quinta</head>
-          <p>Periocha: Reseratur tandem
+        <div n="div6" type="scena">
+          <head n="head1">Scena quinta</head>
+          <p n="p2">Periocha: Reseratur tandem
                             Iani templum. Evolat armatus et accensus Mars stragem per Germaniam
                             longe lateque editurus. Accendit Germaniam, ea accipit ignem, ardet.
                             Totam tragoediam musica hypotyposis etiam auribus subicit. – Theatrum:
@@ -444,449 +466,449 @@
                             reserat tandem fores et bellum foras emittit. Omnis aetas, sexus, ordo
                             miserabiliter agitur. Sol Austriacus, succedentibus alijs atque alijs
                             nubibus, per partes obnubitur.</p>
-          <stage>
-            <pb xml:id="F8r"/>(Symphonia laeta
+          <stage n="stage3">
+            <pb n="pb1" xml:id="F8r"/>(Symphonia laeta
                             militaris nonnihil. – Promoveatur templum Iani)</stage>
-          <sp>
-            <p>Choreuta
+          <sp n="sp4">
+            <p n="p1">Choreuta
                             primus: Age, Germana, Mavortia pubes! Quid domi stertimus? Quid
                         inerti otio torpemus? O bellum bellum, o bellum pulchellum, o bella vita
                         militaris! Si viri estis, si Germani sanguinis est gutta super – aures
                         vacivas, animum advortite – nomina dabitis!</p>
-            <p>Omnes:
+            <p n="p2">Omnes:
                         Dabimus, dabimus omnes et castra sequamur! Quam dulce, quam suave, quam
                         belle mugit bos mortuus!</p>
-            <p>Choreuta
+            <p n="p3">Choreuta
                             primus: Ad vitam excitat! Respiramus: sic vivere placet!</p>
-            <p>Choreuta
+            <p n="p4">Choreuta
                             secundus: Sic mori est volupe!</p>
-            <p>Omnes:
+            <p n="p5">Omnes:
                         Fortunae auspicijs!</p>
-            <p>Choreuta
+            <p n="p6">Choreuta
                             primus: Pax ignava, vale!</p>
-            <p>Choreuta
+            <p n="p7">Choreuta
                             secundus: Mars redivive, salve!</p>
-            <p>Choreuta
+            <p n="p8">Choreuta
                             primus: Vale, vale, umbra!</p>
-            <p>Choreuta
+            <p n="p9">Choreuta
                             secundus: Avete, arma, campi gloria!</p>
-            <p>Choreuta
-                            primus: Valete,<pb xml:id="F8v"/>obscuri Lares!</p>
-            <p>Choreuta
+            <p n="p10">Choreuta
+                            primus: Valete,<pb n="pb1" xml:id="F8v"/>obscuri Lares!</p>
+            <p n="p11">Choreuta
                             secundus: Avete, clarae acies!</p>
-            <note>11–17 Erumpit post diversas metamorphoses e Iani templo
+            <note n="note12">11–17 Erumpit post diversas metamorphoses e Iani templo
                         bellum sub proelio per musicam hypotyposin expresso et bacchatur D. – 19 non
                         nihil D; Promoveatur templum Iani in marg. add. man. al. D. – 21 om.
                         personam D; Choreuta ex abbreviatura coniectum, etiam Chorus legi potest,
                         vide comm.</note>
-            <note>1 Sen. Oed. 53 omnis aetas et sexus ruit; cf. 15.</note>
-            <p>Choreuta
+            <note n="note13">1 Sen. Oed. 53 omnis aetas et sexus ruit; cf. 15.</note>
+            <p n="p14">Choreuta
                             primus: Molle otium, vale!</p>
-            <p>Choreuta
+            <p n="p15">Choreuta
                             secundus: Virile negotium, salve!</p>
-            <p>Choreuta
+            <p n="p16">Choreuta
                             primus: Vale, toga!</p>
-            <p>Choreuta
+            <p n="p17">Choreuta
                             secundus: Salve, sagum!</p>
-            <p>Choreuta
+            <p n="p18">Choreuta
                             primus: Exulet Germania Pax obscurissima!</p>
-            <p>Choreuta
+            <p n="p19">Choreuta
                             secundus: Floreat Mars, Germanorum decus!</p>
-            <p>Omnes: Gradive
+            <p n="p20">Omnes: Gradive
                         Pater, tua signa sequemur: volones ducito! Ad alta, ad magna, ad opes, ad
                         census nobiles, ad honores!</p>
-            <p>Omnes: Ad
+            <p n="p21">Omnes: Ad
                         gloriam! Ius purpura nobis hostili pingetur sanguine. Laurus et palma nobis
                         crescunt peregre!</p>
-            <p>Omnes:
+            <p n="p22">Omnes:
                         Militiae erigemus trophaea hostium de spolijs. Io triumphe, triumphe,
                         cantabimus. Evolvite tandem, lenti cardines, ferreum Martis saeculum! Prodi,
                         ignibus iubate Mavors!</p>
-            <stage>(Mars prosilit)</stage>
-            <p>Impotens<del resp="editor">ex</del>exul tui, sarissam vibra, facem
+            <stage n="stage23">(Mars prosilit)</stage>
+            <p n="p24">Impotens<del n="del1" resp="editor">ex</del>exul tui, sarissam vibra, facem
                         iactita, per umbras tituba humani cruoris helluo!</p>
-            <p>Omnes: Ad
-                        arma, ad arma! I per medias ferreas cohortes, per tela, per hastas,<pb xml:id="F9r"/>per
+            <p n="p25">Omnes: Ad
+                        arma, ad arma! I per medias ferreas cohortes, per tela, per hastas,<pb n="pb1" xml:id="F9r"/>per
                         enses et ignes, dum litui fragor aere canoroso canit. Iacta galeam,
                         cataphracte eques! Ad arma! Irrue, pedes, magnus ense, gravis aere, hasta
                         tremendus! Arma, arma! Mutet sudor in cruorem: obscurus ne sit sanguis, in
                         auram exiliat! Concentu terrifico centum ora canant ferrea, explosa gemant
                         in partu metalla et ignita Coelum redeant suspiria! Mors volucris glandes
                         sequatur!</p>
-            <p>Omnes: Ad
+            <p n="p26">Omnes: Ad
                         arma, ad arma! Balista fremat, aera sonent, tormenta tonent! Viritim,
                         agminatim, caesim, punctim pugna! Miles, freme, fure, rue, pete, feri, fode,
                         sterne, fuga, funde, dele obvios!</p>
-            <stage>(Fugitivi)</stage>
-            <p>Ad arma, ad arma! Timeat, trepidet, horreat, exeat,
+            <stage n="stage27">(Fugitivi)</stage>
+            <p n="p28">Ad arma, ad arma! Timeat, trepidet, horreat, exeat,
                         fugiat, occidat hostis, funditus pereat hostis! Bella, bella, horrida bella!
                         Victritia signa volant! Victus est hostis! Iacet, hoc habet! Laureata cohors
                         ostentet viridi fronde triumphos! Date plausus, epinicia canite! Victoria,
                         Victoria, Victoria! Triumphus!</p>
-            <note>15 in marg. add. man. al. D. – 30 in marg. add. man. al.
+            <note n="note29">15 in marg. add. man. al. D. – 30 in marg. add. man. al.
                         D.</note>
-            <note>20 Verg. Aen. 9,503sq. At tuba terribilem sonitum procul
+            <note n="note30">20 Verg. Aen. 9,503sq. At tuba terribilem sonitum procul
                         aere canoro / increpuit. – 21sq. Hor. carm. 3,2,4 metuendus hasta. – 23
                         Verg. Aen. 6,625sq. (=georg. 2,43sq.) non, mihi si linguae centum sint
                         oraque centum, / ferrea vox. – 33 Verg. Aen. 6,86 bella, horrida bella.</note>
           </sp>
         </div>
-        <div type="scena" n="6">
-          <head>
-            <pb xml:id="F9v"/>Scena Sexta</head>
-          <p>Periocha: Feciales Martis
+        <div n="div7" type="scena">
+          <head n="head1">
+            <pb n="pb1" xml:id="F9v"/>Scena Sexta</head>
+          <p n="p2">Periocha: Feciales Martis
                             iusta Numinis ira bello intestino ardere Germaniam docent. – Theatrum:
                             Genij Martiales in machinis intra nubes volant.</p>
-          <sp>
-            <speaker>Genij Martis inter nubes</speaker>
-            <p>Genius primus:
+          <sp n="sp3">
+            <speaker n="speaker1">Genij Martis inter nubes</speaker>
+            <p n="p2">Genius primus:
                         Totum cultro iugulum praebet Germania: suis vulneribus favet saucia, ut
                         cadere se sentiat.</p>
-            <p>Genius
+            <p n="p3">Genius
                             secundus: Infelix mater, quae viperarum sobolem utero gerit.</p>
-            <p>Genius
+            <p n="p4">Genius
                         tertius: Secum ipsa certat. Augent belli civilis nefas Teutones.</p>
-            <p>Genius
+            <p n="p5">Genius
                         quartus: Degeneres nati, quibus aes triplex pectus asperat.</p>
-            <p>Genius
+            <p n="p6">Genius
                         quintus: Scythico cruori parcunt, ut maternum prodigant.</p>
-            <p>Genius primus:
+            <p n="p7">Genius primus:
                         Peregrinis moribus Germana res ruit – statura suis.</p>
-            <p>Genius
+            <p n="p8">Genius
                         tertius: Germanum candorem Punicus infecit fucus.</p>
-            <p>Genius
+            <p n="p9">Genius
                             secundus: Fraudum quam multis docile ingenium!</p>
-            <p>Genius
+            <p n="p10">Genius
                         quintus: Quot Sinones habet, quot polypos! Nummis venit Patria!</p>
-            <p>Genius
+            <p n="p11">Genius
                         quartus: Bifrontes doli faciem probam corrumpunt Germaniae.</p>
-            <p>Genius primus:
+            <p n="p12">Genius primus:
                         Parricidae impij in sua saeviunt viscera, ut furori serviant Balthico, ut
-                        hosti externo faveant.<pb xml:id="F10r"/>Bellum, bellum optant: Midarum haec vota sunt
+                        hosti externo faveant.<pb n="pb1" xml:id="F10r"/>Bellum, bellum optant: Midarum haec vota sunt
                         bis stulta, quia ferri et necis.</p>
-            <p>Genius
+            <p n="p13">Genius
                             secundus: Cum Phrygibus sero nepotes si sapient, cum sat datum
                         Germanico fuerit dedecori, satis Deo vindici.</p>
           </sp>
         </div>
-        <div type="saltatio">
-          <head>Saltatio</head>
-          <p>Periocha: Adumbratur fatalis
+        <div n="div8" type="saltatio">
+          <head n="head1">Saltatio</head>
+          <p n="p2">Periocha: Adumbratur fatalis
                             Germaniae metamorphosis, qua amici Germanorum animi in hostiles
                             efferantur. – Theatrum: Salij sex concordes primum, postea hastati et
                             hostes: demum terni singulos adversarios in mortualem choream
                             adigunt.</p>
-          <note>22 si fortasse delendum. – 26–31 Saltatio ex amica in
+          <note n="note3">22 si fortasse delendum. – 26–31 Saltatio ex amica in
                         hostilem et tragicam desinens D.</note>
-          <note>12 Hor. carm. 1,3,9sq. illi robur et aes triplex / circa
+          <note n="note4">12 Hor. carm. 1,3,9sq. illi robur et aes triplex / circa
                         pectus erat. – 14 Enn. ann. 500 Moribus antiquis res stat Romana virisque;
                         cf. etiam Hor. ep. 16,2 suis et ipsa Roma viribus ruit.</note>
         </div>
       </div>
-      <div type="pars" n="2">
-        <head>Pars Secunda</head>
-        <div type="scena" n="1">
-          <head>Scena prima</head>
-          <p>Periocha: Pax, plerisque
+      <div n="div5" type="pars">
+        <head n="head1">Pars Secunda</head>
+        <div n="div2" type="scena">
+          <head n="head1">Scena prima</head>
+          <p n="p2">Periocha: Pax, plerisque
                             Germaniae provincijs exul, e bellicis fluctibus in delphino velut e
                             naufragio enatat celeusma canens, ad Tirolim appellens quietis et
                             hospitij sui portum salutat, fidam rebus suis stationem. – Theatrum:
                             Tirolis montosa: explicatur in pristinam serenitatem caelum. Iris
                             prodroma Pacem in delphino advectam adesse nunciat.</p>
-          <stage>(Symphonia tristissima. Sub
+          <stage n="stage3">(Symphonia tristissima. Sub
                             hac Iris oritur super mare)</stage>
-          <sp>
-            <speaker>Pax</speaker>
-            <p>Natantem Superi cymbam corrigunt, ut exeam
+          <sp n="sp4">
+            <speaker n="speaker1">Pax</speaker>
+            <p n="p2">Natantem Superi cymbam corrigunt, ut exeam
                         naufragio. Iactata multum adversos fluctus inter iam pharum, iam portum
                         prospicio. Plus terris fuit quam undis fluxae fidei. Comperta cano:
-                        eliminavit Germana tellus pacem<add resp="editor">dedecoribus</add>plurimis – accepit et<pb xml:id="F10v"/>tulit unda. Proscripsere homines – extulit humanior fera. Discriminum fessae
+                        eliminavit Germana tellus pacem<add n="add1" resp="editor">dedecoribus</add>plurimis – accepit et<pb n="pb2" xml:id="F10v"/>tulit unda. Proscripsere homines – extulit humanior fera. Discriminum fessae
                         haec demum tuta erit statio: subi, subi portum, viva et fida carina! – Age,
                         Iris, lacrymantis poli filia, laetitiae modo nuntia: hac parte Coelum
                         explica, redeat fides laesi sereni! I, concita, et Tiroli Pacem adesse
                         nuntia!</p>
           </sp>
         </div>
-        <div type="scena" n="2">
-          <head>Scena secunda</head>
-          <p>Periocha: Felicitas Tirolis
+        <div n="div3" type="scena">
+          <head n="head1">Scena secunda</head>
+          <p n="p2">Periocha: Felicitas Tirolis
                             in aquila inter sidera sublimis Pacis adventum sibi gratulatur. Fit
                             mutua utrinque salutatio inter secunda vota et Supremi Numinis laudes. –
                             Theatrum: Pax in turbulento mari delphino, Felicitas aquilae Tirolis
                             rubrae insidens.</p>
-          <sp>
-            <speaker>Pax in delphino – Felicitas</speaker>
-            <p>Felicitas: O
+          <sp n="sp3">
+            <speaker n="speaker1">Pax in delphino – Felicitas</speaker>
+            <p n="p2">Felicitas: O
                         soror, Pax alma, salve! Tange littus, iunge dexteram!</p>
-            <note>5–9 Pax in delphino enatans D. – 11 inter Pars Secunda et
+            <note n="note3">5–9 Pax in delphino enatans D. – 11 inter Pars Secunda et
                         Scena prima D. – 18 dedecoribus] spatium unius fere verbi D; suppl. exempli
                         gratia.</note>
-            <note>19 tuta erit statio] Verg. georg. 4,421 statio tutissima
+            <note n="note4">19 tuta erit statio] Verg. georg. 4,421 statio tutissima
                         nautis.</note>
-            <p>Pax: O meta
+            <p n="p5">Pax: O meta
                         cursus mei! O quies laborum!</p>
-            <p>Felicitas:
+            <p n="p6">Felicitas:
                         Meas ne sperne rupes!</p>
-            <p>Pax: Placant:
+            <p n="p7">Pax: Placant:
                         totidem contra hostes sunt muri.</p>
-            <p>Felicitas:
+            <p n="p8">Felicitas:
                         Utere hospitio meo exul tot amicis olim tibi sedibus!</p>
-            <p>Pax: Quid vero
+            <p n="p9">Pax: Quid vero
                         iactatae mihi optatius!</p>
-            <p>Felicitas:
+            <p n="p10">Felicitas:
                         Quid vero immerenti mihi iucundius!</p>
-            <p>Pax: Constans
-                        ero, nec probum Pacis os<pb xml:id="F11r"/>ulla tempestas mutabit.</p>
-            <p>Felicitas: O
+            <p n="p11">Pax: Constans
+                        ero, nec probum Pacis os<pb n="pb1" xml:id="F11r"/>ulla tempestas mutabit.</p>
+            <p n="p12">Felicitas: O
                         foecunda mihi saxa, quibus Pacis inter bellorum grandines virebunt dona!</p>
-            <p>Pax: Excedere
+            <p n="p13">Pax: Excedere
                         coacta immiti sum solo, ubi ferrum in caedes provenit.</p>
-            <p>Felicitas: O
+            <p n="p14">Felicitas: O
                         me felicem, o millies et amplius beatam!</p>
-            <p>Pax: Nullus
+            <p n="p15">Pax: Nullus
                         oleam aquilae de vertice decerpet hostis, nec aquilo deiciet.</p>
-            <p>Felicitas: Tuo
+            <p n="p16">Felicitas: Tuo
                         beneficio, Pax, optatissima soror!</p>
-            <p>Pax: O montes!
+            <p n="p17">Pax: O montes!
                         Haec otia vobis fecit Deus, in quibus Austriacae aquilae sine periculo
                         nidificent!</p>
-            <p>Pax et
+            <p n="p18">Pax et
                             Felicitas: Benedicite, omnia opera Domini, Domino, laudate et
                         superexaltate eum in saecula! Benedicite, montes et colles, Domino, qui
-                        ponit<add resp="editor">in</add>fines vestros Pacem!</p>
+                        ponit<add n="add1" resp="editor">in</add>fines vestros Pacem!</p>
           </sp>
         </div>
-        <div type="scena" n="3">
-          <head>Scena tertia</head>
-          <p>Periocha: Montes et
+        <div n="div4" type="scena">
+          <head n="head1">Scena tertia</head>
+          <p n="p2">Periocha: Montes et
                             monticolae communiter gaudent iubentque salvere Pacem. Festivo cantu
                             omnia naturae et Patriae bona Paci dicant, consecrant. – Theatrum:
                             Gestientium Patriae montium laetitia instrumentis expressa.</p>
-          <stage>(Duo pastores canunt hinc
+          <stage n="stage3">(Duo pastores canunt hinc
                             inde in montibus)</stage>
-          <sp>
-            <p>Pastor primus:
+          <sp n="sp4">
+            <p n="p1">Pastor primus:
                         Insolita montes gestiunt laetitia!</p>
-            <p>Pastor
-                            secundus: Subsultant gaudibundi! Quid accidit<pb xml:id="F11v"/>novi?</p>
-            <p>Uterque: Ergo
+            <p n="p2">Pastor
+                            secundus: Subsultant gaudibundi! Quid accidit<pb n="pb1" xml:id="F11v"/>novi?</p>
+            <p n="p3">Uterque: Ergo
                         Pax adest! Pax aurea, salve! Nulla, nulla, nulla salus bello, Pacem te, te
                         poscimus omnes! Laxa sinum, Patria, sortem laetam explica! Quae
-                        tegis<note>13 benficio D. – 15 nidifficent D.</note>
-              <note>1 Verg. Aen. 3,392 is locus urbis erit, requies ea certa
+                        tegis<note n="note1">13 benficio D. – 15 nidifficent D.</note>
+              <note n="note2">1 Verg. Aen. 3,392 is locus urbis erit, requies ea certa
                         laborum. – 6 sq. Vulg. Dan. 3,57.75. – 11 Hor. carm. 1,13,17 felices ter et
                         amplius. – 12 Hor. carm. 3,30,3sq. non aquilo impotens / possit diruere. –
                         31sq. Verg. Aen. 11,362 nulla salus bello, pacem te poscimus omnes; cf. hic
                         100,20; 122,14sq.</note>vel inter viscera, omnia Pacis sunt munera! Coelo
                         lapsa Patrios tuere, Pax aurea, fines!</p>
-            <p>Pastor primus:
+            <p n="p4">Pastor primus:
                         Vitium gemmae,</p>
-            <p>Pator
+            <p n="p5">Pator
                         secundus: Hortorum et vallium flores,</p>
-            <p>Uterque:
+            <p n="p6">Uterque:
                         Montium opes et tu, sal argentee: coite, coronate Reginam Pacem! Canite,
                         sylvarum numina!</p>
-            <stage>(Chori Duo –
+            <stage n="stage7">(Chori Duo –
                             Rittornello)</stage>
-            <l>Chorus
+            <l n="l8">Chorus
                             primus: Lucete, gemmae vitium,</l>
-            <l>Et pampini, virete!</l>
-            <l>Chorus
+            <l n="l9">Et pampini, virete!</l>
+            <l n="l10">Chorus
                             secundus: Racemi, baccae, vineae,</l>
-            <l>Colliculi, gaudete!</l>
-            <l>Chorus
+            <l n="l11">Colliculi, gaudete!</l>
+            <l n="l12">Chorus
                             primus: In risus meros musteae</l>
-            <l>Vindemiae liquescant!</l>
-            <l>Chorus
+            <l n="l13">Vindemiae liquescant!</l>
+            <l n="l14">Chorus
                             secundus: Martis sint procul praelia,</l>
-            <l>Sed praela Bacchi crescant!</l>
-            <p>
-              <pb xml:id="F12r"/>Uterque: Reginam coronate pacem! Date
+            <l n="l15">Sed praela Bacchi crescant!</l>
+            <p n="p16">
+              <pb n="pb1" xml:id="F12r"/>Uterque: Reginam coronate pacem! Date
                         coronam e pampinis viridem! Floreat Pax! Pax imperet!</p>
-            <stage>(Chori –
+            <stage n="stage17">(Chori –
                         Rittornello)</stage>
-            <l>Chorus
+            <l n="l18">Chorus
                             primus: O laeta gregum pascua,</l>
-            <l>O montium voluptas!</l>
-            <l>Chorus
+            <l n="l19">O montium voluptas!</l>
+            <l n="l20">Chorus
                             secundus: Herbae, flores et gramina,</l>
-            <l>Autumnus ver et aestas!</l>
-            <l>Chorus
+            <l n="l21">Autumnus ver et aestas!</l>
+            <l n="l22">Chorus
                             primus: Passim apum examina</l>
-            <l>Mellifica laborant.</l>
-            <l>Chorus
+            <l n="l23">Mellifica laborant.</l>
+            <l n="l24">Chorus
                             secundus: Rivi dulces in Patria</l>
-            <l>Lacte et melle rorant.</l>
-            <p>Uterque:
+            <l n="l25">Lacte et melle rorant.</l>
+            <p n="p26">Uterque:
                         Reginam coronate Pacem! Date corollam e floribus floridam! Pax floreat! Pax
                         imperet!</p>
-            <stage>(Chori, instrumenta –
+            <stage n="stage27">(Chori, instrumenta –
                             Rittornello)</stage>
-            <l>Chorus
+            <l n="l28">Chorus
                             primus: Corusca, montes, viscera</l>
-            <l>Laxate, aperite!</l>
-            <l>Chorus
+            <l n="l29">Laxate, aperite!</l>
+            <l n="l30">Chorus
                             secundus: Pro ferro nobis, aurea</l>
-            <l>Vos saecula, redite!</l>
-            <l>Chorus
+            <l n="l31">Vos saecula, redite!</l>
+            <l n="l32">Chorus
                             primus: Aes diffluat fornacibus,</l>
-            <l>Ferrum, chalyps, tormenta,</l>
-            <l>
-              <pb xml:id="F12v"/>Chorus
+            <l n="l33">Ferrum, chalyps, tormenta,</l>
+            <l n="l34">
+              <pb n="pb1" xml:id="F12v"/>Chorus
                             secundus: Fabri domentur ictibus,</l>
-            <l>Sint pacis instrumenta!</l>
-            <p>Uterque:
+            <l n="l35">Sint pacis instrumenta!</l>
+            <p n="p36">Uterque:
                         Reginam coronate Pacem! Date coronam ex auro lucidam! Pax floreat! Pax
                         imperet!</p>
-            <stage>(Chori, instrumenta –
+            <stage n="stage37">(Chori, instrumenta –
                             Rittornello)</stage>
-            <l>Chorus
+            <l n="l38">Chorus
                             primus: Tirolis, sinum explica,</l>
-            <l>Monstra cum sale sales!</l>
-            <l>Chorus
+            <l n="l39">Monstra cum sale sales!</l>
+            <l n="l40">Chorus
                             secundus: Risus placebit candidus</l>
-            <l>Et dentes morsicantes!</l>
-            <l>Chorus
+            <l n="l41">Et dentes morsicantes!</l>
+            <l n="l42">Chorus
                             primus: Cum bello belli semina</l>
-            <l>Radicitus extirpet,</l>
-            <l>Chorus
+            <l n="l43">Radicitus extirpet,</l>
+            <l n="l44">Chorus
                             Secundus: Agri qui necat semina,</l>
-            <l>Tirolim sal foecundet!</l>
-            <p>Uterque:
+            <l n="l45">Tirolim sal foecundet!</l>
+            <p n="p46">Uterque:
                         Reginam coronate Pacem! Date coronam e sale niveam! Pax floreat! Pax
                         imperet! In ultimam Thulen, ad feros Scythas, in insulam deportetur bellum!
                         Nos Pax amabilis amat!</p>
           </sp>
         </div>
-        <div type="scena" n="4">
-          <head>Scena quarta</head>
-          <p>Periocha: Infelicium huius
+        <div n="div5" type="scena">
+          <head n="head1">Scena quarta</head>
+          <p n="p2">Periocha: Infelicium huius
                             saeculi armorum faber in ius, ad incudem trahitur. Ictus humanius sapere
                             et Pacis instrumenta cudere docetur necquidquam suppetias parante
                             Vulcano de caelo cadente et altero casu nobili atque in vinculo dato. –
                             Theatrum: Recuditur infaustorum armorum faber. Vulcanus e nube obscura
                             opitulaturus cadit, capitur.</p>
-          <sp>
-            <speaker>
-              <pb xml:id="F13r"/>Ferreolus – Thyrsus –
+          <sp n="sp3">
+            <speaker n="speaker1">
+              <pb n="pb1" xml:id="F13r"/>Ferreolus – Thyrsus –
                         Molo – Sisyphus – Canopus – Stromus: Fabri Pygmaei; – Steropes</speaker>
-            <note>6 lucitam D. – 20 viveam D. – 21 ultimen D.</note>
-            <note>21 ultimam Thulen] Verg. georg. 1,30; Sen. Med. 379.</note>
-            <p>Ferreolus: Qui
+            <note n="note2">6 lucitam D. – 20 viveam D. – 21 ultimen D.</note>
+            <note n="note3">21 ultimam Thulen] Verg. georg. 1,30; Sen. Med. 379.</note>
+            <p n="p4">Ferreolus: Qui
                         me alter est audacior homo, qui rei huius author fuerim! Evolasti equidem,
                         claude faber, cum Pyracmone et Bronte, at tertius in casses nostras incidit:
                         Steropes.</p>
-            <stage>(Intus clamant)</stage>
-            <p>Thyrsus: I,
+            <stage n="stage5">(Intus clamant)</stage>
+            <p n="p6">Thyrsus: I,
                         sceleste!</p>
-            <p>Omnes:
+            <p n="p7">Omnes:
                         Mastygia!</p>
-            <p>Molo: Non
+            <p n="p8">Molo: Non
                         ibis?</p>
-            <p>Steropes: Nec
+            <p n="p9">Steropes: Nec
                         latum pedem.</p>
-            <p>Ferreolus:
+            <p n="p10">Ferreolus:
                         Scelus reluctatur, in ius trahite!</p>
-            <p>Omnes:
+            <p n="p11">Omnes:
                         Rapite!</p>
-            <p>Sisyphus:
+            <p n="p12">Sisyphus:
                         Stimulos addite!</p>
-            <p>Steropes: Non
+            <p n="p13">Steropes: Non
                         pertrahetis.</p>
-            <p>Ferreolus:
+            <p n="p14">Ferreolus:
                         Humo tollite terrae filium!</p>
-            <stage>(Trahunt foras)</stage>
-            <p>Steropes: Quid
+            <stage n="stage15">(Trahunt foras)</stage>
+            <p n="p16">Steropes: Quid
                         vobis me, nani, tractio est!</p>
-            <p>Ferreolus:
+            <p n="p17">Ferreolus:
                         Iubeo!</p>
-            <p>Steropes:
+            <p n="p18">Steropes:
                         Manlianum imperium!</p>
-            <p>Ferreolus:
+            <p n="p19">Ferreolus:
                         Nunc subito, propere et celere!</p>
-            <p>Omnes: Hui
+            <p n="p20">Omnes: Hui
                         prorsum, pondus inutile!</p>
-            <p>Steropes:
+            <p n="p21">Steropes:
                         Nolo.</p>
-            <p>Ferreolus: Non
-                        audis:<pb xml:id="F13v"/>ego sic volo.</p>
-            <p>Steropes:
+            <p n="p22">Ferreolus: Non
+                        audis:<pb n="pb1" xml:id="F13v"/>ego sic volo.</p>
+            <p n="p23">Steropes:
                         Basilicae atque aedilitiae edictiones?</p>
-            <p>Ferreolus<stage>(alapam)</stage>: Tace!</p>
-            <p>Steropes: Quid
+            <p n="p24">Ferreolus<stage n="stage1">(alapam)</stage>: Tace!</p>
+            <p n="p25">Steropes: Quid
                         enim?</p>
-            <p>Ferreolus<stage>(aliam alapam)</stage>: Tace, inquam!</p>
-            <p>Steropes: Ut
+            <p n="p26">Ferreolus<stage n="stage1">(aliam alapam)</stage>: Tace, inquam!</p>
+            <p n="p27">Steropes: Ut
                         inferi te perduint!</p>
-            <p>Ferreolus<stage>(aliam alapam)</stage>: Necdum etiam?</p>
-            <p>Steropes: Iam
+            <p n="p28">Ferreolus<stage n="stage1">(aliam alapam)</stage>: Necdum etiam?</p>
+            <p n="p29">Steropes: Iam
                         iam peristi.</p>
-            <note>2 Pyracrmone D. – 5 in marg. add. man. al. D. – 17 in
+            <note n="note30">2 Pyracrmone D. – 5 in marg. add. man. al. D. – 17 in
                         marg. add. man. al. D. – 19 Plauti codices et editiones tactio praebent
                         (Cas. 406.408; Curc. 626; Poen. 1308), sed tractio actui trahendi (cf. 17)
                         convenit. – 27–31 alapam ... aliam a. … aliam a.] in marg. add. man. al. cum
                         glossa: grindschmiren D. – 31 Nec dum D.</note>
-            <note>1 Qui ... homo] Plaut. Amph. 153. – 22 Plaut. Curc. 283.
+            <note n="note31">1 Qui ... homo] Plaut. Amph. 153. – 22 Plaut. Curc. 283.
                         – 25 Plaut. Poen. 1011; Pseud. 230. – 26 Plaut. Capt. 811 Basilicas
                         edictiones atque imperiosas habet et 823 Eugepae, edictiones aedilicias hic
                         quidem habet. – 29 Plaut. Men. 438.</note>
-            <p>Ferreolus:
+            <p n="p32">Ferreolus:
                         Tibi caput deminuam, ut cum dentibus linguam excrees!</p>
-            <p>Steropes: Tu
+            <p n="p33">Steropes: Tu
                         pumile, vix cubito maior.</p>
-            <p>Ferreolus:
+            <p n="p34">Ferreolus:
                         Cave modo, gravis!</p>
-            <p>Omnes: E fero
+            <p n="p35">Omnes: E fero
                         mansuetem faciemus!</p>
-            <p>Steropes:
+            <p n="p36">Steropes:
                         Nimis vellem habere malleum!</p>
-            <p>Stromus: In
+            <p n="p37">Stromus: In
                         dicionem atque arbitratum nostrum es datus.</p>
-            <p>Ferreolus:
+            <p n="p38">Ferreolus:
                         Teque tuosque arma perniciem orbi cudere!</p>
-            <p>Steropes: Quid
+            <p n="p39">Steropes: Quid
                         vobis hanc curatio est rem, verberones?</p>
-            <p>Sisyphos:
+            <p n="p40">Sisyphos:
                         Erimus verberones, cum tu vapulabis, Steropes.</p>
-            <p>Steropes: Gens
+            <p n="p41">Steropes: Gens
                         bipedalium Molonum, appendices hominum!</p>
-            <p>Omnes: Pro
-                        ista maledicentia!<stage>(certatim caedunt)</stage>
+            <p n="p42">Omnes: Pro
+                        ista maledicentia!<stage n="stage1">(certatim caedunt)</stage>
             </p>
-            <p>Steropes:
-                        Gruum praeda! Excutite dum officinam,<pb xml:id="F14r"/>tentate qualubet! Arma si
+            <p n="p43">Steropes:
+                        Gruum praeda! Excutite dum officinam,<pb n="pb1" xml:id="F14r"/>tentate qualubet! Arma si
                         deprehenderitis, non causificor, quin vapulem.</p>
-            <p>Canopus: Ain
+            <p n="p44">Canopus: Ain
                         tu?</p>
-            <p>Sisyphus: Tam
+            <p n="p45">Sisyphus: Tam
                         impudenter...</p>
-            <p>Molo: Tam sine
+            <p n="p46">Molo: Tam sine
                         fronte...</p>
-            <p>Ferreolus: In
+            <p n="p47">Ferreolus: In
                         rem praesentem venimus, dum cuderetis hac noctu. Heus socij: aliquis
                         assulatim foribus exitium afferat et inde huc arma in medium!</p>
-            <p>Steropes: Nego
+            <p n="p48">Steropes: Nego
                         fecisse.</p>
-            <p>Thyrsus:
+            <p n="p49">Thyrsus:
                         Adhuc!</p>
-            <p>Steropes: Par
+            <p n="p50">Steropes: Par
                         nego.</p>
-            <p>
-              <stage>(Abeunt Canopus et
+            <p n="p51">
+              <stage n="stage1">(Abeunt Canopus et
                             Stromus)</stage>
             </p>
-            <p>Ferreolus: Si
+            <p n="p52">Ferreolus: Si
                         mendacium fabricas, solens more tuo facis.</p>
-            <p>Steropes:
+            <p n="p53">Steropes:
                         Neque divini neque humani quidquam accredas, si huius rei mendacem
                         inveneris!</p>
-            <p>Thyrsus:
+            <p n="p54">Thyrsus:
                         Compositus es ex mendacijs.</p>
-            <p>Molo: Consutus
+            <p n="p55">Molo: Consutus
                         e dolis.</p>
-            <note>11 in marg. add. man. al. D. – 23 2 abeunt Canopus et
+            <note n="note56">11 in marg. add. man. al. D. – 23 2 abeunt Canopus et
                         Stromus in marg. add. man. al. D. – 26 aureduas D; cf. app. sim.</note>
-            <note>1 Supplementum ad Plaut. Amph. 5 Braun Hac tegula tuum
+            <note n="note57">1 Supplementum ad Plaut. Amph. 5 Braun Hac tegula tuum
                         diminuam caput, ut cum dentibus linguam excrees; vide comm. – 4 Plaut. Asin.
                         145 reddam ego te ex fera fame mansuetem. – 5 Plaut. Asin. 589 nimis vellem
                         habere perticam. – 6 Plaut. Amph. 259 in dicionem atque arbitratum cuncti
@@ -898,57 +920,57 @@
                         humani posthac quicquam accreduas, / Artemona, si huius rei me esse mendacem
                         inveneris. – 28sq. Plaut. Amph. 366sq. Ne tu istic hodie malo tuo compositis
                         mendaciis / advenisti, audaciai columen, consutis dolis.</note>
-            <p>Steropes: Dij
+            <p n="p58">Steropes: Dij
                         me perdant...</p>
-            <p>Ferreolus:
+            <p n="p59">Ferreolus:
                         Quodcunque optes velim tibi contingere!</p>
-            <p>Sisyphus:
+            <p n="p60">Sisyphus:
                         Satin tandem istuc est certum?</p>
-            <p>Steropes: Ne
+            <p n="p61">Steropes: Ne
                         ego vivos sim, nisi...</p>
-            <stage>(Redeunt)</stage>
-            <p>Canopus,
-                            Stromus: Dignissimus, in quem omnes cruciatus<pb xml:id="F14v"/>confluant!</p>
-            <p>Ferreolus, Thyrsus,
+            <stage n="stage62">(Redeunt)</stage>
+            <p n="p63">Canopus,
+                            Stromus: Dignissimus, in quem omnes cruciatus<pb n="pb1" xml:id="F14v"/>confluant!</p>
+            <p n="p64">Ferreolus, Thyrsus,
                             Molo, Sisyphus: Pol, nos te pro istis tuis malefactis accipiemus,
                         furcifer!</p>
-            <p>Steropes: Mihi
+            <p n="p65">Steropes: Mihi
                         vos iterum minitari malum!</p>
-            <p>Ferreolus:
+            <p n="p66">Ferreolus:
                         Atque edepol dabimus!</p>
-            <p>Steropes: Nemo
+            <p n="p67">Steropes: Nemo
                         accesserit, nisi quis sat diu vixisse se homulus arbitratur! Ut quemque
                         icero, ad terram dabo.</p>
-            <p>Thyrsus: Omnes
-                        coniuratim ictus conferent!<stage>(ostendunt)</stage>
+            <p n="p68">Thyrsus: Omnes
+                        coniuratim ictus conferent!<stage n="stage1">(ostendunt)</stage>
             </p>
-            <p>Ferreolus:<unclear>Ego certum est arma fecisse Germaniae malo!</unclear>
+            <p n="p69">Ferreolus:<unclear n="unclear1">Ego certum est arma fecisse Germaniae malo!</unclear>
             </p>
-            <p>Steropes: Sit,
+            <p n="p70">Steropes: Sit,
                         non sit, non equidem scio.</p>
-            <p>Canopus: Ex
+            <p n="p71">Canopus: Ex
                         amussim es nebulo.</p>
-            <p>Steropes:
+            <p n="p72">Steropes:
                         Vulcanus iussit, feci Magistro obsequelam.</p>
-            <p>Ferreolus:
+            <p n="p73">Ferreolus:
                         Summum Iovem dicas iussisse, atque is precator adsiet, malam rem non
                         effugies.</p>
-            <p>Steropes: Me
+            <p n="p74">Steropes: Me
                         ne piacularem fieri oportet pro Magistro!</p>
-            <p>Ferreolus: Tu
+            <p n="p75">Ferreolus: Tu
                         succidaneum tergum dabis!</p>
-            <p>Steropes:
+            <p n="p76">Steropes:
                         Immerito!</p>
-            <p>Ferreolus:
+            <p n="p77">Ferreolus:
                         Quin tu procumbis in incudem?</p>
-            <p>Steropes: Quin
+            <p n="p78">Steropes: Quin
                         ego nego?</p>
-            <p>Stromus: Quin
+            <p n="p79">Stromus: Quin
                         subito?</p>
-            <note>6 in marg. add. man. al. D. – 15 in marg. add. man. al.
+            <note n="note80">6 in marg. add. man. al. D. – 15 in marg. add. man. al.
                         D. – 16 Ego certum est arma fecisse Germaniae: Malo! D. – 20 adhiet D; cf.
                         app. sim.</note>
-            <note>1sq. Plaut. Cist. 497 Di me perdant – Quodcumque optes,
+            <note n="note81">1sq. Plaut. Cist. 497 Di me perdant – Quodcumque optes,
                         tibi velim contingere. – 3 Plaut. Cist. 509 Satin istuc tibi in corde
                         certumst? – 8 Plaut. Asin. 314 omnium dignissumi esse, quo cruciatus
                         confluant. – 9sq. Plaut. Amph. 285sq. ego pol te istis tuis pro dictis et
@@ -963,54 +985,54 @@
                         numquam. – 22sq. Plaut. Epid. 139sq. Men piacularem oportet fieri ob
                         stultitiam tuam, / ut meum tergum tuae stultitae subdas succidaneum? – 26
                         Cf. Plaut. Merc. 764.</note>
-            <p>
-              <pb xml:id="F15r"/>Steropes: Quin dubito?</p>
-            <p>Ferreolus: Propera iam, si
+            <p n="p82">
+              <pb n="pb1" xml:id="F15r"/>Steropes: Quin dubito?</p>
+            <p n="p83">Ferreolus: Propera iam, si
                         te dij amant, aut peristi!</p>
-            <p>Steropes: Tu
+            <p n="p84">Steropes: Tu
                         male peri!</p>
-            <p>Omnes: Ad
+            <p n="p85">Omnes: Ad
                         incudem, ad incudem fingemus te iterum!</p>
-            <p>Steropes:
+            <p n="p86">Steropes:
                         Feri, Mulciber, feri, nisi omnia consumpsit fulmina supremus Iupiter, feri,
                         si fulmen calet!</p>
-            <p>Ferreolus: Si
+            <p n="p87">Ferreolus: Si
                         undecim fabros praeter se secum adducat Mulciber, ita non omnes e cruciatu
                         eximere poterunt Steropem.</p>
-            <p>Steropes:
+            <p n="p88">Steropes:
                         Iniuria est, vos mihi vitio vertere, ipsimet, furciferi, quod
                         factitatis!</p>
-            <p>Omnes: Nos
+            <p n="p89">Omnes: Nos
                         Paci locamus operam, Pacis arma cudimus.</p>
-            <p>Ferreolus:
+            <p n="p90">Ferreolus:
                         Tundite, cudite, recudite ad numerum, ut terra contra consonet.</p>
-            <stage>(Musica fabrilis)</stage>
-            <p>Steropes: O
+            <stage n="stage91">(Musica fabrilis)</stage>
+            <p n="p92">Steropes: O
                         Mulciber, Mulciber!</p>
-            <p>Ferreolus: Ad
+            <p n="p93">Ferreolus: Ad
                         opus, ad opus! Scabies ultimum occupet!</p>
-            <p>
-              <pb xml:id="F15v"/>(Musica Fabrilis – In
+            <p n="p94">
+              <pb n="pb1" xml:id="F15v"/>(Musica Fabrilis – In
                             obscura nube Vulcanus)</p>
-            <p>Ferreolus:
+            <p n="p95">Ferreolus:
                         Ades, Vulcane, claude faber, non ad Lesbum, sed ad fustitudinas,
                         ferricrepidinas insulas appelle!</p>
-            <p>Steropes: Ita
+            <p n="p96">Steropes: Ita
                         me sub cultro, o fide Magister?</p>
-            <p>Omnes:
+            <p n="p97">Omnes:
                         Subigite repetitis ictibus certatim, ut etiam Volcano doleat!</p>
-            <stage>(Musica Fabrilis – Descendit,
+            <stage n="stage98">(Musica Fabrilis – Descendit,
                             propinquat theatro)</stage>
-            <p>Thyrsus:
+            <p n="p99">Thyrsus:
                         Cudamus iterum, ut vorsutior fiat quam figularis rota.</p>
-            <note>18 In obscura nube Vulcanus in marg. add. man. al. D. –
+            <note n="note100">18 In obscura nube Vulcanus in marg. add. man. al. D. –
                         21 ferricrepedinas D; in modernis Plauti editionibus ferricrepinas legitur,
                         pars antiquiorum editionum autem secundum cod. Londinensem ferricrepidinas
                         praebet. „Ferri crepidinas quod ferreis vinculis crepitantibus crura
                         alligata erant“, explicat Pylades 1514, XLVIr,
                         videlicet simul ex crepo et crepida verbum derivans. – 25 Descendit
                         propinquat theatro in marg. add. man. al. D.</note>
-            <note>2 Plaut. Epid. 515 propera igitur fugere hinc, si te di
+            <note n="note101">2 Plaut. Epid. 515 propera igitur fugere hinc, si te di
                         amant. – 4 Cf. Plaut. Amph. 317 meumque os finget denuo. – 7sq. Plaut. Epid.
                         610sq. Si undecim deos praeter sese secum adducat Iuppiter, / ita non omnes
                         ex cruciatu poterunt eximere Epidicum. – 9 Plaut. Epid. 431sq. atque haec
@@ -1018,50 +1040,50 @@
                         11 Plaut. Amph. 228 consonat terra. – 20sq. Plaut. Asin. 34sq. apud
                         fustitudinas, ferricrepinas insulas, / ubi vivos homines mortui incursant
                         boves. – 27 Plaut. Epid. 371 Vorsutior es quam rota figularis.</note>
-            <stage>(Musica Fabrilis – Magis
+            <stage n="stage102">(Musica Fabrilis – Magis
                             propinquat)</stage>
-            <p>Steropes:
+            <p n="p103">Steropes:
                         Nimis vos quidem hercle nunc immerito meo mihi haec facitis. Feri, feri, o
                         Mulciber!</p>
-            <p>Ferreolus: Non
+            <p n="p104">Ferreolus: Non
                         timemus bruta e pelvi fulmina. Quid cessamus socij?</p>
-            <p>Omnes: In
+            <p n="p105">Omnes: In
                         splendorem dandus es tenebris!</p>
-            <stage>(Musica Fabrilis –
+            <stage n="stage106">(Musica Fabrilis –
                             Decidit)</stage>
-            <p>Ferreolus:
+            <p n="p107">Ferreolus:
                         Noster est!</p>
-            <p>Omnes: Hunc
-                        tibi diem faciemus exitiabilem, non evo-<pb xml:id="F16r"/>labis!</p>
-            <stage>(Insequuntur Vulcanum intro
+            <p n="p108">Omnes: Hunc
+                        tibi diem faciemus exitiabilem, non evo-<pb n="pb1" xml:id="F16r"/>labis!</p>
+            <stage n="stage109">(Insequuntur Vulcanum intro
                             omnes)</stage>
-            <p>Steropes: Sic
+            <p n="p110">Steropes: Sic
                         me servavit Vulcanus! Quam scapulae fervent! Quam calet tergum! Fui incus,
                         sentio intus in cute. Oppido interij!</p>
-            <stage>(Redit Ferreolus)</stage>
-            <p>Sed me hinc aufero, ne bis peream. Iam redit istud
+            <stage n="stage111">(Redit Ferreolus)</stage>
+            <p n="p112">Sed me hinc aufero, ne bis peream. Iam redit istud
                         scelus, qui meme perdidit.</p>
-            <p>Ferreolus:
+            <p n="p113">Ferreolus:
                         Hodie gradus condecet grandire grandulum. Me duce author malorum in vinculis
                         est, tenetur nunc altero casu nobilis Vulcanus. Sed hem – extricavit se et
                         evasit Steropes! Accepit mercedem pessimae operae, nec volet posthac in
                         tergum suum Sexcentoplagus arma cudere.</p>
-            <p>Omnes: Capta
+            <p n="p114">Omnes: Capta
                         est fera!</p>
-            <p>Ferreolus:
+            <p n="p115">Ferreolus:
                         Vinxistis arcte?</p>
-            <p>Omnes:
+            <p n="p116">Omnes:
                         Arctissime!</p>
-            <p>Thyrsus: In
+            <p n="p117">Thyrsus: In
                         aquam cecidit Icarus: remittet calor.</p>
-            <p>Ferreolus:
+            <p n="p118">Ferreolus:
                         Auferte nunc arma!</p>
-            <p>Omnes: Pereat
+            <p n="p119">Omnes: Pereat
                         ferrei saeculi faber! Male, pessime pereat!</p>
-            <note>1 Magis propinquat in marg. add. man. al. D. – 8 Decidit
+            <note n="note120">1 Magis propinquat in marg. add. man. al. D. – 8 Decidit
                         in marg. add. man. al. D. – 13 in marg. add. man. al. D. – 18 in marg. add.
                         man. al. D. – 20 auffero; me me D. – 24 post hac D.</note>
-            <note>3 Plaut. Cas. 917sq. nimis tu quidem hercle immerito /
+            <note n="note121">3 Plaut. Cas. 917sq. nimis tu quidem hercle immerito /
                         meo mi haec facis, quia mihi te expetivi. – 11 Plaut. Epid. 606 si invenio,
                         exitiabilem ego illi faciam hunc ut fiat diem. – 20 bis peream] Cf. Plaut.
                         Most. 375; Truc. 47. – 21 Supplementum ad Plaut. Amph. v. 93 Braun non
@@ -1070,224 +1092,224 @@
                         Gradus grandit. – 24 Plaut. Capt. 726 Sescentoplago nomen indetur tibi.</note>
           </sp>
         </div>
-        <div type="scena" n="5">
-          <head>
-            <pb xml:id="F16v"/>Scena quinta</head>
-          <p>Periocha: Oenus et Athesis,
+        <div n="div6" type="scena">
+          <head n="head1">
+            <pb n="pb1" xml:id="F16v"/>Scena quinta</head>
+          <p n="p2">Periocha: Oenus et Athesis,
                             fluviorum per Tirolim Principes, vicinius confluunt et adverso aliorum
                             per Germaniam fluminum cursu exputato in ferrea hac aetate, sortem suam
                             felicissimam Paci tutelari acceptam ferunt salientibus piscibus et ad
                             numeros plaudentibus cancris. – Theatrum: Oenus hinc, inde Athesis in
                             proscenium profluunt.</p>
-          <stage>(Symphonia aquarum fluxum
+          <stage n="stage3">(Symphonia aquarum fluxum
                             referens)</stage>
-          <sp>
-            <speaker>Oenus – Athesis</speaker>
-            <p>Athesis: Oene,
+          <sp n="sp4">
+            <speaker n="speaker1">Oenus – Athesis</speaker>
+            <p n="p2">Athesis: Oene,
                         Oene, o frater, ad votumne tibi fluunt omnia? Ego tributum domino mari pergo
                         devolvere undam humano puram a sanguine.</p>
-            <p>Oenus: Rerum
+            <p n="p3">Oenus: Rerum
                         nostrarum secundus est cursus, utrique placidus, quem Rhenus nobis et
                         Isther, vicini Reges, invident, plus prope sanguinis volventes quam
                         fluminis. Cruor humanus decolorat alveum.</p>
-            <p>Athesis: In
+            <p n="p4">Athesis: In
                         rubrum abeant mare cruenti fluctus!</p>
-            <p>Oenus:
+            <p n="p5">Oenus:
                         Cadaverum maiorem quam piscium vehunt multitudinem.</p>
-            <p>Athesis: Haec
+            <p n="p6">Athesis: Haec
                         mortuo mari apta sunt portoria.</p>
-            <p>Oenus:
+            <p n="p7">Oenus:
                         Miserorum crescunt lacrimis.</p>
-            <p>Athesis:
+            <p n="p8">Athesis:
                         Dulces aquae mihi prae salsis sapiunt. Sed cadant, sed diffluant mortales,
-                        dura Pyrrhae gens,<pb xml:id="F17r"/>dum liberi inter haec mala fluant fluvij!</p>
-            <p>Oenus:
+                        dura Pyrrhae gens,<pb n="pb1" xml:id="F17r"/>dum liberi inter haec mala fluant fluvij!</p>
+            <p n="p9">Oenus:
                         Liberi?! Rhenus pater innumeris se copijs anteidhac obicere ausus et ruentem
                         sufflaminare Martem tot iam Dominos quot milites numerat.</p>
-            <p>Athesis: Ergo
+            <p n="p10">Athesis: Ergo
                         mancipium est!</p>
-            <p>Oenus: Et
+            <p n="p11">Oenus: Et
                         Martis! Minorum fluminum auxilijs auctus immania rotare saxa, sylvas rapere
                         solitus, iam pontes sublicios, navales, tergo ut tibicen sustinet, qua parte
                         sedet militi.</p>
-            <p>Athesis: Hoc
+            <p n="p12">Athesis: Hoc
                         altissimam fluminum est calcare Maiestatem! Cur non spumat contra? Cur in
                         iras non surgit? Cur praecipiti ruina ruptis repagulis non involvit
                         omnia?</p>
-            <note>15 placitus D., cf. cadaver, condensentur, lucidam,
+            <note n="note13">15 placitus D., cf. cadaver, condensentur, lucidam,
                         ludibrium 56,19; 62,19; 86,6; 100,1. – 23 durum; fuant D. – 24 in numeris
                         D.</note>
-            <note>16sq. Flor. epit. 3,3,9 ut victor Romanus cruento flumine
+            <note n="note14">16sq. Flor. epit. 3,3,9 ut victor Romanus cruento flumine
                         non plus aquae biberit quam sanguinis barbarorum. – 27sq. immania ...
                         sustinet] Stat. silv. 4,3,78sqq. iam pontem fero perviusque calcor; / qui
                         terras rapere et rotare silvas / adsueram, cf. comm; Sen. nat. 3,27,7
                         devolutus torrens altissimis montibus rapit silvas male haerentes et saxa
                         resolutis remissa compagibus rotat. – 31 ruptis repagulis] cf. Sen. nat.
                         3,27,7 ad 17sq.</note>
-            <p>Oenus: Tanti
-                        est sub iugum vel<del resp="editor">vel</del>semel mitti! Et o ludibrium: Danubium Rhenumque cis
+            <p n="p15">Oenus: Tanti
+                        est sub iugum vel<del n="del1" resp="editor">vel</del>semel mitti! Et o ludibrium: Danubium Rhenumque cis
                         et trans Gothus galea bibit!</p>
-            <p>Athesis: Mihi
-                        obstacula hostis si faciat, mon-<pb xml:id="F17v"/>tanis supplex Dijs et lacuum
+            <p n="p16">Athesis: Mihi
+                        obstacula hostis si faciat, mon-<pb n="pb1" xml:id="F17v"/>tanis supplex Dijs et lacuum
                         praesidibus in auxilium vocarem undantia torrentium agmina, queis in glaciem
                         stantibus Phoebus stimulas adderet.</p>
-            <p>Oenus: In
+            <p n="p17">Oenus: In
                         arena consilium. Quid, si lympha timens refugiat?</p>
-            <p>Athesis:
+            <p n="p18">Athesis:
                         Ingentes scopulos provolverem.</p>
-            <p>Oenus:
+            <p n="p19">Oenus:
                         Distractis viribus superaberis citius. Vulgaria sunt haec strategemata.</p>
-            <p>Athesis,
+            <p n="p20">Athesis,
                         Oenus: Sed mittamus has curas in mare inferum! Nos pacis beneficio
                         securi sumus!</p>
-            <p>Athesis: Mihi
+            <p n="p21">Athesis: Mihi
                         ad rivas acclini dulce undarum murmur creat somnulum.</p>
-            <p>Oenus: Ego,
+            <p n="p22">Oenus: Ego,
                         quam longa est vallis, iaceo toto corpore extensus.</p>
-            <p>Oenus,
+            <p n="p23">Oenus,
                         Athesis: Sic perenni fonte manabimus, sic illimes, perlucidis undis
                         crystallini ibimus.</p>
-            <p>Athesis: Nulla
+            <p n="p24">Athesis: Nulla
                         hic nisi exerrantis rivi oritur seditio, Pace propitia.</p>
-            <p>Oenus: Nullae
+            <p n="p25">Oenus: Nullae
                         hic irae, nisi cum contrarium est saxum et offensae spumant undae.</p>
-            <p>
-              <pb xml:id="F18r"/>Athesis:
+            <p n="p26">
+              <pb n="pb1" xml:id="F18r"/>Athesis:
                         Nullus hic planctus, nisi cum querulae lymphae in lapillos incidunt.</p>
-            <p>Oenus,
+            <p n="p27">Oenus,
                         Athesis: Nulla salus bello, pacem te poscimus! Adeste, muti cives, et
                         quidquid in imo latet gurgite, exilite! Celeri choro festiviter ludite,
                         exultim extra summum aequoris dorsum! Pace fruimini!</p>
           </sp>
         </div>
-        <div type="saltus">
-          <head>Saltus piscium</head>
-          <sp>
-            <p>Athesis,
+        <div n="div7" type="saltus">
+          <head n="head1">Saltus piscium</head>
+          <sp n="sp2">
+            <p n="p1">Athesis,
                         Oenus: Nunc hospitem coronate Pacem!</p>
-            <stage>(Saltus repetitur)</stage>
-            <p>Athesis,
+            <stage n="stage2">(Saltus repetitur)</stage>
+            <p n="p3">Athesis,
                         Oenus: Nostro cornu semper argentea fluat copia nec Tago invidemus, si
                         tranquilla eunt saecula.</p>
-            <stage>(Symphonia repetitur, redeunt
+            <stage n="stage4">(Symphonia repetitur, redeunt
                             fluvij)</stage>
-            <note>1 lutibrium D. – 8 strategemada D.</note>
-            <note>13sq. Ov. met. 3,407 Fons erat inlimis, nitidis argenteus
+            <note n="note5">1 lutibrium D. – 8 strategemada D.</note>
+            <note n="note6">13sq. Ov. met. 3,407 Fons erat inlimis, nitidis argenteus
                         undis; cf. Sen. nat. 3,1,1. – 20 Nulla ... poscimus] Verg. Aen. 11,362; cf.
                         hic 82,31sq.; 122,14sq.</note>
           </sp>
         </div>
       </div>
-      <div type="pars" n="3">
-        <head>Pars tertia</head>
-        <div type="scena" n="1">
-          <head>Scena prima</head>
-          <p>Periocha: Proscripto Marte
+      <div n="div6" type="pars">
+        <head n="head1">Pars tertia</head>
+        <div n="div2" type="scena">
+          <head n="head1">Scena prima</head>
+          <p n="p2">Periocha: Proscripto Marte
                             Diana in sylvis militat et diversâ venatione in feras arma, non homines
                             consumit. – Theatrum: Facies theatri sylvestris et campestris. Diversae
                             venationum figurae in intima proscenij parte.</p>
-          <sp>
-            <speaker>Actaeon – Hyas – Neanthus – Thrasus – Gargilius
+          <sp n="sp3">
+            <speaker n="speaker1">Actaeon – Hyas – Neanthus – Thrasus – Gargilius
                                 puer – Seriscus puer: Venatores</speaker>
-            <p>
-              <pb xml:id="F18v"/>Gargilius: Quod bene Diana nobis vortat et reliquae venantium
+            <p n="p2">
+              <pb n="pb1" xml:id="F18v"/>Gargilius: Quod bene Diana nobis vortat et reliquae venantium
                         deae! Hoc mihi classicum placet! Adeste, hoch, hoch, hoch! Arge, Chiron,
                         Hylax, Phylax, Laelaps, Melampe, Lycisca! Euge, hoh, hoch, hoh! Serisce,
-                        Serisce! Actutum hac me sequere! – Quae felicitas huius est<del resp="editor">est</del>patriae:
+                        Serisce! Actutum hac me sequere! – Quae felicitas huius est<del n="del2" resp="editor">est</del>patriae:
                         ferrum et plumbum in feras consumimus! – Tandem aliquando, testudines
                         gradu!</p>
-            <p>Seriscus:
+            <p n="p3">Seriscus:
                         Vertagus meus in cervi vestigia incidit. Praedae certissimae sagax rostro
                         captat omnia.</p>
-            <p>Gargilius:
+            <p n="p4">Gargilius:
                         Nunc canes religabimus, dum fugienti ferae occludimus viam.</p>
-            <p>Seriscus: Vae
+            <p n="p5">Seriscus: Vae
                         tibi, in nostros si casses incidas!</p>
-            <p>Gargilius: Nil
+            <p n="p6">Gargilius: Nil
                         verbis, ad rem, quam paramus, manu est opus!</p>
-            <p>Seriscus:
+            <p n="p7">Seriscus:
                         Securus mihi praedae animus et cor salit!</p>
-            <p>Gargilius:
+            <p n="p8">Gargilius:
                         Iterum signa canunt Magistri.</p>
-            <p>Seriscus:
+            <p n="p9">Seriscus:
                         Euax!</p>
-            <p>Gargilius: Si
-                        fera clamantem<pb xml:id="F19r"/>exaudijt, peristi! Nunc Lynceis oculis utrimque Argi
+            <p n="p10">Gargilius: Si
+                        fera clamantem<pb n="pb1" xml:id="F19r"/>exaudijt, peristi! Nunc Lynceis oculis utrimque Argi
                         excubabimus, ego isthic, qua faciem Pomona decoram aperit.</p>
-            <p>Seriscus: In
+            <p n="p11">Seriscus: In
                         umbra illic ego.</p>
-            <p>Gargilius:
+            <p n="p12">Gargilius:
                         Quam festiva sunt in umbra praelia, cum catuli in sylvis militant!</p>
-            <p>Seriscus: Quam
+            <p n="p13">Seriscus: Quam
                         laeta acies, cum ramosa signa praefert cervus miles tumidus!</p>
-            <note>12 venantum D. – 16 consummimus D.</note>
-            <note>28 catuli in sylvis militant] Hor. epist. 2,65ff.
+            <note n="note14">12 venantum D. – 16 consummimus D.</note>
+            <note n="note15">28 catuli in sylvis militant] Hor. epist. 2,65ff.
                         venaticus, ex quo / tempore cervinam pellem latravit in aula, / militat in
                         silvis catulus.</note>
-            <p>Gargilius:
+            <p n="p16">Gargilius:
                         Iucunda necis pompa, cum in viridi exequias imus et captas in ventre
                         sepelimus feras!</p>
-            <p>Gargilius,
+            <p n="p17">Gargilius,
                             Seriscus: Iam fruticeta circumsonant ––</p>
-            <stage>(Musica venatoria)</stage>
+            <stage n="stage18">(Musica venatoria)</stage>
           </sp>
-          <sp>
-            <speaker>Venatores</speaker>
-            <l>Ho ho, ho ho, ho ho, eia age diva</l>
-            <l>nostra, fave Dea Delia!</l>
-            <stage>(Rittornello: Venatoria
+          <sp n="sp4">
+            <speaker n="speaker1">Venatores</speaker>
+            <l n="l2">Ho ho, ho ho, ho ho, eia age diva</l>
+            <l n="l3">nostra, fave Dea Delia!</l>
+            <stage n="stage4">(Rittornello: Venatoria
                             Musica)</stage>
-            <l>Ho ho, ho ho, ho ho, vola, vola, cerve,</l>
-            <l>vola alta ferens cornua!</l>
-            <stage>
-              <pb xml:id="F19v"/>(Rittornello: Musica
+            <l n="l5">Ho ho, ho ho, ho ho, vola, vola, cerve,</l>
+            <l n="l6">vola alta ferens cornua!</l>
+            <stage n="stage7">
+              <pb n="pb1" xml:id="F19v"/>(Rittornello: Musica
                             Venatoria)</stage>
-            <l>Ho ho, ho ho, ho ho, illic aper et quot</l>
-            <l>dentes tot pro rostro fulmina!</l>
-            <stage>(Rittornello: Musica
+            <l n="l8">Ho ho, ho ho, ho ho, illic aper et quot</l>
+            <l n="l9">dentes tot pro rostro fulmina!</l>
+            <stage n="stage10">(Rittornello: Musica
                             Venatoria)</stage>
-            <l>Ho ho, ho ho, ho ho, pugna, Line, pugna,</l>
-            <l>et in latus conde spicula!</l>
-            <stage>(Rittornello: Musica
+            <l n="l11">Ho ho, ho ho, ho ho, pugna, Line, pugna,</l>
+            <l n="l12">et in latus conde spicula!</l>
+            <stage n="stage13">(Rittornello: Musica
                             Venatoria)</stage>
-            <l>Ho ho, ho ho, ho ho, fuge, fuge, fugies,</l>
-            <l>lepus, fuge, hostis timide!</l>
-            <stage>(Rittornello: Musica
+            <l n="l14">Ho ho, ho ho, ho ho, fuge, fuge, fugies,</l>
+            <l n="l15">lepus, fuge, hostis timide!</l>
+            <stage n="stage16">(Rittornello: Musica
                             Venatoria)</stage>
-            <l>Ho ho, ho ho, ho ho, rue, Phylax, curre,</l>
-            <l>Hylax, tene lupum auribus.</l>
-            <note>19sqq. Hinc usque nova ratione syllabos in lineam
+            <l n="l17">Ho ho, ho ho, ho ho, rue, Phylax, curre,</l>
+            <l n="l18">Hylax, tene lupum auribus.</l>
+            <note n="note19">19sqq. Hinc usque nova ratione syllabos in lineam
                         distribuendi utitur D. (e.g. ...illic aper, / et quot), fortasse propter
                         litteras maiores in folio 19v. – 29 fugies]
                         fuges D.</note>
-            <note>1sq. in ventre sepelimus feras] Sen. contr. 10, praef. 9
+            <note n="note20">1sq. in ventre sepelimus feras] Sen. contr. 10, praef. 9
                         Quidquid avium volitat, quidquid piscium natat, quidquid ferarum discurrit,
                         nostris sepelitur ventribus.</note>
-            <stage>(Rittornello: Musica
+            <stage n="stage21">(Rittornello: Musica
                             Venatoria)</stage>
-            <p>Gargilius:
+            <p n="p22">Gargilius:
                         Receptui canitur.</p>
-            <p>Seriscus:
+            <p n="p23">Seriscus:
                         Convocemus canes! Hoh, hoh, hoh! Arge, Chiron, Hylax, Phylax, Laelaps,
                         Melampe, Lycisca! Vertage, hoh, hoh, hoh, redeunt iam Triumpho!</p>
           </sp>
         </div>
-        <div type="scena" n="2">
-          <head>
-            <pb xml:id="F20r"/>Scena secunda</head>
-          <head>Triumphus
+        <div n="div3" type="scena">
+          <head n="head1">
+            <pb n="pb1" xml:id="F20r"/>Scena secunda</head>
+          <head n="head2">Triumphus
                         Venatorius</head>
-          <p>Periocha: Finita feliciter et
+          <p n="p3">Periocha: Finita feliciter et
                             ad votum venatione triumphus sequitur, venatores, canes, venabula
                             coronantur. Mopsus rusticus ob violata Dianae sacra ad cultrum, citra
                             sanguinem tamen, damnatur, profanae linguae daturus poenas. – Theatrum:
                             Cervus porrectus, cui ingeniculatur Mopsus et cultrum venatorium
                             accipit.</p>
-          <stage>Ijdem – Mopsus rusticus</stage>
+          <stage n="stage4">Ijdem – Mopsus rusticus</stage>
         </div>
-        <div type="scena" n="3">
-          <head>Scena tertia</head>
-          <p>Periocha: Pacis,
+        <div n="div4" type="scena">
+          <head n="head1">Scena tertia</head>
+          <p n="p2">Periocha: Pacis,
                             auspicatissimarum nuptiarum paranymphae, favor in Tirolim, quem Charites
                             opibus suis augent triumphante seque ipsam vix capiente Aquila.
                             Quaternae e iugis Tirolicis Daphnides ad saltum evocantur ab Hymenaeo
@@ -1296,421 +1318,421 @@
                             Tirolensis montes et se ipsam superat. Amoeno et florido colli Pax et
                             tres Charites insidentes prodeunt. Saltus quatuor Daphnidum circa
                             stirpem Austrio-Mediceam faciente in monte modulos Hymenaeo.</p>
-          <sp>
-            <speaker>Pax – Tres Charites</speaker>
-            <stage>(Symphonia suavis –
+          <sp n="sp3">
+            <speaker n="speaker1">Pax – Tres Charites</speaker>
+            <stage n="stage2">(Symphonia suavis –
                             Collocetur super machinas aquila. Descendit aquila sola)</stage>
-            <note>10 Vennatorius D. – 34 Collocetur ... aquila in marg.
+            <note n="note3">10 Vennatorius D. – 34 Collocetur ... aquila in marg.
                         scena III,2 incipiente add. man. al. D., huc transposui contextus gratia;
-                        Descendit aq<add resp="editor">ui</add>la (recisum) sola in marg. add. man. al. D.</note>
-            <p>Pax: O Regia
+                        Descendit aq<add n="add1" resp="editor">ui</add>la (recisum) sola in marg. add. man. al. D.</note>
+            <p n="p4">Pax: O Regia
                         aquila, patrij cui montes nimis sunt humiles, Olympo caput insere! Aurora
                         ardet in collo, purpureus pennarum ordo corpus vestit, corolla tempora
                         cingit.</p>
-            <p>Tres Charites:
+            <p n="p5">Tres Charites:
                         Nullam Mavors intervellat pennam aquilae!</p>
-            <p>Pax: Sic Pax
+            <p n="p6">Pax: Sic Pax
                         cavet, sic magnus iubet Deus.</p>
-            <p>Tres Charites:
+            <p n="p7">Tres Charites:
                         Fulmina hostes, fulminis, Numinis ales! Protege cives, protege patulis
                         alis!</p>
-            <p>Pax: Non cole
+            <p n="p8">Pax: Non cole
                         arma, sed falces novet colonus, omnia pacis agat!</p>
-            <p>Tres Charites:
+            <p n="p9">Tres Charites:
                         Felices ramos inserat inutili ligno, vitem maritet populis! Quisque sui
-                        modum finemque colat agri, nec spes anni glebae commissa pereat<pb xml:id="F20v"/>agricolis!</p>
-            <p>Pax: Beatis
+                        modum finemque colat agri, nec spes anni glebae commissa pereat<pb n="pb1" xml:id="F20v"/>agricolis!</p>
+            <p n="p10">Pax: Beatis
                         imperet Ceres campis, sylvestres cicurati mansuescant saltus! Damnata
                         vepribus loca iam Ceres colat!</p>
-            <p>Tres Charites:
+            <p n="p11">Tres Charites:
                         O felix aquila, vola altius (sursum volat), altius, altius! Serenissima
                         sidera propius inspice, nec nubes temeret diem!</p>
-            <p>Pax: Ventorum,
+            <p n="p12">Pax: Ventorum,
                         fulminum sonantes officinas supera! Nil tuam turbet pacem!</p>
-            <p>Tres Charites:
+            <p n="p13">Tres Charites:
                         Aeternis vincta catenis bella gemant!</p>
-            <p>Pax: Ita Pax
+            <p n="p14">Pax: Ita Pax
                         iubet divina aurigante manu.</p>
-            <p>Tres Charites:
+            <p n="p15">Tres Charites:
                         Iam frontem explica, Tirolis, maior te felicitas et iucundior manet scena,
                         Pace paranympha, Orpheo Hymenaeo! Saltet quidquid in iugis stat Tirolicis!
                         Prodeat Atys in pinu, Aegle in populo, sine lacrimis Cyparissus in cupresso,
-                        in lauro Daphne sylvarum<pb xml:id="F21r"/>decus! Favete, Fauni, favete, Dryades
+                        in lauro Daphne sylvarum<pb n="pb1" xml:id="F21r"/>decus! Favete, Fauni, favete, Dryades
                         Patriae!</p>
           </sp>
         </div>
-        <div type="saltus">
-          <head>Saltus</head>
-          <stage>Figura prima facta</stage>
-          <sp>
-            <l>Pax: O
+        <div n="div5" type="saltus">
+          <head n="head1">Saltus</head>
+          <stage n="stage2">Figura prima facta</stage>
+          <sp n="sp3">
+            <l n="l1">Pax: O
                         stipitis hilaritas!</l>
-            <l>Prima Charis:
+            <l n="l2">Prima Charis:
                         O arboris foecunditas!</l>
-            <l>Secunda
+            <l n="l3">Secunda
                         Charis: Ramorum o viriditas!</l>
-            <l>Tertia Charis:
+            <l n="l4">Tertia Charis:
                         O fructuum suavitas!</l>
-            <l>Omnes: O
+            <l n="l5">Omnes: O
                         frondium amplexus!</l>
-            <note>12 circurati D. – 14 sursum volat in marg. add. man. al.
+            <note n="note6">12 circurati D. – 14 sursum volat in marg. add. man. al.
                         D. – 21 Agle D.</note>
-            <note>9 Hor. epod. 2,9sq. ergo aut adulta vitium propagine /
+            <note n="note7">9 Hor. epod. 2,9sq. ergo aut adulta vitium propagine /
                         altas maritat populos et 13sq. inutilisve falce ramos amputans / feliciores
                         inserit.</note>
-            <stage>Figura secunda</stage>
-            <p>Tres Charites:
+            <stage n="stage8">Figura secunda</stage>
+            <p n="p9">Tres Charites:
                         Ut comas tollit! Ut gratam iacit umbram!</p>
-            <p>Figura tertia</p>
-            <p>Pax: Abeste,
+            <p n="p10">Figura tertia</p>
+            <p n="p11">Pax: Abeste,
                         infaustae volucres! Hîc chorus volucrum Thalassionem meliore voce
                         concinet!</p>
-            <stage>Figura quarta</stage>
-            <p>Prima Charis:
+            <stage n="stage12">Figura quarta</stage>
+            <p n="p13">Prima Charis:
                         Hanc nullus Boreas foliorum viduet coma!</p>
-            <p>
-              <pb xml:id="F21v"/>Figura quinta</p>
-            <p>Pax: Ades,
-                        Hamadryadum cohors, Daedala fisso cortice nomina insere<emph>FERDINANDI CAROLI</emph>,
+            <p n="p14">
+              <pb n="pb1" xml:id="F21v"/>Figura quinta</p>
+            <p n="p15">Pax: Ades,
+                        Hamadryadum cohors, Daedala fisso cortice nomina insere<emph n="emph1">FERDINANDI CAROLI</emph>,
                         Annae Archiducis!</p>
-            <p>Omnes:
+            <p n="p16">Omnes:
                         Crescant, vereant, floreant foecunda nomina!</p>
-            <stage>Figura sexta</stage>
-            <p>Charis
+            <stage n="stage17">Figura sexta</stage>
+            <p n="p18">Charis
                         Secunda: Respira, Patria, in spem floris, in spem fructus!</p>
-            <p>Omnes: Aetatum
+            <p n="p19">Omnes: Aetatum
                         omnium!</p>
-            <stage>Figura septima</stage>
-            <p>Pax: Sub
+            <stage n="stage20">Figura septima</stage>
+            <p n="p21">Pax: Sub
                         formoso cortice quot purpurati Reguli! Quam suavis Patriae medulla!</p>
-            <stage>Figura octava</stage>
-            <l>Pax: Ut
+            <stage n="stage22">Figura octava</stage>
+            <l n="l23">Pax: Ut
                         splendent aurea poma!</l>
-            <l>Prima Charis:
+            <l n="l24">Prima Charis:
                         Ut rubent poma mellea!</l>
-            <l>Secunda
+            <l n="l25">Secunda
                         Charis: Ut rident poma mitia!</l>
-            <l>Tertia Charis:
+            <l n="l26">Tertia Charis:
                         Ut variant poma pictissima!</l>
-            <l>
-              <pb xml:id="F22r"/>Omnes: O
+            <l n="l27">
+              <pb n="pb1" xml:id="F22r"/>Omnes: O
                         poma Medica et Medicaea, o poma felicia!</l>
-            <stage>Figura nona</stage>
-            <p>Pax: Cresce,
+            <stage n="stage28">Figura nona</stage>
+            <p n="p29">Pax: Cresce,
                         arbos, nobili medulla vivens!</p>
-            <note>12 Hor. carm. 2,9,6sqq. aquilonibus ... foliis viduantur
+            <note n="note30">12 Hor. carm. 2,9,6sqq. aquilonibus ... foliis viduantur
                         orni.</note>
-            <stage>Figura decima</stage>
-            <p>Tres Charites:
+            <stage n="stage31">Figura decima</stage>
+            <p n="p32">Tres Charites:
                         Nulla hyeme calva, nullo senio curva humi serpentibus hederis ad alta
                         nisuris stabile columen!</p>
-            <stage>Figura decima prima</stage>
-            <p>Pax, Tres
+            <stage n="stage33">Figura decima prima</stage>
+            <p n="p34">Pax, Tres
                             Charites: Age, volucris Regia, quae serenae lucis radios bibis, huc
                         advola, hoc vertice secura conside, hic cunas suspende, hic pullos educa,
                         omnes patientes, omnes amantes lucis, omnes Serenissimos!</p>
-            <stage>Figura decima
+            <stage n="stage35">Figura decima
                         secunda</stage>
-            <p>Omnes: Vince,
-                        vive, vire, flore, foecundum germen, et te resemina,<pb xml:id="F22v"/>liquido Coeli
+            <p n="p36">Omnes: Vince,
+                        vive, vire, flore, foecundum germen, et te resemina,<pb n="pb1" xml:id="F22v"/>liquido Coeli
                         irrigatum commercio!</p>
-            <stage>(Saltus intro)</stage>
+            <stage n="stage37">(Saltus intro)</stage>
           </sp>
         </div>
-        <div type="scena" n="4">
-          <head>Scena quarta</head>
-          <p>Periocha: Tempe
+        <div n="div6" type="scena">
+          <head n="head1">Scena quarta</head>
+          <p n="p2">Periocha: Tempe
                             Austrio-Medicea, per quae praecones ephebi et musica regnat aura. Flant
                             Favonij et ad mutua oscula atque communia gaudia excitant flores. –
                             Theatrum: Hortus, in cuius areolis Serenissimorum sponsorum
                             florentissima rident nomina.</p>
-          <stage>(Symphonia – Felicitas, Pax
+          <stage n="stage3">(Symphonia – Felicitas, Pax
                             et Charites collocentur super machinas)</stage>
-          <sp>
-            <speaker>Rosimundus – Florimundus: Hortenses
+          <sp n="sp4">
+            <speaker n="speaker1">Rosimundus – Florimundus: Hortenses
                             Pueri</speaker>
-            <p>Florimundus:
+            <p n="p2">Florimundus:
                         Ipsa Tempe colimus, Rosimunde!</p>
-            <p>Rosimundus:
+            <p n="p3">Rosimundus:
                         Nasus an oculus totus fieri mavelim! Non statuo satis!</p>
-            <p>Florimundus:
+            <p n="p4">Florimundus:
                         Aeterni veris patet indulgentia.</p>
-            <p>Rosimundus:
+            <p n="p5">Rosimundus:
                         Quam vivis florum coloribus ludit hortus!</p>
-            <p>Florimundus:
+            <p n="p6">Florimundus:
                         Nulla hic rosa expirat, nullum languet lilium.</p>
-            <p>Rosimundus:
+            <p n="p7">Rosimundus:
                         Regina rosa murice rubet, argentea toga candet lilium.</p>
-            <note>27 Felicitas …<add resp="editor">s</add>uper (recisum) machinas in marg. scena
+            <note n="note8">27 Felicitas …<add n="add1" resp="editor">s</add>uper (recisum) machinas in marg. scena
                         III,4 incipiente add. man. al. D; cf. ad 106,34. – 35 langet D.</note>
-            <note>32 Catull. 13,14 totum ut te faciant, Fabulle, nasum.</note>
-            <p>Florimundus:
+            <note n="note9">32 Catull. 13,14 totum ut te faciant, Fabulle, nasum.</note>
+            <p n="p10">Florimundus:
                         En, ut sudo Coelo omnes libant oscula!</p>
-            <p>Rosimundus:
+            <p n="p11">Rosimundus:
                         Nec minorum gentium abstinent flosculi.</p>
-            <p>Florimundus:
+            <p n="p12">Florimundus:
                         Crescite, lactentes in herba bullae!</p>
-            <p>Rosimundus:
+            <p n="p13">Rosimundus:
                         Pleno ubere Coelum roret!</p>
-            <p>Florimundus:
+            <p n="p14">Florimundus:
                         Oscula pandite, hiantes fraterculi!</p>
-            <p>
-              <pb xml:id="F23r"/>Rosimundus: Roscitae gemmae de auriculis pendeant!</p>
-            <p>Florimundus:
+            <p n="p15">
+              <pb n="pb1" xml:id="F23r"/>Rosimundus: Roscitae gemmae de auriculis pendeant!</p>
+            <p n="p16">Florimundus:
                         Lucete, hortorum sidera, veris opes!</p>
-            <p>Rosimundus:
+            <p n="p17">Rosimundus:
                         Exeste, profani: ne me licente gressu florem interficiant!</p>
-            <p>Florimundus:
+            <p n="p18">Florimundus:
                         Nulla carpantur manu, nisi Regia!</p>
-            <p>Rosimundus:
+            <p n="p19">Rosimundus:
                         En, feras supremos in ungues arrectas!</p>
-            <p>Florimundus:
+            <p n="p20">Florimundus:
                         Contra audentes eunt: nos petunt.</p>
-            <p>Rosimundus:
+            <p n="p21">Rosimundus:
                         Nil time, pacis sunt umbones, quos ferunt.</p>
-            <p>Florimundus:
+            <p n="p22">Florimundus:
                         His scutis tecti florebimus!</p>
-            <p>Rosimundus:
+            <p n="p23">Rosimundus:
                         Quam me odor capit!</p>
-            <p>Florimundus:
+            <p n="p24">Florimundus:
                         Universam ut recreat Patriam!</p>
-            <stage>(Musica flauttis
+            <stage n="stage25">(Musica flauttis
                             constans)</stage>
-            <p>Rosimundus:
+            <p n="p26">Rosimundus:
                         Audis zephyrum?</p>
-            <p>Florimundus:
+            <p n="p27">Florimundus:
                         Audis favonios?</p>
-            <p>Rosimundus:
+            <p n="p28">Rosimundus:
                         Musicae strepunt ventulorum animae!</p>
-            <p>Florimundus:
+            <p n="p29">Florimundus:
                         Iocantis aurae sibili!</p>
-            <p>Rosimundus: O
+            <p n="p30">Rosimundus: O
                         secundas ethesias!</p>
-            <p>Florimundus:
+            <p n="p31">Florimundus:
                         Auster perflat tempe florentia.</p>
-            <p>Rosimundus: O
+            <p n="p32">Rosimundus: O
                         Coeli Serenissimi ingenium!</p>
-            <p>Florimundus: O
+            <p n="p33">Florimundus: O
                         mitem loci genium!</p>
-            <p>Rosimundus:
+            <p n="p34">Rosimundus:
                         Iam etiam hortante maio Salio more agiles choreas ducunt!</p>
-            <p>Florimundus:
+            <p n="p35">Florimundus:
                         Ut comam discolorem iactitant venuste!</p>
-            <p>Florimundus,
+            <p n="p36">Florimundus,
                             Rosimundus: O geniales horti nostri delicias!</p>
-            <note>7 Lulcete D. – 8 interficiat D.</note>
-            <note>8 Verg. Aen. 6,258 procul o procul este, profani. – 27
+            <note n="note37">7 Lulcete D. – 8 interficiat D.</note>
+            <note n="note38">8 Verg. Aen. 6,258 procul o procul este, profani. – 27
                         Salio more] Hor. carm. 1,36,12 neu morem in Salium sit requies pedum et
                         4,1,28 in morem Salium ter quatient humum.</note>
           </sp>
         </div>
-        <div type="scena" n="5">
-          <head>
-            <pb xml:id="F23v"/>Scena quinta</head>
-          <p>Periocha: Pace et Felicitate
+        <div n="div7" type="scena">
+          <head n="head1">
+            <pb n="pb1" xml:id="F23v"/>Scena quinta</head>
+          <p n="p2">Periocha: Pace et Felicitate
                             applaudente auspicatissimo Serenissimorum sponsorum Hymenaeo relucent e
                             caelo diversa emblemata, quibus singulae respondent e stelliferis
                             literis epigraphae – Theatrum: Emblemata caelestia in caelo et
                             epigraphae stelliferae.</p>
-          <sp>
-            <speaker>Pax – Felicitas Tyrolis</speaker>
-            <p>Pax: Sat
+          <sp n="sp3">
+            <speaker n="speaker1">Pax – Felicitas Tyrolis</speaker>
+            <p n="p2">Pax: Sat
                         prata, sat horti riserunt!</p>
-            <p>Felicitas:
+            <p n="p3">Felicitas:
                         Explicate nunc frontem, sidera: sol, come nobiliore caput radio, et pleno
                         arride globo, Cynthia!</p>
-            <p>Pax,
+            <p n="p4">Pax,
                             Felicitas: Lux gemina, lux Serenissima diem ferat!</p>
-            <stage>(Musica
+            <stage n="stage5">(Musica
                         Instrumentalis)</stage>
-            <p>Emblema primum: Phoebus et
-                            Phoebe –<emph>Deus coniunxit</emph>
+            <p n="p6">Emblema primum: Phoebus et
+                            Phoebe –<emph n="emph1">Deus coniunxit</emph>
             </p>
-            <p>Pax,
+            <p n="p7">Pax,
                         Felicitas: Ite, ite auspicata, felicia Coelo sidera! Crescite via
                         lactea, et terris sero occumbite!</p>
-            <stage>(Musica
+            <stage n="stage8">(Musica
                         Instrumentalis)</stage>
-            <p>Emblema secundum: Duo anuli
-                            conserti –<emph>Unio gemma est</emph>
+            <p n="p9">Emblema secundum: Duo anuli
+                            conserti –<emph n="emph1">Unio gemma est</emph>
             </p>
-            <p>
-              <pb xml:id="F24r"/>Pax,
+            <p n="p10">
+              <pb n="pb1" xml:id="F24r"/>Pax,
                             Felicitas: O anulos, o vincula, digna oculis, digna Principum
                         manibus! O catenam auream, quae integra omnium sibi devinciet animos!</p>
-            <stage>(Musica
+            <stage n="stage11">(Musica
                         Instrumentalis)</stage>
-            <p>Emblema tertium: Duae manus
-                            consertae –<emph>In carne una</emph>
+            <p n="p12">Emblema tertium: Duae manus
+                            consertae –<emph n="emph1">In carne una</emph>
             </p>
-            <p>Pax,
+            <p n="p13">Pax,
                         Felicitas: O casta foedera, quae sanguis sancit! Germano candore
                         conveniunt, qui sic conveniunt in manus. Nodum Gordium sero, ah sero
                         scindant Parcae!</p>
-            <note>25–27 annuli ... annulos D.</note>
-            <note>18 Deus coniunxit] Vulg. Matth. 19,6. – 32 In carne una]
+            <note n="note14">25–27 annuli ... annulos D.</note>
+            <note n="note15">18 Deus coniunxit] Vulg. Matth. 19,6. – 32 In carne una]
                         Vulg. Eph. 5,31 (=gen. 2,24; Matth. 19,5; Marc. 10,8; I Cor. 5,16).</note>
-            <stage>(Musica
+            <stage n="stage16">(Musica
                         Instrumentalis)</stage>
-            <p>Emblema quartum: Duo toedae
-                            decussatim colligatae –<emph>S i n e f u m o</emph>
+            <p n="p17">Emblema quartum: Duo toedae
+                            decussatim colligatae –<emph n="emph1">S i n e f u m o</emph>
             </p>
-            <p>Pax,
-                        Felicitas: Ardeant toedae, luceant toedae,<pb xml:id="F24v"/>diviniore flamma
+            <p n="p18">Pax,
+                        Felicitas: Ardeant toedae, luceant toedae,<pb n="pb1" xml:id="F24v"/>diviniore flamma
                         coelitus accensae! O quot hinc lumina Christiano nascentur orbi
                         Serenissima!</p>
-            <stage>(Musica
+            <stage n="stage19">(Musica
                         Instrumentalis)</stage>
-            <p>Emblema quintum: Duo gemini –<emph>Anima una</emph>
+            <p n="p20">Emblema quintum: Duo gemini –<emph n="emph1">Anima una</emph>
             </p>
-            <p>Pax,
+            <p n="p21">Pax,
                         Felicitas: Vivite gemini, vivite sponsi, vivite unanimes! Discat a
                         vestris amoribus concordiam haec aetas: mores ijdem, sensus ijdem, anima
                         una!</p>
-            <stage>(Musica
+            <stage n="stage22">(Musica
                         Instrumentalis)</stage>
-            <p>Emblema sextum: Duae Columbae
-                            –<emph>Christus Ecclesiam</emph>
+            <p n="p23">Emblema sextum: Duae Columbae
+                            –<emph n="emph1">Christus Ecclesiam</emph>
             </p>
-            <p>Pax,
-                        Felicitas: Foecundae sunt et castae sunt:<pb xml:id="F25r"/>Austriacum imperium
+            <p n="p24">Pax,
+                        Felicitas: Foecundae sunt et castae sunt:<pb n="pb1" xml:id="F25r"/>Austriacum imperium
                         discite ex hoc felici auspicio, subiecti! Sunt sine felle volucres!</p>
-            <stage>(Musica
+            <stage n="stage25">(Musica
                         Instrumentalis)</stage>
-            <p>Emblema septimum: Duo corda
-                            supra aram coniuncta, in quae flammulae depluunt –<emph>Adhaerebit</emph>
+            <p n="p26">Emblema septimum: Duo corda
+                            supra aram coniuncta, in quae flammulae depluunt –<emph n="emph1">Adhaerebit</emph>
             </p>
-            <p>Pax,
+            <p n="p27">Pax,
                         Felicitas: Abeste, profani ignes, amica Coelo pluvia iam occupavit!
                         Aurea redeunt saecula! Gemina corda, concordia pari liquescunt in unum!</p>
-            <stage>(Musica
+            <stage n="stage28">(Musica
                         Instrumentalis)</stage>
-            <note>10 Anima una] Vulg. act. 4,32. – 17 Christus Ecclesiam]
+            <note n="note29">10 Anima una] Vulg. act. 4,32. – 17 Christus Ecclesiam]
                         Vulg. Eph. 5,29. – 25 Adhaerebit] Vulg. Eph. 5,31 (=gen. 2,24; Matth. 19,5;
                         Marc. 10,8).</note>
-            <p>Emblema octavum: Aquilini
-                            Pulli circa solem –<emph>N o n d e g e n e r e s</emph>
+            <p n="p30">Emblema octavum: Aquilini
+                            Pulli circa solem –<emph n="emph1">N o n d e g e n e r e s</emph>
             </p>
-            <p>
-              <pb xml:id="F25v"/>Pax,
+            <p n="p31">
+              <pb n="pb1" xml:id="F25v"/>Pax,
                             Felicitas: Ite, felices posteri, maiorum exemplo supra nubes, supra
                         fulmina, supra invidiam, non supra amorem! Sic rem divinam in oculis habete,
                         ut semper vos orbis suspiciat!</p>
-            <stage>(Musica
+            <stage n="stage32">(Musica
                         Instrumentalis)</stage>
           </sp>
         </div>
-        <div type="saltatio">
-          <head>
-            <add resp="editor">Saltatio</add>
+        <div n="div8" type="saltatio">
+          <head n="head1">
+            <add n="add1" resp="editor">Saltatio</add>
           </head>
-          <p>Periocha: Sex amores
+          <p n="p2">Periocha: Sex amores
                             Austriaci invisum orbi Martem vinciunt, exarmant et inermi insultant
                             docentque humanissimam provincias et regna subiugandi rationem esse per
                             coniugia, casti Hymenaei et Pacis auspicijs. – Theatrum: Mars vinctus et
                             exarmatus postliminio in Iani retruditur templum.</p>
         </div>
-        <div type="scena" n="6">
-          <head>Scena sexta</head>
-          <p>Periocha: Pro Thalassione
+        <div n="div9" type="scena">
+          <head n="head1">Scena sexta</head>
+          <p n="p2">Periocha: Pro Thalassione
                             bona verba, germana vota novis sponsis Serenissimis, pijs Patriae
                             parentibus concepta, cantata. – Theatrum: Pax et Felicitas canunt,
                             monticolae Tirolis et fluvij accinunt et quidquid in toto vocale est
                             theatro, applaudit.</p>
-          <stage>(Pax et tres Gratiae in
+          <stage n="stage3">(Pax et tres Gratiae in
                             singulis machinis, Felicitas supra aquilam, fluvij in theatro, pastores
                             duo in monticulis)</stage>
-          <sp>
-            <p>Pax<stage>(Cantus
+          <sp n="sp4">
+            <p n="p1">Pax<stage n="stage1">(Cantus
                         primus)</stage>: Victus et vinctus est Gradivus! Grassatus est diu sacra profanis
                         commiscens, pacatior templum iam colat! Hoc votum maximum fuit amicae mihi
                         Austriae.</p>
-            <p>Omnes: O votum
+            <p n="p2">Omnes: O votum
                         pium fuit!</p>
-            <p>Felicitas<stage>(Cantus secundus)</stage>: Castorum amorum potens in pace domus, iustorum armorum
-                        cum provocatur<pb xml:id="F26r"/>ab hostibus<del resp="editor">ab hostibus</del>!</p>
-            <p>Athesis<stage>(Bassus primus)</stage>: Involent alij et expugnent duce Marte regna: Hymenaeo
+            <p n="p3">Felicitas<stage n="stage1">(Cantus secundus)</stage>: Castorum amorum potens in pace domus, iustorum armorum
+                        cum provocatur<pb n="pb2" xml:id="F26r"/>ab hostibus<del n="del3" resp="editor">ab hostibus</del>!</p>
+            <p n="p4">Athesis<stage n="stage1">(Bassus primus)</stage>: Involent alij et expugnent duce Marte regna: Hymenaeo
                         classicum canente populos subiungant Austriaci!</p>
-            <note>10–15 = Periochae Scena 5.; vide comm. – 34 Felicitas D;
+            <note n="note5">10–15 = Periochae Scena 5.; vide comm. – 34 Felicitas D;
                         Athesis quia parte caret et bassum canit.</note>
-            <note>28 Victus et vinctus] Flor. epit. 3,1,18.</note>
-            <p>Pastores<stage>(Duo
+            <note n="note6">28 Victus et vinctus] Flor. epit. 3,1,18.</note>
+            <p n="p7">Pastores<stage n="stage1">(Duo
                         tenores)</stage>: O incruentae armorum victoriae, quae nunquam invitis imperant!</p>
-            <p>Pax<stage>(Cantus
+            <p n="p8">Pax<stage n="stage1">(Cantus
                         primus)</stage>: Etiam in armis victores lacrimas potius quam sanguinem a victis
                         exigunt Austriaci.</p>
-            <p>Felicitas<stage>(Cantus secundus)</stage>: Libertatis est species subiectis, sub hac
+            <p n="p9">Felicitas<stage n="stage1">(Cantus secundus)</stage>: Libertatis est species subiectis, sub hac
                         clementia.</p>
-            <p>Omnes: Nemo,
+            <p n="p10">Omnes: Nemo,
                         nemo gemit sub amoris iugo!</p>
-            <p>Pax (<stage>Cantus
+            <p n="p11">Pax (<stage n="stage1">Cantus
                         primus)</stage>: Felices populi, qui amantibus Principibus sunt in amoribus!</p>
-            <p>Omnes: Pax
+            <p n="p12">Omnes: Pax
                         olea coronet, Bellona lauro victores Amores!</p>
-            <p>Pax, Felicitas<stage>(Cantus primus et secundus)</stage>: Vestra tela rosis coronate!</p>
-            <p>Gratiae<stage>(Duo
+            <p n="p13">Pax, Felicitas<stage n="stage1">(Cantus primus et secundus)</stage>: Vestra tela rosis coronate!</p>
+            <p n="p14">Gratiae<stage n="stage1">(Duo
                         alti)</stage>: Favo tingite!</p>
-            <p>Pastores<stage>(Duo
+            <p n="p15">Pastores<stage n="stage1">(Duo
                         tenores)</stage>: In hostes Pacis absumite tela, ut fiant ex efferis humani!</p>
-            <p>
-              <pb xml:id="F26v"/>Fluvij<stage>(Duo bassi)</stage>: Nulla, nulla salus bello –</p>
-            <p>Omnes: Pacem,
+            <p n="p16">
+              <pb n="pb1" xml:id="F26v"/>Fluvij<stage n="stage2">(Duo bassi)</stage>: Nulla, nulla salus bello –</p>
+            <p n="p17">Omnes: Pacem,
                         te, Pacem poscimus omnes!</p>
-            <p>Pax<stage>(Cantus
+            <p n="p18">Pax<stage n="stage1">(Cantus
                         primus)</stage>: Pacati rideat clementia Coeli!</p>
-            <p>Oenus<stage>(Bassus)</stage>: Constantia foedera sanciat Iris, Pacis prodroma!</p>
-            <p>Omnes: Aureum,
+            <p n="p19">Oenus<stage n="stage1">(Bassus)</stage>: Constantia foedera sanciat Iris, Pacis prodroma!</p>
+            <p n="p20">Omnes: Aureum,
                         ah aureum Pacis redeat saeculum!</p>
-            <p>Pastores<stage>(Duo
+            <p n="p21">Pastores<stage n="stage1">(Duo
                         tenores)</stage>: Ponat tempestas bellica, grandinet gemmis polus!</p>
-            <p>Charis prima<stage>(Primus altus)</stage>: Auro pluat!</p>
-            <p>Pax<stage>(Cantus
+            <p n="p22">Charis prima<stage n="stage1">(Primus altus)</stage>: Auro pluat!</p>
+            <p n="p23">Pax<stage n="stage1">(Cantus
                         primus)</stage>: Mellis rivi rorent!</p>
-            <p>Omnes:
+            <p n="p24">Omnes:
                         Balsami, nectaris, lactis eant flumina, his Archiducibus!</p>
-            <p>Pax<stage>(Cantus
+            <p n="p25">Pax<stage n="stage1">(Cantus
                         primus)</stage>: Ferdinandus sit sol diei!</p>
-            <p>Felicitas<stage>(Cantus secundus)</stage>: Anna Serenissima Phoebe noctis!</p>
-            <p>Omnes: His
+            <p n="p26">Felicitas<stage n="stage1">(Cantus secundus)</stage>: Anna Serenissima Phoebe noctis!</p>
+            <p n="p27">Omnes: His
                         integrentur innubes Patriae anni!</p>
-            <p>Pax<stage>(Cantus
+            <p n="p28">Pax<stage n="stage1">(Cantus
                         primus)</stage>: Ferdinandus Patriae pater antequam sponsus!</p>
-            <p>Felicitas<stage>(Cantus secundus)</stage>: Anna Patriae mater cumprimum sponsa!</p>
-            <p>
-              <pb xml:id="F27r"/>Omnes:
+            <p n="p29">Felicitas<stage n="stage1">(Cantus secundus)</stage>: Anna Patriae mater cumprimum sponsa!</p>
+            <p n="p30">
+              <pb n="pb1" xml:id="F27r"/>Omnes:
                         Clari Principes, implestis votum Patriae!</p>
-            <p>Pax<stage>(Cantus
+            <p n="p31">Pax<stage n="stage1">(Cantus
                         primus)</stage>: Vos Patria in oculis –</p>
-            <p>Felicitas<stage>(Cantus secundus)</stage>: Vos Patria in corde feret!</p>
-            <p>Omnes: Vivite
+            <p n="p32">Felicitas<stage n="stage1">(Cantus secundus)</stage>: Vos Patria in corde feret!</p>
+            <p n="p33">Omnes: Vivite
                         millies in vestrorum animis, etiam civium de annis!</p>
-            <p>Pax<stage>(Cantus
+            <p n="p34">Pax<stage n="stage1">(Cantus
                         primus)</stage>: Este parentes –</p>
-            <p>Omnes: Semper
+            <p n="p35">Omnes: Semper
                         felices!</p>
-            <p>Pax<stage>(Cantus
+            <p n="p36">Pax<stage n="stage1">(Cantus
                         primus)</stage>: Vos alteros in filijs brevi veneretur –</p>
-            <p>Felicitas<stage>(Cantus secundus)</stage>: In nepotibus Patria!</p>
-            <p>Omnes: Optimis
+            <p n="p37">Felicitas<stage n="stage1">(Cantus secundus)</stage>: In nepotibus Patria!</p>
+            <p n="p38">Omnes: Optimis
                         Principibus succcedant optimi!</p>
-            <note>1 Duo tenores: pastores D. – 11 om. personam D; duae
+            <note n="note39">1 Duo tenores: pastores D. – 11 om. personam D; duae
                         Gratiae parte carent, tertia vel prima Charis appellatur 20. – 12 Duo
                         pastores tenores D. – 17 prodoma D. – 19 om. personam D. – 25 in nubes
                         D.</note>
-            <note>14sq. Verg. Aen. 11,362; cf. hic 82,31sq.; 100,20.</note>
-            <p>Pax<stage>(Cantus
+            <note n="note40">14sq. Verg. Aen. 11,362; cf. hic 82,31sq.; 100,20.</note>
+            <p n="p41">Pax<stage n="stage1">(Cantus
                         primus)</stage>: Patrissent nati!</p>
-            <p>Felicitas<stage>(Cantus secundus)</stage>: Matrissent natae!</p>
-            <p>Omnes: Omnes
+            <p n="p42">Felicitas<stage n="stage1">(Cantus secundus)</stage>: Matrissent natae!</p>
+            <p n="p43">Omnes: Omnes
                         magni, omnes pij, omnes Serenissimi! Vivant, vivant, vivant!</p>
-            <p>Pax<stage>(Cantus
+            <p n="p44">Pax<stage n="stage1">(Cantus
                         primus)</stage>: Vivat Ferdinandus!</p>
-            <p>
-              <pb xml:id="F27v"/>Felicitas<stage>(Cantus secundus)</stage>: Vivat Anna Archidux!</p>
-            <p>Omnes: Vivat
+            <p n="p45">
+              <pb n="pb1" xml:id="F27v"/>Felicitas<stage n="stage2">(Cantus secundus)</stage>: Vivat Anna Archidux!</p>
+            <p n="p46">Omnes: Vivat
                         Ardinandus, vivat Anna Archidux!</p>
-            <p>Pax, Felicitas<stage>(Cantus primus et secundus)</stage>: In pace altissima!</p>
-            <p>Omnes: Annent,
+            <p n="p47">Pax, Felicitas<stage n="stage1">(Cantus primus et secundus)</stage>: In pace altissima!</p>
+            <p n="p48">Omnes: Annent,
                         perennent, annent, perennent!</p>
           </sp>
         </div>

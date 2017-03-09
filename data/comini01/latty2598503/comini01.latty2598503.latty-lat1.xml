@@ -33,6 +33,25 @@
         <bibl>TLMF, Dip. 449/8</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1807" precision="high">1807</date>
@@ -55,22 +74,22 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:comini01.latty2598503.latty-lat1:">
-    <body>
-      <div>
-        <head>Historia febris putrido contagiosae Lisenensis<note place="foot" xml:id="ftn1" n="1">
-            <p>Lisena vallis ad montem in orientem versus sita ab urbe Brixinae tribus
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">Historia febris putrido contagiosae Lisenensis<note n="note1" place="foot" xml:id="ftn1">
+            <p n="p1">Lisena vallis ad montem in orientem versus sita ab urbe Brixinae tribus
                         horis distans, ditionis olim Celsissimi Principis Brixinensis, nunc ad
                         Augustissimam Bavariae Domum pertinens.</p>
           </note>Michaelis Uldarici Comini
                 de Sonnenberg per epistolam Veneti medicinae commentarii editori praestantissimo
                 communicata. Idibus iunii 1803.</head>
       </div>
-      <pb xml:id="F2"/>
-      <div>
-        <pb xml:id="FIII"/>
-        <p>Tibi sisto, vir eruditissime, fidam historiam morbi, quem Lisenae anno
-                praesertim 1802 epidemice grassantem haud levem edidisse stragem<note place="foot" xml:id="ftn2" n="2">
-            <p>Faebris haec 70 circiter abripuit.</p>
+      <pb n="pb2" xml:id="F2"/>
+      <div n="div3">
+        <pb n="pb1" xml:id="FIII"/>
+        <p n="p2">Tibi sisto, vir eruditissime, fidam historiam morbi, quem Lisenae anno
+                praesertim 1802 epidemice grassantem haud levem edidisse stragem<note n="note1" place="foot" xml:id="ftn2">
+            <p n="p1">Faebris haec 70 circiter abripuit.</p>
           </note>nemo
                 ex dissitis quoque Tirolis nostrae partibus novitatis vel mediocriter versatus
                 ignorabit. Initium caepit morbus anno 1801 autumni tempore, ac ad anni 1803 ver
@@ -85,19 +104,19 @@
                 diu degerent. Suae sorti relicti miseri, aut chirurgorum tantum curae commissi
                 peribant non pauci haud absque profecto agriculturae tenerrimae eius loci nutricis
                 languore; quo factum est, ut perterrefacta vicinia ad divinam publicis precibus, ac
-                tandem suadente prae caeteris venerando seni loci Parocho<note place="foot" xml:id="ftn3" n="3">
-            <p>Cuius humanitati, et benefico animo miseranda eius loci
+                tandem suadente prae caeteris venerando seni loci Parocho<note n="note2" place="foot" xml:id="ftn3">
+            <p n="p1">Cuius humanitati, et benefico animo miseranda eius loci
                         pauperum classis hac imprimis grassante lue plurima debet.</p>
           </note>ad
                 medicam opem implorandam confugeret.</p>
-        <p>Cum primum mense Augusti anni 1802 ad viduam, quae non ita pridem aetate florentem
+        <p n="p3">Cum primum mense Augusti anni 1802 ad viduam, quae non ita pridem aetate florentem
                 coniugem eodem morbo defunctum amare lugebat, accersitus essem, ea occasione alios
                 quoque, nec paucos visitavi acute decumbentes, prae quibus duo fratres, ac sorores,
                 quae nuperrime parentes epidemica febri peremptos amisere, miliaribus, petechiisque
                 undique foedatas, delirio, convulsionibus, atque meteorismo captas tam graviter
-                decubuisse apprime recordor, ut de eorum<pb xml:id="F4"/>omnium salute conclamatum esse haud
-                arduum foret hariolari.<note place="foot" xml:id="ftn4" n="4">
-            <p>In hac domo tam
+                decubuisse apprime recordor, ut de eorum<pb n="pb1" xml:id="F4"/>omnium salute conclamatum esse haud
+                arduum foret hariolari.<note n="note2" place="foot" xml:id="ftn4">
+            <p n="p1">In hac domo tam
                         exitialiter saeviit morbus ut integra extincta sit familia.</p>
           </note>Epidemicam itaque febrim, eamque pravae indolis prae oculis habens, singulis, qui
                 publico praesunt, convocatis, ut mox alia, eaque efficaciora tam praeservandi, quam
@@ -105,8 +124,8 @@
                 consilio, ut nihil quod vel ad conservandam eius populi, vel ad amissam restituendam
                 salutem conferre valet, intentatum relinquatur, atque publico sumptu pauperum
                 classi, quorum maior aegrotantium pars fuit, auxiliatrices porrigantur manus. Cum
-                ego vero loco semper praesens esse haud possem, chirurgum (Reichsigl<note place="foot" xml:id="ftn5" n="5">
-            <p>Hic vix per duarum hebdomadarum spatium in
+                ego vero loco semper praesens esse haud possem, chirurgum (Reichsigl<note n="note3" place="foot" xml:id="ftn5">
+            <p n="p1">Hic vix per duarum hebdomadarum spatium in
                         aere maxime iniurioso commoratus suscepto contagio in lethalem proh! dolor
                         morbuum incidit miser, cuius immaturum fatum ex animo dolent omnes,
                         querunturque praeprimis parturientes, quibus toties ut obstetricans consilio
@@ -119,12 +138,12 @@
                 vitae discrimine invisi, donec investigato iugiter, tandemque perspecto grassantis
                 morbi genio, ad eumdem perdomandum recto pede, et intrepidus procedere. De illo
                 autem perpauca, quae sequuntur, observare mihi datum est.</p>
-        <p>Aegri conquerebantur primum de horripilatione caloribus intercurrente, lassitudine,
+        <p n="p4">Aegri conquerebantur primum de horripilatione caloribus intercurrente, lassitudine,
                 capitis, artuumque gravitate, ac obtuso dolore: torpidi, inertes, muneribus omnes
                 minus pares e sedili ad lectum e lecto ad focum se se tranantes tres, quatuorve,
                 quandoque plures terebant dies, priusquam ingravescentibus adlatis symptomatibus
-                lecto se se committerent. Subsequebantur calor ad vesperas intensior, sudores<note place="foot" xml:id="ftn6" n="6">
-            <p>Statim ac quis inter rusticos gravi
+                lecto se se committerent. Subsequebantur calor ad vesperas intensior, sudores<note n="note1" place="foot" xml:id="ftn6">
+            <p n="p1">Statim ac quis inter rusticos gravi
                         correptus morbo lecto addicitur stragulorum pondere, camphorae usu, aliisque
                         sudoriferis pulveribus mox sudorem plerumque noxium elicendi mos est apud
                         eos iam receptus.</p>
@@ -132,10 +151,10 @@
                 critici, sitis ardens: acutus capitis dolor, facies rubra, os amarum, viscidum,
                 lingua arida, albo flavescante obducta muco: nausea, vomitus materiae flavae cum
                 omnium ad ventriculum symptomatum diminutione: somnus fere nullus, perturabatus
-                ae<pb xml:id="F5"/>gros minime reficiens. Interea alvus morbi initio raro laxa, urina parca,
+                ae<pb n="pb2" xml:id="F5"/>gros minime reficiens. Interea alvus morbi initio raro laxa, urina parca,
                 rubisa: pulsus frequentes, expansi, sat aequales, tussis rara, respiratio vix laesa:
                 apparens virium prostratio aderant.</p>
-        <p>Post quatuor, vel quinque dies remittebat acuta cephalalgia: putridae cacochiliae
+        <p n="p5">Post quatuor, vel quinque dies remittebat acuta cephalalgia: putridae cacochiliae
                 signa digestionis officinam gravantis, et lascessentis celebrata ab initio emesi
                 minus urgebant. Abdominis nunc turbae succedunt: hypocondria attolluntur: hepatis
                 regio tenditur magis, ac paulo ruditer contectata dolet: alvus raro sponte soluta,
@@ -145,14 +164,14 @@
                 deliria, sopor lethargicus, tacita musitatio, singultus, meteorismi aegrum divexant,
                 anguntque, ac tandem sub lethali morbi exitu pulsus exiles, irregulares, sedes
                 inchorosae, involuntariae, dispnaea, floccorum captatio, subsultus tendinum,
-                convulsiones tragediae finem imponunt.<note place="foot" xml:id="ftn7" n="7">
-            <p>Morbus hic haud dissimilis est febri epidemicae. Flemmensi anni 1796 a me
+                convulsiones tragediae finem imponunt.<note n="note1" place="foot" xml:id="ftn7">
+            <p n="p1">Morbus hic haud dissimilis est febri epidemicae. Flemmensi anni 1796 a me
                         descriptae, ac in Veneto medicinae commentario tom. XI, pag. 158 insertae,
                         quae tunc plerasque Tyrolis nostrae partes saevissime
                 pervasit.</p>
           </note>
         </p>
-        <p>Haec erant praecipua epidemicae hius febris symptomata; varietates, quemadmodum in
+        <p n="p6">Haec erant praecipua epidemicae hius febris symptomata; varietates, quemadmodum in
                 qualibet epidemia, sic et in hac occurrebant nonnullae. Absque ullis prodromis
                 signis repente morbo invadebantur plures, qui excussa per emetocatharticum bile,
                 insequente copioso sudore, post tres, quatuorve dies sani lecto valedicebant. E
@@ -166,7 +185,7 @@
                 Interea ad octavam usque diem somnus, ac cibi desiderium deficit; febricula nullo in
                 primis viis saburrarum apparatu, aut siti stipata se prodit. Vix octava mali die
                 elapsa, mitigato acuto capitis dolore, nervosa miserum aggrediuntur symptomata: mens
-                fit timida, tristis, inquieta, sub<pb xml:id="F6"/>delirens: arteriae celeriter micant,
+                fit timida, tristis, inquieta, sub<pb n="pb1" xml:id="F6"/>delirens: arteriae celeriter micant,
                 debilitas summa, levia animi deliquia subrepunt, aegrotoque nostro metum incutiunt.
                 In hoc rerum statu erumpentibus circa decimam quartam diem ad brachia, et pectus
                 furunculis duris, sublividis, in quibus, priusquam in suppurationem emollientum ope
@@ -182,13 +201,13 @@
                 prius ostendentibus tanta, tamque diutina materiei excreatione, ut viribus in dies
                 collabentibus, contabescente aegro atrophia 52, morbi die omnium malorum clauserit
                 agmen.</p>
-        <p>Verum alii alia patiebantur symptomata. Singultum, qui lethalem vix non semper exitum
+        <p n="p7">Verum alii alia patiebantur symptomata. Singultum, qui lethalem vix non semper exitum
                 indicabat, permolestum undecima morbi die comparentem, emetici usu bis repetiti
                 sublatum vidi in sacerdote, postquam nulli auscultans pharmaco per 12 dies aegrum
                 diu, noctuque pervicaciter vexaverat.</p>
-        <p>Cadaverum incisionem eo libentius, cum publici votum esset, instituissem, nisi mox
+        <p n="p8">Cadaverum incisionem eo libentius, cum publici votum esset, instituissem, nisi mox
                 meam medendi methodum ex voto cedere laetus observassem.</p>
-        <p>Sed e diverticulo ad viam. Morbum in omnibus, licet non in omnes eadem vi, quae et
+        <p n="p9">Sed e diverticulo ad viam. Morbum in omnibus, licet non in omnes eadem vi, quae et
                 ratione anni temporum, ac loci varia erat, saevientem eiusdem generis ab initio
                 epidemiae ad eius finem usque fuisse testantur eadem mihi, aliisque (curae enim non
                 semper praefui) per totius constitutionis decursum observata symptomata, testaturque
@@ -197,7 +216,7 @@
                 eiectio sive naturae, sive artis auxilio procurata maximam criseos partem
                 efformabat. Urinae turbidae, lateritiae, ac sudores aequaliterm per totum corpus
                 diffusi morbum ex integro iudicabant. Crisis in manu medici, non in espectatione
-                posita erat; dies vero critici non animadvertebantur.<pb xml:id="F7"/>Qui 14 superaverant
+                posita erat; dies vero critici non animadvertebantur.<pb n="pb1" xml:id="F7"/>Qui 14 superaverant
                 diem, evadebant plerique, licet et vigesima die, quin imo tardius funera viderim.
                 Morbus neglectus, aut male curatus citius in lethalem ruebat exitum, et raro
                 undecimam diem excedebat. Respiratio brevis, gemes, oculi rubri, lachrymis innantes,
@@ -210,7 +229,7 @@
                 convulsionibus aggressa camphorae oper sanitati restituta fuit; verum adeo gravem
                 postea ad os sacrum passa est decubitum, ut per mensem et ultra lecto affixa sit,
                 priusquam vastura ad cicatricem perduceretur ulcus.</p>
-        <p>Ex hucusque adlatis symptomatibus omnibus vel leviter perpensis facile quisque
+        <p n="p10">Ex hucusque adlatis symptomatibus omnibus vel leviter perpensis facile quisque
                 percipit, constitutionem epidemicam Lisenensem febrim nobis sistere
                 putrido-contagiosam. Quaenam autem erit eius causa, cum Lisena salubrem alias
                 incolis offerat vallem, nec annus in universum insalubris et medicis,
@@ -222,8 +241,8 @@
                 fuere, domum infecisse probe scio. Nec quisquam id evenisse mirabitur, qui hisce in
                 locis male sanos rusticorum mores noverit. Horum humiles tabernae, ut nihil de prava
                 earum constructione loquar, ita extructae sunt, ut unum tantum hypocaustum in tota
-                domo inveniatur.<note place="foot" xml:id="ftn8" n="8">
-            <p>Necessitatem cubiculum in
+                domo inveniatur.<note n="note1" place="foot" xml:id="ftn8">
+            <p n="p1">Necessitatem cubiculum in
                         quavis villicorum taberna pro aegris separatim exstruendi saepius inculcavi.
                         Sed, quod maxime dolendum est, surdis cecini.</p>
           </note>In eodem conveniunt
@@ -231,9 +250,9 @@
                 renovatione, vel ope baccarum iuniper, vel aceti caporum de eius correctione
                 cogitent. Sani ieiuno stomacho invisunt aegros, sub quorum lecto pessime olens
                 putridis excrementis referta matula per dies iacet. Defunctorum per cadavera inter
-                aegrotantes, qui tetram mortis imminentis imaginem ipsa morte tri<pb xml:id="F8"/>stiorem
-                prae oculis habent, diutius insepulta iacent,<note place="foot" xml:id="ftn9" n="9">
-            <p>Ut cadavera mox ab aegris separentur, inque alium serpente contagiosa
+                aegrotantes, qui tetram mortis imminentis imaginem ipsa morte tri<pb n="pb2" xml:id="F8"/>stiorem
+                prae oculis habent, diutius insepulta iacent,<note n="note3" place="foot" xml:id="ftn9">
+            <p n="p1">Ut cadavera mox ab aegris separentur, inque alium serpente contagiosa
                         lue transportentur locum, lege cautum iri necesse foret.</p>
           </note>et
                 sepulta in foveis partim profundis conduntur, super quas amici, ne coniuncti
@@ -246,9 +265,9 @@
                 intelligitur; quare descripta febris hisce de causis aucta statim ac inter nostros
                 rusticos contagium minime curantes irrepsti, per annos epidemice grassata valde
                 ancipitis exitus exstiterit.</p>
-        <p>Febris haec nulli aetati pepercit, utrique sexui aeque infecta, longe, lateque effusa
-                vix sex in tota valle<note place="foot" xml:id="ftn10" n="10">
-            <p>Lisena 160 focos
+        <p n="p11">Febris haec nulli aetati pepercit, utrique sexui aeque infecta, longe, lateque effusa
+                vix sex in tota valle<note n="note1" place="foot" xml:id="ftn10">
+            <p n="p1">Lisena 160 focos
                         et 1133 incolas enumerat.</p>
           </note>inter tot familias contagio prorsus
                 immunes reliquit; nullibi autem tam furit, quam fervescente aestate valde sicca in
@@ -256,7 +275,7 @@
                 paupertasque, ac inopia premit. Iuvenes robustiores, vegetatioresque, ac senes magis
                 periclitabantur, quam mediae aetatis viri, omnium autem minime aegrotabant
                 adolescentes.</p>
-        <p>Sic adumbratis, quae morbi historiam spectant, superest, ut attingam eius medenti
+        <p n="p12">Sic adumbratis, quae morbi historiam spectant, superest, ut attingam eius medenti
                 methodum, quam, cum neutiquam ab ea differat, qua summi in arte viri hiusmodi in
                 casibus auspicato usi sunt, paucis pestringram, timens, ne oratio mea praefixos
                 alias epistolae limites excedat. Posita itaque morbi diagnosi, ac causa supra adlata
@@ -265,15 +284,15 @@
                 praeparetur, vel si mobilis sit, et turgens breviore via quantocius e corpore
                 eliminetur, corrigaturque. Secundo virium vitae habeatur ratio. Tertio urgentibus
                 symptomatibus, morbique sequelis medela opponatur.</p>
-        <p>Primae indicationi praemissis per unam, vel alteram diem, si saburra tenacitate sua
-                resistebat, lenibus resolventibus, quae nobis refractae tartari eme<pb xml:id="F9"/>tici
+        <p n="p13">Primae indicationi praemissis per unam, vel alteram diem, si saburra tenacitate sua
+                resistebat, lenibus resolventibus, quae nobis refractae tartari eme<pb n="pb1" xml:id="F9"/>tici
                 doses, eremor tartari, potus ex decocto hordei, gramina cum oxymelle acidulato
                 praebent, emetica faciebant satis, inter quae tartarus emeticus palmam praeripiebat;
                 et ipecacuana in eo solummodo casu, ubi diarrhaea simul aderat, utilis inveniebat
                 cum uno, vel altero tartari emetici grano nupta. Robustioris constitutionis aegris
                 emeto-catharticum ex manna, sale medio, et tartaro autimoniato constans optime
                 conducere observabam.</p>
-        <p>Celebrata, ubi nulla contraindicatio aderat, emesi, cuius vices purgans raro, et
+        <p n="p14">Celebrata, ubi nulla contraindicatio aderat, emesi, cuius vices purgans raro, et
                 plerumque non nis cum aegroti rerum detrimento explere vidi, altera die catharticis,
                 inter quae mannam modo tamarindis, et cremori tartari, modo sali medio, et levi
                 tartari emetici portioni iunctam plerumque eligebam, intestinorum evacuatio
@@ -281,7 +300,7 @@
                 quae tenacem bilem, pituitamque resolvere, ac corrigere valeant, remediis
                 incidentibus, salinis, ac potu diluente, acidulato, emeticum, vel purgans pro
                 necessitate repetitum eximiam opem praestabat.</p>
-        <p>Sic pertractata febri, si nulla aderat morbi complicatio, aegroti incerta quidem die,
+        <p n="p15">Sic pertractata febri, si nulla aderat morbi complicatio, aegroti incerta quidem die,
                 ac plerumque post duas tantum hebdomadas ita se habebant imprimis iuvenes,
                 vegetioresque, ut praete potum, corporis, animique quietem, atque congruam diaetam
                 vix ullo alio indigerent pharmaco. In polypharmacorum manibus aegrotantium res in
@@ -294,11 +313,11 @@
                 cuius tinctura aquosa non omissis clysmatibus primum locum obtinebat; dum
                 meteorismus, aut virium prostratio aderat. Morbum in intermittentem febrim abiise
                 unum tantum mihi innotescit exemplum.</p>
-        <p>Ultimam quod attinet indicationem, vix ulla occurrebant morbi symptomata aliam, quam
+        <p n="p16">Ultimam quod attinet indicationem, vix ulla occurrebant morbi symptomata aliam, quam
                 eandm communem omnibus aliis originem habentia, quae specialem postularent medelam,
                 aliaque essent secure rescidenda, si nonnulla excipias a vermibus progenita, quae
                 anthelminticis erant oppugnanda. Huius rei exemplum prae cateris suppeditavit puella
-                quartum lustrum iam emensa,<pb xml:id="F10"/>quae, postquam communi curandi methodo fuerit
+                quartum lustrum iam emensa,<pb n="pb1" xml:id="F10"/>quae, postquam communi curandi methodo fuerit
                 pertractata, sexta morbi die inopinato adeo gravi respirandi, deglutiendique
                 corripitur difficultate, ut de exitu metuerent adstantes. Vermes, quos varias
                 serpente epidemia in pueris scenas lusisse novi, in causa esse suspicatus infusum
@@ -310,13 +329,13 @@
                 constitutionibus phlebotomiam forte expostulassent; in nostro autem morbo ea nocua
                 inventa fuit; hac de causa ne quis stupeat, si de sanguinis emissione nec verbulum
                 inieci.</p>
-        <p>Metastases ad os sacrum ex decubitu ortas, longas, ac perquam toediosas cortice
+        <p n="p17">Metastases ad os sacrum ex decubitu ortas, longas, ac perquam toediosas cortice
                 peruviano balsamicis nupto curandas plures habui. Erysipelatosum tumorem totum
                 sinistrum femur occupantem ex neglecto malo natum in puella 15 annorum, quam prae
                 dolore diu, noctupue eiulantem inveni, ac resolventium ope feliciter dissipatum,
                 interne non omissis, quae vix non extinctas cordis vires erigunt, laetus recordor.
-                Superata febre memoratu praeterea haud indignum est, quod arenulas, lapillosque<note place="foot" xml:id="ftn11" n="11">
-            <p>(*) Cum sermo sit de calculis urinariis
+                Superata febre memoratu praeterea haud indignum est, quod arenulas, lapillosque<note n="note1" place="foot" xml:id="ftn11">
+            <p n="p1">(*) Cum sermo sit de calculis urinariis
                         silentio praeterire nequeo sectionem cadaveris non ita pridem susceptam in
                         viro aetate provecto vesicae calculo defuncto. Hic 66 annos iam egressus ob
                         scribae, quo fungebatur, munus vitam sedentariam ducere coactus, vinoque
@@ -342,7 +361,7 @@
                         spatium ea propemodum libram expleret. Cum tanta, tamque atrocia per duos,
                         et ultra annos pepessus fuerit miser, immensis fracto doloribus, atrophia
                         consumpto tandem grata venit morborum requies, mors.</p>
-            <p>Aperto abdomine
+            <p n="p2">Aperto abdomine
                         intestina undique gangraena adfecta in conspectum venerunt. Ren dexter
                         sanus, sinistri vero pelvis materiam puriformem per uretherem ad vesicam
                         usque effluentem aperta exhibuit. Vesica praegrandis, crassa, undique
@@ -361,13 +380,13 @@
           </note>cum
                 mictu cruento, ut morbi reliquias in vefica urinaria genitos, ac uvae ursi ope
                 excretos observaverim in rustico quinquagenario, quem eo, quo scribo, die optima
-                adhuc frui valetudine intelligo.<pb xml:id="F11"/>Recidivas nullibi frequentiores, quam in
+                adhuc frui valetudine intelligo.<pb n="pb2" xml:id="F11"/>Recidivas nullibi frequentiores, quam in
                 hac epidemia saepe ter usque repetentes, taediosas, ac morbo primario haud raro
                 periculosiores observavi, quarum causam perscrutatus in intempestiva aeris
                 expositione, in crudo, concoctuque difficili, quo vix convalescentes fruuntur
                 rustici, victu, in strenuis, quos adhuc languidi, ac viribus effaeti sustinent,
                 laboribus, maxime positam esse novi.</p>
-        <p>Haec est ruditer, ac properanter dedolata febris Lisenensis historia, haec medendi
+        <p n="p18">Haec est ruditer, ac properanter dedolata febris Lisenensis historia, haec medendi
                 methodus, quam Browiana licet phrasi destitutam ad te, ut, si tibi vir Illustrissime
                 non omnino displicet, praeclaro tuo commentario inserere digneris, lubens mittere
                 constitui.</p>

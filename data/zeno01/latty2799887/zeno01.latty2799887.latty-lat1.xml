@@ -38,6 +38,28 @@
         <bibl>TLMF, FB 1677</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1687">1687</date>
@@ -60,62 +82,62 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:zeno01.latty2799887.latty-lat1:">
-    <body>
-      <div>
-        <head>Praeclarissimo et excellentissimo domino<persName>Antonio Mariae Levrio</persName>nobili Tridentino in
-                utraque legre laureato dominus<persName>Antonius Zeno</persName>D.T. coll. Rector S. Cantiani in
-                obsequii et cognationis argumentum dicebat elogium et dicabat reverendissimo domino<persName>Firmo Abbati Levrio</persName>eius patruo S.T.D. coll. SS. firmi et rustici rectori
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">Praeclarissimo et excellentissimo domino<persName n="persName1">Antonio Mariae Levrio</persName>nobili Tridentino in
+                utraque legre laureato dominus<persName n="persName2">Antonius Zeno</persName>D.T. coll. Rector S. Cantiani in
+                obsequii et cognationis argumentum dicebat elogium et dicabat reverendissimo domino<persName n="persName3">Firmo Abbati Levrio</persName>eius patruo S.T.D. coll. SS. firmi et rustici rectori
                 vigilantissimo, et ven. congreg. parochorum primicerio emeritissimo.</head>
       </div>
-      <div>
-        <lg>
-          <l n="1">Ne clangite tubae venaticae, ne buccinate cornua sylvestria,</l>
-          <l n="2">Palladio legalis collegii in venatorio lepida<emph>LEPORIS</emph>iam est celebrata venatio.</l>
-          <l n="3">Sollicito gressu ad currendam viam suam lepus exultavit velocipes,</l>
-          <l n="4">Ut caperetur ut caperet,</l>
-          <l n="5">Captus est ab omnibus plausu virtutis suae, cepit omnes virtute sui ingenii,</l>
-          <l n="6">Canibus insecutus venaticis, amore sapientiae, ardore gloriae,</l>
-          <l n="7">Ad studium ab otio fugam arripuit, a studio pervenit ad stadium,</l>
-          <l n="8">Ad quod, qui currunt, non omnes adveniunt.</l>
-          <l n="9">Laurigera auorum vestigia secutus et patruum,</l>
-          <l n="10">Assecutus est lauream facturus in suo capite florentiorem,</l>
-          <l n="11">Quam ut acciperet</l>
-          <l n="12">Insueto<emph>LEPORUM</emph>more, invitavit venatores, non devitavit.</l>
-          <l n="13">Iuris utriusque senatus</l>
-          <l n="14">Leones quandoque demiratus est<emph>LEPORES</emph>effectos timore,</l>
-          <l n="15">
-            <emph>LEPOREM</emph>hodie admiratus est factum animositate leonem.</l>
-          <l n="16">Qui vicit ut leo, ut victor est coronatus.</l>
-          <l n="17">
-            <emph>CERTANTI BONUM CERTAMEN, CONSUMANTI CURSUM SUUM</emph>
+      <div n="div2">
+        <lg n="lg1">
+          <l n="l1">Ne clangite tubae venaticae, ne buccinate cornua sylvestria,</l>
+          <l n="l2">Palladio legalis collegii in venatorio lepida<emph n="emph1">LEPORIS</emph>iam est celebrata venatio.</l>
+          <l n="l3">Sollicito gressu ad currendam viam suam lepus exultavit velocipes,</l>
+          <l n="l4">Ut caperetur ut caperet,</l>
+          <l n="l5">Captus est ab omnibus plausu virtutis suae, cepit omnes virtute sui ingenii,</l>
+          <l n="l6">Canibus insecutus venaticis, amore sapientiae, ardore gloriae,</l>
+          <l n="l7">Ad studium ab otio fugam arripuit, a studio pervenit ad stadium,</l>
+          <l n="l8">Ad quod, qui currunt, non omnes adveniunt.</l>
+          <l n="l9">Laurigera auorum vestigia secutus et patruum,</l>
+          <l n="l10">Assecutus est lauream facturus in suo capite florentiorem,</l>
+          <l n="l11">Quam ut acciperet</l>
+          <l n="l12">Insueto<emph n="emph1">LEPORUM</emph>more, invitavit venatores, non devitavit.</l>
+          <l n="l13">Iuris utriusque senatus</l>
+          <l n="l14">Leones quandoque demiratus est<emph n="emph1">LEPORES</emph>effectos timore,</l>
+          <l n="l15">
+            <emph n="emph1">LEPOREM</emph>hodie admiratus est factum animositate leonem.</l>
+          <l n="l16">Qui vicit ut leo, ut victor est coronatus.</l>
+          <l n="l17">
+            <emph n="emph1">CERTANTI BONUM CERTAMEN, CONSUMANTI CURSUM SUUM</emph>
           </l>
-          <l n="18">
-            <emph>REPOSITA EST CORONA IUSTITIAE</emph>.</l>
-          <l n="19">
-            <emph>
-              <persName>ANTONIO</persName>
-            </emph>victori,<emph>
-              <persName>LEVRIO</persName>
+          <l n="l18">
+            <emph n="emph1">REPOSITA EST CORONA IUSTITIAE</emph>.</l>
+          <l n="l19">
+            <emph n="emph1">
+              <persName n="persName1">ANTONIO</persName>
+            </emph>victori,<emph n="emph2">
+              <persName n="persName1">LEVRIO</persName>
             </emph>coronato</l>
-          <l n="20">Plaudit<emph>
-              <placeName>PATAVIUM</placeName>
-            </emph>, respondet plausibus<emph>
-              <placeName>TRIDENTUM</placeName>
+          <l n="l20">Plaudit<emph n="emph1">
+              <placeName n="placeName1">PATAVIUM</placeName>
+            </emph>, respondet plausibus<emph n="emph2">
+              <placeName n="placeName1">TRIDENTUM</placeName>
             </emph>,</l>
-          <l n="21">Non triplici dente, ut strideat in<emph>LEPOREM</emph>suum,</l>
-          <l n="22">Sed civem ut commendet ore multiplici.</l>
-          <l n="23">Malignitas livida strideat, alieno ornamento semper assueta stridere;</l>
-          <l n="24">Festivo rideat iubilo<emph>
-              <persName>LEVRIA</persName>
+          <l n="l21">Non triplici dente, ut strideat in<emph n="emph1">LEPOREM</emph>suum,</l>
+          <l n="l22">Sed civem ut commendet ore multiplici.</l>
+          <l n="l23">Malignitas livida strideat, alieno ornamento semper assueta stridere;</l>
+          <l n="l24">Festivo rideat iubilo<emph n="emph1">
+              <persName n="persName1">LEVRIA</persName>
             </emph>familia</l>
-          <l n="25">Et sui et aliorum amica fausta decoris,</l>
-          <l n="26">Ipsum propitio favore in doctore suo semper adauctura,</l>
-          <l n="27">Qui</l>
-          <l n="28">Ita caute cucurrit, ut secure comprehenderet.</l>
+          <l n="l25">Et sui et aliorum amica fausta decoris,</l>
+          <l n="l26">Ipsum propitio favore in doctore suo semper adauctura,</l>
+          <l n="l27">Qui</l>
+          <l n="l28">Ita caute cucurrit, ut secure comprehenderet.</l>
         </lg>
       </div>
-      <div>
-        <p>Patavii ex typographia Pasquati. Superiorum permissu 1687.</p>
+      <div n="div3">
+        <p n="p1">Patavii ex typographia Pasquati. Superiorum permissu 1687.</p>
       </div>
     </body>
   </text>

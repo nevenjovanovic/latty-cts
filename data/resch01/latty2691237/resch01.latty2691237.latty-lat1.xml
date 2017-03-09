@@ -26,6 +26,25 @@
                     in: Daphnis 41 (2012), 263–274.</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1772" period="17xx_3_third">1772</date>
@@ -47,386 +66,386 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:resch01.latty2691237.latty-lat1:">
-    <body>
-      <div type="poesis-prosopopoeia">
-        <head>Prosopopoeia gratulatoria nomine oppidi Inticensis</head>
-        <l>‘Drave, caput canum et primum qui vertice fontem</l>
-        <l>Tollis Aguntino, qui alias nunc alluis urbes,</l>
-        <l>Nunc alias, nunc praedensis aspergine silvis</l>
-        <l>Influis, et sonitu plusquam vicina fatigas,</l>
-        <l n="5">Innumeris rivis, multis torrentibus auctus,</l>
-        <l>Multorumque pater fluuiorum. Siste retortas,</l>
-        <l>Siste parumper aquas, quas per spatiosa viarum,</l>
-        <l>Per gelidos campos, per Norica rura volutus,</l>
-        <l n="10">Perque Carentanos, Tauriscos atque Gelonos,</l>
-        <l>Perque Gigantigenas, genus implacabile, Brencos</l>
-        <l>Danubio regi fluuiorum gurgite vasto<note place="foot" xml:id="ftn1" n="1">gurgite vasto] vortice magno H
+    <body n="body1">
+      <div n="div1" type="poesis-prosopopoeia">
+        <head n="head1">Prosopopoeia gratulatoria nomine oppidi Inticensis</head>
+        <l n="l2">‘Drave, caput canum et primum qui vertice fontem</l>
+        <l n="l3">Tollis Aguntino, qui alias nunc alluis urbes,</l>
+        <l n="l4">Nunc alias, nunc praedensis aspergine silvis</l>
+        <l n="l5">Influis, et sonitu plusquam vicina fatigas,</l>
+        <l n="l6">Innumeris rivis, multis torrentibus auctus,</l>
+        <l n="l7">Multorumque pater fluuiorum. Siste retortas,</l>
+        <l n="l8">Siste parumper aquas, quas per spatiosa viarum,</l>
+        <l n="l9">Per gelidos campos, per Norica rura volutus,</l>
+        <l n="l10">Perque Carentanos, Tauriscos atque Gelonos,</l>
+        <l n="l11">Perque Gigantigenas, genus implacabile, Brencos</l>
+        <l n="l12">Danubio regi fluuiorum gurgite vasto<note n="note1" place="foot" xml:id="ftn1">gurgite vasto] vortice magno H
                         in ras.</note>
         </l>
-        <l>Infundis, tumidas spumosis fluctibus undas,</l>
-        <l>Drave, doce verum, tua ripa vetustior urbe est,</l>
-        <l>Urbe vetusta olim (Graii tenuere coloni)</l>
-        <l n="15">Nomen<emph>Aguntus</emph>erat, nunc restant rudera pauca,</l>
-        <l>Rudera post factas Boiorum funere clades,</l>
-        <l>Drave, doce, quod sit quondam florentis<emph>Agunti</emph>
+        <l n="l13">Infundis, tumidas spumosis fluctibus undas,</l>
+        <l n="l14">Drave, doce verum, tua ripa vetustior urbe est,</l>
+        <l n="l15">Urbe vetusta olim (Graii tenuere coloni)</l>
+        <l n="l16">Nomen<emph n="emph1">Aguntus</emph>erat, nunc restant rudera pauca,</l>
+        <l n="l17">Rudera post factas Boiorum funere clades,</l>
+        <l n="l18">Drave, doce, quod sit quondam florentis<emph n="emph1">Agunti</emph>
         </l>
-        <l>Principium? quae sit tam praeclarae urbis origo?</l>
-        <l>Dissere Aguntinae prima incunabula gentis!</l>
-        <l n="20">Scire potes, nemo melius te scire valebit,</l>
-        <l>Qui fuerint casus, eventus, praelia, fata</l>
-        <l>Ignota Historicis Graecis, ignota Latinis,</l>
-        <l>Quaeve loco facies ante annos mille, recense!<note place="foot" xml:id="ftn2" n="2">recense] fuisset H</note>’</l>
-        <l>Haec ego solicitus quaesivi. Protinus ille</l>
-        <l n="25">Caeruleo auscultans Thalamo<note place="foot" xml:id="ftn3" n="3">Thalamo] thalamo H</note>sub
+        <l n="l19">Principium? quae sit tam praeclarae urbis origo?</l>
+        <l n="l20">Dissere Aguntinae prima incunabula gentis!</l>
+        <l n="l21">Scire potes, nemo melius te scire valebit,</l>
+        <l n="l22">Qui fuerint casus, eventus, praelia, fata</l>
+        <l n="l23">Ignota Historicis Graecis, ignota Latinis,</l>
+        <l n="l24">Quaeve loco facies ante annos mille, recense!<note n="note1" place="foot" xml:id="ftn2">recense] fuisset H</note>’</l>
+        <l n="l25">Haec ego solicitus quaesivi. Protinus ille</l>
+        <l n="l26">Caeruleo auscultans Thalamo<note n="note1" place="foot" xml:id="ftn3">Thalamo] thalamo H</note>sub
                 fluminis alti</l>
-        <l>Dravus arundineum medio caput extulit alvêo,</l>
-        <l>Quem circum multae millesia vellera nymphae</l>
-        <l>Carpebant, hyali saturo fucata colore,</l>
-        <l>Caesariem effusae nitidam per candida colla.</l>
-        <l n="30">Obstupui, rauca me affatur voce rogantem</l>
-        <l>Ipse pater Dravus: ‘Quid me alta silentia cogis</l>
-        <l>Rumpere? Sed quia non tanquam hospes, civis Agunti,</l>
-        <l>Et loco huic adscriptus ades, tibi fas est limina nostra</l>
-        <l>Tangere, mecum intrato domum, quae regia sedes</l>
-        <l n="35">Est mihi cum Nymphis, viridis penetralia Regis.’</l>
-        <l>Haec dixit, simul alta iubet remeare fluenta,</l>
-        <l>Intro qua possem gressus inferre, sed ecce</l>
-        <l>Curvata in montis speciem circumstetit unda.</l>
-        <l>Praegreditur Dravus (Nymphae comitantur euntem)</l>
-        <l n="40">Meque manu pavidum per lubrica ducit in antrum.</l>
-        <l>Ingredior thalami pendentia pumice tecta,</l>
-        <l>Miratusque domum genitoris et humida regna,</l>
-        <l>Speluncisque lacus clausos, lucosque sonantes,</l>
-        <l>Contremui<note place="foot" xml:id="ftn4" n="4">Contremui]
+        <l n="l27">Dravus arundineum medio caput extulit alvêo,</l>
+        <l n="l28">Quem circum multae millesia vellera nymphae</l>
+        <l n="l29">Carpebant, hyali saturo fucata colore,</l>
+        <l n="l30">Caesariem effusae nitidam per candida colla.</l>
+        <l n="l31">Obstupui, rauca me affatur voce rogantem</l>
+        <l n="l32">Ipse pater Dravus: ‘Quid me alta silentia cogis</l>
+        <l n="l33">Rumpere? Sed quia non tanquam hospes, civis Agunti,</l>
+        <l n="l34">Et loco huic adscriptus ades, tibi fas est limina nostra</l>
+        <l n="l35">Tangere, mecum intrato domum, quae regia sedes</l>
+        <l n="l36">Est mihi cum Nymphis, viridis penetralia Regis.’</l>
+        <l n="l37">Haec dixit, simul alta iubet remeare fluenta,</l>
+        <l n="l38">Intro qua possem gressus inferre, sed ecce</l>
+        <l n="l39">Curvata in montis speciem circumstetit unda.</l>
+        <l n="l40">Praegreditur Dravus (Nymphae comitantur euntem)</l>
+        <l n="l41">Meque manu pavidum per lubrica ducit in antrum.</l>
+        <l n="l42">Ingredior thalami pendentia pumice tecta,</l>
+        <l n="l43">Miratusque domum genitoris et humida regna,</l>
+        <l n="l44">Speluncisque lacus clausos, lucosque sonantes,</l>
+        <l n="l45">Contremui<note n="note1" place="foot" xml:id="ftn4">Contremui]
                         Obstupui H
                         in ras.</note>ingenti motu tremefactus
                 aquarum.</l>
-        <l n="45">Celsior ille loco, calamoque innixus inani,</l>
-        <l>Sede sedet vitrea, concussa terque quaterque</l>
-        <l>Caesarie, cum qua vastos in gurgite<note place="foot" xml:id="ftn5" n="5">gurgite] vortice H</note>fluctus</l>
-        <l>Commovet, haec raucis oracula cantibus edit.</l>
-        <l>‘Siqua seni est adhibenda fides senioque verendo,</l>
-        <l n="50">Haec loca desertas vidi sine civibus oras<note place="foot" xml:id="ftn6" n="6">civibus oras] viribus herbas 
+        <l n="l46">Celsior ille loco, calamoque innixus inani,</l>
+        <l n="l47">Sede sedet vitrea, concussa terque quaterque</l>
+        <l n="l48">Caesarie, cum qua vastos in gurgite<note n="note1" place="foot" xml:id="ftn5">gurgite] vortice H</note>fluctus</l>
+        <l n="l49">Commovet, haec raucis oracula cantibus edit.</l>
+        <l n="l50">‘Siqua seni est adhibenda fides senioque verendo,</l>
+        <l n="l51">Haec loca desertas vidi sine civibus oras<note n="note1" place="foot" xml:id="ftn6">civibus oras] viribus herbas 
                         H</note>,</l>
-        <l>Quoque loco sparsi nunc stant per compita muri,</l>
-        <l>Tunc bos in ripa gramen carpebat utraque,</l>
-        <l>Quaque Augusta patent Templa ac altaria Divûm,</l>
-        <l>Sordida tunc stabant stabula ac praesepia boum,</l>
-        <l n="55">Quaque Chorum peragit Clerus populusque canendo</l>
-        <l>Laudandoque DEum<note place="foot" xml:id="ftn7" n="7">DEum]
-                        Deum H</note>, densa per opima corona<note place="foot" xml:id="ftn8" n="8">corona] coronâ H</note>
+        <l n="l52">Quoque loco sparsi nunc stant per compita muri,</l>
+        <l n="l53">Tunc bos in ripa gramen carpebat utraque,</l>
+        <l n="l54">Quaque Augusta patent Templa ac altaria Divûm,</l>
+        <l n="l55">Sordida tunc stabant stabula ac praesepia boum,</l>
+        <l n="l56">Quaque Chorum peragit Clerus populusque canendo</l>
+        <l n="l57">Laudandoque DEum<note n="note1" place="foot" xml:id="ftn7">DEum]
+                        Deum H</note>, densa per opima corona<note n="note2" place="foot" xml:id="ftn8">corona] coronâ H</note>
         </l>
-        <l>Pascua balabant pecudes, armenta boabant.</l>
-        <l>Quaeris mille annos, annos bis mille require,</l>
-        <l>Principium veteris quondam florentis<emph>Agunti</emph>,</l>
-        <l n="60">Primum exortum urbis, veteris primordia gentis,</l>
-        <l>Eventus varios, progressus, praelia, casus,</l>
-        <l>Expediam dictis, diversaque fata docebo,</l>
-        <l>Et veterum Monumenta Annalibus eruta priscis.</l>
-        <l>Parce tamen verbis, et metro<note place="foot" xml:id="ftn9" n="9">metro] stilo H</note>parce
+        <l n="l58">Pascua balabant pecudes, armenta boabant.</l>
+        <l n="l59">Quaeris mille annos, annos bis mille require,</l>
+        <l n="l60">Principium veteris quondam florentis<emph n="emph1">Agunti</emph>,</l>
+        <l n="l61">Primum exortum urbis, veteris primordia gentis,</l>
+        <l n="l62">Eventus varios, progressus, praelia, casus,</l>
+        <l n="l63">Expediam dictis, diversaque fata docebo,</l>
+        <l n="l64">Et veterum Monumenta Annalibus eruta priscis.</l>
+        <l n="l65">Parce tamen verbis, et metro<note n="note1" place="foot" xml:id="ftn9">metro] stilo H</note>parce
                 Latino,</l>
-        <l n="65">Non ego sum Peneus, sed Dravus rusticus arte,</l>
-        <l>Noricus, haud inter perdoctos Doricus Argos.</l>
-        <l>Non ego sum Peneus praecinctus<note place="foot" xml:id="ftn10" n="10">ante praecintus] Daphnes H
+        <l n="l66">Non ego sum Peneus, sed Dravus rusticus arte,</l>
+        <l n="l67">Noricus, haud inter perdoctos Doricus Argos.</l>
+        <l n="l68">Non ego sum Peneus praecinctus<note n="note1" place="foot" xml:id="ftn10">ante praecintus] Daphnes H
                         in ras.</note>tempora lauro,</l>
-        <l>Fatidicam<note place="foot" xml:id="ftn11" n="11">ante Fatidicam] cui H
+        <l n="l69">Fatidicam<note n="note1" place="foot" xml:id="ftn11">ante Fatidicam] cui H
                         in ras.</note>laurum cui praebet filia
                 Daphne.</l>
-        <l>Non ego sum Peneus, qui celso ex<note place="foot" xml:id="ftn12" n="12">ex] om.
+        <l n="l70">Non ego sum Peneus, qui celso ex<note n="note1" place="foot" xml:id="ftn12">ex] om.
                         H</note>vertice Pindi</l>
-        <l n="70">Parnassive antro, facto de cautibus, actus,</l>
-        <l>Per nemus Aemoniae per amaenaque Thessala Tempe</l>
-        <l>Undis iura dabat, Musisque colentibus undas</l>
-        <l>Pieriis, a queis Parnassia carmina discat.</l>
-        <l>Itaque<note place="foot" xml:id="ftn13" n="13">Itaque] Ergo
+        <l n="l71">Parnassive antro, facto de cautibus, actus,</l>
+        <l n="l72">Per nemus Aemoniae per amaenaque Thessala Tempe</l>
+        <l n="l73">Undis iura dabat, Musisque colentibus undas</l>
+        <l n="l74">Pieriis, a queis Parnassia carmina discat.</l>
+        <l n="l75">Itaque<note n="note1" place="foot" xml:id="ftn13">Itaque] Ergo
                             H Itaque H
                         in ras.</note>, si minus apta canam, non contrahe
                 vultum,</l>
-        <l n="75">Alter Aristarchus, Momusve, aut Zoilus absit.</l>
-        <l>Urbis Aguntinae nomen tibi saepe refertur,</l>
-        <l>Urbis Aguntinae per me referetur origo.</l>
-        <l>Narrabo primos auctores, quive vetustos</l>
-        <l>Fundarint muros (animos advertito) pandam.</l>
-        <l n="80">Nomen<emph>Aguntus</emph>habet, veteres coluere Zacynthii<note place="foot" xml:id="ftn14" n="14">Zacynthii] Zacinthîi
+        <l n="l76">Alter Aristarchus, Momusve, aut Zoilus absit.</l>
+        <l n="l77">Urbis Aguntinae nomen tibi saepe refertur,</l>
+        <l n="l78">Urbis Aguntinae per me referetur origo.</l>
+        <l n="l79">Narrabo primos auctores, quive vetustos</l>
+        <l n="l80">Fundarint muros (animos advertito) pandam.</l>
+        <l n="l81">Nomen<emph n="emph1">Aguntus</emph>habet, veteres coluere Zacynthii<note n="note2" place="foot" xml:id="ftn14">Zacynthii] Zacinthîi
                             H</note>,</l>
-        <l>Urbem (si memini) quondam extruxere Zacynthi</l>
-        <l>Incolae, in Ionio gens armis inclyta Ponto.</l>
-        <l>Hi postquam bello Troia est<note place="foot" xml:id="ftn15" n="15">Troia est] Troiaest H</note>obsessa bilustri,</l>
-        <l>Arma ministrarunt<note place="foot" xml:id="ftn16" n="16">ministrarunt] ministrabant H
+        <l n="l82">Urbem (si memini) quondam extruxere Zacynthi</l>
+        <l n="l83">Incolae, in Ionio gens armis inclyta Ponto.</l>
+        <l n="l84">Hi postquam bello Troia est<note n="note1" place="foot" xml:id="ftn15">Troia est] Troiaest H</note>obsessa bilustri,</l>
+        <l n="l85">Arma ministrarunt<note n="note1" place="foot" xml:id="ftn16">ministrarunt] ministrabant H
                         in ras.</note>Graiae virtutis Ulyssi,</l>
-        <l n="85">Et socias iunxere manus. Haec urbis origo.</l>
-        <l>Qui primum nomen veteri tribuere Sagunto,</l>
-        <l>Hi primum nomen tribuere (recordor) Agunto.</l>
-        <l>Itaque<note place="foot" xml:id="ftn17" n="17">Itaque]
+        <l n="l86">Et socias iunxere manus. Haec urbis origo.</l>
+        <l n="l87">Qui primum nomen veteri tribuere Sagunto,</l>
+        <l n="l88">Hi primum nomen tribuere (recordor) Agunto.</l>
+        <l n="l89">Itaque<note n="note1" place="foot" xml:id="ftn17">Itaque]
                         Postea H Itaque H
                         in ras.</note>
-          <emph>Aguntini</emph>, gens fortunata colonis,</l>
-        <l>Graecorum sortes victriciaque arma secuti,</l>
-        <l n="90">Imperio primum morem gessere Pelasgo,</l>
-        <l>Et Marte invictis per plurima Saecula<note place="foot" xml:id="ftn18" n="18">Saecula] saecula H</note>Achaeis.</l>
-        <l>Tum genus Aeneae, clara de<note place="foot" xml:id="ftn19" n="19">clara de] de clara H</note>stirpe creatus</l>
-        <l>Iulius, is Caesar, de quo nata omnis Iuli</l>
-        <l>Progenies animos et res aequavit Olympo,</l>
-        <l n="95">Dum laetus victis Aquileiae victor ab agris</l>
-        <l>Eque Foro Iulii<note place="foot" xml:id="ftn20" n="20">Iulii] Iulîi H</note>, turma comitante, per
+          <emph n="emph2">Aguntini</emph>, gens fortunata colonis,</l>
+        <l n="l90">Graecorum sortes victriciaque arma secuti,</l>
+        <l n="l91">Imperio primum morem gessere Pelasgo,</l>
+        <l n="l92">Et Marte invictis per plurima Saecula<note n="note1" place="foot" xml:id="ftn18">Saecula] saecula H</note>Achaeis.</l>
+        <l n="l93">Tum genus Aeneae, clara de<note n="note1" place="foot" xml:id="ftn19">clara de] de clara H</note>stirpe creatus</l>
+        <l n="l94">Iulius, is Caesar, de quo nata omnis Iuli</l>
+        <l n="l95">Progenies animos et res aequavit Olympo,</l>
+        <l n="l96">Dum laetus victis Aquileiae victor ab agris</l>
+        <l n="l97">Eque Foro Iulii<note n="note1" place="foot" xml:id="ftn20">Iulii] Iulîi H</note>, turma comitante, per
                 Alpem,</l>
-        <l>Iulia<note place="foot" xml:id="ftn21" n="21">Iulia] Nomine
+        <l n="l98">Iulia<note n="note1" place="foot" xml:id="ftn21">Iulia] Nomine
                             H
-                        in ras.</note>quae claro de ipsius nomine<note place="foot" xml:id="ftn22" n="22">nomine] Iulia H
+                        in ras.</note>quae claro de ipsius nomine<note n="note2" place="foot" xml:id="ftn22">nomine] Iulia H
                         in ras.</note>dicta est,</l>
-        <l>Per Montana suum nostra usque in Gallica rura</l>
-        <l>Instituebat iter, pertransiit littora Dravi,</l>
-        <l n="100">Plusque metu belli, quam bello aut fortibus armis,</l>
-        <l>Cepit Aguntinos. Post vix aetate peracta,</l>
-        <l>Illyrios Piso Consul Brencosque rebelles</l>
-        <l>Cepit, Amantinos et Norica castra tenentes,</l>
-        <l>Qui Dravum, Savumque bibunt, terrore subactos</l>
-        <l n="105">Subdidit Imperio Romano, armisque subegit</l>
-        <l>Castella in tumulis, nec praetermisit Aguntum.</l>
-        <l>Cumque Quirinam urbem Romana potentia caelo</l>
-        <l>Aequaret, finesque iidem essent<note place="foot" xml:id="ftn23" n="23">iidem essent] îidemessent H</note>urbis et orbis,</l>
-        <l>Illa Duces habuit per saecula plura Quirites,</l>
-        <l n="110">Sub quorum imperio pacata quievit Aguntus.</l>
-        <l>Postera<note place="foot" xml:id="ftn24" n="24">Postera]
+        <l n="l99">Per Montana suum nostra usque in Gallica rura</l>
+        <l n="l100">Instituebat iter, pertransiit littora Dravi,</l>
+        <l n="l101">Plusque metu belli, quam bello aut fortibus armis,</l>
+        <l n="l102">Cepit Aguntinos. Post vix aetate peracta,</l>
+        <l n="l103">Illyrios Piso Consul Brencosque rebelles</l>
+        <l n="l104">Cepit, Amantinos et Norica castra tenentes,</l>
+        <l n="l105">Qui Dravum, Savumque bibunt, terrore subactos</l>
+        <l n="l106">Subdidit Imperio Romano, armisque subegit</l>
+        <l n="l107">Castella in tumulis, nec praetermisit Aguntum.</l>
+        <l n="l108">Cumque Quirinam urbem Romana potentia caelo</l>
+        <l n="l109">Aequaret, finesque iidem essent<note n="note1" place="foot" xml:id="ftn23">iidem essent] îidemessent H</note>urbis et orbis,</l>
+        <l n="l110">Illa Duces habuit per saecula plura Quirites,</l>
+        <l n="l111">Sub quorum imperio pacata quievit Aguntus.</l>
+        <l n="l112">Postera<note n="note1" place="foot" xml:id="ftn24">Postera]
                         Postea H
                         fortasse recte</note>per
                 terras centesima Olympias acta est,</l>
-        <l>Urbis<emph>Aguntinis</emph>Constantinopolis arces</l>
-        <l>Regia iussa dabant, tum res caepere Quiritum</l>
-        <l>In peius ruere, et furiis succedere plena</l>
-        <l n="115">Barbaries. Nunc<note place="foot" xml:id="ftn25" n="25">Nunc] tunc H</note>Eois erupit ab oris</l>
-        <l>Barbara Gothorum proles, Herulique, Getaeque,</l>
-        <l>Cumque gigantaeis Hunnorum exercitus armis,</l>
-        <l>Diis metuenda cohors, terrisque undisque tremenda.</l>
-        <l>Nunc et ab occiduis proles Alemannica<note place="foot" xml:id="ftn26" n="26">proles]<unclear>gens</unclear>est H
+        <l n="l113">Urbis<emph n="emph1">Aguntinis</emph>Constantinopolis arces</l>
+        <l n="l114">Regia iussa dabant, tum res caepere Quiritum</l>
+        <l n="l115">In peius ruere, et furiis succedere plena</l>
+        <l n="l116">Barbaries. Nunc<note n="note1" place="foot" xml:id="ftn25">Nunc] tunc H</note>Eois erupit ab oris</l>
+        <l n="l117">Barbara Gothorum proles, Herulique, Getaeque,</l>
+        <l n="l118">Cumque gigantaeis Hunnorum exercitus armis,</l>
+        <l n="l119">Diis metuenda cohors, terrisque undisque tremenda.</l>
+        <l n="l120">Nunc et ab occiduis proles Alemannica<note n="note1" place="foot" xml:id="ftn26">proles]<unclear n="unclear1">gens</unclear>est H
                         in ras.</note>terris</l>
-        <l n="120">His illapsa plagis, Italos descendit in agros.</l>
-        <l>Exinde annorum vix una aetate peracta,</l>
-        <l>Has venit in terras Venantius, orsus ab urbe</l>
-        <l>Compita Traviso per Iulia Fortunatus.</l>
-        <l>Vir Superis gratus, quo non praestantior alter</l>
-        <l n="125">Relligione Patrum fuerat, nec amantior aequi.</l>
-        <l>Praeruptisque viis queis Iulia tenditur alpis,</l>
-        <l>Altius assurgens, qua mons in nubila pergit,</l>
-        <l>Defessus fluvio superato Plave bicorni,</l>
-        <l>Per Dravum ivit iter, qua se castella supinant,</l>
-        <l n="130">Qua montana sedens in colle superbit<emph>Aguntus</emph>,</l>
-        <l>Norica rura petens, ubi Byrrhus vertitur undis,</l>
-        <l>Qui Brixentarum cum Isargo littora lambit.</l>
-        <l>Posthaec sex lustris (doleo meminisse) peractis<note place="foot" xml:id="ftn27" n="27">doleo meminisse] (memini) bis quinque H
+        <l n="l121">His illapsa plagis, Italos descendit in agros.</l>
+        <l n="l122">Exinde annorum vix una aetate peracta,</l>
+        <l n="l123">Has venit in terras Venantius, orsus ab urbe</l>
+        <l n="l124">Compita Traviso per Iulia Fortunatus.</l>
+        <l n="l125">Vir Superis gratus, quo non praestantior alter</l>
+        <l n="l126">Relligione Patrum fuerat, nec amantior aequi.</l>
+        <l n="l127">Praeruptisque viis queis Iulia tenditur alpis,</l>
+        <l n="l128">Altius assurgens, qua mons in nubila pergit,</l>
+        <l n="l129">Defessus fluvio superato Plave bicorni,</l>
+        <l n="l130">Per Dravum ivit iter, qua se castella supinant,</l>
+        <l n="l131">Qua montana sedens in colle superbit<emph n="emph1">Aguntus</emph>,</l>
+        <l n="l132">Norica rura petens, ubi Byrrhus vertitur undis,</l>
+        <l n="l133">Qui Brixentarum cum Isargo littora lambit.</l>
+        <l n="l134">Posthaec sex lustris (doleo meminisse) peractis<note n="note1" place="foot" xml:id="ftn27">doleo meminisse] (memini) bis quinque H
                         in ras.</note>,</l>
-        <l>Altera barbaries istis infunditur oris.</l>
-        <l n="135">Nempe Carentani, Winidis mixti, urbe Carunto</l>
-        <l>Pannoniae effusi, furiis agitantur Alectus,</l>
-        <l>Quaque Carentanos Dravus descendit in agros,</l>
-        <l>Ascendunt hostes, flammis ferroque feroces.</l>
-        <l>Non tali, aggeribus dum ruptis Aufidus amnis</l>
-        <l n="140">Exiit, oppositasque evicit gurgite moles,</l>
-        <l>Impetu in arva furit rapidus, camposque per omnes</l>
-        <l>Cum stabulis armenta trahit, pecudumque catervas,</l>
-        <l>Quale Leontinos veniens furit agmen in agros.</l>
-        <l>Hostis equo pollens longeque volante sagitta,</l>
-        <l n="145">Depopulatur humum, belli terrore subactam.</l>
-        <l>Windus, habens arcus imbutaque tela veneno,</l>
-        <l>Imminet exitio, quo Civibus atque colonis<note place="foot" xml:id="ftn28" n="28">Imminet ... colonis] Saevus<unclear>antelaenti</unclear>lustrabat
+        <l n="l135">Altera barbaries istis infunditur oris.</l>
+        <l n="l136">Nempe Carentani, Winidis mixti, urbe Carunto</l>
+        <l n="l137">Pannoniae effusi, furiis agitantur Alectus,</l>
+        <l n="l138">Quaque Carentanos Dravus descendit in agros,</l>
+        <l n="l139">Ascendunt hostes, flammis ferroque feroces.</l>
+        <l n="l140">Non tali, aggeribus dum ruptis Aufidus amnis</l>
+        <l n="l141">Exiit, oppositasque evicit gurgite moles,</l>
+        <l n="l142">Impetu in arva furit rapidus, camposque per omnes</l>
+        <l n="l143">Cum stabulis armenta trahit, pecudumque catervas,</l>
+        <l n="l144">Quale Leontinos veniens furit agmen in agros.</l>
+        <l n="l145">Hostis equo pollens longeque volante sagitta,</l>
+        <l n="l146">Depopulatur humum, belli terrore subactam.</l>
+        <l n="l147">Windus, habens arcus imbutaque tela veneno,</l>
+        <l n="l148">Imminet exitio, quo Civibus atque colonis<note n="note1" place="foot" xml:id="ftn28">Imminet ... colonis] Saevus<unclear n="unclear1">antelaenti</unclear>lustrabat
                         castra subacta H</note>
         </l>
-        <l>Instant<note place="foot" xml:id="ftn29" n="29">Instant]<unclear>Sunt ergo</unclear>H Pars H
+        <l n="l149">Instant<note n="note1" place="foot" xml:id="ftn29">Instant]<unclear n="unclear1">Sunt ergo</unclear>H Pars H
                         in ras.</note>incursus omni de parte
                 timendi,</l>
-        <l>Pars agitur vinctis post tergum capta lacertis,</l>
-        <l n="150">Pars cadit hamatis misere confixa sagittis.</l>
-        <l>Nunc, si tantus amor cladem cognoscere<emph>Agunti</emph>,</l>
-        <l>Totius et patriae supremum audire laborem,</l>
-        <l>(Quamquam animus meminisse horret, luctuque refugit)</l>
-        <l>Fata renarrabo Divum<note place="foot" xml:id="ftn30" n="30">Divum] Divûm H</note>, casus docebo</l>
-        <l n="155">Cincta premebantur trucibus belloque superbis</l>
-        <l>Sclavis et Winidis miseri Castella Leontii<note place="foot" xml:id="ftn31" n="31">Leontii] Leontîi H</note>.</l>
-        <l>Urbs capitur, muris, arte, ingenioque locorum,</l>
-        <l>Ne quicquam defensa, cadit vi Martis adacta.</l>
-        <l>Fata viam inveniunt, vastantur proxima quaeque,</l>
-        <l n="160">Aut bello bellive metu. Densissimus hostis</l>
-        <l>Ascendit Dravo adverso, sed Marte secundo.</l>
-        <l>Martia Aguntinas perturbant classica portas,</l>
-        <l>Bellaque sumpta viris belli maioris amore,</l>
-        <l>His quippe evictis, claves ad Boica rura</l>
-        <l n="165">Italiaeque simul regna evincenda dabantur.</l>
-        <l>Herculei nostro tollunt se in littore muri,</l>
-        <l>Clementer crescente iugo, queis nobile nomen</l>
-        <l>In<note place="foot" xml:id="ftn32" n="32">ante In] Condita H
-                        in ras.</note>Dravi<note place="foot" xml:id="ftn33" n="33">ante Dravi] ex H
-                        in ras.</note>ripa sacravit<emph>Aguntus</emph>utraque.</l>
-        <l>Imminet Arx (positu melius defensa manuve</l>
-        <l n="170">Est dubium) praerupto in vertice nubibus aequa.</l>
-        <l>Hostis castra movet propius, quatit agmine campos,</l>
-        <l>Atque caput quassans, hos circumlustrat anhelo</l>
-        <l>Muros saevus equo, mensusque paventia tecta,</l>
-        <l>Pandere reclusas portas, et cedere vallo</l>
-        <l n="175">Imperat, haud fore ait veniae spem Marte subatcis.</l>
-        <l>Attoniti primum funesto hoc turbine cives</l>
-        <l>Incipiunt, aliis muros fodientibus extra,</l>
-        <l>Atque aliis muros, trepidare, tenentibus intro.</l>
-        <l>Sed dignam obsessa mortem arbitrantur Agunto,</l>
-        <l n="180">Servata cecidisse fide. Stat protinus omnes</l>
-        <l>Exeruisse arcus, stat se defendere muris.</l>
-        <l>Hosti cura subit turrita cingere fronte</l>
-        <l>Castelloque urbem circumvallare<note place="foot" xml:id="ftn34" n="34">ante circumvallare] turrita H
+        <l n="l150">Pars agitur vinctis post tergum capta lacertis,</l>
+        <l n="l151">Pars cadit hamatis misere confixa sagittis.</l>
+        <l n="l152">Nunc, si tantus amor cladem cognoscere<emph n="emph1">Agunti</emph>,</l>
+        <l n="l153">Totius et patriae supremum audire laborem,</l>
+        <l n="l154">(Quamquam animus meminisse horret, luctuque refugit)</l>
+        <l n="l155">Fata renarrabo Divum<note n="note1" place="foot" xml:id="ftn30">Divum] Divûm H</note>, casus docebo</l>
+        <l n="l156">Cincta premebantur trucibus belloque superbis</l>
+        <l n="l157">Sclavis et Winidis miseri Castella Leontii<note n="note1" place="foot" xml:id="ftn31">Leontii] Leontîi H</note>.</l>
+        <l n="l158">Urbs capitur, muris, arte, ingenioque locorum,</l>
+        <l n="l159">Ne quicquam defensa, cadit vi Martis adacta.</l>
+        <l n="l160">Fata viam inveniunt, vastantur proxima quaeque,</l>
+        <l n="l161">Aut bello bellive metu. Densissimus hostis</l>
+        <l n="l162">Ascendit Dravo adverso, sed Marte secundo.</l>
+        <l n="l163">Martia Aguntinas perturbant classica portas,</l>
+        <l n="l164">Bellaque sumpta viris belli maioris amore,</l>
+        <l n="l165">His quippe evictis, claves ad Boica rura</l>
+        <l n="l166">Italiaeque simul regna evincenda dabantur.</l>
+        <l n="l167">Herculei nostro tollunt se in littore muri,</l>
+        <l n="l168">Clementer crescente iugo, queis nobile nomen</l>
+        <l n="l169">In<note n="note1" place="foot" xml:id="ftn32">ante In] Condita H
+                        in ras.</note>Dravi<note n="note2" place="foot" xml:id="ftn33">ante Dravi] ex H
+                        in ras.</note>ripa sacravit<emph n="emph3">Aguntus</emph>utraque.</l>
+        <l n="l170">Imminet Arx (positu melius defensa manuve</l>
+        <l n="l171">Est dubium) praerupto in vertice nubibus aequa.</l>
+        <l n="l172">Hostis castra movet propius, quatit agmine campos,</l>
+        <l n="l173">Atque caput quassans, hos circumlustrat anhelo</l>
+        <l n="l174">Muros saevus equo, mensusque paventia tecta,</l>
+        <l n="l175">Pandere reclusas portas, et cedere vallo</l>
+        <l n="l176">Imperat, haud fore ait veniae spem Marte subatcis.</l>
+        <l n="l177">Attoniti primum funesto hoc turbine cives</l>
+        <l n="l178">Incipiunt, aliis muros fodientibus extra,</l>
+        <l n="l179">Atque aliis muros, trepidare, tenentibus intro.</l>
+        <l n="l180">Sed dignam obsessa mortem arbitrantur Agunto,</l>
+        <l n="l181">Servata cecidisse fide. Stat protinus omnes</l>
+        <l n="l182">Exeruisse arcus, stat se defendere muris.</l>
+        <l n="l183">Hosti cura subit turrita cingere fronte</l>
+        <l n="l184">Castelloque urbem circumvallare<note n="note1" place="foot" xml:id="ftn34">ante circumvallare] turrita H
                         in ras.</note>frequenti.</l>
-        <l>Ergo fervet opus, constrictis stridula nervis</l>
-        <l n="185">Fortior effundit vastos balista molares,</l>
-        <l>Atque eadem, ingentis mutato pondere teli,</l>
-        <l>Ferratam excutiens ornum, media agmina rumpit.</l>
-        <l>Obsessi contra telorum nubibus atris</l>
-        <l>Castra fatigabant hostilia Sclavonicorum.</l>
-        <l n="190">Horrendum visu, robur, celsisque nivosi</l>
-        <l>E Tulli trabs lecta iugis, cui plurima cuspis,</l>
-        <l>Vix muris toleranda lues, sed caetera pingui</l>
-        <l>Uncta pice ac atro circumlita sulphure fumant.</l>
-        <l>Fulminis haec ritu summis e moenibus arcis</l>
-        <l n="195">Incita, sulcatum tremula secat aera flamma.</l>
-        <l>Interea Boiis Ductor<emph>Garibaldus</emph>ab arvis</l>
-        <l>Advenit auxilio, claudi videt aggere muros,</l>
-        <l>Insultare hostem, ferro flammaque potentem.</l>
-        <l>Quantus Bistoniis late Gradivus in oris</l>
-        <l n="200">Belligero rapitur curru, telumque corruscans,</l>
-        <l>(Titanum quo pulsa cohors) flagrantia bella</l>
-        <l>Cornipedum afflatu tonat et stridoribus axis.</l>
-        <l>Tantus in hostiles Garibaldus Marte phalanges</l>
-        <l>Invehitur saevus, rutilum rotat impiger ensem,</l>
-        <l n="205">Terribili terret Sclavorum umbone cohortes.</l>
-        <l>Colla viri fulvo radiabant lactea torque,</l>
-        <l>Auro virgatae vestes, manicaeque rigebant</l>
-        <l>Ex auro et simili vibrabat crista metallo.</l>
-        <l>Sternitur impulsu perculsa, Carentanorum<note place="foot" xml:id="ftn35" n="35">Carentanorum] cadentum H</note>
+        <l n="l185">Ergo fervet opus, constrictis stridula nervis</l>
+        <l n="l186">Fortior effundit vastos balista molares,</l>
+        <l n="l187">Atque eadem, ingentis mutato pondere teli,</l>
+        <l n="l188">Ferratam excutiens ornum, media agmina rumpit.</l>
+        <l n="l189">Obsessi contra telorum nubibus atris</l>
+        <l n="l190">Castra fatigabant hostilia Sclavonicorum.</l>
+        <l n="l191">Horrendum visu, robur, celsisque nivosi</l>
+        <l n="l192">E Tulli trabs lecta iugis, cui plurima cuspis,</l>
+        <l n="l193">Vix muris toleranda lues, sed caetera pingui</l>
+        <l n="l194">Uncta pice ac atro circumlita sulphure fumant.</l>
+        <l n="l195">Fulminis haec ritu summis e moenibus arcis</l>
+        <l n="l196">Incita, sulcatum tremula secat aera flamma.</l>
+        <l n="l197">Interea Boiis Ductor<emph n="emph1">Garibaldus</emph>ab arvis</l>
+        <l n="l198">Advenit auxilio, claudi videt aggere muros,</l>
+        <l n="l199">Insultare hostem, ferro flammaque potentem.</l>
+        <l n="l200">Quantus Bistoniis late Gradivus in oris</l>
+        <l n="l201">Belligero rapitur curru, telumque corruscans,</l>
+        <l n="l202">(Titanum quo pulsa cohors) flagrantia bella</l>
+        <l n="l203">Cornipedum afflatu tonat et stridoribus axis.</l>
+        <l n="l204">Tantus in hostiles Garibaldus Marte phalanges</l>
+        <l n="l205">Invehitur saevus, rutilum rotat impiger ensem,</l>
+        <l n="l206">Terribili terret Sclavorum umbone cohortes.</l>
+        <l n="l207">Colla viri fulvo radiabant lactea torque,</l>
+        <l n="l208">Auro virgatae vestes, manicaeque rigebant</l>
+        <l n="l209">Ex auro et simili vibrabat crista metallo.</l>
+        <l n="l210">Sternitur impulsu perculsa, Carentanorum<note n="note1" place="foot" xml:id="ftn35">Carentanorum] cadentum H</note>
         </l>
-        <l n="210">Prima phalanx, spissaeque ruunt conferta per arma</l>
-        <l>Tubae Boiorum, contraria pectora densant</l>
-        <l>Infandi Winidi, collisaque quadrupedantum</l>
-        <l>Pectoribus, toto volvuntur corpora campo.</l>
-        <l>Hos<note place="foot" xml:id="ftn36" n="36">Hos] Postquam
+        <l n="l211">Prima phalanx, spissaeque ruunt conferta per arma</l>
+        <l n="l212">Tubae Boiorum, contraria pectora densant</l>
+        <l n="l213">Infandi Winidi, collisaque quadrupedantum</l>
+        <l n="l214">Pectoribus, toto volvuntur corpora campo.</l>
+        <l n="l215">Hos<note n="note1" place="foot" xml:id="ftn36">Hos] Postquam
                             H</note>a se factos calcabat victor
                 acervos,</l>
-        <l n="215">Arva natant, altusque virûm cruor, altus equorum</l>
-        <l>Lubrica belligerae sorbet vestigia turmae.</l>
-        <l>Sed postquam a trepidis allatum est, fervere partem</l>
-        <l>Diversam Marte infausto, ruit ocyus amens<note place="foot" xml:id="ftn37" n="37">amens] amens actus H
+        <l n="l216">Arva natant, altusque virûm cruor, altus equorum</l>
+        <l n="l217">Lubrica belligerae sorbet vestigia turmae.</l>
+        <l n="l218">Sed postquam a trepidis allatum est, fervere partem</l>
+        <l n="l219">Diversam Marte infausto, ruit ocyus amens<note n="note1" place="foot" xml:id="ftn37">amens] amens actus H
                         in ras.</note>
         </l>
-        <l>Lymphato cursu, atque ingentes deserit actus.</l>
-        <l n="220">Tum pudor incendit mentem, nec conscia fallit</l>
-        <l>Virtus pressa Ducis. Frendens luctatur, et aegro</l>
-        <l>Scandit in ipsam arcem per saxa minantia nisu.</l>
-        <l>Conclamant utrinque acies, tormenta, virique</l>
-        <l>Moenia diruerant, ferrumque ignisque sonabant.</l>
-        <l n="225">Ergo labescentes animos Garibaldus in arce</l>
-        <l>Solicitat, nunc spe, nunc libertatis amore,</l>
-        <l>Nunc prece, nunc precio. Sed fraus hostilis utrinque</l>
-        <l>Tectis cuniculis fodiendo rupis arenas</l>
-        <l>Collabefactat opus, cui Castrum insedit in alto<note place="foot" xml:id="ftn38" n="38">in alto] apertum H</note>,</l>
-        <l n="230">Quod simul eversum est, simul aethera terruit ipsum,</l>
-        <l>Hic casus fuit infelix, hic finis Agunti.</l>
-        <l>Quis modo cladem huius castri? Quis funera fando</l>
-        <l>Explicet? aut possit lachrymis aequare dolores,</l>
-        <l>Queis ego submersus, damnosa incendia luxi,</l>
-        <l n="235">Excidiumque urbis, cuius vix nomina restant.</l>
-        <l>Inachus haud aliter caeco submersus in antro</l>
-        <l>Fletibus auxit aquas, natamque miserrimus Io</l>
-        <l>Luxit ut amissam. Quam fletibus ora rigavi,</l>
-        <l>Semper inornatos redimitus arundine crines,</l>
-        <l n="240">Et lachrymis auxi, quas parco fonte trahebam,</l>
-        <l>Largiter effusas per Norica rura procellas.</l>
-        <l>Utque recurvatis ludit Maeander in undis,</l>
-        <l>Sic ego, ne tabo foedati limpida Dravi</l>
-        <l>Polluat ora cruor morientum, saepe retortis</l>
-        <l n="245">Sum revolutus aquis, dum vidi moenia Agunti</l>
-        <l>Eversa, urbisque occasum, castrique ruinas,</l>
-        <l>Sanguineosque lacus patriae, fluctusque cruentis</l>
-        <l>Vorticibus mixtos humano sanguine vidi.</l>
-        <l>Ipse vadi dubius, coeuntibus undique ripis</l>
-        <l n="250">Per clypeos galeasque virûm, caesosque per artus,</l>
-        <l>Perque hominum<note place="foot" xml:id="ftn39" n="39">Perque hominum] Vix iter assuetum H
+        <l n="l220">Lymphato cursu, atque ingentes deserit actus.</l>
+        <l n="l221">Tum pudor incendit mentem, nec conscia fallit</l>
+        <l n="l222">Virtus pressa Ducis. Frendens luctatur, et aegro</l>
+        <l n="l223">Scandit in ipsam arcem per saxa minantia nisu.</l>
+        <l n="l224">Conclamant utrinque acies, tormenta, virique</l>
+        <l n="l225">Moenia diruerant, ferrumque ignisque sonabant.</l>
+        <l n="l226">Ergo labescentes animos Garibaldus in arce</l>
+        <l n="l227">Solicitat, nunc spe, nunc libertatis amore,</l>
+        <l n="l228">Nunc prece, nunc precio. Sed fraus hostilis utrinque</l>
+        <l n="l229">Tectis cuniculis fodiendo rupis arenas</l>
+        <l n="l230">Collabefactat opus, cui Castrum insedit in alto<note n="note1" place="foot" xml:id="ftn38">in alto] apertum H</note>,</l>
+        <l n="l231">Quod simul eversum est, simul aethera terruit ipsum,</l>
+        <l n="l232">Hic casus fuit infelix, hic finis Agunti.</l>
+        <l n="l233">Quis modo cladem huius castri? Quis funera fando</l>
+        <l n="l234">Explicet? aut possit lachrymis aequare dolores,</l>
+        <l n="l235">Queis ego submersus, damnosa incendia luxi,</l>
+        <l n="l236">Excidiumque urbis, cuius vix nomina restant.</l>
+        <l n="l237">Inachus haud aliter caeco submersus in antro</l>
+        <l n="l238">Fletibus auxit aquas, natamque miserrimus Io</l>
+        <l n="l239">Luxit ut amissam. Quam fletibus ora rigavi,</l>
+        <l n="l240">Semper inornatos redimitus arundine crines,</l>
+        <l n="l241">Et lachrymis auxi, quas parco fonte trahebam,</l>
+        <l n="l242">Largiter effusas per Norica rura procellas.</l>
+        <l n="l243">Utque recurvatis ludit Maeander in undis,</l>
+        <l n="l244">Sic ego, ne tabo foedati limpida Dravi</l>
+        <l n="l245">Polluat ora cruor morientum, saepe retortis</l>
+        <l n="l246">Sum revolutus aquis, dum vidi moenia Agunti</l>
+        <l n="l247">Eversa, urbisque occasum, castrique ruinas,</l>
+        <l n="l248">Sanguineosque lacus patriae, fluctusque cruentis</l>
+        <l n="l249">Vorticibus mixtos humano sanguine vidi.</l>
+        <l n="l250">Ipse vadi dubius, coeuntibus undique ripis</l>
+        <l n="l251">Per clypeos galeasque virûm, caesosque per artus,</l>
+        <l n="l252">Perque hominum<note n="note1" place="foot" xml:id="ftn39">Perque hominum] Vix iter assuetum H
                         in ras.</note>in mersis prostrata cadavera
                 campis</l>
-        <l>Vix iter assuetum rumpebam fessus in alveum.</l>
-        <l>At licet erubui tabo tractoque cruore,</l>
-        <l>Non tamen erubui vultu, nec casus Agunti</l>
-        <l n="255">Est mihi (sic superûm statuerunt fata) pudori.</l>
-        <l>Nec pudet antiquum a Poenis cecidisse Saguntum.</l>
-        <l>Thebis quid maius? Cadmi quid clarius urbe?</l>
-        <l>Oedipodioniae nunc nil nisi nomina Thebae,</l>
-        <l>Quid Plandioniae<note place="foot" xml:id="ftn40" n="40">Plandioniae] Pandioniae H
+        <l n="l253">Vix iter assuetum rumpebam fessus in alveum.</l>
+        <l n="l254">At licet erubui tabo tractoque cruore,</l>
+        <l n="l255">Non tamen erubui vultu, nec casus Agunti</l>
+        <l n="l256">Est mihi (sic superûm statuerunt fata) pudori.</l>
+        <l n="l257">Nec pudet antiquum a Poenis cecidisse Saguntum.</l>
+        <l n="l258">Thebis quid maius? Cadmi quid clarius urbe?</l>
+        <l n="l259">Oedipodioniae nunc nil nisi nomina Thebae,</l>
+        <l n="l260">Quid Plandioniae<note n="note1" place="foot" xml:id="ftn40">Plandioniae] Pandioniae H
                         fortasse recte</note>restant,
                 nisi nomen, Athenae?</l>
-        <l n="260">Iulia, nunc seges est ad fontes Tiliamenti,</l>
-        <l>Carnica Metropolis, sortita a Caesare nomen.</l>
-        <l>Vile solum Sparte est, altae cecidere Mycenae,</l>
-        <l>Troia cadit, quae magna fuit censuque virisque,</l>
-        <l>Perque decem potuit tantum dare sanguinis annos,</l>
-        <l n="265">Nunc humilis veteres tantummodo Troia ruinas,</l>
-        <l>Et pro divitiis tumulos ostendit avorum.</l>
-        <l>Nomina magna olim, nunc sunt sine nomine terrae.</l>
-        <l>Ortus talis erat, talisque occasus<note place="foot" xml:id="ftn41" n="41">occasus] Occasus H</note>
-          <emph>Agunti</emph>.</l>
-        <l>Postquam res patriae veteresque evertere muros</l>
-        <l n="270">Aeternis visum est Superis, ceciditque superbum</l>
-        <l>Culmen Agunti, omni fumante a stirpe<note place="foot" xml:id="ftn42" n="42">a stripe] radice H</note>Zacyntho,</l>
-        <l>Quas evertit opes Divûm inclementia, quodque</l>
-        <l>Magnificum antiquo stratum est a culmine castrum,</l>
-        <l>Has reparavit opes, reparavit moenia castri</l>
-        <l n="275">
-          <emph>Tassilo</emph>Dux Boius, quo non praestantior alter</l>
-        <l>Nec pietate fuit, nec bello maior et armis.</l>
-        <l>Virtute ex alto illustris reparavit Agunti</l>
-        <l>Relliquias veteres et rudera caeca novavit.</l>
-        <l>Quodque Columbanus, fatis renuentibus, olim</l>
-        <l n="280">Perficere haud potuit, perfecit Tassilo tandem.</l>
-        <l>Ut per Presbyteros, Sclavorum incredula proles</l>
-        <l>Unius Trinique<emph>Dei</emph>coleret sacra, sumptibus almis</l>
-        <l>Templum in ruderibus veteris construxit Agunti.</l>
-        <l>Amplis redditibus dotatum ac amplificatum</l>
-        <l n="285">Sub titulo, quo gavisa est Ecclesia, Petri,</l>
-        <l>In Choro Apostolico reliquorum Principis almi.</l>
-        <l>Addidit ipse Crucem, cui<emph>Christi</emph>appendet imago,</l>
-        <l>Transvexitque tuas de Roma,<emph>Candide</emph>sancte,</l>
-        <l>Relliquias, illuc Temploque Araque receptas.</l>
-        <l n="290">Plusquam mille annos cecini, nunc mille supersunt,</l>
-        <l>Caetera sed monumenta Annalibus erue priscis</l>
-        <l>Divitis Archivi, quod possidet<emph>Intica</emph>felix.</l>
-        <l>Hinc describe Patres veteres, quos prima Frisinga,</l>
-        <l>Quosque Scarenza dedit, Rectores atque Decanos,</l>
-        <l n="295">Tum post<emph>Ottonum</emph>Magnorum tempora Regum,</l>
-        <l>Praepositos cum Canonicis aliisque ministris</l>
-        <l>Adiice Euergetas, qui nobis annua quondam,</l>
-        <l>Praebendis bene fundatis, alimenta dederunt,</l>
-        <l>Nunc tempestivi caelis in pace quiescunt.</l>
-        <l n="300">Attamen ante omnes annalibus insere nostrum</l>
-        <l>Praepositum Carolum, caelesti Numine dignum,</l>
-        <l>Nostri Atlantem orbis, sacro splendore tiarae</l>
-        <l>Praecipuum, exemplo morum, verboque trahentem,</l>
-        <l>Quem pietas, quem prisca fides, quem invicta labore</l>
-        <l n="305">Dextera, dexteritas, candor, prudentia, zelus,</l>
-        <l>Resque domi gestae, properataque gloria rerum,</l>
-        <l>In Sidus<note place="foot" xml:id="ftn43" n="43">Sidus]
+        <l n="l261">Iulia, nunc seges est ad fontes Tiliamenti,</l>
+        <l n="l262">Carnica Metropolis, sortita a Caesare nomen.</l>
+        <l n="l263">Vile solum Sparte est, altae cecidere Mycenae,</l>
+        <l n="l264">Troia cadit, quae magna fuit censuque virisque,</l>
+        <l n="l265">Perque decem potuit tantum dare sanguinis annos,</l>
+        <l n="l266">Nunc humilis veteres tantummodo Troia ruinas,</l>
+        <l n="l267">Et pro divitiis tumulos ostendit avorum.</l>
+        <l n="l268">Nomina magna olim, nunc sunt sine nomine terrae.</l>
+        <l n="l269">Ortus talis erat, talisque occasus<note n="note1" place="foot" xml:id="ftn41">occasus] Occasus H</note>
+          <emph n="emph2">Agunti</emph>.</l>
+        <l n="l270">Postquam res patriae veteresque evertere muros</l>
+        <l n="l271">Aeternis visum est Superis, ceciditque superbum</l>
+        <l n="l272">Culmen Agunti, omni fumante a stirpe<note n="note1" place="foot" xml:id="ftn42">a stripe] radice H</note>Zacyntho,</l>
+        <l n="l273">Quas evertit opes Divûm inclementia, quodque</l>
+        <l n="l274">Magnificum antiquo stratum est a culmine castrum,</l>
+        <l n="l275">Has reparavit opes, reparavit moenia castri</l>
+        <l n="l276">
+          <emph n="emph1">Tassilo</emph>Dux Boius, quo non praestantior alter</l>
+        <l n="l277">Nec pietate fuit, nec bello maior et armis.</l>
+        <l n="l278">Virtute ex alto illustris reparavit Agunti</l>
+        <l n="l279">Relliquias veteres et rudera caeca novavit.</l>
+        <l n="l280">Quodque Columbanus, fatis renuentibus, olim</l>
+        <l n="l281">Perficere haud potuit, perfecit Tassilo tandem.</l>
+        <l n="l282">Ut per Presbyteros, Sclavorum incredula proles</l>
+        <l n="l283">Unius Trinique<emph n="emph1">Dei</emph>coleret sacra, sumptibus almis</l>
+        <l n="l284">Templum in ruderibus veteris construxit Agunti.</l>
+        <l n="l285">Amplis redditibus dotatum ac amplificatum</l>
+        <l n="l286">Sub titulo, quo gavisa est Ecclesia, Petri,</l>
+        <l n="l287">In Choro Apostolico reliquorum Principis almi.</l>
+        <l n="l288">Addidit ipse Crucem, cui<emph n="emph1">Christi</emph>appendet imago,</l>
+        <l n="l289">Transvexitque tuas de Roma,<emph n="emph1">Candide</emph>sancte,</l>
+        <l n="l290">Relliquias, illuc Temploque Araque receptas.</l>
+        <l n="l291">Plusquam mille annos cecini, nunc mille supersunt,</l>
+        <l n="l292">Caetera sed monumenta Annalibus erue priscis</l>
+        <l n="l293">Divitis Archivi, quod possidet<emph n="emph1">Intica</emph>felix.</l>
+        <l n="l294">Hinc describe Patres veteres, quos prima Frisinga,</l>
+        <l n="l295">Quosque Scarenza dedit, Rectores atque Decanos,</l>
+        <l n="l296">Tum post<emph n="emph1">Ottonum</emph>Magnorum tempora Regum,</l>
+        <l n="l297">Praepositos cum Canonicis aliisque ministris</l>
+        <l n="l298">Adiice Euergetas, qui nobis annua quondam,</l>
+        <l n="l299">Praebendis bene fundatis, alimenta dederunt,</l>
+        <l n="l300">Nunc tempestivi caelis in pace quiescunt.</l>
+        <l n="l301">Attamen ante omnes annalibus insere nostrum</l>
+        <l n="l302">Praepositum Carolum, caelesti Numine dignum,</l>
+        <l n="l303">Nostri Atlantem orbis, sacro splendore tiarae</l>
+        <l n="l304">Praecipuum, exemplo morum, verboque trahentem,</l>
+        <l n="l305">Quem pietas, quem prisca fides, quem invicta labore</l>
+        <l n="l306">Dextera, dexteritas, candor, prudentia, zelus,</l>
+        <l n="l307">Resque domi gestae, properataque gloria rerum,</l>
+        <l n="l308">In Sidus<note n="note1" place="foot" xml:id="ftn43">Sidus]
                         Sydus H</note>Patriae verterunt, quo rutilante</l>
-        <l>Humano generi Deus Aurea saecula condet.</l>
-        <l>Hic vir, hic est, amplis quem efferri laudibus audis,</l>
-        <l n="310">Cuius virtutes incisae adamante perenni</l>
-        <l>Aevo mandentur memori, seraeque futuri</l>
-        <l>Temporis aetati, ventorumque nepotum.</l>
-        <l>Tarda sit illa dies, et nostro serior aevo,</l>
-        <l>Qua caelo accedat, caeli venturus in axem.</l>
-        <l n="315">Illius auspiciis, illius nomine sacro,</l>
-        <l>In lucem tua<emph>Millenaria</emph>prodeat<emph>aetas</emph>.<note place="foot" xml:id="ftn44" n="44">In
-                        lucem ... Aetas] cantandis nec<emph>millenaria</emph>sufficit<emph>aetas</emph>H</note>
+        <l n="l309">Humano generi Deus Aurea saecula condet.</l>
+        <l n="l310">Hic vir, hic est, amplis quem efferri laudibus audis,</l>
+        <l n="l311">Cuius virtutes incisae adamante perenni</l>
+        <l n="l312">Aevo mandentur memori, seraeque futuri</l>
+        <l n="l313">Temporis aetati, ventorumque nepotum.</l>
+        <l n="l314">Tarda sit illa dies, et nostro serior aevo,</l>
+        <l n="l315">Qua caelo accedat, caeli venturus in axem.</l>
+        <l n="l316">Illius auspiciis, illius nomine sacro,</l>
+        <l n="l317">In lucem tua<emph n="emph1">Millenaria</emph>prodeat<emph n="emph2">aetas</emph>.<note n="note3" place="foot" xml:id="ftn44">In
+                        lucem ... Aetas] cantandis nec<emph n="emph1">millenaria</emph>sufficit<emph n="emph2">aetas</emph>H</note>
         </l>
-        <l>Cuius honoribus<note place="foot" xml:id="ftn45" n="45">honoribus] encomiis H
+        <l n="l318">Cuius honoribus<note n="note1" place="foot" xml:id="ftn45">honoribus] encomiis H
                         in ras.</note>ac titulis per climata Mundi</l>
-        <l>Cantandis nec Millenaria sufficit Aetas.’</l>
-        <l>Haec Dravus cecinit, primoque e fonte regressus<note place="foot" xml:id="ftn46" n="46">vv. 319–321] desunt in
+        <l n="l319">Cantandis nec Millenaria sufficit Aetas.’</l>
+        <l n="l320">Haec Dravus cecinit, primoque e fonte regressus<note n="note1" place="foot" xml:id="ftn46">vv. 319–321] desunt in
                         D</note>
         </l>
-        <l n="320">Ora subintravit vivo rorantia saxo,</l>
-        <l>Sumque ego ab his antris in pristina rura receptus.</l>
+        <l n="l321">Ora subintravit vivo rorantia saxo,</l>
+        <l n="l322">Sumque ego ab his antris in pristina rura receptus.</l>
       </div>
     </body>
   </text>

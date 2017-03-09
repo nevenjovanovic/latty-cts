@@ -29,6 +29,28 @@
         <bibl>TLMF, FB 657/15</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1816">1816</date>
@@ -51,32 +73,32 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:anonymus52384.latty2810377.latty-lat1:">
-    <body>
-      <div>
-        <head>Nunc tandem vobis mellificatis apes.</head>
-        <p>
-          <date>1mo Maii 1816</date>
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">Nunc tandem vobis mellificatis apes.</head>
+        <p n="p2">
+          <date n="date1">1mo Maii 1816</date>
         </p>
       </div>
-      <pb n="1"/>
-      <div>
-        <lg>
-          <l n="1">En, ut apum examen campos sylvasque peragrat,</l>
-          <l n="2">Ut rore hyblaeo turba referta redit.</l>
-          <l n="3">Excudunt aliae ceras, ubi dulcia ponant</l>
-          <l n="4">Mella, sororum aliae suscipiunt onera.</l>
-          <l n="5">Fervet opus, redolentque thyo fragrantia mella,</l>
-          <l n="6">Plenaque cecropio nectare cella tumet.</l>
-          <l n="7">Forte sed ignavus penetrans alvearia fucus</l>
-          <l n="8">Parta indefesso mella labore rapit.</l>
-          <l n="9">Immeritam doleo sortem, casumque misellum,</l>
-          <l n="10">Sic vos, non vobis mellificastis apes.</l>
-          <l n="11">Ast en!<persName>
-              <emph>FRANCISCUS</emph>
+      <pb n="pb2"/>
+      <div n="div3">
+        <lg n="lg1">
+          <l n="l1">En, ut apum examen campos sylvasque peragrat,</l>
+          <l n="l2">Ut rore hyblaeo turba referta redit.</l>
+          <l n="l3">Excudunt aliae ceras, ubi dulcia ponant</l>
+          <l n="l4">Mella, sororum aliae suscipiunt onera.</l>
+          <l n="l5">Fervet opus, redolentque thyo fragrantia mella,</l>
+          <l n="l6">Plenaque cecropio nectare cella tumet.</l>
+          <l n="l7">Forte sed ignavus penetrans alvearia fucus</l>
+          <l n="l8">Parta indefesso mella labore rapit.</l>
+          <l n="l9">Immeritam doleo sortem, casumque misellum,</l>
+          <l n="l10">Sic vos, non vobis mellificastis apes.</l>
+          <l n="l11">Ast en!<persName n="persName1">
+              <emph n="emph1">FRANCISCUS</emph>
             </persName>fucos expulsit edaces.</l>
-          <l n="12">Iamque redit laribus pacis alumna quies.</l>
-          <l n="13">Aurea labuntur vestrae iam saecula genti;</l>
-          <l n="14">Nunc tibi, non aliis mellificabis apis.</l>
+          <l n="l12">Iamque redit laribus pacis alumna quies.</l>
+          <l n="l13">Aurea labuntur vestrae iam saecula genti;</l>
+          <l n="l14">Nunc tibi, non aliis mellificabis apis.</l>
         </lg>
       </div>
     </body>

@@ -32,6 +32,22 @@
         <bibl>Tiroler Landesmuseum Ferdinandeum, FB 2937</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1727">1727</date>
@@ -53,156 +69,156 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:anonymus52330.latty2810367.latty-lat1:">
-    <body>
-      <div>
-        <head>Hymnus de Sancto Simone Innocente Tridentino.<placeName>Trideni</placeName>,<date>MDCC.XXVII.</date>Ex Typographo Joannis Antonii Brunati,Superiorum Permissu.</head>
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">Hymnus de Sancto Simone Innocente Tridentino.<placeName n="placeName1">Trideni</placeName>,<date n="date2">MDCC.XXVII.</date>Ex Typographo Joannis Antonii Brunati,Superiorum Permissu.</head>
       </div>
-      <pb xml:id="A2r"/>
-      <div>
-        <head>Hymnus de Sancto Simone Innocente Tridentino.</head>
+      <pb n="pb2" xml:id="A2r"/>
+      <div n="div3">
+        <head n="head1">Hymnus de Sancto Simone Innocente Tridentino.</head>
       </div>
-      <div>
-        <head>I.</head>
-        <l>Pange lingua gloriosi</l>
-        <l>Simonis Martyrium,</l>
-        <l>Sanguinisque pretiosi,</l>
-        <l>Quem effudit roseum</l>
-        <l n="5">In conventu malignorum,</l>
-        <l>Nocte coenae Domini.</l>
+      <div n="div4">
+        <head n="head1">I.</head>
+        <l n="l2">Pange lingua gloriosi</l>
+        <l n="l3">Simonis Martyrium,</l>
+        <l n="l4">Sanguinisque pretiosi,</l>
+        <l n="l5">Quem effudit roseum</l>
+        <l n="l6">In conventu malignorum,</l>
+        <l n="l7">Nocte coenae Domini.</l>
       </div>
-      <div>
-        <head>II.</head>
-        <l>Raptus hic de matris aede</l>
-        <l>Residens in limine</l>
-        <l>Per Tobiam ductus pede</l>
-        <l n="10">Falso mentis tramite:</l>
-        <l>Hunc in domum Samuelis</l>
-        <l>Praesentat sub chlamyde.</l>
+      <div n="div5">
+        <head n="head1">II.</head>
+        <l n="l2">Raptus hic de matris aede</l>
+        <l n="l3">Residens in limine</l>
+        <l n="l4">Per Tobiam ductus pede</l>
+        <l n="l5">Falso mentis tramite:</l>
+        <l n="l6">Hunc in domum Samuelis</l>
+        <l n="l7">Praesentat sub chlamyde.</l>
       </div>
-      <pb xml:id="A2v"/>
-      <div>
-        <head>III.</head>
-        <l>Fit conventus Judaeorum</l>
-        <l>Noctis in crepusculo,</l>
-        <l n="15">Synagoga perfidorum</l>
-        <l>Domus in ergastulo:</l>
-        <l>Hinc<corr>insultant</corr>, et exultant</l>
-        <l>Innocentis sanguine.</l>
+      <pb n="pb6" xml:id="A2v"/>
+      <div n="div7">
+        <head n="head1">III.</head>
+        <l n="l2">Fit conventus Judaeorum</l>
+        <l n="l3">Noctis in crepusculo,</l>
+        <l n="l4">Synagoga perfidorum</l>
+        <l n="l5">Domus in ergastulo:</l>
+        <l n="l6">Hinc<corr n="corr1">insultant</corr>, et exultant</l>
+        <l n="l7">Innocentis sanguine.</l>
       </div>
-      <div>
-        <head>IV.</head>
-        <l>Vestes hujus primum levant,</l>
-        <l n="20">Et revolvunt invicem:</l>
-        <l>A supremis, et ab imis</l>
-        <l>Adusque coxendicem:</l>
-        <l>Sed de subtus istas ligant</l>
-        <l>Perfido ligamine.</l>
+      <div n="div8">
+        <head n="head1">IV.</head>
+        <l n="l2">Vestes hujus primum levant,</l>
+        <l n="l3">Et revolvunt invicem:</l>
+        <l n="l4">A supremis, et ab imis</l>
+        <l n="l5">Adusque coxendicem:</l>
+        <l n="l6">Sed de subtus istas ligant</l>
+        <l n="l7">Perfido ligamine.</l>
       </div>
-      <div>
-        <head>V.</head>
-        <l n="25">Hic jam senex premunitur</l>
-        <l>Trahit carnem forcipe,</l>
-        <l>Sic a mento labrum subtus</l>
-        <l>Et in dextro poplite</l>
-        <l>Fluit sanguis, quem subiecta</l>
-        <l n="30">Colligit paropside.</l>
+      <div n="div9">
+        <head n="head1">V.</head>
+        <l n="l2">Hic jam senex premunitur</l>
+        <l n="l3">Trahit carnem forcipe,</l>
+        <l n="l4">Sic a mento labrum subtus</l>
+        <l n="l5">Et in dextro poplite</l>
+        <l n="l6">Fluit sanguis, quem subiecta</l>
+        <l n="l7">Colligit paropside.</l>
       </div>
-      <pb xml:id="A3r"/>
-      <div>
-        <head>VI.</head>
-        <l>Post haec cultrum tam severum</l>
-        <l>Efferat in inguine,</l>
-        <l>Et ex inde madet ferrum</l>
-        <l>Copioso sanguine,</l>
-        <l n="35">Quem in coena tam prophana</l>
-        <l>Libaverunt hodie.</l>
+      <pb n="pb10" xml:id="A3r"/>
+      <div n="div11">
+        <head n="head1">VI.</head>
+        <l n="l2">Post haec cultrum tam severum</l>
+        <l n="l3">Efferat in inguine,</l>
+        <l n="l4">Et ex inde madet ferrum</l>
+        <l n="l5">Copioso sanguine,</l>
+        <l n="l6">Quem in coena tam prophana</l>
+        <l n="l7">Libaverunt hodie.</l>
       </div>
-      <div>
-        <head>VII.</head>
-        <l>Domum gens haec tam funesta</l>
-        <l>Manus armat stimulis,</l>
-        <l>Et corpusculum infanti</l>
-        <l n="40">Strictis pungit acubus</l>
-        <l>Execrandis usa verbis</l>
-        <l>In contemptum fidei.</l>
+      <div n="div12">
+        <head n="head1">VII.</head>
+        <l n="l2">Domum gens haec tam funesta</l>
+        <l n="l3">Manus armat stimulis,</l>
+        <l n="l4">Et corpusculum infanti</l>
+        <l n="l5">Strictis pungit acubus</l>
+        <l n="l6">Execrandis usa verbis</l>
+        <l n="l7">In contemptum fidei.</l>
       </div>
-      <div>
-        <head>VIII.</head>
-        <l>Inter haec tam dire gesta</l>
-        <l>Ingemit infantulus;</l>
-        <l n="45">Et ad Coelos, et ad astra</l>
-        <l>Levat suos oculos;</l>
-        <l>Ut rex sumus, et aeternus</l>
-        <l>Hic se tolat ocyus.</l>
+      <div n="div13">
+        <head n="head1">VIII.</head>
+        <l n="l2">Inter haec tam dire gesta</l>
+        <l n="l3">Ingemit infantulus;</l>
+        <l n="l4">Et ad Coelos, et ad astra</l>
+        <l n="l5">Levat suos oculos;</l>
+        <l n="l6">Ut rex sumus, et aeternus</l>
+        <l n="l7">Hic se tolat ocyus.</l>
       </div>
-      <pb xml:id="A3v"/>
-      <div>
-        <head>IX.</head>
-        <l>Tum hi duo seniores</l>
-        <l n="50">Samuel, et Moyses</l>
-        <l>Hunc attolunt, et<corr>sustentant</corr>
+      <pb n="pb14" xml:id="A3v"/>
+      <div n="div15">
+        <head n="head1">IX.</head>
+        <l n="l2">Tum hi duo seniores</l>
+        <l n="l3">Samuel, et Moyses</l>
+        <l n="l4">Hunc attolunt, et<corr n="corr1">sustentant</corr>
         </l>
-        <l>In utroque brachio</l>
-        <l>Extendentes, et stringentes</l>
-        <l>Lineo strophilo.</l>
+        <l n="l5">In utroque brachio</l>
+        <l n="l6">Extendentes, et stringentes</l>
+        <l n="l7">Lineo strophilo.</l>
       </div>
-      <div>
-        <head>X.</head>
-        <l n="55">Mox in collo sic adstrictus</l>
-        <l>Inclinato capite</l>
-        <l>Est atritus, et afflictus</l>
-        <l>Jam emuncto Sanguine</l>
-        <l>Reddit vitam, qujeturus</l>
-        <l n="60">In supremo culmine.</l>
+      <div n="div16">
+        <head n="head1">X.</head>
+        <l n="l2">Mox in collo sic adstrictus</l>
+        <l n="l3">Inclinato capite</l>
+        <l n="l4">Est atritus, et afflictus</l>
+        <l n="l5">Jam emuncto Sanguine</l>
+        <l n="l6">Reddit vitam, qujeturus</l>
+        <l n="l7">In supremo culmine.</l>
       </div>
-      <div>
-        <head>XI.</head>
-        <l>Coros intrat Angelorum,</l>
-        <l>Fitque pars in ordine</l>
-        <l>Innocentum supernorum,</l>
-        <l>Ac Sanctorum agmine:</l>
-        <l n="65">Ubi nunc triunphat laetus</l>
-        <l>Duplicato foenore.</l>
+      <div n="div17">
+        <head n="head1">XI.</head>
+        <l n="l2">Coros intrat Angelorum,</l>
+        <l n="l3">Fitque pars in ordine</l>
+        <l n="l4">Innocentum supernorum,</l>
+        <l n="l5">Ac Sanctorum agmine:</l>
+        <l n="l6">Ubi nunc triunphat laetus</l>
+        <l n="l7">Duplicato foenore.</l>
       </div>
-      <pb xml:id="A4r"/>
-      <div>
-        <head>XII.</head>
-        <l>Hinc exulta, gens devota,</l>
-        <l>Plebs, et Civis inclyte,</l>
-        <l>Urbis almae Tridentinae</l>
-        <l n="70">Tam sacrato martyre,</l>
-        <l>Qui necatus est in<sic>ea</sic>
+      <pb n="pb18" xml:id="A4r"/>
+      <div n="div19">
+        <head n="head1">XII.</head>
+        <l n="l2">Hinc exulta, gens devota,</l>
+        <l n="l3">Plebs, et Civis inclyte,</l>
+        <l n="l4">Urbis almae Tridentinae</l>
+        <l n="l5">Tam sacrato martyre,</l>
+        <l n="l6">Qui necatus est in<sic n="sic1">ea</sic>
         </l>
-        <l>Judeorum scelere.</l>
+        <l n="l7">Judeorum scelere.</l>
       </div>
-      <div>
-        <head>XIII.</head>
-        <l>In contemptum Judaeorum,</l>
-        <l>Et suorum complicum,</l>
-        <l n="75">Plaudat Virgo mater sancta</l>
-        <l>Per infantis meritum,</l>
-        <l>Qui pro Christo fuit ductus</l>
-        <l>Ad necis interitum.</l>
+      <div n="div20">
+        <head n="head1">XIII.</head>
+        <l n="l2">In contemptum Judaeorum,</l>
+        <l n="l3">Et suorum complicum,</l>
+        <l n="l4">Plaudat Virgo mater sancta</l>
+        <l n="l5">Per infantis meritum,</l>
+        <l n="l6">Qui pro Christo fuit ductus</l>
+        <l n="l7">Ad necis interitum.</l>
       </div>
-      <div>
-        <head>XIV.</head>
-        <l>Patri, Nato cum Spirato,</l>
-        <l n="80">Laus, et benedictio</l>
-        <l>Sit pro mellei puelli</l>
-        <l>Tam sublimi merito,</l>
-        <l>Quo donati sumus modo</l>
-        <l>Ejus beneficio.</l>
+      <div n="div21">
+        <head n="head1">XIV.</head>
+        <l n="l2">Patri, Nato cum Spirato,</l>
+        <l n="l3">Laus, et benedictio</l>
+        <l n="l4">Sit pro mellei puelli</l>
+        <l n="l5">Tam sublimi merito,</l>
+        <l n="l6">Quo donati sumus modo</l>
+        <l n="l7">Ejus beneficio.</l>
       </div>
-      <pb xml:id="A4v"/>
-      <div>
-        <head>XV.</head>
-        <l n="85">Regi Regum salus vita,</l>
-        <l>Sit in hac victoria,</l>
-        <l>Qui pro Christo fit sacratus</l>
-        <l>In hujus memoria,</l>
-        <l>Qui perenni jam dotatus</l>
-        <l n="90">Triumphat in gloria.</l>
-        <l>Amen.</l>
+      <pb n="pb22" xml:id="A4v"/>
+      <div n="div23">
+        <head n="head1">XV.</head>
+        <l n="l2">Regi Regum salus vita,</l>
+        <l n="l3">Sit in hac victoria,</l>
+        <l n="l4">Qui pro Christo fit sacratus</l>
+        <l n="l5">In hujus memoria,</l>
+        <l n="l6">Qui perenni jam dotatus</l>
+        <l n="l7">Triumphat in gloria.</l>
+        <l n="l8">Amen.</l>
       </div>
     </body>
   </text>

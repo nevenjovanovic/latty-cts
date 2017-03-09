@@ -34,6 +34,25 @@
         <bibl>Tiroler Landesmuseum Ferdinandeum, Dip. 1245/2</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1798">1798</date>
@@ -56,30 +75,30 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:rigler01.latty2695462.latty-lat1:">
-    <body>
-      <div>
-        <head>Oratio eucharistica Francisco II. Caesari Forti Pio Munifico Tyroleos Principi
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">Oratio eucharistica Francisco II. Caesari Forti Pio Munifico Tyroleos Principi
                     etc. etc. dicta a Josepho de Unterrichter a Rechenthal Provin. Tyrol., cum
-                    studentium classes solenniter promulgarentur<date>sub finem anni
-                        MDCCXCVIII</date>. Autore<persName>Josepho Antonio Rigler</persName>Caesareo Regii
-                    Archi-Gymnasii<placeName>Oenipontani</placeName>Professore Poeseos.<placeName>Oeniponte</placeName>,
-                    Typis<persName>Joannis Josephi Schiffner</persName>Caesareo Regiae Aulae Typographi et
+                    studentium classes solenniter promulgarentur<date n="date1">sub finem anni
+                        MDCCXCVIII</date>. Autore<persName n="persName2">Josepho Antonio Rigler</persName>Caesareo Regii
+                    Archi-Gymnasii<placeName n="placeName3">Oenipontani</placeName>Professore Poeseos.<placeName n="placeName4">Oeniponte</placeName>,
+                    Typis<persName n="persName5">Joannis Josephi Schiffner</persName>Caesareo Regiae Aulae Typographi et
                     Bibliopolae</head>
       </div>
-      <pb n="2"/>
-      <div>
-        <quote>
-          <lg>
-            <l>Res gerere et captos ostendere civibus hostes</l>
-            <l>Attingit solium Jovis et coelestia tentat.</l>
-            <l>Principibus placuisse Viris non ultima laus est.</l>
+      <pb n="pb2"/>
+      <div n="div3">
+        <quote n="quote1">
+          <lg n="lg1">
+            <l n="l1">Res gerere et captos ostendere civibus hostes</l>
+            <l n="l2">Attingit solium Jovis et coelestia tentat.</l>
+            <l n="l3">Principibus placuisse Viris non ultima laus est.</l>
           </lg>
-          <ref>Horat. L. I. Epist. 17.</ref>
+          <ref n="ref2">Horat. L. I. Epist. 17.</ref>
         </quote>
       </div>
-      <pb n="3"/>
-      <div>
-        <p>Cum in omni publico gaudio palam laetari pium ac decorum est, tum vero in eo
+      <pb n="pb4"/>
+      <div n="div5">
+        <p n="p1">Cum in omni publico gaudio palam laetari pium ac decorum est, tum vero in eo
                     praesertim, cui et causam dedit et in quo praecipuum locum sibi vindicat
                     inaudita optimi Principis in fortes fidelesque subditos benevolentia et
                     munificentia. Tunc enim non solum gratus ex accepto beneficio animus, quem
@@ -87,48 +106,48 @@
                     vocibus expromitur, sed mirifica etiam Imperantis non minus quam obsequentis in
                     publicae felicitatis incrementum consensio declaratur, amplificatur,
                     stabilitur.</p>
-        <p>Fas igitur et proprio quodam jure licitum etiam nobis communi exilire gaudio ex
-                    nupera illa solemni et per omnem<region>Tyrolim</region>per Viros de eadem isthac Patria nostra
+        <p n="p2">Fas igitur et proprio quodam jure licitum etiam nobis communi exilire gaudio ex
+                    nupera illa solemni et per omnem<region n="region1">Tyrolim</region>per Viros de eadem isthac Patria nostra
                     optime meritos etiamnum continuata liberalissima Numismatum donorumque
                     caesareorum distributione, etenim cum istorum non exiguus sane per omnem Patriam
                     numerus ad literatam quoque juventutem ita sit delatus, ut immortalem inde
-                    gloriae et aemulationis fructum ad omnes, quotquot<pb n="4"/>sunt et futuri in
+                    gloriae et aemulationis fructum ad omnes, quotquot<pb n="pb2"/>sunt et futuri in
                     posterum erunt Tyrolenses, perventurum esse arbitremur: Quid est, quod
                     laetantium exultationem restinguere vel sincerissimas gratiarum actiones quoquo
-                    modo possit remorari? Tantum enim est Augustissimi Caesaris<placeName>Francisci Secundi</placeName>in
-                    universam<region>Tyrolim</region>nupero isthoc exitiabili in bello Gallico collatum beneficium,
+                    modo possit remorari? Tantum enim est Augustissimi Caesaris<placeName n="placeName3">Francisci Secundi</placeName>in
+                    universam<region n="region4">Tyrolim</region>nupero isthoc exitiabili in bello Gallico collatum beneficium,
                     tam magnum et tam illustre, ut post Deum ter Optimum Maximum, cujus singulari
-                    Providentia et praesentissimo Auxilio res tota acta et felicissime perfecta est,<emph>UNI PRAE RELIQUIS MUNIFICENTISSIMO PATRI PATRIAE FRANCISCO SECUNDO EFFUSISSIMAS
+                    Providentia et praesentissimo Auxilio res tota acta et felicissime perfecta est,<emph n="emph5">UNI PRAE RELIQUIS MUNIFICENTISSIMO PATRI PATRIAE FRANCISCO SECUNDO EFFUSISSIMAS
                     AGENDAS ESSE GRATIAS LIBENTISSIME FATEAMUR</emph>.</p>
-        <p>Is enim dedit, ut non solum victores hostes vinceremus, verum etiam, ut nominis
-                    celebritate universae<region>Europae</region>spectabiles videremur, in Paranda, quod primum, et
+        <p n="p3">Is enim dedit, ut non solum victores hostes vinceremus, verum etiam, ut nominis
+                    celebritate universae<region n="region1">Europae</region>spectabiles videremur, in Paranda, quod primum, et
                     in Coronanda victoria, quod alterum orationis caput est, munificentissimus
                     Patriae Pater.</p>
-        <p>Intelligitis, opinor, ex his, Auditores Spectatissimi, maximam relatae a nostris
-                    victoriae partem ad amantissimum Patriae Patrem<persName>Franciscum</persName>pertinere. Nolite
+        <p n="p4">Intelligitis, opinor, ex his, Auditores Spectatissimi, maximam relatae a nostris
+                    victoriae partem ad amantissimum Patriae Patrem<persName n="persName1">Franciscum</persName>pertinere. Nolite
                     vero inde praepropera opinione deducere ex vestris propterea laudibus quidquam
                     fore detrahendum. Quis enim eam vobis, fortissimi Patriae Defensores, ulla
                     unquam imminuet cavillatione, quam idem ipse clementissimus Patriae Pater vobis
-                    in universae<region>Europae</region>conspectu publicis testatus est tabulis? Quae quidem omnia,
-                    cum brevi pro amplitudine argumenti oratione sum declaraturus,<pb n="5"/>diligenter, quaeso, attendite; nihil enim adferam, quod non dignum hoc
+                    in universae<region n="region2">Europae</region>conspectu publicis testatus est tabulis? Quae quidem omnia,
+                    cum brevi pro amplitudine argumenti oratione sum declaraturus,<pb n="pb3"/>diligenter, quaeso, attendite; nihil enim adferam, quod non dignum hoc
                     consessu, non dignum vestris studiis atque auribus esse videatur. Favete!</p>
       </div>
-      <div>
-        <head>Pars I.</head>
-        <p>Et quoniam de paranda victoria primo mihi dicendum proposui, illum, ni fallor,
+      <div n="div6">
+        <head n="head1">Pars I.</head>
+        <p n="p2">Et quoniam de paranda victoria primo mihi dicendum proposui, illum, ni fallor,
                     facile omnes praecipuum ejusdem auctorem esse profitebuntur, qui
                     adhortationibus, apparatu bellico et consiliis ad tutandam Patriam potissimum
                     attulerit auxilium. Quod ipsum quam liberaliter, quam amanter in periculosissimo
-                    illo nupero biennali bello benignissimus Patriae Pater<persName>Franciscus</persName>praestiterit,
+                    illo nupero biennali bello benignissimus Patriae Pater<persName n="persName1">Franciscus</persName>praestiterit,
                     vel ex iis tantum, quae vidimus, quae audivimus omnes, satis est
                     demonstratum.</p>
-        <p>Etenim recognoscite, quaeso, mecum tristissimum illud et luctuosissimum ejus diei
+        <p n="p3">Etenim recognoscite, quaeso, mecum tristissimum illud et luctuosissimum ejus diei
                     momentum, quo primum subitus appropinquantis belli terror omnium mentes
                     animosque pervasit. Haeret enim menti adhuc funesta facies publici metus, cum
-                    allatus repente nuncius retulit Caesareo Regium exercitum tota prope superiori<country>Italia</country>pulsum, permultis praeliis imminutum et ad nostros usque montes fuisse
+                    allatus repente nuncius retulit Caesareo Regium exercitum tota prope superiori<country n="country1">Italia</country>pulsum, permultis praeliis imminutum et ad nostros usque montes fuisse
                     rejectum: imminere autem hostium exercitus ira, numero, immanitate atroces,
                     victoriis et triumphis ferocientes eosdemque ad montium nostrorum radices
-                    propediem adfuturos! Tum enim vero<pb n="6"/>audire nobis jam videbamur hinc
+                    propediem adfuturos! Tum enim vero<pb n="pb2"/>audire nobis jam videbamur hinc
                     hostilium lituorum, tympanorum tubarumque clangorem; illinc vociferantium
                     clamores; hinc digladiantium tumultus; ilinc machinarum boatus, bombardarum
                     strepitus et cadentium ejulatus! Observabantur tum ante oculos mentis expilatae
@@ -137,24 +156,24 @@
                     sinu filii ipsique adulti adversus Patriam viribus ferroque pugnare coacti;
                     omnia denique, qua visus agi potest, ferali vastatione depopulata metus et
                     terror, ut quemque maxime corripuerat, vivacissime depinxerant!</p>
-        <p>Atque isto in rerum statu et in tanta hominum perturbatione supplices quidem
+        <p n="p4">Atque isto in rerum statu et in tanta hominum perturbatione supplices quidem
                     primo, ut maxime decuit, ad Deum manus tetendimus; tum vero, ubi
                     excellentissimum Gubernium cum praecipuis Provinciae Delegatis in bonum totius
                     Patriae communicatis utrinque curis seria jamjam et pro tantorum Virorum
                     Sapientia provida agitare consilia comperimus, tum denique ex primo illo terrore
                     respirare, animos erigere et ad defendendam Patriam ad arma, ad arma conclamare
                     coepimus. Sed, eheu, volentibus deerant arma! Quid igitur? Nunciata per cursores
-                    res Optimo Principi, et nequid morae noceat, jussus properare ad Patrem Patriae<persName>Franciscum</persName>Vir maximi in Patriam meriti. Docet is, quae sit rerum facies, quae
-                    periculorum expectatio, quae Tyrolensium voluntas. Audit<persName>Franciscus</persName>et<pb n="7"/>gravi vulnere ex nostris periculis afflictus: Gens, inquit, mihi meisque
-                    multis abhinc seculis fida et addicta! Chara<region>Tyrolis</region>, non te deseram! O vocem
+                    res Optimo Principi, et nequid morae noceat, jussus properare ad Patrem Patriae<persName n="persName1">Franciscum</persName>Vir maximi in Patriam meriti. Docet is, quae sit rerum facies, quae
+                    periculorum expectatio, quae Tyrolensium voluntas. Audit<persName n="persName2">Franciscus</persName>et<pb n="pb3"/>gravi vulnere ex nostris periculis afflictus: Gens, inquit, mihi meisque
+                    multis abhinc seculis fida et addicta! Chara<region n="region4">Tyrolis</region>, non te deseram! O vocem
                     suavissimam! O Patre Patriae dignissimam! dixit, et ut dicta veluti tabulis
-                    firmaret, idem Serenissimae<persName>Elisabethae</persName>, liberalissimae huic nostrique
+                    firmaret, idem Serenissimae<persName n="persName5">Elisabethae</persName>, liberalissimae huic nostrique
                     amantissimae vere Regiae Archiduci, de qua alio loco dicam et ita dicam, ut
                     memorem gratumque omnium Tyrolensium animum omnis posteritas sit cognitura;
-                    idem, inquam, Regiae scripsit Archiduci et ad tutandam<region>Tyrolim</region>, quidquid tanta
+                    idem, inquam, Regiae scripsit Archiduci et ad tutandam<region n="region6">Tyrolim</region>, quidquid tanta
                     belli tempestas poposcerit opportunum, quam citissime se submissurum
                     promisit.</p>
-        <p>Non promisit tantum, sed etsi a Sociis desertus, etsi solus, etsi ab ingente
+        <p n="p5">Non promisit tantum, sed etsi a Sociis desertus, etsi solus, etsi ab ingente
                     ubique hoste petitus, id tamen omne, quod in tanta temporum calamitate facere
                     potuit, fecit prompte, fecit liberaliter, fecit constanter! Agite enim, nam nota
                     omnibus et a plerisque propriis percepta oculis edico; nonne iisdem diebus,
@@ -164,9 +183,9 @@
                     tormentorum, machinarum, mortariorum, malleolorum et ignivomarum pilarum
                     omnisque bellicae suppellectilis vim in oenano suburbio longissime huc ad nos
                     transvectam conspeximus? Innumerabilis autem bellici apparatus testes prae
-                    reliquis sint<placeName>Roboretum</placeName>,<placeName>Tridentum</placeName>,<placeName>Bulsanum</placeName>,<placeName>Brixina</placeName>, urbes nobilissimae, quae,
-                    cum moles belli illuc translata est, per hosce annos viderunt,<pb n="8"/>quam
-                    immensos in bellum sumptus pro Salute Patriae profuderit<persName>Franciscus</persName>! Quare non
+                    reliquis sint<placeName n="placeName1">Roboretum</placeName>,<placeName n="placeName2">Tridentum</placeName>,<placeName n="placeName3">Bulsanum</placeName>,<placeName n="placeName4">Brixina</placeName>, urbes nobilissimae, quae,
+                    cum moles belli illuc translata est, per hosce annos viderunt,<pb n="pb5"/>quam
+                    immensos in bellum sumptus pro Salute Patriae profuderit<persName n="persName6">Franciscus</persName>! Quare non
                     jam praedicabo, quantam commeatus copiam currus et naves onerariae longo oeni
                     ambitu devectae attulerint; non dicam rei tormentariae Praefectos, quorum solers
                     industria et indefessus labor maximopere enituit, militibus et jaculatoribus
@@ -177,36 +196,36 @@
                     quod dimidiata stipendia ipse cum Provincia solverit, ingentem pecuniarum vim
                     exhausto provinciali aerario tanquam nervum belli submiserit et ingruente statim
                     primo belli discrimine vel ab ipso [...], ad quam belli flamma maxime ardebat,
-                    lectissimorum virorum exercitum fortissimo heroe<persName>Wurmsero</persName>Duce<region>Tyrolim</region>petere et<placeName>Mantuam</placeName>utique servare, sed servata<placeName>Mantua</placeName>hoc ipso<region>Tyrolim</region>ab omni hostium
+                    lectissimorum virorum exercitum fortissimo heroe<persName n="persName7">Wurmsero</persName>Duce<region n="region8">Tyrolim</region>petere et<placeName n="placeName9">Mantuam</placeName>utique servare, sed servata<placeName n="placeName10">Mantua</placeName>hoc ipso<region n="region11">Tyrolim</region>ab omni hostium
                     impetu liberare provido omnino consilio praeceperit. Quod quidem postremum, etsi
                     minus feliciter perfectum: id tamen profecto commodi attulit, ut interea
                     provinciales nostri in belli alea exercentur et vehementiori in hostes animo
                     exstimularentur, illo praesertim Duce et moderatore, qui ex duplici ab hostibus
-                    in<region>Tyroli</region>relata victoria provincialium omnium animos ad nutum sibi
+                    in<region n="region12">Tyroli</region>relata victoria provincialium omnium animos ad nutum sibi
                     obtemperantes adjunxerat magnique Patrui sui Laudonii ex sorore Nepos, fortis
                     idem magnusque olim est futurus.</p>
-        <pb n="9"/>
-        <p>Neque vero Optimus suorumque amantissimus Patriae Pater australem solummodo<region>Tyrolim</region>est tutatus. Quis enim nostrum illustrissimas, toto orbe longe lateque
-                    immortali nominis fama divulgatas Regii Archiducis<persName>Caroli</persName>victorias potest
+        <pb n="pb6"/>
+        <p n="p7">Neque vero Optimus suorumque amantissimus Patriae Pater australem solummodo<region n="region1">Tyrolim</region>est tutatus. Quis enim nostrum illustrissimas, toto orbe longe lateque
+                    immortali nominis fama divulgatas Regii Archiducis<persName n="persName2">Caroli</persName>victorias potest
                     ignorare? Atqui idem ipse Regius Heros, qui ingentes juvenili adhuc in pectore
-                    animos versat et liberata ab hostium vastationibus<country>Germania</country>futuris imperiis
-                    felicissime prolusit, idem, inquam, ipse minitanti ad borealem<region>Tyrolim</region>hostium
+                    animos versat et liberata ab hostium vastationibus<country n="country3">Germania</country>futuris imperiis
+                    felicissime prolusit, idem, inquam, ipse minitanti ad borealem<region n="region4">Tyrolim</region>hostium
                     exercitui fauces nostras et angustos accessus milite et tormentis validissime
-                    munitos opposuit, fortissimum Ducem<persName>Frölichium</persName>dedit idque effecit, ut
+                    munitos opposuit, fortissimum Ducem<persName n="persName5">Frölichium</persName>dedit idque effecit, ut
                     invictissimus iste Optimi Caesaris Frater non solum annalibus nostris, veluti
                     alter a Fratre Servator, sed vel maxime in omnium nostrum animis gratissima
                     memoria aeternum sit inscribendus.</p>
-        <p>Sed enim quis singula, quae Optimus Patriae Pater ad defendendam Patriam
+        <p n="p8">Sed enim quis singula, quae Optimus Patriae Pater ad defendendam Patriam
                     apparavit, unius orationis ambitu comprehendat? Mitto igitur reliqua
                     innumerabilia propulsandi et sustinendi belli adjumenta; quae cum
                     munificentissime contulit, frustra contulisset, nisi sapientiam etiam tantis
                     rebus moderandis in uno praesertim Viro contulisset, quo dato dedit Victoriam.
-                    Intelligitis, opinor, quem velim: est is Excellentissimus Ludovicus<persName>Conradus</persName>Sacri Romani Imperii Comes de et in Lehrbach etc. Caesaris a latere cum summa
+                    Intelligitis, opinor, quem velim: est is Excellentissimus Ludovicus<persName n="persName1">Conradus</persName>Sacri Romani Imperii Comes de et in Lehrbach etc. Caesaris a latere cum summa
                     potestate legatus, qui in summa rerum conversione velut de coelo delapsus et a
-                    Patre Patriae<persName>Francisco</persName>ad nos est transmissus! Hujus enim solius maximi Viri
-                    adventu nobis omnibus ad bene de Patria tunc<pb n="10"/>prope circum undique
+                    Patre Patriae<persName n="persName2">Francisco</persName>ad nos est transmissus! Hujus enim solius maximi Viri
+                    adventu nobis omnibus ad bene de Patria tunc<pb n="pb3"/>prope circum undique
                     innumeris hostilium exercituum copiis obsessa, ad bene, inquam, sperandum quasi
-                    signum aliquod sustulit<persName>Franciscus</persName>, quo patriam in nobis virtutem multo
+                    signum aliquod sustulit<persName n="persName4">Franciscus</persName>, quo patriam in nobis virtutem multo
                     inflammavit vehementius et ad illa, quae cum immortali universae nationis gloria
                     post consecuta sunt, edenda fortitudinis et avitae fidei exempla praeparavit.
                     Etenim talis tantusque vir est, ut, si in ejus laudes effundere sese mens et
@@ -214,7 +233,7 @@
                     habitura. Namque usque adeo insolitae sunt in uno isthoc Viro et tam multae
                     atque ipsis illis rerum angustiis, quibus tunc maxime premebamur, tam salutares
                     et popularium nostrorum totiusque nationis genio ac indoli tam accommodatae
-                    virtutes, ut, si<persName>Franciscus</persName>nobis aliud auxilii nihil nisi Virum istum
+                    virtutes, ut, si<persName n="persName5">Franciscus</persName>nobis aliud auxilii nihil nisi Virum istum
                     submisisset, unicum tamen istud beneficium maximum existimare debuissemus.
                     Siquidem id negari nullo modo potest Optimi cujusque Principis laudem in eo
                     praecipue esse positam, ut, quoniam vastissimo in imperio moderari per se ipse
@@ -226,7 +245,7 @@
                     longaeva experientia defaecatum, constantem justitiae amorem, indefessum
                     Principis obsequium cum subditorum felicitate combinatum, laborem improbum in
                     seras usque noctium vigilias protractum, providentiam ad minutissima quaeque
-                    protensam, erectum<pb n="11"/>et apertum animum ac sine fuco naturale flumen
+                    protensam, erectum<pb n="pb6"/>et apertum animum ac sine fuco naturale flumen
                     eloquentiae, animi virilis constantiam nullis labefactandam periculis,
                     auctoritatem denique modestia, comitate, affabilitate vel ad infimos quosque ita
                     demissam, ut, qui dignitate caeteris omnibus praestaret, par tamen infimis esse
@@ -240,12 +259,12 @@
                     ipsius contemptores efficeret. Verum quamquam per se ipse incredibili rerum
                     agendarum facilitate polleret, graviora tamen negotia, quod Sapientes assolent,
                     prudentissimorum Virorum ex universo Caesareo Regio Gubernio et ipsa Provincia,
-                    quorum alios in Septentrionali, alios in australi<region>Tyrolis</region>parte consiliorum
+                    quorum alios in Septentrionali, alios in australi<region n="region7">Tyrolis</region>parte consiliorum
                     suorum administros constituit, opera et consilio sibi statuit perficiendum.</p>
-        <p>Praeter Lehrbachium, qui cum summa potestate aderat, felicissimis totius Patriae
-                    auspiciis hoc eodem tempore Excellentissimus Provinciae Praeses et Gubernator<persName>Ferdinandus Ernestus</persName>Sacri Romani Imperii Comes de Bissing etc. etc.
+        <p n="p9">Praeter Lehrbachium, qui cum summa potestate aderat, felicissimis totius Patriae
+                    auspiciis hoc eodem tempore Excellentissimus Provinciae Praeses et Gubernator<persName n="persName1">Ferdinandus Ernestus</persName>Sacri Romani Imperii Comes de Bissing etc. etc.
                     Augustissimi Caesaris nutu ad nos est delatus; cujus sapientissimi Viri plurimo
-                    jam ante administrandarum rerum usu<pb n="12"/>celeberrimi et pari cum
+                    jam ante administrandarum rerum usu<pb n="pb2"/>celeberrimi et pari cum
                     Lehrbachio in Patriae salutem studio et benevolentia inflammati consiliis id est
                     effectum, ut vel inter ipsa dubia adhucdum belli discrimina et ancipitem rerum
                     eventum communicatis utrinque voluntatibus, infracto, quod magnorum Virorum
@@ -253,27 +272,27 @@
                     neque periclitantem Patriam et jam prope nutantem deserere, sed consiliis,
                     adhortationibus, exemplis perficiendo immortali operi invigilare constantissime
                     perseveraverint.</p>
-        <p>Atque his omnibus ab Optimo Patre Patriae<persName>Francisco</persName>ad comparandam victoriam
+        <p n="p10">Atque his omnibus ab Optimo Patre Patriae<persName n="persName1">Francisco</persName>ad comparandam victoriam
                     constitutis, Lehrbachio omni cura, cogitatione, consiliis omnibus omnia
                     dirigente ad arma concurrimus; collectam hostium vim corporum nostrorum oppositu
-                    retardavimus, ad<placeName>Spinges</placeName>,<placeName>Meransen</placeName>,<placeName>Mühlbach</placeName>,<placeName>Schalders</placeName>,<placeName>Lazfons</placeName>,<placeName>Raffenstein</placeName>,<placeName>Jenesien</placeName>,<placeName>Tscheipenthurn</placeName>,<placeName>Siebenaich</placeName>et<placeName>Neumarkt</placeName>certis ad feriendum jaculatorum
+                    retardavimus, ad<placeName n="placeName2">Spinges</placeName>,<placeName n="placeName3">Meransen</placeName>,<placeName n="placeName4">Mühlbach</placeName>,<placeName n="placeName5">Schalders</placeName>,<placeName n="placeName6">Lazfons</placeName>,<placeName n="placeName7">Raffenstein</placeName>,<placeName n="placeName8">Jenesien</placeName>,<placeName n="placeName9">Tscheipenthurn</placeName>,<placeName n="placeName10">Siebenaich</placeName>et<placeName n="placeName11">Neumarkt</placeName>certis ad feriendum jaculatorum
                     glandibus et robustis Tyrolensium brachiis non modo victoriae cursum magna
                     hostium internecione fregimus, sed ipsos etiam victores gravi terrore perculsos
-                    paucorum dierum spatio ex tota<region>Tyroli</region>exterminavimus et fugientes ita persecuti
+                    paucorum dierum spatio ex tota<region n="region12">Tyroli</region>exterminavimus et fugientes ita persecuti
                     sumus, ut paucorum quidem, sed fortissimorum militum auxilio suffulti
-                    celeberrimis Kerpi<persName/>o et<persName>Laudonio</persName>Ducibus de bellicosissimo hostium exercitu Deo
+                    celeberrimis Kerpi<persName n="persName13"/>o et<persName n="persName14">Laudonio</persName>Ducibus de bellicosissimo hostium exercitu Deo
                     ubique apertissime favente gloriosissime triumphaverimus.</p>
       </div>
-      <pb n="13"/>
-      <div>
-        <head>Pars II.</head>
-        <p>Atque ista quidem victoria, Auditores Spectatissimi, bellum evasimus, quo nec
+      <pb n="pb7"/>
+      <div n="div8">
+        <head n="head1">Pars II.</head>
+        <p n="p2">Atque ista quidem victoria, Auditores Spectatissimi, bellum evasimus, quo nec
                     furore nec multitudine nec atrocitate hostium immanius nostra unquam vidit nec
                     Majorum nostrorum superior aetas expavit; quo tamen ipso in bello Patriam
                     vitamque omnium nostrum, agros, domus, bona, fortunas, conjuges liberosque ex
                     flamma atque ferro et pene ex ipsa jam pernicie eripuimus, conservavimus,
                     restituimus! Qui quidem victoriae fructus cum per se magni ac salutares in
-                    quolibet populo putari, tum vero in<region>Tyrolensi</region>censeri debent amplissimi, etenim
+                    quolibet populo putari, tum vero in<region n="region1">Tyrolensi</region>censeri debent amplissimi, etenim
                     cum tota isthaec provincia altissimis consita sit montibus et non nisi improbo
                     labore fertilis reddi soleat: nunquam tamen tantum in horrea redigit, quod
                     alendae incolarum multitudini posset sufficere. Quare, si hostium exactionibus,
@@ -282,20 +301,20 @@
                     pristinum revocari statum difficillime potuisset. Quapropter ipsa isthaec
                     victoria, qua servati sumus, amplissimum victoribus victoriae praemium est
                     censendum.</p>
-        <p>Sed enim non tulit hanc rem munificentissimus Patriae Pater<persName>Franciscus</persName>neque pro
+        <p n="p3">Sed enim non tulit hanc rem munificentissimus Patriae Pater<persName n="persName1">Franciscus</persName>neque pro
                     incredibili sua Clementia fas sibi esse putavit eorum subditorum gesta oblivioni
                     relinquere, quorum fidem atque fortitudinem in calamitoso isthoc bello cumprimis
-                    adamasset. Nominis<pb n="14"/>igitur celebritate et donorum magnificentia suam
+                    adamasset. Nominis<pb n="pb2"/>igitur celebritate et donorum magnificentia suam
                     illam, quam ipse apparavit, victoriam in nobis statuit coronare.</p>
-        <p>Nam pervolvite, quaeso, mecum memorabile illud et universae Patriae
+        <p n="p4">Nam pervolvite, quaeso, mecum memorabile illud et universae Patriae
                     honorificentissimum 7. Septembris superiori anno editum decretum. "Singularis",
                     inquit, "devotio et fides, intrepida fortitudo et indefessa perseverantia, qua
                     Principalis nostri Comitatus Tyrolensis incolae, cum hostes nuper impetum
                     minitarentur atque etiam postea irruissent, nullo conditionis ordinisve
-                    discrimine facto arma arripuerunt, exercitus nostros adjuverunt,<region>Tyrolensi</region>Nationi in universae<region>Europae</region>conspectu indelebilem nominis celebritatem
+                    discrimine facto arma arripuerunt, exercitus nostros adjuverunt,<region n="region1">Tyrolensi</region>Nationi in universae<region n="region2">Europae</region>conspectu indelebilem nominis celebritatem
                     comparabunt et in nostro ex grati animi sensu commoto pectore nulla unquam
                     oblivione obliterabuntur." Hisce jam verbis, Auditores spectatissimi, causa
-                    dicta est; vix est, quod addi amplius possit.<region>Europam</region>Caesar testem vestrae
+                    dicta est; vix est, quod addi amplius possit.<region n="region3">Europam</region>Caesar testem vestrae
                     fidei, vestrae fortitudinis, vestrae constantiae appellat; omnium vestrum, nulla
                     hominis conditione ex omnibus quatuor Provinciae ordinibus excepta, sempiternam
                     fore nominis famam seque ipsum gratissimo in vos animo factorum vestrorum
@@ -304,15 +323,15 @@
                     loquaris, tuae propemodum Dignitatis Caesareaeque Majestatis oblitus grati animi
                     sensu te motum fateris in illos, quos data solemni Sacramento fides vel ipsa
                     fortunarum jactura corporumque ad eadem, quae gesta sunt, edenda obstrinxerat?
-                    Nihil officit, respondentem audio: "Statutum est clarae huic Nationi<pb n="15"/>meam de ipsa existimationem publicis contestari argumentis et illustria
+                    Nihil officit, respondentem audio: "Statutum est clarae huic Nationi<pb n="pb4"/>meam de ipsa existimationem publicis contestari argumentis et illustria
                     fortitudinis exempla oblivioni eripere!" Nunc igitur intelligo, O eminens
                     Caesarea Majestate Pater Patriae, paterno regnare amore et benevolentia
                     decrevisti: morigeros nos propterea ut filios laude foves et ad magna allicis,
-                    dignus profecto, quem ego non jam cum<persName>Trajanis</persName>,<persName>Aureliis</persName>et<persName>Titis</persName>(magna
-                    clementiae et munificentiae nomina), sed cum immortali<persName>Theresia</persName>comparem, cujus
-                    quidem cum regna haeres et Nepos moderaris, benefaciendi voluntatem et in<region>Tyrolim</region>praesertim charitatem mirifice sequeris et continuas.</p>
-        <p>Etenim quam illa in partem haereditatis ad nos transmisit, Serenissimam Filiam,
-                    Regiam Archiducem<persName>Elisabetham</persName>veluti benevolentiae in nos Tuae et testem et
+                    dignus profecto, quem ego non jam cum<persName n="persName5">Trajanis</persName>,<persName n="persName6">Aureliis</persName>et<persName n="persName7">Titis</persName>(magna
+                    clementiae et munificentiae nomina), sed cum immortali<persName n="persName8">Theresia</persName>comparem, cujus
+                    quidem cum regna haeres et Nepos moderaris, benefaciendi voluntatem et in<region n="region9">Tyrolim</region>praesertim charitatem mirifice sequeris et continuas.</p>
+        <p n="p5">Etenim quam illa in partem haereditatis ad nos transmisit, Serenissimam Filiam,
+                    Regiam Archiducem<persName n="persName1">Elisabetham</persName>veluti benevolentiae in nos Tuae et testem et
                     moderatricem inter nos residere et mutuae quasi Te inter et nos conjunctionis
                     vinculum esse voluisti. Hinc illa Tua ad Eandem tam suavia, tam plena amoris et
                     confidentiae in nos Tuae verba, quibus nos, quos jam tum bonos appellasti, per
@@ -323,17 +342,17 @@
                     sumus beneficia, in isthoc nupero praesertim formidolosissimo bello et paucis
                     nunc iterum ante diebus solemni pompa comprobatum agnovimus, et quanto Illa nos
                     foveat studio et quanta, non jam dicam liberalitate, sed magnificentia soleat
-                    remunerari. Praeterquam enim quod<pb n="16"/>in ipsos etiam vulneratos, viduas et
+                    remunerari. Praeterquam enim quod<pb n="pb2"/>in ipsos etiam vulneratos, viduas et
                     pupillos caesorum in praeliis Tyrolensium pro innata Regiae Familiae charitate
-                    talem se tamque munificam demonstrarit, ut immortalem<persName>Theresiam</persName>in
+                    talem se tamque munificam demonstrarit, ut immortalem<persName n="persName3">Theresiam</persName>in
                     beneficentissima Filia revixisse crederemus: pretiosissimis insuper praemiis
                     illustrem factorum commemorationem addidit et in publico omnium ordinum conventu
                     Semetipsam ex eo maximopere gloriari profata est, quod tantae hujusce Nationis
                     Status quoque esset Provincialis: quibus ex sermonibus amplissimaque Voluntate
                     facile omnes intelleximus, quam sit universa Regia Familia, cui tam feliciter
-                    obtemperamus, in omnes<region>Tyrolenses</region>favore et benevolentia pronissima.</p>
-        <p>Cujus quidem rei etsi possem innumera proferre testimonia, ea tamen sibi nunc
-                    beneficia, quae ab Optimo Patre Patriae<persName>Francisco</persName>in nos profecta sunt, et
+                    obtemperamus, in omnes<region n="region4">Tyrolenses</region>favore et benevolentia pronissima.</p>
+        <p n="p6">Cujus quidem rei etsi possem innumera proferre testimonia, ea tamen sibi nunc
+                    beneficia, quae ab Optimo Patre Patriae<persName n="persName1">Francisco</persName>in nos profecta sunt, et
                     tempus et orationem deposcunt. Namque laus illa, quam usque adeo splendidis
                     testatus est tabulis, Clementissimo huicce Principi non videbatur sufficere.
                     Majora adjunxit; quae cum recensendo potius quam exornando sum relaturus: eadem,
@@ -344,28 +363,28 @@
                     multitudine et pro munerum amplitudine et vel pro mea etiam in hosce Viros
                     observantia dissererem, dies me hodie et oratio ipsa deficeret. Illuc enim
                     propemodum studium suum omne contulisse videtur amantissimus Patriae Pater, ut
-                    Primos<pb n="17"/>ex Provincia Viros, ut medios, ut, prope dixerim, infimos quosque ex
+                    Primos<pb n="pb2"/>ex Provincia Viros, ut medios, ut, prope dixerim, infimos quosque ex
                     omni ordine et conditione Viros, qui suam in defendenda Patria operam utili
                     quoquo modo locassent, vel primi Ordinis Numismatibus vel honorum titulis vel
                     illustriori nobilitatis gradu vel amplioribus officiis vel cum laudum encomiis
                     futurae, ut ratio tulerit, dignitatis munerisve amplificatione, omnes singulari
                     sua gratia dignissimos proprio, ut dicimus, benevolentissimi animi motu
                     declaraverit.</p>
-        <p>His jam omnibus quae potuisset majora addere? Ea, quae alius fortasse nemo, Solus
-                    potuit et voluit<persName>Franciscus</persName>, eoque numero, pondere et mensura, ut munificentiae
+        <p n="p7">His jam omnibus quae potuisset majora addere? Ea, quae alius fortasse nemo, Solus
+                    potuit et voluit<persName n="persName1">Franciscus</persName>, eoque numero, pondere et mensura, ut munificentiae
                     suae fructus quam latissime pateret. Etenim iisdem omnibus, etsi ultra
                     quinquaginta virorum millia sint, qui promptissima sua voluntate et suis, ut
                     ajunt, corporibus pro Religione, Principe, Patria fortes in pugnam adversus
                     hostes processerant, perenne Optimi Patris monimentum, argenteum Numisma
-                    sacratissima Ipsiusmet effigie cum Inscriptione:<emph>FORTIBUS PATRIAE DEFENSORIBUS</emph>insignitum in futurum et Principis in subditos benevolentiae et subditorum in
+                    sacratissima Ipsiusmet effigie cum Inscriptione:<emph n="emph2">FORTIBUS PATRIAE DEFENSORIBUS</emph>insignitum in futurum et Principis in subditos benevolentiae et subditorum in
                     Principem fidei testimonium munificentissime jussit distribui!</p>
-        <p>Neque vero hic se continuit effusus remunderandi et benefaciendi ardor! Laudi,
+        <p n="p8">Neque vero hic se continuit effusus remunderandi et benefaciendi ardor! Laudi,
                     memoriae etiam lucrum adjunxit; quod quidem pro incredibili hominum, qui id
                     consecuti sunt, multitudine, tum pro ipsius etiam doni magnitudine, in tantis
                     praesertim temporum angustiis, quibus diuturno et gravi bello, eoque in dissitis
                     regionibus gesto, aeraria ipsa prope exhausta putari possent, multo est
-                    munificentissimum. Iaculatoribus enim iisdem omnibus, qui<pb n="18"/>pro conscriptae
-                    militiae<corr>militae</corr>more in certas divisi turmas adversus hostes arma
+                    munificentissimum. Iaculatoribus enim iisdem omnibus, qui<pb n="pb1"/>pro conscriptae
+                    militiae<corr n="corr2">militae</corr>more in certas divisi turmas adversus hostes arma
                     tulere, non solum eadem Numismata, sed per tres etiam, ut appellant, terminos
                     annuum censum liberalissime condonavit. Quia, nequis ullus sine praemio (ita
                     munificus amor omnia acute excogitavit!) quasi subterfugeret, vel illis ipsis,
@@ -376,18 +395,18 @@
                     conscripta aureo argenteove numismate et annexa annua pensione per omnem retro
                     vitam vel inter ipsas etiam civiles occupationes tanquam rerum fortiter gestarum
                     fructu copiosissime frui concesserit.</p>
-        <p>Atque haec profecto omnia, quae ad aliquot centena florenorum millia assurgunt,
+        <p n="p9">Atque haec profecto omnia, quae ad aliquot centena florenorum millia assurgunt,
                     inauditae beneficentiae munera, nisi quisque maxima existimaverit, rerum ille
                     omnium ignarus sit oportet! Sed est aliud, quod dicam, multo illustrissimum et
                     ad humanissimi Caesaris gloriam et ad salutem plurimorum multo
                     magnificentissimum, in quo quidem ipso declarando quam vellem ego, ut mea nunc
                     exultet oratio, ut omnes, quotquot universus terrarum orbis longe lateque
                     diffusus incolas nutrit, intelligant, quam humano, quam clementi, quam
-                    Christiano<region>Tyrolis</region>pareat Principi! Etenim quod in tanto pugnantium ardore fieri
+                    Christiano<region n="region1">Tyrolis</region>pareat Principi! Etenim quod in tanto pugnantium ardore fieri
                     omnino debuit, vulnerati ex provincialibus quam plurimi, caesi itidem quam
                     plurimi, quorum nunc viduis pupillisque aut senio confectis parentibus, qui
                     filiorum sua in canitie subsidium praestolabantur, postquam Martis furor
-                    maritos, patres, adultosve filios lucrando<pb n="19"/>pani, alendae familiae,
+                    maritos, patres, adultosve filios lucrando<pb n="pb2"/>pani, alendae familiae,
                     educandae soboli abstulit, gravi egestate pressis, quod reliquum vitae inter
                     mendicantium turbas in luctu et squallore, non sine publicae etiam rei
                     detrimento fuisset peragendum; nisi deplorandam istorum fortem, etsi pulcherrima
@@ -402,29 +421,29 @@
                     bona, fortunae, vita ipsiusque Patriae salus constitisset, eorundem quoque
                     familias decreta annua, cujusque indigentiae accommodatissima pensione, quae jam
                     nunc ad plura quotannis florenorum millia ascendit, ex miseriarum faucibus sibi
-                    esse eripiendas. O Pietatem! O Munificentiam! O Humanitatem uno<persName>Francisco</persName>Patre
+                    esse eripiendas. O Pietatem! O Munificentiam! O Humanitatem uno<persName n="persName3">Francisco</persName>Patre
                     Patriae dignissimam! Excussae istae de miserorum frontibus nubes, detersae ex
                     oculis viduarum lachrymae, depulsus a pupillorum vultu pallor, exemtus membris
                     atque animo vulneratorum torpor, novi isti jam iterum homines hanc Optimi Patris
                     gloriam in aevum propagabunt sempiternum!</p>
-        <p>Quae cum omnia ita sint, Auditores Spectatissimi, ecquis nostrum non apertissime
-                    perspicit Augustissimum Caesarem<persName>Franciscum</persName>hic ipsi Illi<pb n="20"/>Uni prae reliquis
+        <p n="p10">Quae cum omnia ita sint, Auditores Spectatissimi, ecquis nostrum non apertissime
+                    perspicit Augustissimum Caesarem<persName n="persName1">Franciscum</persName>hic ipsi Illi<pb n="pb2"/>Uni prae reliquis
                     propria in suos pietate, qua nos omnes mirifice complectitur, pulcherrimo ad
                     posterorum memoriam exemplo, vivos inter et ipsos etiam mortuos eandem illam
                     victoriam, quam sapientissime et fortissime apparavit, amplissimis omnino
                     praemiis munificentissime etiam coronasse.</p>
-        <p>Fruere igitur, Augustissime Caesar, amantissime Patriae Pater, fruere, inquam,
+        <p n="p11">Fruere igitur, Augustissime Caesar, amantissime Patriae Pater, fruere, inquam,
                     immortali isthac tua gloria, quam tot jam ante titulis, nunc vero paterna Tua in
                     Tyrolenses Tuos munificentia mirum in modum amplificasti! Atque utinam ego
                     omnium in Te studia, animos et conceptam de te tam inusitata beneficentia
                     laetitiam ob oculos ponere ac verbis aliquo modo possem exprimere! Enimvero
                     videres uberrimum una omnium animis exundans gaudium; videres omnium vota tam
-                    sincera quam ardentia de incolum<gap/>diuturnitate sollicitudines; videres
+                    sincera quam ardentia de incolum<gap n="gap1"/>diuturnitate sollicitudines; videres
                     accensa illa et anxia grati in Te animi significandi et probandi desideria;
                     videres denique tot oculos, tot robusta virorum brachia ad gloriam Tuam
                     quodemumcunque impendio amplificandam! At enim tantis Tuorum in Te affectibus
                     declarandis Orationis hujus tenuitas non sufficit. Quod igitur unum et reliquum,
-                    Caesareo Tuo advoluti Solio omnium ordinum nomine pro incredibili isthac Tua in<region>Tyrolim</region>Voluntate et munificentia gratias Tibi agimus immortales. Cumque
+                    Caesareo Tuo advoluti Solio omnium ordinum nomine pro incredibili isthac Tua in<region n="region2">Tyrolim</region>Voluntate et munificentia gratias Tibi agimus immortales. Cumque
                     referendis pares non simus, a praedicandis quidem et habendis nunquam
                     desistemus! Quidquid in nobis erit studii, laboris, ingenii, quidquid fide,
                     virtute et constantia possumus, imo fortunas, ipsam vitam et sanguinem Tibi

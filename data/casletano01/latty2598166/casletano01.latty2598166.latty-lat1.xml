@@ -35,6 +35,22 @@
         <bibl>Trento, Biblioteca del Seminario teologico, 3595237  Trentino Zset :ggYm 3.38.17</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1570" period="15xx_3_third">1570</date>
@@ -56,175 +72,175 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:casletano01.latty2598166.latty-lat1:">
-    <body>
-      <div>
-        <head>Carmen salutatorium ad omnes coelestes Hierusalem cives,<expan resp="viaf6913774">et</expan>in memoriam diei ipsis dedicati, conscriptum. Andrea Casletano, Authore.<placeName>Brixinae,</placeName>apud Donatum Faetium.<date>Anno, M.D.LXX.</date>
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">Carmen salutatorium ad omnes coelestes Hierusalem cives,<expan n="expan1" resp="viaf6913774">et</expan>in memoriam diei ipsis dedicati, conscriptum. Andrea Casletano, Authore.<placeName n="placeName2">Brixinae,</placeName>apud Donatum Faetium.<date n="date3">Anno, M.D.LXX.</date>
         </head>
       </div>
-      <div>
-        <pb/>
-        <l>Ludovico Madrutio</l>
-        <l>S. R. E. Cardinali amplissimo.</l>
-        <l>Cardineo uenerande gradu, quo stellifer axis</l>
-        <l>Vertitur,<expan resp="viaf6913774">et</expan>gemini machina vasta poli,</l>
-        <l>Consule quo gaudet coelestis clauiger aulae,</l>
-        <l>Claudere sydereas<expan resp="viaf6913774">et</expan>reserare fores.</l>
-        <l>Accipe Diuorum laudes, passumque laborem,</l>
-        <l>Quo coeli aeternas promeruere domos.</l>
-        <l>Illorum dum gesta leges partosque tryumphos,</l>
-        <l>Accedet laudi pars quoque magna tuae:</l>
-        <l>Nam pietatis uitae, studio quos iungit eodem,</l>
-        <l>Coniungunt meritis,<expan resp="viaf6913774">et</expan>pia fata suis.</l>
+      <div n="div2">
+        <pb n="pb1"/>
+        <l n="l2">Ludovico Madrutio</l>
+        <l n="l3">S. R. E. Cardinali amplissimo.</l>
+        <l n="l4">Cardineo uenerande gradu, quo stellifer axis</l>
+        <l n="l5">Vertitur,<expan n="expan1" resp="viaf6913774">et</expan>gemini machina vasta poli,</l>
+        <l n="l6">Consule quo gaudet coelestis clauiger aulae,</l>
+        <l n="l7">Claudere sydereas<expan n="expan1" resp="viaf6913774">et</expan>reserare fores.</l>
+        <l n="l8">Accipe Diuorum laudes, passumque laborem,</l>
+        <l n="l9">Quo coeli aeternas promeruere domos.</l>
+        <l n="l10">Illorum dum gesta leges partosque tryumphos,</l>
+        <l n="l11">Accedet laudi pars quoque magna tuae:</l>
+        <l n="l12">Nam pietatis uitae, studio quos iungit eodem,</l>
+        <l n="l13">Coniungunt meritis,<expan n="expan1" resp="viaf6913774">et</expan>pia fata suis.</l>
       </div>
-      <pb/>
-      <div>
-        <head>Carmen salutatorium ad omnes coelestes Hierusalem cives<expan resp="viaf6913774">et</expan>in memoriam diei ipsis dedicati, conscriptum. Andrea Casletano, Authore.</head>
-        <l>Salve festa dies omni uenerabilis aeuo,</l>
-        <l>Annua deuoto renouas quae gaudia mundo,</l>
-        <l>Sanctorum coeli procerum, gentisque beatae</l>
-        <l>Quae colit aeternas sedes stellantis Olympi.</l>
-        <l n="5">Vos etiam pariter coetus saluete piorum</l>
-        <l>Foelices animae, quibus est in secula cuncta,</l>
-        <l>Parta salus, nulloque aeuo peritura uoluptas.</l>
-        <l>Tuque adeò ante omnes salue Sanctißima Virgo,</l>
-        <l>Virgo atque alma parens, quae terras, astra, fretumque,</l>
-        <l n="10">Saluifico recreas partu: tibi militat omnis</l>
-        <l>Coelicolum chorus,<expan resp="viaf6913774">et</expan>condigno assurgit honore.</l>
-        <l>Te castae matres, nuptae, innuptaeque puellae</l>
-        <l>Concelebrant, tu stella maris, portusque salutis,</l>
-        <l>Tu spes fida hominum, tu uitae porta perennis.</l>
-        <l n="15">Angelicae gentis salue ueneranda potestas,</l>
-        <l>Innumeraeque acies,<expan resp="viaf6913774">et</expan>quaecunque aethere in alto</l>
-        <l>Militia est: uos cum furiis immanibus actus</l>
-        <l>Lucifer, Arctoum pertenderet impius axem</l>
-        <l>Scandere,<expan resp="viaf6913774">et</expan>in septem solium transferre Triones,</l>
-        <l n="20">Fida manus Domino mansistis,<expan resp="viaf6913774">et</expan>aethere toto</l>
-        <l>Cum sociis pulsum coegistis ad ultima terrae</l>
-        <l>Cedere,<expan resp="viaf6913774">et</expan>inferni tristes habitare lacunas.</l>
-        <l>Vos rerum ipse parens lectos ad iußa ministros</l>
-        <l>Semper habet, uos illi aeterno aßistitis aeuo:</l>
-        <l n="25">Vos genus humanum magno dignamini amore,</l>
-        <l>Illius curamque agitis, uos nostra Tonanti,</l>
-        <l>Offertis uota atque preces: uos omnia contra</l>
-        <l>Monstra Stygis, saeuosque Erebi defenditis hostes.</l>
-        <l>Saluete Patriarcharum antiquißima proles,</l>
-        <l n="30">Quae nullo compulsa metu, non legibus ullis,</l>
-        <l>Inter oues patrio tantum te more tenendo,</l>
-        <l>Iustitiae obseruans ultrò, rectique, Deique,</l>
-        <l>Duxisti innocuos, uitae sine crimine soles.</l>
-        <l>Tuque Prophetarum salue uenerabilis ordo,</l>
-        <l n="35">Et pleni aethereo Diuini flamine uates.</l>
-        <l>Vos quoque iustitiam,<expan resp="viaf6913774">et</expan>magnas uentura per urbes</l>
-        <l>Regibus intrepidè, populisque potentibus olim</l>
-        <l>Dixistis; uos cum primi ob commissa Parentis</l>
-        <l>Atria clausa forent nobis foelicia coeli,</l>
-        <l n="40">Nullaque maerentes afflaret gratia terras.</l>
-        <l>Venturum melius seclum cecinistis,<expan resp="viaf6913774">et</expan>annos,</l>
-        <l>Cum pater aeternus, ueteris tandem immemor irae,</l>
-        <l>Mitteret ex alto natum, qui carcere caeco</l>
-        <l>Damnatum mortale genus, laethoque perenni,</l>
-        <l n="45">Morte sua eripiens reserato inferret Olympo.</l>
-        <l>Concilii superum salue uenerande Senatus,</l>
-        <l>Bis seni Haeroes, quos ordine legit ab omni</l>
-        <l>Ipse Deus, uitaeque habuit testesque laborum.</l>
-        <l>Vos uerum Christi cultum trans ultima claustra</l>
-        <l n="50">Oceani, trans Auroram, Boreamque niualem,</l>
-        <l>Sparsistis: uos sacro impletis dogmate mundum,</l>
-        <l>Et uasto quicquid complectitur aequore Neraeus.</l>
-        <l>Vos quando suprema dies illuxerit orbi,</l>
-        <l>Aduenietque Deus iudex,<expan resp="viaf6913774">et</expan>Martia rauco</l>
-        <l n="55">Mugitu coelum quatiens tuba, cuncta repentè</l>
-        <l>Humana eliciet patefactis ossa sepulchris,</l>
-        <l>Tunc celsas suprà nubes residebitis ipsi</l>
-        <l>Sublimes; omnes populi tunc uestra subibunt</l>
-        <l>Arbitria,<expan resp="viaf6913774">et</expan>totum magni censebitis orbem.</l>
-        <l n="60">Matryrio foelix salue preclara iuuentus,</l>
-        <l>Et quicunque necem pro Christi nomini paßi.</l>
-        <l>Vos caput innocuum,<expan resp="viaf6913774">et</expan>uitam nil tale merentem,</l>
-        <l>Vltrò obiecistis morti uirtutis amore.</l>
-        <l>Non uos mille domant caedes, non dira furentum</l>
-        <l n="65">Verbera, non regum uultus: uos omnia forti</l>
-        <l>Pectore uicistis; uos per discrimina mille,</l>
-        <l>Vos per mille neces, gladios, flammasque rotasque,</l>
-        <l>Suplicii,<expan resp="viaf6913774">et</expan>quicquid Pluton Phlegetonte sub imo</l>
-        <l>Impius exercet, coeli penetratis ad arces.</l>
-        <l n="70">Claustrorum saluete Patres, Monachique uerendi,</l>
-        <l>Et quicunque piè uastas coluistis Heremos.</l>
-        <l>Vos illustre genus, clarosque è regibus ortus,</l>
-        <l>Vos agros, aedes, natos, dulcesque parentes</l>
-        <l>Vltrò linquentes ad inhospita regna ferarum,</l>
-        <l n="75">Migrastis, capti regni coelestis amore.</l>
-        <l>Non illic Tyrio saturatae murice uestes,</l>
-        <l>Non ampla è Phario surgentia marmore saxa,</l>
-        <l>Non regum luxus,<expan resp="viaf6913774">et</expan>opimae copia mensae</l>
-        <l>Cognita erant uobis: at parua sorte beatis</l>
-        <l n="80">Arcebant pluuias calamo contecta palustri</l>
-        <l>Antra,<expan resp="viaf6913774">et</expan>nocturnum praebebant saxa cubile,</l>
-        <l>Pellebantque famem, collectae in montibus herbae.</l>
-        <l>Saluete egregium coeli decus,<expan resp="viaf6913774">et</expan>pia mundi</l>
-        <l>Lumina, doctrina clari, uitaque probati:</l>
-        <l n="85">Scripturae uobis sacrae cognoscere fas est</l>
-        <l>Magna mynisteria,<expan resp="viaf6913774">et</expan>nostrae argumenta salutis.</l>
-        <l>Vobis concedunt Musae sua munera fandi</l>
-        <l>Ambrosiaeque fluunt, facundo è pectore rores.</l>
-        <l>Vos contra Haereseon pestes, contraque luporum,</l>
-        <l n="90">Effrenem rabiem Christi tutamini ouile.</l>
-        <l>Vos eius populis quae ducat semita coelo</l>
-        <l>Virtutisque uiam,<expan resp="viaf6913774">et</expan>magni praecepta Tonantis</l>
-        <l>Panditis,<expan resp="viaf6913774">et</expan>uero formatis pectora cultu.</l>
-        <l>Virginei saluete chori, castaeque puellae.</l>
-        <l n="95">Vos dulces regum amplexus, thalamosque iugales</l>
-        <l>Spreuistis: uos mortales exosae Hymineos</l>
-        <l>Coelesti sponso, formamque animumque sacrastis.</l>
-        <l>Nunc agnum choreas interque interque canentum</l>
-        <l>Milia, quo se cunque refert commitamini euntem.</l>
-        <l n="100">Illi uirginea canitis dum cantica uoce,</l>
-        <l>(Cantica quae rapidas ualeant mulcere procellas)</l>
-        <l>Aptatis capiti uiolas,<expan resp="viaf6913774">et</expan>florida serta,</l>
-        <l>Quae non acris Hyems mordet, non Syrius urit,</l>
-        <l>Ast ullo sine fine manent, sine fine uirescunt.</l>
-        <l n="105">Saluete aeternum pariter, saluete piorum,</l>
-        <l>Innumeri populi, quos prima ab origine mundi,</l>
-        <l>Elegit Deus,<expan resp="viaf6913774">et</expan>coeli super astra uocauit.</l>
-        <l>Non mihi si centum donet facundia linguas,</l>
-        <l>Non si omnes Musae faueant, cunctosque recludant</l>
-        <l n="110">Parnaßi fontes,<expan resp="viaf6913774">et</expan>largae flumina uocis,</l>
-        <l>Vel minimam ualeam uestram percurrere laudem,</l>
-        <l>Vsque adeò humanam fugiunt ea gaudia mentem,</l>
-        <l>Maxima quae Dominus uobis sine finibus aeui</l>
-        <l>Conceßit. Nunc quod superest dum uestra quotannis</l>
-        <l n="115">Orgia,<expan resp="viaf6913774">et</expan>aeternos memores renouamus honores:</l>
-        <l>Respicite ò tandem terras, miserasque querelas,</l>
-        <l>Vt iam uera fides pietasque refrixerit omnis:</l>
-        <l>Vndique relligio uariè concussa laboret:</l>
-        <l>Vt ferus,<expan resp="viaf6913774">et</expan>nostro nunquam satiabilis hostis</l>
-        <l n="120">Sanguine, Turcarun spirans immanè Tyrannus</l>
-        <l>Ingruat,<expan resp="viaf6913774">et</expan>captis intentet uincula collis.</l>
-        <l>Illius aspectus tum nuper Pannonis ora,</l>
-        <l>(Dum sibi fatali subiecit Marte Segettum)</l>
-        <l>Horruit,<expan resp="viaf6913774">et</expan>trepidis uagus Ister substitit undis.</l>
-        <l n="125">Nec satis est miseros altrici pellere terra,</l>
-        <l>Iam fera bella mari feruent, furit aequore toto</l>
-        <l>Mauors,<expan resp="viaf6913774">et</expan>tectae latitant sub claßibus undae.</l>
-        <l>Non tamen ille diu spoliis gauderet opimis</l>
-        <l>Christiadum, nec enim sic illis uiuida uirtus</l>
-        <l n="130">Languet: sunt ualida,<expan resp="viaf6913774">et</expan>rigidum spirantia Martem</l>
-        <l>Pectora, quae ualeant sceleratam perdere Lunam,</l>
-        <l>Sanctaque trans Tanaim, rapidi trans ostia Tygris</l>
-        <l>Figere signa Crucis: uerum discordibus armis</l>
-        <l>Inter se dum bella fouent, dumque omnia turbat</l>
-        <l n="135">Vulneribus faecunda suis, semperque renascens</l>
-        <l>Haereseon pestis, crescit nostra ille ruina.</l>
-        <l>Sic ueneranda fides cui seruiit Hesper,<expan resp="viaf6913774">et</expan>Ortus</l>
-        <l>Angusto contracta gyro, uix oßibus haeret.</l>
-        <l>Vos quorum nunc festa pio renouamus honore,</l>
-        <l n="140">Syderei proceres populis succurrite uestris,</l>
-        <l>Iratumque piis precibus placate Tonantem,</l>
-        <l>Aspiciat tandem pacato numine terras</l>
-        <l>Sit modus irarum, meritae sit denique paenae.</l>
-        <l>Ipsa repubescat pietas: Discordia longè</l>
-        <l n="145">Exulet:<expan resp="viaf6913774">et</expan>longae succedant saecula pacis.</l>
-        <l>Finis.</l>
+      <pb n="pb3"/>
+      <div n="div4">
+        <head n="head1">Carmen salutatorium ad omnes coelestes Hierusalem cives<expan n="expan1" resp="viaf6913774">et</expan>in memoriam diei ipsis dedicati, conscriptum. Andrea Casletano, Authore.</head>
+        <l n="l2">Salve festa dies omni uenerabilis aeuo,</l>
+        <l n="l3">Annua deuoto renouas quae gaudia mundo,</l>
+        <l n="l4">Sanctorum coeli procerum, gentisque beatae</l>
+        <l n="l5">Quae colit aeternas sedes stellantis Olympi.</l>
+        <l n="l6">Vos etiam pariter coetus saluete piorum</l>
+        <l n="l7">Foelices animae, quibus est in secula cuncta,</l>
+        <l n="l8">Parta salus, nulloque aeuo peritura uoluptas.</l>
+        <l n="l9">Tuque adeò ante omnes salue Sanctißima Virgo,</l>
+        <l n="l10">Virgo atque alma parens, quae terras, astra, fretumque,</l>
+        <l n="l11">Saluifico recreas partu: tibi militat omnis</l>
+        <l n="l12">Coelicolum chorus,<expan n="expan1" resp="viaf6913774">et</expan>condigno assurgit honore.</l>
+        <l n="l13">Te castae matres, nuptae, innuptaeque puellae</l>
+        <l n="l14">Concelebrant, tu stella maris, portusque salutis,</l>
+        <l n="l15">Tu spes fida hominum, tu uitae porta perennis.</l>
+        <l n="l16">Angelicae gentis salue ueneranda potestas,</l>
+        <l n="l17">Innumeraeque acies,<expan n="expan1" resp="viaf6913774">et</expan>quaecunque aethere in alto</l>
+        <l n="l18">Militia est: uos cum furiis immanibus actus</l>
+        <l n="l19">Lucifer, Arctoum pertenderet impius axem</l>
+        <l n="l20">Scandere,<expan n="expan1" resp="viaf6913774">et</expan>in septem solium transferre Triones,</l>
+        <l n="l21">Fida manus Domino mansistis,<expan n="expan1" resp="viaf6913774">et</expan>aethere toto</l>
+        <l n="l22">Cum sociis pulsum coegistis ad ultima terrae</l>
+        <l n="l23">Cedere,<expan n="expan1" resp="viaf6913774">et</expan>inferni tristes habitare lacunas.</l>
+        <l n="l24">Vos rerum ipse parens lectos ad iußa ministros</l>
+        <l n="l25">Semper habet, uos illi aeterno aßistitis aeuo:</l>
+        <l n="l26">Vos genus humanum magno dignamini amore,</l>
+        <l n="l27">Illius curamque agitis, uos nostra Tonanti,</l>
+        <l n="l28">Offertis uota atque preces: uos omnia contra</l>
+        <l n="l29">Monstra Stygis, saeuosque Erebi defenditis hostes.</l>
+        <l n="l30">Saluete Patriarcharum antiquißima proles,</l>
+        <l n="l31">Quae nullo compulsa metu, non legibus ullis,</l>
+        <l n="l32">Inter oues patrio tantum te more tenendo,</l>
+        <l n="l33">Iustitiae obseruans ultrò, rectique, Deique,</l>
+        <l n="l34">Duxisti innocuos, uitae sine crimine soles.</l>
+        <l n="l35">Tuque Prophetarum salue uenerabilis ordo,</l>
+        <l n="l36">Et pleni aethereo Diuini flamine uates.</l>
+        <l n="l37">Vos quoque iustitiam,<expan n="expan1" resp="viaf6913774">et</expan>magnas uentura per urbes</l>
+        <l n="l38">Regibus intrepidè, populisque potentibus olim</l>
+        <l n="l39">Dixistis; uos cum primi ob commissa Parentis</l>
+        <l n="l40">Atria clausa forent nobis foelicia coeli,</l>
+        <l n="l41">Nullaque maerentes afflaret gratia terras.</l>
+        <l n="l42">Venturum melius seclum cecinistis,<expan n="expan1" resp="viaf6913774">et</expan>annos,</l>
+        <l n="l43">Cum pater aeternus, ueteris tandem immemor irae,</l>
+        <l n="l44">Mitteret ex alto natum, qui carcere caeco</l>
+        <l n="l45">Damnatum mortale genus, laethoque perenni,</l>
+        <l n="l46">Morte sua eripiens reserato inferret Olympo.</l>
+        <l n="l47">Concilii superum salue uenerande Senatus,</l>
+        <l n="l48">Bis seni Haeroes, quos ordine legit ab omni</l>
+        <l n="l49">Ipse Deus, uitaeque habuit testesque laborum.</l>
+        <l n="l50">Vos uerum Christi cultum trans ultima claustra</l>
+        <l n="l51">Oceani, trans Auroram, Boreamque niualem,</l>
+        <l n="l52">Sparsistis: uos sacro impletis dogmate mundum,</l>
+        <l n="l53">Et uasto quicquid complectitur aequore Neraeus.</l>
+        <l n="l54">Vos quando suprema dies illuxerit orbi,</l>
+        <l n="l55">Aduenietque Deus iudex,<expan n="expan1" resp="viaf6913774">et</expan>Martia rauco</l>
+        <l n="l56">Mugitu coelum quatiens tuba, cuncta repentè</l>
+        <l n="l57">Humana eliciet patefactis ossa sepulchris,</l>
+        <l n="l58">Tunc celsas suprà nubes residebitis ipsi</l>
+        <l n="l59">Sublimes; omnes populi tunc uestra subibunt</l>
+        <l n="l60">Arbitria,<expan n="expan1" resp="viaf6913774">et</expan>totum magni censebitis orbem.</l>
+        <l n="l61">Matryrio foelix salue preclara iuuentus,</l>
+        <l n="l62">Et quicunque necem pro Christi nomini paßi.</l>
+        <l n="l63">Vos caput innocuum,<expan n="expan1" resp="viaf6913774">et</expan>uitam nil tale merentem,</l>
+        <l n="l64">Vltrò obiecistis morti uirtutis amore.</l>
+        <l n="l65">Non uos mille domant caedes, non dira furentum</l>
+        <l n="l66">Verbera, non regum uultus: uos omnia forti</l>
+        <l n="l67">Pectore uicistis; uos per discrimina mille,</l>
+        <l n="l68">Vos per mille neces, gladios, flammasque rotasque,</l>
+        <l n="l69">Suplicii,<expan n="expan1" resp="viaf6913774">et</expan>quicquid Pluton Phlegetonte sub imo</l>
+        <l n="l70">Impius exercet, coeli penetratis ad arces.</l>
+        <l n="l71">Claustrorum saluete Patres, Monachique uerendi,</l>
+        <l n="l72">Et quicunque piè uastas coluistis Heremos.</l>
+        <l n="l73">Vos illustre genus, clarosque è regibus ortus,</l>
+        <l n="l74">Vos agros, aedes, natos, dulcesque parentes</l>
+        <l n="l75">Vltrò linquentes ad inhospita regna ferarum,</l>
+        <l n="l76">Migrastis, capti regni coelestis amore.</l>
+        <l n="l77">Non illic Tyrio saturatae murice uestes,</l>
+        <l n="l78">Non ampla è Phario surgentia marmore saxa,</l>
+        <l n="l79">Non regum luxus,<expan n="expan1" resp="viaf6913774">et</expan>opimae copia mensae</l>
+        <l n="l80">Cognita erant uobis: at parua sorte beatis</l>
+        <l n="l81">Arcebant pluuias calamo contecta palustri</l>
+        <l n="l82">Antra,<expan n="expan1" resp="viaf6913774">et</expan>nocturnum praebebant saxa cubile,</l>
+        <l n="l83">Pellebantque famem, collectae in montibus herbae.</l>
+        <l n="l84">Saluete egregium coeli decus,<expan n="expan1" resp="viaf6913774">et</expan>pia mundi</l>
+        <l n="l85">Lumina, doctrina clari, uitaque probati:</l>
+        <l n="l86">Scripturae uobis sacrae cognoscere fas est</l>
+        <l n="l87">Magna mynisteria,<expan n="expan1" resp="viaf6913774">et</expan>nostrae argumenta salutis.</l>
+        <l n="l88">Vobis concedunt Musae sua munera fandi</l>
+        <l n="l89">Ambrosiaeque fluunt, facundo è pectore rores.</l>
+        <l n="l90">Vos contra Haereseon pestes, contraque luporum,</l>
+        <l n="l91">Effrenem rabiem Christi tutamini ouile.</l>
+        <l n="l92">Vos eius populis quae ducat semita coelo</l>
+        <l n="l93">Virtutisque uiam,<expan n="expan1" resp="viaf6913774">et</expan>magni praecepta Tonantis</l>
+        <l n="l94">Panditis,<expan n="expan1" resp="viaf6913774">et</expan>uero formatis pectora cultu.</l>
+        <l n="l95">Virginei saluete chori, castaeque puellae.</l>
+        <l n="l96">Vos dulces regum amplexus, thalamosque iugales</l>
+        <l n="l97">Spreuistis: uos mortales exosae Hymineos</l>
+        <l n="l98">Coelesti sponso, formamque animumque sacrastis.</l>
+        <l n="l99">Nunc agnum choreas interque interque canentum</l>
+        <l n="l100">Milia, quo se cunque refert commitamini euntem.</l>
+        <l n="l101">Illi uirginea canitis dum cantica uoce,</l>
+        <l n="l102">(Cantica quae rapidas ualeant mulcere procellas)</l>
+        <l n="l103">Aptatis capiti uiolas,<expan n="expan1" resp="viaf6913774">et</expan>florida serta,</l>
+        <l n="l104">Quae non acris Hyems mordet, non Syrius urit,</l>
+        <l n="l105">Ast ullo sine fine manent, sine fine uirescunt.</l>
+        <l n="l106">Saluete aeternum pariter, saluete piorum,</l>
+        <l n="l107">Innumeri populi, quos prima ab origine mundi,</l>
+        <l n="l108">Elegit Deus,<expan n="expan1" resp="viaf6913774">et</expan>coeli super astra uocauit.</l>
+        <l n="l109">Non mihi si centum donet facundia linguas,</l>
+        <l n="l110">Non si omnes Musae faueant, cunctosque recludant</l>
+        <l n="l111">Parnaßi fontes,<expan n="expan1" resp="viaf6913774">et</expan>largae flumina uocis,</l>
+        <l n="l112">Vel minimam ualeam uestram percurrere laudem,</l>
+        <l n="l113">Vsque adeò humanam fugiunt ea gaudia mentem,</l>
+        <l n="l114">Maxima quae Dominus uobis sine finibus aeui</l>
+        <l n="l115">Conceßit. Nunc quod superest dum uestra quotannis</l>
+        <l n="l116">Orgia,<expan n="expan1" resp="viaf6913774">et</expan>aeternos memores renouamus honores:</l>
+        <l n="l117">Respicite ò tandem terras, miserasque querelas,</l>
+        <l n="l118">Vt iam uera fides pietasque refrixerit omnis:</l>
+        <l n="l119">Vndique relligio uariè concussa laboret:</l>
+        <l n="l120">Vt ferus,<expan n="expan1" resp="viaf6913774">et</expan>nostro nunquam satiabilis hostis</l>
+        <l n="l121">Sanguine, Turcarun spirans immanè Tyrannus</l>
+        <l n="l122">Ingruat,<expan n="expan1" resp="viaf6913774">et</expan>captis intentet uincula collis.</l>
+        <l n="l123">Illius aspectus tum nuper Pannonis ora,</l>
+        <l n="l124">(Dum sibi fatali subiecit Marte Segettum)</l>
+        <l n="l125">Horruit,<expan n="expan1" resp="viaf6913774">et</expan>trepidis uagus Ister substitit undis.</l>
+        <l n="l126">Nec satis est miseros altrici pellere terra,</l>
+        <l n="l127">Iam fera bella mari feruent, furit aequore toto</l>
+        <l n="l128">Mauors,<expan n="expan1" resp="viaf6913774">et</expan>tectae latitant sub claßibus undae.</l>
+        <l n="l129">Non tamen ille diu spoliis gauderet opimis</l>
+        <l n="l130">Christiadum, nec enim sic illis uiuida uirtus</l>
+        <l n="l131">Languet: sunt ualida,<expan n="expan1" resp="viaf6913774">et</expan>rigidum spirantia Martem</l>
+        <l n="l132">Pectora, quae ualeant sceleratam perdere Lunam,</l>
+        <l n="l133">Sanctaque trans Tanaim, rapidi trans ostia Tygris</l>
+        <l n="l134">Figere signa Crucis: uerum discordibus armis</l>
+        <l n="l135">Inter se dum bella fouent, dumque omnia turbat</l>
+        <l n="l136">Vulneribus faecunda suis, semperque renascens</l>
+        <l n="l137">Haereseon pestis, crescit nostra ille ruina.</l>
+        <l n="l138">Sic ueneranda fides cui seruiit Hesper,<expan n="expan1" resp="viaf6913774">et</expan>Ortus</l>
+        <l n="l139">Angusto contracta gyro, uix oßibus haeret.</l>
+        <l n="l140">Vos quorum nunc festa pio renouamus honore,</l>
+        <l n="l141">Syderei proceres populis succurrite uestris,</l>
+        <l n="l142">Iratumque piis precibus placate Tonantem,</l>
+        <l n="l143">Aspiciat tandem pacato numine terras</l>
+        <l n="l144">Sit modus irarum, meritae sit denique paenae.</l>
+        <l n="l145">Ipsa repubescat pietas: Discordia longè</l>
+        <l n="l146">Exulet:<expan n="expan1" resp="viaf6913774">et</expan>longae succedant saecula pacis.</l>
+        <l n="l147">Finis.</l>
       </div>
     </body>
   </text>

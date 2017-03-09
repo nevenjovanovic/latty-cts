@@ -34,6 +34,19 @@
         <bibl>TLMF, Dip. 625/1</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <textClass>
         <keywords scheme="time">
@@ -52,25 +65,25 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:beltrami01.latty2594146.latty-lat1:">
-    <body>
-      <p>Elogium<persName>Constantini Lorenzii</persName>lectum in conventu sodalium litteratorum lentorum<date>pridie
+    <body n="body1">
+      <p n="p1">Elogium<persName n="persName1">Constantini Lorenzii</persName>lectum in conventu sodalium litteratorum lentorum<date n="date2">pridie
                 calendas februaris anno christiano 1822</date>.</p>
-      <p>Accedit decretum sodalitatis litterariae de eodem<persName>Lorenzio</persName>.</p>
-      <pb xml:id="F2"/>
-      <p>Sapiens in populo haereditabit honorem, et nomen illius erit vivens in
+      <p n="p2">Accedit decretum sodalitatis litterariae de eodem<persName n="persName1">Lorenzio</persName>.</p>
+      <pb n="pb3" xml:id="F2"/>
+      <p n="p4">Sapiens in populo haereditabit honorem, et nomen illius erit vivens in
                 aeternum. Ecclesiasticus, XXVIII 29.</p>
-      <pb xml:id="F3"/>
-      <p>
-        <persName>Constantinus Ioannis Baptista F. Lorenzius</persName>domo Roboreto sacerdos litterariae
+      <pb n="pb5" xml:id="F3"/>
+      <p n="p6">
+        <persName n="persName1">Constantinus Ioannis Baptista F. Lorenzius</persName>domo Roboreto sacerdos litterariae
                 sodalitas lentorum socius.</p>
-      <p>Quamquam humili loco et genere ortus in agro roboretano bonis tamen litteris
+      <p n="p7">Quamquam humili loco et genere ortus in agro roboretano bonis tamen litteris
                 aptissimus iam inde a puero visus est cum ab avunculo in cognoscendis verborum notis
                 et arte legendi edoceretur miram ex ea re puer capiebat voluptatem in gymnasii
                 nostri scholis summa semper fuit annis quinque diligentia ad quas domo duobus
                 emensis milliariis quotidie ventitabat cum re familiari uteretur non satis commoda
                 neque heic manens studiorum causa haberet quomodo sibi victum compararet quod sibi
                 temporis de studio supererat hoc tibialibus compingendis et ovibus globulis ad
-                certas preces<pb xml:id="F4"/>numerandas utimur catenula vinciendis insumebat eique lucrum
+                certas preces<pb n="pb1" xml:id="F4"/>numerandas utimur catenula vinciendis insumebat eique lucrum
                 dabat qui quotidianum eidem victum praebebat. Omnino labor omnia vincit. Tantus
                 autem labor tantaque industria atque sollertia non potuit quin optimos maecenates
                 habuerit qui studiosum iuvenem foverent complecterentque. Firmo ipsorum praesidio
@@ -80,35 +93,35 @@
                 patria sine fastu ad philosophicas ac theologicas disciplinas ita incubuit ut
                 optimus evaserit sacrorum administer et brevi sacerdotis munere praesertim in
                 cathechesibus egregie fungeretur.</p>
-      <pb xml:id="F5"/>
-      <p>Ad humaniores vero litteras animum praecipue intendit quippe qui probe
+      <pb n="pb8" xml:id="F5"/>
+      <p n="p9">Ad humaniores vero litteras animum praecipue intendit quippe qui probe
                 intelligeret parvi admodum momenti immo gravem molestumque fore virum scientia vel
                 maxima praeditum qui quod animo habet perceptum id cum verborum delectu et
-                proprietate aperte et nitide fundere non posset. Qua in re<persName>Clementino Vannettio</persName>nostro viro clarissimo ipse usus est magistro quem subinde per annos fere 20 socium
+                proprietate aperte et nitide fundere non posset. Qua in re<persName n="persName1">Clementino Vannettio</persName>nostro viro clarissimo ipse usus est magistro quem subinde per annos fere 20 socium
                 et consortem studiorum habuit in quibus quantum profecerit ex iis quae scripsit
                 ediditque apparet luculenter. Neque humaniores litterae quibus summo Christianae
                 reipublicae bono tradendis templorum administri facile adhiberi solent inutiles
                 eidem fuere neque ipse hac in re nisi cum summa adolescentium utilitate operam
-                navavit suam. Designatus enim florenti adhuc aetate rhetorices magister<pb xml:id="F6"/>in
+                navavit suam. Designatus enim florenti adhuc aetate rhetorices magister<pb n="pb2" xml:id="F6"/>in
                 gymnasio nostro eandem in annos multos docuit cum praeceptis probatissimorum
                 scriptorum tum exemplis de suo propositis magna cum laude. Hinc ad eandem artem
                 publice in tridentino gymnasio tradendam vocatus ibi in annos X rhetoris munere
                 integre perfunctus est primum quidem oratoriae artis dein politioris humanitatis
                 dignusque est habitus cum diu fidem et prudentiam probasset suam qui eiusdem
                 gymnasii praefectus constitueretur.</p>
-      <p>Laborem diuturnum atque virtutis laudem excepit quies et praemium. Nam cum quinque
+      <p n="p10">Laborem diuturnum atque virtutis laudem excepit quies et praemium. Nam cum quinque
                 abhinc annis adversa uteretur valetudine minusque tanto muneri esset aptus in
-                patriam se se retulit annua pecunia eaque non exigua ab imperatore Caesare<persName>Francisco
-                I</persName>et a tridentina civitate donatus.<pb xml:id="F7"/>Idem magister in arte dicendi
+                patriam se se retulit annua pecunia eaque non exigua ab imperatore Caesare<persName n="persName1">Francisco
+                I</persName>et a tridentina civitate donatus.<pb n="pb2" xml:id="F7"/>Idem magister in arte dicendi
                 exercitationem in scribendo quam discipulis praedicabat eandem primum ipse sibi
                 proposuit praecepit. Multa itaque scripsit ediditque tusce et latine cum ligata tum
                 soluta oratione. Quae ipse latina lingua dictavit in qua ob assiduam magistrum
-                lectionem pollebat quam qui maxime commentarium in primis de<persName>Clementino Vannetio</persName>magistro suo ac vita<persName>Hieronymi Tartarotti</persName>Serbati viri clarissimi tantam eidem
+                lectionem pollebat quam qui maxime commentarium in primis de<persName n="persName3">Clementino Vannetio</persName>magistro suo ac vita<persName n="persName4">Hieronymi Tartarotti</persName>Serbati viri clarissimi tantam eidem
                 laudem compararunt ut propterea inter optimos aetatis nostrae scriptores haberetur
                 atque haec eadem opera vel ipso vivente studiosae iuventuti in exemplum
                 proponerentur.</p>
-      <p>Honoribus autem atque muneribus perfunctus vel laudibus a litteratis viris exornatus
-                nunquam a comitate et modestia discessit.<pb xml:id="F8"/>Integritas, religio, pietas ei
+      <p n="p11">Honoribus autem atque muneribus perfunctus vel laudibus a litteratis viris exornatus
+                nunquam a comitate et modestia discessit.<pb n="pb1" xml:id="F8"/>Integritas, religio, pietas ei
                 adhaerere perpetuo. Sacrae dignitatis suae retinentissimus fuit moribus vestibus
                 omnique vitae ratione. Infensus nemini officiosus in omnes studiosus pacis animo
                 tamen ita anxius suspiciosus trepidus ac casum pavens fuit devexa praesertim aetate
@@ -116,38 +129,38 @@
                 exanimaretur. Ex quo factum est ut cum forte res suae minus prospere aliquando ipsi
                 successissent quadam aploplexiae suspicione primum fuerit affectus quinto vero post
                 anno apoplexi iterum atque iterum interceptus decessit.</p>
-      <p>Quod ille de suo demenso suum defraudens genium unciatim comparsit prudens id vivens
-                contulit in subsidium egenorum praecipue necessariorum quibus quidem quod sibi<pb xml:id="F9"/>superfuit moriens legavit. Scripta vero sua ac libri omnes quos magni emerat ad
+      <p n="p12">Quod ille de suo demenso suum defraudens genium unciatim comparsit prudens id vivens
+                contulit in subsidium egenorum praecipue necessariorum quibus quidem quod sibi<pb n="pb1" xml:id="F9"/>superfuit moriens legavit. Scripta vero sua ac libri omnes quos magni emerat ad
                 nostram Roboretanam bibliothecam voluit pertinere.</p>
-      <p>Decessit autem placidissimo exitu<date>idibus novembris anno chrisitano 1821</date>aetatis suae
-                68. Elatus est<date>17 calendas decembris</date>amplissimo funere inlatusque in cinerarium ad
+      <p n="p13">Decessit autem placidissimo exitu<date n="date1">idibus novembris anno chrisitano 1821</date>aetatis suae
+                68. Elatus est<date n="date2">17 calendas decembris</date>amplissimo funere inlatusque in cinerarium ad
                 d. Marci alumnis et magistris gymnasii nostri comitantibus.</p>
-      <p>Ioannes Petrus Beltramius sacerdos roboretanus curator testamenti tanti amici de
+      <p n="p14">Ioannes Petrus Beltramius sacerdos roboretanus curator testamenti tanti amici de
                 patria ac litteris merentissimi memoriam voluit extare.</p>
-      <p>
-        <pb xml:id="F10"/>
-        <date>6 calendas februarii 1833</date>
-        <placeName>Roboreti</placeName>in publica bibliotheca sodalibus
-                litterariis conventum habentibus.<persName>Hieronimo Iosepho Haimo</persName>praeside,<persName>Iosepho
-                Pederzanio</persName>,<persName>Carolo Tranquillinio</persName>censoribus frequentes adfuere quod verba facta sunt
-                ad sodalitatis nostrae decus officiumque pertinere ut virtutibus et meritis<persName>Constantini Lorenzii</persName>sacerdotis Roboretani viri clarissimi nostrae sodalitatis socii
+      <p n="p15">
+        <pb n="pb1" xml:id="F10"/>
+        <date n="date2">6 calendas februarii 1833</date>
+        <placeName n="placeName3">Roboreti</placeName>in publica bibliotheca sodalibus
+                litterariis conventum habentibus.<persName n="persName4">Hieronimo Iosepho Haimo</persName>praeside,<persName n="persName5">Iosepho
+                Pederzanio</persName>,<persName n="persName6">Carolo Tranquillinio</persName>censoribus frequentes adfuere quod verba facta sunt
+                ad sodalitatis nostrae decus officiumque pertinere ut virtutibus et meritis<persName n="persName7">Constantini Lorenzii</persName>sacerdotis Roboretani viri clarissimi nostrae sodalitatis socii
                 nuperrime diem suum functi publicum testimonium perhibeatur quod de ea re fieri
                 placuit de eadem re ita censuere.</p>
-      <p>Cum<persName>Constantinus Lorenzius</persName>sacerdos Roboretani V. C. sodalis noster bonarum
-                litterarum studio publicoque politioris humanitatis traden<pb xml:id="F11"/>dae munere in annos
+      <p n="p16">Cum<persName n="persName1">Constantinus Lorenzius</persName>sacerdos Roboretani V. C. sodalis noster bonarum
+                litterarum studio publicoque politioris humanitatis traden<pb n="pb2" xml:id="F11"/>dae munere in annos
                 multos praefulserit editisque operibus de litteraria republica deque patria optime
                 meruerit mereat.</p>
-      <p>Quumque idem libros suos omnes publicae huic bibliothecae addixerit eandemque
+      <p n="p17">Quumque idem libros suos omnes publicae huic bibliothecae addixerit eandemque
                 lectissimis voluminibus auxerit itaque ergo humaniorum disciplinarum incremento plus
                 ille prospexerit quam quantum a viro divitiis minime affluenti egenisque propinquis
                 abundanti sperare posset.</p>
-      <p>Placere universis ut ad optimi benemerentisque viri memoriam retinendam simulacrum
+      <p n="p18">Placere universis ut ad optimi benemerentisque viri memoriam retinendam simulacrum
                 eius heic inter alias clariorum sodalium tabulas cum inscriptione nominis eius grati
-                animi causa dedicetur ponatur.<pb xml:id="F12"/>Utique decretum hoc in lucem prodeat quo
+                animi causa dedicetur ponatur.<pb n="pb1" xml:id="F12"/>Utique decretum hoc in lucem prodeat quo
                 sodalis virtus et beneficium nostrique offici argumentum cunctis testatum
                 relinquatur censuere.</p>
-      <p>
-        <persName>Ioannes Petrus Beltramius</persName>adiutor sodalitatis et scriba recognovi.</p>
+      <p n="p19">
+        <persName n="persName1">Ioannes Petrus Beltramius</persName>adiutor sodalitatis et scriba recognovi.</p>
     </body>
   </text>
 </TEI>

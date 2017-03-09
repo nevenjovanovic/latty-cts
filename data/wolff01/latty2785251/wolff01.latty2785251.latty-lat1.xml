@@ -38,6 +38,25 @@
         <bibl>Tiroler Landesmuseum Ferdinandeum, FB 657/2</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1774">1774</date>
@@ -61,249 +80,249 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:wolff01.latty2785251.latty-lat1:">
-    <body>
-      <div>
-        <head>NAT<emph>IVI</emph>TAS PETR<emph>I L</emph>EOPO<emph>LDI</emph>ATQ<emph>V</emph>E  NATA<emph>LI</emph>S  THERES<emph>I</emph>AE  A<emph>V</emph>G<emph>V</emph>STAE REG<emph>I</emph>NAE 
-                SO<emph>L</emph>ENN<emph>I</emph>PO<emph>M</emph>PA<emph>V</emph>N<emph>IV</emph>ERS<emph>I</emph>TAT<emph>I</emph>S OEN<emph>I</emph>PONTANAE 
-                ORNAT<emph>V</emph>S.</head>
-        <p>Authore<persName key="wolff01">JOSEPHO WOLFF</persName>, Sacrosanctae Theologiae et Sacrosancti Canonici Studioso. Cum Licentia Superiorum.<placeName>OENIPONTI</placeName>Typis Michaelis Antonii Wagner, Caesareo Regiae Aulae et Typographi et
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">NAT<emph n="emph1">IVI</emph>TAS PETR<emph n="emph2">I L</emph>EOPO<emph n="emph3">LDI</emph>ATQ<emph n="emph4">V</emph>E  NATA<emph n="emph5">LI</emph>S  THERES<emph n="emph6">I</emph>AE  A<emph n="emph7">V</emph>G<emph n="emph8">V</emph>STAE REG<emph n="emph9">I</emph>NAE 
+                SO<emph n="emph10">L</emph>ENN<emph n="emph11">I</emph>PO<emph n="emph12">M</emph>PA<emph n="emph13">V</emph>N<emph n="emph14">IV</emph>ERS<emph n="emph15">I</emph>TAT<emph n="emph16">I</emph>S OEN<emph n="emph17">I</emph>PONTANAE 
+                ORNAT<emph n="emph18">V</emph>S.</head>
+        <p n="p2">Authore<persName n="persName1" key="wolff01">JOSEPHO WOLFF</persName>, Sacrosanctae Theologiae et Sacrosancti Canonici Studioso. Cum Licentia Superiorum.<placeName n="placeName2">OENIPONTI</placeName>Typis Michaelis Antonii Wagner, Caesareo Regiae Aulae et Typographi et
                 Bibliopolae.</p>
-        <pb xml:id="F1v"/>
+        <pb n="pb3" xml:id="F1v"/>
       </div>
-      <div>
-        <l>Non Ego,<placeName>Roma</placeName>, tuos devicto ex hoste triumphos,</l>
-        <l>Non fera bella canam, sed Doctae Palladis arma,</l>
-        <l>Militiam Laudesque meae celebrare camaenae</l>
-        <l>Festivamque calent extollere carmine Pompam.</l>
-        <l n="5">Tu Decus Austriadum, Tu Magna<emph>
-            <persName>THERESIA</persName>
+      <div n="div2">
+        <l n="l1">Non Ego,<placeName n="placeName1">Roma</placeName>, tuos devicto ex hoste triumphos,</l>
+        <l n="l2">Non fera bella canam, sed Doctae Palladis arma,</l>
+        <l n="l3">Militiam Laudesque meae celebrare camaenae</l>
+        <l n="l4">Festivamque calent extollere carmine Pompam.</l>
+        <l n="l5">Tu Decus Austriadum, Tu Magna<emph n="emph1">
+            <persName n="persName1">THERESIA</persName>
           </emph>, Sceptri</l>
-        <l>Armorumque potens faciles mihi suffice vires:</l>
-        <l>Tu faecunda Parens facundam reddere Musam</l>
-        <l>Atque levare potes: Tu sacros ossibus ignes</l>
-        <l>Inspira nostrique, precor, ne sperne laborem</l>
-        <l n="10">Ingenii, cum Musa Tuos mea cantet Honores.</l>
-        <l>Jamque per Austriacas laeto circumflua cornu</l>
-        <l>Fama plagas Natum spargit de Sanguine Germen</l>
-        <l>Caesareo jactansque suas super aethera pennas</l>
-        <l>Augustae pariter Natalem Matris adesse</l>
-        <l n="15">Per mare, per terras clamat: mox illa secundo</l>
-        <l>Prosequitur Rumore viam tandemque per urbem</l>
-        <l>Bis felix volitat, placido quam flumine transit</l>
-        <l>Oenus et apposito fecit cognomina Ponte.</l>
-        <l>Quis mihi jam populi plausus, quis gaudia pandet?</l>
-        <l n="20">Quis bona verba, suo cives quae fudit ab ore</l>
-        <l>Illaesam testata fidem? Quis facta per aras</l>
-        <l>Principe pro tanto, pro tanta Matre piorum</l>
-        <l>Vota precesque suo memoret mihi Numine Vates?</l>
-        <pb xml:id="F2r"/>
-        <l>Emicat ante alios lectissima turba Studentum,</l>
-        <l n="25">Quos gravior nutrit Pallas, quos gloria ducit,</l>
-        <l>Commendat pietas atque alta scientia reddit</l>
-        <l>Conspicuos, quos prima decent Praeconia Laudum.</l>
-        <l>Hi nunc, ut cumulent communia gaudia gentis</l>
-        <l>Austriacae magnosque Tibi testentur amores,</l>
-        <l n="30">Imperii columen, Regina<emph>
-            <persName>THERESIA</persName>
+        <l n="l6">Armorumque potens faciles mihi suffice vires:</l>
+        <l n="l7">Tu faecunda Parens facundam reddere Musam</l>
+        <l n="l8">Atque levare potes: Tu sacros ossibus ignes</l>
+        <l n="l9">Inspira nostrique, precor, ne sperne laborem</l>
+        <l n="l10">Ingenii, cum Musa Tuos mea cantet Honores.</l>
+        <l n="l11">Jamque per Austriacas laeto circumflua cornu</l>
+        <l n="l12">Fama plagas Natum spargit de Sanguine Germen</l>
+        <l n="l13">Caesareo jactansque suas super aethera pennas</l>
+        <l n="l14">Augustae pariter Natalem Matris adesse</l>
+        <l n="l15">Per mare, per terras clamat: mox illa secundo</l>
+        <l n="l16">Prosequitur Rumore viam tandemque per urbem</l>
+        <l n="l17">Bis felix volitat, placido quam flumine transit</l>
+        <l n="l18">Oenus et apposito fecit cognomina Ponte.</l>
+        <l n="l19">Quis mihi jam populi plausus, quis gaudia pandet?</l>
+        <l n="l20">Quis bona verba, suo cives quae fudit ab ore</l>
+        <l n="l21">Illaesam testata fidem? Quis facta per aras</l>
+        <l n="l22">Principe pro tanto, pro tanta Matre piorum</l>
+        <l n="l23">Vota precesque suo memoret mihi Numine Vates?</l>
+        <pb n="pb24" xml:id="F2r"/>
+        <l n="l25">Emicat ante alios lectissima turba Studentum,</l>
+        <l n="l26">Quos gravior nutrit Pallas, quos gloria ducit,</l>
+        <l n="l27">Commendat pietas atque alta scientia reddit</l>
+        <l n="l28">Conspicuos, quos prima decent Praeconia Laudum.</l>
+        <l n="l29">Hi nunc, ut cumulent communia gaudia gentis</l>
+        <l n="l30">Austriacae magnosque Tibi testentur amores,</l>
+        <l n="l31">Imperii columen, Regina<emph n="emph1">
+            <persName n="persName1">THERESIA</persName>
           </emph>, Pompam</l>
-        <l>Instituunt, quam Roma vetus, credo, ipsa stuperet.</l>
-        <l>Ac primum (nostris ne desit versibus ordo)</l>
-        <l>Turba Duces Studiosa legit doctumque Gradivum</l>
-        <l>Exhibitura petit sclopos et militis instar</l>
-        <l n="35">Se belli studiis exercet et apparat omnem</l>
-        <l>Splendorem festo. Fere sunt trecenta virorum</l>
-        <l>Corpora, quos animi, caligae, tibialia, Thorax</l>
-        <l>Consimiles reddunt; Nam quamvis Natio dispar,</l>
-        <l>Foedus amicitiae tamen insuperabile jungit</l>
-        <l n="40">Montanos, Italos et Suevos. Pileus omnis</l>
-        <l>Ornamenta gerit viridisque albique coloris.</l>
-        <l>Est campus, qui nomen habens a cursibus Aulae</l>
-        <l>A dextris Horto conjungitur atque sinistra</l>
-        <l>Oenipontanam spatiosus praeterit urbem:</l>
-        <l n="45">Hunc instructa phalanx ipso famosior intrat</l>
-        <l>Scipiada primaeque jacit fundamina Pompae</l>
-        <l>In Laudes, Regina, Tuas. Tum parva locantur</l>
-        <l>Castra solo, laetus Vexilla Academica Miles</l>
-        <l>Jucundos inter strepitus vocesque tubarum</l>
-        <l n="50">Adducit nitidisque vigil Studiosus in armis</l>
-        <l>Excubat et populi densos adstantis acervos</l>
-        <l>Vix cohibere valet: Tanta est spectare voluptas.</l>
-        <l>Prima Dies inter plausus et jubila cessit;</l>
-        <l>Nox vero pluviasque ferens atrasque tenebras</l>
-        <l n="55">Non tamen in castris hilares involvere mentes</l>
-        <l>Tristitia potuit, non claudere lumina Morpheus;</l>
-        <l>Sed Bacchi Cererisque liquor per guttura lapsus</l>
-        <l>Et somnum tempusque sua dulcedine fallit.</l>
-        <pb xml:id="F2v"/>
-        <l>Interea Croceum linquens Aurora cubile</l>
-        <l n="60">Tithonis coelo solennis Nuncia Pompae</l>
-        <l>Exoritur. Jam castra sonant, jam tympana pulsu</l>
-        <l>Laetitiam rauco reboant, jam cornua clangunt</l>
-        <l>Accenduntque viros: promptus mandata capessit</l>
-        <l>Miles et exspectat signatam fervidus Horam.</l>
-        <l n="65">Una Dies animos suspendit; namque tenebris</l>
-        <l>Optatam coelo subducunt nubila lucem</l>
-        <l>Ingratasque suo pluvias nigrore minantur.</l>
-        <l>Ut vero pulchro jam stantes ordine turmas</l>
-        <l>Armorumque jubar generosaque pectora vidit</l>
-        <l n="70">Cynthius, ignivomos agitat mox aureus axes</l>
-        <l>Et laetum meliore diem temone jugales</l>
-        <l>Afflantes roseis super aethera fraenat habenis.</l>
-        <l>Et quo majori celebretur Pompa decore,</l>
-        <l>Insignis Patrum totusque Academicus Ordo</l>
-        <l n="75">Altaque Nobilitas et, qui sua Nomina festo</l>
-        <l>Non dederant Marti, Clerusque ad tecta Minervae</l>
-        <l>Confluit, inde simul sceptri praeeuntis honore</l>
-        <l>Ad Sanctae templum Triadis procedit ibique</l>
-        <l>Illius in Laudes solitum Laudamus amaeno</l>
-        <l n="80">Concentu resonat. Pariter sclopeta Gradivi</l>
-        <l>Ad leges solvit miles signumque per auras</l>
-        <l>Una tergeminum mittit tantoque fragore</l>
-        <l>Non procul hinc explosa tonant mortaria belli,</l>
-        <l>Ut cursum timidis prope sisteret<geogName>Oenus</geogName>in undis</l>
-        <l n="85">Attonitusque suum gelida caput abderet ulva.</l>
-        <l>Nec mora, diffugiunt tristes ex aethere nubes</l>
-        <l>Atque serenato Lampas<corr resp="Johanna Luggin">Phoebeja</corr>vultu</l>
-        <l>Amplius illustrat Pompam mentesque secundat.</l>
-        <l>Cum Wilthinensis fulgenti Praesul amictu</l>
-        <l n="90">Inter festa chori Psallentis gaudia Missam</l>
-        <l>Solennem absolvit, templis Academicus Ordo</l>
-        <l>Ad sua tecta redit: Plausu Studiosa resultant</l>
-        <l>Castra, suburbanam quae tum radiantibus armis</l>
-        <l>Tellurem subeunt et majestate decora</l>
-        <l n="95">Cunctorum rapiunt oculos, dum<corr resp="Johanna Luggin">Phoebus</corr>in axe</l>
-        <pb xml:id="F3r"/>
-        <l>Jam jam contraxit tenues altissimus umbras</l>
-        <l>Atque famem dapibus stimulantem pellere jussit.</l>
-        <l>Haec mediae Lucis facies: pars altera dulci</l>
-        <l>Nunc Baccho fervet, nunc grato Musica cantu</l>
-        <l n="100">In castris animos delectat et allicit aures.</l>
-        <l>Sed quo me vertam? Restant majora canenti:</l>
-        <l>Grandiloquam cape Musa tubam vatumque calores</l>
-        <l>Indue, condignis et singula Laudibus orna.</l>
-        <l>Occiduo Titan jam mersit in aequore currus</l>
-        <l n="105">Et tacitae prodit moderatrix Cynthia Noctis</l>
-        <l>Nocturnum visura decus. Studiosus ab urbe</l>
-        <l>Accinctus gladiis exornatisque galeris</l>
-        <l>Inclytus accelerat gressum multusque Sacerdos</l>
-        <l>Se confert in castra: Duces mox ordine turmas</l>
-        <l n="110">Certo stare jubent: Post intervalla locantur</l>
-        <l>Illustres ortu Juvenes facibusque decorem</l>
-        <l>Collustrant Pompae veluti sua sidera<corr>Phoebe</corr>.</l>
-        <l>In geminos divisa choros it Musica. Jamque</l>
-        <l>Sic instructa suo procedunt agmina campo,</l>
-        <l n="115">Agmina Romulidum vix non imitata triumphos:</l>
-        <l>Antevolant plausus omnique ex parte moventur</l>
-        <l>Maenia praesentis populi: mens omnibus una</l>
-        <l>Et studium cunctis Studiosae gaudia gentis</l>
-        <l>Cernere: Pars altis prospectat magna fenestris,</l>
-        <l n="120">Limina pars implet: Pars vero maxima plebis</l>
-        <l>Per plateas effusa ruit. Non pectora sexus,</l>
-        <l>Non status ardorem sistit juvenesque senesque</l>
-        <l>Et cupidae veniunt socia cum Matre puellae.</l>
-        <l>Pompa Suburbanas tandem pervenit ad aedes</l>
-        <l n="125">Per laetos populi fluctus: gressumque tenere</l>
-        <l>Jussa cohors majora parat spectacula Nocti.</l>
-        <l>Hinc spatium factura suis utrimque corona</l>
-        <l>Clauditur: in medio grandi se Musica Luxu</l>
-        <l>Non alias audita movet ferturque per aures</l>
-        <l n="130">Attonitas: hinc pulsa fremunt cava tergora tauri,</l>
-        <pb xml:id="F3v"/>
-        <l>Hinc laeto clangore tubae raucisque lacessunt</l>
-        <l>Cornua flexa sonis auras: hinc tibia gratum</l>
-        <l>Decumana canit murmur numerosaque plectro</l>
-        <l>Inde chelys resonat nec desunt caetera Pompae</l>
-        <l n="135">Instrumenta. Faces centum splendore tenebras</l>
-        <l>Insigni pellunt formosaque lumina Lunae</l>
-        <l>Confundit terrestre jubar. Nox ipsa videtur</l>
-        <l>Laetitiam sentire suo sub pectore; Caelum</l>
-        <l>Nam sine nube favet nec iniquis flatibus Eurus</l>
-        <l n="140">Obstrepit, Aeolio sed frendet vinctus in antro.</l>
-        <l>Postquam tanta suum cum plausu Musica finem</l>
-        <l>Obtinuit, concors assurgit in aethera clamor:</l>
-        <l>Vivat Jo Felix et longos regnet in annos</l>
-        <l>Augusta cum Prole Parens<emph>
-            <persName>THERESIA</persName>
+        <l n="l32">Instituunt, quam Roma vetus, credo, ipsa stuperet.</l>
+        <l n="l33">Ac primum (nostris ne desit versibus ordo)</l>
+        <l n="l34">Turba Duces Studiosa legit doctumque Gradivum</l>
+        <l n="l35">Exhibitura petit sclopos et militis instar</l>
+        <l n="l36">Se belli studiis exercet et apparat omnem</l>
+        <l n="l37">Splendorem festo. Fere sunt trecenta virorum</l>
+        <l n="l38">Corpora, quos animi, caligae, tibialia, Thorax</l>
+        <l n="l39">Consimiles reddunt; Nam quamvis Natio dispar,</l>
+        <l n="l40">Foedus amicitiae tamen insuperabile jungit</l>
+        <l n="l41">Montanos, Italos et Suevos. Pileus omnis</l>
+        <l n="l42">Ornamenta gerit viridisque albique coloris.</l>
+        <l n="l43">Est campus, qui nomen habens a cursibus Aulae</l>
+        <l n="l44">A dextris Horto conjungitur atque sinistra</l>
+        <l n="l45">Oenipontanam spatiosus praeterit urbem:</l>
+        <l n="l46">Hunc instructa phalanx ipso famosior intrat</l>
+        <l n="l47">Scipiada primaeque jacit fundamina Pompae</l>
+        <l n="l48">In Laudes, Regina, Tuas. Tum parva locantur</l>
+        <l n="l49">Castra solo, laetus Vexilla Academica Miles</l>
+        <l n="l50">Jucundos inter strepitus vocesque tubarum</l>
+        <l n="l51">Adducit nitidisque vigil Studiosus in armis</l>
+        <l n="l52">Excubat et populi densos adstantis acervos</l>
+        <l n="l53">Vix cohibere valet: Tanta est spectare voluptas.</l>
+        <l n="l54">Prima Dies inter plausus et jubila cessit;</l>
+        <l n="l55">Nox vero pluviasque ferens atrasque tenebras</l>
+        <l n="l56">Non tamen in castris hilares involvere mentes</l>
+        <l n="l57">Tristitia potuit, non claudere lumina Morpheus;</l>
+        <l n="l58">Sed Bacchi Cererisque liquor per guttura lapsus</l>
+        <l n="l59">Et somnum tempusque sua dulcedine fallit.</l>
+        <pb n="pb60" xml:id="F2v"/>
+        <l n="l61">Interea Croceum linquens Aurora cubile</l>
+        <l n="l62">Tithonis coelo solennis Nuncia Pompae</l>
+        <l n="l63">Exoritur. Jam castra sonant, jam tympana pulsu</l>
+        <l n="l64">Laetitiam rauco reboant, jam cornua clangunt</l>
+        <l n="l65">Accenduntque viros: promptus mandata capessit</l>
+        <l n="l66">Miles et exspectat signatam fervidus Horam.</l>
+        <l n="l67">Una Dies animos suspendit; namque tenebris</l>
+        <l n="l68">Optatam coelo subducunt nubila lucem</l>
+        <l n="l69">Ingratasque suo pluvias nigrore minantur.</l>
+        <l n="l70">Ut vero pulchro jam stantes ordine turmas</l>
+        <l n="l71">Armorumque jubar generosaque pectora vidit</l>
+        <l n="l72">Cynthius, ignivomos agitat mox aureus axes</l>
+        <l n="l73">Et laetum meliore diem temone jugales</l>
+        <l n="l74">Afflantes roseis super aethera fraenat habenis.</l>
+        <l n="l75">Et quo majori celebretur Pompa decore,</l>
+        <l n="l76">Insignis Patrum totusque Academicus Ordo</l>
+        <l n="l77">Altaque Nobilitas et, qui sua Nomina festo</l>
+        <l n="l78">Non dederant Marti, Clerusque ad tecta Minervae</l>
+        <l n="l79">Confluit, inde simul sceptri praeeuntis honore</l>
+        <l n="l80">Ad Sanctae templum Triadis procedit ibique</l>
+        <l n="l81">Illius in Laudes solitum Laudamus amaeno</l>
+        <l n="l82">Concentu resonat. Pariter sclopeta Gradivi</l>
+        <l n="l83">Ad leges solvit miles signumque per auras</l>
+        <l n="l84">Una tergeminum mittit tantoque fragore</l>
+        <l n="l85">Non procul hinc explosa tonant mortaria belli,</l>
+        <l n="l86">Ut cursum timidis prope sisteret<geogName n="geogName1">Oenus</geogName>in undis</l>
+        <l n="l87">Attonitusque suum gelida caput abderet ulva.</l>
+        <l n="l88">Nec mora, diffugiunt tristes ex aethere nubes</l>
+        <l n="l89">Atque serenato Lampas<corr n="corr1" resp="Johanna Luggin">Phoebeja</corr>vultu</l>
+        <l n="l90">Amplius illustrat Pompam mentesque secundat.</l>
+        <l n="l91">Cum Wilthinensis fulgenti Praesul amictu</l>
+        <l n="l92">Inter festa chori Psallentis gaudia Missam</l>
+        <l n="l93">Solennem absolvit, templis Academicus Ordo</l>
+        <l n="l94">Ad sua tecta redit: Plausu Studiosa resultant</l>
+        <l n="l95">Castra, suburbanam quae tum radiantibus armis</l>
+        <l n="l96">Tellurem subeunt et majestate decora</l>
+        <l n="l97">Cunctorum rapiunt oculos, dum<corr n="corr1" resp="Johanna Luggin">Phoebus</corr>in axe</l>
+        <pb n="pb98" xml:id="F3r"/>
+        <l n="l99">Jam jam contraxit tenues altissimus umbras</l>
+        <l n="l100">Atque famem dapibus stimulantem pellere jussit.</l>
+        <l n="l101">Haec mediae Lucis facies: pars altera dulci</l>
+        <l n="l102">Nunc Baccho fervet, nunc grato Musica cantu</l>
+        <l n="l103">In castris animos delectat et allicit aures.</l>
+        <l n="l104">Sed quo me vertam? Restant majora canenti:</l>
+        <l n="l105">Grandiloquam cape Musa tubam vatumque calores</l>
+        <l n="l106">Indue, condignis et singula Laudibus orna.</l>
+        <l n="l107">Occiduo Titan jam mersit in aequore currus</l>
+        <l n="l108">Et tacitae prodit moderatrix Cynthia Noctis</l>
+        <l n="l109">Nocturnum visura decus. Studiosus ab urbe</l>
+        <l n="l110">Accinctus gladiis exornatisque galeris</l>
+        <l n="l111">Inclytus accelerat gressum multusque Sacerdos</l>
+        <l n="l112">Se confert in castra: Duces mox ordine turmas</l>
+        <l n="l113">Certo stare jubent: Post intervalla locantur</l>
+        <l n="l114">Illustres ortu Juvenes facibusque decorem</l>
+        <l n="l115">Collustrant Pompae veluti sua sidera<corr n="corr1">Phoebe</corr>.</l>
+        <l n="l116">In geminos divisa choros it Musica. Jamque</l>
+        <l n="l117">Sic instructa suo procedunt agmina campo,</l>
+        <l n="l118">Agmina Romulidum vix non imitata triumphos:</l>
+        <l n="l119">Antevolant plausus omnique ex parte moventur</l>
+        <l n="l120">Maenia praesentis populi: mens omnibus una</l>
+        <l n="l121">Et studium cunctis Studiosae gaudia gentis</l>
+        <l n="l122">Cernere: Pars altis prospectat magna fenestris,</l>
+        <l n="l123">Limina pars implet: Pars vero maxima plebis</l>
+        <l n="l124">Per plateas effusa ruit. Non pectora sexus,</l>
+        <l n="l125">Non status ardorem sistit juvenesque senesque</l>
+        <l n="l126">Et cupidae veniunt socia cum Matre puellae.</l>
+        <l n="l127">Pompa Suburbanas tandem pervenit ad aedes</l>
+        <l n="l128">Per laetos populi fluctus: gressumque tenere</l>
+        <l n="l129">Jussa cohors majora parat spectacula Nocti.</l>
+        <l n="l130">Hinc spatium factura suis utrimque corona</l>
+        <l n="l131">Clauditur: in medio grandi se Musica Luxu</l>
+        <l n="l132">Non alias audita movet ferturque per aures</l>
+        <l n="l133">Attonitas: hinc pulsa fremunt cava tergora tauri,</l>
+        <pb n="pb134" xml:id="F3v"/>
+        <l n="l135">Hinc laeto clangore tubae raucisque lacessunt</l>
+        <l n="l136">Cornua flexa sonis auras: hinc tibia gratum</l>
+        <l n="l137">Decumana canit murmur numerosaque plectro</l>
+        <l n="l138">Inde chelys resonat nec desunt caetera Pompae</l>
+        <l n="l139">Instrumenta. Faces centum splendore tenebras</l>
+        <l n="l140">Insigni pellunt formosaque lumina Lunae</l>
+        <l n="l141">Confundit terrestre jubar. Nox ipsa videtur</l>
+        <l n="l142">Laetitiam sentire suo sub pectore; Caelum</l>
+        <l n="l143">Nam sine nube favet nec iniquis flatibus Eurus</l>
+        <l n="l144">Obstrepit, Aeolio sed frendet vinctus in antro.</l>
+        <l n="l145">Postquam tanta suum cum plausu Musica finem</l>
+        <l n="l146">Obtinuit, concors assurgit in aethera clamor:</l>
+        <l n="l147">Vivat Jo Felix et longos regnet in annos</l>
+        <l n="l148">Augusta cum Prole Parens<emph n="emph1">
+            <persName n="persName1">THERESIA</persName>
           </emph>, victrix</l>
-        <l n="145">Semper ab hoste suo redeat, dum Pacis oliva</l>
-        <l>Austriacis tandem tranquilla virescat in oris.</l>
-        <l>His actis plaudens in castra reducitur agmen,</l>
-        <l>Non secus ac quondam capitolia celsa Deorum</l>
-        <l>Prostrato veteres scandebant hoste Quirites.</l>
-        <l n="150">Et cum Felicem crepitantia tympana noctem</l>
-        <l>Cum lituis dixere, domum se caetera confert</l>
-        <l>Turba soporiferam sero captura quietem;</l>
-        <l>Nam medio jam jam volvuntur sidera lapsu</l>
-        <l>Nec vigili canis ore latrat nec fronde silenti</l>
-        <l n="155">Tecta movetur avis. Doctus sua castra tuetur</l>
-        <l>Excubiis miles, veluti si proximus hostis</l>
-        <l>Intentet subitae nocturna pericula pugnae.</l>
-        <l>Ergo procul pigros arcent tentoria somnos</l>
-        <l>Per noctem calidoque levant mala frigora Baccho</l>
-        <l n="160">Et lusu tacitas traducunt temporis horas;</l>
-        <l>Collucent ignes, vario certamine ludit</l>
-        <l>Musicus et septem<geogName>Parnassi</geogName>vincit Alumnas.</l>
-        <l>Talis erat facies<placeName>Trojae</placeName>laetantis, Achivi</l>
-        <l>Dum ficta cessere fuga Martemque decennem</l>
-        <l n="165">Solventes rapidis sulcarunt navibus aequor.</l>
-        <pb xml:id="F4r"/>
-        <l>Haec inter Nox atra suas jam colligit umbras</l>
-        <l>Ac terras nitido spargens sol tertius ortu</l>
-        <l>Continuat festam per castra manentia Lucem.</l>
-        <l>Nunc suavi sermone Duces, nunc plena Lyaeo</l>
-        <l n="170">Pocula spumanti, nunc bello bellica cantu</l>
-        <l>Musica permulcent animos: nunc visere castra</l>
-        <l>Illustres gaudent Domini, quos Miles in armis</l>
-        <l>Excipit et digno plausus veneratur honore;</l>
-        <l>Deliciis igitur plenae pars nulla diei</l>
-        <l n="175">Spectatore caret, donec jam pronus olympo</l>
-        <l>Hesperias rursum Phoebus descendit ad undas.</l>
-        <l>Ultima Nox largos effundens nubibus imbres</l>
-        <l>Palliadas cogit sub lintea tecta phalanges</l>
-        <l>Ire, sed in speculis remanent custodia, Martis</l>
-        <l n="180">In morem, et multo Cereris se proluit haustu,</l>
-        <l>Ut madeant fauces intus, cum corpora nimbo</l>
-        <l>Exterius madeant. Sic quartus Lucifer exit</l>
-        <l>Jam quartae lucis Praeco, quae denique finem</l>
-        <l>Praeclarae faciat pompae nostraeque carinae</l>
-        <l n="185">Scribendi vasto demonstret in aequore littus.</l>
-        <l>Ergo signa parant Academica reddere, sicut</l>
-        <l>Constituere Duces; sed tristis Aquarius urna</l>
-        <l>Inversa paulisper opus turbamque moratur.</l>
-        <l>Ut vero melior pluviis cessantibus aether</l>
-        <l n="190">Indulgere viam caepit, mox castra relinquit</l>
-        <l>Vexillo tenues agmen fluitante per auras,</l>
-        <l>Magnanimo quod ducit Equo portatus<persName>Achilles</persName>
+        <l n="l149">Semper ab hoste suo redeat, dum Pacis oliva</l>
+        <l n="l150">Austriacis tandem tranquilla virescat in oris.</l>
+        <l n="l151">His actis plaudens in castra reducitur agmen,</l>
+        <l n="l152">Non secus ac quondam capitolia celsa Deorum</l>
+        <l n="l153">Prostrato veteres scandebant hoste Quirites.</l>
+        <l n="l154">Et cum Felicem crepitantia tympana noctem</l>
+        <l n="l155">Cum lituis dixere, domum se caetera confert</l>
+        <l n="l156">Turba soporiferam sero captura quietem;</l>
+        <l n="l157">Nam medio jam jam volvuntur sidera lapsu</l>
+        <l n="l158">Nec vigili canis ore latrat nec fronde silenti</l>
+        <l n="l159">Tecta movetur avis. Doctus sua castra tuetur</l>
+        <l n="l160">Excubiis miles, veluti si proximus hostis</l>
+        <l n="l161">Intentet subitae nocturna pericula pugnae.</l>
+        <l n="l162">Ergo procul pigros arcent tentoria somnos</l>
+        <l n="l163">Per noctem calidoque levant mala frigora Baccho</l>
+        <l n="l164">Et lusu tacitas traducunt temporis horas;</l>
+        <l n="l165">Collucent ignes, vario certamine ludit</l>
+        <l n="l166">Musicus et septem<geogName n="geogName1">Parnassi</geogName>vincit Alumnas.</l>
+        <l n="l167">Talis erat facies<placeName n="placeName1">Trojae</placeName>laetantis, Achivi</l>
+        <l n="l168">Dum ficta cessere fuga Martemque decennem</l>
+        <l n="l169">Solventes rapidis sulcarunt navibus aequor.</l>
+        <pb n="pb170" xml:id="F4r"/>
+        <l n="l171">Haec inter Nox atra suas jam colligit umbras</l>
+        <l n="l172">Ac terras nitido spargens sol tertius ortu</l>
+        <l n="l173">Continuat festam per castra manentia Lucem.</l>
+        <l n="l174">Nunc suavi sermone Duces, nunc plena Lyaeo</l>
+        <l n="l175">Pocula spumanti, nunc bello bellica cantu</l>
+        <l n="l176">Musica permulcent animos: nunc visere castra</l>
+        <l n="l177">Illustres gaudent Domini, quos Miles in armis</l>
+        <l n="l178">Excipit et digno plausus veneratur honore;</l>
+        <l n="l179">Deliciis igitur plenae pars nulla diei</l>
+        <l n="l180">Spectatore caret, donec jam pronus olympo</l>
+        <l n="l181">Hesperias rursum Phoebus descendit ad undas.</l>
+        <l n="l182">Ultima Nox largos effundens nubibus imbres</l>
+        <l n="l183">Palliadas cogit sub lintea tecta phalanges</l>
+        <l n="l184">Ire, sed in speculis remanent custodia, Martis</l>
+        <l n="l185">In morem, et multo Cereris se proluit haustu,</l>
+        <l n="l186">Ut madeant fauces intus, cum corpora nimbo</l>
+        <l n="l187">Exterius madeant. Sic quartus Lucifer exit</l>
+        <l n="l188">Jam quartae lucis Praeco, quae denique finem</l>
+        <l n="l189">Praeclarae faciat pompae nostraeque carinae</l>
+        <l n="l190">Scribendi vasto demonstret in aequore littus.</l>
+        <l n="l191">Ergo signa parant Academica reddere, sicut</l>
+        <l n="l192">Constituere Duces; sed tristis Aquarius urna</l>
+        <l n="l193">Inversa paulisper opus turbamque moratur.</l>
+        <l n="l194">Ut vero melior pluviis cessantibus aether</l>
+        <l n="l195">Indulgere viam caepit, mox castra relinquit</l>
+        <l n="l196">Vexillo tenues agmen fluitante per auras,</l>
+        <l n="l197">Magnanimo quod ducit Equo portatus<persName n="persName1">Achilles</persName>
         </l>
-        <l>Illustri de stirpe: Frequens comitatur euntes</l>
-        <l>Effusi caetus populi cumque aere canoro</l>
-        <l n="195">Festivos certant strepitus dare tympana forti</l>
-        <l>Pulsa manu facilesque sonos modulatur avena.</l>
-        <l>Postquam Magnifici ventum Rectoris ad aedes</l>
-        <l>Et sedem vexilla suam tenuere, cohortes</l>
-        <l>Plus quam mortali redimitae Laudis honore</l>
-        <l n="200">Publica concludunt festae spectacula Pompae</l>
-        <l>Disceduntque domum placidaque quiete fruuntur.</l>
-        <pb xml:id="F4v"/>
-        <l>Jam vos Austriaco semper fidissima Regno</l>
-        <l>Pectora, vos similes Heroum et Palladis altae</l>
-        <l>Praeclaros cives, Patriae vos splendida Terrae</l>
-        <l n="205">Lumina pro meritis, pro tanto grata labore</l>
-        <l>Fama per<region>Europam</region>
-          <corr resp="Irina Tautschnig">
-            <region>Libyamque</region>
+        <l n="l198">Illustri de stirpe: Frequens comitatur euntes</l>
+        <l n="l199">Effusi caetus populi cumque aere canoro</l>
+        <l n="l200">Festivos certant strepitus dare tympana forti</l>
+        <l n="l201">Pulsa manu facilesque sonos modulatur avena.</l>
+        <l n="l202">Postquam Magnifici ventum Rectoris ad aedes</l>
+        <l n="l203">Et sedem vexilla suam tenuere, cohortes</l>
+        <l n="l204">Plus quam mortali redimitae Laudis honore</l>
+        <l n="l205">Publica concludunt festae spectacula Pompae</l>
+        <l n="l206">Disceduntque domum placidaque quiete fruuntur.</l>
+        <pb n="pb207" xml:id="F4v"/>
+        <l n="l208">Jam vos Austriaco semper fidissima Regno</l>
+        <l n="l209">Pectora, vos similes Heroum et Palladis altae</l>
+        <l n="l210">Praeclaros cives, Patriae vos splendida Terrae</l>
+        <l n="l211">Lumina pro meritis, pro tanto grata labore</l>
+        <l n="l212">Fama per<region n="region1">Europam</region>
+          <corr n="corr2" resp="Irina Tautschnig">
+            <region n="region1">Libyamque</region>
           </corr>
-          <region>Asiamque</region>novamque</l>
-        <l>
-          <region>Americam</region>portet vestrumque in Saecula vivat</l>
-        <l>Nomen et antiquos superet fulgore Quirites</l>
-        <l>Gloria, quae toto vobis tribuetur in orbe.</l>
-        <l n="210">Hoc doleo, vestras quod non mea carmina Laudes</l>
-        <l>Exaequent, quas ipse sua divinus Apollo</l>
-        <l>Vix cythara dicat: pro me sed cuncta loquetur</l>
-        <l>Posteritas, noto donec fluet<geogName>Oenus</geogName>in alveo</l>
-        <l>Et rugosa suo cingetur monte<region>Tyrolis</region>.</l>
-        <l>CECINI.</l>
+          <region n="region3">Asiamque</region>novamque</l>
+        <l n="l213">
+          <region n="region1">Americam</region>portet vestrumque in Saecula vivat</l>
+        <l n="l214">Nomen et antiquos superet fulgore Quirites</l>
+        <l n="l215">Gloria, quae toto vobis tribuetur in orbe.</l>
+        <l n="l216">Hoc doleo, vestras quod non mea carmina Laudes</l>
+        <l n="l217">Exaequent, quas ipse sua divinus Apollo</l>
+        <l n="l218">Vix cythara dicat: pro me sed cuncta loquetur</l>
+        <l n="l219">Posteritas, noto donec fluet<geogName n="geogName1">Oenus</geogName>in alveo</l>
+        <l n="l220">Et rugosa suo cingetur monte<region n="region1">Tyrolis</region>.</l>
+        <l n="l221">CECINI.</l>
       </div>
     </body>
   </text>

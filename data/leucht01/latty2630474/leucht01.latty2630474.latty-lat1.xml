@@ -26,6 +26,25 @@
         <bibl>Korenjak, Martin : Johannes Leucht, Epithalamium Heroicum. Ein lateinisches Hochzeitsgedicht für Erzherzog Ferdinand II. und Anna Caterina Gonzaga, Innsbruck 2002</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1582" precision="high" period="15xx_3_third">1582</date>
@@ -48,10 +67,10 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:leucht01.latty2630474.latty-lat1:">
-    <body>
-      <div>
-        <head>
-          <emph>VIVA – VIVA EPITHALAMIVM HEROICVM IN NVPTIAS
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">
+          <emph n="emph1">VIVA – VIVA EPITHALAMIVM HEROICVM IN NVPTIAS
                         SERENISSIMI PRINCIPIS AC DOMINI DNI FERDINANDI ARCHIDVCIS AVSTRIAE, DV</emph>cis
                         Burgundiae, etc: Comitis Tyrolis, etc: ducentis in uxorem foelicibus
                         admodum Dei Opt: Max: superumque auspiciis, Serenissimam Dnam D. Annam
@@ -59,425 +78,425 @@
                         indole, ac pietate eximiam, ornatissimamque uirginem: Ominis faustissimi,
                         ingenuae debitaeque obseruantiae, summi honoris, syncerae fidelitatis,
                         Christianique amoris ergo, in perpetuam memoriam: Musis bene fauentibus
-                        conscriptum:<emph>A M. IOANNE LEVCHT MVN</emph>derkingensi: Pastore Delmissingensi apud
+                        conscriptum:<emph n="emph2">A M. IOANNE LEVCHT MVN</emph>derkingensi: Pastore Delmissingensi apud
                         Ehingam Catholico</head>
-        <l>Siccine Pierides, conanti pangere Carmen,</l>
-        <l>dissiluit mea culta Chelys: nec Carmina promit?</l>
-        <l>Siccine deliciae pereunt: nec laeta supersunt</l>
-        <l>Gaudia? sed quam uena meis affectibus impar?</l>
-        <l n="5">Siccine Parnasi (miserum) sint limina clausa?</l>
-        <l>Nec pateant fontes, quos circum Heliconia ludit,</l>
-        <l>Tota cohors Citharis, Cithara cum Carmina miscent?</l>
-        <l>
-          <unclear>Anne dolo fontes iam nos truculenta subegit</unclear>
+        <l n="l2">Siccine Pierides, conanti pangere Carmen,</l>
+        <l n="l3">dissiluit mea culta Chelys: nec Carmina promit?</l>
+        <l n="l4">Siccine deliciae pereunt: nec laeta supersunt</l>
+        <l n="l5">Gaudia? sed quam uena meis affectibus impar?</l>
+        <l n="l6">Siccine Parnasi (miserum) sint limina clausa?</l>
+        <l n="l7">Nec pateant fontes, quos circum Heliconia ludit,</l>
+        <l n="l8">Tota cohors Citharis, Cithara cum Carmina miscent?</l>
+        <l n="l9">
+          <unclear n="unclear1">Anne dolo fontes iam nos truculenta subegit</unclear>
         </l>
-        <l>
-          <unclear>Fortuna?</unclear>ut Castris Phebi secludar amaenis?</l>
-        <l n="10">Ferte rogo, rogo ferte unum super omnia dona,</l>
-        <l>Leniat ut saltem nostrum dulcißima uestra</l>
-        <l>Numina, si potis est, hoc Carmen flectere quicquam:</l>
-        <l>Aspicite antiquum miseris in rebus alumnum;</l>
-        <l>Quis diues: Phoebi quem deseruere Sorores.</l>
-        <l n="15">Aspicite exangui faciem pallere colore,</l>
-        <l>Quis roseus? uestris quem Sors amplexibus arcet.</l>
-        <l>Aspicite alternosque pedes in Carmine labi.</l>
-        <l>Quis numeris potis est, aptos contexere uersus?</l>
-        <l>Ne placidae semper faueant Heliconis alumnae.</l>
-        <l n="20">Ergo fauete precor, si debita flagito uotis,</l>
-        <l>Nec uestram insidians dextram fortuna retardet,</l>
-        <l>sed quo (si candentia brachia tenditis ad me)</l>
-        <l>Illa magis saeuit, magis oppugnate Sorores.</l>
-        <l>Haec ubi supplicibus uix fudi carmina votis,</l>
-        <l n="25">
-          <add resp="editor">Tum s</add>
-          <hi rend="underline">u</hi>bito ante oculos micat ignipotens lux,</l>
-        <l>
-          <add resp="editor">Haud</add>
-          <hi rend="underline">s</hi>ecus ac rutilus, cum Sol splendescit Eoo:</l>
-        <l>
-          <add resp="editor">Iam (</add>
-          <hi rend="underline">m</hi>irum) undique diuini spirantur odores;</l>
-        <l>
-          <add resp="editor">F</add>
-          <hi rend="underline">lo</hi>ra uelut redolens Troiano spargit in agro;</l>
-        <l>
-          <add resp="editor">Dem</add>
-          <hi rend="underline">o</hi>ror; admiror lucem, demiror odorem;</l>
-        <l n="30">
-          <add resp="editor">Atque l</add>
-          <hi rend="underline">o</hi>co quamuis tacita formidine preßus</l>
-        <l>
-          <add resp="editor">Atta</add>
-          <hi rend="underline">m</hi>en adgredior propius, quae res noua, lustro:</l>
-        <l>O]<hi rend="underline">b</hi>uius ecce uenit mitra redimitus Apollo</l>
-        <l>Quem] longo matres rosea ceruice sequuntur,</l>
-        <l>Ordi]<hi rend="underline">n</hi>e fulgentes; magno comitante paratu</l>
-        <l n="35">Florib]us incedunt diuersicoloribus omnes</l>
-        <l>Crine]s ornatae, nitidis comptaeque capillis:</l>
-        <l>Vtque] comae florent sertis et iaspide serta</l>
-        <l>Sic ia]<hi rend="underline">m</hi>splendet iter gemmis, sic omnia rident:</l>
-        <l>Dumq]<hi rend="underline">ue</hi>propinquabant propius, lux ignea, acutis</l>
-        <l n="40">Ince]<hi rend="underline">n</hi>dit radijs oculos, uisumque retorsit;</l>
-        <l>Vndiq]<hi rend="underline">u</hi>e tum primum me horror circumstetit; horror</l>
-        <l>Mem]bra quatit gelidus; recto non ordine crines</l>
-        <l>Confu]<hi rend="underline">s</hi>i uolitant humeris; praecordia terrent;</l>
-        <l>Atque] timore coit cruor; et uox faucibus haeret;</l>
-        <l n="45">Iam su]m iamque cadens; aderat mox Diuus Apollo</l>
-        <l>Meque ]<hi rend="underline">m</hi>anu prendens, circum caput omne micantes</l>
-        <l>Dep]<hi rend="underline">o</hi>nit radios; uisum largitur ocellis:</l>
-        <l>It pa]uor, itque timor; membris horrore caducis</l>
-        <l>En] robur; capiti ceu pexi pectine crines</l>
-        <l n="50">Luc]ent; laetitia exiliunt praecordia quassa;</l>
-        <l>Mo]xque patent fauces, sequitur fausto omine sermo.</l>
-        <l>Cunct]<hi rend="underline">a</hi>, etsi subito aspectu miranda uidentur</l>
-        <l>Atta]men obtutu Diuuas defixus in omnes</l>
-        <l>Sto, et blandis uerbis Diuum, Diuuasque saluto;</l>
-        <l n="55">Dum loquor, extemplo capiunt mea pectora flammas</l>
-        <l>Quoque mage intueor (mirum) magis ardeo uultu:</l>
-        <l>Iam tacuere omnes, alacris sic uocibus ultro:</l>
-        <l>Dicite Sicelides, obtestor, dicite Musae,</l>
-        <l>Cur tot ab aetherio, coelo venistis ad unum?</l>
-        <l n="60">Non equidem tali, o Divae, sum dignus honore.</l>
-        <l>Curque Deum forma, terram accessistis opacam?</l>
-        <l>Non hanc ferre potest, hominum natura caduca.</l>
-        <l>Cur et Olympiacis, auro gemmisque micantes?</l>
-        <l>Non tanti (nostis) radios splendoris ocelli</l>
-        <l n="65">Mortales tolerant, sed prae splendore liquescunt.</l>
-        <l>Haec uix fatus eram, propius me carminis Auctor</l>
-        <l>Cum Cithara, fidibusque accedere iußit Apollo,</l>
-        <l>Surgit et e solio nitidis lucente smaragdis,</l>
-        <l>Atque dat amplexus, mox oscula mollia figit;</l>
-        <l n="70">Amplexuque dato, uerbis sic fatur amicis:</l>
-        <l>Pectore pone metus, multum Venerande Sacerdos</l>
-        <l>Nos nec adire time, Aonij cupidißime fontis,</l>
-        <l>Fontis aquam referunt comites Tripodumque ministri;</l>
-        <l>Ecce tibi tua perfundent sitibunda labella</l>
-        <l n="75">AEthereo rore, et diuuino nectaris imbre,</l>
-        <l>Vt scateant uersus, et sit tibi copia fandi.</l>
-        <l>His dictis, mox ora premit; mihi copia fandi</l>
-        <l>Conceßa, atque suis, hos uersus insero dictis:</l>
-        <l>Agnosco certe factum, Pater optime phoebe,</l>
-        <l n="80">Factum quod precibus, factum quod mente petiui:</l>
-        <l>Hinc mihi docta tulistis opem, o Latonia uestro</l>
-        <l>Turba Sacerdoti; grates quas soluere poßum:</l>
-        <l>Hinc mihi Parnasi frondosi et Delphica montis</l>
-        <l>Limina grata patent; hinc stillant murmure riui,</l>
-        <l n="85">E quibus eloquij scatet haec modo Vena beata.</l>
-        <l>Insuper ast memorate mihi, memorate Sorores,</l>
-        <l>Cur nunc plus solitis, rutilus micat ignibus AEther?</l>
-        <l>Cur quoque flamma nitore suo plus albicat auram?</l>
-        <l>Cur aura ambrosium plus uertice spargit odorem?</l>
-        <l n="90">Cur cunctae gemmisque, auroque, ostroque nitentes</l>
-        <l>Vestibus intratis? nova res mortalibus haec est:</l>
-        <l>Cur crines sertis, cur iaspide serta coruscant?</l>
-        <l>Cur montes, altas ubi Rhetia porrigit alpes</l>
-        <l>AEre, quasi arboribus fuluum dependeat aurum,</l>
-        <l n="95">Splendidius fulgent? res est mirabilis Hercle:</l>
-        <l>Vndique cur cantus animi foelicia laeti</l>
-        <l>Argumenta sonant? et cur sic omnia rident?</l>
-        <l>Pandite, quo mihi vobiscum sint gaudia tanta.</l>
-        <l>Finieram monitus, nec longa silentia feci;</l>
-        <l n="100">Ecce sua Cithara ante alias pulcherrima Nymphas</l>
-        <l>Nympha Thalia choro surgit; sic uocibus infit:</l>
-        <l>Siste, tibi referam, celebri, dilecte Sacerdos,</l>
-        <l>Carmine, cum Citharis (adsit clementia phoebi.)</l>
-        <l>Quur regale decus, nostra et munumenta superba</l>
-        <l n="105">Visantur terris semper caligine nigris</l>
-        <l>Et cursu insolito faveat quoque Firmamentum;</l>
-        <l>Tu modo quaeso meis dictis attende benignus:</l>
-        <l>EN iacet Austriacis, ubi pontem sustinet Oenus</l>
-        <l>Regibus; Oenicolis quae nomine dicta Tyrolis</l>
-        <l n="110">Oenipontum: Vrbs est, syluosis undique septa</l>
-        <l>Alpibus, eliciunt quae pondera magna metalli:</l>
-        <l>Bello asper locus est, uallatis maenibus alta.</l>
-        <l>Hac multum Archiducis venerabilis aula superbit;</l>
-        <l>Aula est nobilium semper faecunda virorum;</l>
-        <l n="115">Diuitijsque potens, et Ciuibus aucta superbis:</l>
-        <l>Et quod prae reliquis super omnia sydera tollo,</l>
-        <l>Mansit adhuc stabili sub Relligione Parentum,</l>
-        <l>Intemerata fides, tot iam celebrata per annos.</l>
-        <l>Incolit hic nitidis ornata Palatia gemmis,</l>
-        <l n="120">
-          <emph>
-            <emph>F</emph>ERNANDVS</emph>Princeps quem olim Regina creatum</l>
-        <l>
-          <emph>E</emph>didit Vngariae generoso stemmate Regem</l>
-        <l>
-          <emph>R</emph>exit Romanam, dum<emph>CAESAR</emph>laude Monarcham:</l>
-        <l>
-          <unclear>
-            <emph>N</emph>omine quo fit</unclear>, cum claro sit
+        <l n="l10">
+          <unclear n="unclear1">Fortuna?</unclear>ut Castris Phebi secludar amaenis?</l>
+        <l n="l11">Ferte rogo, rogo ferte unum super omnia dona,</l>
+        <l n="l12">Leniat ut saltem nostrum dulcißima uestra</l>
+        <l n="l13">Numina, si potis est, hoc Carmen flectere quicquam:</l>
+        <l n="l14">Aspicite antiquum miseris in rebus alumnum;</l>
+        <l n="l15">Quis diues: Phoebi quem deseruere Sorores.</l>
+        <l n="l16">Aspicite exangui faciem pallere colore,</l>
+        <l n="l17">Quis roseus? uestris quem Sors amplexibus arcet.</l>
+        <l n="l18">Aspicite alternosque pedes in Carmine labi.</l>
+        <l n="l19">Quis numeris potis est, aptos contexere uersus?</l>
+        <l n="l20">Ne placidae semper faueant Heliconis alumnae.</l>
+        <l n="l21">Ergo fauete precor, si debita flagito uotis,</l>
+        <l n="l22">Nec uestram insidians dextram fortuna retardet,</l>
+        <l n="l23">sed quo (si candentia brachia tenditis ad me)</l>
+        <l n="l24">Illa magis saeuit, magis oppugnate Sorores.</l>
+        <l n="l25">Haec ubi supplicibus uix fudi carmina votis,</l>
+        <l n="l26">
+          <add n="add1" resp="editor">Tum s</add>
+          <hi n="hi2" rend="underline">u</hi>bito ante oculos micat ignipotens lux,</l>
+        <l n="l27">
+          <add n="add1" resp="editor">Haud</add>
+          <hi n="hi2" rend="underline">s</hi>ecus ac rutilus, cum Sol splendescit Eoo:</l>
+        <l n="l28">
+          <add n="add1" resp="editor">Iam (</add>
+          <hi n="hi2" rend="underline">m</hi>irum) undique diuini spirantur odores;</l>
+        <l n="l29">
+          <add n="add1" resp="editor">F</add>
+          <hi n="hi2" rend="underline">lo</hi>ra uelut redolens Troiano spargit in agro;</l>
+        <l n="l30">
+          <add n="add1" resp="editor">Dem</add>
+          <hi n="hi2" rend="underline">o</hi>ror; admiror lucem, demiror odorem;</l>
+        <l n="l31">
+          <add n="add1" resp="editor">Atque l</add>
+          <hi n="hi2" rend="underline">o</hi>co quamuis tacita formidine preßus</l>
+        <l n="l32">
+          <add n="add1" resp="editor">Atta</add>
+          <hi n="hi2" rend="underline">m</hi>en adgredior propius, quae res noua, lustro:</l>
+        <l n="l33">O]<hi n="hi1" rend="underline">b</hi>uius ecce uenit mitra redimitus Apollo</l>
+        <l n="l34">Quem] longo matres rosea ceruice sequuntur,</l>
+        <l n="l35">Ordi]<hi n="hi1" rend="underline">n</hi>e fulgentes; magno comitante paratu</l>
+        <l n="l36">Florib]us incedunt diuersicoloribus omnes</l>
+        <l n="l37">Crine]s ornatae, nitidis comptaeque capillis:</l>
+        <l n="l38">Vtque] comae florent sertis et iaspide serta</l>
+        <l n="l39">Sic ia]<hi n="hi1" rend="underline">m</hi>splendet iter gemmis, sic omnia rident:</l>
+        <l n="l40">Dumq]<hi n="hi1" rend="underline">ue</hi>propinquabant propius, lux ignea, acutis</l>
+        <l n="l41">Ince]<hi n="hi1" rend="underline">n</hi>dit radijs oculos, uisumque retorsit;</l>
+        <l n="l42">Vndiq]<hi n="hi1" rend="underline">u</hi>e tum primum me horror circumstetit; horror</l>
+        <l n="l43">Mem]bra quatit gelidus; recto non ordine crines</l>
+        <l n="l44">Confu]<hi n="hi1" rend="underline">s</hi>i uolitant humeris; praecordia terrent;</l>
+        <l n="l45">Atque] timore coit cruor; et uox faucibus haeret;</l>
+        <l n="l46">Iam su]m iamque cadens; aderat mox Diuus Apollo</l>
+        <l n="l47">Meque ]<hi n="hi1" rend="underline">m</hi>anu prendens, circum caput omne micantes</l>
+        <l n="l48">Dep]<hi n="hi1" rend="underline">o</hi>nit radios; uisum largitur ocellis:</l>
+        <l n="l49">It pa]uor, itque timor; membris horrore caducis</l>
+        <l n="l50">En] robur; capiti ceu pexi pectine crines</l>
+        <l n="l51">Luc]ent; laetitia exiliunt praecordia quassa;</l>
+        <l n="l52">Mo]xque patent fauces, sequitur fausto omine sermo.</l>
+        <l n="l53">Cunct]<hi n="hi1" rend="underline">a</hi>, etsi subito aspectu miranda uidentur</l>
+        <l n="l54">Atta]men obtutu Diuuas defixus in omnes</l>
+        <l n="l55">Sto, et blandis uerbis Diuum, Diuuasque saluto;</l>
+        <l n="l56">Dum loquor, extemplo capiunt mea pectora flammas</l>
+        <l n="l57">Quoque mage intueor (mirum) magis ardeo uultu:</l>
+        <l n="l58">Iam tacuere omnes, alacris sic uocibus ultro:</l>
+        <l n="l59">Dicite Sicelides, obtestor, dicite Musae,</l>
+        <l n="l60">Cur tot ab aetherio, coelo venistis ad unum?</l>
+        <l n="l61">Non equidem tali, o Divae, sum dignus honore.</l>
+        <l n="l62">Curque Deum forma, terram accessistis opacam?</l>
+        <l n="l63">Non hanc ferre potest, hominum natura caduca.</l>
+        <l n="l64">Cur et Olympiacis, auro gemmisque micantes?</l>
+        <l n="l65">Non tanti (nostis) radios splendoris ocelli</l>
+        <l n="l66">Mortales tolerant, sed prae splendore liquescunt.</l>
+        <l n="l67">Haec uix fatus eram, propius me carminis Auctor</l>
+        <l n="l68">Cum Cithara, fidibusque accedere iußit Apollo,</l>
+        <l n="l69">Surgit et e solio nitidis lucente smaragdis,</l>
+        <l n="l70">Atque dat amplexus, mox oscula mollia figit;</l>
+        <l n="l71">Amplexuque dato, uerbis sic fatur amicis:</l>
+        <l n="l72">Pectore pone metus, multum Venerande Sacerdos</l>
+        <l n="l73">Nos nec adire time, Aonij cupidißime fontis,</l>
+        <l n="l74">Fontis aquam referunt comites Tripodumque ministri;</l>
+        <l n="l75">Ecce tibi tua perfundent sitibunda labella</l>
+        <l n="l76">AEthereo rore, et diuuino nectaris imbre,</l>
+        <l n="l77">Vt scateant uersus, et sit tibi copia fandi.</l>
+        <l n="l78">His dictis, mox ora premit; mihi copia fandi</l>
+        <l n="l79">Conceßa, atque suis, hos uersus insero dictis:</l>
+        <l n="l80">Agnosco certe factum, Pater optime phoebe,</l>
+        <l n="l81">Factum quod precibus, factum quod mente petiui:</l>
+        <l n="l82">Hinc mihi docta tulistis opem, o Latonia uestro</l>
+        <l n="l83">Turba Sacerdoti; grates quas soluere poßum:</l>
+        <l n="l84">Hinc mihi Parnasi frondosi et Delphica montis</l>
+        <l n="l85">Limina grata patent; hinc stillant murmure riui,</l>
+        <l n="l86">E quibus eloquij scatet haec modo Vena beata.</l>
+        <l n="l87">Insuper ast memorate mihi, memorate Sorores,</l>
+        <l n="l88">Cur nunc plus solitis, rutilus micat ignibus AEther?</l>
+        <l n="l89">Cur quoque flamma nitore suo plus albicat auram?</l>
+        <l n="l90">Cur aura ambrosium plus uertice spargit odorem?</l>
+        <l n="l91">Cur cunctae gemmisque, auroque, ostroque nitentes</l>
+        <l n="l92">Vestibus intratis? nova res mortalibus haec est:</l>
+        <l n="l93">Cur crines sertis, cur iaspide serta coruscant?</l>
+        <l n="l94">Cur montes, altas ubi Rhetia porrigit alpes</l>
+        <l n="l95">AEre, quasi arboribus fuluum dependeat aurum,</l>
+        <l n="l96">Splendidius fulgent? res est mirabilis Hercle:</l>
+        <l n="l97">Vndique cur cantus animi foelicia laeti</l>
+        <l n="l98">Argumenta sonant? et cur sic omnia rident?</l>
+        <l n="l99">Pandite, quo mihi vobiscum sint gaudia tanta.</l>
+        <l n="l100">Finieram monitus, nec longa silentia feci;</l>
+        <l n="l101">Ecce sua Cithara ante alias pulcherrima Nymphas</l>
+        <l n="l102">Nympha Thalia choro surgit; sic uocibus infit:</l>
+        <l n="l103">Siste, tibi referam, celebri, dilecte Sacerdos,</l>
+        <l n="l104">Carmine, cum Citharis (adsit clementia phoebi.)</l>
+        <l n="l105">Quur regale decus, nostra et munumenta superba</l>
+        <l n="l106">Visantur terris semper caligine nigris</l>
+        <l n="l107">Et cursu insolito faveat quoque Firmamentum;</l>
+        <l n="l108">Tu modo quaeso meis dictis attende benignus:</l>
+        <l n="l109">EN iacet Austriacis, ubi pontem sustinet Oenus</l>
+        <l n="l110">Regibus; Oenicolis quae nomine dicta Tyrolis</l>
+        <l n="l111">Oenipontum: Vrbs est, syluosis undique septa</l>
+        <l n="l112">Alpibus, eliciunt quae pondera magna metalli:</l>
+        <l n="l113">Bello asper locus est, uallatis maenibus alta.</l>
+        <l n="l114">Hac multum Archiducis venerabilis aula superbit;</l>
+        <l n="l115">Aula est nobilium semper faecunda virorum;</l>
+        <l n="l116">Diuitijsque potens, et Ciuibus aucta superbis:</l>
+        <l n="l117">Et quod prae reliquis super omnia sydera tollo,</l>
+        <l n="l118">Mansit adhuc stabili sub Relligione Parentum,</l>
+        <l n="l119">Intemerata fides, tot iam celebrata per annos.</l>
+        <l n="l120">Incolit hic nitidis ornata Palatia gemmis,</l>
+        <l n="l121">
+          <emph n="emph1">
+            <emph n="emph1">F</emph>ERNANDVS</emph>Princeps quem olim Regina creatum</l>
+        <l n="l122">
+          <emph n="emph1">E</emph>didit Vngariae generoso stemmate Regem</l>
+        <l n="l123">
+          <emph n="emph1">R</emph>exit Romanam, dum<emph n="emph2">CAESAR</emph>laude Monarcham:</l>
+        <l n="l124">
+          <unclear n="unclear1">
+            <emph n="emph1">N</emph>omine quo fit</unclear>, cum claro sit
                     Sanguine cretus,</l>
-        <l>
-          <emph>A</emph>ustriacam pietate Domum, cum laude gubernat:</l>
-        <l n="125">
-          <emph>N</emph>am uultu gravitas animi, et prudentia magna,</l>
-        <l>
-          <emph>D</emph>onaque candoris, magno hoc Duce digna, relucent:</l>
-        <l>
-          <emph>V</emph>irtutum primis fuit hic studiosus ab annis,</l>
-        <l>
-          <emph>S</emph>ectator veri, et rectae pietatis amator:</l>
-        <l>
-          <emph>P</emph>rincipe sub tanto felix Respublica dici,</l>
-        <l n="130">
-          <emph>R</emph>ege sub hocque potest felix res Ciuica dici,</l>
-        <l>
-          <emph>I</emph>mperio cuius consurgunt prospera cuncta:</l>
-        <l>
-          <emph>N</emph>amque Fides illi, quam saecula prisca tenebant,</l>
-        <l>
-          <emph>C</emph>ordi est: Catholicam defendit Relligionem</l>
-        <l>
-          <emph>E</emph>t sequitur chari Regalia facta Parentis,</l>
-        <l n="135">
-          <emph>P</emph>acis cum seruet sanctißima foedera mitis.</l>
-        <l>
-          <emph>S</emph>umma Ducis quoque dexteritas, clementia summa est.</l>
-        <l>
-          <emph>H</emph>inc quum Recta Fides, veterum et munumenta parentum</l>
-        <l>
-          <emph>O</emph>lli sint curae, populum feliciter auctum</l>
-        <l>
-          <emph>D</emph>ucit; et antiqua sub Relligione tuetur,</l>
-        <l n="140">
-          <emph>I</emph>n summa pace infractum stabilemque beatumque:</l>
-        <l>
-          <emph>E</emph>rgo quum Dux sit tantis virtutibus auctus</l>
-        <l>
-          <emph>C</emph>onseruetque suos tranquilla ut pace subactos</l>
-        <l>
-          <emph>V</emph>nicus incumbit transcendere culmina Celsa</l>
-        <l>
-          <emph>M</emph>ontisferrati Ducis atque Palatia clarae</l>
-        <l n="145">
-          <emph>V</emph>rbis Tiresiae, quam Mantua nomine dicunt,</l>
-        <l>
-          <emph>I</emph>mmensa Ocnaeos ubi circuit unda nepotes.</l>
-        <l>
-          <emph>R</emph>egia progenies generoso hac Stemmate Virgo</l>
-        <l>
-          <emph>G</emph>emmis nobilibus fulgens pulchrisque smaragdis</l>
-        <l>
-          <emph>I</emph>ncolit excelsam Thebani Principis arcem;</l>
-        <l n="150">
-          <emph>N</emph>omine de cuius, clarißima Stemmata iactat:</l>
-        <l>
-          <emph>E</emph>st generosa sibi Mater, quae<emph>CESARIS</emph>olim</l>
-        <l>
-          <emph>S</emph>ancti<emph>FERNANDI</emph>Austriaca de gente creata,</l>
-        <l>
-          <emph>P</emph>erpetuo quorum Stirps laus et gloria fulget.</l>
-        <l>
-          <emph>O</emph>mnia possedit uirtutum insignia Virgo,</l>
-        <l n="155">
-          <emph>N</emph>am reliquas inter Regumque Ducumque puellas</l>
-        <l>
-          <emph>S</emph>tella uelut rutilans Virgo stirpe emicat una:</l>
-        <l>
-          <emph>V</emph>tque homo corporea de forma quisque superbit</l>
-        <l>
-          <emph>S</emph>olum de specie externa quasi gloria crescat:</l>
-        <l>
-          <emph>F</emph>ormae sic huius virtus cum foenore iuncta est:</l>
-        <l n="160">
-          <emph>I</emph>ngenua haec probitate uiget pietate coruscat;</l>
-        <l>
-          <emph>T</emph>alis pura columba uelut quoque mitia gestat</l>
-        <l>
-          <emph>C</emph>orda, pudicitiae; uitae est exemplar honestae,</l>
-        <l>
-          <emph>A</emph>ltus Candor inest, mens casta in virgine casta:</l>
-        <l>
-          <emph>T</emph>otam commendant facies, moresque benigni:</l>
-        <l n="165">
-          <emph>H</emph>inc illa Ausoniae merito est non infima gentis;</l>
-        <l>
-          <emph>A</emph>ntiquum cum Dogma DEI ritusque parentum</l>
-        <l>
-          <emph>R</emph>ettineat veterum syncero mentis amore.</l>
-        <l>
-          <emph>I</emph>dcirco quum sit tantis quoque Regia virgo</l>
-        <l>
-          <emph>N</emph>atura ipsa, quam claro de Sanguine sumpsit</l>
-        <l n="170">
-          <emph>A</emph>ugustis modo dotibus et uirtutibus aucta</l>
-        <l>
-          <emph>A</emph>rchiducum<emph>FERNANDVS</emph>, honos et gloria Princeps,</l>
-        <l>
-          <emph>N</emph>exibus aeternis Socialis Foedera lecti,</l>
-        <l>
-          <emph>N</emph>ata hac Thebani cum Regis Virgine iungit,</l>
-        <l>
-          <emph>
-            <emph>A</emph>NNAM</emph>dicunt hoc cognomine quam<emph>CATHARINAM</emph>
+        <l n="l125">
+          <emph n="emph1">A</emph>ustriacam pietate Domum, cum laude gubernat:</l>
+        <l n="l126">
+          <emph n="emph1">N</emph>am uultu gravitas animi, et prudentia magna,</l>
+        <l n="l127">
+          <emph n="emph1">D</emph>onaque candoris, magno hoc Duce digna, relucent:</l>
+        <l n="l128">
+          <emph n="emph1">V</emph>irtutum primis fuit hic studiosus ab annis,</l>
+        <l n="l129">
+          <emph n="emph1">S</emph>ectator veri, et rectae pietatis amator:</l>
+        <l n="l130">
+          <emph n="emph1">P</emph>rincipe sub tanto felix Respublica dici,</l>
+        <l n="l131">
+          <emph n="emph1">R</emph>ege sub hocque potest felix res Ciuica dici,</l>
+        <l n="l132">
+          <emph n="emph1">I</emph>mperio cuius consurgunt prospera cuncta:</l>
+        <l n="l133">
+          <emph n="emph1">N</emph>amque Fides illi, quam saecula prisca tenebant,</l>
+        <l n="l134">
+          <emph n="emph1">C</emph>ordi est: Catholicam defendit Relligionem</l>
+        <l n="l135">
+          <emph n="emph1">E</emph>t sequitur chari Regalia facta Parentis,</l>
+        <l n="l136">
+          <emph n="emph1">P</emph>acis cum seruet sanctißima foedera mitis.</l>
+        <l n="l137">
+          <emph n="emph1">S</emph>umma Ducis quoque dexteritas, clementia summa est.</l>
+        <l n="l138">
+          <emph n="emph1">H</emph>inc quum Recta Fides, veterum et munumenta parentum</l>
+        <l n="l139">
+          <emph n="emph1">O</emph>lli sint curae, populum feliciter auctum</l>
+        <l n="l140">
+          <emph n="emph1">D</emph>ucit; et antiqua sub Relligione tuetur,</l>
+        <l n="l141">
+          <emph n="emph1">I</emph>n summa pace infractum stabilemque beatumque:</l>
+        <l n="l142">
+          <emph n="emph1">E</emph>rgo quum Dux sit tantis virtutibus auctus</l>
+        <l n="l143">
+          <emph n="emph1">C</emph>onseruetque suos tranquilla ut pace subactos</l>
+        <l n="l144">
+          <emph n="emph1">V</emph>nicus incumbit transcendere culmina Celsa</l>
+        <l n="l145">
+          <emph n="emph1">M</emph>ontisferrati Ducis atque Palatia clarae</l>
+        <l n="l146">
+          <emph n="emph1">V</emph>rbis Tiresiae, quam Mantua nomine dicunt,</l>
+        <l n="l147">
+          <emph n="emph1">I</emph>mmensa Ocnaeos ubi circuit unda nepotes.</l>
+        <l n="l148">
+          <emph n="emph1">R</emph>egia progenies generoso hac Stemmate Virgo</l>
+        <l n="l149">
+          <emph n="emph1">G</emph>emmis nobilibus fulgens pulchrisque smaragdis</l>
+        <l n="l150">
+          <emph n="emph1">I</emph>ncolit excelsam Thebani Principis arcem;</l>
+        <l n="l151">
+          <emph n="emph1">N</emph>omine de cuius, clarißima Stemmata iactat:</l>
+        <l n="l152">
+          <emph n="emph1">E</emph>st generosa sibi Mater, quae<emph n="emph2">CESARIS</emph>olim</l>
+        <l n="l153">
+          <emph n="emph1">S</emph>ancti<emph n="emph2">FERNANDI</emph>Austriaca de gente creata,</l>
+        <l n="l154">
+          <emph n="emph1">P</emph>erpetuo quorum Stirps laus et gloria fulget.</l>
+        <l n="l155">
+          <emph n="emph1">O</emph>mnia possedit uirtutum insignia Virgo,</l>
+        <l n="l156">
+          <emph n="emph1">N</emph>am reliquas inter Regumque Ducumque puellas</l>
+        <l n="l157">
+          <emph n="emph1">S</emph>tella uelut rutilans Virgo stirpe emicat una:</l>
+        <l n="l158">
+          <emph n="emph1">V</emph>tque homo corporea de forma quisque superbit</l>
+        <l n="l159">
+          <emph n="emph1">S</emph>olum de specie externa quasi gloria crescat:</l>
+        <l n="l160">
+          <emph n="emph1">F</emph>ormae sic huius virtus cum foenore iuncta est:</l>
+        <l n="l161">
+          <emph n="emph1">I</emph>ngenua haec probitate uiget pietate coruscat;</l>
+        <l n="l162">
+          <emph n="emph1">T</emph>alis pura columba uelut quoque mitia gestat</l>
+        <l n="l163">
+          <emph n="emph1">C</emph>orda, pudicitiae; uitae est exemplar honestae,</l>
+        <l n="l164">
+          <emph n="emph1">A</emph>ltus Candor inest, mens casta in virgine casta:</l>
+        <l n="l165">
+          <emph n="emph1">T</emph>otam commendant facies, moresque benigni:</l>
+        <l n="l166">
+          <emph n="emph1">H</emph>inc illa Ausoniae merito est non infima gentis;</l>
+        <l n="l167">
+          <emph n="emph1">A</emph>ntiquum cum Dogma DEI ritusque parentum</l>
+        <l n="l168">
+          <emph n="emph1">R</emph>ettineat veterum syncero mentis amore.</l>
+        <l n="l169">
+          <emph n="emph1">I</emph>dcirco quum sit tantis quoque Regia virgo</l>
+        <l n="l170">
+          <emph n="emph1">N</emph>atura ipsa, quam claro de Sanguine sumpsit</l>
+        <l n="l171">
+          <emph n="emph1">A</emph>ugustis modo dotibus et uirtutibus aucta</l>
+        <l n="l172">
+          <emph n="emph1">A</emph>rchiducum<emph n="emph2">FERNANDVS</emph>, honos et gloria Princeps,</l>
+        <l n="l173">
+          <emph n="emph1">N</emph>exibus aeternis Socialis Foedera lecti,</l>
+        <l n="l174">
+          <emph n="emph1">N</emph>ata hac Thebani cum Regis Virgine iungit,</l>
+        <l n="l175">
+          <emph n="emph1">
+            <emph n="emph1">A</emph>NNAM</emph>dicunt hoc cognomine quam<emph n="emph2">CATHARINAM</emph>
         </l>
-        <l n="175">
-          <emph>A</emph>c sic Dux foelix hodie fit Virgine Sponsus,</l>
-        <l>
-          <emph>C</emph>um Sponso felix hodie fit Principe Sponsa;</l>
-        <l>
-          <emph>S</emph>ic summus uoluit coeli terraeque Monarcha</l>
-        <l>
-          <emph>P</emph>rinceps, ut summusque hodie cum Virgine summi</l>
-        <l>
-          <emph>O</emph>rdinis, acciperet Sponsalia Sacramenta,</l>
-        <l n="180">
-          <emph>N</emph>umen divinum quod rite ab origine mundi</l>
-        <l>
-          <emph>S</emph>anxit; coniugibus primis dum talia mandat:</l>
-        <l>
-          <emph>A</emph>lma propago hominum patulum iam cresce per orbem,</l>
-        <l>
-          <emph>S</emph>int ut, qui pietate colant, coelique potentem</l>
-        <l>
-          <emph>E</emph>t terrae, terram replete propagine semper:</l>
-        <l n="185">
-          <emph>R</emph>estat dehinc socialis amor, qui pignora gignit,</l>
-        <l>
-          <emph>E</emph>t sic illius est finis, multas producere proles,</l>
-        <l>
-          <emph>N</emph>e quoque deficiat sobole alma Ecclesia Sacra,</l>
-        <l>
-          <emph>A</emph>rdorem talem ingenuit sanctißimus idem</l>
-        <l>
-          <emph>D</emph>iuuorum Pater aethereus Dominaeque Ducique</l>
-        <l n="190">
-          <emph>V</emph>t generent claro generosos Stemmate Gnatos</l>
-        <l>
-          <emph>C</emph>retos, omnia qui Patria pietate gubernent,</l>
-        <l>
-          <emph>I</emph>nuicto Austriaco, quae sunt iam subdita Regno.</l>
-        <l>
-          <emph>S</emph>ic sua gens mundo, crescunt sua pignora coelo.</l>
-        <l>Hinc tibi causa patere potest, Venerande Sacerdos,</l>
-        <l n="195">Quur nunc plus solitis flammis micet igneus AEther:</l>
-        <l>AEthere nam<emph>DEVS</emph>ad terras descendit ab alto</l>
-        <l>Pulcher hymen Thalamosque aeterno foedere iunxit.</l>
-        <l>Hinc tibi caußa patet, cum quaeris chare Sacerdos,</l>
-        <l>Quur quoque flamma comis albis plus uerberet auram:</l>
-        <l n="200">Taedifer ille<emph>DEVS</emph>namque albicomantibus ornat,</l>
-        <l>Taedis ac facibus, Thalamos, foedusque iugale.</l>
-        <l>Hinc iterum tibi causa patet, cum quaeris Alumne,</l>
-        <l>Quur aër liquidum, plus uertice spiret odorem:</l>
-        <l>Vinctus Hymen sertis, nam sanctas floribus aras</l>
-        <l n="205">Aspersit templum, cum festa Hymenaea peregit.</l>
-        <l>Hinc tibi cuncta patent quaerenti denique Vates</l>
-        <l>Quur gemmis omnes, cur auro ostroque micantes,</l>
-        <l>Egreßae coelo simus nos ordine Nymphae;</l>
-        <l>Quurque comae sertis, et iaspide serta nitescant,</l>
-        <l n="210">Vndique cur resonent Cithare, cantusque, lyraeque:</l>
-        <l>Connubialis Hymen, nam cum redimiret olentes</l>
-        <l>Myrtho, quas veniens cum Sponsa Sponsus, ad aras;</l>
-        <l>Baccis incinxit nos scintillantibus omnes;</l>
-        <l>Et strinxit refugos sertis a fronte capillos;</l>
-        <l n="215">Iaspide quae florent; florent quae floribus illis;</l>
-        <l>Quos neque deformat fluctu nymbosus Orion:</l>
-        <l>Igniuomus terret nec saeuo Syrius aestu;</l>
-        <l>Sed quos fons Aganippaea Permeßius vnda</l>
-        <l>Irrigat atque perenni servat honore uirentes:</l>
-        <l n="220">Hinc sertis cinctae, ac auro radiante Coronis</l>
-        <l>Venimus hunc ornare thorum foedusque sacratum.</l>
-        <l>Hinc, Oeni iaciunt Alpes quae flumina circum</l>
-        <l>Fulgidius splendent: Nam Diui en Candida Sponsa</l>
-        <l>Fortunata opibus, auro, gemmisque coruscans,</l>
-        <l n="225">Ausonia aduexa est; Pontum, quem sustinet Oenus,</l>
-        <l>Regali pompa, procerum comitante caterva:</l>
-        <l>Vndique fulgentes clypeis armisque potentes.</l>
-        <l>Ac ibi laetantes celebrant Sponsalia Festa.</l>
-        <l>Hinc chordae cantusque placent, Cithareque, Lyraeque</l>
-        <l n="230">Iam quibus ad dulces Thalamos Hymenaea canentes</l>
-        <l>Carmina, certatim iuuenes, mistaeque puellae</l>
-        <l>Solenni pompa ducunt ad plectra choreas.</l>
-        <l>Ergo tibi, quia cuncta patent, charißime Vates</l>
-        <l>Hunc pietate Ducem ac una cum Virgine Sponsa</l>
-        <l n="235">Suscipe Carminibus (nam tanto dignus honore est)</l>
-        <l>Atque suis Thalamis solennia dicito uerba.</l>
-        <l>Interea Astrigerum cunctae ascendemus Olympum.</l>
-        <l>Iam nunc ergo manum Vates mihi porrige dextram,</l>
-        <l>Atque uale multum; tu Carmina pange sonora:</l>
-        <l n="240">Pangendo breuis, et laetus sis, incipe Carmen.</l>
-        <l>
-          <emph>SALVE</emph>diuino titulo dignißime Princeps</l>
-        <l>
-          <emph>SALVETO</emph>Pater, o Patriae Illustrissime Princeps</l>
-        <l>
-          <emph>SALVE</emph>flosque Ducum, splendor Sacra gloria salue</l>
-        <l>
-          <emph>SALVE</emph>Mecaenas, fautor, Dux alme Clientum.</l>
-        <l n="245">En tibi (sic me Musa docet) quod Filia Magni</l>
-        <l>Ducitur in thalamos Ducis Illustrißima coniunx;</l>
-        <l>Gratulor ex animo tibi, quodque Thalia precatur</l>
-        <l>Pectore id ipse precor toto, tua caepta secundet</l>
-        <l>Ille DEVS Pater et Rex omnipotentis Olympi.</l>
-        <l n="250">Hanc tu (nam sic fata uolunt)<emph>FERNANDE</emph>benigne</l>
-        <l>Vlmus opaca uelut complexu Vimina Vitis</l>
-        <l>Sic quoque dilectam studio complectere Sponsam:</l>
-        <l>Namque<emph>DEO</emph>primus qui sancti est foederis Auctor,</l>
-        <l>Pergrata est pietas, et fert relevamina vitae,</l>
-        <l n="255">Dum Sponsus Sponsam flagranti curet amore.</l>
-        <l>Sic sic, o Princeps poteris traducere uitam</l>
-        <l>Felicem, placidam, atque potenti Principe dignam.</l>
-        <l>Sic sic o Princeps poteris de Stemmate Gnatos</l>
-        <l>Gignere praeclaros belli, togaeque peritos.</l>
-        <l n="260">Sic Princepsque fouere potes moderamine Regnum</l>
-        <l>Felici Austriacum, populosque Fidemque vetustam.</l>
-        <l>O, nimium felix tantum sortita Regentem</l>
-        <l>Es patria: hoc etenim uenient tibi saecula fausta.</l>
-        <l>Gentibus ergo simul tanto de Principe grator</l>
-        <l n="265">Quos Regno acceptos Patria pietate gubernat.</l>
-        <l>Iam nunc sponsa uenusta, ueni<emph>CATHARINA</emph>uirago</l>
-        <l>Ecce tibi (sic Musa iubet, quae carmina prompsit</l>
-        <l>Et genus et stirpem, dotes, cum laude canora)</l>
-        <l>Gratulor ex toto, quo fundo pectore, Carmen</l>
-        <l n="270">Quod tibi Sponsi tanti, hodie lux candida fulsit:</l>
-        <l>Quod et origo thori Diuum pater et hominum Rex</l>
-        <l>Promißamque fidem sancte, foedusque iugale</l>
-        <l>Sanxerit aeterno, Sanctus pietatis amore.</l>
-        <l>Ergo iam<emph>CATHARINA</emph>Ducem tu faemina Princeps</l>
-        <l n="275">Dilige corde tuum, ceu<emph>CHRISTI</emph>dogma requirit:</l>
-        <l>Dilige ceu castum, coluit Susanna maritum:</l>
-        <l>Dilige ceu Rebecca pium dilexit Isaacum:</l>
-        <l>Obsequij exemplum Saraeque imitare fidelis.</l>
-        <l>Namque<emph>DEO</emph>tanti qui sacri est foederis Auctor</l>
-        <l n="280">Pergrata est pietas, et fert solatia vitae</l>
-        <l>Dum Sponsum Sponsa ardenti ueneratur amore.</l>
-        <l>Ergo sis facilis, pia, clemens, dulcis Alumna,</l>
-        <l>Vt te larga parens rerum natura creauit.</l>
-        <l>Sic etenim poteris moesto deponere curas</l>
-        <l n="285">Principis e corde, ac animum exhilarare disertis</l>
-        <l>Verbis, dulciloquo semper quae fondis ab ore:</l>
-        <l>Interea fac, dante DEO pia pignora gignas</l>
-        <l>Pignora, quae sint moribus informata benignis;</l>
-        <l>Vt sapiant teneantque fidem, et munumenta Parentum.</l>
-        <l n="290">Iam<emph>FERNANDE</emph>simul clara cum Principe, Princeps,</l>
-        <l>Ambo ad me placidum vultum, faciemque benignam</l>
-        <l>Vertite; et extrema haec, rogo, pectore condite dicta:</l>
-        <l>Vos nunc Austriaci Illustrißima lumina Regni</l>
-        <l>Iungite felices sub sancto foedere dextras;</l>
-        <l n="295">Vt<emph>DEVS</emph>hanc legem, sancte quam condidit ipse,</l>
-        <l>Confirmet; nemo et dirimat, quam Conditor ipse,</l>
-        <l>Numine sub cuius uiuunt modo cuncta creata.</l>
-        <l>Perpetuos igitur sociali foedere iuncti</l>
-        <l>Viuite concordes. felices uiuite in annos:</l>
-        <l n="300">Archiducale decus uestrum quo crescat in orbe</l>
-        <l>Vestraque stelligero, succrescat praemia coelo.</l>
-        <l>Iam non plura canam: nam quae tua gloria Princeps</l>
-        <l>Coniugis atque tue spacioso fulget in Orbe,</l>
-        <l>Vincit Musarum plectrum; mea Carmina vincit.</l>
-        <l n="305">Attamen haud spernes, quod mente exoptat alumnus,</l>
-        <l>Cum tua vota meis, mea sint quoque consona vota:</l>
-        <l>Haec ergo placido accipias mea munera uultu,</l>
-        <l>Nec mihi, nec Fratri clementem subtrahe dextram;</l>
-        <l>Quod tu si facies, facies Auctore monente</l>
-        <l n="310">
-          <emph>PAVLO ZENTNERO</emph>qui clarus uiuit in Aula</l>
-        <l>Oenipontana; et tractat cum laude Secreta.</l>
-        <l>Interea felix Dux Illustrißime uiue</l>
-        <l>Atque thorum vestrum regat est qui Trinus et Vnus.</l>
-        <l>Laus<emph>DEO</emph>Virginique Matri</l>
-        <l>pijßimae, et Coelicolis</l>
-        <l>omnibus.</l>
+        <l n="l176">
+          <emph n="emph1">A</emph>c sic Dux foelix hodie fit Virgine Sponsus,</l>
+        <l n="l177">
+          <emph n="emph1">C</emph>um Sponso felix hodie fit Principe Sponsa;</l>
+        <l n="l178">
+          <emph n="emph1">S</emph>ic summus uoluit coeli terraeque Monarcha</l>
+        <l n="l179">
+          <emph n="emph1">P</emph>rinceps, ut summusque hodie cum Virgine summi</l>
+        <l n="l180">
+          <emph n="emph1">O</emph>rdinis, acciperet Sponsalia Sacramenta,</l>
+        <l n="l181">
+          <emph n="emph1">N</emph>umen divinum quod rite ab origine mundi</l>
+        <l n="l182">
+          <emph n="emph1">S</emph>anxit; coniugibus primis dum talia mandat:</l>
+        <l n="l183">
+          <emph n="emph1">A</emph>lma propago hominum patulum iam cresce per orbem,</l>
+        <l n="l184">
+          <emph n="emph1">S</emph>int ut, qui pietate colant, coelique potentem</l>
+        <l n="l185">
+          <emph n="emph1">E</emph>t terrae, terram replete propagine semper:</l>
+        <l n="l186">
+          <emph n="emph1">R</emph>estat dehinc socialis amor, qui pignora gignit,</l>
+        <l n="l187">
+          <emph n="emph1">E</emph>t sic illius est finis, multas producere proles,</l>
+        <l n="l188">
+          <emph n="emph1">N</emph>e quoque deficiat sobole alma Ecclesia Sacra,</l>
+        <l n="l189">
+          <emph n="emph1">A</emph>rdorem talem ingenuit sanctißimus idem</l>
+        <l n="l190">
+          <emph n="emph1">D</emph>iuuorum Pater aethereus Dominaeque Ducique</l>
+        <l n="l191">
+          <emph n="emph1">V</emph>t generent claro generosos Stemmate Gnatos</l>
+        <l n="l192">
+          <emph n="emph1">C</emph>retos, omnia qui Patria pietate gubernent,</l>
+        <l n="l193">
+          <emph n="emph1">I</emph>nuicto Austriaco, quae sunt iam subdita Regno.</l>
+        <l n="l194">
+          <emph n="emph1">S</emph>ic sua gens mundo, crescunt sua pignora coelo.</l>
+        <l n="l195">Hinc tibi causa patere potest, Venerande Sacerdos,</l>
+        <l n="l196">Quur nunc plus solitis flammis micet igneus AEther:</l>
+        <l n="l197">AEthere nam<emph n="emph1">DEVS</emph>ad terras descendit ab alto</l>
+        <l n="l198">Pulcher hymen Thalamosque aeterno foedere iunxit.</l>
+        <l n="l199">Hinc tibi caußa patet, cum quaeris chare Sacerdos,</l>
+        <l n="l200">Quur quoque flamma comis albis plus uerberet auram:</l>
+        <l n="l201">Taedifer ille<emph n="emph1">DEVS</emph>namque albicomantibus ornat,</l>
+        <l n="l202">Taedis ac facibus, Thalamos, foedusque iugale.</l>
+        <l n="l203">Hinc iterum tibi causa patet, cum quaeris Alumne,</l>
+        <l n="l204">Quur aër liquidum, plus uertice spiret odorem:</l>
+        <l n="l205">Vinctus Hymen sertis, nam sanctas floribus aras</l>
+        <l n="l206">Aspersit templum, cum festa Hymenaea peregit.</l>
+        <l n="l207">Hinc tibi cuncta patent quaerenti denique Vates</l>
+        <l n="l208">Quur gemmis omnes, cur auro ostroque micantes,</l>
+        <l n="l209">Egreßae coelo simus nos ordine Nymphae;</l>
+        <l n="l210">Quurque comae sertis, et iaspide serta nitescant,</l>
+        <l n="l211">Vndique cur resonent Cithare, cantusque, lyraeque:</l>
+        <l n="l212">Connubialis Hymen, nam cum redimiret olentes</l>
+        <l n="l213">Myrtho, quas veniens cum Sponsa Sponsus, ad aras;</l>
+        <l n="l214">Baccis incinxit nos scintillantibus omnes;</l>
+        <l n="l215">Et strinxit refugos sertis a fronte capillos;</l>
+        <l n="l216">Iaspide quae florent; florent quae floribus illis;</l>
+        <l n="l217">Quos neque deformat fluctu nymbosus Orion:</l>
+        <l n="l218">Igniuomus terret nec saeuo Syrius aestu;</l>
+        <l n="l219">Sed quos fons Aganippaea Permeßius vnda</l>
+        <l n="l220">Irrigat atque perenni servat honore uirentes:</l>
+        <l n="l221">Hinc sertis cinctae, ac auro radiante Coronis</l>
+        <l n="l222">Venimus hunc ornare thorum foedusque sacratum.</l>
+        <l n="l223">Hinc, Oeni iaciunt Alpes quae flumina circum</l>
+        <l n="l224">Fulgidius splendent: Nam Diui en Candida Sponsa</l>
+        <l n="l225">Fortunata opibus, auro, gemmisque coruscans,</l>
+        <l n="l226">Ausonia aduexa est; Pontum, quem sustinet Oenus,</l>
+        <l n="l227">Regali pompa, procerum comitante caterva:</l>
+        <l n="l228">Vndique fulgentes clypeis armisque potentes.</l>
+        <l n="l229">Ac ibi laetantes celebrant Sponsalia Festa.</l>
+        <l n="l230">Hinc chordae cantusque placent, Cithareque, Lyraeque</l>
+        <l n="l231">Iam quibus ad dulces Thalamos Hymenaea canentes</l>
+        <l n="l232">Carmina, certatim iuuenes, mistaeque puellae</l>
+        <l n="l233">Solenni pompa ducunt ad plectra choreas.</l>
+        <l n="l234">Ergo tibi, quia cuncta patent, charißime Vates</l>
+        <l n="l235">Hunc pietate Ducem ac una cum Virgine Sponsa</l>
+        <l n="l236">Suscipe Carminibus (nam tanto dignus honore est)</l>
+        <l n="l237">Atque suis Thalamis solennia dicito uerba.</l>
+        <l n="l238">Interea Astrigerum cunctae ascendemus Olympum.</l>
+        <l n="l239">Iam nunc ergo manum Vates mihi porrige dextram,</l>
+        <l n="l240">Atque uale multum; tu Carmina pange sonora:</l>
+        <l n="l241">Pangendo breuis, et laetus sis, incipe Carmen.</l>
+        <l n="l242">
+          <emph n="emph1">SALVE</emph>diuino titulo dignißime Princeps</l>
+        <l n="l243">
+          <emph n="emph1">SALVETO</emph>Pater, o Patriae Illustrissime Princeps</l>
+        <l n="l244">
+          <emph n="emph1">SALVE</emph>flosque Ducum, splendor Sacra gloria salue</l>
+        <l n="l245">
+          <emph n="emph1">SALVE</emph>Mecaenas, fautor, Dux alme Clientum.</l>
+        <l n="l246">En tibi (sic me Musa docet) quod Filia Magni</l>
+        <l n="l247">Ducitur in thalamos Ducis Illustrißima coniunx;</l>
+        <l n="l248">Gratulor ex animo tibi, quodque Thalia precatur</l>
+        <l n="l249">Pectore id ipse precor toto, tua caepta secundet</l>
+        <l n="l250">Ille DEVS Pater et Rex omnipotentis Olympi.</l>
+        <l n="l251">Hanc tu (nam sic fata uolunt)<emph n="emph1">FERNANDE</emph>benigne</l>
+        <l n="l252">Vlmus opaca uelut complexu Vimina Vitis</l>
+        <l n="l253">Sic quoque dilectam studio complectere Sponsam:</l>
+        <l n="l254">Namque<emph n="emph1">DEO</emph>primus qui sancti est foederis Auctor,</l>
+        <l n="l255">Pergrata est pietas, et fert relevamina vitae,</l>
+        <l n="l256">Dum Sponsus Sponsam flagranti curet amore.</l>
+        <l n="l257">Sic sic, o Princeps poteris traducere uitam</l>
+        <l n="l258">Felicem, placidam, atque potenti Principe dignam.</l>
+        <l n="l259">Sic sic o Princeps poteris de Stemmate Gnatos</l>
+        <l n="l260">Gignere praeclaros belli, togaeque peritos.</l>
+        <l n="l261">Sic Princepsque fouere potes moderamine Regnum</l>
+        <l n="l262">Felici Austriacum, populosque Fidemque vetustam.</l>
+        <l n="l263">O, nimium felix tantum sortita Regentem</l>
+        <l n="l264">Es patria: hoc etenim uenient tibi saecula fausta.</l>
+        <l n="l265">Gentibus ergo simul tanto de Principe grator</l>
+        <l n="l266">Quos Regno acceptos Patria pietate gubernat.</l>
+        <l n="l267">Iam nunc sponsa uenusta, ueni<emph n="emph1">CATHARINA</emph>uirago</l>
+        <l n="l268">Ecce tibi (sic Musa iubet, quae carmina prompsit</l>
+        <l n="l269">Et genus et stirpem, dotes, cum laude canora)</l>
+        <l n="l270">Gratulor ex toto, quo fundo pectore, Carmen</l>
+        <l n="l271">Quod tibi Sponsi tanti, hodie lux candida fulsit:</l>
+        <l n="l272">Quod et origo thori Diuum pater et hominum Rex</l>
+        <l n="l273">Promißamque fidem sancte, foedusque iugale</l>
+        <l n="l274">Sanxerit aeterno, Sanctus pietatis amore.</l>
+        <l n="l275">Ergo iam<emph n="emph1">CATHARINA</emph>Ducem tu faemina Princeps</l>
+        <l n="l276">Dilige corde tuum, ceu<emph n="emph1">CHRISTI</emph>dogma requirit:</l>
+        <l n="l277">Dilige ceu castum, coluit Susanna maritum:</l>
+        <l n="l278">Dilige ceu Rebecca pium dilexit Isaacum:</l>
+        <l n="l279">Obsequij exemplum Saraeque imitare fidelis.</l>
+        <l n="l280">Namque<emph n="emph1">DEO</emph>tanti qui sacri est foederis Auctor</l>
+        <l n="l281">Pergrata est pietas, et fert solatia vitae</l>
+        <l n="l282">Dum Sponsum Sponsa ardenti ueneratur amore.</l>
+        <l n="l283">Ergo sis facilis, pia, clemens, dulcis Alumna,</l>
+        <l n="l284">Vt te larga parens rerum natura creauit.</l>
+        <l n="l285">Sic etenim poteris moesto deponere curas</l>
+        <l n="l286">Principis e corde, ac animum exhilarare disertis</l>
+        <l n="l287">Verbis, dulciloquo semper quae fondis ab ore:</l>
+        <l n="l288">Interea fac, dante DEO pia pignora gignas</l>
+        <l n="l289">Pignora, quae sint moribus informata benignis;</l>
+        <l n="l290">Vt sapiant teneantque fidem, et munumenta Parentum.</l>
+        <l n="l291">Iam<emph n="emph1">FERNANDE</emph>simul clara cum Principe, Princeps,</l>
+        <l n="l292">Ambo ad me placidum vultum, faciemque benignam</l>
+        <l n="l293">Vertite; et extrema haec, rogo, pectore condite dicta:</l>
+        <l n="l294">Vos nunc Austriaci Illustrißima lumina Regni</l>
+        <l n="l295">Iungite felices sub sancto foedere dextras;</l>
+        <l n="l296">Vt<emph n="emph1">DEVS</emph>hanc legem, sancte quam condidit ipse,</l>
+        <l n="l297">Confirmet; nemo et dirimat, quam Conditor ipse,</l>
+        <l n="l298">Numine sub cuius uiuunt modo cuncta creata.</l>
+        <l n="l299">Perpetuos igitur sociali foedere iuncti</l>
+        <l n="l300">Viuite concordes. felices uiuite in annos:</l>
+        <l n="l301">Archiducale decus uestrum quo crescat in orbe</l>
+        <l n="l302">Vestraque stelligero, succrescat praemia coelo.</l>
+        <l n="l303">Iam non plura canam: nam quae tua gloria Princeps</l>
+        <l n="l304">Coniugis atque tue spacioso fulget in Orbe,</l>
+        <l n="l305">Vincit Musarum plectrum; mea Carmina vincit.</l>
+        <l n="l306">Attamen haud spernes, quod mente exoptat alumnus,</l>
+        <l n="l307">Cum tua vota meis, mea sint quoque consona vota:</l>
+        <l n="l308">Haec ergo placido accipias mea munera uultu,</l>
+        <l n="l309">Nec mihi, nec Fratri clementem subtrahe dextram;</l>
+        <l n="l310">Quod tu si facies, facies Auctore monente</l>
+        <l n="l311">
+          <emph n="emph1">PAVLO ZENTNERO</emph>qui clarus uiuit in Aula</l>
+        <l n="l312">Oenipontana; et tractat cum laude Secreta.</l>
+        <l n="l313">Interea felix Dux Illustrißime uiue</l>
+        <l n="l314">Atque thorum vestrum regat est qui Trinus et Vnus.</l>
+        <l n="l315">Laus<emph n="emph1">DEO</emph>Virginique Matri</l>
+        <l n="l316">pijßimae, et Coelicolis</l>
+        <l n="l317">omnibus.</l>
       </div>
     </body>
   </text>

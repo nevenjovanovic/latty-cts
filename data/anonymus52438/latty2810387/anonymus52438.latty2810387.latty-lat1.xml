@@ -33,6 +33,28 @@
         <bibl>Staats- und Stadtbibliothek Augsburg, 2 Bio 96 -IV,18</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1703">1703</date>
@@ -58,132 +80,132 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:anonymus52438.latty2810387.latty-lat1:">
-    <body>
-      <div>
-        <head>Regulus ab Aquila exaltatus seu Hymenaeus sacer reverendissimo, ac celsissimo S.R.I.
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">Regulus ab Aquila exaltatus seu Hymenaeus sacer reverendissimo, ac celsissimo S.R.I.
                 Principi ac Domino Domino Casparo Ignatio e comitibus Kinigl, Lib. Baroni in
                 Ehrenburg, etc. Episcopo Brixinensi recens inaugurato Cantatus, et inter plaudentis
                 patriae vota devotissimo affectu oblatus a Collegio Societatis Jesu Oenipontano. Anno M.D.CC.III.</head>
-        <p>
-          <placeName>Oeniponti</placeName>Typis Haeredum<persName>Iacobi Christophori Wagner</persName>, Caesar. Aul. Typographi,
+        <p n="p2">
+          <placeName n="placeName1">Oeniponti</placeName>Typis Haeredum<persName n="persName2">Iacobi Christophori Wagner</persName>, Caesar. Aul. Typographi,
                 1703.</p>
       </div>
-      <pb/>
-      <div>
-        <p>Ex quo immortalis memoriae Principem<persName>
-            <emph>IOANNEM FRANCISCUM</emph>
-          </persName>nuper<placeName>Brixinensem</placeName>Episcopum
-                mors immatura tumulo intulit, non<placeName>Brixinam</placeName>modo, sed universam prope<placeName>TYROLIM</placeName>acerbo
+      <pb n="pb2"/>
+      <div n="div3">
+        <p n="p1">Ex quo immortalis memoriae Principem<persName n="persName1">
+            <emph n="emph1">IOANNEM FRANCISCUM</emph>
+          </persName>nuper<placeName n="placeName2">Brixinensem</placeName>Episcopum
+                mors immatura tumulo intulit, non<placeName n="placeName3">Brixinam</placeName>modo, sed universam prope<placeName n="placeName4">TYROLIM</placeName>acerbo
                 doloris sensu functus adeo casus afflixerat. Ipsa quin adeo stellantis coeli regia
                 communi Patriae luctui illacrymari videbatur, quando densis obducta nubibus, diu tam
                 luctuosa funebria effusis pluviarum nimbis est prosecuta. Cum tandem post
                 calidissima omnium bonorum vota, post ardentissima orbatae Ecclesiae suspiria,
                 adultiori iam vere, coerulea coelo facies rediit, propitiique superi diem statuere
                 comitiis, in quibus relictis oviculis Pastor, viduae Diaecesi celsissimum Caput
-                diceretur. Nox auspicatissimam lucem praecedens varias imagines, et Divina ostenta<emph>GENIO BRIXINENSI</emph>obiecerat, docuitque inter alia, secutura mox die<emph>AQUILAM</emph>Ecclesiae
+                diceretur. Nox auspicatissimam lucem praecedens varias imagines, et Divina ostenta<emph n="emph5">GENIO BRIXINENSI</emph>obiecerat, docuitque inter alia, secutura mox die<emph n="emph6">AQUILAM</emph>Ecclesiae
                 Brixinensi sponsum daturam. Quare Hymenaeo exoptatissimo taedam pararet nuptialem,
                 et de pronubo cir-</p>
-        <pb n="1"/>
-        <p>cumspiceret annulo.<note place="margin">Diversa omina Celsissimi Principis<gap reason="illegible"/>[...]</note>Fortunatus adeo nuntius<emph>GENII</emph>mentem, gaudio iam
+        <pb n="pb2"/>
+        <p n="p3">cumspiceret annulo.<note n="note1" place="margin">Diversa omina Celsissimi Principis<gap n="gap1" reason="illegible"/>[...]</note>Fortunatus adeo nuntius<emph n="emph2">GENII</emph>mentem, gaudio iam
                 obrutam turbaverat; unde neque implicatum
                 oraculum fatis penetrare licuit.</p>
-        <p>Iamque inaurata<emph>montium</emph>iuga sol eluctatus albescendem diem matutina face pingere
+        <p n="p4">Iamque inaurata<emph n="emph1">montium</emph>iuga sol eluctatus albescendem diem matutina face pingere
                 coeperat, cum EPHEBUS, aptatis raptim in remigium alis, sola armatus taeda, suis e
                 sedibus aufertur.</p>
       </div>
-      <div>
-        <lg>
-          <l>Qualis florigerum cum Dea Coniugem</l>
-          <l>Ad faecunda vocat rura Favonium,</l>
-          <l>Mox alas animat, vernaque lucidis</l>
-          <l>Pingit iugera liliis;</l>
-          <l>Talis per liquidas, Regna Iovis, vias</l>
-          <l>Incedit Genius: non iter arduum,</l>
-          <l>Non obstant scopuli, nec iuga montium</l>
-          <l>Moestis horrida nubibus.</l>
+      <div n="div4">
+        <lg n="lg1">
+          <l n="l1">Qualis florigerum cum Dea Coniugem</l>
+          <l n="l2">Ad faecunda vocat rura Favonium,</l>
+          <l n="l3">Mox alas animat, vernaque lucidis</l>
+          <l n="l4">Pingit iugera liliis;</l>
+          <l n="l5">Talis per liquidas, Regna Iovis, vias</l>
+          <l n="l6">Incedit Genius: non iter arduum,</l>
+          <l n="l7">Non obstant scopuli, nec iuga montium</l>
+          <l n="l8">Moestis horrida nubibus.</l>
         </lg>
       </div>
-      <div>
-        <p>
-          <note place="margin">Genius<placeName>Tirolis</placeName>
-            <placeName>Brixinae</placeName>valedicit.</note>Interim celeri volatu viciniora montium iuga
+      <div n="div5">
+        <p n="p1">
+          <note n="note1" place="margin">Genius<placeName n="placeName1">Tirolis</placeName>
+            <placeName n="placeName2">Brixinae</placeName>valedicit.</note>Interim celeri volatu viciniora montium iuga
                 emensus in edita rupe constiterat, qua emergenti post diversos vallium errores ad
-                Orientem<region>Carinthiae</region>se insinuat, ex qua retro coniectis oculis<placeName>Brixinam</placeName>(eousque
+                Orientem<region n="region2">Carinthiae</region>se insinuat, ex qua retro coniectis oculis<placeName n="placeName3">Brixinam</placeName>(eousque
                 prospectus patebat) hisce versibus valere tantisper iubet.</p>
-        <lg>
-          <l>Valete turres, Patriae fidi lares,</l>
-          <l>Valete nota Numina;</l>
-          <l>Et tu meorum digna Regnantum domus,</l>
-          <l>Et educatrix<placeName>Brixina</placeName>,</l>
-          <pb n="2"/>
-          <l>Quae triplicata verticem dignum mitra</l>
-          <l>Tiberi petenti miseras.</l>
-          <l>Te colunt<gap/>purpurei<gap/>
-            <country>Austria</country>
-            <gap/>
+        <lg n="lg2">
+          <l n="l1">Valete turres, Patriae fidi lares,</l>
+          <l n="l2">Valete nota Numina;</l>
+          <l n="l3">Et tu meorum digna Regnantum domus,</l>
+          <l n="l4">Et educatrix<placeName n="placeName1">Brixina</placeName>,</l>
+          <pb n="pb5"/>
+          <l n="l6">Quae triplicata verticem dignum mitra</l>
+          <l n="l7">Tiberi petenti miseras.</l>
+          <l n="l8">Te colunt<gap n="gap1"/>purpurei<gap n="gap2"/>
+            <country n="country3">Austria</country>
+            <gap n="gap4"/>
           </l>
-          <l>Te Casstanus sanguine.</l>
-          <l>Quotquot locaras Principes tuo in throno,</l>
-          <l>Mitra Pedoque nobiles,</l>
-          <l>Tot, invidente sidera haec terris polo,</l>
-          <l>Virtus ad astra transtulit.</l>
-          <l>Valeto. Superum iussa, me Magni vocat</l>
-          <l>Sedes<placeName>Vienna</placeName>Caesaris:</l>
-          <l>Hic nidus Aquilae, sedibus Pullum tuis,</l>
-          <l>Novumque reddet Praesulem.</l>
+          <l n="l9">Te Casstanus sanguine.</l>
+          <l n="l10">Quotquot locaras Principes tuo in throno,</l>
+          <l n="l11">Mitra Pedoque nobiles,</l>
+          <l n="l12">Tot, invidente sidera haec terris polo,</l>
+          <l n="l13">Virtus ad astra transtulit.</l>
+          <l n="l14">Valeto. Superum iussa, me Magni vocat</l>
+          <l n="l15">Sedes<placeName n="placeName1">Vienna</placeName>Caesaris:</l>
+          <l n="l16">Hic nidus Aquilae, sedibus Pullum tuis,</l>
+          <l n="l17">Novumque reddet Praesulem.</l>
         </lg>
       </div>
-      <div>
-        <p>Haec elocutus, abitum parabat, cum editus Aquilae repente clangor,<note place="margin">Occurit<region>Tirolis</region>Genius.</note>dilato itinere, novo spectaculo oculos advertere iubet. Volucris currus erat iugali
+      <div n="div6">
+        <p n="p1">Haec elocutus, abitum parabat, cum editus Aquilae repente clangor,<note n="note1" place="margin">Occurit<region n="region1">Tirolis</region>Genius.</note>dilato itinere, novo spectaculo oculos advertere iubet. Volucris currus erat iugali
                 tractus aquila, et incensis rotarum orbibus adversum se contendens. Impositus currum
                 purpureo loro moderabatur Iuvenis, forma et habitu, quantum eminus quidem coniici
                 potuit, supra humanum augustiore. Verum ubi incitata volucris bigas propius admovit,
                 e serena frontis maiestate, acri scintillantium luminum acie, et pretioso denique
-                vestium cultu agnovit illico<region>Tirolis</region>
-          <emph>GENIUM</emph>. Insolita ex tam fortunato occursu
-                gaudia non vane sibi pollicebatur<placeName>
-            <emph>BRIXINENSIS</emph>
+                vestium cultu agnovit illico<region n="region2">Tirolis</region>
+          <emph n="emph3">GENIUM</emph>. Insolita ex tam fortunato occursu
+                gaudia non vane sibi pollicebatur<placeName n="placeName4">
+            <emph n="emph1">BRIXINENSIS</emph>
           </placeName>; itaque librato in sublime gressu
                 obviam effusus, inter consueta mutuo se devenerantium obsequia, ita advenientem
                 compellat.</p>
-        <pb n="3"/>
-        <p>Qui te, O Frater, candidae Fortunae favor meo conspectui obiecit, idem ad communem
-                nobis laetitiam quoque invitat. Superi! (interpellans exclamat<region>Tirolis</region>GENIUS)<note place="margin">Praeceps<region>Tirolis</region>Genii
-                        iudiciam.</note>recens electum diu servent celsissimum Ecclesiae<placeName>Brixinensis</placeName>Caput! neque enim aliud nuntiaturus venisti. Ille subridens pergit,
-                servabunt, ne dubita, quorum indicio didici,<emph>AQUILAM</emph>, veluti caeteris avibus Regem,
+        <pb n="pb2"/>
+        <p n="p3">Qui te, O Frater, candidae Fortunae favor meo conspectui obiecit, idem ad communem
+                nobis laetitiam quoque invitat. Superi! (interpellans exclamat<region n="region1">Tirolis</region>GENIUS)<note n="note2" place="margin">Praeceps<region n="region1">Tirolis</region>Genii
+                        iudiciam.</note>recens electum diu servent celsissimum Ecclesiae<placeName n="placeName3">Brixinensis</placeName>Caput! neque enim aliud nuntiaturus venisti. Ille subridens pergit,
+                servabunt, ne dubita, quorum indicio didici,<emph n="emph4">AQUILAM</emph>, veluti caeteris avibus Regem,
                 ita mihi daturam Principem. Iam itineri accinctum vides, iam paratam sanctiori
-                Hymenaeo taedam, tumque inflammandam, ubi<emph>CAESAREAE AQUILAE</emph>annuerint.</p>
-        <p>Hos tam profusos Coeli indulgentis favores plurimum quidem gratulabatur<placeName>
-            <emph>BRIXINENSI</emph>
+                Hymenaeo taedam, tumque inflammandam, ubi<emph n="emph5">CAESAREAE AQUILAE</emph>annuerint.</p>
+        <p n="p4">Hos tam profusos Coeli indulgentis favores plurimum quidem gratulabatur<placeName n="placeName1">
+            <emph n="emph1">BRIXINENSI</emph>
           </placeName>
-          <region>Tirolis</region>
-          <emph>GENIUS</emph>, modico tamen capitis renutu significabat, iter illud, nunc saltem,
+          <region n="region2">Tirolis</region>
+          <emph n="emph3">GENIUS</emph>, modico tamen capitis renutu significabat, iter illud, nunc saltem,
                 non omni ex parte sibi probari: nam et hanc (intento digito volucrem currui suo
-                iunctam notabat,)<emph>AQUILAM</emph>esse<emph>CAESAREAM</emph>, et se quoque heri edoctum prodigiose,
+                iunctam notabat,)<emph n="emph4">AQUILAM</emph>esse<emph n="emph5">CAESAREAM</emph>, et se quoque heri edoctum prodigiose,
                 facili iam coniectura, quidquid tandem significassent superi, prospicere. Veniret
                 itaque, et bigas suas non dedignaretur; sperare se, implicatos adhuc gaudiorum nexus
                 dissolvendos quam felicissime.</p>
-        <p>Ea dicentis erat autoritas, ea eventum veluti praecipientis animi securitas, ut<placeName>
-            <emph>BRIXINENSIS</emph>
+        <p n="p5">Ea dicentis erat autoritas, ea eventum veluti praecipientis animi securitas, ut<placeName n="placeName1">
+            <emph n="emph1">BRIXINENSIS</emph>
           </placeName>nihil reluctatus in alterius sententiam concederet, manumque comiter
-                excipiente<region>Tirolis</region>GENIO,</p>
-        <pb n="4"/>
-        <p>in currum se se componeret. Animata denuo ad cursum aquila iter prosecuti vatios
-                interim sermones alternabant Genii.<placeName>
-            <emph>BRIXINENSIS</emph>
+                excipiente<region n="region2">Tirolis</region>GENIO,</p>
+        <pb n="pb6"/>
+        <p n="p7">in currum se se componeret. Animata denuo ad cursum aquila iter prosecuti vatios
+                interim sermones alternabant Genii.<placeName n="placeName1">
+            <emph n="emph1">BRIXINENSIS</emph>
           </placeName>quidem, etsi ingenti desidero
                 teneretur arcanum, quod delibaverat alter, penitius perdiscendi, id tamen palam
                 petere, aut mentionem ea super re inferre non sustinebat, ratus, callida
                 dissimulatione potius, et quasi per ambages id prolici posse. Nunquam non,
-                inquiebat, futurorum eventuum expectatione sollicitos mortales magno<emph>AQUILARUM</emph>augurio erigere solebant Superi. Ita ALEXANDRO paupertatem Macedoniae cum devictae
-                Persidis opibus commutandam significarunt; ita<emph>
-            <persName>LUDOVICO</persName>
-          </emph>Hungarorum Regi<emph>AQUILA</emph>tentorio insidens viam ad insignem de Barbaris victoriam aperuit: Pari omine<persName>
-            <emph>MARTIANO</emph>
-          </persName>Imperii diadema praesignatum, et<persName>
-            <emph>MEDARDO</emph>
+                inquiebat, futurorum eventuum expectatione sollicitos mortales magno<emph n="emph2">AQUILARUM</emph>augurio erigere solebant Superi. Ita ALEXANDRO paupertatem Macedoniae cum devictae
+                Persidis opibus commutandam significarunt; ita<emph n="emph3">
+            <persName n="persName1">LUDOVICO</persName>
+          </emph>Hungarorum Regi<emph n="emph4">AQUILA</emph>tentorio insidens viam ad insignem de Barbaris victoriam aperuit: Pari omine<persName n="persName5">
+            <emph n="emph1">MARTIANO</emph>
+          </persName>Imperii diadema praesignatum, et<persName n="persName6">
+            <emph n="emph1">MEDARDO</emph>
           </persName>Pastori sanctiora Ecclesiae
-                Noviomensis pascua designata. Unde, ni fallor, tot pene<emph>AQUILAS</emph>volare cernas, tot
+                Noviomensis pascua designata. Unde, ni fallor, tot pene<emph n="emph7">AQUILAS</emph>volare cernas, tot
                 fulgere in scutis, quot in hostem victricia inferuntur signa; aut coronae adoratos
                 Regnum vertices ambiunt. Quasi nil magnopere promitteret ingentium facinorum
                 ostentatrix Heroum virtus, nec unquam ad gloriae apicem assurgere posset, nisi
@@ -192,175 +214,175 @@
                 dici poterat coerulea Olympi facies, aurea felicitatis patria; ni rutilantis Aquilae
                 splendore illustrata iubat in terras deplueret.</p>
       </div>
-      <pb n="5"/>
-      <div>
-        <p>Igitur felicem, reposuit alter, ter io! felicem<emph>ECCLESIAM<placeName>BRIXINENSEM</placeName>
+      <pb n="pb7"/>
+      <div n="div8">
+        <p n="p1">Igitur felicem, reposuit alter, ter io! felicem<emph n="emph1">ECCLESIAM<placeName n="placeName1">BRIXINENSEM</placeName>
           </emph>, cui fatis
-                faventibus, illustre adeo sidus radios suos tam liberaliter<gap/>fortunatam sponsam! quam<emph>AQUILA</emph>sponso
+                faventibus, illustre adeo sidus radios suos tam liberaliter<gap n="gap2"/>fortunatam sponsam! quam<emph n="emph3">AQUILA</emph>sponso
                 coniunget, auspicato haud dubie Hymenaeo, nec enim</p>
-        <lg>
-          <l>Imbellem feroces</l>
-          <l>Progenerant Aquilae columbam.<note place="margin">Horatius, L. 4 Od. 4.</note>
+        <lg n="lg2">
+          <l n="l1">Imbellem feroces</l>
+          <l n="l2">Progenerant Aquilae columbam.<note n="note1" place="margin">Horatius, L. 4 Od. 4.</note>
           </l>
         </lg>
-        <p>
-          <note place="margin">Applaudunt Nymphae.</note>Ita inter se disserentes Genios pernix ales superato
+        <p n="p3">
+          <note n="note1" place="margin">Applaudunt Nymphae.</note>Ita inter se disserentes Genios pernix ales superato
                 paulatim alpium dorso in vallem abduxerat, Nympharum sedem, et qua se tumoris sui
                 tenaciores scopuli demittunt, perpetuo frondentium arborum virore coronatam. Dryades
                 seu insolenti hospitum adventu excitae, seu occulto afflatae Numine, postquam
                 agitatis in choream pedibus, inconditae laetitiae aliquamdiu praeluserant, eandem
                 sylvestri Harmonia ita testari caeperunt.</p>
-        <lg>
-          <l>Diva, cui sacratiore</l>
-          <l>Surgit ingens rupe Cynthus;</l>
-          <l>Cui comante stat virore</l>
-          <l>Moenali frondosa tecta;</l>
-          <l>Cui vetusta Delus alnos,</l>
-          <l>Aeolo furente, sternit pinquibus cum victimis!</l>
-          <l>Tuque triplicis sororis</l>
-          <l>Multiformis Phoebe frater,</l>
-          <l>Et nocens non innocentis</l>
-          <l>Author arcus et sagittae,</l>
-          <pb n="6"/>
-          <l>Quae Draconis colla fixit,</l>
-          <l>Et venenum prima suxit, huc ades Latonie!</l>
-          <l>Ubique Nympharum cohortes</l>
-          <l>Quotquot incolae propinquae</l>
-          <l>Per cavi Lycaea saltus</l>
-          <l>Curritis negotiosae,</l>
-          <l>Seu leves ferire damnas;</l>
-          <l>Textili seu prata mure iuverit circumdare.</l>
-          <l>Quae cruoris sat dedere</l>
-          <l>Insonante tela nervo,</l>
-          <l>Nunc inanis nunc pharetra</l>
-          <l>Otiosa condat alvo.</l>
-          <l>Mitiora bella fiant,</l>
-          <l>Sunt choris iungenda nostric, loetiora carmina.</l>
-          <l>Quanta non novit superba</l>
-          <l>Pieri Syren Thalia,</l>
-          <l>Quanta sed stupente luco</l>
-          <l>Deiopaeia iuncta Nisae,</l>
-          <l>Cum triummphos, cum Dianae</l>
-          <l>Lenibus commiscet undis murmurantis Partheni.</l>
-          <l>
-            <emph>ALITIS</emph>laudes canamus,</l>
-          <l>Tela quae Iovi trisulca</l>
-          <l>Fulminanti subministrat,</l>
-          <l>Nunc volante iuncta curru</l>
-          <l>Explicatis plaudit alis,</l>
-          <l>Nobilem vehens per auras<emph>HOSPITUM</emph>binarium.</l>
-          <l>Eia felix, eia perge,</l>
-          <l>Qua levat Favoniorum</l>
-          <pb n="7"/>
-          <l>Mollis aura, scinde nubes,</l>
-          <l>Sic nitescas inter astra,</l>
-          <l>Plumeum sic inter agmen</l>
-          <l>Audias Regina digna, digna ferre<emph>
-              <persName>REGULUM</persName>
+        <lg n="lg4">
+          <l n="l1">Diva, cui sacratiore</l>
+          <l n="l2">Surgit ingens rupe Cynthus;</l>
+          <l n="l3">Cui comante stat virore</l>
+          <l n="l4">Moenali frondosa tecta;</l>
+          <l n="l5">Cui vetusta Delus alnos,</l>
+          <l n="l6">Aeolo furente, sternit pinquibus cum victimis!</l>
+          <l n="l7">Tuque triplicis sororis</l>
+          <l n="l8">Multiformis Phoebe frater,</l>
+          <l n="l9">Et nocens non innocentis</l>
+          <l n="l10">Author arcus et sagittae,</l>
+          <pb n="pb11"/>
+          <l n="l12">Quae Draconis colla fixit,</l>
+          <l n="l13">Et venenum prima suxit, huc ades Latonie!</l>
+          <l n="l14">Ubique Nympharum cohortes</l>
+          <l n="l15">Quotquot incolae propinquae</l>
+          <l n="l16">Per cavi Lycaea saltus</l>
+          <l n="l17">Curritis negotiosae,</l>
+          <l n="l18">Seu leves ferire damnas;</l>
+          <l n="l19">Textili seu prata mure iuverit circumdare.</l>
+          <l n="l20">Quae cruoris sat dedere</l>
+          <l n="l21">Insonante tela nervo,</l>
+          <l n="l22">Nunc inanis nunc pharetra</l>
+          <l n="l23">Otiosa condat alvo.</l>
+          <l n="l24">Mitiora bella fiant,</l>
+          <l n="l25">Sunt choris iungenda nostric, loetiora carmina.</l>
+          <l n="l26">Quanta non novit superba</l>
+          <l n="l27">Pieri Syren Thalia,</l>
+          <l n="l28">Quanta sed stupente luco</l>
+          <l n="l29">Deiopaeia iuncta Nisae,</l>
+          <l n="l30">Cum triummphos, cum Dianae</l>
+          <l n="l31">Lenibus commiscet undis murmurantis Partheni.</l>
+          <l n="l32">
+            <emph n="emph1">ALITIS</emph>laudes canamus,</l>
+          <l n="l33">Tela quae Iovi trisulca</l>
+          <l n="l34">Fulminanti subministrat,</l>
+          <l n="l35">Nunc volante iuncta curru</l>
+          <l n="l36">Explicatis plaudit alis,</l>
+          <l n="l37">Nobilem vehens per auras<emph n="emph1">HOSPITUM</emph>binarium.</l>
+          <l n="l38">Eia felix, eia perge,</l>
+          <l n="l39">Qua levat Favoniorum</l>
+          <pb n="pb40"/>
+          <l n="l41">Mollis aura, scinde nubes,</l>
+          <l n="l42">Sic nitescas inter astra,</l>
+          <l n="l43">Plumeum sic inter agmen</l>
+          <l n="l44">Audias Regina digna, digna ferre<emph n="emph1">
+              <persName n="persName1">REGULUM</persName>
             </emph>.</l>
         </lg>
       </div>
-      <div>
-        <p>Excepere exultantium Dryadum tripudia avidis auribus, renidentique vultu Genii, dum
+      <div n="div9">
+        <p n="p1">Excepere exultantium Dryadum tripudia avidis auribus, renidentique vultu Genii, dum
                 vicina turrium fastigia nonisi nemori assuetis Nymphis cantus abrumpere, reditumque
                 ad nota sylvarum latibula imperarunt. Arx in conspectu erat (Castrum Honoris
                 appellant) avita Illustrissimae Familiae sedes, et loco ad delicias expolito
-                    sita.<note place="margin">Conspectus<placeName>Ehrenburgi</placeName>.</note>Praeter uberrimas luxuriantis soli illecebras ipsi
+                    sita.<note n="note1" place="margin">Conspectus<placeName n="placeName1">Ehrenburgi</placeName>.</note>Praeter uberrimas luxuriantis soli illecebras ipsi
                 quoque montes, qui diffuso in ambitum supercilio stellis prope minas intentant, ad
                 loci commendationem pertinent; quippe quos sollicita naturae industria tanto hic
                 fastu extulisse videtur, quo tutior his veluti munimentis hanc arcem, cymelii
                 pretiosi instar custodiret.</p>
-        <lg>
-          <l>Talis exceptum sitibunda rorem</l>
-          <l>Concha materno gremio recondit,</l>
-          <l>Gemmeam donec spoliata prolem</l>
-          <l>Cesserit Indo;</l>
-          <l>Talis humanae sua stella fronti</l>
-          <l>Conditur blanda cilii tegentis</l>
-          <l>Nube; sic inter medias procellas</l>
-          <l>Tutior ardet.</l>
-          <l>Talis auratas paritura venas</l>
-          <l>Abdito tellus tumulat sepulchro</l>
-          <pb n="8"/>
-          <l>Inque maternum jugulum Nepotis</l>
-          <l>Arma lacessit.</l>
+        <lg n="lg2">
+          <l n="l1">Talis exceptum sitibunda rorem</l>
+          <l n="l2">Concha materno gremio recondit,</l>
+          <l n="l3">Gemmeam donec spoliata prolem</l>
+          <l n="l4">Cesserit Indo;</l>
+          <l n="l5">Talis humanae sua stella fronti</l>
+          <l n="l6">Conditur blanda cilii tegentis</l>
+          <l n="l7">Nube; sic inter medias procellas</l>
+          <l n="l8">Tutior ardet.</l>
+          <l n="l9">Talis auratas paritura venas</l>
+          <l n="l10">Abdito tellus tumulat sepulchro</l>
+          <pb n="pb11"/>
+          <l n="l12">Inque maternum jugulum Nepotis</l>
+          <l n="l13">Arma lacessit.</l>
         </lg>
       </div>
-      <div>
-        <p>
-          <note place="margin">Stemma Illustrissimae
+      <div n="div10">
+        <p n="p1">
+          <note n="note1" place="margin">Stemma Illustrissimae
                         Familiae, ea qua recens Electus Princeps.</note>Iamque in area, quae
-                castro capacissima praetenditur, currus utrumque exposuerat, cum<emph>BASILISSA
+                castro capacissima praetenditur, currus utrumque exposuerat, cum<emph n="emph2">BASILISSA
                 KLINGLIANAE STIRPIS</emph>Diva, cadem que Castri Domina admonetur, advenisse, qui suum
                 peterent alloquium. Illa, ut erat optimi vultus gloria, quam nec ipsa tot annorum
                 aetas corruperat, Matrona illustris ad inferiorem arcis partem ocyus descendit, in
                 aedium vestibulo exceptura hospites. Sed jam illi excensione celeriter facta,
-                venientem occupaverant. Et<region>Tirolis</region>quidem<emph>GENIUS</emph>liberali prior salutatione
+                venientem occupaverant. Et<region n="region3">Tirolis</region>quidem<emph n="emph4">GENIUS</emph>liberali prior salutatione
                 perfunctus ait: Nolim, Domina, avidiorem te esse existimes, ut intelligas causam
                 subiti adventus nostri; quam prompte nos eandem tibi exponimus. Tua, eaque nova
                 felicitas huc nos advexit. Quodsi id tibi novum non est, veteribus in nos meritis id
-                accedet, si tantae felicitatis partem in nos quoque redundare sinas. Cui, cum<emph>BASILISSA</emph>reposuisset, nova haud dubie se felicitate beari, quod tam accepti ad se
+                accedet, si tantae felicitatis partem in nos quoque redundare sinas. Cui, cum<emph n="emph5">BASILISSA</emph>reposuisset, nova haud dubie se felicitate beari, quod tam accepti ad se
                 hospites divertissent: multa dein rogare, audireque coepit, de Brixinensium rebus
-                praecipue, quippe percunctanti alter aperuerant, et se<placeName>
-            <emph>BRIXINENSIS</emph>
+                praecipue, quippe percunctanti alter aperuerant, et se<placeName n="placeName6">
+            <emph n="emph1">BRIXINENSIS</emph>
           </placeName>
-          <emph>ECCLESIAE</emph>Ephebum
+          <emph n="emph7">ECCLESIAE</emph>Ephebum
                 esse, et modo eiusdem sponso, quemcunque designassent superi, occurrere potius, quam
                 adhuc indagare.</p>
       </div>
-      <pb n="9"/>
-      <div>
-        <p>Inter eiusmodi sermones progressi superiora tenebant, ubi varia per conclavia deducti
-                ad aulae<note place="margin">Aula
+      <pb n="pb11"/>
+      <div n="div12">
+        <p n="p1">Inter eiusmodi sermones progressi superiora tenebant, ubi varia per conclavia deducti
+                ad aulae<note n="note1" place="margin">Aula
                         Honoris, unde nomen ipsa ars accepit.</note>limen Pario lapide ad
-                magnificentiam exstructum<unclear>substitere</unclear>. Supra
+                magnificentiam exstructum<unclear n="unclear2">substitere</unclear>. Supra
                 ostium videbatur biverticis Jani familiae Praesidis simulachrum. Oleam dextra
                 praeferebat, lauro alteram frontem revinciente, tanquam nuda altera ab hospite
                 coronam expectaret. Laeva intrantibus tabulam, et in illa exaratos trabalibus
                 litteris hos versus legentibus offerebat.</p>
-        <lg>
-          <l>
-            <emph>
-              <persName>IANUS</persName>
+        <lg n="lg2">
+          <l n="l1">
+            <emph n="emph1">
+              <persName n="persName1">IANUS</persName>
             </emph>io! placide non amplius asper Olivae,</l>
-          <l>Et belli et Pacis mitia dona fero.</l>
-          <l>Ne mea post celebret patulo<emph>
-              <persName>MARS</persName>
+          <l n="l2">Et belli et Pacis mitia dona fero.</l>
+          <l n="l3">Ne mea post celebret patulo<emph n="emph1">
+              <persName n="persName1">MARS</persName>
             </emph>limina templo,</l>
-          <l>Ipse aulae limen iam mihi pandit<emph>HONOR</emph>.</l>
-          <l>Haec placet, haec pictis numerosa per atria Ceris.</l>
-          <l>Fortia facta Patrum, Semideumque refert.</l>
-          <l>Hinc mihi Palladii, frondentia munera, rami,</l>
-          <l>Hinc ornant medium laurea serta caput.</l>
-          <l>Qua vacat, o<emph>HOSPES</emph>, tibi pars haec una relicta est:</l>
-          <l>Hanc tuus exornet, pulchra corona, favor.</l>
+          <l n="l4">Ipse aulae limen iam mihi pandit<emph n="emph1">HONOR</emph>.</l>
+          <l n="l5">Haec placet, haec pictis numerosa per atria Ceris.</l>
+          <l n="l6">Fortia facta Patrum, Semideumque refert.</l>
+          <l n="l7">Hinc mihi Palladii, frondentia munera, rami,</l>
+          <l n="l8">Hinc ornant medium laurea serta caput.</l>
+          <l n="l9">Qua vacat, o<emph n="emph1">HOSPES</emph>, tibi pars haec una relicta est:</l>
+          <l n="l10">Hanc tuus exornet, pulchra corona, favor.</l>
         </lg>
       </div>
-      <div>
-        <p>Ambo hos versus legerant, delectati saltem, quod tanta ab se sperarentur, tum laxato
-                a postibus ostio ad aulae interiora, subsequente honoris causa<emph>BASILISSA</emph>, recessum
+      <div n="div13">
+        <p n="p1">Ambo hos versus legerant, delectati saltem, quod tanta ab se sperarentur, tum laxato
+                a postibus ostio ad aulae interiora, subsequente honoris causa<emph n="emph1">BASILISSA</emph>, recessum
                 est. Subeuntium hospitum oculos dum collucens undique opum fulgor perstringeret,
                 animos pariter admiratio intrabat. Spectabant attoniti promissa e tholo ad
                 pavimentum usque auroque argentoque liberaliter illusa aulaea,</p>
-        <pb n="10"/>
-        <p>quae uti superbientes parietes pretiose vestiebant, ita amaena varietate coloris
-                (coeruleus is erat purpureo limbo distinctus)<note place="margin">Color Gentilitius Familiae<persName>Kiniglianae</persName>.</note>intuentibus blanditias simul, maiestatemque
+        <pb n="pb2"/>
+        <p n="p3">quae uti superbientes parietes pretiose vestiebant, ita amaena varietate coloris
+                (coeruleus is erat purpureo limbo distinctus)<note n="note1" place="margin">Color Gentilitius Familiae<persName n="persName1">Kiniglianae</persName>.</note>intuentibus blanditias simul, maiestatemque
                 ingenerabant. Laudabant multum quoque ingentes e pellucida Crystalli glacie lychnos,
                 quos cum laboriosa artificum solertia in medio suspendisset, ut illud elegantiarum
                 domicilium, nocte invisis tenebris omnia obscurante, vicario interim lumine
                 illustrarent, illi interdiu officium praecipientes conceptos solis radios late
                 reddebant. Sed nihil aeque hospitum oculos rapuit, quam nobilissimarum picturarum
-                aspectus, quas cum singulas obeundo lustrarent avide, in imagine<emph>
-            <persName>ATLANTEM</persName>
+                aspectus, quas cum singulas obeundo lustrarent avide, in imagine<emph n="emph2">
+            <persName n="persName1">ATLANTEM</persName>
           </emph>, et
-                HERCULEM referente haeserunt. Habitus<persName>
-            <emph>ATLANTIS</emph>
+                HERCULEM referente haeserunt. Habitus<persName n="persName3">
+            <emph n="emph1">ATLANTIS</emph>
           </persName>erat in adstantem Alcidem onus
                 transferentis, quod iste humeris succedaneis impositum intrepidus subibat. Utriusque
-                Dei vultus, et ut ipsi quoque dicebant, sibi notos contemplati aliquamdiu<emph>GENII</emph>, a<emph>BASILISSA</emph>petunt, quis ille<emph>
-            <persName>ATLAS</persName>
-          </emph>?<persName>
-            <emph>HERCULES</emph>
+                Dei vultus, et ut ipsi quoque dicebant, sibi notos contemplati aliquamdiu<emph n="emph4">GENII</emph>, a<emph n="emph5">BASILISSA</emph>petunt, quis ille<emph n="emph6">
+            <persName n="persName1">ATLAS</persName>
+          </emph>?<persName n="persName7">
+            <emph n="emph1">HERCULES</emph>
           </persName>quis? qui reliquorum in tabulis
                 depictorum vultus essent; denique in quod se templum, quibusve Diis sacrum
                 deduxisset? illa, non errastit, inquit, nam et hi Dii sunt, vel si nominis ambitio
@@ -368,21 +390,21 @@
                 sago, ne cum vita posterorum memoriae interirent, sapienti prorsus consilio Maiores
                 hac in aula signa statuerunt, avitae gloriae monumenta. Quas hic tabulas rudes modo
                 cernitis, praesentium Heroum facinora expectant.</p>
-        <pb n="11"/>
-        <p>Caeterum haec aula<emph>HONORIS</emph>est, unde Castro nec sine omine nomen accrevit: quod enim
+        <pb n="pb4"/>
+        <p n="p5">Caeterum haec aula<emph n="emph1">HONORIS</emph>est, unde Castro nec sine omine nomen accrevit: quod enim
                 gloriae fastigium, quod mei non conscenderunt modo, sed et exornarunt? Et ne aliena
-                nominum involucra deinceps imponant, an<emph>
-            <persName>ATLANTE</persName>
-            <persName>IOANNEM GEORGIUM</persName>
-          </emph>agnoscite, in<persName>
-            <emph>HERCULE</emph>
-          </persName>suspicite<emph>
-            <persName>SEBASTIANUM</persName>
+                nominum involucra deinceps imponant, an<emph n="emph2">
+            <persName n="persName1">ATLANTE</persName>
+            <persName n="persName2">IOANNEM GEORGIUM</persName>
+          </emph>agnoscite, in<persName n="persName3">
+            <emph n="emph1">HERCULE</emph>
+          </persName>suspicite<emph n="emph4">
+            <persName n="persName1">SEBASTIANUM</persName>
           </emph>. 
-                Onus quod ab<persName>
-            <emph>ATLANTE</emph>
-          </persName>suscepit<emph>
-            <persName>HERCULES</persName>
+                Onus quod ab<persName n="persName5">
+            <emph n="emph1">ATLANTE</emph>
+          </persName>suscepit<emph n="emph6">
+            <persName n="persName1">HERCULES</persName>
           </emph>, coeli moles
                 non est, verum, uti penicillus quoque eleganter exhibet, luxuriantium pampinorum
                 felicitate celebrata Athesia; quippe quam ille singulari fortitudinis et prudentiae
@@ -391,116 +413,116 @@
                 diceret, gemitu temperare sibi non potuit, iusto dolori liberalius vacatura, ni
                 hospitum praesentia laetitiam postulasset.</p>
       </div>
-      <div>
-        <p>Placuere Ephebis ingeniosa<persName>Apellis</persName>aenigmata, interpretantis tamen studiosas
-                observationes magis probarunt. Itaque<region>Tirolis</region>
-          <emph>GENIUS</emph>Entheo quasi oestro abreptus,
+      <div n="div14">
+        <p n="p1">Placuere Ephebis ingeniosa<persName n="persName1">Apellis</persName>aenigmata, interpretantis tamen studiosas
+                observationes magis probarunt. Itaque<region n="region2">Tirolis</region>
+          <emph n="emph3">GENIUS</emph>Entheo quasi oestro abreptus,
                 ita cecinit.</p>
-        <lg>
-          <l>Quae se theatro, Scena recondito</l>
-          <l>Tam laeta pandit? quis decor explicat</l>
-          <l>Illustria Heroum trophaea, et</l>
-          <l>Multiplices animat triumphos?</l>
-          <l>Hic ille, non iam Punica ludicris</l>
-          <l>Canenda Nymphis fabula, Baiulus</l>
-          <pb n="12"/>
-          <l>
-            <emph>REGALIS ATLAS</emph>
-            <note place="margin">Pater
+        <lg n="lg2">
+          <l n="l1">Quae se theatro, Scena recondito</l>
+          <l n="l2">Tam laeta pandit? quis decor explicat</l>
+          <l n="l3">Illustria Heroum trophaea, et</l>
+          <l n="l4">Multiplices animat triumphos?</l>
+          <l n="l5">Hic ille, non iam Punica ludicris</l>
+          <l n="l6">Canenda Nymphis fabula, Baiulus</l>
+          <pb n="pb7"/>
+          <l n="l8">
+            <emph n="emph1">REGALIS ATLAS</emph>
+            <note n="note2" place="margin">Pater
                         Celsissimi Principis.</note>
-            <geogFeat>Athesinae</geogFeat>
+            <geogFeat n="geogFeat3">Athesinae</geogFeat>
           </l>
-          <l>Non dubium columenque terrae.</l>
-          <l>Hic ille, cuius nomina candidis</l>
-          <l>Evexit altum fama curulibus,</l>
-          <l>Supraque rupes, et nivosae</l>
-          <l>Nubivagos minitante cono</l>
-          <l>Montes<region>Tirolis</region>gloria sustulit.</l>
-          <l>Hunc<country>
-              <emph>AUSTRIORUM</emph>
-            </country>Regia<emph>CAESARUM</emph>
+          <l n="l9">Non dubium columenque terrae.</l>
+          <l n="l10">Hic ille, cuius nomina candidis</l>
+          <l n="l11">Evexit altum fama curulibus,</l>
+          <l n="l12">Supraque rupes, et nivosae</l>
+          <l n="l13">Nubivagos minitante cono</l>
+          <l n="l14">Montes<region n="region1">Tirolis</region>gloria sustulit.</l>
+          <l n="l15">Hunc<country n="country1">
+              <emph n="emph1">AUSTRIORUM</emph>
+            </country>Regia<emph n="emph2">CAESARUM</emph>
           </l>
-          <l>Vienna novit, patriosque</l>
-          <l>Detulit officiosa fasces.</l>
-          <l>Avara sed mors, heu! nimium meis</l>
-          <l>Iniqua votis! eripuit suum</l>
-          <l>Terris<emph>ATLANTEM</emph>, gloriaeque</l>
-          <l>Prociduas tumulavit aras.</l>
-          <l>An fallor? audax praecipiti nota</l>
-          <l>Damnare leges mortis, et impetum.</l>
-          <l>Virtute rara<emph>POSTERORUM</emph>
+          <l n="l16">Vienna novit, patriosque</l>
+          <l n="l17">Detulit officiosa fasces.</l>
+          <l n="l18">Avara sed mors, heu! nimium meis</l>
+          <l n="l19">Iniqua votis! eripuit suum</l>
+          <l n="l20">Terris<emph n="emph1">ATLANTEM</emph>, gloriaeque</l>
+          <l n="l21">Prociduas tumulavit aras.</l>
+          <l n="l22">An fallor? audax praecipiti nota</l>
+          <l n="l23">Damnare leges mortis, et impetum.</l>
+          <l n="l24">Virtute rara<emph n="emph1">POSTERORUM</emph>
           </l>
-          <l>Surgit io! redivivus ATLAS!</l>
-          <l>Iam destitutae pondera patriae</l>
-          <l>Secura tantis viribus,<emph>
-              <persName>HERCULES</persName>
+          <l n="l25">Surgit io! redivivus ATLAS!</l>
+          <l n="l26">Iam destitutae pondera patriae</l>
+          <l n="l27">Secura tantis viribus,<emph n="emph1">
+              <persName n="persName1">HERCULES</persName>
             </emph>
           </l>
-          <l>
-            <emph>GNATUS</emph>
-            <note place="margin">Germanus
+          <l n="l28">
+            <emph n="emph1">GNATUS</emph>
+            <note n="note2" place="margin">Germanus
                         Celsissimi.</note>subivit, iam ferendo</l>
-          <l>Patria facta probavit haeres.</l>
-          <l>His nunc quiescit fas humeris super,</l>
-          <l>Reduxque laeto sidere faustitas</l>
-          <l>Hinc Gratiae gaudent, fidesque</l>
-          <l>Ad patrios remeasse colles.</l>
-          <pb n="13"/>
-          <l>Hinc et ferati luxurians coma</l>
-          <l>Pomona faetas deprimit arbore;</l>
-          <l>Hinc largior Bacchus triumphos</l>
-          <l>Pampineas agit inter umbras.</l>
-          <l>Et tu recurvis fluctibus<geogFeat>Athesis</geogFeat>
+          <l n="l29">Patria facta probavit haeres.</l>
+          <l n="l30">His nunc quiescit fas humeris super,</l>
+          <l n="l31">Reduxque laeto sidere faustitas</l>
+          <l n="l32">Hinc Gratiae gaudent, fidesque</l>
+          <l n="l33">Ad patrios remeasse colles.</l>
+          <pb n="pb34"/>
+          <l n="l35">Hinc et ferati luxurians coma</l>
+          <l n="l36">Pomona faetas deprimit arbore;</l>
+          <l n="l37">Hinc largior Bacchus triumphos</l>
+          <l n="l38">Pampineas agit inter umbras.</l>
+          <l n="l39">Et tu recurvis fluctibus<geogFeat n="geogFeat1">Athesis</geogFeat>
           </l>
-          <l>Volvisse praeceps flumina diceris,</l>
-          <l>Nunc leniori lapsa tractu</l>
-          <l>Naiades celebrant fluenta</l>
-          <l>Prontae iocari. Nempe morosior</l>
-          <l>
-            <persName>
-              <emph>KLINGLIANI</emph>
-            </persName>moenia<note place="margin">Muri Familiae insigne.</note>
-            <emph>STEMMATIS</emph>
+          <l n="l40">Volvisse praeceps flumina diceris,</l>
+          <l n="l41">Nunc leniori lapsa tractu</l>
+          <l n="l42">Naiades celebrant fluenta</l>
+          <l n="l43">Prontae iocari. Nempe morosior</l>
+          <l n="l44">
+            <persName n="persName1">
+              <emph n="emph1">KLINGLIANI</emph>
+            </persName>moenia<note n="note2" place="margin">Muri Familiae insigne.</note>
+            <emph n="emph3">STEMMATIS</emph>
           </l>
-          <l>Ambit; moras qua liberales</l>
-          <l>Irriguo redimat tributo.</l>
+          <l n="l45">Ambit; moras qua liberales</l>
+          <l n="l46">Irriguo redimat tributo.</l>
         </lg>
       </div>
-      <div>
-        <p>
-          <note place="margin">
-            <placeName>Brixinensis</placeName>genii
+      <div n="div15">
+        <p n="p1">
+          <note n="note1" place="margin">
+            <placeName n="placeName1">Brixinensis</placeName>genii
                         votum.</note>
-          <placeName>
-            <emph>BRIXINENSIS</emph>
+          <placeName n="placeName2">
+            <emph n="emph1">BRIXINENSIS</emph>
           </placeName>quoque laudata penicilli elegantia provocatus
                 vota sua exclamando prodidit: Quam felix forem, aiebat, si vel meum coelum tantis
                 humeris innixum quiesceret. Dein ad comitem conversus. Utinam, subiungit, e familia
-                tot heroum procreatrice mihi principem destinassent Superi, dum morosa<emph>AQUILA</emph>spem
+                tot heroum procreatrice mihi principem destinassent Superi, dum morosa<emph n="emph3">AQUILA</emph>spem
                 meam, aut destituit, aut differt. Cui alter; Atqui id ipsum docuere me signa non
-                obscura, quae, quia et ad<emph>BASILISSAM</emph>pertinent, perstringam potius, quam exponam.
-                Cumque<emph>BASILISSA</emph>invitante, uterque ad mensam ex argento elaboratam accedens inter
-                usitata humanitatis officia purpureis in sellis consedisset, ita<region>Tirolis</region>
-          <emph>GENIUS</emph>exorsus est.</p>
+                obscura, quae, quia et ad<emph n="emph4">BASILISSAM</emph>pertinent, perstringam potius, quam exponam.
+                Cumque<emph n="emph5">BASILISSA</emph>invitante, uterque ad mensam ex argento elaboratam accedens inter
+                usitata humanitatis officia purpureis in sellis consedisset, ita<region n="region6">Tirolis</region>
+          <emph n="emph7">GENIUS</emph>exorsus est.</p>
       </div>
-      <pb n="14"/>
-      <div>
-        <p>
-          <note place="margin">Ominosa ostenta<placeName>Oeniponti</placeName>.</note>Coelo nox vertebatur, et amicum Lunae silentium diurno
+      <pb n="pb16"/>
+      <div n="div17">
+        <p n="p1">
+          <note n="note1" place="margin">Ominosa ostenta<placeName n="placeName1">Oeniponti</placeName>.</note>Coelo nox vertebatur, et amicum Lunae silentium diurno
                 labore fatigatos mortales ad alternam quietem invitabat; me tamen vigilare iusserat
                 Serenae noctis claritas modo scintillantia siderum agmina curiose lustrantem, modo
                 meis ex aedibus (provinciales tum forte incolebam) ad propinqua palatia obtutus
-                reflectentem: forte in splendidum<persName>
-            <emph>KINIGLIANAE</emph>
+                reflectentem: forte in splendidum<persName n="persName2">
+            <emph n="emph1">KINIGLIANAE</emph>
           </persName>
-          <emph>FAMILIAE</emph>palatium oculos conieceram,
-                cuius Magnificentia advenis quoque inter reliqua<placeName>Oenipontanae</placeName>urbis decora
+          <emph n="emph3">FAMILIAE</emph>palatium oculos conieceram,
+                cuius Magnificentia advenis quoque inter reliqua<placeName n="placeName4">Oenipontanae</placeName>urbis decora
                 spectaculo, et admirationi est; cum hanc mihi mentem boni haud dubie Coelites
                 iniecere, ut grandes illas animas recenserem, quae his aedibus natales suos
                 deberent. Iamque animus hac tam iucunda recordatione excitatus vota meditabatur;
                 ecce! leni tremore concussa domus insolens spectaculum exhibet. Vidi omnem
                 palatiorem viciniam prodigiosa urbanitate elatos in sublime apices demittere, uno
-                illo, quod tui, o<emph>BASILISSA</emph>, erexerunt, gratulantium domorum officia vertice immoto
+                illo, quod tui, o<emph n="emph5">BASILISSA</emph>, erexerunt, gratulantium domorum officia vertice immoto
                 excipiente. Parum videri poterat, ni coelum terrestribus prodigiis accessisset:
                 Namque ex Aquilae clariori tum luce fulgentis astro emicans repente radius charas
                 adeo superis aedes splendore insolito involvit Quid iam tot omina innuerent aliud,
@@ -508,119 +530,119 @@
                 in exhibendis officiis lapidibus etiam ipsis concederem, protinus inscendi currum,
                 ante Auroram adhuc ad te evolaturus.</p>
       </div>
-      <pb n="15"/>
-      <div>
-        <p>Varie haec narratio a prasentibus excepta est;<emph>
-            <placeName>BRIXINENSIS</placeName>
+      <pb n="pb18"/>
+      <div n="div19">
+        <p n="p1">Varie haec narratio a prasentibus excepta est;<emph n="emph1">
+            <placeName n="placeName1">BRIXINENSIS</placeName>
           </emph>animum morae impatientem,
                 et ob id ipsum de eventu sollicitum, oblata spes turbaverat; Matronae vultum eximiae
-                laudes rubore<gap reason="illegible"/>damnare poterat; haec faciliori credulitate ambitionis notam incurrere nolebat. Rem
-                ioco eludere placuit, et emendata iam fronte, deductisque modice labiis interrogat,<persName>Oedipus</persName>, an<persName>Josephus</persName>dici a se malit? Quamquam Aegyptium inter vatem, novumque
+                laudes rubore<gap n="gap2" reason="illegible"/>damnare poterat; haec faciliori credulitate ambitionis notam incurrere nolebat. Rem
+                ioco eludere placuit, et emendata iam fronte, deductisque modice labiis interrogat,<persName n="persName3">Oedipus</persName>, an<persName n="persName4">Josephus</persName>dici a se malit? Quamquam Aegyptium inter vatem, novumque
                 Augurem id discriminis intervenisse referebat, quod ille vel somnians futurae
                 felicitatis omen non vane captasset, hic vero etiam vigilans somniaret. Coeterum qua
-                de<emph>AQUILA</emph>ipsi quidem dissererent, ignorare se, verum si intra aulae limites venari
+                de<emph n="emph5">AQUILA</emph>ipsi quidem dissererent, ignorare se, verum si intra aulae limites venari
                 volupe esset, in se moram non fore, quin praedam desideratam propere obiiceret. Sic
                 digressa, hospitem alterum votorum satis securum; alterum spe, metuque exagitandum
                 reliquit: nam</p>
-        <lg>
-          <l>Velut insanis iactata Notis</l>
-          <l>Dubio titubat navis in aequore.</l>
-          <l>Iam per liquidas concitu valles</l>
-          <l>Metuit saevis fluctibus obrui;</l>
-          <l>Iam spumanti pendula culmine</l>
-          <l>Alterno parat ire profundo.</l>
-          <l>Sic ancipiti pectus imagine</l>
-          <l>Varios fluctuat inter motus,</l>
-          <l>Non innubi nitet axe dies,</l>
-          <l>Non spissis nox incubat umbris:</l>
-          <pb n="16"/>
-          <l>Incerta sui credita damnat,</l>
-          <l>Et quod sperat, mens metuit simul.</l>
+        <lg n="lg2">
+          <l n="l1">Velut insanis iactata Notis</l>
+          <l n="l2">Dubio titubat navis in aequore.</l>
+          <l n="l3">Iam per liquidas concitu valles</l>
+          <l n="l4">Metuit saevis fluctibus obrui;</l>
+          <l n="l5">Iam spumanti pendula culmine</l>
+          <l n="l6">Alterno parat ire profundo.</l>
+          <l n="l7">Sic ancipiti pectus imagine</l>
+          <l n="l8">Varios fluctuat inter motus,</l>
+          <l n="l9">Non innubi nitet axe dies,</l>
+          <l n="l10">Non spissis nox incubat umbris:</l>
+          <pb n="pb11"/>
+          <l n="l12">Incerta sui credita damnat,</l>
+          <l n="l13">Et quod sperat, mens metuit simul.</l>
         </lg>
-        <p>Redierat exporrecto in laetitiam vultu<emph>DIVA</emph>, arculam manibus praeferens, gemmis, inauribus, mundoque muliebri
+        <p n="p3">Redierat exporrecto in laetitiam vultu<emph n="emph1">DIVA</emph>, arculam manibus praeferens, gemmis, inauribus, mundoque muliebri
                 gravidam. Interim dum illa eruendis e seriniolo opibus intenta tam pretiosis dapibus
-                mensam obtegeret, his versibus spem suam<emph>BRIXINENSIS</emph>solatus est.</p>
-        <lg>
-          <l>
-            <persName>Titan</persName>auree, lumium perennis</l>
-          <l>Fons et lampadis arbiter diurnae,</l>
-          <l>Flammas, non moror, aureas reconde.</l>
-          <l>Non per Stelliferi vias<geogFeat>Olympi</geogFeat>
+                mensam obtegeret, his versibus spem suam<emph n="emph2">BRIXINENSIS</emph>solatus est.</p>
+        <lg n="lg4">
+          <l n="l1">
+            <persName n="persName1">Titan</persName>auree, lumium perennis</l>
+          <l n="l2">Fons et lampadis arbiter diurnae,</l>
+          <l n="l3">Flammas, non moror, aureas reconde.</l>
+          <l n="l4">Non per Stelliferi vias<geogFeat n="geogFeat1">Olympi</geogFeat>
           </l>
-          <l>Raptus remigio librantis alae</l>
-          <l>Hospes sidereum hauriam nitorem;</l>
-          <l>Quando sideribus vel invidenda</l>
-          <l>Lux terris nitet, et potentiore</l>
-          <l>Exleges oculos ferit sagitta.</l>
-          <l>Ut splendent Adamas, Onyx, Achates!</l>
-          <l>Ut ludit viridi Smaragdus igne!</l>
-          <l>Ut flammas imitans Pyropus ardet!</l>
-          <l>Huc ergo viduam admovebo taedam:</l>
-          <l>Quid gemma, nisi gemmeas favillas,</l>
-          <l>Aut incendia pulchra fulgurabunt,</l>
-          <l>Queis pulchre meus hic liquescat ignis?</l>
-          <l>Ergo<persName>Phaebe</persName>pater, tuum nitorem</l>
-          <l>Et quem non moror, aureum reconde,</l>
-          <l>Gemmis excutiam meos amores.</l>
-          <l>Sim sic omnibus, omnibusque dicar</l>
-          <l>Et felicior, et novus<persName>Prometheus</persName>.</l>
+          <l n="l5">Raptus remigio librantis alae</l>
+          <l n="l6">Hospes sidereum hauriam nitorem;</l>
+          <l n="l7">Quando sideribus vel invidenda</l>
+          <l n="l8">Lux terris nitet, et potentiore</l>
+          <l n="l9">Exleges oculos ferit sagitta.</l>
+          <l n="l10">Ut splendent Adamas, Onyx, Achates!</l>
+          <l n="l11">Ut ludit viridi Smaragdus igne!</l>
+          <l n="l12">Ut flammas imitans Pyropus ardet!</l>
+          <l n="l13">Huc ergo viduam admovebo taedam:</l>
+          <l n="l14">Quid gemma, nisi gemmeas favillas,</l>
+          <l n="l15">Aut incendia pulchra fulgurabunt,</l>
+          <l n="l16">Queis pulchre meus hic liquescat ignis?</l>
+          <l n="l17">Ergo<persName n="persName1">Phaebe</persName>pater, tuum nitorem</l>
+          <l n="l18">Et quem non moror, aureum reconde,</l>
+          <l n="l19">Gemmis excutiam meos amores.</l>
+          <l n="l20">Sim sic omnibus, omnibusque dicar</l>
+          <l n="l21">Et felicior, et novus<persName n="persName1">Prometheus</persName>.</l>
         </lg>
       </div>
-      <pb n="17"/>
-      <div>
-        <p>
-          <note place="margin">Basilissa Genium
+      <pb n="pb20"/>
+      <div n="div21">
+        <p n="p1">
+          <note n="note1" place="margin">Basilissa Genium
                         Bricinensem annulo donat.</note>Dudum Matrona intelligere avebat, quem
                 in usum Genius hanc taedam stringeret et enata igitur opportunitate mire laeta amice
                 Genium ad destinatam quaestionem adegit. Ille vero candide rem aperuit iam parari,
-                aiebat,<emph>BRIXINENSI ECCLESIAE</emph>novum Hymenaeum, eius auspiciis facem hanc arsuram;
-                unum modo Aquilae aenigma nec dum evolutum sacros ignes morari.<emph>BASILISSA</emph>nihil
+                aiebat,<emph n="emph2">BRIXINENSI ECCLESIAE</emph>novum Hymenaeum, eius auspiciis facem hanc arsuram;
+                unum modo Aquilae aenigma nec dum evolutum sacros ignes morari.<emph n="emph3">BASILISSA</emph>nihil
                 cunctandum rata, praeter varias inaures, armillasque annulum admirandi operis
-                eduxit, eundemque<emph>
-            <placeName>BRIXINENSI</placeName>
+                eduxit, eundemque<emph n="emph4">
+            <placeName n="placeName1">BRIXINENSI</placeName>
           </emph>porrigens rogat, sponsae sacrum in foedus moc iturae,
                 hanc Aquilam, hanc arrham perferret, forte non indignam, quae sponsi digitis
                 insinuaretur. Annulus aureus erat, cui ingentis pretii gemma includebatur; in ea
-                perita<persName>Pyrgotelis</persName>aut<persName>Dioscoridae</persName>manus avium comitia, velut quondam in Achate<persName>Pyrrhi</persName>Musarum choros, expressera.<emph>AQUILA</emph>praecipue explicatis alis tanquam in aere
-                suspensa gloriosum onus<emph>
-            <persName>REGULUM</persName>
+                perita<persName n="persName5">Pyrgotelis</persName>aut<persName n="persName6">Dioscoridae</persName>manus avium comitia, velut quondam in Achate<persName n="persName7">Pyrrhi</persName>Musarum choros, expressera.<emph n="emph8">AQUILA</emph>praecipue explicatis alis tanquam in aere
+                suspensa gloriosum onus<emph n="emph9">
+            <persName n="persName1">REGULUM</persName>
           </emph>sustinebat, simul avicula altiorem volatum
                 intendere, simul reliquae volucres vel in humum effusae, vel frondibus impositae
-                erant, inde ceu ex nobiliore odaeo erectis rostris ovanti victoria<persName>
-            <emph>REGULO</emph>
+                erant, inde ceu ex nobiliore odaeo erectis rostris ovanti victoria<persName n="persName10">
+            <emph n="emph1">REGULO</emph>
           </persName>Epinicion
                 admodulantes.</p>
-        <p>
-          <note place="margin">Inopinata<placeName>Brixinensis</placeName>Genii laetitia.</note>Gratum habuit munus illud<placeName>
-            <emph>BRIXINENSIS</emph>
+        <p n="p2">
+          <note n="note1" place="margin">Inopinata<placeName n="placeName1">Brixinensis</placeName>Genii laetitia.</note>Gratum habuit munus illud<placeName n="placeName2">
+            <emph n="emph1">BRIXINENSIS</emph>
           </placeName>vel ideo, quod ab hac manu veniret; ubi vero penitius gemmae pretium, et insculptam
                 artificiose imaginem inspexit, impotentem laetitiae animum in eiusmodi voces
-                laxavit: En<emph>AQUILAM</emph>! en</p>
-        <pb n="18"/>
-        <p>
-          <emph>
-            <persName>REGULUM</persName>
-          </emph>! Necdum de<persName>
-            <emph>REGULO</emph>
-          </persName>quidquam<region>Tirolis</region>GENIO hactenus patuerat, itaque rei
-                cognoscendae avidus oculos et ipse dono admovet, monente subinde<emph>BASILISSA</emph>, ne
-                artificis duntaxat<gap reason="illegible"/>mysteria, quae nequentia
-                ibi laterent, penetrare niterentur. Mox adiecit, Aquilam Reverendissimi<emph>
-            <placeName>BRIXINENSIS</placeName>CAPITULI</emph>insignia et symbolum esse; Reguli autem imagine familiae suae decus et
-                ornamentum singulare<emph>
-            <persName>CASPARUM IGNATIUM</persName>
+                laxavit: En<emph n="emph3">AQUILAM</emph>! en</p>
+        <pb n="pb3"/>
+        <p n="p4">
+          <emph n="emph1">
+            <persName n="persName1">REGULUM</persName>
+          </emph>! Necdum de<persName n="persName2">
+            <emph n="emph1">REGULO</emph>
+          </persName>quidquam<region n="region3">Tirolis</region>GENIO hactenus patuerat, itaque rei
+                cognoscendae avidus oculos et ipse dono admovet, monente subinde<emph n="emph4">BASILISSA</emph>, ne
+                artificis duntaxat<gap n="gap5" reason="illegible"/>mysteria, quae nequentia
+                ibi laterent, penetrare niterentur. Mox adiecit, Aquilam Reverendissimi<emph n="emph6">
+            <placeName n="placeName1">BRIXINENSIS</placeName>CAPITULI</emph>insignia et symbolum esse; Reguli autem imagine familiae suae decus et
+                ornamentum singulare<emph n="emph7">
+            <persName n="persName1">CASPARUM IGNATIUM</persName>
           </emph>designari, non eo solum argumento, quod
                 commune cum avicula nomen eidem foret; sed quod idem Reverendissimorum Canonicorum
-                Senatus Eum pridem Caput suum, et<emph>DECANUM</emph>esse voluerit, innata licet modestia
-                multum reclamante, et sancta quadam pertinacia tenues<emph>
-            <persName>REGULI</persName>
+                Senatus Eum pridem Caput suum, et<emph n="emph8">DECANUM</emph>esse voluerit, innata licet modestia
+                multum reclamante, et sancta quadam pertinacia tenues<emph n="emph9">
+            <persName n="persName1">REGULI</persName>
           </emph>vires obrendente.</p>
       </div>
-      <div>
-        <p>
-          <note place="margin">Idem ostenta sibi
-                        prodigia refert.</note>Frustra porro obtendet, subiungit<placeName>
-            <emph>BRIXINENSIS</emph>
+      <div n="div22">
+        <p n="p1">
+          <note n="note1" place="margin">Idem ostenta sibi
+                        prodigia refert.</note>Frustra porro obtendet, subiungit<placeName n="placeName2">
+            <emph n="emph1">BRIXINENSIS</emph>
           </placeName>;
                 iam me, quantus sit, erudierunt superi Enim vero quamvis dormientem me imago, quam
                 enarrare animus est, recreaverit, illum tamen fallet sententia, quisquis somniis eam
@@ -629,149 +651,149 @@
                 columnas, quae aureis basibus impositae superbam molem fulciebant, non compacta
                 unionibus laquearia, non parietum radios lingua satis exprimet: quocunque oculos
                 vertebam,</p>
-        <pb n="19"/>
-        <p>undique mira venustas obviabat. Et ne forte anxius haererem, cui magnificae hae aedes
+        <pb n="pb2"/>
+        <p n="p3">undique mira venustas obviabat. Et ne forte anxius haererem, cui magnificae hae aedes
                 surgerent, in ipso statim propylaeo aureis 
                     characteribus exarata haec verba legebantur.</p>
-        <l>
-          <emph>SEDES AETERNA RECENS ELECTI BRIXINENSIUM EPISCOPI</emph>.</l>
+        <l n="l4">
+          <emph n="emph1">SEDES AETERNA RECENS ELECTI BRIXINENSIUM EPISCOPI</emph>.</l>
       </div>
-      <div>
-        <p>Hic ego tacite indignrai, et pene iam Coelites incusare, quod arcana sua latentium
+      <div n="div23">
+        <p n="p1">Hic ego tacite indignrai, et pene iam Coelites incusare, quod arcana sua latentium
                 adeo causarum nexibus involverent, e quibus se expedire mortali fas non esset. Nisi
                 improviso adventu accessissent Viri veneranda omnes canitie, et Episcopali Infusa
                 spectabiles, quos cum attentiore lumine, quantum per emissos ex vultu radios
-                licebat, contemplarer, Divos Indigetes<emph>
-            <persName>CASSIANUM</persName>
-          </emph>, cum<persName>
-            <emph>INGENUINO</emph>
-          </persName>et<emph>
-            <persName>ALBUINO</persName>
+                licebat, contemplarer, Divos Indigetes<emph n="emph1">
+            <persName n="persName1">CASSIANUM</persName>
+          </emph>, cum<persName n="persName2">
+            <emph n="emph1">INGENUINO</emph>
+          </persName>et<emph n="emph3">
+            <persName n="persName1">ALBUINO</persName>
           </emph>agnovi.
-                Ergo in genua prono corpore defluens ad pedes, qui comites anteibat, Divi<persName>
-            <emph>CASSIANI</emph>
+                Ergo in genua prono corpore defluens ad pedes, qui comites anteibat, Divi<persName n="persName4">
+            <emph n="emph1">CASSIANI</emph>
           </persName>me abiicio. Ille miti luminum in me coniectu favorem suum pollicitus hoc oraculum
                 edidit:</p>
-        <lg>
-          <l>
-            <emph>
-              <persName>REGULUS</persName>
+        <lg n="lg2">
+          <l n="l1">
+            <emph n="emph1">
+              <persName n="persName1">REGULUS</persName>
             </emph>astriferas pennis subvectus ad arces</l>
-          <l>Alituum Reginae<emph>AQUILAE</emph>, virtutibus orbem</l>
-          <l>Illustrarit ubi patrium, mitraque, pedoque</l>
-          <l>Inclytus has, fatis poscentibus, incolet aedes.</l>
+          <l n="l2">Alituum Reginae<emph n="emph1">AQUILAE</emph>, virtutibus orbem</l>
+          <l n="l3">Illustrarit ubi patrium, mitraque, pedoque</l>
+          <l n="l4">Inclytus has, fatis poscentibus, incolet aedes.</l>
         </lg>
       </div>
-      <div>
-        <p>Cortinam modice distrinxerat, quam ego dimotam penitus cupiebam. At qui dextrum
+      <div n="div24">
+        <p n="p1">Cortinam modice distrinxerat, quam ego dimotam penitus cupiebam. At qui dextrum
                 stipabat latus, votis meis paulo aequior significavit: illum, quem hebescenti
                 oculorum acie exciperem, fulgorem, non unionibus, non auro, sed virtu-</p>
-        <pb n="20"/>
-        <p>tibus, quarum decora in futuro<emph>CELSISSIMO PRINCIPE</emph>relucerent, tribui debere. Nam et
+        <pb n="pb2"/>
+        <p n="p3">tibus, quarum decora in futuro<emph n="emph1">CELSISSIMO PRINCIPE</emph>relucerent, tribui debere. Nam et
                 blanda Carbunculi fulgura flagrantem Dei et Proximi amore animum accendisse, et
-                    adam<gap reason="illegible"/>fulcra erectam semper, et in
+                    adam<gap n="gap2" reason="illegible"/>fulcra erectam semper, et in
                 adversis etiam casibus placidam constantiam firmasse. Reliquas viruttes, raram animi
                 demissionem, sacrum mundi superbientis fastidium, suis quamque gemmis designari.
                 Denique celebratam satis esse illam benignitatem, quae non modo aures ad percipienda
                 miserorum lamenta, sed ipsum adeo vere paternum pectus toties reserasset, unde et
                 solatia, et opem nunquam non retulissent indigni. Atque huis munificentiae, quod non
-                dissimilis esset pre prodigae<emph>
-            <persName>IOANNIS</persName>
+                dissimilis esset pre prodigae<emph n="emph3">
+            <persName n="persName1">IOANNIS</persName>
           </emph>Alexandrini liberalitati, Deum quoque auream
-                hanc fabricam in praemium statuisse. Ad ultimum felicem pronuntiabat<emph>
-            <placeName>BRIXINENSEM</placeName>ECCLESIAM</emph>, cui mox Aquila tantum datura esset sponsum. Finerat, cum nova repente lux
+                hanc fabricam in praemium statuisse. Ad ultimum felicem pronuntiabat<emph n="emph4">
+            <placeName n="placeName1">BRIXINENSEM</placeName>ECCLESIAM</emph>, cui mox Aquila tantum datura esset sponsum. Finerat, cum nova repente lux
                 oborta sacros Oratores eripuit, meque sopore solutum mihi reddidit. Aperta omnia,
                 expeditaque esse fingebat oblatae voluptatis magnitudo; quot tamen in errores me
-                prope coniecerat obscurum<emph>AQUILAE</emph>augurium?</p>
-        <p>Gratiosus est error, subiicit<region>Tirolis</region>
-          <emph>GENIUS</emph>, quo viam monstrante reperisti,<note place="margin">Auguria
-                    evoluta.</note>quibus inventum thesaurum debeas. Verum quando me duce,<emph>BASILISSAE</emph>munere,<emph>AQUILAM</emph>agnoscas,<emph>
-            <persName>REGULUM</persName>
+                prope coniecerat obscurum<emph n="emph5">AQUILAE</emph>augurium?</p>
+        <p n="p4">Gratiosus est error, subiicit<region n="region1">Tirolis</region>
+          <emph n="emph2">GENIUS</emph>, quo viam monstrante reperisti,<note n="note3" place="margin">Auguria
+                    evoluta.</note>quibus inventum thesaurum debeas. Verum quando me duce,<emph n="emph4">BASILISSAE</emph>munere,<emph n="emph5">AQUILAM</emph>agnoscas,<emph n="emph6">
+            <persName n="persName1">REGULUM</persName>
           </emph>teneas, quid sacris Hymenaei
                 ignibus</p>
-        <pb n="21"/>
-        <p>moram affundis? quin et nos<placeName>Brixinam</placeName>contendimus, si non fortunati nuntii ad<emph>ECCLESIAM</emph>baiuli, certe inter gratulantium turbam futuri non<gap reason="illegible"/>
-          <emph>BASILISSA</emph>annuit.
-                Itaque<placeName>Brixinensis</placeName>in Principis, familiaeque laudes effusus taedam, quam manu
+        <pb n="pb5"/>
+        <p n="p6">moram affundis? quin et nos<placeName n="placeName1">Brixinam</placeName>contendimus, si non fortunati nuntii ad<emph n="emph2">ECCLESIAM</emph>baiuli, certe inter gratulantium turbam futuri non<gap n="gap3" reason="illegible"/>
+          <emph n="emph4">BASILISSA</emph>annuit.
+                Itaque<placeName n="placeName5">Brixinensis</placeName>in Principis, familiaeque laudes effusus taedam, quam manu
                 gestabat, Matronae venerabundus offert. Nec illa munus reiecit, et pronubam facem
                 solenni sanctioribsu etiam nuptiis ritu lucere pollicita est, modicum sibi concedi
                 spatium flagitans, quod in se exornanda muliebri ingenio insumeret, quo Augustior
                 festivo Desponsationis actui interesset. Quia vero, quidquid morae iam interveniret,
-                aegre admodum laturus Genius videbatur, communio suffragio decernitur, ut praeiret<placeName>Brixinensis</placeName>: ipsi sequerentur. Ergo relicta sella, postquam praetereundo positas
+                aegre admodum laturus Genius videbatur, communio suffragio decernitur, ut praeiret<placeName n="placeName6">Brixinensis</placeName>: ipsi sequerentur. Ergo relicta sella, postquam praetereundo positas
                 utrinque Heroum statuas inflexo corpore veneratus fuisset, ad limen aulae pervenit;
-                ibi memor quae<emph>
-            <persName>IANI</persName>
+                ibi memor quae<emph n="emph7">
+            <persName n="persName1">IANI</persName>
           </emph>signum memoratis iam ante versibus postulabat, rata se eius vota
-                habiturum recepit. Ipsi etiam<emph>HONORIS CASTRO</emph>, quod tantum sibi educasset Principem,
-                quod Ecclesiae suae Sponsum destinasset, ut honorem impenderet, gentilitii clypei muros a<emph>BASILISSA</emph>obtinuit,
+                habiturum recepit. Ipsi etiam<emph n="emph8">HONORIS CASTRO</emph>, quod tantum sibi educasset Principem,
+                quod Ecclesiae suae Sponsum destinasset, ut honorem impenderet, gentilitii clypei muros a<emph n="emph9">BASILISSA</emph>obtinuit,
                 Episcopali scuto ad ingentis beneficii memoriam inserendos. Quibus compositis in
                 auras suis ipse alis sublatus Ephebus faustas inter acclamantium voces avolavit.</p>
       </div>
-      <pb n="22"/>
-      <div>
-        <p>
-          <note place="margin">Communis patriae
+      <pb n="pb25"/>
+      <div n="div26">
+        <p n="p1">
+          <note n="note1" place="margin">Communis patriae
                         Plausus.</note>Inter haec strenua magnarum rerum proclamatrix fama
                 totam incredibili celeritate provinciam pervagata aurea e tuba efflavit,
-                    Reverendissimo<gap reason="illegible"/>S.R.I. Principem, et Episcopum<emph>
-            <placeName>BRIXINENSEM</placeName>
-            <persName>CASPARUM
+                    Reverendissimo<gap n="gap2" reason="illegible"/>S.R.I. Principem, et Episcopum<emph n="emph3">
+            <placeName n="placeName1">BRIXINENSEM</placeName>
+            <persName n="persName2">CASPARUM
                 IGNATIUM</persName>
           </emph>vel incitum renuntiatum esse. Quis iam fando exaequet, quo erumpentium in
                 plausus studio, quo gratulantium animorum motu, auspicatissimae Electionis nuntius
                 Oeniponti praecipue sit exceptus? Omnis aetas, ordo omnis, tantae laetitiae
-                particeps, dispari quidem voce, sed unanimi voto ingeminabant, mille annos<emph>CELSISSIMO PASTORI</emph>; felicissimum regimen electo Principi voventes.<note place="margin">Genii Societatis Iesu<placeName>Oenipontani</placeName>singularis.</note>Publicis gaudiis sua iunxisse non contentus Collegii
-                Societatis Iesu Oenipontani Genius, gaudio gaudere singulati voluit, Sacro pridem<persName>IGNATII</persName>nomine ad tam iucundam singularitatem invitante. Quare vocato in laetitiae
-                partem vicini<placeName>Halensis</placeName>Collegii Genio<placeName>Brixinam</placeName>versus iter arripere statuit,<emph>EXALTATO AB AQUILA<persName>REGULO</persName>
-          </emph>applausurus, et inter adgeniculantes oviculas<emph>CELSISSIMUM
-                PASTOREM</emph>adoraturus. Interim ne aliqua officii pars vacaret, imperato<persName>Calliopae</persName>cantu, ceu extemporaneo perpetui, devotissimique affectus sui monumento gaudium suum
+                particeps, dispari quidem voce, sed unanimi voto ingeminabant, mille annos<emph n="emph4">CELSISSIMO PASTORI</emph>; felicissimum regimen electo Principi voventes.<note n="note5" place="margin">Genii Societatis Iesu<placeName n="placeName1">Oenipontani</placeName>singularis.</note>Publicis gaudiis sua iunxisse non contentus Collegii
+                Societatis Iesu Oenipontani Genius, gaudio gaudere singulati voluit, Sacro pridem<persName n="persName6">IGNATII</persName>nomine ad tam iucundam singularitatem invitante. Quare vocato in laetitiae
+                partem vicini<placeName n="placeName7">Halensis</placeName>Collegii Genio<placeName n="placeName8">Brixinam</placeName>versus iter arripere statuit,<emph n="emph9">EXALTATO AB AQUILA<persName n="persName1">REGULO</persName>
+          </emph>applausurus, et inter adgeniculantes oviculas<emph n="emph10">CELSISSIMUM
+                PASTOREM</emph>adoraturus. Interim ne aliqua officii pars vacaret, imperato<persName n="persName11">Calliopae</persName>cantu, ceu extemporaneo perpetui, devotissimique affectus sui monumento gaudium suum
                 palam esse voluit.</p>
       </div>
-      <pb n="23"/>
-      <div>
-        <lg>
-          <gap extent="15 lines" reason="illegible"/>
-          <l>Exercuit caput, atque imo dat gurgite fluctus.</l>
-          <l>Miratur laetosque sonos, vocaliaque antra</l>
-          <l>Atque repercussos cavea resonante tumultus,</l>
-          <l>Dum nemorum saltus, atque exultantia passim</l>
-          <l>Saxa videt, trisido pacari coerula sceptro</l>
-          <l>Ipse iubet, placidoque secat ripas Elemento</l>
-          <l>Laetari certus. Sua sunt quoque gaudia coelo.</l>
-          <l>Diffugiunt atrae nubes, sudoque patescunt</l>
-          <l>Templa serena polo. Exultat rutilantibus alis</l>
-          <l>Applaudens Aquila, et tanti peperisse triumphi</l>
-          <l>Materiem gestit; gelida fusurus ab urna</l>
-          <l>Concretasque undas, atque allaetabile donum</l>
-          <l>Frigoris Arctoi,<persName>Ganymedes</persName>alba ligustris</l>
-          <pb n="24"/>
-          <l>Serta pluit, quisque Hesperis collegit in hortus</l>
-          <gap extent="4 lines" reason="illegible"/>
-          <l>Hac sacro<emph>ELECTUM</emph>cinget diademate<emph>REGEM</emph>,</l>
-          <l>Hac et edorabit<emph>
-              <persName>CASPARI</persName>
+      <pb n="pb27"/>
+      <div n="div28">
+        <lg n="lg1">
+          <gap n="gap1" extent="15 lines" reason="illegible"/>
+          <l n="l2">Exercuit caput, atque imo dat gurgite fluctus.</l>
+          <l n="l3">Miratur laetosque sonos, vocaliaque antra</l>
+          <l n="l4">Atque repercussos cavea resonante tumultus,</l>
+          <l n="l5">Dum nemorum saltus, atque exultantia passim</l>
+          <l n="l6">Saxa videt, trisido pacari coerula sceptro</l>
+          <l n="l7">Ipse iubet, placidoque secat ripas Elemento</l>
+          <l n="l8">Laetari certus. Sua sunt quoque gaudia coelo.</l>
+          <l n="l9">Diffugiunt atrae nubes, sudoque patescunt</l>
+          <l n="l10">Templa serena polo. Exultat rutilantibus alis</l>
+          <l n="l11">Applaudens Aquila, et tanti peperisse triumphi</l>
+          <l n="l12">Materiem gestit; gelida fusurus ab urna</l>
+          <l n="l13">Concretasque undas, atque allaetabile donum</l>
+          <l n="l14">Frigoris Arctoi,<persName n="persName1">Ganymedes</persName>alba ligustris</l>
+          <pb n="pb15"/>
+          <l n="l16">Serta pluit, quisque Hesperis collegit in hortus</l>
+          <gap n="gap17" extent="4 lines" reason="illegible"/>
+          <l n="l18">Hac sacro<emph n="emph1">ELECTUM</emph>cinget diademate<emph n="emph2">REGEM</emph>,</l>
+          <l n="l19">Hac et edorabit<emph n="emph1">
+              <persName n="persName1">CASPARI</persName>
             </emph>
-            <placeName>Brixina</placeName>nomen.</l>
-          <l>Par quoque Coelitibus labor est, iam sede relicta</l>
-          <l>Coelorum huc properant; Regali fulgidus ostro</l>
-          <l>Se se quantus agit<emph>CASPATUR</emph>? quantus et una</l>
-          <l>Incedis<emph>
-              <persName>LOYOLA</persName>
+            <placeName n="placeName2">Brixina</placeName>nomen.</l>
+          <l n="l20">Par quoque Coelitibus labor est, iam sede relicta</l>
+          <l n="l21">Coelorum huc properant; Regali fulgidus ostro</l>
+          <l n="l22">Se se quantus agit<emph n="emph1">CASPATUR</emph>? quantus et una</l>
+          <l n="l23">Incedis<emph n="emph1">
+              <persName n="persName1">LOYOLA</persName>
             </emph>comes? Quos ordnie longo</l>
-          <l>Sidereae stipant Charites, sociique favores.</l>
-          <l>Nunc o Pierides, Cognataque Numina, vobis</l>
-          <l>Haec quoque stella micat, vobis lux aurea surgit,</l>
-          <l>Ite modo celeres, saxis qua circumsepta</l>
-          <l>Explict insolitum plaudentes<placeName>Brixina</placeName>valles,</l>
-          <l>Hic vester residet solio<emph>
-              <persName>CASPARUS</persName>
+          <l n="l24">Sidereae stipant Charites, sociique favores.</l>
+          <l n="l25">Nunc o Pierides, Cognataque Numina, vobis</l>
+          <l n="l26">Haec quoque stella micat, vobis lux aurea surgit,</l>
+          <l n="l27">Ite modo celeres, saxis qua circumsepta</l>
+          <l n="l28">Explict insolitum plaudentes<placeName n="placeName1">Brixina</placeName>valles,</l>
+          <l n="l29">Hic vester residet solio<emph n="emph1">
+              <persName n="persName1">CASPARUS</persName>
             </emph>eburno.</l>
-          <l>Neu tamen Aoniis sperate haec tempora sertis:</l>
-          <pb n="25"/>
-          <l>Aetate in tenera, primisque virentibus annis</l>
-          <l>Id vobis licuit, quondam, et licuisse, iuvabit.</l>
-          <l>Nunc posita tandem lauro, abiectisque coronis,</l>
-          <l>Ante pedes pronae millena effundite vota.</l>
+          <l n="l30">Neu tamen Aoniis sperate haec tempora sertis:</l>
+          <pb n="pb31"/>
+          <l n="l32">Aetate in tenera, primisque virentibus annis</l>
+          <l n="l33">Id vobis licuit, quondam, et licuisse, iuvabit.</l>
+          <l n="l34">Nunc posita tandem lauro, abiectisque coronis,</l>
+          <l n="l35">Ante pedes pronae millena effundite vota.</l>
         </lg>
       </div>
     </body>

@@ -34,6 +34,22 @@
         <bibl>Österreichische Nationalbibliothek, 171775-B. Neu Mag</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1837">1837</date>
@@ -58,431 +74,431 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:moar01.latty2640336.latty-lat1:">
-    <body>
-      <div>
-        <head>In mortem Christi versus hexametri<persName>Francisci Moari</persName>,<placeName>Tridenti</placeName>, ex officina Monauniana,<date>anno MDCCCXXXVII</date>
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">In mortem Christi versus hexametri<persName n="persName1">Francisci Moari</persName>,<placeName n="placeName2">Tridenti</placeName>, ex officina Monauniana,<date n="date3">anno MDCCCXXXVII</date>
         </head>
-        <pb n="2"/>
+        <pb n="pb2"/>
       </div>
-      <div>
-        <p>
-          <persName>Franciscus Moar</persName>, condiscipulis suis alterius scholae lycei Trid. S.P.D.</p>
+      <div n="div2">
+        <p n="p1">
+          <persName n="persName1">Franciscus Moar</persName>, condiscipulis suis alterius scholae lycei Trid. S.P.D.</p>
       </div>
-      <div>
-        <p>Mitto ad vos, condiscipuli carissimi, versus, quos ad me, dum una eramus in Gymnasio
+      <div n="div3">
+        <p n="p1">Mitto ad vos, condiscipuli carissimi, versus, quos ad me, dum una eramus in Gymnasio
                 exaratos in mortem Christi flagitastis, ut in vulgus proderem. Video equidem
                 quantopere illi comprimendi fuissent, sed tantum nostrae amicitiae tributum volo,
                 hoc praesertim anno, ex quo iucundissimo condiscipulatu dissoluto, alius alio ad
                 studia persequenda digressuri sumus, ut quae in hoc negotio incommoda sunt (sunt
                 autem multa) libentissime publicae meae erga vos benevolentiae post habeam
-                significationi. Quamquam, ut vera dicam, illa quoque spes me solatur, fore, ut in re<pb n="3"/>
+                significationi. Quamquam, ut vera dicam, illa quoque spes me solatur, fore, ut in re<pb n="pb1"/>
         </p>
-        <p>honestissima, et difficili, quam iuvenis aggrediatur humani rerum aestimatores vel
+        <p n="p2">honestissima, et difficili, quam iuvenis aggrediatur humani rerum aestimatores vel
                 uno conatu aquiescere velint. Valete, et quod reliquum est anni scholastici, Deus
                 fortunet.</p>
       </div>
-      <div>
-        <l>Tridenti hebdomada sancta<date>Anni MDCCCXXXVII</date>.<pb n="4"/>
+      <div n="div4">
+        <l n="l1">Tridenti hebdomada sancta<date n="date1">Anni MDCCCXXXVII</date>.<pb n="pb2"/>
         </l>
-        <l>Cum, veniente die, medio consurgere Solem</l>
-        <l>Aequore vidistis, coecasque fugare tenebras</l>
-        <l>E cuncto coeli spatio, terraque, marique,</l>
-        <l n="5">Et pluvialis aquae madidis dare gaudia campis,</l>
-        <l>Igniferumque caput tollentem opera omnia flammis</l>
-        <l>Lustrare, et mundo nitidam diffundere lucem,</l>
-        <l>Ac volucres certis moderari legibus annos,</l>
-        <l>Aeternoque orbem gyro telluris obire;</l>
-        <l n="10">Cum lunam instabiles vidistis in aurea vultus</l>
-        <l>Cornua flectentem, per opaca silentia noctis</l>
-        <l>Flammigerum monstrare iubar, faciemque triformem,</l>
-        <l>Auroramque novo fulgore morantia coelo</l>
-        <l>Agmina stellarum removere, et Solis ad ortum</l>
-        <l n="15">Spargere purpureum convexo lumen in axe,</l>
-        <l>Flammarumque poli vacuum per inane volutos</l>
-        <l>Elucere ignes, et tempora quatuor anni</l>
-        <l>Alternas variare vices; cum denique magnam</l>
-        <l>Vidistis, certisque expertem finibus orbem,</l>
-        <l n="20">Ardentesque agros, Titan quos igneus urit,</l>
-        <l>Quique aequo sub Sole iacent, atque arva pruinis</l>
-        <l>Obruta perpetuis, camposque Aquilone rigentes,</l>
-        <l>Et maris immensi tractum, et genus omne natantum,</l>
-        <l>Indomitasque feras, pictisque animalia pennis,</l>
-        <l n="25">Et patulos colles, et prata virentia, miroque</l>
-        <l>Ordine dispositos fluvio, montesque, lacusque,</l>
-        <pb n="5"/>
-        <l>Quaeque suo natura sinu complectitur omnis;</l>
-        <l>Esse aliquem rectorem, aliquem dare iussa putastis,</l>
-        <l>Qui mare, qui terram, qui cuncta elementa gubernet,</l>
-        <l n="30">Qui mundi sit magni opifex, quem sidera, quem Sol,</l>
-        <l>Quem metuant venti, tonitrus, vastaeque procellae,</l>
-        <l>Fulmina quem metuant, metuat quem Tartarus ingens,</l>
-        <l>Quo nihil in toto vigeat sublimius orbe.</l>
-        <l>Heu dolor! Illum ipsum, qui nutu cuncta creavit,</l>
-        <l n="35">Qui miserans homines humanos induit artus,</l>
-        <l>Tolleret ut veteris contagia culpae,</l>
-        <l>Obstructique fores nobis reseraret Olympi,</l>
-        <l>Ipsum inquam, (si vestra potest lugubre movere</l>
-        <l>Pectora supplicii spectaclum, et lurida pompa)</l>
-        <l n="40">Aspicite innumeris laniatum corpora plagis,</l>
-        <l>Immitique cruci affixum, gemitusque cientem</l>
-        <l>Vocibus extremis, extrema mortis in hora,</l>
-        <l>Aspicite, ut madeat feralis sanguine arena,</l>
-        <l>Ut caput ad terram deveco pondere sacrum</l>
-        <l n="45">Procumbat, lacerosque pedes, et livida tabo</l>
-        <l>Aspicite, et magnos oculis effundite fletus,</l>
-        <l>Ora, manusque fero traiectas cuspide, crines</l>
-        <l>Ex capite avulsos, discissaque viscera flagris,</l>
-        <l>Tormenti genus infandum! Depressa corona</l>
-        <l n="50">Tempora spinarum saeva, cava lumina, tristi</l>
-        <l>Suffectas pallore genas, tepidumque cruorem</l>
-        <l>Vulnere manantem, et largis fusum undique rivis.</l>
-        <l>O Deus immensi quo, quo te flumen amoris</l>
-        <l>Erga homines traxit! Tu qui consuescis Olympum</l>
-        <l n="55">Et laetas Superum sedes, atque aurea tecta</l>
-        <pb n="6"/>
-        <l>Calcare, et caput ardentes efferre per orbes,</l>
-        <l>Tu sceleris purus tantas vis solvere poenas!</l>
-        <l>O pietatis inennarabilis argumentum!</l>
-        <l>Iam moriturus erat Christus, iam lumina somnus</l>
-        <l n="60">Ferreus urgebat, supremaque fata subibat,</l>
-        <l>Cum matrem (sed iam non mater, at infelicis</l>
-        <l>Tristis imago, levi similis sine motibus umbrae</l>
-        <l>Illa erat) aspiciens tacito moerore sepultam</l>
-        <l>Sub cruce, et imo fundentem suspiria corde</l>
-        <l n="65">Convertit vultus, et sic est ore profatus:</l>
-        <l>
-          <said>O mater, mater vita mihi carior ipsa</said>
+        <l n="l2">Cum, veniente die, medio consurgere Solem</l>
+        <l n="l3">Aequore vidistis, coecasque fugare tenebras</l>
+        <l n="l4">E cuncto coeli spatio, terraque, marique,</l>
+        <l n="l5">Et pluvialis aquae madidis dare gaudia campis,</l>
+        <l n="l6">Igniferumque caput tollentem opera omnia flammis</l>
+        <l n="l7">Lustrare, et mundo nitidam diffundere lucem,</l>
+        <l n="l8">Ac volucres certis moderari legibus annos,</l>
+        <l n="l9">Aeternoque orbem gyro telluris obire;</l>
+        <l n="l10">Cum lunam instabiles vidistis in aurea vultus</l>
+        <l n="l11">Cornua flectentem, per opaca silentia noctis</l>
+        <l n="l12">Flammigerum monstrare iubar, faciemque triformem,</l>
+        <l n="l13">Auroramque novo fulgore morantia coelo</l>
+        <l n="l14">Agmina stellarum removere, et Solis ad ortum</l>
+        <l n="l15">Spargere purpureum convexo lumen in axe,</l>
+        <l n="l16">Flammarumque poli vacuum per inane volutos</l>
+        <l n="l17">Elucere ignes, et tempora quatuor anni</l>
+        <l n="l18">Alternas variare vices; cum denique magnam</l>
+        <l n="l19">Vidistis, certisque expertem finibus orbem,</l>
+        <l n="l20">Ardentesque agros, Titan quos igneus urit,</l>
+        <l n="l21">Quique aequo sub Sole iacent, atque arva pruinis</l>
+        <l n="l22">Obruta perpetuis, camposque Aquilone rigentes,</l>
+        <l n="l23">Et maris immensi tractum, et genus omne natantum,</l>
+        <l n="l24">Indomitasque feras, pictisque animalia pennis,</l>
+        <l n="l25">Et patulos colles, et prata virentia, miroque</l>
+        <l n="l26">Ordine dispositos fluvio, montesque, lacusque,</l>
+        <pb n="pb27"/>
+        <l n="l28">Quaeque suo natura sinu complectitur omnis;</l>
+        <l n="l29">Esse aliquem rectorem, aliquem dare iussa putastis,</l>
+        <l n="l30">Qui mare, qui terram, qui cuncta elementa gubernet,</l>
+        <l n="l31">Qui mundi sit magni opifex, quem sidera, quem Sol,</l>
+        <l n="l32">Quem metuant venti, tonitrus, vastaeque procellae,</l>
+        <l n="l33">Fulmina quem metuant, metuat quem Tartarus ingens,</l>
+        <l n="l34">Quo nihil in toto vigeat sublimius orbe.</l>
+        <l n="l35">Heu dolor! Illum ipsum, qui nutu cuncta creavit,</l>
+        <l n="l36">Qui miserans homines humanos induit artus,</l>
+        <l n="l37">Tolleret ut veteris contagia culpae,</l>
+        <l n="l38">Obstructique fores nobis reseraret Olympi,</l>
+        <l n="l39">Ipsum inquam, (si vestra potest lugubre movere</l>
+        <l n="l40">Pectora supplicii spectaclum, et lurida pompa)</l>
+        <l n="l41">Aspicite innumeris laniatum corpora plagis,</l>
+        <l n="l42">Immitique cruci affixum, gemitusque cientem</l>
+        <l n="l43">Vocibus extremis, extrema mortis in hora,</l>
+        <l n="l44">Aspicite, ut madeat feralis sanguine arena,</l>
+        <l n="l45">Ut caput ad terram deveco pondere sacrum</l>
+        <l n="l46">Procumbat, lacerosque pedes, et livida tabo</l>
+        <l n="l47">Aspicite, et magnos oculis effundite fletus,</l>
+        <l n="l48">Ora, manusque fero traiectas cuspide, crines</l>
+        <l n="l49">Ex capite avulsos, discissaque viscera flagris,</l>
+        <l n="l50">Tormenti genus infandum! Depressa corona</l>
+        <l n="l51">Tempora spinarum saeva, cava lumina, tristi</l>
+        <l n="l52">Suffectas pallore genas, tepidumque cruorem</l>
+        <l n="l53">Vulnere manantem, et largis fusum undique rivis.</l>
+        <l n="l54">O Deus immensi quo, quo te flumen amoris</l>
+        <l n="l55">Erga homines traxit! Tu qui consuescis Olympum</l>
+        <l n="l56">Et laetas Superum sedes, atque aurea tecta</l>
+        <pb n="pb57"/>
+        <l n="l58">Calcare, et caput ardentes efferre per orbes,</l>
+        <l n="l59">Tu sceleris purus tantas vis solvere poenas!</l>
+        <l n="l60">O pietatis inennarabilis argumentum!</l>
+        <l n="l61">Iam moriturus erat Christus, iam lumina somnus</l>
+        <l n="l62">Ferreus urgebat, supremaque fata subibat,</l>
+        <l n="l63">Cum matrem (sed iam non mater, at infelicis</l>
+        <l n="l64">Tristis imago, levi similis sine motibus umbrae</l>
+        <l n="l65">Illa erat) aspiciens tacito moerore sepultam</l>
+        <l n="l66">Sub cruce, et imo fundentem suspiria corde</l>
+        <l n="l67">Convertit vultus, et sic est ore profatus:</l>
+        <l n="l68">
+          <said n="said1">O mater, mater vita mihi carior ipsa</said>
         </l>
-        <l>
-          <said>Iam feror ad mortem tenebris circumdatus atris,</said>
+        <l n="l69">
+          <said n="said1">Iam feror ad mortem tenebris circumdatus atris,</said>
         </l>
-        <l>
-          <said>Sed tamen heu tristi noli laxare dolori</said>
+        <l n="l70">
+          <said n="said1">Sed tamen heu tristi noli laxare dolori</said>
         </l>
-        <l>
-          <said>Fraena soluta, malis tantis solamen habebis,</said>
+        <l n="l71">
+          <said n="said1">Fraena soluta, malis tantis solamen habebis,</said>
         </l>
-        <l n="70">
-          <said>Discipulus mihi carus erit tibi filius: ille</said>
+        <l n="l72">
+          <said n="said1">Discipulus mihi carus erit tibi filius: ille</said>
         </l>
-        <l>
-          <said>Mater amata, mei fidum sit pignus amoris,</said>
+        <l n="l73">
+          <said n="said1">Mater amata, mei fidum sit pignus amoris,</said>
         </l>
-        <l>
-          <said>Iamque vale, o mater; finem dedit ore loquendi.</said>
+        <l n="l74">
+          <said n="said1">Iamque vale, o mater; finem dedit ore loquendi.</said>
         </l>
-        <l>Sic fatus lacrimans, moestam, misereque gementem</l>
-        <l>Erexit frontem ad coelum, totumque pererrat</l>
-        <l n="75">Luminibus spatium tacitis, dein ora parumper</l>
-        <l>Demisit telluri (o res tristissima visu!)</l>
-        <l>Inde Deo affixit mentem, fuditque supremas</l>
-        <l>Supplex ore preces dixitque novissima verba</l>
-        <l>
-          <said>Magne graves hominum genitor miserate labores,</said>
+        <l n="l75">Sic fatus lacrimans, moestam, misereque gementem</l>
+        <l n="l76">Erexit frontem ad coelum, totumque pererrat</l>
+        <l n="l77">Luminibus spatium tacitis, dein ora parumper</l>
+        <l n="l78">Demisit telluri (o res tristissima visu!)</l>
+        <l n="l79">Inde Deo affixit mentem, fuditque supremas</l>
+        <l n="l80">Supplex ore preces dixitque novissima verba</l>
+        <l n="l81">
+          <said n="said1">Magne graves hominum genitor miserate labores,</said>
         </l>
-        <l n="80">
-          <said>Qui me direxti in terram, coelique sub auras</said>
+        <l n="l82">
+          <said n="said1">Qui me direxti in terram, coelique sub auras</said>
         </l>
-        <l>
-          <said>Misisti ut maculam tollam mortalibus aegris</said>
+        <l n="l83">
+          <said n="said1">Misisti ut maculam tollam mortalibus aegris</said>
         </l>
-        <l>
-          <said>Antiquam, terrisque malum fatale revellam,</said>
+        <l n="l84">
+          <said n="said1">Antiquam, terrisque malum fatale revellam,</said>
         </l>
-        <pb n="7"/>
-        <l>
-          <said>Iamque opus exegi summum, iam letha salutem</said>
+        <pb n="pb85"/>
+        <l n="l86">
+          <said n="said1">Iamque opus exegi summum, iam letha salutem</said>
         </l>
-        <l>
-          <said>Nostra ferunt homini, sed claudens fata suprema,</said>
+        <l n="l87">
+          <said n="said1">Nostra ferunt homini, sed claudens fata suprema,</said>
         </l>
-        <l n="85">
-          <said>Unum posco, pater, rerumque aeterna potestas,</said>
+        <l n="l88">
+          <said n="said1">Unum posco, pater, rerumque aeterna potestas,</said>
         </l>
-        <l>
-          <said>Hoc mihi concesso, placide mortale relinquam</said>
+        <l n="l89">
+          <said n="said1">Hoc mihi concesso, placide mortale relinquam</said>
         </l>
-        <l>
-          <said>Corpus, et hanc vitam tantem exspirabo caducam;</said>
+        <l n="l90">
+          <said n="said1">Corpus, et hanc vitam tantem exspirabo caducam;</said>
         </l>
-        <l>
-          <said>Per subeundum oro funus, per corda cruentis</said>
+        <l n="l91">
+          <said n="said1">Per subeundum oro funus, per corda cruentis</said>
         </l>
-        <l>
-          <said>Saucia vulneribus (si diris flectere poenis,</said>
+        <l n="l92">
+          <said n="said1">Saucia vulneribus (si diris flectere poenis,</said>
         </l>
-        <l n="90">
-          <said>Quas fero, te possum) vesano parce furori</said>
+        <l n="l93">
+          <said n="said1">Quas fero, te possum) vesano parce furori</said>
         </l>
-        <l>
-          <said>Ipsorum, qui me longa sic morte necarunt;</said>
+        <l n="l94">
+          <said n="said1">Ipsorum, qui me longa sic morte necarunt;</said>
         </l>
-        <l>
-          <said>Sed iam iam poenas exsolci, suscipe, dixit,</said>
+        <l n="l95">
+          <said n="said1">Sed iam iam poenas exsolci, suscipe, dixit,</said>
         </l>
-        <l>
-          <said>Hanc animam, genitor...tandem decet ire sub umbras</said>
+        <l n="l96">
+          <said n="said1">Hanc animam, genitor...tandem decet ire sub umbras</said>
         </l>
-        <l>Has voces fatus pallentem funere terrae</l>
-        <l n="95">Demisit faciem, pressoque obmutuit ore;</l>
-        <l>Vitalis tandem frigentia membra reliquit</l>
-        <l>Spiritus, et toto tacuerunt corpore motus,</l>
-        <l>Tum vero claudens optatae lumina nocti</l>
-        <l>Extremis animam singultibus exhalavit.</l>
-        <l n="100">Aeternam sobolem, rerumque hominumque salutem,</l>
-        <l>Astra supercilio qui dirigit omnia coeli,</l>
-        <l>Cuius ab obtutu tantum tremefacta vacillat</l>
-        <l>Terra, fretumque tremit commotum sedibus imis</l>
-        <l>O dolor! O pietas! Indigna morte peremptum</l>
-        <l n="105">Aspicite, et magnos oculis effundite fletus.</l>
-        <l>Hei mihi qualis ades! Quantum mutatus ab illo</l>
-        <l>Christo, qui quondam fulgens splendore corusco</l>
-        <l>Purpureas toto flammas fundebat Olympo</l>
-        <l>Sideribus cinctus tremulis, vultuque sereno</l>
-        <l n="110">Aeria errabat coeli per inania nube,</l>
-        <l>Scintillansque oculis, condensque in nubila corpus</l>
-        <pb n="8"/>
-        <l>Vibrato attonitos feriebat fulgure visus!</l>
-        <l>Tum chorus Angelicus delapsus sede superna,</l>
-        <l>Coelicolaeque omnes, coelaestiaque agmina mille</l>
-        <l n="115">Magno missa Deo, laetas suspensa per auras</l>
-        <l>Remigio alarum, et nitido radiantia amictu</l>
-        <l>Certabant celebrare hilari tua nomina voce,</l>
-        <l>Et tibi solvebant encomia debita laudum</l>
-        <l>Plausibus, et choreis, et mellifluo modulatu,</l>
-        <l n="120">Atque triumphantem te, maxime Christe, canebant.</l>
-        <l>Tum coeleste melos mulcebat sidera; grato</l>
-        <l>Murmure tum cytharae, et laeto discrimine avenae,</l>
-        <l>Altisonoque tubae sonitu, lituique canori,</l>
-        <l>Tum pulsaeque fides, et dulce loquentia plectra</l>
-        <l n="125">Implebant tenuem concentibus aera festis.</l>
-        <l>At nunc Angelici coetus, praecordia luctu</l>
-        <l>Perfusi insolito tormenta indigna videntes,</l>
-        <l>Quae te dilacerant misere, lignumque inhonestum</l>
-        <l>Pectora contundunt palmis, et flebile carmen</l>
-        <l n="130">Vocibus ingeminant moestis, lacrimisque supremum</l>
-        <l>Plorant exitium, et gemitu sonat omnis Olympus.</l>
-        <l>O facies miseranda Dei! Mutatio tristis!</l>
-        <l>Quantus amor servandi homines, et quanta cupido</l>
-        <l>Ad patrias sedes ducendi ex faucibus Orci!</l>
-        <l n="135">Nostra salus, homines, ad lamentabile funus</l>
-        <l>Aeternum natum duxit, crudelia passus</l>
-        <l>Supplicia est, capitique suo damnabile mundi</l>
-        <l>Imposuit scelus: o vos qui vidistis Iesum</l>
-        <l>Fundentem extremos gemitus, cur effera corda,</l>
-        <l n="140">Probis certatis sanctum insultare cadaver</l>
-        <pb n="9"/>
-        <l>Et saevis onerare minis? Cur luce carentem</l>
-        <l>Foedatis vultum? Quae tanta ferocia tandem</l>
-        <l>Pectoribus residet vestris! Ah ponite corde</l>
-        <l>Ponite, crudeles, iram, motusque furentes</l>
-        <l n="145">Qui vos praecipitant; vitae plorate peractae</l>
-        <l>Crimina, iamdudum vestra depellite mente</l>
-        <l>Si quid adhuc superest veteri de labe, profanas</l>
-        <l>Flagitiis purgate manus, et lingua Tonantis</l>
-        <l>Progeniem, verumque Deum fateatur Iesum.</l>
-        <l n="150">Cernitis, ut flectat vultus, ut pandat amicas</l>
-        <l>Ulnas et laceros ostendat gentibus artus?</l>
-        <l>Cernitis, ut facies pietate refulgeat ardens?</l>
-        <l>Ut defixa solo scintillent lumina amore</l>
-        <l>Coelesti? Audistis, ut regna beata latroni</l>
-        <l n="155">Praeteritas culpas, et iniquae crimina vitae</l>
-        <l>Ploranti dederit, mortisque ut limine in ipso</l>
-        <l>Extremis patrem placaverit indignatum</l>
-        <l>Vocibus, utque hominum crimen lenire nefandum</l>
-        <l>Conatus fuerit, meritasque avertere poenas?</l>
-        <l n="160">Haec poterunt spectare oculi, nec pectora flammas</l>
-        <l>Concipere ardentes? Ah iam convertite vestras</l>
-        <l>In sacrum lignum palmas, aramque salutis</l>
-        <l>Stringite complexu, lacrimis iam demite culpas...</l>
-        <l>Sed quid ego adnitor, rapidis ludibria ventis</l>
-        <l n="165">Cum mea verba volent? Iam frustra tento feroces</l>
-        <l>Flectere Iudaeos, ipsi vel marmora certant</l>
-        <l>Vincere duritie, similes feritate leoni</l>
-        <l>Qui ventris rabie vexatus temperat ungues,</l>
-        <l>Et ruit in furias, irisque immanibus iras</l>
-        <pb n="10"/>
-        <l n="170">Dentibus infrendens addit, lucosque tremendo</l>
-        <l>Rugitu exterret tacitos, et sanquine tantum</l>
-        <l>Gaudet, et impatiens oculis iacit acribus ignem.</l>
-        <l>O scelus infandum! Quantum mens caeca furore</l>
-        <l>Quantum hominum potuere manus! Emiserat imo</l>
-        <l n="175">Ultima vix Christus suspiria pectore, morti</l>
-        <l>Immeritae occumbens, cum ira rabieque tumentes</l>
-        <l>Diri carnifices infesto vulnere Christi</l>
-        <l>Transadigunt costas, et ferro viscera rumpunt,</l>
-        <l>Exanimumque atro foedant squallore cadaver.</l>
-        <l n="180">Criminibus tantis cur non tua viscera, tellus,</l>
-        <l>Ima reclusisti? Cur non patuere cavernae</l>
-        <l>Immanesque Erebi fauces, regnoque profundo</l>
-        <l>Erupere faces, scelerataque corpora flammae</l>
-        <l>Arsere ultrices? Cur non patefacta vorago</l>
-        <l n="185">Sub pedibus, vacuo crudeles hausit hiatu?</l>
-        <l>Impia<placeName>Ierusalem</placeName>! Quis, quis monumenta doloris</l>
-        <l>Tristia respiciens saevi, speciemque probrosam</l>
-        <l>Supplicii, et matris luctum, mortemque cruentam</l>
-        <l>Quis, quamquam ex animo feritatem spiret, et iram.</l>
-        <l n="190">Et gestet ferro praecordia vincta tenaci</l>
-        <l>Tempereat a lacrimis? Et tu perfusa cruore</l>
-        <l>Innocuo exultas, et gaudes sanguinolentas</l>
-        <l>Ostentare manus, avidisque haurire nefandam</l>
-        <l>Pompam oculis! Et adhuc te non poruere recentes</l>
-        <l n="195">Exsatiare neces? Semperne agitaberis ipsis</l>
-        <l>Indomitis furiis, semperne cupidine coedem</l>
-        <l>Flagrabis renovare feram? Proh! Qualis in arvis</l>
-        <l>Hircanis tigris, qualis fera littore Poeno</l>
-        <pb n="11"/>
-        <l>Tam crudelis erit, tantisque furoribus acta,</l>
-        <l n="200">Quam non ulla queat pietas evincere? Sed tu</l>
-        <l>Tigride barbarior quavis, pietate moveri</l>
-        <l>Ulla nescisti: quem tam furiante tyrannum</l>
-        <l>Pectore, quas gentes, aut quas inveneris urbes</l>
-        <l>Solis ad occasum ex ortu, terramque per omnem</l>
-        <l n="205">Quae tua,<placeName>Ierusalem</placeName>, possint scelera aequiparare?</l>
-        <l>Abramidae! Abramidae! O proles electa, Deoque</l>
-        <l>Prae populis aliis olim carissima, quo vos</l>
-        <l>Pectore, inhumani, potuistis tradere morti</l>
-        <l>Regem illum aeternum, qui vestros numine patres</l>
-        <l n="210">Defendit, semperque favens respexit, amans ut</l>
-        <l>Natorum genitor! Nonne is Pharaona coegit</l>
-        <l>Caede reluctantem sobolis submittere Mosis</l>
-        <l>Imperio collum? Nonne is durissima rupit</l>
-        <l>Vincula servitii, sub quo gemuere parentes</l>
-        <l n="215">Vestri? Nonne Erithraei obstantes discidit undas?</l>
-        <l>Non gentem Isacidam patefacta per aequora littus</l>
-        <l>Duxit in adversum, medioque ex hoste recepit?</l>
-        <l>Nonne Aegyptiacas copias graviora minantes</l>
-        <l>Vincula, submersas coeuntibus obruit undis?</l>
-        <l n="220">Nonne polo ingenti construxit mole columnam</l>
-        <l>Ut populum ignifero tegeret fulgore vagantem,</l>
-        <l>Et certum monstraret iter, callesque sequendos</l>
-        <l>Per loca senta situ, desertisque horrida vastis?</l>
-        <l>Nonne insperatas eduxit cautibus undas?</l>
-        <l n="225">Nonne retardavit cursum Titanis Olympo</l>
-        <l>In medio, ut reges presternere coniuratos</l>
-        <l>
-          <persName>Iosua</persName>dux posset, victasque necare phalanges?</l>
-        <pb n="12"/>
-        <l>Illius auxilio surgentia regna stetere:</l>
-        <l>Hic per eum hostiles copias disiecit, et urbes</l>
-        <l n="230">Culmine ab extremo dextra victore superbas</l>
-        <l>Eruit, et fluvios ipsos parere coegit,</l>
-        <l>Hic per eum populos tenuit ditione subactos</l>
-        <l>Innumeros, per eum turmas, et mille fugavit</l>
-        <l>Agmina, et infecit inimico sanguine campos;</l>
-        <l n="235">Illius auxilio<persName>Gedeon</persName>perterruit hostes,</l>
-        <l>Illius auxilio<persName>David</persName>prostravit inermis</l>
-        <l>Armatum<persName>Goliath</persName>, et castra tumentia fudit,</l>
-        <l>Illius auxilio collum<persName>Judita</persName>tyranni</l>
-        <l>Rescidit Assyrii.... sed quis benefacta valebit</l>
-        <l n="240">Prisca recordari? Quot vos oneravit et ipsos</l>
-        <l>Muneribus, quanto semper dilexit amore!</l>
-        <l>At vos indignas poenas, saevumque parastis</l>
-        <l>Illi<corr>supplicium</corr>: hae grates, haec dona fuerunt</l>
-        <l>Reddita Iudaeis: nec tale patrasse pigebit</l>
-        <l n="245">Flagitium! Aspicite, ut iam iam minus effera vestris</l>
-        <l>Cordibus, amissum plorent elementa magistrum</l>
-        <l>Omnia, et afflicti turbentur foedera mundi.</l>
-        <l>Aspicite, ut Sol qui quondam splendore refulsit</l>
-        <l>Insolito, cupiens vestrum illustrare triumphum</l>
-        <l n="250">Nunc contra crudele nefas, hominumque perosus</l>
-        <l>Mores, et tristi percussus imagine mortis</l>
-        <l>Extinguat lucem, et condat ferrugine bigas</l>
-        <l>Obscura, et totum tenebris involvat Olympum,</l>
-        <l>Aspicite, ut revocet cursum, populosque scelestos</l>
-        <l n="255">Desperare diem, venturaque lumina cogat.</l>
-        <l>Aspicite, ut maculis orbem interfusa rubentem.</l>
-        <pb n="13"/>
-        <l>Phoebe sanguineis, funestoque igne relucens</l>
-        <l>Horreat, ut densis glomeretur nubibus aer,</l>
-        <l>Ut crebra nimbiferos percurrant fulgura campos,</l>
-        <l n="260">Ut confusa ruant, medioque per aetera lapsu</l>
-        <l>Sidera volvantur nigra caligine cincta;</l>
-        <l>Aspicite, ut pelagi tempestas horrida fluctus</l>
-        <l>Extollat, terramque fremens haurire minetur</l>
-        <l>Aequor, ut assuetos avertant flumina cursus;</l>
-        <l n="265">Aspicite ut fracta insudent (mirabile dictu!)</l>
-        <l>Marmora, pallescant simulacra, altaria fletu</l>
-        <l>Tristia continuo madeant, velamina templi</l>
-        <l>Sponte sua discissa gemant, solidaeque columnae</l>
-        <l>Motibus insolitis nutent, aedesque vacillent</l>
-        <l n="270">Concussae; aspicite, ut penitus iam<placeName>Golgotha</placeName>fundo</l>
-        <l>Vellatur, dubiaeque labent cum moenibus urbes,</l>
-        <l>Ut tremat horrendo perterrita terra tumultu,</l>
-        <l>Et quatiat montes, pontumque imitata furentem</l>
-        <l>Faucibus eructet tremefactis saxa, globosque</l>
-        <l n="275">Flammarum, et fervens radicibus aestuet imis;</l>
-        <l>Aspicite, ut veterum cineres animentur avorum,</l>
-        <l>Ossaque iungantur, ruptisque vocata sepulcris</l>
-        <l>Corpora cum propriis errent defuncta figuris</l>
-        <l>Per fora, perque vias, et moesta fronte dolorem</l>
-        <l n="280">Quaeque suum monstrent, audite, ut questibus urbem</l>
-        <l>Assiduis repleant, ut clament voce tremenda</l>
-        <l>Naturae cecidisse ducem, cecidisse parentem.......</l>
-        <l>
-          <placeName>Ierusalem</placeName>infelix horresce: haec monstra minantur</l>
-        <l>Exitium tibi venturum, summamque ruinam,</l>
-        <l n="285">Quae populum ingratum feriet: Deus ecce tremendae</l>
-        <pb n="14"/>
-        <l>Fulmina iustitiae molitur, et aggerat iras</l>
-        <l>Fervidus, en gladio scelerum manus emicat ultrix</l>
-        <l>Terribili, capitique tuo vindicta superstat.</l>
-        <l>Horresce; illa dies, et ineluctabile tempus</l>
-        <l n="290">Quod tibi<persName>Ieremias</persName>quondam praedixerat ore</l>
-        <l>Fatidico adventat; iam bella, furentia bella,</l>
-        <l>Et coniuratos hostes, aquilasque minaces,</l>
-        <l>Armaque cerno tibi fatalia: quantus ubique</l>
-        <l>Quantus terror adest! Iam caede natantia cerno</l>
-        <l n="295">Compita, Iudaeos omnes sine lege peremptos,</l>
-        <l>Spumantesque vias scelerato sanguine: cerno</l>
-        <l>Funditus evulsas arces, turresque superbas,</l>
-        <l>Incensumque vetus templum, murosque labantes</l>
-        <l>Praecipitare solo: rues impia culmine ab alto</l>
-        <l n="300">Nec lapis ullus erit lapidem super: omnia pulvis</l>
-        <l>Et levis umbra teget: crux, crux dominabitur una</l>
-        <l>Calvario tibi nunc despecta, tuisque sedebit</l>
-        <l>Victrix reliquiis, nunquam tacitura Tonantis</l>
-        <l>Munus, et Isacidae corda ingratissima gentis.</l>
-        <l n="305">O nos, quos placido nascentes lumine vera</l>
-        <l>Relligio aspexit, spernemus ut impia<persName>Abrami</persName>
+        <l n="l97">Has voces fatus pallentem funere terrae</l>
+        <l n="l98">Demisit faciem, pressoque obmutuit ore;</l>
+        <l n="l99">Vitalis tandem frigentia membra reliquit</l>
+        <l n="l100">Spiritus, et toto tacuerunt corpore motus,</l>
+        <l n="l101">Tum vero claudens optatae lumina nocti</l>
+        <l n="l102">Extremis animam singultibus exhalavit.</l>
+        <l n="l103">Aeternam sobolem, rerumque hominumque salutem,</l>
+        <l n="l104">Astra supercilio qui dirigit omnia coeli,</l>
+        <l n="l105">Cuius ab obtutu tantum tremefacta vacillat</l>
+        <l n="l106">Terra, fretumque tremit commotum sedibus imis</l>
+        <l n="l107">O dolor! O pietas! Indigna morte peremptum</l>
+        <l n="l108">Aspicite, et magnos oculis effundite fletus.</l>
+        <l n="l109">Hei mihi qualis ades! Quantum mutatus ab illo</l>
+        <l n="l110">Christo, qui quondam fulgens splendore corusco</l>
+        <l n="l111">Purpureas toto flammas fundebat Olympo</l>
+        <l n="l112">Sideribus cinctus tremulis, vultuque sereno</l>
+        <l n="l113">Aeria errabat coeli per inania nube,</l>
+        <l n="l114">Scintillansque oculis, condensque in nubila corpus</l>
+        <pb n="pb115"/>
+        <l n="l116">Vibrato attonitos feriebat fulgure visus!</l>
+        <l n="l117">Tum chorus Angelicus delapsus sede superna,</l>
+        <l n="l118">Coelicolaeque omnes, coelaestiaque agmina mille</l>
+        <l n="l119">Magno missa Deo, laetas suspensa per auras</l>
+        <l n="l120">Remigio alarum, et nitido radiantia amictu</l>
+        <l n="l121">Certabant celebrare hilari tua nomina voce,</l>
+        <l n="l122">Et tibi solvebant encomia debita laudum</l>
+        <l n="l123">Plausibus, et choreis, et mellifluo modulatu,</l>
+        <l n="l124">Atque triumphantem te, maxime Christe, canebant.</l>
+        <l n="l125">Tum coeleste melos mulcebat sidera; grato</l>
+        <l n="l126">Murmure tum cytharae, et laeto discrimine avenae,</l>
+        <l n="l127">Altisonoque tubae sonitu, lituique canori,</l>
+        <l n="l128">Tum pulsaeque fides, et dulce loquentia plectra</l>
+        <l n="l129">Implebant tenuem concentibus aera festis.</l>
+        <l n="l130">At nunc Angelici coetus, praecordia luctu</l>
+        <l n="l131">Perfusi insolito tormenta indigna videntes,</l>
+        <l n="l132">Quae te dilacerant misere, lignumque inhonestum</l>
+        <l n="l133">Pectora contundunt palmis, et flebile carmen</l>
+        <l n="l134">Vocibus ingeminant moestis, lacrimisque supremum</l>
+        <l n="l135">Plorant exitium, et gemitu sonat omnis Olympus.</l>
+        <l n="l136">O facies miseranda Dei! Mutatio tristis!</l>
+        <l n="l137">Quantus amor servandi homines, et quanta cupido</l>
+        <l n="l138">Ad patrias sedes ducendi ex faucibus Orci!</l>
+        <l n="l139">Nostra salus, homines, ad lamentabile funus</l>
+        <l n="l140">Aeternum natum duxit, crudelia passus</l>
+        <l n="l141">Supplicia est, capitique suo damnabile mundi</l>
+        <l n="l142">Imposuit scelus: o vos qui vidistis Iesum</l>
+        <l n="l143">Fundentem extremos gemitus, cur effera corda,</l>
+        <l n="l144">Probis certatis sanctum insultare cadaver</l>
+        <pb n="pb145"/>
+        <l n="l146">Et saevis onerare minis? Cur luce carentem</l>
+        <l n="l147">Foedatis vultum? Quae tanta ferocia tandem</l>
+        <l n="l148">Pectoribus residet vestris! Ah ponite corde</l>
+        <l n="l149">Ponite, crudeles, iram, motusque furentes</l>
+        <l n="l150">Qui vos praecipitant; vitae plorate peractae</l>
+        <l n="l151">Crimina, iamdudum vestra depellite mente</l>
+        <l n="l152">Si quid adhuc superest veteri de labe, profanas</l>
+        <l n="l153">Flagitiis purgate manus, et lingua Tonantis</l>
+        <l n="l154">Progeniem, verumque Deum fateatur Iesum.</l>
+        <l n="l155">Cernitis, ut flectat vultus, ut pandat amicas</l>
+        <l n="l156">Ulnas et laceros ostendat gentibus artus?</l>
+        <l n="l157">Cernitis, ut facies pietate refulgeat ardens?</l>
+        <l n="l158">Ut defixa solo scintillent lumina amore</l>
+        <l n="l159">Coelesti? Audistis, ut regna beata latroni</l>
+        <l n="l160">Praeteritas culpas, et iniquae crimina vitae</l>
+        <l n="l161">Ploranti dederit, mortisque ut limine in ipso</l>
+        <l n="l162">Extremis patrem placaverit indignatum</l>
+        <l n="l163">Vocibus, utque hominum crimen lenire nefandum</l>
+        <l n="l164">Conatus fuerit, meritasque avertere poenas?</l>
+        <l n="l165">Haec poterunt spectare oculi, nec pectora flammas</l>
+        <l n="l166">Concipere ardentes? Ah iam convertite vestras</l>
+        <l n="l167">In sacrum lignum palmas, aramque salutis</l>
+        <l n="l168">Stringite complexu, lacrimis iam demite culpas...</l>
+        <l n="l169">Sed quid ego adnitor, rapidis ludibria ventis</l>
+        <l n="l170">Cum mea verba volent? Iam frustra tento feroces</l>
+        <l n="l171">Flectere Iudaeos, ipsi vel marmora certant</l>
+        <l n="l172">Vincere duritie, similes feritate leoni</l>
+        <l n="l173">Qui ventris rabie vexatus temperat ungues,</l>
+        <l n="l174">Et ruit in furias, irisque immanibus iras</l>
+        <pb n="pb175"/>
+        <l n="l176">Dentibus infrendens addit, lucosque tremendo</l>
+        <l n="l177">Rugitu exterret tacitos, et sanquine tantum</l>
+        <l n="l178">Gaudet, et impatiens oculis iacit acribus ignem.</l>
+        <l n="l179">O scelus infandum! Quantum mens caeca furore</l>
+        <l n="l180">Quantum hominum potuere manus! Emiserat imo</l>
+        <l n="l181">Ultima vix Christus suspiria pectore, morti</l>
+        <l n="l182">Immeritae occumbens, cum ira rabieque tumentes</l>
+        <l n="l183">Diri carnifices infesto vulnere Christi</l>
+        <l n="l184">Transadigunt costas, et ferro viscera rumpunt,</l>
+        <l n="l185">Exanimumque atro foedant squallore cadaver.</l>
+        <l n="l186">Criminibus tantis cur non tua viscera, tellus,</l>
+        <l n="l187">Ima reclusisti? Cur non patuere cavernae</l>
+        <l n="l188">Immanesque Erebi fauces, regnoque profundo</l>
+        <l n="l189">Erupere faces, scelerataque corpora flammae</l>
+        <l n="l190">Arsere ultrices? Cur non patefacta vorago</l>
+        <l n="l191">Sub pedibus, vacuo crudeles hausit hiatu?</l>
+        <l n="l192">Impia<placeName n="placeName1">Ierusalem</placeName>! Quis, quis monumenta doloris</l>
+        <l n="l193">Tristia respiciens saevi, speciemque probrosam</l>
+        <l n="l194">Supplicii, et matris luctum, mortemque cruentam</l>
+        <l n="l195">Quis, quamquam ex animo feritatem spiret, et iram.</l>
+        <l n="l196">Et gestet ferro praecordia vincta tenaci</l>
+        <l n="l197">Tempereat a lacrimis? Et tu perfusa cruore</l>
+        <l n="l198">Innocuo exultas, et gaudes sanguinolentas</l>
+        <l n="l199">Ostentare manus, avidisque haurire nefandam</l>
+        <l n="l200">Pompam oculis! Et adhuc te non poruere recentes</l>
+        <l n="l201">Exsatiare neces? Semperne agitaberis ipsis</l>
+        <l n="l202">Indomitis furiis, semperne cupidine coedem</l>
+        <l n="l203">Flagrabis renovare feram? Proh! Qualis in arvis</l>
+        <l n="l204">Hircanis tigris, qualis fera littore Poeno</l>
+        <pb n="pb205"/>
+        <l n="l206">Tam crudelis erit, tantisque furoribus acta,</l>
+        <l n="l207">Quam non ulla queat pietas evincere? Sed tu</l>
+        <l n="l208">Tigride barbarior quavis, pietate moveri</l>
+        <l n="l209">Ulla nescisti: quem tam furiante tyrannum</l>
+        <l n="l210">Pectore, quas gentes, aut quas inveneris urbes</l>
+        <l n="l211">Solis ad occasum ex ortu, terramque per omnem</l>
+        <l n="l212">Quae tua,<placeName n="placeName1">Ierusalem</placeName>, possint scelera aequiparare?</l>
+        <l n="l213">Abramidae! Abramidae! O proles electa, Deoque</l>
+        <l n="l214">Prae populis aliis olim carissima, quo vos</l>
+        <l n="l215">Pectore, inhumani, potuistis tradere morti</l>
+        <l n="l216">Regem illum aeternum, qui vestros numine patres</l>
+        <l n="l217">Defendit, semperque favens respexit, amans ut</l>
+        <l n="l218">Natorum genitor! Nonne is Pharaona coegit</l>
+        <l n="l219">Caede reluctantem sobolis submittere Mosis</l>
+        <l n="l220">Imperio collum? Nonne is durissima rupit</l>
+        <l n="l221">Vincula servitii, sub quo gemuere parentes</l>
+        <l n="l222">Vestri? Nonne Erithraei obstantes discidit undas?</l>
+        <l n="l223">Non gentem Isacidam patefacta per aequora littus</l>
+        <l n="l224">Duxit in adversum, medioque ex hoste recepit?</l>
+        <l n="l225">Nonne Aegyptiacas copias graviora minantes</l>
+        <l n="l226">Vincula, submersas coeuntibus obruit undis?</l>
+        <l n="l227">Nonne polo ingenti construxit mole columnam</l>
+        <l n="l228">Ut populum ignifero tegeret fulgore vagantem,</l>
+        <l n="l229">Et certum monstraret iter, callesque sequendos</l>
+        <l n="l230">Per loca senta situ, desertisque horrida vastis?</l>
+        <l n="l231">Nonne insperatas eduxit cautibus undas?</l>
+        <l n="l232">Nonne retardavit cursum Titanis Olympo</l>
+        <l n="l233">In medio, ut reges presternere coniuratos</l>
+        <l n="l234">
+          <persName n="persName1">Iosua</persName>dux posset, victasque necare phalanges?</l>
+        <pb n="pb235"/>
+        <l n="l236">Illius auxilio surgentia regna stetere:</l>
+        <l n="l237">Hic per eum hostiles copias disiecit, et urbes</l>
+        <l n="l238">Culmine ab extremo dextra victore superbas</l>
+        <l n="l239">Eruit, et fluvios ipsos parere coegit,</l>
+        <l n="l240">Hic per eum populos tenuit ditione subactos</l>
+        <l n="l241">Innumeros, per eum turmas, et mille fugavit</l>
+        <l n="l242">Agmina, et infecit inimico sanguine campos;</l>
+        <l n="l243">Illius auxilio<persName n="persName1">Gedeon</persName>perterruit hostes,</l>
+        <l n="l244">Illius auxilio<persName n="persName1">David</persName>prostravit inermis</l>
+        <l n="l245">Armatum<persName n="persName1">Goliath</persName>, et castra tumentia fudit,</l>
+        <l n="l246">Illius auxilio collum<persName n="persName1">Judita</persName>tyranni</l>
+        <l n="l247">Rescidit Assyrii.... sed quis benefacta valebit</l>
+        <l n="l248">Prisca recordari? Quot vos oneravit et ipsos</l>
+        <l n="l249">Muneribus, quanto semper dilexit amore!</l>
+        <l n="l250">At vos indignas poenas, saevumque parastis</l>
+        <l n="l251">Illi<corr n="corr1">supplicium</corr>: hae grates, haec dona fuerunt</l>
+        <l n="l252">Reddita Iudaeis: nec tale patrasse pigebit</l>
+        <l n="l253">Flagitium! Aspicite, ut iam iam minus effera vestris</l>
+        <l n="l254">Cordibus, amissum plorent elementa magistrum</l>
+        <l n="l255">Omnia, et afflicti turbentur foedera mundi.</l>
+        <l n="l256">Aspicite, ut Sol qui quondam splendore refulsit</l>
+        <l n="l257">Insolito, cupiens vestrum illustrare triumphum</l>
+        <l n="l258">Nunc contra crudele nefas, hominumque perosus</l>
+        <l n="l259">Mores, et tristi percussus imagine mortis</l>
+        <l n="l260">Extinguat lucem, et condat ferrugine bigas</l>
+        <l n="l261">Obscura, et totum tenebris involvat Olympum,</l>
+        <l n="l262">Aspicite, ut revocet cursum, populosque scelestos</l>
+        <l n="l263">Desperare diem, venturaque lumina cogat.</l>
+        <l n="l264">Aspicite, ut maculis orbem interfusa rubentem.</l>
+        <pb n="pb265"/>
+        <l n="l266">Phoebe sanguineis, funestoque igne relucens</l>
+        <l n="l267">Horreat, ut densis glomeretur nubibus aer,</l>
+        <l n="l268">Ut crebra nimbiferos percurrant fulgura campos,</l>
+        <l n="l269">Ut confusa ruant, medioque per aetera lapsu</l>
+        <l n="l270">Sidera volvantur nigra caligine cincta;</l>
+        <l n="l271">Aspicite, ut pelagi tempestas horrida fluctus</l>
+        <l n="l272">Extollat, terramque fremens haurire minetur</l>
+        <l n="l273">Aequor, ut assuetos avertant flumina cursus;</l>
+        <l n="l274">Aspicite ut fracta insudent (mirabile dictu!)</l>
+        <l n="l275">Marmora, pallescant simulacra, altaria fletu</l>
+        <l n="l276">Tristia continuo madeant, velamina templi</l>
+        <l n="l277">Sponte sua discissa gemant, solidaeque columnae</l>
+        <l n="l278">Motibus insolitis nutent, aedesque vacillent</l>
+        <l n="l279">Concussae; aspicite, ut penitus iam<placeName n="placeName1">Golgotha</placeName>fundo</l>
+        <l n="l280">Vellatur, dubiaeque labent cum moenibus urbes,</l>
+        <l n="l281">Ut tremat horrendo perterrita terra tumultu,</l>
+        <l n="l282">Et quatiat montes, pontumque imitata furentem</l>
+        <l n="l283">Faucibus eructet tremefactis saxa, globosque</l>
+        <l n="l284">Flammarum, et fervens radicibus aestuet imis;</l>
+        <l n="l285">Aspicite, ut veterum cineres animentur avorum,</l>
+        <l n="l286">Ossaque iungantur, ruptisque vocata sepulcris</l>
+        <l n="l287">Corpora cum propriis errent defuncta figuris</l>
+        <l n="l288">Per fora, perque vias, et moesta fronte dolorem</l>
+        <l n="l289">Quaeque suum monstrent, audite, ut questibus urbem</l>
+        <l n="l290">Assiduis repleant, ut clament voce tremenda</l>
+        <l n="l291">Naturae cecidisse ducem, cecidisse parentem.......</l>
+        <l n="l292">
+          <placeName n="placeName1">Ierusalem</placeName>infelix horresce: haec monstra minantur</l>
+        <l n="l293">Exitium tibi venturum, summamque ruinam,</l>
+        <l n="l294">Quae populum ingratum feriet: Deus ecce tremendae</l>
+        <pb n="pb295"/>
+        <l n="l296">Fulmina iustitiae molitur, et aggerat iras</l>
+        <l n="l297">Fervidus, en gladio scelerum manus emicat ultrix</l>
+        <l n="l298">Terribili, capitique tuo vindicta superstat.</l>
+        <l n="l299">Horresce; illa dies, et ineluctabile tempus</l>
+        <l n="l300">Quod tibi<persName n="persName1">Ieremias</persName>quondam praedixerat ore</l>
+        <l n="l301">Fatidico adventat; iam bella, furentia bella,</l>
+        <l n="l302">Et coniuratos hostes, aquilasque minaces,</l>
+        <l n="l303">Armaque cerno tibi fatalia: quantus ubique</l>
+        <l n="l304">Quantus terror adest! Iam caede natantia cerno</l>
+        <l n="l305">Compita, Iudaeos omnes sine lege peremptos,</l>
+        <l n="l306">Spumantesque vias scelerato sanguine: cerno</l>
+        <l n="l307">Funditus evulsas arces, turresque superbas,</l>
+        <l n="l308">Incensumque vetus templum, murosque labantes</l>
+        <l n="l309">Praecipitare solo: rues impia culmine ab alto</l>
+        <l n="l310">Nec lapis ullus erit lapidem super: omnia pulvis</l>
+        <l n="l311">Et levis umbra teget: crux, crux dominabitur una</l>
+        <l n="l312">Calvario tibi nunc despecta, tuisque sedebit</l>
+        <l n="l313">Victrix reliquiis, nunquam tacitura Tonantis</l>
+        <l n="l314">Munus, et Isacidae corda ingratissima gentis.</l>
+        <l n="l315">O nos, quos placido nascentes lumine vera</l>
+        <l n="l316">Relligio aspexit, spernemus ut impia<persName n="persName1">Abrami</persName>
         </l>
-        <l>Progenies magnum Verbi omnipotentis amorem,</l>
-        <l>Quodque salutifero patefecit funere coelum</l>
-        <l>Omnibus, ingrato nos dedignabimur ipsum</l>
-        <l n="310">Pectore? Criminibus iungemus crimina? Christi</l>
-        <l>Sanguine abutemur, meritasque movebimus iras</l>
-        <l>Iudicis ultoris? Tenebrosi denique Averni</l>
-        <l>Recludemus iter nobis, scelerumque luemus</l>
-        <l>Nostrorum poenas aeternis ignibus usti?</l>
-        <pb n="15"/>
-        <l n="315">Non ita: vitales igitur dum ducimus auras,</l>
-        <l>Dum penes arbitrium est nostrum, dum tempora poscunt,</l>
-        <l>Dum veniam sperare licet, dumque omnia tandem</l>
-        <l>Inspirant animis pietatem, ad templa, relictis</l>
-        <l>Tendamus nugis, Christum sub imagine panis</l>
-        <l n="320">Mystica adoremus, poscamus supplice dextra,</l>
-        <l>Ut scelera ignoscat nobis, quae causa fuerunt</l>
-        <l>Indubitata necis: non sit mora: pura paremus</l>
-        <l>Pectora nostra Deo, iam iam statuamus ab Orco</l>
-        <l>Tollere, et in patrium mentem convertere coelum.</l>
-        <l n="325">Tuque Dei veneranda parens, nostraeque salutis</l>
-        <l>Anchora, vos omnes, qui tot pro nomine Christi</l>
-        <l>Saeva pati, ac ipsam voluistis fundere vitam,</l>
-        <l>Nuncque triumphali redimiti tempora palma</l>
-        <l>Fulgentes coeli sedes, supera alta tenetis,</l>
-        <l n="330">Exorate Deum, (si Christi morte meremur)</l>
-        <l>Ut nos respiciat placato lumine, et iras</l>
-        <l>Contineat, sanctumque animis inspiret amorem</l>
-        <l>Humanis, ut quum non exsuperabile tempus</l>
-        <l>Adveniet, summusque dies lucebit in orbe,</l>
-        <l n="335">Nos puri scelerum, iustique subire tribunal</l>
-        <l>Cum grege delecto possimus, et inter ovantes</l>
-        <l>Coelicolas, Superumque animas, Sanctosque reponi,</l>
-        <l>Angelicisque choris stipati ad regna superna</l>
-        <l>Scandere, et humanis exuti pectora curis</l>
-        <l n="340">Vivere felices, laetisque accumbere mensis.</l>
+        <l n="l317">Progenies magnum Verbi omnipotentis amorem,</l>
+        <l n="l318">Quodque salutifero patefecit funere coelum</l>
+        <l n="l319">Omnibus, ingrato nos dedignabimur ipsum</l>
+        <l n="l320">Pectore? Criminibus iungemus crimina? Christi</l>
+        <l n="l321">Sanguine abutemur, meritasque movebimus iras</l>
+        <l n="l322">Iudicis ultoris? Tenebrosi denique Averni</l>
+        <l n="l323">Recludemus iter nobis, scelerumque luemus</l>
+        <l n="l324">Nostrorum poenas aeternis ignibus usti?</l>
+        <pb n="pb325"/>
+        <l n="l326">Non ita: vitales igitur dum ducimus auras,</l>
+        <l n="l327">Dum penes arbitrium est nostrum, dum tempora poscunt,</l>
+        <l n="l328">Dum veniam sperare licet, dumque omnia tandem</l>
+        <l n="l329">Inspirant animis pietatem, ad templa, relictis</l>
+        <l n="l330">Tendamus nugis, Christum sub imagine panis</l>
+        <l n="l331">Mystica adoremus, poscamus supplice dextra,</l>
+        <l n="l332">Ut scelera ignoscat nobis, quae causa fuerunt</l>
+        <l n="l333">Indubitata necis: non sit mora: pura paremus</l>
+        <l n="l334">Pectora nostra Deo, iam iam statuamus ab Orco</l>
+        <l n="l335">Tollere, et in patrium mentem convertere coelum.</l>
+        <l n="l336">Tuque Dei veneranda parens, nostraeque salutis</l>
+        <l n="l337">Anchora, vos omnes, qui tot pro nomine Christi</l>
+        <l n="l338">Saeva pati, ac ipsam voluistis fundere vitam,</l>
+        <l n="l339">Nuncque triumphali redimiti tempora palma</l>
+        <l n="l340">Fulgentes coeli sedes, supera alta tenetis,</l>
+        <l n="l341">Exorate Deum, (si Christi morte meremur)</l>
+        <l n="l342">Ut nos respiciat placato lumine, et iras</l>
+        <l n="l343">Contineat, sanctumque animis inspiret amorem</l>
+        <l n="l344">Humanis, ut quum non exsuperabile tempus</l>
+        <l n="l345">Adveniet, summusque dies lucebit in orbe,</l>
+        <l n="l346">Nos puri scelerum, iustique subire tribunal</l>
+        <l n="l347">Cum grege delecto possimus, et inter ovantes</l>
+        <l n="l348">Coelicolas, Superumque animas, Sanctosque reponi,</l>
+        <l n="l349">Angelicisque choris stipati ad regna superna</l>
+        <l n="l350">Scandere, et humanis exuti pectora curis</l>
+        <l n="l351">Vivere felices, laetisque accumbere mensis.</l>
       </div>
-      <pb n="16"/>
+      <pb n="pb5"/>
     </body>
   </text>
 </TEI>

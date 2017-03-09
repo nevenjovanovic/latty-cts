@@ -24,6 +24,25 @@
         <bibl>TLMF, Dip. 672/1</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1773">1773</date>
@@ -45,18 +64,18 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:pansa01.latty2647892.latty-lat1:">
-    <body>
-      <div>
-        <head>Lacrymae Romanae invictissimo monarchae heroi fortissimo principi optimo maximo
-                Matthiae I imperatori romano patri patriae augusto, pio, felici, et caetera regi<placeName>Ungariae</placeName>,<placeName>Bohemiae</placeName>, et caetera archiduci<placeName>Austriae</placeName>, et caetera.
-           13 calendario aprilis anno<date>1619</date>
-          <placeName>Viennae</placeName>in<placeName>Austria</placeName>subditis suspirantibus, gemente
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">Lacrymae Romanae invictissimo monarchae heroi fortissimo principi optimo maximo
+                Matthiae I imperatori romano patri patriae augusto, pio, felici, et caetera regi<placeName n="placeName1">Ungariae</placeName>,<placeName n="placeName2">Bohemiae</placeName>, et caetera archiduci<placeName n="placeName3">Austriae</placeName>, et caetera.
+           13 calendario aprilis anno<date n="date4">1619</date>
+          <placeName n="placeName5">Viennae</placeName>in<placeName n="placeName6">Austria</placeName>subditis suspirantibus, gemente
                 universo populo romano, dolentibus exteris ex mortalis huius vitae lugubri et
                 navifrago pelago ad aeternae salutis portum emigranti, cum piis et felicibus eiusdem
                 sanctis caesaris maiestatis manibus ad pontes Oeni, dies a morte trigesimus veteri
                 ritu solennibus ceremoniis perageretur ex humillimo devotissimae mentis affectu
-                concinnatae et<pb xml:id="F1v"/>sacratissimae imperatricae maiestati domino Ferdinando II
-                caesare augusto, reverendissimis et serenissimis archiducibus<placeName>Austriae</placeName>et caeteris
+                concinnatae et<pb n="pb7" xml:id="F1v"/>sacratissimae imperatricae maiestati domino Ferdinando II
+                caesare augusto, reverendissimis et serenissimis archiducibus<placeName n="placeName8">Austriae</placeName>et caeteris
                 principibus summis, et caetera. Domino Alberto belgicarum provinciarum principi;
                 domino Leopoldo Argent. et Passav. episcopo; domino Carolo Vratislaviae ac
                 Brixinensis episcopo, sacrae Marianae militiae magistro magno; invictissimi pie
@@ -65,18 +84,18 @@
                 vestrarum humillimo, et ad imperata promtissimo servo Casparo Pansa, I.V.D. summi
                 superioris Austriae provinciarum tribunalis, consiliario ac regente, et caetera.</head>
       </div>
-      <div>
-        <pb xml:id="F1"/>
-        <head>Memoriae<persName>Matthiae I</persName>imperatoris romani monumentum erectum a Casparo Pansa
+      <div n="div2">
+        <pb n="pb1" xml:id="F1"/>
+        <head n="head2">Memoriae<persName n="persName1">Matthiae I</persName>imperatoris romani monumentum erectum a Casparo Pansa
                 Icto.</head>
       </div>
-      <div>
-        <p>Quemadmodum in medio salo undam prepulsat unda, eodem modo vita hac in caduca et
+      <div n="div3">
+        <p n="p1">Quemadmodum in medio salo undam prepulsat unda, eodem modo vita hac in caduca et
                 fragili cladi succedit clades. Eheu letho immaturo, fatis properantibus exemtum
-                vivis serenissimum<persName>Maximilianum IIII</persName>populus tyrolensis nec dum defleverat, cum te,
-                imperator<persName>Matthia I</persName>crudeli falce peremit immitis nimium et nulli exorabilis unquam
+                vivis serenissimum<persName n="persName1">Maximilianum IIII</persName>populus tyrolensis nec dum defleverat, cum te,
+                imperator<persName n="persName2">Matthia I</persName>crudeli falce peremit immitis nimium et nulli exorabilis unquam
                 morta. Imperator Pyliis quem dignum censuit annis imperium romanum, itane obiit? Ver
-                et delicium flaccuit imperii? Clarissi<pb xml:id="F2"/>mum mundi lumen occidit, dies abscessit?
+                et delicium flaccuit imperii? Clarissi<pb n="pb3" xml:id="F2"/>mum mundi lumen occidit, dies abscessit?
                 Rursumne ausa est serenissimae atque divinis laudibus plenissimae domus Austriacae
                 pedem admovere iugulo, animam eiicere, patriam suo parente bonoque privare? O
                 subitam procellae saevitiam, miserandum calamitatis aestum! O immensum malorum
@@ -89,7 +108,7 @@
                 est et vitreus, momentanea regum gloria, ruinosa orbis imperia! O dura mors, nullius
                 avertenda precibus, nullis aut armatis minis, aut supplicibus votis: quam certa
                 venis, quam inexpectata, quam certo interminata, quam parum cogitata! Non te sanguis
-                imperatorius, retro longa maiorum nomina, acti honoribus dies, aulicorum<pb xml:id="F3"/>fida
+                imperatorius, retro longa maiorum nomina, acti honoribus dies, aulicorum<pb n="pb4" xml:id="F3"/>fida
                 custodia, circumfusae armatorum manus, carorum preces, et lacrymae, regna, purpurae,
                 diademata, et tandem publica calamitas remorari potuerunt? O omni saevior laena!
                 Omni crudelior! Hanc placatam non semel accepimus humili prece, et innoxium
@@ -103,70 +122,70 @@
                 saturant manus, omnia regna ac imperia ad tua trepidant iacula, omne robur tanquam
                 falce demessum, aut tanquam cera sole medio aut mediis cincta nix ignibus cedit;</p>
       </div>
-      <div>
-        <lg>
-          <l>Et licet a Pico numeret genus, altaque seuquem</l>
-          <l>Nomina delectent, omnem Titanida pugnam</l>
-          <l>Inter maiores, ipsumque Promethea ponat,</l>
+      <div n="div4">
+        <lg n="lg1">
+          <l n="l1">Et licet a Pico numeret genus, altaque seuquem</l>
+          <l n="l2">Nomina delectent, omnem Titanida pugnam</l>
+          <l n="l3">Inter maiores, ipsumque Promethea ponat,</l>
         </lg>
       </div>
-      <div>
-        <p>Calcanda brevis Lethi via est, et ad cineres lutumque redeundum scimus omnes.</p>
-        <pb xml:id="F4"/>
-        <p>Nostra vox fida pectoris intepres, hodierno luctus nostros expectorabit; sermo
-                noster hermes sensorum certissimus non solum quid in animo doloris,<persName>Matthiae I</persName>imperatoris romani obitus reliquerit intepretabitur, sed ab omnibus quos poterit
+      <div n="div5">
+        <p n="p1">Calcanda brevis Lethi via est, et ad cineres lutumque redeundum scimus omnes.</p>
+        <pb n="pb2" xml:id="F4"/>
+        <p n="p3">Nostra vox fida pectoris intepres, hodierno luctus nostros expectorabit; sermo
+                noster hermes sensorum certissimus non solum quid in animo doloris,<persName n="persName1">Matthiae I</persName>imperatoris romani obitus reliquerit intepretabitur, sed ab omnibus quos poterit
                 luctus, quas lacrymas, quos gemitus extorquebit:</p>
       </div>
-      <div>
-        <lg>
-          <l>Ecquis enim lacrymis non undet ocellus amaris,</l>
-          <l>Dum videt imperii romani culmen abesse?</l>
-          <l>Te patriae patrem lacrymis<placeName>Germania</placeName>quaerit</l>
-          <l>Matthia, ereptum dolet ipsa<placeName>Europa</placeName>parentem:</l>
-          <l>Non tanto natum quae vidit ab arce cadentem</l>
-          <l>Teucra suum affecit luctu, quanto omnia moerent:</l>
-          <l>Nam vivente fuit te ornata<placeName>Alemannia</placeName>multis,</l>
-          <l>Quae bona tunc fuerant mala post te facta videmus.</l>
-          <l>Se poterat iactare suo<placeName>Germania</placeName>sole,</l>
-          <l>Aestatisque fuit seclum, vel veris imago:</l>
-          <l>Hoc iam detracto, tempus brumale remansit;</l>
-          <l>Inde suo quivis se Phoebo orbarier inquit,</l>
-          <l>Omniaque erepto hoc in terris nigra videri.</l>
-          <l>Murice pro tyrio tetras<placeName>Germania</placeName>lanas</l>
-          <l>Sumit, eo summi declarans signa doloris.</l>
-          <l>Quas tibi dat pubes lacrymas Germana gemiscens?</l>
-          <l>Tanquam Ithin Ismarium gemuisti, Daulia mater.</l>
-          <pb xml:id="F5"/>
-          <l>Pirithoos video Matthia abeunte gementes,</l>
-          <l>Quisque genas nimio prae luctu rodicat ungue:</l>
-          <l>Sylvae, saxa gemunt, montes, et flumina, petrae</l>
-          <l>Dant publicos luctus animaque carentia moerent.</l>
-          <l>Hosce tuo tantos reditu compescito luctus,</l>
-          <l>Duscutitoque tuis radiis haec nubila, nobis</l>
-          <l>Illa, qua sub te, dato commoditate, fruamur.</l>
-          <l>Sed quid ego resonis singultibus aethera pulso,</l>
-          <l>Nostrave Brontheo crepitant, quid sulphure corda?</l>
-          <l>Fata vocant, audet, quis Divum obsistere fatis?</l>
-          <l>Fata volunt: velle illorum cohibere, quis audet?</l>
-          <l>Tu prope dum procul, es nostris annexus ocellis</l>
-          <l>Matthia, haud procul est qui cordis possidet ima.</l>
+      <div n="div6">
+        <lg n="lg1">
+          <l n="l1">Ecquis enim lacrymis non undet ocellus amaris,</l>
+          <l n="l2">Dum videt imperii romani culmen abesse?</l>
+          <l n="l3">Te patriae patrem lacrymis<placeName n="placeName1">Germania</placeName>quaerit</l>
+          <l n="l4">Matthia, ereptum dolet ipsa<placeName n="placeName1">Europa</placeName>parentem:</l>
+          <l n="l5">Non tanto natum quae vidit ab arce cadentem</l>
+          <l n="l6">Teucra suum affecit luctu, quanto omnia moerent:</l>
+          <l n="l7">Nam vivente fuit te ornata<placeName n="placeName1">Alemannia</placeName>multis,</l>
+          <l n="l8">Quae bona tunc fuerant mala post te facta videmus.</l>
+          <l n="l9">Se poterat iactare suo<placeName n="placeName1">Germania</placeName>sole,</l>
+          <l n="l10">Aestatisque fuit seclum, vel veris imago:</l>
+          <l n="l11">Hoc iam detracto, tempus brumale remansit;</l>
+          <l n="l12">Inde suo quivis se Phoebo orbarier inquit,</l>
+          <l n="l13">Omniaque erepto hoc in terris nigra videri.</l>
+          <l n="l14">Murice pro tyrio tetras<placeName n="placeName1">Germania</placeName>lanas</l>
+          <l n="l15">Sumit, eo summi declarans signa doloris.</l>
+          <l n="l16">Quas tibi dat pubes lacrymas Germana gemiscens?</l>
+          <l n="l17">Tanquam Ithin Ismarium gemuisti, Daulia mater.</l>
+          <pb n="pb18" xml:id="F5"/>
+          <l n="l19">Pirithoos video Matthia abeunte gementes,</l>
+          <l n="l20">Quisque genas nimio prae luctu rodicat ungue:</l>
+          <l n="l21">Sylvae, saxa gemunt, montes, et flumina, petrae</l>
+          <l n="l22">Dant publicos luctus animaque carentia moerent.</l>
+          <l n="l23">Hosce tuo tantos reditu compescito luctus,</l>
+          <l n="l24">Duscutitoque tuis radiis haec nubila, nobis</l>
+          <l n="l25">Illa, qua sub te, dato commoditate, fruamur.</l>
+          <l n="l26">Sed quid ego resonis singultibus aethera pulso,</l>
+          <l n="l27">Nostrave Brontheo crepitant, quid sulphure corda?</l>
+          <l n="l28">Fata vocant, audet, quis Divum obsistere fatis?</l>
+          <l n="l29">Fata volunt: velle illorum cohibere, quis audet?</l>
+          <l n="l30">Tu prope dum procul, es nostris annexus ocellis</l>
+          <l n="l31">Matthia, haud procul est qui cordis possidet ima.</l>
         </lg>
       </div>
-      <div>
-        <p>Scio quidem ingentes Matthiae imperatoris nostri manes, si nobiscum possent humanitus
-                affari, non aliter monituros, quam olim priscus vates<persName>Ennius</persName>;</p>
+      <div n="div7">
+        <p n="p1">Scio quidem ingentes Matthiae imperatoris nostri manes, si nobiscum possent humanitus
+                affari, non aliter monituros, quam olim priscus vates<persName n="persName1">Ennius</persName>;</p>
       </div>
-      <div>
-        <lg>
-          <l>Nemo me lacrymis decoret, nec funera fletu</l>
-          <l>Facit: cur? Volito docta per ora virum.</l>
+      <div n="div8">
+        <lg n="lg1">
+          <l n="l1">Nemo me lacrymis decoret, nec funera fletu</l>
+          <l n="l2">Facit: cur? Volito docta per ora virum.</l>
         </lg>
       </div>
-      <div>
-        <p>Esto non egeat ille nostris lacrymis, sed illo nostrae lacrymae decorantur. Nemo est
+      <div n="div9">
+        <p n="p1">Esto non egeat ille nostris lacrymis, sed illo nostrae lacrymae decorantur. Nemo est
                 tam rudis, tam ignarus rerum, qui non intelligat olim quemque civium romanorum
                 partem suae felicitatis in eo posuisse, ut in sepulcrale Augusti Caesaris urnam,
-                unam lacrymulam posset infundere. Nonne lacrymas nostra feli<pb xml:id="F6"/>citari putabimus,
+                unam lacrymulam posset infundere. Nonne lacrymas nostra feli<pb n="pb1" xml:id="F6"/>citari putabimus,
                 quibus augusti nostri Matthiae cineres asperserimus? Nobis ille, non sibi lugendus
                 est, qui quemadmodum de Tito dicebatur maiore hominum damno quam Suo sublatus est.
                 Lugeamus itaque et oculi sibi tantum imperatorem ac principem sublatum lacrymis suis
@@ -176,28 +195,28 @@
                 indefletus abiret? Oculi nostri sicci, aridi, pumicei, tam luculentam plagam sine
                 ullo doloris imbre intueri possent? Non tam iucundi sunt saporis quae ab helxines
                 vertice manant lacrymulae, quam iucundae sunt manibus lacrymabilium heroum quae sibi
-                sponte ab oculis piorum hominum expuuntur. Nostrum itaque<persName>Matthiam</persName>, nostras delicias
+                sponte ab oculis piorum hominum expuuntur. Nostrum itaque<persName n="persName2">Matthiam</persName>, nostras delicias
                 humani generis amores immaturo extinctum funere lugeamus, tristique plangore
-                lamentemur. Iudaei regem suum<persName>Saulem</persName>licet inauspicatum obiise tanta doloris
+                lamentemur. Iudaei regem suum<persName n="persName3">Saulem</persName>licet inauspicatum obiise tanta doloris
                 impatientia audierunt, ut eum septem diebus fletu et ieiuniis deplorarint. Nos
-                imperatorem nostrum et patrem pa<pb xml:id="F7"/>triae auspicatum, non<persName>Saulem</persName>sed salutem
-                reipublicae sine luco ullo praeteribimus?<placeName>Aegyptii</placeName>ad interitum regis caput
+                imperatorem nostrum et patrem pa<pb n="pb4" xml:id="F7"/>triae auspicatum, non<persName n="persName5">Saulem</persName>sed salutem
+                reipublicae sine luco ullo praeteribimus?<placeName n="placeName6">Aegyptii</placeName>ad interitum regis caput
                 cineribus deturpant, nudatis mammillis mulieres, nudatis pectoribus viri acerbissime
                 plangunt et crebris singultibus ululantur. Germani imperatorem suum iacentem ad
                 sepulcrum efferri duris et irretortis oculis intuebuntur? Luctum potius romanorum
                 imitemur, luctum illum quo Quirites, quo pagani, quo milites, quo viri, quo foeminae
-                mortem<persName>Antonii Pii</persName>prosecuti sunt. Eiulatus eliulantium urbem occupent, tristes
+                mortem<persName n="persName7">Antonii Pii</persName>prosecuti sunt. Eiulatus eliulantium urbem occupent, tristes
                 gemitus ubique, circumsonent, nohol auribus intrudatur, praeter hoc lamentabile, heu
-                heu; noster<persName>Antoninus</persName>occidit, imperator noster, princeps optimus occidit, (heu!)
+                heu; noster<persName n="persName8">Antoninus</persName>occidit, imperator noster, princeps optimus occidit, (heu!)
                 parens omnium charissimus. Aurelianus Caesar tantum sui desiderium moriens
                 reliquisse dicitur, ut sacrilegus heberetur, qui domi suae eius non habuisset
-                imaginem. Et nos puri et religiosi haberi poterimus, nisi tristem<persName>Matthiae I</persName>imperatoris nostri, imaginem nobis luctus repraesentet? Musae sicut ingeniose finxit<persName>Homerus</persName>, cineres et tumultum<persName>Achillis</persName>, suis fletibus irrorarunt: vos o musae romanae
-                romani Iovis filiae, quas in hoc roma<pb xml:id="F8"/>norum orbe plantarunt imperatores et
-                principes,<persName>Achillem</persName>vestrum<persName>Matthiam</persName>deplorate. Cecidit ille, vester dilectissimus
-                parens, lugete<placeName>Europeae</placeName>musae, et lugubri voce et lugubrium fidium, lyraeque,
+                imaginem. Et nos puri et religiosi haberi poterimus, nisi tristem<persName n="persName9">Matthiae I</persName>imperatoris nostri, imaginem nobis luctus repraesentet? Musae sicut ingeniose finxit<persName n="persName10">Homerus</persName>, cineres et tumultum<persName n="persName11">Achillis</persName>, suis fletibus irrorarunt: vos o musae romanae
+                romani Iovis filiae, quas in hoc roma<pb n="pb12" xml:id="F8"/>norum orbe plantarunt imperatores et
+                principes,<persName n="persName13">Achillem</persName>vestrum<persName n="persName14">Matthiam</persName>deplorate. Cecidit ille, vester dilectissimus
+                parens, lugete<placeName n="placeName15">Europeae</placeName>musae, et lugubri voce et lugubrium fidium, lyraeque,
                 concentu aures totius imperii romani complete. Vos strenui milites, vos inclyti
                 bello duces, lugete, occubuit princeps vester, et strategus invictissimus. Misera et
-                externata<persName>Andromache</persName>, se totam fieri oculos expetivit, ut in lacrymas flueret tota,
+                externata<persName n="persName16">Andromache</persName>, se totam fieri oculos expetivit, ut in lacrymas flueret tota,
                 et instar Narcissi in perennem et vivum fontem solveretur, ut perpetuo fluxu
                 Hectoris sui tumulum continenter irrigaret: utinam omnes oculi evaderemus, ut eam
                 vim lacrymosorum imbrium expueremus, qua non ablueretur, sed totus immergi tegique
@@ -206,22 +225,22 @@
                 est, ut lacrymabiles naenias pressius et crebrius eiacularemur. Quis Isa, quis
                 Cyllene, quis Erymanthus, quae tandem populosa sylva nobis satis cupressorum
                 suggeret? Quibus vestibula, quibus fores nostras obumbremus? Ingens nostra cupressus
-                Matthias recisus est, qui non secus as Psophi<pb xml:id="F9"/>clis in<placeName>Arcadia</placeName>cupressi caeteros
+                Matthias recisus est, qui non secus as Psophi<pb n="pb17" xml:id="F9"/>clis in<placeName n="placeName18">Arcadia</placeName>cupressi caeteros
                 regalium montium apices suo vertice opacabat. Ingens illa cupressus, in qua suas
-                leges, ut iubebat<persName>Plato</persName>, Germani inciderant, procubuit. Sic magnae arbores, quae diu
+                leges, ut iubebat<persName n="persName19">Plato</persName>, Germani inciderant, procubuit. Sic magnae arbores, quae diu
                 creverunt, una hora extirpantur. O vulnus lamentabile, o calamitosam iacturam! Huc o
                 austriacae prosapiae foeminae heroinae properate, vestrum charissimum mausolum
                 Artemisiae amplectimini, eius ultimum halitum ab ore excipite, obiit vester ille
                 mausolus, condite illi oculos, formosos illos quondam oculos, nunc atros, et
                 obscuros pia manu componitote. Huc properate, cadaver, reliquias vestri triumphantis
-                Tarquiniis abluite, non illius Tarquiniis, cuius superbia<placeName>Romam</placeName>irritavit, sed
+                Tarquiniis abluite, non illius Tarquiniis, cuius superbia<placeName n="placeName20">Romam</placeName>irritavit, sed
                 illius Tarquiniis, cuius maiestatem humilitas, et humanitas, quasi duae columnae
                 sustinebant. Huc aquas, non illas Stygias, quibus Achillis corpus aspersum fuit, sed
                 limpidos liquores adportate, huc aromaticum vinum, huc pretiosa unguenta, huc
                 arabicos odores, adducite, quibus tam imperatorium et candidum corpus iungatur. Huc
                 ex Austriacae stemmate propagati proceres, huc properate, vestrum parentem et
-                agnatum, ut deiphobus<persName>Hectora</persName>, suaveolentibus thimiamatis illinite, huc purpuras,
-                huc ami<pb xml:id="F10"/>ctus preiotissimos adferte, quibus tam nobiles artus implicentur, vos
+                agnatum, ut deiphobus<persName n="persName21">Hectora</persName>, suaveolentibus thimiamatis illinite, huc purpuras,
+                huc ami<pb n="pb22" xml:id="F10"/>ctus preiotissimos adferte, quibus tam nobiles artus implicentur, vos
                 formosulae Nymphae, pulcellos flores colligite, quos huic aliquoties victori capiti
                 consuatis. Huc o tubae, quibus ad Martis opus aliquando incaluit: sed illae
                 longiores et incurvae, quibus triste et luctuosum tarantara excitatur, tubae
@@ -234,36 +253,36 @@
                 madeant, volutentur. Solebant antiqui qui vitam, qui libertatem, alicui suam
                 debebant, solebant, prae dunere pileati raso capite, alba lana candidati procedere,
                 ut debere mortuo quod a vivo acceperant testarentur. O quam densa et frequens
-                hominum turba huc se sisteret, si quot vitam, quo libertatem ab<persName>Matthia</persName>imperatore
-                acceperunt, in locum quendam concursarent. Omnes plateae, omnes viri, omnia magnae<pb xml:id="F11"/>
-          <placeName>Viennae</placeName>spatia prae tanta multitudine angustarentur. Huc veterani, huc emeriti
+                hominum turba huc se sisteret, si quot vitam, quo libertatem ab<persName n="persName23">Matthia</persName>imperatore
+                acceperunt, in locum quendam concursarent. Omnes plateae, omnes viri, omnia magnae<pb n="pb24" xml:id="F11"/>
+          <placeName n="placeName25">Viennae</placeName>spatia prae tanta multitudine angustarentur. Huc veterani, huc emeriti
                 milites accedite, Matthiae imperatoris feretro pios humeros subiicite, ut olim
                 praeoriani milites Augusto. In hoc capulum, vos o Viennensium dilectissimi incolae,
                 in hoc, inquam, violas, thimiamata, cassium, thura, myrrham, crocum, infundite in
                 hunc vestrum optimum patronum prodigite. Quid vos literati homines, quibus Pitho os
-                et linguam inauravit, ut atheniense historico Beroso, quibus<persName>Pallas</persName>cerebrum animata
-                et vitali bibliotheca inspiravit, ut de<persName>Longino Cassio</persName>dicitur: quid vos<persName>Matthiae I</persName>manibus conferetis? Praeclaras illas ingenii opes effundite, memoriam Matthiae
+                et linguam inauravit, ut atheniense historico Beroso, quibus<persName n="persName26">Pallas</persName>cerebrum animata
+                et vitali bibliotheca inspiravit, ut de<persName n="persName27">Longino Cassio</persName>dicitur: quid vos<persName n="persName28">Matthiae I</persName>manibus conferetis? Praeclaras illas ingenii opes effundite, memoriam Matthiae
                 imperatoris nunquam interituris paginis commendate, exequilaes Naenias componite,
                 quibus Matthiae archiducis ac principis nostri clementissimi probitas et indefessa
                 virtus temporum edacitati resistat. Orationes funebres Nobilibus tantum olim habuit
                 antiquitas: An Austriaco genere quicquam sol nobilius intuetur? Iulius Caesar genus
                 suum Paternum quidem a Venere, maternum a Pasiphae, solis filia repetebat: unde,
-                precor, Matthiae imperatoris: genus commodious repe<pb xml:id="F12"/>tetur, nisi ab illis
-                heroibus qui iam in sanctimoniam deorum commigrarunt? Nisi ab eo<persName>Maximiliano</persName>, quem
-                virtus et merita caelo clarissimum sydus asserverunt?<placeName>Romae</placeName>non nisi viris
+                precor, Matthiae imperatoris: genus commodious repe<pb n="pb29" xml:id="F12"/>tetur, nisi ab illis
+                heroibus qui iam in sanctimoniam deorum commigrarunt? Nisi ab eo<persName n="persName30">Maximiliano</persName>, quem
+                virtus et merita caelo clarissimum sydus asserverunt?<placeName n="placeName31">Romae</placeName>non nisi viris
                 illustribus, non nisi virtute sua et praeclare gestis felicibus viris oratio
                 funebris habebatur. Quid amplius usquam de suo, quam de imperio romano promeruit
-                imperatorem<persName>Matthias</persName>? Qui invenit fragile et imbecillum, reliquit virtute munitum,
+                imperatorem<persName n="persName32">Matthias</persName>? Qui invenit fragile et imbecillum, reliquit virtute munitum,
                 qui illud invenit dissidens, reliquit mutua civium inter cives caritate devinctum,
-                ut de<placeName>Roma</placeName>Augustus circumferebat. Athenienses religione funebri neminem
+                ut de<placeName n="placeName33">Roma</placeName>Augustus circumferebat. Athenienses religione funebri neminem
                 consecrabant, nisi qui pro patria in acie fortiter dimicando occubuisset. Quoties
                 Matthias noster ante mortem in praeliis mortuus est? Huic itaque bellicoso Caesari,
                 huic magnanimo victori date Mnemosines et Minerva filii funebrem laudationis
                 victimam, date prosas, versasque, paginas, date numeros innumerosque, titulos quibus
                 eius bustum perenniter inscribatur.</p>
-        <p>Exurgam itaque, et in hoc virtutum Matthiae I imperatoris theatro lasciviet atque
+        <p n="p2">Exurgam itaque, et in hoc virtutum Matthiae I imperatoris theatro lasciviet atque
                 exultabit oratio. Plures certe virtutes in Matthia imperatore romano splendidissime
-                corruscarunt, plures illum non minus vestierunt quam infiniti<pb xml:id="F13"/>numero flores,
+                corruscarunt, plures illum non minus vestierunt quam infiniti<pb n="pb1" xml:id="F13"/>numero flores,
                 Thessalica tempe, aut Calistam insulam, cui pulcritudo nomen dedit, varie
                 colorarunt. Malum Punicum nobis antiquitas pro symbolo imperii Imperatorumque
                 commendavit. Nunquam malum Punicum tot granis varium et multiplex repertum est, quot
@@ -278,10 +297,10 @@
                 vita defunctorum diligentius inquirere, priusquam sepulcro conderentur, eorum
                 virtutes omnes in unum locum conglobare, pravitates et vitia adverso loco coacervata
                 obiicere, et quasi unius trutinae lancibus admovere, ut scilicet pro graviore aut
-                leviore vitiorum<pb xml:id="F14"/>virtutumve liberamine aequius aut iniquius cum regis sui
+                leviore vitiorum<pb n="pb2" xml:id="F14"/>virtutumve liberamine aequius aut iniquius cum regis sui
                 manibus convenirent. Hoc agamus, si placet, et principis nostri clementissimi
                 virtutes in unum acervum congeramus. Huc igitur, formosae Deae properate,
-                bellissimae virtutes Iovis serenissimae filiae, ut dicebat<persName>Simonides</persName>huc properate,
+                bellissimae virtutes Iovis serenissimae filiae, ut dicebat<persName n="persName3">Simonides</persName>huc properate,
                 radiosum illum vestrae maiestatis vultum nobis exerite, et quamvis ingenti luctu
                 externatae ob immaturam principis vestri et imperatoris iacturam, properate, tamen,
                 in os, in linguam, in sermonem nostrum, vires et pulcritudines vestras infundite,
@@ -292,11 +311,11 @@
                 particulam imperatori Matthiae I denegasti? Imo, inquit, in eius animum, in eius
                 solertissimos sensus me totam abdidi: et merito quidem: nam in eo cui persona
                 imperatoria imposita est, multae res, et magnae requiruntur: tum autem nihil magis
-                perficiendum, quam ut prudentia munitus sit et vallaetus. Non domesticam appello<pb xml:id="F15"/>prudentiam, ad privata commoda remque familiarem attentiorem: sed civilem,
+                perficiendum, quam ut prudentia munitus sit et vallaetus. Non domesticam appello<pb n="pb4" xml:id="F15"/>prudentiam, ad privata commoda remque familiarem attentiorem: sed civilem,
                 quae consilio plurimum pollens potensque in rebus ad hominum vitam pertinentibus
                 persequendis contariisque fugiendis occupatur, quae in tractandis reipublicae
                 gubernaculis posita est atque versatur: quae quod oculus in corpore, quod in
-                privatis aedibus servus atriensis est, id in republica est, quae denique,<persName>Platonis</persName>sententia, amplitudinis imperatoriae peculiaris propriaque censetur: cum ab hac
+                privatis aedibus servus atriensis est, id in republica est, quae denique,<persName n="persName5">Platonis</persName>sententia, amplitudinis imperatoriae peculiaris propriaque censetur: cum ab hac
                 reliquae virtutes, non magis imperiosorum, eorumque qui clavum imperii tenent, quam
                 eorum, qui alienae voluntati imperioque parent, habeantur. At quibus prudentiae
                 flammis non enituit Matthias imperator; cuius tota vita militia fuit, et accurata
@@ -307,8 +326,8 @@
                 prudentiae dotibus mactus esset Matthias romanus imperator? Quidni gravibus illi
                 sapientiae ponderibus haud libraretur? Qui ab ipsis vitae crepundiis res versare et
                 gerere ad ultimum halitum nunquam intermisit, quem vel magna molientem et versantem
-                facinora<pb xml:id="F16"/>mors heu immatura occupavit.<persName>Pallas</persName>apud<persName>Homerum</persName>rugas a fronte
-                vultuque<persName>Ulissis</persName>abstersisse dicitur, ut pulcrior appareret: prudentia capitis et
+                facinora<pb n="pb6" xml:id="F16"/>mors heu immatura occupavit.<persName n="persName7">Pallas</persName>apud<persName n="persName8">Homerum</persName>rugas a fronte
+                vultuque<persName n="persName9">Ulissis</persName>abstersisse dicitur, ut pulcrior appareret: prudentia capitis et
                 genarum Pilos ipso sub aetatis flore imperatori. Nostro canitie perfudit, ut
                 significaret in eo prudentiam ante aetatem floruisse, illosque praecoces canos
                 praecocis in animo senectutis argumenta dare, viridi senectute affectus, non
@@ -317,32 +336,32 @@
                 vivoque, flavoque pilo virescentem, alterum iam contractum, rugis senilibus aratum
                 et pilorum nivibus albescentem. Altero vultu in conciliis inter proceres imperii
                 romani apparebat: altero vultu inter medias acies hosti suo toriificus imminebat,
-                bonus consilio, manu strenuus, ut de<persName>Iugurtha</persName>dicebat<persName>Scipio</persName>, mens et manus simul,
-                ut de<persName>Ulisse</persName>et<persName>Diomede</persName>iactatum est:<foreign xml:lang="gr">βασιλευς άγαθος<gap/>
-          </foreign>, ut de<persName>Agamennone</persName>
-          <persName>Homerus</persName>: dux et miles ut de Augusto<persName>Svetonius</persName>, quoties quem hostem ferro
+                bonus consilio, manu strenuus, ut de<persName n="persName10">Iugurtha</persName>dicebat<persName n="persName11">Scipio</persName>, mens et manus simul,
+                ut de<persName n="persName12">Ulisse</persName>et<persName n="persName13">Diomede</persName>iactatum est:<foreign n="foreign14" xml:lang="gr">βασιλευς άγαθος<gap n="gap1"/>
+          </foreign>, ut de<persName n="persName15">Agamennone</persName>
+          <persName n="persName16">Homerus</persName>: dux et miles ut de Augusto<persName n="persName17">Svetonius</persName>, quoties quem hostem ferro
                 et incendio extinguere potuit prudentiae strategematis sine pulvere et sanguine
                 superavit: Quos fortitudinis suae fulmine potuit obruere, hos omnes misericorsi
-                prudentiae clypero texit, fo<pb xml:id="F17"/>vit, sospitavit. In hanc rem mihi spatiosus dicendi
+                prudentiae clypero texit, fo<pb n="pb18" xml:id="F17"/>vit, sospitavit. In hanc rem mihi spatiosus dicendi
                 campus aperitur: Sed hoc inceptum prudentiae curriculum aliis perficiendum relinquam
                 et concedam, quod fuerit prudens imperator Matthias, fuerit longo et multiplici
                 rerum usu versatissimus.</p>
-        <p>Prudentiae tamen extare, atque eminere videtur fortitudo, quemadmodum inter speciosos
+        <p n="p3">Prudentiae tamen extare, atque eminere videtur fortitudo, quemadmodum inter speciosos
                 colores, quibus arcus caelestis distinctus est, et varie depictus, Punicus maxime
                 praefulget: sic inter illa virtutum gargara quibus Matthiae imperatoris fiscus
-                abundavit primas videtur obtinere fortitudo<foreign xml:lang="gr">θαρσαλεός γαρ ανηρ εν παριν αμεινον</foreign>:
+                abundavit primas videtur obtinere fortitudo<foreign n="foreign1" xml:lang="gr">θαρσαλεός γαρ ανηρ εν παριν αμεινον</foreign>:
                 parva res est hominum vita, salillum animae, et moomentanea aeris respiratio, rei
                 tamen tam exiguae contemtus magna res est, et heroicis gradibus adaequanda. Cum
                 veteres poetae suos Scipiones, suos Regulos, suos Scauros ambitiosius commendant,
                 nihil habent, quo altius efferantur, et ascendant, quam cum illos sanguinis atque
                 animae prodigos nominarunt: Hic quasi cancer et solstitium est honorum, quicquid in
                 laudem utrinque traxeris infra summum deprimitur. At quis unquam profusior et
-                prodigalior sanguinis in<placeName>Belgio</placeName>ac<placeName>Hungaria</placeName>, quam Matthias imperator? Nulla enim
-                periculorum<pb xml:id="F18"/>ingruentia nulla discriminum intentatio, nullae instantium malorum
+                prodigalior sanguinis in<placeName n="placeName2">Belgio</placeName>ac<placeName n="placeName3">Hungaria</placeName>, quam Matthias imperator? Nulla enim
+                periculorum<pb n="pb4" xml:id="F18"/>ingruentia nulla discriminum intentatio, nullae instantium malorum
                 minae a proposita tutela semoverunt. Audentior semper ivit et animosior quam fortuna
                 pateretur. Et ut de antiquis celtis scriptum est, quod ruenti e nubibus tempestati
                 et praecipitatis ab excelso monte torrentibus scrutatam sinistram et galeatum caput
-                obiecerunt: Sic potentissimus hic imperator<persName>Matthias I</persName>sese dissidiorum torrentibus,
+                obiecerunt: Sic potentissimus hic imperator<persName n="persName5">Matthias I</persName>sese dissidiorum torrentibus,
                 quae ex cerebris turbulentorum hominum concitatius emanabant, sese violentis
                 tempestatibus, quae ex opacis defectionum nubibus erumpebant, intrepidus opposuit,
                 omnesque illos inanes crepitus et stolidas minas compescuit, fregit, dissipavit;
@@ -351,38 +370,38 @@
                 numeroso exercitu in Graeciam descendere, eam suis armis, suisque copiis quasi
                 naufragio obruturus, Isthmum suum longo muro praecinxisse dicuntur. Germani quoties
                 pugnaces et furiosas cohortes irruere animadvertit, non ad alium murum perfugerunt,
-                quam ad latus et pectus<persName>Matthiae I</persName>. Hic unus omnem molem impetuosae tempestatis
+                quam ad latus et pectus<persName n="persName6">Matthiae I</persName>. Hic unus omnem molem impetuosae tempestatis
                 sustinuit, et ut scopuli fluctuantis oceani minas et furores oppositum lateris
-                effringunt. Sic Matthias imperator obiectu<pb xml:id="F19"/>invicti clypei omnes illos fluctus
+                effringunt. Sic Matthias imperator obiectu<pb n="pb7" xml:id="F19"/>invicti clypei omnes illos fluctus
                 atque impetus illisit, admanta durior, quem nulla vis chalybis, nulla ferri
-                impotentia, nulla saxorum durities mollire potest, aut labefacere.<persName>Darius</persName>adamanta
+                impotentia, nulla saxorum durities mollire potest, aut labefacere.<persName n="persName8">Darius</persName>adamanta
                 gestare dicebatur, ut mentem animumque suum vano metu liberaret. Fortitudo
                 imperatoris nostri pro adamante fuit, quae inania formidinum spectra et vana
                 terricula percelluit, fugavit, excussit. Eos ipsos qui fastuoso et gravi supercilio
                 Matthiam Augustum despiciebant, imperatorio etiam nomine et titulo destituebant,
-                illos ipsos eo<persName>Matthiae</persName>nostri fortitudo redegit, ut iam nihil celsiues, et
-                grandius, habeant, quam<persName>Matthiae</persName>imperatoris suo paruisse. Quae res simili fato et
-                iisdem viribus cum<persName>Alexandro</persName>et<persName>Dario</persName>vertuntutr. Quid enim? Darius Xerxis solio et
-                amplitudine imperii sui fascinatus nihil prae se regulum<placeName>Macedoniae</placeName>faciebat, quas
-                ad illum literas dabat, hoc erant inscriptae titulo:<persName>Darius</persName>
-          <persName>Alexandro</persName>: Ne reguli,
+                illos ipsos eo<persName n="persName9">Matthiae</persName>nostri fortitudo redegit, ut iam nihil celsiues, et
+                grandius, habeant, quam<persName n="persName10">Matthiae</persName>imperatoris suo paruisse. Quae res simili fato et
+                iisdem viribus cum<persName n="persName11">Alexandro</persName>et<persName n="persName12">Dario</persName>vertuntutr. Quid enim? Darius Xerxis solio et
+                amplitudine imperii sui fascinatus nihil prae se regulum<placeName n="placeName13">Macedoniae</placeName>faciebat, quas
+                ad illum literas dabat, hoc erant inscriptae titulo:<persName n="persName14">Darius</persName>
+          <persName n="persName15">Alexandro</persName>: Ne reguli,
                 quidem nomine generosum adolescente insignire dignatus est. Offensus hac fatuitate
-                et superbia<persName>Alexander</persName>, rescripsit: faciam, Dari, ut quem ne Regis quidem nomine
-                dignaris, faciam inquam, ut ille non solum rex, sed et rex tuus habeatur.<persName>Alexandri</persName>minis et obnuntiationibus tandem fata responderunt.<pb xml:id="F20"/>Fecit fortitudo<persName>Matthiae</persName>,
-                ut non pauci<persName>Darii</persName>qui iam animis et avido pectore<placeName>Germaniae</placeName>provincia invadere
+                et superbia<persName n="persName16">Alexander</persName>, rescripsit: faciam, Dari, ut quem ne Regis quidem nomine
+                dignaris, faciam inquam, ut ille non solum rex, sed et rex tuus habeatur.<persName n="persName17">Alexandri</persName>minis et obnuntiationibus tandem fata responderunt.<pb n="pb18" xml:id="F20"/>Fecit fortitudo<persName n="persName19">Matthiae</persName>,
+                ut non pauci<persName n="persName20">Darii</persName>qui iam animis et avido pectore<placeName n="placeName21">Germaniae</placeName>provincia invadere
                 cuipientes, hoc primum fortunae suae munus existimaverint, habuisse imperatorem
-                Matthiam. O virtutem herois incomparabilem! O infractum et inviolabilem<placeName>Germaniae</placeName>adamanta, quam immature a nobis abiisti? Huc huc archiduces<placeName>Austriae</placeName>superstites,
-                qui morte agnati in hoc<placeName>Germaniae</placeName>solium successuri, huc huc oculos converite, huc
+                Matthiam. O virtutem herois incomparabilem! O infractum et inviolabilem<placeName n="placeName22">Germaniae</placeName>adamanta, quam immature a nobis abiisti? Huc huc archiduces<placeName n="placeName23">Austriae</placeName>superstites,
+                qui morte agnati in hoc<placeName n="placeName24">Germaniae</placeName>solium successuri, huc huc oculos converite, huc
                 animos huc mentem huc sensus omnes dirigite. Iubebat rex Edvardus, ut ex ossibus
                 suis tubae et buccinae conficerentur, quibus angli adversus gallos pugnaturi aures
                 militum personarent. Iubebat ille ferox et terrificus Zischa, ut ex pelle cadaveris
                 sui tympanum distenderent milites, cuius horrifico boatu ipsi Germani expavescerent.
-                Ne vobis, archiduces<placeName>Austriae</placeName>, impias illas et insanas artes comparate, ad unam
+                Ne vobis, archiduces<placeName n="placeName25">Austriae</placeName>, impias illas et insanas artes comparate, ad unam
                 fortitudinem Matthiae vestri agnati intuemini. In ea una defixos habete oculos,
                 illam totam in naturam atque habitum vestrum convertit: Sit vera, sit viva imago
-                magnanimi agnati. Et quemadmodum vitam ab hoc forti et animo<pb xml:id="F21"/>so stemmate
+                magnanimi agnati. Et quemadmodum vitam ab hoc forti et animo<pb n="pb26" xml:id="F21"/>so stemmate
                 ducitis, sic virtutem et ingentes spiritus ab eodem mutuamini. Illa est fortitudo,
-                quae universam<placeName>Germaniam</placeName>, ut olim<placeName>Romam</placeName>Fabius humeris suis sustinebat, quae ut
+                quae universam<placeName n="placeName27">Germaniam</placeName>, ut olim<placeName n="placeName28">Romam</placeName>Fabius humeris suis sustinebat, quae ut
                 Hector olim Troiae, sic imperii romani stans et inconcussa columna fuit; Illa
                 fortitudo, quae ut Ionathanis clypeus, Caesar et elephas exercituum colebatur, quam
                 mille agri, mille urbes, mille arces, silentio suo altius praedicabunt, quam possit
@@ -390,11 +409,11 @@
                 imperatoris Matthiae fortitudinis laudes longius procurrere: sed quoniam, quod mihi
                 spacium ad commendandum datum est, exhaustum video, ad aliarum virtutum praeconia,
                 quibus fulsit, me convertam.</p>
-        <p>Cretenses iustitiae sacris operaturi, focos arasque solebant ad antiqui Minois
+        <p n="p4">Cretenses iustitiae sacris operaturi, focos arasque solebant ad antiqui Minois
                 tumulum erigere, quasi iuris et legum maiestas eodem sepulcro cum Minois cineribus
                 esset funerata. Vos o sanctissimi curiae proceres, vos sacri iustitiae flamines, qui
-                iuris et aequi trutinam certa manu suspenditis, huc huc ad imperatorem<persName>Matthiae I</persName>tumulum libationes vestras coniicite. Astraea diva illa vestri consilii tutrix et
-                patrona se piis et felicibus tanti imperatori ma<pb xml:id="F22"/>nibus aeternam sicuam
+                iuris et aequi trutinam certa manu suspenditis, huc huc ad imperatorem<persName n="persName1">Matthiae I</persName>tumulum libationes vestras coniicite. Astraea diva illa vestri consilii tutrix et
+                patrona se piis et felicibus tanti imperatori ma<pb n="pb2" xml:id="F22"/>nibus aeternam sicuam
                 copulavit, quem vivum et spirantem tam singulari amore coluit, quam vivus et spirans
                 tam suavibus ulnus complexus est: diva divum, divus divam relinquere, deserere,
                 destituere posset? Quarum rerum vivis cura fuit, eadem sequitur tellure repostos. An
@@ -404,39 +423,39 @@
                 civiles Enyo Germaniam ubique conflictabat? An ulla unquam procella vehementiore
                 turbine segetes, arboresque percelluit quam nonnullorum impetus patriam
                 conquassavit? Undique ferro et furore cricumsessa erant omnia. Quis ista omnia
-                terricula sustulit, nisi<persName>Matthiae</persName>imperatoris felicitas? Quis a nostris cervicibus
-                ista pericula repulit, nisi<persName>Matthiae</persName>imperatoris virtus? Quis illud turbidum et
+                terricula sustulit, nisi<persName n="persName3">Matthiae</persName>imperatoris felicitas? Quis a nostris cervicibus
+                ista pericula repulit, nisi<persName n="persName4">Matthiae</persName>imperatoris virtus? Quis illud turbidum et
                 confusum rerum omnium chaos diremit, nisi pia imperatoris Matthiae iustitia? Delos
                 Insula dicitur aliquandiu mobilis et vacillans fluctuasse, sed statim post ortum
                 Apollinis solidis radicibus obfirmata stabiliter cohaesisse. Germania Delo similis
-                inquieta ante hac volubiliter agebatur, statim atque lumen<pb xml:id="F23"/>
-          <persName>Matthiae I</persName>caepit
+                inquieta ante hac volubiliter agebatur, statim atque lumen<pb n="pb5" xml:id="F23"/>
+          <persName n="persName6">Matthiae I</persName>caepit
                 affulgere, quieta, tranqulla, firmisque librata ponderibus stare coepit. Cui Deorum
                 tantum beneficium acceptum referemus, nisi iustitiae Matthiae? Quem Deus et caelum
                 praecipuo favore prosperabant. Se caelotenus evexisse dicitur Menippus Vulturius et
                 aquilae praepetibus pennis adiutus: geminis pietatis et iustitiae alis famam suam
                 terris et olympio imperator noster adaequavit. Quot enim principes, quot nationes
-                peregrinae aliae, controversias litesque, suas ad<persName>Matthiam I</persName>ut olim ad<persName>Antonium
+                peregrinae aliae, controversias litesque, suas ad<persName n="persName7">Matthiam I</persName>ut olim ad<persName n="persName8">Antonium
                 Pium</persName>, detulerunt, ad eius tribunal de iure malentes, quam in praeliari campo manu
                 atque armis conserere. Ego quidem in illa negotia sensu atque animo intentus mihi
                 videre videor, platonicum illum Iovem per omnes mundi circulos et naturas
                 inambulantem, quem dice pia illa Themidis sacerdos e vestigio et naequis passibus
                 comitatur, ut enim dices ministerio Iupiter ille singulas universi partes
-                aequabiliter ordinabat. Sic<persName>Matthias</persName>imperator quasi Iupiter germanicus turbarum
+                aequabiliter ordinabat. Sic<persName n="persName9">Matthias</persName>imperator quasi Iupiter germanicus turbarum
                 labyinthum ingressas sese per ambages et anfractus omnes insinuans Deum consum
                 habuit quasi dicen aliquam suis vestigiis inhaerentem, cuius consilio istam nymbis
-                et tempestatibus gravidam molem tanquam effoetam et<pb xml:id="F24"/>sterilem nebem serenavit.
-                Sed ad Matthiam et ad eam, quam tam religiose coluit iustitiam revertetur oratio;<placeName>Aegyptii</placeName>aliquot reges suos, quibus cordi Iustitiae cultus et religio fuit, maiore
+                et tempestatibus gravidam molem tanquam effoetam et<pb n="pb10" xml:id="F24"/>sterilem nebem serenavit.
+                Sed ad Matthiam et ad eam, quam tam religiose coluit iustitiam revertetur oratio;<placeName n="placeName11">Aegyptii</placeName>aliquot reges suos, quibus cordi Iustitiae cultus et religio fuit, maiore
                 studio atque amore prosecuti sunt, quam uxores, quam liberos, quam totam familiam,
-                quam omnia, quae naturae nutu atque istinctu nobis esse chara debent: unde in<persName>Matthiam I</persName>tot populorum, totque principum incredibilis amor, nisi ex singulari eius
+                quam omnia, quae naturae nutu atque istinctu nobis esse chara debent: unde in<persName n="persName12">Matthiam I</persName>tot populorum, totque principum incredibilis amor, nisi ex singulari eius
                 iustitia profectus est? Cum Antigonus tertius suis civitatibus mandavisset, si quis
                 aliquando per imprudentiam minus aequum imperaret, licere sibi non obsequi, tanto
                 plausu ab universo populo exceptus est, ut magnus unanimi et fere conflato ordinum
-                omnium consensu salutatus sit:<persName>Matthias I</persName>. Magni titulo plurimis, fateor, de causis
+                omnium consensu salutatus sit:<persName n="persName13">Matthias I</persName>. Magni titulo plurimis, fateor, de causis
                 nominadus erit, magnus viribus, magnus consilio, magnus armis et fortitufine: sed
                 impriomis magnus iuris et legum patrocinio, quarum adeo studiosae satelles extitit,
                 ut eo imperante de romano imperio idem dici posset, quod olim de sua Lacedaemonii
-                usurpoabant. Non alium scilicet esse germanorum imperatorem, quam legem ipsam<placeName>Aegyptii</placeName>regis sui collo veritatem suspendebant, ab ore Mat<pb xml:id="F25"/>thiae I omnes
+                usurpoabant. Non alium scilicet esse germanorum imperatorem, quam legem ipsam<placeName n="placeName14">Aegyptii</placeName>regis sui collo veritatem suspendebant, ab ore Mat<pb n="pb15" xml:id="F25"/>thiae I omnes
                 vidimus veritatem et aequitatem iustitiae profluxisse, cum suavissimo concentu
                 indigenas et alienigenas omnes fuisse raptos. Historiarum monumentis consignatum
                 est, Macrobios Aethiopiae populos tam pios tam frequentes iustitiae cultores
@@ -451,9 +470,9 @@
                 natura fuit adeo amicus, affinis, consanguineus, ut iam ex hominum medio sublatus
                 coelis asseri mereatur, illius virginis assecla, quae media libram inter et leonem
                 sita, quanta voce potest, contendit:</p>
-        <p>Discite iustitiam moniti et non temnite divos</p>
-        <pb xml:id="F26"/>
-        <p>Largis clementia lacrymarum rigatur imbribus, individua Matthiadis iustitiae
+        <p n="p5">Discite iustitiam moniti et non temnite divos</p>
+        <pb n="pb6" xml:id="F26"/>
+        <p n="p7">Largis clementia lacrymarum rigatur imbribus, individua Matthiadis iustitiae
                 comes, quae fugientem animam his laudibus prosequitur: imperator invictissime, heros
                 fortissime, princeps omnium maxime, tu solus legum emendasti severitatem, poenas
                 temperasti et earum saepe rerum, quae imperatoriam tangebant maiestatem, iniurias,
@@ -467,7 +486,7 @@
                 imperatorem clarissimum qui primus tergum Annibalis vidit, interrogatum a quodam,
                 cur ita audax in committendo praelio, cur ita in conflictu confidens esset?
                 Respondisse: ego, amice, romanus sum, et dux romanorum: Itaque singulis me diebus
-                decet caput discrimini obiicere. Haec enim una ad<pb xml:id="F27"/>famam perpetuam via est.
+                decet caput discrimini obiicere. Haec enim una ad<pb n="pb1" xml:id="F27"/>famam perpetuam via est.
                 Illo autem porro quaerente cur, qui in hostibus caedentis tam immitis esset, mox
                 parta victoria, victos tam humaniter comploraret? Dixisse: ducem romanum, qui
                 tyrannum se perhiberi non vult t sanguinem hostilem manibus et ex oculis una suis
@@ -479,12 +498,12 @@
                 a romano isto prolata vel legerint, vel audierint, ea laudaturos: sed paucissimos
                 fore, qui facta illius imitentur: nam qui bona laudent, multos invenias, qui
                 praestent, rarissimos.</p>
-        <p>
-          <persName>Matthiam</persName>nostrum, si interrogaremus, quam ob causam omne tempus fere bellorum in
+        <p n="p8">
+          <persName n="persName1">Matthiam</persName>nostrum, si interrogaremus, quam ob causam omne tempus fere bellorum in
                 laboribus, in animi contentione consimsisset, partes omnes strenuitatis et
                 fortitudinis implevisset, nullum refugium refugisset, aut deprecatus fuisset, nullum
                 capitis periculum aut vitae recusasset? Nobis hoc largiretur responsum: ego, amici,
-                germanus sum, et quod magis, civium romanorum impe<pb xml:id="F28"/>rator ac protector, itaque
+                germanus sum, et quod magis, civium romanorum impe<pb n="pb2" xml:id="F28"/>rator ac protector, itaque
                 quotidie, ut imperium romanum et patria in quiete et tranquillitate conservetur
                 publica, cum fortibus et animosis fortitudine et magnanimitate, cum laboriosis
                 tolerantia laborum, cum frugalibus parsimonia, cum gnavis et industriis ingenio
@@ -499,12 +518,12 @@
                 retardantur, meliores fortioresque redduntur cives, et magis obtemperantes habentur.
                 Imo maiorum res praeclare gestas si intueantur, et ad cultum eorum impelluntur et
                 similes virtutis faces in animis vehementissime accenduntur flamma in pectore
-                ipsorum indies crescit, neque prius<pb xml:id="F29"/>sedatur quam virtus eorum famam atque
+                ipsorum indies crescit, neque prius<pb n="pb3" xml:id="F29"/>sedatur quam virtus eorum famam atque
                 gloriam adaequarint. Insuper si quis instaret, sermonemque inceptum interrogando
                 protraheret, quam o bcausam in debellandis ac superandis hostibus tam immitis
                 fuisset, victoria vero obtenta, victos tam humaniter tractasset, responsum dubio
                 procul tale auferret: imperatorem romanum meminisse oportere, illum non imperatorem
-                tantum, verum etiam hominem et quidem christianum, et archiducem quoque<placeName>Austriae</placeName>esse, quorum stemma a clementiae laudibus semper fuisse commendatissimum a miorum
+                tantum, verum etiam hominem et quidem christianum, et archiducem quoque<placeName n="placeName4">Austriae</placeName>esse, quorum stemma a clementiae laudibus semper fuisse commendatissimum a miorum
                 monumentis acceptum habemus, illudque Salustianum cogitasse semper. Imperia
                 crudelia, magis acerba quam diuturna esse, nec quemquam a multis metuendum esse,
                 quin ad eum ex multis formido recidat: eam vitam bellum aeternum atque anceps
@@ -513,28 +532,28 @@
                 temeperavere, his laeta et candida omnia visa, etiam hostes aequiores, quam aliis,
                 cives. Hinc gravissime Seneca:</p>
       </div>
-      <div>
-        <lg>
-          <l>Qui sceptra duro saevus imperio regit,</l>
-          <l>Timet timentes, metus in authorem redit.</l>
+      <div n="div10">
+        <lg n="lg1">
+          <l n="l1">Qui sceptra duro saevus imperio regit,</l>
+          <l n="l2">Timet timentes, metus in authorem redit.</l>
         </lg>
       </div>
-      <div>
-        <pb xml:id="F30"/>
-        <p>Philippus Macedo, cum devictis iam graecis quidam ei suaderent, ut praesidia
+      <div n="div11">
+        <pb n="pb1" xml:id="F30"/>
+        <p n="p2">Philippus Macedo, cum devictis iam graecis quidam ei suaderent, ut praesidia
                 per urbes disponeret, respondit, se diu benignum malle, quam brevi tempore Dominum
-                appellari. Gloriose fertur<persName>Alexandri Severi</persName>imperium incrementum fuisse. Quanto
-                verius hoc de divi<persName>Matthiae I</persName>imperio dici potest? Tenuit namque illud: flexus sit
+                appellari. Gloriose fertur<persName n="persName1">Alexandri Severi</persName>imperium incrementum fuisse. Quanto
+                verius hoc de divi<persName n="persName2">Matthiae I</persName>imperio dici potest? Tenuit namque illud: flexus sit
                 animus tuus, pronus sit semper ad veniam; et ut canit poeta:</p>
       </div>
-      <div>
-        <lg>
-          <l>Sit piger ad poenas princeps ad praemia velox,</l>
-          <l>Et doleat quoties cogitur esse ferox.</l>
+      <div n="div12">
+        <lg n="lg1">
+          <l n="l1">Sit piger ad poenas princeps ad praemia velox,</l>
+          <l n="l2">Et doleat quoties cogitur esse ferox.</l>
         </lg>
       </div>
-      <div>
-        <p>Quare, cum ea via iuris esset, ut nullus locus gratiae vel clementiae relinqueretur,
+      <div n="div13">
+        <p n="p1">Quare, cum ea via iuris esset, ut nullus locus gratiae vel clementiae relinqueretur,
                 et per iustitiam poenam remittere impossibile esset; ita benignitate sua iuris
                 acerbitatem contemperavit, ut etiam illi, qui poena affecti, beneficio se affectos
                 iudicarint. Unde tot insignia monumentaque reportatae clementiae trophaea excitata,
@@ -543,14 +562,14 @@
                 clementia, cuius recordatio, quanto hostibus acerbissima, tanto illis, ad quos
                 istius tam laudabiliter exertae fructus emolumentaque redierunt, iucundissima esse
                 debeat.</p>
-        <p>Reliquas virtutes imperatorias, quae<pb xml:id="F31"/>omnes ordine plangent, lessum celebrant,
-                et qua possunt vocis contention conclamant. Expiravit<persName>Matthias I</persName>germanici atlas
+        <p n="p2">Reliquas virtutes imperatorias, quae<pb n="pb1" xml:id="F31"/>omnes ordine plangent, lessum celebrant,
+                et qua possunt vocis contention conclamant. Expiravit<persName n="persName2">Matthias I</persName>germanici atlas
                 imperii christiani moderator ac arbiter oris, mundi delicium interiit; pertexere
                 propositum non est meum. Si enim cogitando illas assequi non possimus, quis earum
                 altitudinem aut pingere, aut verbis unquam satis laudare poterit? Insuper ea quoque
                 est rerum infinitarum natura, ut in eisdem si quid praetemittatur, vitiosum non
                 habendum, et satis properanti summa saltem delibasse capita.</p>
-        <p>Vos o sculptores egregii, vos o pictores eximii, qui statuam, qui imaginem
+        <p n="p3">Vos o sculptores egregii, vos o pictores eximii, qui statuam, qui imaginem
                 imperatoris nostri augustissimi fingitis, pingitis, date illi vultum, non solum in
                 quo ,artia maiestas insideat, se dubi Themidos et Astreae gravitas immpretur: vultum
                 ducite severis coloribus venerabilem, oculos aspectu vehementi et formidabili
@@ -558,22 +577,22 @@
                 tristitiae dignitate, onerate, dextram sceptro non vulgaris et usitati modi, sed quo
                 gravem, pium, severum, incorruptum, inadulabilem iustitiae antistitem significat
                 Aegyptus; cuius ex apice scilicet emineat Ciconia, cuius sub extremo manubrio
-                subigatur Hippopotamus, ut ex hoc symbolo discat posteritas, quam alacriter<persName>Matthiae
+                subigatur Hippopotamus, ut ex hoc symbolo discat posteritas, quam alacriter<persName n="persName1">Matthiae
                 I</persName>
-          <pb xml:id="F32"/>maiestas innocentiam sustinuerit, quam acriter et acerve iniuriam
+          <pb n="pb2" xml:id="F32"/>maiestas innocentiam sustinuerit, quam acriter et acerve iniuriam
                 potentiorem oppresserit, quam studiose innocentiae simplicitatem contra vim et
                 attrocitatem vindicarit, aequus bonusque omnibus; uni sibi, heu! Mors non pepercit.
                 Sed tanti amissi boni, nobisque per caducam mortem erepti, recordatio prae moerore
                 nobis lacrymarum flumen obstruit, eius cursum perennare non permittit.</p>
-        <p>Sint verba novissima: ite, valete, quiescite, pii felicesque<persName>Matthiae I</persName>imperatoris
+        <p n="p4">Sint verba novissima: ite, valete, quiescite, pii felicesque<persName n="persName1">Matthiae I</persName>imperatoris
                 invictissimi manes. In ore hominum vestra memoria versetur, vestri cineres molli et
                 odorato cippo placide requiescant, in caelis vestra mensa evo sempiterno fruatur.
                 Quod superest, te, qui cuncta vides, qui cuncta gubernas, summe Deus, te, cuius
                 potentia est maxima, supplices veneramur et invocamus, quoniam tuae coelesti
-                voluntati decretoriae ac immutabili, ita placuit, potentissimum monarcham<persName>Matthiam I</persName>ex turbulentis huiusmundi sedibus subtractum ad illas oras transire, ubi
+                voluntati decretoriae ac immutabili, ita placuit, potentissimum monarcham<persName n="persName2">Matthiam I</persName>ex turbulentis huiusmundi sedibus subtractum ad illas oras transire, ubi
                 placidissima quies, et vita viget sempiterna, Sana vulnus imperio romano inflictum,
-                luctum mitiga, dolorem minue, absterge lacrymas, ne nondum sanatum vulnus<pb xml:id="F33"/>recrudescat, clementissime annue, ut deinceps, quamdiu mortales sint archiduces<placeName>Austriae</placeName>nihil ex stemmate et familia ipsorum mortalitatis sentiatur. Aspira
-                successoribus regi<persName>Ferdinando</persName>,<persName>Leopoldo</persName>et<persName>Carolo</persName>, fratrum trigae, tui numinis aura,
+                luctum mitiga, dolorem minue, absterge lacrymas, ne nondum sanatum vulnus<pb n="pb3" xml:id="F33"/>recrudescat, clementissime annue, ut deinceps, quamdiu mortales sint archiduces<placeName n="placeName4">Austriae</placeName>nihil ex stemmate et familia ipsorum mortalitatis sentiatur. Aspira
+                successoribus regi<persName n="persName5">Ferdinando</persName>,<persName n="persName6">Leopoldo</persName>et<persName n="persName7">Carolo</persName>, fratrum trigae, tui numinis aura,
                 eosdemque ita anima, ut mala nobis omnibus temporibus imminentia, blando aspectu,
                 influxuque gratioso avertere, solamen rebus in arctis esse, vitae fortunarumque
                 tutamen certissimum praebere; regnis suis quietem, ecclesiae honorem et pristinam
@@ -581,24 +600,24 @@
                 sydereos innumeris victoriarum decorare laureis, sceptra et diademata fulgentissima
                 extendere</p>
       </div>
-      <div>
-        <lg>
-          <l>Qua mare, qua tellus, qua sydus currit utrumque</l>
-          <l>Fortissime valeant, sini colla submittere</l>
-          <l>Boream gelidum, securaque regna canopi,</l>
-          <l>Quique renascentem Phoebum, cernuntque iacentem,</l>
+      <div n="div14">
+        <lg n="lg1">
+          <l n="l1">Qua mare, qua tellus, qua sydus currit utrumque</l>
+          <l n="l2">Fortissime valeant, sini colla submittere</l>
+          <l n="l3">Boream gelidum, securaque regna canopi,</l>
+          <l n="l4">Quique renascentem Phoebum, cernuntque iacentem,</l>
         </lg>
       </div>
-      <div>
-        <p>tandem videant. Dirige ipsorum consilia, quo communis patriae bonum mutuo concentu
+      <div n="div15">
+        <p n="p1">tandem videant. Dirige ipsorum consilia, quo communis patriae bonum mutuo concentu
                 tutari, nullis internis vel odio vel invidia, motibus, aut ambitione exitiali
                 regnorum peste deterrima inflammas furoresque civilium turbinum ferri possint.
-                Concede illos romanum imperium in<pb xml:id="F34"/>ipsorum humeris innixum, tanquam fortem
+                Concede illos romanum imperium in<pb n="pb1" xml:id="F34"/>ipsorum humeris innixum, tanquam fortem
                 columnam fulcire, orbi terrarum aegro et affecto medicas afferre manus, permitte
                 illos, benignissime Deus, diu suis supestites, diu nobis omnibus salvos et incolumes
                 esse; pacem auream, cuius nomen dulce res vero ipsa cum iucunda, tum salutaris ipsis
                 et universae serenissimae domui austriacae assidere, aeternare, et ut in veteri
-                formula acclamandi consuetudo ferebat:<persName>Matthia</persName>feliciores,<persName>Carolis</persName>fortiores,<persName>Maximilianis</persName>probiores existere, omnibus manifestum fiat. Ita nullus unquam ver
+                formula acclamandi consuetudo ferebat:<persName n="persName2">Matthia</persName>feliciores,<persName n="persName3">Carolis</persName>fortiores,<persName n="persName4">Maximilianis</persName>probiores existere, omnibus manifestum fiat. Ita nullus unquam ver
                 vestrum, archiduces serenissimi; dies exterat, nullus cursus recursusque temporum.
                 Ita floreatis, ut taediosa senectutis debilitate non tabescatis, nec laudibus
                 vestris ulla posteritas finem adferat. Et si divinum numen hoc me sibi munere
@@ -606,251 +625,251 @@
                 re cionsequi liceret, optarem, non quod stulte Midas, ut omnia, quae sensibus
                 usurparem, in aurum verterentur: sed potius a Deo immortali postularem ut ad vestra
                 vota fluant omnia, ut eam vobis largiatur felicitatem, quam octavo Caesari, cui
-                nihil Dii dicuntur denegasse, dederunt; ut omnia quae<pb xml:id="F35"/>cunque agitatis, quaeque
+                nihil Dii dicuntur denegasse, dederunt; ut omnia quae<pb n="pb5" xml:id="F35"/>cunque agitatis, quaeque
                 cogitatis, prospere vobis cedant, succedant, eveniant, augustissimos sortiantur
                 exitus.</p>
       </div>
-      <div>
-        <head>Insignia Caesaris deplorata. Laurus.</head>
+      <div n="div16">
+        <head n="head1">Insignia Caesaris deplorata. Laurus.</head>
       </div>
-      <div>
-        <lg>
-          <l>Terrarum domitor, Romanique arbiter orbis</l>
-          <l>Numine pressisti regna ducesque tuo.</l>
-          <l>Phoebeaque tui Lauros viruere capilli,</l>
-          <l>Utque magis vireas, ecce cupressus adest.</l>
+      <div n="div17">
+        <lg n="lg1">
+          <l n="l1">Terrarum domitor, Romanique arbiter orbis</l>
+          <l n="l2">Numine pressisti regna ducesque tuo.</l>
+          <l n="l3">Phoebeaque tui Lauros viruere capilli,</l>
+          <l n="l4">Utque magis vireas, ecce cupressus adest.</l>
         </lg>
       </div>
-      <div>
-        <head>Aquila.</head>
+      <div n="div18">
+        <head n="head1">Aquila.</head>
       </div>
-      <div>
-        <lg>
-          <l>Aemulus Aligeris ego regibus esse studebam</l>
-          <l>Magnanimis factis, ales avita, tuis.</l>
-          <l>Hinc pennata polo pro nuper stella reluxit,</l>
-          <l>Ad coelum ut pennas traderet ipsa suas.</l>
+      <div n="div19">
+        <lg n="lg1">
+          <l n="l1">Aemulus Aligeris ego regibus esse studebam</l>
+          <l n="l2">Magnanimis factis, ales avita, tuis.</l>
+          <l n="l3">Hinc pennata polo pro nuper stella reluxit,</l>
+          <l n="l4">Ad coelum ut pennas traderet ipsa suas.</l>
         </lg>
       </div>
-      <div>
-        <head>Diadema.</head>
+      <div n="div20">
+        <head n="head1">Diadema.</head>
       </div>
-      <div>
-        <lg>
-          <l>Forte tiara duplex gemmis oculata superbus</l>
-          <l>Accendit dominas imperiosa comas;</l>
-          <l>In te letiferam cum torsit Parca sarissam,</l>
-          <l>Vere auro pallet iam diadema tibi.</l>
+      <div n="div21">
+        <lg n="lg1">
+          <l n="l1">Forte tiara duplex gemmis oculata superbus</l>
+          <l n="l2">Accendit dominas imperiosa comas;</l>
+          <l n="l3">In te letiferam cum torsit Parca sarissam,</l>
+          <l n="l4">Vere auro pallet iam diadema tibi.</l>
         </lg>
       </div>
-      <div>
-        <head>Globus.</head>
+      <div n="div22">
+        <head n="head1">Globus.</head>
       </div>
-      <div>
-        <lg>
-          <l>Nuper inauratus palmas decoraverat orbis,</l>
-          <l>Pulchre fucatus ebrius insidiis.</l>
-          <l>Ornavit dextram simul et lassavit iniquo</l>
-          <l>Pondere; quam globus hic grandior orbe fuit!</l>
+      <div n="div23">
+        <lg n="lg1">
+          <l n="l1">Nuper inauratus palmas decoraverat orbis,</l>
+          <l n="l2">Pulchre fucatus ebrius insidiis.</l>
+          <l n="l3">Ornavit dextram simul et lassavit iniquo</l>
+          <l n="l4">Pondere; quam globus hic grandior orbe fuit!</l>
         </lg>
       </div>
-      <div>
-        <head>Sceptrum.</head>
+      <div n="div24">
+        <head n="head1">Sceptrum.</head>
       </div>
-      <div>
-        <lg>
-          <l>Gemmatum minibus sceptrum tibi splenduit, illud</l>
-          <l>Pertimuere hostes, ceu rubra sceptra Iovis.</l>
-          <l>Si sceptrum hoc satrapas, si saevos terruit hostes,</l>
-          <l>An non hic magnus Scipio forte fuit?</l>
+      <div n="div25">
+        <lg n="lg1">
+          <l n="l1">Gemmatum minibus sceptrum tibi splenduit, illud</l>
+          <l n="l2">Pertimuere hostes, ceu rubra sceptra Iovis.</l>
+          <l n="l3">Si sceptrum hoc satrapas, si saevos terruit hostes,</l>
+          <l n="l4">An non hic magnus Scipio forte fuit?</l>
         </lg>
       </div>
-      <div>
-        <pb xml:id="F36"/>
-        <head>Gladius.</head>
+      <div n="div26">
+        <pb n="pb1" xml:id="F36"/>
+        <head n="head2">Gladius.</head>
       </div>
-      <div>
-        <lg>
-          <l>Armiger erectum solitum praeferre mucronem</l>
-          <l>Ostendit dominas Caesaris esse manus.</l>
-          <l>Ostendit tantum, nam vis fera mortis ademit:</l>
-          <l>Heu male gestasti Caesaris arma manu.</l>
+      <div n="div27">
+        <lg n="lg1">
+          <l n="l1">Armiger erectum solitum praeferre mucronem</l>
+          <l n="l2">Ostendit dominas Caesaris esse manus.</l>
+          <l n="l3">Ostendit tantum, nam vis fera mortis ademit:</l>
+          <l n="l4">Heu male gestasti Caesaris arma manu.</l>
         </lg>
       </div>
-      <div>
-        <head>Epitaphium caesareum<persName>Matthiae I</persName>imperatoris positum.</head>
+      <div n="div28">
+        <head n="head1">Epitaphium caesareum<persName n="persName1">Matthiae I</persName>imperatoris positum.</head>
       </div>
-      <div>
-        <p>Sors</p>
-        <p>Naturae beneficio</p>
-        <p>Foelicissima,</p>
-        <p>Parentum prosapia</p>
-        <p>Serenissima,</p>
-        <p>Candido Bohemico-Ungarico calculo</p>
-        <p>Regia,</p>
-        <p>Sacrae iustitiae urna, Astreae aequa lance</p>
-        <p>imperatoria,</p>
-        <p>Fato fallaci, violento, coeco, iniquo</p>
-        <p>Fatalis,</p>
-        <p>Virtutum merito, factorum debito</p>
-        <p>Coelestis,</p>
-        <p>Superum coelitumque decreto</p>
-        <p>Divina</p>
-        <p>Cecidit super<persName>Matthiam</persName>
+      <div n="div29">
+        <p n="p1">Sors</p>
+        <p n="p2">Naturae beneficio</p>
+        <p n="p3">Foelicissima,</p>
+        <p n="p4">Parentum prosapia</p>
+        <p n="p5">Serenissima,</p>
+        <p n="p6">Candido Bohemico-Ungarico calculo</p>
+        <p n="p7">Regia,</p>
+        <p n="p8">Sacrae iustitiae urna, Astreae aequa lance</p>
+        <p n="p9">imperatoria,</p>
+        <p n="p10">Fato fallaci, violento, coeco, iniquo</p>
+        <p n="p11">Fatalis,</p>
+        <p n="p12">Virtutum merito, factorum debito</p>
+        <p n="p13">Coelestis,</p>
+        <p n="p14">Superum coelitumque decreto</p>
+        <p n="p15">Divina</p>
+        <p n="p16">Cecidit super<persName n="persName1">Matthiam</persName>
         </p>
-        <p>Imperatorem huius nominis</p>
-        <p>Primum</p>
-        <p>Imperatorem nulli heroicis facinoribus</p>
-        <p>Secundum</p>
-        <p>Heu!</p>
-        <p>Tristissima sorte</p>
-        <pb xml:id="F37"/>
-        <p>Sors</p>
-        <p>cecidit super<persName>Matthiam</persName>
+        <p n="p17">Imperatorem huius nominis</p>
+        <p n="p18">Primum</p>
+        <p n="p19">Imperatorem nulli heroicis facinoribus</p>
+        <p n="p20">Secundum</p>
+        <p n="p21">Heu!</p>
+        <p n="p22">Tristissima sorte</p>
+        <pb n="pb23" xml:id="F37"/>
+        <p n="p24">Sors</p>
+        <p n="p25">cecidit super<persName n="persName1">Matthiam</persName>
         </p>
-        <p>cum altiore non posset</p>
-        <p>Caesareo prognatum stemmate,</p>
-        <p>Tritavo, quin potius multo natum Caesare</p>
-        <p>Natalibus serenissimis,</p>
-        <p>Comitem Habspurgiae, Tyrolis, et caetera Marchionem</p>
-        <p>Moraciae, et caetera, ducem Burgundiae, Barbantiae,</p>
-        <p>Stiriae, Charintiae, Craniae, et caetera</p>
-        <p>Archiducem<placeName>Austriae</placeName>
+        <p n="p26">cum altiore non posset</p>
+        <p n="p27">Caesareo prognatum stemmate,</p>
+        <p n="p28">Tritavo, quin potius multo natum Caesare</p>
+        <p n="p29">Natalibus serenissimis,</p>
+        <p n="p30">Comitem Habspurgiae, Tyrolis, et caetera Marchionem</p>
+        <p n="p31">Moraciae, et caetera, ducem Burgundiae, Barbantiae,</p>
+        <p n="p32">Stiriae, Charintiae, Craniae, et caetera</p>
+        <p n="p33">Archiducem<placeName n="placeName1">Austriae</placeName>
         </p>
-        <p>Duplici diademate</p>
-        <p>Regem<placeName>Bohemiae</placeName>,<placeName>Ungariae</placeName>
+        <p n="p34">Duplici diademate</p>
+        <p n="p35">Regem<placeName n="placeName1">Bohemiae</placeName>,<placeName n="placeName2">Ungariae</placeName>
         </p>
-        <p>Communibus VII virum suffragiis</p>
-        <p>Imperatorem romanum</p>
-        <p>Invictissimum potentissimum</p>
-        <p>Patrem patriae</p>
-        <p>Amantissimum studiosissimum</p>
-        <p>Bonorum tutanum</p>
-        <p>Malorum avaruncum</p>
-        <p>Inopino casu</p>
-        <p>Sors</p>
-        <p>Cecidit super<persName>Matthiam</persName>
+        <p n="p36">Communibus VII virum suffragiis</p>
+        <p n="p37">Imperatorem romanum</p>
+        <p n="p38">Invictissimum potentissimum</p>
+        <p n="p39">Patrem patriae</p>
+        <p n="p40">Amantissimum studiosissimum</p>
+        <p n="p41">Bonorum tutanum</p>
+        <p n="p42">Malorum avaruncum</p>
+        <p n="p43">Inopino casu</p>
+        <p n="p44">Sors</p>
+        <p n="p45">Cecidit super<persName n="persName1">Matthiam</persName>
         </p>
-        <p>Austriacae gentis aeternum decus</p>
-        <p>Bohemici sceptri oculum</p>
-        <p>Ungarici diadematis Carbunculum</p>
-        <p>Romani imperii Caesarem</p>
-        <p>Romanae ecclesiae columnam</p>
-        <p>Romane fidei clypeum</p>
-        <p>Fatali lapsu</p>
-        <p>Sors</p>
-        <p>Cecidit super<persName>Matthiam</persName>
+        <p n="p46">Austriacae gentis aeternum decus</p>
+        <p n="p47">Bohemici sceptri oculum</p>
+        <p n="p48">Ungarici diadematis Carbunculum</p>
+        <p n="p49">Romani imperii Caesarem</p>
+        <p n="p50">Romanae ecclesiae columnam</p>
+        <p n="p51">Romane fidei clypeum</p>
+        <p n="p52">Fatali lapsu</p>
+        <p n="p53">Sors</p>
+        <p n="p54">Cecidit super<persName n="persName1">Matthiam</persName>
         </p>
-        <p>Ita iustum, ut de clementia dubitasses,</p>
-        <p>Ita clementem, ut iustitiam requisisses,</p>
-        <pb xml:id="F38"/>
-        <p>Ita cum maiestate gravem ut humanitatem adamasses,</p>
-        <p>Ita humanitatem adamasses, ut maiestatem coluisses,</p>
-        <p>Ita timendum, ut esset diligendus,</p>
-        <p>Ita diligendum, ut esset timendus,</p>
-        <p>Prudentia praeditum,</p>
-        <p>Quae cogitaverit acute, dixerit sapienter,</p>
-        <p>Egerit praemeditando caute, cavendo circumspecte,</p>
-        <p>Circumspiciendo ante provide praeterita, praesentia, futura:</p>
-        <p>Aliis virtutibus eiusmodi</p>
-        <p>quem optare posses, vovere posses, postulare posses,</p>
-        <p>quaerere posses, vixim venire posses;</p>
-        <p>Heu!</p>
-        <p>Tyrannico ausu</p>
-        <p>Sors</p>
-        <p>cecidit super<persName>Matthiam</persName>
+        <p n="p55">Ita iustum, ut de clementia dubitasses,</p>
+        <p n="p56">Ita clementem, ut iustitiam requisisses,</p>
+        <pb n="pb57" xml:id="F38"/>
+        <p n="p58">Ita cum maiestate gravem ut humanitatem adamasses,</p>
+        <p n="p59">Ita humanitatem adamasses, ut maiestatem coluisses,</p>
+        <p n="p60">Ita timendum, ut esset diligendus,</p>
+        <p n="p61">Ita diligendum, ut esset timendus,</p>
+        <p n="p62">Prudentia praeditum,</p>
+        <p n="p63">Quae cogitaverit acute, dixerit sapienter,</p>
+        <p n="p64">Egerit praemeditando caute, cavendo circumspecte,</p>
+        <p n="p65">Circumspiciendo ante provide praeterita, praesentia, futura:</p>
+        <p n="p66">Aliis virtutibus eiusmodi</p>
+        <p n="p67">quem optare posses, vovere posses, postulare posses,</p>
+        <p n="p68">quaerere posses, vixim venire posses;</p>
+        <p n="p69">Heu!</p>
+        <p n="p70">Tyrannico ausu</p>
+        <p n="p71">Sors</p>
+        <p n="p72">cecidit super<persName n="persName1">Matthiam</persName>
         </p>
-        <p>Bello<persName>Hannibalem</persName>
+        <p n="p73">Bello<persName n="persName1">Hannibalem</persName>
         </p>
-        <p>Pace<persName>Catonem</persName>
+        <p n="p74">Pace<persName n="persName1">Catonem</persName>
         </p>
-        <p>Toga sagoque</p>
-        <p>Clarissimum</p>
-        <p>In acie, in praeliis</p>
-        <p>Primum</p>
-        <p>In victoriis in trophaeis</p>
-        <p>Secundum</p>
-        <p>Inter bellorum pericula, inter Martis fulmina,</p>
-        <p>inter obsidionum angusta, inter mille</p>
-        <p>praesentia vitae discrimina</p>
-        <p>Virtute primum</p>
-        <p>Felicitate secundum</p>
-        <p>Duratione ultimum</p>
-        <p>Ad</p>
-        <p>Albam regalem</p>
-        <p>Marte arte re</p>
-        <p>Pompeium</p>
-        <pb xml:id="F39"/>
-        <p>Parva exiguaque militum manu</p>
-        <p>Gedeonem</p>
-        <p>Insigni relata victoria</p>
-        <p>Turcarum copiis fusis, enervatis, evisceratis,</p>
-        <p>elumbatis, fractis, profligatis, diffugatis</p>
-        <p>Victorem Caesarem</p>
-        <p>Augustum</p>
-        <p>Heu!</p>
-        <p>Praematuro impetus</p>
-        <p>Ruina infleici</p>
-        <p>Mors</p>
-        <p>Illa, illa, illa</p>
-        <p>Sors</p>
-        <p>cecidit super<persName>Matthiam</persName>
+        <p n="p75">Toga sagoque</p>
+        <p n="p76">Clarissimum</p>
+        <p n="p77">In acie, in praeliis</p>
+        <p n="p78">Primum</p>
+        <p n="p79">In victoriis in trophaeis</p>
+        <p n="p80">Secundum</p>
+        <p n="p81">Inter bellorum pericula, inter Martis fulmina,</p>
+        <p n="p82">inter obsidionum angusta, inter mille</p>
+        <p n="p83">praesentia vitae discrimina</p>
+        <p n="p84">Virtute primum</p>
+        <p n="p85">Felicitate secundum</p>
+        <p n="p86">Duratione ultimum</p>
+        <p n="p87">Ad</p>
+        <p n="p88">Albam regalem</p>
+        <p n="p89">Marte arte re</p>
+        <p n="p90">Pompeium</p>
+        <pb n="pb91" xml:id="F39"/>
+        <p n="p92">Parva exiguaque militum manu</p>
+        <p n="p93">Gedeonem</p>
+        <p n="p94">Insigni relata victoria</p>
+        <p n="p95">Turcarum copiis fusis, enervatis, evisceratis,</p>
+        <p n="p96">elumbatis, fractis, profligatis, diffugatis</p>
+        <p n="p97">Victorem Caesarem</p>
+        <p n="p98">Augustum</p>
+        <p n="p99">Heu!</p>
+        <p n="p100">Praematuro impetus</p>
+        <p n="p101">Ruina infleici</p>
+        <p n="p102">Mors</p>
+        <p n="p103">Illa, illa, illa</p>
+        <p n="p104">Sors</p>
+        <p n="p105">cecidit super<persName n="persName1">Matthiam</persName>
         </p>
-        <p>Hostium terrorem</p>
-        <p>Haereticorum timorem</p>
-        <p>Turcici Cerberi raptorem<persName>Herculem</persName>
+        <p n="p106">Hostium terrorem</p>
+        <p n="p107">Haereticorum timorem</p>
+        <p n="p108">Turcici Cerberi raptorem<persName n="persName1">Herculem</persName>
         </p>
-        <p>Othomannicae bestiae victorem<persName>Theseum</persName>
+        <p n="p109">Othomannicae bestiae victorem<persName n="persName1">Theseum</persName>
         </p>
-        <p>Mahometis domitorem<persName>Ulyssem</persName>
+        <p n="p110">Mahometis domitorem<persName n="persName1">Ulyssem</persName>
         </p>
-        <p>Mahometici<persName>Achillis</persName>interfectorem<persName>Parida</persName>
+        <p n="p111">Mahometici<persName n="persName1">Achillis</persName>interfectorem<persName n="persName2">Parida</persName>
         </p>
-        <p>atque</p>
-        <p>in tam fortem</p>
-        <p>Heu!</p>
-        <p>Sortem, heu! Mortem!</p>
-        <p>Verum enim vero o tu! Quisquis lectorastas</p>
-        <p>Sors et mors</p>
-        <p>Fors</p>
-        <p>cecidit super<persName>Matthiam</persName>
+        <p n="p112">atque</p>
+        <p n="p113">in tam fortem</p>
+        <p n="p114">Heu!</p>
+        <p n="p115">Sortem, heu! Mortem!</p>
+        <p n="p116">Verum enim vero o tu! Quisquis lectorastas</p>
+        <p n="p117">Sors et mors</p>
+        <p n="p118">Fors</p>
+        <p n="p119">cecidit super<persName n="persName1">Matthiam</persName>
         </p>
-        <p>ut</p>
-        <p>Sorte poneret incensum ingressus in templum Domini, Luc. I.</p>
-        <p>ut</p>
-        <p>Sorte divideret ei terram (flentem lac et mel) in funiculo distributionis Ps. 77.</p>
-        <pb xml:id="F40"/>
-        <p>ut</p>
-        <p>Non relinqueret Dominum virgam peccatorum super sortem iusti, Ps. 124</p>
-        <p>ut</p>
-        <p>Inter sanctos sors illius esset, Sap. 5</p>
-        <p>ut</p>
-        <p>Dignum faceret in partem sortis sanctorum, Col. I</p>
-        <p>ut</p>
-        <p>Acciperet remissionem peccatorum, et sortem</p>
-        <p>inter sanctos, Act. 26</p>
-        <p>Oraculum</p>
-        <p>Delphyco Pythico, quovis alio</p>
-        <p>Verius certiusque</p>
-        <p>Ergo anno Christiano</p>
-        <p>
-          <date>1619</date>
+        <p n="p120">ut</p>
+        <p n="p121">Sorte poneret incensum ingressus in templum Domini, Luc. I.</p>
+        <p n="p122">ut</p>
+        <p n="p123">Sorte divideret ei terram (flentem lac et mel) in funiculo distributionis Ps. 77.</p>
+        <pb n="pb124" xml:id="F40"/>
+        <p n="p125">ut</p>
+        <p n="p126">Non relinqueret Dominum virgam peccatorum super sortem iusti, Ps. 124</p>
+        <p n="p127">ut</p>
+        <p n="p128">Inter sanctos sors illius esset, Sap. 5</p>
+        <p n="p129">ut</p>
+        <p n="p130">Dignum faceret in partem sortis sanctorum, Col. I</p>
+        <p n="p131">ut</p>
+        <p n="p132">Acciperet remissionem peccatorum, et sortem</p>
+        <p n="p133">inter sanctos, Act. 26</p>
+        <p n="p134">Oraculum</p>
+        <p n="p135">Delphyco Pythico, quovis alio</p>
+        <p n="p136">Verius certiusque</p>
+        <p n="p137">Ergo anno Christiano</p>
+        <p n="p138">
+          <date n="date1">1619</date>
         </p>
-        <p>Invictissimus imperato<persName>Matthias I</persName>
+        <p n="p139">Invictissimus imperato<persName n="persName1">Matthias I</persName>
         </p>
-        <p>Morte victus</p>
-        <p>Ultima fata obiit</p>
-        <p>Et terrestri regno abiit</p>
-        <p>Ad caelesti palatium adiit</p>
-        <p>Et</p>
-        <p>Regnare desiit, ut regnaret</p>
-        <p>Denique</p>
-        <p>Vixit, ut viveret</p>
-        <p>Cum</p>
-        <p>Rege, imperatore, et sospitatore nostro,</p>
-        <p>Christo Iesu</p>
-        <p>aeternum.</p>
-        <p>Finis.</p>
+        <p n="p140">Morte victus</p>
+        <p n="p141">Ultima fata obiit</p>
+        <p n="p142">Et terrestri regno abiit</p>
+        <p n="p143">Ad caelesti palatium adiit</p>
+        <p n="p144">Et</p>
+        <p n="p145">Regnare desiit, ut regnaret</p>
+        <p n="p146">Denique</p>
+        <p n="p147">Vixit, ut viveret</p>
+        <p n="p148">Cum</p>
+        <p n="p149">Rege, imperatore, et sospitatore nostro,</p>
+        <p n="p150">Christo Iesu</p>
+        <p n="p151">aeternum.</p>
+        <p n="p152">Finis.</p>
       </div>
     </body>
   </text>

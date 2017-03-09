@@ -27,6 +27,28 @@
         <bibl>Schaffenrath, Florian: Ein Prinz reist durch Tirol. Stephanus Vinandus Pighius, Hercules Prodicius (1587), in: Holzner, Johann / Walde, Elisabeth (Hg.): Brüche und Brücken. Kulturtransfer im Alpenraum von der Steinzeit bis zur Gegenwart, Wien / Bozen 2005, 168–182.</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1743" period="17xx_2_third">1743</date>
@@ -48,62 +70,62 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:roschmann01.latty2697217.latty-lat1:">
-    <body>
-      <div>
-        <pb xml:id="F1r"/>
-        <p>Surrexit non est hic aiebat nuper</p>
-        <p>angelus ad foeminas sepulchrum Christi</p>
-        <p>invisentes. Liceat mihi eadem verba</p>
-        <p>de binis litterariae Societatis nostrae</p>
-        <p>membris repetere, quos per elapsas</p>
-        <p>ultimas Christi surgentis festivas</p>
-        <p>luces, nescio an utilis curiositas, an</p>
-        <p>terras nondum visas lustrandi cu-</p>
-        <p>piditas ex musaeo suo surgere et alio</p>
-        <p>abire coegit. Unus equidem horum, laborum</p>
-        <p>suorum Academicorum ac praecipue</p>
-        <p>sincerae illius ad Caesarem submissae in-</p>
-        <p>formationis et laetus et fessus liberi-</p>
-        <p>ores auras serio aspirare coepit, cumque</p>
-        <p>has in Oenipontano climate diu</p>
-        <p>iam cum taedio suspirasset et frustra hac-</p>
-        <p>tenus exspectasset, ad temperatam magis</p>
-        <p>huius veris tempori<note place="margin">convenientem melius</note>regionem
+    <body n="body1">
+      <div n="div1">
+        <pb n="pb1" xml:id="F1r"/>
+        <p n="p2">Surrexit non est hic aiebat nuper</p>
+        <p n="p3">angelus ad foeminas sepulchrum Christi</p>
+        <p n="p4">invisentes. Liceat mihi eadem verba</p>
+        <p n="p5">de binis litterariae Societatis nostrae</p>
+        <p n="p6">membris repetere, quos per elapsas</p>
+        <p n="p7">ultimas Christi surgentis festivas</p>
+        <p n="p8">luces, nescio an utilis curiositas, an</p>
+        <p n="p9">terras nondum visas lustrandi cu-</p>
+        <p n="p10">piditas ex musaeo suo surgere et alio</p>
+        <p n="p11">abire coegit. Unus equidem horum, laborum</p>
+        <p n="p12">suorum Academicorum ac praecipue</p>
+        <p n="p13">sincerae illius ad Caesarem submissae in-</p>
+        <p n="p14">formationis et laetus et fessus liberi-</p>
+        <p n="p15">ores auras serio aspirare coepit, cumque</p>
+        <p n="p16">has in Oenipontano climate diu</p>
+        <p n="p17">iam cum taedio suspirasset et frustra hac-</p>
+        <p n="p18">tenus exspectasset, ad temperatam magis</p>
+        <p n="p19">huius veris tempori<note n="note1" place="margin">convenientem melius</note>regionem
                     anhelabat</p>
-        <p>hominem igitur serendis sermonibus, ut</p>
-        <p>sibi videbatur, aptiorem et qui velut</p>
-        <p>facundus comes in via pro baculo esset</p>
-        <p>aversiri iubet, expositoque itineris de-</p>
-        <p>siderio socium expetit et vel inscia etiam</p>
-        <p>coniuge impetrat. Ambo igitur equis</p>
-        <p>cursoriis vecti praeteritâ Veldidena</p>
-        <p>montem Schönbergium superant, dein</p>
-        <p>Matreium nobile ac perantiquum tabulae</p>
-        <p>Theodosianae oppidum per transenna</p>
-        <p>salutantes Stainacum devehuntur,</p>
-        <p>ubi lautiori caena comitem suum nondum</p>
-        <p>bene ad iter compositum, et tacite non-</p>
-        <p>nihil invitum, vir ille nobilis exce-</p>
-        <p>perat et utrumque contra hybernas</p>
-        <p>Euri Notique in celebri monte Pyren.</p>
-        <p>iniurias utili plane, imo necessario</p>
-        <p>consilio munierat, conscenso igitur rursum</p>
-        <p>curru ad secundum a Stainaco lapidem</p>
-        <p>tabulam illam aeneam, quae occurrentium</p>
-        <p>sibi Caroli V, Imp. et Ferdinandi I.</p>
-        <p>Rom. Reg. fratrum memoriam hac</p>
-        <p>inscriptione servat, quantum per ten-</p>
-        <p>
-          <unclear>xas</unclear>licet non tam lustrant quam notant.</p>
-        <pb xml:id="F1v"/>
-        <p>Exscripsit autem viae comes ante oc-</p>
-        <p>tennium circiter haec verba:</p>
-        <p>
-          <quote>Imp. Caes. Carolo V. P. I. Aug. ex Hispan.
+        <p n="p20">hominem igitur serendis sermonibus, ut</p>
+        <p n="p21">sibi videbatur, aptiorem et qui velut</p>
+        <p n="p22">facundus comes in via pro baculo esset</p>
+        <p n="p23">aversiri iubet, expositoque itineris de-</p>
+        <p n="p24">siderio socium expetit et vel inscia etiam</p>
+        <p n="p25">coniuge impetrat. Ambo igitur equis</p>
+        <p n="p26">cursoriis vecti praeteritâ Veldidena</p>
+        <p n="p27">montem Schönbergium superant, dein</p>
+        <p n="p28">Matreium nobile ac perantiquum tabulae</p>
+        <p n="p29">Theodosianae oppidum per transenna</p>
+        <p n="p30">salutantes Stainacum devehuntur,</p>
+        <p n="p31">ubi lautiori caena comitem suum nondum</p>
+        <p n="p32">bene ad iter compositum, et tacite non-</p>
+        <p n="p33">nihil invitum, vir ille nobilis exce-</p>
+        <p n="p34">perat et utrumque contra hybernas</p>
+        <p n="p35">Euri Notique in celebri monte Pyren.</p>
+        <p n="p36">iniurias utili plane, imo necessario</p>
+        <p n="p37">consilio munierat, conscenso igitur rursum</p>
+        <p n="p38">curru ad secundum a Stainaco lapidem</p>
+        <p n="p39">tabulam illam aeneam, quae occurrentium</p>
+        <p n="p40">sibi Caroli V, Imp. et Ferdinandi I.</p>
+        <p n="p41">Rom. Reg. fratrum memoriam hac</p>
+        <p n="p42">inscriptione servat, quantum per ten-</p>
+        <p n="p43">
+          <unclear n="unclear1">xas</unclear>licet non tam lustrant quam notant.</p>
+        <pb n="pb44" xml:id="F1v"/>
+        <p n="p45">Exscripsit autem viae comes ante oc-</p>
+        <p n="p46">tennium circiter haec verba:</p>
+        <p n="p47">
+          <quote n="quote1">Imp. Caes. Carolo V. P. I. Aug. ex Hispan.
                 Italiaque susceptis imperialibus coronis
                 advenienti et Ferdinando Hung. Bohe-
                 miaeque regi e Pannoniis occurrent.
-                optimis principibus ad perpetuam<note place="margin">publica laetitia memoriam, quod pat-
+                optimis principibus ad perpetuam<note n="note1" place="margin">publica laetitia memoriam, quod pat-
                 res ante annos VIII digessi sumis
                 inter mortales honoribus et triumphis
                 aucti hoc in loco salvi hospitesque con-
@@ -113,65 +135,65 @@
                 curavit.</note>
           </quote>
         </p>
-        <p>Ad tertium dein lapidem deducti in la-</p>
-        <p>pidem milliarium in via hac regia</p>
-        <p>olim a Romanis positum offendimus,</p>
-        <p>sed merito illud ex Petronio Arbitro</p>
-        <p>„sub hoc noctis conticinium“</p>
-        <p>repetent (...), cum ob noctis tenebras</p>
-        <p>ad notatos, ut Rutilius in itinerario</p>
-        <p>ait:<quote>Caesarum nominibus reque lapides fax ulla
+        <p n="p48">Ad tertium dein lapidem deducti in la-</p>
+        <p n="p49">pidem milliarium in via hac regia</p>
+        <p n="p50">olim a Romanis positum offendimus,</p>
+        <p n="p51">sed merito illud ex Petronio Arbitro</p>
+        <p n="p52">„sub hoc noctis conticinium“</p>
+        <p n="p53">repetent (...), cum ob noctis tenebras</p>
+        <p n="p54">ad notatos, ut Rutilius in itinerario</p>
+        <p n="p55">ait:<quote n="quote1">Caesarum nominibus reque lapides fax ulla
                 praesidio erant, quae iter aperiret</quote>
-          <note place="margin">
-            <quote>errantibus, nec silentium noctis iam me-
+          <note n="note2" place="margin">
+            <quote n="quote1">errantibus, nec silentium noctis iam me-
                 diae promittebat occurrentium lumen</quote>non possemque igitur lapidis inscrip-
                 ti typum dare, nisi comes itineris idem
                 fecisset, quod de Githone eodem loco tes-
-                tatur Petronius: nam dudum antea<quote>omnes pilas columnasque notaverat,</quote>en verba ipsius ex lapide<emph>IMP. CAES.</emph>_ _ _
-                _ _ _<emph>MINo PIo FELICI</emph>
-            <emph>INVICTo AUG PM</emph>
-            <emph>TRIB POTEST COS</emph>
-            <emph>PP ET CIVL VERo</emph>_ _ _<emph>LISSIMo CAES</emph>
-            <emph>B AUG MP CXXX</emph>
+                tatur Petronius: nam dudum antea<quote n="quote2">omnes pilas columnasque notaverat,</quote>en verba ipsius ex lapide<emph n="emph3">IMP. CAES.</emph>_ _ _
+                _ _ _<emph n="emph4">MINo PIo FELICI</emph>
+            <emph n="emph5">INVICTo AUG PM</emph>
+            <emph n="emph6">TRIB POTEST COS</emph>
+            <emph n="emph7">PP ET CIVL VERo</emph>_ _ _<emph n="emph8">LISSIMo CAES</emph>
+            <emph n="emph9">B AUG MP CXXX</emph>
           </note>
         </p>
-        <p>Tum per telonium seu claustrum Lueg</p>
-        <p>dictum, quod antiquissima Germanorum lingua</p>
-        <p>speculam significat, veteres autem litte-</p>
-        <p>rae antrum et speluncam compellant ad</p>
-        <p>pedem montis Pyrenaei Graecis Roma-</p>
-        <p>nisque scriptoribus Aristoteli, Straboni,</p>
-        <p>Senecae et Plinio iuniori ad Traianum</p>
-        <p>commemorati, deferuntur, quem ubi ala-</p>
-        <p>cres superarunt, intensum in pedibus</p>
-        <p>frigus sensere, mons ipse totus recenti</p>
-        <p>nive et ab incumbenti ventorum turbis</p>
-        <p>ne agglomerata rigide horrebat, totusque</p>
-        <p>quod sperabamus viae delicium infaustis</p>
-        <p>praesagiis foedabat, et fortuna fuit,</p>
-        <p>quod praecedenti sole aurigae complures</p>
-        <p>curribus graviter onustis hanc viam</p>
-        <p>triverint, quibus, ut mos est, operarii</p>
-        <p>illi ad hunc finem omne tempus conducti</p>
-        <p>semitam sive stratam, ut antiquitus</p>
-        <p>etiam vocarunt, multâ industria</p>
-        <p>apertam reddidere. Verum quod nega-</p>
-        <p>bat temporis austeritas, in hoc loco</p>
-        <p>non tam refrigerium quam contra frigus</p>
-        <p>remedium, naturae benignitates prodigi-</p>
-        <p>ose indulsit, dum calidos latices sua</p>
-        <p>sponte in ipso Brenneri vertice erum-</p>
-        <p>pentes tum nobis tum accolis, quos ab ipso</p>
-        <pb xml:id="F2r"/>
-        <p>monte Horatius Brennos, Venantius</p>
-        <p>Fortunatus Breones et erronee Fer-</p>
-        <p>nandes Ibirones compellat, largiter</p>
-        <p>affudit.<note place="margin">Frontis originem ac tempus imo potius
+        <p n="p56">Tum per telonium seu claustrum Lueg</p>
+        <p n="p57">dictum, quod antiquissima Germanorum lingua</p>
+        <p n="p58">speculam significat, veteres autem litte-</p>
+        <p n="p59">rae antrum et speluncam compellant ad</p>
+        <p n="p60">pedem montis Pyrenaei Graecis Roma-</p>
+        <p n="p61">nisque scriptoribus Aristoteli, Straboni,</p>
+        <p n="p62">Senecae et Plinio iuniori ad Traianum</p>
+        <p n="p63">commemorati, deferuntur, quem ubi ala-</p>
+        <p n="p64">cres superarunt, intensum in pedibus</p>
+        <p n="p65">frigus sensere, mons ipse totus recenti</p>
+        <p n="p66">nive et ab incumbenti ventorum turbis</p>
+        <p n="p67">ne agglomerata rigide horrebat, totusque</p>
+        <p n="p68">quod sperabamus viae delicium infaustis</p>
+        <p n="p69">praesagiis foedabat, et fortuna fuit,</p>
+        <p n="p70">quod praecedenti sole aurigae complures</p>
+        <p n="p71">curribus graviter onustis hanc viam</p>
+        <p n="p72">triverint, quibus, ut mos est, operarii</p>
+        <p n="p73">illi ad hunc finem omne tempus conducti</p>
+        <p n="p74">semitam sive stratam, ut antiquitus</p>
+        <p n="p75">etiam vocarunt, multâ industria</p>
+        <p n="p76">apertam reddidere. Verum quod nega-</p>
+        <p n="p77">bat temporis austeritas, in hoc loco</p>
+        <p n="p78">non tam refrigerium quam contra frigus</p>
+        <p n="p79">remedium, naturae benignitates prodigi-</p>
+        <p n="p80">ose indulsit, dum calidos latices sua</p>
+        <p n="p81">sponte in ipso Brenneri vertice erum-</p>
+        <p n="p82">pentes tum nobis tum accolis, quos ab ipso</p>
+        <pb n="pb83" xml:id="F2r"/>
+        <p n="p84">monte Horatius Brennos, Venantius</p>
+        <p n="p85">Fortunatus Breones et erronee Fer-</p>
+        <p n="p86">nandes Ibirones compellat, largiter</p>
+        <p n="p87">affudit.<note n="note1" place="margin">Frontis originem ac tempus imo potius
                 restaurataelatebrae
                 beneficium, exsculptae ibidem in
                 tabula marmorea litterae his
-                docent:<quote>Aspice viator et Deum lauda
-                in rigidis istis ac olim inhospitis<unclear>tesquis</unclear>ubi cautes et montium iuga caelo imminent,
+                docent:<quote n="quote1">Aspice viator et Deum lauda
+                in rigidis istis ac olim inhospitis<unclear n="unclear1">tesquis</unclear>ubi cautes et montium iuga caelo imminent,
                 ubi feris potius latebras quam hominibus
                 habitationem molitam esse naturam dixeris
                 Zacharias Geizkofler
@@ -191,59 +213,59 @@
                 ita vos et bonos omnes respiciat salus.</quote>
           </note>
         </p>
-        <p>Paululum igitur refotos tertio</p>
-        <p>dein lapide Vipitenum excepit oppidum,</p>
-        <p>quod hodie Sterzingam vocamus. Anto-</p>
-        <p>nini Itinerario notum, cuius nominis</p>
-        <p>reliquias totus hic districtus, qui vulgo</p>
-        <p>vallis Vipitina seu das Aintl<unclear>Batig-</unclear>
+        <p n="p88">Paululum igitur refotos tertio</p>
+        <p n="p89">dein lapide Vipitenum excepit oppidum,</p>
+        <p n="p90">quod hodie Sterzingam vocamus. Anto-</p>
+        <p n="p91">nini Itinerario notum, cuius nominis</p>
+        <p n="p92">reliquias totus hic districtus, qui vulgo</p>
+        <p n="p93">vallis Vipitina seu das Aintl<unclear n="unclear1">Batig-</unclear>
         </p>
-        <p>
-          <unclear>gtsall</unclear>retinet. Ubi iterum a in tepidi</p>
-        <p>usculo hypocausto recreati ulteriori</p>
-        <p>nos accinximus itineri.</p>
-        <p>
-          <note place="margin">Occurrebat extra oppidum<del resp="author">dela-
+        <p n="p94">
+          <unclear n="unclear1">gtsall</unclear>retinet. Ubi iterum a in tepidi</p>
+        <p n="p95">usculo hypocausto recreati ulteriori</p>
+        <p n="p96">nos accinximus itineri.</p>
+        <p n="p97">
+          <note n="note1" place="margin">Occurrebat extra oppidum<del n="del1" resp="author">dela-
                 tas</del>vix paucis passibus
                         delatis ad
                 templi parochialis murum
                 haec epigraphe marmori inscul-
-                pta:<emph>V. F.</emph>
-            <emph>POSTHUMIA</emph>
-            <emph>VICTORINA</emph>
-            <emph>TI. CLAUDIO. RAE</emph>
-            <emph>TICIANO GENE</emph>
-            <emph>RO . PIISSIMO</emph>
-            <emph>Huic e latere adhaerebat muro</emph>
-            <emph>pariter infixa, litterisque tra-</emph>
-            <emph>balibus eleganter excisas haec in-</emph>
-            <emph>scriptio commendanda sane et sin-</emph>
-            <emph>gulari laude imitanda, sed num-</emph>
-            <emph>quam speranda industria:</emph>
-            <add resp="editor">dt. Inschrift</add>
+                pta:<emph n="emph2">V. F.</emph>
+            <emph n="emph3">POSTHUMIA</emph>
+            <emph n="emph4">VICTORINA</emph>
+            <emph n="emph5">TI. CLAUDIO. RAE</emph>
+            <emph n="emph6">TICIANO GENE</emph>
+            <emph n="emph7">RO . PIISSIMO</emph>
+            <emph n="emph8">Huic e latere adhaerebat muro</emph>
+            <emph n="emph9">pariter infixa, litterisque tra-</emph>
+            <emph n="emph10">balibus eleganter excisas haec in-</emph>
+            <emph n="emph11">scriptio commendanda sane et sin-</emph>
+            <emph n="emph12">gulari laude imitanda, sed num-</emph>
+            <emph n="emph13">quam speranda industria:</emph>
+            <add n="add14" resp="editor">dt. Inschrift</add>
           </note>
         </p>
-        <p>Altero dein</p>
-        <p>a Vipiteno milliari in celebrem illam</p>
-        <p>Solis Mythrae tabulam illucescente iam</p>
-        <p>iam crepusculo incidimus, singularem</p>
-        <p>in paucis et qualem praeter Italiam forte</p>
-        <p>Europa omnis non exhibitura est, eo quippe</p>
-        <p>rarior censetur, cum Solis Mythrae iurant</p>
-        <p>bello iam Pompeii pyratico Romam de-</p>
-        <p>lata et Aureliani praecipue aevo</p>
-        <p>frequentiori cultu invaluerint,</p>
-        <p>contra quem ex SS. Patribus verba fe-</p>
-        <p>cerunt Tertullianus, S. Iustinus Mart.</p>
-        <p>S. Epiphanius, Macrobius, Iulius Fir-</p>
-        <p>mus, Lactantius Firmianus S. Ioan. Chrys.</p>
-        <p>S. Ambros. S. Augustinus. Nonus in Nazian.</p>
-        <p>Elias Cret. in Greg. Commudianus Poet. Nicet.</p>
-        <p>Ep. ad Nazianz S. Paulinus S. Hieroni.</p>
-        <p>Ex scriptoribus autem profanis hi</p>
-        <p>praecipue de his mentionem fecere</p>
-        <p>
-          <note place="margin">Herodotus, Xenophon, Pausanias
+        <p n="p98">Altero dein</p>
+        <p n="p99">a Vipiteno milliari in celebrem illam</p>
+        <p n="p100">Solis Mythrae tabulam illucescente iam</p>
+        <p n="p101">iam crepusculo incidimus, singularem</p>
+        <p n="p102">in paucis et qualem praeter Italiam forte</p>
+        <p n="p103">Europa omnis non exhibitura est, eo quippe</p>
+        <p n="p104">rarior censetur, cum Solis Mythrae iurant</p>
+        <p n="p105">bello iam Pompeii pyratico Romam de-</p>
+        <p n="p106">lata et Aureliani praecipue aevo</p>
+        <p n="p107">frequentiori cultu invaluerint,</p>
+        <p n="p108">contra quem ex SS. Patribus verba fe-</p>
+        <p n="p109">cerunt Tertullianus, S. Iustinus Mart.</p>
+        <p n="p110">S. Epiphanius, Macrobius, Iulius Fir-</p>
+        <p n="p111">mus, Lactantius Firmianus S. Ioan. Chrys.</p>
+        <p n="p112">S. Ambros. S. Augustinus. Nonus in Nazian.</p>
+        <p n="p113">Elias Cret. in Greg. Commudianus Poet. Nicet.</p>
+        <p n="p114">Ep. ad Nazianz S. Paulinus S. Hieroni.</p>
+        <p n="p115">Ex scriptoribus autem profanis hi</p>
+        <p n="p116">praecipue de his mentionem fecere</p>
+        <p n="p117">
+          <note n="note1" place="margin">Herodotus, Xenophon, Pausanias
                 Athenaeus, Hesichius Gram., Por-
                 phyrius, Strabo, Phetrarchus
                 L. Apuleius, Curtius, Mart. Capella
@@ -251,263 +273,263 @@
                 Lampridius in Commod. Iulianus Imp.
                 Claudianus Suidas</note>
         </p>
-        <p>Quae omnia singulari libro inter annos</p>
-        <p>viginti quatuor iam ter recusi</p>
-        <p>eruditissime complexus est Joannes</p>
-        <p>Philippus a Turre Adriae episcopus et</p>
-        <p>inter principes sui saeculi eruditos Ro-</p>
-        <p>mae omni atque eruditionis praecipue</p>
-        <p>oraculo Clementi XI. P. M. merito</p>
-        <p>pretiosus charusque.</p>
-        <p>Operi huic anaglypho in alio</p>
-        <p>
-          <note place="margin">lapide iunctum est sequens epi-
-                 taphium:<emph>D II M</emph>
-            <emph>AURELIAE</emph>
-            <emph>RUFFINAE</emph>
-            <emph>MATRI</emph>
-            <emph>AELIUS</emph>
-            <emph>QUARTINUS</emph>
+        <p n="p118">Quae omnia singulari libro inter annos</p>
+        <p n="p119">viginti quatuor iam ter recusi</p>
+        <p n="p120">eruditissime complexus est Joannes</p>
+        <p n="p121">Philippus a Turre Adriae episcopus et</p>
+        <p n="p122">inter principes sui saeculi eruditos Ro-</p>
+        <p n="p123">mae omni atque eruditionis praecipue</p>
+        <p n="p124">oraculo Clementi XI. P. M. merito</p>
+        <p n="p125">pretiosus charusque.</p>
+        <p n="p126">Operi huic anaglypho in alio</p>
+        <p n="p127">
+          <note n="note1" place="margin">lapide iunctum est sequens epi-
+                 taphium:<emph n="emph1">D II M</emph>
+            <emph n="emph2">AURELIAE</emph>
+            <emph n="emph3">RUFFINAE</emph>
+            <emph n="emph4">MATRI</emph>
+            <emph n="emph5">AELIUS</emph>
+            <emph n="emph6">QUARTINUS</emph>
           </note>
         </p>
-        <p>Duodecimum demum lapidem emensis Brixina</p>
-        <p>sede episcopi et principis imperii regia no-</p>
-        <p>bilis civitas occurrebat. Quae me-</p>
-        <pb xml:id="F2v"/>
-        <p>dio quidem aevo suos natales debet</p>
-        <p>nominis autem originem iam in Ptolo-</p>
-        <p>maeo servat, qui hos Rhaetiae po-</p>
-        <p>pulos Brixantes appellat. In hoc</p>
-        <p>igitur loco ne profanis indagationibus</p>
-        <p>nostris sacra diei solemnitatem tur-</p>
-        <p>baremus, cumque aliunde praeter struc-</p>
-        <p>turam regiae satis eleganter ac sepul-</p>
-        <p>chra per pauca quaedam praesulum no-</p>
-        <p>tumque illud semper limpida abundan-</p>
-        <p>tem</p>
-        <p>
-          <note place="margin">Sic dictum fontem virginum seu
+        <p n="p128">Duodecimum demum lapidem emensis Brixina</p>
+        <p n="p129">sede episcopi et principis imperii regia no-</p>
+        <p n="p130">bilis civitas occurrebat. Quae me-</p>
+        <pb n="pb131" xml:id="F2v"/>
+        <p n="p132">dio quidem aevo suos natales debet</p>
+        <p n="p133">nominis autem originem iam in Ptolo-</p>
+        <p n="p134">maeo servat, qui hos Rhaetiae po-</p>
+        <p n="p135">pulos Brixantes appellat. In hoc</p>
+        <p n="p136">igitur loco ne profanis indagationibus</p>
+        <p n="p137">nostris sacra diei solemnitatem tur-</p>
+        <p n="p138">baremus, cumque aliunde praeter struc-</p>
+        <p n="p139">turam regiae satis eleganter ac sepul-</p>
+        <p n="p140">chra per pauca quaedam praesulum no-</p>
+        <p n="p141">tumque illud semper limpida abundan-</p>
+        <p n="p142">tem</p>
+        <p n="p143">
+          <note n="note1" place="margin">Sic dictum fontem virginum seu
                 Aqua virginis</note>
         </p>
-        <p>Nihil admodum notatu dignum no<add resp="editor">s</add>
+        <p n="p144">Nihil admodum notatu dignum no<add n="add1" resp="editor">s</add>
         </p>
-        <p>suppeditaretur, eo ardentiori deside-</p>
-        <p>rio veterum illam antistitum Sabionen-</p>
-        <p>sium urbem Sabionam, Antonini Iti-</p>
-        <p>nerario tabulae Peutingerianae,</p>
-        <p>Paulo Diacono et actis conciliab<add resp="editor">u</add>-</p>
-        <p>li Mariani memoratam, petebamus</p>
-        <p>huc igitur, felicibus avibus et multipli-</p>
-        <p>catis sociis religiosis ac doctis</p>
-        <p>delati arduum montis clivum verticemque</p>
-        <p>non sine gravi molestia conscendimus</p>
-        <p>primumque antiquissimi sacelli perpauca</p>
-        <p>quae supersunt vestigia subtus al-</p>
-        <p>tare consideramus notatoque certae</p>
-        <p>antiquitatis signo, unica nimi-</p>
-        <p>rum fenestra oblonga sed angusta</p>
-        <p>nimis templum hoc esse intelligimus</p>
-        <p>quod Sabionensium fasti et prop-</p>
-        <p>rium Brixinense divum Cassianum</p>
-        <p>Dei parenti virgini exstruxisse fe-</p>
-        <p>runt, altius posthac profecti anti-</p>
-        <p>quam cathedralem basilicam nescio</p>
-        <p>quid antiquitatum exspectantes</p>
-        <p>venerabundi subimus, sed incuria</p>
-        <p>temporum fuit hominumque, quae orna-</p>
-        <p>tam pessime basilicam omni anti-</p>
-        <p>quitatis testimonio infeliciter</p>
-        <p>prorsus orbavit, lapides omnes ab-</p>
-        <p>straxit et ex his unum, licet primum,</p>
-        <p>1628 signando loculo, qui ad</p>
-        <pb xml:id="F3r"/>
-        <p>partem evangelii conditis eporum reli-</p>
-        <p>quiis destinatus, et ex illo, quem dixi,</p>
-        <p>loco remotus arae propinquae pro men-</p>
-        <p>sa inservit, reliquias autem ossium epis-</p>
-        <p>copalium arca quaedam lignea, intus autem</p>
-        <p>cuprea, supra portas templi custodire</p>
-        <p>haud ita pridem iussa est, aedes autem</p>
-        <p>haec sacra Christo e cruce pendenti de-</p>
-        <p>dicata est. Ex templo hoc cathedrali</p>
-        <p>dux nos religiosus<unclear>adm.</unclear>in Turrim per-</p>
-        <p>antiquam praecesserat, in qua ut con-</p>
-        <p>stans traditio est, sanctum Cassianum per</p>
-        <p>secritionis Diocletiani tempore vincu-</p>
-        <p>lis detentum fuisse asserunt, quae vin-</p>
-        <p>cula cum Patrum nostrum aevo superfuiss.</p>
-        <p>certo<unclear>feramus</unclear>eo magis iustissime indig-</p>
-        <p>natus suus, cum non tantum haec male custodi-</p>
-        <p>ta furto fuerint subtracta, sed etiam</p>
-        <p>signa, cruces nempe adpictae, locum ob</p>
-        <p>vinculorum muris infixorum notantes</p>
-        <p>pene iam tota perierint, nobileque</p>
-        <p>illud, quod fugiens Divus petrae im-</p>
-        <p>pressit vestigium, supina prorsus ac fla-</p>
-        <p>gitiosa negligentia fere deletum seu</p>
-        <p>ablatum triste nobis desiderium re-</p>
-        <p>liquerit, iamque maesti abitum inter</p>
-        <p>recurrentes identidem antiquorum mu-</p>
-        <p>rorum et unius alteriusve castelli</p>
-        <p>reliquias non ingrato adm. nuntio</p>
-        <p>reficimus. Cassidem nuper ferream et</p>
-        <p>sceptrum ex calibe Longabardico</p>
-        <p>haud multum absimile in his rude</p>
-        <p>esse repertum, spectavimus utrumque av<add resp="editor">ia</add>
+        <p n="p145">suppeditaretur, eo ardentiori deside-</p>
+        <p n="p146">rio veterum illam antistitum Sabionen-</p>
+        <p n="p147">sium urbem Sabionam, Antonini Iti-</p>
+        <p n="p148">nerario tabulae Peutingerianae,</p>
+        <p n="p149">Paulo Diacono et actis conciliab<add n="add1" resp="editor">u</add>-</p>
+        <p n="p150">li Mariani memoratam, petebamus</p>
+        <p n="p151">huc igitur, felicibus avibus et multipli-</p>
+        <p n="p152">catis sociis religiosis ac doctis</p>
+        <p n="p153">delati arduum montis clivum verticemque</p>
+        <p n="p154">non sine gravi molestia conscendimus</p>
+        <p n="p155">primumque antiquissimi sacelli perpauca</p>
+        <p n="p156">quae supersunt vestigia subtus al-</p>
+        <p n="p157">tare consideramus notatoque certae</p>
+        <p n="p158">antiquitatis signo, unica nimi-</p>
+        <p n="p159">rum fenestra oblonga sed angusta</p>
+        <p n="p160">nimis templum hoc esse intelligimus</p>
+        <p n="p161">quod Sabionensium fasti et prop-</p>
+        <p n="p162">rium Brixinense divum Cassianum</p>
+        <p n="p163">Dei parenti virgini exstruxisse fe-</p>
+        <p n="p164">runt, altius posthac profecti anti-</p>
+        <p n="p165">quam cathedralem basilicam nescio</p>
+        <p n="p166">quid antiquitatum exspectantes</p>
+        <p n="p167">venerabundi subimus, sed incuria</p>
+        <p n="p168">temporum fuit hominumque, quae orna-</p>
+        <p n="p169">tam pessime basilicam omni anti-</p>
+        <p n="p170">quitatis testimonio infeliciter</p>
+        <p n="p171">prorsus orbavit, lapides omnes ab-</p>
+        <p n="p172">straxit et ex his unum, licet primum,</p>
+        <p n="p173">1628 signando loculo, qui ad</p>
+        <pb n="pb174" xml:id="F3r"/>
+        <p n="p175">partem evangelii conditis eporum reli-</p>
+        <p n="p176">quiis destinatus, et ex illo, quem dixi,</p>
+        <p n="p177">loco remotus arae propinquae pro men-</p>
+        <p n="p178">sa inservit, reliquias autem ossium epis-</p>
+        <p n="p179">copalium arca quaedam lignea, intus autem</p>
+        <p n="p180">cuprea, supra portas templi custodire</p>
+        <p n="p181">haud ita pridem iussa est, aedes autem</p>
+        <p n="p182">haec sacra Christo e cruce pendenti de-</p>
+        <p n="p183">dicata est. Ex templo hoc cathedrali</p>
+        <p n="p184">dux nos religiosus<unclear n="unclear1">adm.</unclear>in Turrim per-</p>
+        <p n="p185">antiquam praecesserat, in qua ut con-</p>
+        <p n="p186">stans traditio est, sanctum Cassianum per</p>
+        <p n="p187">secritionis Diocletiani tempore vincu-</p>
+        <p n="p188">lis detentum fuisse asserunt, quae vin-</p>
+        <p n="p189">cula cum Patrum nostrum aevo superfuiss.</p>
+        <p n="p190">certo<unclear n="unclear1">feramus</unclear>eo magis iustissime indig-</p>
+        <p n="p191">natus suus, cum non tantum haec male custodi-</p>
+        <p n="p192">ta furto fuerint subtracta, sed etiam</p>
+        <p n="p193">signa, cruces nempe adpictae, locum ob</p>
+        <p n="p194">vinculorum muris infixorum notantes</p>
+        <p n="p195">pene iam tota perierint, nobileque</p>
+        <p n="p196">illud, quod fugiens Divus petrae im-</p>
+        <p n="p197">pressit vestigium, supina prorsus ac fla-</p>
+        <p n="p198">gitiosa negligentia fere deletum seu</p>
+        <p n="p199">ablatum triste nobis desiderium re-</p>
+        <p n="p200">liquerit, iamque maesti abitum inter</p>
+        <p n="p201">recurrentes identidem antiquorum mu-</p>
+        <p n="p202">rorum et unius alteriusve castelli</p>
+        <p n="p203">reliquias non ingrato adm. nuntio</p>
+        <p n="p204">reficimus. Cassidem nuper ferream et</p>
+        <p n="p205">sceptrum ex calibe Longabardico</p>
+        <p n="p206">haud multum absimile in his rude</p>
+        <p n="p207">esse repertum, spectavimus utrumque av<add n="add1" resp="editor">ia</add>
         </p>
-        <p>et sceptrum hoc, quod vulgo Pusio-</p>
-        <p>num compellant, perelegans necrum</p>
-        <p>sed limato artificio elaboratum mo-</p>
-        <p>rabamus, delinabatam utriusque effigie<add resp="editor">i/m</add>
+        <p n="p208">et sceptrum hoc, quod vulgo Pusio-</p>
+        <p n="p209">num compellant, perelegans necrum</p>
+        <p n="p210">sed limato artificio elaboratum mo-</p>
+        <p n="p211">rabamus, delinabatam utriusque effigie<add n="add1" resp="editor">i/m</add>
         </p>
-        <p>proxime exspectantes</p>
-        <pb xml:id="F3v"/>
-        <p>ad pedem montis oppidulum ad Clusa</p>
-        <p>sive Clusina (quae vox medii aevi</p>
-        <p>teste Ducangio locum angustum loqui-</p>
-        <p>tur) situm est, nulla quidem re nisi</p>
-        <p>paupercula casa patrum Capuci-</p>
-        <p>norum. Nobilis imo nobilissima</p>
-        <p>haec enim thesaurum custodit non</p>
-        <p>comite dumtaxat Tyrolis</p>
-        <p>sed vel magno rege dignissimum; sive</p>
-        <p>enim sacram ex auro et gemmis suppel-</p>
-        <p>lectilem consideres, sive artis statu-</p>
-        <p>aria sive pictoriae prodigia atten-</p>
-        <p>das, omnia in his omnibus summa</p>
-        <p>sunt, iuvat rem ordine et compendio</p>
-        <p>dicere. Supra fores sacrae aediculae</p>
-        <p>D. Felix Cantalitius ex pario</p>
-        <p>marmore Neapolitani artificis</p>
-        <p>opus, viri magnitudine spectabilis</p>
-        <p>est. ad sinistram ante has fores Christus</p>
-        <p>in sepulchro eadem magnitudine</p>
-        <p>quiescit tam stupendo artificio, ut</p>
-        <p>membra, musculi et nervi omnes omnibus</p>
-        <p>statuis emendatiores sint. Temp-</p>
-        <p>lum intrantibus arae occurrunt qua-</p>
-        <p>tuor, ex quibus tabulas tres Paulo</p>
-        <p>Paganio Mediolanensi, quartam, quae Divam Annam</p>
-        <p>refert, Cygnianio Bononiensi, summis</p>
-        <p>PPrum nostrorum aetate artificibus debemus</p>
-        <p>interius Christus e cruce depositus</p>
-        <p>et divinae matri acclinis praestantem</p>
-        <p>Josephi Riberae vulgo Espagnoleti</p>
-        <p>manum commendat, parietes tabulae oc-</p>
-        <p>to gesta taumaturgi Paduani lo-</p>
-        <p>quentes Petri Forenzii penicillum</p>
-        <p>dilaudant, sacri oratoris cathedram</p>
-        <p>idem Ribera Divis Andre et Jaco-</p>
-        <p>bo exornat, ad aram maiorem Petrum</p>
-        <p>et Magdalenam poenitentem, D. An-</p>
-        <p>tonium Paduanum, uti et Franciscum</p>
-        <p>Assisiatem celeberrimi Jordani manus</p>
-        <p>animavit. E templo in chorum</p>
-        <pb xml:id="F4r"/>
-        <p>progredimur, ubi mediam praegran-</p>
-        <p>dis se tabula offert, quae plane divi-</p>
-        <p>nos virginis S.L.C. vultus vultus a Jor-</p>
-        <p>dano expressos commendat, ex utroque</p>
-        <p>latere sancti tres leges, Christus in hor-</p>
-        <p>to, idemque spinis coronatus, crucem ba-</p>
-        <p>julans et a morte in gremio matris</p>
-        <p>depositus admirabili iterum Jordani peni-</p>
-        <p>cillo comparent. Et ne servator in tu-</p>
-        <p>mulo conditus eiusdem patientis deesset</p>
-        <p>historia, viva eundem Hannibalis Car-</p>
-        <p>rarii dextera feliciter sociavit. Addi-</p>
-        <p>dit his D. Sebastianum Appelles Venet.</p>
-        <p>Titianus, D. Teresiam Cygnianus,</p>
-        <p>beatissimam denique virginem cum dormien-</p>
-        <p>te filiolo suo, pictorum sui saeculi</p>
-        <p>princeps Leonardus Vincius. E choro</p>
-        <p>in proximam sacrae suppellectilis</p>
-        <p>custodiam pedem feramus, et in hoc nascen-</p>
-        <p>tis Domini e coelo nuntios artificiosi</p>
-        <p>Bassani manu nocte concubia illustres</p>
-        <p>miramus, tum beatissimam virginem, Divos Bar-</p>
-        <p>tholomaeum et Dorotheam Bellini, Geor-</p>
-        <p>gium et Hieronymum Titiani, divinam</p>
-        <p>matrem cum puero Cygnani, Christi par-</p>
-        <p>vuli in cruce dormientis elegantiam</p>
-        <p>opus Rubenii stupemus. Dein in</p>
-        <p>refectorium nos conferimus, ibidemque</p>
-        <p>Christi e cruce pendentis imaginem a</p>
-        <p>Palma elaboratam tacita venerati-</p>
-        <p>one una cum D. virgine et Assisia-</p>
-        <p>te Patre a praeclaro illo rerum</p>
-        <p>sacrarum proteo Barrotio effigi-</p>
-        <p>ata<add resp="editor">s</add>veneramur. refert idem pariter</p>
-        <p>locus duodecim tabulas vitam beati Fe-</p>
-        <p>licis Cantalitii eximia Belgae pic-</p>
-        <p>toris arte depictam. Ex ipso coeno-</p>
-        <p>bio in adiacentem denique virginis</p>
-        <p>Laurentanae aediculam nos conferebamus.</p>
-        <pb xml:id="F4v"/>
-        <p>et imprimis quidem altare castrense</p>
-        <p>regum Hispaniae solido ex auro</p>
-        <p>conflatum, inque huius medio Christi</p>
-        <p>cruci suffixi ac divinae matris</p>
-        <p>cum filio adoptivo immagines divini</p>
-        <p>Michaelis angeli Bonarotae</p>
-        <p>caelo ac toreumate exsculptas ad-</p>
-        <p>miremur. In conclavi demum alte-</p>
-        <p>ro praeter vestes etiam ex asbesto seu</p>
-        <p>lino inconsumptibili vasa sacra pre-</p>
-        <p>tiosissima, codices aliquot elegantis-</p>
-        <p>sime pictos, varios iterum stupen-</p>
-        <p>dosque artis pictoriae partus con-</p>
-        <p>sideremus, merito quippe oculos</p>
-        <p>nostros percellit divinissimae matris</p>
-        <p>illibata conceptio ab omni naevo</p>
-        <p>etiam pictorio citra controversiam</p>
-        <p>immunis invicta magni Jordani</p>
-        <p>manu asserta, aliam deiparae tabulam</p>
-        <p>magnus ille Mariani vultus arti-</p>
-        <p>fex Carolus Dulcis pallio obtectam</p>
-        <p>modestissime finxerat. Praeter</p>
-        <p>hos Christum a Magis adoratum Ger-</p>
-        <p>maniae prodigium Durerus, fugam</p>
-        <p>in Aegyptum abstractum<unclear>Vandicti ius</unclear>
+        <p n="p212">proxime exspectantes</p>
+        <pb n="pb213" xml:id="F3v"/>
+        <p n="p214">ad pedem montis oppidulum ad Clusa</p>
+        <p n="p215">sive Clusina (quae vox medii aevi</p>
+        <p n="p216">teste Ducangio locum angustum loqui-</p>
+        <p n="p217">tur) situm est, nulla quidem re nisi</p>
+        <p n="p218">paupercula casa patrum Capuci-</p>
+        <p n="p219">norum. Nobilis imo nobilissima</p>
+        <p n="p220">haec enim thesaurum custodit non</p>
+        <p n="p221">comite dumtaxat Tyrolis</p>
+        <p n="p222">sed vel magno rege dignissimum; sive</p>
+        <p n="p223">enim sacram ex auro et gemmis suppel-</p>
+        <p n="p224">lectilem consideres, sive artis statu-</p>
+        <p n="p225">aria sive pictoriae prodigia atten-</p>
+        <p n="p226">das, omnia in his omnibus summa</p>
+        <p n="p227">sunt, iuvat rem ordine et compendio</p>
+        <p n="p228">dicere. Supra fores sacrae aediculae</p>
+        <p n="p229">D. Felix Cantalitius ex pario</p>
+        <p n="p230">marmore Neapolitani artificis</p>
+        <p n="p231">opus, viri magnitudine spectabilis</p>
+        <p n="p232">est. ad sinistram ante has fores Christus</p>
+        <p n="p233">in sepulchro eadem magnitudine</p>
+        <p n="p234">quiescit tam stupendo artificio, ut</p>
+        <p n="p235">membra, musculi et nervi omnes omnibus</p>
+        <p n="p236">statuis emendatiores sint. Temp-</p>
+        <p n="p237">lum intrantibus arae occurrunt qua-</p>
+        <p n="p238">tuor, ex quibus tabulas tres Paulo</p>
+        <p n="p239">Paganio Mediolanensi, quartam, quae Divam Annam</p>
+        <p n="p240">refert, Cygnianio Bononiensi, summis</p>
+        <p n="p241">PPrum nostrorum aetate artificibus debemus</p>
+        <p n="p242">interius Christus e cruce depositus</p>
+        <p n="p243">et divinae matri acclinis praestantem</p>
+        <p n="p244">Josephi Riberae vulgo Espagnoleti</p>
+        <p n="p245">manum commendat, parietes tabulae oc-</p>
+        <p n="p246">to gesta taumaturgi Paduani lo-</p>
+        <p n="p247">quentes Petri Forenzii penicillum</p>
+        <p n="p248">dilaudant, sacri oratoris cathedram</p>
+        <p n="p249">idem Ribera Divis Andre et Jaco-</p>
+        <p n="p250">bo exornat, ad aram maiorem Petrum</p>
+        <p n="p251">et Magdalenam poenitentem, D. An-</p>
+        <p n="p252">tonium Paduanum, uti et Franciscum</p>
+        <p n="p253">Assisiatem celeberrimi Jordani manus</p>
+        <p n="p254">animavit. E templo in chorum</p>
+        <pb n="pb255" xml:id="F4r"/>
+        <p n="p256">progredimur, ubi mediam praegran-</p>
+        <p n="p257">dis se tabula offert, quae plane divi-</p>
+        <p n="p258">nos virginis S.L.C. vultus vultus a Jor-</p>
+        <p n="p259">dano expressos commendat, ex utroque</p>
+        <p n="p260">latere sancti tres leges, Christus in hor-</p>
+        <p n="p261">to, idemque spinis coronatus, crucem ba-</p>
+        <p n="p262">julans et a morte in gremio matris</p>
+        <p n="p263">depositus admirabili iterum Jordani peni-</p>
+        <p n="p264">cillo comparent. Et ne servator in tu-</p>
+        <p n="p265">mulo conditus eiusdem patientis deesset</p>
+        <p n="p266">historia, viva eundem Hannibalis Car-</p>
+        <p n="p267">rarii dextera feliciter sociavit. Addi-</p>
+        <p n="p268">dit his D. Sebastianum Appelles Venet.</p>
+        <p n="p269">Titianus, D. Teresiam Cygnianus,</p>
+        <p n="p270">beatissimam denique virginem cum dormien-</p>
+        <p n="p271">te filiolo suo, pictorum sui saeculi</p>
+        <p n="p272">princeps Leonardus Vincius. E choro</p>
+        <p n="p273">in proximam sacrae suppellectilis</p>
+        <p n="p274">custodiam pedem feramus, et in hoc nascen-</p>
+        <p n="p275">tis Domini e coelo nuntios artificiosi</p>
+        <p n="p276">Bassani manu nocte concubia illustres</p>
+        <p n="p277">miramus, tum beatissimam virginem, Divos Bar-</p>
+        <p n="p278">tholomaeum et Dorotheam Bellini, Geor-</p>
+        <p n="p279">gium et Hieronymum Titiani, divinam</p>
+        <p n="p280">matrem cum puero Cygnani, Christi par-</p>
+        <p n="p281">vuli in cruce dormientis elegantiam</p>
+        <p n="p282">opus Rubenii stupemus. Dein in</p>
+        <p n="p283">refectorium nos conferimus, ibidemque</p>
+        <p n="p284">Christi e cruce pendentis imaginem a</p>
+        <p n="p285">Palma elaboratam tacita venerati-</p>
+        <p n="p286">one una cum D. virgine et Assisia-</p>
+        <p n="p287">te Patre a praeclaro illo rerum</p>
+        <p n="p288">sacrarum proteo Barrotio effigi-</p>
+        <p n="p289">ata<add n="add1" resp="editor">s</add>veneramur. refert idem pariter</p>
+        <p n="p290">locus duodecim tabulas vitam beati Fe-</p>
+        <p n="p291">licis Cantalitii eximia Belgae pic-</p>
+        <p n="p292">toris arte depictam. Ex ipso coeno-</p>
+        <p n="p293">bio in adiacentem denique virginis</p>
+        <p n="p294">Laurentanae aediculam nos conferebamus.</p>
+        <pb n="pb295" xml:id="F4v"/>
+        <p n="p296">et imprimis quidem altare castrense</p>
+        <p n="p297">regum Hispaniae solido ex auro</p>
+        <p n="p298">conflatum, inque huius medio Christi</p>
+        <p n="p299">cruci suffixi ac divinae matris</p>
+        <p n="p300">cum filio adoptivo immagines divini</p>
+        <p n="p301">Michaelis angeli Bonarotae</p>
+        <p n="p302">caelo ac toreumate exsculptas ad-</p>
+        <p n="p303">miremur. In conclavi demum alte-</p>
+        <p n="p304">ro praeter vestes etiam ex asbesto seu</p>
+        <p n="p305">lino inconsumptibili vasa sacra pre-</p>
+        <p n="p306">tiosissima, codices aliquot elegantis-</p>
+        <p n="p307">sime pictos, varios iterum stupen-</p>
+        <p n="p308">dosque artis pictoriae partus con-</p>
+        <p n="p309">sideremus, merito quippe oculos</p>
+        <p n="p310">nostros percellit divinissimae matris</p>
+        <p n="p311">illibata conceptio ab omni naevo</p>
+        <p n="p312">etiam pictorio citra controversiam</p>
+        <p n="p313">immunis invicta magni Jordani</p>
+        <p n="p314">manu asserta, aliam deiparae tabulam</p>
+        <p n="p315">magnus ille Mariani vultus arti-</p>
+        <p n="p316">fex Carolus Dulcis pallio obtectam</p>
+        <p n="p317">modestissime finxerat. Praeter</p>
+        <p n="p318">hos Christum a Magis adoratum Ger-</p>
+        <p n="p319">maniae prodigium Durerus, fugam</p>
+        <p n="p320">in Aegyptum abstractum<unclear n="unclear1">Vandicti ius</unclear>
         </p>
-        <p>e cruce suspensum Franckius Bel-</p>
-        <p>ga, et virtutes theologicas ad</p>
-        <p>hanc arborem salutis congregatas</p>
-        <p>Rottenhamerus, Ioannem Baptistam</p>
-        <p>in eremo disserentem Franckius,</p>
-        <p>Ioannem Baptistam cum agno ludentem</p>
-        <p>Leonardus Vincius incredibili omnes</p>
-        <p>artificio produxerant. Lubet</p>
-        <p>his ludos puerorum super glaciem et</p>
-        <p>et Brugeli iocos addere, totamque</p>
-        <p>hanc scenam cum servatore crucifixo</p>
-        <p>Rottenhameri, Scipionis in Hispa-</p>
-        <p>nia de se ipso victoria Franckii</p>
-        <p>et tribus demum Petri Pauli Ru-</p>
-        <p>benii tabellis claudere, quarum pris-</p>
-        <p>(...) in veteri lege<unclear>fiauram</unclear>
+        <p n="p321">e cruce suspensum Franckius Bel-</p>
+        <p n="p322">ga, et virtutes theologicas ad</p>
+        <p n="p323">hanc arborem salutis congregatas</p>
+        <p n="p324">Rottenhamerus, Ioannem Baptistam</p>
+        <p n="p325">in eremo disserentem Franckius,</p>
+        <p n="p326">Ioannem Baptistam cum agno ludentem</p>
+        <p n="p327">Leonardus Vincius incredibili omnes</p>
+        <p n="p328">artificio produxerant. Lubet</p>
+        <p n="p329">his ludos puerorum super glaciem et</p>
+        <p n="p330">et Brugeli iocos addere, totamque</p>
+        <p n="p331">hanc scenam cum servatore crucifixo</p>
+        <p n="p332">Rottenhameri, Scipionis in Hispa-</p>
+        <p n="p333">nia de se ipso victoria Franckii</p>
+        <p n="p334">et tribus demum Petri Pauli Ru-</p>
+        <p n="p335">benii tabellis claudere, quarum pris-</p>
+        <p n="p336">(...) in veteri lege<unclear n="unclear1">fiauram</unclear>
         </p>
-        <gap/>
-        <pb xml:id="F5r"/>
-        <p>altera Dei hominis nativitatem et</p>
-        <p>tertia demum omnium facile princeps Christi</p>
-        <p>cum cruce ad Calvariae montem rap-</p>
-        <p>tati comitatum admirabili prorsus</p>
-        <p>exhibet artificio, ut adeo paupe-</p>
-        <p>rem hanc religiosae simplicitatis</p>
-        <p>casam omnis artificii ac pretiosissimae</p>
-        <p>sacrae suppellectilis pinacothecam</p>
-        <p>merito dicere possimus, neminemque</p>
-        <p>omnino perditi turpis aut expen-</p>
-        <p>sarum incusare, qui etiam longiori</p>
-        <p>itinere huc deflexerit, cum incre-</p>
-        <p>dibilis sit eorum omnium voluptas, quo<add resp="editor">d</add>
+        <gap n="gap337"/>
+        <pb n="pb338" xml:id="F5r"/>
+        <p n="p339">altera Dei hominis nativitatem et</p>
+        <p n="p340">tertia demum omnium facile princeps Christi</p>
+        <p n="p341">cum cruce ad Calvariae montem rap-</p>
+        <p n="p342">tati comitatum admirabili prorsus</p>
+        <p n="p343">exhibet artificio, ut adeo paupe-</p>
+        <p n="p344">rem hanc religiosae simplicitatis</p>
+        <p n="p345">casam omnis artificii ac pretiosissimae</p>
+        <p n="p346">sacrae suppellectilis pinacothecam</p>
+        <p n="p347">merito dicere possimus, neminemque</p>
+        <p n="p348">omnino perditi turpis aut expen-</p>
+        <p n="p349">sarum incusare, qui etiam longiori</p>
+        <p n="p350">itinere huc deflexerit, cum incre-</p>
+        <p n="p351">dibilis sit eorum omnium voluptas, quo<add n="add1" resp="editor">d</add>
         </p>
-        <p>meliori mente et oculo provida illa</p>
-        <p>divini numinis clementia beavit.</p>
-        <p>A<placeName>Clusina</placeName>
+        <p n="p352">meliori mente et oculo provida illa</p>
+        <p n="p353">divini numinis clementia beavit.</p>
+        <p n="p354">A<placeName n="placeName1">Clusina</placeName>
         </p>
-        <gap/>
+        <gap n="gap355"/>
       </div>
     </body>
   </text>

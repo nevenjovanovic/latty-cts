@@ -33,6 +33,25 @@
         <bibl>TLMF, Dip. 162/1</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1586">1586</date>
@@ -57,833 +76,833 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:alessandrini01.latty2574838.latty-lat1:">
-    <body>
-      <div>
-        <head>
-          <name>IULII ALEXANDRINI</name>PROTOPHYSICI CAESAREI PAEDOTROPHIA, SIVE De Puerorum educatione,
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">
+          <name n="name1">IULII ALEXANDRINI</name>PROTOPHYSICI CAESAREI PAEDOTROPHIA, SIVE De Puerorum educatione,
                     Liber ab auctore recognitus. Eiusdem Carmina aliquot alia.</head>
       </div>
-      <div>
-        <pb xml:id="F2r"/>
-        <head>
-          <name>IULII ALEXANDRINI</name>PAEDOTROPHIA SIVE De Puerorum educatione, Liber.AD<name>DIEGUM HURTADUM Mendotium</name>.</head>
-        <lg>
-          <l>Natorum via quae teneros recte educet annos,</l>
-          <l>Prima mihi dicenda Deae: quaque arte tuenda,</l>
-          <l>**diga<note place="foot" xml:id="ftn1" n="1">Non legitur.</note>opis niumium nostrae sit
+      <div n="div2">
+        <pb n="pb1" xml:id="F2r"/>
+        <head n="head2">
+          <name n="name1">IULII ALEXANDRINI</name>PAEDOTROPHIA SIVE De Puerorum educatione, Liber.AD<name n="name2">DIEGUM HURTADUM Mendotium</name>.</head>
+        <lg n="lg3">
+          <l n="l1">Natorum via quae teneros recte educet annos,</l>
+          <l n="l2">Prima mihi dicenda Deae: quaque arte tuenda,</l>
+          <l n="l3">**diga<note n="note1" place="foot" xml:id="ftn1">Non legitur.</note>opis niumium nostrae sit
                 mollior aetas,</l>
-          <l>Mendoti decus Hispanum, cui maxima rerum</l>
-          <l>Actus tractanda dedit molimina Caesar,</l>
-          <l>Regio partae felix iam pacis honore,</l>
-          <l>A qua gemino profert se littore tellus,</l>
-          <l>In placido duras flectis moderamine mentes,</l>
-          <l>Lagnorum medius regum, et secura quietis</l>
-          <l>Funera, per Latium studiorumque invehis artes,</l>
-          <l>An tibi se soli debere fatebitur omnis</l>
-          <l>Musarum Phoebique chorus, quod laeta fugatis</l>
-          <l>Suspice te tandem, susceperit otia bellis,</l>
-          <l>
-            <pb xml:id="F2v"/>Pacatasque colat nulla formidine terras,</l>
-          <l>Et damnosa suis effugerit artibus arma:</l>
-          <l>Sive Itala mavis terra consistere, seu te</l>
-          <l>Magna alio fortuna vocat, sive arduus altos</l>
-          <l>Per titulosque gradusque viam tibi ad aethera pandis.</l>
-          <l>Huc ades, et paulum positis ingentibus orsis,</l>
-          <l>Ipse mihi dexter iam nunc adsiste canenti.</l>
-          <l>Optima cui Divum dono natura tributa,</l>
-          <l>Quum primum abruptis maternam evaserit alvum</l>
-          <l>Nexibus et primis infans vagitibus auras</l>
-          <l>Impulerit, pauco iam tum mihi mollia tange</l>
-          <l>Membra sale, ut durata cutis, siccataque solis,</l>
-          <l>Ventorumque dehinc vires patiatur, et imbres</l>
-          <l>Frigoribus neu sit, neve ulli obnoxia culpae,</l>
-          <l>Plurima quae nostrae officiunt incommoda vitae.</l>
-          <l>Ante quidem molli matris defensa sub alvo,</l>
-          <l>Fotaque visceribus fuerant, tum nescia coeli</l>
-          <l>Corpora: nunc varios possint ut ferre labores,</l>
-          <l>Ventosque pluviasque, aestumque, atque obvia quaeque</l>
-          <l>Tegmine egent multo, teneros ne infesta per artus</l>
-          <l>Frigora eant, late correptaque viscera tentent.</l>
-          <l>Nec taceam tamen hic monita inter ut id quoque prima</l>
-          <l>Sit tibi, densa nimis cutis, aut ne rarior aequo,</l>
-          <l>Utraque accipiat culpa noxam, invia succis</l>
-          <l>Densa nimis, neu rara nimis sit pervia damno,</l>
-          <l>Scilicet hac olim sub conditione ferenda</l>
-          <l>Per variam rerum faciem, ad contraria semper</l>
-          <l>Nascimur (immensus statuit sic Iuppiter) omnes.</l>
-          <l>
-            <pb xml:id="F3r"/>Tum mollis teneros adstringat molliter artus</l>
-          <l>Fascia componatque simul, ne turpia saepe</l>
-          <l>Et distorta ferat, neglecto hoc, corpora, sitque id</l>
-          <l>Impediens operum, et miserae ad ludibria vitae.</l>
-          <l>Sunt qui continuo natos ad flumina portent,</l>
-          <l>Barbaricoque artus ritu per frigora durent.</l>
-          <l>Mos ferus ingenuo, et qui claris artibus, infans</l>
-          <l>Nascitur, ille mihi tepida magis innatet unda:</l>
-          <l>Udoremque omnem, contractaque sordida ponat.</l>
-          <l>Ast alii nato primum praedulcia mellis</l>
-          <l>Pabula dant modicoque iubent dein lacte fovere</l>
-          <l>Bisque die id terve admittunt, haud amplius. Undae</l>
-          <l>Tum tepidae mandant levis innatet, optima quae sit,</l>
-          <l>Et quae pura suo veniat de fonte, nec ullum</l>
-          <l>Sulphuris aut referat nitri insyncera saporem.</l>
-          <l>Nutrice, an matris melius de sanguine alatur,</l>
-          <l>Non dubitandum; eadem hic alimenta ut sentiat infans,</l>
-          <l>Quae iam utero: nihil his proprium magis. Optima talem</l>
-          <l>Quae peperit quoniam merito est natura putanda.</l>
-          <l>Contra multa manent nutricem incommoda, cuius</l>
-          <l>Corpora deformes referunt agrestia mores</l>
-          <l>Saepius, unde annos fingunt in pessima primos,</l>
-          <l>Quae cum lacte ipso postquam semel ebibere infans</l>
-          <l>Caeperit, ah ne sint frustra mihi turpia nullis</l>
-          <l>Auxiliis vellenda, tenax quae negligit error.</l>
-          <l>Quare agite o teneros matres defendite partus,</l>
-          <l>uberibusque ipsae vestris ne pignora vestra</l>
-          <l>Turpe putatore hinc aluisse, atque haec via vobis</l>
-          <l>
-            <pb xml:id="F3v"/>Sit potior quod si impediant nonnulla, deinde</l>
-          <l>Altera nutricem tibi iam quaesisse probandam</l>
-          <l>Cura sit, ac certis vestigasse omnia signis.</l>
-          <l>Illa mihi ante alias placeat, cui certa salubris</l>
-          <l>Corporis indicia adfuerint, nec pingue, macrumve,</l>
-          <l>Nec nimium hoc. Aetas ea, que iam quinque peregit,</l>
-          <l>Nondum octo numerat quinquennia, lactis abunde,</l>
-          <l>Cui magnum pectus, turgentiaque ubera quod si</l>
-          <l>Ante erit haud multo prolem illa enixa virilem,</l>
-          <l>Haec mihi sit puero nutrix: cui deinde negandi</l>
-          <l>Concubitus: saepe attactus memini hos ego menses.</l>
-          <l>Foemineos solitos protrudere, quo sapor omnis</l>
-          <l>Lactis abit: saepe alterius primordia prolis</l>
-          <l>Hinc duci, sibi quae largo de sanguine succum</l>
-          <l>Praeripiat, raptumque ferat quippe intus alendo</l>
-          <l>Degit, nativumque trahens penetralibus altis</l>
-          <l>Ebibit humorem, quum vult, affixa, bibensque</l>
-          <l>De radice sua assidue ceu vescitur arbos.</l>
-          <l>Ille cibi sentit vix quicquam: exuctaque pastus,</l>
-          <l>Ubera. Iam labefacta gerit sine corpore membra.</l>
-          <l>Saepe etiam turpes totum depascere achoras</l>
-          <l>Corpus, foedatamque cutim, foedata videbis</l>
-          <l>Brachia, et insueto pallentia crura colore:</l>
-          <l>Causa latet, sed tu mutata consule nato</l>
-          <l>Nutrice imprimis, lactis cui nulla reprensi</l>
-          <l>Signa, nec apparet vitium spectantibus ullum.</l>
-          <l>Gustatum insolito quod sensu vellicet ora,</l>
-          <l>Offensas petat aut nares male odora facultas,</l>
-          <l>
-            <pb xml:id="F4r"/>Coeruleove virore notae visantur, et ipsum</l>
-          <l>Tenue, tenaxve nimis fuerit, quodve ungue remissum</l>
-          <l>Sistat, perfectum seseque rotundet in orbem.</l>
-          <l>Ceu quondam arentes pluvius cum Iuppiter agros,</l>
-          <l>Aut matutinus flores irrorat Eous,</l>
-          <l>Caule super clari speciem formantur in orbis,</l>
-          <l>Et pellucentes recreant violaria guttae,</l>
-          <l>Hocque potes certis facile depraehendere signis,</l>
-          <l>Sit tenue id crassumque nimis, si forte requiras:</l>
-          <l>Nanque recens mulso, vitreo dein vase coacto,</l>
-          <l>Magna seri superat si vis, heu quam male fluxo</l>
-          <l>Lacte satur puer inde cibi persentiet usum.</l>
-          <l>Nec mihi densa tamen placeat natura, relicti</l>
-          <l>Crassities partem quoties pene occupat omnem.</l>
-          <l>Ne victis alimenta meatibus, inque peditis</l>
-          <l>Dura coqui valido stomachum lentore morentur,</l>
-          <l>Aut etiam nimium ne lactis alibilis usus,</l>
-          <l>Corpora praepingui tendat vitiata sagina.</l>
-          <l>Inter utrunque probo. Quod si tamen id quoque iusto</l>
-          <l>Spissius (ut solitum est) offecerit, ei age lenti</l>
-          <l>Quicquid inest mulso primum resecator aceto,</l>
-          <l>Ventriculique ima vomitor de parte resectum.</l>
-          <l>Assiduo quin ipsa labore exercita nutrix</l>
-          <l>Tempore multum illo pituitae absumpserit, unde</l>
-          <l>Maxima suggeritu melioris copia lactis.</l>
-          <l>Et iuvat apposito crassum nutrimine succum,</l>
-          <l>Intera secuisse gravis Thymbraeque Thymique,</l>
-          <l>Edita praecipue quae misit et extera tellus:</l>
-          <l>
-            <pb xml:id="F4v"/>Hyssopique coma tum quae natalibus herba</l>
-          <l>Clara suis minime hunc radicula deneget usum</l>
-          <l>Quaeque suos ortus testantur origana voce.</l>
-          <l>Contra autem fluido superant quum tenuia lacti</l>
-          <l>Excrementa, seri multo diluta liquore,</l>
-          <l>Suadeo opus magna nutrix ex parte remittat,</l>
-          <l>Cessatrix, dulci et perpotet de fruta succo,</l>
-          <l>Mitiaque adsumat laticis libamina, quaeque</l>
-          <l>Presserit apricis serus vindemitor uvis.</l>
-          <l>Hoc quoque ne casu bene pasti reiice lata</l>
-          <l>Terga suis, fluidum compescere nata cruorem.</l>
-          <l>Ac vero exuccum, privumque liquoribus uber</l>
-          <l>Defectumque suis, multa instaurare potes vi.</l>
-          <l>Quanquam o ne largi nimius medicaminis usus</l>
-          <l>Paulatim inficiat damnati pabula lactis,</l>
-          <l>Ipse probem placido mage quae mihi praedita succo.</l>
-          <l>Haud oberunt dementque macris ieiunia membris:</l>
-          <l>Talis erit radix, sunt talia semina mollus</l>
-          <l>Foeniculi, cytisique simul bene nota potestas:</l>
-          <l>Longior his merito rebus quae destinat usus:</l>
-          <l>Praesertim elixo ptisanae si inconcta cremore,</l>
-          <l>Largiter expansis desorptaque lancibus omnes</l>
-          <l>Irrigui (mora nulla) ferna alimenta per artus</l>
-          <l>Roris, inexbaustis tendantque canalibus uber.</l>
-          <l>Sicut ubi parvus fluviusque et fontibus humor,</l>
-          <l>Suggeritur mediis sicci fervoribus anni.</l>
-          <l>Si pluat, effusis sitientes imbribus herbae</l>
-          <l>Laetantur, passimque fluunt per gramina rivi,</l>
-          <l>
-            <pb xml:id="F5r"/>Sollicitantque novo ripas vaga flumina cursu</l>
-          <l>Credo equidem haud alio depastae gramine caprae</l>
-          <l>Uberibus Iovis educta incunabula quondam,</l>
-          <l>Maxima ubi herbarum Crete, nec vana creatrix,</l>
-          <l>Vestit odoratis plantisque et floribus agros.</l>
-          <l>Quoque magis largo decurrant sanguine rivi,</l>
-          <l>Inque suum facile lac nutrimenta ferantur,</l>
-          <l>Mane diu perfricta iuvant, et vespere frictae</l>
-          <l>Pectoraque scapulaeque simul, thoraxque manusque</l>
-          <l>Possum multa tibi hic lactanti noxia rite</l>
-          <l>Enumerare, nimis vulgo ni nota capessam:</l>
-          <l>Alliaque, et Porri grave virus, et acre Sinapis</l>
-          <l>Urentis semen, mitisque salacia bulbi,</l>
-          <l>Et bulbosa simul tunicatae gramina cepae,</l>
-          <l>Quaeque olim Graii imprimis vetuere medentes,</l>
-          <l>Et procul amorunt Apii nova germina crispo.</l>
-          <l>Scilicet hoc Veneris stimulo succensa libido</l>
-          <l>Saevior incumbit, mentemque insania mutat.</l>
-          <l>Quin et idem lactis largos succidere rivos,</l>
-          <l>Et pressum siccare uber solet, ipsaque eodem</l>
-          <l>Salsa modo officiunt, et acutae nux quoque pinus,</l>
-          <l>Nempe procax, veteris dominae memor usque furoris,</l>
-          <l>Servat adhuc longos arbor monumenta per annos.</l>
-          <l>Hanc olim rapidi Boreas vi turbinis actam</l>
-          <l>Praepositum sibi Pana dolens, coniecit in altos</l>
-          <l>Saxa per et rupes, dumetaque confraga montis</l>
-          <l>Coniectam tellus gremio miserata recepit,</l>
-          <l>Inque sinu fovit, sulvisque accedere iussit.</l>
-          <l>
-            <pb xml:id="F5v"/>Iamque arbor nova Pitys erat, iam corpore toto</l>
-          <l>Mutata induerat formam, tamen una remansit</l>
-          <l>In teneras quae tota nuces lascivia cessit.</l>
-          <l>Has igitur, cumque his Moschi quae nomen odori</l>
-          <l>Naturamque refert, vites, moneoque proboque</l>
-          <l>Illa quidem nucula antiquis incognita quamvis,</l>
-          <l>Usaque tamen summis alias quae viribus omnes</l>
-          <l>Exuperet, quoties nocuum penetralibus haesit</l>
-          <l>Altius ad vivum frigus: vel ubi humida succo</l>
-          <l>Viscera per totum penitus maduere profuso.</l>
-          <l>Praesertim si foeminei fastidia forte</l>
-          <l>Incubuere uteri, convulsaque membra pererrans</l>
-          <l>Parte dolor sistit varia, tum spiritus intus</l>
-          <l>Praeclusus vix iam vitales concipit auras.</l>
-          <l>Unde nova haec nostras inviserit hospita terras</l>
-          <l>Nux primum, nostroque recens se ostenderit orbi,</l>
-          <l>Si referam, nimium Mendoti, hac te quoque longo</l>
-          <l>Parte morer sermone, tuis atque usibus obstem.</l>
-          <l>Terra quidem nobis eadem quae Cinnama mittit,</l>
-          <l>Terra ferax Ebeni, et gratum spirantis Amomi,</l>
-          <l>Dives opum, dives variarum ab origine mercum,</l>
-          <l>Pertulit et magnos optatae hos arboris usus,</l>
-          <l>Unde etiam nostras invictus odoribus uliis:</l>
-          <l>Resque ignota diu Graiis, pervenit ad oras.</l>
-          <l>Tymbachi extremo Senique e littore Moschus:</l>
-          <l>Voce eadem ut Moschi Caryon, sic viribus iisdem.</l>
-          <l>Atque huius diversa tamen perhibetur origo.</l>
-          <l>Nam neque succus is est stillans radicibus ullus,</l>
-          <l>
-            <pb xml:id="F6r"/>Expressusve liquor foliis, collectus at imo</l>
-          <l>Quadrupedis sub ventre cruor, quum plurimus ursit</l>
-          <l>Vere furor primo, tepefactisque ossibus haesit.</l>
-          <l>Incola quem studio excipiat, multoque repensum</l>
-          <l>Exhibeat, tum demum auro, fragrantia gentes</l>
-          <l>Scilicet haud parvo haec fuerat didenda per omnes:</l>
-          <l>Imprimis ingrata olidi qua taedia flatus</l>
-          <l>Discutiantur, et in tenues acceptior auras</l>
-          <l>Exhalatus odor spiret, quod ni acribus inde</l>
-          <l>Tarda Venus stimulis inconcessisque ageretur,</l>
-          <l>Praecipua merito poterat iam dote probari.</l>
-          <l>Nec tamen his solum monitis parere iubebo,</l>
-          <l>Sollicitator et id primum, praeque omnibus unum,</l>
-          <l>Angustas ne crassa vias alimenta retardent</l>
-          <l>Lactis, et obductis haerere tenacia venis</l>
-          <l>Assuescant, eademque suo ne viscera flatu</l>
-          <l>Tensa nimis, tumido aut praecordia murmure vexent:</l>
-          <l>Quo saepe arreptos subito convellier artus,</l>
-          <l>Diversosque trahi vultus, atque ora videbus,</l>
-          <l>Frendentemque modis miris spumescere ribium.</l>
-          <l>Usque adeo assiduo pugnax almonia succo,</l>
-          <l>Exuat ipsa licet faciem perpessa priorem,</l>
-          <l>Paulatim sese affecta in corpuscula large</l>
-          <l>Insinuat tamen, et variis ea tempore formis</l>
-          <l>Vertit agens. Viden’ ut teneri mollissimus agni</l>
-          <l>(Si te forte rei iuvat experientia tantae)</l>
-          <l>Vestitus, praedura abiens in vellera, late</l>
-          <l>Degeneret, pasti hirsutae distenta capellae</l>
-          <l>
-            <pb xml:id="F6v"/>Ubera: contra hoedi crispis tenuissima setis</l>
-          <l>Corpora mollescant, ovium tantum ubere sucto?</l>
-          <l>Sed neque iam setis tortum discrimine parvo,</l>
-          <l>Velius id est, quod et arte neant, netumque magistri</l>
-          <l>Haud variis dedignentur contexere lanis:</l>
-          <l>Quas etiam Milete feras, etiam Appula tellus,</l>
-          <l>Nec non et puero his nonnullos possumus annis,</l>
-          <l>Hoc etiam recte concedere tempore motus.</l>
-          <l>Nam cunis agere hunc poteris, nutricis et ulnis</l>
-          <l>Huc illuc saepe utiliter circum ipse feretur,</l>
-          <l>Saepe levi infantisque dato ad solatia curru</l>
-          <l>Exerce, cui parva etiam subiecta rotarum</l>
-          <l>Aetati ingentes praebere volumina lusus</l>
-          <l>Versa solent tenerae puer intus brachia pandit,</l>
-          <l>Laevibus his spondisque adnixus sustinet, atque huc,</l>
-          <l>Huc celer atque illuc gradiens, perque omnia versans</l>
-          <l>Dat gressus incompositos, et crebra ferendis</l>
-          <l>Omnia per pedibus paulatim assuescit eundo,</l>
-          <l>Officioque suo fundi docet, unde solutus</l>
-          <l>Sponte sua ignotoque brevi se credere passu</l>
-          <l>Audeat, et teneros iam per se exerceat artus.</l>
-          <l>Tu pedibus tamen ante diem puerilia niti</l>
-          <l>Corpora ne sinito: saepe imprudentibus unum</l>
-          <l>Obfuit, invalidique et adhuc prope cerea nacti</l>
-          <l>Ossa pedes, nimiunmque gravi sub pondere pressi</l>
-          <l>Exiliere loco, atque oneri cessere gravati,</l>
-          <l>Crura unde in varias abeunt sinuata figuras.</l>
-          <l>Saepe etiam introrsum spectantia mutuo sese</l>
-          <l>
-            <pb xml:id="F7r"/>Genua terunt, atque implicitos dant turpia gressus.</l>
-          <l>Nec minus et placidos animi tutabere mores,</l>
-          <l>Defensosque via hac teneros ingentibus annos</l>
-          <l>Servaris recte vittis, quae multa negatus</l>
-          <l>Ferre solet nimiusve labor: quare inter utrunque</l>
-          <l>Exercere sat est, nimio ne concita motu</l>
-          <l>Corpora si fuerint, bilem tenuata malignam</l>
-          <l>Experiantur, et in calidos labentia morbos</l>
-          <l>Criminibus dein sint, iraeque obnoxia turpi.</l>
-          <l>Sin nullo innatus motu calor excitus intus</l>
-          <l>Torpeat, infarctis detenta meatibus, inde</l>
-          <l>Tabentes cesset deferre alimenta per artus,</l>
-          <l>Palloremque ferat, varii et genus omne floris,</l>
-          <l>Frigidaque egelidus cruor in praecordia tendat:</l>
-          <l>Segnior unde animi neglectas occupat arces</l>
-          <l>Desidia, atque ignava solent pigrescere corda,</l>
-          <l>Inque vicem affectis vitium transmittere saepe</l>
-          <l>Corporibus, solet hinc animus, male sanaque totam</l>
-          <l>Mens secum vitae trahere in discrimina molem.</l>
-          <l>Hoc metuens, pueri mores et tempora serva</l>
-          <l>Prima, malis defensa istis, vitiosaque certae</l>
-          <l>Dede neci, et vitae fuge blandimenta protervae.</l>
-          <l>Auditu procul esse iube, procul omnia visu</l>
-          <l>Turpia, quaeque animis incustodita latenter</l>
-          <l>Insinuant, tacite seseque capacibus addunt:</l>
-          <l>Terque vias placido primum fallentia vultu</l>
-          <l>Descedunt alte latas: mentem unde venena</l>
-          <l>Non iterum delenda malam infecere, diuque</l>
-          <l>
-            <pb xml:id="F7v"/>Crudescens longa vitium assuetudine vicit:</l>
-          <l>Quae deinde incassum tentes, nec tollere possis,</l>
-          <l>Quum semel effrenos rapuere tenacia mores,</l>
-          <l>Victaque cesserunt lassae retinacula mentis.</l>
-          <l>Ut male quum domitus primum sternax feroxque</l>
-          <l>Secum equitem trahit in praeceps, ac frena recusans</l>
-          <l>Fertur equus, nullis actus per devia habenis.</l>
-          <l>Quumque adeo cuntis in deteriora parata</l>
-          <l>Sit via, quae lato pulsos in tartara calle</l>
-          <l>Seductosque boni specie longe allicit, annis</l>
-          <l>Praecipue natura sequax puerilibus, omne</l>
-          <l>In vitiumque trahi facilis data, et in mala flecti</l>
-          <l>Cerea, quae nullum non dein mansura per aevum,</l>
-          <l>Dedecorent miseram scelere infoelicia vitam.</l>
-          <l>Hinc mala quum laesi primum crudescere labes,</l>
-          <l>Possessique animi coepit, iamque altius acta</l>
-          <l>Dira lues, capta victix dominatur in arce,</l>
-          <l>In male defensos latis hostilia muros</l>
-          <l>Admisit subito, atque ultro vocat agmina portis,</l>
-          <l>perque oculos naresque simul, perque ora, per aures,</l>
-          <l>Noxia prorumpunt in apertas crimina sedes,</l>
-          <l>Erroresque, iraeque, malusque libidine luxus.</l>
-          <l>Quodque magis doleas, minus et fateare ferendum</l>
-          <l>Nos adeo nos haec teneros in turpia saepe</l>
-          <l>Praecipites patres damus atque impellimus annos.</l>
-          <l>Vidi ego iam cui prima inter cunabula nati</l>
-          <l>(Tantum error spretique potest inscitia recti)</l>
-          <l>Iam tum ingens teneram instuere ad deformia linguam</l>
-          <l>
-            <pb xml:id="F8r"/>Cura erat, inque homines pariter convitia cunctos</l>
-          <l>Hinc facere, inque deos polluto parvulus ore,</l>
-          <l>Et male moratam temerare libidine mentem,</l>
-          <l>Verbaque cum factis miscere inhonesta prophanis.</l>
-          <l>Nec requies, nulla donec pietate parentes</l>
-          <l>Principio dictis terrere minacibus ipsos</l>
-          <l>Coepit, et in miseros fanda atque infanda precari.</l>
-          <l>Mox et in omne nefas, vitiumque exarsit in omne,</l>
-          <l>Et potuit saevo latus ense haurire paternum.</l>
-          <l>Tunc semel effrenis corruptus luxus habenis,</l>
-          <l>Inque sacros Musis quondam Phoeboque penates</l>
-          <l>Alea, et argutae meretricum hostiliter artes</l>
-          <l>Invectae late exitium stragemque dedere.</l>
-          <l>Quippe eadem patris haec quondam introducta sub ipsis</l>
-          <l>Flagitia imperiis, eademque exempla secutus</l>
-          <l>Rettulit, atque omni tamen ante haud pervia culpae,</l>
-          <l>Criminibus late patuere hinc hostia cunctis.</l>
-          <l>Quod nisi et assidua vitia insectabere cura,</l>
-          <l>Et teneros flectes annos, et, dum licet, omni</l>
-          <l>Componens animum studio, in meliusque vocabis,</l>
-          <l>Ne seris posthac spera convellere ab annis,</l>
-          <l>Aut turpes delere notas te posse, tenaci</l>
-          <l>Quas animo semel ante admissus inusserit error.</l>
-          <l>Hanc etiam saepe ob causam diuturna videto</l>
-          <l>Ploratu puer assiduo ne tempora ducat,</l>
-          <l>Ilia neu longis singultibus interrumpat,</l>
-          <l>Unde ferox captam sensim, iracundaque mentem.</l>
-          <l>Vis rapit, atque altam turbat male sana quietem.</l>
-          <l>
-            <pb xml:id="F8v"/>Nec fletus manifesta tamen neque sola videtur</l>
-          <l>Causa rei, saepe exiguus latitansque feroci</l>
-          <l>Dente pulex artus et cuspide fixit acuta,</l>
-          <l>Pollutoque corys surrepens foetidus ore</l>
-          <l>Vellicat, et duros acuens in corpore morsus</l>
-          <l>Exercet, saepe immundae fastidia sordis</l>
-          <l>Infestant, exestque illotus corpora sudor:</l>
-          <l>Quae simul atque alia ingenti speculabere cura,</l>
-          <l>Si tibi sint nati studia haud postrema salutis.</l>
-          <l>Tempore nec longe hinc multo labor ingruit alter,</l>
-          <l>Haud minor, infesti gravidis quum rumpere tentant</l>
-          <l>Gingivis, atque ora gravi convulsa dolore</l>
-          <l>Exacuunt dentes, tu pingui hos munere primum</l>
-          <l>Cortis avis, molli et leporis lenire cerebro</l>
-          <l>Ne dubita, summum dein quum caput exerit, acres</l>
-          <l>Densque ciet surgens stimulos, avidosque coegit</l>
-          <l>Admotis puerum digitis infigere morsus,</l>
-          <l>Mella una, et pinguem lactis coniunge saporem,</l>
-          <l>Osque fove iunctis. Variae simul iridis hosce</l>
-          <l>Tersa ante haud multum, radix siccatur ad usus.</l>
-          <l>Iamque aliquis grata haec quaesitum in munera puro</l>
-          <l>Coralium argento, fulvove infibulato auro,</l>
-          <l>Materiaque lupi dentes includit eadem,</l>
-          <l>Donaque suspendit puerili pendula collo,</l>
-          <l>Quae morsu puer usque premat, quibus ora fatiget,</l>
-          <l>Dens unde attritu crebro citus exit, et alte</l>
-          <l>Defixum firmo protuberat ordine vallum.</l>
-          <l>Noxia sic etiam magnos animalia praestant,</l>
-          <l>
-            <pb xml:id="F9r"/>Praecipuosque aequis naturae legibus usus:</l>
-          <l>Martius ipse ingens terror lupus armentorum</l>
-          <l>Parte sui haud minima iuvat, intestina labores</l>
-          <l>Pota graves solvunt, medium quum tormina ventrem</l>
-          <l>Discruciant, aluumque dolor ceu perforat altus,</l>
-          <l>Et distenta gemunt tumido praecordia flatu.</l>
-          <l>Non aliter quam contorto transfossa terebro,</l>
-          <l>Inde minutatim late fumantibus extis</l>
-          <l>Exemptum iecur exiccant, ac pervia nulli</l>
-          <l>Per tabulata locant Phoebo, puroque recondunt</l>
-          <l>Ter quater elotum rutilantis munere Bacchi.</l>
-          <l>Sanguifica hoc abiens saepe atque amissa facultas,</l>
-          <l>Aut vitiata redit, revocatque exterrita vires.</l>
-          <l>Quid memorem gelidi concreta ut frigora coeli,</l>
-          <l>Saevasque exuviis hyemes Germania vitet,</l>
-          <l>Huius, et hoc densos munimine ut arceat imbres?</l>
-          <l>Aut ut vipeream medicus carnem excoquat usus</l>
-          <l>Innumeras contra pestes, et tristia quaeque:</l>
-          <l>Noxiaque ut quondam nunc saevum animalia virus</l>
-          <l>Dediscant, laetumque negent oblita nocendi,</l>
-          <l>Auxiliumque ferant pulsis vitale venenis?</l>
-          <l>Quippe Deum sator immensi quo tempore primum</l>
-          <l>Currere iter, quam nunc melius, fulgentia iussit</l>
-          <l>Astra, recens digesta poli, commissaque nostri,</l>
-          <l>Atque rudis cessit Diis cura minoribus orbis,</l>
-          <l>Multa mali viguisse nihil per saecula ducta,</l>
-          <l>Crediderim nuper melioris origine mundi</l>
-          <l>Semine ab aethereo, et mire concordibus astris,</l>
-          <l>
-            <pb xml:id="F9v"/>Effusa, unde deum gremio bona, misaque grato</l>
-          <l>Munere coelestum laetae dona aurea pacis,</l>
-          <l>Visaque per vultu terras Astraea benigno,</l>
-          <l>Astraeaeque soror, virtusque, aequumque, bonumque,</l>
-          <l>Et syncera fides, et nescia fallere quenquam</l>
-          <l>Simplicitas, et purus amor, pietasque pudorque</l>
-          <l>Omniaque haec firmo retines concordia nexu.</l>
-          <l>Tempore nec iam illo fraudi, scelerive, dolove,</l>
-          <l>Non locus insidiis ullus, sed ubi omnibus aequa</l>
-          <l>In commune datis lege, irrequietus habendi</l>
-          <l>Nullus amor, nec dum propriis vesana libido</l>
-          <l>Praecipites scelus in furialibus egerat ausis.</l>
-          <l>Cuncta videbantur claro descendere coelo,</l>
-          <l>Haud parca dederat iussu quae Parca Deorum</l>
-          <l>Dona manu, rerumque ferax non falsa bonarum</l>
-          <l>Ulla nec aerios tractus tunc semina morbi</l>
-          <l>Infecere, luesve natantibus ingruit ulla,</l>
-          <l>Omnia perque ipsas duxere animalia terras,</l>
-          <l>Intactos sine labe annos, serusque senectam</l>
-          <l>Non nisi longinque sensit post tempora fati</l>
-          <l>Natus homo, semper membrorum atque integer aevi.</l>
-          <l>Sponte etiam foetu tellus quem maxima largo</l>
-          <l>Ediderat, victum facile decerpsit inemptum,</l>
-          <l>Perpetuo vernans tellus, atque ubere laeta,</l>
-          <l>Mortali nondum cura irritata procaci,</l>
-          <l>Aut hominum nimis imperium perpessa superbum,</l>
-          <l>Iussaque et exactum violento foenore pignus.</l>
-          <l>Scilicet his offensa malis, temerataque rerum</l>
-          <l>
-            <pb xml:id="F10r"/>Iura dolens, scelus ac ritus pertaesa nefandos,</l>
-          <l>Paulatim avertit rebus mentem horrida nostris,</l>
-          <l>Insidiasque exosa truces, queis saepe petita,</l>
-          <l>Intima convelli sensit praecordia motu:</l>
-          <l>Quaerendis inhiant opibus pars maxima, postquam</l>
-          <l>Et lacerae infodiunt rimanturque abdita terrae</l>
-          <l>Principio duro iussit quaesita labore</l>
-          <l>Pabula sollicitis hominum succrescere curis,</l>
-          <l>Et nimiis modo frigoribus contracta geluque</l>
-          <l>Sole modo et siccis exusta caloribus arva</l>
-          <l>Fallere depositae male credita semina frugis.</l>
-          <l>Mox saevum effudit vitiata in gramina virus.</l>
-          <l>Nam primum vitae tantum auxiliaria nostrae,</l>
-          <l>Nullaque non fuerant vitalibus oblita succis,</l>
-          <l>Multaque magnarum iussit saevire ferarum</l>
-          <l>Agmina, vipereosque haud lento vulnere morsus</l>
-          <l>Laetales inferre ictus, passimque per agros</l>
-          <l>Noxia difessit discrimine toxica nullo,</l>
-          <l>Fallere quae incautos saepe indiscreta legentes,</l>
-          <l>Laetalem et possent ferre improvisa soporem.</l>
-          <l>Atque haec iam rebus nostris inimica rependit,</l>
-          <l>Non dum illis tamen usque adeo in turpissima lapsis,</l>
-          <l>Forsitan et grave tempus erit, quum ferrea plusquam</l>
-          <l>Saecula (Dii precor hoc rebus serum adsit ut omen)</l>
-          <l>Convulso in peius recident hinc cardine rerum,</l>
-          <l>Saevaque tum nulla prorsus pietate noverca.</l>
-          <l>Monstra feret tantum tellus, atque atra venena.</l>
-          <l>Ipse etiam Sol conversas (quis crederet unquam?)</l>
-          <l>
-            <pb xml:id="F10v"/>Retro aget: atque actas, qua nunc via nulla, quadrigas</l>
-          <l>Ducet in oppositum variis ambagibus orbem,</l>
-          <l>Ac nostras lata obducet caligine terras:</l>
-          <l>Ast aliis nitidum ostendet iubar, arvaque longa</l>
-          <l>Canicie inculta, et rigidis horrentia glebis,</l>
-          <l>Induet in varios foecundo semine foetus.</l>
-          <l>Sed nos interea tenui, pars proxima coepti</l>
-          <l>Quae superat nostri, Musa hinc exorsa sequamur.</l>
-          <l>Est etiam tenera imprimis aetatula saevum,</l>
-          <l>Quo saepe afficitur, morbi genus oscula putri</l>
-          <l>Ulcere foeda madent, varii maculosa colore</l>
-          <l>Quae succi haud uno inficiant, deterrima, saevi,</l>
-          <l>Quaeque ferat neglecta cito discrimina laeti,</l>
-          <l>Vicus ubi crusta ceu tectum duruit, atra,</l>
-          <l>Est facies. Contusa malum rosa tusa, coercet</l>
-          <l>Myrrha, et Corycii mittunt quae munera colles</l>
-          <l>Laeta Croci, duroque leves de robore gallae,</l>
-          <l>Turaque praedulci tum punica grata sapore,</l>
-          <l>Punica quae primo mala irremeabile gustu</l>
-          <l>Raptae iter ad superos pene effecere maritae</l>
-          <l>Ipsa sibi partim quae sint satis, addita partim</l>
-          <l>Mella iuvent, dulci puero impositura sapore.</l>
-          <l>At scabra quoties femora intertrigine fervent.</l>
-          <l>Sparge rosa, arentique fove medicata Cypero,</l>
-          <l>Nec faciet non et quicquam cythereia Myrtus.</l>
-          <l>Illam autem, geminos pestis quae luminis usus</l>
-          <l>Sincipitisque trahit superam infestissima partem,</l>
-          <l>Decolor unde artus macies rapit, ignea quippe</l>
-          <l>
-            <pb xml:id="F11r"/>Aestuat, accensoque incumbit causa cerebro,</l>
-          <l>Tinctum ovi tollit rubro, mersumque subinde,</l>
-          <l>Tergeminumque plicis linum, solemque secutae</l>
-          <l>Nubila per folium, purum perque aethera plantae,</l>
-          <l>Strychnaque tabifici vires domitura doloris.</l>
-          <l>Interea at larga cerebri de sedibus aures</l>
-          <l>Sorde fluunt, latisque sagax purgamina mittit,</l>
-          <l>Noxia quaeque foras natura canalibus acta.</l>
-          <l>Tu tantum siccare velis, sectumque potenter</l>
-          <l>Virus odorato generosoque elue Baccho,</l>
-          <l>Qualem hospes profert annoso Rheticus aevo,</l>
-          <l>Collibus aut Tremenus qualem transmittit apricis.</l>
-          <l>Tum madido bibulas superiniice vellere lanas,</l>
-          <l>Dilutum Crocon epotas, et mella merumque.</l>
-          <l>Nec iam sollicitum (superest quae maxima) non te</l>
-          <l>Cura dehinc teneat, triplici discrimine sontes</l>
-          <l>Viscera quum morsu late rimantur acuto,</l>
-          <l>Putrentum, vermes, genus, et penetralibus acto</l>
-          <l>Caeca lacessitis infigunt vulnera dente.</l>
-          <l>Vulnificoque cient non segniter exta dolore:</l>
-          <l>Continuo tantumque mali, intestinaque succo</l>
-          <l>Pulsa lues (tanta est discordia) cessit amaro.</l>
-          <l>Tu modo melliflui una aliquid, quod fraude potentem</l>
-          <l>Celet amarorem praebe, sed fraude salubri</l>
-          <l>Incertique refert certum glycypicron amoris:</l>
-          <l>Taurinoque simul medium super illine ventris</l>
-          <l>Felle, Iovis quondam iussu Phoebeia qua post</l>
-          <l>Corpora scissa manus rumpentia reppulit extra</l>
-          <l>
-            <pb xml:id="F11v"/>Exta, et proh dolor, et sceleris nova crimina nostri.</l>
-          <l>Dividuos nec parte dedit nec viribus aequis,</l>
-          <l>Semihominesque dehinc terris errare notatos.</l>
-          <l>Sunt quoque nequaquam hac nobis in parte tacenda,</l>
-          <l>Parva ea, et ex parva trans ad nos vecta seripho</l>
-          <l>Exigua, ingentes praestent quae sapius usus,</l>
-          <l>Semina certa mali requies, tenuata sed ante</l>
-          <l>Igne remollescunt liquefacto sacchara, succo,</l>
-          <l>Tegmine quae parvo, et tenui circundata crusta</l>
-          <l>Ingratum occultent, latita quicunque saporem.</l>
-          <l>His et blanditias adhibent, multoque iacentis</l>
-          <l>Auro onerant stratum, festis cunasque corollis,</l>
-          <l>Tinnulaque applausu quatiunt circum aera sonoro,</l>
-          <l>et placidis varia admiscent festivaque dictis,</l>
-          <l>Quales Luciolo cecinit Ioviania nato</l>
-          <l>Naeniolas albis Lisa insidiosa papillis.</l>
-          <l>Usque adeo contra interdum stat nequiter aetas.</l>
-          <l>Sed quid opus? Cave Iopaean, iam vicimus, ipse</l>
-          <l>Ipse ultro sumpsit puer, atque expostulat ultro.</l>
-          <l>Inde autem magno tenues sese agmine fundunt</l>
-          <l>Ascarides, Vermisque teres notissima pestis,</l>
-          <l>Quaeque tulisse queat Colocynte semina credi:</l>
-          <l>Non iam semen erant, tractu sed plurima lato</l>
-          <l>(Si qua fides visis) praelongua hastilia saepe</l>
-          <l>Tinea quae vincat, quantis nec Noricus hostis</l>
-          <l>Armatur, nec pila gerunt maiora Cherusci</l>
-          <l>Ecce autem interdum cuncta inter laeta repente</l>
-          <l>Plus solito vagire puer, multoque labore</l>
-          <l>
-            <pb xml:id="F12r"/>Irrequietus agi, nec iam lenire potestas:</l>
-          <l>Carmina non cantata iuvant, non pulsa sonore</l>
-          <l>Tympana, non teneras ori inservisse papillas:</l>
-          <l>Tum vero distorta dolore repente furenti</l>
-          <l>Ora trahi, lucisque simul torquerier orbes,</l>
-          <l>Convulsique rapi tensis ceu funibus artus,</l>
-          <l>Et spumis agitata tumere albentibus ora.</l>
-          <l>Ergo agite una omnes fesso quacunque puello</l>
-          <l>Succurramus et imprimis de sesamo olivum</l>
-          <l>Iam membris adhibere calens, iam ducere corpus</l>
-          <l>Tempus, et hoc rigidos pingui simul oblinere artus,</l>
-          <l>Et virosa simul subitum depromere ad usum</l>
-          <l>Castorea, et nares, et inungere tempora Ruta.</l>
-          <l>Contra etiam si quid teneros male fascinat annos,</l>
-          <l>Aut quicquid tale est, factura, et iam omnis abiisse</l>
-          <l>Visa procul, totoque recesse e corpore noxa,</l>
-          <l>Improvisa redit: veluti sub nocte silenti</l>
-          <l>Quum ferus insidias arci molitur, et altis</l>
-          <l>Depulsus fremit a muris, rursusque pererrans</l>
-          <l>Aggreditur, rursusque fugit praedator abactus,</l>
-          <l>Talis euntis ea est morbi ac redeuntis imago.</l>
-          <l>Tu vero ne cessa unquam, semperque furentis</l>
-          <l>Qua vi cunque potes validis insultibus obsta:</l>
-          <l>Excubias age, et infestum preme sedulus hostem.</l>
-          <l>Auxiliis quod si hinc uti maioribus audes,</l>
-          <l>Nec quicquam terrere minus quo fortia tentes.</l>
-          <l>Iam vires Vulcane tuas arcessere tempus:</l>
-          <l>Ergo qua cervix capiti committitur, et qua</l>
-          <l>
-            <pb xml:id="F12v"/>Exoriens sese nervorum pandit origo,</l>
-          <l>Haec candens in parte chalybs, aut si liber aurum</l>
-          <l>Imprimitur, procul hinc fratres, procul este parentes,</l>
-          <l>Aut si quem pietas prohibet, quo pressior usque</l>
-          <l>Arte manus docta locus uritur, actaque multo</l>
-          <l>Igne cava abscedat supposto particula osse,</l>
-          <l>Et nimiis sic diffluxos humoribus artus</l>
-          <l>Contrahat ignea vis, solidoque ita robore firmet.</l>
-          <l>Sunt quibus ipsa magis placeant, quae mitia tanti</l>
-          <l>Paulatim causasque mali viresque retundant,</l>
-          <l>Atque ita in hos multim sumunt medicaminis, usus.</l>
-          <l>Quod grati imprimis Moschi de nomine fertur.</l>
-          <l>Nec solet huc tardi partem tosta ungula aselli</l>
-          <l>Non magnam conferre satis, cui deinde virentes</l>
-          <l>Adiiciunt semper frangi facilesque Smaragdos</l>
-          <l>Candidaque et rubro melius spectata colore,</l>
-          <l>Utraque viso autem durata corallia coelo,</l>
-          <l>Quique suis laetus iam prodiit unio conchis,</l>
-          <l>Huc et opem collata ferunt absinthia parvo</l>
-          <l>Semine non parvam, minima at de Cyclade dicta,</l>
-          <l>Sive ea Santonici, seu miserit Appula tellus:</l>
-          <l>Quaeritur et Rutae tollat quod flamina semen:</l>
-          <l>Et capiti minime nocitu a Melanthia, quaeque</l>
-          <l>Una malum saepe est nume o depellere sueta,</l>
-          <l>Paeonia, insignis servatrix nominis ex re,</l>
-          <l>Semineque et radice valens aeque herba potenti.</l>
-          <l>Virgienaque exculta manu Sampsuchus, et usque</l>
-          <l>Dictaea repetens mollis Dictamnus ab Idu,</l>
-          <l>
-            <pb xml:id="F13r"/>Moschusque et Moschi Caryon, sed maior ut huius,</l>
-          <l>Alterius sic pensa minor pars additur: et quod,</l>
-          <l>Extremis mittunt Selachi de finibus Ambar.</l>
-          <l>Largior ast Onychis, tum cornu copia cervi</l>
-          <l>Coniicitur, tenui limae quod segmine crevit.</l>
-          <l>Hisque diu mollus tunsis in pollinis usum,</l>
-          <l>Omnibus admiscetur, quo nil tenuius aurum,</l>
-          <l>Nil unquam mira fuerit deductius arte,</l>
-          <l>Non liber arboreo late sub cortice cretus,</l>
-          <l>Niliacae philyra aut longe protenta papyri,</l>
-          <l>Non membrana ullos tenuis quae vestiat artus,</l>
-          <l>Non aliud, si quod solers interlinit usus.</l>
-          <l>Iamque tribus puer ingressus natalibus annos,</l>
-          <l>Paulatim aetatem profert, iam frangere primum,</l>
-          <l>Dentibus acceptam discit primoribus escam,</l>
-          <l>Assuescitque cibo, quem doctae saepe fovere</l>
-          <l>Nutrices prius ore solent, praemansaque reddunt</l>
-          <l>Ore ori apposito incundo pabula lusu,</l>
-          <l>Sive ita fracta minus teneros, confectaque dentes</l>
-          <l>Esca ferit, seu nativo medicata calore</l>
-          <l>Ocyus edomito, praebet nutrimina succo.</l>
-          <l>Saepe etiam pingui componunt corpus olivo,</l>
-          <l>Nulla cibi gravis incumbit quum sarcina crudi,</l>
-          <l>Visceribus, solioque iubent innare salubri</l>
-          <l>Dulcis aeque vel cum calido circumfluus aer</l>
-          <l>Aestuat, et nocuo fervescunt sydere rura,</l>
-          <l>Corpora securi mandant nudata fluento,</l>
-          <l>Herbososque lacus, et lucida stagna frequentant:</l>
-          <l>
-            <pb xml:id="F13v"/>Sicubi fontani subter crescentibus undis</l>
-          <l>Eiaculantur aquas rivi, scatebrisque solutae</l>
-          <l>Irriguis superant venae, tellure remissus</l>
-          <l>Unde cavas humor solitus complere lacunas.</l>
-          <l>Sic quoque sponte sua morem hunc armenta secuta.</l>
-          <l>Fluminibus gaudent placidis, et laeta per undas</l>
-          <l>Colludunt late liquidas, mox corpora lotis</l>
-          <l>Sordibus aestivo sub sole nitentia siccant.</l>
-          <l>At non is Scythiae, diro qua frigore septa</l>
-          <l>Horridaque et multum pulsata rigentibus auris,</l>
-          <l>Arva colunt, mos est, illic ante omnia saevo</l>
-          <l>Membra gelu, natosque recens fluvialibus undis</l>
-          <l>Immersos foetus inque aestum ac frigora durant</l>
-          <l>Stridula candentis veluti quum lamina ferri,</l>
-          <l>Tincta lacu gemit, artificis quae forcipe versa,</l>
-          <l>Sumit opem validam, gelidis et robur ab undis.</l>
-          <l>Quippe aliud genus hoc hominum deserta ferarum</l>
-          <l>More inter facile qui vitam, et inhospita ducant,</l>
-          <l>Securi egelidi ferat inclementia coeli</l>
-          <l>Quas tempestates, densus ne in nubibus aer</l>
-          <l>Riphaeis glacies ventis, et cana nivosis</l>
-          <l>Iuppiter assidue pulset serus arva pruinis.</l>
-          <l>Tanta cutis duratae animo fiducia sedit.</l>
-          <l>Illic saepe etiam solida concretus ad imum</l>
-          <l>Oceanus (mirum) crusta, sulcataque quondam</l>
-          <l>Aequora remigio, paulisque natata carinis,</l>
-          <l>Plaustra ferunt, tractasque rotas, urisque iugatis</l>
-          <l>Stridentes, magno ducunt sub pondere currus</l>
-          <l>
-            <pb xml:id="F14r"/>Nec minus immenso laetam super aequore nacti</l>
-          <l>Planitiem, saevus quoties certamina Mavors</l>
-          <l>Suscitat, infestis inter se praelia miscent</l>
-          <l>Agminibus, latusque equites fert campus aquarum</l>
-          <l>Et ferrata cavo pulsat pontum vungula cornu,</l>
-          <l>Numina quem pelagi sonitum mirata, queruntur</l>
-          <l>Hac quoque confuso rerum parte ordine pactam</l>
-          <l>Turbari antiquo naturae foedere legem.</l>
-          <l>Ergo hanc agricola incultus, magnique colonus</l>
-          <l>Ruris agant vitam et duris densata ferendis</l>
-          <l>Frigoribusque aestuque cutis messoribus apte</l>
-          <l>Conveniat, brutis fortasse animantibus usus</l>
-          <l>Unde sit arctoum populisque colentibus axem</l>
-          <l>Rectius at quanto vitae spiracula ad usum,</l>
-          <l>Nec laxata nimis venientique obvia noxae,</l>
-          <l>Nec nocuos serves nimis impedientia succos,</l>
-          <l>Hoc dulcis facile solium undae, corporaque una</l>
-          <l>Augusta praestat specie spectentur ut aucta.</l>
-          <l>Quum vero studiorum animum ad praecepta capace</l>
-          <l>Formabis ferulaeque manum iam subtrahet, ipsa</l>
-          <l>Hac aetate puer morem haud ita saepe lavandi</l>
-          <l>Rectius insistes, facili corpusque palaestra</l>
-          <l>Tum sat erit movisse, cibis quam vescitur ante</l>
-          <l>Idque modum supra haud facito, ne corporis actus</l>
-          <l>Incrementa labor compescat longius aequo.</l>
-          <l>Nec labor aetati huic nimius: nec bacchica primis</l>
-          <l>Munera conveniunt annis, nullum illa levamen,</l>
-          <l>Et multum praestant noxae, contra optima fontis</l>
-          <l>
-            <pb xml:id="F14v"/>Unda iuvat puri, sacro quem numine praesens</l>
-          <l>Protegat, et noxa Nymphe tutetur ab omni,</l>
-          <l>Naiadum medicas aliqua artes docta, salubres</l>
-          <l>Lucida quae potus. Haustuque ministret aquarum</l>
-          <l>Vestibulum Solis primos ea pandit ad ortus.</l>
-          <l>Auroraeque sinus venienti porrigit ultro</l>
-          <l>Laeta suos, medioque occurrens excipit alveo:</l>
-          <l>Nec sinit immundo sordere cubilia coeno,</l>
-          <l>Obductasque fimo sedes, et inertibus pluis.</l>
-          <l>At teneros circum flores alit, intus aquarum</l>
-          <l>Copia praedulcis, placido quae exercita cursu</l>
-          <l>Profluit, et nitidos voluens terit usque lapillos,</l>
-          <l>Somniferosque ciet tellure emissa susurros.</l>
-          <l>Talem Athesis rapidi prope lata flenta, Tridenti</l>
-          <l>Ora bibit, sanctum cuncti quod numen aquarum</l>
-          <l>Indigenae vocitant talis, maioris at undae</l>
-          <l>Aiuola, qua placidum, culta inter pinguia, late</l>
-          <l>Benacus caput attollit pater, altaque multo</l>
-          <l>Saxa per acta sono, venientis flumina Sarcae,</l>
-          <l>Aspicit, et laetis defessam amplectitur ulnis.</l>
-          <l>Sed neque tam liquidis quaesita e fontibus unda,</l>
-          <l>Nec tam post habitus recte baccheius humor:</l>
-          <l>Quam iuvat effraenos domina ratione, iugales</l>
-          <l>Corripuisse, vagis nulla expatientur habenis</l>
-          <l>Ne furor, aut gravis ira via, aut vesana libido,</l>
-          <l>Quaeque procax aluit capitis mala bellua multi,</l>
-          <l>Sive annos rebus reliquos formabit agendis,</l>
-          <l>Curae sequens, seu Turgicenas armabit in hostes</l>
-          <l>
-            <pb xml:id="F15r"/>Membra lacertosis, dura exudanda palaestra,</l>
-          <l>Sive alet, et validos explebit viribus artus,</l>
-          <l>Seu vigilis potius tenuabit cura Minervae.</l>
-          <l>Iccirco bigis excelsa auriga regendis</l>
-          <l>Sede sedet, fraenoque iugum moderatur: et arte</l>
-          <l>Ni regat, arrepto sine more per avia curru</l>
-          <l>Quippe ferantur equi, dominatoremque citato</l>
-          <l>Impete agant, via praecipiti qua proxima lapsu</l>
-          <l>Sese agit, et lato patet in Styga tristis hiatu,</l>
-          <l>Unde mali iam nunc etiam diffusa per orbem</l>
-          <l>Semina, pacatisque insedit rebus Erinnys,</l>
-          <l>Anguicomumque Megaera caput tulit altius, ex quo</l>
-          <l>Bellipotens renovat Mavors incudibus arma,</l>
-          <l>Vinculaque et nodos a tergo vicit ahenos,</l>
-          <l>Ipsa una varios miscet Bellona tumultus,</l>
-          <l>Fasque nefasque ciet, motumque exterritat orbem</l>
-          <l>Terror agens, ferus in medio deus, undique rerum</l>
-          <l>Fundamenta quatit, stimulis Discordia caecis</l>
-          <l>Circum accensa fremit, Furiaeque, Iraeque, Minaeque</l>
-          <l>Insidiaeque et torva tuens Violentia vultu,</l>
-          <l>Raucaque terrificis sonuerunt classica bombis,</l>
-          <l>Et trepida occinuit ferale insania carmen,</l>
-          <l>Maxima quo concussa gemit sonitu, actaque tellus</l>
-          <l>Qua pater, occiduas Phoebi nascentis ad oras,</l>
-          <l>Limes et a medio tardum petit axe Booten,</l>
-          <l>Extemplo iam pax abiit, iam Martius ardor</l>
-          <l>Cuncta tenet, ruit extremo de littore Iberus,</l>
-          <l>Assidua miles iam belli exercitus arte,</l>
-          <l>
-            <pb xml:id="F15v"/>Celsaque nubiferae perfringit claustra Pyrenes</l>
-          <l>Parte alia ingentes fert dira in praelia vires</l>
-          <l>Ipsa ingens, belloque minax stat Gallia contra</l>
-          <l>Praedurum suffulta latus: simul Itala Caesar,</l>
-          <l>Arma movens, gelidos traducit ad usque Triones,</l>
-          <l>Interea latis sequitur Germanica pubes</l>
-          <l>Bello excita agris, trifluique una accola Rheni,</l>
-          <l>Et quos extremi Morinos salis alluit unda,</l>
-          <l>Iamque iugi patiens Teucthrus mixtique Sicambri,</l>
-          <l>Usipetesque ubiique alioque ex orbe Britanni,</l>
-          <l>Undique turbato violenter foedere, reges</l>
-          <l>Inter se infestis gaudent concurrere signis.</l>
-          <l>Ergo novo rursus madefiet sanguine tellus,</l>
-          <l>Quadrupedumque effossa bibet socium ungue cruorem</l>
-          <l>Scilicet huc furor, huc ultrices verbere dirae</l>
-          <l>Praecipites agitant gentes, saevitque flagello</l>
-          <l>Tisiphone in mediis: Quo vos, quo caecus adegit</l>
-          <l>Mutua, caedis amor, versos in vulnera tandem?</l>
-          <l>Quin potius iunctis simul hinc concordibus armis,</l>
-          <l>Itis eo late a tergo, qua Martius anguis</l>
-          <l>Cuncta agit, et tumidus consurgit quantus Orion.</l>
-          <l>Ille quidem nigro suffusus membra veneno</l>
-          <l>Cristatum caput ecce tulit, victorque superbit,</l>
-          <l>Littoribusque adnans circum perque omnibus, Istri</l>
-          <l>Nititur undivagi fontem superare sonantem.</l>
-          <l>Et iam iamque tenet, totaque adlabitur aluo.</l>
-          <l>Hunc nisi sacratis non est compescere signis.</l>
-          <l>E alix depulsi, foelix quem tanta pericli</l>
-          <l>
-            <pb xml:id="F16r"/>Fama, triumphatique manet nova gloria monstri.</l>
-          <l>Dii, quorum sacris festas solennibus aras</l>
-          <l>Instruimus laeti, celebresque novamus honores,</l>
-          <l>Dii patrii prohibete nefas, castaque, verendum</l>
-          <l>Relligione malum, et terrorum avertite tantum,</l>
-          <l>In Lelegasque, Scythasque, inimcaque nomina Thracas,</l>
-          <l>Bactra ultra, Gangemque ultra, Tanaimque Tigrimque</l>
-          <l>Irarum satis, o scelerisque, necisque, superque est</l>
-          <l>Saevitum inter se satis, et periuria multa</l>
-          <l>Iam pridem luimus, commissaque crimina caede.</l>
-          <l>Vidimus insolitasque hyemes, insuetaque coeli</l>
-          <l>Frigora, defectosque suis male frugibus agros,</l>
-          <l>Moeniaque ingenti terrae labentia motu,</l>
-          <l>Et fusis solito graviora tonitrua nimbis.</l>
-          <l>Prodigiosa diu tulimus, morbosque, famemque</l>
-          <l>Diram, insultantisque minas Mavortis inulti,</l>
-          <l>Et tanta exhaustos per totque pericula casus.</l>
-          <l>FINIS</l>
+          <l n="l4">Mendoti decus Hispanum, cui maxima rerum</l>
+          <l n="l5">Actus tractanda dedit molimina Caesar,</l>
+          <l n="l6">Regio partae felix iam pacis honore,</l>
+          <l n="l7">A qua gemino profert se littore tellus,</l>
+          <l n="l8">In placido duras flectis moderamine mentes,</l>
+          <l n="l9">Lagnorum medius regum, et secura quietis</l>
+          <l n="l10">Funera, per Latium studiorumque invehis artes,</l>
+          <l n="l11">An tibi se soli debere fatebitur omnis</l>
+          <l n="l12">Musarum Phoebique chorus, quod laeta fugatis</l>
+          <l n="l13">Suspice te tandem, susceperit otia bellis,</l>
+          <l n="l14">
+            <pb n="pb1" xml:id="F2v"/>Pacatasque colat nulla formidine terras,</l>
+          <l n="l15">Et damnosa suis effugerit artibus arma:</l>
+          <l n="l16">Sive Itala mavis terra consistere, seu te</l>
+          <l n="l17">Magna alio fortuna vocat, sive arduus altos</l>
+          <l n="l18">Per titulosque gradusque viam tibi ad aethera pandis.</l>
+          <l n="l19">Huc ades, et paulum positis ingentibus orsis,</l>
+          <l n="l20">Ipse mihi dexter iam nunc adsiste canenti.</l>
+          <l n="l21">Optima cui Divum dono natura tributa,</l>
+          <l n="l22">Quum primum abruptis maternam evaserit alvum</l>
+          <l n="l23">Nexibus et primis infans vagitibus auras</l>
+          <l n="l24">Impulerit, pauco iam tum mihi mollia tange</l>
+          <l n="l25">Membra sale, ut durata cutis, siccataque solis,</l>
+          <l n="l26">Ventorumque dehinc vires patiatur, et imbres</l>
+          <l n="l27">Frigoribus neu sit, neve ulli obnoxia culpae,</l>
+          <l n="l28">Plurima quae nostrae officiunt incommoda vitae.</l>
+          <l n="l29">Ante quidem molli matris defensa sub alvo,</l>
+          <l n="l30">Fotaque visceribus fuerant, tum nescia coeli</l>
+          <l n="l31">Corpora: nunc varios possint ut ferre labores,</l>
+          <l n="l32">Ventosque pluviasque, aestumque, atque obvia quaeque</l>
+          <l n="l33">Tegmine egent multo, teneros ne infesta per artus</l>
+          <l n="l34">Frigora eant, late correptaque viscera tentent.</l>
+          <l n="l35">Nec taceam tamen hic monita inter ut id quoque prima</l>
+          <l n="l36">Sit tibi, densa nimis cutis, aut ne rarior aequo,</l>
+          <l n="l37">Utraque accipiat culpa noxam, invia succis</l>
+          <l n="l38">Densa nimis, neu rara nimis sit pervia damno,</l>
+          <l n="l39">Scilicet hac olim sub conditione ferenda</l>
+          <l n="l40">Per variam rerum faciem, ad contraria semper</l>
+          <l n="l41">Nascimur (immensus statuit sic Iuppiter) omnes.</l>
+          <l n="l42">
+            <pb n="pb1" xml:id="F3r"/>Tum mollis teneros adstringat molliter artus</l>
+          <l n="l43">Fascia componatque simul, ne turpia saepe</l>
+          <l n="l44">Et distorta ferat, neglecto hoc, corpora, sitque id</l>
+          <l n="l45">Impediens operum, et miserae ad ludibria vitae.</l>
+          <l n="l46">Sunt qui continuo natos ad flumina portent,</l>
+          <l n="l47">Barbaricoque artus ritu per frigora durent.</l>
+          <l n="l48">Mos ferus ingenuo, et qui claris artibus, infans</l>
+          <l n="l49">Nascitur, ille mihi tepida magis innatet unda:</l>
+          <l n="l50">Udoremque omnem, contractaque sordida ponat.</l>
+          <l n="l51">Ast alii nato primum praedulcia mellis</l>
+          <l n="l52">Pabula dant modicoque iubent dein lacte fovere</l>
+          <l n="l53">Bisque die id terve admittunt, haud amplius. Undae</l>
+          <l n="l54">Tum tepidae mandant levis innatet, optima quae sit,</l>
+          <l n="l55">Et quae pura suo veniat de fonte, nec ullum</l>
+          <l n="l56">Sulphuris aut referat nitri insyncera saporem.</l>
+          <l n="l57">Nutrice, an matris melius de sanguine alatur,</l>
+          <l n="l58">Non dubitandum; eadem hic alimenta ut sentiat infans,</l>
+          <l n="l59">Quae iam utero: nihil his proprium magis. Optima talem</l>
+          <l n="l60">Quae peperit quoniam merito est natura putanda.</l>
+          <l n="l61">Contra multa manent nutricem incommoda, cuius</l>
+          <l n="l62">Corpora deformes referunt agrestia mores</l>
+          <l n="l63">Saepius, unde annos fingunt in pessima primos,</l>
+          <l n="l64">Quae cum lacte ipso postquam semel ebibere infans</l>
+          <l n="l65">Caeperit, ah ne sint frustra mihi turpia nullis</l>
+          <l n="l66">Auxiliis vellenda, tenax quae negligit error.</l>
+          <l n="l67">Quare agite o teneros matres defendite partus,</l>
+          <l n="l68">uberibusque ipsae vestris ne pignora vestra</l>
+          <l n="l69">Turpe putatore hinc aluisse, atque haec via vobis</l>
+          <l n="l70">
+            <pb n="pb1" xml:id="F3v"/>Sit potior quod si impediant nonnulla, deinde</l>
+          <l n="l71">Altera nutricem tibi iam quaesisse probandam</l>
+          <l n="l72">Cura sit, ac certis vestigasse omnia signis.</l>
+          <l n="l73">Illa mihi ante alias placeat, cui certa salubris</l>
+          <l n="l74">Corporis indicia adfuerint, nec pingue, macrumve,</l>
+          <l n="l75">Nec nimium hoc. Aetas ea, que iam quinque peregit,</l>
+          <l n="l76">Nondum octo numerat quinquennia, lactis abunde,</l>
+          <l n="l77">Cui magnum pectus, turgentiaque ubera quod si</l>
+          <l n="l78">Ante erit haud multo prolem illa enixa virilem,</l>
+          <l n="l79">Haec mihi sit puero nutrix: cui deinde negandi</l>
+          <l n="l80">Concubitus: saepe attactus memini hos ego menses.</l>
+          <l n="l81">Foemineos solitos protrudere, quo sapor omnis</l>
+          <l n="l82">Lactis abit: saepe alterius primordia prolis</l>
+          <l n="l83">Hinc duci, sibi quae largo de sanguine succum</l>
+          <l n="l84">Praeripiat, raptumque ferat quippe intus alendo</l>
+          <l n="l85">Degit, nativumque trahens penetralibus altis</l>
+          <l n="l86">Ebibit humorem, quum vult, affixa, bibensque</l>
+          <l n="l87">De radice sua assidue ceu vescitur arbos.</l>
+          <l n="l88">Ille cibi sentit vix quicquam: exuctaque pastus,</l>
+          <l n="l89">Ubera. Iam labefacta gerit sine corpore membra.</l>
+          <l n="l90">Saepe etiam turpes totum depascere achoras</l>
+          <l n="l91">Corpus, foedatamque cutim, foedata videbis</l>
+          <l n="l92">Brachia, et insueto pallentia crura colore:</l>
+          <l n="l93">Causa latet, sed tu mutata consule nato</l>
+          <l n="l94">Nutrice imprimis, lactis cui nulla reprensi</l>
+          <l n="l95">Signa, nec apparet vitium spectantibus ullum.</l>
+          <l n="l96">Gustatum insolito quod sensu vellicet ora,</l>
+          <l n="l97">Offensas petat aut nares male odora facultas,</l>
+          <l n="l98">
+            <pb n="pb1" xml:id="F4r"/>Coeruleove virore notae visantur, et ipsum</l>
+          <l n="l99">Tenue, tenaxve nimis fuerit, quodve ungue remissum</l>
+          <l n="l100">Sistat, perfectum seseque rotundet in orbem.</l>
+          <l n="l101">Ceu quondam arentes pluvius cum Iuppiter agros,</l>
+          <l n="l102">Aut matutinus flores irrorat Eous,</l>
+          <l n="l103">Caule super clari speciem formantur in orbis,</l>
+          <l n="l104">Et pellucentes recreant violaria guttae,</l>
+          <l n="l105">Hocque potes certis facile depraehendere signis,</l>
+          <l n="l106">Sit tenue id crassumque nimis, si forte requiras:</l>
+          <l n="l107">Nanque recens mulso, vitreo dein vase coacto,</l>
+          <l n="l108">Magna seri superat si vis, heu quam male fluxo</l>
+          <l n="l109">Lacte satur puer inde cibi persentiet usum.</l>
+          <l n="l110">Nec mihi densa tamen placeat natura, relicti</l>
+          <l n="l111">Crassities partem quoties pene occupat omnem.</l>
+          <l n="l112">Ne victis alimenta meatibus, inque peditis</l>
+          <l n="l113">Dura coqui valido stomachum lentore morentur,</l>
+          <l n="l114">Aut etiam nimium ne lactis alibilis usus,</l>
+          <l n="l115">Corpora praepingui tendat vitiata sagina.</l>
+          <l n="l116">Inter utrunque probo. Quod si tamen id quoque iusto</l>
+          <l n="l117">Spissius (ut solitum est) offecerit, ei age lenti</l>
+          <l n="l118">Quicquid inest mulso primum resecator aceto,</l>
+          <l n="l119">Ventriculique ima vomitor de parte resectum.</l>
+          <l n="l120">Assiduo quin ipsa labore exercita nutrix</l>
+          <l n="l121">Tempore multum illo pituitae absumpserit, unde</l>
+          <l n="l122">Maxima suggeritu melioris copia lactis.</l>
+          <l n="l123">Et iuvat apposito crassum nutrimine succum,</l>
+          <l n="l124">Intera secuisse gravis Thymbraeque Thymique,</l>
+          <l n="l125">Edita praecipue quae misit et extera tellus:</l>
+          <l n="l126">
+            <pb n="pb1" xml:id="F4v"/>Hyssopique coma tum quae natalibus herba</l>
+          <l n="l127">Clara suis minime hunc radicula deneget usum</l>
+          <l n="l128">Quaeque suos ortus testantur origana voce.</l>
+          <l n="l129">Contra autem fluido superant quum tenuia lacti</l>
+          <l n="l130">Excrementa, seri multo diluta liquore,</l>
+          <l n="l131">Suadeo opus magna nutrix ex parte remittat,</l>
+          <l n="l132">Cessatrix, dulci et perpotet de fruta succo,</l>
+          <l n="l133">Mitiaque adsumat laticis libamina, quaeque</l>
+          <l n="l134">Presserit apricis serus vindemitor uvis.</l>
+          <l n="l135">Hoc quoque ne casu bene pasti reiice lata</l>
+          <l n="l136">Terga suis, fluidum compescere nata cruorem.</l>
+          <l n="l137">Ac vero exuccum, privumque liquoribus uber</l>
+          <l n="l138">Defectumque suis, multa instaurare potes vi.</l>
+          <l n="l139">Quanquam o ne largi nimius medicaminis usus</l>
+          <l n="l140">Paulatim inficiat damnati pabula lactis,</l>
+          <l n="l141">Ipse probem placido mage quae mihi praedita succo.</l>
+          <l n="l142">Haud oberunt dementque macris ieiunia membris:</l>
+          <l n="l143">Talis erit radix, sunt talia semina mollus</l>
+          <l n="l144">Foeniculi, cytisique simul bene nota potestas:</l>
+          <l n="l145">Longior his merito rebus quae destinat usus:</l>
+          <l n="l146">Praesertim elixo ptisanae si inconcta cremore,</l>
+          <l n="l147">Largiter expansis desorptaque lancibus omnes</l>
+          <l n="l148">Irrigui (mora nulla) ferna alimenta per artus</l>
+          <l n="l149">Roris, inexbaustis tendantque canalibus uber.</l>
+          <l n="l150">Sicut ubi parvus fluviusque et fontibus humor,</l>
+          <l n="l151">Suggeritur mediis sicci fervoribus anni.</l>
+          <l n="l152">Si pluat, effusis sitientes imbribus herbae</l>
+          <l n="l153">Laetantur, passimque fluunt per gramina rivi,</l>
+          <l n="l154">
+            <pb n="pb1" xml:id="F5r"/>Sollicitantque novo ripas vaga flumina cursu</l>
+          <l n="l155">Credo equidem haud alio depastae gramine caprae</l>
+          <l n="l156">Uberibus Iovis educta incunabula quondam,</l>
+          <l n="l157">Maxima ubi herbarum Crete, nec vana creatrix,</l>
+          <l n="l158">Vestit odoratis plantisque et floribus agros.</l>
+          <l n="l159">Quoque magis largo decurrant sanguine rivi,</l>
+          <l n="l160">Inque suum facile lac nutrimenta ferantur,</l>
+          <l n="l161">Mane diu perfricta iuvant, et vespere frictae</l>
+          <l n="l162">Pectoraque scapulaeque simul, thoraxque manusque</l>
+          <l n="l163">Possum multa tibi hic lactanti noxia rite</l>
+          <l n="l164">Enumerare, nimis vulgo ni nota capessam:</l>
+          <l n="l165">Alliaque, et Porri grave virus, et acre Sinapis</l>
+          <l n="l166">Urentis semen, mitisque salacia bulbi,</l>
+          <l n="l167">Et bulbosa simul tunicatae gramina cepae,</l>
+          <l n="l168">Quaeque olim Graii imprimis vetuere medentes,</l>
+          <l n="l169">Et procul amorunt Apii nova germina crispo.</l>
+          <l n="l170">Scilicet hoc Veneris stimulo succensa libido</l>
+          <l n="l171">Saevior incumbit, mentemque insania mutat.</l>
+          <l n="l172">Quin et idem lactis largos succidere rivos,</l>
+          <l n="l173">Et pressum siccare uber solet, ipsaque eodem</l>
+          <l n="l174">Salsa modo officiunt, et acutae nux quoque pinus,</l>
+          <l n="l175">Nempe procax, veteris dominae memor usque furoris,</l>
+          <l n="l176">Servat adhuc longos arbor monumenta per annos.</l>
+          <l n="l177">Hanc olim rapidi Boreas vi turbinis actam</l>
+          <l n="l178">Praepositum sibi Pana dolens, coniecit in altos</l>
+          <l n="l179">Saxa per et rupes, dumetaque confraga montis</l>
+          <l n="l180">Coniectam tellus gremio miserata recepit,</l>
+          <l n="l181">Inque sinu fovit, sulvisque accedere iussit.</l>
+          <l n="l182">
+            <pb n="pb1" xml:id="F5v"/>Iamque arbor nova Pitys erat, iam corpore toto</l>
+          <l n="l183">Mutata induerat formam, tamen una remansit</l>
+          <l n="l184">In teneras quae tota nuces lascivia cessit.</l>
+          <l n="l185">Has igitur, cumque his Moschi quae nomen odori</l>
+          <l n="l186">Naturamque refert, vites, moneoque proboque</l>
+          <l n="l187">Illa quidem nucula antiquis incognita quamvis,</l>
+          <l n="l188">Usaque tamen summis alias quae viribus omnes</l>
+          <l n="l189">Exuperet, quoties nocuum penetralibus haesit</l>
+          <l n="l190">Altius ad vivum frigus: vel ubi humida succo</l>
+          <l n="l191">Viscera per totum penitus maduere profuso.</l>
+          <l n="l192">Praesertim si foeminei fastidia forte</l>
+          <l n="l193">Incubuere uteri, convulsaque membra pererrans</l>
+          <l n="l194">Parte dolor sistit varia, tum spiritus intus</l>
+          <l n="l195">Praeclusus vix iam vitales concipit auras.</l>
+          <l n="l196">Unde nova haec nostras inviserit hospita terras</l>
+          <l n="l197">Nux primum, nostroque recens se ostenderit orbi,</l>
+          <l n="l198">Si referam, nimium Mendoti, hac te quoque longo</l>
+          <l n="l199">Parte morer sermone, tuis atque usibus obstem.</l>
+          <l n="l200">Terra quidem nobis eadem quae Cinnama mittit,</l>
+          <l n="l201">Terra ferax Ebeni, et gratum spirantis Amomi,</l>
+          <l n="l202">Dives opum, dives variarum ab origine mercum,</l>
+          <l n="l203">Pertulit et magnos optatae hos arboris usus,</l>
+          <l n="l204">Unde etiam nostras invictus odoribus uliis:</l>
+          <l n="l205">Resque ignota diu Graiis, pervenit ad oras.</l>
+          <l n="l206">Tymbachi extremo Senique e littore Moschus:</l>
+          <l n="l207">Voce eadem ut Moschi Caryon, sic viribus iisdem.</l>
+          <l n="l208">Atque huius diversa tamen perhibetur origo.</l>
+          <l n="l209">Nam neque succus is est stillans radicibus ullus,</l>
+          <l n="l210">
+            <pb n="pb1" xml:id="F6r"/>Expressusve liquor foliis, collectus at imo</l>
+          <l n="l211">Quadrupedis sub ventre cruor, quum plurimus ursit</l>
+          <l n="l212">Vere furor primo, tepefactisque ossibus haesit.</l>
+          <l n="l213">Incola quem studio excipiat, multoque repensum</l>
+          <l n="l214">Exhibeat, tum demum auro, fragrantia gentes</l>
+          <l n="l215">Scilicet haud parvo haec fuerat didenda per omnes:</l>
+          <l n="l216">Imprimis ingrata olidi qua taedia flatus</l>
+          <l n="l217">Discutiantur, et in tenues acceptior auras</l>
+          <l n="l218">Exhalatus odor spiret, quod ni acribus inde</l>
+          <l n="l219">Tarda Venus stimulis inconcessisque ageretur,</l>
+          <l n="l220">Praecipua merito poterat iam dote probari.</l>
+          <l n="l221">Nec tamen his solum monitis parere iubebo,</l>
+          <l n="l222">Sollicitator et id primum, praeque omnibus unum,</l>
+          <l n="l223">Angustas ne crassa vias alimenta retardent</l>
+          <l n="l224">Lactis, et obductis haerere tenacia venis</l>
+          <l n="l225">Assuescant, eademque suo ne viscera flatu</l>
+          <l n="l226">Tensa nimis, tumido aut praecordia murmure vexent:</l>
+          <l n="l227">Quo saepe arreptos subito convellier artus,</l>
+          <l n="l228">Diversosque trahi vultus, atque ora videbus,</l>
+          <l n="l229">Frendentemque modis miris spumescere ribium.</l>
+          <l n="l230">Usque adeo assiduo pugnax almonia succo,</l>
+          <l n="l231">Exuat ipsa licet faciem perpessa priorem,</l>
+          <l n="l232">Paulatim sese affecta in corpuscula large</l>
+          <l n="l233">Insinuat tamen, et variis ea tempore formis</l>
+          <l n="l234">Vertit agens. Viden’ ut teneri mollissimus agni</l>
+          <l n="l235">(Si te forte rei iuvat experientia tantae)</l>
+          <l n="l236">Vestitus, praedura abiens in vellera, late</l>
+          <l n="l237">Degeneret, pasti hirsutae distenta capellae</l>
+          <l n="l238">
+            <pb n="pb1" xml:id="F6v"/>Ubera: contra hoedi crispis tenuissima setis</l>
+          <l n="l239">Corpora mollescant, ovium tantum ubere sucto?</l>
+          <l n="l240">Sed neque iam setis tortum discrimine parvo,</l>
+          <l n="l241">Velius id est, quod et arte neant, netumque magistri</l>
+          <l n="l242">Haud variis dedignentur contexere lanis:</l>
+          <l n="l243">Quas etiam Milete feras, etiam Appula tellus,</l>
+          <l n="l244">Nec non et puero his nonnullos possumus annis,</l>
+          <l n="l245">Hoc etiam recte concedere tempore motus.</l>
+          <l n="l246">Nam cunis agere hunc poteris, nutricis et ulnis</l>
+          <l n="l247">Huc illuc saepe utiliter circum ipse feretur,</l>
+          <l n="l248">Saepe levi infantisque dato ad solatia curru</l>
+          <l n="l249">Exerce, cui parva etiam subiecta rotarum</l>
+          <l n="l250">Aetati ingentes praebere volumina lusus</l>
+          <l n="l251">Versa solent tenerae puer intus brachia pandit,</l>
+          <l n="l252">Laevibus his spondisque adnixus sustinet, atque huc,</l>
+          <l n="l253">Huc celer atque illuc gradiens, perque omnia versans</l>
+          <l n="l254">Dat gressus incompositos, et crebra ferendis</l>
+          <l n="l255">Omnia per pedibus paulatim assuescit eundo,</l>
+          <l n="l256">Officioque suo fundi docet, unde solutus</l>
+          <l n="l257">Sponte sua ignotoque brevi se credere passu</l>
+          <l n="l258">Audeat, et teneros iam per se exerceat artus.</l>
+          <l n="l259">Tu pedibus tamen ante diem puerilia niti</l>
+          <l n="l260">Corpora ne sinito: saepe imprudentibus unum</l>
+          <l n="l261">Obfuit, invalidique et adhuc prope cerea nacti</l>
+          <l n="l262">Ossa pedes, nimiunmque gravi sub pondere pressi</l>
+          <l n="l263">Exiliere loco, atque oneri cessere gravati,</l>
+          <l n="l264">Crura unde in varias abeunt sinuata figuras.</l>
+          <l n="l265">Saepe etiam introrsum spectantia mutuo sese</l>
+          <l n="l266">
+            <pb n="pb1" xml:id="F7r"/>Genua terunt, atque implicitos dant turpia gressus.</l>
+          <l n="l267">Nec minus et placidos animi tutabere mores,</l>
+          <l n="l268">Defensosque via hac teneros ingentibus annos</l>
+          <l n="l269">Servaris recte vittis, quae multa negatus</l>
+          <l n="l270">Ferre solet nimiusve labor: quare inter utrunque</l>
+          <l n="l271">Exercere sat est, nimio ne concita motu</l>
+          <l n="l272">Corpora si fuerint, bilem tenuata malignam</l>
+          <l n="l273">Experiantur, et in calidos labentia morbos</l>
+          <l n="l274">Criminibus dein sint, iraeque obnoxia turpi.</l>
+          <l n="l275">Sin nullo innatus motu calor excitus intus</l>
+          <l n="l276">Torpeat, infarctis detenta meatibus, inde</l>
+          <l n="l277">Tabentes cesset deferre alimenta per artus,</l>
+          <l n="l278">Palloremque ferat, varii et genus omne floris,</l>
+          <l n="l279">Frigidaque egelidus cruor in praecordia tendat:</l>
+          <l n="l280">Segnior unde animi neglectas occupat arces</l>
+          <l n="l281">Desidia, atque ignava solent pigrescere corda,</l>
+          <l n="l282">Inque vicem affectis vitium transmittere saepe</l>
+          <l n="l283">Corporibus, solet hinc animus, male sanaque totam</l>
+          <l n="l284">Mens secum vitae trahere in discrimina molem.</l>
+          <l n="l285">Hoc metuens, pueri mores et tempora serva</l>
+          <l n="l286">Prima, malis defensa istis, vitiosaque certae</l>
+          <l n="l287">Dede neci, et vitae fuge blandimenta protervae.</l>
+          <l n="l288">Auditu procul esse iube, procul omnia visu</l>
+          <l n="l289">Turpia, quaeque animis incustodita latenter</l>
+          <l n="l290">Insinuant, tacite seseque capacibus addunt:</l>
+          <l n="l291">Terque vias placido primum fallentia vultu</l>
+          <l n="l292">Descedunt alte latas: mentem unde venena</l>
+          <l n="l293">Non iterum delenda malam infecere, diuque</l>
+          <l n="l294">
+            <pb n="pb1" xml:id="F7v"/>Crudescens longa vitium assuetudine vicit:</l>
+          <l n="l295">Quae deinde incassum tentes, nec tollere possis,</l>
+          <l n="l296">Quum semel effrenos rapuere tenacia mores,</l>
+          <l n="l297">Victaque cesserunt lassae retinacula mentis.</l>
+          <l n="l298">Ut male quum domitus primum sternax feroxque</l>
+          <l n="l299">Secum equitem trahit in praeceps, ac frena recusans</l>
+          <l n="l300">Fertur equus, nullis actus per devia habenis.</l>
+          <l n="l301">Quumque adeo cuntis in deteriora parata</l>
+          <l n="l302">Sit via, quae lato pulsos in tartara calle</l>
+          <l n="l303">Seductosque boni specie longe allicit, annis</l>
+          <l n="l304">Praecipue natura sequax puerilibus, omne</l>
+          <l n="l305">In vitiumque trahi facilis data, et in mala flecti</l>
+          <l n="l306">Cerea, quae nullum non dein mansura per aevum,</l>
+          <l n="l307">Dedecorent miseram scelere infoelicia vitam.</l>
+          <l n="l308">Hinc mala quum laesi primum crudescere labes,</l>
+          <l n="l309">Possessique animi coepit, iamque altius acta</l>
+          <l n="l310">Dira lues, capta victix dominatur in arce,</l>
+          <l n="l311">In male defensos latis hostilia muros</l>
+          <l n="l312">Admisit subito, atque ultro vocat agmina portis,</l>
+          <l n="l313">perque oculos naresque simul, perque ora, per aures,</l>
+          <l n="l314">Noxia prorumpunt in apertas crimina sedes,</l>
+          <l n="l315">Erroresque, iraeque, malusque libidine luxus.</l>
+          <l n="l316">Quodque magis doleas, minus et fateare ferendum</l>
+          <l n="l317">Nos adeo nos haec teneros in turpia saepe</l>
+          <l n="l318">Praecipites patres damus atque impellimus annos.</l>
+          <l n="l319">Vidi ego iam cui prima inter cunabula nati</l>
+          <l n="l320">(Tantum error spretique potest inscitia recti)</l>
+          <l n="l321">Iam tum ingens teneram instuere ad deformia linguam</l>
+          <l n="l322">
+            <pb n="pb1" xml:id="F8r"/>Cura erat, inque homines pariter convitia cunctos</l>
+          <l n="l323">Hinc facere, inque deos polluto parvulus ore,</l>
+          <l n="l324">Et male moratam temerare libidine mentem,</l>
+          <l n="l325">Verbaque cum factis miscere inhonesta prophanis.</l>
+          <l n="l326">Nec requies, nulla donec pietate parentes</l>
+          <l n="l327">Principio dictis terrere minacibus ipsos</l>
+          <l n="l328">Coepit, et in miseros fanda atque infanda precari.</l>
+          <l n="l329">Mox et in omne nefas, vitiumque exarsit in omne,</l>
+          <l n="l330">Et potuit saevo latus ense haurire paternum.</l>
+          <l n="l331">Tunc semel effrenis corruptus luxus habenis,</l>
+          <l n="l332">Inque sacros Musis quondam Phoeboque penates</l>
+          <l n="l333">Alea, et argutae meretricum hostiliter artes</l>
+          <l n="l334">Invectae late exitium stragemque dedere.</l>
+          <l n="l335">Quippe eadem patris haec quondam introducta sub ipsis</l>
+          <l n="l336">Flagitia imperiis, eademque exempla secutus</l>
+          <l n="l337">Rettulit, atque omni tamen ante haud pervia culpae,</l>
+          <l n="l338">Criminibus late patuere hinc hostia cunctis.</l>
+          <l n="l339">Quod nisi et assidua vitia insectabere cura,</l>
+          <l n="l340">Et teneros flectes annos, et, dum licet, omni</l>
+          <l n="l341">Componens animum studio, in meliusque vocabis,</l>
+          <l n="l342">Ne seris posthac spera convellere ab annis,</l>
+          <l n="l343">Aut turpes delere notas te posse, tenaci</l>
+          <l n="l344">Quas animo semel ante admissus inusserit error.</l>
+          <l n="l345">Hanc etiam saepe ob causam diuturna videto</l>
+          <l n="l346">Ploratu puer assiduo ne tempora ducat,</l>
+          <l n="l347">Ilia neu longis singultibus interrumpat,</l>
+          <l n="l348">Unde ferox captam sensim, iracundaque mentem.</l>
+          <l n="l349">Vis rapit, atque altam turbat male sana quietem.</l>
+          <l n="l350">
+            <pb n="pb1" xml:id="F8v"/>Nec fletus manifesta tamen neque sola videtur</l>
+          <l n="l351">Causa rei, saepe exiguus latitansque feroci</l>
+          <l n="l352">Dente pulex artus et cuspide fixit acuta,</l>
+          <l n="l353">Pollutoque corys surrepens foetidus ore</l>
+          <l n="l354">Vellicat, et duros acuens in corpore morsus</l>
+          <l n="l355">Exercet, saepe immundae fastidia sordis</l>
+          <l n="l356">Infestant, exestque illotus corpora sudor:</l>
+          <l n="l357">Quae simul atque alia ingenti speculabere cura,</l>
+          <l n="l358">Si tibi sint nati studia haud postrema salutis.</l>
+          <l n="l359">Tempore nec longe hinc multo labor ingruit alter,</l>
+          <l n="l360">Haud minor, infesti gravidis quum rumpere tentant</l>
+          <l n="l361">Gingivis, atque ora gravi convulsa dolore</l>
+          <l n="l362">Exacuunt dentes, tu pingui hos munere primum</l>
+          <l n="l363">Cortis avis, molli et leporis lenire cerebro</l>
+          <l n="l364">Ne dubita, summum dein quum caput exerit, acres</l>
+          <l n="l365">Densque ciet surgens stimulos, avidosque coegit</l>
+          <l n="l366">Admotis puerum digitis infigere morsus,</l>
+          <l n="l367">Mella una, et pinguem lactis coniunge saporem,</l>
+          <l n="l368">Osque fove iunctis. Variae simul iridis hosce</l>
+          <l n="l369">Tersa ante haud multum, radix siccatur ad usus.</l>
+          <l n="l370">Iamque aliquis grata haec quaesitum in munera puro</l>
+          <l n="l371">Coralium argento, fulvove infibulato auro,</l>
+          <l n="l372">Materiaque lupi dentes includit eadem,</l>
+          <l n="l373">Donaque suspendit puerili pendula collo,</l>
+          <l n="l374">Quae morsu puer usque premat, quibus ora fatiget,</l>
+          <l n="l375">Dens unde attritu crebro citus exit, et alte</l>
+          <l n="l376">Defixum firmo protuberat ordine vallum.</l>
+          <l n="l377">Noxia sic etiam magnos animalia praestant,</l>
+          <l n="l378">
+            <pb n="pb1" xml:id="F9r"/>Praecipuosque aequis naturae legibus usus:</l>
+          <l n="l379">Martius ipse ingens terror lupus armentorum</l>
+          <l n="l380">Parte sui haud minima iuvat, intestina labores</l>
+          <l n="l381">Pota graves solvunt, medium quum tormina ventrem</l>
+          <l n="l382">Discruciant, aluumque dolor ceu perforat altus,</l>
+          <l n="l383">Et distenta gemunt tumido praecordia flatu.</l>
+          <l n="l384">Non aliter quam contorto transfossa terebro,</l>
+          <l n="l385">Inde minutatim late fumantibus extis</l>
+          <l n="l386">Exemptum iecur exiccant, ac pervia nulli</l>
+          <l n="l387">Per tabulata locant Phoebo, puroque recondunt</l>
+          <l n="l388">Ter quater elotum rutilantis munere Bacchi.</l>
+          <l n="l389">Sanguifica hoc abiens saepe atque amissa facultas,</l>
+          <l n="l390">Aut vitiata redit, revocatque exterrita vires.</l>
+          <l n="l391">Quid memorem gelidi concreta ut frigora coeli,</l>
+          <l n="l392">Saevasque exuviis hyemes Germania vitet,</l>
+          <l n="l393">Huius, et hoc densos munimine ut arceat imbres?</l>
+          <l n="l394">Aut ut vipeream medicus carnem excoquat usus</l>
+          <l n="l395">Innumeras contra pestes, et tristia quaeque:</l>
+          <l n="l396">Noxiaque ut quondam nunc saevum animalia virus</l>
+          <l n="l397">Dediscant, laetumque negent oblita nocendi,</l>
+          <l n="l398">Auxiliumque ferant pulsis vitale venenis?</l>
+          <l n="l399">Quippe Deum sator immensi quo tempore primum</l>
+          <l n="l400">Currere iter, quam nunc melius, fulgentia iussit</l>
+          <l n="l401">Astra, recens digesta poli, commissaque nostri,</l>
+          <l n="l402">Atque rudis cessit Diis cura minoribus orbis,</l>
+          <l n="l403">Multa mali viguisse nihil per saecula ducta,</l>
+          <l n="l404">Crediderim nuper melioris origine mundi</l>
+          <l n="l405">Semine ab aethereo, et mire concordibus astris,</l>
+          <l n="l406">
+            <pb n="pb1" xml:id="F9v"/>Effusa, unde deum gremio bona, misaque grato</l>
+          <l n="l407">Munere coelestum laetae dona aurea pacis,</l>
+          <l n="l408">Visaque per vultu terras Astraea benigno,</l>
+          <l n="l409">Astraeaeque soror, virtusque, aequumque, bonumque,</l>
+          <l n="l410">Et syncera fides, et nescia fallere quenquam</l>
+          <l n="l411">Simplicitas, et purus amor, pietasque pudorque</l>
+          <l n="l412">Omniaque haec firmo retines concordia nexu.</l>
+          <l n="l413">Tempore nec iam illo fraudi, scelerive, dolove,</l>
+          <l n="l414">Non locus insidiis ullus, sed ubi omnibus aequa</l>
+          <l n="l415">In commune datis lege, irrequietus habendi</l>
+          <l n="l416">Nullus amor, nec dum propriis vesana libido</l>
+          <l n="l417">Praecipites scelus in furialibus egerat ausis.</l>
+          <l n="l418">Cuncta videbantur claro descendere coelo,</l>
+          <l n="l419">Haud parca dederat iussu quae Parca Deorum</l>
+          <l n="l420">Dona manu, rerumque ferax non falsa bonarum</l>
+          <l n="l421">Ulla nec aerios tractus tunc semina morbi</l>
+          <l n="l422">Infecere, luesve natantibus ingruit ulla,</l>
+          <l n="l423">Omnia perque ipsas duxere animalia terras,</l>
+          <l n="l424">Intactos sine labe annos, serusque senectam</l>
+          <l n="l425">Non nisi longinque sensit post tempora fati</l>
+          <l n="l426">Natus homo, semper membrorum atque integer aevi.</l>
+          <l n="l427">Sponte etiam foetu tellus quem maxima largo</l>
+          <l n="l428">Ediderat, victum facile decerpsit inemptum,</l>
+          <l n="l429">Perpetuo vernans tellus, atque ubere laeta,</l>
+          <l n="l430">Mortali nondum cura irritata procaci,</l>
+          <l n="l431">Aut hominum nimis imperium perpessa superbum,</l>
+          <l n="l432">Iussaque et exactum violento foenore pignus.</l>
+          <l n="l433">Scilicet his offensa malis, temerataque rerum</l>
+          <l n="l434">
+            <pb n="pb1" xml:id="F10r"/>Iura dolens, scelus ac ritus pertaesa nefandos,</l>
+          <l n="l435">Paulatim avertit rebus mentem horrida nostris,</l>
+          <l n="l436">Insidiasque exosa truces, queis saepe petita,</l>
+          <l n="l437">Intima convelli sensit praecordia motu:</l>
+          <l n="l438">Quaerendis inhiant opibus pars maxima, postquam</l>
+          <l n="l439">Et lacerae infodiunt rimanturque abdita terrae</l>
+          <l n="l440">Principio duro iussit quaesita labore</l>
+          <l n="l441">Pabula sollicitis hominum succrescere curis,</l>
+          <l n="l442">Et nimiis modo frigoribus contracta geluque</l>
+          <l n="l443">Sole modo et siccis exusta caloribus arva</l>
+          <l n="l444">Fallere depositae male credita semina frugis.</l>
+          <l n="l445">Mox saevum effudit vitiata in gramina virus.</l>
+          <l n="l446">Nam primum vitae tantum auxiliaria nostrae,</l>
+          <l n="l447">Nullaque non fuerant vitalibus oblita succis,</l>
+          <l n="l448">Multaque magnarum iussit saevire ferarum</l>
+          <l n="l449">Agmina, vipereosque haud lento vulnere morsus</l>
+          <l n="l450">Laetales inferre ictus, passimque per agros</l>
+          <l n="l451">Noxia difessit discrimine toxica nullo,</l>
+          <l n="l452">Fallere quae incautos saepe indiscreta legentes,</l>
+          <l n="l453">Laetalem et possent ferre improvisa soporem.</l>
+          <l n="l454">Atque haec iam rebus nostris inimica rependit,</l>
+          <l n="l455">Non dum illis tamen usque adeo in turpissima lapsis,</l>
+          <l n="l456">Forsitan et grave tempus erit, quum ferrea plusquam</l>
+          <l n="l457">Saecula (Dii precor hoc rebus serum adsit ut omen)</l>
+          <l n="l458">Convulso in peius recident hinc cardine rerum,</l>
+          <l n="l459">Saevaque tum nulla prorsus pietate noverca.</l>
+          <l n="l460">Monstra feret tantum tellus, atque atra venena.</l>
+          <l n="l461">Ipse etiam Sol conversas (quis crederet unquam?)</l>
+          <l n="l462">
+            <pb n="pb1" xml:id="F10v"/>Retro aget: atque actas, qua nunc via nulla, quadrigas</l>
+          <l n="l463">Ducet in oppositum variis ambagibus orbem,</l>
+          <l n="l464">Ac nostras lata obducet caligine terras:</l>
+          <l n="l465">Ast aliis nitidum ostendet iubar, arvaque longa</l>
+          <l n="l466">Canicie inculta, et rigidis horrentia glebis,</l>
+          <l n="l467">Induet in varios foecundo semine foetus.</l>
+          <l n="l468">Sed nos interea tenui, pars proxima coepti</l>
+          <l n="l469">Quae superat nostri, Musa hinc exorsa sequamur.</l>
+          <l n="l470">Est etiam tenera imprimis aetatula saevum,</l>
+          <l n="l471">Quo saepe afficitur, morbi genus oscula putri</l>
+          <l n="l472">Ulcere foeda madent, varii maculosa colore</l>
+          <l n="l473">Quae succi haud uno inficiant, deterrima, saevi,</l>
+          <l n="l474">Quaeque ferat neglecta cito discrimina laeti,</l>
+          <l n="l475">Vicus ubi crusta ceu tectum duruit, atra,</l>
+          <l n="l476">Est facies. Contusa malum rosa tusa, coercet</l>
+          <l n="l477">Myrrha, et Corycii mittunt quae munera colles</l>
+          <l n="l478">Laeta Croci, duroque leves de robore gallae,</l>
+          <l n="l479">Turaque praedulci tum punica grata sapore,</l>
+          <l n="l480">Punica quae primo mala irremeabile gustu</l>
+          <l n="l481">Raptae iter ad superos pene effecere maritae</l>
+          <l n="l482">Ipsa sibi partim quae sint satis, addita partim</l>
+          <l n="l483">Mella iuvent, dulci puero impositura sapore.</l>
+          <l n="l484">At scabra quoties femora intertrigine fervent.</l>
+          <l n="l485">Sparge rosa, arentique fove medicata Cypero,</l>
+          <l n="l486">Nec faciet non et quicquam cythereia Myrtus.</l>
+          <l n="l487">Illam autem, geminos pestis quae luminis usus</l>
+          <l n="l488">Sincipitisque trahit superam infestissima partem,</l>
+          <l n="l489">Decolor unde artus macies rapit, ignea quippe</l>
+          <l n="l490">
+            <pb n="pb1" xml:id="F11r"/>Aestuat, accensoque incumbit causa cerebro,</l>
+          <l n="l491">Tinctum ovi tollit rubro, mersumque subinde,</l>
+          <l n="l492">Tergeminumque plicis linum, solemque secutae</l>
+          <l n="l493">Nubila per folium, purum perque aethera plantae,</l>
+          <l n="l494">Strychnaque tabifici vires domitura doloris.</l>
+          <l n="l495">Interea at larga cerebri de sedibus aures</l>
+          <l n="l496">Sorde fluunt, latisque sagax purgamina mittit,</l>
+          <l n="l497">Noxia quaeque foras natura canalibus acta.</l>
+          <l n="l498">Tu tantum siccare velis, sectumque potenter</l>
+          <l n="l499">Virus odorato generosoque elue Baccho,</l>
+          <l n="l500">Qualem hospes profert annoso Rheticus aevo,</l>
+          <l n="l501">Collibus aut Tremenus qualem transmittit apricis.</l>
+          <l n="l502">Tum madido bibulas superiniice vellere lanas,</l>
+          <l n="l503">Dilutum Crocon epotas, et mella merumque.</l>
+          <l n="l504">Nec iam sollicitum (superest quae maxima) non te</l>
+          <l n="l505">Cura dehinc teneat, triplici discrimine sontes</l>
+          <l n="l506">Viscera quum morsu late rimantur acuto,</l>
+          <l n="l507">Putrentum, vermes, genus, et penetralibus acto</l>
+          <l n="l508">Caeca lacessitis infigunt vulnera dente.</l>
+          <l n="l509">Vulnificoque cient non segniter exta dolore:</l>
+          <l n="l510">Continuo tantumque mali, intestinaque succo</l>
+          <l n="l511">Pulsa lues (tanta est discordia) cessit amaro.</l>
+          <l n="l512">Tu modo melliflui una aliquid, quod fraude potentem</l>
+          <l n="l513">Celet amarorem praebe, sed fraude salubri</l>
+          <l n="l514">Incertique refert certum glycypicron amoris:</l>
+          <l n="l515">Taurinoque simul medium super illine ventris</l>
+          <l n="l516">Felle, Iovis quondam iussu Phoebeia qua post</l>
+          <l n="l517">Corpora scissa manus rumpentia reppulit extra</l>
+          <l n="l518">
+            <pb n="pb1" xml:id="F11v"/>Exta, et proh dolor, et sceleris nova crimina nostri.</l>
+          <l n="l519">Dividuos nec parte dedit nec viribus aequis,</l>
+          <l n="l520">Semihominesque dehinc terris errare notatos.</l>
+          <l n="l521">Sunt quoque nequaquam hac nobis in parte tacenda,</l>
+          <l n="l522">Parva ea, et ex parva trans ad nos vecta seripho</l>
+          <l n="l523">Exigua, ingentes praestent quae sapius usus,</l>
+          <l n="l524">Semina certa mali requies, tenuata sed ante</l>
+          <l n="l525">Igne remollescunt liquefacto sacchara, succo,</l>
+          <l n="l526">Tegmine quae parvo, et tenui circundata crusta</l>
+          <l n="l527">Ingratum occultent, latita quicunque saporem.</l>
+          <l n="l528">His et blanditias adhibent, multoque iacentis</l>
+          <l n="l529">Auro onerant stratum, festis cunasque corollis,</l>
+          <l n="l530">Tinnulaque applausu quatiunt circum aera sonoro,</l>
+          <l n="l531">et placidis varia admiscent festivaque dictis,</l>
+          <l n="l532">Quales Luciolo cecinit Ioviania nato</l>
+          <l n="l533">Naeniolas albis Lisa insidiosa papillis.</l>
+          <l n="l534">Usque adeo contra interdum stat nequiter aetas.</l>
+          <l n="l535">Sed quid opus? Cave Iopaean, iam vicimus, ipse</l>
+          <l n="l536">Ipse ultro sumpsit puer, atque expostulat ultro.</l>
+          <l n="l537">Inde autem magno tenues sese agmine fundunt</l>
+          <l n="l538">Ascarides, Vermisque teres notissima pestis,</l>
+          <l n="l539">Quaeque tulisse queat Colocynte semina credi:</l>
+          <l n="l540">Non iam semen erant, tractu sed plurima lato</l>
+          <l n="l541">(Si qua fides visis) praelongua hastilia saepe</l>
+          <l n="l542">Tinea quae vincat, quantis nec Noricus hostis</l>
+          <l n="l543">Armatur, nec pila gerunt maiora Cherusci</l>
+          <l n="l544">Ecce autem interdum cuncta inter laeta repente</l>
+          <l n="l545">Plus solito vagire puer, multoque labore</l>
+          <l n="l546">
+            <pb n="pb1" xml:id="F12r"/>Irrequietus agi, nec iam lenire potestas:</l>
+          <l n="l547">Carmina non cantata iuvant, non pulsa sonore</l>
+          <l n="l548">Tympana, non teneras ori inservisse papillas:</l>
+          <l n="l549">Tum vero distorta dolore repente furenti</l>
+          <l n="l550">Ora trahi, lucisque simul torquerier orbes,</l>
+          <l n="l551">Convulsique rapi tensis ceu funibus artus,</l>
+          <l n="l552">Et spumis agitata tumere albentibus ora.</l>
+          <l n="l553">Ergo agite una omnes fesso quacunque puello</l>
+          <l n="l554">Succurramus et imprimis de sesamo olivum</l>
+          <l n="l555">Iam membris adhibere calens, iam ducere corpus</l>
+          <l n="l556">Tempus, et hoc rigidos pingui simul oblinere artus,</l>
+          <l n="l557">Et virosa simul subitum depromere ad usum</l>
+          <l n="l558">Castorea, et nares, et inungere tempora Ruta.</l>
+          <l n="l559">Contra etiam si quid teneros male fascinat annos,</l>
+          <l n="l560">Aut quicquid tale est, factura, et iam omnis abiisse</l>
+          <l n="l561">Visa procul, totoque recesse e corpore noxa,</l>
+          <l n="l562">Improvisa redit: veluti sub nocte silenti</l>
+          <l n="l563">Quum ferus insidias arci molitur, et altis</l>
+          <l n="l564">Depulsus fremit a muris, rursusque pererrans</l>
+          <l n="l565">Aggreditur, rursusque fugit praedator abactus,</l>
+          <l n="l566">Talis euntis ea est morbi ac redeuntis imago.</l>
+          <l n="l567">Tu vero ne cessa unquam, semperque furentis</l>
+          <l n="l568">Qua vi cunque potes validis insultibus obsta:</l>
+          <l n="l569">Excubias age, et infestum preme sedulus hostem.</l>
+          <l n="l570">Auxiliis quod si hinc uti maioribus audes,</l>
+          <l n="l571">Nec quicquam terrere minus quo fortia tentes.</l>
+          <l n="l572">Iam vires Vulcane tuas arcessere tempus:</l>
+          <l n="l573">Ergo qua cervix capiti committitur, et qua</l>
+          <l n="l574">
+            <pb n="pb1" xml:id="F12v"/>Exoriens sese nervorum pandit origo,</l>
+          <l n="l575">Haec candens in parte chalybs, aut si liber aurum</l>
+          <l n="l576">Imprimitur, procul hinc fratres, procul este parentes,</l>
+          <l n="l577">Aut si quem pietas prohibet, quo pressior usque</l>
+          <l n="l578">Arte manus docta locus uritur, actaque multo</l>
+          <l n="l579">Igne cava abscedat supposto particula osse,</l>
+          <l n="l580">Et nimiis sic diffluxos humoribus artus</l>
+          <l n="l581">Contrahat ignea vis, solidoque ita robore firmet.</l>
+          <l n="l582">Sunt quibus ipsa magis placeant, quae mitia tanti</l>
+          <l n="l583">Paulatim causasque mali viresque retundant,</l>
+          <l n="l584">Atque ita in hos multim sumunt medicaminis, usus.</l>
+          <l n="l585">Quod grati imprimis Moschi de nomine fertur.</l>
+          <l n="l586">Nec solet huc tardi partem tosta ungula aselli</l>
+          <l n="l587">Non magnam conferre satis, cui deinde virentes</l>
+          <l n="l588">Adiiciunt semper frangi facilesque Smaragdos</l>
+          <l n="l589">Candidaque et rubro melius spectata colore,</l>
+          <l n="l590">Utraque viso autem durata corallia coelo,</l>
+          <l n="l591">Quique suis laetus iam prodiit unio conchis,</l>
+          <l n="l592">Huc et opem collata ferunt absinthia parvo</l>
+          <l n="l593">Semine non parvam, minima at de Cyclade dicta,</l>
+          <l n="l594">Sive ea Santonici, seu miserit Appula tellus:</l>
+          <l n="l595">Quaeritur et Rutae tollat quod flamina semen:</l>
+          <l n="l596">Et capiti minime nocitu a Melanthia, quaeque</l>
+          <l n="l597">Una malum saepe est nume o depellere sueta,</l>
+          <l n="l598">Paeonia, insignis servatrix nominis ex re,</l>
+          <l n="l599">Semineque et radice valens aeque herba potenti.</l>
+          <l n="l600">Virgienaque exculta manu Sampsuchus, et usque</l>
+          <l n="l601">Dictaea repetens mollis Dictamnus ab Idu,</l>
+          <l n="l602">
+            <pb n="pb1" xml:id="F13r"/>Moschusque et Moschi Caryon, sed maior ut huius,</l>
+          <l n="l603">Alterius sic pensa minor pars additur: et quod,</l>
+          <l n="l604">Extremis mittunt Selachi de finibus Ambar.</l>
+          <l n="l605">Largior ast Onychis, tum cornu copia cervi</l>
+          <l n="l606">Coniicitur, tenui limae quod segmine crevit.</l>
+          <l n="l607">Hisque diu mollus tunsis in pollinis usum,</l>
+          <l n="l608">Omnibus admiscetur, quo nil tenuius aurum,</l>
+          <l n="l609">Nil unquam mira fuerit deductius arte,</l>
+          <l n="l610">Non liber arboreo late sub cortice cretus,</l>
+          <l n="l611">Niliacae philyra aut longe protenta papyri,</l>
+          <l n="l612">Non membrana ullos tenuis quae vestiat artus,</l>
+          <l n="l613">Non aliud, si quod solers interlinit usus.</l>
+          <l n="l614">Iamque tribus puer ingressus natalibus annos,</l>
+          <l n="l615">Paulatim aetatem profert, iam frangere primum,</l>
+          <l n="l616">Dentibus acceptam discit primoribus escam,</l>
+          <l n="l617">Assuescitque cibo, quem doctae saepe fovere</l>
+          <l n="l618">Nutrices prius ore solent, praemansaque reddunt</l>
+          <l n="l619">Ore ori apposito incundo pabula lusu,</l>
+          <l n="l620">Sive ita fracta minus teneros, confectaque dentes</l>
+          <l n="l621">Esca ferit, seu nativo medicata calore</l>
+          <l n="l622">Ocyus edomito, praebet nutrimina succo.</l>
+          <l n="l623">Saepe etiam pingui componunt corpus olivo,</l>
+          <l n="l624">Nulla cibi gravis incumbit quum sarcina crudi,</l>
+          <l n="l625">Visceribus, solioque iubent innare salubri</l>
+          <l n="l626">Dulcis aeque vel cum calido circumfluus aer</l>
+          <l n="l627">Aestuat, et nocuo fervescunt sydere rura,</l>
+          <l n="l628">Corpora securi mandant nudata fluento,</l>
+          <l n="l629">Herbososque lacus, et lucida stagna frequentant:</l>
+          <l n="l630">
+            <pb n="pb1" xml:id="F13v"/>Sicubi fontani subter crescentibus undis</l>
+          <l n="l631">Eiaculantur aquas rivi, scatebrisque solutae</l>
+          <l n="l632">Irriguis superant venae, tellure remissus</l>
+          <l n="l633">Unde cavas humor solitus complere lacunas.</l>
+          <l n="l634">Sic quoque sponte sua morem hunc armenta secuta.</l>
+          <l n="l635">Fluminibus gaudent placidis, et laeta per undas</l>
+          <l n="l636">Colludunt late liquidas, mox corpora lotis</l>
+          <l n="l637">Sordibus aestivo sub sole nitentia siccant.</l>
+          <l n="l638">At non is Scythiae, diro qua frigore septa</l>
+          <l n="l639">Horridaque et multum pulsata rigentibus auris,</l>
+          <l n="l640">Arva colunt, mos est, illic ante omnia saevo</l>
+          <l n="l641">Membra gelu, natosque recens fluvialibus undis</l>
+          <l n="l642">Immersos foetus inque aestum ac frigora durant</l>
+          <l n="l643">Stridula candentis veluti quum lamina ferri,</l>
+          <l n="l644">Tincta lacu gemit, artificis quae forcipe versa,</l>
+          <l n="l645">Sumit opem validam, gelidis et robur ab undis.</l>
+          <l n="l646">Quippe aliud genus hoc hominum deserta ferarum</l>
+          <l n="l647">More inter facile qui vitam, et inhospita ducant,</l>
+          <l n="l648">Securi egelidi ferat inclementia coeli</l>
+          <l n="l649">Quas tempestates, densus ne in nubibus aer</l>
+          <l n="l650">Riphaeis glacies ventis, et cana nivosis</l>
+          <l n="l651">Iuppiter assidue pulset serus arva pruinis.</l>
+          <l n="l652">Tanta cutis duratae animo fiducia sedit.</l>
+          <l n="l653">Illic saepe etiam solida concretus ad imum</l>
+          <l n="l654">Oceanus (mirum) crusta, sulcataque quondam</l>
+          <l n="l655">Aequora remigio, paulisque natata carinis,</l>
+          <l n="l656">Plaustra ferunt, tractasque rotas, urisque iugatis</l>
+          <l n="l657">Stridentes, magno ducunt sub pondere currus</l>
+          <l n="l658">
+            <pb n="pb1" xml:id="F14r"/>Nec minus immenso laetam super aequore nacti</l>
+          <l n="l659">Planitiem, saevus quoties certamina Mavors</l>
+          <l n="l660">Suscitat, infestis inter se praelia miscent</l>
+          <l n="l661">Agminibus, latusque equites fert campus aquarum</l>
+          <l n="l662">Et ferrata cavo pulsat pontum vungula cornu,</l>
+          <l n="l663">Numina quem pelagi sonitum mirata, queruntur</l>
+          <l n="l664">Hac quoque confuso rerum parte ordine pactam</l>
+          <l n="l665">Turbari antiquo naturae foedere legem.</l>
+          <l n="l666">Ergo hanc agricola incultus, magnique colonus</l>
+          <l n="l667">Ruris agant vitam et duris densata ferendis</l>
+          <l n="l668">Frigoribusque aestuque cutis messoribus apte</l>
+          <l n="l669">Conveniat, brutis fortasse animantibus usus</l>
+          <l n="l670">Unde sit arctoum populisque colentibus axem</l>
+          <l n="l671">Rectius at quanto vitae spiracula ad usum,</l>
+          <l n="l672">Nec laxata nimis venientique obvia noxae,</l>
+          <l n="l673">Nec nocuos serves nimis impedientia succos,</l>
+          <l n="l674">Hoc dulcis facile solium undae, corporaque una</l>
+          <l n="l675">Augusta praestat specie spectentur ut aucta.</l>
+          <l n="l676">Quum vero studiorum animum ad praecepta capace</l>
+          <l n="l677">Formabis ferulaeque manum iam subtrahet, ipsa</l>
+          <l n="l678">Hac aetate puer morem haud ita saepe lavandi</l>
+          <l n="l679">Rectius insistes, facili corpusque palaestra</l>
+          <l n="l680">Tum sat erit movisse, cibis quam vescitur ante</l>
+          <l n="l681">Idque modum supra haud facito, ne corporis actus</l>
+          <l n="l682">Incrementa labor compescat longius aequo.</l>
+          <l n="l683">Nec labor aetati huic nimius: nec bacchica primis</l>
+          <l n="l684">Munera conveniunt annis, nullum illa levamen,</l>
+          <l n="l685">Et multum praestant noxae, contra optima fontis</l>
+          <l n="l686">
+            <pb n="pb1" xml:id="F14v"/>Unda iuvat puri, sacro quem numine praesens</l>
+          <l n="l687">Protegat, et noxa Nymphe tutetur ab omni,</l>
+          <l n="l688">Naiadum medicas aliqua artes docta, salubres</l>
+          <l n="l689">Lucida quae potus. Haustuque ministret aquarum</l>
+          <l n="l690">Vestibulum Solis primos ea pandit ad ortus.</l>
+          <l n="l691">Auroraeque sinus venienti porrigit ultro</l>
+          <l n="l692">Laeta suos, medioque occurrens excipit alveo:</l>
+          <l n="l693">Nec sinit immundo sordere cubilia coeno,</l>
+          <l n="l694">Obductasque fimo sedes, et inertibus pluis.</l>
+          <l n="l695">At teneros circum flores alit, intus aquarum</l>
+          <l n="l696">Copia praedulcis, placido quae exercita cursu</l>
+          <l n="l697">Profluit, et nitidos voluens terit usque lapillos,</l>
+          <l n="l698">Somniferosque ciet tellure emissa susurros.</l>
+          <l n="l699">Talem Athesis rapidi prope lata flenta, Tridenti</l>
+          <l n="l700">Ora bibit, sanctum cuncti quod numen aquarum</l>
+          <l n="l701">Indigenae vocitant talis, maioris at undae</l>
+          <l n="l702">Aiuola, qua placidum, culta inter pinguia, late</l>
+          <l n="l703">Benacus caput attollit pater, altaque multo</l>
+          <l n="l704">Saxa per acta sono, venientis flumina Sarcae,</l>
+          <l n="l705">Aspicit, et laetis defessam amplectitur ulnis.</l>
+          <l n="l706">Sed neque tam liquidis quaesita e fontibus unda,</l>
+          <l n="l707">Nec tam post habitus recte baccheius humor:</l>
+          <l n="l708">Quam iuvat effraenos domina ratione, iugales</l>
+          <l n="l709">Corripuisse, vagis nulla expatientur habenis</l>
+          <l n="l710">Ne furor, aut gravis ira via, aut vesana libido,</l>
+          <l n="l711">Quaeque procax aluit capitis mala bellua multi,</l>
+          <l n="l712">Sive annos rebus reliquos formabit agendis,</l>
+          <l n="l713">Curae sequens, seu Turgicenas armabit in hostes</l>
+          <l n="l714">
+            <pb n="pb1" xml:id="F15r"/>Membra lacertosis, dura exudanda palaestra,</l>
+          <l n="l715">Sive alet, et validos explebit viribus artus,</l>
+          <l n="l716">Seu vigilis potius tenuabit cura Minervae.</l>
+          <l n="l717">Iccirco bigis excelsa auriga regendis</l>
+          <l n="l718">Sede sedet, fraenoque iugum moderatur: et arte</l>
+          <l n="l719">Ni regat, arrepto sine more per avia curru</l>
+          <l n="l720">Quippe ferantur equi, dominatoremque citato</l>
+          <l n="l721">Impete agant, via praecipiti qua proxima lapsu</l>
+          <l n="l722">Sese agit, et lato patet in Styga tristis hiatu,</l>
+          <l n="l723">Unde mali iam nunc etiam diffusa per orbem</l>
+          <l n="l724">Semina, pacatisque insedit rebus Erinnys,</l>
+          <l n="l725">Anguicomumque Megaera caput tulit altius, ex quo</l>
+          <l n="l726">Bellipotens renovat Mavors incudibus arma,</l>
+          <l n="l727">Vinculaque et nodos a tergo vicit ahenos,</l>
+          <l n="l728">Ipsa una varios miscet Bellona tumultus,</l>
+          <l n="l729">Fasque nefasque ciet, motumque exterritat orbem</l>
+          <l n="l730">Terror agens, ferus in medio deus, undique rerum</l>
+          <l n="l731">Fundamenta quatit, stimulis Discordia caecis</l>
+          <l n="l732">Circum accensa fremit, Furiaeque, Iraeque, Minaeque</l>
+          <l n="l733">Insidiaeque et torva tuens Violentia vultu,</l>
+          <l n="l734">Raucaque terrificis sonuerunt classica bombis,</l>
+          <l n="l735">Et trepida occinuit ferale insania carmen,</l>
+          <l n="l736">Maxima quo concussa gemit sonitu, actaque tellus</l>
+          <l n="l737">Qua pater, occiduas Phoebi nascentis ad oras,</l>
+          <l n="l738">Limes et a medio tardum petit axe Booten,</l>
+          <l n="l739">Extemplo iam pax abiit, iam Martius ardor</l>
+          <l n="l740">Cuncta tenet, ruit extremo de littore Iberus,</l>
+          <l n="l741">Assidua miles iam belli exercitus arte,</l>
+          <l n="l742">
+            <pb n="pb1" xml:id="F15v"/>Celsaque nubiferae perfringit claustra Pyrenes</l>
+          <l n="l743">Parte alia ingentes fert dira in praelia vires</l>
+          <l n="l744">Ipsa ingens, belloque minax stat Gallia contra</l>
+          <l n="l745">Praedurum suffulta latus: simul Itala Caesar,</l>
+          <l n="l746">Arma movens, gelidos traducit ad usque Triones,</l>
+          <l n="l747">Interea latis sequitur Germanica pubes</l>
+          <l n="l748">Bello excita agris, trifluique una accola Rheni,</l>
+          <l n="l749">Et quos extremi Morinos salis alluit unda,</l>
+          <l n="l750">Iamque iugi patiens Teucthrus mixtique Sicambri,</l>
+          <l n="l751">Usipetesque ubiique alioque ex orbe Britanni,</l>
+          <l n="l752">Undique turbato violenter foedere, reges</l>
+          <l n="l753">Inter se infestis gaudent concurrere signis.</l>
+          <l n="l754">Ergo novo rursus madefiet sanguine tellus,</l>
+          <l n="l755">Quadrupedumque effossa bibet socium ungue cruorem</l>
+          <l n="l756">Scilicet huc furor, huc ultrices verbere dirae</l>
+          <l n="l757">Praecipites agitant gentes, saevitque flagello</l>
+          <l n="l758">Tisiphone in mediis: Quo vos, quo caecus adegit</l>
+          <l n="l759">Mutua, caedis amor, versos in vulnera tandem?</l>
+          <l n="l760">Quin potius iunctis simul hinc concordibus armis,</l>
+          <l n="l761">Itis eo late a tergo, qua Martius anguis</l>
+          <l n="l762">Cuncta agit, et tumidus consurgit quantus Orion.</l>
+          <l n="l763">Ille quidem nigro suffusus membra veneno</l>
+          <l n="l764">Cristatum caput ecce tulit, victorque superbit,</l>
+          <l n="l765">Littoribusque adnans circum perque omnibus, Istri</l>
+          <l n="l766">Nititur undivagi fontem superare sonantem.</l>
+          <l n="l767">Et iam iamque tenet, totaque adlabitur aluo.</l>
+          <l n="l768">Hunc nisi sacratis non est compescere signis.</l>
+          <l n="l769">E alix depulsi, foelix quem tanta pericli</l>
+          <l n="l770">
+            <pb n="pb1" xml:id="F16r"/>Fama, triumphatique manet nova gloria monstri.</l>
+          <l n="l771">Dii, quorum sacris festas solennibus aras</l>
+          <l n="l772">Instruimus laeti, celebresque novamus honores,</l>
+          <l n="l773">Dii patrii prohibete nefas, castaque, verendum</l>
+          <l n="l774">Relligione malum, et terrorum avertite tantum,</l>
+          <l n="l775">In Lelegasque, Scythasque, inimcaque nomina Thracas,</l>
+          <l n="l776">Bactra ultra, Gangemque ultra, Tanaimque Tigrimque</l>
+          <l n="l777">Irarum satis, o scelerisque, necisque, superque est</l>
+          <l n="l778">Saevitum inter se satis, et periuria multa</l>
+          <l n="l779">Iam pridem luimus, commissaque crimina caede.</l>
+          <l n="l780">Vidimus insolitasque hyemes, insuetaque coeli</l>
+          <l n="l781">Frigora, defectosque suis male frugibus agros,</l>
+          <l n="l782">Moeniaque ingenti terrae labentia motu,</l>
+          <l n="l783">Et fusis solito graviora tonitrua nimbis.</l>
+          <l n="l784">Prodigiosa diu tulimus, morbosque, famemque</l>
+          <l n="l785">Diram, insultantisque minas Mavortis inulti,</l>
+          <l n="l786">Et tanta exhaustos per totque pericula casus.</l>
+          <l n="l787">FINIS</l>
         </lg>
       </div>
     </body>

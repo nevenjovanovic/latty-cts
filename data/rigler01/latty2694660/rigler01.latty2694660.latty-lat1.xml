@@ -34,6 +34,25 @@
         <bibl>Tiroler Landesmuseum Ferdinandeum, Dip. 1245/2</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1798">1798</date>
@@ -60,169 +79,169 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:rigler01.latty2694660.latty-lat1:">
-    <body>
-      <div>
-        <head>ODE IN SOLEMNI DISTRIBUTIONE NUMISMATUM VIRIS FORTIBUS A PROVINCIA TYROLENSI DECRETORUM.<date>V. CAL. JUN. MDCCXCVIII.</date>
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">ODE IN SOLEMNI DISTRIBUTIONE NUMISMATUM VIRIS FORTIBUS A PROVINCIA TYROLENSI DECRETORUM.<date n="date1">V. CAL. JUN. MDCCXCVIII.</date>
         </head>
       </div>
-      <div>
-        <l>Poscimus, siquid vacui sub umbra</l>
-        <l>Lusimus tecum, quod et hunc in annum</l>
-        <l>Vivat et plures: age, dic Latinum,</l>
-        <l>Barbite, carmen.</l>
-        <l>Horat. Libr. I. Odar. 27 ad Lyram.</l>
+      <div n="div2">
+        <l n="l1">Poscimus, siquid vacui sub umbra</l>
+        <l n="l2">Lusimus tecum, quod et hunc in annum</l>
+        <l n="l3">Vivat et plures: age, dic Latinum,</l>
+        <l n="l4">Barbite, carmen.</l>
+        <l n="l5">Horat. Libr. I. Odar. 27 ad Lyram.</l>
       </div>
-      <div>
-        <div>
-          <head>I.</head>
-          <l>Euoe triumpha, non superabilis</l>
-          <l>Mater virorum, Patria fortium!</l>
-          <l>Euoe triumpha jam, Tyrolis,</l>
-          <l>Cingito tempora mille lauris!</l>
+      <div n="div3">
+        <div n="div1">
+          <head n="head1">I.</head>
+          <l n="l2">Euoe triumpha, non superabilis</l>
+          <l n="l3">Mater virorum, Patria fortium!</l>
+          <l n="l4">Euoe triumpha jam, Tyrolis,</l>
+          <l n="l5">Cingito tempora mille lauris!</l>
         </div>
-        <div>
-          <head>II.</head>
-          <l>Diceris olim Mars Alemaniae</l>
-          <l>Et Galliarum terror et optimo</l>
-          <l>Gens chara Francisco secundo,</l>
-          <l>Relligione tua Fideque</l>
+        <div n="div2">
+          <head n="head1">II.</head>
+          <l n="l2">Diceris olim Mars Alemaniae</l>
+          <l n="l3">Et Galliarum terror et optimo</l>
+          <l n="l4">Gens chara Francisco secundo,</l>
+          <l n="l5">Relligione tua Fideque</l>
         </div>
-        <pb/>
-        <div>
-          <head>III.</head>
-          <l>Innixa, diro nescia cedere</l>
-          <l>Hosti, tuis vel firmior alpibus!</l>
-          <l>Non te minae Martisve fraudes</l>
-          <l>Innumerabilis et triumphus,</l>
+        <pb n="pb3"/>
+        <div n="div4">
+          <head n="head1">III.</head>
+          <l n="l2">Innixa, diro nescia cedere</l>
+          <l n="l3">Hosti, tuis vel firmior alpibus!</l>
+          <l n="l4">Non te minae Martisve fraudes</l>
+          <l n="l5">Innumerabilis et triumphus,</l>
         </div>
-        <div>
-          <head>IV.</head>
-          <l>Non arma terrent, non fera praelia,</l>
-          <l>Non ipse victor, quidlibet impotens</l>
-          <l>Sperare rebus tam secundis!</l>
-          <l>Irruat is minitans, Tyrolis</l>
+        <div n="div5">
+          <head n="head1">IV.</head>
+          <l n="l2">Non arma terrent, non fera praelia,</l>
+          <l n="l3">Non ipse victor, quidlibet impotens</l>
+          <l n="l4">Sperare rebus tam secundis!</l>
+          <l n="l5">Irruat is minitans, Tyrolis</l>
         </div>
-        <div>
-          <head>V.</head>
-          <l>Et pervagetur viscera vallium,</l>
-          <l>Auratum anhelis faucibus appetat</l>
-          <l>Tectum Oenipontanum recensens</l>
-          <l>Ambrasii pretiosa cistis</l>
+        <div n="div6">
+          <head n="head1">V.</head>
+          <l n="l2">Et pervagetur viscera vallium,</l>
+          <l n="l3">Auratum anhelis faucibus appetat</l>
+          <l n="l4">Tectum Oenipontanum recensens</l>
+          <l n="l5">Ambrasii pretiosa cistis</l>
         </div>
-        <div>
-          <head>VI.</head>
-          <l>Servata, avaro praemia militi</l>
-          <l>Promissa jurans, aedibus aulicis</l>
-          <l>Stantem aere longaevo virorum</l>
-          <l>Nobilium seriem figura</l>
+        <div n="div7">
+          <head n="head1">VI.</head>
+          <l n="l2">Servata, avaro praemia militi</l>
+          <l n="l3">Promissa jurans, aedibus aulicis</l>
+          <l n="l4">Stantem aere longaevo virorum</l>
+          <l n="l5">Nobilium seriem figura</l>
         </div>
-        <div>
-          <head>VII.</head>
-          <l>Versa tonare ut fulmina martia</l>
-          <l>Mandet suo forte exitiabilem</l>
-          <l>Cladem Nepoti post futuram!</l>
-          <l>Scrinia, templa, domos minent<add resp="Irina Tautschnig">es</add>
+        <div n="div8">
+          <head n="head1">VII.</head>
+          <l n="l2">Versa tonare ut fulmina martia</l>
+          <l n="l3">Mandet suo forte exitiabilem</l>
+          <l n="l4">Cladem Nepoti post futuram!</l>
+          <l n="l5">Scrinia, templa, domos minent<add n="add1" resp="Irina Tautschnig">es</add>
           </l>
         </div>
-        <div>
-          <head>VIII.</head>
-          <l>Stymphalli aves mox depopularier,</l>
-          <l>Rebus raptis denique singulos</l>
-          <l>Tum liberos dicant paresque,</l>
-          <l>Pauperie miseros eadem!</l>
+        <div n="div9">
+          <head n="head1">VIII.</head>
+          <l n="l2">Stymphalli aves mox depopularier,</l>
+          <l n="l3">Rebus raptis denique singulos</l>
+          <l n="l4">Tum liberos dicant paresque,</l>
+          <l n="l5">Pauperie miseros eadem!</l>
         </div>
-        <pb/>
-        <div>
-          <head>IX.</head>
-          <l>Hoc illa celso turgida spiritu,</l>
-          <l>Lenocinanti pelliciens sono,</l>
-          <l>Gens callida immani Tyrolim</l>
-          <l>Perdomitura fuit ruina!</l>
+        <pb n="pb10"/>
+        <div n="div11">
+          <head n="head1">IX.</head>
+          <l n="l2">Hoc illa celso turgida spiritu,</l>
+          <l n="l3">Lenocinanti pelliciens sono,</l>
+          <l n="l4">Gens callida immani Tyrolim</l>
+          <l n="l5">Perdomitura fuit ruina!</l>
         </div>
-        <div>
-          <head>X.</head>
-          <l>At qui potenti supplicibus manu</l>
-          <l>Praesens et imo tollere de gradu</l>
-          <l>Infirma consuevit, superbas</l>
-          <l>Vertere terga Deus phalanges</l>
+        <div n="div12">
+          <head n="head1">X.</head>
+          <l n="l2">At qui potenti supplicibus manu</l>
+          <l n="l3">Praesens et imo tollere de gradu</l>
+          <l n="l4">Infirma consuevit, superbas</l>
+          <l n="l5">Vertere terga Deus phalanges</l>
         </div>
-        <div>
-          <head>XI.</head>
-          <l>Jubet, tumultu pectora turbido</l>
-          <l>Miscet: ruunt hac, quae trepidis data</l>
-          <l>Porta est,<corr>retortis</corr>mox ademptas</l>
-          <l>Exuvias oculis dolentes!</l>
+        <div n="div13">
+          <head n="head1">XI.</head>
+          <l n="l2">Jubet, tumultu pectora turbido</l>
+          <l n="l3">Miscet: ruunt hac, quae trepidis data</l>
+          <l n="l4">Porta est,<corr n="corr1">retortis</corr>mox ademptas</l>
+          <l n="l5">Exuvias oculis dolentes!</l>
         </div>
-        <div>
-          <head>XII.</head>
-          <l>Qualis minister fulminis aliger</l>
-          <l>Solus minorum pennigerum greges</l>
-          <l>Terrore palantes per auras</l>
-          <l>Urget agens minitante rostro,</l>
+        <div n="div14">
+          <head n="head1">XII.</head>
+          <l n="l2">Qualis minister fulminis aliger</l>
+          <l n="l3">Solus minorum pennigerum greges</l>
+          <l n="l4">Terrore palantes per auras</l>
+          <l n="l5">Urget agens minitante rostro,</l>
         </div>
-        <pb/>
-        <div>
-          <head>XIII.</head>
-          <l>Tales Tyrolis tunc popularibus</l>
-          <l>Conjuncta Gallos viribus expulit!</l>
-          <l>
-            <note>Dominus Georgius Nagele a Stainachensibus et Dominus Petrus Mayr 
+        <pb n="pb15"/>
+        <div n="div16">
+          <head n="head1">XIII.</head>
+          <l n="l2">Tales Tyrolis tunc popularibus</l>
+          <l n="l3">Conjuncta Gallos viribus expulit!</l>
+          <l n="l4">
+            <note n="note1">Dominus Georgius Nagele a Stainachensibus et Dominus Petrus Mayr 
                     ab Axamensibus ad concilium provinciale missi.</note>Senes beati! Isthaec vetustae</l>
-          <l>Praemia sunt fidei, valenti</l>
+          <l n="l5">Praemia sunt fidei, valenti</l>
         </div>
-        <div>
-          <head>XIV.</head>
-          <l>Cum voce percussi quoque pectora</l>
-          <l>Primi Deum testando per omnia,</l>
-          <l>Quae sancta, campanas vibrari</l>
-          <l>Ad Boream resono boatu</l>
+        <div n="div17">
+          <head n="head1">XIV.</head>
+          <l n="l2">Cum voce percussi quoque pectora</l>
+          <l n="l3">Primi Deum testando per omnia,</l>
+          <l n="l4">Quae sancta, campanas vibrari</l>
+          <l n="l5">Ad Boream resono boatu</l>
         </div>
-        <div>
-          <head>XV.</head>
-          <l>Ceu classicum agris, urbibus et casis</l>
-          <l>Vultis! Minorem non ego te canam</l>
-          <l>Virtute, nostratis juventae</l>
-          <l>Laus, honor atque decus, tuorum</l>
+        <div n="div18">
+          <head n="head1">XV.</head>
+          <l n="l2">Ceu classicum agris, urbibus et casis</l>
+          <l n="l3">Vultis! Minorem non ego te canam</l>
+          <l n="l4">Virtute, nostratis juventae</l>
+          <l n="l5">Laus, honor atque decus, tuorum</l>
         </div>
-        <div>
-          <head>XVI.</head>
-          <l>Australium qui factus aheneus</l>
-          <l>Murus, retardas millia militum</l>
-          <l>Fretus viris ternis tibique</l>
-          <l>Auxiliante Deo triumphas!<note>Dominus Martinus Teimer, 
+        <div n="div19">
+          <head n="head1">XVI.</head>
+          <l n="l2">Australium qui factus aheneus</l>
+          <l n="l3">Murus, retardas millia militum</l>
+          <l n="l4">Fretus viris ternis tibique</l>
+          <l n="l5">Auxiliante Deo triumphas!<note n="note1">Dominus Martinus Teimer, 
                         jaculatorum Maisensium Procenturio, tum Poeseos Merani, nunc Oeniponti Philosophiae Studiosus.</note>
           </l>
         </div>
-        <div>
-          <head>XVII.</head>
-          <l>O Patriae Patres, quibus ipsius</l>
-          <l>Jesu Cor unos esse Tyroleos</l>
-          <l>Cives dedit; Fortes eodem</l>
-          <l>Corde Viros redimite sertis,</l>
+        <div n="div20">
+          <head n="head1">XVII.</head>
+          <l n="l2">O Patriae Patres, quibus ipsius</l>
+          <l n="l3">Jesu Cor unos esse Tyroleos</l>
+          <l n="l4">Cives dedit; Fortes eodem</l>
+          <l n="l5">Corde Viros redimite sertis,</l>
         </div>
-        <div>
-          <head>XVIII.</head>
-          <l>Palmas virentes plectite, nectite</l>
-          <l>Lauros et uni cuique Numismata</l>
-          <l>Nepotibus seris futura</l>
-          <l>Indicium fidei datote!</l>
+        <div n="div21">
+          <head n="head1">XVIII.</head>
+          <l n="l2">Palmas virentes plectite, nectite</l>
+          <l n="l3">Lauros et uni cuique Numismata</l>
+          <l n="l4">Nepotibus seris futura</l>
+          <l n="l5">Indicium fidei datote!</l>
         </div>
       </div>
-      <pb/>
-      <div>
-        <head>Freye Uebersetzung der lateinischen Ode, so auf die von der Tyrolischen Landschaft veranstalteten Austheilung der Ehrenmünzen am 28. Maymonaths 1789 verfertiget worden.</head>
+      <pb n="pb4"/>
+      <div n="div5">
+        <head n="head1">Freye Uebersetzung der lateinischen Ode, so auf die von der Tyrolischen Landschaft veranstalteten Austheilung der Ehrenmünzen am 28. Maymonaths 1789 verfertiget worden.</head>
       </div>
-      <div>
-        <p>Frohlocke nun unbezwingliche Mutter, Vaterland tapferer Männer! Frohlocke nun
+      <div n="div6">
+        <p n="p1">Frohlocke nun unbezwingliche Mutter, Vaterland tapferer Männer! Frohlocke nun
                     Tyrol, und umwinde deine Schläfe mit Tausenden der Lorberkränze!</p>
-        <p>Einst wirst du heißen Wodan<note>Der Kriegsgott der alten Deutschen.</note>der Allemanier, der Feinde Schrecken, und das vom
+        <p n="p2">Einst wirst du heißen Wodan<note n="note1">Der Kriegsgott der alten Deutschen.</note>der Allemanier, der Feinde Schrecken, und das vom
                     besten der Herrscher Franzen dem Zweyten geliebte Volk!</p>
-        <p>Mit offener Stirne, gestützt auf Religion und Treue, biethest du dem greulichen
-                    Feinde den Trotz, und fester, als deine Alpengebirge<pb/>stehest du ihm unerschüttert entgegen! Muthig bey Drohungen, und Kriegeslisten,
+        <p n="p3">Mit offener Stirne, gestützt auf Religion und Treue, biethest du dem greulichen
+                    Feinde den Trotz, und fester, als deine Alpengebirge<pb n="pb1"/>stehest du ihm unerschüttert entgegen! Muthig bey Drohungen, und Kriegeslisten,
                     schrecken dich nicht die unzähligen Siege, nicht das Geräusch der Waffen, und
                     die grausamen Schlachten, selbst nicht der Glückslauf des Siegers, betrunken in
                     seinen Hoffnungen!</p>
-        <p>Er soll hereinbrechen der stolze Droher; und der Thäler Eingeweide durchwühlen,
+        <p n="p4">Er soll hereinbrechen der stolze Droher; und der Thäler Eingeweide durchwühlen,
                     bis zum Herzen Tyrols soll er dringen; schnaubend mag er nach Innsbrucks Zierde,
                     nach dem Golde des Dächchens haschen; Ambras Schätze, verschlossen in Schränken,
                     mag er seinem gierigen Krieger zur lohnenden Beute verheißen; selbst die
@@ -230,14 +249,14 @@
                     gebildet, und des Alterthumes, so die Fürstenbilder im Erzte gegossen ehrwürdig
                     schildert, auch diese mag er umzustalten sinnen, daß sie sogar als kriegerische
                     Donnerschläge zum Verderben ihres Enkels brüllen!</p>
-        <p>Plünderung und Verheerung mag dieser den Tempeln, Pallästen und Hütten drohen,
+        <p n="p5">Plünderung und Verheerung mag dieser den Tempeln, Pallästen und Hütten drohen,
                     und endlich nach vollbrachtem Raube die Elenden bey allgemeiner Erarmung alle
                     frey und gleich erklären!</p>
-        <p>So dachte dieses, von hoher Einbildung getäuschte; dieß durch reitzende Töne
+        <p n="p6">So dachte dieses, von hoher Einbildung getäuschte; dieß durch reitzende Töne
                     bezaubernde listige Volk dem Tyrol die Unterjochung mit schrecklichem Sturze
                     zu!</p>
-        <pb/>
-        <p>Doch der allgewaltige Gott, der die Flehenden mit mächtigem Schirme schützt, und
+        <pb n="pb7"/>
+        <p n="p8">Doch der allgewaltige Gott, der die Flehenden mit mächtigem Schirme schützt, und
                     die Niedrigen von der Tiefe empor hebt, hieß die stolzen Schaaren fliehen; in
                     Angst und Schrecken verwirrt er ihre Herzen; schon stürzen die Sieggewohnten
                     dort, wo ihnen die Pforte offen blieb, bebend hinaus, und trauern mit noch
@@ -245,20 +264,20 @@
                     Donnerkeiltragende Adler allein erschrockene Heerden kleinerer Vögelchen im
                     drohenden Fluge durch Lüfte herumierend jagt: so trieb Tyrol, in Massen vereint,
                     die Gallier hinaus!</p>
-        <p>Glückliche Alte! empfanget den Lohn eurer alten Treue, und nehmet den Dank hin,
+        <p n="p9">Glückliche Alte! empfanget den Lohn eurer alten Treue, und nehmet den Dank hin,
                     den euch das Vaterland darbringt; Ihr riefet zuerst Gott und den Himmel zu
                     Zeugen mit mächtigem Schlage auf eure Brust, und zoget im nördlichen Theile die
-                    stürmende Glocke für Adel, Bürger und Bauer zum Kampfe voll Begeisterung an!<note>Herr Georg Nagele von Stainach, und Herr Peter Mayr von Axams kamen 
+                    stürmende Glocke für Adel, Bürger und Bauer zum Kampfe voll Begeisterung an!<note n="note1">Herr Georg Nagele von Stainach, und Herr Peter Mayr von Axams kamen 
                         als Abgeordnete zum landschaftlichen Congresse.</note>
         </p>
-        <p>Aber auch dich Jüngling! Zierde und Ehre unserer Jugend! auch dich soll meine
+        <p n="p10">Aber auch dich Jüngling! Zierde und Ehre unserer Jugend! auch dich soll meine
                     Harfe besingen, und deine Tapferkeit hoch preisen; du warst deinen biedern
                     Landsleuten im Süden eine eherne Mauer! Tausende der feindlichen Krieger standen
-                    bebend vor Dir, und den letzten Dreyen,<pb/>die dich unterstützten, unbeweglich
-                    da! so siegtest Du, durch Gottes Hülfe!<note>Herr Martin Teimer Unterlieutenant der Maiser Compagnie, 
+                    bebend vor Dir, und den letzten Dreyen,<pb n="pb1"/>die dich unterstützten, unbeweglich
+                    da! so siegtest Du, durch Gottes Hülfe!<note n="note2">Herr Martin Teimer Unterlieutenant der Maiser Compagnie, 
                         damahls der Poesie zu Meran, jetzt der Philosophie beflissen zu Innsbruck.</note>
         </p>
-        <p>Väter des Vaterlandes! Euch gab Jesu Herz, daß Tyrols Bewohner durch Muth und
+        <p n="p11">Väter des Vaterlandes! Euch gab Jesu Herz, daß Tyrols Bewohner durch Muth und
                     Eintracht siegten! krönet die durch das nähmliche Herz tapfere Sieger! pflücket
                     grünende Palmen und flechtet Lorber, gebet ihnen Denkmünzen, für späte Enkel zum
                     Zeichen der Treue!</p>

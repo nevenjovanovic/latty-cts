@@ -38,6 +38,25 @@
         <bibl>AAu, 578. 4</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1757">1757</date>
@@ -60,43 +79,43 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:scarpari01.latty2699654.latty-lat1:">
-    <body>
-      <div>
-        <head>Oratio per solemni studiorum instauratione habita in ecclesia cathedrali Patavina
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">Oratio per solemni studiorum instauratione habita in ecclesia cathedrali Patavina
                 post. Kal. Novembris MDCCLVII. a Ioanne Baptista Scarpari Rhato Philos. et Medic.
                 Doct. Tridentino felicissimis sub auspiciis ilustriss. ac excellentiss. D.D.
                 Francisci Mauroceni P. EQ. Patavinae urbi praetoris ac pro-praefecti, nec non
                 senatoris amplissimi.</head>
-        <p>
-          <placeName>Patavii</placeName>, ex typographia fratrum vidali, typogr. Almae Univ. Artist.</p>
-        <p>Superiorum permissu.</p>
+        <p n="p2">
+          <placeName n="placeName1">Patavii</placeName>, ex typographia fratrum vidali, typogr. Almae Univ. Artist.</p>
+        <p n="p3">Superiorum permissu.</p>
       </div>
-      <pb n="I"/>
-      <pb n="II"/>
-      <div>
-        <head>
-          <persName>Francisco Maurocenio</persName>I. EQ. senatori amplissimo, ac Patavinae urbis moderatori.<persName>Ioannes Baptista Scarpari F.</persName>
+      <pb n="pb2"/>
+      <pb n="pb3"/>
+      <div n="div4">
+        <head n="head1">
+          <persName n="persName1">Francisco Maurocenio</persName>I. EQ. senatori amplissimo, ac Patavinae urbis moderatori.<persName n="persName2">Ioannes Baptista Scarpari F.</persName>
         </head>
-        <p>Dum praeclarissimam, ac vere singularem doctrinam, scientiamque intueor, qua ingenii
-                tui acies, mentisque subtilitas insignita semper fuit<emph>SENATOR AMPLISSIME</emph>, satis apte
+        <p n="p2">Dum praeclarissimam, ac vere singularem doctrinam, scientiamque intueor, qua ingenii
+                tui acies, mentisque subtilitas insignita semper fuit<emph n="emph1">SENATOR AMPLISSIME</emph>, satis apte
                 mihi suadeo, nullum mehercle invenire posse digniorem, atque notiorem, cuius
                 auspiciis hoc primum ingenioli mei specimen, tenuique stilo contextum commendare
                 possim. Non enim me latet, tali ani-</p>
-        <pb n="III"/>
-        <p>mi magnitudine, integritate, atque sapientia te preditum esse, ut non tantum
+        <pb n="pb3"/>
+        <p n="p4">mi magnitudine, integritate, atque sapientia te preditum esse, ut non tantum
                 literatis, verum adolescentibus omnibus virtutis, ac liberalium artium desiderio huc
                 ex toto terrarum orbe accurentibus omne studii, officii, gratiae genus exhibere
                 soleas. Quae sane liberalitatis tuae monumenta, quae maximam in te rerum omnium
                 peritiam, atque prudentiam apertissime celebrant, in tuto me ponunt, ut quemadmodum
                 quae sum dicturus hilari fronte excipere non detrectas, eodem modo hoc qualecumque
-                sit observantiae meae argumentum, et me simul suscepturus sis fortique patrocinio<corr>defensurus</corr>. Interim Deum Optimum Maximum
+                sit observantiae meae argumentum, et me simul suscepturus sis fortique patrocinio<corr n="corr1">defensurus</corr>. Interim Deum Optimum Maximum
                 imploro, ut te per quam diutissimo conservet incolumen, ut consequi possis illos
                 omnes honores, quos virtus tua vere maxima promeretur.</p>
       </div>
-      <pb n="IV"/>
-      <div>
-        <head>Oratio.</head>
-        <p>Sapientissime haud dubie instituerunt maiores nostri (eminentissime princeps;
+      <pb n="pb5"/>
+      <div n="div6">
+        <head n="head1">Oratio.</head>
+        <p n="p2">Sapientissime haud dubie instituerunt maiores nostri (eminentissime princeps;
                 illustrissime, ac excellentissime huius inclitae urbis moderator, ac senator
                 amplissime; illustrissime ac celeberrime professor, pro-rector ac syndice;
                 illustrissimi ac toto terrarum orbe celeberrimi professores; auditores reliqui
@@ -107,8 +126,8 @@
                 atque sectanda liberalium artium studia inflammarentur. Et quamvis multa occupent
                 mentem meam, quae timorem caeteris etiam iniicere solent, qui publice dicendi munus
                 suscipiunt, cum ta-</p>
-        <pb n="V"/>
-        <p>men onus istud ab iis mihi demandatum sit, qui apud me plurimum valent, pro mea
+        <pb n="pb3"/>
+        <p n="p4">men onus istud ab iis mihi demandatum sit, qui apud me plurimum valent, pro mea
                 virili parte satisfacere contendam, quod autem ingenio meo, meae diligentiae deerit,
                 benevolentia vestra, atque animi magnanimitas supplere dignetur. Hinc ne aliorum,
                 qui ante me ex hoc loco lectissime sermocinati sunt, modum ipsi modo de necessaria
@@ -117,7 +136,7 @@
                 non penitus insulsum arbitror de necessaria inter medicorum recentiorum doctrinas et
                 Hippocratica praecepta coniunctione disserere. Quod quidem dum ad pertractandum
                 accedo vos oro, obtestorque, ut qui praesentia adestis, adsitis etiam animis.</p>
-        <p>Non arbitretur quispiam vestrum me in prima statim fronte venditare velle omnes
+        <p n="p5">Non arbitretur quispiam vestrum me in prima statim fronte venditare velle omnes
                 medicinae progressus ita ex principiis, ac praeceptis huius medicorum omnium facile
                 principis emanasse, ut nihil penitus excogitari, aut adinveniri a recentioribus in
                 hac arte eruditissimis viris potuerit, quod in eisdem Hippocraticis documentis vel
@@ -130,16 +149,16 @@
                 praeclarissimam hanc scientiam aggredi in votis habent, nec praeceptis illius
                 solummodo contentos esse debere, minus vero recentiorum inventis tantum
                 acquiescere.</p>
-        <p>Quamquam enim medicis posteriorum aetatum et quidem celeberrimis plurima debeamus,
+        <p n="p6">Quamquam enim medicis posteriorum aetatum et quidem celeberrimis plurima debeamus,
                 dicant quaeso quemnam praeceptorem et ipsi agnoverint, quo suas probare possent
-                doctrinas, hasce illustrare, eisdemque novas addere?<persName>Hippocrates</persName>una voce in medium
-                proferri audietur.<persName>Hippocratis</persName>methodum, atque instituta prosecuti sunt quiqumque
-                aetate ipsi successerunt,<persName>Dexippus</persName>in primie eius discipulus,<persName>Thessalus</persName>,<persName>Dracon</persName>atque<persName>Polybius</persName>, quorum tres isti postremi viri prosecto fuere non tantum
+                doctrinas, hasce illustrare, eisdemque novas addere?<persName n="persName1">Hippocrates</persName>una voce in medium
+                proferri audietur.<persName n="persName2">Hippocratis</persName>methodum, atque instituta prosecuti sunt quiqumque
+                aetate ipsi successerunt,<persName n="persName3">Dexippus</persName>in primie eius discipulus,<persName n="persName4">Thessalus</persName>,<persName n="persName5">Dracon</persName>atque<persName n="persName6">Polybius</persName>, quorum tres isti postremi viri prosecto fuere non tantum
                 consanguinitate, quam doctrinae imitatione eidem valde affines, quibus addendi sunt
                 Graeci omnes, aliarum que nationum praeclarissima lumina, celeberrima, in primis
                 huiusce civitatis, gymna-</p>
-        <pb n="VI"/>
-        <p>sia et quae<country>Galliam</country>,<country>Angliam</country>,<country>Germaniam</country>,<country>Europam</country>denique<country>Asiam</country>totumque orbem
+        <pb n="pb7"/>
+        <p n="p8">sia et quae<country n="country1">Galliam</country>,<country n="country2">Angliam</country>,<country n="country3">Germaniam</country>,<country n="country4">Europam</country>denique<country n="country5">Asiam</country>totumque orbem
                 illustrant. Et sane maximus iste vir, scientiae huic perficiendae profecto a caelo
                 datus, primus ad corporis humnai structuram minutim investiganda, ac exponendam
                 mirabili studio se dedit, primus nervorum, musculorum, arteriarum, venarum,
@@ -147,16 +166,16 @@
                 ipsi propterea praecipua anatomes fundamenta iure merito debeamus, quae quantum
                 prosint ad veras morborum causas, progressus, effectus dignoscendos, quae elapso
                 anno ex hoc loco pertractata fuerunt satis declarant, nec non viri omnes in hac
-                scientia versatissimi quotidie experiuntur. Expertus est ipse<persName>Hippocrates</persName>, qui de
+                scientia versatissimi quotidie experiuntur. Expertus est ipse<persName n="persName6">Hippocrates</persName>, qui de
                 facili didicit apta cuique morbo remedia adinvenire, didicit moderatum usum
                 balneorum, fotuum, lotionum, unctionum, frictionum et debitas in solidis
                 observationes, tonum et molitiem praescribere, ne aliquando impedimento sint
-                circulantibus fluidis (ut egregie animadvertit<persName>Georgius Baglivus</persName>) praescribere e
+                circulantibus fluidis (ut egregie animadvertit<persName n="persName7">Georgius Baglivus</persName>) praescribere e
                 contra debitas, in fluidis observationes, ne nimio impetu, acrimonia, tenuitate,
                 velocitateque praeter naturali agitata morbosas ariditates, tensiones, crispaturas
                 in solidis inducant. Dignus propterea, qui laudem hanc promeruerit, ut primus vera
                 medicinae praecepta statuisse dicatur.</p>
-        <p>Verum fateri debent adolescentes, omnes, maximum hunc virum multa sublimiora atque
+        <p n="p9">Verum fateri debent adolescentes, omnes, maximum hunc virum multa sublimiora atque
                 intellectu difficiliora reliquisse, perspicacissima ingenia defatigasse atque
                 coegisse, ut sapientissimis inde elocubrationibus, commentariis, et explanationibus,
                 quae obscura erant illustrarent, et quae postea in explanando nova prodierunt, in
@@ -165,20 +184,20 @@
                 emolumento adinventa fuere, declarant ea omnia, quae de sanguinis circulatione,
                 ductu thoracis, glandulis infinits, abdiditis quorumdam morborum causis, eorumque
                 sedibus praescripta habemus; praesertim quae de respirationis causa, atque pulchra
-                mechanica actione musculorum, quae eidem inservit, a<persName>Galilaeo</persName>prius, a<persName>Boylaeo</persName>deinde per gravitatem aeris, ac per eius vim elasticam peculiari ratione inventa;
+                mechanica actione musculorum, quae eidem inservit, a<persName n="persName1">Galilaeo</persName>prius, a<persName n="persName2">Boylaeo</persName>deinde per gravitatem aeris, ac per eius vim elasticam peculiari ratione inventa;
                 declarant ea omnia, quae de plastica et de altrice actione a viris ornatissimis
                 saniori physica, atque subiliori anatome detecta fuerunt, quae si omnia numerando
                 recensere vellem, orationem nimis, protra-</p>
-        <pb n="VII"/>
-        <p>herem. His vero quantum incrementi acceperit medicina, nemo est, qui non videat, ita
-                ut asserere auderem, recentiorum doctrinas, atque inventa cum<persName>Hippocraticis</persName>praeceptis, ac fundamentis<corr>coniuncta</corr>ultimum
+        <pb n="pb10"/>
+        <p n="p11">herem. His vero quantum incrementi acceperit medicina, nemo est, qui non videat, ita
+                ut asserere auderem, recentiorum doctrinas, atque inventa cum<persName n="persName1">Hippocraticis</persName>praeceptis, ac fundamentis<corr n="corr2">coniuncta</corr>ultimum
                 perfectiorem apicem fere attigisse.</p>
-        <p>Quae cum ita sint, quemadmodum aedificium aliquod aomparantibus, necesse est, ut non
+        <p n="p12">Quae cum ita sint, quemadmodum aedificium aliquod aomparantibus, necesse est, ut non
                 tantum de mole, vero de fundamentis etiam, quibus moles attolli possit, foliciti
                 sint; enimvero hisce neglectis domus super arenam construeretur, neglecta illa, ad quid solida quaeso prodessent
                 fundamenta? Ad nihil procul dubio; eadem incommoda illis quidem impendent, qui vel
                 solis Hippocraticis praeceptis adhaerescunt, vel solum recentiorum ingenium
-                admirantur. Praecepta quidem<persName>Hippocratis</persName>quanquam tutam nobis ad munus nostrum
+                admirantur. Praecepta quidem<persName n="persName1">Hippocratis</persName>quanquam tutam nobis ad munus nostrum
                 optime exercendum viam pandant, si tamen nuda incipientibus proponantur, prima ipsa
                 fronte intellectui difficilia, et explicatu difficiliora prospicientur; ipsorum
                 mentem difficultatibus ut plurimum implicabunt, ut nemo sine duce non nisi ardue, et
@@ -190,20 +209,20 @@
                 feliciter detecta, ac magna cum utilitate explanata fuere? Ex quibus nonnullorum
                 morborum causas, non minus quam effectus dignoscere possumus, et tam istis, quam
                 illis apta remedia adinvenire.</p>
-        <p>Verum recentiorum doctrinis tantum acquiessere opus erit? Maxime dubito, quin in
+        <p n="p13">Verum recentiorum doctrinis tantum acquiessere opus erit? Maxime dubito, quin in
                 maiorem scopulum incidamus; quis enim geometriae theorematum demonstrationes
                 comprehendere poterit, ni prius ipsa principia probe, promptissimeque calleat? Et
                 sane quicumque de arte medica optime meriti sunt, se non parvum debere Hippocraticis
                 institutis, ex quibus suas deprompserint cognitiones, suasque confirmaverint
-                doctrinas, inficiari nequeunt; ipsa enim praeclarissima inventa principiis<persName>Hippocraticis</persName>cohaerentia satis ostendunt, Hippocratica praecepta tanquam fundamenta
+                doctrinas, inficiari nequeunt; ipsa enim praeclarissima inventa principiis<persName n="persName1">Hippocraticis</persName>cohaerentia satis ostendunt, Hippocratica praecepta tanquam fundamenta
                 recentioribus inservisse. Utrumque igitur nobis proponendum est, et praecepta quidem
                 Hippocratis, ut hisce innixi recta via incedere possimus, atque solida artis
                 medicinae prosequi fundamenta, et recentiorum inventa,</p>
-        <pb n="VIII"/>
-        <p>quibus quae in<persName>Hippocrate</persName>obscura sunt, et intellectu<corr>difficillima</corr>, 
+        <pb n="pb14"/>
+        <p n="p15">quibus quae in<persName n="persName1">Hippocrate</persName>obscura sunt, et intellectu<corr n="corr2">difficillima</corr>, 
                 apprehendamus, quae desunt abunde hauriamus. Et hic sane
                 latius excurrendi pateret orationi locus, exponendi scilicet singillatim, quae
-                medico<persName>Hippocratis</persName>, et recentiorum doctrinis imbuto, evenire solent, verum cum
+                medico<persName n="persName3">Hippocratis</persName>, et recentiorum doctrinis imbuto, evenire solent, verum cum
                 partim ex adhuc dictis id non obscure intelligatur, partim quia viris verba facio,
                 qui in hoc et imitatione, et instructione conveniunt, et adolescentes melius in ipso
                 scientiae progressu agnoscere poterunt, finem institutae, orationi imponam; certus
@@ -212,13 +231,13 @@
                 non tenuet. Id unum vero dissimulare, ac silentio praeterire non licet, adolescentes
                 optimi, nihil nobis penitus deesse, ut rectam hanc in medica arte proficiendi
                 rationem, nec non caeteras praestantissimas virtutes, ac disciplinas alacriter
-                arripiamus, tuto, ac magna nostra utilitate prosequamus; habemus in primis<placeName>Venetum</placeName>senatum, qui summa prudentia, iustitia atque integritate et vigilantia, nos
+                arripiamus, tuto, ac magna nostra utilitate prosequamus; habemus in primis<placeName n="placeName4">Venetum</placeName>senatum, qui summa prudentia, iustitia atque integritate et vigilantia, nos
                 studiaque nostra, nostraque iura piissime, ac promptissime defendit; habemus
                 eminentissimi antistitis auctoritatem, et benevolentiam, qui summa amoris
                 significatione non solum viros ornatissimos, verum adolescentes omnes studiis
-                debitos excipit; habemus<persName>
-            <emph>FRANCISCUM MAUROCENUM</emph>
-          </persName>a republica<placeName>Veneta</placeName>non minus
+                debitos excipit; habemus<persName n="persName5">
+            <emph n="emph1">FRANCISCUM MAUROCENUM</emph>
+          </persName>a republica<placeName n="placeName6">Veneta</placeName>non minus
                 pervigilem huic civitati rectorem constitutum, verum ad huius gymnasii ornamentum
                 absque dubio electum, eodemque tempore omnes studiosos adolescentes ad ingenuas
                 virtutes amplectendas patrocinio excitantem; habemus denique caeteros professores
@@ -228,10 +247,10 @@
                 tutelam simul ostendas; interim tibi grates habeo immortales, quia tam humaniter
                 oratiunculam hanc meam suscipere dignatus es, et pro accepto beneficio imago tua,
                 quousquam vicero, numquam a mente mea erit peritura.</p>
-        <p>
-          <emph>DIXI</emph>.</p>
+        <p n="p16">
+          <emph n="emph1">DIXI</emph>.</p>
       </div>
-      <pb n="IX"/>
+      <pb n="pb7"/>
     </body>
   </text>
 </TEI>

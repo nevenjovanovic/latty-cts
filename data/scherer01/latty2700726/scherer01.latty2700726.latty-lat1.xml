@@ -36,6 +36,25 @@
         <bibl>TLMF, FB 1344, 495</bibl>
       </sourceDesc>
     </fileDesc>
+    <tei:encodingDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </tei:encodingDesc>
     <profileDesc>
       <creation>
         <date when="1710">1710</date>
@@ -58,292 +77,292 @@
     </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:latty:scherer01.latty2700726.latty-lat1:">
-    <body>
-      <div>
-        <head>o<emph>D</emph>e sapph<emph>IC</emph>a<emph>IU</emph>r<emph>I</emph>s Defensor<emph>I</emph>
-          <emph>DIC</emph>ata videlicet admodium reverendo nobili, et eximio
-                domino<persName>Gallo Plazer</persName>SS. Theologiae Baccal. eiusdemque pro suprema laurea cand. exam.
+    <body n="body1">
+      <div n="div1">
+        <head n="head1">o<emph n="emph1">D</emph>e sapph<emph n="emph2">IC</emph>a<emph n="emph3">IU</emph>r<emph n="emph4">I</emph>s Defensor<emph n="emph5">I</emph>
+          <emph n="emph6">DIC</emph>ata videlicet admodium reverendo nobili, et eximio
+                domino<persName n="persName7">Gallo Plazer</persName>SS. Theologiae Baccal. eiusdemque pro suprema laurea cand. exam.
                 Et approb. nec non I.U.S. in Caesareo-Archiducali Universitate Oenipontana contractum sponsalitium defensuro.</head>
-        <p>
-          <placeName>Tridenti</placeName>,<date>MDCCX</date>.</p>
-        <p>Ex typographia<persName>Ioannis Antonii Brunatti</persName>.</p>
-        <p>Superiorum permissu.</p>
+        <p n="p2">
+          <placeName n="placeName1">Tridenti</placeName>,<date n="date2">MDCCX</date>.</p>
+        <p n="p3">Ex typographia<persName n="persName1">Ioannis Antonii Brunatti</persName>.</p>
+        <p n="p4">Superiorum permissu.</p>
       </div>
-      <pb/>
-      <div>
-        <lg type="stanza" n="1">
-          <l>Mitte<persName>Gallum</persName>ad praelia cum hoc Lacaena,</l>
-          <l>Cui cruor fervet saliente vena:</l>
-          <l>Dimicabit, cum hoc pariter redibit,</l>
-          <l>Victor abibit.</l>
+      <pb n="pb2"/>
+      <div n="div3">
+        <lg n="lg1" type="stanza">
+          <l n="l1">Mitte<persName n="persName1">Gallum</persName>ad praelia cum hoc Lacaena,</l>
+          <l n="l2">Cui cruor fervet saliente vena:</l>
+          <l n="l3">Dimicabit, cum hoc pariter redibit,</l>
+          <l n="l4">Victor abibit.</l>
         </lg>
-        <lg type="stanza" n="2">
-          <l>Sic Lacaena his vocibus usa fertur,</l>
-          <l>Cum hoc redi fili, vel in hoc, refertur</l>
-          <l>Filius tunc cum hac redisse parma</l>
-          <l>Pronus ad arma.</l>
+        <lg n="lg2" type="stanza">
+          <l n="l1">Sic Lacaena his vocibus usa fertur,</l>
+          <l n="l2">Cum hoc redi fili, vel in hoc, refertur</l>
+          <l n="l3">Filius tunc cum hac redisse parma</l>
+          <l n="l4">Pronus ad arma.</l>
         </lg>
-        <lg type="stanza" n="3">
-          <l>Classicum clangit, lituum, tubarum</l>
-          <l>Editur clangor, iubilo dearum:</l>
-          <l>Ad palaestram debita signa dantur,</l>
-          <l>Bella parantur.</l>
+        <lg n="lg3" type="stanza">
+          <l n="l1">Classicum clangit, lituum, tubarum</l>
+          <l n="l2">Editur clangor, iubilo dearum:</l>
+          <l n="l3">Ad palaestram debita signa dantur,</l>
+          <l n="l4">Bella parantur.</l>
         </lg>
-        <lg type="stanza" n="4">
-          <l>Hoc viri clamore tubae cientur,</l>
-          <l>Sanguinem quamvis pugili minentur</l>
-          <l>Praelia, urget, cernitur haudque rardor,</l>
-          <l>Martius ardor.</l>
+        <lg n="lg4" type="stanza">
+          <l n="l1">Hoc viri clamore tubae cientur,</l>
+          <l n="l2">Sanguinem quamvis pugili minentur</l>
+          <l n="l3">Praelia, urget, cernitur haudque rardor,</l>
+          <l n="l4">Martius ardor.</l>
         </lg>
-        <lg type="stanza" n="5">
-          <l>
-            <persName>GALLE</persName>felix terque quaterque, arenam</l>
-          <l>Scande fortis, Palladiamque scenam</l>
-          <l>Inter armatos pugiles, ubi lis</l>
-          <l>Regnat in aulis.</l>
+        <lg n="lg5" type="stanza">
+          <l n="l1">
+            <persName n="persName1">GALLE</persName>felix terque quaterque, arenam</l>
+          <l n="l2">Scande fortis, Palladiamque scenam</l>
+          <l n="l3">Inter armatos pugiles, ubi lis</l>
+          <l n="l4">Regnat in aulis.</l>
         </lg>
-        <lg type="stanza" n="6">
-          <l>Eia certandum; lituis obito</l>
-          <l>Bella, post lauro viridi redito:</l>
-          <l>Sponsus astraeae cito sume zonam,</l>
-          <l>Quaere coronam.</l>
+        <lg n="lg6" type="stanza">
+          <l n="l1">Eia certandum; lituis obito</l>
+          <l n="l2">Bella, post lauro viridi redito:</l>
+          <l n="l3">Sponsus astraeae cito sume zonam,</l>
+          <l n="l4">Quaere coronam.</l>
         </lg>
-        <pb xml:id="FA2"/>
-        <lg type="stanza" n="7">
-          <l>Non diu cunctare animatus heros</l>
-          <l>Conclitem, aiaces imitare veros,</l>
-          <l>Suscipe, in certamine notus hospes,</l>
-          <l>Praelia sospes.</l>
+        <pb n="pb7" xml:id="FA2"/>
+        <lg n="lg8" type="stanza">
+          <l n="l1">Non diu cunctare animatus heros</l>
+          <l n="l2">Conclitem, aiaces imitare veros,</l>
+          <l n="l3">Suscipe, in certamine notus hospes,</l>
+          <l n="l4">Praelia sospes.</l>
         </lg>
-        <lg type="stanza" n="8">
-          <l>Nonne cum astaea facis alma pacta?</l>
-          <l>Hoc tamen pacto petis illa facta,</l>
-          <l>Veneris sit cum hoc, superesque fastus</l>
-          <l>Hostis et astus.</l>
+        <lg n="lg9" type="stanza">
+          <l n="l1">Nonne cum astaea facis alma pacta?</l>
+          <l n="l2">Hoc tamen pacto petis illa facta,</l>
+          <l n="l3">Veneris sit cum hoc, superesque fastus</l>
+          <l n="l4">Hostis et astus.</l>
         </lg>
-        <lg type="stanza" n="9">
-          <l>Ne fidem, qualem Themidi dedisti,</l>
-          <l>Frangere attentes, et ab hac petisti,</l>
-          <l>Pugna, si hanc servas (mihi crede) victa est,</l>
-          <l>Palma relicta est.</l>
+        <lg n="lg10" type="stanza">
+          <l n="l1">Ne fidem, qualem Themidi dedisti,</l>
+          <l n="l2">Frangere attentes, et ab hac petisti,</l>
+          <l n="l3">Pugna, si hanc servas (mihi crede) victa est,</l>
+          <l n="l4">Palma relicta est.</l>
         </lg>
-        <lg type="stanza" n="10">
-          <l>In Die aeterna bonitate spera,</l>
-          <l>Unus hic luctae tua sit machaera,</l>
-          <l>Anchoram hanc firmis manibus tenebis</l>
-          <l>Nilque timebis.</l>
+        <lg n="lg11" type="stanza">
+          <l n="l1">In Die aeterna bonitate spera,</l>
+          <l n="l2">Unus hic luctae tua sit machaera,</l>
+          <l n="l3">Anchoram hanc firmis manibus tenebis</l>
+          <l n="l4">Nilque timebis.</l>
         </lg>
-        <lg type="stanza" n="11">
-          <l>Queis amabo armis, gladiove, bello</l>
-          <l>
-            <persName>GALLE</persName>certas? Uteris hoc libello,</l>
-          <l>Fide: nam hac hostes superabis arte</l>
-          <l>Vindice Marte.</l>
+        <lg n="lg12" type="stanza">
+          <l n="l1">Queis amabo armis, gladiove, bello</l>
+          <l n="l2">
+            <persName n="persName1">GALLE</persName>certas? Uteris hoc libello,</l>
+          <l n="l3">Fide: nam hac hostes superabis arte</l>
+          <l n="l4">Vindice Marte.</l>
         </lg>
-        <lg type="stanza" n="12">
-          <l>Stas quidem in campo undique Marte septo,</l>
-          <l>Absque cura, tramite perge caepto,</l>
-          <l>Dum tui vis pectoris igne turget,</l>
-          <l>Hostis et urget.</l>
+        <lg n="lg13" type="stanza">
+          <l n="l1">Stas quidem in campo undique Marte septo,</l>
+          <l n="l2">Absque cura, tramite perge caepto,</l>
+          <l n="l3">Dum tui vis pectoris igne turget,</l>
+          <l n="l4">Hostis et urget.</l>
         </lg>
-        <lg type="stanza" n="13">
-          <l>Terreat nec turba, nec arma acuta,</l>
-          <l>Musa cum virtute stat usque tuta,</l>
-          <l>Inter haec doctrina magis virebit,</l>
-          <l>Plusque nitebit.</l>
+        <lg n="lg14" type="stanza">
+          <l n="l1">Terreat nec turba, nec arma acuta,</l>
+          <l n="l2">Musa cum virtute stat usque tuta,</l>
+          <l n="l3">Inter haec doctrina magis virebit,</l>
+          <l n="l4">Plusque nitebit.</l>
         </lg>
-        <lg type="stanza" n="14">
-          <l>Tempus advenit, cito carpe vires,</l>
-          <l>Hostis adversus copias ut ires</l>
-          <l>Semper impensas, par enim es Achilli</l>
-          <l>Viribus illi.</l>
+        <lg n="lg15" type="stanza">
+          <l n="l1">Tempus advenit, cito carpe vires,</l>
+          <l n="l2">Hostis adversus copias ut ires</l>
+          <l n="l3">Semper impensas, par enim es Achilli</l>
+          <l n="l4">Viribus illi.</l>
         </lg>
-        <pb xml:id="FA2v"/>
-        <lg type="stanza" n="15">
-          <l>Fortis accedas inimica castra,</l>
-          <l>Caelica Athletam comitantur astra,</l>
-          <l>Cum hoste pugnam cosere viribus par,</l>
-          <l>Mente sed impar.</l>
+        <pb n="pb16" xml:id="FA2v"/>
+        <lg n="lg17" type="stanza">
+          <l n="l1">Fortis accedas inimica castra,</l>
+          <l n="l2">Caelica Athletam comitantur astra,</l>
+          <l n="l3">Cum hoste pugnam cosere viribus par,</l>
+          <l n="l4">Mente sed impar.</l>
         </lg>
-        <lg type="stanza" n="16">
-          <l>Viceras dudum Sophiae cohortes,</l>
-          <l>Haud secus vinces generose fortes</l>
-          <l>Iurium turmas, tibi dico vates</l>
-          <l>Fidus Achates.</l>
+        <lg n="lg18" type="stanza">
+          <l n="l1">Viceras dudum Sophiae cohortes,</l>
+          <l n="l2">Haud secus vinces generose fortes</l>
+          <l n="l3">Iurium turmas, tibi dico vates</l>
+          <l n="l4">Fidus Achates.</l>
         </lg>
-        <lg type="stanza" n="17">
-          <l>Pridem Enyo te pugilem beavit,</l>
-          <l>Atque ad hanc pugnam mage roboravit,</l>
-          <l>Dimices: nec tam cito conticescas,</l>
-          <l>Atque quiescas.</l>
+        <lg n="lg19" type="stanza">
+          <l n="l1">Pridem Enyo te pugilem beavit,</l>
+          <l n="l2">Atque ad hanc pugnam mage roboravit,</l>
+          <l n="l3">Dimices: nec tam cito conticescas,</l>
+          <l n="l4">Atque quiescas.</l>
         </lg>
-        <lg type="stanza" n="18">
-          <l>Dimica, docto pugil utere ense,</l>
-          <l>Orta per te pugna sit ista, cense,</l>
-          <l>Hostis, audacter tua tela tange,</l>
-          <l>Spicula frange.</l>
+        <lg n="lg20" type="stanza">
+          <l n="l1">Dimica, docto pugil utere ense,</l>
+          <l n="l2">Orta per te pugna sit ista, cense,</l>
+          <l n="l3">Hostis, audacter tua tela tange,</l>
+          <l n="l4">Spicula frange.</l>
         </lg>
-        <lg type="stanza" n="19">
-          <l>En! Chlamys luctae tuus est amictus,</l>
-          <l>Dimica, hostis dextra repellet ictus:</l>
-          <l>Pugna caepit; vim validae phalangis</l>
-          <l>Fortiter angis.</l>
+        <lg n="lg21" type="stanza">
+          <l n="l1">En! Chlamys luctae tuus est amictus,</l>
+          <l n="l2">Dimica, hostis dextra repellet ictus:</l>
+          <l n="l3">Pugna caepit; vim validae phalangis</l>
+          <l n="l4">Fortiter angis.</l>
         </lg>
-        <lg type="stanza" n="20">
-          <l>
-            <persName>GALLE</persName>laetare, hora statuta fluxit,</l>
-          <l>Hoste fuso prospera stella luxit:</l>
-          <l>Te recipit plausu reducem Minerva,</l>
-          <l>Sacra caterva.</l>
+        <lg n="lg22" type="stanza">
+          <l n="l1">
+            <persName n="persName1">GALLE</persName>laetare, hora statuta fluxit,</l>
+          <l n="l2">Hoste fuso prospera stella luxit:</l>
+          <l n="l3">Te recipit plausu reducem Minerva,</l>
+          <l n="l4">Sacra caterva.</l>
         </lg>
-        <lg type="stanza" n="21">
-          <l>Iam Themis<persName>GALLUM</persName>venerare sponsum,</l>
-          <l>Hostium nec vi, neque Marte tonsum,</l>
-          <l>Nunc coronatos decorato postes,</l>
-          <l>Stravit ut hostes.</l>
+        <lg n="lg23" type="stanza">
+          <l n="l1">Iam Themis<persName n="persName1">GALLUM</persName>venerare sponsum,</l>
+          <l n="l2">Hostium nec vi, neque Marte tonsum,</l>
+          <l n="l3">Nunc coronatos decorato postes,</l>
+          <l n="l4">Stravit ut hostes.</l>
         </lg>
-        <lg type="stanza" n="22">
-          <l>Triplici nexu Charites decorae</l>
-          <l>Laureas texant viridi colore,</l>
-          <l>Cingitur quo victor ab hoste serto</l>
-          <l>Flore referto.</l>
+        <lg n="lg24" type="stanza">
+          <l n="l1">Triplici nexu Charites decorae</l>
+          <l n="l2">Laureas texant viridi colore,</l>
+          <l n="l3">Cingitur quo victor ab hoste serto</l>
+          <l n="l4">Flore referto.</l>
         </lg>
-        <pb xml:id="FA3r"/>
-        <lg type="stanza" n="23">
-          <l>Sors parit laudem, cumulatque corbem</l>
-          <l>Aureis sertis, volitant per orbem</l>
-          <l>Vota sinceris animata votis</l>
-          <l>Pectore motis.</l>
+        <pb n="pb25" xml:id="FA3r"/>
+        <lg n="lg26" type="stanza">
+          <l n="l1">Sors parit laudem, cumulatque corbem</l>
+          <l n="l2">Aureis sertis, volitant per orbem</l>
+          <l n="l3">Vota sinceris animata votis</l>
+          <l n="l4">Pectore motis.</l>
         </lg>
-        <lg type="stanza" n="24">
-          <l>Quisque victori cupiendo laurum,</l>
-          <l>Excolit quam bacca, pyropum et aurum,</l>
-          <l>Monstret uno gaudia corde, et ore</l>
-          <l>Ductus amore.</l>
+        <lg n="lg27" type="stanza">
+          <l n="l1">Quisque victori cupiendo laurum,</l>
+          <l n="l2">Excolit quam bacca, pyropum et aurum,</l>
+          <l n="l3">Monstret uno gaudia corde, et ore</l>
+          <l n="l4">Ductus amore.</l>
         </lg>
-        <lg type="stanza" n="25">
-          <l>Omnis optet, quae sibi sponsus optat,</l>
-          <l>Scilicet<persName>Daphnen</persName>,<persName>Themidem</persName>peroptat:</l>
-          <l>Omnium annectat mea Musa, Musae en-</l>
-          <l>Comia fuse.</l>
+        <lg n="lg28" type="stanza">
+          <l n="l1">Omnis optet, quae sibi sponsus optat,</l>
+          <l n="l2">Scilicet<persName n="persName1">Daphnen</persName>,<persName n="persName2">Themidem</persName>peroptat:</l>
+          <l n="l3">Omnium annectat mea Musa, Musae en-</l>
+          <l n="l4">Comia fuse.</l>
         </lg>
-        <lg type="stanza" n="26">
-          <l>Hic ferat lauros, ferat ille flores,</l>
-          <l>Iste adoret Palliados labores,</l>
-          <l>Explicent mentem, mea sintque vota</l>
-          <l>Carmine tota.</l>
+        <lg n="lg29" type="stanza">
+          <l n="l1">Hic ferat lauros, ferat ille flores,</l>
+          <l n="l2">Iste adoret Palliados labores,</l>
+          <l n="l3">Explicent mentem, mea sintque vota</l>
+          <l n="l4">Carmine tota.</l>
         </lg>
-        <lg type="stanza" n="27">
-          <l>Laurus annosum tibi signet aevum,</l>
-          <l>Sentiat nullum tua vita naevum,</l>
-          <l>Semper ut victor cape iure vivas</l>
-          <l>Martis olivas.</l>
+        <lg n="lg30" type="stanza">
+          <l n="l1">Laurus annosum tibi signet aevum,</l>
+          <l n="l2">Sentiat nullum tua vita naevum,</l>
+          <l n="l3">Semper ut victor cape iure vivas</l>
+          <l n="l4">Martis olivas.</l>
         </lg>
-        <lg type="stanza" n="28">
-          <l>Laureatae inter populum tabellae,</l>
-          <l>Exprimant lauros, pugilemque belle,</l>
-          <l>Quem Thaliae et Delphica laurus ornat,</l>
-          <l>Cantus adornat.</l>
+        <lg n="lg31" type="stanza">
+          <l n="l1">Laureatae inter populum tabellae,</l>
+          <l n="l2">Exprimant lauros, pugilemque belle,</l>
+          <l n="l3">Quem Thaliae et Delphica laurus ornat,</l>
+          <l n="l4">Cantus adornat.</l>
         </lg>
-        <lg type="stanza" n="29">
-          <l>Musa ne Martis tuearis ausus</l>
-          <l>Publicos inter taciturna plausus,</l>
-          <l>Plectra quid tardant celebrare facta</l>
-          <l>Pollice tacta?</l>
+        <lg n="lg32" type="stanza">
+          <l n="l1">Musa ne Martis tuearis ausus</l>
+          <l n="l2">Publicos inter taciturna plausus,</l>
+          <l n="l3">Plectra quid tardant celebrare facta</l>
+          <l n="l4">Pollice tacta?</l>
         </lg>
-        <lg type="stanza" n="30">
-          <l>Turba longe Bassaridum facessit,</l>
-          <l>Atque Musis haec loca festa cessit:</l>
-          <l>Musa duc cantans choreas amaenas,</l>
-          <l>Cedito Maenas.</l>
+        <lg n="lg33" type="stanza">
+          <l n="l1">Turba longe Bassaridum facessit,</l>
+          <l n="l2">Atque Musis haec loca festa cessit:</l>
+          <l n="l3">Musa duc cantans choreas amaenas,</l>
+          <l n="l4">Cedito Maenas.</l>
         </lg>
-        <pb xml:id="FA3v"/>
-        <lg type="stanza" n="31">
-          <l>Nuptiales fundito Musa cantus,</l>
-          <l>En! Redit victor toties, Acanthus</l>
-          <l>Huic novo sponso nova serta donet</l>
-          <l>Iure coronet.</l>
+        <pb n="pb34" xml:id="FA3v"/>
+        <lg n="lg35" type="stanza">
+          <l n="l1">Nuptiales fundito Musa cantus,</l>
+          <l n="l2">En! Redit victor toties, Acanthus</l>
+          <l n="l3">Huic novo sponso nova serta donet</l>
+          <l n="l4">Iure coronet.</l>
         </lg>
-        <lg type="stanza" n="32">
-          <l>Nunc Iovis plausum armiger addat ales.</l>
-          <l>Ob triumphos tot, titulosque tales,</l>
-          <l>Gaudia edat Pieridum facetus</l>
-          <l>Consona caetus.</l>
+        <lg n="lg36" type="stanza">
+          <l n="l1">Nunc Iovis plausum armiger addat ales.</l>
+          <l n="l2">Ob triumphos tot, titulosque tales,</l>
+          <l n="l3">Gaudia edat Pieridum facetus</l>
+          <l n="l4">Consona caetus.</l>
         </lg>
-        <lg type="stanza" n="33">
-          <l>Hunc modo<persName>Euterpe</persName>calamis honoret,</l>
-          <l>Atque<persName>Clio</persName>gesta canens adoret,</l>
-          <l>Et quibus cunctis locus est secunda</l>
-          <l>Castalis unda.</l>
+        <lg n="lg37" type="stanza">
+          <l n="l1">Hunc modo<persName n="persName1">Euterpe</persName>calamis honoret,</l>
+          <l n="l2">Atque<persName n="persName1">Clio</persName>gesta canens adoret,</l>
+          <l n="l3">Et quibus cunctis locus est secunda</l>
+          <l n="l4">Castalis unda.</l>
         </lg>
-        <lg type="stanza" n="34">
-          <l>Barbiton pulsans Erato canoram,</l>
-          <l>Huc citet festiva venire floram,</l>
-          <l>Tale circumdet caput ut decorum</l>
-          <l>Grandine florum.</l>
+        <lg n="lg38" type="stanza">
+          <l n="l1">Barbiton pulsans Erato canoram,</l>
+          <l n="l2">Huc citet festiva venire floram,</l>
+          <l n="l3">Tale circumdet caput ut decorum</l>
+          <l n="l4">Grandine florum.</l>
         </lg>
-        <lg type="stanza" n="35">
-          <l>Saltibus plaudant hilares Camaenae</l>
-          <l>Augeant plausum citharis amaenae,</l>
-          <l>Iungant et vocem fidibus serena</l>
-          <l>Turba novena.</l>
+        <lg n="lg39" type="stanza">
+          <l n="l1">Saltibus plaudant hilares Camaenae</l>
+          <l n="l2">Augeant plausum citharis amaenae,</l>
+          <l n="l3">Iungant et vocem fidibus serena</l>
+          <l n="l4">Turba novena.</l>
         </lg>
-        <lg type="stanza" n="36">
-          <l>Emicans inter reliquas sorores</l>
-          <l>Sacra fert Pallas similes honores,</l>
-          <l>Adstat applausu recreans honesto</l>
-          <l>Carmine festo.</l>
+        <lg n="lg40" type="stanza">
+          <l n="l1">Emicans inter reliquas sorores</l>
+          <l n="l2">Sacra fert Pallas similes honores,</l>
+          <l n="l3">Adstat applausu recreans honesto</l>
+          <l n="l4">Carmine festo.</l>
         </lg>
-        <lg type="stanza" n="37">
-          <l>Aether et plectris reboet sonoris,</l>
-          <l>Personet mundus fidibus canoris,</l>
-          <l>Turba Musarum faveat canendo,</l>
-          <l>Parcaque nendo.</l>
+        <lg n="lg41" type="stanza">
+          <l n="l1">Aether et plectris reboet sonoris,</l>
+          <l n="l2">Personet mundus fidibus canoris,</l>
+          <l n="l3">Turba Musarum faveat canendo,</l>
+          <l n="l4">Parcaque nendo.</l>
         </lg>
-        <lg type="stanza" n="38">
-          <l>O dies felix, iubilisque plena!</l>
-          <l>Cantat ut dulci meditans avena</l>
-          <l>Quisque, festivo tenet atque ratum hunc –</l>
-          <l>Murmure statum.</l>
+        <lg n="lg42" type="stanza">
+          <l n="l1">O dies felix, iubilisque plena!</l>
+          <l n="l2">Cantat ut dulci meditans avena</l>
+          <l n="l3">Quisque, festivo tenet atque ratum hunc –</l>
+          <l n="l4">Murmure statum.</l>
         </lg>
-        <pb xml:id="FA4r"/>
-        <lg type="stanza" n="39">
-          <l>Mille sacrorum canonum trophaea</l>
-          <l>Accino, quem tanta decent Typhaea;</l>
-          <l>Non enim<persName>GALLO</persName>satis una palma</l>
-          <l>Palladis alma.</l>
+        <pb n="pb43" xml:id="FA4r"/>
+        <lg n="lg44" type="stanza">
+          <l n="l1">Mille sacrorum canonum trophaea</l>
+          <l n="l2">Accino, quem tanta decent Typhaea;</l>
+          <l n="l3">Non enim<persName n="persName1">GALLO</persName>satis una palma</l>
+          <l n="l4">Palladis alma.</l>
         </lg>
-        <lg type="stanza" n="40">
-          <l>Tot precor palmas sine fraude tutas,</l>
-          <l>Astra quot caelum, pelagusque guttas</l>
-          <l>Silva quot frondes habet, unda venas,</l>
-          <l>Littus arenas.</l>
+        <lg n="lg45" type="stanza">
+          <l n="l1">Tot precor palmas sine fraude tutas,</l>
+          <l n="l2">Astra quot caelum, pelagusque guttas</l>
+          <l n="l3">Silva quot frondes habet, unda venas,</l>
+          <l n="l4">Littus arenas.</l>
         </lg>
-        <lg type="stanza" n="41">
-          <l>Tot precor lauros, superum favores,</l>
-          <l>Terra quot spicas habet, Hybla flores,</l>
-          <l>Te fovet Bellona, tuumque zelum</l>
-          <l>Divite caelum.</l>
+        <lg n="lg46" type="stanza">
+          <l n="l1">Tot precor lauros, superum favores,</l>
+          <l n="l2">Terra quot spicas habet, Hybla flores,</l>
+          <l n="l3">Te fovet Bellona, tuumque zelum</l>
+          <l n="l4">Divite caelum.</l>
         </lg>
-        <lg type="stanza" n="42">
-          <l>Obsecro, vivum tibi Parca stamen</l>
-          <l>Non secet, nec mors inimica flamen</l>
-          <l>Dissipet vitae: sine fine vernes,</l>
-          <l>Iura gubernes.</l>
+        <lg n="lg47" type="stanza">
+          <l n="l1">Obsecro, vivum tibi Parca stamen</l>
+          <l n="l2">Non secet, nec mors inimica flamen</l>
+          <l n="l3">Dissipet vitae: sine fine vernes,</l>
+          <l n="l4">Iura gubernes.</l>
         </lg>
-        <lg type="stanza" n="43">
-          <l>Cerne: me mentemque meam sacravi,</l>
-          <l>Sapphicos rhythmos tibi dedicavi;</l>
-          <l>Iam precor tandem, redames amantem haec –</l>
-          <l>Sapphica dantem.</l>
+        <lg n="lg48" type="stanza">
+          <l n="l1">Cerne: me mentemque meam sacravi,</l>
+          <l n="l2">Sapphicos rhythmos tibi dedicavi;</l>
+          <l n="l3">Iam precor tandem, redames amantem haec –</l>
+          <l n="l4">Sapphica dantem.</l>
         </lg>
       </div>
-      <div>
-        <p>Ita DefensorI pLaVDIt fIDeLIs AChates.</p>
-        <p>
-          <persName>Henricus Michael Scherer de Hausen</persName>
+      <div n="div4">
+        <p n="p1">Ita DefensorI pLaVDIt fIDeLIs AChates.</p>
+        <p n="p2">
+          <persName n="persName1">Henricus Michael Scherer de Hausen</persName>
         </p>
-        <p>SS. Theol. Baccal. eiusdemque cand. exam., et approbatus.</p>
+        <p n="p3">SS. Theol. Baccal. eiusdemque cand. exam., et approbatus.</p>
       </div>
     </body>
   </text>

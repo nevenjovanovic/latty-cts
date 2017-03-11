@@ -1,5 +1,5 @@
 <ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:multiauthor48477">
-  <ti:groupname>
+  <ti:groupname xml:lang="lat">
     <name xmlns="http://www.tei-c.org/ns/1.0">Forer, Valentin</name>
     <date xmlns="http://www.tei-c.org/ns/1.0">1775-1845</date>
     <name xmlns="http://www.tei-c.org/ns/1.0">Mitterrutzner, Johannes Chrysostomus</name>

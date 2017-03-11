@@ -1,5 +1,5 @@
 <ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:hell01">
-  <ti:groupname>
+  <ti:groupname xml:lang="lat">
     <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="dt">Hell, Maximilian</name>
     <date xmlns="http://www.tei-c.org/ns/1.0" precision="high">1720–1792</date>
   </ti:groupname>

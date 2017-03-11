@@ -1,5 +1,5 @@
 <ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:comini01">
-  <ti:groupname>
+  <ti:groupname xml:lang="lat">
     <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="dt">Comini, Michael Ulrich</name>
     <date xmlns="http://www.tei-c.org/ns/1.0" precision="high">1766–1842</date>
   </ti:groupname>

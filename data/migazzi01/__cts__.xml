@@ -1,5 +1,5 @@
 <ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:migazzi01">
-  <ti:groupname>
+  <ti:groupname xml:lang="lat">
     <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="dt">Migazzi, Christoph Anton von</name>
     <date xmlns="http://www.tei-c.org/ns/1.0">1714-1803</date>
   </ti:groupname>

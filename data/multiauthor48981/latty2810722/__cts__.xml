@@ -1,9 +1,9 @@
-<work groupUrn="urn:cts:latty:multiauthor48981" urn="urn:cts:latty:multiauthor48981.latty2810722" xml:lang="lat">
-  <title xml:lang="lat">Clementini Vannettii Equitis Epistolarum libri quinque. Accedit Costantini
-                    Laurentii Commentariolum de eodem Vannettio</title>
-  <edition workUrn="urn:cts:latty:multiauthor48981.latty2810722" urn="urn:cts:latty:multiauthor48981.latty2810722.latty-lat1">
-    <label xml:lang="lat">Clementini Vannettii Equitis Epistolarum libri quinque. Accedit Costantini
-                    Laurentii Commentariolum de eodem Vannettio, versio electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:multiauthor48981" urn="urn:cts:latty:multiauthor48981.latty2810722" xml:lang="lat">
+  <ti:title xml:lang="lat">Clementini Vannettii Equitis Epistolarum libri quinque. Accedit Costantini
+                    Laurentii Commentariolum de eodem Vannettio</ti:title>
+  <ti:edition workUrn="urn:cts:latty:multiauthor48981.latty2810722" urn="urn:cts:latty:multiauthor48981.latty2810722.latty-lat1">
+    <ti:label xml:lang="lat">Clementini Vannettii Equitis Epistolarum libri quinque. Accedit Costantini
+                    Laurentii Commentariolum de eodem Vannettio, versio electronica</ti:label>
+    <ti:description xml:lang="eng">test description</ti:description>
+  </ti:edition>
+</ti:work>

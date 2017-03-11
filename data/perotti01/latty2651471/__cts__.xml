@@ -1,7 +1,7 @@
-<work groupUrn="urn:cts:latty:perotti01" urn="urn:cts:latty:perotti01.latty2651471" xml:lang="lat">
-  <title xml:lang="lat">Hospitis Alexii principis Romani gesta sacrosancta mixtis poematibus exposita illustrissimo ac reverendissimo D. D. Carolo de Castro Barco S.R.I. Co. Can. Salisburgensi sacrata gesta</title>
-  <edition workUrn="urn:cts:latty:perotti01.latty2651471" urn="urn:cts:latty:perotti01.latty2651471.latty-lat1">
-    <label xml:lang="lat">Hospitis Alexii principis Romani gesta sacrosancta mixtis poematibus exposita illustrissimo ac reverendissimo D. D. Carolo de Castro Barco S.R.I. Co. Can. Salisburgensi sacrata gesta, versio electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:perotti01" urn="urn:cts:latty:perotti01.latty2651471" xml:lang="lat">
+  <ti:title xml:lang="lat">Hospitis Alexii principis Romani gesta sacrosancta mixtis poematibus exposita illustrissimo ac reverendissimo D. D. Carolo de Castro Barco S.R.I. Co. Can. Salisburgensi sacrata gesta</ti:title>
+  <ti:edition workUrn="urn:cts:latty:perotti01.latty2651471" urn="urn:cts:latty:perotti01.latty2651471.latty-lat1">
+    <ti:label xml:lang="lat">Hospitis Alexii principis Romani gesta sacrosancta mixtis poematibus exposita illustrissimo ac reverendissimo D. D. Carolo de Castro Barco S.R.I. Co. Can. Salisburgensi sacrata gesta, versio electronica</ti:label>
+    <ti:description xml:lang="eng">test description</ti:description>
+  </ti:edition>
+</ti:work>

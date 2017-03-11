@@ -1,7 +1,7 @@
-<work groupUrn="urn:cts:latty:franco01" urn="urn:cts:latty:franco01.latty2613845" xml:lang="lat">
-  <title xml:lang="lat">Arcensis comitatus descriptio</title>
-  <edition workUrn="urn:cts:latty:franco01.latty2613845" urn="urn:cts:latty:franco01.latty2613845.latty-lat1">
-    <label xml:lang="lat">Arcensis comitatus descriptio, versio electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:franco01" urn="urn:cts:latty:franco01.latty2613845" xml:lang="lat">
+  <ti:title xml:lang="lat">Arcensis comitatus descriptio</ti:title>
+  <ti:edition workUrn="urn:cts:latty:franco01.latty2613845" urn="urn:cts:latty:franco01.latty2613845.latty-lat1">
+    <ti:label xml:lang="lat">Arcensis comitatus descriptio, versio electronica</ti:label>
+    <ti:description xml:lang="eng">test description</ti:description>
+  </ti:edition>
+</ti:work>

@@ -1,7 +1,7 @@
-<work groupUrn="urn:cts:latty:hell01" urn="urn:cts:latty:hell01.latty2624219" xml:lang="lat">
-  <title xml:lang="lat">Elogium rustici Tyrolensis celeberrimi Petri Anich Oberperfussensis</title>
-  <edition workUrn="urn:cts:latty:hell01.latty2624219" urn="urn:cts:latty:hell01.latty2624219.latty-lat1">
-    <label xml:lang="lat">Elogium rustici Tyrolensis celeberrimi Petri Anich Oberperfussensis, versio electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:hell01" urn="urn:cts:latty:hell01.latty2624219" xml:lang="lat">
+  <ti:title xml:lang="lat">Elogium rustici Tyrolensis celeberrimi Petri Anich Oberperfussensis</ti:title>
+  <ti:edition workUrn="urn:cts:latty:hell01.latty2624219" urn="urn:cts:latty:hell01.latty2624219.latty-lat1">
+    <ti:label xml:lang="lat">Elogium rustici Tyrolensis celeberrimi Petri Anich Oberperfussensis, versio electronica</ti:label>
+    <ti:description xml:lang="eng">test description</ti:description>
+  </ti:edition>
+</ti:work>

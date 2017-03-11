@@ -1,7 +1,7 @@
-<work groupUrn="urn:cts:latty:pansa01" urn="urn:cts:latty:pansa01.latty2647892" xml:lang="lat">
-  <title xml:lang="lat">Lacrymae Romanae [...] in obitum Matthiae imperatoris</title>
-  <edition workUrn="urn:cts:latty:pansa01.latty2647892" urn="urn:cts:latty:pansa01.latty2647892.latty-lat1">
-    <label xml:lang="lat">Lacrymae Romanae [...] in obitum Matthiae imperatoris, dum Oeniponte solennes exequiae celebrabantur, versio electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:pansa01" urn="urn:cts:latty:pansa01.latty2647892" xml:lang="lat">
+  <ti:title xml:lang="lat">Lacrymae Romanae [...] in obitum Matthiae imperatoris</ti:title>
+  <ti:edition workUrn="urn:cts:latty:pansa01.latty2647892" urn="urn:cts:latty:pansa01.latty2647892.latty-lat1">
+    <ti:label xml:lang="lat">Lacrymae Romanae [...] in obitum Matthiae imperatoris, dum Oeniponte solennes exequiae celebrabantur, versio electronica</ti:label>
+    <ti:description xml:lang="eng">test description</ti:description>
+  </ti:edition>
+</ti:work>

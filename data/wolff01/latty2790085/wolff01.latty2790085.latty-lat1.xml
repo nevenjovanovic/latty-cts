@@ -82,7 +82,7 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:wolff01.latty2790085.latty-lat1">
+  <text xml:base="urn:cts:latty:wolff01.latty2790085latty-lat1" xml:lang="lat">
     <body n="body1">
       <div n="div1">
         <head n="head1">TRIUMPHUS MARIANUS SEU FESTUM JUBILAEUM BEATAE VIRGINIS MARIAE IN IMAGINE SUA

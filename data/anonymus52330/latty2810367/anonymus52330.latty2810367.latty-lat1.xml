@@ -68,7 +68,7 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:anonymus52330.latty2810367.latty-lat1">
+  <text xml:base="urn:cts:latty:anonymus52330.latty2810367latty-lat1" xml:lang="lat">
     <body n="body1">
       <div n="div1">
         <head n="head1">Hymnus de Sancto Simone Innocente Tridentino.<placeName n="placeName1">Trideni</placeName>,<date n="date2">MDCC.XXVII.</date>Ex Typographo Joannis Antonii Brunati,Superiorum Permissu.</head>

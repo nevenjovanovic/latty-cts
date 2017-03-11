@@ -64,7 +64,7 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:reinthaler01.latty2689432.latty-lat1">
+  <text xml:base="urn:cts:latty:reinthaler01.latty2689432latty-lat1" xml:lang="lat">
     <body n="body1">
       <div n="div1">
         <head n="head1">Ecloga gratulatoria. Daphnis a Pastoribus Musis bucolicis pro festo suo natali celebratus.</head>

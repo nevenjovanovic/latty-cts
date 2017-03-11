@@ -76,7 +76,7 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:anonymus52303.latty2810362.latty-lat1">
+  <text xml:base="urn:cts:latty:anonymus52303.latty2810362latty-lat1" xml:lang="lat">
     <front n="front1">
       <titlePage n="titlePage1">
         <titlePart n="titlePart1">Helicon Oenipontanus advenienti serenissimae reginae Wilhelminae Ameliae obvius, sive Universitas

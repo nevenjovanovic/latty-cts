@@ -1,4 +1,4 @@
-<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:lattywopfner01">
+<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:wopfner01">
   <groupname>
     <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="dt">Wopfner, Juniper</name>
     <date xmlns="http://www.tei-c.org/ns/1.0" precision="low">ob. 1746</date>

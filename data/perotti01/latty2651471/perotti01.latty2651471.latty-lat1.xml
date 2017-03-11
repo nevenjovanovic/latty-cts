@@ -71,7 +71,7 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:perotti01.latty2651471.latty-lat1">
+  <text xml:base="urn:cts:latty:perotti01.latty2651471latty-lat1" xml:lang="lat">
     <body n="body1">
       <div n="div1">
         <head n="head1">Hospitis Alexii principis romani gesta sacrosancta, mixtis poematibus exposita

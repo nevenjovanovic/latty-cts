@@ -69,7 +69,7 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:anonymus52411.latty2810382.latty-lat1">
+  <text xml:base="urn:cts:latty:anonymus52411.latty2810382latty-lat1" xml:lang="lat">
     <body n="body1">
       <div n="div1">
         <head n="head1">Parallela serenissimorum principum limina de Augustissimae<placeName n="placeName1">Austriae</placeName>domus et

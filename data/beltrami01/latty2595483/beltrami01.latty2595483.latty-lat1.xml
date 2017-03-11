@@ -67,7 +67,7 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:beltrami01.latty2595483.latty-lat1">
+  <text xml:base="urn:cts:latty:beltrami01.latty2595483latty-lat1" xml:lang="lat">
     <body n="body1">
       <div n="div1">
         <head n="head1">Specimen fastorum ecclesie Roboretanae.</head>

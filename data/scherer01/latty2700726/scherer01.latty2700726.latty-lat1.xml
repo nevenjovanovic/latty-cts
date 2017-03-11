@@ -76,7 +76,7 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:scherer01.latty2700726.latty-lat1">
+  <text xml:base="urn:cts:latty:scherer01.latty2700726latty-lat1" xml:lang="lat">
     <body n="body1">
       <div n="div1">
         <head n="head1">o<emph n="emph1">D</emph>e sapph<emph n="emph2">IC</emph>a<emph n="emph3">IU</emph>r<emph n="emph4">I</emph>s Defensor<emph n="emph5">I</emph>

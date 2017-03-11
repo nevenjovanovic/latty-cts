@@ -79,7 +79,7 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:wolff01.latty2785251.latty-lat1">
+  <text xml:base="urn:cts:latty:wolff01.latty2785251latty-lat1" xml:lang="lat">
     <body n="body1">
       <div n="div1">
         <head n="head1">NAT<emph n="emph1">IVI</emph>TAS PETR<emph n="emph2">I L</emph>EOPO<emph n="emph3">LDI</emph>ATQ<emph n="emph4">V</emph>E  NATA<emph n="emph5">LI</emph>S  THERES<emph n="emph6">I</emph>AE  A<emph n="emph7">V</emph>G<emph n="emph8">V</emph>STAE REG<emph n="emph9">I</emph>NAE 

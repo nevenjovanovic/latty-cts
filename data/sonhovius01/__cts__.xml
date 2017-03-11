@@ -1,4 +1,4 @@
-<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:lattysonhovius01">
+<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:sonhovius01">
   <groupname>
     <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="dt">Sonhovius, Johannes</name>
     <date xmlns="http://www.tei-c.org/ns/1.0" precision="high">1543-1580</date>

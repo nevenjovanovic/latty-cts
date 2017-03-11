@@ -72,7 +72,7 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:anonymus52384.latty2810377.latty-lat1">
+  <text xml:base="urn:cts:latty:anonymus52384.latty2810377latty-lat1" xml:lang="lat">
     <body n="body1">
       <div n="div1">
         <head n="head1">Nunc tandem vobis mellificatis apes.</head>

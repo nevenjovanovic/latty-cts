@@ -1,4 +1,4 @@
-<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:lattyputsch01">
+<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:putsch01">
   <groupname>
     <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="dt">Putsch, Christoph Wilhelm</name>
     <date xmlns="http://www.tei-c.org/ns/1.0" precision="high">1542-1572</date>

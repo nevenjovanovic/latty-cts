@@ -69,7 +69,7 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:anonymus52168.latty2810337.latty-lat1">
+  <text xml:base="urn:cts:latty:anonymus52168.latty2810337latty-lat1" xml:lang="lat">
     <body n="body1">
       <div n="div1">
         <head n="head1">Carmen in natali celebritate serenissimae archiducissae<persName n="persName1">Mariae Eleonorae</persName>faustissimis<persName n="persName2">Leopoldo</persName>et<persName n="persName3">Claudia</persName>parentibus, laetae foecunditatis auspicio, primo genita.</head>

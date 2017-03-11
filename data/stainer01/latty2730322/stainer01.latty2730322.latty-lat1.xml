@@ -80,7 +80,7 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:stainer01.latty2730322.latty-lat1">
+  <text xml:base="urn:cts:latty:stainer01.latty2730322latty-lat1" xml:lang="lat">
     <body n="body1">
       <div n="div1">
         <figure n="figure1">

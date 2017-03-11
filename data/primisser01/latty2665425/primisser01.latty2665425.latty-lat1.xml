@@ -81,7 +81,7 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:primisser01.latty2665425.latty-lat1">
+  <text xml:base="urn:cts:latty:primisser01.latty2665425latty-lat1" xml:lang="lat">
     <body n="body1">
       <div n="div1">
         <head n="head1">Rythmus in laudem Venerabilis Patris Joannis Campidonensis Sacerdotis et Monachi Ordini

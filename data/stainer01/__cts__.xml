@@ -1,6 +1,6 @@
 <ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:stainer01">
-  <groupname>
+  <ti:groupname>
     <name xmlns="http://www.tei-c.org/ns/1.0">Stainer, Johannes</name>
     <date xmlns="http://www.tei-c.org/ns/1.0" precision="low">1679-1752</date>
-  </groupname>
+  </ti:groupname>
 </ti:textgroup>

@@ -1,6 +1,6 @@
 <ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:pruner01">
-  <groupname>
+  <ti:groupname>
     <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">Pruner, Giuseppe</name>
     <date xmlns="http://www.tei-c.org/ns/1.0" precision="medium">1697-1774</date>
-  </groupname>
+  </ti:groupname>
 </ti:textgroup>

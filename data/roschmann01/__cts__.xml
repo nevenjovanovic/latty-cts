@@ -1,6 +1,6 @@
 <ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:roschmann01">
-  <groupname>
+  <ti:groupname>
     <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="dt">Roschmann, Anton</name>
     <date xmlns="http://www.tei-c.org/ns/1.0" precision="high">1694–1760</date>
-  </groupname>
+  </ti:groupname>
 </ti:textgroup>

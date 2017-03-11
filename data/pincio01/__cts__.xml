@@ -1,6 +1,6 @@
 <ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:pincio01">
-  <groupname>
+  <ti:groupname>
     <name xmlns="http://www.tei-c.org/ns/1.0">Pincio, Giano Pirro</name>
     <date xmlns="http://www.tei-c.org/ns/1.0">fl. 1500-1546</date>
-  </groupname>
+  </ti:groupname>
 </ti:textgroup>

@@ -1,6 +1,6 @@
 <ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:pontanus01">
-  <groupname>
+  <ti:groupname>
     <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="dt">Pontanus, Jakob</name>
     <date xmlns="http://www.tei-c.org/ns/1.0" precision="high">1542-1626</date>
-  </groupname>
+  </ti:groupname>
 </ti:textgroup>

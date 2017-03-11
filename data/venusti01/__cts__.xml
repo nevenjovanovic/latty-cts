@@ -1,6 +1,6 @@
 <ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:venusti01">
-  <groupname>
+  <ti:groupname>
     <name xmlns="http://www.tei-c.org/ns/1.0">Venusti, Antonio Maria</name>
     <date xmlns="http://www.tei-c.org/ns/1.0">1529-1585</date>
-  </groupname>
+  </ti:groupname>
 </ti:textgroup>

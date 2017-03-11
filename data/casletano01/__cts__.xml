@@ -1,6 +1,6 @@
 <ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:casletano01">
-  <groupname>
+  <ti:groupname>
     <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">Casletano, Andrea</name>
     <date xmlns="http://www.tei-c.org/ns/1.0" when="1592">obiit 1592</date>
-  </groupname>
+  </ti:groupname>
 </ti:textgroup>

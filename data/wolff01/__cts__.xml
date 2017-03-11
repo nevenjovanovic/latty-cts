@@ -1,6 +1,6 @@
 <ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:wolff01">
-  <groupname>
+  <ti:groupname>
     <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="dt">Wolff, Joseph</name>
     <date xmlns="http://www.tei-c.org/ns/1.0" precision="low">floruit 1750</date>
-  </groupname>
+  </ti:groupname>
 </ti:textgroup>

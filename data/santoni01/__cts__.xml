@@ -1,6 +1,6 @@
 <ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:santoni01">
-  <groupname>
+  <ti:groupname>
     <name xmlns="http://www.tei-c.org/ns/1.0">Santoni, Paolo</name>
     <date xmlns="http://www.tei-c.org/ns/1.0" precision="medium">1445-1510</date>
-  </groupname>
+  </ti:groupname>
 </ti:textgroup>

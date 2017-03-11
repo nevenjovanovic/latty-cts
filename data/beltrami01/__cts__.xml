@@ -1,6 +1,6 @@
 <ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:beltrami01">
-  <groupname>
+  <ti:groupname>
     <name xmlns="http://www.tei-c.org/ns/1.0">Beltrami, Giovanni Pietro</name>
     <date xmlns="http://www.tei-c.org/ns/1.0">1780-1843</date>
-  </groupname>
+  </ti:groupname>
 </ti:textgroup>

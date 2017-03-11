@@ -1,6 +1,6 @@
 <ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:thun01">
-  <groupname>
+  <ti:groupname>
     <name xmlns="http://www.tei-c.org/ns/1.0">Thun, Petrus Vigilius von</name>
     <date xmlns="http://www.tei-c.org/ns/1.0">1723-1800</date>
-  </groupname>
+  </ti:groupname>
 </ti:textgroup>

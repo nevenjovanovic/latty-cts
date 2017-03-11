@@ -1,6 +1,6 @@
 <work groupUrn="urn:cts:latty:franco01" urn="urn:cts:latty:franco01.latty2613845" xml:lang="lat">
   <title xml:lang="lat">Arcensis comitatus descriptio</title>
-  <edition workUrn="urn:cts:latty:franco01.latty2613845" urn="urn:cts:latty:franco01.latty2613845.latty-lat1:">
+  <edition workUrn="urn:cts:latty:franco01.latty2613845" urn="urn:cts:latty:franco01.latty2613845.latty-lat1">
     <label xml:lang="lat">Arcensis comitatus descriptio, versio electronica</label>
     <description xml:lang="eng">test description</description>
   </edition>

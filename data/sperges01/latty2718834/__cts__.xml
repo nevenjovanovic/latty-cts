@@ -1,6 +1,6 @@
 <work groupUrn="urn:cts:latty:sperges01" urn="urn:cts:latty:sperges01.latty2718834" xml:lang="lat">
   <title xml:lang="lat">Genethliacum</title>
-  <edition workUrn="urn:cts:latty:sperges01.latty2718834" urn="urn:cts:latty:sperges01.latty2718834.latty-lat1:">
+  <edition workUrn="urn:cts:latty:sperges01.latty2718834" urn="urn:cts:latty:sperges01.latty2718834.latty-lat1">
     <label xml:lang="lat">Genethliacum, versio electronica</label>
     <description xml:lang="eng">test description</description>
   </edition>

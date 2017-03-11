@@ -1,6 +1,6 @@
 <work groupUrn="urn:cts:latty:beltrami01" urn="urn:cts:latty:beltrami01.latty2595483" xml:lang="lat">
   <title xml:lang="lat">Specimen fastorum ecclesie Roboretanae</title>
-  <edition workUrn="urn:cts:latty:beltrami01.latty2595483" urn="urn:cts:latty:beltrami01.latty2595483.latty-lat1:">
+  <edition workUrn="urn:cts:latty:beltrami01.latty2595483" urn="urn:cts:latty:beltrami01.latty2595483.latty-lat1">
     <label xml:lang="lat">Specimen fastorum ecclesie Roboretanae, versio electronica</label>
     <description xml:lang="eng">test description</description>
   </edition>

@@ -1,6 +1,6 @@
 <work groupUrn="urn:cts:latty:putsch01" urn="urn:cts:latty:putsch01.latty2688027" xml:lang="lat">
   <title xml:lang="lat">Historia Divi Iacobi Maioris Apostoli</title>
-  <edition workUrn="urn:cts:latty:putsch01.latty2688027" urn="urn:cts:latty:putsch01.latty2688027.latty-lat1:">
+  <edition workUrn="urn:cts:latty:putsch01.latty2688027" urn="urn:cts:latty:putsch01.latty2688027.latty-lat1">
     <label xml:lang="lat">Historia Divi Iacobi Maioris Apostoli, versio electronica</label>
     <description xml:lang="eng">test description</description>
   </edition>

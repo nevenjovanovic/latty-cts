@@ -1,6 +1,6 @@
 <work groupUrn="urn:cts:latty:scarpari01" urn="urn:cts:latty:scarpari01.latty2699654" xml:lang="lat">
   <title xml:lang="lat">Oratio per solemni studiorum instauratione</title>
-  <edition workUrn="urn:cts:latty:scarpari01.latty2699654" urn="urn:cts:latty:scarpari01.latty2699654.latty-lat1:">
+  <edition workUrn="urn:cts:latty:scarpari01.latty2699654" urn="urn:cts:latty:scarpari01.latty2699654.latty-lat1">
     <label xml:lang="lat">Oratio per solemni studiorum instauratione, versio electronica</label>
     <description xml:lang="eng">test description</description>
   </edition>

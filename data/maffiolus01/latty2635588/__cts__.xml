@@ -1,6 +1,6 @@
 <work groupUrn="urn:cts:latty:maffiolus01" urn="urn:cts:latty:maffiolus01.latty2635588" xml:lang="lat">
   <title xml:lang="lat">Flosculi aureas illustrissimi et reverendissimi Caroli Cardinali Madrutio et principis tridenti comas ambientes</title>
-  <edition workUrn="urn:cts:latty:maffiolus01.latty2635588" urn="urn:cts:latty:maffiolus01.latty2635588.latty-lat1:">
+  <edition workUrn="urn:cts:latty:maffiolus01.latty2635588" urn="urn:cts:latty:maffiolus01.latty2635588.latty-lat1">
     <label xml:lang="lat">Flosculi aureas illustrissimi et reverendissimi Caroli Cardinali Madrutio et principis tridenti comas ambientes, versio electronica</label>
     <description xml:lang="eng">test description</description>
   </edition>

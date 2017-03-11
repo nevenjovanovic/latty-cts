@@ -1,6 +1,6 @@
 <work groupUrn="urn:cts:latty:wolff01" urn="urn:cts:latty:wolff01.latty2785251" xml:lang="lat">
   <title xml:lang="lat">Nativitas Petri Leopoldi atque natalis Theresiae</title>
-  <edition workUrn="urn:cts:latty:wolff01.latty2785251" urn="urn:cts:latty:wolff01.latty2785251.latty-lat1:">
+  <edition workUrn="urn:cts:latty:wolff01.latty2785251" urn="urn:cts:latty:wolff01.latty2785251.latty-lat1">
     <label xml:lang="lat">Nativitas Petri Leopoldi atque natalis Theresiae, versio electronica</label>
     <description xml:lang="eng">test description</description>
   </edition>

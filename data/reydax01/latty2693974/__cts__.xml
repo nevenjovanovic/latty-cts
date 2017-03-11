@@ -1,6 +1,6 @@
 <work groupUrn="urn:cts:latty:reydax01" urn="urn:cts:latty:reydax01.latty2693974" xml:lang="lat">
   <title xml:lang="lat">Epitome rerum Oenovallensium MDCCIII</title>
-  <edition workUrn="urn:cts:latty:reydax01.latty2693974" urn="urn:cts:latty:reydax01.latty2693974.latty-lat1:">
+  <edition workUrn="urn:cts:latty:reydax01.latty2693974" urn="urn:cts:latty:reydax01.latty2693974.latty-lat1">
     <label xml:lang="lat">Epitome rerum Oenovallensium MDCCIII, versio electronica</label>
     <description xml:lang="eng">test description</description>
   </edition>

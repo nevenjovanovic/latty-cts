@@ -1,6 +1,6 @@
 <work groupUrn="urn:cts:latty:engerd01" urn="urn:cts:latty:engerd01.latty2607827" xml:lang="lat">
   <title xml:lang="lat">Madruciados libri tres […] poema paraeneticum ad inclytum […] Carolum Gaudentium liberum baronem Madrucium</title>
-  <edition workUrn="urn:cts:latty:engerd01.latty2607827" urn="urn:cts:latty:engerd01.latty2607827.latty-lat1:">
+  <edition workUrn="urn:cts:latty:engerd01.latty2607827" urn="urn:cts:latty:engerd01.latty2607827.latty-lat1">
     <label xml:lang="lat">Madruciados libri tres […] poema paraeneticum ad inclytum […] Carolum Gaudentium liberum baronem Madrucium, versio electronica</label>
     <description xml:lang="eng">test description</description>
   </edition>

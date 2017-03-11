@@ -1,6 +1,6 @@
 <work groupUrn="urn:cts:latty:scientia01" urn="urn:cts:latty:scientia01.latty2701538" xml:lang="lat">
   <title xml:lang="lat">Panegyrica ode</title>
-  <edition workUrn="urn:cts:latty:scientia01.latty2701538" urn="urn:cts:latty:scientia01.latty2701538.latty-lat1:">
+  <edition workUrn="urn:cts:latty:scientia01.latty2701538" urn="urn:cts:latty:scientia01.latty2701538.latty-lat1">
     <label xml:lang="lat">Panegyrica ode, versio electronica</label>
     <description xml:lang="eng">test description</description>
   </edition>

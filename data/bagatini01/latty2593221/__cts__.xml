@@ -1,6 +1,6 @@
 <work groupUrn="urn:cts:latty:bagatini01" urn="urn:cts:latty:bagatini01.latty2593221" xml:lang="lat">
   <title xml:lang="lat">Ad suum Carolum Tertium Magnum Hispaniarum et Indiarum monarcham</title>
-  <edition workUrn="urn:cts:latty:bagatini01.latty2593221" urn="urn:cts:latty:bagatini01.latty2593221.latty-lat1:">
+  <edition workUrn="urn:cts:latty:bagatini01.latty2593221" urn="urn:cts:latty:bagatini01.latty2593221.latty-lat1">
     <label xml:lang="lat">Ad suum Carolum Tertium Magnum Hispaniarum et Indiarum monarcham, versio electronica</label>
     <description xml:lang="eng">test description</description>
   </edition>

@@ -1,6 +1,6 @@
 <work groupUrn="urn:cts:latty:santoni01" urn="urn:cts:latty:santoni01.latty2699238" xml:lang="lat">
   <title xml:lang="lat">De Studiorum Instauratione</title>
-  <edition workUrn="urn:cts:latty:santoni01.latty2699238" urn="urn:cts:latty:santoni01.latty2699238.latty-lat1:">
+  <edition workUrn="urn:cts:latty:santoni01.latty2699238" urn="urn:cts:latty:santoni01.latty2699238.latty-lat1">
     <label xml:lang="lat">De Studiorum Instauratione, versio electronica</label>
     <description xml:lang="eng">test description</description>
   </edition>

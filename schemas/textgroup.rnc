@@ -1,0 +1,109 @@
+namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace ti = "http://chs.harvard.edu/xmlns/cts"
+
+any_content = any_element* & text
+any_element = element * { any_attribute*, any_content* }
+any_attribute = attribute * { text }
+onlinestruct =
+  element ti:online {
+    attribute * { text }+,
+    # 
+    # <ref name="any_element"/>
+    empty
+  }
+versionstruct =
+  attribute urn {
+    xsd:anyURI { pattern = "urn:cts:.+:.+\..+\..+" }
+  },
+  mixed {
+    element ti:label {
+      attribute xml:lang {
+        xsd:string { pattern = "...+" }
+      },
+      xsd:string { pattern = ".+" }
+    }+,
+    element ti:description {
+      attribute xml:lang {
+        xsd:string { pattern = "...+" }
+      },
+      text
+    }*,
+    element ti:online { empty }?,
+    exemplarstruct*
+  }
+editionstructure = element ti:edition { versionstruct }
+translationstructure =
+  element ti:translation {
+    attribute xml:lang {
+      xsd:string { pattern = "...+" }
+    },
+    versionstruct
+  }
+exemplarstruct =
+  element ti:exemplar {
+    attribute urn {
+      xsd:anyURI { pattern = "urn:cts:.+:.+\..+\..+" }
+    },
+    mixed {
+      element ti:label {
+        attribute xml:lang {
+          xsd:string { pattern = "...+" }
+        },
+        xsd:string { pattern = ".+" }
+      }+,
+      element ti:description {
+        attribute xml:lang {
+          xsd:string { pattern = "...+" }
+        },
+        text
+      }*,
+      element ti:online { empty }?
+    }
+  }
+citationstruct =
+  element ti:citation {
+    attribute label {
+      xsd:string { pattern = ".+" }
+    },
+    (attribute xpath {
+       xsd:string { pattern = ".+" }
+     },
+     attribute scope {
+       xsd:string { pattern = ".+" }
+     },
+     attribute leafxpath {
+       xsd:string { pattern = ".+" }
+     }?)?,
+    citationstruct?
+  }
+start =
+  element ti:textgroup {
+    attribute urn {
+      xsd:anyURI { pattern = "urn:cts:.+:.+" }
+    },
+    element ti:groupname {
+      attribute xml:lang {
+        xsd:string { pattern = "...+" }
+      },
+      xsd:string { pattern = ".+" }
+    }+,
+    element ti:work {
+      attribute urn {
+        xsd:anyURI { pattern = "urn:cts:.+:.+\..+" }
+      },
+      attribute xml:lang {
+        xsd:string { pattern = "...+" }
+      },
+      element ti:title {
+        attribute xml:lang {
+          xsd:string { pattern = "...+" }
+        },
+        xsd:string { pattern = ".+" }
+      }+,
+      (editionstructure* & translationstructure*)
+    }
+    # work
+    +
+  }
+  # textgroup
+  

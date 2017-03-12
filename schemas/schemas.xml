@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<locatingRules xmlns="http://thaiopensource.com/ns/locating-rules/1.0">
+  <uri resource="hccroalainventory.xml" uri="TextInventory.rnc"/>
+  <uri resource="hccroalainventory.xml" uri="textgroup.rnc"/>
+  <uri resource="hccroalainventory.xml" typeId="RELAX NG"/>
+</locatingRules>

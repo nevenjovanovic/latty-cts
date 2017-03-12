@@ -1,0 +1,36 @@
+namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace dc = "http://purl.org/dc/elements/1.1/"
+namespace hp = "http://chs.harvard.edu/xmlns/cts"
+
+citationstruct =
+  element hp:citation {
+    attribute label {
+      xsd:string { pattern = ".+" }
+    },
+    (attribute xpath {
+       xsd:string { pattern = ".+" }
+     },
+     attribute scope {
+       xsd:string { pattern = ".+" }
+     },
+     attribute leafxpath {
+       xsd:string { pattern = ".+" }
+     }?)?,
+    citationstruct?
+  }
+onlinestruct =
+  element hp:online {
+    attribute urn { text },
+    attribute type { text },
+    attribute docname { text },
+    (element hp:namespaceMapping {
+       attribute abbreviation {
+         xsd:string { pattern = ".+" }
+       },
+       attribute nsURI {
+         xsd:anyURI { pattern = ".+" }
+       }
+     }+)?,
+    element hp:citationMapping { citationstruct+ }
+  }
+start = element hp:CitationConfiguration { onlinestruct+ }

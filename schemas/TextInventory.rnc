@@ -1,0 +1,51 @@
+namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace dc = "http://purl.org/dc/elements/1.1/"
+namespace ti = "http://chs.harvard.edu/xmlns/cts"
+
+# Dublin Core elements to provide for each Collection
+metadata =
+  element dc:title {
+    attribute xml:lang {
+      xsd:string { pattern = "...+" }
+    },
+    xsd:string { pattern = ".+" }
+  },
+  element dc:creator {
+    xsd:string { pattern = ".+" }
+  }+,
+  element dc:coverage {
+    attribute xml:lang { text },
+    xsd:string { pattern = ".+" }
+  },
+  element dc:description {
+    attribute xml:lang { text },
+    text
+  },
+  element dc:rights {
+    attribute xml:lang {
+      xsd:string { pattern = "...+" }
+    },
+    text
+  }
+start =
+  element ti:TextInventory {
+    attribute tiversion { "6.0" },
+    attribute tiid {
+      xsd:string { pattern = ".+" }
+    }?,
+    element ti:ctsnamespace {
+      attribute abbr {
+        xsd:string { pattern = ".+" }
+      },
+      attribute ns {
+        xsd:anyURI { pattern = ".+" }
+      },
+      element ti:description {
+        attribute xml:lang {
+          xsd:string { pattern = "...+" }
+        },
+        text
+      }?
+    }*,
+    external "textgroup.rnc"+
+  }

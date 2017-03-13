@@ -1,7 +1,7 @@
-<work groupUrn="urn:cts:latty:pusculus01" urn="urn:cts:latty:pusculus01.latty2681358" xml:lang="lat">
-  <title xml:lang="lat">Duo libri Symonidos</title>
-  <edition workUrn="urn:cts:latty:pusculus01.latty2681358" urn="urn:cts:latty:pusculus01.latty2681358.latty-lat1:">
-    <label xml:lang="lat">Duo libri Symonidos, de Iudaeorum perfidia, quo modo Iesum Christum crucifixerunt, divos Ricardum Parisiensem Symonem Tridentinum afflixere martyris supliciasque dedere, versio electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:pusculus01" urn="urn:cts:latty:pusculus01.latty2681358" xml:lang="lat">
+  <ti:title xml:lang="lat">Duo libri Symonidos</ti:title>
+  <ti:edition workUrn="urn:cts:latty:pusculus01.latty2681358" urn="urn:cts:latty:pusculus01.latty2681358.latty-lat1:">
+    <ti:label xml:lang="lat">Duo libri Symonidos, de Iudaeorum perfidia, quo modo Iesum Christum crucifixerunt, divos Ricardum Parisiensem Symonem Tridentinum afflixere martyris supliciasque dedere, versio electronica</ti:label>
+    <ti:description xml:lang="eng">test description</ti:description>
+  </ti:edition>
+</ti:work>

@@ -1,9 +1,9 @@
-<work groupUrn="urn:cts:latty:payr01" urn="urn:cts:latty:payr01.latty2648970" xml:lang="lat">
-  <title xml:lang="lat">Apologia inter Sarcophibum et Sarcophilum cum Crisi Theophili Veronensis</title>
-  <edition workUrn="urn:cts:latty:payr01.latty2648970" urn="urn:cts:latty:payr01.latty2648970.latty-lat1:">
-    <label xml:lang="lat">Apologia inter Sarcophibum et Sarcophilum cum Crisi Theophili Veronensis, seu
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:payr01" urn="urn:cts:latty:payr01.latty2648970" xml:lang="lat">
+  <ti:title xml:lang="lat">Apologia inter Sarcophibum et Sarcophilum cum Crisi Theophili Veronensis</ti:title>
+  <ti:edition workUrn="urn:cts:latty:payr01.latty2648970" urn="urn:cts:latty:payr01.latty2648970.latty-lat1:">
+    <ti:label xml:lang="lat">Apologia inter Sarcophibum et Sarcophilum cum Crisi Theophili Veronensis, seu
                     Discursus Rationalis de Praecepto Ecclesiastico Jejunii et Abstinentiae, versio
-                    electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+                    electronica</ti:label>
+    <ti:description xml:lang="eng">test description</ti:description>
+  </ti:edition>
+</ti:work>

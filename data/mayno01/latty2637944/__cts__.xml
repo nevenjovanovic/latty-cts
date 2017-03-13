@@ -1,9 +1,9 @@
-<work groupUrn="urn:cts:latty:mayno01" urn="urn:cts:latty:mayno01.latty2637944" xml:lang="lat">
-  <title xml:lang="lat">Oratio Jasonis nitidissima in sanctissimum matrimonium foelicissimasque nuptias
-                    Maximiliani regis et Blancae Mariae Reginae Romanorum</title>
-  <edition workUrn="urn:cts:latty:mayno01.latty2637944" urn="urn:cts:latty:mayno01.latty2637944.latty-lat1:">
-    <label xml:lang="lat">Oratio Jasonis nitidissima in sanctissimum matrimonium foelicissimasque nuptias
-                    Maximiliani regis et Blancae Mariae Reginae Romanorum, versio electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:mayno01" urn="urn:cts:latty:mayno01.latty2637944" xml:lang="lat">
+  <ti:title xml:lang="lat">Oratio Jasonis nitidissima in sanctissimum matrimonium foelicissimasque nuptias
+                    Maximiliani regis et Blancae Mariae Reginae Romanorum</ti:title>
+  <ti:edition workUrn="urn:cts:latty:mayno01.latty2637944" urn="urn:cts:latty:mayno01.latty2637944.latty-lat1:">
+    <ti:label xml:lang="lat">Oratio Jasonis nitidissima in sanctissimum matrimonium foelicissimasque nuptias
+                    Maximiliani regis et Blancae Mariae Reginae Romanorum, versio electronica</ti:label>
+    <ti:description xml:lang="eng">test description</ti:description>
+  </ti:edition>
+</ti:work>

@@ -1,7 +1,7 @@
-<work groupUrn="urn:cts:latty:wenger01" urn="urn:cts:latty:wenger01.latty2778131" xml:lang="lat">
-  <title xml:lang="lat">Belligraphia cum apologetico inter illustrissimum Sigismundum Austrie archiducem et magnificum senatum Venetorum</title>
-  <edition workUrn="urn:cts:latty:wenger01.latty2778131" urn="urn:cts:latty:wenger01.latty2778131.latty-lat1:">
-    <label xml:lang="lat">Belligraphia cum apologetico inter illustrissimum Sigismundum Austrie archiducem et magnificum senatum Venetorum, versio electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:wenger01" urn="urn:cts:latty:wenger01.latty2778131" xml:lang="lat">
+  <ti:title xml:lang="lat">Belligraphia cum apologetico inter illustrissimum Sigismundum Austrie archiducem et magnificum senatum Venetorum</ti:title>
+  <ti:edition workUrn="urn:cts:latty:wenger01.latty2778131" urn="urn:cts:latty:wenger01.latty2778131.latty-lat1:">
+    <ti:label xml:lang="lat">Belligraphia cum apologetico inter illustrissimum Sigismundum Austrie archiducem et magnificum senatum Venetorum, versio electronica</ti:label>
+    <ti:description xml:lang="eng">test description</ti:description>
+  </ti:edition>
+</ti:work>

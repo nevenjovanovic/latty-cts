@@ -1,7 +1,7 @@
-<work groupUrn="urn:cts:latty:anonymus52249" urn="urn:cts:latty:anonymus52249.latty2810352" xml:lang="lat">
-  <title xml:lang="lat">Applausus poetici</title>
-  <edition workUrn="urn:cts:latty:anonymus52249.latty2810352" urn="urn:cts:latty:anonymus52249.latty2810352.latty-lat1:">
-    <label xml:lang="lat">Applausus poetici, versio electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:anonymus52249" urn="urn:cts:latty:anonymus52249.latty2810352" xml:lang="lat">
+  <ti:title xml:lang="lat">Applausus poetici</ti:title>
+  <ti:edition workUrn="urn:cts:latty:anonymus52249.latty2810352" urn="urn:cts:latty:anonymus52249.latty2810352.latty-lat1:">
+    <ti:label xml:lang="lat">Applausus poetici, versio electronica</ti:label>
+    <ti:description xml:lang="eng">test description</ti:description>
+  </ti:edition>
+</ti:work>

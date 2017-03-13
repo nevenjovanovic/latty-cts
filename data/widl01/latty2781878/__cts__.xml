@@ -1,7 +1,7 @@
-<work groupUrn="urn:cts:latty:widl01" urn="urn:cts:latty:widl01.latty2781878" xml:lang="lat">
-  <title xml:lang="lat">Nuptialis panegyricus augustissimo hymenaeo Leopoldi I romani imperatoris Hungariae</title>
-  <edition workUrn="urn:cts:latty:widl01.latty2781878" urn="urn:cts:latty:widl01.latty2781878.latty-lat1:">
-    <label xml:lang="lat">Nuptialis panegyricus augustissimo hymenaeo Leopoldi I romani imperatoris Hungariae, Bohemiae Regis, Etc. et Claudiae felicis archiducis Austriae, comitis Tirolis, Etc. serenissimae imperii Aurorae, in debitam dratulationem dicata consecrata  a collegio Soc. Jesu Oenipontano, versio electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:widl01" urn="urn:cts:latty:widl01.latty2781878" xml:lang="lat">
+  <ti:title xml:lang="lat">Nuptialis panegyricus augustissimo hymenaeo Leopoldi I romani imperatoris Hungariae</ti:title>
+  <ti:edition workUrn="urn:cts:latty:widl01.latty2781878" urn="urn:cts:latty:widl01.latty2781878.latty-lat1:">
+    <ti:label xml:lang="lat">Nuptialis panegyricus augustissimo hymenaeo Leopoldi I romani imperatoris Hungariae, Bohemiae Regis, Etc. et Claudiae felicis archiducis Austriae, comitis Tirolis, Etc. serenissimae imperii Aurorae, in debitam dratulationem dicata consecrata  a collegio Soc. Jesu Oenipontano, versio electronica</ti:label>
+    <ti:description xml:lang="eng">test description</ti:description>
+  </ti:edition>
+</ti:work>

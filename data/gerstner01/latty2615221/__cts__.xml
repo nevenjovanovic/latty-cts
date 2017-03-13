@@ -1,7 +1,7 @@
-<work groupUrn="urn:cts:latty:gerstner01" urn="urn:cts:latty:gerstner01.latty2615221" xml:lang="lat">
-  <title xml:lang="lat">Dissertatio medica inauguralis de salubritate aquae purae ad longaevitatem</title>
-  <edition workUrn="urn:cts:latty:gerstner01.latty2615221" urn="urn:cts:latty:gerstner01.latty2615221.latty-lat1:">
-    <label xml:lang="lat">Dissertatio medica inauguralis de salubritate aquae purae ad longaevitatem , versio electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:gerstner01" urn="urn:cts:latty:gerstner01.latty2615221" xml:lang="lat">
+  <ti:title xml:lang="lat">Dissertatio medica inauguralis de salubritate aquae purae ad longaevitatem</ti:title>
+  <ti:edition workUrn="urn:cts:latty:gerstner01.latty2615221" urn="urn:cts:latty:gerstner01.latty2615221.latty-lat1:">
+    <ti:label xml:lang="lat">Dissertatio medica inauguralis de salubritate aquae purae ad longaevitatem , versio electronica</ti:label>
+    <ti:description xml:lang="eng">test description</ti:description>
+  </ti:edition>
+</ti:work>

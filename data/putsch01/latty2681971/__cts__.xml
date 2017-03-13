@@ -1,9 +1,9 @@
-<work groupUrn="urn:cts:latty:putsch01" urn="urn:cts:latty:putsch01.latty2681971" xml:lang="lat">
-  <title xml:lang="lat">Brevis et indubitata assertio de iis principibus</title>
-  <edition workUrn="urn:cts:latty:putsch01.latty2681971" urn="urn:cts:latty:putsch01.latty2681971.latty-lat1:">
-    <label xml:lang="lat">Brevis et indubitata assertio de iis principibus, qui
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:putsch01" urn="urn:cts:latty:putsch01.latty2681971" xml:lang="lat">
+  <ti:title xml:lang="lat">Brevis et indubitata assertio de iis principibus</ti:title>
+  <ti:edition workUrn="urn:cts:latty:putsch01.latty2681971" urn="urn:cts:latty:putsch01.latty2681971.latty-lat1:">
+    <ti:label xml:lang="lat">Brevis et indubitata assertio de iis principibus, qui
                     a Christi nativitate ad haec nostra usque tempora dominio integre potiti sunt
-                    civitatis Tridentinae, versio electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+                    civitatis Tridentinae, versio electronica</ti:label>
+    <ti:description xml:lang="eng">test description</ti:description>
+  </ti:edition>
+</ti:work>

@@ -1,7 +1,7 @@
-<work groupUrn="urn:cts:latty:anonymus52519" urn="urn:cts:latty:anonymus52519.latty2810402" xml:lang="lat">
-  <title xml:lang="lat">Tragoedia De fortissimo S. Catharinae certamine</title>
-  <edition workUrn="urn:cts:latty:anonymus52519.latty2810402" urn="urn:cts:latty:anonymus52519.latty2810402.latty-lat1:">
-    <label xml:lang="lat">Tragoedia De fortissimo S. Catharinae certamine, versio electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:anonymus52519" urn="urn:cts:latty:anonymus52519.latty2810402" xml:lang="lat">
+  <ti:title xml:lang="lat">Tragoedia De fortissimo S. Catharinae certamine</ti:title>
+  <ti:edition workUrn="urn:cts:latty:anonymus52519.latty2810402" urn="urn:cts:latty:anonymus52519.latty2810402.latty-lat1:">
+    <ti:label xml:lang="lat">Tragoedia De fortissimo S. Catharinae certamine, versio electronica</ti:label>
+    <ti:description xml:lang="eng">test description</ti:description>
+  </ti:edition>
+</ti:work>

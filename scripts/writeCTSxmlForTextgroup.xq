@@ -7,7 +7,7 @@ let $author := $base/ancestor::*:TEI//*:titleStmt/*:author/*
 let $tg := element ti:textgroup {
   attribute urn {"urn:cts:latty:"||$key},
   element ti:groupname {
-    attribute xml:lang {"lat"}
+    attribute xml:lang {"lat"},
     $author
   }
 }

@@ -1,6 +1,6 @@
-<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:lattywenger01">
-  <groupname>
+<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:wenger01">
+  <ti:groupname xml:lang="lat">
     <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="dt">Wenger, Konrad</name>
     <date xmlns="http://www.tei-c.org/ns/1.0" precision="medium">1425-1501</date>
-  </groupname>
+  </ti:groupname>
 </ti:textgroup>

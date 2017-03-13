@@ -5,9 +5,10 @@ let $base3 := tokenize ($base2, "\.")
 let $key := $base3[1]
 let $author := $base/ancestor::*:TEI//*:titleStmt/*:author/*
 let $tg := element ti:textgroup {
-  attribute urn {"urn:cts:latty"||$key},
-  element groupname {
+  attribute urn {"urn:cts:latty:"||$key},
+  element ti:groupname {
+    attribute xml:lang {"lat"}
     $author
   }
 }
-return file:write("C:\Users\HCStudent\desktop\test2\"||$key||"\__cts__.xml", $tg)
+return file:write("C:\Users\HCStudent\desktop\latty-cts\data\"||$key||"\__cts__.xml", $tg)

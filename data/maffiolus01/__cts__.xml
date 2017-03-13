@@ -1,6 +1,6 @@
-<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:lattymaffiolus01">
-  <groupname>
+<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:maffiolus01">
+  <ti:groupname xml:lang="lat">
     <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="dt">Maffiolus, Caelius</name>
     <date xmlns="http://www.tei-c.org/ns/1.0" precision="low">fl. 1600</date>
-  </groupname>
+  </ti:groupname>
 </ti:textgroup>

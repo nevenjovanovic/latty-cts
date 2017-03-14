@@ -6,7 +6,7 @@ We are following the model in [capitains.github.io/pages/guidelines](http://capi
 + [identifyAnonAuthFiles](https://github.com/nevenjovanovic/latty-cts/blob/master/scripts/identifyAnonAuthorFiles.xq) Creates a unique ID for each work by an anonymous author and inserts that ID into the title element
 + [anonAuthWorks](https://github.com/nevenjovanovic/latty-cts/blob/master/scripts/anonAuthWorks.xq) Copies works that have anonymous authors
 + [identifyMultiAuthFiles](https://github.com/nevenjovanovic/latty-cts/blob/master/scripts/identifyMultiAuthFiles.xq) Creates a unique ID for each work with multiple authors and inserts that ID into the title element
-+ [multiAuthWorks] (https://github.com/nevenjovanovic/latty-cts/blob/master/scripts/multiAuthWorks.xq) Copies works that have multiple authors
++ [multiAuthWorks](https://github.com/nevenjovanovic/latty-cts/blob/master/scripts/multiAuthWorks.xq) Copies works that have multiple authors
 + [addXMLbaseAttribute](https://github.com/nevenjovanovic/latty-cts/blob/master/scripts/addXMLbaseAttribute.xq) Creates an xml:base attribute and adds it to the text element for simple cases (i.e. works by a single known author)
 + [addXMLbaseAttributeForComplexCases](https://github.com/nevenjovanovic/latty-cts/blob/master/scripts/addXMLbaseAttributeForComplexCases.xq) Creates an xml:base attribute and adds it to the text element for complex cases (i.e. works by anonymous or multiple authors)
 + [makeXMLbaseLowerCase](https://github.com/nevenjovanovic/latty-cts/blob/master/scripts/makeXMLbaseLowerCase.xq) Makes the xml:base attribute uniform by converting all letters to lower case

@@ -1,4 +1,4 @@
-##What we did
+#What we did
 
 Unlike the “classical” Greek and Latin literature (the corpus of works preserved from 750 BC to 500 AD), Neo-Latin texts do not have canonical (standard, widespread) citation schemes.  For our digital collection, this lack of established citation schemes has its advantages and disadvantages.  On the one hand, there are no complicated citation systems to be reproduced.  On the other hand, we have to develop and implement a citation scheme which will be machine actionable and ideally also understandable to humans.  To accomplish our goal we followed the guidelines of [CITE Architecture](http://cite-architecture.github.io/).
 

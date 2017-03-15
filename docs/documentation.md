@@ -1,15 +1,15 @@
-# Producing CTS version of Tyrolean Neo-Latin texts (Latinitas Tyrolensis)
+# Producing CTS version of Tyrolean Neo-Latin texts
 
-## Our Collection
+## Our collection
 * Unlike the “classical” Greek and Latin literature (the corpus of works preserved from 750 BC to 500 AD), Neo-Latin texts do not have canonical (standard, widespread) citation schemes.  
 * For our digital collection, this lack of established citation schemes has its advantages and disadvantages.  On the one hand, there are no complicated citation systems to be reproduced.  On the other hand, we have to develop and implement a citation scheme which will be machine actionable and ideally also understandable to humans.  
 * To accomplish our goal we followed the guidelines of [CITE Architecture](http://cite-architecture.github.io/) and of the [CapiTainS tools suite](http://capitains.github.io/pages/guidelines) (for the directory structure and some naming conventions).
 
-## Our Scripts
+## Our scripts
 * We created a database and edited our collection in BaseX.
 * A list of all the XQuery scripts used and their descriptions can be found [here](https://github.com/nevenjovanovic/latty-cts/blob/master/scripts/scripts.md).  
 
-## Cleaning Up Exisitng Files
+## Cleaning up exisitng files
 * We started with existing xml files of the Tyrolean texts.
 * These files already contained some metadata which we used when possible.
 * We standardized the 'key' attribute values from each author element for works with one author.
@@ -19,7 +19,8 @@
 * In the above example `urn:cts:latty:` specifies that this is a urn citation following the cts protocol for a database called ‘latty,’  `aemilianus01.` refers to the textgroup, `latty2570222.` refers to the work, and `latty-lat1:` refers to the edition.  
 
 ## Departure from CapiTainS
-* We followed the CapiTainS guidelines up to the level of the edition: `urn:cts:latty:aemilianus01.latty2570222.latty-lat1:`
+* We followed the CapiTainS guidelines up to the level of the edition: 
+`urn:cts:latty:aemilianus01.latty2570222.latty-lat1:`
 * CapiTainS requires each element under the text node to have an 'n' attribute.
 * Our editions have this 'n' attribute, but the value differs from other implementations.
 * As previously noted, we are working with non-canonical texts.  There is no established citation scheme, and many people are not familiar with these texts.

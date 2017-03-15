@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Belligraphia cum apologetico inter illustrissimum Sigismundum Austrie archiducem et magnificum senatum Venetorum</ti:title>
   <ti:edition workUrn="urn:cts:latty:wenger01.latty2778131" urn="urn:cts:latty:wenger01.latty2778131.latty-lat1:">
     <ti:label xml:lang="lat">Belligraphia cum apologetico inter illustrissimum Sigismundum Austrie archiducem et magnificum senatum Venetorum, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

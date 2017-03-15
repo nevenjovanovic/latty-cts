@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Dissertatio medica inauguralis de salubritate aquae purae ad longaevitatem</ti:title>
   <ti:edition workUrn="urn:cts:latty:gerstner01.latty2615221" urn="urn:cts:latty:gerstner01.latty2615221.latty-lat1:">
     <ti:label xml:lang="lat">Dissertatio medica inauguralis de salubritate aquae purae ad longaevitatem , versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

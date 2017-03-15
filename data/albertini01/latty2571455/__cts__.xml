@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Dissertatio de miraculis</ti:title>
   <ti:edition workUrn="urn:cts:latty:albertini01.latty2571455" urn="urn:cts:latty:albertini01.latty2571455.latty-lat1:">
     <ti:label xml:lang="lat">Dissertatio de miraculis, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

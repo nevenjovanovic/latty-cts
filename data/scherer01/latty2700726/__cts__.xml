@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Ode sapphica iuris defensori dicata</ti:title>
   <ti:edition workUrn="urn:cts:latty:scherer01.latty2700726" urn="urn:cts:latty:scherer01.latty2700726.latty-lat1:">
     <ti:label xml:lang="lat">Ode sapphica iuris defensori dicata, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

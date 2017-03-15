@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Civitatis Tridentinae libellus ad Iosephum II imperatorem</ti:title>
   <ti:edition workUrn="urn:cts:latty:anonymus52195.latty2810342" urn="urn:cts:latty:anonymus52195.latty2810342.latty-lat1:">
     <ti:label xml:lang="lat">Civitatis Tridentinae libellus ad Iosephum II imperatorem, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

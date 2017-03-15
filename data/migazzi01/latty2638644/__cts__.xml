@@ -4,6 +4,6 @@
   <ti:edition workUrn="urn:cts:latty:migazzi01.latty2638644" urn="urn:cts:latty:migazzi01.latty2638644.latty-lat1:">
     <ti:label xml:lang="lat">Oratio in Funere Caroli VI. Imperatoris ad Mariam Theresiam Hungariae et
                     Bohemiae Reginam, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Fragmentum poeticum Valentini Forer autobiographicum</ti:title>
   <ti:edition workUrn="urn:cts:latty:multiauthor48477.latty2810452" urn="urn:cts:latty:multiauthor48477.latty2810452.latty-lat1:">
     <ti:label xml:lang="lat">Fragmentum poeticum Valentini Forer autobiographicum, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

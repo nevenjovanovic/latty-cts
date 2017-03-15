@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Philosophia historica de montibus</ti:title>
   <ti:edition workUrn="urn:cts:latty:leopold01.latty2628529" urn="urn:cts:latty:leopold01.latty2628529.latty-lat1:">
     <ti:label xml:lang="lat">Philosophia historica de montibus, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

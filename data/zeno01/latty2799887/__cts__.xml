@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Praeclarissimo et excellentissimo domino Antonio Mariae Levrio [...] elogium</ti:title>
   <ti:edition workUrn="urn:cts:latty:zeno01.latty2799887" urn="urn:cts:latty:zeno01.latty2799887.latty-lat1:">
     <ti:label xml:lang="lat">Praeclarissimo et excellentissimo domino Antonio Mariae Levrio [...] elogium, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

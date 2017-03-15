@@ -4,6 +4,6 @@
   <ti:edition workUrn="urn:cts:latty:mayno01.latty2637944" urn="urn:cts:latty:mayno01.latty2637944.latty-lat1:">
     <ti:label xml:lang="lat">Oratio Jasonis nitidissima in sanctissimum matrimonium foelicissimasque nuptias
                     Maximiliani regis et Blancae Mariae Reginae Romanorum, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

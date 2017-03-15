@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Nunc tandem vobis mellificatis apes</ti:title>
   <ti:edition workUrn="urn:cts:latty:anonymus52384.latty2810377" urn="urn:cts:latty:anonymus52384.latty2810377.latty-lat1:">
     <ti:label xml:lang="lat">Nunc tandem vobis mellificatis apes, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

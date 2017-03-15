@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Historia Mariae a solatio dictae</ti:title>
   <ti:edition workUrn="urn:cts:latty:winepacher01.latty2783989" urn="urn:cts:latty:winepacher01.latty2783989.latty-lat1:">
     <ti:label xml:lang="lat">Historia Mariae a solatio dictae, quae in vineis Maisensibus dolorosa Christiano populo est propitia, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

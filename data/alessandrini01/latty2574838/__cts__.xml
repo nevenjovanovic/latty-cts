@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Paedotrophia sive de puerorum educatione</ti:title>
   <ti:edition workUrn="urn:cts:latty:alessandrini01.latty2574838" urn="urn:cts:latty:alessandrini01.latty2574838.latty-lat1:">
     <ti:label xml:lang="lat">Paedotrophia sive de puerorum educatione, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

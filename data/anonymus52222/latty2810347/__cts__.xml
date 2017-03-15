@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Componimenti poetici consecrati al merito di sua eccelenza reverendissima</ti:title>
   <ti:edition workUrn="urn:cts:latty:anonymus52222.latty2810347" urn="urn:cts:latty:anonymus52222.latty2810347.latty-lat1:">
     <ti:label xml:lang="lat">Componimenti poetici consecrati al merito di sua eccelenza reverendissima, monsignor Francesco Felice, conte degli Alberti di Enno, vescovo di Melitopoli, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

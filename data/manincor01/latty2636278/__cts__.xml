@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Disputatio Philosophica de Terraemotibus Anni 1670.</ti:title>
   <ti:edition workUrn="urn:cts:latty:manincor01.latty2636278" urn="urn:cts:latty:manincor01.latty2636278.latty-lat1:">
     <ti:label xml:lang="lat">Disputatio Philosophica de Terraemotibus Anni 1670., versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

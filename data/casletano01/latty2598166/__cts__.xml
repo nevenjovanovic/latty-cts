@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Carmen salutatorium ad omnes coelestes Hierusalem cives</ti:title>
   <ti:edition workUrn="urn:cts:latty:casletano01.latty2598166" urn="urn:cts:latty:casletano01.latty2598166.latty-lat1:">
     <ti:label xml:lang="lat">Carmen salutatorium ad omnes coelestes Hierusalem cives, &amp; in memoriam diei ipsis dedicati, conscriptum, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

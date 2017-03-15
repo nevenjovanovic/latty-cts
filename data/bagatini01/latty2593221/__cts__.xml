@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Ad suum Carolum Tertium Magnum Hispaniarum et Indiarum monarcham</ti:title>
   <ti:edition workUrn="urn:cts:latty:bagatini01.latty2593221" urn="urn:cts:latty:bagatini01.latty2593221.latty-lat1:">
     <ti:label xml:lang="lat">Ad suum Carolum Tertium Magnum Hispaniarum et Indiarum monarcham, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

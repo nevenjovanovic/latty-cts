@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Litterae encyclicae</ti:title>
   <ti:edition workUrn="urn:cts:latty:thun01.latty2769639" urn="urn:cts:latty:thun01.latty2769639.latty-lat1:">
     <ti:label xml:lang="lat">Litterae encyclicae, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

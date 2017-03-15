@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Mundus novus</ti:title>
   <ti:edition workUrn="urn:cts:latty:staudacher01.latty2741833" urn="urn:cts:latty:staudacher01.latty2741833.latty-lat1:">
     <ti:label xml:lang="lat">Mundus novus, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

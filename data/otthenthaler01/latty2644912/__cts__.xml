@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">In honorem electionis illustrissimi et reverendissimi in Christo principis amplissimique praesulis ac Domini Domini Ioannis Iacobi Kuen archiepiscopi Salispurgensis et S. S. sedis Apostolicae legati carmen</ti:title>
   <ti:edition workUrn="urn:cts:latty:otthenthaler01.latty2644912" urn="urn:cts:latty:otthenthaler01.latty2644912.latty-lat1:">
     <ti:label xml:lang="lat">In honorem electionis illustrissimi et reverendissimi in Christo principis amplissimique praesulis ac Domini Domini Ioannis Iacobi Kuen archiepiscopi Salispurgensis et S. S. sedis Apostolicae legati carmen, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

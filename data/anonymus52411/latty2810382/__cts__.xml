@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Parallela serenissimorum principum lumina de Augustissimae Austrie domus et amplissimae Mediceae gentis insignitis nominibus atque exemplis ad nuptiales taedas serenissimorum coniugum</ti:title>
   <ti:edition workUrn="urn:cts:latty:anonymus52411.latty2810382" urn="urn:cts:latty:anonymus52411.latty2810382.latty-lat1:">
     <ti:label xml:lang="lat">Parallela serenissimorum principum lumina de Augustissimae Austrie domus et amplissimae Mediceae gentis insignitis nominibus atque exemplis ad nuptiales taedas serenissimorum coniugum, Leopoldi, et Claudiae, deducta atque illustrata, applaudente, et auspicatissime ominante piis felicibus gloriosis principibus suis inclita civitate Roboreto anno 1626, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

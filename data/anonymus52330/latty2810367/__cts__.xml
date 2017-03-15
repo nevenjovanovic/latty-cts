@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Hymnus de Sancto Simone Innocente Tridentino</ti:title>
   <ti:edition workUrn="urn:cts:latty:anonymus52330.latty2810367" urn="urn:cts:latty:anonymus52330.latty2810367.latty-lat1:">
     <ti:label xml:lang="lat">Hymnus de Sancto Simone Innocente Tridentino, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

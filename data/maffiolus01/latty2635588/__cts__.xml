@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Flosculi aureas illustrissimi et reverendissimi Caroli Cardinali Madrutio et principis tridenti comas ambientes</ti:title>
   <ti:edition workUrn="urn:cts:latty:maffiolus01.latty2635588" urn="urn:cts:latty:maffiolus01.latty2635588.latty-lat1:">
     <ti:label xml:lang="lat">Flosculi aureas illustrissimi et reverendissimi Caroli Cardinali Madrutio et principis tridenti comas ambientes, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

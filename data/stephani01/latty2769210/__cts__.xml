@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Copiae Litterarum ad diversos ab anno Christi 1640</ti:title>
   <ti:edition workUrn="urn:cts:latty:stephani01.latty2769210" urn="urn:cts:latty:stephani01.latty2769210.latty-lat1:">
     <ti:label xml:lang="lat">Copiae Litterarum ad diversos ab anno Christi 1640, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

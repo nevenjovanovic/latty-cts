@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Historia Divi Iacobi Maioris Apostoli</ti:title>
   <ti:edition workUrn="urn:cts:latty:putsch01.latty2688027" urn="urn:cts:latty:putsch01.latty2688027.latty-lat1:">
     <ti:label xml:lang="lat">Historia Divi Iacobi Maioris Apostoli, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

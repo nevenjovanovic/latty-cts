@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Lacrymae Romanae [...] in obitum Matthiae imperatoris</ti:title>
   <ti:edition workUrn="urn:cts:latty:pansa01.latty2647892" urn="urn:cts:latty:pansa01.latty2647892.latty-lat1:">
     <ti:label xml:lang="lat">Lacrymae Romanae [...] in obitum Matthiae imperatoris, dum Oeniponte solennes exequiae celebrabantur, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

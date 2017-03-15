@@ -2,6 +2,6 @@
   <ti:title xml:lang="lat">Rythmus in laudem Venerabilis Patris Joannis Campidonensis Sacerdotis et Monachi Ordinis Cisterciensis et monasterii Stamsensis</ti:title>
   <ti:edition workUrn="urn:cts:latty:primisser01.latty2665425" urn="urn:cts:latty:primisser01.latty2665425.latty-lat1:">
     <ti:label xml:lang="lat">Rythmus in laudem Venerabilis Patris Joannis Campidonensis Sacerdotis et Monachi Ordinis Cisterciensis et monasterii Stamsensis, adversionibus historicis explicatus, versio electronica</ti:label>
-    <ti:description xml:lang="eng">test description</ti:description>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
   </ti:edition>
 </ti:work>

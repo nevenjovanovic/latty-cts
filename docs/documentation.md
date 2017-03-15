@@ -27,6 +27,18 @@
 * Instead of just using numbers, we used both the names of existing elements and their sequence in the document: instead of something like `2.6.2.2.6` we have `text.body.div2.div6.div2.div2.l6`
 * The latter urn fragment suggests something about the semantic relationships of the segments and can help a reader have a somewhat clearer understanding of this citation.
 
-Next we used the xml:base attribute to create texgroup and work directories.  The textgroup is a directory that contains works which belong to a single author or set of authors.  We created a separate textgroup for each work by an anonymous author rather than put them all together in one textgroup.  Inside each texgroup directory there is a work directory for each text in the text group.  There were no works with multiple editions in this collection, but our citation scheme does allow for this.  Next we moved the files into their appropriate directories, we created cts xml files for each textgroup and each work.  The cts xml files contain metadata about the textgroup or work.
+## Creating the textgroup and work directories
+* We used the 'xml:base' attribute to create texgroup and work directories.  
+* The textgroup is a directory that contains works which belong to a single author or set of authors.  
+* We created a separate textgroup for each work by an anonymous author rather than put them all together in one textgroup.  
+* Inside each texgroup directory there is a work directory for each work in the textgroup.  There were no works with multiple editions in this collection, but our citation scheme does allow for this.  
+* We moved the files into their appropriate directories.
+* We created cts xml files for each textgroup and each work.  The cts xml files contain metadata about the textgroup or work.
 
-(Add description of validation here)
+## Validation 
+* We used Oxygen to ensure that are files are valid TEI xml.
+* The other schemas used to validate our files can be found [here](https://github.com/nevenjovanovic/latty-cts/tree/master/schemas)
+* In Oxygen we validated our collection against textgroup.rng file.  This schema file contains additional rules about what can be in a textgroup
+* We did catch a problem with our files.  We needed to declare the 'ti' namespace inside the textgroup.
+* Next we validated our collection against the [HookTest](https://github.com/Capitains/HookTest).
+* The HookTest validates the xml and directory structure.  It also ensures that all urns are valid and are pointing in the right direction.

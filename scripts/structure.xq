@@ -17,7 +17,7 @@ let $workIndex := element index {
       element ti:label {
         attribute xml:lang {"lat"}, $title
       }, element ti:description {
-        attribute xml:lang {"eng"}, "test description"
+        attribute xml:lang {"eng"}, "CTS compliant Tyrolean Neo-Latin texts"
       }
     }  
   }

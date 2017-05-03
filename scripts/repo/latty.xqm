@@ -78,3 +78,11 @@ return (
 }
 )
 };
+
+(: given a URN, open an indexed node :)
+
+declare function latty:open-urn($urn){
+  let $node := collection("latty-cts-idx")//cts[urn=$urn] 
+  let $dbid := xs:int($node/dbid/string())
+  return if ($node) then db:open-id("latty-cts", $dbid) else element p { "Not a valid URN in the latty-cts collection!" }
+};

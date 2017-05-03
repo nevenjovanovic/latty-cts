@@ -1,0 +1,2 @@
+let $path := replace(file:parent(static-base-uri()), '/scripts/', '/indices/latty-cts-idx.xml') 
+return db:create("latty-cts-idx", $path, (), map { 'ftindex': true(), 'intparse' : true(), 'autooptimize' : true(), 'updindex' : true() })

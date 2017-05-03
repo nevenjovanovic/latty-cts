@@ -1,5 +1,6 @@
+declare function local:listurns() {
 (: list all URNs :)
-for $t in //*:text
+for $t in collection("latty-cts")//*:text
 let $baseurn := element h1 { replace($t/@xml:base, ":$", "") }
 let $texturns :=
 for $id in $t//*[@n]
@@ -17,3 +18,5 @@ return (
   $texturns
 }
 )
+};
+local:listurns()

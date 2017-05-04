@@ -117,7 +117,7 @@ return element tr {
   let $cts := count($doc//cts)
   return element td { 
   element a {
-    attribute href { "http://croala.ffzg.unizg.hr/basex/lattycts/" || $baseurn  },
+    attribute href { "http://croala.ffzg.unizg.hr/basex/lattyctsurn/" || $baseurn  },
     $cts
   }
 }
@@ -143,7 +143,7 @@ let $doc := collection("latty-cts-idx")//doc[contains(@xml:base, $baseurn)]
 for $cts in $doc//cts
 let $urn := $cts/urn/string()
 return element li { element a {
-  attribute href { "http://croala.ffzg.unizg.hr/basex/lattycts/" ||  $urn },
+  attribute href { "http://croala.ffzg.unizg.hr/basex/latty/" ||  $urn },
   $urn
 }
 }

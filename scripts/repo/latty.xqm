@@ -95,6 +95,23 @@ return element ol {
 }
 };
 
+(: return only number of URNs for each document :)
+
+declare function latty:listurns3(){
+  for $doc in collection("latty-cts-idx")//doc
+let $baseurn := replace($doc/@xml:base, ":$", "")
+return element div {
+  element h2 { $baseurn } ,
+  let $cts := count($doc//cts)
+  return element p { 
+  element a {
+    attribute href { "http://croala.ffzg.unizg.hr/basex/lattycts/" || $baseurn  },
+    $cts
+  }
+}
+}
+};
+
 (: given a URN, open an indexed node :)
 
 declare function latty:open-urn($urn){

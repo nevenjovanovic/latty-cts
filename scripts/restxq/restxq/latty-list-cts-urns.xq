@@ -55,7 +55,7 @@ declare
 <div class="container-fluid">
 <blockquote class="croala">
 	
-	{ latty:listurns2() }
+	{ latty:listurns3() }
   
   
 </blockquote>

@@ -98,8 +98,11 @@ return element ol {
 (: return only number of URNs for each document :)
 
 declare function latty:listurns3(){
+  element div {
+    attribute class { "table-responsive"},
   element table {
-  attribute class { "table"},
+    attribute id { "latty-urns"},
+  attribute class { "table-striped table-hover table-centered"},
   element thead {
     element tr {
       element th { "Document CTS URN"},
@@ -117,6 +120,7 @@ return element tr {
     attribute href { "http://croala.ffzg.unizg.hr/basex/lattycts/" || $baseurn  },
     $cts
   }
+}
 }
 }
 }

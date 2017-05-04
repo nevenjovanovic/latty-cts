@@ -20,7 +20,7 @@ This system consists of two databases. The first one, `latty-cts`, holds the XML
 
 The `latty-cts` database is created by running the [create-latty.bxs](https://github.com/nevenjovanovic/latty-cts/blob/master/bxs/create-latty.bxs) script in the `bxs` directory.
 
-The `latty-cts-idx` database is created from the `latty-cts-index.xml` file in the `indices` directory. This file, which is specific to each system (and therefore not under source control), is created locally by running the [create-latty-index-xml.bxs](https://github.com/nevenjovanovic/latty-cts/blob/master/bxs/create-latty-index-xml.bxs) script.
+The `latty-cts-idx` database is created from the `latty-cts-index.xml` file in the `indices` directory. This file, which is specific to each system (and therefore not under source control), is created locally by running the [create-latty-index-xml.bxs](https://github.com/nevenjovanovic/latty-cts/blob/master/bxs/create-latty-index-xml.bxs) script. From that XML source, the [create-latty-idx.bxs](https://github.com/nevenjovanovic/latty-cts/blob/master/bxs/create-latty-idx.bxs) script creates the database.
 
 ## XQueries and functions
 

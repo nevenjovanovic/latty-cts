@@ -79,6 +79,22 @@ return (
 )
 };
 
+(: list URNs using the index database :)
+
+declare function latty:listurns2() {
+  for $doc in collection("latty-cts-idx")//doc
+return element ol {
+  for $cts in $doc//cts
+  let $urn := $cts/urn/string()
+  return element li { 
+  element a {
+    attribute href { "http://croala.ffzg.unizg.hr/basex/lattycts/" || $urn  },
+    $urn
+  }
+}
+}
+};
+
 (: given a URN, open an indexed node :)
 
 declare function latty:open-urn($urn){

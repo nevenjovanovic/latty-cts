@@ -134,3 +134,18 @@ declare function latty:open-urn($urn){
   let $dbid := xs:int($node/dbid/string())
   return if ($node) then db:open-id("latty-cts", $dbid) else element p { "Not a valid URN in the latty-cts collection!" }
 };
+
+(: for a given base URN, list all CTS URNs below it :)
+declare function latty:getcapabilitiesdoc($baseurn){
+  element h2 {},
+element ol {
+let $doc := collection("latty-cts-idx")//doc[contains(@xml:base, $baseurn)]
+for $cts in $doc//cts
+let $urn := $cts/urn/string()
+return element li { element a {
+  attribute href { "http://croala.ffzg.unizg.hr/basex/lattycts/" ||  $urn },
+  $urn
+}
+}
+}
+};

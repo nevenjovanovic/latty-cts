@@ -16,7 +16,7 @@ If we follow links from that list, we will come to a document "node" -- to all t
 
 ## Databases
 
-This system consists of two database. The first one, `latty-cts`, holds the XML files in which each relevant (citable) node has an `n` attribute. The second database, `latty-cts-idx`, holds the CTS URNs together with the "node ids", that is, identification numbers of each relevant (citable) node in the `latty-cts` database.
+This system consists of two databases. The first one, `latty-cts`, holds the XML files in which each relevant (citable) node has an `n` attribute with a value of the node name and the number of its sequence inside the upper-level node. The second database, `latty-cts-idx`, holds the CTS URNs together with the "node ids", that is, identification numbers of each relevant (citable) node in the `latty-cts` database.
 
 The `latty-cts` database is created by running the [create-latty.bxs](https://github.com/nevenjovanovic/latty-cts/blob/master/bxs/create-latty.bxs) script in the `bxs` directory.
 

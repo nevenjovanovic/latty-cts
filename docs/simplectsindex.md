@@ -20,8 +20,19 @@ This system consists of two database. The first one, `latty-cts`, holds the XML 
 
 The `latty-cts` database is created by running the [create-latty.bxs](https://github.com/nevenjovanovic/latty-cts/blob/master/bxs/create-latty.bxs) script in the `bxs` directory.
 
-The `latty-cts-idx` database is created from the [latty-cts-index.xml](https://github.com/nevenjovanovic/latty-cts/blob/master/indices/latty-cts-index.xml) file in the `indices` directory. This file, which is specific to each system (and therefore not under source control), is created locally by running the [create-latty-index-xml.bxs](https://github.com/nevenjovanovic/latty-cts/blob/master/bxs/create-latty-index-xml.bxs) script.
+The `latty-cts-idx` database is created from the `latty-cts-index.xml` file in the `indices` directory. This file, which is specific to each system (and therefore not under source control), is created locally by running the [create-latty-index-xml.bxs](https://github.com/nevenjovanovic/latty-cts/blob/master/bxs/create-latty-index-xml.bxs) script.
 
 ## XQueries and functions
 
 The pages with lists of CTS URNs are created by two types of XQuery functions. The RESTXQ scripts create the pages, and XQuery functions from the [latty.xqm](https://github.com/nevenjovanovic/latty-cts/blob/master/scripts/repo/latty.xqm) module retrieve the variable data which are the main content of these pages.
+
+### Description of functions from the latty.xqm module
+
+`latty:getcapabilitiesdoc` -- retrieve a list of available CTS URNs in a document from the collection; the document is identified by its URN.
+
+`latty:open-urn` -- retrieve contents of a node described by a CTS URN. If there is no such URN in the collection, report an error.
+
+`latty:listurns3` -- for each document in the collection, report its base URN (its top CTS URN address) and the count of its available CTS URNs. Format the list as a table.
+
+Other functions are earlier experiments, or helpers for producing parts of the LatTy template page.
+

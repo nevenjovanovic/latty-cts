@@ -13,7 +13,9 @@ element dbid {
   db:node-id($id)
 }
 }
+let $baseurn3 := $t/@xml:base
 return element doc {
+  $baseurn3 ,
   $texturns
 }
 };

@@ -18,10 +18,10 @@ If we follow links from that list, we will come to a document "node" -- to all t
 
 This system consists of two database. The first one, `latty-cts`, holds the XML files in which each relevant (citable) node has an `n` attribute. The second database, `latty-cts-idx`, holds the CTS URNs together with the "node ids", that is, identification numbers of each relevant (citable) node in the `latty-cts` database.
 
-The `latty-cts` database is created by running the [create-latty.bxs](bxs/create-latty.bxs) script in the `bxs` directory.
+The `latty-cts` database is created by running the [create-latty.bxs](https://github.com/nevenjovanovic/latty-cts/blob/master/bxs/create-latty.bxs) script in the `bxs` directory.
 
-The `latty-cts-idx` database is created from the [latty-cts-index.xml](indices/latty-cts-index.xml) file in the `indices` directory. This file, which is specific to each system (and therefore not under source control), is created locally by running the [create-latty-index-xml.bxs](bxs/create-latty-index-xml.bxs) script.
+The `latty-cts-idx` database is created from the [latty-cts-index.xml](https://github.com/nevenjovanovic/latty-cts/blob/master/indices/latty-cts-index.xml) file in the `indices` directory. This file, which is specific to each system (and therefore not under source control), is created locally by running the [create-latty-index-xml.bxs](https://github.com/nevenjovanovic/latty-cts/blob/master/bxs/create-latty-index-xml.bxs) script.
 
 ## XQueries and functions
 
-The pages with lists of CTS URNs are created by two types of XQuery functions. The RESTXQ scripts create the pages, and XQuery functions from the [latty.xqm](scripts/repo/latty.xqm) module retrieve the variable data which are the main content of these pages.
+The pages with lists of CTS URNs are created by two types of XQuery functions. The RESTXQ scripts create the pages, and XQuery functions from the [latty.xqm](https://github.com/nevenjovanovic/latty-cts/blob/master/scripts/repo/latty.xqm) module retrieve the variable data which are the main content of these pages.

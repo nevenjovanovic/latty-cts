@@ -10,7 +10,7 @@ If we follow links from that list, we will come to a document "node" -- to all t
 
 [urn:cts:latty:reinthaler01.latty2689432.latty-lat1:body1.div3.head1](http://croala.ffzg.unizg.hr/basex/latty/urn:cts:latty:reinthaler01.latty2689432.latty-lat1:body1.div3.head1) - retrieves content of the heading from the third section (division) of the document `urn:cts:latty:reinthaler01.latty2689432.latty-lat1`. *Note* that just deleting final sections of the URN (in the URL shown in the address bar of the browser) takes us up in the hierarchy of the document. From the heading we may "jump" to the whole third section, or even to the whole body of the document.
 
-[urn:cts:latty:reinthaler01.latty2689432.latty-lat1](http://croala.ffzg.unizg.hr/basex/latty/urn:cts:latty:reinthaler01.latty2689432.latty-lat1:body1.div3.lg2.l6) - retrieves content of the sixth verse from the second strophe in the third section of the document `urn:cts:latty:reinthaler01.latty2689432.latty-lat1`.
+[urn:cts:latty:reinthaler01.latty2689432.latty-lat1:body1.div3.lg2.l6](http://croala.ffzg.unizg.hr/basex/latty/urn:cts:latty:reinthaler01.latty2689432.latty-lat1:body1.div3.lg2.l6) - retrieves content of the sixth verse from the second strophe in the third section of the document `urn:cts:latty:reinthaler01.latty2689432.latty-lat1`.
 
 [urn:cts:latty:sonhovius01.latty2712189.latty-lat1:body1.div1.div3.sp2.note3](http://croala.ffzg.unizg.hr/basex/latty/urn:cts:latty:sonhovius01.latty2712189.latty-lat1:body1.div1.div3.sp2.note3) - retrieves content of the third note annotating the second speech of the third subsection of the first section of the document `urn:cts:latty:sonhovius01.latty2712189.latty-lat1`.
 

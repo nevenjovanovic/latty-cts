@@ -98,16 +98,27 @@ return element ol {
 (: return only number of URNs for each document :)
 
 declare function latty:listurns3(){
+  element table {
+  attribute class { "table"},
+  element thead {
+    element tr {
+      element th { "Document CTS URN"},
+      element th { "Total count of URNs"}
+    }
+  },
+  element tbody {
   for $doc in collection("latty-cts-idx")//doc
 let $baseurn := replace($doc/@xml:base, ":$", "")
-return element div {
-  element h2 { $baseurn } ,
+return element tr {
+  element td { $baseurn } ,
   let $cts := count($doc//cts)
-  return element p { 
+  return element td { 
   element a {
     attribute href { "http://croala.ffzg.unizg.hr/basex/lattycts/" || $baseurn  },
     $cts
   }
+}
+}
 }
 }
 };

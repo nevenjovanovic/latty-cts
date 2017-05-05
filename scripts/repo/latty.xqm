@@ -105,6 +105,8 @@ declare function latty:listurns3(){
   attribute class { "table-striped table-hover table-centered"},
   element thead {
     element tr {
+      element th { "Author"},
+      element th { "Title"},
       element th { "Document CTS URN"},
       element th { "Total count of URNs"}
     }
@@ -113,6 +115,8 @@ declare function latty:listurns3(){
   for $doc in collection("latty-cts-idx")//doc
 let $baseurn := replace($doc/@xml:base, ":$", "")
 return element tr {
+  element td { latty:textgroup-from-urn($baseurn) },
+  element td { },
   element td { $baseurn } ,
   let $cts := count($doc//cts)
   return element td { 
@@ -125,6 +129,14 @@ return element tr {
 }
 }
 }
+};
+
+(: return author names or textgroup descriptions :)
+
+declare function latty:textgroup-from-urn($cts){
+  for $textgroup in collection("latty-cts")//*:textgroup[@urn=substring-before($cts, ".")]
+let $name := data($textgroup//*:groupname)
+return if ($name) then normalize-space($name) else "Anonymus"
 };
 
 (: given a URN, open an indexed node :)

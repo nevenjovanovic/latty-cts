@@ -116,7 +116,7 @@ declare function latty:listurns3(){
 let $baseurn := replace($doc/@xml:base, ":$", "")
 return element tr {
   element td { latty:textgroup-from-urn($baseurn) },
-  element td { },
+  element td { latty:work-from-urn($baseurn) },
   element td { $baseurn } ,
   let $cts := count($doc//cts)
   return element td { 
@@ -137,6 +137,13 @@ declare function latty:textgroup-from-urn($cts){
   for $textgroup in collection("latty-cts")//*:textgroup[@urn=substring-before($cts, ".")]
 let $name := data($textgroup//*:groupname)
 return if ($name) then normalize-space($name) else "Anonymus"
+};
+
+(: given a CTS URN, return title of the work :)
+declare function latty:work-from-urn($cts){
+  for $work in collection("latty-cts")//*:work[@urn=substring-before($cts, ".latty-lat")]
+let $name := data($work//*:title)
+return if ($name) then normalize-space($name) else "sine titulo"
 };
 
 (: given a URN, open an indexed node :)

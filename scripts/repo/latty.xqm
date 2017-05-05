@@ -113,10 +113,12 @@ declare function latty:listurns3(){
   },
   element tbody {
   for $doc in collection("latty-cts-idx")//doc
+  let $textgroup := normalize-space($doc/textgroup)
+  let $work := normalize-space($doc/work)
 let $baseurn := replace($doc/@xml:base, ":$", "")
 return element tr {
-  element td { latty:textgroup-from-urn($baseurn) },
-  element td { latty:work-from-urn($baseurn) },
+  element td { $textgroup },
+  element td { $work },
   element td { $baseurn } ,
   let $cts := count($doc//cts)
   return element td { 

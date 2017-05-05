@@ -53,6 +53,7 @@ declare
 </div>
 </div>
 <div class="container-fluid">
+{ latty:urn-header($urn) }
 <blockquote class="croala">
 	
 	{ latty:open-urn($urn) }

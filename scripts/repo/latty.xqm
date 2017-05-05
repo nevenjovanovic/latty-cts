@@ -119,7 +119,10 @@ let $baseurn := replace($doc/@xml:base, ":$", "")
 return element tr {
   element td { $textgroup },
   element td { $work },
-  element td { $baseurn } ,
+  element td { element a {
+    attribute href { "http://croala.ffzg.unizg.hr/basex/lattyctsurn/" || $baseurn  },
+    $baseurn
+  } } ,
   let $cts := count($doc//cts)
   return element td { 
   element a {
@@ -168,5 +171,17 @@ return element li { element a {
   $urn
 }
 }
+}
+};
+
+(: From a URN, return metadata on author and text as headings :)
+declare function latty:urn-header($urn){
+  let $doc := collection("latty-cts-idx")//doc[cts/urn=$urn]
+let $xmlbase :=  $doc/@xml:base
+let $textgroup := $doc/textgroup
+let $work := $doc/work
+return element div {
+  element h1 { replace($xmlbase, ":$", "") },
+  element h2 { $textgroup || " ― " || $work }
 }
 };

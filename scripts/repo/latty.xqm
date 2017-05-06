@@ -185,3 +185,14 @@ return element div {
   element h2 { $textgroup || " ― " || $work }
 }
 };
+
+(: given a doc URN without the colon at the end, retrieve a header with textgroup and work :)
+declare function latty:urn-header2($urn){
+  let $doc := collection("latty-cts-idx")//doc[contains(@xml:base,$urn)]
+let $textgroup := $doc/textgroup
+let $work := $doc/work
+return element div {
+  element h1 { $urn },
+  element h2 { $textgroup || " ― " || $work }
+}
+};

@@ -1,8 +1,8 @@
-<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:lattyleopold01">
-  <groupname>
+<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:leopold01">
+  <ti:groupname xml:lang="lat">
     <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="dt">Leopold, Christoph</name>
     <date xmlns="http://www.tei-c.org/ns/1.0" precision="high">1679–1748</date>
     <name xmlns="http://www.tei-c.org/ns/1.0" key="vian01">Vian, Christian</name>
     <date xmlns="http://www.tei-c.org/ns/1.0" precision="medium">1690-1759</date>
-  </groupname>
+  </ti:groupname>
 </ti:textgroup>

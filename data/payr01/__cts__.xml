@@ -1,6 +1,6 @@
-<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:lattypayr01">
-  <groupname>
+<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:payr01">
+  <ti:groupname xml:lang="lat">
     <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="dt">Payr, Franz Friedrich</name>
     <date xmlns="http://www.tei-c.org/ns/1.0">1685-1759</date>
-  </groupname>
+  </ti:groupname>
 </ti:textgroup>

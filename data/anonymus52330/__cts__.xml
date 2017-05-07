@@ -1,5 +1,5 @@
-<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:lattyanonymus52330">
-  <groupname>
+<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:anonymus52330">
+  <ti:groupname xml:lang="lat">
     <name xmlns="http://www.tei-c.org/ns/1.0">Anonymus</name>
-  </groupname>
+  </ti:groupname>
 </ti:textgroup>

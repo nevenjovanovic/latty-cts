@@ -1,7 +1,7 @@
-<work groupUrn="urn:cts:latty:anonymus52168" urn="urn:cts:latty:anonymus52168.latty2810337" xml:lang="lat">
-  <title xml:lang="lat">Carmen in natali celebritate serenissimae archid. Mariae Eleonorae faustissimis Leopoldo et Claudiae parentibus</title>
-  <edition workUrn="urn:cts:latty:anonymus52168.latty2810337" urn="urn:cts:latty:anonymus52168.latty2810337.latty-lat1:">
-    <label xml:lang="lat">Carmen in natali celebritate serenissimae archid. Mariae Eleonorae faustissimis Leopoldo et Claudiae parentibus, laetae foecunditatis auspicio, primo genita, versio electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:anonymus52168" urn="urn:cts:latty:anonymus52168.latty2810337" xml:lang="lat">
+  <ti:title xml:lang="lat">Carmen in natali celebritate serenissimae archid. Mariae Eleonorae faustissimis Leopoldo et Claudiae parentibus</ti:title>
+  <ti:edition workUrn="urn:cts:latty:anonymus52168.latty2810337" urn="urn:cts:latty:anonymus52168.latty2810337.latty-lat1:">
+    <ti:label xml:lang="lat">Carmen in natali celebritate serenissimae archid. Mariae Eleonorae faustissimis Leopoldo et Claudiae parentibus, laetae foecunditatis auspicio, primo genita, versio electronica</ti:label>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
+  </ti:edition>
+</ti:work>

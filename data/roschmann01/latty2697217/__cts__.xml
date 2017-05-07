@@ -1,7 +1,7 @@
-<work groupUrn="urn:cts:latty:roschmann01" urn="urn:cts:latty:roschmann01.latty2697217" xml:lang="lat">
-  <title xml:lang="lat">Iter Bulsanense 1740 confectum</title>
-  <edition workUrn="urn:cts:latty:roschmann01.latty2697217" urn="urn:cts:latty:roschmann01.latty2697217.latty-lat1:">
-    <label xml:lang="lat">Iter Bulsanense 1740 confectum, integre descriptum 1743, versio electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:roschmann01" urn="urn:cts:latty:roschmann01.latty2697217" xml:lang="lat">
+  <ti:title xml:lang="lat">Iter Bulsanense 1740 confectum</ti:title>
+  <ti:edition workUrn="urn:cts:latty:roschmann01.latty2697217" urn="urn:cts:latty:roschmann01.latty2697217.latty-lat1:">
+    <ti:label xml:lang="lat">Iter Bulsanense 1740 confectum, integre descriptum 1743, versio electronica</ti:label>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
+  </ti:edition>
+</ti:work>

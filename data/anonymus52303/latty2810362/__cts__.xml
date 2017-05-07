@@ -1,10 +1,10 @@
-<work groupUrn="urn:cts:latty:anonymus52303" urn="urn:cts:latty:anonymus52303.latty2810362" xml:lang="lat">
-  <title xml:lang="lat">Helicon Oenipontanus advenienti serneissimae reginae Ailhelminae Ameliae
-                    obvius</title>
-  <edition workUrn="urn:cts:latty:anonymus52303.latty2810362" urn="urn:cts:latty:anonymus52303.latty2810362.latty-lat1:">
-    <label xml:lang="lat">Helicon Oenipontanus advenienti serneissimae reginae Ailhelminae Ameliae
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:anonymus52303" urn="urn:cts:latty:anonymus52303.latty2810362" xml:lang="lat">
+  <ti:title xml:lang="lat">Helicon Oenipontanus advenienti serneissimae reginae Ailhelminae Ameliae
+                    obvius</ti:title>
+  <ti:edition workUrn="urn:cts:latty:anonymus52303.latty2810362" urn="urn:cts:latty:anonymus52303.latty2810362.latty-lat1:">
+    <ti:label xml:lang="lat">Helicon Oenipontanus advenienti serneissimae reginae Ailhelminae Ameliae
                     obvius, sive Universitas Oenipontana serinissimam reginam Wilhellminam Aemiliam excipiens anno 1699, 
-                    versio electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+                    versio electronica</ti:label>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
+  </ti:edition>
+</ti:work>

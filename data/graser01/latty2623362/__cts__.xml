@@ -1,7 +1,7 @@
-<work groupUrn="urn:cts:latty:graser01" urn="urn:cts:latty:graser01.latty2623362" xml:lang="lat">
-  <title xml:lang="lat">De praestantia logicae</title>
-  <edition workUrn="urn:cts:latty:graser01.latty2623362" urn="urn:cts:latty:graser01.latty2623362.latty-lat1:">
-    <label xml:lang="lat">De praestantia logicae, versio electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:graser01" urn="urn:cts:latty:graser01.latty2623362" xml:lang="lat">
+  <ti:title xml:lang="lat">De praestantia logicae</ti:title>
+  <ti:edition workUrn="urn:cts:latty:graser01.latty2623362" urn="urn:cts:latty:graser01.latty2623362.latty-lat1:">
+    <ti:label xml:lang="lat">De praestantia logicae, versio electronica</ti:label>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
+  </ti:edition>
+</ti:work>

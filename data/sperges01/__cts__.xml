@@ -1,6 +1,6 @@
-<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:lattysperges01">
-  <groupname>
+<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:sperges01">
+  <ti:groupname xml:lang="lat">
     <name xmlns="http://www.tei-c.org/ns/1.0">Sperges, Joseph von</name>
     <date xmlns="http://www.tei-c.org/ns/1.0">1725-1791</date>
-  </groupname>
+  </ti:groupname>
 </ti:textgroup>

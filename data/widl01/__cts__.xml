@@ -1,6 +1,6 @@
-<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:lattywidl01">
-  <groupname>
+<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:widl01">
+  <ti:groupname xml:lang="lat">
     <name xmlns="http://www.tei-c.org/ns/1.0">Widl, Adam</name>
     <date xmlns="http://www.tei-c.org/ns/1.0">1639-1709</date>
-  </groupname>
+  </ti:groupname>
 </ti:textgroup>

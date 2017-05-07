@@ -1,7 +1,7 @@
-<work groupUrn="urn:cts:latty:primisser01" urn="urn:cts:latty:primisser01.latty2665425" xml:lang="lat">
-  <title xml:lang="lat">Rythmus in laudem Venerabilis Patris Joannis Campidonensis Sacerdotis et Monachi Ordinis Cisterciensis et monasterii Stamsensis</title>
-  <edition workUrn="urn:cts:latty:primisser01.latty2665425" urn="urn:cts:latty:primisser01.latty2665425.latty-lat1:">
-    <label xml:lang="lat">Rythmus in laudem Venerabilis Patris Joannis Campidonensis Sacerdotis et Monachi Ordinis Cisterciensis et monasterii Stamsensis, adversionibus historicis explicatus, versio electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:primisser01" urn="urn:cts:latty:primisser01.latty2665425" xml:lang="lat">
+  <ti:title xml:lang="lat">Rythmus in laudem Venerabilis Patris Joannis Campidonensis Sacerdotis et Monachi Ordinis Cisterciensis et monasterii Stamsensis</ti:title>
+  <ti:edition workUrn="urn:cts:latty:primisser01.latty2665425" urn="urn:cts:latty:primisser01.latty2665425.latty-lat1:">
+    <ti:label xml:lang="lat">Rythmus in laudem Venerabilis Patris Joannis Campidonensis Sacerdotis et Monachi Ordinis Cisterciensis et monasterii Stamsensis, adversionibus historicis explicatus, versio electronica</ti:label>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
+  </ti:edition>
+</ti:work>

@@ -11,6 +11,7 @@ Follow the [CITE Architecture](http://cite-architecture.github.io/) and [CapiTai
 
 ## Contents
 + The XML files are in [data](https://github.com/nevenjovanovic/latty-cts/tree/master/data)
++ The XQuery scripts used to produce this version are in [scripts](https://github.com/nevenjovanovic/latty-cts/tree/master/scripts) as well as their [descriptions](https://github.com/nevenjovanovic/latty-cts/blob/master/scripts/scripts.md)
 + Files with additional information are in [docs](https://github.com/nevenjovanovic/latty-cts/tree/master/docs)
 
 ## License

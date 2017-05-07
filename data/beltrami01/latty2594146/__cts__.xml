@@ -1,7 +1,7 @@
-<work groupUrn="urn:cts:latty:beltrami01" urn="urn:cts:latty:beltrami01.latty2594146" xml:lang="lat">
-  <title xml:lang="lat">Elogium Constantini Lorenzii</title>
-  <edition workUrn="urn:cts:latty:beltrami01.latty2594146" urn="urn:cts:latty:beltrami01.latty2594146.latty-lat1:">
-    <label xml:lang="lat">Elogium Constantini Lorenzii, versio electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:beltrami01" urn="urn:cts:latty:beltrami01.latty2594146" xml:lang="lat">
+  <ti:title xml:lang="lat">Elogium Constantini Lorenzii</ti:title>
+  <ti:edition workUrn="urn:cts:latty:beltrami01.latty2594146" urn="urn:cts:latty:beltrami01.latty2594146.latty-lat1:">
+    <ti:label xml:lang="lat">Elogium Constantini Lorenzii, versio electronica</ti:label>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
+  </ti:edition>
+</ti:work>

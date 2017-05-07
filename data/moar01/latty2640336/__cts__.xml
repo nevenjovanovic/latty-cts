@@ -1,7 +1,7 @@
-<work groupUrn="urn:cts:latty:moar01" urn="urn:cts:latty:moar01.latty2640336" xml:lang="lat">
-  <title xml:lang="lat">In mortem Christi</title>
-  <edition workUrn="urn:cts:latty:moar01.latty2640336" urn="urn:cts:latty:moar01.latty2640336.latty-lat1:">
-    <label xml:lang="lat">In mortem Christi, versio electronica</label>
-    <description xml:lang="eng">test description</description>
-  </edition>
-</work>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latty:moar01" urn="urn:cts:latty:moar01.latty2640336" xml:lang="lat">
+  <ti:title xml:lang="lat">In mortem Christi</ti:title>
+  <ti:edition workUrn="urn:cts:latty:moar01.latty2640336" urn="urn:cts:latty:moar01.latty2640336.latty-lat1:">
+    <ti:label xml:lang="lat">In mortem Christi, versio electronica</ti:label>
+    <ti:description xml:lang="eng">CTS compliant Tyrolean Neo-Latin texts</ti:description>
+  </ti:edition>
+</ti:work>

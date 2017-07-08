@@ -59,7 +59,7 @@
     </tei:encodingDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:widl01.latty2781878.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Nuptialis panegyris augustissimo hymenaeo<persName n="persName1">Leopoldi I</persName>romani imperatoris<placeName n="placeName2">Hungariae</placeName>
           <placeName n="placeName3">Bohemiae</placeName>regis et caetera et<persName n="persName4">Claudiae</persName>felicis archiducis Austriae, comitis Tirolis,

@@ -75,7 +75,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:pruner01.latty2674069.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1" type="dedication">
         <head n="head1">
           <pb n="pb1"/>All’ illustrissimo signore Antonio Loria, patrizio di Mantova, podestà di

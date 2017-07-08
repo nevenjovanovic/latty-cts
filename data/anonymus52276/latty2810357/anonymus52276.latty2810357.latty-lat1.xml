@@ -65,7 +65,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:anonymus52276.latty2810357.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Applausus ad Principem Eugenium</head>
         <lg n="lg2" type="stanza">

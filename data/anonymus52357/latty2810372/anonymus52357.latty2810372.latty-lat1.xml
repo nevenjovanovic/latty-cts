@@ -82,7 +82,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:anonymus52357.latty2810372.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">
           <emph n="emph1">I</emph>N<emph n="emph2">H</emph>OC<emph n="emph3">S</emph>IGNO ID EST IN IESU NOMINE FELICISSIMUM ITER, ET

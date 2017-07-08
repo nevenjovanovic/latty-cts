@@ -80,7 +80,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:anonymus52438.latty2810387.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Regulus ab Aquila exaltatus seu Hymenaeus sacer reverendissimo, ac celsissimo S.R.I.
                 Principi ac Domino Domino Casparo Ignatio e comitibus Kinigl, Lib. Baroni in

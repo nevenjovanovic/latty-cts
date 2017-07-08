@@ -64,7 +64,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:pansa01.latty2647892.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Lacrymae Romanae invictissimo monarchae heroi fortissimo principi optimo maximo
                 Matthiae I imperatori romano patri patriae augusto, pio, felici, et caetera regi<placeName n="placeName1">Ungariae</placeName>,<placeName n="placeName2">Bohemiae</placeName>, et caetera archiduci<placeName n="placeName3">Austriae</placeName>, et caetera.

@@ -80,7 +80,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:multiauthor48477.latty2810452.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Fragmentum poeticum<persName n="persName1">Valentini Forer</persName>autobiographicum.
                 Summa reliquae vitae lineamenta e documentis adiecit in prosa<persName n="persName2">Dr. J.C. Mitterrutzner</persName>ex eiusdem sorore nepos.</head>

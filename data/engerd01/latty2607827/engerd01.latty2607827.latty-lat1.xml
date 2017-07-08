@@ -77,7 +77,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:engerd01.latty2607827.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Liber primus</head>
         <l n="l2">Ille ego, qui quondam famamque et fata parentum</l>

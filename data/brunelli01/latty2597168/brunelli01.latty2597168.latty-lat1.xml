@@ -76,7 +76,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:brunelli01.latty2597168.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Oratio genethliaca, quam in solennitate publica nati serenissimi regis<placeName n="placeName1">Hungariae</placeName>, et<placeName n="placeName2">Bohemiae</placeName>, principis,<placeName n="placeName3">Austriae</placeName>archiducis, et comitis Tyroleos et caetera et caetera
                 Josephi Benedicti Augusti Michaelis Joannis Antonii Adami ante sacrum festivum, et

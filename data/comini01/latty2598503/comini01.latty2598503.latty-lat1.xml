@@ -74,7 +74,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:comini01.latty2598503.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Historia febris putrido contagiosae Lisenensis<note n="note1" place="foot" xml:id="ftn1">
             <p n="p1">Lisena vallis ad montem in orientem versus sita ab urbe Brixinae tribus

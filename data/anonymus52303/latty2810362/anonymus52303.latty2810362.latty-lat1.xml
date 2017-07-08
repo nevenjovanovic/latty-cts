@@ -86,7 +86,7 @@
         <docImprint n="docImprint3">Typis Benedicti Caroli Reisacher Typographi Academici</docImprint>
       </titlePage>
     </front>
-    <body n="body2">
+    <body xml:lang="lat" n="body2">
       <div n="div1">
         <p n="p1">
           <pb n="pb1"/>I Quod dudum desiderabat Hungaria, tamdiu sperabat Bohemia, avidissime

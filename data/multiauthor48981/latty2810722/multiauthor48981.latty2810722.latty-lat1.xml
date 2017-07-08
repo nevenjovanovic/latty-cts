@@ -82,7 +82,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:multiauthor48981.latty2810722.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Clementini Vannettii Equitis Epistolarum libri quinque. Accedit Costantini
                     Laurentii Commentariolum de eodem Vannettio.</head>

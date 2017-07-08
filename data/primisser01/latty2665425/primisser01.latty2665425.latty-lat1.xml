@@ -82,7 +82,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:primisser01.latty2665425.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Rythmus in laudem Venerabilis Patris Joannis Campidonensis Sacerdotis et Monachi Ordini
                 Cisterciensis et monasterii Stamsensis, adversionibus histoticis explicatus.</head>

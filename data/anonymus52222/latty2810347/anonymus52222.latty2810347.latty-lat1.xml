@@ -72,7 +72,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:anonymus52222.latty2810347.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Componimenti poetici consecrati al merito di sua eccellenza reverendissima monsignor<persName n="persName1">Francesco Felice</persName>conte degli Alberti di Enno, vescovo di<placeName n="placeName2">Melitopoli</placeName>intimo attuale
                 consigliere di stato delle loro cesaree maestà imperiali, coadiutore con futura

@@ -71,7 +71,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:venusti01.latty2777656.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Balnerorum Burmiensium descriptio, natura et virtus. Item: consilium de ovorum avium
                 natura, virtute, ac usu. Antonio Maria Venusto, de Castello Sancti Faustini,

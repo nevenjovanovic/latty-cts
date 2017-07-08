@@ -70,7 +70,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:roschmann01.latty2697217.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <pb n="pb1" xml:id="F1r"/>
         <p n="p2">Surrexit non est hic aiebat nuper</p>

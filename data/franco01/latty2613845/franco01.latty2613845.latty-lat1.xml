@@ -73,7 +73,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:franco01.latty2613845.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <pb n="pb1" xml:id="F1r"/>
         <head n="head2">(0) Arcensis Comitatus Per Amb<add n="add1" resp="editor">rosium</add>Francum Descriptio, multis in locis a Io<add n="add2" resp="editor">anne</add>Dominico ejus F<add n="add3" resp="editor">ilio</add>auctior et Illustrior

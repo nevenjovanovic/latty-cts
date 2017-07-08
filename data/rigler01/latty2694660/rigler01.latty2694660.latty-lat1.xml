@@ -79,7 +79,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:rigler01.latty2694660.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">ODE IN SOLEMNI DISTRIBUTIONE NUMISMATUM VIRIS FORTIBUS A PROVINCIA TYROLENSI DECRETORUM.<date n="date1">V. CAL. JUN. MDCCXCVIII.</date>
         </head>

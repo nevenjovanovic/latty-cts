@@ -76,7 +76,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:alessandrini01.latty2574838.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">
           <name n="name1">IULII ALEXANDRINI</name>PROTOPHYSICI CAESAREI PAEDOTROPHIA, SIVE De Puerorum educatione,

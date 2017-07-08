@@ -72,7 +72,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:perotti01.latty2651471.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Hospitis Alexii principis romani gesta sacrosancta, mixtis poematibus exposita
                 illustrissimo ac reverendissimo D. D.Carolo De Castro Barco S. R. I. Co.

@@ -75,7 +75,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:staidel01.latty2721548.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Ars Magica adserta a Fratre<persName n="persName1">Francisco Staidelio</persName>, Ord. Min. Conventualium
                     Theologo atque Examinatore Prosynodali.</head>

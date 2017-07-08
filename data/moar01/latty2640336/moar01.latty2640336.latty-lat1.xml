@@ -74,7 +74,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:moar01.latty2640336.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">In mortem Christi versus hexametri<persName n="persName1">Francisci Moari</persName>,<placeName n="placeName2">Tridenti</placeName>, ex officina Monauniana,<date n="date3">anno MDCCCXXXVII</date>
         </head>

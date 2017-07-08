@@ -57,7 +57,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:anonymus52465.latty2810392.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">SANCTUS SEVERINUS BOETIUS IUSTITIAE PROFUSO SANGUINE PROPUGNATAE SPECTACULUM HONORIS ERGO POEMATE DECANTATUM: 
                 Cum In Alma Caesareo-Austriaca Universitate Oenipontana

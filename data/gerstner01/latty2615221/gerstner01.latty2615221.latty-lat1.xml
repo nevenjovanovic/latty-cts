@@ -70,7 +70,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:gerstner01.latty2615221.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Dissertatio medica inauguralis de salubritate aquae purae ad longaevitatem, habita
                 in alma Caesareo-Lepoldina regio-archiducali Universitate Oenipontana a prenobili

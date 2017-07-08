@@ -76,7 +76,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:madlener01.latty2631585.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Specimen inaugurale medicum de usu et abusu potus caffe, quod authoritate, et
                 consensu illustrium, magnificorum, spectabilium, et clarissimorum virorum plurimum

@@ -70,7 +70,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:putsch01.latty2681971.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <head n="head1">Brevis et indubitata Assertio De iis Principibus,
                 qui a Christi nativitate ad haec nostra usque tempora Dominio integrè potiti sunt
                 Civitatis Tridentinae; Serenissimum et Illustrissimum ac Dominum Ferdinandum II.

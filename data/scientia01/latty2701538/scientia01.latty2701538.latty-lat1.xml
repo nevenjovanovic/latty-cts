@@ -81,7 +81,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:scientia01.latty2701538.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Panegyrica ode quam illustrissimo et reverendissimo domino domino<persName n="persName1">Carolo Madrutio</persName>
           <placeName n="placeName2">Tridenti</placeName>episcopo consecrato accinebat<persName n="persName3">J.B. Scientia</persName>.</head>

@@ -69,7 +69,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:albertini01.latty2571455.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">
           <persName n="persName1">Ioannis Baptistae Albertini</persName>studii phi. caes. reg. directoris, ac log. met. et phi.

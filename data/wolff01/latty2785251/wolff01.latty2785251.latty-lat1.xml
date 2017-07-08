@@ -80,7 +80,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:wolff01.latty2785251.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">NAT<emph n="emph1">IVI</emph>TAS PETR<emph n="emph2">I L</emph>EOPO<emph n="emph3">LDI</emph>ATQ<emph n="emph4">V</emph>E  NATA<emph n="emph5">LI</emph>S  THERES<emph n="emph6">I</emph>AE  A<emph n="emph7">V</emph>G<emph n="emph8">V</emph>STAE REG<emph n="emph9">I</emph>NAE 
                 SO<emph n="emph10">L</emph>ENN<emph n="emph11">I</emph>PO<emph n="emph12">M</emph>PA<emph n="emph13">V</emph>N<emph n="emph14">IV</emph>ERS<emph n="emph15">I</emph>TAT<emph n="emph16">I</emph>S OEN<emph n="emph17">I</emph>PONTANAE 

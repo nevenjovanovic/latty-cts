@@ -73,7 +73,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:winepacher01.latty2783989.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Antiquis eruta ex litteris historia Mariae a solatio dictae, quae in Vineis
                 Maisensibus dolorosa christiano populo est propitia. Cum permissu superiorum.</head>

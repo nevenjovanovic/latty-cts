@@ -76,7 +76,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:maffiolus01.latty2635588.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Flosculi aureas illustrissimi et reverendissimi Caroli cardinali Madrutio et principis tridenti comas ambientes, sub Auroram ad Hippocrenes undarum murmur in Heliconis radicibus derpti a Caelio Maffiolo salod. Perill. comiti d. Hieronymo a veritate Dicantur.</head>
       </div>

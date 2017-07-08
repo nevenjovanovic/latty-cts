@@ -87,7 +87,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:mayno01.latty2637944.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Oratio Jasonis nitidissima in sanctissimum matrimonium foelicissimasque nuptias
                 Maximiliani regis et Blancae Mariae Reginae Romanorum. 

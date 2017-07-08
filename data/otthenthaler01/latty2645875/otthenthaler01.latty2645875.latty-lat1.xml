@@ -72,7 +72,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:otthenthaler01.latty2645875.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Palaemon, aegloga heroico carmine conscripta<persName n="persName1">M. Paulo Otthenthalero</persName>authore.
              Historia pentecostes elegiacis versibus reddita per eundem.</head>

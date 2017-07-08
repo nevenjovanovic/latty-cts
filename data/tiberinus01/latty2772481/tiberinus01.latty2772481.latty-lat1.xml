@@ -84,7 +84,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:tiberinus01.latty2772481.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <figure n="figure1">
           <figDesc n="figDesc1">Simon is tormented by a group of Jews</figDesc>

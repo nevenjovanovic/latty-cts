@@ -77,7 +77,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:reydax01.latty2693974.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">
           <emph n="emph1">EPITOME</emph>Rerum Oënovallensium. M. DCC III.</head>

@@ -65,7 +65,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:beltrami01.latty2594146.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <p n="p1">Elogium<persName n="persName1">Constantini Lorenzii</persName>lectum in conventu sodalium litteratorum lentorum<date n="date2">pridie
                 calendas februaris anno christiano 1822</date>.</p>
       <p n="p2">Accedit decretum sodalitatis litterariae de eodem<persName n="persName1">Lorenzio</persName>.</p>

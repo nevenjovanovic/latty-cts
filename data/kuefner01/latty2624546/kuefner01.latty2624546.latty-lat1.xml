@@ -70,7 +70,7 @@
     </revisionDesc>
   </teiHeader>
   <text xml:lang="lat" xml:base="urn:cts:latty:kuefner01.latty2624546.latty-lat1:">
-    <body n="body1">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Congratulatio cessantis interregni electo Romanorum Hispaniaeque regi Carolo sacra,
                 authore Ioanne Keffner Ratembergensi.</head>

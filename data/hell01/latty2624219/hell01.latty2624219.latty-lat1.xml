@@ -79,7 +79,7 @@
       </listChange>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:hell01.latty2624219.latty-lat1:">
+  <text xml:lang="lat" xml:base="urn:cts:latty:hell01.latty2624219.latty-lat1:">
     <body n="body1">
       <div n="div1">
         <head n="head1">Elogium rustici Tyrolensis celeberrimi<persName n="persName1">Petri Anich</persName>Oberperfussensis coloni,

@@ -73,7 +73,7 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:leopold01.latty2628529.latty-lat1:">
+  <text xml:lang="lat" xml:base="urn:cts:latty:leopold01.latty2628529.latty-lat1:">
     <body n="body1">
       <div n="div1">
         <head n="head1">Philosophia Historica de Montibus,

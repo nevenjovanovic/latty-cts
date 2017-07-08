@@ -71,7 +71,7 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:casletano01.latty2598166.latty-lat1:">
+  <text xml:lang="lat" xml:base="urn:cts:latty:casletano01.latty2598166.latty-lat1:">
     <body n="body1">
       <div n="div1">
         <head n="head1">Carmen salutatorium ad omnes coelestes Hierusalem cives,<expan n="expan1" resp="viaf6913774">et</expan>in memoriam diei ipsis dedicati, conscriptum. Andrea Casletano, Authore.<placeName n="placeName2">Brixinae,</placeName>apud Donatum Faetium.<date n="date3">Anno, M.D.LXX.</date>

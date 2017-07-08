@@ -72,7 +72,7 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:franco01.latty2613845.latty-lat1:">
+  <text xml:lang="lat" xml:base="urn:cts:latty:franco01.latty2613845.latty-lat1:">
     <body n="body1">
       <div n="div1">
         <pb n="pb1" xml:id="F1r"/>

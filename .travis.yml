@@ -18,7 +18,7 @@ before_deploy:
 
 deploy:
   provider: releases
-  api_key: 39c292ffa6474368987f3bdd75b75125e0a37378
+  api_key: $GITPERM
   skip_cleanup: true
   on:
     repo: nevenjovanovic/latty-cts

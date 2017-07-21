@@ -5,11 +5,11 @@
         <title xml:id="multiAuthor48981">Clementini Vannettii Equitis Epistolarum libri quinque. Accedit Costantini
                     Laurentii Commentariolum de eodem Vannettio, versio electronica</title>
         <author key="Vannetti01">
-          <name xml:lang="it">Vannetti, Clementino</name>
+          <name xml:lang="ita">Vannetti, Clementino</name>
           <date precision="high">1754-1795</date>
         </author>
         <author key="Lorenzi01">
-          <name xml:lang="it">Lorenzi, Costantino</name>
+          <name xml:lang="ita">Lorenzi, Costantino</name>
           <date precision="high">1754-1821</date>
         </author>
         <respStmt>
@@ -81,8 +81,8 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:multiauthor48981.latty2810722.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:multiauthor48981.latty2810722.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Clementini Vannettii Equitis Epistolarum libri quinque. Accedit Costantini
                     Laurentii Commentariolum de eodem Vannettio.</head>

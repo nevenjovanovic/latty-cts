@@ -72,8 +72,8 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:thun01.latty2769639.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:thun01.latty2769639.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">
           <persName n="persName1">Petrus Vigilius</persName>Dei gratia episcopus et S.R.I. princeps<persName n="persName2">Tridenti</persName>etc. Marchio

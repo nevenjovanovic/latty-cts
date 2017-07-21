@@ -75,8 +75,8 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:otthenthaler01.latty2643595.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:otthenthaler01.latty2643595.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Cyri Theodori prodromi tetrasticha iambica et heroica in vitas sancti Gregorii
                 Natianzeni, Basilii Magni, Ioannis Chrysostomi, in quibus horum theologorum dicta,

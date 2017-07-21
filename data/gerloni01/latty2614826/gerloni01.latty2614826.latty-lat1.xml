@@ -4,7 +4,7 @@
       <titleStmt>
         <title>Auspicante Caesaris apud Tridentinos imperio carmen, versio electronica</title>
         <author key="gerloni01">
-          <name xml:lang="it">Gerloni, Bartolomeo Carlo</name>
+          <name xml:lang="ita">Gerloni, Bartolomeo Carlo</name>
           <date precision="high">1759-1839</date>
         </author>
         <respStmt>
@@ -70,8 +70,8 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:gerloni01.latty2614826.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:gerloni01.latty2614826.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Auspicante Caesaris apud Tridentinos imperio carmen.</head>
       </div>

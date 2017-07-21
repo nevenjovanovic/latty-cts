@@ -66,8 +66,8 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:stephani01.latty2769210.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:stephani01.latty2769210.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <head n="head1">Copiae Litterarum ad diversos ab anno Christi 1640</head>
       <div n="div2">
         <head n="head1" xml:lang="dt">1. Stephani an Georg Buchmüller, Regens des Konvikts in Ingolstadt

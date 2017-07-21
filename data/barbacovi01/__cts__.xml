@@ -1,6 +1,6 @@
 <ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latty:barbacovi01">
   <ti:groupname xml:lang="lat">
-    <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">Barbacovi, Francesco Vigilio</name>
+    <name xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ita">Barbacovi, Francesco Vigilio</name>
     <date xmlns="http://www.tei-c.org/ns/1.0" precision="high">1738–1821</date>
   </ti:groupname>
 </ti:textgroup>

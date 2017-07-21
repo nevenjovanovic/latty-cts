@@ -79,8 +79,8 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:payr01.latty2648970.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:payr01.latty2648970.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Apologia inter Sarcophibum et Sarcophilum cum Crisi Theophili Veronensis, seu
                     Discursus Rationalis de Praecepto Ecclesiastico Jejunii et Abstinentiae, quos et

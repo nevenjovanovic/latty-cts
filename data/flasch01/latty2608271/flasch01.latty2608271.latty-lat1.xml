@@ -72,8 +72,8 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:flasch01.latty2608271.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:flasch01.latty2608271.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Professio Catholica M. Sebastiani Flaschii Mansfeldensis, non vulgaris
                     eruditionis et authoritatis viri, ubi Lutheranam Haeresin, in qua et natus et a

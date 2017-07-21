@@ -75,8 +75,8 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:madlener01.latty2631585.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:madlener01.latty2631585.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Specimen inaugurale medicum de usu et abusu potus caffe, quod authoritate, et
                 consensu illustrium, magnificorum, spectabilium, et clarissimorum virorum plurimum
@@ -393,53 +393,53 @@
       <div n="div14">
         <lg n="lg1">
           <l n="l1">
-            <foreign n="foreign1" xml:lang="it">Berrei prima il veleno</foreign>
+            <foreign n="foreign1" xml:lang="ita">Berrei prima il veleno</foreign>
           </l>
           <l n="l2">
-            <foreign n="foreign1" xml:lang="it">Che un bichier, che fosse pieno</foreign>
+            <foreign n="foreign1" xml:lang="ita">Che un bichier, che fosse pieno</foreign>
           </l>
           <l n="l3">
-            <foreign n="foreign1" xml:lang="it">Del amaro, e reo caffè.</foreign>
+            <foreign n="foreign1" xml:lang="ita">Del amaro, e reo caffè.</foreign>
           </l>
           <l n="l4">
-            <foreign n="foreign1" xml:lang="it">Colà tra gli arabi,</foreign>
+            <foreign n="foreign1" xml:lang="ita">Colà tra gli arabi,</foreign>
           </l>
           <l n="l5">
-            <foreign n="foreign1" xml:lang="it">E tra i Giannizzeri</foreign>
+            <foreign n="foreign1" xml:lang="ita">E tra i Giannizzeri</foreign>
           </l>
           <l n="l6">
-            <foreign n="foreign1" xml:lang="it">Liquor si ostico</foreign>
+            <foreign n="foreign1" xml:lang="ita">Liquor si ostico</foreign>
           </l>
           <l n="l7">
-            <foreign n="foreign1" xml:lang="it">Si nero, e torbido</foreign>
+            <foreign n="foreign1" xml:lang="ita">Si nero, e torbido</foreign>
           </l>
           <l n="l8">
-            <foreign n="foreign1" xml:lang="it">Gli schiavi ingollino</foreign>
+            <foreign n="foreign1" xml:lang="ita">Gli schiavi ingollino</foreign>
           </l>
           <l n="l9">
-            <foreign n="foreign1" xml:lang="it">Giù nel tartaro</foreign>
+            <foreign n="foreign1" xml:lang="ita">Giù nel tartaro</foreign>
           </l>
           <pb n="pb10"/>
           <l n="l11">
-            <foreign n="foreign1" xml:lang="it">Giù nel Erebo</foreign>
+            <foreign n="foreign1" xml:lang="ita">Giù nel Erebo</foreign>
           </l>
           <l n="l12">
-            <foreign n="foreign1" xml:lang="it">L’empie Beladi l’inventarono</foreign>
+            <foreign n="foreign1" xml:lang="ita">L’empie Beladi l’inventarono</foreign>
           </l>
           <l n="l13">
-            <foreign n="foreign1" xml:lang="it">E Tesiphone e l0aktre furie</foreign>
+            <foreign n="foreign1" xml:lang="ita">E Tesiphone e l0aktre furie</foreign>
           </l>
           <l n="l14">
-            <foreign n="foreign1" xml:lang="it">A Proserpina il ministrarono</foreign>
+            <foreign n="foreign1" xml:lang="ita">A Proserpina il ministrarono</foreign>
           </l>
           <l n="l15">
-            <foreign n="foreign1" xml:lang="it">E se in Asia il Musulmanno</foreign>
+            <foreign n="foreign1" xml:lang="ita">E se in Asia il Musulmanno</foreign>
           </l>
           <l n="l16">
-            <foreign n="foreign1" xml:lang="it">Se la cionca a precipizio</foreign>
+            <foreign n="foreign1" xml:lang="ita">Se la cionca a precipizio</foreign>
           </l>
           <l n="l17">
-            <foreign n="foreign1" xml:lang="it">Monstra aver poco giudizio.</foreign>
+            <foreign n="foreign1" xml:lang="ita">Monstra aver poco giudizio.</foreign>
           </l>
         </lg>
       </div>

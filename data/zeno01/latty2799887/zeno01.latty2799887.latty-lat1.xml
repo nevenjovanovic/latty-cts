@@ -4,7 +4,7 @@
       <titleStmt>
         <title>Praeclarissimo et excellentissimo domino Antonio Mariae Levrio [...] elogium, versio electronica</title>
         <author key="zeno01">
-          <name xml:lang="it">Zeno, Antonio</name>
+          <name xml:lang="ita">Zeno, Antonio</name>
           <date>fl. 1687</date>
         </author>
         <respStmt>
@@ -81,8 +81,8 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:zeno01.latty2799887.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:zeno01.latty2799887.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Praeclarissimo et excellentissimo domino<persName n="persName1">Antonio Mariae Levrio</persName>nobili Tridentino in
                 utraque legre laureato dominus<persName n="persName2">Antonius Zeno</persName>D.T. coll. Rector S. Cantiani in

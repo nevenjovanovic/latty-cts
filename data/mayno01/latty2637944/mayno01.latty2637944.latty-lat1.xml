@@ -5,8 +5,8 @@
         <title>Oratio Jasonis nitidissima in sanctissimum matrimonium foelicissimasque nuptias
                     Maximiliani regis et Blancae Mariae Reginae Romanorum, versio electronica</title>
         <author key="mayno01">
-          <name xml:lang="it">Mayno, Giasone</name>
-          <name xml:lang="it">DalMaino, Giasone</name>
+          <name xml:lang="ita">Mayno, Giasone</name>
+          <name xml:lang="ita">DalMaino, Giasone</name>
           <name xml:lang="lt">Maynus, Jason</name>
           <date precision="medium">1435-1519</date>
         </author>
@@ -86,8 +86,8 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:mayno01.latty2637944.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:mayno01.latty2637944.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Oratio Jasonis nitidissima in sanctissimum matrimonium foelicissimasque nuptias
                 Maximiliani regis et Blancae Mariae Reginae Romanorum. 

@@ -4,7 +4,7 @@
       <titleStmt>
         <title>Oratio per solemni studiorum instauratione, versio electronica</title>
         <author key="scarpari01">
-          <name xml:lang="it">Scarpari, Giovanni Battista</name>
+          <name xml:lang="ita">Scarpari, Giovanni Battista</name>
           <date precision="low">fl. 1757</date>
         </author>
         <respStmt>
@@ -78,8 +78,8 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:scarpari01.latty2699654.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:scarpari01.latty2699654.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Oratio per solemni studiorum instauratione habita in ecclesia cathedrali Patavina
                 post. Kal. Novembris MDCCLVII. a Ioanne Baptista Scarpari Rhato Philos. et Medic.

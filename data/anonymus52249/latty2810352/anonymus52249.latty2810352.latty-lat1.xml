@@ -71,8 +71,8 @@
       </listChange>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:anonymus52249.latty2810352.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:anonymus52249.latty2810352.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <div n="div1" type="front">
         <p n="p1">Applausus poetici quos musae apollinea comitatae sunt lyra, dum in alma et
                 celeberrima caesareo archiducali universitate Oenipontana, praeside praenobili et

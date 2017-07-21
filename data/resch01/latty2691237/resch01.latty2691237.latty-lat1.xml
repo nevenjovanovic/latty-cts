@@ -65,8 +65,8 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:resch01.latty2691237.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:resch01.latty2691237.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <div n="div1" type="poesis-prosopopoeia">
         <head n="head1">Prosopopoeia gratulatoria nomine oppidi Inticensis</head>
         <l n="l2">‘Drave, caput canum et primum qui vertice fontem</l>

@@ -4,7 +4,7 @@
       <titleStmt>
         <title>In mortem Christi, versio electronica</title>
         <author key="moar01">
-          <name xml:lang="it">Moar, Francesco</name>
+          <name xml:lang="ita">Moar, Francesco</name>
           <date precision="high">1817-1893</date>
         </author>
         <respStmt>
@@ -73,8 +73,8 @@
       </listChange>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:moar01.latty2640336.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:moar01.latty2640336.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">In mortem Christi versus hexametri<persName n="persName1">Francisci Moari</persName>,<placeName n="placeName2">Tridenti</placeName>, ex officina Monauniana,<date n="date3">anno MDCCCXXXVII</date>
         </head>

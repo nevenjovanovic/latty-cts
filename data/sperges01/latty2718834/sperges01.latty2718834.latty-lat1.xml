@@ -79,8 +79,8 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:sperges01.latty2718834.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:sperges01.latty2718834.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Serenissimo archiduci Iosepho Augusto Austriaco, humanis generis delicio, aeternitati
                 imperii orbis expectatione, Herculi in cunis Austriaco genethliacum consecratum a

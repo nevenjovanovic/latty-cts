@@ -78,8 +78,8 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:staudacher01.latty2741833.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:staudacher01.latty2741833.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Mundus novus. Christina Serenissima Sueciae Regina in sinum Ecclesiae
                     Catholicae Romanae Oeniponti recepta et a Serenissimo Principe Ferdinando Carolo

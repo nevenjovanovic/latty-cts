@@ -75,8 +75,8 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:brunelli01.latty2597168.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:brunelli01.latty2597168.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Oratio genethliaca, quam in solennitate publica nati serenissimi regis<placeName n="placeName1">Hungariae</placeName>, et<placeName n="placeName2">Bohemiae</placeName>, principis,<placeName n="placeName3">Austriae</placeName>archiducis, et comitis Tyroleos et caetera et caetera
                 Josephi Benedicti Augusti Michaelis Joannis Antonii Adami ante sacrum festivum, et
@@ -634,7 +634,7 @@
                 ubi docuti; non tantum in<placeName n="placeName7">Italia</placeName>, ubi quiescit; sed in omnibus<placeName n="placeName8">Europae</placeName>regnis, imo
                 in utrisque Indiis adeo celebre est nomen eius, ut vix invenias, qui non gestiat, se
                 illum habere protectorem; et hinc est, quod itali cum alio nomine non compellent,
-                quam antonomastice:<foreign n="foreign9" xml:lang="it">il santo</foreign>.<pb n="pb10" xml:id="C2v"/>Sed an fors te offendo thaumaturge Joannes
+                quam antonomastice:<foreign n="foreign9" xml:lang="ita">il santo</foreign>.<pb n="pb10" xml:id="C2v"/>Sed an fors te offendo thaumaturge Joannes
                 Nepomucene, quod unius lancis exaltatio sit alterius depressio? Id equidem non
                 expectavero, et mens certe non est, cum te supra merito depredicaverim talem, quo
                 inter natos mulierum non surrexit maior;<note n="note11" place="foot" xml:id="ftn127">

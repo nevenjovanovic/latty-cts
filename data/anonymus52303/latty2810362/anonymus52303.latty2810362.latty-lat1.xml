@@ -76,7 +76,7 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:anonymus52303.latty2810362.latty-lat1:">
+  <text xml:lang="lat" xml:base="urn:cts:latty:anonymus52303.latty2810362.latty-lat1:">
     <front n="front1">
       <titlePage n="titlePage1">
         <titlePart n="titlePart1">Helicon Oenipontanus advenienti serenissimae reginae Wilhelminae Ameliae obvius, sive Universitas
@@ -86,7 +86,7 @@
         <docImprint n="docImprint3">Typis Benedicti Caroli Reisacher Typographi Academici</docImprint>
       </titlePage>
     </front>
-    <body n="body2">
+    <body xml:lang="lat" n="body2">
       <div n="div1">
         <p n="p1">
           <pb n="pb1"/>I Quod dudum desiderabat Hungaria, tamdiu sperabat Bohemia, avidissime

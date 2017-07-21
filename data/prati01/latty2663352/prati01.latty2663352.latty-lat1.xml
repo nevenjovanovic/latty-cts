@@ -5,7 +5,7 @@
         <title>De immanitate Iudeorum in Symeonem Tridentinum infantem, versio
                     electronica</title>
         <author key="prati01">
-          <name xml:lang="it">Prato, Tommaso</name>
+          <name xml:lang="ita">Prato, Tommaso</name>
           <date precision="low">floruit 1475</date>
         </author>
         <respStmt>
@@ -72,8 +72,8 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:prati01.latty2663352.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:prati01.latty2663352.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">De immanitate Iudeorum in Symeonem Tridentinum infantem Thome Prati Taurisani
                     carmen dicatum excelso reverendissimoque in christo patri domino domino Ioanni

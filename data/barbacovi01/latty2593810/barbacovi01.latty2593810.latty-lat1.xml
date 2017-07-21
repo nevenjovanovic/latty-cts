@@ -4,7 +4,7 @@
       <titleStmt>
         <title>De singulari certamine coercendo diatriba novaeque legis rogatio, versio electronica</title>
         <author key="barbacovi01">
-          <name xml:lang="it">Barbacovi, Francesco Vigilio</name>
+          <name xml:lang="ita">Barbacovi, Francesco Vigilio</name>
           <date precision="high">1738–1821</date>
         </author>
         <respStmt>
@@ -75,8 +75,8 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:barbacovi01.latty2593810.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:barbacovi01.latty2593810.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">
           <persName n="persName1">Francisci Vigilii Barbacovii</persName>cancellari aul. trident. de singulari certamine

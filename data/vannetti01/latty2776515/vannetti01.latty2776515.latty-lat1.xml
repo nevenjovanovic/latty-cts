@@ -76,8 +76,8 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:vannetti01.latty2776515.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:vannetti01.latty2776515.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">Sermones habiti a<persName n="persName1">Clementino Vannettio</persName>apud sodales litterarios Roboreti, quum
                 esset ei sodalitati a secretis. Ticini. Excudebat Ioseph Bolzanius. Anno<date n="date2">1792</date>.

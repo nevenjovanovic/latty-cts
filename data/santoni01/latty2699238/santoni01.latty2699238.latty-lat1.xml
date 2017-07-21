@@ -77,8 +77,8 @@
       </change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:latty:santoni01.latty2699238.latty-lat1:">
-    <body n="body1">
+  <text xml:lang="lat" xml:base="urn:cts:latty:santoni01.latty2699238.latty-lat1:">
+    <body xml:lang="lat" n="body1">
       <div n="div1">
         <head n="head1">De Studiorum Instauratione a Celsissimo Viro Christophoro Sizzo, Tridentinorum
                     Episcopo et Principe, Marchione Castellarii etc. Anno M. DCC. LXXIII. Sancita

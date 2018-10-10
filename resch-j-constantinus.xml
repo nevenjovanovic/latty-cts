@@ -1,0 +1,2215 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="resch-j-constantinus">
+         <titleStmt>
+            <title>Constantini Hostia, versio electronica</title>
+            <author>Joseph Resch</author>
+            <editor>Stefan Zathammer</editor>
+            <respStmt>
+               <resp>Hanc versionem electronicam curavit</resp>
+               <name>Stefan Zathammer</name>
+            </respStmt>
+         </titleStmt>         
+         <editionStmt>
+            <edition>Digital text provided by the editor.</edition>
+         </editionStmt>
+         <extent></extent>
+         
+         <publicationStmt>
+            <p>Croatica et Tyrolensia: Tyrolis Latina <date>August 2017</date></p>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <bibl>Bibliotheca Seminarii Maioris Brixinensis, Sig. SEM F15</bibl>
+            <bibl></bibl>
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         <creation>
+            <date when="1758/1759">1758/1759</date>
+         </creation>
+         <textClass>
+            <keywords scheme="time">
+               <term>18th century</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>Theater</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      
+      <revisionDesc>
+         <change>
+            <date>06-08-2017</date>
+            <name>Stefan Zathammer</name>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+ 
+ 
+<span class=head>Prologus</span>
+
+<span class=speaker>Apollo Musarum praeses in Parnasso, Musae Calliope, Thalia, Clio, Melpomene, Euterpe, Terpsichore, Erato, Uranie, Polyhymnia, et Themis dea.</span>
+
+<p><i>Chorus Musarum</i><br>
+Phoebe, Phoebeo radio ora picte,<br>
+nube candentes humeros amicte,<br>
+quem verecundo celebrant novenae<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Camenae!<br></p>
+
+<p>Ecce Musarum chorus et corona<br>
+poplite inflexo tibi, Phoebe, prona,<br>
+concinit laudes cithara sonora<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;voce canora.<br></p>
+
+<p>Phoebe, Parnassi iubar et levamen<br>
+atque Musarum decus et iuvamen,<br>
+praeses ipsarum, accipias honores<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;turis odores.<br></p>
+
+<p><i>Recitativo</i><br>
+APO. Musae Olympiades,<br>
+Iovis Aegiochi filiae,<br>
+nec non auricomae<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mnemosynes!<br>
+Quae veluti suaviloquae Sirenes<br>
+nunc ad Hippocrenes<br>
+dulcifluos fontes,<br>
+nunc per sacri Olmii montes<br>
+choreas agitatis<br>
+tenerisque pedibus tripudiatis.<br>
+Tu vero praeprimis, Calliope,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;harum<br>
+praestantissima dearum,<br>
+cantum ab Apolline<br>
+ad Themidem convertite!<br></p>
+
+<p><i>Aria</i><br>
+Felix, quem Musae diligunt,<br>
+cui dulce melos concinunt,<br>
+e quarum ore suavis<br>
+mellitis plena favis<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;manare solet vox.<br>
+Talis redundat gratia,<br>
+si per rosarum atria<br>
+Aurora scandit polum,<br>
+si per obscurum solum<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;diei cedit nox.<br></p>
+
+<p><i>Recitativo</i><br>
+CAL. Apollo, salve, Cynthie,<br>
+auratae inventor citharae!<br>
+Noster concentus incassum<br>
+impleret his deliciis Parnassum,<br>
+nisi praesentia Apollinis<br>
+gratiam Musis adderet Pieriis.<br></p>
+
+<p><i>Aria</i><br>
+Quae facies caelo sereno,<br>
+in aere lucis egeno,<br>
+si nocte prostrata,<br>
+Aurora fugata<br>
+Titania caput extulerit fax,<br>
+Apollini talis est vultus<br>
+et vultui talis est cultus,<br>
+si praeses Musarum,<br>
+sol novem stellarum<br>
+coruscat, Pieridum aurea pax.<br></p>
+
+<p><i>Recitativo</i><br>
+THA. Quantumvis facundissimae<br>
+vox melle dulcior sit Calliope.<br>
+Euterpe canat dialecticam longo tractatu<br>
+Melpomene tragoedias tristi boatu,<br>
+Thalia germinet comoedias,<br>
+Terpsichore ducat choreas,<br>
+Uranie stellas contempletur.<br>
+Harum tamen omnium omnia<br>
+unus Apollo decora<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;complectetur.<br></p>
+
+<p><i>Aria</i><br>
+Clio, soror gloriosa,<br>
+carmen pange epicum,<br>
+Erato, Paestana rosa<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pulchrior, elegiacum!<br></p>
+
+<p>Quate sistra, move plectra,<br>
+soror Polyhymnia!<br>
+Pelle curas, atra spectra,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tua move cymbala!<br></p>
+
+<p>Nostras tamen, ut amoenas<br>
+dulci modulamine,<br>
+superabit cantilenas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;suo Phoebus carmine.<br></p>
+
+<p><i>Recitativo</i><br>
+APO. Musae Heliconiades,<br>
+sorores Pierides,<br>
+placent equidem,<br>
+quae concinuistis ad Apollinem,<br>
+attamen magis Themidi placitura,<br>
+quae sua cuique reddit iustitiae iura.<br>
+Hanc igitur adoremus<br>
+suumque ei templum consecremus,<br>
+Iovis mentem oblectando,<br>
+regem regum adorando,<br>
+ubi Themis fatidica<br>
+et dea Titania<br>
+fundit oracula.<br></p>
+
+<p><i>Aria</i><br>
+Hic locus, quo Deucalio<br>
+a Themidis oraculo<br>
+edoctus se prostravit,<br>
+quo per coniectos lapides<br>
+cum Pyrrha suas fixit spes,<br>
+res lapsas reparavit.<br>
+Dum fusis tenerrimis votis,<br>
+nimbis Aquilone remotis,<br>
+dum capite pie velato,<br>
+lapillo post terga iactato,<br>
+humanum genus restauravit.<br></p>
+
+<p>Hic quondam Atlas caelifer<br>
+– cui cognatus Iupiter<br>
+concesserat regnare –<br>
+a Themide Parnassia<br>
+conceperat oracula,<br>
+prostratus ad altare.<br>
+Sic ego truncato Pythone<br>
+et domito victor dracone<br>
+fusoque putoribus pleno<br>
+per vulnera mille veneno<br>
+tibi Themi templum dicabo.<br></p>
+
+<p><i>Recitativo</i><br>
+APO. Ecce caelestis fulgor dea propitia<br>
+iam implet templi limina.<br>
+Ergo Themi, quae fixa fatali lege<br>
+divina praescis gubernacula<br>
+per caelica oracula<br>
+a Iove, deorum et hominum rege.<br>
+
+<p><i>Chorus Apollonis et Musarum</i><br>
+O Themi, antiquo generata caelo!<br>
+Prima quae pulso veneranda Belo<br>
+praescias sortes homini dedisti<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;et docuisti<br></p>
+
+<p>prima, quis ritus superos colendi,<br>
+tureque accenso pecus offerendi<br>
+victima ut possit recreare caesa<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;numina laesa.<br></p>
+
+<p>A domo sancta omne malum repelle,<br>
+ne fretum terrae fieret rebelle,<br>
+sol tuus spectet nebula remota<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;publica vota.<br></p>
+
+<p><i>Recitativo</i><br>
+THE. Ego sum, quae prima caeremonias<br>
+dedi mortalibus, immortalibus sacriferas.<br>
+Placet hoc vestrae religionis specimen,<br>
+placent nova templa, attamen<br>
+<i>(ariose)</i> templa reor dici, quae mons Sabiona dicabit,<br>
+Brixina perficiet, Leopoldus mysta sacrabit,<br>
+non mihi, sed Themidi meliori, templa sophiae<br>
+divinae et divae matri renovanda Mariae.<br></p>
+
+<p><i>Aria</i><br>
+Innoventur hac in die<br>
+soni dulcis symphoniae<br>
+ad festiva gaudia.<br>
+Sabiona laeta plaude,<br>
+prima mater, et congaude<br>
+fortunata Brixina!<br></p>
+
+<p>Primus Cassiani labor<br>
+in hoc coeptus monte Thabor,<br>
+Sabionae tumulo,<br>
+est in templo Brixinensi,<br>
+dedicando hoc in mense,<br>
+suo auctus cumulo.<br></p>
+
+<span class=head>Actus I</span>
+
+<span class=head>Scaena I</span>
+
+<span class=speaker>Flavius Constantinus, Eusebius, Paulinus, Crispus et Constantinus iunior.</span>
+
+<p><i>(Per scaenam secundam.)</i><br>
+FLA. Iacet cruenta belua, flagellum dei,<br>
+Maxentius. Maxentii invisum caput<br>
+hoc fulminante acinace praecisum iacet.<br>
+EUS. Nempe truculentus Pharao in alto gurgite<br>
+submersus amne sanguinis rubro maris<br>
+rubri ruborem geminat et fraus hostium<br>
+transit pium reditque in auctorem impium.<br>
+CRI. Decipula nobis posita decipula fuit<br>
+ipsi tyranno pessima auctori suo,<br>
+dum Milvii pons amnis in fundum ruit<br>
+unaque clade involvit omnem pessimi<br>
+exercitum Maxentii. CON. O hostem efferum,<br>
+cuius ruinas, miserias, clades, neces,<br>
+incendia cineresque quis rite explicet?<br>
+FLA. Ex nuntiorum fide est Alexander quoque,<br>
+dirus tyrannus Africae, datus neci.<br>
+Quid, quod Galerius, ille Dioclis gener,<br>
+atrox in ora Illyride Caesar caesus est<br>
+quique antea superbo et hostili excitus<br>
+furore rapuit victor ardentes opes<br>
+superante te, Vulcane, nunc caesus iacet?<br>
+EUS. Quisquis rebellat numini et gentem premit<br>
+Christo dicatam, quisquis audaci improbus<br>
+aestu furit, cum tempore meritas dabit<br>
+poenas furoris. Impiis deus breve<br>
+concessit aevum. Scelere cum iustos premunt,<br>
+in sua tonantem crimina ultorem trahunt.<br>
+FLA. Quid amplius sperare mihi par sit, redux<br>
+en ipse laeto nuntius vultu admonet.<br></p>
+                
+<span class=head>Scaena II</span>
+
+<span class=speaker>Nuntius et priores personae.</span>
+
+<p><br><i>(Nuntius funem ostendit.)</i>
+<br>NUN. Auguste Caesar! Laqueus en contritus est
+<br>ebrt nos iugo tyrannico exempti sumus.
+<br>Saevus tyrannus Galliae, Italiae malum,
+<br>fatale fulmen occidentis imperii,
+<br>hoc fune strangulatus Herculius iacet.
+<br><i>(Flavius prae terrore columnae insistit.)</i>
+<br>FLA. Superi! CRI. O acerbe, o dire fatorum rigor!
+<br>CON. O alta caelorum omina! Eus. O superum fidem!
+<br>FLA. Quis horror aures impulit? Quo nuntio
+<br>percellis animum? Eus. Haud absque divum numine
+<br>adeo probrosa morte correptus fuit.
+<br>Sic nempe sequitur ultor a tergo deus
+<br>scelera impiorum. Laneo Nemesis pede
+<br>urget scelestos. Nemo felici gerit
+<br>adversus astra Marte bellorum faces
+<br>rebellibusque nemo cum Gigantibus
+<br>ignita iacula impunis in caelum iacit.
+<br>FLA. Nutat animus tremitque tam horrenda nece.
+<br>Hinc superum adoro nutum, at illinc misereor,
+<br>quod Maximianus Herculius, altor meus,
+<br>socer mihi venerandus et semper mihi
+<br>patris loco habitus, imperator inclitus
+<br>Caesarque totque Caesarum augustus pater,
+<br>adeo probrosa a iudice supremo nece
+<br>sublatus animam exspuerit infaustus suam.
+<br><i>(Canitur tuba.)</i>
+<br>EUS. Quis iste strepitus? Quis tubae increpuit fragor?
+<br>FLA. En ut sereno laetus aspectu emicat
+<br>Licinius imperator et pignore sacro,
+<br>affinitatis vinculo, adnexus mihi.
+<br>EUS. Subit ecce victor. -- -- -- <i>(Iterum canitur tuba.)</i></p>
+
+<span class=head>Scaena III</span>
+  
+<span class=speaker>Prioribus accedit Licinius cum Iulio Licinio et Hannnibaleiano.</span>
+              
+<p>-- -- -- LIC. Vindicem Christi voca<br>
+tuumque, Constantine! Io victoria!<br>
+Io triumpha! FLA. Maximum nobis decus<br>
+affinis est Licinius. Hanc victoriam,<br>
+quaecunque sit, tibi gratulor. Pande seriem!<br>
+LIC. Haud apparatu est facilis, haud pretio levi<br>
+redempta laurus. Largus hanc tinxit cruor<br>
+et utrinque multa exercitus uterque invicem<br>
+anima litarunt. In necem totis itum est<br>
+agminibus, idem Martis hinc illinc furor.<br>
+Non ordine ullus cedere aut fractus mora<br>
+remittere iras, nil fugae et metui datum.<br>
+Aequoque Marte pertinax diu stetit<br>
+sors dubia pugnae, donec, a multo cane<br>
+agitata tanquam belua, tyrannus cadat<br>
+nostrosque Maximinus in casses ruat.<br>
+Haec prada opima clavis est victoriae<br>
+facilemque duris exitum rebus dabit.<br>
+En Maximinum vinculis gravem vide<br>
+et contremisce! IUL. En praeda conspectum subit,<br>
+en primus in nos detonat capti furor.<br>
+HAN. Ecce furiosus fulminat ab oculis nitor.<br></p>
+
+<span class=head>Scaena IV</span>
+
+<span class=speaker>Maximinus et priores.</span>
+
+<p>MAX. Ubi praedo? Ubi hostis? Tene, scelerate, intueor?<br>
+LIC. Me, me intueris, perfide, infelix, miser!<br>
+Qui sim, vide! – Hasne frontis agnoscis notas,<br>
+e cuius ore fulmen in caput tuum<br>
+erupit hodie? En ista quid possit manus,<br>
+scis ipse et orbis ultimum audivit latus.<br>
+MAX. Agnosco te, o totius Orientis latro<br>
+et perduellis proditor! Cognosco te.<br>
+Nosco hanc coronam, in capite furtivum decus.<br>
+LIC. Tantopere furis victus? MAX. Et vinctus quidem.<br>
+Non vincta tamen est lingua nec victus animus.<br>
+FLA. Ignescit oculo sceleris interpres, furor.<br>
+MAX. Non me imperandi caecus armavit furor,<br>
+sed sancta pietas totque populorum salus.<br>
+EUS. Etiam scelestis umbra virtutis placet?<br>
+Tyranne, non sic ludimus. LIC. Procul mora<br>
+auferte dirum, carceris diro in specu<br>
+abscondite nefas et catenatum canem!<br>
+MAX. Impie! LIC. Tyranne! MAX. Barbare! LIC. Infelix! MAX. Ferox!<br>
+FLA. Latrare poteris, non tamen poteris diu<br>
+mordere, donec ensis hic caput auferat.<br>
+MAX. En me sub ictu, carnifex et perfide<br>
+tyranne, trado, trado carnifici caput.<br>
+Absume corpus ignibus, ferro seca!<br>
+LIC. Responsa ab ore ferreo feres brevi.<br></p>
+
+<span class=head>Scaena V</span>
+
+<span class=speaker>Abducitur Maximinus, remanent reliqui.</span>
+
+<p>FLA. Auguste frater, quod hodie egisti, tua<br>
+tam gloriosum facinus haud fecit manus,<br>
+fecere superi. Numini hanc victoriam<br>
+adscribe, vero numini Christo, patris<br>
+consempiterni filio! Hic Maxentium<br>
+prostravit, hic tyrannum Alexandrum meis,<br>
+hic Maximinum pedibus advolvit tuis.<br>
+Audire lubeat, quis mihi tantum deus<br>
+dederit triumphum. Noctis ubi iuri dies<br>
+cessit peracta seque per sudum faces<br>
+egere Olympum, visa per somnum fuit<br>
+species triumphi: Visus ad nostros pedes<br>
+iacere pronus civis, auditur canor<br>
+plaudentis aeris. Deinde, ubi extersis sopor<br>
+abscessit oculis, geminus aspectu gravis<br>
+vir ante vultum constitit, fassus deum<br>
+nostris favere proeliis. Circum cohors<br>
+multa angelorum luce radiantem hanc crucem<br>
+suspendit inter sidera hac voce addita:<br>
+<i>(Monstratur crux in vexillo.)</i><br>
+„Hoc vince, Constantine, vexillo crucis!“<br>
+LIC. Agnosco magnum numen, ad cuius sacra<br>
+lustrata caeli luce mens pridem aestuat.<br>
+Equidem expiatum fonte lustrali caput<br>
+nondum innocentes ambiunt caeli nives.<br>
+Lux tamen oborta pectori hunc unum mihi<br>
+deum fatetur. Iupiter non est deus,<br>
+non Mars cruoris avidus, haud lucis pater<br>
+Phoebus diurnae. Idola si nuper mihi<br>
+sunt ture multo culta, meliorem deus<br>
+afflavit animum. Huic ego posthac genu<br>
+lunabo soli, vasta caelorum cui<br>
+machina laborat, ture quem sacro deum<br>
+gens Christiana adorat et Christum vocat.<br>
+PAUL. Quae lux oborta pectori, Caesar, tuo,<br>
+auguste, tenebras pristini erroris fugat?<br>
+LIC. Favete linguis et animis attendite!<br>
+Vigilia noctis ultima e solo in polum<br>
+erexit extulitque sidereum caput,<br>
+novissima in statione caelorum Venus<br>
+claudebat agmen siderum. Somnus brevis<br>	
+mihi irrigabat membra, quod mentem anxiam<br>
+instans premebat proelium: Fortem fore<br>
+numeroque longe maximum adversarium,<br>
+qui Christianos gravibus urgeret minis<br>
+unoque hiatu diceret cunctos simul<br>
+se velle devorare. Cum isthaec volverem,<br>
+ecce angelus mihi adstitit – mira eloquor,<br>
+sed vera –, dumque miror et moror simul,	<br>
+me voce clara alloquitur et scribere iubet<br>
+lecto iacentem. „Nescio“, inquam, „scribere.“<br>
+„Accerse tibi notarium!“ inquit angelus.<br>
+Extemplo levia membra de lecto tuli.<br>
+Notarius adest illico et morem gerit,<br>
+dictante scribit angelo arcanas preces,<br>
+devotione fervidas, plenas fide.<br>
+Has praeeunte antistite e Christi grege<br>
+preces sequente Caesare et reliquo duce<br>
+coram universo exercitu orari iubet.<br>
+Isthaec locutus angelus disparuit.<br>
+Morem monenti gessimus. Pleni fide<br>
+fiduciaque in Christum anhelo pectore<br>
+ferimur in hostem labaro sanctae crucis<br>
+praeeunte, quem vix vidimus, iam vicimus.<br>
+EUS. ET OMNES Igitur uterque patriae augustus pater<br>
+vivat, triumphet, imperet, in aevum regat!<br>
+FLA. Romane miles, plaude victori tuo,<br>
+Christo, saluti gentium, horrori hostium!<br>
+<i>(Constantinus tollit labarum crucis in altum.)</i><br>
+En gloriosum labarum signi crucis,<br>
+quo Christus usque regnat, invictus quoque<br>
+Christus triumphat! EUS. ET OMNES Hoc signo crucis,<br>
+hoc vince, Constantine, et adversarios<br>
+prosterne nostros! -- -- --<br>
+<i>(Licinius et omnes milites tangentes labarum iurant.)</i><br>
+-- -- -- FLA. Impia tyrannis iacet,<br>
+iacent superba capita. Quae olim caelicas<br>
+ferire voluere apice sublimi faces,<br>
+nunc in profundum lapsa Tartarum iacent.<br>
+Idcirco templa Tyria templaque Solyma<br>
+renovare stat, renovata Christo adscribere<br>
+et Christiano consecrare numini!<br>
+<i>(Per scaenam mediam.)</i><br>
+<i>(Finis protasis.)</i><br></p>
+
+<span class=head>Scaena VI</span>
+
+<span class=speaker>Remanet Crispus et Constantinus iunior.</span>
+ 
+<p><i>(Incipit epitasis.)</i><br>
+CRI. An serio haec Licinius? An signum crucis<br>
+devoto adorat poplite? An deos suos<br>
+corde exsecratur serio? Ubi vetus furor?<br>
+Ubi prior apparatus armorum, cruces,<br>
+tormenta, lanceae, acinaces, ignes, rotae,<br>
+queis Christianum exercuit saevus gregem? <br>
+Ubi tot Quiritum civium effusus cruor,<br>
+quot Christi in odium martyres caelo intulit?<br>
+CON. Quae, Crispe, tibi suspicio mentem vellicat,<br>
+meum et animum non praeterit. Mutabilis<br>
+et versipellis artifex fraudum omnium,<br>
+Licinius, artes paulo post elatior<br>
+Stygio tumentes toxico prodet palam.<br>
+Novi nocentis indolem: In corde excoquit<br>
+longe alia, quam quae ab ore mendaci exurit.<br>
+CRI. Latet anguis hac in herba eo nocentior,<br>
+quanto venenum occultius in illa latet.<br>
+Nec tot paternae proderunt victoriae<br>
+congesta laudum decora, non Martis favor<br>
+domitique reges, non triumphatae hactenus<br>
+Christique per nos subditae gentes iugo.<br>
+CON. Sed Christiano Christus assistet gregi<br>
+quique veteris serpentis attrivit caput,<br>
+etiam huius anguis proteret colla tumida.<br>
+CRI. Quod animal excoriatum in has oras pedem?<br>
+CON. Crinitus hic cometa quas minas iacit?<br>
+CRI. Fugiamus hinc! Fugiamus hoc monstrum ferox!<br></p>
+
+<span class=head>Scaena VII</span>
+
+<span class=speaker>Diocletianus.</span>
+
+ <p><i>(Per latus theatri.)</i><br>
+ In haec reservor tempora? Ego paulo antea<br>
+ canis et annis plenus et lauris gravis<br>
+ imperia terris, nomen aequavi polis,<br>
+ nunc abdicato imperio in ultimum omnia<br>
+ discrimen adduxi. Imperi nomen sacrum,<br>
+ me, patriam, rem publicam, templa et deos<br>
+ pessumdedi. Paulo antea sceptro potens,<br>
+ dives tributis gentium plane omnium<br>
+ altum superbus extuli in caelos caput,<br>
+ nunc e diametro eiectus, exul, inops laris,<br>
+ heu sponte miser, egenus, exesus fame<br>
+ sum nemini miserabilis. Paulo antea<br>
+ orbi universo iura terribilis dedi,<br>
+ nunc omnibus sum gentibus contemptui,<br>
+ ubique spernor, rideor, ludor, premor.<br>
+ Et – quod dolendum maxime mentem premit –<br>
+ quod Christiano nomini ex orbe penitus<br>
+ eliminando impenderam, fructu caret.<br>
+ Vah, quanta nostrum numinum probra cernimus!<br>
+ Vilescit immortalium nomen deum,<br>
+ delubra nutant omnia, antiquis cadit<br>
+ Iupiter ab aris, Roma Christiadum deo<br>
+ devota lunat poplitem, fumant novis<br>
+ altaria sacris, unde pernicies diis<br>
+ imminet avitis. – Vade! Quid lentus stupes?<br>
+ Quid, magne quondam Caesar, oculos – vah probrum! –<br>
+ his Christianis inquinas monstris tuos? <br>
+ Regredere in aulam, sterne et everte omnia!<br></p>
+
+<span class=head>Chorus poetico-moralis I</span>
+
+<span class=speaker>Tres peregrini ex Alemannia.</span>
+
+<p>PER. I Erz böswicht Maximin! wie wird dein böses gwissen<br>
+von würmen banger angst gehenkhert und gebissen?<br>
+Wie wirst von nattern deiner unkheüschen lust<br>
+zerrissen? Und wie belt ein hundt in deiner brust:<br>
+wan dir das herze schlagt, wan der von schlaf erweket,<br>
+den mehr vergossnes blut, als edler purpur deckhet.<br>
+PER. II Ach bluthundt! Ach wie wird dein lasterhafftes blut<br>
+ablöschen in der höll die glimmer schwöfel-gluth!<br>
+Wie wird Megaera dir die schlangen-ruthen binden,<br>
+wie wird Alecto böch von Phlegethon anzinden.<br>
+Dort wüttrich lösch dein durst von gall und gifft der schlang,<br>
+wan deinen leib zerreist die glüend heisse zang.<br>
+PER. III Auch Diocletian hat mit sein lewen-khlauen<br>
+die welt verwüst, das es ein grausen anzuschauen.<br>
+Die eglen nicht so sehr nach menschen-bluthe dirst<br>
+als wie zum menschen-fras geneigt ist diser first.<br>
+Kein solcher unmensch ist, des Caucasus gefilde<br>
+hat khein solch unthier nicht, kein tyger ist so wilde.<br>
+Er wird bald geist und gifft, und gall und seel ausblasn,<br>
+der so begirig war auf Christen-blut zu rasn.<br>
+Wird bald sein mörder selbst durch eigen-morde werden,<br>
+der güfftge Basilisg, die müssgeburth der erden.<br>
+Die ganze welt, so tobt von seiner tyraney,<br>
+wird bald durch seinen mord von mord-schwert werden frey<br>
+PER. I Ist leyder gar zu war, die Römer werdens wissen,<br>
+die Tyber mus zu Rom fast ewig blutig flüssen.<br>
+Der grausame tyran, des grausens ebenbild<br>
+Maxentius hat sie mit solchen strömen gfilt.<br>
+Fliech Tyber! edler fluss! dorthin, wo Nil entspringet,<br>
+wo Ganges perlen-reich sich in das mör verschlinget.<br>
+Ach wär es der stadt Rom das sibenbergicht haubt,<br>
+unter des Taurens khlufft zu bergen nur erlaubt!<br>
+PER. II. Licinius wird auch den säbel wider schleiffen,<br>
+mit dem er will in bluth das Christen-volck erseüffen.<br>
+PER. III. Grausamer wütterich! tobent von solchen durst<br>
+mit schadn der ganzen welt und menschlichen verlurst:<br>
+das ihr das menschen-blut fir schaum der Thetis achtet,<br>
+auf dem altar des zorns vil menschen-opfer schlachtet.<br>
+Die rache khület sich sonst durch den totten-schweis,<br>
+eür hass so gros, das er sich nicht zu kühlen weis.<br>
+Eur scharlach saugt mehr blut der menschen als der schneckhen,<br>
+den ihr mit allerley blut-schanden mögt befleckhen.<br>
+PER. I Aus den verfolgungen was wartet als das schwert<br>
+auf menschen, und die flamen auf ganze Christen-herdt?<br>
+Verwüstung auf das land: wan nit des himmels rache<br>
+auf die tyrännen blizt fir die gerechte sache.<br>
+PER. II Wan du o himmels first nit obenhin beschaust,<br>
+was auf der welt geschicht: wan deine starcke faust<br>
+mit donner und mit bliz nicht ist umsonst bewehret,<br>
+warum hast nicht mit feür die wüttrich längst verzehret?<br>
+Warum feyrst du nit feür, mit donner und mit knall?<br>
+Ihr wüttrich sterbt, der sterb ersterb in eüch kein mahl.<br>
+Kan eüch die sonne wohl noch ihren glanz vergönnen?<br>
+Warum will sie eüch nicht durch ihren strahl verbrennen?<br>
+Man tilg in Rom und welt eur schlimm gedechtnus aus,<br>
+die eül und natter sag eür lob zum nachwelts graus.<br>
+PER. I Sich an, gerechter gott! gies ungeheüre seen<br>
+von deinen wolcken aus, so, das ihr fus nicht stehen,<br>
+noch boden finden kann, die welle schluckh sie ein,<br>
+und was die welt gestrafft, straff iezto sie allein.<br>
+Zerschmöls der sternen-gold, und lass sie schwöfel speyen.<br>
+Lass feüer auf ihr haubt als dickhe flocken schneien.<br>
+Schitt alles auf sie aus, vill völckher haben nicht<br>
+ein so verteüfelts stuckh, net sie gethan, verricht.<br>
+Sich zu, gerechter gott! der erden abgrund spanne<br>
+den weiten rachen auf. Wie du dem grosen manne<br>
+dem Moyses recht geschafft, als er die eingeschluckht,<br>
+so aus desselben faust das regiment geruckht.<br>
+PER. II Eur cörper werd ein aas, eür geist ein brand der höllen,<br>
+der hencker schleppe eüch, wo Styx und Lethe schwöllen.<br>
+Wer gott und himmel stürmmt, wie ihr, wird asch und graus.<br>
+Der Christen gott wird eüch wohl entlich tilgen aus.<br>
+PER. III Wan schon mit ihrem schwanz die traurigen comoeten<br>
+den Saphir reiner lüfft mit blutgen strählen röthen.<br>
+Wan schon verfolgung tobt, so seind wir doch gesinnt,<br>
+solang ein tropfen bluth in unsren adern rinnt,<br>
+solang der athem wird die lebens yälge treiben,<br>
+wollen wir alle drey dem Christen-Gott treü bleiben.<br></p>
+
+<span class=head>Actus II</span>
+
+<span class=head>Scaena I</span>
+
+<span class=speaker>Maximinus in carcere.</span>
+
+<p><i>(Aperitur carcer.)</i><br>
+Invisa lux! Invise vitae spiritus!<br>
+Heu fata dira et impia! – Hanc stringant manum<br>
+turpes catenae, quam hactenus celso in throno<br>
+ornavit Eoi imperi et sceptri decus!<br>
+Aequalis astris antea gressum tuli<br>
+altum superbo vertice attingens polum,<br>
+nunc tenebricosus carcer hic misero mihi<br>
+sub mortis umbra Caesari metam facit.<br>
+Cur mihi videntur concuti ad tristes minas<br>
+convexa caeli? Spissior densis coit<br>
+caligo tenebris noxque se in noctem abdidit.<br>
+An Christianus sanguis effusus, velut<br>
+altera Thyestae coena, mihi repulit diem<br>
+aversum in ortus? – Quas miser voces dabo<br>
+questusque quantos? Tale quis vidit scelus?<br>
+Quis inhospitalis Caucasus talem tulit<br>
+olim tyrannum? Sustines tantum nefas<br>
+gestare, tellus? Non ad inferni Stygem<br>
+te meque mergis, rupta et ingenti via<br>
+ad Chaos inane me rapis? Compagibus<br>
+per te revulsis huc tuam immani sinu<br>
+demitte vallem meque defossum tege<br>
+Acheronte toto! Noxiae supra caput<br>
+animae vagentur nostrum et ardenti freto<br>
+Phlegethon arenas igneus totas agens<br>
+exitia supra nostra violentus fluat.<br>
+– Quid strepitus iste cardinis moti sonat?<br></p>
+
+<span class=head>Scaena II</span>
+
+<span class=speaker>Maximinus et Diocletianus.</span>
+
+<p>DIO. Quid video? Dazam in vinculis? Dazam meum,<br>
+Orientis olim Caesarem? Hunc nati loco<br>
+hactenus amavi ex intimo cordis sinu.<br>
+MAX. An amor paternus impulit in hoc carcere<br>
+me visitare, o ante ceteros pater<br>
+venerande patres? Filium invisis tuum,<br>
+qui quantus est nunc, qui modo tantus fuit?<br>
+DIO. O semper acies inter et Martis minas<br>
+impavide Maximine, cur tanto quati<br>
+animum tumultu pateris? Ubi virtus prior?<br>
+Ubi, quo phalanges hostium intrepido pede<br>
+calcasti inultus, animus est heroicus?<br>
+Unde haec procella vertici incubuit tuo?<br>
+MAX. An forsitan – sic numina hunc fallant metum! –<br>
+An Christus est mihi vindice iratus manu?<br>
+An Christianus antea effusus cruor<br>
+petit ultionem? An terra, quae tot sanguinis<br>
+deglutiit bibitque, vindictam petit?<br>
+DIO. Sepone procul hunc scrupulum! Christus tibi<br>
+frustra minatur. Omne tormenti genus<br>
+admoveat in te, neutiquam facti tui<br>
+paeniteat aut te pudeat! MAX. Horresco referens,<br>
+nescio, quod animus grande praesagit malum.<br>
+Nocturna tristes somnia incutiunt minas.<br>
+Me conscius mali animus et tortor gravis<br>
+carnificis instar vexat et ritu canis<br>
+clamat, reclamat, lancinat, mordet, latrat.<br>
+DIO. Latrare conscientiam impune teneram<br>
+permitte! Te ipso fortior, quidquid facis,<br>
+fac fortiter et audacter! Etenim audacia<br>
+in astra tendit, turpis in mortem timor.<br>
+Audaci oportet pectore, invicto impetu<br>
+et irretorto lumine in tale facinus<br>
+et Christi in odium ruere. Ne testis mali<br>
+tibi conscientia pectus allatret tuum!<br>
+Praeibo sceleri, praeferam tibi facem,<br>
+te liberabo e carceris diro specu,<br>
+per hoc caput iuro atque per vadum Stygis,<br>
+discrimine quoque capitis ego Dazam meum<br>
+servabo vel peribo. -- -- --<br>
+<i>(Clauditur.)</i><br></p>
+
+<span class=head>Scaena III</span>
+
+<span class=speaker>Diocletianus solus.</span>
+
+<p>-- -- -- Sed facto est opus.<br>
+Licinium adire mente stat fixum mea.<br>
+Non volvo caedes civium, patriae bonum,<br>
+urbis salutem, patriae pacem peto,<br>
+aras Quiritum numinum et acerras Iovis<br>
+semper calentes turis incensi dape.<br>
+Favete coeptis, inferni! Superos enim<br>
+non advocare sceleris in partem audeo.<br>
+– At ipsus opportunus huc gressum movet.<br></p>
+
+<span class=head>Scaena IV</span>
+
+<span class=speaker>Diocletianus et Licinius.</span>
+
+<p>DIO. Quae cura me sollicita de regni statu<br>
+bonoque quondam publico nostri imperii<br>
+oras per omnes Caesarem augustum tulit,<br>
+haec abdicato imperio inertem compulit<br>
+invisere aulam Caesarum. Veniam date!<br>
+Compello te, Liciniane, nec minus tuum<br>
+compello fratrem Flavium. Vobis ego<br>
+Iovius et alter Herculius, consors mihi,<br>
+Romana dedimus sceptra, natorum loco<br>
+ambos amavimus et in aula regia<br>
+aluimus ambos, sitis ut patriae patres<br>
+clavumque Romani imperii iuncta simul<br>
+opera geratis. Id quoque Quiritum patrum<br>
+senatus atque populus assensu annuit.<br>
+LIC. Agnosco, Diocletiane, Romani imperii<br>
+nosterque patriaeque communis pater,<br>
+quondam imperator, nosco susceptum decus,<br>
+rependo grates atque in acceptis fero<br>
+fasces, coronam, purpuram, sceptrum, thronum.<br>
+DIO. Si gratias mihi serio rependitis,<br>
+si sum imperator atque Romani imperii<br>
+vesterque patriaeque communis pater,<br>
+si mea corona et sceptra, si thronus meus,<br>
+ingrata quaenam oblivio ea vestra reputat?<br>
+Levis haec querela, gravior exsurgit dolor.<br>
+Paulo ante Caesares, paulo ante coluistis deos<br>
+et sacra deorum, sancta quos aetas patrum<br>
+donavit aris. Nunc ubi est pietas prior?<br>
+Ubi vestra virtus? Proh pudor! Ubi pristina<br>
+religio? LIC. Facti paenitet, facti pudet<br>
+errore ducti pristino, vano Iovi<br>
+honorem habuimus. At modo. – DIO. Quid? At modo?<br>
+An ergo Christum colitis? An mentis inopes<br>
+Galilaeo ad aram flectitis vestrum genu,<br>
+qui passus est infame supplicii genus<br>
+inter latrones luridae affixus cruci?<br>
+LIC. An ergo Christus displicet, quod mortuus?<br>
+Mors illa carnis fuerat, haud fuerat dei.<br>
+Si lignum inane colitis, an lignum suae<br>
+est mortis expers? Ecce dum Christum mori<br>
+potuisse vos non creditis, lignum mori<br>
+potuisse cur negatis? DIO. Haud lignum, Iovem<br>
+nos colimus, immortalem et aeternum deum.<br>
+Unde est Quiritum exorta maiestas patrum<br>
+nomenque Romani imperii? A summo Iove.<br>
+Unde semel orta publicae rei salus,<br>
+servata semper floret? A summo Iove.<br>
+Et mehercle, quis Romulidum et Iliadum genus<br>
+originemque trahat, nisi a summo Iove?<br>
+Effare, quis Quiritibus victoriam,<br>
+nisi ara det Victoriae? Hic calent foci,<br>
+hic vota fervent publica, hic et hostium<br>
+trophaea suspenduntur. Haec placat deos,<br>
+haec ara cunctorum alligat concordiam,<br>
+haec ara sacramenta accipit. Quis hostium,<br>
+quis barbararum gentium Victoriae<br>
+ignorat aram? Nullus aram hanc oderit,<br>
+nisi ille, cui non profuit. Adeo deos<br>
+homini, si abessent cetera, utilitas facit.<br>
+Attamen, o hominum caeca mens, tamen hodie<br>
+caelo timendum est, sede ne avulsus sua<br>
+solio ab avito Iupiter caelo cadat.<br>
+Caeli ruinis imminet novus deus,<br>
+horum deorum latro, quem Christum vocant.<br>
+Ergo mihi morem gerite, nam semper meus<br>
+pro pace vestra ducit excubias labor!<br>
+Nolite patrocinia Romulidum deum,<br>
+vestris triumphis propitia, vestro throno<br>
+amica, demum deserere turpi fuga!<br>
+Ah perdeulles transfugae! Vetera sacra<br>
+repetite, Christum deserite, quaeque pueri<br>
+iam primo ab aevo avita didicistis sacra,<br>
+haec posteris relinquite aetate ultima!<br>
+– En clariorem luce doctrinam meam,<br>
+neu tu nocentis Caesaris Flavii tui<br>
+sequare causam uxorius Constantiae,<br>
+sed innocenti Caesari Dazae meo<br>
+impia resolvas vincla, nobiscum ut queat<br>
+opprimere iniquum Flavium hac adhuc die.<br></p>
+
+<span class=head>Scaena V</span>
+
+<span class=speaker>Licinii soliloquium.</span>
+
+<p>Quid nunc agendum? Quo feram ambiguus pedem?<br>
+Qua se arte sceleri casta subducet manus?<br>
+Sat efficax oratio mentem premit:<br>
+Si Maximinum in vinculis mori sino,<br>
+scelus est. Si iniquam Flavii causam sequor,<br>
+scelus est. Si amatae coniugi abrumpo fidem,<br>
+scelus est. – Tot inter scelera quis stabit pius?<br>
+O tu piorum quisquis es tutor deus,<br>
+qui numine arces scelera, virtutem imperas,<br>
+cur me, innocentis studia sectantem otii<br>
+rectique cupidum, tot per insuetas vices<br>
+bellique decora, per triumphatas vias<br>
+in ista scelerum abrupta nolentem abripis?<br></p>
+
+<span class=head>Scaena VI</span>
+
+<span class=speaker>Licinius, Martinianus, Valens.</span>
+
+<p>MAR. Auguste Caesar, cur tuam frontem trahis?<br>
+VAL. Tristis serenum nebula quae vultum tegit?<br>
+LIC. In tempore hic adestis, in vado sumus.<br>
+Diocletianus pristinum ad vomitum redit,<br>
+suis relictis hortulis aulam petit<br>
+et Maximinum e carcere absolvi iubet<br>
+fratremque nostrum, Flavium, Christo deo<br>
+quod adhaereat, suo e throno eiicere cupit.<br>
+MAR. Denique aliquando, dum mihi nemo vetat,<br>
+pressos dolores evomo in Christi sacra.<br>
+Veterem repetimus iure sacrorum statum,<br>
+qui primo ab orbe profuit rei publicae.<br>
+Votiva fuit haec omnibus potentia<br>
+temporibus, oris omnibus. Deorum opem<br>
+nemo colendam perneget, quam optandam haud neget.<br>
+VAL. Suus cuique ritus esto, religio<br>
+cuique sua! Mihi mea placet et tibi tua.<br>
+Permitte, quod quisque velit, illud credere!<br>
+Quisque sibi suus est deus. Onus magnum quidem<br>
+est imperare, maius imperio coli,<br>
+diligi et amari. Utrumque, si me audis, obtines.<br>
+LIC. Perplexa res est. Si erro, non lubens cado.<br>
+MAR. Concede superis! Sequere fatorum impetum,<br>
+inanis aequi cultor! Pluribus malim diis<br>
+quam soli adhaerere. Melius plures iuvant<br>
+quam solus ille et unicus Christus deus.<br>
+VAL. Auguste Caesar, melius est cum pluribus<br>
+errare quam solum sapere. LIC. Miles, iube<br>
+huc Maximinum adesse! E vinculis liber suis<br>
+respiret! At quid Flavius mihi oggeret?<br>
+MAR. An innocentem emittere e vinclis nefas?<br>
+LIC. Hostemne fratri immittere, hoc fas, hoc pium<br>
+rectumve reputas? MAR. Non subest umbra sceleris.<br>
+LIC. Sceleratus ut sim, pergo, qua pronum est iter.<br>
+VAL. Bis est scelestus, scelere qui incoepto abstinet.<br>
+LIC. Quid Flavius ad haec oggeret? – Victor sum ego,<br>
+mea Maximinus praeda propriumque spolium.<br>
+Sed ecce liber vinculis movet pedem.<br></p>
+
+<span class=head>Scaena VII</span>
+
+<span class=speaker>Licinius et Maximinus.</span>
+
+<p><i>(Aperitur carcer et clauditur.)</i><br>
+MAX. Non sic minaci dente cum frendens aper<br>
+se se in latentes induit casses, brevi<br>
+abrumpit ipsos, vinculis liber suis<br>
+clamore laeto complet invisum nemus,<br>
+gaudet salitque laetus, ut nostrum obruit<br>
+laetitia pectus. – O diem! O laetum diem,<br>
+albo notandum calculo! O casum novo<br>
+dignum triumpho! – Non tamen casus mihi,<br>
+virtus tua, imperator, hanc palmam tulit.<br>
+LIC. Tua, Maximine, fama virtutis facit,<br>
+ut vincula tibi solverem posita tamen<br>
+hac lege, socias ut mihi adiungas manus<br>
+in Christianum Flavium. Socium quoque<br>
+virtutis ambo habebimus veterem patrem<br>
+Diocletianum. – Veste mutata licet<br>
+silente nocte evadere e castris meis.<br>
+MAX. Auguste, tibi, salutis assertor meae,<br>
+iuro per omnes siderum in caelo faces,<br>
+his quidquid exstat sanguinis venis, tibi<br>
+in opprimendum Flavium impendam lubens.<br>
+LIC. Ergo resume munera Orientis tui,<br>
+rege populos et scande Parthorum thronum!<br>
+MAX. Imperet Olympo Iupiter, terris meum<br>
+erit imperare. Ille geminos polos regat,<br>
+regam ipse populos. Astra festivo sono<br>
+celebrent colantque, qui praeest caelo, Iovem,<br>
+at mole tellus stans sua attollat mihi<br>
+simulacra et aras meque regnantem colat<br>
+lateque dominum nec suum obiiciat tonans<br>
+plerumque inane fulmen. Aetnaeo in specu<br>
+nulla licet incus resonet, ignavus faber<br>
+licet ore stertat Lemnius, nunquam vacat<br>
+mea dextra telis. Irrita haec nunquam cadunt,<br>
+queis nuper oriens orbis eversus fuit.<br>
+At nunc rebellis sentiet vires meas<br>
+et Maximinum recipiet dominum suum.<br></p>
+
+<span class=head>Chorus I</span>
+
+<span class=speaker>David rex, Nathan propheta, Ioab dux.</span>
+
+<p><i>Aria</i><br>
+DAV. Age miles Israelis,<br>
+generose sumptis telis<br>
+vires tuas exsere!<br>
+Cape arma, latus cinge,<br>
+quate tela, ferrum stringe,<br>
+pugna mecum strenue!<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scintillante,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fulgurante<br>
+ense ardens fulmina<br>
+et in hostes intona!<br></p>
+
+<p>IOAB Iam iacet caesa victima.<br>
+DAV. Iacenti caput amputa!<br>
+Hostes iam canunt receptui,<br>
+quos penitus edomui.<br>
+IOAB Ecce caput Philisthaei.<br>
+DAV. <b>I</b>A<b>C</b>ET F<b>L</b>age<b>LLVM</b> dei.<br>
+IOAB Ecce truces oculos<br>
+tibi infestissimos<br>
+cruenta clausos in morte<br>
+iustissima sorte.<br></p>
+
+<p><i>Aria</i><br>
+Persequatur unus mille<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;et duo decem millia,<br>
+instar igneae scintillae<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;urentis flamma nemora.<br>
+In phalanges fugatorum<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;evaginabo gladium,<br>
+de cruore occisorum<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inebriabo bibulum.<br>
+Hostes ense dissipabo<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;acuto instar fulguris,<br>
+caesum carnes devorabo,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quis tibi, deus, similis?<br>
+NATH. Convertite gladium in vaginam,<br>
+gaudete ad hostium ruinam!<br>
+Sagittae parvulorum<br>
+factae sunt plagae eorum.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conturbati sunt,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;qui scrutati sunt<br>
+iniquitates, scrutantesque scrutinio<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;subito<br>
+defecerunt, perierunt.<br>
+<i>(Clauditur.)</i><br></p>
+
+<p><i>Aria</i><br>
+Exsultate<br>
+et cantate,<br>
+benedictus dominus!<br>
+Philisthaeis<br>
+Iebussaeis<br>
+profligatis hostibus.<br></p>
+
+<p>„Vivo ego“, ait dominus,<br>
+„tibi, Israel, propitius<br>
+ego petam ultionem,<br>
+retribuam in tempore,<br>
+ego utar ense vindice<br></p>
+
+<p><i>Recitativo</i><br>
+DAV. Postquam percussit dominus<br>
+castra Philysthiim caelitus,<br>
+superest, ut ipsi templum aedificem<br>
+in urbe Ierusalem.<br>
+NATH. Nunquid tu templum domino aedificabis<br>
+et domum ad inhabitandum consecrabis?<br>
+DAV. Videsne, quod ego habitem in domo cedrina,<br>
+in medio autem pellium arca dei sit posita?<br>
+Ergo domum domini,<br>
+dei mei, nomini<br>
+aedificabo, consecrabo.<br>
+NATH. Quod corde tuo cogitasti<br>
+et mente tractasti<br>
+aedificare domum nomini meo<br>
+et consecrare tuo deo,<br>
+bene fecisti. Verum tamen<br>
+multum sanguinem effudisti<br>
+et plurima bella bellasti<br>
+manusque tuas immundo cruore foedasti.<br>
+Propeterea tu non poteris aedificare<br>
+aut templum aut templi altare.<br>
+Attamen suscitabo semen tuum<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;post te,<br>
+quod templo magnifico<br>
+et pretiosissimo<br>
+honorabit me.<br>
+Salomon tuus filius,<br>
+vir quietissimus,<br>
+domum domini aedificabit,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;consecrabit.<br></p>
+
+<p><i>Recitativo</i><br>
+DAV. Salutare tuum, domine, exspectabo,<br>
+viam domini praeparabo.<br>
+Ipse eris exspectatio gentium et<br>
+desidierium<br>
+aeternorum collium. O domine,<br>
+quando respicies?<br>
+Quando hoc opus perficies?<br></p>
+
+<p><i>Aria</i><br>
+O utinam<br>
+hanc roseam<br>
+lucem, quam desuper<br>
+producet Lucifer,<br>
+possem videre,<br>
+visa gaudere!<br>
+Quae sors maneret me!<br></p>
+
+<p>O utinam<br>
+conspiciam<br>
+illas delicias,<br>
+quas tu, posteritas,<br>
+potes videre,<br>
+visis gaudere!<br>
+Quae sors manebit te!<br></p>
+
+<span class=head>Actus III</span>
+
+<span class=head>Scaena I</span>
+
+<span class=speaker>Licinius et Constantia.</span>
+
+<p><i>(Aperitur thronus.)</i><br>
+CON. Tuam, imperator, genibus affusam vides<br>
+Constantiam. LIC. Cur veste personata ades?<br>
+CON. Ne veste prodi neve cognosci queam.<br>
+In castra fratris propero, nisi coniux mihi<br>
+faciles det aures, nisi animum flectat suum.<br>
+LIC. Video madentes irrito fletu genas.<br>
+Inane munus lacrima, muliebris dolus.<br>
+Lacrimam coerce! Mene sic mollem putas<br>
+animoque fractum, facile quem gemitus doment?<br>
+Laetam esse iubeo. CON. Quod iubes, solus potes<br>
+finem dolori facere. LIC. Quid? Finem petis?<br>
+Ordimur, instant alia. Neu levibus malis<br>
+impende fletus! Mox erit longe aptior<br>
+materia luctus, morte cum merita cadet<br>
+Galilaeus ille Flavius, frater tuus,<br>
+specie imperator, re tamen vera latro<br>
+Orientis, usurpator imperii ferox,<br>
+tyrannus, osor generis humani, impudens<br>
+dirusque regum carnifex, spretor deum.<br>
+CON. Heu verba, saeva verbera! Heu tristes minas!<br>
+Unde ista fervent odia? Tam sterilis fuit<br>
+Romana tellus, coniugem ut nullum mihi,<br>
+nisi fratris hostem tulerit? LIC. Ingratum caput!<br>
+Amor ubi coniugalis? Ut fratrem tegas,<br>
+spolias necasque coniugem? CON. Ut fratrem oderis,<br>
+sic oderis me coniugem? Nisi fratrem ames,<br>
+an potes amare coniugem? Crimen doce,<br>
+quod frater in te admiserit! LIC. Crimen patet,<br>
+religio. CON. Quae religio? LIC. Christianus est.<br>
+CON. Etiam ego Christiana sum. Christum colo,<br>
+cultura semper, spiritus dum artus reget.<br>
+Sic nostrum uterque reus erit. Necem irroga<br>
+utrique! Si nos tale coniunxit scelus,<br>
+et poena iunget. LIC. Nil agis. CON. <i>(Flectit.)</i> Per te hos precor,<br>
+quos fletibus perfundo, Caesareos pedes<br>
+per coniugales, quas tremens veneror, manus,<br>
+miserere fratris, coniugis, vitae tuae!<br>
+Hic fletus est Constantiae uxoris, preces<br>
+gemitusque sunt sororis. – An retro trahis<br>
+ducisque vultum? Horresne me Constantiam?<br>
+LIC. An odia frangit mulier et memet mihi<br>
+rapit? – Maritum vincis, exarmas, rapis.<br>
+Sub lege tamen hac unica implebis? CON. <i>(Surgit.)</i> Iube!<br>
+LIC. Parebis? CON. Adsum praesto. LIC. Quid bello est opus,<br>
+si saeva cessant odia, si frater tuus<br>
+a Christianis Flavius cesset sacris?<br>
+CON. Quid loqueris? Hanc spem feceras? Quo te furor<br>
+avertit? Hoc fraterna stet pretio salus?<br>
+Sic perficis promissa? LIC. Sic legem accipis?<br>
+CON. Ubi ille vindex Christi? Ubi religio vetus,<br>
+qua nocte prima coniugem accepi inclitum?<br>
+Ubi illa oborta pectori lux est tuo?<br>
+Ubi angeli locutio? Ubinam illae preces<br>
+devotione fervidae, plenae fide<br>
+fiduciaque in Christum? Ubi est ea, quae prius<br>
+radiata caeli luce mens semper tua<br>
+tibi aestuavit? Ubi est pietas prior,<br>
+ubi gloriosum labarum signi crucis,<br>
+quo Maximinum viceras, quo fervidus<br>
+ad nostra iure iurando sacra<br>
+paulo antea te obstrinxeras? Vah perfide,<br>
+periure, perduellis! – An et ora retrahis?<br>
+Heu cui relinquis coniugem, coniux! Freto<br>
+surdior! Acerbe! Barbare! Hyrcanis feris<br>
+crudelior! -- -- --<br></p>
+
+<span class=head>Scaena II</span>
+
+<span class=speaker>Licinius solus.</span>
+
+<p>-- -- -- Proh dubie fatorum rigor!<br>
+Ambigua rerum scaena! Quo, nimium potens<br>
+natura, memet coniugem invitum trahis?<br>
+Frustra laboro expellere ex animo fidem<br>
+Constantiae a me debitam. Frustra quoque<br>
+expello conscientiam adversam mihi,<br>
+quae mea remordet viscera et mentis sinum.<br>
+Meliora video, video potiora et probo,<br>
+peiora tamen haud improbo et pronus sequor.<br></p>
+
+<span class=head>Scaena III</span>
+
+<span class=speaker>Licinius, Crispus, Constantinus iunior.</span>
+
+<p><i>(Clauditur.)</i><br>
+CRI. Tibi, imperator Liciniane, candidam<br>
+iussu parentis Flavii pacem fero,<br>
+si pax amatur, si quid est cordi tuo<br>
+sanguinis amicum vinculum. CON. Bello salus<br>
+est nulla, pacem amamus et pacem damus.<br>
+LIC. Veneror amica capita, cognatos meos<br>
+atque venerandos Caesares, fratris quoque<br>
+veneror amicum sanguinis nexum mei.<br>
+Pacis statutum foedus ex mente recolo.<br>
+CRI. Ex mente? Quae pax ethnicis latronibus<br>
+cum Christiano principe? An concors tenor<br>
+cum luce nocti atque tenebris esse poterit?<br>
+Hinc Maximinum e vinculis temere eximis,<br>
+illinc Dioclis foederi accedis vagus,<br>
+ambiguus, anceps, perfidus patris latro<br>
+et perduellis proditor. Noster tamen<br>
+est misericors, est mitis augustus pater,<br>
+moderatur aestum pectoris. Quanquam, tua<br>
+si merita spectet, caedibus teque ac tuos<br>
+delere posset, attamen pace inclitus<br>
+parcit cruori civium et gaudet manu<br>
+tractare molli vulnera. Cum pace omnia<br>
+componere cupit bella. – Si obsequeris, tuo<br>
+poteris mederi vulneri. Si autem minus,<br>
+stat vindicare foedus hostile et suis<br>
+stat Maximinum vinculis restituere.<br>
+Vindicibus armis ethnicos delebimus.<br>
+LIC. A fratre nostro fulminum quidquid strepit,<br>
+inane murmur credimus. Iactat minas<br>
+infirmus animus, fortis ad ferrum volat.<br>
+CON. Per tot procellas Martis et per turbines<br>
+tot proeliorum certa iam nostris sedent<br>
+trophaea in armis, certa palmarum deus<br>
+omina spopondit Flavio. Quando fremit<br>
+ima revulsi sede tempestas maris,<br>
+dare obsequentem fluctibus navem decet,<br>
+ne vela rumpat Eurus et mergat ratem.<br>
+LIC. Victoriarum quidquid est partum, meum est,<br>
+opus est meae virtutis, haud patris tui.<br>
+Necdum sum inermis Marte. Quo vigeat statu<br>
+res nostra, mecum cogita! Sine me suos<br>
+numeret triumphos frater et longo ordine<br>
+victorias recenseat, seu quas fugax<br>
+reliquit hostis, sive quas stratae solo<br>
+urbes dederunt, sive quas cives metu<br>
+trepidi obtulerunt. CRI. Palma sed quanto tua<br>
+stabit cruore? Sanguini quando potes<br>
+parcere, sitire civium cladem est nefas,<br>
+honesta palma est, caede quae nulla venit.<br>
+CON. Haec placida pacis oscula a patre accipe,<br>
+auguste Caesar! Ecce manantes fluunt<br>
+gratiae et amores! Patris in amplexus rue!<br>
+LIC. Aliena laus indigna fit iustum viro<br>
+Martem professo. Nostra si parva est tibi<br>
+fortuna visque Martis, opposito lubet<br>
+Marte experiri. -- -- --<br></p>
+
+<span class=head>Scaena IV</span>
+
+<span class=speaker>Licinius et solus quidem.</span>
+
+<p>-- -- -- Caelicam lucem prius<br>
+exstinguet ortus, referet occasus diem,<br>
+pax ante fida nivibus et flammis erit<br>
+et Scylla Siculum iunget Ausonio latus<br>
+priusque multo vicibus alternis fugax<br>
+Euripus unda stabit Euboica piger,<br>
+quam ut tot cruore Caesarum aspersam manum<br>
+haec nostra, Constantine, contingat manus!<br></p>
+
+<span class=head>Scaena V</span>
+
+<span class=speaker>Licinius et Paulinus.</span>
+
+<p>PAUL. O maxime imperator, o clarum trahens<br>
+a stirpe nomen regia, facilis mea<br>
+parumper aure verba patienti excipe!<br>
+Es iustus aequi cultor et recti arbiter<br>
+atque moderator imperii. Hanc causam excute!<br>
+Convenio mentem, convenio fidem tuam.<br>
+Revolve, quaeso, et iudica! – Secta est frequens<br>
+in urbe Romani orbis. Est secta improba,<br>
+pretiosa sonat et grandia, at scatens dolis<br>
+vana sub umbra fallit humanum genus.<br>
+Simulacra adorat muta spe turpis lucri,<br>
+aras cruore innoxii incassum gregis<br>
+foede inquinat maculatque. Dilapidat opes<br>
+et sumptibus inutilibus exhaurit tuum,<br>
+princeps verende, aerarium. Sed hoc parum est,<br>
+maiora referam damna: Doctrinam suam<br>
+decreta contra Caesarum evulgat, probat,<br>
+promulgat, exturbatque per summum nefas<br>
+pacem rebellis publicam, turbat bonos,<br>
+fovet scelestos resque molitur novas.<br>
+Et qui sequuntur impiam hanc sectam, patrant<br>
+impune quodquod legis expertes nefas.<br>
+Crescunt inulta scelera, quod libet, licet.<br>
+Defectione turpi ad hostem Caesaris<br>
+sui tyrannum, a lege desciscunt sui<br>
+domini exsecrandi et perduelles transfugae.<br>
+LIC. Caput sacratum! Mysta Tyriorum sacer!<br>
+Per sceptra iuro Romuli et nostrum caput:<br>
+Sic pereat isthaec secta, Romani imperii<br>
+impostor atque pestis humani gregis<br>
+pereat Phalario in aere candentis bovis!<br>
+PAUL. Alter Perille! – Venia sit dictis meis! –<br>
+Alter Perille! Caesar, hanc poenam subi,<br>
+quam in impios paulo antea decreveras!<br>
+Nam Talionis poena in auctorem redit.<br>
+Gentilium est haec secta, quae contra tua<br>
+decreta, contra Flavii leges sacras<br>
+simulacra adorat muta spe turpis lucri<br>
+contra deum verum atque legitimum suum<br>
+dominum rebellis resque molitur novas.<br>
+Quis vero turpis ille sectator gregis?<br>
+Tu, tu ille es, huius ille sectator gregis,<br>
+tu turpis ille transfuga, a lege domini<br>
+deficere non es veritus! LIC. Agnosco scelus.<br>
+PAUL. Tu persecutor Christi et immanis latro,<br>
+tu Christianae gentis es tortor gravis<br>
+et innocentum sanguine refertus es hydrops.<br>
+LIC. Agnosco, divae legis interpres sacer,<br>
+agnosco facinus. – Nonne placari potest,<br>
+quem credidi iratum atque inexorabilem,<br>
+deus ille vester? PAUL. Facile placari potest.<br>
+LIC. Ipsius ergo honoribus templum dabo<br>
+ipsique veteres inter Argivum deos<br>
+aram dicabo. PAUL. Ergone sociatam velis<br>
+lucem tenebris? – Quam tibi notus parum<br>
+deus ille noster! Ille solus vult coli<br>
+solusque amari. Haud ille rivalem deum<br>
+ullumve socium gloriae admittit suae.<br>
+Illius arca per Philistaeos impiis<br>
+invecta templis proximum evertit semel<br>
+iterumque numen. Iacuit in terra Dagon<br>
+verumque prono capite confessus deum,<br>
+ne falsa quisquam numina huic temere audeat<br>
+sociare, monuit. Ergo quos avidus tenes,<br>
+absume flammis, opera mortalia, deos!<br>
+Simulacra perde lignea et monstra horrida<br>
+exscinde, quae tu mente non sana colis!<br>
+LIC. Quis Hister aut quis Tanais aut quis Persica<br>
+violentus unda Tigris aut plenus vadis<br>
+Oceanus altis abluat nostrum nefas?<br>
+PAUL. Haud Hister, haud Oceanus hoc delet nefas,<br>
+sed una prodest lacrima. -- -- --<br>
+<i>(Licinius genu flectit paenitens oculis in caelum sublatis.)</i><br>
+-- -- -- LIC. O verax deus!<br>
+O unice deus, Christe! Quid feci miser?<br>
+Ipsi deo bellum intuli, infandum scelus!<br>
+Miserere, quaeso! Paenitet, rogo veniam.<br>
+Miserere, domine! Parce! Miserere, domine!<br></p>
+
+<span class=head>Scaena VI</span>
+
+<span class=speaker>Diocletianus et priores.</span>
+
+<p><i>(Hic incipit catastasis.)</i><br>
+DIO. Quae scaena plane indigna? Quis luctus? Quid hoc?<br>
+An Christiano episcopo Caesar caput<br>
+genuque flectat? Proh pudor, quantum probrum!<br>
+PAUL. An imperator sordido Iovi caput<br>
+genuque flectat? Proh pudor, quantum probrum!<br>
+DIO. Quid? Tu sacros, Pauline, blasphemas deos?<br>
+PAUL. Daemonia sunt dii gentium, quosque colitis,<br>
+sunt superi inanes, arbore excisae trabes,<br>
+metalla terris eruta, effigies deum,<br>
+quos mala libido finxit et fabricat manus<br>
+humana. Lucis crederem auctores meae<br>
+mutos, inertes, lucis expertes deos?<br>
+Quid sentiam de putrido trunco Iovis,<br>
+ignava cuius dextera incassum gerit<br>
+ignes trisulcos, cuius os lingua caret,<br>
+cui cassa lucis lumina in vultu rigent,<br>
+cui longa surgit auris et surdus nihil<br>
+patula capessit aure? – Christiadum deus,<br>
+quae dicis, audit. Corde quae celas, videt.<br>
+Orbem potenti sustinet totum manu.<br>
+Verbo creavit omnia atque eadem potest<br>
+destruere verbo solus. DIO. Ergone est deus<br>
+Galilaeus ille, qui inter homicidas duos<br>
+necem probrosam subiit infami in cruce?<br>
+Aut quem iuvabit ille, qui se ipsum miser<br>
+iuvare tunc non potuit? PAUL. An quod mortuus<br>
+in stipite crucis, displicet Christus tibi?<br>
+Mors illa carnis fuerat, haud fuerat dei.<br>
+Si lignum inane colitis, an lignum suae<br>
+est mortis expers? Ecce, dum Christum mori<br>
+potuisse vos non creditis, lignum mori<br>
+potuisse cur negatis? DIO. Haud lignum, Iovem<br>
+nos colimus, immortalem et aeternum deum.<br>
+PAUL. Et Iupiter te fallit et lignum Iovis.<br>
+DIO. Quid si hoc tibi vetus Roma loqueretur modo?<br>
+<i>(Prosopopoeia Romae:)</i><br>
+„Inversa rerum fata! Posteritas mea,<br>
+an paenitet te matris et pudet tuae?<br>
+Quis iste furor? O tempora, o mores! Quid hoc?<br>
+Quid erubescis fana, quae ante annos meos<br>
+tempore ab avito ritus adduxit pius?<br>
+Ego: ,Faciant alii alia!‘ Quia sum libera,<br>
+hoc vetere vivam more, ego colam deos.<br>
+Cultus deorum domuit in leges meas<br>
+orbem universum. Is cultus Hannnibalem sacris<br>
+a moenibus submovit, indicio anseris<br>
+is cultus a Capitolio Senones tulit?<br>
+An ideo sum servata ab hoc discrimine,<br>
+ut carperer longaeva longo tempore?<br>
+Pacem rogo diis patriis, pacem rogo,<br>
+per quos fui servata vobis, posteri.“<br>
+PAUL. Quid si hoc tibi vetus Roma loqueretur modo?<br>
+<i>(Prosopopoeia Romae:)</i><br>
+„Quae vana nutris somnia? In pecudum fibris<br>
+victoriae trophaea nequaquam latent,<br>
+sed in virorum viribus. Aliis ego<br>
+orbem subegeram artibus et armis meis.<br>
+Nil aquila Iovis ad Romulidum aquilas facit.<br>
+Insultat igitur Hannnibal vestris sacris<br>
+diisque sibi contrariis ferro et face<br>
+conatus urbem Romuli ire perditum?<br>
+Cur se obsideri passa fuit urbs Romuli<br>
+a suis amicis, pro quibus stabant dii?<br>
+<i>(ironice)</i> An Senonas anser prodidit strepitu suo?<br>
+An in ansere loquebatur aethereus pater<br>
+Iupiter? An anseris lingua usus est?<br>
+– Virtus Camilli, non religio militum<br>
+prostravit hostem in rupe Tarpeia suum.<br>
+Scipio Africanus victor haud inter sacras<br>
+Capitolii aras, melius inter horridas<br>
+Hannnibalis acies, ferrea ubi seges stetit,<br>
+meruit triumphum. – Iam quid Attilium loquar?<br>
+Quid Valerianum et Gallienum proferam,<br>
+quorum alter imperator orbi captus est,<br>
+sub altero captivus orbis exstitit?<br>
+Quid ara tunc Victoriae illis profuit?<br>
+Quid bestiarum sanguine aspergi iuvat?<br>
+Quid in pecudibus mortuis voces dei<br>
+quaeritis inanes? Vos quidem pacem diis<br>
+a Caesare obsecratis, at nos Caesari<br>
+pacem obsecramus auream a Christo deo.<br>
+Vos opera manuum colitis, esse nos deum<br>
+negamus illud omne, quod fieri potest.<br>
+Vos nescientes colitis insanum Iovem,<br>
+nos verba Christi audimus atque credimus.<br>
+Cui maior est de deo ac deo ipsimet fides<br>
+habenda? Quare prodito errore melior<br>
+non erubesco cum orbe longaeva fieri?<br>
+Ad corrigendum nulla sera aetas fuit.“<br>
+DIO. Haec otiosa ac longa disputatio est.<br>
+PAUL. Sed seria, salutaris, utilissima.<br>
+DIO. Quid utile, salutare, nisi iocundum et bonum?<br>
+PAUL. O caeca hominum pectora, o mentes vagas!<br>
+Futura non inquiritis, solum bonis<br>
+praesentibus studetis. – Actum egi, nihil<br>
+proficio, nequidquam auribus surdis cano.<br></p>
+
+<span class=head>Scaena VII</span>
+
+<span class=speaker>Diocletianus et Licinius.</span>
+
+<p><i>(Velum.)</i><br>
+DIO. Proficiscere malis avibus in malam crucem!<br>
+LIC. Haec sacra medius inter et saxa dubius<br>
+quid eligat teneatve? Quam carpat viam?<br>
+Quae nos in altum, non ad interitum trahat?<br>
+Animus vacillat, haeret, ambiguus stupet.<br>
+– Verum putari, quod colunt omnes, puto<br>
+fas esse: Quidquid omnibus prodest, bonum est.<br>
+Utque experimur, gloria Quiritum diu<br>
+rebus secundis steterat, ubi patriis diis<br>
+Romani avito ture caluerunt foci.<br>
+Si possidentis melior est conditio,<br>
+si pristina deum religio, si aetas vetus,<br>
+si longus usus auctor est boni status,<br>
+servanda tantis saeculis erit fides.<br>
+DIO. Ergo procul omni, auguste, sis, Caesar, metu,<br>
+patres avitos atque maiores tuos<br>
+subsequere, qui feliciter patres suos<br>
+fuerant secuti. – Denuo quid inter est,<br>
+qua quisque sibi prudentia effingat deum?<br>
+Secreta sunt, quae itinere non uno queas<br>
+examinare. – Nunc ad instans proelium<br>
+converte mentem! Fac, tibi procul mora<br>
+Martinianus adsit! Ego reliquos tui<br>
+exercitus tuebor et regam duces.<br></p>
+
+<span class=head>Scaena VIII</span>
+
+<span class=speaker>Diocletianus solus.</span>
+
+<p>In turbido piscabor ac inter duos<br>
+ego litigantes tertius sceptro imperii<br>
+gaudebo. Parti utrique promptus, at quoto<br>
+cuique fidus? – Nemini, soli mihi.<br>
+Ergo resumam sceptra, conscendam thronum,<br>
+imperia mihi debentur et soli quidem.<br>
+Nec regna socium ferre nec taedae sciunt,<br>
+nec terra binis solibus regi potest.<br>
+Ius recuperabo pristinum. Eventus dii<br>
+si mihi secundos denegant, Orcus dabit.<br>
+Si nequeo nostra in vota superos flectere,<br>
+Acheronta diro carmine movebo et Stygem.<br></p>
+
+<span class=head>Chorus poetico-moralis II</span>
+
+<span class=speaker>Tres peregrini Alemanni interloquente Diocletiano.</span>
+
+<p>PER. I Welch unthier stehet da? Ein lew von oben an,<br>
+von unten auf ein mensch, ein lewen gleicher man.<br>
+DIO. Das sindt gwis teutsche pursch. Auch teutschlandt hat mich tragen,<br>
+wo ich mit meiner faust vill daussendt teutsche gschlagen.<br>
+PER. II Ach fliecht! Ach fliecht von dan. So sindt wir auch allhier<br>
+o graussamer tyrann! nit sicher gnug von dir?<br>
+Dio. Bleibt, freundte! bleibt allhir. Ich will nach gstalt der sachen<br>
+ich schwör bey meiner trey: euch alle sicher machen.<br>
+Wohin tracht eure reis? PER. III Zur heiligen kirchweich<br>
+nach Tyrus trachten wir. DIO. Pfui schämbt euch eurer seuch<br>
+der Christen ihrer sect, so kurz erst angefangen,<br>
+pfui schämbt euch, deren gott am liechten galgen ghangen.<br>
+PER. I Ihr löstert unsren glaub: alleine kent ihr raben<br>
+zur wahren glaubens sonn kein adler-augen haben.<br>
+PER. II Ihr blindes heiden volckh: wie seit ihr so betheret,<br>
+das ihr im gottes dienst die blinde gözen ehret.<br>
+Die nur von ausen golt, inwendig aschen sind,<br>
+speist euch von dissen dunst, von lähren rauch undt wind.<br>
+PER. III O du torrechtes volckh, die ihr verehrt die götter,<br>
+seindt dise eure hilff, seindt dise eure rötter?<br>
+Ich siche schon genug, wie ihr von weiten nicht<br>
+ansöcht den wahren gott, das wahre glaubens licht<br>
+die sonne der vernunfft nicht ein mahl könt erblickhen,<br>
+weill dünst der zauberey euch zauberendte bestrickhen.<br>
+DIO. Ihr seit erz-zauberer, ihr störet frid undt ruh,<br>
+mit der scheinheiligkeit schlüsst ihr die pforten zu.<br>
+Der wahren götter, so mit ihrer huld undt gnaden<br>
+bisher das Römer-reich fridsam besizet haben.<br>
+PER. I Woher kombt dise hilff? Woher kombt diser schuz?<br>
+Sag mir du wüterich ich biette dir den truz,<br>
+woher kombt huld undt gnad? Von gehörlosen gözen?<br>
+Wie wirt ein stummer blockh euch mit der gnade lözen?<br>
+DIO. Wir betten nicht das holz, dsa golt, das silber an,<br>
+in himmel ist allein, der uns hier helffen kan,<br>
+du götter-gott, den wir auf dem Tarpejus dienen,<br>
+undt Mavors der du bist ein vatter der Quirieten<br>
+ihr alten gotter auch, so rom die grosse statt,<br>
+die herscherin der welt in ihren ehren hat,<br>
+die das verjagte volckh die Dardanische Phrygen<br>
+zu uns dahin gebracht. PER. II Wie wirt es sich da fügen<br>
+das der eich helffen kan, so selbsten schwizt undt brint<br>
+in höllischen schwöfl-feur wegen zahl-reicher sindt.<br>
+DIO. Der Jupiter wirt selbst dis besser, als ich, wissen.<br>
+Welch furien hat dich zur lesterung gebissen?<br>
+Seit dem das Christnthum geschöpfet freyen luft,<br>
+seidt alle barbaren undt unheil aus der grufft<br>
+der höllen in d’s reich der Römer angekommen,<br>
+undt haben allerley zerritung angesponnen.<br>
+Ey das der teuffl hol eur sect, das aberglaub<br>
+vor augen der vernunfft sich mache aus den staub.<br>
+PER. III Die wahre glaubens lehr schmöckht zarten lippen bitter,<br>
+doch labt ihr nectar gleich die willige gemüther.<br>
+PER. I Der wahre glaub allein vergöttert unsren geist:<br>
+darumen die vernunfft uns mehr vernunfftig preist,<br>
+weil tugendt ist der grundt der frommen Christen herd,<br>
+die tugendt aber ist ihr eigner frucht undt werth.<br>
+Die tugendt kan auch lust in tott undt quall genüsen,<br>
+die sindt hingögen mercht den henckher in gewissen.<br>
+PER. II Ihr heyden, blinde spross, undt lasterhaffte brut<br>
+denckht nur, was hie zugögen, denckht nicht ans künfftig gut.<br>
+Undt wan ihr hier erblast als wie die faule blötter,<br>
+welch pfau, welch adler tragt eur seel ins schloss der götter?<br>
+Was hofft ihr fir ein lohn, was hofft ihr fir ein himml?<br>
+Den Polyphem erbaut der ris mit sein getümml?<br>
+DIO. Auch unsre götter, so mit bliz auf laster ergeen,<br>
+pflögen die tugendten mit ehren-kranz zu sögnen,<br>
+welche auch Jupiter mit holden aug anblickht,<br>
+undt ihren selben lohn, den sie verdient, zuschickht.<br>
+So balt der sindig mensch mit sinden sich vergreiffet,<br>
+auch Jupiter auf ihn die donner-keile schleiffet.<br>
+So balt in Troyens statt der geilheits brunst entglam,<br>
+undt Paris Helenen dem Menelaus nam,<br>
+entwich Minerva weckh, ihr bilt wurd fortgetragen,<br>
+der stam des Dardans wurd vertilget undt zerschlagen.<br>
+Hingögen Jupiter gibt Ganymed den lohn<br>
+der tugendt, dem delphin im himl die sternen-cron.<br>
+PER. III Das ist ein falscher schein. Das seindt nicht götter werkhe,<br>
+ein gott hat dis gethan mit seiner wahren störckhe,<br>
+bey euch sagt einer ja, der andere sagt nein:<br>
+was mues doch dis fir ein zerriters weesen sein?<br>
+Venus hat Troyen gliebt, Minerva war dar wider,<br>
+Neptunus baut sie auf, Vulcanus reist sie nider.<br>
+Die statt Carthago hat die göttin Juno bschizt,<br>
+auf welche doch Neptun mit seiner gabel blizt.<br>
+Aeneas ist in aug der Juno ein brenn-nessl,<br>
+hingögen Turnus strebt durch ihr auf thron undt sössl.<br>
+DIO. Ich mörckh schon mit dem schwert des muts bin ich zu schwach<br>
+wo ist das andre gwer? der sebel? zum bluts tauff.  -- -- --<br>
+-- -- -- OMNES TRES PER. Ach.<br></p>
+
+<span class=head>Actus IV</span>
+<
+<span class=head>Scaena I</span>
+
+<span class=speaker>Flavius Constantinus et Constantia.</span>
+
+<p><i>(Aperitur thronus.)</i><br>
+CON. Auguste frater, si tamen Constantiam<br>
+adhuc sororem agnoscis, uxorem impii<br>
+Liciniani coniugis, saltem pius<br>
+has intuere lacrimas sortis meae!<br>
+FLA. Augusta soror! – Hoc nomen est adhuc tibi<br>
+per me relictum. – Ah, parce, quaeso, vulneri<br>
+novum addidisse vulnus! Infelix quoque<br>
+est Flavius, dum perdere illum cogitur,<br>
+quem dudum amavit unice et fratris loco<br>
+habere tecum voluit. CON. An coniux meus<br>
+admittere istud potuit horrendum nefas,<br>
+ut parricida perfidus bello tuum<br>
+oppetere caput haud erubesceret? Timor<br>
+me tangit haud inanis, ut ne, si reus<br>
+facinoris est maritus, etiam uxor luat<br>
+fraterno amore indigna, ne tua crimine<br>
+intacta veniat sceleris in partem soror.<br>
+FLA. Parce metui! Nil coniugis tui meam<br>
+tangit sororem. Cara mihi Constantia est,<br>
+quin ipse mihi Licinius etsi perfidus<br>
+necdum tamen deletus animo Flavii.<br>
+CON. Sceleste coniux, miserum et ingratum caput,<br>
+in tam benignum Caesarem insanam manum<br>
+ut stringeres, quis te impulit saevus furor?<br>
+FLA. Nempe in furorem induxit insani furor<br>
+Diocletiani, auctore quo Constantiae<br>
+consilia sprevit, Maximinum e vinculis<br>
+absolvit et turpissima Christum suum<br>
+defectione deseruit. – Adeo mala,<br>
+adeo periculosa sunt contagia<br>
+perversa, conversatio atque societas.<br>
+CON. Si bellum in animo est fratris, ah fratrem precor,<br>
+suspende saltem fulmen et iustam licet<br>
+sententiam, cognoscere errorem suum<br>
+dum possit hostis perfidus te episcope<br>
+Pauline commonente. FLA. Non est remedium,<br>
+quod non adhibui huic vulneri. Crispus tuus<br>
+alterque frater missus est, ambo simul<br>
+cecinere surdo. Missus est episcopus<br>
+cecinitque surdo. Solum adhuc superest tibi,<br>
+ut pertinaci suadeas, Christi ad sacra<br>
+ut redeat a gentilium invisis diis,<br>
+ut sponte supplex Flavii clementiam<br>
+studeat mereri. CON. Gratiae an locus super?<br>
+FLA. Si Christianus supplicet, si seria<br>
+id exsequatur mente. CON. Si totidem viri<br>
+a coniuge impetrare potuerunt nihil,<br>
+quid impetrabit femina? Nihil, nisi novum<br>
+vulnus doloris hic mihi aspectus feret<br>
+tam pertinacis coniugis. Quid? Quod et ego<br>
+remedia adhibui cuncta, maerores, preces,<br>
+planctus, dolores, lacrimas, egi nihil.<br>
+Ergo omnis in te frater est fiducia,<br>
+ut absque saltem sanguine, absque proelio<br>
+domes rebellem aut differas in crastinum,<br>
+quod mente tractas. FLA. Quid, soror? Si proelium<br>
+differe in animum inducerem, fratri tuo<br>
+quo pacto eris sollicita? Discrimen mihi<br>
+periculumque cresceret longa mora.<br>
+An ergo, si suspendier fulmen cupis,<br>
+plus fratre Christiano amabis coniugem<br>
+et fratris hostem et perfidum a Christi fide<br>
+sacrisque nostris transfugam? CON. Ah, maritum amo<br>
+simulque fratrem diligo et Christum magis.<br>
+Natura, sed quo pertrahis Constantiam?<br>
+FLA. Ad recta, non ad devia viarum trahat<br>
+te Christus et religio, te dignam coniuge<br>
+feliciore coniugem Constantiam!<br>
+CON. O lucta acerba! O vulnus! O duplex dolor!<br>
+FLA. Quid, anime, cessas? Quid gemis? Quid fluctuas?<br>
+CON. Heu torqueor! Heu scindor, in partes trahor.<br>
+Heu, quid reclamat animus hinc et hinc meus?<br>
+FLA. Constanter age, Constantia! Attonitae magis<br>
+moderare menti! Sequere, quo fatum vocat,<br>
+quo te religio Christiana pertrahit<br>
+fraterque Constantinus augustus iubet.<br>
+– At nunc dolori ad tempus indulge tuo!<br></p>
+
+<span class=head>Scaena II</span>
+
+<span class=speaker>Flavius Constantinus, Crispus, Maximinus.</span>
+
+<p><i>(Aperitur carcer.)</i><br>
+CRI. En praeda, Constantine! Sat notus tibi<br>
+en Maximinus vinculo abrepto semel<br>
+solutus iterum cecidit in casses tuos.<br>
+FLA. Quae sors solutum vinxit et vinclis dedit?<br>
+CRI. Attende, dicam. Ubi sumus, pater, tua<br>
+legatione functi, hostilibus castris redux<br>
+ego pingue reperi hoc spolium et abrupta mora<br>
+ad te redux. MAX. <i>(Egreditur.)</i> O funus, o frustra meum<br>
+quid protraho? Qui matris ipso ex ubere<br>
+in bella raptus Martis adolevi in sinu<br>
+totiesque pugnas inter et strages virum<br>
+necem irretorto lumine instantem tuli.<br>
+Occurrere quid hodie horream instanti neci?<br>
+– Occurro, rerum iam satis, vitae satis<br>
+mihi fluxit, unde et posse didiceram mori<br>
+et velle. Modo hic inveniat ultorem cruor!<br>
+<i>(Militi e manu pugionem abripit se ipsum confossurus.)</i><br>
+– Age mucro, nostro sanguine rubesce et latus<br>
+hauri nocentis! Cum impetu toto veni!<br>
+FLA. Cohibete dextram! -- -- --<br>
+<i>(Pugio ipsi extrahitur.)</i><br>
+-- -- -- MAX. Moriar! Ah sine, moriar!<br>
+FLA. Moriaris, at qua perfidos decet manu<br>
+carnificis. Hinc abstrahite! Quam mortem petit,<br>
+det perduelli carnifex! MAX. Moriar lubens,<br>
+ego regium, senile, venerandum caput<br>
+subdam securi. – Confluite, satellites,<br>
+facessite et me, adsum, opprimite, longas moras<br>
+abrumpite! Iras, arma, vim, furias, neces<br>
+coniungite! FLA. I! Ergo morere, tyranne, morere!<br>
+I ad inferos, dic Flavii temet manu<br>
+audisse! – Supplicium ultimum, miles, para!<br>
+<i>(Carcer aperitur.)</i><br>
+– Venite mecum, Caesares, tot iam antea<br>
+titulis superbi et incliti victoriis!<br>
+Arma, arma, miles! Proelium litui increpent!<br>
+<i>(Inflatur buccina.)</i><br>
+Effundite aciem campo et incautum undique<br>
+irruite in hostem! Licinius adhuc est super,<br>
+devota nobis victima. Is solus furit<br>
+stratis tyrannis omnibus, cuius cruor<br>
+fuso parentans sanguini inferias dabit.<br>
+Sub glorioso labaro invictae crucis<br>
+pugnate mecum fortiter! Strictus mucro<br>
+veterem cruorem exhauriat, venas quoque<br>
+vacuas mei hostis sanguine novo repleat!<br>
+Iam Christiana sacra demum ab ultimo<br>
+dedecore vindicate et aeterno deo<br>
+reparate Christo ecclesias, quas antea<br>
+ferro, minis, ignibus, clade ultima<br>
+furor tyrannum diruit! Vestra in manu<br>
+stant templa, stant altaria atque caelites,<br>
+stat religio, stat vita, libertas, honor,<br>
+res publica, patria, coniuges et liberi<br>
+et ante reliqua, principis vestri salus.<br></p>
+
+<span class=head>Scaena III</span>
+
+<span class=speaker>Remanet Maximinus.</span>
+
+<p><i>(Ferale pegma struitur a carnifice. Bini satellites Maximinum custodiunt.)</i><br>
+Erumpe in iras, anime! Nunc rivis cruor<br>
+iterum redundet, orbis in flammas eat,<br>
+ut omnium uno in capite plectatur scelus.<br>
+Discissa tellus faucibus ruptis hiet<br>
+mergatque miserum, condar et vivens adhuc<br>
+Phlegethonte toto! Dira Furiarum cohors,<br>
+dirae sorores Tartari e fundo excitae,<br>
+discors Erynnis veniat et geminas faces<br>
+Megaera quatiens! Non satis magno meum<br>
+ardet furore pectus in Christi fidem,<br>
+qui mihi tyrannus, carnifex, qui me et meos<br>
+mactat, trucidat, iugulat infensus deus.<br>
+Adhuc in Orci sulphure accensus tibi<br>
+semper rebellis spiritum infestum traham.<br>
+Ibi, Christe, adesto semper iratus mihi<br>
+et me vicissim semper iratum tibi<br>
+hostemque dirum senties. Nunc interim<br>
+non imparatus morior et mortem ambio.<br>
+Ignavus est, quicunque praeoptat mori,<br>
+cum non necesse est. Ita pariter ignavus est,<br>
+qui, cum necesse est, refugit. Igitur, o ferox,<br>
+crudelis, atrox, barbare, immitis deus<br>
+Galilaee, lambe sanguinem, immanis, meum!<br>
+Et qui haud ferarum, at Caesarum tabum sitis,<br>
+nostro cruore pascere, immitis canis!<br>
+Victor inimice et tristis, exsulta, deus!<br>
+Gaude et triumpha, cor ferum satia, dies<br>
+festos age et laetare! Vicisti. Bibe,<br>
+bibe satur! Istum sanguinem petitur. Bibe!<br>
+<i>(Deponitur cidaris et vincula.)</i><br>
+– At tu, satelles, conde Caesareum hoc caput<br>
+imo sepulchro, ne mihi hic illudere<br>
+possit iacenti Christus, immitis deus.<br>
+<i>(Maximinus capite plectitur. Pegma cum trunco manet, sed clausum.)</i><br></p>
+
+<span class=head>Scaena IV</span>
+
+<span class=speaker>Diocletianus et satelles.</span>
+
+<p>DIO. Ubi Maximinus Caesar? SAT. In carcere. DIO. Seras<br>
+mihi relaxa carceris! SAT. Non amplius<br>
+invisere illum poteris. Implacabilis<br>
+est Caesar, ira Flavii haud flecti potest.<br>
+DIO. Truculenta si ira Flavii haud flecti potest,<br>
+frangi potest. SAT. I, frange, si frangere potes!<br>
+<i>(Aperitur carcer. Caput sanguine manans manu carpitur.)</i><br>
+Ecce solium, en pegma, en coronatum caput,<br>
+en Maximini purpuram, haud sceptri quidem<br>
+fulgore, morte pallidam ipsius manum!<br></p>
+
+<span class=head>Scaena V</span>
+
+<span class=speaker>Diocletianus remanet.</span>
+
+<p><i>(Clauditur carcer.)</i><br>
+Dii fulgurantes, vindicem irati manum<br>
+rotate! Tuque cuspide trisulca potens<br>
+opprime rebelles, Iupiter, Christi asseclas!<br>
+Non sic abibunt odia, vivaces aget<br>
+violentus iras animus et saevus dolor<br>
+aeterna bella pace sublata geret.<br>
+Quae bella? Quidquid horridum tellus creat<br>
+immensa, quidquid pontus aut aer tulit<br>
+terribile, dirum, barbarum crudeleque,<br>
+in Christianum protinus gregem ruat!<br>
+Mactetur hostis, subtrahant se se meo<br>
+sidera furori, sidera invadam ferox!<br>
+Si quis sub astris invida torques manu<br>
+non paria nobis sceptra, quem Christum vocat<br>
+servile vulgus, exsere e caelo pedem,<br>
+descende caelo, Martium hunc campum subi!<br>
+– Non audet mecum congredi. -- -- --<br></p>
+
+<span class=head>Scaena VI</span>
+
+<span class=speaker>Diocletianus, Martinianus, Valens, milites.</span>
+
+<p>-- -- -- MAR. Quis hic furor?<br>
+VAL. Quis hic tumultus pectoris, Diocles, tui?<br>
+DIO. Turbata mihi sunt omnia, quietum nihil.<br>
+Actum est, perimus, nisi hodie iuncta simul<br>
+opera opprimamus Flavium, Christi asseclam.<br>
+Iam Maximinus innocens poenas dabit.<br>
+Lentum est dabit, dat. Hoc quoque est lentum, dedit.<br>
+Iacet peremptus, Flavius regna occupat,<br>
+conatur ire perditum nostros deos<br>
+et te, Dioclem, Licinium leto petit.<br>
+MAR. Dirum, nefandum, perfidum, ingratum caput!<br>
+DIO. Nemo iurabit, nemo ad oppressae domus<br>
+auxilia veniet? Cernit hoc tantum nefas<br>
+gentilis orbis? MAR. Cur diem questu teram?<br>
+Mactetur hostis! VAL. Pereat hac adhuc die!<br>
+MAR. Forsan, Diocles, Flaviae genti studet<br>
+pronior Olympus? DIO. Studeat, ego caelum impetam<br>
+et astra vindex more Titanum eruam!<br>
+Quodque invidentis numinis negat manus,<br>
+florum parabit. MAR. Te, huius heros temporis,<br>
+spoliis onustum et messe palmarum gravem,<br>
+quas vestra bello invicta collegit manus,<br>
+clarum triumphis, paene adorandum caput,<br>
+pavescit orbis fulminis more efferum.<br>
+Te Franco sensit, sensit Hispanus ferox,<br>
+te sensit Oriens totus et totum mare.<br>
+Si vestra nobis Licinium manus asserat,<br>
+imperia tibi Licinius reddet sua.<br>
+Te, te abdicato iure sceptrorum miser,<br>
+populus reposcit, milites favent, duces<br>
+student, senatus flagitat, iubent dii.<br>
+OMNES. Diocletianus vivat et sceptrum gerat!<br></p>
+
+<span class=head>Chorus II></span>
+
+<span class=speaker>Salomon, Sadoc, Nathan.</span>
+
+<p>SAD. <i>(ariose)</i> Canite tuba in Sion, canite iterum!<br>
+Haec dicit dominus, deus exercituum.<br>
+Ecce ego contra consilium Achitophel,<br>
+unxi te in regem super Israel.<br></p>
+
+<p><i>Recitativo</i><br>
+NATH. Accipe diadema regium<br>
+et regni testimonium!<br>
+Accipe sanctum gladium,<br>
+quibus telis<br>
+prosternes adversarios Israelis.<br>
+SAD. Sede igitur supersolium David,<br>
+in quo ipse super Israel quadraginta<br>
+annis regnavit.<br></p>
+
+<p><i>Aria a due</i><br>
+SAD. Te deus unxit dominus<br>
+super hereditate,<br>
+quam tibi dedit providus<br>
+divina maiestate.<br>
+NATH. Dux, rector, pater patriae!<br>
+In throni firmamento<br>
+normam tenens iustitiae,<br>
+dei tui memento.<br>
+SAL. Qui me elegit principem,<br>
+nutum dei adoro,<br>
+ut servum servet humilem,<br>
+opem dei imploro.<br>
+CHORUS Regnum deus amplificet<br>
+invicto Salomoni,<br>
+nomen regis magnificet<br>
+in summitate throni.<br>
+SAD. Te solum legit dominus.<br>
+SAL. Indignum legit regem.<br>
+SAD. Complectitur te populus.<br>
+SAL. Complector carum gregem.<br>
+SAD. ET NATH. Sic regnet rex, altissimi,<br>
+CHORUS. quem dei fecit lex.<br>
+SAD. ET SAL. ET NATH. Vox populi vox domini.<br>
+CHORUS. Sic noster vivat rex!<br></p>
+
+<p><i>Recitativo</i><br>
+SAD. Nunc ergo audi vocem domini,<br>
+templum ipsius nomini,<br>
+quod pater tuus David<br>
+olim inchoavit,<br>
+inchoatum consummabis,<br>
+consummatum consecrabis.<br></p>
+
+<p><i>Recitativo</i><br>
+SAL. Benedictus dominus deus Israel,<br>
+deus Emmanuel.<br>
+Devicto Adonia rebelli<br>
+in die pugnae et belli<br>
+templum consecrabo<br>
+altissimique nomini dedicabo.<br></p>
+
+<p><i>Aria</i><br>
+Accipe, domine,<br>
+in tuo nomine<br>
+holocautomata<br>
+et thymiamata,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quae<br>
+non tam a me<br>
+sunt quam a te.<br></p>
+
+<p>Hoc sacrificio<br>
+vota propitio<br>
+reddite domino!<br>
+Rata sit iussio,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lex,<br>
+quam facit rex,<br>
+quam firmat grex.<br></p>
+
+<p><i>Recitativo</i><br>
+SAD. Ecce, dum templum sanctificas,<br>
+ignis super victimas<br>
+de caelo descendit<br>
+et holocausta comprehendit.<br>
+SAL. <i>(ariose)</i> Ecce maiestas domini<br>
+hoc templum suo nomini<br>
+sacrum sanctificavit.<br>
+En dominus in nebula<br>
+cohabitans hac gloria<br>
+hoc templum illustravit.<br>
+SAD. Vivo ego, dicit dominus,<br>
+cuius deliciae sunt esse cum hominibs,<br>
+elegi hanc domum et sanctificavi,<br>
+quam supra verticem montium fundavi.<br>
+Exaudivi tuam orationem,<br>
+quae ad me ascendit per cordis devotionem<br>
+in odorem suavitatis<br>
+in hac die solemnitatis.<br></p>
+
+<p><i>Aria</i><br>
+Si ambulabis coram me,<br>
+ut pater tuus David<br>
+perfectus ambulavit<br>
+in semita iustitiae,<br>
+aperientur oculi<br>
+et aures imploratae<br>
+non erunt obduratae<br>
+ad domum sacrificii.<br></p>
+
+<p>Si vero me reliqueris<br>
+a deo tuo aversus,<br>
+ad exteros conversus<br>
+in vias pravas iveris,<br>
+a facie proiiciam<br>
+hoc templum Salomonis,<br>
+et cum oblatis donis<br>
+extradam in parabolam.<br></p>
+
+<p><i>Recitativo</i><br>
+SAL. Sit ergo haec domus domini<br>
+in sempiternum habitaculum<br>
+firmissimumque solium,<br>
+confitemini domino bono,<br>
+qui sedet super Cherubim in hoc throno.<br>
+Erit nomen tuum ibi nomen mite.<br>
+Hic peccata populi tui dimitte!<br>
+Custos foederis et misericordiae,<br>
+hic parce nobis, domine!<br></p>
+
+<p><i>Aria in duetto</i><br>
+SAL. Si pallida fames laborat,<br>
+te patrem, ut panem des, orat,<br>
+si spissa caligine pestis<br>
+divinae vindictae sit testis,<br>
+si exsulet aurea pax.<br>
+Si horridus ore cruento<br>
+Mars infremat aereque lento<br>
+circumsonant arma, si satis<br>
+ferroque flammaque vastatis<br>
+exarserit bellica fax.<br>
+SAD. Si populus oraverit,<br>
+hoc templum frequentaverit,<br>
+deo confessus fuerit,<br>
+peccati paenituerit,<br>
+SAL. Exaudi nos!<br>
+SAD. Exaudiam vos.<br>
+SAD. Preces vestras exaudiam,<br>
+propitius aspiciam<br>
+me invocante populo<br>
+de caeli habitaculo.<br>
+SAL. Exaudi nos!<br>
+SAD. Exaudiam vos.<br></p>
+
+<span class=head>Actus V</span>
+
+<span class=head>Scaena I</span>
+
+<span class=speaker>Constantia sola.</span>
+
+<p>Quae vota faciam? Suspiriis quibus deos,<br>
+quo mentis aestu, qua fatigabo prece<br>
+dubia ipsa et amens, dum riget belli furor,<br>
+dum pertinaci pugna conseritur manu?<br>
+Pugnatur, uno tota momento salus<br>
+et summa pendent fata, miseranda, horrida.<br>
+Quam tenuis ille filius, e quo aut coniugis<br>
+pendet salus aut fratris excidium aut salus<br>
+fratris, mariti interitus! O sortem asperam,<br>
+cum parcis et cum saevis ex aequo malam!<br>
+Quocunque Martis alea ambigui cadat,<br>
+occidimus. Instat certus hinc illinc dolor<br>
+et par utrinque. Quidquid hac pugna perit,<br>
+mihi perit. Ecquo vota convertam? Deos<br>
+fratri apprecabor? Coniugi cladem infero.<br>
+Aequos marito an invocem? Evado pia<br>
+in coniugem uxor, impia in fratrem soror.<br>
+– O Flavii tristem et Licinii memoriam!<br>
+Hic est maritus, ille frater, fratrem amo,<br>
+magis maritum. Christum amo attamen<br>
+magis marito. – Sed quid hoc? Superi malum<br>
+avertite omen! Omen infaustum! Quid hoc?<br>
+Concursus armatorum in occursu ferox,<br>
+flatus equorum, clamor occumbentium<br>
+gemitusque, tinnientium armorum sonus<br>
+procul audiuntur. – Eheu, quis huc gradum?<br>
+Quid video? Quae portenta, quae monstra horrida?<br>
+– Quae signa vos ex proelio adfertis mihi?<br></p>
+
+<span class=head>Scaena II</span>
+
+<span class=speaker>Constantia, Iulius Licinius et Hannibaleianus cum vexillis laceris.</span>
+
+<p>CON. Quae signa vos ex proelio adfertis mihi?<br>
+IUL. Cruenta. CON. Cuius sanguine?<br>
+HAN. Ah mater! CON. Patri quid accidit?<br>
+IUL. Eheu, totus infremo. HAN. Totus furo.<br>
+CON. Quid genua titubant? Quid vagi trepidant pedes?<br>
+IUL. Ubi sum? HAN. Quis horror artuum et dentium rigor?<br>
+CON. Ad vos redite! HAN. Ah mater, heu, veros nimis<br>
+monitus dedisti Licinio, infausto patri.<br>
+CON. Ah nate, quid igitur patri triste accidit?<br>
+IUL. Horrescit animus. HAN. Lingua torpet. CON. Dicite!<br>
+IUL. Iam stabat acies utraque et ferro et neci<br>
+parata, iamiam buccina clara dedit<br>
+signum tibicen Marticum, cum cursu efferus<br>
+et voce praeceps intonans media advolat<br>
+per tela Caesar Flavius, frater tuus<br>
+augustus. Ille precibus, imperio, minis<br>
+instigat hostem in nostra praecipitem agmina.<br>
+Victora, dea ambigua cui faveat magis,<br>
+utramque media inter aciem fessis diu<br>
+pependit alis, donec effreni impetu<br>
+molitus aciem rumpere in nostros equo<br>
+invectus equites Flavius reperit viam,<br>
+qua Caesar armis Licinius in hostem excitis<br>
+cornu sinistrum rexit. Huc omne infremens<br>
+coaluit agmen subito et inclusum premens<br>
+late ingruebat. Flavius victor equitem<br>
+stimulabat in nos plurimum denso agmine,<br>
+instabat urgebatque, donec Licinius<br>
+victos manus tradiderit. CON. Hoc demum exitu<br>
+confecta res est? Quae fuga oppressum abstulit?<br>
+HAN. Omitte plura scire! CON. Si scis, dicito!<br>
+HAN. Vocem resorbet clausus hoc sinu dolor.<br>
+CON. (ad Licinium) Augusta sic te filium mater iubet.<br>
+IUL. Non imparatum istis malis animum gere!<br>
+Ictus sagitta cecidit. – Exceptus solo<br>
+frustra arma in hostem iecit adiectis minis,<br>
+clipeum coruscans aeneo nimbo gravem.<br>
+<i>(Constantia in deliquium cadit.)</i><br>
+HAN. En ipsus huc adfertur, en oculos subit,<br>
+in scuta denso militum exceptus grege!<br>
+Vivens adhuc notat oculis Constantiam.<br></p>
+
+<span class=head>Scaena III</span>
+
+<span class=speaker>Licinius, Constantia, Iulius Licinius iunior, milites in scutis Licinium sustentantes.</span>
+
+<p><i>(Aperitur. Licinius vulneratus e proelio a militibus suis adducitur.)</i><br>
+CON. O scaena rerum tristis! – O coniux miser<br>
+et nemini miserabilis praeter tuam<br>
+Constantiam! IUL. O care pater! HAN. Infelix pater!<br>
+CON. Miserande coniux! Talis uxori redis<br>
+sive potius reveheris. LIC. Ah, coniux mihi<br>
+veneranda! Quid non debeo curis tuis?<br>
+CON. Quas tamen acerbo corde sprevisti miser.<br>
+LIC. Accede propius! Vulneris hiulci dolor<br>
+vocem loquenti reprimit. CON. Accedam lubens.<br>
+LIC. O cara mihi Constantia! O coniux mea!<br>
+Lacrimas coerce, contine fletus tuos!<br>
+CON. Heu misera fata, fata deploro tua.<br>
+Ignava cur pro coniuge hunc manum meam,<br>
+hoc pectus haud obieci, ut ipsum hoc per latus<br>
+latus petendum coniugis mei foret.<br>
+Aut, quod minore impendio staret mihi,<br>
+cur velut Amazon altera ardescens minis,<br>
+cur non adivi proelium atque hostium aciem,<br>
+in te ruentes ut vel arcerem manus<br>
+vel ipsa pro te vulnus exciperem lubens?<br>
+LIC. Abunde vixi, cara, regnavi, fui.<br>
+Regnare et esse et vivere is vetat deus,<br>
+quem Christiana religio Christum vocat.<br>
+CON. Hunc obsecrando et flendo placabis deum,<br>
+si praemittentem sceleris admissi piget.<br>
+LIC. Non sceleris ulla memoria obstringit animum.<br>
+Iustitia eadem, qua intuli bella, reppuli.<br>
+Cognatione caelitum sceptrum datum<br>
+sine labe cepi, labe servavi vacans.<br>
+Populo Quiritum profui, dum praefui.<br>
+Prodesse, non praeesse meliorem ratus<br>
+sortem esse iusti principis. Primo loco<br>
+mihi cordi erat cum publicae rei salus<br>
+tum subditorum commodum. Mors itaque<br>
+complebit una vota morituri omnia.<br>
+CON. O caeca mens! O misera conditio viri!<br>
+LIC. O me beatum! – Tantum abest, ut sim miser.<br>
+O auspicata, o hilaris, o felix dies,<br>
+qua denique ex hac vita ad aeternos Lares<br>
+migrare possim et reddere petenti queam<br>
+naturae avitum debitum, ut fidei bonae<br>
+debitor. Ut illud reddam, anhelo, gaudeo,<br>
+exsulto. Moeror absit et dolor et metus!<br>
+Melior sophia est, quae docet, quam corpore<br>
+beatior sit animus et, quoties quidem<br>
+deterior a meliore conditio statu<br>
+solvatur, esse gaudii, haud luctus locum.<br>
+Quid? Quod secundi caelites piissimis<br>
+quibusque mortem in praemium interdum dabant?<br>
+Igitur tametsi vita succumbat mihi,<br>
+non tamen ego unquam Caesar occumbam neci.<br>
+Nec morte cado, sed surgo. Nec iacere tam,<br>
+quam stare videor. Mors enim insultat pigris,<br>
+sed fortibus non obstat. Abiectos premit,<br>
+sed stantibus recedit. – Ergo lacrimis<br>
+caelo propinquum principem atque luctibus<br>
+nolite, quaeso, excipere, seposito obice<br>
+non impedite ad astra properantem! Modo<br>
+digredior ex hoc orbe. IUL. Iam vox deficit.<br>
+HAN. Exhalat animam. CON. Siste, per deum precor,<br>
+ah siste, grandis anima! Si fatum vocat,<br>
+te sepeli in isto pectore et meo tuum<br>
+in corde conde spiritum! – HAN. At quis huc pedem?<br>
+Suprema nobis hora, mater, imminet.<br></p>
+
+<span class=head>Scaena IV</span>
+
+<span class=speaker>Flavius Constantinus, Constantia, Licinius iunior et Hannibaleianus.</span>
+
+<p>CON. Ah frater! Ah tyranne, frater! FLA. Ah soror!<br>
+CON. An hoc patrare Flavius, frater meus,<br>
+tyrannus haud erubuit, ubi mei coniugis<br>
+cruore sparsa tristis erubuit manus?<br>
+An non pepercit vinculo sacerrimo<br>
+affinitatis? FLA. Arma non servant modum.<br>
+Nec temperari facile nec reprimi potest<br>
+stricti ensis ira, bella delectat cruor.<br>
+CON. In hasne spes Constantiam, frater, tuam<br>
+sponsam dedisti Licinii infaustam toro,<br>
+in hasne spes hunc Caesarem ad thronum imperii,<br>
+ad summa promovisti, ut ipsius nece<br>
+invadere queas coniugem, neptes, nurus,<br>
+natos, sororem parricidali manu?<br>
+– Horresco misera! Coniugem a fratris manu<br>
+video peremptum. O triste mihi spectaculum!<br>
+Hanc aream, quam calco, fraternus mucro<br>
+cruore tinxit coniugis. O horror gravis!<br>
+Et coniugalem sanguinem adspersit mihi.<br>
+O facinus atrox! O inauditum nefas!<br>
+FLA. Augusta soror! Ah video, tibi nondum satis<br>
+patere nostra consilia. Christi fides<br>
+aut vita vestri coniugis fuerant pari<br>
+periclitatae sorte. Non ambae simul<br>
+stare poterant, uti Christiadum effusus cruor<br>
+testatur et tot martyrum occisum chorus.<br>
+Quaenam igitur harum potior est causa? Religio<br>
+an Christiana? An vero nexus sanguinis?<br>
+CON. Auguste frater! Conqueror belli exitum,<br>
+non causam. FLA. Age, soror, fortior temet tuos<br>
+supra dolores surge! Nunc siste lacrimas!<br>
+Absterge fletus, comprime dolorem, soror!<br>
+Infragilis ubi prior animus? Ubi virtus prior?<br>
+Quam fata nobis destinant, isthaec gravis<br>
+fortuna tibi viriliter, Constantia,<br>
+constanter est ferenda. – Funus tollite,<br>
+cui iusta non iniusta persolves brevi!<br></p>
+
+<span class=head>Scaena V</span>
+
+<span class=speaker>Paulinus et priores.</span>
+
+<p>PAUL. Turbata adhuc est scaena? FLA. Tranquilla omnia.<br>
+Hostis cruento cecidit in bello meus<br>
+Licinius. Imo in carcere scelestum antea<br>
+immisit Orco spiritum Daza impius.<br>
+Cecidere eodem funere tyranni truces,<br>
+Diocletianus unus est nobis super<br>
+sibi paulo post suus futurus carnifex.<br>
+PAUL. Haec opera non humana sunt, manus dei<br>
+excelsa facit haec omnia. Ita miseros facit,<br>
+quos ira vindex caelitum sontes premit.<br>
+Violenta nemo imperia continuit diu,<br>
+moderata durant. Quoque Fortuna altius<br>
+erexit ac levavit humanas opes,<br>
+hoc se magis deprimere felicem decet.<br>
+FLA. Grates Olympo, exosculor nutum dei,<br>
+qui vincit hostes improbos. PAUL. Supra petram<br>
+ecclesia est fundata. Si ipse Tartarus<br>
+et Pluto in illam insurgerent, Orcus tamen<br>
+non praevaleret versus Hanc Christi petram<br>
+nec ipse quidquam Cerberus in illam suo<br>
+terribilis ore efficeret. Adeo tu regis,<br>
+vincis, triumphas, Christe! Tu solus deus,<br>
+tu persecutorum hostium sternis minas,<br>
+tu solus es, tu verus et verax deus.<br>
+FLA. Ergo hostium detumeat insanus furor,<br>
+qui saeva diu super arma sedit horridus,<br>
+rictu cruento fremuit et Christi gregis<br>
+sitivit atrox sanguinem! Strati quoque<br>
+omnes tyranni nemine excepto iacent.<br>
+Religio Christo sacra, templorum nitor,<br>
+ecclesiarum cultus, ararum decus<br>
+ubique crescat, floreat, surgat velim.<br>
+Adsint reliquiae martyrum e recentibus<br>
+bustis legendae, quae sepulchro altarium,<br>
+Pauline, possis inserere, vates sacer,<br>
+et unctione chrismatis templum Tyrium<br>
+Solymumque consecrare Christiadum deo,<br>
+ut, unde dona accepimus sceptrum et thronum,<br>
+illius honori decima reddatur mea.<br>
+PAUL. Patescat arca principis et aerarium<br>
+excipiat ore patulo ovantis gaudium<br>
+clerique populique omniumque civium<br>
+laetos honores, musicos plausus, choros,<br>
+alacresque cantus, vota publica et preces<br>
+deique deiparaeque honorem et gloriam!<br></p>
+
+<span class=head>Epilogus</span>
+
+<span class=speaker>Themis dea, Apollo et Musae.</span>
+
+<p><i>(Aperitur Parnassius.)</i><br>
+<i>Recitativo</i><br>
+APO. Ergo Themi, quae fixa fatali lege<br>
+divina praescis gubernacula<br>
+per caelica oracula<br>
+a Iove, deorum et hominum rege!<br></p>
+
+<p><i>Recitativo</i><br>
+THE. Ego sum, quae prima ceremonias<br>
+dedi mortalibus, immortalibus sacriferas.<br>
+Placet hoc vestrae religionis specimen,<br>
+placent nova templa, attamen<br>
+<i>(ariose)</i> templa reor dici, quae mons Sabiona dicabit,<br>
+Brixina perficiat, Leopoldus mysta sacrabit<br>
+non mihi, sed Themidi meliori templa Sophiae,<br>
+divinae et divae matri renovanda Mariae.<br></p>
+
+<p><i>Aria (trochaica)</i><br>
+Innoventur hac in die<br>
+soni dulcis symphoniae<br>
+ad festiva gaudia.<br></p>
+
+<p>Sabiona laeta plaude,<br>
+prima mater, et congaude<br>
+fortunata Brixina!<br></p>
+
+<p>Primus Cassiani labor<br>
+in hoc coeptus monte Thabor<br>
+Sabionae tumulo<br>
+est in templo Brixinensi<br>
+dedicando hoc in mense<br>
+suo acutus cumulo.<br></p>
+
+
+<p><i>Recitativo</i><br>
+APO. Ecce caelestis fulgor dea propitia<br>
+iam implet templi limina.<br></p>
+
+<p><i>Chorus Appolinis et Musarum</i><br>
+O Themi, antiquo generata caelo,<br>
+prima quae pulso veneranda Belo<br>
+praescias sortes homini dedisti<br>
+et docuisti<br></p>
+
+<p>prima quae ritum superos colendi<br>
+tureque accenso pecus offerendi,<br>
+victima ut possit recreare caesa<br>
+numina laesa.<br>
+
+<p>A domo sancta omne malum repelle,<br>
+ne fretum terrae fieret rebelle,<br>
+sol tuus spectet nebula remota<br>
+publica vota.<br></p>
+       </body>
+   </text>
+</TEI>

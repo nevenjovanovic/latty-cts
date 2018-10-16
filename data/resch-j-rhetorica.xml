@@ -1,0 +1,276 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="resch-j-rhetorica">
+         <titleStmt>
+            <title>Rhetorica invenit locum rhetoricis, versio electronica</title>
+            <author>Resch, Joseph<author/>
+            <editor>Rothfuß, Theresa</editor>
+            <respStmt>
+                <resp>Hanc versionem electronicam curavit</resp>
+                <name>Theresa Rothfuß</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital text provided by the editor</edition>
+          </editionStmt>
+               <date/>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>Latinitas Tyrolensis <date>March 2018</date></p>
+         </publicationStmt>
+            <p>SEM F 17</p>
+         <sourceDesc>
+            <p>Written by OpenOffice</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <name/>
+               <date/>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+ <span class=head>Argumentum</span>
+<p>Rhetorica, cum Brixinae ob defectum salarii non amplius sperare possit locum, ope humana desperata a superis petit diversorium: Supplicat Neptuno, Baccho, Pani, Mammonae, Apollini, at nullibi recipitur. Adeo mundus eam non cognovit et sui eam non receperunt. Tandem afflicta et undique relicta locum invenit in locis rhetoricis.</p>
+
+<span class=head>Personae</span>
+<p><l>Rhetorica Brixinensis - RHE.</l>
+<l>Neptunus: deus aquae - NEP. (Magistratus Brixinensis)</l>
+<l>Bacchus: deus vini - BAC.</l>
+<l>Mammon: deus divitiarum - MAM. (L. Peisser)</l>
+<l>Pan: nemorum deus - PAN	(C. F.)</l>
+<l>Apollo: deus poëseos - APO. (Poësis Brixinensis)</l>
+<l>Locus rhetoricus Definitionis - DEF.</l>
+<l>Locus rhetoricus Distributionum partium - DIS.</l>
+<l>Locus rhetoricus Causarum - CAU.</l>
+<l>Locus rhetoricus Effectuum - EFF.</l></p>
+
+<span class=head>Scaena I</span>
+<span class=speaker>Rhetorica sola.</span>
+<p>Illa ego potens imperatrix mentium, Rhetorica. Ego regina affectuum voluntatis, ego lumen intellectus humani. Enimvero Hyrcana caute durior est, asello rudior et vel tigride ferocior, quisquis aut non amat blandientem aut fulminantem non timet eloquentiam. Et tamen (o fata rigidissima! o tempora! o mores!) hic ubique rideor, ubique contemnor, nullibi recipior. Humanis exuta praesidiis ad superos me conferam. – En patrem caerulei maris!</p>
+
+<span class=head>Scaena II</span>
+<span class=speaker>Neptunus et Rhetorica.</span>
+<p><l>RHE. Quid hoc? Unde venit caeruleus frater Iovis?</l>
+<l>NEP. Wann i wolt lapateinisch röden,</l>
+<l>miest i a me die bibli bibli bibluthec auf stören.</l>
+<l>RHE. Neptune! Fer auxilium!</l>
+<l>NEP. Da wais i mein ayd garnicht drum.</l>
+<l>RHE. Neptune! Precor! Miserere mei!</l>
+<l>NEP. Beym schlappreme, thu mir teütsch röden,</l>
+<l>afft will i flux recht antwort göben. </l>
+<l>RHE. Neuptune! Groser godd</l>
+<l>erbarm dich meiner noth.</l>
+<l>NEP. In worin denn?</l>
+<l>RHE. Das weis ja yedermann</l>
+<l>die Rhetoric ist so betrangt,</l>
+<l>das sie soll weichen von hie in fremdes landt.</l> 
+<l>NEP. Die Rhetoric geht mich nix an,</l>
+i<l>ch will gar nix wissen darvon. </l>
+<l>RHE. <i>(secum)</i> Ey das i nit gschwind nimm dein gabel,</l>
+<l>und schlagt dirs dreymahl auf den schnabel.</l>
+<l>NEP. Ich size ohne unterlass</l>
+<l>bey meinen kielen wasserfass.</l>
+<l>Da zerfliegen die rhetorische und poetische geister</l>
+<l>wan nit Bacchus darbey spihlt den meister.</l>
+<l>Yberdas kan ich die herren studenten</l>
+<l>samt allen ihren complementen</l>
+<l>wie auch die studier macher gesöllen,</l>
+<l>oder, wie wir sie anderst nennen wöllen,</l>
+<l>die studioxen gar nit schmöcken,</l>
+<l>meint wegen mögen sie alle verröcken. </l>
+<l>RHE. Was? Du grober wasser-hundt,</l>
+<l>das ich dich nit schlag zu grundt. </l>
+<l>NEP. Was ist das? Brauch manier,</l>
+<l>es seind keine schuster und schneider hier.</l>
+<l>Ich will dir bald ein anders liedl singen,</l>
+<l>hast du wider mich was anzu bringen,</l>
+<l>so khom zu mein herr bruder Jupiter,</l>
+<l>was brauchts vill mehr.</l>
+<l>Mich aber lass mit frid,</l>
+<l>da hast ein kurzen abschidt.</l>
+<l>RHE. Ey! Das man dich nit wirfft mit laimpazen</l>
+<l>und zerkhräle wie die khazen.</l>
+<l>NEP. Mord! Bliz! Feür! Höll und himmel!</l>
+<l>RHE. Ey! Du grauer wasser limmel!</l>
+<l>Du alter wasser-godd!</l>
+<l>Du plumper tolben-godd!</l>
+<l>Du eitler stokfisch-godd!</l>
+<l>Geh, oder ich zerwirf dich mit khot.</l>
+<l>– Jezt geh ich zum Bacchus hinein</l>
+<l>er wird gwis in kheller sein, bey guten lägel wein:</l>
+<l>allwo er sich beym panzen</l>
+<l>wird ranzen</l>
+<l>voll wie die wanzen.</l></p>
+
+<span class=head>Scaena III</span>
+<span class=speaker>Bacchus et Rhetorica.</span>
+<p><l>BAC. Io! Che viva, vivat Rhetoricam! Hic poculum te faciebit disertissimam. Ex hac dolio prodiet bella musica et clavis durus transponitur in tonus mollis. Hoc balsamo facitur vox altissimus. Quam multibus iam profuit hic medicina!</br>
+<l>RHE. Fecundi calices quem non fecere disertum?</br>
+<l>BAC. Si bibo vinum, loquitur mea lingua Latinum.</br>
+<l>RHE. Heu! Quam foetet hic locus barbarismis, hircismis et soloecismis!</br>
+<l>BAC. Soloecismos in meo argumento nullum habeo, sed illa me habent. Hinc est, quod nullum accipiturus sum praemius. Quamprimum per breve temporem, per gurges merges meum inebriavi capitem, omnis a me fugivit ratio et bonior cogitatio. Adeo usus vini bonissimus, abusus autem malissimus est. Vinum nisi modice et medice bipseris, ad salutem tibi prodesse plane non potebit. Verumtamen illud mihi semper sapivit ante omnibus; nam aqua corrumpitur a ranis, bufonibus et serpentibus, quare mihi creat febrim, phthisim, catarrhum, colicam.</br>
+<l>RHE. Heu! Neque hic invenio, ubi divertam.</br>
+<l>BAC. Vertam? Iam verti sentio meum caput a tropico Cancri ad tropicum Capricornus. Sum totus excentricus: Nescio, an Vulcanus sit in meo capitolio, in quo veluti vasto Cyclopes in antro ferrum exercent in numerum versantque tenaci forcipe massam. – Heu! Quam multissimi adest spiriti! Exi, male spirite, spirite malissime!</br>
+<l>RHE. Heu! Qua cum nausea in hac cella foetet caenum!</br>
+<l>BAC. Quid caenum? In caelo nunc me esse videor! En quomodo stellae in hoc lacu lucent! Heu! Timeo, ne caelum ruat. Iam meus in ipsum caelum inclinat caput. Trepido, titubo, in caelum vocor. Dic, quid dominae Iunoni pro tibi nuntiem, nam curiosi sunt feminae rerum novorum! In caelum vocor! Mole succumbit sua fatigatus Atlas. Ne ruat caelum, timet. Ergo Atlanti auxilium ferebo, caeli baiulus. In caelum, in caelum!</br>
+<l>RHE. Actum est: Dominus Bacchus hodie est in concavo lunae. Quid agam? Quo me convertam? Ecce deus deorum Pan!</p>
+
+<span class=head>Scaena IV</span>
+<span class=speaker>Pan et Rhetorica.</span>
+<p><l>PAN Quae cura tibi mentem rodit?</l>
+<l>RHE. Utinam non absumeret!</l>
+<l>PAN Cura te liberabo, si potero, sed edic palam.</l>
+<l>RHE. Augusta mundi domina sum, sed exul, inops, misera, sine Lare, sine diversorio.</l>
+<l>PAN Si Rhetorica es, impera animis, move affectus, versa mentes, ut sortiaris, quod petis.</l>
+<l>RHE. Iam surdis cecini, homines sunt adamante duriores. Iam ad superos me confero, ad te, deorum deus! Tu cerata modularis arundine cantum, tu teneris iactas tua carmina Nymphis, tu tu montanis habitas in antris. Liceat mihi, quaeso, tuum esse indigenam et fieri eremitam.</l>
+<l>PAN Ergone vitam eremiticam vis ducere?</l>
+<l>RHE. Scio equidem eremitas tibi esse cordi, vel omnino tuum corculum. Scio eremitas esse apud te personas, ut aiunt, privilegiatas! Fortassis plus gratiae apud te sortietur cum summa reverentia usque ad profundam humum se inclinans eremita quam rei publicae literariae profutura Rhetorica.</l>
+<l>PAN Bene est, placet ingenium. Attamen in regnum meum silvestre te reciperem, nisi in illo totidem versarentur Nymphae, penes quas plane sorderet vita eremitica. Quae cum ita sint, non est, quod apud me speres diversorium: Nam turpius eicitur quam non admittitur hospes.</l></p>
+
+<span class=head>Scaena V</span>
+<span class=speaker>Rhetorica et Mammona.</span>
+<p><l>RHE. Ergo iterum repulsam tuli? </l>
+<l>MAM. Quo tu? Et unde?</l>
+<l>RHE. Ego sum Rhetorica. Pergo illuc, ubi me recipiunt.</l>
+<l>MAM. Perge, quo coepisti, egredere ex urbe, patent portae, in exilium proficiscere!</l>
+<l>RHE. Cuius iussu haec dicis? Non te, Mammonam convenire volui.</l>
+<l>MAM. Dominus Mammon dicit se hodie non esse domi.</l>
+<l>RHE. Adeo divites, cum rogantur, non sunt domi. Et avari, quo plus capiunt, eo plus cupiunt?</l>
+<l>MAM. Abi, moleste blatero!</l>
+<l>RHE. Eheu! Quam ferrea et vel ferro duriora vivimus tempora!</l></p>
+
+<span class=head>Scaena VI</span>
+<span class=speaker>Apollo et Rhetorica.</span>
+<p><l>APO. Cur vultum trahis? Alma soror! Cur anxia langues?</l>
+<l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cur tibi sollicitae pallor in ore sedet?</l>
+<l>RHE. Apollo frater! Tu simul et poëseos et medicinae es deus. Tu afflictae medicam praestabis opem. Quaeso, exuli manum porrige, frater Cynthie! Da mihi ex urbe expulsae diversorium!</l>
+<l>APO. Si fuga dicta tibi est, etiam expelletur Apollo.</l>
+<l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ambos fortassis nos manet exilium.</l>
+<l>Vilescunt adeo communia sacra poetis,</l>
+<l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vilescunt hederae, praeses Iacche, tuae.</l>
+<l>Cura deum fuerant olim regumque poetae,</l>
+<l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;praemiaque antiqui magna tulere chori.</l>
+<l>Sanctaque maiestas et erat venerabile nomen</l>
+<l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vatibus, et largae saepe dabantur opes.</l>
+<l>Nunc hederae sine honore iacunt.</l>
+<l>RHE. Ergo eodem laboramus morbo? Ergo eadem nos tangunt fata? Proh superi inferique, quorum saepe causam in iudicio Areopagitico defendi! An haec meritis refertur gratia?</br>
+<l>APO. Quid iuvat hic questus? Quid arenae semina mandas?</l>
+<l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quid siccum sterili vomere litus aras?</l>
+<l>Excute, quas frontis rugas in vertice portas!</l>
+<l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Post nebulas victis sol micat albus aquis.</l>
+<l>Carmine fallamus tempus, mentisque remorsus!</l>
+<l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cantu disparet decipiturque dolor.</l>
+<l><i>(Demittitur velum primum.)</i></l></p>
+
+<span class=head>Scaena intercalaris</span>
+<span class=head>Götter-spihl</span>
+<p><l><i>Exhibitio I</i></l>
+<l><i>(Exhibetur Saturnus falcem acuens. Fit sonitus sistrorum.)</i></l>
+<l>Ecce Saturnus strepitu Crobantum</l>
+<l>fallitur, sistris tremulis sonantum!</l>
+<l>Non Iovem sentit lacrimis vacantem,</l>
+<l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vociferantem.</l></p>
+
+<p><i>Exhibitio II</i></l>
+<l><i>(Aperitur scaena.)</i></l>
+<l><i>(Saturnus porrectum a Cybele lapidem devorat.)</i></l>
+<l>Hic fame pressus lapidem voravit,</l>
+<l>quem tamen prolem propriam putavit.</l>
+<l>Feminae fraudes capiunt maritum,</l>
+<l>o parasitum!</l></p>
+
+<p><i>Exhibitio III</i></l>
+<l><i>(Velum)</i></l>
+<l><i>(Saturnus animam exhalat.)</i></l>
+<l>Exul e caelis podagra senescens,</l>
+<l>caecus et claudus, senio putrescens,</l>
+<l>gratia Iani moritur receptus</l>
+<l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stramine saeptus.</l></p>
+
+<p><i>Exhibitio IV</i></l>
+<l><i>(Aperitur scaena intermedia.)</i></l>
+<l><i>(Iupiter in cunis a caprea nutritus.)</i></l>
+<l>Iupiter matris bene fraude tectus,</l>
+<l>lacte Amaltheae capreae est refectus,</l>
+<l>Iupiter gaudet caprea parente,</l>
+<l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;corpus alente.</l></p>
+
+<p><i>Exhibitio V</i></l>
+<l><i>(Taurus per mare incedens.)</i></l>
+<l>Iupiter stulto fatuans amore,</l>
+<l>ut frui Cadmi liceat sorore,</l>
+<l>cum feris tauris capit ore faenum</l>
+<l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stercore plenum.</l></p>
+
+<p><i>Exhibitio VI</i></l>
+<i>(Ursa, Iupiter cum sceptro, Iuno cum virga.)</i></l>
+<l>Parrhasis virgo redamans Calisto</l>
+<l>(virga Iunonis metui est) ab isto</l>
+<l>ursa fit, pellex venit inter astra</l>
+<l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;caerula castra.</l></p>
+
+<p><i>Exhibitio VII</i></l>
+<i>(Iuvenca, Iovi supplici Iuno ostendit virgam e ventilabro pendulam.)</i></l>
+<l>Isis illustris tenera iuventa</l>
+<l>a Iove est facta horribils iuvenca.</l>
+<l>Tanta Iunonis mala sunt ira, o</l>
+<l>femina dira!</l></p>
+
+<p><i>Exhibitio VIII</i></l>
+<i>(Panus cum fistula.)</i></l>
+<l>Omnium Panus deus est deorum</l>
+<l>et tamen gestans habitum indecorum</l>
+<l>vivit in silvis, patria reiectus,</l>
+<l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arbore tectus.</l></p>
+
+<p><i>Exhibitio IX</i></l>
+<l><i>(Mercurius furatur bovem.)</i></l>
+<l>Filius Maiae coacervat aurum</l>
+<l>atque furtive rapit arte taurum.</l>
+<l>O deus furum, specimen reorum,</l>
+<l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;furciferorum!</l></p>
+
+<p><i>Exhibitio X</i></l>
+<l><i>(Hercules inter duas feminas pensum trahit.)</i></l>
+<l>Hercules pensum trahit alligatus</l>
+<l>Omphales iussis laqueisque captus.</l>
+<l>Hostibus stratis superat Cupido,</l>
+<l>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foeda libido.</l></p>
+
+<span class=head>Scaena VII</span>
+<span class=speaker>Rhetorica, loci rhetorici Definitio, Distributio partium, Causae et Effectus.</span>
+<p>RHE. Ergo etiam Apollo optata me frustrat ope? Ergo nullibi recipior? Nullibi admittor? Proh dure caelorum rigor! Si Rhetorica sum, mundi domina, ubi honor meus? Si mater et regina eloquentiae, ubi amor meus? Si reorum et accusatrix et patrocinium, ubi timor meus? – At ecce fidelissimi mihi loci rhetorici!</l>
+<l>DEF. Adsumus, ut tibi praebeamus locum.</l>
+<l>RHE. Cur tam pauci adestis? Ubi sint reliqui?</l>
+<l>DEF. Similitudo et Comparatio comparere nobiscum non possunt, quia claudicant, sicut †onis† Similitudo. Notatio nominis hodie occupata est negotio maximi momenti.</l>
+<l>RHE. Quonam illo?</l>
+<l>DEF. Vix ausim dicere.</l>
+<l>RHE. Per me poteris.</l>
+<l>DEF. Insudat enodandae quaestioni, quid nominis et utilitatis sit syntaxis minor et terminus „plictri“.</l>
+<l>DIS. Coniugata se excusant, quod ad coniugium et nuptias invitata sint. Genus femininum ad spectandam scaenam non est admissum.</l>
+<l>CAU. Forma adhuc speculum consulit. Contraria iuxta se posita cras magis elucescent.</l>
+<l>EFF. Repugnantia variis nodis impediuntur et vinculis constringuntur. Adiuncta, vulgo Circumstantia, adhuc circumstant forum. Antecedentia et Consequentia versantur in circulo vitioso. – Nos autem prompti adsumus!</l>
+<l>DEF. Ego Definitio sum, accurata rerum omnium et aperta explicatio, apertarum patefacio, involutarum evolutio. Convenio omni et soli.</l>
+<l>DIS. Ego Distributio partium, partes officii obibo mei. Ego reddo cuivis suum, ego geometriae regulas prae primis calleo.</l>
+<l>CAU. Ego rerum omnium Causa et mater. Non deero muneri meo.</l>
+<l>EFF. Ego albae gallinae filius seu Causae matris soboles. Matrem in obsequio sequar.</l>
+<l>RHE. Inter tot locos rhetoricos ubi locum inveniam?</l>
+<l>DEF. Quod mearum erit virium, suadebo, ut invenias locum. – Sunt nempe nonnulli, qui laborant ignorantia, quid rei quid nominis sit Rhetorica. Rhetorica est ars bene dicendi, magistra eloquentiae, moderatrix iustitiae, cultrix temperantiae, interpres legum et dux viae humanae. Damnat reos, absolvit innocentes, placat iratos, cohibet cupientes, movet nolentes, ex rudibus facit dociles, ex stupidis attentos, ex ferocibus benevolos. – Et quis pectus habeat adeo adamantinum, qui tam caram non diligat, non colat, non amplectatur Rhetoricam?</l>
+<l>DIS. Si classes scholarum aliter distribuantur, si regulae Latinae linguae aliter digerantur, si inutilia rescindantur, utilia extendantur, verbo, si partes toti non ad methodum neotericorum, sed veterum grammaticorum Quintiliani, Varronis, Donati aliorumque accommodentur, fidem oppignerabo meam, me partium Distributione authore aliam rebus faciem redituram, aliud caelo scholastico solem oriturum, ut suum pro meritis locum recipiat Rhetorica.</l>
+<l>CAU. Causis malignis, quae bonos effectus hostili impetu impediunt, in tempore fons obstruendus est. Causas autem quatuor enumerat raro: Manet alta mente repostum iudicium Paridis spretaeque iniuria formae et genus invisum et rapti Ganymedis honores.</l>
+<l>EFF. Meis etiam consiliis ne surdas praebeas aures. Ut discipuli tui maiore urgeantur stimulo, ut ex progressu litterario profectus tanquam effectus prodeat uberior, ut honor amplificetur laudabilior, fac, ut pro rhetoricis laboribus quot annis ad finem distribuantur praemia.</l>
+<l>RHE. Bene est. Ergo legatur catalogus praemiferorum.</l>
+<l>EFF. Cicero pro praemiis ex Rhetorica solvet sumptus?</l>
+<l>DEF. Dominus providebit.</l></p>
+
+<p>Δόξα Τριάδι Θε</p>
+      </body>
+   </text>
+</TEI>

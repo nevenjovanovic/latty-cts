@@ -1,0 +1,546 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc xml:id="resch-j-peccator">
+ <titleStmt>
+<title>Peccator deicida</title>
+  <author ref="https://viaf.org/viaf/27409983">Resch, Joseph<date>1716-1782</date></author>
+  <respStmt>
+  <resp>Hanc versionem electronicam curavit</resp>
+  <name>Stefan Zathammer</name>
+  </respStmt>
+</titleStmt>
+<editionStmt>
+              <edition>Digital text provided by the editor.</edition>
+              <editor>Nikolaus Hölzl, Stefan Zathammer, <a href="https://www.uibk.ac.at/projects/schultheater-resch/" target="_blank">Brixner Schultheater im 18. Jahrhundert</a></editor>  
+  
+</editionStmt>
+
+  <extent></extent> 
+  
+  <publicationStmt>
+  <publisher></publisher>
+  <pubPlace></pubPlace>
+  <date>2022</date>
+  </publicationStmt>
+  <seriesStmt>
+  <idno>ResJos.Peccator</idno>
+ </seriesStmt>
+  
+<sourceDesc>
+<p>Joseph Resch: Sacrae meditationes, Venice 1751, pp. 64-120</p>
+</sourceDesc>
+ </fileDesc>
+ 
+ <profileDesc>
+  <creation>
+  <date when="1745">1745</date>
+  </creation>
+  <textClass>
+  <keywords scheme="time">
+  <term>18th century</term>
+  </keywords>
+  <keywords scheme="genre">
+  <term>Theater</term>
+  </keywords>
+  </textClass>
+ </profileDesc>
+ 
+ <revisionDesc>
+  <change>
+  <date>08-04-2022</date>
+  <name>Stefan Zathammer</name>
+  </change>
+ </revisionDesc>
+ <encodingDesc>
+	 <projectDesc>This file was created for the project <hi>Brixner Schultheater im 18. Jahrhundert</hi>, Univerity of Innsbruck by Stefan Zathammer. It was made available at the University of Zurich's <hi>Corpus Corporum</hi> project (www.mlat.uzh.ch) in 2019</projectDesc>	
+ 		 <editorialDecl>
+ 	 <normalization>Latin orthography standardized according to classical models</normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date></date>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item></item>
+		  <item></item>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme='genre'>
+  		 <list>
+   			<item></item>
+  		</list>
+  		</keywords>
+  		<keywords scheme='period'>
+ 		 <list>
+   			<item></item>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+ 
+ <text> 
+ <body>
+
+<div1 id="Actus"><head>SYNOPSIS ET DIVISIO TRAGOEDIAE</head>
+<p><l><i>Argumentum ex evangelio.</i></l>
+<l>Homo erat paterfamilias, qui plantavit vineam et sepem circumdedit ei, fodit in ea torcular, aedificavit turrim, locavit eam agricolis et peregre profectus est. Cum autem tempus fructuum appropinquasset, misit servos suos ad agricolas, ut acciperent fruc-tus eius. Et agricolae apprehensis servis eius alium caeciderunt, alium occiderunt, ali-um vero lapidaverunt. Iterum misit alios servos plures prioribus et fecerunt  eis simili-ter. Novissime autem misit ad eos filium suum dicens: „Verebuntur filium meum.“ Agricolae autem videntes filium dixerunt inter se: „Hic est haeres. Venite, occidamus eum! Et habebimus haereditatem eius.“ Et apprehensum eum eiecerunt extra vineam et occiderunt. Cum ergo venerit dominus vineae, quid faciet agricolis illis?</l>
+<l><i>Matthaei cap. 21 a v. 33, item Lucae c. 20 a v. 9, Marci c. 17 a v. 1.</i></l></p>
+
+<p>Poesis huius evangelicae parabolae incipit a rebellione agricolarum in filiumfamilias, cuius caedes hic non supponitur prima iam vice absoluta, sed lethali duntaxat vulnere incohata et consumata demum in ultima catastrophe.</p>
+
+<p>Scaena figitur in villa vineae patrisfamilias.</p>
+
+<p><l><i>Prologus musicus</i></l>
+Divina Iustitia ad vindictam a peccatoribus sumendam irritata.</p>
+
+<p><l><i>Actus I seu meditationis punctum primum</i></l>
+<l>(I) Colonus evangelicus totidem peractis caedibus nequior (II) a filiofamilias correptus, non correctus (III) adhibito suorum agricolarum ministerio (IV) eundem per insidias deprehensum lethali vulnere perstringit.</l>
+<l><i>Reflexio super meditationis puncto I instituta ab angelo custode sub nomine Azariae cum anima cuiuscunque peccatoris sub nomine Protei.</i></l></p>
+
+<p><l><i>Actus seu punctum II</i></l>
+<l>(I) Adventu patrisfamilias (II) factam, ut putabat, filii sui caedem deplorantis (III) et per suos satellites (IV) in caedis authores inquirentis, (V) territi agricolae, (VI) praesidium.</l>
+<l><i>Reflexio Azariae et Protei in punctum II.</i></l></p>
+
+<p><l><i>Actus seu punctum III</i></l>
+<l>(I) Colonus desperabundus (II) a satellitibus in vincula coniectus (III) iudici sistitur patrifamilias, (IV) qui a lata mortis sententia nequicquam dimovendus, (V) adducto tamen filiofamilias, qui semianimis inter vineae dumeta inventus est, mitiora edoctus eundem a multa mortis absolvit, cum a suo filio et vitam et sanguinem velut hostiam pro hostibus agricolis offerri cerneret. (VI) Colonus hoc portento denique commotus ad meliorem frugem redit.</l>
+<l><i>Reflexio supra punctum III et propositum practicum in universam meditationem.</i></l></p>
+
+<p><l><i>Epilogus musicus</i></l>
+Iustitia oblato per Misericordiam sanguine mitigata.</p>
+</div1>
+
+	 
+<div1 id="Actus"><head>PERSONAE</head>
+<p><l>Colonus evangelicus - COL.</l>
+<l>Paterfamilias - PAT.</l>
+<l>Filiusfamilias - FIL.</l>
+<l>Patronus coloni - PATRO.</l>
+<l>Agricolae et satellites - AGR. <i>et</i> SAT.</l>
+<l>Proteus - PRO.</l>
+<l><i>In musica autem</i> Iustitia <i>et</i> Misericordia divina - IUS. <i>et</i> MIS.</l>
+<l><i>uti et</i> umbrae interfectorum - UMB.</l>
+
+</p>
+</div1>
+
+<div1 id="Actus"><head>PROLOGUS MUSICUS</head>
+<p><i>Iustitia divina et Umbrae servorum patrisfamilias, quos agricolae dederunt neci.</i></p>
+<p><l>UMB. I. <i>(in basso recitativo)</i> Vindica, domine, sanguinem sanctorum tuorum, qui effusus est. Hi sunt, qui venerunt ex magna tribulatione et laverunt stolas suas in sanguine. Innotescat in nationibus ultio sanguinis servorum tuorum, introeat in con-spectu tuo gemitus compeditorum.</l>
+<l>OMNES UMB. <i>(in canto, ut vocant, contrapuncto)</i> Sub throno dei omnes sancti clamant: „Vindica sanguinem nostrum, deus noster!“</l>
+<l>IUS. <i>(Recitativo)</i> Adhuc sustinete modicum, donec impleatur fratrum vestrorum numerus.</l></p>
+
+<p><l><i>Aria in canto</i></l></p>
+<p><l>1. Ultionem</l>
+<l>et mucronem</l>
+<l>soli mihi vindico:</l>
+<l>Solum dei</l>
+<l>iuris mei</l>
+<l>in homines esto ultio.</l>
+<l>Damnabo,</l>
+<l>necabo.</l>
+<l>Hoc spectat ad me.</l>
+<l>Damnare,</l>
+<l>necare</l>
+<l>non spectat ad te.</l></p>
+
+<p><l>2. Ego neco,</l>
+<l>ego seco,</l>
+<l>dominus mortificat,</l>
+<l>inconcussa</l>
+<l>sunt iussa,</l>
+<l>dominus vivificat.</l>
+<l>Hanc almam</l>
+<l>vicet palmam</l>
+<l>clementiae pax.</l>
+<l>Vicet atrum</l>
+<l>theatrum</l>
+<l>Iustitiae fax.</l></p>
+
+<p><l>UMB. I. <i>(Recitativo)</i> Nos sumus oves pascuae tuae, redde vicinis nostris septuplum et confitebimur tibi in saeculum.</l></p>
+</div1> 
+
+<div1 id="Actus"><head>ACTUS SEU PUNCTUM I</head>
+<div2 id="Scaena"><head>Scaena I</head>	 
+<p><i>Colonus et agricolae.</i></p>	 
+<p><l>COL. Gaudete in domino semper, iterum dico, gaudete (Phil 4)! Arcus fortium superatus est (1 Reg 2). Iterum dico, gaudete! Leo cepit sufficienter catulis suis, implevit praeda speluncas et cubile suum rapina (Nahum 2). Iterum dico, gaudete! Manus nostra excelsa fecit haec omnia (Deut 32).</l>
+<l>AGR. I Dextera tua, domine, magnificata est in fortitudine, dextera tua, domine, percussit inimicum et in multitudine gloriae tuae deposuisti adversarios tuos (Exodi 15).</l>
+<l>AGR. II. Quis similis tui in fortibus, domine? Quis similis tui? (ibid.)</l>	 
+<l>COL. Laetabor et exsultabo (Psalm 9), sicut exsultant victores capta praeda, quando dividunt spolia (Isaia 9).</l>
+<l>AGR. I Linguam nostram magnificabimus. Quis noster dominus est? (Psal 11)</l>
+<l>AGR. II. A deo abscondar et ex summo quis mei memorabitur? (Eccl 16)</l>
+<l>COL. Non est deus (Psal 13), non est scientia dei in terra (Oseae 4) et si est scientia in excelso (Psal 72). Oblitus est deus, non requiret (Psal 113). Peccavi et quid mihi accidit triste? (Eccl 5) Dum tempus habemus (Galat 6), fruamur bonis (Sap 2).</l>
+<l>AGR. I. Venite ergo et fruamur bonis, quae sunt, et utamur creatura tamquam in iuventute celeriter, vino pretioso nos impleamus et non praetereat flos temporis (ibid.).</l>
+<l>AGR. II. Coronemus nos rosis, antequam marcescant, nullum sit pratum, quod non pertranseat luxuria nostra. Ubique relinquamus signa laetitiae, quoniam haec est pars nostra et haec est sors (ibid.).</l>
+<l>COL. Vadam et affluam delitiis et fruar bonis (Eccl 2) et erit sicut heri, sic et cras et multo amplius (Isa 56). Adamavi quippe alienos, vadam et post eos vadam, ambulabo (Ierem 2).</l></p>
+</div2>
+
+<div2 id="Scaena"><head>Scaena II</head>
+<p><i>Colonus et filiusfamilias.</i></p>
+<p><l>FIL. Quis est iste, involvens sententias sermonibus imperitis? (Iob 38)</l>
+<l>COL. Nunquid ego canis sum, quod tu venis ad me cum baculo? (1 Reg 17)</l>
+<l>FIL. Sermo mihi est ad te (3 Reg 2). Ausculta, quod loquor (Gen 23).</l>
+<l>COL. Quis est iste sermo? (Dan 13)</l>
+<l>FIL. Pater misit me (1 Ioan 4) filium suum unigenitum (1 Ioan 4), ut ab agricolis acciperet de fructu vineae (Luc 20). Haec dicit dominus (Ier 30): „Ego plantavi vineam, vineam electam, omne semen verum. Quomodo ergo conversa es mihi in pravum vinea aliena?“ (ibid. 2) Hic est sermo, quem praecepit dominus (Exod 16).</l>
+<l>COL. Quis est dominus, ut audiam vocem eius? Nescio dominum (Exod 5).</l>
+<l>FIL. Usquequo loqueris talia? (Iob 8) Oblitus es domini tui, (Deut 32) cui servi[p. 14]re potissimum debueras (Ios 24) in conspectu omnipotentis (Exod 34).</l>
+<l>COL. Quis est omnipotens, ut serviamus ei? (Iob 21)</l>
+<l>FIL. Quae est fiducia, qua confidis, aut quo consilio aut fortitudine rebellare disponis? Confidis super baculum arundineum (Isa 30).</l>
+<l>COL. Nunquid rex noster eris aut subiciemur ditioni tuae? Adorabimus te super terram? (Gen 37)</l>
+<l>FIL. Superbia tua ascendit in aures meas, ponam ergo circulum in naribus tuis et frenum in labiis (Isa 37). Pater meus plantavit vineam (Luc 20), plantavit eam electam (Isa 5), aedificavit turrim in medio eius, torcular exstruxit in ea (Matth 21). Exspectavit ut faceret uvas et fecit labruscas (Isa 5). Diffamatus es, quasi dissipasses bona illius (Luc 16).</l>
+<l>COL. Audivi sermones tuos, quos locutus es ad me (1 Reg 28). Audi et ego loquar (Iob 42). Consummata est vindemia, collectio ultra non veniet (Isa 32). Non est uva in vitibus et non sunt ficus in ficulnea (Ier 8).</l>
+<l>[p. 15] FIL. Haeccine reddis domino? Nonne haec credita sunt apud te et signata in thesauris meis (Deut 32). Ubi est ergo nunc praestolatio mea? (Iob 19)</l>
+<l>COL. Praestolatio tua non auferetur (Prov 23).</l>
+<l>FIL. Redde, quod debes (Matth 18). Redde rationem villicationis tuae (Luc 16).</l>
+<l>COL. Stipulam siccam persequeris (Iob 3).</l>
+<l>FIL. Amen dico tibi: „Non exibis inde, donec reddas novissimum quadrantem (Matth 5).“</l>
+<l>COL. Domine, scio quia homo durus es. Metis, ubi non seminasti, et congregas, ubi non sparsisti. Timens abii et abscondi talentum tuum in terra. Ecce habes, quod tuum est (Matth 25).</l>
+<l>FIL. De ore tuo te iudico, serve nequam. Sciebas, quod ego homo austerus sum, et quare non dedisti pecuniam meam ad mensam? (Luc 19) Serve male et piger, sciebas, quia meto, ubi non semino, et congrego, ubi non sparsi. Oportuit ergo te committere pecu-niam nummulariis (Matth 25). Vade ad formicam, o piger, quae cum non habeat du-cem nec praeceptorem nec principem, congregat in messe, quod comedat. Us[p. 16]quequo piger dormies, homo apostata, vir inutilis (Prov 6)? Ostendam, quid ego faciam vineae meae. Auferam sepem eius et erit in direptionem. Diruam maceriam eius et erit in conculcationem (Isa 5). Exepllam te de statione tua et de ministerio tuo deponam te (ibid. 12).</l>
+<l>COL. Contra folium, quod vento rapitur, ostendis potentiam tuam (Iob 3).</l>
+<l>FIL. Usquequo non vis subici mihi? (Exod 10) Noli esse sine metu! Subito enim veniet ira illius et in tempore vindictae disperdet te (Eccli 5). Quia vocavi et renuistis, despexistis omne consilium meum et increpationes meas neglexistis, ego quoque in interitu vestro ridebo et subsannabo cum vobis id, quod timebatis, advenerit, cum irruerit repentina calamitas et interitus quasi tempestas ingruerit (Prov 16). Quando venerit super vos tribulatio et angustia, tum invocabunt me et non exaudiam (ibid. 1).</l></p>
+</div2>
+
+<div2 id="Scaena"><head>Scaena III</head>
+<p><i>Colono accedunt agricolae.</i></p>
+<p><l>COL. Quid faciam, quia dominus meus aufert a me villicationem. Fodere non valeo, mendicare erubesco. Scio, quid faciam (Luc 16). Venite filii, audite me (Psal 33). Qui fidelis est in minimo et in maiori fidelis est (Luc 16).</l>
+<l>AGR. I. Quid tibi vis? Cur clamas? (Iud 18)</l>
+<l>COL. Traditi sumus in mortem (Esther 7). Dominus meus aufert a me villicationem (Luc 16).</l>
+<l>AGR. II. Quis est iste et cuius potentiae, ut audeat haec facere? (Esth 7)</l>
+<l>COL. Filium dei se nominat (Sap 2). Hic est haeres, venite, occidamus eum et habebimus haereditatem eius (Matth 21). Veni nobiscum, insidiemus sanguini, abscondamus ten-diculas. Sortem mitte nobiscum, marsupium unum sit omnium nostrum (Prov 1).</l>
+<l>AGR. I. Circumveniamus ergo iustum, quoniam inutilis est nobis et contrarius operibus nostris. Improperat nobis peccata legis et diffamat in nos peccata disciplinae (Sap 2).</l>
+<l>AGR. II. Factus est nobis in traductionem cogitationum nostrarum, gravis est nobis etiam ad videndum, quoniam dissimilis est aliis vita illius (ibid.).</l>
+<l>AGR. I. Contumelia et tormento interrogemus eum (ibid.). Mittamus lignum in panem eius, eradamus eum de terra viventium et nomen eius non memoretur amplius (Ier 11).</l>
+<l>AGR. II. Sic oportet fieri (Matth 26). Nolumus hunc regnare super nos (Luc 19). Quando morietur et peribit nomen eius? (Ps 40) Sanguis eius super nos et super filios nostros (Matth 27).</l>
+<l>COL. Morte turpissima condemnemus eum (Sap 2).</l>
+<l>AGR. Fiat, fiat (Psal 40).</l>
+<l>COL. Deus dereliquit eum, persequimini et comprehendite (Psal 70). Considerate locum, ubi sit pes eius (1 Reg 27).</l>
+<l>AGR. I. Quid vultis mihi dare? Et ergo eum vobis tradam (Matth 26).</l>
+<l>COL. Triginta argenteos (ibid.).</l>
+<l>AGR. II Ego, ego capiam, vadam et tollam et non est, qui eruat (Oseae 5).</l>
+<l><i>(Agricolae abeunt.)</i></l>
+<l>Col. Persequar et comprehendam, dividam spolia, evaginabo gladium meum, interficiat anima mea (Exod 15). Quis me videt? Tenebrae circumdant me et nemo circumspicit me, quem vereor? (Eccl 23)</l></p>
+</div2>
+
+<div2 id="Scaena"><head>Scaena IV</head>
+<p><i>Filiusfamilias, colonus et agricolae.</i></p>
+<p><l>COL. Ipse est, tenete eum (Matth 26).</l>
+<l>AGR. I. Venite, occidamus eum et mittamus in cisternam veterem (Gen 37).</l>
+<l>FIL. Quem quaeritis? (Ioan 18) Quid cogitatis contra Dominum? (Nah 1) Tanquam ad latronem existis cum gladiis et fustibus comprehendere me (Matth 26).</l>
+<l>AGR. II. Nunquid non repente consurgent, qui mordeant te, et suscitabuntur lacerantes te et eris in rapinam? (Hab 2)</l>
+<l>FIL. <i>(ad colonum)</i> Amice, ad quid venisti? (Matth 26) Mitte gladium tuum in vaginam (Ioan 18). Qui laqueum alii ponit, peribit in illo (Eccli 26).</l>
+<l>COL. Scio, quia morti trades me (Iob 30). Tu morieris (4 Reg 20).</l>
+<l>FIL. Heu mihi! (Psal 119) Cui loquar? Quem contestabor, ut audiat! (Ier 6) Heu mihi! Conclusit me deus, semitam meam circumsepsit et transire non possum (Iob 19). O domine, libera animam meam, quia ecce irruerunt in me fortes, ceperunt animam meam (Psal 114). Venatione ceperunt me quasi avem inimici mei gratis (Thren 3). In via hac, qua ambulabam, absconderunt laqueum mihi (Psal 141). Captabunt in ani-mam iusti et sanguinem innocentem condemnabunt (Psalm 93).</l>
+<l>COL. Iam nunc depone ornatum tuum (Exod 33). Detrahetur ex te fortitudo tua (Am 3). Nunc immittam furorem meum iuxta vias tuas (Ezech 7).</l>
+<l>FIL. Obsecro, parce mihi (Iob 7).</l>
+<l>COL. Non parcet oculus meus super te et non miserebor (Eze 7).</l>
+<l>FIL. <i>(flectit supplex)</i> Parce (Iob 7).</l>
+<l>AGR. I. Tace, obmutesce (Marc 4). Non parcam.</l>
+<l>[p. 21] AGR. II. Et ego non parcam ultra (Zach 11).</l>
+<l>COL. Fac vindictam in homine isto (1 Mach 7). Noli pati eum esse innoxium (3 Reg 2).</l>
+<l>FIL. <i>(iterato percussus)</i> Quid feci tibi? Cur percutis me iam tertio? Dic, quid simile un-quam fecerim tibi? (Num 11)</l>
+<l>COL. Tace, nequaquam ultra loquaris (Deut 32).</l>
+<l>AGR. I. Velociter spolia detrahe, cito praedare (Isai 8).</l>
+<l>AGR. II. Inter spolia pallium coccineum valde bonum (Ios 7) tolle tibi (2 Reg 2).</l>
+<l>AGR. I. Omnes pretiosam substantiam redimemus et implebimus domos nostras spoliis (Prov 16). Haec est pars hominis impii a deo (Iob 20).</l>
+<l>COL. Deglutiamus eum sicut infernus viventem et integrum quasi descendentem in lacum (Prov 16).</l></p>
+</div2>
+
+<div2 id="Scaena"><head>Reflexio animi</head>
+<p><i>Azarias et Proteus.</i></p>
+<p><l>AZA. Generatio prava et exasperans haeccine reddis domino, popule stulte et insipiens? (Deut 32) Popule meus, quid feci tibi aut quid molestus fui? Responde mihi (Mich 6). Dereliquisti dominum deum tuum, confregisti iugum meum, rupisti vincula mea et dixisit: „Non serviam (Ier 2)!“ Popule meus, memento, quaeso, quia eduxi te de terra Aegypti, de domo servientium liberavi te. „Misi ante faciem tuam meos prophetas, quos acceptos interfecistis et laniastis corpora eorum, quorum sanguinem exquiram“, dicit dominus. Maculastis manus vestras sanguine et pedes vestri impigri sunt ad committenda homicidia. (4 Esd 1) . Devoravit gladius vester prophetas quasi leo vastator et in alis tuis inventus est sanguis animarum pauperum et innocentum (Ierem 2). Ierusalem, Ierusalem, quae occidis et lapidas eos, qui ad te missi sunt (Matth 23). Popule meus, quid faciam adhuc? (Mich 6) Quid tibi faciam Iacob? Noluisti obedire, Iuda. Quid ultra debui facere tibi et non feci? Nonne ego vos rogavi, ut essetis mihi in populum et ego vobis in deum, vos mihi filios et ego vobis in patrem? (4 Esdr 1) Quoties volui congregare filios, quemadmodum gallina congregat pullos suos, et noluistis? (Matth 23) Nonne in deserto dedi vobis manna in escam? Nonne cum sitiretis, petram excidi et fluxerunt aquae? Ego Cananaeos a facie vestra proieci, ego vos per mare transmeavi, ego dolui dolores vestros, vos autem mei obliti estis (4 Esdr 1). Duo mala fecit populus meus: Me derelinquerunt fontem aquae vivae et foderunt sibi cisternas, cisternas dissipatas (Ierem 2). Quid faciam vobis? Usquequo eos sustinebo, quibus tanta beneficia contuli? Proiciam vos a facie mea, quoniam me dereliquistis et ego vos derelinquam (4 Esd 1).</l>
+<l>PRO. Unde te habemus, bone iuvenis?</l>
+<l>AZA. Ex filiis Israel.</l>
+<l>PRO. Rogo te, indica mihi, de qua domo aut de qua tribus es tu?</l>
+<l>AZA. Genus quaeris mercenarii an ipsum mercenarium? Sed ne forte sollicitum te reddam, ego sum Azarias, magni Anani filius (Tob 5).</l>
+<l>PRO. Ex magno genere es tu, sed peto, ne irascaris, quod voluerim cognoscere nomen tuum (Tob 5). Utinam consumptus essem, ne oculus me videret (Iob 10).</l>
+<l>AZA. Quare vultus tuus tristis est? (2 Esd 2).</l>
+<l>PRO. Quis mihi tribuat, ut sim iuxta menses pristinos, secundum dies, quibus deus custodiebat me, quando splendebat lucerna eius super caput meum et ad lumen eius ambulabam in tenebris, sicut fui in diebus adolescentiae meae, quando omnipotens erat mecum? (Iob 29)</l>
+<l>AZA. Dereliquisti fontem sapientiae. Si in via dei ambulasses, habitasses utique in pace sempiterna (Bar 3). Iustitia elevat gentem, miseros autem facit peccatum (Prov 14).</l>
+<l>PRO. Factus sum velut filius Belial (1 Cor 10) foetidus et male olens (1 Reg 25). Denigrata est super carbones facies et facta est quasi lignum (Iob 2).</l>
+<l>[p. 25] AZA. Obscuratum est aurum, mutatus est color optimus et egressus est omnis decor (Thren 4). Eras plenus sapientia et perfectus decore, omnis lapis pretiosus operculum tuum, smaragdus et aurum opus decoris tui (Ezech 16). Eras corona glo-riae in manu domini et diadema regni in manu dei tui, donec inventa est iniquitas in te (Is 62).</l>
+<l>PRO. Homo cum in honore esset, non intellexit, comparatus est iumentis insipientibus et similis factus est illis (Psal 48). Unusquisque tentatur a concupiscentia sua. Haec cum conceperit, parit peccatum, peccatum vero generat mortem (Iac 1).</l>
+<l>AZA. Subtus te erit appetitus tuus et tu dominaberis illius (Gen 4). Revela domino viam tuam et spera in eo et ipse educet quasi lumen iustitiam tuam et iudicium tuum tanquam meridiem (Psal 36). Sperantem in domino misericordia circumdabit (Psal 31). Confitere domino peccata tua (Dan 2), presbytero humilia animam tuam (Eccli 4).</l>
+<l>PRO. Terrores domini militant contra me (Iob 6). Replevit me amaritudine, inebriavit me absynthio (Thren 3). In tenebrosis collocavit me, sicut mortuos saeculi (ibid.).</l>
+<l>AZA. Convertere ad dominum et relinque peccata tua (Eccli 17). Revertere ad dominum et avertere ab iniustitia tua. „Revertere ad me“, dicit dominus, „et ego suscipiam te (Ier 3).“</l>
+<l>PRO. Maior est iniquitas mea, quam ut veniam merear (Gen 4). </l></p>
+</div2>
+</div1>
+
+<div1 id="Actus"><head>ACTUS SEU PUNCTUM II</head>
+<div2 id="Scaena"><head>Scaena I</head>
+<p><i>Paterfamilias.</i></p>
+<p><l>Habitatores Ierusalem et viri Iuda, iudicate inter me et vineam meam. Quid est, quod debui facere vineae meae et non feci? An quod exspectavi, ut faceret uvas, et fecit labruscas. (Isai 5) Ego misi ad cultores servum, ut de fructu vineae darent illi (Luc 20), qui apprehensum ceciderunt et dimiserunt vacuum (Marc 12). Placuit alterum servum mittere, illi autem hunc quoque caedentes et afficientes contumelia dimiserunt inanem (Luc 20). Et placuit tertium mittere, qui et illum vulnerantes eiecerunt. Misi iterum alios servos plures prioribus et fecerunt eis similiter (ibid.). Adhuc ergo unum habens filium carissimum misi ad eos novissimum dicens: „Quia verebuntur filium meum (Marc 12). Ubi est ergo nunc praestolatio mea? (Iob 19) Puer non comparet (Gn 37). Quo abiit dilectus meus candidus et rubicundus, electus ex millibus?“ (Cant 5).</l></p>
+</div2>
+
+<div2 id="Scaena"><head>Scaena II</head>
+<p><i>Paterfamilias et duo satellites.</i></p>
+<p><l>SAT. I. Heu, heu, heu, domine! (Ier 32).</l>
+<l>PAT. Quid sibi volunt haec? (1 Reg 16).</l>
+<l>SAT. I. In amaritudine est sermo meus (Iob 23). Sensus cordis mei turbati sunt in me. Ecce pervenit gladius usque ad animam (Ier 4).</l>
+<l>PAT. Quid accidit? (Ier 48)</l>
+<l>SAT. I. Quod verebar, accidit (Iob 3). Mirabilia facta sunt in terra (Ier 5). Omnia commista sunt, sanguis, homicidium, furtum et fictio, corruptio et infidelitas (Sap 14).</l>
+<l>PAT. Quid vidisti? (1 Regum 16)</l>
+<l>SAT. I. Ego, ego sum, ego vidi (Ier 7). Posuerunt mortalia servorum tuorum escas volatilibus caeli, carnes sanctorum tuorum bestiis terrae, effuderunt sanguinem eorum tanquam aquam in circuitu Ierusalem et non erat, qui sepeliret (Psalm 78). Acceperunt spolia in praedam (1 Mach 7) , acceperunt vestimenta (Ioan 19) diripueruntque substantiam, quae inventa est (2 Par 21).</l>
+<l>SAT. II. Heu domine! In memet ipso marcescit anima mea et possident me dies afflictionis (Iob 30).</l>
+<l>PAT. Quaenam res accidit? (1 Reg 20)</l>
+<l>SAT. II. Defecit anima mea propter interfectos (Ier 4). Maledictum et mendacium, homicidium et furtum inundaverunt (Ioel 4) Captivus ductus est populus (Isa 5) in gladio, in flamma, in rapina (Dan 11). Atque utinam solus perisset! (Ios 20). Esset tolerabile malum et gemens tacerem (Esther 7).</l>
+<l>PAT. Estne pax puero Absalon. (2 Reg 18).</l>
+<l>SAT. II. Incidit in manus diripientium eum (Iudic 2). Manum suam misit hostis ad omnia desiderabilia eius (Thren 1).</l>
+<l>PAT. Quis est iste sermo, quem locutus es? (Dan 13) Penetrabilior omni gladio ancipiti et pertingens usque ad divisionem animae ac spiritus, compagum quoque ac medullarum (Hebr 4). Quis audivit unquam tale aut quis vidit huic simile? (Isa 66)</l>
+<l>SAT. I. Vidimus eum et non erat aspectus, desideravimus eum virum dolorum et quasi absconditus vultus eius (Isa 53).</l>
+<l>SAT. II. Nos putavimus eum quasi leprosum (Isa 53). Non est species ei neque decor, a planta pedis usque ad verticem capitis non est in eo sanitas (ibid. 1).</l>
+<l>PAT. Audite hoc et auribus percipite omnes habitatores terrae, si factum est istud in diebus vestris aut in diebus patrum vestrorum (Ioel 1).</l>
+<l>SAT. I. Locutus sum ad eum dicens: „Tu, quis es?“ At ille respondit (4 Reg 3): „Ego autem sum vermis et non homo, opprobrium hominum et abiectio plebis (Psal 11).“</l>
+<l>SAT. II. Tunicam polymitam invenimus. Vide, utrum tunica filli tui sit an non? (Gen 37)</l>
+<l>PAT. Tunica filii mei est, fera pessima comedit eum, bestia devoravit (ibid.). Singularis ferus depastus est eum (Psal 79), lupus rapax, leo rapiens et rugiens (Psal 21). Fili mi Absalon, Absalon fili mi, quis mihi tribuat, ut ego mo[p. 31]riar pro te? Absalon fili mi, fili mi Absalon! (2 Reg 18) Descendam ad filium meum lugens in infernum (Gen 37).</l></p>
+</div2>
+
+<div2 id="Scaena"><head>Scaena III</head>
+<p><i>Remanent duo satellites.</i></p>
+<p><l>SAT. I. Quis est, qui fecit haec? (Eccl 31) Vae homini illi! Bonum erat ei, si natus non fuisset homo ille (Matth 26).</l>
+<l>SAT. II. Cum iudicatur, exeat condemnatus, diabolus stet a dextris eius (Psal 108).</l>
+<l>SAT. I. Dilexit maledictionem et veniet ei. Fiat ei sicut vestimentum, quo operitur, et sicut zona, qua semper praecingitur (ibid.).</l>
+<l>SAT. II. Fiant dies eius pauci, fiant filii eius orphani et uxor eius vidua (ibid.).</l>
+<l>SAT. I. Nutantes transferantur filii eius et mendicent et eiiciantur de habitationibus suis, in generatione una deleatur nomen eius (ibid.).</l></p>
+</div2>
+
+<div2 id="Scaena"><head>Scaena IV</head>
+<p><i>Paterfamilias et priores.</i></p>
+<p><l>PAT. Haec faciat mihi deus et haec addat (Ruth 1) : Revelabitur ille iniquus (1 Thess 2). Considerate locum, ubi sit pes eius, considerate et videte omnia latibula, in quibus absconditur; recogitat enim de me, quod callide insidier ei (1 Reg 23). Quem mittam et quis ibit nobis? (Isai 6)</l>
+<l>SAT. I. Ecce ego, quia vocasti me (1 Reg 9). Quid vis fieri? Praesto sum (Gen 37).</l>
+<l>SAT. II. Ecce ego, mitte me (Isai 6).</l>
+<l>PAT. Euge, serve bone et fidelis! (Matth 25) Veni, mittam te ad eos. Vade, vide et renuntia mihi, quid agatur (Gen 37). Ne taceas neque compescaris (Psalm 82). Effunde super eos iram tuam et furor irae tuae comprehendat eos (Psal 103). Accingere gladio super femur tuum (Psal 44). Apprehende arma et scutum et exsurge (Psalm 34).</l>
+<l>SAT. I. Ecce hic gladius, limatus est, ut sit in manu interficientis (1 Reg 22). Consummentur quasi stipula ariditate plena (Ier 15), quia ignis succensus est in furore meo (Nah 1).</l>
+<l>SAT. II. Mucro, mucro evagina te ad occidendum, lima te ut interficias et fulgeas (Ezech 1). Persequar et comprehendam et non convertar donec deficiant (Psal 17).</l>
+<l>PAT. Fac, sicut locutus es (1 Par 17). Alligetur vinculo ferreo et aeneo (Dan 4). In interitu suo corruet (Prov 28).</l></p>
+</div2>
+
+<div2 id="Scaena"><head>Scaena V</head>
+<p><i>Satelles et agricola.</i></p>
+<p><l>SAT. Quisnam es tu, unde venis? (2 Reg 1)</l>
+<l>AGR. Domine, ego servus tuus et filius ancillae tuae (Psal 115).</l>
+<l>SAT. Ubi est frater tuus (Gen 4), servus domini mei? (2 Reg 11)</l>
+<l>AGR. Nescio. Num custos fratris mei sum ego? (Gen 4)</l>
+<l>SAT. Quaesivi eum et non inveni (Cant 3). Si etiam in terram se abstruserit, scrutabor eum (1 Reg 23).</l>
+<l>[p. 34] AGR. Vae mihi! Versa est in luctum cithara mea et organum meum in vocem flentium (Iob 30). Quid faciam, cum surrexerit ad iudicandum deus? Et cum quaesie-rit, quid respondebo illi? (ibid. 31) Dominus meus et deus meus! (Ioan 20) Quo ibo a spiritu tuo et quo facie tua fugiam? Si ascendero in caelum, tu illic es, si descendero in infernum, ades (Psalm 138). Ero vagus et profugus in terra. Omnis igitur, qui invenerit me, occidet me (Gen 4).</l></p>
+</div2>
+
+<div2 id="Scaena"><head>Scaena VI</head>
+<p><i>Ambo agricolae.</i></p>
+<p><l>AGR. I. Quid ploras? Quare tu gemis? Quare maerore contraheris? (Mich 4) Quare non indicas nobis, quid ista significent? (Mich 4) Cur mihi non loqueris? (Ezech 24)</l>
+<l>AGR. II. Si coeperimus loqui tibi, forsitan (Esth 15) moleste accipies (Iob 4). Angustiae sunt mihi undique (Dan 13). Pertimesco et concutit carnem tremor (Iob 21).</l>
+<l>AGR. I. Tristitiam non des animae tuae (Eccli 30) neque affligas cor tuum (3 Rg 13).</l>
+<l>AGR. II. Quare non maereat vultus meus? (2 Esd 2) Traditi enim sumus, ut conteramur, iugulemur, pereamus (Esth 7).</l>
+<l>AGR. I. Quomodo fiet istud? (Luc 1)</l>
+<l>AGR. II. Prope est dies domini (Isai 3), iuxta est et velox nimis (Soph 1). Quamobrem considera et recogita, quid facias (1 Reg 25). Ego a facie tua abscondar, a facie tua fugiam (Psal 138).</l>
+<l>AGR. I. Ne discesseris a me, quoniam tribulatio proxima est (Psal 21). Etiam proximo suo pauper odiosus erit, amici vero divitum multi (Prov 14). Si possides amicum, in tentatione posside eum et ne facile credas ei. Est amicus socius mensae et non permanebit in die necessitatis (Eccli 6).</l></p>
+</div2>
+
+<div2 id="Scaena"><head>Reflexio animi in punctum II</head>
+<p><i>Azarias et Proteus.</i></p>
+<p><l>AZA. Obstupescite, caeli, super hoc et portae eius desolamini vehementer (Ier 2). Filios enutrivi et exaltavi, ipsi autem spreverunt me. Cognovit bos possessorem suum et asinus praesepe domini sui (Isai 1), milvus in caelo cognovit tempus adventus sui (Ier 8). Israel autem me non cognovit et populus meus non intellexit (Isai 1). Vae dissolutis corde! (Eccli 2) Vae genti peccatrici, populo gravi iniquitate, semini nequam, filiis sceleratis! (Isai 1) Vae vobis viri impii, qui dereliquistis legem dei altissimi! (Eccle 11) Vae qui trahitis iniquitatem in vinculis et quasi plaustri peccatum! (Isai 5) Intelligite haec, qui obliviscimini deum (Psal 49). Qui habentes oculos non videtis (Ier 5). Nolite obdurare corda vestra (Psal 49). Nolite fieri sicut equus et mulus, quibus non est intellectus (Psal 31). Propter quod inexcusabilis es, o homo. Secundum autem duritiam tuam et impoenitens cor thesaurizas tibi iram in die irae (Rom 2).</l>
+<l>PRO. Heu mihi! Quoniam non obedivimus praeceptis tuis, ideo traditi sumus in direptionem, in mortem, in improperium omnibus gentibus (Iob 3).</l>
+<l>AZA. Si impius egerit poenitentiam ab omnibus peccatis suis, vitat vivet et non morietur (Eze 18).</l>
+<l>PRO. Putasne mortuus homo rursum vivat? (Iob 14)</l>
+<l>AZA. Ubi est spes tua? (Tob 2)</l>
+<l>PRO. Spes impii tanquam lanugo, quae a vento tollitur (Sap 5).</l>
+<l>AZA. Spes non confundit (Rom 5) .</l>
+<l>PRO. Lignum habet spem. Si praecisum fuerit, rursum virescit, homo vero cum mortuus fuerit, ubi, quaeso, est? Cum dormierit, non resurget (Iob 14).</l>
+<l>AZA. Non ignoras, quod periculosa sit desperatio. (2 Reg 2)</l>
+<l>PRO. Non est, qui requirat animam meam, non est, qui redimat, neque, qui salvum faciat (Ps 7) .</l>
+<l>AZA. Usquequo morabuntur in te cogitationes noxiae? (Ier 4) Arguis verbis eum, qui non est aequalis tibi, imitaris linguam blasphemantium; docuit enim iniquitas cor tuum (Iob 15). Non vult deus perire animas (2 Reg 14) , qui omnes homines vult salvos fieri (1 Timot 2), nolens aliquos perire, sed omnes ad poenitentiam reverti (2 Pet 3).</l>
+<l>PRO. Odio sunt deo impius et impietas eius (Sap 14).</l>
+<l>AZA. Vulgo dicitur: „Si dimiserit vir uxorem suam et recedens ab eo duxerit virum alterum, nunquid revertetur ad eum ultra?“ „Tu autem aversatrix Israel fornicata es cum amatoribus multis, tamen revertere ad me“, dicit dominius, „revertere et non avertam faciem meam et non irascar in perpetuum (Ier 3).“</l>
+<l>PRO. Peccatum aggravatum est nimis (Gen 18).</l>
+<l>AZA. Auferte malum cogitationum vestrarum. Si fuerint peccata vestra ut coccinum, quasi nix dealbabuntur, et si fuerint rubra quasi vermiculus, velut lana alba erunt (Isa 1). Miserator et misericors dominus (Psalm 110) proiciet in profundum maris omnia peccata (Mich 7). Convertimini, filii revertentes, assumam vos, sanabo aversiones ve-stras (Ier 3). Obsecramus in domino reconciliemini deo (2 Corinth 15). Audite me duro corde, qui longe estis a iustitia, mementote, confundamini. Haec dicit dominus exercituum: „Convertimini (Zachar 1)! Convertimini et agite poenitentiam (Ezech 18). Si poenitentiam egeritis a malo, quod locutus sum adversus eos, agam et ego poenitentiam super malo, quod cogitavi, ut facerem (Ier 18). Convertimini de viis vestris malis et de cogitationibus vestris pessimis, convertimini ad me et convertar ad vos (Zach 1).“ </l></p>
+</div2>
+</div1>
+
+<div1 id="Actus"><head>ACTUS VEL PUNCTUM III</head>
+<div2 id="Scaena"><head>Scaena I</head>
+<p><i>Colonus desperabundus.</i></p>
+<p><l>Heu mihi in quantam tribulationem deveni et in quos fluctus tristitiae! (1 Mach 6) Tribulatio et angustia invenerunt me (Psalm 118), pavor tenuit me et tremor et omnia ossa mea conturbata sunt (Iob 4). Revelata est in auribus meis vox domini exercituum (Isa 22). Non remittetur ei, neque in hoc saeculo neque in futuro (Matth 12). Turbo domini in capite impiorum conquiescet (Ier 32), non flectetur neque parcet neque miserebitur (ibid. 21). Reminiscor malorum, quae feci (Mach 6). Comprehenderunt me iniquitates meae, multiplicatae sunt super capillos capitis mei (Psalm 39), supergressae sunt caput meum et sicut onus grave gravatae sunt super me (Psalm 37). Vae mihi! Mater mea, quare me genuisti? (Ier 18) Quare egressus ex utero non sta[p. 41]tim perii, quare exceptus genibus, cur lactatus uberibus? Quare misero data est lux et vita his, qui in amaritudine animae exspectant mortem et non venit gaudentque vehementer, cum invenerint sepulcrum. (Iob 3) Utinam consumptus essem, ne oculus me videret, fuis-sem quasi non essem de utero translatus ad tumulum! (ibid. 10) Nunc enim dormiens silerem cum regibus et consulibus terrae, qui aedificant sibi solitudines aut sicut abor-tivum absconditum non subsisterem (ibidem 7). Pereat dies, qua natus sum, dies ille vertatur in tenebras (ibid. 3) Taedet animam meam vitae meae (ibid. 11). Vae mihi! Quamdiu ponam consilia in anima mea et dolorem in corde meo per diem? (Psalm 12) Dixi, nunc coepi (Psalm 78). Dixi, perii, desperavi (Ierem 2). In profundissimum infer-num descendant omnia mea (Iob 1).</l></p>
+</div2>
+
+<div2 id="Scaena"><head>Scaena II</head>
+<p><i>Colonus et satellites.</i></p>
+<p><l>SAT. I. Quis est iste, qui celas consilium absque scientia? (Ioh 42)</l>
+<l>SAT. II. Ecce homo, qui non posuit deum adiutorem suum (Psal 51).</l>
+<l>COL. Vae misero mihi! (Ier 43)</l>
+<l>SAT. I. Ecce hodie viderunt oculi tui, quod tradiderit te dominus in manu mea (1 Reg 24). Nunquid nescis et non audisti? (Isa 4) Non est ulla creatura invisibilis in conspectu eius, omnia autem nuda et aperta (Hebr 4). Cur igitur me fugere voluisti? (Gen 31)</l>
+<l>COL. Timui, ne morerer (Gen 26). Quaeso, noli me condemnare (Iob 10).</l>
+<l>SAT. I. Condemnabit te os tuum et non ego (Iob 15). Prope sunt dies mortis tuae (Deut 31). Hoc est iudicium, quod ipse decrevisti (3 Reg 20). Apprehendite eum (3 Reg 13).</l>
+<l>COL. Parce peccatis meis. (Zach 2)</l>
+<l>SAT. I. Non parcam (Ier 17) . <i>(In vincula conicitur.)</i></l>
+<l>[p. 43] COL. Circumdederunt me dolores mortis, torrentes iniquitatis conturbaverunt me (Psal 17). Infelix ego homo, quis me liberabit de corpore mortis huius? (Rom 7) Miseremini, miseremini mei saltem vos, amici mei, quia manus domini tetegit me. Mi-seremini mei, miseremini mei (Iob 19).</l>
+<l>SAT. I. Quis miserebitur tui? (Eccli 12) Amici procul recesserunt (Proverb 19). Non est, qui de manu mea possit eruere (Deut 32).</l>
+<l>COL. Cum sit nemo, qui de manu tua possit eruere (Iob 10). O domine, libera animam meam (Psalm 114)!</l>
+<l>SAT. II. Ubi sunt dii tui, quos fecisti tibi? Surgant et liberent te in die afflictionis tuae (Ierem 2).</l>
+<l>COL. Nunquid bonum tibi videtur et calumnieris et opprimas me? (Iob 10)</l>
+<l>SAT. I. Sanguis tuus super caput tuum (2 Reg 1).</l>
+<l>COL. Quae utilitas in sanguine meo, dum descendo in corruptionem? (Psalm 29)</l>
+<l>SAT. I. Iuxta est dies perditionis (Deuter 32). Revelabitur ignominia tua, videbitur opprobrium tuum (Isa 47). Prope est dies domini, magnus furor domini imminet (2 Par 28), paravit in iudicio thronum suum (Psal 9).</l></p>
+<l>COL. Ex omni parte me angustiae premunt (2 Par 21). Dimitte me, ut plangam paululum dolorem meum. (Iob 10)</l>
+</div2>
+
+<div2 id="Scaena"><head>Scaena III</head>
+<p><i>Colonus, paterfamilias et satellites.</i></p>
+<p><l>SAT. I. Tradidit deus inimicum in manus nostras (Iudic 6).</l>
+<l>PAT. Ecce ego iudicio contendam tecum (Ierem 2). Iuxta adinventiones tuas iudicabo te (Ezech 24). Si accepero ut fulgur gladium meum et arripuerit iudicium manus mea (Deut 32), reddam ultionem hostibus, vindicabor de inimicis meis (Ezech 21). Gladius limatus est, eductus et egrediens de vagina sua et fulgurans in amaritudine (Iob 20).</l>
+<l>COL. Dedit me dominus in manu, de qua non potero surgere (Thren 1). Duo tantum ne facias mihi: Manum tuam longe fac a me, formido tua non me terreat neque enim possum respondere (Iob 9).</l>
+<l>PAT. Quid faciam populo huic? (Exod 17)</l>
+<l>SAT. I. Domine, reus est mortis (Matth 26). Primogenitum filium tuum percussit (2 Reg 1).</l>
+<l>PAT. Quid hoc audio de te? (Luc 16) Multum sanguinem effudisti, sanguinem innoxium (4 Rg 24).</l>
+<l>SAT. II. Levia sunt haec. Tetendit enim adversus deum manum suam et contra omnipo-tentem roboratus est (Iob 25).</l>
+<l>PAT. Non audis, quanta adversum te dicunt testimonia? (Matth 27) Responde (Iob 42)!</l>
+<l>COL. Respondere quid possum? Si voluerit homo contendere cum deo, non poterit re-spondere unum pro mille (Iob 39).</l>
+<l>PAT. Nunc igitur ecce: Nunquid super his non indignabor? (Isa 57) Aut super gentem huiuscemodi ulciscetur anima mea? (Ierem 5) Tu fecisti in abscondito. Ego autem fa-ciam in conspectu solis (2 Reg 12]) . Tu dicebas in corde tuo: „Quis me videt?“ (Ezech 22) Ego arguam te et statuam contra faciem tuam (Psal 49). Arguet te malitia tua et aversio tua increpabit te (Ier 2). In igne furoris mei sufflabo in te (Ezech 21). Complebo furorem meum in ira mea et indignatione grandi (Ier 31).</l>
+<l>COL. Iram domini portabo, quoniam peccavi (Mich 7). Peccavi et vere deliqui (Iob 33). Agnosco peccatum meum. Tu autem insidiaris animae meae, ut auferas eam (1 Reg 24).</l>
+<l>PAT. Propter multitudinem iniquitatis tuae peribis (Abd 1). Reus es mortis (Matth 26). <i>(ad satellites)</i> Vos estis testis mei (Isai 44).</l>
+<l>SAT. I. Domine, non parce oculus tuus illi. Si tibi placet, decerne, ut pereat (Esth 3).</l>
+<l>COL. Ecce pereo tristitia magna (1 Machab 6). Nunquid abbreviata est manus mea, ut non possim redimere? (Isa 50) Omnes maledicunt mihi, unde quaeram consolatorem? (Nah 3) Obsecro, ut miserearis animae meae (4 Reg 1).</l>
+<l>PAT. Duplicate duplicia in homine isto secundum opera eius: In poculo, quo miscuit, miscete illi, quoniam pervenerunt peccata eius usque ad caelum (Apoc 18).</l>
+<l>SAT. II. Iustus es, domine, et rectum iudicium tuum (Psalm 118). Condemnas impium et reddis iram super caput eius (3 Reg 8).</l></p>
+</div2>
+
+<div2 id="Scaena"><head>Scaena IV</head>
+<p><i>Paterfamilias et patronus coloni.</i></p>
+<p><l>PATRO. Iustus quidem tu es, domine, si disputem tecum: Verumtamen iusta loquar ad te (Ier 12). Quiescat ira tua et esto placabilis (Exod 32). Nunquid in aeternum irasceris? (Psal 84) Nunquid usque ad internecionem tuus mucro desaeviet? (2 Reg 2) Avertatur, obsecro, furor tuus (Dan 8).</l>
+<l>PAT. Quomodo tu dicis? (Ioan 19) Nunquid irritum facies iudicium meum? (Iob 40) Peccantem in animam suam quis iustificabit? (Eccli 10) Longe a peccatoribus salus (Psalm 118).</l>
+<l>PATRO. Ubi sunt misericordiae tuae antiquae, domine? (Psalm 88) Benigne fac, domine, in bona voluntate Sion (Psalm 50); quia tempus miserendi eius, quia venit tempus (Psal 101).</l>
+<l>PAT. Non addam ultra misereri domui Israel (Ose 1). Non parcet oculus meus et non miserebor (Ezech 8), peccatum aggravatum est nimis (Gen 18).</l>
+<l>PATRO. Si iniquitates observaveris, domine, domine, qui sustinebit? (Psalm 129) Non iustificabitur in conspectu tuo omnis vivens (Psalm 142). Non est, qui tuae resistere possit voluntati, si decreveris salvare Israel (Esth 13); subest enim tibi, cum volueris, posse (Sap 12).</l>
+<l>PAT. Impio praebes auxiulium et his, qui oderunt dominum, amicitia iungeris (2 Par 10) . Misereamur impio et non discet iustitiam (Isa 26). Impietas impii erit super eum (Ezech 10).</l>
+<l>PATRO. Impietas impii non nocebit ei, in quacunque die conversus fuerit ab impietate sua (Ezech 33). Ne despicias hominem avertentem se a peccato (Eccli 8). Fac cum servo tuo secundum misericordiam tuam (Psalm 118).</l>
+<l>PAT. Memoria illius pereat de terra (Iob 18).</l>
+<l>PATRO. Reminiscere miserationum tuarum, domine, quae a saeculo sunt (Psalm 24).</l>
+<l>PAT. Obliviscatur eius misericordia (Iob 24), quia non est recordatus facere misericordiam (Psalm 108).</l>
+<l>PATRO. O domine, libera eum, ut non descendat in corruptionem (Iob 32), ut declinet a ruina mortis (Prov 13). Frater non redimit, redimet homo (Psalm 48) .</l>
+<l>PAT. Non credat frustra, quod in aliquo pretio redimendus sit (Psalm 48), quia zelus et furor non parcet in die vindictae nec acquiescet cuiusquam precibus nec suscipiet pro redemptione dona plurima (Iob 15). Tu ergo noli orare pro populo hoc et non obsistas mihi, quia non exaudiam, non parcam neque miserebor (Prov 6), iam enim egressa est ira a domino (Ierem 11).</l>
+<l>PATRO. Domine, cum iratus fueris, misericordiae recordaberis (Num 16).</l>
+<l>PAT. Noli orare pro populo isto in bonum (Hab 3), quia desperata est plaga eius (Ierem 14). Absque retractatione morietur (Mich 1).</l>
+<l>PATRO. Periisti, popule. Quis contristabitur super te? (1 Reg 15) Quis miserebitur tui? Quis ibit ad rogandum pro pace tua? (Thren 2) Prostravi preces meas, noluit acquie-scere (Ier 15). Non fuerunt in auxilium, sed in confusionem et in opprobrium (Isa 30).</l></p>
+</div2>
+
+<div2 id="Scaena"><head>Scaena V</head>
+<p><i>Portatur ad patremfamilias filius vix non moribundus.</i></p>
+<p><l>SAT. I. Ecce filius tuus venit ad te (Gen 48), desideratus cunctis gentibus (Agg 2).</l>
+<l>PAT. Sufficit mihi, si adhuc filius meus vivit. Vadam et videbo illum (Gen 45).</l>
+<l>SAT. II. Ecce filius tuus (Ioan 19).</l>
+<l>FIL. O vos omnes, qui transitis, attendite et videte, si est dolor sicut dolor meus (Thren 1).</l>
+<l>PAT. Hic est filius meus dilectus, in quo mihi bene complacui (Matth 17), primogenitus meus, fortitudo mea et principium doloris mei (Gen 49). Non sum fraudatus aspectu tuo, fili mi (Gen 48).</l>
+<l>FIL. Pater, respice in me, quare me dereliquisti? (Psalm 21)</l>
+<l>PAT. Quid tibi fecit hic populus? (Isa 37) Quid sunt plagae tuae in medio manuum tuarum? (Zach 13)</l>
+<l>FIL. Hisce plagatus sum in domo eorum, qui diligebant me (ibid.). Foderunt manus meas et pedes meos, dinumeraverunt omnia ossa mea (Psal 21). Posuerunt lapidem super me, posuerunt me in lacu inferiori, in tenebris et umbra mortis (Psal 87).</l>
+<l>PAT. Scio, fili mi, scio. Doleo super te, decore nimis et amabilis. Sicut mater unicum amat filium, ita ego te diligebam (2 Reg 1). Et tibi posthac, fili mi, quid faciam? (Gen 27)</l>
+<l>FIL. Si inveni gratiam in oculis tuis (Gen 18), unam petii a domino, hanc requiram (Psal 26).</l>
+<l>PAT. Quid petis, ut detur tibi, aut pro qua re postulas? (Esth 5) Omnia mea tua sunt (Luc 20). Pete a me quodvis, quia quidquid petieris, dabo tibi (Marc 6).</l>
+<l>FIL. Pater, dona mihi animam meam, pro qua rogo et populum meum, pro quo obsecro (Esth 7). Si aliter tibi videtur, obsecro ut interficias me (Num 11). </l>
+<l>PAT. Fili mi, nescitis, quid petatis (Matth 20).</l>
+<l>FIL. Nunquid voluntaris meae est mors impii et non ut convertatur et vivat? (Eze 18)</l>
+<l>PAT. Non misereberis eius, sed animam pro anima (Deut 19).</l>
+<l>FIL. Moriatur anima mea (Eccli 2). </l>
+<l>PAT. O mors, quam amara est memoria tua? (Eccli 41)</l>
+<l>FIL. O mors, ero mors tua, morus tuus ero, inferne (Ose 13).</l>
+<l>PAT. Vivit dominus et vivit anima tua (1 Reg 19). Morte morietur homo iste (Num 15). <i>(Colonum indigitat.)</i></l>
+<l>FIL. Vivit dominus, quia non cadet capillus de capite eius in terram (2 Re 14). Non est viro huic iudicium mortis (Ier 26).</l>
+<l>PAT. Ipse morietur solus (Deut 22).</l>
+<l>FIL. Quare morietur? Quid fecit? (1 Re 20)</l>
+<l>PAT. Peccatum grande nimis coram domino (1 Reg 2), peccatum maximum (Exo 32).</l>
+<l>FIL. Quaeretur peccatum illius et non invenietur (Psal 9).</l>
+<l>PAT. Qui percusserit hominem volens occidere, morte moriatur (Exod 21).</l>
+<l>FIL. Vita vivat et non moriatur (Ezec 18). Non erunt in memoria priora (Isa 2). Peccata eius, quae fecit, non imputabuntur ei (Eze 33).</l>
+<l>PAT. Anima quae peccaverit, ipsa morietur (Eze 18). Stipendium enim peccati mors (Rom 6). <i>(ad colonum conversus)</i> Serve nequam, sanguinem eius de manu tua re-quiram (Ezech 3). De propinquo effundam iram meam super te et imponam tibi sce-lera tua (Ezech 7). Ligatis pedibus et manibus, mittite eum in tenebras exteriores (Matth 12).</l>
+<l>FIL. Ego optabam anathema esse pro fratribus meis (Rom 9).</l>
+<l>PAT. Ipse impius in iniquitate sua morietur (Ezech 3).</l>
+<l>FIL. In me sit haec iniquitas (1 Reg 25).</l>
+<l>PAT. <i>(ad colonum)</i> Maledictus eris super terram, quae suscepit sanguinem fratris tui (Gen 4).</l>
+<l>FIL. In me sit ista maledictio (Gen 27).</l>
+<l>PAT. Quicunque effuderit humanum sanguinem, fundatur sanguis illius (Gen 9).</l>
+<l>FIL. Aut dimitte ei hanc noxam aut, si non facis, dele me de libro tuo, quem scripsisti (Exod 32).</l>
+<l>PAT. Quis unquam innocens periit? (Iob 4) Qui peccaverit mihi, delebo eum de libro meo (Exod 32).</l>
+<l>FIL. <i>(sanguinem ex suo latere haustum offerens)</i> En pretium redemptionis (Psal 48). Hic est enim sanguis meus novi testamenti, qui pro multis effundetur in remissionem peccatorum (Matth 26). <i>(Exspirat.)</i></l>
+<l>SAT. I Heu, heu, heu, domine! (Ier 22)</l>
+<l>SAT. II Inclinato capite emisit spiritum (Ioan 19).</l></p>
+</div2>
+
+<div2 id="Scaena"><head>Scaena VI</head>
+<p><i>Colonus, coloni patronus, paterfamilias et satellites.</i></p>
+<p><l>PAT. Videte rem istam grandem (1 Reg 12). Ubi abundavit delictum, superabundavit et gratia (Rom 5).</l>
+<l>PATRO. A domino factum est istud et est mirabile in oculis nostris (Psal 17).</l>
+<l>PAT. Ecce quomodo amabat eum! (Ioan 11)</l>
+<l>SAT. I. Tradidit in mortem animam suam et cum sceleratis reputatus est (Isa 53).</l>
+<l>SAT. II. Ipse peccata multorum tulit et pro transgressoribus oravit (ibid.).</l>
+<l>COL. Commuto faciem meam et dolore torqueor (Iob 9). Vere languores nostros ipse tulit et dolores nostros ipse portavit. Ipse vulneratus est propter iniquitates nostras, attritus est propter scelera nostra et livore eius sanati sumus (Isa 53).</l>
+<l>PAT. Solvite illum et adducite mihi (Luc 19).</l>
+<l><i>(Colonus a satellite vinculis exoneratur.)</i></l>
+<l>PATRO. Quam magna misericordia domini (Eccli 17) et copiosa apud eum redemptio! (Psal 129) Miserator et misericors dominus redemptionem misit populo suo (Ps 110), eduxit eos de tenebris et umbra mortis et vincula eorum disrupit (Psal 106).</l>
+<l>COL. Unde hoc mihi, ut invenirem gratiam ante oculos tuos? (Ruth 2) Dirupisti, domine, vincula mea (Ps 115).</l>
+<l>PAT. Respice in faciem Christi tui (Psal 83), quoniam non est species ei neque decor (Isa 53).</l>
+<l>COL. Confundor et erubesco faciem meam levare ad te, domine (1 Esd 9), adiutor meus et redemptor meus (Psal 18). <i>(Proicit se ad cadaver filiifamilias.)</i> Ego peccavi domino et sic et sic feci (Num 22). Ego sum, qui peccavi, ego inique egi (2 Re 24). Peccavi in caelum et coram te (Luc 15). Peccavi super numerum arenae maris (Orat Man) . <i>(ad patermfamilias)</i> Peccavi, domine, peccavi et iniquitates meas agnosco, quare peto rogans te, remitte mihi, domine, remitte mihi (ibid.)</l>
+<l>PAT. Vade, iam non amplius noli peccare (Ioan 8). Gratiam fideiussoris tui ne oblivisca-ris, dedit enim pro te animam suam (Eccli 29).</l></p>
+</div2>
+
+<div2 id="Scaena"><head>Reflexio animi in punctum III</head>
+<p><i>Azarias et Proteus.</i></p>
+<p><l>AZA. Benedictus dominus deus Israel, quia visitavit et fecit redemptionem plebis suae (Luc 1). In dilectione et in indulgentia sua ipse redemit eos, qui dedit redemptionem semetipsum pro omnibus (1 Tim 2). Haec sunt verba, quae locutus sum ad vos (Luc 24): „Discite parabolam (Mar 13).“</l>
+<l>PRO. Quare in parabolis loqueris? (Mat 13)</l>
+<l>AZA. Quia vobis datum est nosse mysterium regni caelorum (ibid.). Aperiam in parabo-lis os meum (Psal 77). Aperiam illis sensum, ut intelligant scripturas (Luc 24). <i>(Aperitur scaena, in qua imago Christi crucifixi.)</i> O stulti et tardi corde ad credendum in omnibus, quae locuti sunt prophetae! (Luc 24). O insensati Galatae, ante quorum oculos Iesus Christus praescriptus est in vobis crucifixus (Gal 3). Non corruptibilibus auro et argento redempti estis, sed pretioso sanguine quasi agni immaculati (1 Pet 1). Abluti estis, sanctificati estis, iustificati estis in nomine domini nostri Iesu Christi (1 Cor 6). Iustificati gratis per gratiam, per redemptionem, quae est in Christo Iesu (Rom 3), cuius livore sanati estis (1 Pet 2).</l>
+<l>PRO. O altitudo divitiarum sapientiae et scientiae dei, quam incomprehensibilia sunt iudicia eius! (Rom 11) Nunc soluti sumus a lege mortis (Rom 7). Christus mortuus est pro peccatis nostris (1 Cor 1). Christus dominus captus est, iustus pro iniustis (1 Pet 3). Christus nos redemit de maledicto legis factus pro nobis maledictum (Gal 3), delens quod adversus nos erat chirographum decreti, ipsum tulit de medio affigens illud cruci (Coloss 2). Qui dilexit nos et lavit a peccatis nostris in sanguine suo (Apoc 1), ut adoptionem filiorum reciperemus (Gal 4). Qui dedit semetipsum pro nobis, ut nos redimeret ab omni iniquitate et mundaret sibi populum acceptabilem (Tit 2). Qui peccata nostra pertulit in corpore suo super lignum, ut peccatis mortui iustitiae vi-vamus (1 Pet 2).</l>
+<l>AZA. Ipse est propitiatio pro peccatis nostris (1 Ioa 2). Ipse preces cum clamore valido et lacrimis offerens exauditus est pro sua reverentia (Heb 5). Oblatus est, quia ipse voluit et non aperuit os suum (Isa 53). Posuit dominus in eo iniquitatem omniam dicens: „Propter scelera populi mei percussi eum (ibid).“ <i>(Aperitur scaena, in qua ex-hibetur agnus apocalypticus.)</i> Ecce agnus dei, ecce qui tollit peccatum mundi (Ioan 1).</l>
+<l>PRO. Dignus es, domine, accipere librum et aperire signacula eius, quoniam occisus es et redemisti nos in sanguine tuo ex omni tribu et lingua et populo et natione (Apoc 5).</l>
+<l>AZA. Empti estis pretio magno, nolite fieri servi hominum (Gal 3).</l>
+<l>PRO. Paratum cor meum deus, paratum cor meum (Psal 107). Scio enim, quod redemptor meus vivit (Iob 19). Idcirco ipse me reprehendo et ago poenitentiam in favilla et cinere (Iob 12). Dixi, nunc coepi, haec mutatio dexterae excelsi (Psal 7). </l></p>
+</div2>
+</div1>
+
+<div1 id="Actus"><head>EPILOGUS MUSICUS</head>
+<p><i>Iustitia et Misericordia divina.</i></p>
+<p><l><i>Recitativo</i></l>
+<l>IUS. „Propter miseriam inopum et gemitum pauperum nunc exsurgam“, dicit dominus iratus peccatoribus.</l>
+<l>MIS. Absit a te, ut rem hanc facias. Videbunt nos propitias.</l>
+<l>IUS. Peccatores de terra pereant.</l>
+<l>MIS. Peccatores iram numinis nobis propitiis placatam sentiant.</l></p>
+
+<p><l><i>Ariose a duetto</i></l>
+<l>IUS. Ulciscar peccata, non prohibe me.</l>
+<l>MIS. Ah quo divus furor, quo abripit te?</l>
+<l>IUS. Horrorem criminis</l>
+<l>puniat Nemesis.</l>
+<l>MIS. Non spernes irritam</l>
+<l>misericordiam.</l>
+<l>IUS. Placari nescio.</l>
+<l>MIS. Ah parce obsecro.</l></p>
+
+<p><l><i>Aria in canto</i></l>
+<l>MIS. „Nolo mortem peccatoris“,</l>
+<l>dicit caeli dominus.</l>
+<l>Volo vitam melioris</l>
+<l>fructus atque exitus.</l>
+<l>Iuravi nec poenitebit,</l>
+<l>redemptor peccatum delebit,</l>
+<l>salutem dominus</l>
+<l>dabit propitius.</l></p>
+
+<p><l>Peccatorem liberabo</l>
+<l>per cruentam pretium,</l>
+<l>in vaginam (pactis stabo)</l>
+<l>mitte tuum gladium.</l>
+<l>Iniquitas tota auferetur</l>
+<l>nec salus salvantis moretur.</l>
+<l>Adest redemptio</l>
+<l>sanguinis pretio. </l></p>
+</div1>
+
+
+	 
+	 
+   </body>
+  </text>
+</TEI>
